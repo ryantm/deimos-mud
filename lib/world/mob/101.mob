@@ -1,0 +1,88 @@
+#10100
+white knight~
+a White Knight~
+A Man in Pure White Armour is standing here.
+~
+   A man in pure white armour.  His eyes are completely white.  You feel as if
+this man can see right through you with his stare, almost as if he's judging
+you.    
+~
+195866 4232380 1000 E
+66 -30 -10 66d66+250000 25d25+50
+0 0
+12 12 1
+BareHandAttack: 9
+E
+#10101
+lord kor man~
+Lord Kor~
+A Large Man in Heavy Armour is standing here.
+~
+   A very large man.  He has pure white eyes, and seems to be radiating an
+essense of power around his body.  He immediately notices your arrival, and
+seems to be judging you with his piercing stare.    
+~
+195866 12628158 1000 E
+100 -30 -10 66d66+500000 1d33+50
+0 0
+12 12 1
+BareHandAttack: 6
+E
+#10102
+black knight~
+a Black Knight~
+A Man in Pitch Black Armour is standing here.
+~
+   A man in pitch black armour.  His eyes are completely black.  You feel
+uneasy as he watches you carefully.  Best keep your distance from this one, he
+looks deadly.    
+~
+194618 832702 -1000 E
+66 -30 -10 66d66+250000 25d25+50
+0 0
+12 12 1
+BareHandAttack: 8
+E
+#10103
+Battle lord battlelord man~
+the Battlelord~
+A man in heavy armour is grumbling about something.
+~
+   A large man is standing here.  He looks to be about 7 feet tall.  He glares
+down at you with a piercing stare.  He wields a large crystal greatsword that
+seems to be glowing.    
+~
+190490 4240572 0 E
+66 -30 -10 66d66+400000 25d25+50
+0 0
+12 12 1
+BareHandAttack: 13
+E
+#10104
+stone golem giant~
+a Stone Golem~
+A large stone golem is standing here.
+~
+   A giant stone golem towers over you.  It looks to be about 50 feet tall.  
+It has no eyes and seems to be standing absolutely still.    
+~
+260122 46208 0 E
+90 -80 -10 1d1+100000 1d1+100
+0 0
+12 12 0
+BareHandAttack: 6
+E
+#10199
+Tiny penguin~
+a Tiny Penguin~
+A tiny penguin is sitting here.
+~
+   It's soooooooo cute, you just want to take it home.    
+~
+155662 570558 0 E
+1 20 10 1d1+10000000 1d1+0
+0 0
+10 10 0
+BareHandAttack: 4
+E
+$

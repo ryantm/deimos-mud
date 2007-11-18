@@ -1,0 +1,416 @@
+#0
+Void~
+Nothingness.....
+
+"Anyone have a cookie?"
+~
+0 dh 9
+S
+#1
+Limbo~
+You Are in Limbo
+~
+0 dh 9
+D0
+Nothing.
+~
+~
+0 0 200
+S
+#2
+BLAH~
+This room is meant for Confucius to test new roomflags, mobs, and specials
++ scripts!
+~
+0 0 9
+D0
+~
+~
+0 0 4
+P
+firestation
+S
+T 59
+#3
+The Haff is a dumbass room~
+   An essay can be written about the stupidity of Haff.  Hell, let's start from
+the beginning anyways.  One day, Haff and Pack decided to make a MUD, hiring
+Confucius (prodigy) and Ockham (Khrono) to help his sorry ass make one.  
+Confucius coded in a couple things, and Ockham made most of the zones.  Then,
+Haff became a dumbass, forcing us to do everything for him.  So we just left
+and started Deimos.    
+~
+0 d 0
+D0
+~
+~
+0 0 9
+D1
+~
+~
+0 0 8
+D2
+~
+~
+0 0 6
+S
+#4
+Kirby Land!~
+   Welcome to Kirby Land!  Little monsters are running away from the almighty
+Kirby!  Kirby rules.    
+~
+0 s 0
+D0
+~
+~
+0 0 5
+D2
+~
+~
+0 0 2
+E
+Window~
+There's a freakin window here! Take a look!!!
+~
+S
+#5
+Confucius's Office~
+   Welcome to Confucius's humble home.  Upon a mantle is a little statue of his
+deity.  This is a VERY nice place!  There'a a little window to the west that
+looks at the world.  What in the world?  There seems to be a portal at the
+southern part of the room...  In the corner is a happy little Pooky bear.  
+There's a laptop here also.  Confucius is a man of diversity :)
+~
+0 ceh 0
+D1
+~
+Cell~
+2 100 1216
+D2
+~
+~
+0 0 4
+D3
+~
+~
+0 0 1290
+E
+read paper~
+Confucius's shit list:
+1.Confucius...sigh...
+~
+E
+window~
+You look out of the window at the beautiful world of DemosMUD :)
+~
+E
+deity~
+You look at the statue of....Buddah!
+~
+E
+bear~
+Pooky!  The cute little blue bear!  It's been battered over the years, but it's
+still cool : )
+~
+E
+laptop~
+   It's a goverment laptop, 500 Mhz, 40x cd rom.  How sweet life is....    
+~
+E
+portal~
+It's a big a green, you can see a forest through the portal.
+~
+S
+#6
+The Hanz is a dumbass room~
+   This room is dedicate to Hanz, the devious thief coder that came onto our
+DemosMUD.  Well, he was nice at first, and then he tricked us all and stole our
+code...  So we killed him.  Well, he's evil so we smited him!    
+~
+0 d 0
+D0
+~
+~
+0 0 3
+D2
+~
+~
+0 0 7
+E
+Desk~
+The desk is full of legal documents and other immortal reports. Next to the entire jumble is a neat stack of
+Popular Science magazines.
+~
+S
+#7
+The Hall of Dumbasses~
+   This is the entrance to the sacred Hall of Dumbasses.  The few selective
+group of idiots have been given a room to honor their stupidity.  Be prepared
+to enter the rooms dedicated to the stupid, annoying, and in one word,
+dumbasses.    
+~
+0 0 0
+D0
+~
+~
+0 0 6
+D2
+~
+~
+0 0 1206
+S
+#8
+Jedi~
+   Almost as the same dumbass level as Haff.  Jedi used to be a semi-decent
+builder on our MUD, but for some reason he became a homosexual and fell in love
+with Haff.  So, from there on, he spent his days trying to destroy Deimos,
+succeeding twice.  Luckily, Confucius coded in several saftey-guards
+specifically for him, so no more damage can happen.  But then he got better.  
+
+~
+0 0 0
+D1
+~
+~
+0 0 10
+D3
+~
+~
+0 0 3
+S
+#9
+The Kent/Ken/Vinny/Mccord/Wishame/Jason/Alec/Milo/(?) is a dumbass room.~
+   This room is dedicated to Wishame (the original person) and his
+conflabberation of characters.  Although the Dumbass was an immortal, the
+mortal still cannot figure out simple tasks such as "thinking" which he is now
+trying to comprehend.  His mind boggling gibberish consists of "When are you
+gonna let me build?  " repeated from [1,infinity)
+~
+0 0 0
+D0
+~
+~
+0 0 12
+D1
+~
+~
+0 0 11
+D2
+~
+~
+0 0 3
+S
+#10
+Jedi is a dumbass room~
+   Well Jedi came back and realised that he wasn't as gay as he thought he was,
+and dropped Haff to come back to Deimos which he realised was doing way better
+than Haff's MUD.  Anyway hes back now and his new name is Zyre.  He's cool
+now.    
+~
+0 0 0
+D3
+~
+~
+0 0 8
+S
+#11
+Rufus/Jason/Steel is still a dumbass room~
+   This guy was a complete moron from the start.  All he ever wanted to do was
+make zones with the best eq in the zone, even after being told not to do so.  
+Since his return, he seems to have formed a homosexual relationship with his
+friend Bob, to whom he enjoys illegally aiding on the mud.  Jason will always
+be a dumbass, and a fine addition to the dumbass halls.    
+~
+0 0 0
+D3
+~
+~
+0 0 9
+S
+#12
+The Matzar/Aries/Alleous/Tagis/Kal/Gudith/(???) is a dumbass room.~
+   This room is dedicated to Matzar, the original of his endless amounts of
+meaningless characters, all with horrible reputations.  Apparently Matzar could
+not understand that no matter how many times he asked for eq or made new
+characters, everyone still thought he was a dumbass.  And like the dumbass he
+indeed is, his production of characters continues to this day, along with his
+annoyances of "can i have some eq" or "want to group" or "want to get some exp"
+repeated every tick, probably even when he is afk.  Oh, and don't forget his
+crappy assassin characters, all of which die and get looted immediately after
+stepping out of the guild.  The dumbass Matzar is one to be included in the
+Hall of Dumbasses.    
+~
+0 0 0
+D0
+~
+~
+0 0 13
+D2
+~
+~
+0 0 9
+S
+#13
+The Terror is a dumbass room~
+   Wow.  This guy is the most immature person in the world, despite the fact
+hes 12 years older than most of us Imps.  I mean lets just take him spending
+like 5 hours making stupid help files that Ockham deleted in 1 second with a
+backup for starters.  Wow this guy have no life, I mean none, zero, zilch nada,
+he has so much negative life he almost wraps around into the positives, in
+terms of no life having.  Anyway a bunch of times int he past we actually
+decided to let him back after banning him or deleting his eq, I mean the guy
+had so many cheap weapons it was crazy, and he actually thought he was entitled
+to keep them unchanged, and when Ockham changed them he bitched and bitched.  
+Everything with him was an escalating arms argument race, where he would never
+back down, and only came crawling back to Wedge every time Ockham finally got
+fed up with it and deleted/purged/banned him.  Rinse and repeat, cycle about 4
+times.    
+Then there's also his other dumbassery, which will be dicussed to the east.
+~
+0 0 0
+D1
+~
+~
+0 0 14
+D2
+~
+~
+0 0 12
+S
+#14
+The Terror is a dumbass with completely NON SEQUITUR logic Room~
+   Within a couple hours of Ockham unlocking the helpfiles, Terror wrote this
+on the Policies page: THE ONLY POLICY YOU NEED TO KNOW IS THAT YOU DO AS WE SAY
+OR YOU ARE F***ED.  HAVE A NICE DAY, LOSER!  Well, of course, dumbass.  Rules
+are made for a REASON.  Show us a MUD where following the immortals' word is
+optional and we'll unban you, promote you to GM level 50, and give you two sets
+of the best eq in the game for each of your characters.  But a fido will kill
+Jerome Shostack before that happens.    
+~
+0 c 0
+D3
+~
+~
+0 0 13
+S
+#15
+the &W*&RG&wo&RD&W*&n are dumbasses room~
+This unfinished room was created by Mobius.
+~
+0 0 0
+S
+#30
+Entrance to the kitchen~
+You have just arrived in the kitchen, and what a glorious kitchen it is!  Set up high on a boardwalk, this kitchen has all the neccesities of a regular kitchen, and still plenty room to move around.
+Around you, multiple elves work diligantly to prepare the next meal.  Even elves have to eat, right?
+~
+0 0 2
+D5
+~
+ladder~
+1 0 -1
+S
+#50
+The Phobos Library~
+   This is The Newbie Library.  Here you can get info on Deimos MUD and how to
+play it.  Simply enter: 'get [subject]', where the subject is a title of the
+book.  Such as 'get basics' will get you the basics book.  If you want to read
+a book, simply type 'read [subject]'.  Please return these books after you are
+done with them.  You are allowed to take them with you for a while though.  A
+staircase up leads to the Center Agora.  To the south is the Newbie Teleporter,
+which leads to newbie zones quickly.    
+~
+0 cde 0
+D0
+~
+~
+0 0 9099
+D2
+~
+~
+0 0 51
+D4
+~
+~
+0 0 200
+S
+#51
+Newbie Teleporter~
+   This room allows newbies to travel to Newbie zones very Easily.  For further
+information about travelling to zones can be found on our website which Lists
+zones and how to get to them.    
+  
+West: King Richards Domain
+East: Swamp <- Go here first, It's the Easiest
+South: Phobos
+Up: Great South Ocean
+Down: The Shire
+  
+Remember, If you get lost in a zone and you are still under level 10, you can 
+recall for free!, Simply type RECALL and then go DOWN SOUTH to get back to here.
+~
+0 y 0
+D0
+~
+~
+0 0 50
+D1
+~
+~
+0 0 2500
+D2
+~
+~
+0 0 200
+D3
+~
+~
+0 0 2100
+D4
+~
+~
+0 0 400
+D5
+~
+~
+0 0 1032
+S
+#99
+The Realm Of The Dead~
+   You are standing on an immense, grey stone floor that stretches as far
+as you can see in all directions.  Rough winds plunging from the dark,
+starless sky tear savagely at your fragile body.
+~
+0 dj 0
+D0
+The hard floor seems to go on forever.
+~
+~
+0 0 99
+D1
+The hard floor seems to go on forever.
+~
+~
+0 0 99
+D2
+The hard floor seems to go on forever.
+~
+~
+0 0 99
+D3
+The hard floor seems to go on forever.
+~
+~
+0 0 99
+E
+sky wind winds~
+Cold winds plunge ceaselessly at you from the dark, cloudless sky.
+~
+E
+floor~
+The stone floor is the same shade of grey as the sky and is completely plain
+and unscratched.  It is probably too hard for anything to leave as much as a
+scratch on it.
+~
+S
+$~

@@ -1,0 +1,1998 @@
+#3900
+&r&oThe Entrance to the Jedi Temple&n~
+   This is the entrance that leads to one of the galaxy's most valuable places.
+The ground and stairway are made up of a dark stone.  Two large statues lie at
+each side of you.  Each of them resemble a previous Jedi Master.  The Jedi
+Temple lies to the north.    
+~
+39 0 1
+D0
+~
+door~
+2 3999 3901
+D2
+~
+~
+0 0 592
+S
+#3901
+&r&oThe Jedi Temple&n~
+   This large area is the Jedi Temple.  The floor and walls are made up of a
+dark-colored stone.  You also notice that the floor is so clean, you can see
+your reflection on it.  Medium-sized statues sit all over the place, in
+memorial of Jedis of the past.  A dimly lit hallway begins to the north.    
+~
+39 d 0
+D0
+~
+~
+0 0 3902
+D2
+~
+door~
+2 3999 3900
+S
+#3902
+&r&oA Dimly Lit Hallway&n~
+   This dimly lit hallway leads to Yoda's Sanctum as well as a few other
+places.  The carpet here is patterned a little too much while a few dim lamps
+hang from the walls.  The hallway continues to the north and south.    
+~
+39 d 0
+D0
+~
+~
+0 0 3903
+D2
+~
+~
+0 0 3901
+S
+#3903
+&r&oA Dimly Lit Hallway&n~
+   This dimly lit hallway leads to Yoda's Sanctum as well as a few other
+places.  The carpet here is patterned a little too much while a few dim lamps
+hang from the walls.  The hallway continues to the north and south while a
+darker hallway begins to the east.    
+~
+39 d 0
+D0
+~
+~
+0 0 3904
+D1
+~
+~
+0 0 3912
+D2
+~
+~
+0 0 3902
+D5
+~
+panel~
+1 0 6785
+S
+#3904
+&r&oA Dimly Lit Hallway&n~
+   This dimly lit hallway leads to Yoda's Sanctum as well as a few other
+places.  The carpet here is patterned a little too much while a few dim lamps
+hang from the walls.  The hallway continues to the north and south while a set
+of stairs begins to the west.    
+~
+39 d 0
+D0
+~
+~
+0 0 3905
+D2
+~
+~
+0 0 3903
+D3
+~
+~
+0 0 3583
+S
+#3905
+&r&oA Dimly Lit Hallway&n~
+   This dimly lit hallway leads to the Jedi Conference Room.  The carpet here
+is patterned a little too much while a few dim lamps hangs on the walls.  The
+hallway continues to the north and south while the library is directly to the
+west and the training facility lies to the east.    
+~
+39 d 0
+D0
+~
+~
+0 0 3906
+D1
+~
+~
+0 0 3574
+D2
+~
+~
+0 0 3904
+D3
+~
+~
+0 0 3500
+S
+#3906
+&RA Dimly Lit Hallway&n~
+   This is the room where all the Jedi come for important conferences or adding
+a new member to their religion.  The floor is made of a dark stone, as well as
+the walls.  Strange-looking light blue chairs outline the walls as do large
+windows too.  Yoda's Sanctum is to the north while a dimly lit hallway begins
+at the south.    
+~
+39 d 0
+D0
+~
+~
+0 0 3907
+D1
+~
+~
+0 0 3910
+D2
+~
+~
+0 0 3905
+D3
+~
+~
+0 0 3911
+S
+#3907
+&r&oThe Entrance to Yoda's Sanctum&n~
+   This small room leads to Yoda's Sanctum.  The dark stoned floor continues
+here and spreads out all the way to Yoda's bedroom.  A few paintings of Yoda
+hang on the wall while a small bookshelf sits at the left of the room.  A few
+chairs align the wall, awaiting your rest.  Yoda's Sanctum is to the north
+while the dimly lit hallway begins to the south.    
+~
+39 d 0
+D0
+~
+~
+0 0 3908
+D2
+~
+~
+0 0 3906
+S
+#3908
+&r&oYoda's Sanctum&n~
+   Yoda's Sanctum is a large room with a short desk in the back.  Two chairs
+sit in front of it.  The floors and walls are polished to well that you can see
+your humble face on them.  Two large pictures of Yoda sit on either side of a
+large window above the desk.  A large bookshelf is on the left side of the room
+making it obvious that Yoda loves to read.  Yoda's bedroom lies to the east.  
+
+~
+39 d 0
+D1
+~
+~
+0 0 3909
+D2
+~
+~
+0 0 3907
+S
+#3909
+&r&oYoda's Bedroom&n~
+   Yoda's bedroom is small, but fancy.  A short bed is in the back of the room
+while a small table is next to it.  A tiny shelf completely filled with strange
+books lies at the right of the room.  A tiny kitchen-like area is to the left
+and a tiny, little chair is in front of a bit, old pot.  Yoda's sanctum les to
+the west.    
+~
+39 dq 0
+D3
+~
+~
+0 0 3908
+S
+#3910
+&r&oThe Janitor's Closet&n~
+   This small room is where the janitor keeps his cleaning tools.  A shelf full
+of brushes, working tools, small equipment, and buckets of paint is on the
+walls while a mop and a broom lies at a corner.  The floor in this room is also
+made of a dark stone, but of a much lesser quality.    
+~
+39 d 0
+D1
+~
+~
+0 0 -1
+D3
+~
+~
+0 0 3906
+S
+#3911
+&r&oA Bathroom&n~
+   This has got to be the cleanest bathroom you have evr seen in your entire
+life!  The floor is a stunning blackish stone, as well as the walls.  The sink
+and toilet are made up of a pure, black stone.  As you look into the toilet,
+the water looks so clean you wouldn't mind having a drink or two.    
+~
+39 d 0
+D0
+~
+~
+0 0 -1
+D1
+~
+~
+0 0 3906
+D3
+~
+~
+0 0 -1
+S
+#3912
+&r&oA Dark Hallway&n~
+   This dark hallway leads to the Jedi dormitory.  The room is so dark that you
+can barely make out anything in the room.  A dimly lit hallway is to the west
+while the dark hallway continues to the east.    
+~
+39 ad 0
+D0
+~
+~
+0 0 -1
+D1
+~
+~
+0 0 3913
+D2
+~
+~
+0 0 -1
+D3
+~
+~
+0 0 3903
+S
+#3913
+&r&oA Dark Hallway&n~
+   This dark hallway leads to the Jedi dormitory.  The room is so dark that you
+can barely make out anything in the room.  The dark hallway continues to the
+north and west.    
+~
+39 ad 0
+D0
+~
+~
+0 0 3914
+D1
+~
+~
+0 0 -1
+D2
+~
+~
+0 0 -1
+D3
+~
+~
+0 0 3912
+S
+#3914
+&r&oA Dark Hallway&n~
+   This dark hallway leads to the Jedi dormitory.  The room is so dark that you
+can barely make out anything in the room.  The dark hallway continues to the
+north and south.    
+~
+39 adu 0
+D0
+~
+~
+0 0 3915
+D1
+~
+~
+0 0 -1
+D2
+~
+~
+0 0 3913
+D3
+~
+~
+0 0 -1
+S
+#3915
+&r&oA Dark Hallway&n~
+   This dark hallway leads to the Jedi dormitory.  The room is so dark that you
+can barely make out anything in the room.  The dark hallway continues to the
+east and south.    
+~
+39 ad 0
+D0
+~
+~
+0 0 -1
+D1
+~
+~
+0 0 3916
+D2
+~
+~
+0 0 3914
+D3
+~
+~
+0 0 3513
+S
+#3916
+&r&oA Dark Hallway&n~
+   This dark hallway leads to the Jedi dormitory.  The room is so dark that you
+can barely make out anything in the room.  The dark hallway continues to the
+east and west.    
+~
+39 ad 0
+D1
+~
+~
+0 0 3917
+D2
+~
+~
+0 0 -1
+D3
+~
+~
+0 0 3915
+S
+#3917
+&r&oA Dark Hallway&n~
+   This dark hallway leads to the Jedi dormitory.  The room is so dark that you
+can barely make out anything in the room.  The dark hallway continues to the
+east and west.    
+~
+39 ad 0
+D1
+~
+~
+0 0 3918
+D3
+~
+~
+0 0 3916
+S
+#3918
+&r&oA Dark Hallway&n~
+   This dark hallway leads to the Jedi dormitory.  The room is so dark that you
+can barely make out anything in the room.  The dark hallway continues to the
+west while the connection is to the east.    
+~
+39 ad 0
+D1
+~
+~
+0 0 3919
+D3
+~
+~
+0 0 3917
+S
+#3919
+&r&oThe Connection&n~
+   This is the connection of the Jedi Temple and the dormitory.  The room is
+very small and the air is cold and damp.  The floor is wet and the tiny windows
+seem to have quite a few drops of watter on them.  A darkhallway begins at the
+west while the dormitory is to the east.    
+~
+39 d 0
+D1
+~
+~
+0 0 3920
+D3
+~
+~
+0 0 3918
+S
+#3920
+&r&oThe Lobby&n~
+   As you can see, the lobby is a large room with fireplace and
+comfortable-looking chairs and sofas around it.  The walls and floor are made
+of wood and a large light hangs above.  An information desk is at the left side
+of the room, but nobody seems to be behind it.  The main hallway begins to the
+east.    
+~
+39 d 0
+D1
+~
+~
+0 0 3921
+D3
+~
+~
+0 0 3919
+S
+#3921
+&r&oThe Main Hallway&n~
+   This is the hallway that leads to each Jedi dorm.  Wooden doors outline the
+walls and small lights hang above.  A dull, red carpet stretchs through the
+hallway.  The hallway continues to the north and south while the lobby lies to
+the west.    
+~
+39 d 0
+D0
+~
+~
+0 0 3922
+D2
+~
+~
+0 0 3930
+D3
+~
+~
+0 0 3920
+S
+#3922
+&r&oThe Main Hallway&n~
+   This is the hallway that leads to each Jedi dorm.  Wooden doors outline the
+walls and small lights hang above.  A dull, red carpet stretchs through the
+hallway.  The hallway continues to the north and south while Depa Billaba's
+dorm is to the east and Plo Koon's dorm is to the west.    
+~
+39 d 0
+D0
+~
+~
+0 0 3923
+D1
+~
+~
+0 0 3938
+D2
+~
+~
+0 0 3921
+D3
+~
+~
+0 0 3950
+S
+#3923
+&r&oThe Main Hallway&n~
+   This is the hallway that leads to each Jedi dorm.  Wooden doors outline the
+walls and small lights hang above.  A dull, red carpet stretchs through the
+hallway.  The hallway continues to the north and south while the gift shop is
+to the east.    
+~
+39 d 0
+D0
+~
+~
+0 0 3924
+D1
+~
+door~
+2 3910 3959
+D2
+~
+~
+0 0 3922
+S
+#3924
+&r&oThe Main Hallway&n~
+   This is the hallway that leads to each Jedi dorm.  Wooden doors outline the
+walls and small lights hang above.  A dull, red carpet stretchs through the
+hallway.  The hallway continues to the north and south while Yaddle's dorm is
+to the east and Saesee Tiin's dorm is to the west.    
+~
+39 d 0
+D0
+~
+~
+0 0 3925
+D2
+~
+~
+0 0 3923
+D3
+~
+<NONE>~
+0 0 3952
+S
+#3925
+&r&oThe Main Hallway&n~
+   This is the hallway that leads to each Jedi dorm.  Wooden doors outline the
+walls and small lights hang above.  A dull, red carpet stretchs through the
+hallway.  The hallway continues to the north and south.    
+~
+39 d 0
+D0
+~
+~
+0 0 3926
+D2
+~
+~
+0 0 3924
+S
+#3926
+&r&oThe Main Hallway&n~
+   This is the hallway that leads to each Jedi dorm.  Wooden doors outline the
+walls and small lights hang above.  A dull, red carpet stretchs through the
+hallway.  The hallway continues to the north and south while Yaerael Poof's
+dorm is to the east.    
+~
+39 d 0
+D0
+~
+~
+0 0 3927
+D1
+~
+<NONE>~
+0 0 3955
+D2
+~
+~
+0 0 3925
+S
+#3927
+&r&oThe Main Hallway&n~
+   This is the hallway that leads to each Jedi dorm.  Wooden doors outline the
+walls and small lights hang above.  A dull, red carpet stretchs through the
+hallway.  The hallway continues to the east, south, and west.    
+~
+39 d 0
+D1
+~
+~
+0 0 3929
+D2
+~
+~
+0 0 3926
+D3
+~
+~
+0 0 3928
+S
+#3928
+&r&oThe Main Hallway&n~
+   This is the hallway that leads to each Jedi dorm.  Wooden doors outline the
+walls and small lights hang above.  A dull, red carpet stretchs through the
+hallway.  The hallway continues to the east while Qui-Gon Jinn's dorm is to the
+north.    
+~
+39 d 0
+D0
+~
+<NONE>~
+0 0 3956
+D1
+~
+~
+0 0 3927
+S
+#3929
+&r&oThe Main Hallway&n~
+   This is the hallway that leads to each Jedi dorm.  Wooden doors outline the
+walls and small lights hang above.  A dull, red carpet stretchs through the
+hallway.  The hallway continues to the east while Obi-Wan Kenobi's dorm is to
+the north.    
+~
+39 d 0
+D0
+~
+<NONE>~
+0 0 3958
+D3
+~
+~
+0 0 3927
+S
+#3930
+&r&oThe Main Hallway&n~
+   This is the hallway that leads to each Jedi dorm.  Wooden doors outline the
+walls and small lights hang above.  A dull, red carpet stretchs through the
+hallway.  The hallway continues to the north and south while Adi Gallia's dorm
+is to the east and Even Piell's dorm is to the west.    
+~
+39 d 0
+D0
+~
+~
+0 0 3921
+D1
+~
+~
+0 0 3940
+D2
+~
+~
+0 0 3931
+D3
+~
+~
+0 0 3941
+S
+#3931
+&r&oThe Main Hallway&n~
+   This is the hallway that leads to each Jedi dorm.  Wooden doors outline the
+walls and small lights hang above.  A dull, red carpet stretchs through the
+hallway.  The hallway continues to the north and south while the entrance to
+the basement is to the east.    
+~
+39 d 0
+D0
+~
+~
+0 0 3930
+D1
+~
+door~
+2 3910 3960
+D2
+~
+~
+0 0 3932
+S
+#3932
+&r&oThe Main Hallway&n~
+   This is the hallway that leads to each Jedi dorm.  Wooden doors outline the
+walls and small lights hang above.  A dull, red carpet stretchs through the
+hallway.  The hallway continues to the north and south while Eeth Koth's dorm
+is to the east and Oppo Rancisis' dorm is to the west.    
+~
+39 d 0
+D0
+~
+~
+0 0 3931
+D1
+~
+~
+0 0 3944
+D2
+~
+~
+0 0 3933
+D3
+~
+~
+0 0 3943
+S
+#3933
+&r&oThe Main Hallway&n~
+   This is the hallway that leads to each Jedi dorm.  Wooden doors outline the
+walls and small lights hang above.  A dull, red carpet stretchs through the
+hallway.  The hallway continues to the north and south.    
+~
+39 d 0
+D0
+~
+~
+0 0 3932
+D2
+~
+~
+0 0 3934
+S
+#3934
+&r&oThe Main Hallway&n~
+   This is the hallway that leads to each Jedi dorm.  Wooden doors outline the
+walls and small lights hang above.  A dull, red carpet stretchs through the
+hallway.  The hallway continues to the north and south while Ki-Adi-Mundi's
+dorm is to the east.    
+~
+39 d 0
+D0
+~
+~
+0 0 3933
+D1
+~
+~
+0 0 3946
+D2
+~
+~
+0 0 3935
+S
+#3935
+&r&oThe Main Hallway&n~
+   This is the hallway that leads to each Jedi dorm.  Wooden doors outline the
+walls and small lights hang above.  A dull, red carpet stretchs through the
+hallway.  The hallway continues to the north, east, and west.    
+~
+39 d 0
+D0
+~
+~
+0 0 3934
+D1
+~
+~
+0 0 3937
+D3
+~
+~
+0 0 3936
+S
+#3936
+&r&oThe Main Hallway&n~
+   This is the hallway that leads to each Jedi dorm.  Wooden doors outline the
+walls and small lights hang above.  A dull, red carpet stretchs through the
+hallway.  The hallway continues to the east while Mace Windu's dorm lies to the
+south.    
+~
+39 d 0
+D1
+~
+~
+0 0 3935
+D2
+~
+~
+0 0 3947
+S
+#3937
+&r&oThe Main Hallway&n~
+   This is the hallway that leads to each Jedi dorm.  Wooden doors outline the
+walls and small lights hang above.  A dull, red carpet stretchs through the
+hallway.  The hallway continues to the east while an empty room lies to the
+south.    
+~
+39 d 0
+D2
+~
+~
+0 0 3949
+D3
+~
+~
+0 0 3935
+S
+#3938
+&r&oDepa Billaba's Dorm&n~
+   Depa's room is quite small.  The room is completely empty besides a few
+pillows and a dull blanket.  A small, closed window is on the left wall.  A
+bathroom is to the south while the main hallway lies to the west.    
+~
+39 d 0
+D2
+~
+~
+0 0 3939
+D3
+~
+~
+0 0 3922
+S
+#3939
+&r&oA Bathroom&n~
+   This bathroom is a dull, white room.  Everything is white and clean.  You
+can see your reflection on all the hardware in the room.  The toilet is in the
+left side of the room while the sink is right next to it.  A large bathtub is
+on the right side of the Depa Billaba's dorm is to the north while Adi Gallia's
+dorm lies to the south.    
+~
+39 d 0
+D0
+~
+~
+0 0 3938
+D2
+~
+~
+0 0 3940
+S
+#3940
+&r&oAdi Gallia's Dorm&n~
+   Adi's dorm is quite large.  A large bed set rests at the back of the room
+while a small table is in a corner.  A few small collection of glass figurines
+sit on the table while a larger statuette rests at the center of the table.  A
+bathroom lies at the south while the main hallway is to the west.    
+~
+39 d 0
+D0
+~
+~
+0 0 3939
+D3
+~
+~
+0 0 3930
+S
+#3941
+&r&oEven Piell's Dorm&n~
+   Even's room is very small.  A bed and table take up most of the space.  A
+closed window is on the right wall while a small figurine, collecting dust sits
+on top of the small table.  The main hallway lies at the east while a bathroom
+is to the south.    
+~
+39 d 0
+D1
+~
+~
+0 0 3930
+D2
+~
+~
+0 0 3942
+S
+#3942
+&r&oA Bathroom&n~
+   This bathroom is a dull, white room.  Everything is white and clean.  You
+can see your reflection on all the hardware in the room.  The toilet is in the
+left side of the room while the sink is right next to it.  A large bathtub is
+on the right side of the Even Piell's dorm lies to the north while Oppo
+Rancisis' Dorm is to the south.    
+~
+39 d 0
+D0
+~
+~
+0 0 3941
+D2
+~
+~
+0 0 3943
+S
+#3943
+&r&oOppo Rancisis' Dorm&n~
+   Oppo's room is very small and quite.  A large clock hangs on a wall while a
+wooden rocking chair rests at the center of the room.  A bed lies at the back
+of the room while a wooden cabinet with glass windows is filled with a proud
+collection of small, wooden carvings.  A bathroom is to the north while the
+main hallway lies at the east.    
+~
+39 d 0
+D0
+~
+~
+0 0 3942
+D1
+~
+~
+0 0 3932
+S
+#3944
+&r&oEeth Koth's Dorm&n~
+   Eeth's dorm has a large bed in the right corner while a table and a set of
+chairs rest at the opposite corner.  A small cabinet is at the back of the room
+and a large light hangs from the wall.  A bathroom lies to the west while a
+bathroom is to the south.    
+~
+39 d 0
+D2
+~
+~
+0 0 3945
+D3
+~
+~
+0 0 3932
+S
+#3945
+&r&oA Bathroom&n~
+   This is the basement, a cold and dark place.  Very few people have walked in
+here.  The floor is made of dirty concrete as well as the walls.  The floors
+are cracked and bugs roam the walls.  Some trash and broken glass lie all over
+the floor.  Eeth Koth's dorm is to the north while Ki-Adi-Mundi's dorm is to
+the south.    
+~
+39 d 0
+D0
+~
+~
+0 0 3944
+D2
+~
+~
+0 0 3946
+S
+#3946
+&r&oKi-Adi-Mundi's Dorm&n~
+   Ki-Adi-Mundi's room is very clean.  A small basket filled with folded
+clothing sits at the side of the room while a table stands above it.  A large
+bed is in the back of the room while a small, framed photograph rests on the
+table.  A bathroom is to the north while the main hallway is to the west.    
+~
+39 d 0
+D0
+~
+~
+0 0 3945
+D3
+~
+~
+0 0 3934
+S
+#3947
+&r&oMace Windu's Dorm&n~
+   Mace's room is very quiet.  Not a sound can be heard.  A thick bed rests at
+the back of the room while a small reading table sits at a corner.  A small
+light hangs above the table as well as a larger light in the center of the
+room.  A bathroom is to the east while the main hallway lies at the north.    
+~
+39 d 0
+D0
+~
+~
+0 0 3936
+D1
+~
+~
+0 0 3948
+S
+#3948
+&r&oA Bathroom&n~
+   This bathroom is a dull, white room.  Everything is white and clean.  You
+can see your reflection on all the hardware in the room.  The toilet is in the
+left side of the room while the sink is right next to it.  A large bathtub is
+on the right side of the Mace Windu's dorm is to the west while an empty room
+lies to the east.    
+~
+39 d 0
+D1
+~
+~
+0 0 3949
+D3
+~
+~
+0 0 3947
+S
+#3949
+&r&oAn Empty Room&n~
+   This room is completely empty.  Not a thing can be found in this dark room
+besides some dust and dead bugs.  The room is cold and the walls are very
+dirty.  A few pieces of broken glass can also be found lying about the ground.
+A bathroom is to the west while the main hallway lies at the north.    
+~
+39 d 0
+D0
+~
+~
+0 0 3937
+D3
+~
+~
+0 0 3948
+S
+#3950
+&r&oPlo Koon's Dorm&n~
+   Plo's dorm is extremely clean.  The bed is made and all his clothing is
+where it is supposed to be.  A small window is opened and a blinding streak of
+light shines onto the center of the room.  A bathroom is to the north while to
+the east lies the main hallway.    
+~
+39 d 0
+D0
+~
+~
+0 0 3951
+D1
+~
+~
+0 0 3922
+S
+#3951
+&r&oA Bathroom&n~
+   This bathroom is a dull, white room.  Everything is white and clean.  You
+can see your reflection on all the hardware in the room.  The toilet is in the
+left side of the room while the sink is right next to it.  A large bathtub is
+on the right side of the Saesee Tiin's dorm is to the north while Plo Koon's
+dorm is to the south.    
+~
+39 d 0
+D0
+~
+~
+0 0 3952
+D2
+~
+~
+0 0 3950
+S
+#3952
+&r&oSaeSee Tiin's Dorm&n~
+   Saesee's dorm has figurines standing on a large table in the left side of
+the room.  A small bed sits at the back while a small show case filled with
+small statuettes sits at the right side.  The small windows are closed because
+Saesee doesn't want the sun to bleach the colours of his proud collection.  To
+the south lies a bathroom while the main hallway is to the east.    
+~
+39 d 0
+D1
+~
+<NONE>~
+0 0 3924
+D2
+~
+~
+0 0 3951
+S
+#3953
+&r&oYaddle's Dorm&n~
+   Yaddle's room is the smallest room in the dormitory.  The wals are very
+short because Yaddle is very short.  A small bed sits at the back of the room
+while a tiny table is next to it.  A small fireplace and a pot above it sit at
+the right side.  A bathroom is to the north while to the west lies the main
+hallway.    
+~
+39 d 0
+D0
+~
+~
+0 0 3954
+D3
+~
+<NONE>~
+0 0 3924
+S
+#3954
+&r&oA Bathroom&n~
+   This bathroom is a dull, white room.  Everything is white and clean.  You
+can see your reflection on all the hardware in the room.  The toilet is in the
+left side of the room while the sink is right next to it.  A large bathtub is
+on the right side of the Yarael Poof's dorm is to the north while Yaddle's dorm
+is to the south.    
+~
+39 d 0
+D0
+~
+~
+0 0 3955
+D2
+~
+~
+0 0 3953
+S
+#3955
+&r&oYarael Poof's Dorm&n~
+   Yarael's room stands tall amoung all the other rooms.  Because of Yarael's
+tall body, the walls were made extra long, as well as his bed.  A small table
+with a figurine the shape of Yarael on top of it sits next to the long bed.  
+To the south lies a bathroom while the main hallway is to the west.    
+~
+39 d 0
+D2
+~
+~
+0 0 3954
+D3
+~
+<NONE>~
+0 0 3926
+S
+#3956
+&r&oQui-Gon Jinn's Dorm&n~
+   Qui-Gon's dorm is very clean.  The bed is neat and a closet fulled with all
+of his clothing is to the right of the room.  A small, opened window is on the
+left wall.  A bathroom is to the east while to the south is the main hallway.
+  
+~
+39 d 0
+D1
+~
+~
+0 0 3957
+D2
+~
+<NONE>~
+0 0 3928
+S
+#3957
+&r&oA Bathroom&n~
+   This bathroom is a dull, white room.  Everything is white and clean.  You
+can see your reflection on all the hardware in the room.  The toilet is in the
+left side of the room while the sink is right next to it.  A large bathtub is
+on the right side of the Obi-Wan Kenobi's dorm lies to the east while Qui-Gon
+Jinn's dorm is to the west.    
+~
+39 d 0
+D1
+~
+~
+0 0 3958
+D3
+~
+~
+0 0 3956
+S
+#3958
+&r&oObi-Wan Kenobi's Dorm&n~
+   Obi-Wan's dorm doesn't appear to be what you thought it would be.  Obi-Wan
+does get a lot of strict training, but he's not the cleanest person in the
+world.  His bed is messy and a chair, which stands in the middle of the room,
+has cloths hanging all over it.  To the west lies a bathroom while the main
+hallway is to the south.    
+~
+39 d 0
+D2
+~
+<NONE>~
+0 0 3929
+D3
+~
+~
+0 0 3957
+S
+#3959
+&RThe Gift Shop&n~
+   This room is the gift shop.  This room was made for visitors who wish to
+visit the Jedi and want to bring something back.  The walls are made of wood,
+as well as the floor.  To the west lies the main hallway.    
+~
+39 d 0
+D3
+~
+door~
+2 3910 3923
+S
+#3960
+&r&oThe Entrance to the Basement&n~
+   This small room is cold and damp.  The walls are made of concrete and an
+old, wooden staircase leads down to the dark basement.  Very few people have
+been to the basement.  To the west lies the main hallway.    
+~
+39 d 0
+D3
+~
+door~
+2 3910 3931
+D5
+~
+~
+0 0 3961
+S
+#3961
+&r&oThe Basement&n~
+   This is the basement, a cold and dark place.  Very few people have walked in
+here.  The floor is made of dirty concrete as well as the walls.  The floors
+are cracked and bugs roam the walls.  Some trash and broken glass lie all over
+the floor.  The basement continues to the north, south, east, and west.    
+~
+39 adu 0
+D0
+~
+~
+0 0 3962
+D1
+~
+~
+0 0 3964
+D2
+~
+~
+0 0 3966
+D3
+~
+~
+0 0 3968
+D4
+~
+~
+0 0 3960
+S
+#3962
+&r&oThe Basement&n~
+   This is the basement, a cold and dark place.  Very few people have walked in
+here.  The floor is made of dirty concrete as well as the walls.  The floors
+are cracked and bugs roam the walls.  Some trash and broken glass lie all over
+the floor.  The basement continues to the north, south, east, and west.    
+~
+39 ad 0
+D0
+~
+~
+0 0 3971
+D1
+~
+~
+0 0 3963
+D2
+~
+~
+0 0 3961
+D3
+~
+~
+0 0 3969
+S
+#3963
+&r&oThe Basement&n~
+   This is the basement, a cold and dark place.  Very few people have walked in
+here.  The floor is made of dirty concrete as well as the walls.  The floors
+are cracked and bugs roam the walls.  Some trash and broken glass lie all over
+the floor.  The basement continues to the north, south, east and west.    
+~
+39 ad 0
+D0
+~
+~
+0 0 3972
+D1
+~
+~
+0 0 3974
+D2
+~
+~
+0 0 3964
+D3
+~
+~
+0 0 3962
+S
+#3964
+&r&oThe Basement&n~
+   This is the basement, a cold and dark place.  Very few people have walked in
+here.  The floor is made of dirty concrete as well as the walls.  The floors
+are cracked and bugs roam the walls.  Some trash and broken glass lie all over
+the floor.  The basement continues to the north, south, east and west.    
+~
+39 ad 0
+D0
+~
+~
+0 0 3963
+D1
+~
+~
+0 0 3975
+D2
+~
+~
+0 0 3965
+D3
+~
+~
+0 0 3961
+S
+#3965
+&r&oThe Basement&n~
+   This is the basement, a cold and dark place.  Very few people have walked in
+here.  The floor is made of dirty concrete as well as the walls.  The floors
+are cracked and bugs roam the walls.  Some trash and broken glass lie all over
+the floor.  The basement continues to the north, south, east and west.    
+~
+39 ad 0
+D0
+~
+~
+0 0 3964
+D1
+~
+~
+0 0 3976
+D2
+~
+~
+0 0 3978
+D3
+~
+~
+0 0 3966
+S
+#3966
+&r&oThe Basement&n~
+   This is the basement, a cold and dark place.  Very few people have walked in
+here.  The floor is made of dirty concrete as well as the walls.  The floors
+are cracked and bugs roam the walls.  Some trash and broken glass lie all over
+the floor.  The basement continues to the north, south, east and west.    
+~
+39 ad 0
+D0
+~
+~
+0 0 3961
+D1
+~
+~
+0 0 3965
+D2
+~
+~
+0 0 3979
+D3
+~
+~
+0 0 3967
+S
+#3967
+&r&oThe Basement&n~
+   This is the basement, a cold and dark place.  Very few people have walked in
+here.  The floor is made of dirty concrete as well as the walls.  The floors
+are cracked and bugs roam the walls.  Some trash and broken glass lie all over
+the floor.  The basement continues to the north, south, east and west.    
+~
+39 ad 0
+D0
+~
+~
+0 0 3968
+D1
+~
+~
+0 0 3966
+D2
+~
+~
+0 0 3980
+D3
+~
+~
+0 0 3982
+S
+#3968
+&r&oThe Basement&n~
+   This is the basement, a cold and dark place.  Very few people have walked in
+here.  The floor is made of dirty concrete as well as the walls.  The floors
+are cracked and bugs roam the walls.  Some trash and broken glass lie all over
+the floor.  The basement continues to the north, south, east and west.    
+~
+39 ad 0
+D0
+~
+~
+0 0 3969
+D1
+~
+~
+0 0 3961
+D2
+~
+~
+0 0 3967
+D3
+~
+~
+0 0 3983
+S
+#3969
+&r&oThe Basement&n~
+   This is the basement, a cold and dark place.  Very few people have walked in
+here.  The floor is made of dirty concrete as well as the walls.  The floors
+are cracked and bugs roam the walls.  Some trash and broken glass lie all over
+the floor.  The basement continues to the north, south, east and west.    
+~
+39 ad 0
+D0
+~
+~
+0 0 3970
+D1
+~
+~
+0 0 3962
+D2
+~
+~
+0 0 3968
+D3
+~
+~
+0 0 3984
+S
+#3970
+&r&oThe Basement&n~
+   This is the basement, a cold and dark place.  Very few people have walked in
+here.  The floor is made of dirty concrete as well as the walls.  The floors
+are cracked and bugs roam the walls.  Some trash and broken glass lie all over
+the floor.  The basement continues to the east, west and south.    
+~
+39 ad 0
+D1
+~
+~
+0 0 3971
+D2
+~
+~
+0 0 3969
+D3
+~
+~
+0 0 3985
+S
+#3971
+&r&oThe Basement&n~
+   This is the basement, a cold and dark place.  Very few people have walked in
+here.  The floor is made of dirty concrete as well as the walls.  The floors
+are cracked and bugs roam the walls.  Some trash and broken glass lie all over
+the floor.  The basement continues to the east, south, and west.    
+~
+39 ad 0
+D1
+~
+~
+0 0 3972
+D2
+~
+~
+0 0 3962
+D3
+~
+~
+0 0 3970
+S
+#3972
+&r&oThe Basement&n~
+   This is the basement, a cold and dark place.  Very few people have walked in
+here.  The floor is made of dirty concrete as well as the walls.  The floors
+are cracked and bugs roam the walls.  Some trash and broken glass lie all over
+the floor.  The basement continues to the east, west, and south.    
+~
+39 ad 0
+D1
+~
+~
+0 0 3973
+D2
+~
+~
+0 0 3963
+D3
+~
+~
+0 0 3971
+S
+#3973
+&r&oThe Basement&n~
+   This is the basement, a cold and dark place.  Very few people have walked in
+here.  The floor is made of dirty concrete as well as the walls.  The floors
+are cracked and bugs roam the walls.  Some trash and broken glass lie all over
+the floor.  The basement continues to the west and south while a small room
+lies to the north.    
+~
+39 ad 0
+D0
+~
+~
+0 0 3986
+D2
+~
+~
+0 0 3974
+D3
+~
+~
+0 0 3972
+S
+#3974
+&r&oThe Basement&n~
+   This is the basement, a cold and dark place.  Very few people have walked in
+here.  The floor is made of dirty concrete as well as the walls.  The floors
+are cracked and bugs roam the walls.  Some trash and broken glass lie all over
+the floor.  The basement continues to the north, west, and south.    
+~
+39 ad 0
+D0
+~
+~
+0 0 3973
+D2
+~
+~
+0 0 3975
+D3
+~
+~
+0 0 3963
+S
+#3975
+&r&oThe Basement&n~
+   This is the basement, a cold and dark place.  Very few people have walked in
+here.  The floor is made of dirty concrete as well as the walls.  The floors
+are cracked and bugs roam the walls.  Some trash and broken glass lie all over
+the floor.  The basement continues to the north, west, and south.    
+~
+39 ad 0
+D0
+~
+~
+0 0 3974
+D2
+~
+~
+0 0 3976
+D3
+~
+~
+0 0 3964
+S
+#3976
+&r&oThe Basement&n~
+   This is the basement, a cold and dark place.  Very few people have walked in
+here.  The floor is made of dirty concrete as well as the walls.  The floors
+are cracked and bugs roam the walls.  Some trash and broken glass lie all over
+the floor.  The basement continues to the north, west, and south.    
+~
+39 ad 0
+D0
+~
+~
+0 0 3975
+D2
+~
+~
+0 0 3977
+D3
+~
+~
+0 0 3965
+S
+#3977
+&r&oThe Basement&n~
+   This is the basement, a cold and dark place.  Very few people have walked in
+here.  The floor is made of dirty concrete as well as the walls.  The floors
+are cracked and bugs roam the walls.  Some trash and broken glass lie all over
+the floor.  The basement continues to the north and west while a completely
+destroyed room lies to the east.    
+~
+39 ad 0
+D0
+~
+~
+0 0 3976
+D1
+~
+~
+0 0 3989
+D3
+~
+~
+0 0 3978
+S
+#3978
+&r&oThe Basement&n~
+   This is the basement, a cold and dark place.  Very few people have walked in
+here.  The floor is made of dirty concrete as well as the walls.  The floors
+are cracked and bugs roam the walls.  Some trash and broken glass lie all over
+the floor.  The basement continues to the north, east and west.    
+~
+39 ad 0
+D0
+~
+~
+0 0 3965
+D1
+~
+~
+0 0 3977
+D3
+~
+~
+0 0 3979
+S
+#3979
+&r&oThe Basement&n~
+   This is the basement, a cold and dark place.  Very few people have walked in
+here.  The floor is made of dirty concrete as well as the walls.  The floors
+are cracked and bugs roam the walls.  Some trash and broken glass lie all over
+the floor.  The basement continues to the north, east and west.    
+~
+39 ad 0
+D0
+~
+~
+0 0 3966
+D1
+~
+~
+0 0 3978
+D3
+~
+~
+0 0 3980
+S
+#3980
+&r&oThe Basement&n~
+   This is the basement, a cold and dark place.  Very few people have walked in
+here.  The floor is made of dirty concrete as well as the walls.  The floors
+are cracked and bugs roam the walls.  Some trash and broken glass lie all over
+the floor.  The basement continues to the north, east and west.    
+~
+39 ad 0
+D0
+~
+~
+0 0 3967
+D1
+~
+~
+0 0 3979
+D3
+~
+~
+0 0 3981
+S
+#3981
+&r&oThe Basement&n~
+   This is the basement, a cold and dark place.  Very few people have walked in
+here.  The floor is made of dirty concrete as well as the walls.  The floors
+are cracked and bugs roam the walls.  Some trash and broken glass lie all over
+the floor.  The basement continues to the north and east while a scummy room
+lies to the south.    
+~
+39 ad 0
+D0
+~
+~
+0 0 3982
+D1
+~
+~
+0 0 3980
+D2
+~
+~
+0 0 3988
+S
+#3982
+&r&oThe Basement&n~
+   This is the basement, a cold and dark place.  Very few people have walked in
+here.  The floor is made of dirty concrete as well as the walls.  The floors
+are cracked and bugs roam the walls.  Some trash and broken glass lie all over
+the floor.  The basement continues to the north, south, and east.    
+~
+39 ad 0
+D0
+~
+~
+0 0 3983
+D1
+~
+~
+0 0 3967
+D2
+~
+~
+0 0 3981
+S
+#3983
+&r&oThe Basement&n~
+   This is the basement, a cold and dark place.  Very few people have walked in
+here.  The floor is made of dirty concrete as well as the walls.  The floors
+are cracked and bugs roam the walls.  Some trash and broken glass lie all over
+the floor.  The basement continues to the north, south, and east.    
+~
+39 ad 0
+D0
+~
+~
+0 0 3984
+D1
+~
+~
+0 0 3968
+D2
+~
+~
+0 0 3982
+S
+#3984
+&r&oThe Basement&n~
+   This is the basement, a cold and dark place.  Very few people have walked in
+here.  The floor is made of dirty concrete as well as the walls.  The floors
+are cracked and bugs roam the walls.  Some trash and broken glass lie all over
+the floor.  The basement continues to the north, south, and east.    
+~
+39 ad 0
+D0
+~
+~
+0 0 3985
+D1
+~
+~
+0 0 3969
+D2
+~
+~
+0 0 3983
+S
+#3985
+&r&oThe Basement&n~
+   This is the basement, a cold and dark place.  Very few people have walked in
+here.  The floor is made of dirty concrete as well as the walls.  The floors
+are cracked and bugs roam the walls.  Some trash and broken glass lie all over
+the floor.  The basement continues to the east and south while the boiler lies
+to the west.    
+~
+39 ad 0
+D1
+~
+~
+0 0 3970
+D2
+~
+~
+0 0 3984
+D3
+~
+~
+0 0 3987
+S
+#3986
+&r&oA Small Room&n~
+   This room is quite small.  The walls and floor are made of a dirty concrete.
+There's a small hole in a wall and pieces of rock lie thoughout the room.  A
+few small pieces of glass also lie on the ground.  To the south lies the
+basement.    
+~
+39 ad 0
+D0
+~
+~
+0 0 3990
+D2
+~
+~
+0 0 3973
+S
+#3987
+&r&oThe Boiler Room&n~
+   This room is steaming hot!  The floor is wet and the air is humid as Hell.
+A huge boiler stands i the back of the room with a bunch of other machines.  
+The walls are all wet and and glass in the room is fogged up.  To the east lies
+the basement.    
+~
+39 d 0
+D1
+~
+~
+0 0 3985
+D2
+~
+~
+0 0 -1
+S
+#3988
+&r&oA Scummy Room&n~
+   This scummy room smells terrible.  The walls are green and the floors are
+all wet, slimy, and slick.  You can barely take the stench.  Everywhere you
+look you can see green or gray.  Small pieces of moldy objects lie on the
+floor.  To the north lies the basement.    
+~
+39 ad 0
+D0
+~
+~
+0 0 3981
+S
+#3989
+&r&oA Completely Destroyed Room&n~
+   Chunks of rock and junk lie all over this room.  The walls are all chiped
+and the floor has huge cracks in it, as well as the walls.  Shard of broken
+glass lie on the ground and pieces of trash are spread throughout the room.  
+To the west lies the basement.    
+~
+39 ad 0
+D0
+~
+~
+0 0 -1
+D2
+~
+~
+0 0 -1
+D3
+~
+~
+0 0 3977
+S
+#3990
+&r&oA Dark Tunnel&n~
+   This small tunnel is dark.  You can't see a thing.  The ground is wet and
+the air is humid and damp.  There's some trash and broken glass on the ground.
+The tunnel continues to the north while a small room lies to the south.    
+~
+39 adi 0
+D0
+~
+~
+0 0 3991
+D2
+~
+~
+0 0 3986
+S
+#3991
+&r&oA Dark Tunnel&n~
+   This small tunnel is dark.  You can't see a thing.  The ground is wet and
+the air is humid and damp.  There's some trash and broken glass on the ground.
+The tunnel continues to the north and south.    
+~
+39 adi 0
+D0
+~
+~
+0 0 3992
+D2
+~
+~
+0 0 3990
+D3
+~
+~
+0 0 -1
+S
+#3992
+&r&oA Dark Tunnel&n~
+   This small tunnel is dark.  You can't see a thing.  The ground is wet and
+the air is humid and damp.  There's some trash and broken glass on the ground.
+The tunnel continues north and south from here.    
+~
+39 adi 0
+D0
+~
+~
+0 0 3993
+D1
+~
+~
+0 0 -1
+D2
+~
+~
+0 0 3991
+D3
+~
+~
+0 0 -1
+S
+#3993
+&r&oA Dark Tunnel&n~
+   This small tunnel is dark.  You can't see a thing.  The ground is wet and
+the air is humid and damp.  There's some trash and broken glass on the ground.
+The tunnel continues north and south from here.    
+~
+39 adi 0
+D0
+~
+~
+0 0 3994
+D1
+~
+~
+0 0 -1
+D2
+~
+~
+0 0 3992
+D3
+~
+~
+0 0 -1
+S
+#3994
+&r&oA Dark Tunnel&n~
+   This small tunnel is dark.  You can't see a thing.  The ground is wet and
+the air is humid and damp.  There's some trash and broken glass on the ground.
+The tunnel continues south and west from here.    
+~
+39 adi 0
+D0
+~
+~
+0 0 -1
+D1
+~
+~
+0 0 -1
+D2
+~
+~
+0 0 3993
+D3
+~
+~
+0 0 3995
+S
+#3995
+&r&oA Dark Tunnel&n~
+   This small tunnel is dark.  You can't see a thing.  The ground is wet and
+the air is humid and damp.  There's some trash and broken glass on the ground.
+The tunnel continues east and west from here.    
+~
+39 adi 0
+D0
+~
+~
+0 0 -1
+D1
+~
+~
+0 0 3994
+D2
+~
+~
+0 0 -1
+D3
+~
+~
+0 0 3996
+S
+#3996
+&r&oA Dark Tunnel&n~
+   This small tunnel is dark.  You can't see a thing.  The ground is wet and
+the air is humid and damp.  There's some trash and broken glass on the ground.
+The tunnel continues north and east from here.    
+~
+39 adi 0
+D0
+~
+~
+0 0 3997
+D1
+~
+~
+0 0 3995
+D2
+~
+~
+0 0 -1
+S
+#3997
+&r&oA Dark Tunnel&n~
+   This small tunnel is dark.  You can't see a thing.  The ground is wet and
+the air is humid and damp.  There's some trash and broken glass on the ground.
+The tunnel continues north and south from here.    
+~
+39 adi 0
+D0
+~
+~
+0 0 3998
+D2
+~
+~
+0 0 3996
+D3
+~
+~
+0 0 -1
+S
+#3998
+&r&oA Dark Tunnel&n~
+   This small tunnel is dark.  You can't see a thing.  The ground is wet and
+the air is humid and damp.  There's some trash and broken glass on the ground.
+The tunnel continues to the north and south.    
+~
+39 adi 0
+D0
+~
+~
+0 0 3999
+D2
+~
+~
+0 0 3997
+S
+#3999
+&r&oA Dark Tunnel&n~
+   This small tunnel is dark.  You can't see a thing.  The ground is wet and
+the air is humid and damp.  There's some trash and broken glass on the ground.
+There's a small streak of light coming from the north.  The tunnel continues to
+the south while something is to the north.    
+~
+39 adi 0
+D0
+~
+~
+0 0 6700
+D2
+~
+~
+0 0 3998
+S
+$~

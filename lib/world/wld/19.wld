@@ -1,0 +1,1605 @@
+#1900
+Arby's Parking Lot~
+   The Arby's parking lot is quite empty.  To the north is the entrance, where
+a couple is walking in the door.  To the east is the Drive-Thru.  To the west
+is the employee parking area.  There is a sign here.    
+~
+19 0 0
+D0
+~
+~
+0 0 1903
+D1
+~
+~
+0 0 1901
+D3
+~
+gate~
+2 0 1902
+E
+look sign~
+You look at the sign and it says...
+
+
+            WELCOME TO ARBY'S
+             Founded 1969
+
+    <-- (west) Employee Parking Only
+    --> (east) Drive-Thru
+       (north) Entrance To Arby's
+~
+S
+#1901
+Drive-Thru Speaker~
+   The drive-thru speaker seems a little old.  The menuboard is lit up with
+several items.  Too bad the menu is to dirty to see the items.  To the north is
+the backdoor to Arby's.  And to the east is the drive-thru window.  To the
+south is the path to the dumpster.    
+~
+19 0 0
+D0
+~
+~
+0 0 1968
+D1
+~
+~
+0 0 1914
+D3
+~
+~
+0 0 1900
+S
+#1902
+Employee Parking Lot~
+   This seems to be the employee parking lot.  There are 4 cars here.  There is
+a Red car, a Black car, a White car, and a Green car.  The license plates seem
+to be a little blurry.  Why not take a quick look at them?  There is only one
+way out. A sign is here.    
+~
+19 0 0
+D1
+~
+gate~
+2 0 1900
+E
+look white~
+You read the white car's license plate....
+IM COOL
+~
+E
+look green~
+You read the green car's license plate....
+
+SUX 2BU
+~
+E
+look black~
+You read the black car's license plate....
+
+ILUVRBZ
+~
+E
+look red~
+You read the red car's license plate....
+
+IH8 RBZ
+~
+E
+look sign~
+You look at the sign.....
+
+Wanna see plates...type look <color of car>
+example: look orange
+assuming there is an orange car
+~
+S
+#1903
+Entrance To Arby's~
+   There is a man here selling arby's uniforms.  To the west is the dining
+area.  To the east there is a hallway.  To the north is the line.    
+~
+19 d 0
+D0
+~
+~
+0 0 1960
+D1
+~
+~
+0 0 1908
+D2
+~
+~
+0 0 1900
+D3
+~
+~
+0 0 1904
+S
+#1904
+Entrance to Seating Area~
+   Many boothes are here.  Some with families in them and some without.  To the
+north is there is the drink machine.  To the south is a booth.  To the east is
+back to main entrance of the store.  To the west is more of the seeting area.
+And to the north is the condiment stand.    
+~
+19 0 0
+D0
+~
+~
+0 0 1905
+D1
+~
+~
+0 0 1903
+D2
+~
+~
+0 0 1906
+D3
+~
+~
+0 0 1907
+S
+#1905
+The Condiment Stand~
+   Welcome to the condiment stand.  On the condiments stand there are the
+following items: Horsey Sauce, Arby Sauce, Ketchup, Salt, Pepper, Straws,
+Napkins, Sugar, and Sweet-N-Low.  They seem to be out of almost everything.  
+To the west is the drink machine.  To the north is the end of the line.    
+~
+19 0 0
+D0
+~
+~
+0 0 1956
+D1
+~
+~
+0 0 1944
+D2
+~
+~
+0 0 1904
+D3
+~
+~
+0 0 1943
+S
+#1906
+Booth of In the Distance~
+   This booth is not with the rest of the boothes.  It looks like an important
+booth.  Very clean table.  Nothing on the seats or on the floor.  There
+is a sign on the table.    
+~
+19 0 0
+D0
+~
+~
+0 0 1904
+E
+look sign~
+
+Table Reserved For:
+Management Meetings
+
+Please Do Not Sit Here
+
+Thanks,
+MGMT
+~
+E
+read sign~
+
+Table Reserved For:
+Management Meetings
+
+Please Do Not Sit Here
+
+Thanks,
+MGMT
+~
+S
+#1907
+South East Booth~
+   This is the southeast booth.  This table is dirty.  Sauce has been dripped
+on the table.  Fries populate the floor underneath and the seats look just
+plain....  Dirty.    
+~
+19 0 0
+D1
+~
+~
+0 0 1942
+D3
+~
+~
+0 0 1936
+S
+#1908
+Hallway~
+   A quiet hallway.  The smell of urine indicates the bathrooms are near.  To
+the east there is a door labled MENS.  To the north there is a door labeled
+WOMENS.  To the west there is a door with a NOTE on it.    
+To the south is the way back to the main part of the store.
+~
+19 0 0
+D0
+~
+womens~
+1 0 1910
+D1
+~
+mens~
+1 0 1909
+D2
+~
+~
+0 0 1903
+D3
+~
+door~
+1 0 1924
+E
+read note~
+
+EMPLOYEE ENTRANCE ONLY
+TRESSPASSERS WILL BE PROSECUTED
+
+THANKS,
+MGMT
+~
+E
+look note~
+EMPLOYEE ENTRANCE ONLY
+TRESSPASSERS WILL BE PROSECUTED
+
+THANKS,
+MGMT
+~
+S
+#1909
+Men's room~
+   The foul stench of urine is mind boggling.  How could the management let the
+bathroom smell like this.  To the north is the door toward the toilet.  To the
+east is the sink.  To the south is the urinal.    
+~
+19 0 0
+D0
+~
+door~
+1 0 1913
+D1
+~
+~
+0 0 1932
+D2
+~
+~
+0 0 1933
+D3
+~
+mens~
+1 0 1908
+S
+#1910
+Women's Room~
+   The women's bathroom looks well kept.  No odor.  No trash lying about.  
+Just a sink some stalls and the exit.  To the north is one stall.  To the east
+is another stall.    
+~
+19 0 0
+D0
+~
+~
+0 0 1911
+D1
+~
+~
+0 0 1912
+D2
+~
+womens~
+1 0 1908
+S
+#1911
+Women's Regular Stall~
+   Below you is a pearly white toilet bowl.  The aroma of some perfume is
+lingering on.  Some woman must have just left the stall.    
+~
+19 0 0
+D2
+~
+~
+0 0 1910
+S
+#1912
+Women's Stall for the Handicapped~
+   This stall is bigger than the regular stall.  It was designed for women with
+wheel chairs.  As usual below is a pearly white toilet.    
+~
+19 0 0
+D3
+~
+~
+0 0 1910
+S
+#1913
+Men's Toilet~
+   The toilet is pearly white.  There is a vent in the ceiling, blowing cool
+air down.    
+~
+19 0 0
+D2
+~
+~
+0 0 1909
+D4
+~
+~
+0 0 1980
+S
+#1914
+At the Drive-Thru Window~
+   Being at the drive-thru window without a car is kinda wierd.  Throught the
+window, several employees, frantically running around, are trying to get
+people's order.  An employee comes to the window and just stands there.  
+Hmmmm, what could he be doing.  Taking and order for the drive thru?    
+~
+19 0 0
+D1
+~
+window~
+1 1900 1925
+D3
+~
+~
+0 0 1901
+S
+T 1903
+#1915
+Passage~
+   This passage leads is sorta like a fork in the road.  To the north heads
+toward the kitchen.  To the west is the back line.    
+~
+19 0 0
+D0
+~
+~
+0 0 1920
+D2
+~
+~
+0 0 1924
+D3
+~
+~
+0 0 1916
+S
+#1916
+Back Line (Fryer Area)~
+   You are in an unfinished room.  This is where the workers cook the chicken
+breast, chicken fingers and the bacon.  The temperature of the fryers is a
+sweltering 350 degrees.  To the west is more of the back line.  To the east is
+back to that passageway.
+~
+19 0 0
+D1
+~
+~
+0 0 1915
+D3
+~
+~
+0 0 1917
+S
+#1917
+Back Line (Sandwich Wrapping Area)~
+   This is where a worker would normally be preparing the sandwiches and then
+wrapping them.  There a re condiments everywhere.  Tomatoes, Lettuce, Swiss
+Cheese, Pickles, and Mayo are just some of them.  To the west is more of the
+back line.  To the east is back to the fryer area.    
+~
+19 0 0
+D1
+~
+~
+0 0 1916
+D3
+~
+~
+0 0 1918
+S
+#1918
+Back Line (Toaster Area)~
+   This is the area of the back line where a worker puts buns in the toaster.
+This job is very crucial to the speed of the back line.  To the west is more of
+the Back Line.  To the east is the Sandwich wrapping area.    
+~
+19 0 0
+D1
+~
+~
+0 0 1917
+D3
+~
+~
+0 0 1919
+S
+#1919
+Back Line (Slicer Area)~
+   This area is where a trained worker cuts the meat.  The blade is very sharp.
+It's so sharp it could cut through a person, if thrown.  The slicer is powered
+but 2 buttons.  On turns the slicer on.  The other starts the cradle that moves
+the meat over the blade.  There is a dial that determines the speed of the
+slicer.  To the east is the Toaster area of the back line.  To the south is
+Part of the kitchen.    
+~
+19 0 0
+D1
+~
+~
+0 0 1918
+D2
+~
+~
+0 0 1962
+S
+#1920
+In The Middle Of It All~
+   This is almost the middle of the store.  To the north is the Kitchen.  The
+south heads to back and front line.  And to the east is the manangement desk.
+  
+~
+19 0 0
+D0
+~
+~
+0 0 1923
+D1
+~
+~
+0 0 1921
+D2
+~
+~
+0 0 1915
+S
+#1921
+Management Desk~
+   The management desk is very messy.  The managers seem to have everything
+under control.  Only they could find something in this mess.  There are several
+clipboards lying around.  Loose paper everywhere.  There is a computer in this
+room, but it's so old it makes George Washington look young.    
+~
+19 0 0
+D2
+~
+~
+0 0 1922
+D3
+~
+~
+0 0 1920
+S
+#1922
+The Safe~
+   The safe is made of steel and a dark green color.  There is a digital screen
+for user info.  The handle is thick and silver.  The safe however can not move
+at all.  It would take a demolition team to move the safe.    
+~
+19 0 0
+D0
+~
+~
+0 0 1921
+S
+#1923
+The Beginning Of The kitchen~
+   The beginning of the kitchen is a good spot to look around.  There is plenty
+of stuff you can see from this point.  The refridgerator is on the far west
+wall.  The sinks are on the far east wall.  The far south wall contains the
+back door.  Directly to the west are some ovens and some shams.    
+~
+19 0 0
+D1
+~
+~
+0 0 1963
+D2
+~
+~
+0 0 1920
+D3
+~
+~
+0 0 1961
+S
+#1924
+On the Front Line~
+   The front line is quite.  Except for the guy selling fries.  Otherwise the
+place is mostly deserted.  The floor is dirty.  There are fries, fry boxes,
+bags and packets of sauce everywhere.    
+~
+19 0 0
+D0
+~
+~
+0 0 1915
+D1
+~
+door~
+1 0 1908
+D3
+~
+~
+0 0 1925
+S
+#1925
+Inside the Drive-Thru Window~
+   No-one is in the drive-thru, this means, no rush.  On the right is a touch
+screen monitor for taking orders.  On the left there is a counter with sauces,
+napkins, straws, salt, pepper, sort of like a mini-condiment stand.  Ahead is
+the rest of the front line, which is not very clear at the moment.  There is a
+sign here for drive-thru workers.    
+~
+19 0 0
+D1
+~
+~
+0 0 1924
+D3
+~
+window~
+1 1900 1914
+E
+read sign~
+10 Tips To Efficient Drive Thru And Happy Customers:
+
+(1) Communicate Clearly
+(2) Be Patient
+(3) Be Polite/Curteous
+(4) Take The Order Accurately
+(5) Be Fast But Not Careless
+(6) Smile At The Customers
+(7) Thank The Customer
+(8) Use the words 'Thank You' 'Sir' 'Mam' and 'Please'
+(9) Give Them The Correct Change
+(10) Give Them The Correct Food
+~
+E
+look sign~
+10 Tips To Efficient Drive Thru And Happy Customers:
+
+(1) Communicate Clearly
+(2) Be Patient
+(3) Be Polite/Curteous
+(4) Take The Order Accurately
+(5) Be Fast But Not Careless
+(6) Smile At The Customers
+(7) Compliment Them
+(8) Use the words 'Thank You' 'Sir' 'Mam' and 'Please'
+(9) Give Them The Correct Change
+(10) Give Them The Correct Food!
+~
+S
+#1926
+Beginning Of The Freezer~
+   The cold air rushes through this room.  There is another door to the west.
+To the south there are shelves with are the roast beef, ready for cooking.    
+~
+19 0 0
+D0
+~
+~
+0 0 1969
+D2
+~
+~
+0 0 1927
+D3
+~
+~
+0 0 1928
+S
+#1927
+Inside The Freezer~
+   There are tall shelves all around.  There are roasts to the left.  Theres
+some shake mix to the right and there's all kinds of sauce on the bottom shelf.
+To the north is the beginning of the freezer.    
+~
+19 0 0
+D0
+~
+~
+0 0 1926
+S
+#1928
+Room~
+   This room is way colder than the last room.  There are boxes all over the
+place.  It's amazing the workers can find anything in this room.  To the south
+is more of the freezer.    
+~
+19 0 0
+D1
+~
+~
+0 0 1926
+D2
+~
+~
+0 0 1929
+S
+#1929
+Deep Into The Freezer~
+   How could anyone stay here for more than 3 minutes?  There is cool air
+blowing over all the boxes.  There is a metal shelf in the back of this room.
+There are two huge fans blowing air from above.    
+~
+19 0 0
+D0
+~
+~
+0 0 1928
+D2
+~
+shelf~
+1 0 1930
+S
+#1930
+Start Of Ventilation Shaft (Or is it the end)~
+   This is either the beginning or the end of the ventilation shaft.  There is
+a steel grate to the north.  To the south is more of the ventilation shaft.  
+It's pretty cold in here.  Wonder Why?    
+~
+19 0 0
+D0
+~
+grate~
+1 0 1929
+D2
+~
+~
+0 0 1931
+S
+#1931
+Inside the Ventilation Shaft~
+   The shaft is very quite.  There are several vent openings.  However most of
+them seem to locked at the moment.    
+~
+19 0 0
+D0
+~
+~
+0 0 1930
+D2
+~
+~
+0 0 1972
+S
+#1932
+Men's Sink~
+   There is a pearly white sink.  Under all the filth, this sink seems to have
+stayed clean.  Above the sink is the mirror.  No streaks appear to be on the
+mirror.  Who ever cleaned this bathroom did one heck of a job on the sink.    
+~
+19 0 0
+D3
+~
+~
+0 0 1909
+S
+#1933
+Men's Urinal~
+   Below is a yellow Urinal.  Wait a minute, isn't the urinal suppose to be
+white.  O well.  On the floor there are spots of some liquid.  Someone must
+have missed.    
+~
+19 0 0
+D0
+~
+~
+0 0 1909
+S
+#1934
+Kitchen (Refridgerator)~
+   While in the kitchen, One can't help but to look in the fridge.  Luckily
+there is a refridgerator here.    
+~
+19 0 0
+D0
+~
+~
+0 0 1962
+D2
+~
+~
+0 0 1919
+S
+#1935
+North East Booth~
+This is the North East Booth.
+~
+19 0 0
+D2
+~
+~
+0 0 1942
+D3
+~
+~
+0 0 1938
+S
+#1936
+South Booth~
+   This booth is south booth of the area.  The booth looks clean.    
+~
+19 0 0
+D0
+~
+~
+0 0 1937
+D1
+~
+~
+0 0 1907
+D3
+~
+~
+0 0 1939
+S
+#1937
+Middle Booth~
+   This is the middle booth.  This table is dirty.  Sauce has been dripped
+on the table.  Fries populate the floor underneath and the seats look just
+plain....  Dirty.    
+~
+19 0 0
+D0
+~
+~
+0 0 1938
+D1
+~
+~
+0 0 1942
+D2
+~
+~
+0 0 1936
+D3
+~
+~
+0 0 1940
+S
+#1938
+North Booth~
+   From the north there are customers returning from the line with their food.
+Up north a drink machine and a condiment stand is visible.  This is the
+entrance to the eating area.    
+~
+19 0 0
+D0
+~
+~
+0 0 1943
+D1
+~
+~
+0 0 1935
+D2
+~
+~
+0 0 1937
+D3
+~
+~
+0 0 1941
+S
+#1939
+South West Booth~
+   This booth is far from the others.  This makes it a quite place for a family
+to eat at.  No loud talking, quite easy listening music, and great food.  What
+more could a person ask for at a restaurant.    
+~
+19 0 0
+D0
+~
+~
+0 0 1940
+D1
+~
+~
+0 0 1936
+S
+#1940
+West Booth~
+   This booth is far from the others.  This makes it a quite place for a family
+to eat at.  No loud talking, quite easy listening music, and great food.  What
+more could a person ask for at a restaurant.    
+~
+19 0 0
+D0
+~
+~
+0 0 1941
+D1
+~
+~
+0 0 1937
+D2
+~
+~
+0 0 1939
+S
+#1941
+North West Booth~
+   This booth is far from the others.  This makes it a quite place for a family
+to eat at.  No loud talking, quite easy listening music, and great food.  What
+more could a person ask for at a restaurant.    
+~
+19 0 0
+D1
+~
+~
+0 0 1938
+D2
+~
+~
+0 0 1940
+S
+#1942
+East Booth~
+   This booth is east booth of the area.  The booth looks clean.    
+~
+19 0 0
+D0
+~
+~
+0 0 1935
+D2
+~
+~
+0 0 1907
+D3
+~
+~
+0 0 1937
+S
+#1943
+Drink Machine~
+   There is a drink machine here.  On the counter lies straw wrappers, melting
+ice and cup lids.  Kids must have spilt their soda earlier because the counter
+is kinda sticky.    
+~
+19 0 0
+D1
+~
+~
+0 0 1905
+S
+#1944
+Beginning of the line.~
+   The line is crowded, as customers hurry to get thier food on their break
+from work.  To the north is the actual line.  To the east is the way back to
+the front door.    
+~
+19 0 0
+D0
+~
+~
+0 0 1945
+D1
+~
+~
+0 0 1946
+D3
+~
+~
+0 0 1905
+S
+#1945
+One Step Closer~
+   The line is crowded.  Many people want their food.  Above the counter is a
+banner that reads 'Taste Why Its Better Out Here!  '
+~
+19 0 0
+D1
+~
+~
+0 0 1947
+D2
+~
+~
+0 0 1944
+S
+#1946
+Still looking at the menu?~
+   When looking at the menu, deciding what you want to order may be hard.  To
+the east is the exit.  To the west is closer to the line.    
+~
+19 0 0
+D1
+~
+~
+0 0 1957
+D3
+~
+~
+0 0 1944
+S
+#1947
+In The Line~
+   The line is crowded with customers waiting to order.  Most of the customers
+are patiently waiting for their food, but there are some aggressive customers
+in this line also.    
+~
+19 0 0
+D1
+~
+~
+0 0 1948
+D3
+~
+~
+0 0 1945
+S
+#1948
+Middle Of The Line~
+   The line is crowded with customers waiting to order.  Most of the customers
+are patiently waiting for their food, but there are some aggressive customers
+in this line also.    
+~
+19 0 0
+D1
+~
+~
+0 0 1949
+D3
+~
+~
+0 0 1947
+S
+#1949
+Somewhere down the line~
+   The line is crowded with customers waiting to order.  Most of the customers
+are patiently waiting for their food, but there are some aggressive customers
+in this line also.    
+~
+19 0 0
+D1
+~
+~
+0 0 1950
+D3
+~
+~
+0 0 1948
+S
+#1950
+One more step to go~
+   The line is crowded with customers waiting to order.  Most of the customers
+are patiently waiting for their food, but there are some aggressive customers
+in this line also.    
+~
+19 0 0
+D0
+~
+~
+0 0 1951
+D3
+~
+~
+0 0 1949
+S
+#1951
+At The Register~
+   Behind the counter is a beautiful girl.  Awaiting to take your order.  To
+the west is the waiting line, for your order.  South is the way to the line for
+customers waiting to order.  Why not say hi?  Finally the &Ymenu&n is
+&Wread&nable.    
+~
+19 h 0
+D2
+~
+~
+0 0 1950
+D3
+~
+~
+0 0 1952
+E
+read menu~
+The Menu Shows The Following Products.
+
+Large &YFry&n
+Large &YCup&n
+Mozzarella &YSticks&n
+
+To Order: say the highlighted word.
+~
+E
+hit jessica~
+Dork! She's on the other side of the counter.
+~
+E
+cast~
+Nothing.
+~
+S
+#1952
+Waiting fot the order~
+   The arby's employees are moving fast, trying to get all the orders filled.
+This is the line of people who are waiting for the food.  They are probably
+still waiting beacause they ordered something special.  As people walk by with
+thier order the waiting customers become angry and &Waggressive&n.    
+~
+19 0 0
+D1
+~
+~
+0 0 1951
+D3
+~
+~
+0 0 1953
+S
+#1953
+Wating in line~
+   The arby's employees are moving fast, trying to get all the orders filled.
+This is the line of people who are waiting for the food.  They are probably
+still waiting beacause they ordered something special.  As people walk by with
+thier order the waiting customers become angry and &Waggressive&n.    
+~
+19 0 0
+D1
+~
+~
+0 0 1952
+D3
+~
+~
+0 0 1954
+S
+#1954
+Wating in line~
+   The arby's employees are moving fast, trying to get all the orders filled.
+This is the line of people who are waiting for the food.  They are probably
+still waiting beacause they ordered something special.  As people walk by with
+thier order the waiting customers become angry and &Waggressive&n.    
+~
+19 0 0
+D1
+~
+~
+0 0 1953
+D3
+~
+~
+0 0 1955
+S
+#1955
+Wating in line~
+   The arby's employees are moving fast, trying to get all the orders filled.
+This is the line of people who are waiting for the food.  They are probably
+still waiting beacause they ordered something special.  As people walk by with
+thier order the waiting customers become angry and &Waggressive&n.    
+~
+19 0 0
+D1
+~
+~
+0 0 1954
+D3
+~
+~
+0 0 1956
+S
+#1956
+End Of The Line~
+   Customers run through this spot often.  They can't wait to sit down and
+munch on some fries.  To the south is the drink machine and the condiment
+stand.    
+~
+19 0 0
+D1
+~
+~
+0 0 1955
+D2
+~
+~
+0 0 1905
+S
+#1957
+Looking At The Menu~
+   When looking at the menu, deciding what you want to order may be hard.  To
+the east is the exit.  To the west is closer to the line.    
+~
+19 0 0
+D1
+~
+~
+0 0 1958
+D3
+~
+~
+0 0 1946
+S
+#1958
+Way to the line~
+   When looking at the menu, deciding what you want to order may be hard.  To
+the east is the exit.  To the west is closer to the line.    
+~
+19 0 0
+D1
+~
+~
+0 0 1959
+D3
+~
+~
+0 0 1957
+S
+#1959
+The way to the line~
+   When looking at the menu, deciding what you want to order may be hard.  To
+the east is the exit.  To the west is closer to the line.    
+~
+19 0 0
+D1
+~
+~
+0 0 1960
+D3
+~
+~
+0 0 1958
+S
+#1960
+On The Way To Ordering~
+   When looking at the menu, deciding what you want to order may be hard.  
+That is why to the west is the way to the line.  To the south is the exit.  
+But why would anyone wanna leave?    
+~
+19 0 0
+D2
+~
+~
+0 0 1903
+D3
+~
+~
+0 0 1959
+S
+#1961
+Kitchen (Ovens)~
+   Still in the kitchen.  There are two huge Ovens here.  The bottom one is
+labeled Turnover, and is set at 325 degrees.  The top oven is labeled beef, and
+is set at 200 degrees.  To the west is more of the kitchen.  To the west is
+more kitchen.    
+~
+19 0 0
+D1
+~
+~
+0 0 1923
+D3
+~
+~
+0 0 1962
+S
+#1962
+Kitchen (Sham)~
+   Still in the kitchen.  There is a sham here.  Above the door to the sham are
+the words "Sham is the best way to keep food warm!  " To the north is the back
+line.  To the south is the refridgerator.  To the east are the ovens.    
+~
+19 0 0
+D0
+~
+~
+0 0 1919
+D1
+~
+~
+0 0 1961
+D2
+~
+~
+0 0 1934
+S
+#1963
+In front of the sinks~
+   Arby's has a 3 sink washing rule.  One sink to wash the dishes.  Another
+sink to rinse the dishes of the soap.  And the final sink is for sanitizing the
+dishes.  To the north is the back of the kitchen.    
+~
+19 0 0
+D0
+~
+~
+0 0 1967
+D1
+~
+~
+0 0 1964
+D3
+~
+~
+0 0 1923
+S
+#1964
+The Rinsing Sink~
+   This sink is to be filled up with just water.  This sink is used to rinse
+the dishes.  Rinsing them will get the soap off of them.  To the north is the
+Washing sink.  To the south is the Sanitizing sink.    
+~
+19 0 0
+D0
+~
+~
+0 0 1965
+D2
+~
+~
+0 0 1966
+D3
+~
+~
+0 0 1963
+S
+#1965
+Washing Sink~
+   This sink was meant for washing.  It should be filled with the hottest water
+you can stand.  After that lark should be added.  Lark is a chemical cleaing
+formula.  Same as regular dish soap but it is concentrated to get greasy dishes
+clean.    
+~
+19 0 0
+D2
+~
+~
+0 0 1964
+S
+#1966
+Sanitizing Sink~
+   This sink was meant to be filled up with luke warm water.  After the water
+is in then sqiurts pf STER-O-KEM are added.  Ster-o-kem is a food sanitizer
+product To the north is the rinsing sink.    
+~
+19 0 0
+D0
+~
+~
+0 0 1964
+S
+#1967
+Back Of The Kitchen~
+   The back of the kitchen is very well organized.  Of to the east is the
+freezer door, the mop sink and the brooms.  To the west is the backdoor.    
+~
+19 0 0
+D1
+~
+~
+0 0 1969
+D2
+~
+~
+0 0 1963
+D3
+~
+~
+0 0 1968
+S
+#1968
+Back Alley~
+   Why Would Anyone Come Back Here?  This alley stinks.  The smell of garbage
+roasting in the sun all day is not one that many people get to experience, but
+then again not all people visit this alley.  The trash has not been taken out
+all day, the workers must have just thrown it out here.    
+~
+19 0 0
+D1
+~
+~
+0 0 1967
+D2
+~
+~
+0 0 1901
+S
+#1969
+Back Room Of The Kitchen~
+   This is a pretty standard room.  It has your usual restaurant stuff.  The
+Freezer to the south.  The mop sink to the north.  And the Brooms And Dustpans
+To The East.    
+~
+19 0 0
+D0
+~
+~
+0 0 1970
+D1
+~
+~
+0 0 1971
+D2
+~
+~
+0 0 1926
+D3
+~
+~
+0 0 1967
+S
+#1970
+Mop Sink~
+   Mops are hanging up in this square shaped crevass.  There is a deep sink
+with a large drain.  There is a stench of bleach in this sink.  Someone must
+have bleached a mop or cleaned the mop sink with bleach.    
+~
+19 0 0
+D2
+~
+~
+0 0 1969
+S
+#1971
+Broom & Dustpan Storage~
+   There are 2 large trashcans filled with brooms.  This store's motto must be
+"You can never have to many brooms!  " There are dustpans lined up against the
+wall.    
+~
+19 0 0
+D3
+~
+~
+0 0 1969
+S
+#1972
+Inside the Shaft~
+   The shaft is very quite.  There are several vent openings.  However most of
+them seem to locked at the moment.    
+~
+19 0 0
+D0
+~
+~
+0 0 1931
+D2
+~
+~
+0 0 1973
+S
+#1973
+Inside the Shaft~
+   The shaft is very quite.  There are several vent openings.  However most of
+them seem to locked at the moment.    
+~
+19 0 0
+D0
+~
+~
+0 0 1972
+D2
+~
+~
+0 0 1974
+S
+#1974
+Inside the Shaft~
+   The shaft is very quite.  There are several vent openings.  However most of
+them seem to locked at the moment.    
+~
+19 0 0
+D0
+~
+~
+0 0 1973
+D2
+~
+~
+0 0 1975
+S
+#1975
+Inside the Shaft~
+   The shaft is very quite.  There are several vent openings.  However most of
+them seem to locked at the moment.    
+~
+19 0 0
+D0
+~
+~
+0 0 1974
+D2
+~
+~
+0 0 1976
+S
+#1976
+Change In The Shaft~
+   There has been a 90 degree turn in the shaft.  The shaft's direction has
+changed all of a sudden.  Who would build something like that?    
+~
+19 0 0
+D0
+~
+~
+0 0 1975
+D4
+~
+~
+0 0 1977
+S
+#1977
+Change in the shaft~
+   There has been another change in the shaft.  Who built this thing?    
+~
+19 0 0
+D2
+~
+~
+0 0 1978
+D5
+~
+~
+0 0 1976
+S
+#1978
+In The Shaft~
+   The shaft is very quite.  There are several vent openings.  However most of
+them seem to locked at the moment.    
+~
+19 0 0
+D0
+~
+~
+0 0 1977
+D2
+~
+~
+0 0 1979
+S
+#1979
+Inside the shaft~
+   The shaft is very quite.  There are several vent openings.  However most of
+them seem to locked at the moment.    
+~
+19 0 0
+D0
+~
+~
+0 0 1978
+D2
+~
+~
+0 0 1980
+S
+#1980
+Above The Bathroom~
+   There is an odor.  The mens bathroom is directly below.  Since the bathroom
+is below its a good thing to have a ventilation shaft here.    
+~
+19 0 0
+D0
+~
+~
+0 0 1979
+D5
+~
+~
+0 0 1913
+S
+#1981
+Room~
+You are in an unfinished room.
+~
+19 0 0
+S
+#1982
+Room~
+You are in an unfinished room.
+~
+19 0 0
+S
+#1983
+Room~
+You are in an unfinished room.
+~
+19 0 0
+S
+#1984
+Room~
+You are in an unfinished room.
+~
+19 0 0
+S
+#1985
+Room~
+You are in an unfinished room.
+~
+19 0 0
+S
+#1986
+Room~
+You are in an unfinished room.
+~
+19 0 0
+S
+#1987
+Room~
+You are in an unfinished room.
+~
+19 0 0
+S
+#1988
+Room~
+You are in an unfinished room.
+~
+19 0 0
+S
+#1989
+Room~
+You are in an unfinished room.
+~
+19 0 0
+S
+#1991
+Room~
+You are in an unfinished room.
+~
+19 0 0
+S
+#1992
+Room~
+You are in an unfinished room.
+~
+19 0 0
+S
+#1993
+Room~
+You are in an unfinished room.
+~
+19 0 0
+S
+#1994
+Room~
+You are in an unfinished room.
+~
+19 0 0
+S
+#1995
+Room~
+You are in an unfinished room.
+~
+19 0 0
+S
+#1996
+Room~
+You are in an unfinished room.
+~
+19 0 0
+S
+#1997
+Room~
+You are in an unfinished room.
+~
+19 0 0
+S
+#1998
+Room~
+You are in an unfinished room.
+~
+19 0 0
+S
+#1999
+Room~
+You are in an unfinished room.
+~
+19 0 0
+S
+$~

@@ -1,0 +1,45 @@
+2
+cc
+10
+cast 'heal
+0
+4
+gone
+79
+gecho Katz has left the building.  You may now continue your normal activities!
+0
+2
+ex
+4
+exit
+0
+2
+qq
+11
+quaf health
+0
+2
+kf
+8
+kill fly
+0
+2
+kb
+13
+kill bullfrog
+0
+2
+kc
+12
+kill cricket
+0
+2
+km
+13
+kill mosquito
+0
+2
+st
+5
+stand
+0

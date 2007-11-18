@@ -1,0 +1,138 @@
+CircleMUD v3.0 Shop File~
+#207~
+7060
+9211
+7088
+-1
+1.00
+0.10
+10health
+8action figure
+-1
+%s Sorry, but I don't carry that kind of item.~
+%s It doesn't look like you've got that.~
+%s Sorry, but I can't accept that item.~
+%s Whoa, I can't afford that kind of item. Try the treasure hunter!~
+%s You'll need some more gold, buddy.~
+%s That's %d gold coins. Thanks!~
+%s Alright, I'll give you a whole %d coins for that.~
+0
+0
+7060
+0
+207
+-1
+0
+28
+0
+0
+#214~
+-1
+1.00
+1.00
+-1
+%s Sorry, I don't stock that item.~
+%s You don't seem to have that.~
+%s I don't trade in such items.~
+%s I can't afford that!~
+%s You are too poor!~
+%s That'll be %d coins, thanks.~
+%s I'll give you %d coins for that.~
+0
+0
+28494
+0
+-1
+0
+28
+0
+0
+#222~
+3043
+3044
+3071
+3076
+3081
+3086
+-1
+1.00
+1.00
+11
+-1
+%s Sorry, I don't stock that item.~
+%s You don't seem to have that.~
+%s I don't trade in such items.~
+%s I can't afford that!~
+%s You are too poor!~
+%s That'll be %d coins, thanks.~
+%s I'll give you %d coins for that.~
+0
+2
+222
+0
+222
+-1
+0
+28
+0
+0
+#223~
+3050
+3052
+801
+866
+-1
+1.50
+1.00
+2
+-1
+%s Sorry, I don't stock that item.~
+%s You don't seem to have that.~
+%s I don't trade in such items.~
+%s I can't afford that!~
+%s You are too poor!~
+%s That'll be %d coins, thanks.~
+%s I'll give you %d coins for that.~
+0
+2
+200
+0
+223
+-1
+0
+28
+0
+0
+#233~
+2551
+2567
+2552
+2556
+5111
+-1
+100.00
+1.00
+8
+27
+28
+29
+16
+-1
+%s Sorry, I don't stock that item.~
+%s You don't seem to have that.~
+%s I don't trade in such items.~
+%s I can't afford that!~
+%s You are too poor!~
+%s That'll be %d coins, thanks.~
+%s I'll give you %d coins for that.~
+0
+2
+233
+0
+233
+-1
+0
+28
+0
+0
+$~

@@ -1,0 +1,936 @@
+#0
+bug~
+a bug~
+This object is BAD!  If you see it, there must be a bug in the game.  Please
+report it immediately using the BUG command.~
+~
+13 0 0 0
+0 0 0 0
+0 0 0 0
+#1
+thunder dagger~
+&bT&Bh&be&n &BT&bh&Bu&bn&Bd&be&Br&bd&Ba&bg&Bg&be&Br&n~
+The Immortal Thunderdagger lies here...~
+   The thunderdagger radiates with a deep blue glow.  It is made with the
+indestructable diamond shards, while its edges are lined with the rare titanium
+metal.  Using an ancient magic, the metal and diamond are fused together to
+create a dagger with the power of the heavens.    
+~
+5 7667919 8193 8
+3 15 7 11
+5 100000 0 60
+A
+13 50
+A
+1 3
+A
+19 3
+#2
+a Twizzler~
+&ra Twizzler&n~
+A small Twizzler is here lying on the ground.~
+It's a regular old Twizzler.
+~
+5 271582208 8193 0
+8 8 8 3
+14 0 0 61
+A
+18 30
+A
+19 56
+#3
+a can of Coke~
+a can of Coke~
+A small can of Coke is laying here on the ground~
+~
+9 268435459 16385 0
+0 0 0 0
+3 2147483647 0 61
+A
+18 90
+A
+19 90
+#4
+A Kirby Doll~
+a Kirby Doll~
+A Kirby Doll is lying innocently on the floor here~
+~
+5 268480867 8193 0
+50 50 50 11
+0 0 0 66
+A
+18 50
+A
+19 50
+#5
+Tybalt's Boots~
+Tybalt's Boots~
+Tybalt's Boots are lying here~
+~
+11 2560 65 0
+0 0 0 0
+10 9000 60 10
+A
+17 17
+#6
+Razor~
+&BO&Gc&Ck&Mh&Ya&Wm&D's &rRazor&n~
+The Sharpest Blade in the world is here stabbed into the ground up to its hilt.~
+~
+5 15794204 8193 12416
+10 10 10 3
+10 0 0 10
+A
+18 30
+A
+19 30
+#7
+Parchment~
+Parchment~
+Pachment~
+~
+2 8388940 16385 0
+10 28 28 0
+1 0 0 30
+#8
+Progress Balancing Builder Board~
+the Progress, Balancing, and Builder Board~
+The Progress, Balancing, and Builder Board rests here.~
+~
+13 0 0 0
+0 0 0 0
+0 0 0 0
+A
+17 -1
+A
+15 -1
+S
+gen_board
+#9
+quill pen ~
+a quill pen~
+A quill pen lies here on the floor.~
+~
+21 0 1 0
+0 0 0 0
+0 0 0 0
+#10
+waybread bread~
+a waybread~
+Some waybread has been put here.~
+~
+19 64 1 0
+24 0 0 0
+1 50 50 0
+E
+waybread bread~
+The waybread is the traditional feed of elves when travelling, they
+call it lembas.  It is said to refresh the weary traveler greatly.
+~
+#11
+gold chip Goldylocks~
+a Gold Chip~
+A Gold Chip is here glowing on the ground.~
+~
+30 8388608 1 0
+0 0 0 0
+0 0 0 0
+#12
+some food~
+some food~
+Some food lies on the ground~
+~
+0 0 1 0
+0 0 0 0
+0 0 0 0
+#13
+a dime~
+a dime~
+A dime is useless here.~
+~
+0 0 1 0
+0 0 0 0
+0 0 0 0
+#14
+Luigi Statue~
+a Luigi statue.~
+A Luigi statue stands in the corner.~
+~
+8 65679 16385 0
+0 0 0 0
+0 0 0 0
+A
+19 7
+A
+18 6
+#15
+bottle patchouli~
+a Bottle of Patchouli~
+A big bottle of patchouli oil is here on the ground.~
+~
+1 1 1 128
+0 0 -1 0
+0 0 0 0
+#16
+Builder Star~
+Builder's Star~
+A bright shiney star gleams on the ground.~
+~
+8 65624 3 8
+0 0 0 0
+2 1000000 0 61
+E
+Builder Star~
+Writing is inscribed on the star:
+
+This star has been awarded to it's bearer for
+excellent building traits, and skills.
+~
+A
+1 1
+A
+2 1
+A
+3 1
+A
+4 1
+A
+5 1
+A
+13 100
+#17
+Builder Cross~
+Builder's Cross~
+A golden cross ornates the ground with its presence.~
+~
+8 65608 5 1064
+0 0 0 0
+2 1000000 0 0
+E
+Builder Cross~
+Writing is inscribed on the star:
+
+This cross is the highest honor awarded
+for building traits, and skills.
+~
+A
+2 2
+A
+2 2
+A
+3 2
+A
+4 2
+A
+5 2
+A
+14 100
+#18
+beta supply box~
+the Beta Tester's Supply Box~
+A box is lieing here with a sign on it.(Look Sign)~
+~
+1 0 0 0
+0 0 0 0
+0 0 0 0
+E
+sign~
+This is the Beta Testers supply box.
+To get Paper say Paper
+To get a Pen say Pen
+To get BetaTester's Flag say Flag
+~
+#19
+Pot of Gold~
+a Pot of Gold~
+A Pot of Gold Lies here on the ground~
+This is here for special triggers do not delete
+~
+20 0 1 0
+50000 0 0 0
+0 0 0 0
+#20
+portal~
+a Portal~
+A glowing portal is standing here.~
+~
+24 0 0 0
+0 0 0 0
+0 0 0 0
+#21
+&RBlood Red Orb&n~
+a &RBlood Red Orb&n~
+A strange Orb lies on the ground~
+Droping Destroys all Mobiles and Objects In room.
+~
+16 0 1 0
+0 0 0 0
+0 0 0 0
+T 21
+#22
+&MPink Orb&n~
+a &MPink Orb&n~
+A &MPink Orb&n glows on the ground.~
+WARNING: Use this Orb at your own Risk
+This is a Roullette orb Something good might 
+happen, or something bad might happen
+~
+16 0 1 0
+0 0 0 0
+0 0 0 0
+T 22
+#23
+green orb~
+a &Ggreen orb&n~
+A &Ggreen orb&n is lying on the ground here.~
+~
+1 196619 1 0
+0 0 -1 0
+3 92663 74 0
+T 23
+E
+green orb~
+The green orb swirls with green on the inside. Drop it, and it will give you full health.
+~
+#25
+&BOckham's Razor&n~
+&BOckham's Razor&n~
+&BOckham's Razor&n~
+&BOckham's Razor&n
+~
+5 268435456 8193 8401024
+99 99 50 3
+0 666 0 66
+A
+1 25
+#27
+orb~
+a &Bneon blue orb&n~
+A &Bneon blue orb&n is hovering here above the ground.~
+~
+1 196619 16385 1024
+0 0 -1 0
+2 91745 400 0
+T 28
+E
+It is a bright neon blue orb.  Concider it a ticket to where ever Treq, an~
+   It is a bright neon blue orb.  Concider it a ticket to where ever Treq, an
+Immortal is at the moment.  If you have this item, ask him to go somewhere,
+then drop it.  You will be instantly transported to him.  But if you do not ask
+him, you will be punished.  Do not waste this when he is not here.    
+~
+#28
+fireworks~
+a set of Fireworks~
+A set of long tubes for the 4th of July~
+~
+2 6291588 16385 8388736
+10 1 1 75
+0 0 0 1
+A
+18 10
+A
+19 10
+#30
+DOI Ticket~
+a DOI Ticket~
+A Declaration of Independance Ticket~
+   Good for one Declaration of Indepdence.  Limit one per character, and only
+to characters who fought Uncle Sam.    
+~
+0 0 1 0
+0 0 0 0
+0 0 0 0
+#31
+Ring Power~
+a Ring of Power~
+Earth - Fire - Wind - Water - Heart! Gooooo Planet!~
+When your powers combine, this is the ring of Captain Planet.
+~
+9 257 3 0
+0 0 0 0
+0 0 0 60
+A
+19 3
+A
+18 2
+A
+6 5
+#32
+Ticket Machine~
+Ticket Machine~
+The airport ticket machine is here~
+~
+13 0 0 0
+0 0 0 0
+0 0 0 0
+#34
+ochkam's toothbrush~
+&BOchkam's Toothbrush&n~
+&BOchkam's Toothbrush&n~
+&BOchkam's Toothbrush&n
+~
+5 268435456 8193 8401024
+99 99 50 5
+0 667 0 66
+A
+1 25
+#35
+St Patty Ale~
+a St. Patty's Day Ale~
+A St Patty's Day Ale lies here.~
+   A large glass of stout dark lager glints in the sun.  It looks highly
+alcoholic.    
+~
+10 0 1 0
+50 75 0 0
+0 0 0 0
+#40
+plain shirt~
+a plain shirt~
+A plain shirt lies crumpled here.~
+   This shirt is plain.  Plain fabrique, plain stitchs, plain dirt on it, plain
+color.    
+~
+11 0 9 0
+0 0 0 0
+1 1 0 0
+#41
+plain pants~
+plain pants~
+A plain pair of pants lies here.~
+   A plain pair of pants, it is plain and looks like its designed so one size
+fits all.  There is a twine cord for a belt that is tied to a certain size.  
+
+~
+11 0 33 0
+0 0 0 0
+0 0 0 0
+#50
+blade anduril~
+Anduril~
+A beautifully crafted blade.~
+The blade is decorated with hand carved runes and bronze work. There are jewels and bronze work decorating the hilt.
+~
+5 131503 8193 128
+100 20 5 3
+1 0 0 0
+A
+2 5
+#51
+book speech~
+the Book of Speech~
+The Book of Speech is sitting on a shelf here.~
+~
+12 0 1 0
+0 0 0 0
+0 0 0 0
+E
+book speech~
+   This is the Speech Help Book.  Here you will learn how to communicate with
+your friends on Deimos MUD.  First of all, there are three types of speech:
+MUD, Direct, and Normal.  MUD communication is the type of communication that,
+when said, will be heard by everyone on the MUD at that time.  Perhaps you may
+have heard some talk going on during our lessons such as: [someone] gossips,
+'Hey people!  '.  These are actual people using MUD communication.  There are
+five different MUD communications: Shout, Holler, Gossip, Grats, and Auction.
+The first 4 do the same thing: Proclaim what you are saying across the MUD.  
+Only Holler is not blockable and Shout has a limited range.  Auction is a bit
+different, not only does it proclaim what you're saying across the MUD, but it
+is an invitation to au For example, if you had a good piece of eq (equipment)
+but you then found a better one, you could enter Auction Really good eq:
+starting at 500g.  Then other people would auction their amount of money until
+the final bidder was reached (you decide).  Go ah I'm in training for MUD!  
+And see what happens.  If you wish not to hear these, simply enter No infront
+of the word.  Such as typing: Nogossip will turn your ability to hear Gossip
+off.  The next category is Direct Communication.  This is where you directly t
+There are three different types of Direct Communication: Ask, Tell, and
+Whisper.  They are all basically the same except that when you are Asked or
+Telled by another person, you can simply enter Reply [whatever] to reply to
+that person.  Whisper is only av Finally, there is Normal Communication.  
+There are two types: Say and Mail.  Say is what usually everyone uses to talk.
+Simply type Say and whatever you want to say and it will say it to anyone in
+the room that you are in.  Mail is not exactly commmunicaio First you must find
+the Post Office.  There you can do three things: Mail, k, and Receive.  Only
+while at the Post Office can you do these actions.  If you wish to mail someone
+something, enter Mail [Person's name] and commence writing the letter.  
+Receive will get the mail in the form of an item.    
+~
+#52
+book items~
+the Book of Items~
+The Book of Items  is sitting on a shelf here.~
+~
+12 0 1 0
+0 0 0 0
+0 0 0 0
+E
+book items~
+Enter: 'Read ItemsPage1' for Page 1 and 'Read ItemsPage2' for Page 2
+~
+E
+ItemsPage1~
+   This is the Item Help Book.  This will teach you the basics of operating and
+manipulating Items.  Items are one of the most important factors of this game.
+They determine how well you do in battle, how much stats you gain when you
+level, etc.  The first thing about Items you should know is how to pick them
+up.  If you wish to do so, simply enter Get and the Object's name.  For
+example, if there is a stick on the ground, you would type: Get stick and you
+will pick it up.  Once you have it, you can view the Item you picked up in your
+Inventory by typing inventory.  If you don't want it anymore, just type Drop
+and the Item's name while it's in your inventory.  You can observe it even
+closer by typing Look and the name of the Item.  This might give you some
+additional info on it.  If the item looks like it is wearable, it is called
+Equipment or EQ for short.  If you wish to wear it, type wear and then the eq's
+name.  Your character will automaticly put the EQ on in a slot if there is no
+other EQ equipped there.  However, you cannot if there that slot is filled and
+it will remain in your inventory.  In order to see what you have equipped you
+can enter Equipment.  This will bring up a list of all the slots you are
+currently using and what is there.  All items are designated to a certain slot.
+For example, a Bracelet will usually only be able to be worn on the wrist.  
+There are two Wrist slots.  Therefore, you can wear two pieces of EQ that are
+made for wrists.  Some EQ have the ability to be worn in many places.  If you
+wish to assign this piece to a specific slot, enter Wear (EQ name) (Slot name).
+An example: Wear cloth waist.  This will put the Cloth around your waist if
+there is nothing already there and it is able to be equipped there.  If you
+don't want to wear it anymore, just type Remove and the Item's name while you
+have it equipped.  In addition to what you can wear, there are also slots for
+Wield and Hold.  The command Wield is for Weapons while Hold is for objects you
+cannot wear.  For these, type Wield or Hold (respectively) and then the EQ
+name.  If you wish to give an Item to someone, just enter Give, then the Item's
+name, then the person's name.  Also, Wear, Drop, Remove, Give and Get can be
+combined with All to do that action to all that is in your Inventory or on the
+ground at that moment.  If you wish to completely get rid of an object, you can
+simply enter Junk to dissolve it, Sacrifice to get a coin for it and dissolve
+it, or Donate to send it to the Donation Room found in Phobos.  All of these
+commands have to have the Item's name after it and can also be affected by the
+All addition.    
+~
+E
+ItemsPage2~
+   Some Items are containers and can hold other Items which takes off the
+amount of Items in your Inventory that limits the amount of Items you can have
+at a time.  Containers have caps that must be opened to be used but can also To
+open them, simply enter Open and the name of the container.  Closing would use
+Close.  To get an item out of a container, type Get, then the Item name, then
+the container name.  Ex: Get stick bag.  To Put something in a container, enter
+Put then the object name, then the container.  For each command, the cap must
+be open.  There is another type of Item called a Scroll.  These Scrolls have
+magical properties and will do different things when you enter Recite and the
+scroll name and sometimes the object you want it to affect after that.  For
+example, the Scroll of Identify will show all stats of an Item (say, a stick)
+when recited on it.  To do this: you would type: Recite identify stick.  This
+will then show the stats of the stick because you recited the scroll on it.  
+Other Scrolls include the Scroll of Recall and the Scroll Written on Blue
+Paper.  Potions are much like Scrolls in that they have magical properties.  
+The difference is that they are Quaffed and they will only affect the user.  
+For example, a Health Potion will recover your HP (Hit Points).  To make it do
+this, you would enter: Quaff Potion and it would then be cast on you and your
+HP would have recovered.  There is one more type of Item that you should know
+about: That is Food and Water.  Without these, You will not be able to
+regenerate your stats.  If you wish to eat, simply enter Eat and the food's
+name.  To drink, type Drink and the liquid container's name.  Beware, though,
+water containers can run out of liquid and must be refilled either by spell, or
+by the fountain in Phobos.  To refill a container, type Fill and the
+container's name, then the name of the liquid producer, such as a fountain.  
+If you are unsure about what the content of a piece of food or water is, you
+can Taste or Sip each one to make sure it seems okay.    
+~
+#53
+book rooms~
+the Book of Rooms~
+The Book of Rooms  is sitting on a shelf here.~
+~
+12 0 1 0
+0 0 0 0
+0 0 0 0
+E
+book rooms~
+   This is the Room Help Book.  There are six directions: north, south, east,
+west, up, and down.  You can either type the whole thing or just the first
+letter of the word.  For example instead of entering north, you can enter n.  
+Both will make you go north.  Doors can be opened with the command open door
+and then the direction.  The command close door and then the direction will
+close it.  You can also unlock and lock the doors using a similar command:
+Unlock (or lock) door then the direction.  This next section will tell you
+about the different types of environments rooms can have and how to deal with
+each of them.  In rooms where there is water and you don't have a boat, you
+will get this message: You need a boat to go there.  All you need is a boat in
+your inventory and you can go in any water.  You can also cast a spell called
+water breathing on yourself to swim in noswim water.  In rooms where you must
+fly, and you don't have the spell on, you will get this message: You must be
+able to fly to enter!  There is a spell called 'float' and you need it to go to
+these areas.  If your 'float' spell runs out, you will fall to your death and
+die a miserable one at that!  There are also dark rooms.  You will notice it
+says "Someone says," when anyone talks.  That means you can't tell who it is.
+Here, you need a form of light such as a lantern to see.  You will also notice
+you can't see anything in your inventory...  This can be a big disadvantage if
+your in a dark room with no light.    
+~
+#54
+book guilds~
+the Book of Guilds~
+The Book of Guilds is sitting on a shelf here.~
+~
+12 0 1 0
+0 0 0 0
+0 0 0 0
+E
+book guilds~
+   This is the Guild Help Book There are four guilds in this realm.  They all
+have different skills, attributes, and abilities.  They are: Mage, Cleric,
+Thief, and Warrior.  Mages are magical casters, their hit points are low but
+their mana is high.  They excel in attack magic and harmful spells.  Mages are
+slightly hard to manage, clearly the choice for a player who has suffered the
+rigors of MUDs before.  Clerics are also magic casters, but their hitpoints are
+a little higher than Mages and their mana is a little less.  They are adept at
+healing spells and great for parties.  Clerics can heal themselves in battle
+and also have the powerful spell of Sanctuary, which grants them double
+protection against damage.  Thieves are the dark class; they have ability to
+use many hiding and secretive skills.  Their hit points are much higher than
+the magic classes but they do not gain mana.  Thieves have skills such as
+Backstab and Sneak and generaly have to use other tactics in battle than just
+head on fighting.  Warriors are the pure fighting force guild.  They excel in
+fighting and their hit points are the highest of any guild.  Warriors do not
+gain mana, either, but they have fighting skills.  Usually a warrior just runs
+in to a battle headlong with out thinking, and has the courage to rescue their
+friends.  After a Player reaches the level of 30, they get a special privilege.
+It is called Multiclassing.  The Guildmasters of Phobos allow you to level in
+ONE extra guild so you can gain only SOME of that guild's skills.  When you
+gain skills or spells in other guilds, they are not as strong as if that were
+your original guild.  This can also be done again at level 45 and then again at
+level 60 Another thing you should know about is Stat Buying.  Once you reach
+level 60 in your first guild, you may buy stats such as hit points and mana.  
+By paying a large sum of money to Stan the Stat Shack Man, you can boost your
+hit points, mana and movement above their normal level.  Each class has a
+different amount of stats they can buy up to before they have to stop.  
+Another thing you might want to be aware of is the Secret Guild that you can
+join once you reach the level of 25...  Hidden somewhere in the city of Phobos
+is a secret guild where it is possible to become a member of...  This guild is
+secretive and gives certain special abilities to its members.  This MUD
+features In Guild Leveling.  This means, in order to level you must go to your
+guild and type Gain Level.  You must also have the correct amount of
+experience, and if you are multiclassing, the correct amount of gold.  A map of
+Phobos is contained at CA or the Center Agora (the center of Phobos, go up),
+This map shows the way to each of the guilds.  Another thing that must be done
+at guilds is the practicing of skills and spells.  You don't automatically gain
+skills and spells, you must pick and choose which skills that would best suit
+you.  You must enter Practice at your guild to see which skills you have left
+unpracticed.  You can also practice Weapon Proficencies.  These are how well
+you can handle certain types of weapons.  If you have "Daggers" praticed
+completely, and the weapon you are using is a Dagger, you will do more damage.
+Another important thing to know is the Level command, when you type Level it
+will display how much exp you need for each class.    
+~
+#55
+book combat~
+the Book of Combat~
+The Book of Combat is sitting on a shelf here.~
+~
+12 0 1 0
+0 0 0 0
+0 0 0 0
+E
+book combat~
+   This is the Combat Help Book.  First of all, you have statistics, or stats.
+To find out what your stats are, type score sheet, or just sc.  This will bring
+up a large sheet concerning yourself.  The first part gives you your name,
+class, level of your primary class, and your age.  The second part will give
+you your HP (how much damage you can take until you die), Mana (your "energy"
+to cast spells), and Movement (restricts how far you can walk).  It then
+displays your Exp (Experience Points), which you need to level up.  Kill
+monsters to get this, then level at your guild.  Next you have your Armor (the
+less you have, the less chance the enemy can hit you; goes from -100 to 100),
+then Alignment (1000=pure good, -1000=pure evil, 0=neutral), then your total
+play time, it also displays how much gold you have.  Next you have your Damroll
+(the more you have, the harder you hit), and your Hitroll (The more you have,
+the more chance for you to hit the enemy).  Next is something important to
+watch, you have STR (Strength, which makes you hit harder and makes you able to
+carry more weight), Wis (Wisdom, how many practices you will get when you
+level), Int (Intelligence, how much mana you will get when you level) There is
+also Dex (Dexterity, how much movement you get when you level), Con
+(Constitution, how much HP you will get when you level), and finally Cha
+(Charisma, lowers prices on products you buy).  The last three lines give you
+info on your inventory, stance, and affects (Spells on you at the moment.  
+NOTE: not there if there are no spells on you).  Before you rush into a battle,
+you might want to see how tough the opponent is in comparison to you.  Type
+concider or just con and the mobs name to size yourself up to the mob.  You
+might get something like, 'The perfect match!  '.  This means you're about
+equal.  Beware though, sometimes they can look weaker than they actually are!
+  
+~
+#56
+book FAQ~
+the Book of FAQs~
+The Book of FAQs   is sitting on a shelf here.~
+~
+12 0 1 0
+0 0 0 0
+0 0 0 0
+E
+book FAQ~
+&RMail Firrox some questions and I'll answer them and put them in.&n
+
+&RQuestion&n: I found a bug... what do I do?
+&GAnswer&n: Enter bug [whatever the bug is] and we'll get to it.
+
+&RQuestion&n: Oooo. Pretty colors! How do I do that?
+&GAnswer&n: You have to put a & plus a letter next to it to make a color (such as & and R will make bright red). 
+
+&RQuestion&n: These commands are too long to type. Any help?
+&GAnswer&n: &CALL&n commands can be shortened down to around their first 2 letters. Such as Gossip can be shortened to just go.
+
+&RQuestion&n: Is there some way that I can get all these commands in one consise list?
+&GAnswer&n: Yup, just type "commands"
+~
+#57
+book basics~
+the Book of Basics~
+The Book of Basics is sitting on a shelf here.~
+~
+0 0 1 0
+0 0 0 0
+0 0 0 0
+E
+book basics~
+   This is the Basics Help Book.  First we will go over the Autos.  These
+commands will give you more information and help in battle.  First, you'll
+probably want AutoExit.  This command automatically displays the exits of the
+room when the description is shown.  Very handy for finding your way around the
+MUD.  Look which allows you to actually look at the room and see the people,
+objects, mobs, title of the room, and the description of the room.  When you
+look, you can see the room exits at the bottom of the total room description.
+It should look something like this: [Exits: u ].  This indicates that there is
+an exit going up.  The next couple of Autos we will be dealing with are for
+battle, so just keep them in mind for further use.  If you plan to go battling
+enemies along with friends, you will want to help them as they battle, right?
+This is where Autoassist comes in.  Autoassist will automatically help out your
+buddies if they start battling.  But they will not help you if you start the
+battle.  Only if they have Autoassist on will they then help you.  There are no
+visible changes when you activate this Auto.  Just enter Autoassist and it will
+activate.  After a battle there will be many spoils for the taking.  To save
+you the trouble of typing "get all corpse", there is an option called Autoloot.
+Autoloot automatically loots the corpse for any and all items or equipment it
+may be carrying.  Along with items, there is also gold you can acquire from
+corpses.  To automatically get the gold after a kill, activate Autogold.  
+Autoloot is the same as Autogold: it will also take gold from the corpse.  
+However, if you wish to only recieve gold, turn off Autoloot and turn on
+Autogold.  If you're in a group, though, your friends may want some money, too.
+In this case, activate Autosplit, which will automatically split the gold
+evenly throughout your group.  Again, all these autos will not have a visible
+change.  By now you have noticed a bar at the bottom after every command.  
+There are some numbers and some letters in brackets <> or just a simple >.  
+This is your Prompt bar.  This little wonder will display your hit points, mana
+points, and movement points (all of which are essential to Mudding).  There are
+three main ways to see the Prompt bar: There is Prompt none, which will only
+leave a >.  There is Prompt all, which displays hit, mana, and move points
+(abbreviated with H/M/V).  Then there is the specific Prompt.  Using Prompt
+[H/M/V] or any combination of the three.  For example, if you put in Prompt HV,
+then it will display your hit and movement points.  Also Prompt H = displays
+hit points only.  If you have a program that displays color, you're in luck,
+this next section is on color.  If not, take a breather and be jealous of those
+who do.  The Color command will change the amount of color you see as you go
+along in the MUD.  There are four levels.  There is Color off, which will turn
+it off, Sparse, which will only display a few, Normal, which will be a little
+more, and Complete which will dazzle your eyes with color.  Finally, there is
+the Social list which will show the different Emotes you can do.  Just enter
+Social and it will pop up.  Then enter any of the words from the list to get a
+funny action to be preformed.  You should try it.  You can also Emote things
+that aren't on the social list.  Commands like 'Emote does a little dance.  '
+will display to your friends: [so-and-so] does a little dance.    
+~
+#58
+link linking book~
+a linking book~
+A linking book lies here.~
+A link to Ockham's Office.
+~
+24 0 16385 0
+954 0 0 0
+0 0 0 0
+#61
+Marriage License~
+a Marriage License~
+A Couples Marriage License lies here.~
+~
+16 0 1 0
+0 0 0 0
+0 0 0 0
+#62
+Clan Leader's Cloak~
+&wClan Leader's Cloak&n~
+A very important looking cloak is lying here.~
+~
+9 32 1025 2
+100 0 0 0
+0 0 0 101
+#63
+Soul Pendant~
+&cSoul Pendant&n~
+A pendant containing the soul of a mortal is lying here.~
+~
+11 33 5 0
+0 0 0 0
+0 0 0 101
+#69
+boxers might~
+Boxers of Might~
+OMFG! It's the Boxers of Might!~
+Boxers of Might
+~
+9 1 49 128
+0 0 0 0
+0 0 0 100
+A
+1 15
+A
+9 -5
+#77
+'Team Elendril' ballcap~
+'Team Elendril' ballcap~
+A 'Team Elendril' baseball cap is lying here... it looks like one of the builders dropped it.~
+~
+11 0 17 0
+0 0 0 0
+0 0 0 61
+#80
+A Simple Piece of Parchment~
+a Piece of Parchment~
+A Simple piece of Parchment lies here~
+Roses are &RRed,&n
+ Violets are &BBlue,&n
+Here is a riddle
+ Just for you:
+&GAhhhhhh, yes young one, good have you learned, but your learning are you not done, no
+&nRemember my pupil: &BSadness&n leads to &YHate&n, &YHate&n leads to &RAnger&n, and &RAnger&n leads to the &WDarkside&n, never stray to the darkside.
+~
+16 0 1 0
+0 0 0 0
+0 0 0 0
+#87
+holy hand grenade~
+the &yHoly&G Hand Grenade&n~
+The Holy &GHand Grenade&n is lying here, you might want to check the pin!~
+~
+5 15794316 8193 128
+10 10 10 12
+0 0 0 6
+A
+18 20
+A
+19 20
+#88
+DeimosMUD Deimos MUD t-shirt shirt~
+a DeimosMUD t-shirt~
+A DeimosMUD t-shirt lies here, buy yours online!~
+This shirt can be obtained at our website- ask an IMM if you don't know it.
+~
+15 8388640 9 0
+200 0 -1 0
+3 0 0 10
+A
+1 5
+A
+2 5
+A
+3 5
+A
+5 5
+A
+4 5
+#90
+A pair of Waffle Stompers.~
+Waffle Stompers~
+A pair of REALLY big boots rest here.~
+~
+12 32 65 8
+0 0 0 0
+0 0 0 0
+#91
+A Helm of Darkness~
+a Helm of Darkness~
+A very dark looking helmet rests in the very center of the room.~
+~
+12 32 17 0
+0 0 0 0
+0 0 0 0
+#92
+The Bracelet of Syrth~
+the Bracelet of Syrth~
+A braclet with many ingravings lies here.~
+~
+12 32 4097 128
+0 0 0 0
+0 0 0 0
+#93
+The Pants of Whomever He Slept With Last Night~
+the Pants of Whomever He Slept With Last Night~
+A very, well, used pair of pants lies here.~
+~
+12 32 33 8192
+0 0 0 0
+0 0 0 0
+#94
+The One Ring~
+the One Ring~
+The One Ring is here, its is one of a kind.~
+~
+12 32 3 512
+0 0 0 0
+0 0 0 0
+#95
+panties underwear~
+a pair of wet panties.~
+Lace panties are here on the ground?!?~
+~
+0 0 2049 0
+0 0 0 0
+0 0 0 0
+#96
+The Glove's of the Dark Mage~
+the Glove's of the Dark Mage~
+Some freaky gloves lie here.~
+~
+12 32 129 262144
+0 0 0 0
+0 0 0 0
+#97
+blood holy grail~
+the &yHoly Grail&n~
+The &yHoly Grail&n is sitting here.~
+~
+17 8388640 16385 8192
+999 999 13 0
+1004 0 0 0
+#98
+cat nine tails whip~
+a Cat of Nine Tails~
+A wicked looking whip seems to quiver as you glance at it.~
+This wicked instrument of pleasure and pain seems alive with the taste
+of its past victims.  It seems to move toward you as if it wanted to
+remember your scent.  Just in case your next!
+~
+5 271581184 10241 276955264
+9 10 10 2
+0 0 0 0
+A
+18 90
+A
+19 90
+A
+24 100
+#99
+scythe death~
+the Scythe of Death~
+The Scythe of Death rests heavily on the ground.~
+~
+5 30220 8193 0
+0 15 15 5
+40 0 50000 0
+E
+scythe death~
+It is a very heavy scythe.  The grey handle is made from hard wood and the
+long iron blade is completely smooth from countless years of use.  It feels
+cold to the touch.
+~
+$~

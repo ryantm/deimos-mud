@@ -1,0 +1,506 @@
+#7200
+sheriff~
+the bitter sheriff~
+The bitter Sheriff of Phobos is here, demanding the respect of all.
+~
+The Sheriff of Phobos is one of the oldest people in Phobos.  His age has not
+destroyed his aura though.  He still possess an aura of Justice and Law that no
+one feels the power to break.  Evil flees wherever he walks.  A sword hilt
+glistens from under his dark red cape.    
+~
+190536 1160 0 E
+66 7 3 29d34+8924 9d9+15
+762300 5356320
+12 12 1
+BareHandAttack: 3
+E
+#7201
+hellhound dog hound fido~
+the hellhound~
+An angry hellhound is here, searching for anything to eat.
+~
+The hellhound is a rugged-looking dog that is very large and has extremely
+large teeth.  The large, angry pooch smells horrible and has bits and pieces of
+rotted meat hanging around its teeth.  There are a number of blood strains on
+his fur.    
+~
+65768 33792 -240 E
+39 16 -3 19d19+2809 6d5+9
+266175 1521000
+12 12 1
+BareHandAttack: 4
+E
+#7202
+hellhound dog hound fido~
+the hellhound~
+A hellhound is here sleeping.
+~
+The fido is a rugged-looking yet small dog with extremely sharp teeth.  The
+small, angry pooch smells horrible and has bits and pieces of rotted meat
+hanging around its teeth.  There are a number of blood stains on its fur.  The
+hellhound is a rugged-looking dog that is very large and has extremely large
+teeth.  The large, angry pooch smells horrible and has bits and pieces of
+rotted meat hanging around its teeth.  There are a number of blood strains on
+his fur.    
+~
+65768 33792 -240 E
+39 16 -3 19d19+2809 6d5+9
+266175 1521000
+8 8 1
+BareHandAttack: 4
+E
+#7203
+merchant~
+the miserable-looking merchant~
+The miserable-looking merchant is here selling his goods.
+~
+The merchant is here clad in what looks like once very fine robes.  Now they
+are torn to shreds and covered in soot.  Still, despite his bitter expression
+he makes a futile attempt to sell you some rather useless items.    
+~
+72 1024 0 E
+60 15 1 30d30+7020 8d8+10
+630000 3600000
+12 12 1
+BareHandAttack: 13
+E
+#7204
+peasant~
+the bitter peasant~
+A peasant is here whining angrily about life.
+~
+The peasant is dressed in pieces of very old and dirty fabric, and smells like
+last year's garbage.    
+~
+588 1024 0 E
+59 17 0 29d29+6980 8d8+9
+609175 3481000
+12 12 0
+BareHandAttack: 13
+E
+#7205
+tumble weed~
+a tumble weed~
+A tumble weed rolls around here.
+~
+Straight out of the Wild West movies, this tumble weed looks like a...  A
+tumble weed!    
+~
+8 0 0 E
+0 20 0 1d1+0 1d1+0
+0 0
+12 12 0
+E
+#7206
+Monkey Orangutan~
+"Monkey" the Orangutan~
+"Monkey" the Royal Orangutan of Phobos hops around repeating your every word.
+~
+It's a monkey.  It's an orangutan.  It's really annoying, and you want to kill
+it.    
+~
+73 1024 0 E
+51 -3 -3 25d25+5201 6d7+10
+455175 3601050
+12 12 0
+BareHandAttack: 10
+SpecProc: magic_user
+E
+T 7206
+#7207
+Dark Sentry~
+the Dark Sentry~
+A Dark Sentry is here guarding his post watchfully.
+~
+The Dark Sentry of Phobos is garbed in black robes and silver plated armor.  
+His armor may seem to be more for show, but it is actually some decent
+protection.  His eyes show nothing of his emotions.  He seems to be ready to
+stop at nothing to defend Phobos from any form of violence.    
+~
+6218 1024 0 E
+56 20 9 28d28+6000 8d8+11
+548800 5136790
+12 12 1
+BareHandAttack: 3
+E
+#7209
+Leon weaponsmith~
+Leon, the weaponsmith~
+Leon the weaponsmith is standing here.
+~
+Leon is a short man, but he is very built.  He is bald, and wears a dirty gray
+shirt.  His thick, blue pants are stained with dirt and soot.    
+~
+2058 1024 450 E
+64 10 2 30d30+7952 10d8+13
+716800 4096000
+12 12 1
+BareHandAttack: 3
+E
+#7210
+alis baker~
+Alis, the baker~
+Alis the baker glares at you, impatiently waiting for you to buy something.
+~
+A fat, bitter-looking baker is the best way to describe Alis.  He has a large
+number of scars scattered about his body.    
+~
+2058 1032 -250 E
+58 17 1 29d29+6828 8d8+8
+588700 4365020
+12 12 1
+BareHandAttack: 13
+E
+#7211
+zoey grocer~
+Zoey, the grocer~
+Zoey, the thin grocer, is here to serve you as she abnoxiously chews her gum.
+~
+Zoey is a short, thin young woman who is amazingly much stronger than she
+looks.    
+~
+10 1024 250 E
+59 15 -1 22d26+5040 8d8+9
+709175 4481280
+12 12 2
+BareHandAttack: 13
+E
+#7212
+dongo blacksmith~
+Dongo the blacksmith~
+Dongo, the extremely skilled blacksmith of Phobos, is here.
+~
+Dongo is a very muscular man with short, dark hair.  Although he wears a white
+shirt and thick brown pants, he is extremely dirty and covered in sweat.    
+~
+65546 1024 115 E
+54 10 0 27d27+3210 7d7+10
+510300 2916000
+12 12 0
+BareHandAttack: 5
+E
+#7214
+alastor wizard~
+Alastor, the wizard~
+Alastor the wizard walks around behind the counter, talking to himself.
+~
+Alastor the wizard looks old and senile, and yet he looks like a very powerful
+wizard.  He is equipped with the stereotypical blue cloak and pointed hat, and
+is wearing many fine rings and bracelets.  Alastor also has an extremely long,
+white beard.    
+~
+8219 13500 850 E
+67 8 2 28d28+8792 9d9+14
+790239 5000000
+12 12 1
+BareHandAttack: 12
+SpecProc: super_magic_user
+E
+#7215
+old wiseman~
+an old wiseman~
+An old wiseman is sitting here.
+~
+Aged beyond all possible means, no one remembers when he first arrived in
+Phobos.  He does not speak often, and is always on quest to find one of the
+rarest items in the land, the Silver Disc.  Only a handful of people have ever
+stumbled upon it, and the wiseman is the only one who understands how to
+utilize its amazing powers.    
+~
+6348827 46140 0 E
+200 -20 10 30d30+80100 28d17+40
+5000000 10000000
+10 10 1
+BareHandAttack: 12
+SpecProc: gold_chipper
+E
+#7217
+stu stat shack dude~
+Stu the Stat Shack Dude~
+Stu the Stat Shack Dude appraises your stature as you approach him.
+~
+Stu is a young, strange-looking man.  It seems like he comes from a long line
+of Stat Shack Dudes because his name kinda rhymes with his profession.  His
+glasses have a strange tint in them which makes them seem very out of the
+ordinary.    
+~
+57370 1152 0 E
+52 20 0 26d26+20000 7d7+2
+1000000 10000000
+12 12 1
+BareHandAttack: 14
+E
+#7218
+lavan paraplegic~
+Lavan the paraplegic~
+Lavan the paraplegic is here, sitting in his wheelchair and wiping blood off his hands.
+~
+Lavan is a short, tan man who is confined by his wheelchair.  He is an
+extremely grusome middle-aged person.  And he is the only person that could be
+found that would embalm lifeless corpses.  It looks like his left eye is also a
+glass eye!    
+~
+2059 1024 -300 E
+57 20 1 12d13+6598 6d8+4
+568575 3249000
+12 12 1
+BareHandAttack: 13
+SpecProc: embalmer
+E
+#7222
+rachel sator seamstress leather~
+Rachel, the seamstress~
+Rachel, the town's seamstress, is sitting here, sewing together a piece of leather.
+~
+Rachel looks as if she has been doing this all her life.  The skill and time
+she puts into each piece of armor is almost overwhelming.  Rachel is a short,
+pale woman with a long, blue and yellow dress.  Her blonde hair is tied in a
+bun.    
+~
+10 1024 800 E
+62 9 2 29d29+7080 8d8+12
+672700 3844000
+12 12 0
+BareHandAttack: 13
+E
+#7223
+Dilbis scribe master~
+Dilbis, the master scribe~
+Dilbis, the master scribe, sits here, writing a fine, new scroll.
+~
+Dilbis the Master Scribe of Phobos is that of high nobility.  His family has
+been head of the art of Magic in Phobos since its beginning.  No question about
+it he can charge whatever price he wants because of the wealth his family has
+accumulated over the years.  Sitting in his often cluttered shop that is filled
+to the brim with maps and scrolls of magical properties.  He is an eccentric
+man with a funny pair of half-glasses which only slighty skew his bright green
+eyes.    
+~
+138 1024 200 E
+60 10 1 25d25+6400 8d8+10
+830000 3600000
+12 12 1
+BareHandAttack: 13
+E
+#7224
+incarnation good~
+the &Bincarnation&n of &Bgood&n~
+The &BIncarnation&n of &BGood&n stands here, fixing and mending all that stands in its path.
+~
+It looks unfinished.  It's good, and it wont kill you (unless you try to kill
+it).  Approach with ease.    
+~
+3270728 9450750 0 E
+300 -40 10 30d30+180100 42d26+60
+5000000 10000000
+12 12 0
+E
+T 7224
+#7232
+dontonelle armourer~
+Dontonelle, the armourer~
+Dontonelle, the armourer of Phobos, is standing here.
+~
+Dontonelle is a tall, muscular man with short brown hair.  It is quite obvious
+that he hasn't shaved recently as his stubble is quite visible.  Dontonelle
+wears a dirty green bandana on his head.  His rugged-looking white shirt is
+half-buttoned, revealing his mass of chest hair.  His pants are blackened with
+dirt.    
+~
+2058 1024 450 E
+63 5 7 30d30+8417 9d9+12
+694575 3969000
+12 12 1
+BareHandAttack: 13
+E
+#7233
+sasuka hunter~
+Sasuka, the treasure hunter~
+Sasuka, the town treasure hunter, is here, ready to sell you exotic goods from around the world.
+~
+Sasuka is a world-famous treasure hunter.  When she was young, she was a famous
+thief, but as she grew older she began to search for more valuable things.  On
+top of all of that, she is also a trained warrior and mage, and has won
+numerous tournaments.  Sasuka is a tall, thin woman with thin eyes revealing
+that she not from around here.  Her long, black hair extends almost to here
+waste.  A large dagger is visibly strapped to her left leg.  Her tight clothing
+shows off her curvy figure.    
+~
+2075 1172 -100 E
+65 8 2 30d30+7450 9d9+20
+1000000 4969000
+12 12 2
+BareHandAttack: 11
+SpecProc: magic_user
+E
+#7246
+clan guard~
+the clan guard of &YWHY!&n~
+A stern-looking clan guard stands here.
+~
+It looks unfinished.
+~
+10 1024 0 E
+80 4 6 30d30+12900 11d11+16
+1120000 6400000
+12 12 1
+E
+#7255
+mr. fritters pissed-off horse~
+Mr. Fritters the pissed-off horse~
+Mr. Fritters the pissed-off horse is angrily standing here with a bitter expression.
+~
+Mr.  Fritters is one unhappy horse.  He is big, brown, and smelly.  His owner
+never washes him, and he has hordes of flies zipping in, out of, and around his
+ears.  Mr.  Fritters isn't very friendly.  He doesn't want to be friends with
+you.  He just wants to die.  Poor Mr.  Fritters.    
+~
+10 1024 -765 E
+40 12 -5 20d20+1000 5d5+20
+280000 1600000
+12 12 1
+BareHandAttack: 4
+E
+#7256
+small boy~
+the small boy~
+A small boy can be seen peeking over the counter. Is he in charge of this establishment?
+~
+The little boy has light brown hair in a mushroom style.  He has a large
+assortment of freckles on his face, and he has bright blue eyes.    
+~
+10 1024 0 E
+10 18 -8 5d5+356 1d1+2
+17500 100000
+12 12 1
+E
+#7258
+gohar guildmaster guild warrior~
+Gohar, the warriors' guildmaster~
+Gohar, the master warrior, stands here honing his sword.
+~
+It looks unfinished.
+~
+10 1024 1000 E
+75 3 10 30d34+12100 10d10+21
+984375 5625000
+12 12 1
+BareHandAttack: 3
+E
+#7260
+ryle guildmaster master cleric~
+Ryle, the clerics' guildmaster~
+Ryle, the clerics' guildmaster, kneels here revering the gods.
+~
+You are in no doubt that this guildmaster is truly close to the dark god
+Deimos; he has a peaceful yet dark expression.  You notice that he is
+surrounded by a white aura.    
+~
+188426 13500 0 E
+75 5 5 30d30+4980 10d10+15
+984375 5625000
+12 12 1
+BareHandAttack: 12
+E
+#7261
+gladys file handler~
+Gladys, the File Handler~
+The disgruntled File Handler, Gladys, sits here.
+~
+Wow, this is pathetic.  The Government of Phobos has decided that the File
+Handler's job is so unimportant, and her attitude so foul, that they have
+stationed her at the city dump.  She is a vicious person who only works when
+she wants to.    
+~
+131083 1024 0 E
+47 18 -1 23d23+4518 6d6+7
+386575 2209000
+10 10 2
+SpecProc: cussgiver
+E
+#7276
+magress guildmaster master mage~
+Magress, the mages' guildmaster~
+Magress the Sorceress sits in a chair contemplating archaic texts.
+~
+Even though Magress looks old and tired, you can clearly see the vast amount of
+knowledge she possesses.  She is wearing fine magic clothing, and you notice
+that she is surrounded by a blue shimmering aura.    
+~
+188427 4195328 1000 E
+75 6 5 26d26+8670 10d10+14
+984375 5625000
+12 12 2
+BareHandAttack: 12
+SpecProc: super_magic_user
+E
+#7279
+phil postmaster~
+Phil the High Postermaster~
+Phil the High Postermaster is here grumbling about all the holidays.
+~
+Phil is a large, thin, and observant man who is very organized; the kind of
+person you would love to have running your post office.  He seems a bit
+aggravated, though, over all the holidays that cause the mail volume to go up.
+  
+~
+11 1024 0 E
+42 12 0 21d21+3628 6d6+7
+308700 1764000
+12 12 1
+BareHandAttack: 13
+SpecProc: postmaster
+E
+#7289
+clan guard~
+the clan guard of &RG&Wo&RD&n~
+A stern-looking clan guard stands here.
+~
+He expresses no emotion.    
+~
+10 1024 0 E
+80 4 6 30d30+12900 11d11+16
+1120000 6400000
+12 12 1
+E
+#7292
+clan guard~
+the clan guard of &DO&Wo&DC&n~
+A stern-looking clan guard stands here.
+~
+He expresses no emotion.    
+~
+10 1024 0 E
+80 4 6 30d30+12900 11d11+16
+1120000 6400000
+12 12 1
+E
+#7293
+Ashley~
+Ashley, the bank teller~
+Ashley, the bank teller, is standing here.
+~
+She's a bank teller.  Any questions?    
+~
+11 1024 0 E
+48 11 0 24d24+4444 6d6+9
+403200 2304000
+12 12 1
+SpecProc: bank
+E
+#7298
+alias guildmaster master thief~
+Alia, the thieves' guildmaster~
+The thieves' guildmaster, Alia, is sitting here.
+~
+You realize that whenever she moves, you fail to notice it - the way of the
+true thief.  She is to be dressed in poor clothing, having the appearance of a
+beggar.    
+~
+65562 295936 1000 E
+75 -5 5 28d28+8670 10d10+16
+984375 5625000
+10 10 2
+BareHandAttack: 11
+E
+$

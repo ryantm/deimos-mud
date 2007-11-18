@@ -1,0 +1,199 @@
+#9500
+Legends of the Field~
+   Here stretch the hallowed grounds of the greatest warrior conquerers in history.
+The eagle's meeting area is a place for adventurers to gather and consider very
+carefully the challenge that lies ahead.  Coming onto the open field signals that
+you intend to engage the forces ahead of this point.
+~
+95 c 0
+D0
+~
+~
+0 0 9501
+S
+T 9500
+#9501
+Onto the Field~
+   A field strewn with unusually large boulders opens up north, leading to a hill.
+A large sound can be heard just over the hill, very much like the roaring of the
+wind.  Passing birds land on the boulders but then seem to fly off suddenly.
+~
+95 c 0
+D0
+~
+~
+0 0 9502
+D2
+~
+~
+0 0 9500
+S
+#9502
+Field of boulders~
+   The size of these boulders is even larger than they first appeared.  A good two
+dozen of them seem to have landed from outer space and embedded themeselves right
+here, but nowhere else as far as the eye can see.  The wind picks up a bit and
+more sound can be heard over the hill to the north.
+~
+95 0 0
+D0
+This huge boulder looks like it can nevertheless be pushed to the side.
+~
+boulder~
+1 0 9505
+D1
+~
+~
+0 0 9503
+D2
+~
+~
+0 0 9501
+D3
+~
+~
+0 0 9504
+S
+#9503
+New BuildWalk Room~
+Nothing.
+~
+95 0 0
+D0
+~
+~
+0 0 9507
+D3
+~
+~
+0 0 9502
+S
+#9504
+New BuildWalk Room~
+Nothing.
+~
+95 0 0
+D0
+~
+~
+0 0 9506
+D1
+~
+~
+0 0 9502
+S
+#9505
+Up the hill~
+   The field slopes upward toward the top of a hill.  Loud noise may now be heard
+from over the ridge in the form of trampling and chaos.  Small flashes of light
+glint across the peak, while tremors enter your feet below.
+~
+95 0 0
+D0
+~
+~
+0 0 9508
+D1
+~
+~
+0 0 9507
+D2
+~
+boulder~
+1 0 9502
+D3
+~
+~
+0 0 9506
+S
+#9506
+Toward the hill~
+   The size of these boulders is even larger than they first appeared.  A good two
+dozen of them seem to have landed from outer space and embedded themeselves right
+here, but nowhere else as far as the eye can see.  The wind picks up a bit and
+more sound can be heard over the hill to the north.
+~
+95 0 0
+D1
+~
+~
+0 0 9505
+D2
+~
+~
+0 0 9504
+S
+#9507
+Toward the hill~
+   The size of these boulders is even larger than they first appeared.  A good two
+dozen of them seem to have landed from outer space and embedded themeselves right
+here, but nowhere else as far as the eye can see.  The wind picks up a bit and
+more sound can be heard over the hill to the north.
+~
+95 0 0
+D2
+~
+~
+0 0 9503
+D3
+~
+~
+0 0 9505
+S
+#9508
+Climbing the hill~
+You are in an unfinished room.
+~
+95 0 0
+D2
+~
+~
+0 0 9505
+D4
+~
+~
+0 0 9509
+S
+#9509
+Near the hilltop~
+You are in an unfinished room.
+~
+95 0 0
+D0
+~
+~
+0 0 9510
+D5
+~
+~
+0 0 9508
+S
+#9510
+Atop the hill~
+You are in an unfinished room.
+~
+95 0 0
+D2
+~
+~
+0 0 9509
+S
+#9511
+Atop the hill~
+You are in an unfinished room.
+~
+95 0 0
+S
+#9515
+An unfinished room~
+You are in an unfinished room.
+~
+95 0 0
+S
+#9516
+In the clouds!~
+You are in an unfinished room.
+~
+95 0 0
+S
+$~

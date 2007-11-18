@@ -1,0 +1,90 @@
+3
+pro
+24
+c 'protection from evil'
+0
+4
+gate
+10
+c 'gate'$1
+1
+4
+find
+17
+c 'find target'$1
+1
+2
+bl
+8
+c 'bless
+0
+2
+df
+14
+drink fountain
+0
+2
+fl
+9
+c 'float'
+0
+1
+b
+7
+bash $1
+1
+3
+loc
+16
+c 'locate obj'$1
+1
+3
+dis
+18
+c 'dispel magic'$1
+1
+3
+sum
+12
+c 'summon'$1
+1
+4
+sanc
+8
+c 'sanc'
+0
+3
+aur
+8
+c 'auro'
+0
+2
+di
+12
+c 'detect i'
+0
+3
+bli
+9
+c 'bli'$1
+1
+3
+hea
+8
+c 'heal'
+0
+2
+id
+8
+c 'id'$1
+1
+3
+rec
+8
+c 'word'
+0
+4
+done
+12
+put all have
+0

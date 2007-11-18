@@ -1,0 +1,235 @@
+4
+west
+14
+push spir west
+0
+4
+east
+14
+push spir east
+0
+5
+south
+15
+push spir south
+0
+5
+north
+15
+push spir north
+0
+1
+a
+62
+bash a;bash a;bash a;bash a;bash a;bash a;bash a;bash a;bash a
+1
+6
+prince
+171
+n;n;n;n;n;n;n;n;n;n;w;n;e;n;n;e;e;e;e;e;e;e;e;e;e;e;n;n;n;n;w;n;n;w;w;w;w;w;w;w;n;n;n;n;n;n;n;n;n;n;n;n;n;n;n;n;n;n;e;n;e;e;e;n;n;n;w;w;w;w;n;op gate;n;n;n;n;u;n;op door;n
+1
+5
+godno
+1
+n
+0
+3
+tin
+60
+knight;kick;king;dis king;dis king;kick;dis lol;dis lol;kick
+1
+4
+card
+43
+n;n;n;n;e;e;e;s;s;s;s;s;s;s;s;w;w;s;s;s;s;s
+1
+2
+gm
+31
+say oztersmf sefokspef hwrpesjf
+0
+3
+sum
+14
+cas 'summon'$*
+1
+3
+str
+8
+cas 'str
+0
+4
+heal
+12
+cas 'heal'$*
+1
+3
+res
+9
+c 'res'$*
+1
+3
+det
+10
+cas 'det i
+0
+5
+sense
+10
+cas 'sense
+0
+1
+2
+5
+bs el
+0
+1
+1
+49
+bs a;bs a;bs a;bs a;bs a;bs a;bs a;bs a;bs a;bs a
+1
+3
+ber
+12
+cas 'berserk
+0
+4
+prot
+16
+cas 'prot from e
+0
+5
+armor
+10
+cas 'armor
+0
+5
+bless
+10
+cas 'bless
+0
+5
+blind
+11
+c 'blind'$*
+1
+3
+ice
+9
+c 'ice'$*
+1
+4
+sanc
+10
+c 'sanc'$*
+1
+4
+auro
+10
+c 'auro'$*
+1
+4
+gate
+10
+c 'gate'$*
+1
+3
+hob
+73
+n;n;n;n;n;n;n;n;n;n;n;w;n;e;n;n;e;e;e;e;e;e;e;e;e;s;s;s;s;s;w;w;w;w;w;w;w
+1
+6
+spirit
+65
+n;n;e;e;s;s;e;e;e;e;n;n;e;e;e;e;e;e;e;e;e;e;n;n;n;n;n;n;n;n;n;w;n
+1
+4
+kick
+34
+kick;kick;kick;kick;kick;kick;kick
+1
+5
+pushw
+80
+push a w;push a w;push a w;push a w;push a w;push a w;push a w;push a w;push a w
+1
+5
+pushn
+89
+push a n;push a n;push a n;push a n;push a n;push a n;push a n;push a n;push a n;push a n
+1
+5
+pushs
+71
+push a s;push a s;push a s;push a s;push a s;push a s;push a s;push a s
+1
+5
+pushe
+44
+push a e;push a e;push a e;push a e;push a e
+1
+5
+check
+122
+tell theseus Hello;tell Judge Hello;tell Yoda Hello;Tell Jimmy Hello;Tell Lolita Hello;Tell SHaman Hello;Tell Darien Hello
+1
+4
+yoda
+64
+n;n;n;n;n;n;n;n;n;n;w;n;e;n;n;e;e;e;e;e;e;e;e;e;e;e;e;e;e;n;n;n
+
+1
+5
+judge
+22
+w;w;w;w;n;n;n;n;e;s;s
+
+1
+5
+jimmy
+24
+d;s;u;s;s;s;e;s;s;s;s;s
+
+1
+3
+obi
+15
+s;s;s;w;w;s;s;
+
+1
+7
+theseus
+44
+e;e;d;e;e;u;e;e;e;e;e;e;s;s;e;s;u;u;u;u;u;n
+
+1
+3
+dis
+18
+c 'dispel magic'$*
+1
+4
+band
+44
+band;band;band;band;band;band;band;band;band
+1
+4
+king
+61
+d;d;d;d;w;w;w;n;n;n;n;n;n;e;e;e;e;e;e;n;n;n;n;open gate;n;u;n
+1
+6
+knight
+103
+w;w;w;w;w;w;w;w;w;n;n;n;n;n;w;w;w;w;w;w;s;s;s;s;s;s;e;e;e;e;u;u;u;u;cas 'dis m'knight;cas 'dis m'knight
+1
+4
+harp
+130
+n;n;n;n;n;n;n;n;n;n;w;n;e;n;n;n;w;w;s;s;u;w;w;u;u;u;op crack;n;n;op rope;n;n;n;n;u;n;n;n;u;n;n;n;e;n;n;n;w;n;n;n;d;n;n;n;u;n;n;n;u
+1
+2
+df
+14
+drink fountain
+0

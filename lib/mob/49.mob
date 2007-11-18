@@ -1,0 +1,640 @@
+#4900
+Micky Mouse~
+Micky Mouse~
+Micky Mouse is standing here, waving at the children passing by.
+~
+   Big, round, black ears...  A small black nose....  YUP!  It's everybody's
+childhood favorite Micky Mouse!!!    
+~
+2074 1024 0 E
+10 18 7 10d10+100 5d5+2
+5000 80000
+12 12 1
+E
+#4901
+Minnie Mouse~
+Minnie Mouse~
+Minnie Mouse stands beside Micky, handing out lolipops.
+~
+   With Micky standing by, there's no doubt that this is the real Minnie Mouse.
+Just look at the red bow with pokadots.    
+~
+2074 1024 0 E
+10 18 7 10d10+100 5d5+2
+5000 80000
+12 12 2
+E
+#4902
+Morty Mouse~
+Morty Mouse~
+Morty, one of Micky Mouse's nephews is playing catch with Ferdie.
+~
+   Morty Mouse, the elder of Micky's twin nephews, is passing some time by
+throwing a football with his (not much)younger brother, Ferdie.    
+~
+2074 1024 0 E
+10 18 7 10d10+100 5d5+2
+5000 80000
+12 12 1
+E
+#4903
+Ferdie Mouse~
+Ferdie Mouse~
+Ferdie, another of Micky Mouse's nephews is playing catch with Morty.
+~
+   Ferdie Mouse, the younger of Micky's twin nephews, is passing some time by
+throwing a football with his (not much)older brother, Morty.    
+~
+2074 0 0 E
+10 18 7 10d10+100 5d5+2
+5000 80000
+12 12 1
+E
+#4904
+Melody Mouse~
+Melody Mouse~
+Melody, Minnie Mouse's niece, is sitting at her mirror while Morty and Ferdie play with their football.
+~
+   Melody Mouse, Minnie Mouse's young niece, just sits at her mirror while
+Micky's nephews, Morty and Ferdie, play catch, almost hitting her with their
+football.    
+~
+2074 1024 0 E
+10 18 7 10d10+100 5d5+2
+5000 80000
+10 10 2
+E
+#4905
+Pluto~
+Pluto~
+Micky Mouse's dog, Pluto, is lying in the corner of the room, chewing on a rubber bone.
+~
+   Pluto, Micky's cuddly yellow dog, seems to be worn out as he just lies in
+the corner chewing on a rubber bone.  Morty, Ferdie, and Melody must have worn
+him out.    
+~
+2074 1024 0 E
+10 18 7 10d10+100 5d5+2
+5000 80000
+8 8 0
+BareHandAttack: 4
+E
+#4906
+Donald Duck~
+Donald Duck~
+Donald Duck is here jumping around the room, while entertaining the children of the audience.
+~
+   The ever so lovable Donald Duck makes everybody laugh with his crazy antics
+and semi-understandable speech.  He provides fun for everyone!    
+~
+2074 1024 0 E
+10 18 7 10d10+100 5d5+2
+5000 80000
+12 12 1
+E
+#4907
+Daisy Duck~
+Daisy Duck~
+Daisy Duck walks around the room, trying to calm the crying babies.
+~
+   Daisy Duck, Donald's girlfriend, seems to be very good with children.  
+She's managed to stop most of the babies from crying, and would be a good wife
+for Donald.    
+~
+2074 1024 0 E
+10 18 7 10d10+100 5d5+2
+5000 80000
+12 12 2
+E
+#4908
+Huey Duck~
+Huey Duck~
+Huey, the first of Donald's nephew, is sitting on the floor.
+~
+   Huey, one of Donald Duck's triplet nephews, is sitting with his brother,
+Dewey and Louie, planning their next adventure.    
+~
+2074 1024 0 E
+10 18 7 10d10+100 5d5+2
+5000 80000
+10 10 1
+E
+#4909
+Dewey Duck~
+Dewey Duck~
+Dewey, the second of Donald's nephews, is sitting on the floor.
+~
+   It looks unfinished.  Dewey, one of Donald Duck's triplet nephews, is
+sitting with his brother, Huey and Louie, planning their next adventure.    
+~
+2074 1024 0 E
+10 18 7 10d10+100 5d5+2
+5000 80000
+10 10 1
+E
+#4910
+Louie Duck~
+Louie Duck~
+Louie, the last of Donald's nephew, is sitting on the floor.
+~
+   It looks unfinished.  Louie, one of Donald Duck's triplet nephews, is
+sitting with his brother, Huey and Dewey, planning their next adventure.    
+~
+2074 1024 0 E
+10 18 7 10d10+100 5d5+2
+5000 80000
+10 10 1
+E
+#4911
+April Duck~
+April Duck~
+April, one of Daisy's nieces, is playing jump rope.
+~
+   April, the first of Daisy's triplet nieces, is playing jump rope with her
+sisters, May and June.    
+~
+2074 1024 0 E
+10 18 7 10d10+100 5d5+2
+5000 80000
+12 12 2
+E
+#4912
+May Duck~
+May Duck~
+May, the second of Daisy's nieces, is playing jump rope.
+~
+   May, the second of Daisy's triplet nieces, is playing jump rope with her
+sisters, April and June.    
+~
+2074 1024 0 E
+10 18 7 10d10+100 5d5+2
+5000 80000
+12 12 2
+E
+#4913
+June Duck~
+June Duck~
+June, the third of Daisy's nieces, is playing jump rope.
+~
+   June, the last of Daisy's triplet nieces, is playing jump rope with her
+sisters, April and May.    
+~
+2074 1024 0 E
+10 18 7 10d10+100 5d5+2
+5000 80000
+12 12 2
+E
+#4914
+Goofy~
+Goofy~
+Goofy tries hard to move about without tripping, but is resting on the floor after his latest mishap.
+~
+   Poor Goofy, he can't seem to control his clumsiness, but he's always willing
+to help.  It seems like there's nobody nicer than him.    
+~
+2074 1024 0 E
+10 18 7 10d10+100 5d5+2
+5000 80000
+10 10 1
+E
+T 4900
+T 4902
+#4915
+Max~
+Max~
+Max, Goofy's... erm.... son, tries to hid from the embarassment provided by his dad.
+~
+   This cool, suave kid seemingly avoided those Goof genes, but the clumsiness
+in him does show at times.  Although he loves his dad, Goofy, he feels
+embarassed by his clumsiness.    
+~
+2074 1024 0 E
+10 18 7 10d10+100 5d5+2
+5000 80000
+12 12 1
+E
+T 4901
+#4916
+Gilbert~
+Gilbert~
+Gilber, Goofy's cousin, fell to the ground while trying to help Goofy to his feet.
+~
+   Just as clumsy as Goofy, but not nearly as intelligent, Gilbert lies on the
+ground after trying to help his cousin to his feet.  With a simple "Hyuk!  ",
+the pair clamber to their feet.    
+~
+2074 1024 0 E
+10 18 7 10d10+100 5d5+2
+5000 80000
+10 10 1
+BareHandAttack: 13
+E
+T 4900
+T 4902
+#4917
+Pete~
+Pete~
+Pete, Goofy's neighbor, stands here looking for his son, P.J.
+~
+   Car dealer.  Goofy's neighbor.  Frustrated by Goofy.  These all describe
+Pete, but the biggest one of all is hothead, so watch out.    
+~
+2074 1024 0 E
+10 18 7 10d10+100 5d5+2
+5000 80000
+12 12 1
+E
+T 4903
+#4918
+PJ~
+PJ~
+PJ, Pete's son and Max's best friend, is standing here in confusion about what his father wants.
+~
+   Young Pete Jr, or PJ As he goes, is very afraid of his dad.  Pete's booming
+voice haunts him from anywhere throughout the land.  Most of the time, however,
+he's just hanging out with Max.    
+~
+2074 1024 0 E
+10 18 7 10d10+100 5d5+2
+5000 80000
+12 12 1
+E
+T 4904
+#4919
+Chip~
+Chip~
+Chip, one of the two chipmunks of the Rescue Rangers, is standing here chewing on some nuts.
+~
+   Chip Chipmunk, one of the Rescue Rangers, doesn't seem to have much work
+lately.  He just stands around eating any type of nuts he can find.    
+~
+2074 1024 0 E
+10 18 7 10d10+100 5d5+2
+5000 80000
+12 12 1
+E
+#4920
+Dale~
+Dale~
+Dale, the second of the two chipmunks of the Rescue Rangers, is trying to sneakily steal some nuts from Chip.
+~
+   Dale Chipmunk, the second of the Rescue Rangers, doesn't seem to have much
+work lately.  He just stands around trying to steal Chip's nuts.    
+~
+2074 1024 0 E
+10 18 7 10d10+100 5d5+2
+5000 80000
+12 12 1
+E
+#4921
+Zeke~
+Zeke, the Big Bad Wolf~
+Zeke, the Big Bad Wolf, stands here threatening the Three Little Pigs.
+~
+It looks unfinished.
+~
+2074 1024 0 E
+10 18 7 10d10+100 5d5+2
+5000 80000
+12 12 1
+E
+#4922
+Deke~
+Deke, the Li'l Bad Wolf~
+Deke, the Li'l Bad Wolf, stands here helping his dad, Zeke..
+~
+It looks unfinished.
+~
+2074 1024 0 E
+10 18 7 10d10+100 5d5+2
+5000 80000
+12 12 1
+E
+#4923
+Practical Pig~
+Practical Pig~
+Practical Pig, who is trying to calm down his younger brothers, is standing here.
+~
+It looks unfinished.
+~
+2074 1024 0 E
+10 18 7 10d10+100 5d5+2
+5000 80000
+12 12 1
+E
+#4924
+Fiddler Pig~
+Fiddler Pig~
+Fiddler, the middle brother, is playing his fiddle here.
+~
+It looks unfinished.
+~
+2074 1024 0 E
+10 18 7 10d10+100 5d5+2
+5000 80000
+12 12 1
+E
+T 4906
+#4925
+Fifer Pig~
+Fifer Pig~
+Fifer, the youngest of the pigs, is playing his flute here.
+~
+It looks unfinished.
+~
+2074 1024 0 E
+10 18 7 10d10+100 5d5+2
+5000 80000
+12 12 1
+E
+T 4905
+#4926
+Dumbo~
+Dumbo~
+Dumbo the Flying Elephant is flying around the room.
+~
+It looks unfinished.
+~
+2074 1024 0 E
+10 18 7 10d10+100 5d5+2
+5000 80000
+12 12 1
+E
+#4927
+Timothy~
+Timothy~
+Timothy, Dumbo's friendly mouse, is riding in Dumbo's hat.
+~
+It looks unfinished.
+~
+2074 1024 0 E
+10 18 7 10d10+100 5d5+2
+5000 80000
+12 12 1
+E
+#4928
+Pinocchio~
+Pinocchio~
+Pinocchio is standing here, trying to saw off his nose.
+~
+It looks unfinished.
+~
+2074 1024 0 E
+10 18 7 10d10+100 5d5+2
+5000 80000
+12 12 1
+E
+#4929
+Jiminy Cricket~
+Jiminy Cricket~
+Jiminy Cricket is sitting on Pinocchio's shoulder, trying to convince him to drop the saw.
+~
+It looks unfinished.
+~
+2074 1024 0 E
+10 18 7 10d10+100 5d5+2
+5000 80000
+12 12 1
+E
+#4930
+Snow White~
+Snow White~
+Snow White is sleeping here, awaiting the kiss of a Prince.
+~
+It looks unfinished.
+~
+2074 1024 0 E
+10 18 7 10d10+100 5d5+2
+5000 80000
+12 12 2
+E
+#4931
+Sleepy~
+Sleepy~
+Sleepy, the first of the Seven Dwarves, is sleeping here.
+~
+It looks unfinished.
+~
+2074 1024 0 E
+10 18 7 10d10+100 5d5+2
+5000 80000
+12 12 1
+E
+#4932
+Grumpy~
+Grumpy~
+Grumpy, the second of the Seven Dwarves, stands here uttering some unclear words.
+~
+It looks unfinished.
+~
+2074 1024 0 E
+10 18 7 10d10+100 5d5+2
+5000 80000
+12 12 1
+E
+#4933
+Dopey~
+Dopey~
+Dopey, the third of the Seven Dwarves, stands here making stupid suggestions.
+~
+It looks unfinished.
+~
+2074 1024 0 E
+10 18 7 10d10+100 5d5+2
+5000 80000
+12 12 1
+E
+#4934
+Sneezy~
+Sneezy~
+Sneezy, the fourth of the Seven Dwarves, is standing here taking cold medicine.
+~
+It looks unfinished.
+~
+2074 1024 0 E
+10 18 7 10d10+100 5d5+2
+5000 80000
+12 12 1
+E
+#4935
+Bashful~
+Bashful~
+Bashful, the fifth of the Seven Dwarves, is looking at the floor while trying to conceal his rosy cheeks..
+~
+It looks unfinished.
+~
+2074 1024 0 E
+10 18 7 10d10+100 5d5+2
+5000 80000
+12 12 1
+E
+#4936
+Happy~
+Happy~
+Happy, the sixth of the Seven Dwarves, is smiling at you.
+~
+It looks unfinished.
+~
+2074 1024 0 E
+10 18 7 10d10+100 5d5+2
+5000 80000
+12 12 1
+E
+#4937
+Doc~
+Doc~
+Doc, the last of the Seven Dwarves, is tending to Snow White.
+~
+It looks unfinished.
+~
+2074 1024 0 E
+10 18 7 10d10+100 5d5+2
+5000 80000
+12 12 1
+E
+T 4907
+#4938
+father~
+a father~
+A man walks around Disney World with his wife and son.
+~
+It looks unfinished.
+~
+2074 1024 0 E
+10 18 7 10d10+100 5d5+2
+5000 80000
+12 12 1
+E
+#4939
+mother~
+a mother~
+A woman walks around Disney World with her husband and son.
+~
+It looks unfinished.
+~
+2074 1024 0 E
+10 18 7 10d10+100 5d5+2
+5000 80000
+12 12 2
+E
+#4940
+little boy~
+a little boy~
+A little boy walks around Disney World with his mom and dad.
+~
+It looks unfinished.
+~
+2074 1024 0 E
+10 18 7 10d10+100 5d5+2
+5000 80000
+12 12 1
+E
+#4941
+male tourist~
+a male tourist~
+A male tourist walks about Disney World in amazement.
+~
+It looks unfinished.
+~
+2074 1024 0 E
+10 18 7 10d10+100 5d5+2
+5000 80000
+12 12 1
+E
+#4942
+female tourist~
+a female tourist~
+A female tourist walks about Disney World in amazement.
+~
+It looks unfinished.
+~
+2074 1024 0 E
+10 18 7 10d10+100 5d5+2
+5000 80000
+12 12 2
+E
+#4943
+Cinderella~
+Cinderella~
+Cinderella stands here, handing out directions of Disney World.
+~
+It looks unfinished.
+~
+2074 1024 0 E
+10 18 7 10d10+100 5d5+2
+5000 80000
+12 12 2
+E
+#4944
+shop worker~
+the souvenir shop worker~
+A young woman stands behind the cash of the souvenir shop.
+~
+It looks unfinished.
+~
+264218 1024 0 E
+10 18 7 10d10+100 5d5+2
+5000 80000
+12 12 2
+E
+#4945
+mob unfinished~
+the unfinished mob~
+An unfinished mob stands here.
+~
+It looks unfinished.
+~
+2074 1024 0 E
+1 20 9 1d1+1 0d0+0
+50 4000
+12 12 0
+E
+#4946
+mob unfinished~
+the unfinished mob~
+An unfinished mob stands here.
+~
+It looks unfinished.
+~
+2074 1024 0 E
+1 20 9 1d1+1 0d0+0
+50 4000
+12 12 0
+E
+#4947
+mob unfinished~
+the unfinished mob~
+An unfinished mob stands here.
+~
+It looks unfinished.
+~
+2074 1024 0 E
+1 20 9 1d1+1 0d0+0
+50 4000
+12 12 0
+E
+#4948
+mob unfinished~
+the unfinished mob~
+An unfinished mob stands here.
+~
+It looks unfinished.
+~
+2074 1024 0 E
+1 20 9 1d1+1 0d0+0
+50 4000
+12 12 0
+E
+#4949
+undefined~
+undefined~
+undefined~
+Nothing.
+~
+8 1024 0 E
+1 20 9 1d1+1 0d0+0
+50 350
+12 12 0
+BareHandAttack: 12
+E
+$

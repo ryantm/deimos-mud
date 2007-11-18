@@ -1,0 +1,13 @@
+
+&w                     DeimosMUD 
+                       Help     
+  
+ -----------------------------------------------
+|This Help is Menu and Capitalization based.    |
+|By typing help and then a capitalized word     |
+|you will be sent to that Help menu or document |
+|       Type &RHelp MAIN&w for the main Menu.       |
+|By typing INFO you will be given general info. |
+|                                               |
+|_______________________________________________|
+&n

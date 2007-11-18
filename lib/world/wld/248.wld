@@ -1,0 +1,77 @@
+#24800
+&CToilet Chamber&n~
+   Like the adjoining office, this room is small, bright, and bare, and it
+appears to be a bathroom of some sort.  However, there are no fixtures besides
+a single odd-looking toilet.  It is not clear why this place even exists at
+all...since immortals don't need to eat or drink, it follows that they
+shouldn't need to poo or pee either, should they?    
+~
+248 d 0
+D3
+~
+~
+0 0 1248
+S
+#24801
+&CMobius's Lavatory&n~
+   Sparkling with the Purity of Bathroom that is the exclusive privilege of the
+gods, the lavatory of Mobius is so clean that every surface in this room
+(including the ceiling) has been approved for food preparation by the
+Department of Health.  However, it is not clear why the room even exists at
+all.  Since immortals never eat or drink, it follows that they should never pee
+or poo either...should they?
+~
+248 d 0
+D0
+~
+~
+0 0 1248
+S
+#24802
+FALLING!~
+   AAAH F*** IDIOT WHY'D YOU WALK OFF THE TOASTER NOW YOU'RE FALLING TO YOUR
+DOOM!!!  OFF THE TOASTER!!  TO THE DOOM OF THE COUNTER BELOW THAT THE TOASTER
+IS SITTING ON
+~
+248 0 0
+D5
+~
+~
+0 0 24803
+S
+#24803
+Disclaimer (STILL FALLING)~
+   I am not obsessed with toasters.  Bob made me do it.  (AHHH YOU ARE STILL
+FALLING)
+~
+248 0 0
+D5
+~
+~
+0 0 24804
+S
+#24804
+The Middle of the Earth~
+   Now you've arrived at the middle of the earth.  Lots of people are here,
+doomed to an existence of being doomed here because all gravity everywhere on
+and in the earth pulls them to this point.  There is no escape.  Except for a
+blob of magma to the east that looks like a way out.  Wait I think I lied about
+the toaster being on a counter.  Sorry.    
+~
+248 0 0
+D1
+~
+blob~
+1 0 24805
+S
+#24805
+New BuildWalk Room~
+This unfinished room was created by Mobius.
+~
+248 0 0
+D3
+~
+blob~
+1 0 24804
+S
+$~

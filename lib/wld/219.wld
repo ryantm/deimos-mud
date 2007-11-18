@@ -1,0 +1,161 @@
+#21900
+Entrance To The Dark Forest~
+   This forest has very little light shining through the tree tops causing
+little splotches of light to radiate on the rough barked oak trees.  The ground
+here is very damp and mossy with little speckles of grass popping up here and
+there.  Birds and crickets can be heard echoing over the loud gusts of wind
+that blows through this section of the forest.    
+~
+219 0 3
+D1
+~
+~
+0 0 21901
+S
+#21901
+Within The Dark Forest~
+   A giant oak tree is standing right in the middle of the path with long thick
+branches hanging down to six feet above the ground.  The only light in this
+area of the forest is coming from a hole almost at the top of the tree.  The
+ground is made up of a very thick moss which is growning do to the fact that
+theree is no sunlight.  Little voices can be heard whispering in the winds as
+well as wolves howling and bears growling.    
+~
+219 0 3
+D1
+~
+~
+0 0 21902
+D3
+~
+~
+0 0 21900
+S
+#21902
+Within The Dark Forest~
+   The tree are starting to thin out.  A field is barely visble to far south.
+Under brush is so thick here the ground is barely visible and what is visible
+is all swampy moss and muck.  Light radiates through the tree tops causing a
+calm heat to settle on the ground.  Various animals can be heard scurryiny
+about some squeaking and some growling.  The wind gusts are echoing through the
+forest.    
+~
+219 0 3
+D1
+~
+~
+0 0 21903
+D3
+~
+~
+0 0 21901
+S
+#21903
+New BuildWalk Room~
+This unfinished room was created by Mogi.
+~
+219 0 0
+D1
+~
+~
+0 0 21904
+D3
+~
+~
+0 0 21902
+S
+#21904
+New BuildWalk Room~
+This unfinished room was created by Mogi.
+~
+219 0 0
+D1
+~
+~
+0 0 21905
+D3
+~
+~
+0 0 21903
+S
+#21905
+New BuildWalk Room~
+This unfinished room was created by Mogi.
+~
+219 0 0
+D1
+~
+~
+0 0 21906
+D3
+~
+~
+0 0 21904
+S
+#21906
+New BuildWalk Room~
+This unfinished room was created by Mogi.
+~
+219 0 0
+D1
+~
+~
+0 0 21907
+D3
+~
+~
+0 0 21905
+S
+#21907
+New BuildWalk Room~
+This unfinished room was created by Mogi.
+~
+219 0 0
+D1
+~
+~
+0 0 21908
+D3
+~
+~
+0 0 21906
+S
+#21908
+New BuildWalk Room~
+This unfinished room was created by Mogi.
+~
+219 0 0
+D1
+~
+~
+0 0 21909
+D3
+~
+~
+0 0 21907
+S
+#21909
+New BuildWalk Room~
+This unfinished room was created by Mogi.
+~
+219 0 0
+D1
+~
+~
+0 0 21910
+D3
+~
+~
+0 0 21908
+S
+#21910
+New BuildWalk Room~
+This unfinished room was created by Mogi.
+~
+219 0 0
+D3
+~
+~
+0 0 21909
+S
+$~

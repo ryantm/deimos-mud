@@ -1,0 +1,65 @@
+5
+invis
+9
+c 'invis'
+0
+2
+id
+14
+c 'identify'$1
+1
+3
+pro
+24
+c 'protection from evil'
+0
+4
+heal
+7
+c 'heal
+0
+5
+bless
+8
+c 'bless
+0
+3
+arm
+6
+c 'arm
+0
+3
+rec
+7
+c 'word
+0
+2
+di
+11
+c 'detect i
+0
+3
+aur
+7
+c 'auro
+0
+4
+done
+11
+put all bag
+0
+2
+qb
+10
+quaff blue
+0
+2
+qp
+10
+quaff heal
+0
+2
+df
+11
+drink fount
+0

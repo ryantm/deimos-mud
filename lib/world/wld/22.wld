@@ -1,0 +1,424 @@
+#2200
+Hedge Lined Path~
+   Not much here.  A hedge lined path continues to the east and west here, but
+its no longer much of a path.  The hedges have decayed into rotting branches
+and the path is cluttered with the corpses of dead demons and poor mortals.  
+The path here is shod with blood and it is clear that much torment has come to
+pass here.    
+~
+22 sx 0
+D1
+~
+~
+0 0 2201
+D3
+~
+~
+0 0 2070
+S
+#2201
+Hedge Lined Path~
+   Not much here.  A hedge lined path continues to the east and west here, but
+its no longer much of a path.  The hedges have decayed into rotting branches
+and the path is cluttered with the corpses of dead demons and poor mortals.  
+The path here is shod with blood and it is clear that much torment has come to
+pass here.    
+~
+22 sx 0
+D1
+~
+~
+0 0 2202
+D3
+~
+~
+0 0 2200
+S
+#2202
+Hedged Lined Path~
+   Not much here.  A hedge lined path continues to the east and west here, but
+its no longer much of a path.  The hedges have decayed into rotting branches
+and the path is cluttered with the corpses of dead demons and poor mortals.  
+The path here is shod with blood and it is clear that much torment has come to
+pass here.    
+~
+22 csx 0
+D3
+~
+~
+0 0 2201
+S
+#2203
+Down a Hole~
+   The hole in the ground leads into a very dark musty path that winds
+counterclockwise up and down from here.  Right up from here light can be seen
+shining in from above.  The walls seem slick with a red sticky substance that
+seems to also coat the floor.  The area smells like rotten flesh.    
+~
+22 sx 0
+D5
+~
+~
+0 0 2204
+S
+#2204
+Down a Hole~
+You are in an unfinished room.
+Hellhounds
+~
+22 sx 0
+D4
+~
+~
+0 0 2203
+S
+#2255
+1~
+You are in an unfinished room.
+~
+22 0 0
+S
+#2260
+1~
+You are in an unfinished room.
+~
+22 0 0
+S
+#2261
+1~
+You are in an unfinished room.
+~
+22 0 0
+S
+#2262
+1~
+You are in an unfinished room.
+~
+22 0 0
+S
+#2263
+1~
+You are in an unfinished room.
+~
+22 0 0
+S
+#2264
+1~
+You are in an unfinished room.
+~
+22 0 0
+S
+#2265
+1~
+You are in an unfinished room.
+~
+22 0 0
+S
+#2266
+1~
+You are in an unfinished room.
+~
+22 0 0
+S
+#2267
+1~
+You are in an unfinished room.
+~
+22 0 0
+S
+#2268
+1~
+You are in an unfinished room.
+~
+22 0 0
+S
+#2269
+1~
+You are in an unfinished room.
+~
+22 0 0
+S
+#2270
+1~
+You are in an unfinished room.
+~
+22 0 0
+S
+#2271
+1~
+You are in an unfinished room.
+~
+22 0 0
+S
+#2272
+1~
+You are in an unfinished room.
+~
+22 0 0
+S
+#2273
+1~
+You are in an unfinished room.
+~
+22 0 0
+S
+#2274
+1~
+You are in an unfinished room.
+~
+22 0 0
+S
+#2275
+1~
+You are in an unfinished room.
+~
+22 0 0
+S
+#2276
+1~
+You are in an unfinished room.
+~
+22 0 0
+S
+#2277
+1~
+You are in an unfinished room.
+~
+22 0 0
+S
+#2278
+1~
+You are in an unfinished room.
+~
+22 0 0
+S
+#2279
+1~
+You are in an unfinished room.
+~
+22 0 0
+S
+#2280
+1~
+You are in an unfinished room.
+~
+22 0 0
+S
+#2281
+1~
+You are in an unfinished room.
+~
+22 0 0
+S
+#2282
+1~
+You are in an unfinished room.
+~
+22 0 0
+S
+#2283
+1~
+You are in an unfinished room.
+~
+22 0 0
+S
+#2284
+1~
+You are in an unfinished room.
+~
+22 0 0
+S
+#2285
+1~
+You are in an unfinished room.
+~
+22 0 0
+S
+#2286
+1~
+You are in an unfinished room.
+~
+22 0 0
+S
+#2287
+1~
+You are in an unfinished room.
+~
+22 0 0
+S
+#2288
+1~
+You are in an unfinished room.
+~
+22 0 0
+S
+#2289
+1~
+You are in an unfinished room.
+~
+22 0 0
+S
+#2290
+The Top Floor~
+   Large oblisks make the pillars in this large room, the cieling stretching
+high into the air.  Even with all the open space, there is a feeling of hate
+and opression that lies at the heart of this building.  The tiled floors
+reflect the pale torchlight like old blood.    
+~
+22 0 0
+D1
+~
+~
+0 0 2294
+S
+#2291
+The Top Floor~
+   Large oblisks make the pillars in this large room, the cieling stretching
+high into the air.  Even with all the open space, there is a feeling of hate
+and opression that lies at the heart of this building.  The tiled floors
+reflect the pale torchlight like old blood.    
+~
+22 0 0
+D3
+~
+~
+0 0 2294
+S
+#2292
+The Top Floor~
+   Large oblisks make the pillars in this large room, the cieling stretching
+high into the air.  Even with all the open space, there is a feeling of hate
+and opression that lies at the heart of this building.  The tiled floors
+reflect the pale torchlight like old blood.    
+~
+22 0 0
+D0
+~
+~
+0 0 2294
+S
+#2293
+The Top Floor~
+   Large oblisks make the pillars in this large room, the cieling stretching
+high into the air.  Even with all the open space, there is a feeling of hate
+and opression that lies at the heart of this building.  The tiled floors
+reflect the pale torchlight like old blood.    
+~
+22 0 0
+D2
+~
+~
+0 0 2294
+S
+#2294
+The Top Floor~
+   Large oblisks make the pillars in this large room, the cieling stretching
+high into the air.  Even with all the open space, there is a feeling of hate
+and opression that lies at the heart of this building.  The tiled floors
+reflect the pale torchlight like old blood.  There is a small slit of light
+streaming from the ceiling, perhaps where there was once a skylight.    
+~
+22 0 0
+D0
+~
+~
+0 0 2293
+D1
+~
+~
+0 0 2291
+D2
+~
+~
+0 0 2292
+D3
+~
+~
+0 0 2290
+D4
+~
+door Trapdoor~
+2 2298 2298
+S
+#2295
+The Rooftop~
+   Rain pours down in torrents, splashing down onto the cold slate floor.  
+There is no relent in the storm, and even in clear daylight, this place would
+hold its evil.  It is a place of solitude, a place of confinement.    
+A place of pain.
+~
+22 c 1
+D3
+~
+~
+0 0 2298
+S
+#2296
+The Rooftop~
+   Rain pours down in torrents, splashing down onto the cold slate floor.  
+There is no relent in the storm, and even in clear daylight, this place would
+hold its evil.  It is a place of solitude, a place of confinement.    
+A place of pain.
+~
+22 c 1
+D1
+~
+~
+0 0 2298
+S
+#2297
+The Rooftop~
+   Rain pours down in torrents, splashing down onto the cold slate floor.  
+There is no relent in the storm, and even in clear daylight, this place would
+hold its evil.  It is a place of solitude, a place of confinement.    
+A place of pain.
+~
+22 c 0
+D0
+~
+~
+0 0 2298
+S
+#2298
+The Rooftop~
+   Rain pours down in torrents, splashing down onto the cold slate floor.  
+There is no relent in the storm, and even in clear daylight, this place would
+hold its evil.  It is a place of solitude, a place of confinement.    
+A place of pain.
+~
+22 c 0
+D0
+~
+~
+0 0 2299
+D1
+~
+~
+0 0 2295
+D2
+~
+~
+0 0 2297
+D3
+~
+~
+0 0 2296
+D5
+~
+door trapdoor~
+2 2298 2294
+S
+#2299
+The Rooftop~
+   Rain pours down in torrents, splashing down onto the cold slate floor.  
+There is no relent in the storm, and even in clear daylight, this place would
+hold its evil.  It is a place of solitude, a place of confinement.    
+A place of pain.
+~
+22 fhrs 1
+D2
+~
+~
+0 0 2298
+S
+$~

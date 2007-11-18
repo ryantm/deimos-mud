@@ -1,0 +1,7 @@
+#9200
+Close Pokeball~
+2  100
+leaves~
+'THIS TRIGGER MAJORLY DOESN"T WORK WHOEVER MADE IT!
+~
+$~

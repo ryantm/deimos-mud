@@ -1,0 +1,488 @@
+#1100
+Kallah~
+Kallah, Lyra's snow leopard daemon~
+Kallah, Lyra's snow leopard daemon, is lying here in deep thought.
+~
+   His fur is of the finest, softest in the world, with becoming black stripes
+that greatly contrast his immaculate white body.  His eyes are of an icy blue,
+with a glint of green here and there.  Long, sharp teeth protrude from his
+otherwise benign mouth.  Either way, he can be a great friend, or a great
+enemy.  Watch your back.    
+~
+10 8 1000 E
+50 8 -5 50d50+2500 25d25+12
+125000 875000
+12 12 1
+BareHandAttack: 9
+E
+T 21
+#1101
+store clerk~
+the store clerk~
+A store clerk stands here, waiting to serve you.
+~
+It looks unfinished.
+~
+270346 0 0 E
+66 20 10 1d1+0 1d1+0
+0 0
+12 12 1
+E
+#1102
+Rich Uncle Pennybags~
+Rich Uncle Pennybags~
+Rich Uncle Pennybags lounges in a leather chair, wondering what the heck you want.
+~
+He is the most arrogant person you've ever seen, a jerk in real life, with such an ego it's impossible to make friends.
+~
+32810 128 -1000 E
+30 13 1 30d30+900 15d15+7
+45000 315000
+12 12 1
+E
+#1103
+Diamond Jim~
+Diamond Jim~
+Diamond Jim stands here looking sly.
+~
+He most reminds you of a used car salesman, because of that cheap look and fake moustache.
+~
+6216 0 0 E
+20 15 4 20d20+400 10d10+5
+20000 140000
+12 12 1
+BareHandAttack: 1
+E
+#1104
+Penny Wise~
+Penny Wise~
+Penny Wise stands here ready to run at the next bargain.
+~
+Although she may be rich, she's one of those people you see at Wal-Mart every day.
+~
+6216 0 200 E
+11 18 6 11d11+121 5d5+2
+6050 42350
+12 12 2
+E
+#1105
+Connie Cashola~
+Connie Cashola~
+Connie Cashola stands here admiring herself.
+~
+Her hair is done perfectly to every strand, powder covering every single inch of her face, and a warm mink fur wrapped around her quite plump body.
+~
+6216 0 200 E
+20 15 4 20d20+400 10d10+5
+20000 140000
+12 12 2
+E
+#1106
+Hot Shot~
+Hot Shot~
+Hot Shot stares around looking for a way to cheat.
+~
+With those movie star glasses and that black suit, he looks sorta like George Clooney.
+~
+6216 0 200 E
+20 15 4 20d20+400 10d10+5
+20000 140000
+12 12 1
+E
+#1107
+Greedy Granny~
+Greedy Granny~
+Greedy Granny stands here clutching her pocketbook.
+~
+She really doesn't look that old, with those new teeth and that face lift!
+~
+6216 0 200 E
+20 15 4 20d20+400 10d10+5
+20000 140000
+12 12 2
+E
+#1108
+car~
+a car~
+A car sits idle waiting for the right person to attack.
+~
+Whoa! A 99' Camaro Z28, pretty cool..pretty fast.
+~
+6216 0 -1000 E
+20 15 4 20d20+400 10d10+5
+20000 140000
+12 12 0
+E
+#1109
+shoe~
+a shoe~
+A shoe is ready to kick some booty!
+~
+It looks like that old sneaker you threw away.
+~
+6216 0 -1000 E
+20 15 4 20d20+400 10d10+5
+20000 140000
+12 12 0
+BareHandAttack: 5
+E
+#1110
+dog~
+a dog~
+A dog gnaws at your ankles.
+~
+A big powerful German Shepherd, could cause you some trouble.
+~
+6216 0 -1000 E
+25 14 2 25d25+625 12d12+6
+31250 218750
+12 12 0
+BareHandAttack: 4
+E
+#1111
+hat~
+a hat~
+A hat lies on the ground shaking slightly.
+~
+It is an elegant top hat, worn but still nice.
+~
+6216 2 -1000 E
+25 14 2 25d25+625 12d12+6
+31250 218750
+12 12 0
+E
+#1112
+dice~
+a pair of dice~
+A pair of dice stand here rolling around.
+~
+Don't make them mad, they'll give you bad luck!
+~
+6216 36864 -1000 E
+60 5 -8 60d60+3600 30d30+15
+180000 1260000
+12 12 0
+BareHandAttack: 12
+E
+#1113
+train engineer~
+the train engineer~
+The train engineer stands here, wiping sweat from his face.
+~
+He looks like such a hard working man.
+~
+6218 128 500 E
+20 15 4 20d20+400 10d10+5
+20000 140000
+12 12 1
+E
+#1114
+Electrician~
+the electrician~
+An electrician stands around fixing wires here and there.
+~
+He looks like one of those guys that goes to a bar every night in his life looking for a woman, but never finds one.
+~
+6218 0 500 E
+25 14 2 25d25+625 12d12+6
+31250 218750
+12 12 1
+E
+#1115
+water company slave driver~
+the water company 'slave driver'~
+A slave driver stands here whipping anyone nearby.
+~
+   He controlls the water works.  Well actually he forces other people to do it
+for him.  You see him crack his whip above someones head.    
+~
+6218 0 -500 E
+20 15 4 20d20+400 10d10+5
+20000 140000
+12 12 1
+BareHandAttack: 2
+E
+#1116
+mystery man~
+a mystery man~
+A mystery man is here, looking clueless!
+~
+Heh, wouldn't you like to know.
+~
+6218 0 25 E
+6 19 8 6d6+36 3d3+1
+1800 12600
+12 12 1
+BareHandAttack: 7
+E
+#1117
+Landlord~
+the landlord~
+The landlord stands here, observing every little mess you make.
+~
+He looks angry, but only becase people mistreat him. Awww... :-(
+~
+6216 0 500 E
+25 14 2 25d25+625 12d12+6
+31250 218750
+12 12 1
+E
+#1118
+tax guy~
+a tax guy~
+A tax guy sits here thinking of all the money you're gonna give him!
+~
+He's a scary feller.
+~
+6186 0 -1000 E
+25 14 2 25d25+625 12d12+6
+31250 218750
+12 12 1
+E
+#1119
+weirdo~
+the weirdo~
+There is yet another weirdo here.
+~
+My, is he weird!!
+~
+6218 0 200 E
+6 19 8 6d6+36 3d3+1
+1800 12600
+12 12 1
+E
+#1120
+stupid realtor~
+a stupid Realtor~
+A stupid realtor attempts to sell you something.
+~
+He looks cheesy.
+~
+6216 0 200 E
+15 17 5 15d15+225 7d7+3
+11250 78750
+12 12 1
+BareHandAttack: 13
+E
+#1121
+valet~
+the Valet~
+The Valet stands here waiting for your tip.
+~
+He stands here expecting a tip. What a Prick!
+~
+6218 32 200 E
+20 15 4 20d20+400 10d10+5
+20000 140000
+12 12 1
+E
+#1122
+naked Buddhist~
+a naked Buddhist~
+A naked Buddhist stands here urging you to take off your clothes.
+~
+His hair is dark and cleanly parted, and he wears an East inspired loincloth.
+The distant look on his face shows you that he is at inner peace with himself.
+~
+278554 0 0 E
+1 20 9 1d1+1 0d0+0
+50 350
+12 12 1
+E
+#1123
+island girl~
+an island girl~
+An island girl walks around showing off her bare skin.
+~
+Her hair is jet black, and her skin is a deep tan.  She wears leis and shell jewelry all over her body, just so that it jingles when she moves.
+~
+72 0 0 E
+1 20 9 1d1+1 0d0+0
+50 350
+12 12 2
+E
+#1124
+exotic dancer~
+an exotic dancer~
+An exotic dancer flips her long hair at you sexily.
+~
+She looks like one of those showgirls you can pay to see, only this time she's doing it for free..
+Although all the guys think they can get her for themselves, she's actually very clever and sly.....and hot according to most people.
+~
+10 0 0 E
+1 20 9 1d1+1 0d0+0
+50 350
+12 12 2
+E
+#1125
+manly man~
+a manly man~
+A manly man walks around the room flexing his muscles and acting like god's gift to women.
+~
+He's really not all that he acts..his hair is thinning and he has hair EVERYWHERE! But, he's still cute.
+~
+72 0 0 E
+1 20 9 1d1+1 0d0+0
+50 350
+12 12 1
+E
+#1126
+fat lady~
+a fat lady~
+A fat lady walks by, jiggling as she goes.
+~
+Ewwwww, how gross are you, looking at her?
+~
+72 0 0 E
+1 20 9 1d1+1 0d0+0
+50 350
+12 12 2
+E
+#1127
+sporty guy~
+a sporty guy~
+A sporty guy is here, running around throwing a frisbee into the air.
+~
+He keeps himself so busy, his skin is glowering with sweat.
+~
+72 0 0 E
+1 20 9 1d1+1 0d0+0
+50 350
+12 12 1
+E
+#1128
+pervert~
+the pervert~
+A pervert is here, staring at you!
+~
+Just the fact that he is being rude disgusts you.
+~
+72 0 0 E
+1 20 10 1d1+0 1d1+0
+0 0
+12 12 1
+E
+#1145
+Tax Collector Monster~
+the Tax Monster... I mean Collector~
+the Tax Monster... I mean Collector grasps you with two giant invisible hands of doom.
+~
+Its ugly its ferocius and it wants ALL of your MONEY!!!!!
+~
+260222 45294 -100 E
+60 5 -8 60d60+3600 30d30+15
+180000 1260000
+12 12 1
+BareHandAttack: 10
+E
+#1150
+shoe~
+"The Shoe" piece~
+"The Shoe" piece sits here because no one picked it to play with.
+~
+"The Shoe" piece, although some people's favorite one, was left behind for this
+game.  Strange how that happens.  People must have picked the doggie and cannon.
+No matter, this shoe will kick your ... hrm.  Well, it will try.  It's already
+mad that it's sitting on the sidelines during the game. 
+~
+10 128 0 E
+40 10 -2 40d40+1600 20d20+10
+80000 560000
+12 12 0
+BareHandAttack: 5
+E
+#1151
+cannon gun~
+"The Cannon" piece~
+"The Cannon" piece sits here firing at you!  *BOOM* *BOOM*
+~
+"The Cannon" piece is not sure how you have time to look at it, in between
+dodging the huge iron balls it is shooting at you.  This is the classic cannon
+piece from the Monopoly game, just not under your control.  It's being
+played by someone who obviously does not want you to win this game.
+~
+42 128 0 E
+40 10 -2 40d40+1600 20d20+10
+80000 560000
+12 12 0
+BareHandAttack: 12
+E
+#1152
+thimble~
+"The Thimble" piece~
+"The Thimble" piece just rolled doubles and is on the move.
+~
+"The Thimble" piece moves very quickly toward GO.  Some believe the player is
+using loaded dice that are magnetically tuned to come up on doubles.  You may
+consider it your duty to stop the Thimble's player by ...(het hem) taking out
+the thimble piece in the middle of the game.  That's your call, but you will
+be sitting on the sidelines, like the shoe, while this guy rolls all night!
+~
+2056 128 0 E
+45 9 -3 45d45+2025 22d22+11
+101250 708750
+12 12 0
+E
+#1153
+dog doggie~
+"The Doggie" piece~
+"The Doggie" piece is running around here, trying to wet on your leg.
+~
+"The Doggie" piece, the cutest of them all, is also trying to win this game!
+It assumes you will forgive it because of how cute it is, but just in case you
+don't like what it's doing to your leg, this little doggie has a big bite.
+You can read it's eyes saying, "Yeah, bring that on too! I'm ready to rumble."
+~
+231818 12424 0 E
+55 7 -6 55d55+3025 27d27+13
+151250 1058750
+12 12 0
+BareHandAttack: 4
+E
+#1154
+hat~
+"The Hat" piece~
+"The Hat" piece moves along the board confidently.
+~
+The hat piece is being played by a very experienced player.  Your best bet is to
+yield the right of way and appease the hat, so its player has no reason to flex
+some serious financial muscle when you land on one of his properties.  Stand clear
+or pay the price.
+~
+2120 168 -200 E
+45 9 -3 45d45+2025 22d22+11
+101250 708750
+12 12 0
+BareHandAttack: 3
+E
+#1197
+peter parker~
+Peter Parker, the millionaire~
+Peter Parker stands here smugly, looking at you with disapproval.
+~
+Peter Parker, the holder of his father's inheritance and property, eyes you
+with contempt.  He's not quite sure you're as rich as you should be to have
+made it this far.  Where, he asks, is your money?  Hahahaha.  He laughs at you.
+~
+24586 40 0 E
+50 8 -5 50d50+2500 25d25+12
+125000 875000
+12 12 1
+E
+#1199
+don donald trump~
+Donald Trump~
+The richest real estate man of them all is standing right here on Boardwalk!
+~
+Donald Trump stands here, surveying the finest of his properties.  Oh yes, he
+owns the whole board, not just Boardwalk.  There's only one problem.  You've
+just landed on Boardwalk while Donald Trump was here.  Now it's time to pay up.
+Be careful, Donald Trump is very good at closing the deal.
+~
+57370 12456 0 E
+60 5 -8 60d60+3600 30d30+15
+180000 1260000
+12 12 1
+BareHandAttack: 4
+E
+$

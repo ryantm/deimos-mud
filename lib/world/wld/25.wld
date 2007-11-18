@@ -1,0 +1,1914 @@
+#2500
+Entrance to the Swamp~
+   The ground begins to lose its dryness here and become extremely spongey.  
+The stench of rotting plant life can be smelled even on the outskirts of this
+swamp.  Foliage here is on a transition stage between large hard woods to soft
+ferns.    
+~
+25 c 3
+D0
+   A path through the forest leads into a swamp like region.    
+~
+~
+0 0 2501
+D2
+~
+~
+0 0 2150
+E
+ground~
+   The ground here is mucky and spongey.  It leaves dirt on soles and there is
+many places where it becomes easy to trip.  Also the ground is littered with
+pools of stagnant water where may insects lay their eggs.    
+~
+S
+#2501
+Path to the Swamp~
+   The swamp water is cool to the touch and the mud sucks unwary feet
+underneith.  The stench of rotting plants is powerful here.  Various flies and
+animals scurry around underfoot and overhead.  The trees on either side create
+a canopy overhead, keeping in the stench, and keeping out the sunlight.  The
+south leads out of the swamp while north is deeper into the murky waters.    
+~
+25 0 3
+D0
+This leads to a more swampy area
+~
+~
+0 0 2502
+D2
+This leads to the beginning of the swamp
+~
+~
+0 0 2500
+S
+#2502
+A path into the Swamp~
+   Crickets and frogs make noises here and there, teasing the senses of
+danger...  Which really isn't there.  The mud underneith the sloshy water is
+thick and squishy.  If you move your feet fast enough you can make a farting
+noise!    
+~
+25 0 3
+D0
+This leads deeper into the swamp
+~
+~
+0 0 2503
+D2
+This leads to the swamp exit
+~
+~
+0 0 2501
+S
+#2503
+A bend in the path~
+   The thick foliage of the swamp let up here and show an entrance to the east.
+The trees are uncomfortably close here and the open path is harder to see.  A
+small carcass of some animal is lying next to a tree.  Some of its meat is
+still on it and it reeks something aweful.  The flies don't seem to care...  
+~
+25 0 3
+D0
+North continues deeper into the swamp
+~
+~
+0 0 2510
+D1
+The swamp opens up to the east, allowing unsafe passage
+~
+~
+0 0 2504
+D2
+This leads back to the entrance of the swamp
+~
+~
+0 0 2502
+E
+carcass corpse meat~
+   It seems to be some type of four legged animal, ripped to shreds by a large
+amount of teeth.  Many of the bones are strewn about as small pieces of muscle
+hold it together.  The carcass is in an eerily sprawled position.    
+~
+S
+#2504
+A dense Swamp path~
+   The trees here are so close they give a feeling of claustrophobia.  The
+branches reach out, scraping and trying to grab whoever comes near them.  It is
+difficult to see under the water since it is so murky and deep here.  Flies and
+mosquitoes pester all who come here.    
+~
+25 0 3
+D1
+The dense path continues this way
+~
+~
+0 0 2505
+D3
+The Swamp opens up here to the main path
+~
+~
+0 0 2503
+S
+#2505
+Winding Swamp Path~
+   The path through the swamp winds further here leading to the north and west.
+Both paths seem shrouded in darkness from the dense canopy of trees.  A rank
+smell eminates from small puddles of water which are obviously the breeding
+ground for mosquitoes and other pond scum.    
+~
+25 0 3
+D0
+~
+~
+0 0 2506
+D3
+~
+~
+0 0 2504
+S
+#2506
+Winding Swamp Path~
+   The path continues to wind here into the swamp.  Stagnant pools of water
+line the path making this the perfect site for mosquito breeding.  A disgusting
+smell rises from the pools of water which seems to permeate the very essence of
+this swamp, everything and everyone in it reeks.    
+~
+25 0 3
+D0
+~
+~
+0 0 2507
+D2
+~
+~
+0 0 2505
+S
+#2507
+Winding Swamp Path~
+   The path here winds on through the swamp in an almost navigable fashion.  
+Roots and pools of putrid water make it difficult to walk or to even see the
+path here.  Depth is lost in the immense green and blackness of the swamp as it
+becomes hard to judge which direction to follow.    
+~
+25 0 3
+D2
+~
+~
+0 0 2506
+D3
+~
+~
+0 0 2508
+S
+#2508
+Winding Swamp Path~
+   The path continues to wind here.  It leads along into the depths of the
+swamp where mosquitoes breed in the thousands.  Everywhere is the smell of rot
+and decay of the both the forest and the plants that lie dead on the ground of
+this region.  The sky above can barely be seen through the canopy of trees.  
+~
+25 0 3
+D1
+~
+~
+0 0 2507
+D2
+~
+~
+0 0 2509
+S
+#2509
+Straight Path~
+   A straight path is cut through the swamp here.  Though it is much easier to
+navigate than any other portions of the swamp, it is no less rank.  The odors
+extend here to and rise up from the path in a slow seeping manner.  The path is
+spongy over soft footfall.    
+~
+25 0 3
+D0
+~
+~
+0 0 2508
+D3
+~
+~
+0 0 2510
+S
+#2510
+Crossing of Paths~
+   Two paths in the swamp cross here.  These are the only accessible ways to
+navigate through the swamp.  All other ways are blocked by trees and murky
+swamp holes filled with stagnant water.  Paths lead east, south and west from
+this intersection.    
+~
+25 0 3
+D1
+~
+~
+0 0 2509
+D2
+~
+~
+0 0 2503
+D3
+~
+~
+0 0 2511
+S
+#2511
+Straight Swamp Path~
+   This path leads straight and deep into the swamp.  It smells horribly and is
+very hard to see in the dim light.  Frogs croak, insects buzz, crickets cricket
+everywhere.  The ground is amazeingly spongy and thuroughly saturated with
+water.    
+~
+25 0 3
+D1
+~
+~
+0 0 2510
+D3
+~
+~
+0 0 2512
+S
+#2512
+Straight Path~
+   The straight path tapers off here and splits off into a path leading down to
+a pond in the west, and a path leading deeper into the swamp to the north.  
+The smell never seems to let up here, and is just as bad as everywhere else.  
+Animals and insects swarm around everywhere.    
+~
+25 0 3
+D0
+~
+~
+0 0 2513
+D1
+~
+~
+0 0 2511
+D3
+~
+~
+0 0 2525
+S
+#2513
+Lost in the Swamp~
+   The swamp crowds around in all directions causing slight loss of
+orientation.  Bearings can still be found though, by the plentiful moss on the
+trees.  Animals continue to swarm around here, but the smell seems to let up
+slightly especially to the northeast.    
+~
+25 0 3
+D0
+~
+~
+0 0 2523
+D1
+~
+~
+0 0 2514
+D2
+~
+~
+0 0 2512
+S
+#2514
+Lost in the Swamp~
+   The swamp crowds around in all directions causing slight loss of
+orientation.  Bearings can still be found though, by the plentiful moss on the
+trees.  Animals continue to swarm around here, but the smell seems to let up
+slightly especially to the northeast.    
+~
+25 0 3
+D0
+~
+~
+0 0 2515
+D3
+~
+~
+0 0 2513
+S
+#2515
+Lost in the Swamp~
+   The swamp crowds around in all directions causing slight loss of
+orientation.  Bearings can still be found though, by the plentiful moss on the
+trees.  Animals continue to swarm around here, but the smell seems to let up
+slightly especially to the northeast.    
+~
+25 0 3
+D0
+~
+~
+0 0 2516
+D2
+~
+~
+0 0 2514
+S
+#2516
+Lost in the Swamp~
+   The swamp crowds around in all directions causing slight loss of
+orientation.  Bearings can still be found though, by the plentiful moss on the
+trees.  Animals continue to swarm around here, but the smell seems to let up
+slightly especially to the northeast.    
+~
+25 0 3
+D1
+~
+~
+0 0 2517
+D2
+~
+~
+0 0 2515
+D3
+~
+~
+0 0 2522
+S
+#2517
+Witches' Domain~
+   The watery region of the swamp which expands to the west starts to end here
+as the ground becomes more stable and less squishy.  To the north a small hut
+can be seen through a clearing to the north.  Smoke seems to be rising from the
+hut hole in the roof.    
+~
+25 c 2
+D0
+A clearing lies to the north.
+~
+~
+0 0 2518
+D3
+Westward the watery region of the swamp begins again.
+~
+~
+0 0 2516
+E
+Hut~
+   Not much of the hut can be seen from here, but it looks like smoke is rising
+from the roof and there is also an oder of herbs and maybe even poison!    
+~
+S
+#2518
+Land for Sale~
+   This is a big clearing made on the little dry land that exists in the swamp.
+The resident warlock has fixed up the land so it is all ready to be purchased
+by the highest bidder.  Unfortunately it doesn't look like these plots are
+going fast.  A sign is stuck in the ground but it's hardly legible.    
+~
+25 0 2
+D2
+This direction leads back toward the watery region of the swamp.
+~
+~
+0 0 2517
+D3
+a Small hut lies directly to the west.
+~
+~
+0 0 2519
+E
+Sign~
+Land for sale.
+       G and E Warlocks Inc.
+~
+S
+#2519
+Common Room Kitchen~
+   This is not unlike most witch-houses minus the gingerbread and candy cane
+windowpanes.  The room has a dirt floor, swamp-wood walls, and a hole in the
+roof.  In the center there is a cauldron, the must have for a witch.  Some
+herbs are also drying in the corner and thank goodness no little boys and girls
+are being 'prepared.  '
+~
+25 d 0
+D1
+   Through the door to the house lies a clearing where this family of magic
+users attempts sell plots of land.    
+~
+~
+0 0 2518
+E
+Cauldron~
+   The cauldron is full of....  SOUP!  Hmm this must not be your average
+witch...  More of a Good witch...  Or not a witch at all.    
+~
+S
+#2520
+1~
+You are in an unfinished room.
+~
+25 0 0
+D4
+~
+~
+0 0 2521
+S
+#2521
+1~
+You are in an unfinished room.
+~
+25 0 0
+D5
+~
+~
+0 0 2520
+S
+#2522
+Lost in the Swamp~
+   The swamp crowds around in all directions causing slight loss of
+orientation.  Bearings can still be found though, by the plentiful moss on the
+trees.  Animals continue to swarm around here, but the smell seems to let up
+slightly especially to the northeast.    
+~
+25 0 3
+D1
+~
+~
+0 0 2516
+D2
+~
+~
+0 0 2523
+S
+#2523
+Lost in the Swamp~
+   The swamp crowds around in all directions causing slight loss of
+orientation.  Bearings can still be found though, by the plentiful moss on the
+trees.  Animals continue to swarm around here, but the smell seems to let up
+slightly especially to the northeast.    
+~
+25 0 3
+D0
+~
+~
+0 0 2522
+D2
+~
+~
+0 0 2513
+D3
+~
+~
+0 0 2524
+S
+#2524
+Alligator Nest~
+   An alligator's nest is clearly visible here on the pond's edge, it contains
+a couple of newly laid eggs which are carefully concealed by a nest of mud and
+bullrushes.  The smell isn't as bad around here because of the good air
+circulation from the lack of canopy around the pond.  The perfect place to
+raise young.    
+~
+25 0 3
+D1
+~
+~
+0 0 2523
+S
+#2525
+Pond~
+   A pond opens up here, right in the middle of the swamp.  Though the water
+actually flows here, it smells no less foul.  Fish swim the waters of the pond
+and it is just large enough to possibly accomodate an alligator.  It is
+slightly brighter here due to a less dense canopy.    
+~
+25 c 3
+D0
+~
+~
+0 0 2530
+D1
+~
+~
+0 0 2512
+D5
+~
+~
+0 0 2526
+S
+#2526
+Underwater~
+   Going under the water it becomes clear that there are more dangers in this
+swamp than previously assed.  Dangerous fish swarm around under here...  But
+wait, they seem well fed.  Strange.  Well this seems to be the nicest
+collection of dangerous, well fed fish in the entire....  Swamp
+~
+25 0 8
+D0
+~
+~
+0 0 2527
+D1
+~
+~
+0 0 2528
+D4
+~
+~
+0 0 2525
+S
+#2527
+Underwater~
+   Going under the water it becomes clear that there are more dangers in this
+swamp than previously assed.  Dangerous fish swarm around under here...  But
+wait, they seem well fed.  Strange.  Well this seems to be the nicest
+collection of dangerous, well fed fish in the entire....  Swamp
+~
+25 0 8
+D2
+~
+~
+0 0 2526
+D3
+~
+~
+0 0 2529
+S
+#2528
+Underwater~
+   Going under the water it becomes clear that there are more dangers in this
+swamp than previously assed.  Dangerous fish swarm around under here...  But
+wait, they seem well fed.  Strange.  Well this seems to be the nicest
+collection of dangerous, well fed fish in the entire....  Swamp
+~
+25 0 8
+D3
+~
+~
+0 0 2526
+S
+#2529
+Underwater~
+   Going under the water it becomes clear that there are more dangers in this
+swamp than previously assed.  Dangerous fish swarm around under here...  But
+wait, they seem well fed.  Strange.  Well this seems to be the nicest
+collection of dangerous, well fed fish in the entire....  Swamp
+~
+25 0 8
+D1
+~
+~
+0 0 2527
+S
+#2530
+On the Pond~
+   In the middle of the water it is quite easier to see around the swamp.  To
+the southeast lies the end of the swamp.  To the Northeast is a dry patch of
+land right in the middle of the swamp and the swamp extends to the west and
+north.  The fish are quite abundant in this pond, probably due to the lush
+greenery that lies rotting in the pond providing a perfect source of food for
+some fish.    
+~
+25 0 6
+D2
+~
+~
+0 0 2525
+S
+#2531
+Bud Road~
+   Named after the town, Bud Road embodies the spiritual and medicinal side of
+town.  The graveyard can also be found on this road, where the beloved member's
+of this town are buried forever.  Many children can be found wandering the
+streets here, playing with the animals owned by the Midwife and Herbalist.  
+Even though specializing in less conventional professions, everyone in this
+town is valuable to the growth and development of all that dwell in it.  To the
+east is the herbalist's house, who is famous for creating medicinal remedies
+out of simple plants.    
+~
+25 0 0
+D0
+~
+~
+0 0 2532
+D1
+~
+~
+0 0 2538
+D2
+~
+~
+0 0 2550
+S
+#2532
+Bud Road~
+   Named after the town, Bud Road embodies the spiritual and medicinal side of
+town.  The graveyard can also be found on this road, where the beloved member's
+of this town are buried forever.  Many children can be found wandering the
+streets here, playing with the animals owned by the Midwife and Herbalist.  
+Even though specializing in less conventional professions, everyone in this
+town is valuable to the growth and development of all that dwell in it.  To the
+west is the graveyard of Flower Bud Village.  Everyone, including the animals,
+are buried here by the town priest.    
+~
+25 0 0
+D0
+~
+~
+0 0 2533
+D2
+~
+~
+0 0 2531
+D3
+~
+~
+0 0 2537
+S
+#2533
+Bud Road~
+   Named after the town, Bud Road embodies the spiritual and medicinal side of
+town.  The graveyard can also be found on this road, where the beloved member's
+of this town are buried forever.  Many children can be found wandering the
+streets here, playing with the animals owned by the Midwife and Herbalist.  
+Even though specializing in less conventional professions, everyone in this
+town is valuable to the growth and development of all that dwell in it.  To the
+east is Midwife's home, where she delivers the children of the village.    
+~
+25 0 0
+D0
+~
+~
+0 0 2534
+D1
+~
+~
+0 0 2536
+D2
+~
+~
+0 0 2532
+S
+#2534
+Bud Road~
+   Named after the town, Bud Road embodies the spiritual and medicinal side of
+town.  The graveyard can also be found on this road, where the beloved member's
+of this town are buried forever.  Many children can be found wandering the
+streets here, playing with the animals owned by the Midwife and Herbalist.  
+Even though specializing in less conventional professions, everyone in this
+town is valuable to the growth and development of all that dwell in it.  To the
+east is Floral Road.  To the north is the Flower Bud Library, which contains
+mainly farming and ranching techniques.    
+~
+25 0 0
+D0
+~
+~
+0 0 2535
+D1
+~
+~
+0 0 2557
+D2
+~
+~
+0 0 2533
+S
+#2535
+Flower Bud Library~
+   A quaint little building, the library is quite selective in the books that
+it provides.  Mainly, books on farming and ranching are provided for those who
+want, and need it.  Of course though, the classic literatures are provided, but
+not in any large quantity.  Luckily, there are not many people in the town to
+being with, so there are always enough books to go around.    
+~
+25 0 0
+D2
+~
+~
+0 0 2534
+S
+#2536
+Midwife~
+   The midwife is a very old, yet very important individual in the town.  
+Almost every child in the town was delivered by her, so she knows everyone very
+well.  The people respect, and love her very dearly.  Though becoming older and
+older, she still contains the same lust for life that she did years before.  
+She enjoys having children over at her house, and lets them play with her cats,
+of which she has two of.    
+~
+25 0 0
+D3
+~
+~
+0 0 2533
+S
+#2537
+Graveyard~
+   Though quite small, the graveyard is a very sacred place to all the citizens
+of Flower Bud Village.  Due to the fact that everyone knows everyone in this
+town, the entire town will show up if someone was to die.  Even animals are
+given proper funerals if killed by sickness.  The priest will arrive early in
+the morning and deliver a speech, sending the souls of the deceased to heaven.
+  
+~
+25 0 0
+D1
+~
+~
+0 0 2532
+S
+#2538
+Herbalist~
+   Starting out with nothing but a couple plants, the herbalist of this town
+has established himself as a productive and extremely helpful individual.  He
+has specialized in the ability to take simple plants found around the town, and
+converting them into potions and other medicine.  Whether regenerating energy
+or curing a cold, the herbalist has something for everyone, in almost all
+cases.    
+~
+25 0 0
+D3
+~
+~
+0 0 2531
+S
+#2539
+Fisher's Pond~
+   Though not as popular of a spot as the river nearby, the fisher's pond is a
+perfect place to begin learning the fine art of fishing.  Located with by the
+fisherman's tent, it's not a surprise that the fisherman has somewhat marked
+his territory when it comes to the pond.  Luckily, he always has a proliferate
+amount of fishing rods hanging around, and is always willing to lend a hand
+when it comes to learning how to catch the big one.    
+~
+25 v 0
+D3
+~
+~
+0 0 2569
+S
+#2540
+The Town Square~
+   This is the town square.  All of the local farmers and shop owners come here
+every season to celebrate some type of holiday.  Also, local competitions are
+also held here.  Things such as the "Best Crop" competition and "Best Milk"
+competition are both held here every single year.    
+~
+25 0 0
+D0
+~
+~
+0 0 4248
+D2
+~
+~
+0 0 2541
+S
+#2541
+Mellon Road~
+   This is Mellon Road, people come here both to converse with each other and
+to buy goods from the local stores.  Everyone in this town is nice and
+hospitable, and people enjoy coming for the festivals.  To the east is the
+local Tavern, where the residents come to relax and have a drink.    
+~
+25 0 0
+D0
+~
+~
+0 0 2540
+D1
+~
+~
+0 0 2542
+D2
+~
+~
+0 0 2543
+S
+#2542
+Tavern~
+   This is the famous tavern, they serve whiskey, ale, gin, beer, milk, and if
+needed, simple ice, cold water.  The people who come here are all different
+shapes and sizes, most come on a certain day depending on the amount of work
+they have.  This tavern has also been one of the prime locations to meet a
+future spouse, as many of the people in this town understand from personal
+experience.    
+~
+25 0 0
+D3
+~
+~
+0 0 2541
+S
+#2543
+Mellon Road~
+   This is Mellon Road, people come here both to converse with each other and
+to buy goods from the local stores.  Everyone in this town is nice and
+hospitable, and people enjoy coming for the festivals.  To the north is the
+Town Square, where people come together to celebrate anything that they can.  
+
+~
+25 0 0
+D0
+~
+~
+0 0 2541
+D2
+~
+~
+0 0 2544
+S
+#2544
+Mellon Road~
+   This is Mellon Road, people come here both to converse with each other and
+to buy goods from the local stores.  Everyone in this town is nice and
+hospitable, and people enjoy coming for the festivals.  To the east is the town
+church, where people come every Sunday to pray, and on special days, to be wed.
+~
+25 0 0
+D0
+~
+~
+0 0 2543
+D1
+~
+~
+0 0 2545
+D2
+~
+~
+0 0 2546
+S
+#2545
+Church~
+   This is the local town church.  Every Sunday, all the inhabitants of this
+town flock to the small building, and pray for a bright future.  The pastor is
+good friends with everyone and enjoys giving advice to anyone who enters this
+sanctuary.  A small podium sits in the front of the room, and the organ sits in
+the top right of the room.  Mellon Street is back west.    
+~
+25 0 0
+D3
+~
+~
+0 0 2544
+S
+#2546
+Mellon Road~
+   This is Mellon Road, people come here both to converse with each other and
+to buy goods from the local stores.  Everyone in this town is nice and
+hospitable, and people enjoy coming for the festivals.  To the east in the
+flower shop.  Owned by a family who through the generation have all been
+gardeners, so of the best flowers in the city can be found right here.    
+~
+25 0 0
+D0
+~
+~
+0 0 2544
+D1
+~
+~
+0 0 2547
+D2
+~
+~
+0 0 2548
+S
+#2547
+Flower Shop~
+   The Flower Shop is a small, quaint building.  To the northeast is the
+cashier's register, and the entire northwest part of the shop are shelves,
+lined with different type of vegetable seeds.  For anyone thinking about
+starting a garden, or a farm, all the seeds can be found right here.  Every
+season, a new stock of different seeds will be placed on these shelves, open
+for all to buy and grow.    
+~
+25 0 0
+D3
+~
+~
+0 0 2546
+S
+#2548
+Oso Road~
+   Considered somewhat the crossroads of town, Oso Road is connected to
+everywhere one could want to go to.  Many people enjoy meeting here, just to
+talk and mingle.  The postman especially can be often found wandering around
+here.  To the North is Mellon Road, home to the church and the tavern.    
+~
+25 0 0
+D0
+~
+~
+0 0 2546
+D3
+~
+~
+0 0 2549
+S
+#2549
+Oso Road~
+   Considered somewhat the crossroads of town, Oso Road is connected to
+everywhere one could want to go to.  Many people enjoy meeting here, just to
+talk and mingle.  The postman especially can be often found wandering around
+here.  To the south is Jack's Farm.  A fairly new farmer in this town.  
+Inheriting the farm from his deceased father, the farm is in need of much
+repair.  To the north is Floral Road, famous for being lined with hundreds of
+flowers provided by the gardeners on Mellon Road.    
+~
+25 0 0
+D0
+~
+~
+0 0 2551
+D1
+~
+~
+0 0 2548
+D2
+~
+~
+0 0 2559
+D3
+~
+~
+0 0 2550
+S
+#2550
+Oso Road~
+   Considered somewhat the crossroads of town, Oso Road is connected to
+everywhere one could want to go to.  Many people enjoy meeting here, just to
+talk and mingle.  The postman especially can be often found wandering around
+here.  To the north is Bud Road, home of some of the stranger people in the
+town.    
+~
+25 0 0
+D0
+~
+~
+0 0 2531
+D1
+~
+~
+0 0 2549
+S
+#2551
+Floral Road~
+   Untop a small incline upwards, Floral Road is a top spots for shops to be
+set up.  Many people come here to buy different goods for their farms, animals,
+or just for themselves.  For the most part, everyone in the town knows each
+other, making it much easier to get deals.  To the east is the Bakery Shop,
+full of cakes and breads.  Back south is Oso Road.    
+~
+25 0 0
+D0
+~
+~
+0 0 2553
+D1
+~
+~
+0 0 2552
+D2
+~
+~
+0 0 2549
+S
+#2552
+Bakery~
+   A small counter is on the top left of the room, pastries are lines up all
+along it, as long with various cookies and snacks.  A small menu sits on a
+solitary table to the north-east, filled with all the magnificent baked goods
+that the baker is specialized in.  You can see empties bottles of milk and
+cracked-open eggs splatted in the back kitchen, everything in made fresh right
+there and then, providing some of the best food possible.    
+~
+25 0 0
+D3
+~
+~
+0 0 2551
+E
+menu~
+Milk: 50g
+Eggs: 25g
+Cake: 200g
+Cookie: 100g
+Pastry: 75g
+Pie: 500g
+~
+S
+#2553
+Floral Road~
+   Untop a small incline upwards, Floral Road is a top spots for shops to be
+set up.  Many people come here to buy different goods for their farms, animals,
+or just for themselves.  For the most part, everyone in the town knows each
+other, making it much easier to get deals.  To the east is the Craft Shop,
+where hundreds of small trinkets can be found and bought.  Every couple weeks,
+a special item might show up for a limited time.    
+~
+25 0 0
+D0
+~
+~
+0 0 2555
+D1
+~
+~
+0 0 2554
+D2
+~
+~
+0 0 2551
+S
+#2554
+Craft Shop~
+   The local Craft Shop is not the most popular place, but the people love it
+anyways.  The old man who started this shop created a tradition of creating
+handmade toys and trinkets for everyone.  At times, he will create furniture
+such as couches and rugs depending on his work-load.  However, the store is not
+open very much, so it is hard to get things when wanted.    
+~
+25 0 0
+D3
+~
+~
+0 0 2553
+S
+#2555
+Floral Road~
+   Untop a small incline upwards, Floral Road is a top spots for shops to be
+set up.  Many people come here to buy different goods for their farms, animals,
+or just for themselves.  For the most part, everyone in the town knows each
+other, making it much easier to get deals.  The Tool Shop is to the east,
+gadgets made for both farmers and cattle-owners are welcome here.    
+~
+25 0 0
+D0
+~
+~
+0 0 2557
+D1
+~
+~
+0 0 2556
+D2
+~
+~
+0 0 2553
+S
+#2556
+Tool Shop~
+   Especially made for those who own and farm or owners, the Tool Shop is a
+perfect place to get supplies for daily work.  Anything from hammers to sheep
+shears can be bought here.  Owned by Rick for over 5 years, he can make, break,
+and fix almost anything thrown at him.  One of the greatest prides of this
+town, the Tool Shop is one of the necessities of this town.    
+~
+25 0 0
+D3
+~
+~
+0 0 2555
+S
+#2557
+Floral Road~
+   Untop a small incline upwards, Floral Road is a top spots for shops to be
+set up.  Many people come here to buy different goods for their farms, animals,
+or just for themselves.  For the most part, everyone in the town knows each
+other, making it much easier to get deals.  Furry Bunny Meadow's, a special pet
+store, is to the east.    
+~
+25 0 0
+D1
+~
+~
+0 0 2558
+D2
+~
+~
+0 0 2555
+D3
+~
+~
+0 0 2534
+S
+#2558
+Fuzzy Bunny Meadows~
+   A store started quite recently, the owners breed one thing, bunnies.  
+Created by the carpenters, the store was custom made.  A desk is to the west
+while a large glass mirror a couple feet away from the door.  A large indoor
+garden with a glass ceiling housed a small habitat for the bunnies.  A door is
+right by the desk that allows the owners to go on in and pick up any bunny who
+is ready to go home with a new owner.    
+~
+25 0 0
+D3
+~
+~
+0 0 2557
+S
+#2559
+Intersection to Jack's Farm~
+   Jack, a relative newcomer to this town, has high potential.  Inheriting the
+farm from his deceased father, he plans to make his farm the best ever.  
+Coming with only a small albumbook and a backback, he has been cultivalting
+this land to the best of his ability.  A hard worker, Jack plans to live up to
+his father's memory.  To the west is Heckle's farm, a good friend of Jack's
+father, and Mount Moon is to the east, a famous mountain.    
+~
+25 c 0
+D0
+~
+~
+0 0 2549
+D1
+~
+~
+0 0 2568
+D2
+~
+~
+0 0 2570
+D3
+~
+~
+0 0 2560
+S
+#2560
+Road to Green's Ranch~
+   Green is a pretty old guy, but has plenty of experience when it comes to
+animals.  He has won numerous awards for his animals and takes joy in helping
+others raise their cattle.  Specializing in animal products, Green sells almost
+everything a cattle-raiser would need.  Having an ample amount of chicken feed,
+cattle feed, medicine, and the animals themselves, Green is the person everyone
+in town goes to whenever they have a problem with an animal.    
+~
+25 0 0
+D1
+~
+~
+0 0 2559
+D3
+~
+~
+0 0 2561
+S
+#2561
+Green Pasture~
+   A soft green pasture, Green's farm has to have an abundance of grass for
+it's animals.  Considered the expert when it comes to animals, Green has to
+make sure that he always has the right nutrients to give his cattle.  He pays
+heavy attention to his grass supply, making sure that there is always enough,
+especially for his award winning cows.  Nice and soft, Green's green pasture is
+a popular spot for cattle raisers to bring their animals if their own supply
+isn't doing too well.    
+~
+25 0 0
+D1
+~
+~
+0 0 2560
+D3
+~
+~
+0 0 2562
+S
+#2562
+Green Pasture~
+   A soft green pasture, Green's farm has to have an abundance of grass for
+it's animals.  Considered the expert when it comes to animals, Green has to
+make sure that he always has the right nutrients to give his cattle.  He pays
+heavy attention to his grass supply, making sure that there is always enough,
+especially for his award winning cows.  Nice and soft, Green's green pasture is
+a popular spot for cattle raisers to bring their animals if their own supply
+isn't doing too well.    
+~
+25 0 0
+D0
+~
+~
+0 0 2563
+D1
+~
+~
+0 0 2561
+D2
+~
+~
+0 0 2566
+S
+#2563
+Green Pasture~
+   A soft green pasture, Green's farm has to have an abundance of grass for
+it's animals.  Considered the expert when it comes to animals, Green has to
+make sure that he always has the right nutrients to give his cattle.  He pays
+heavy attention to his grass supply, making sure that there is always enough,
+especially for his award winning cows.  Nice and soft, Green's green pasture is
+a popular spot for cattle raisers to bring their animals if their own supply
+isn't doing too well.    
+~
+25 0 0
+D1
+~
+~
+0 0 2564
+D2
+~
+~
+0 0 2562
+S
+#2564
+Green Stable~
+   Filled with over 8 stalls, Green loves animals.  With hay spread all around
+the stable, and ample food sitting in the back, the animals in this stable are
+considerably healthier and larger than most others.  Winning numerous awards
+for his work, Green takes the absolute best care of everything he raises,
+placing him as one of the finest animal raisers avaliable.    
+~
+25 0 0
+D3
+~
+~
+0 0 2563
+S
+#2565
+1~
+You are in an unfinished room.
+~
+25 0 0
+S
+#2566
+Green Garden~
+   A small garden owned by the Green family.  Being good friends with the local
+gardeners, the Greens enjoy having a small garden for themselves.  Most of the
+crops from the garden are consumed by the Green family or fed to the animals.
+Being somewhat small however, the pride of the Green family is still their
+animals.    
+~
+25 0 0
+D0
+~
+~
+0 0 2562
+D1
+~
+~
+0 0 2567
+S
+#2567
+Green's Family Animal Shop~
+   The famous Green shop, where any animal possible wanted can be bought for a
+relatively cheap price.  A menu sits on a small table to the top right of the
+room, and a shelf with different animal foods and medicine lies to the left.  
+The check-out counter is right to the left of the entrance.  The owner is
+always obliged to help with any questions or comments about animals, and loves
+to hear stories about other people's experiences with animals.    
+~
+25 0 0
+D3
+~
+~
+0 0 2566
+E
+menu~
+Cow: 500000g
+Sheep: 250000g
+Chicken: 50000g
+~
+S
+#2568
+Path to Mount Moon~
+   Mount Moon, a small, yet famous little mountain in the town.  Every single
+year, the moondrop flower would grow on it's peak, a very rare, and very
+beautiful flower.  Also as a lifeblood for the logging industry, the carpenters
+of the town rely on the plentiful trees that embody the mountain.  For years,
+people have enjoyed hiking to the top and watching the beautiful view.    
+~
+25 0 0
+D0
+~
+~
+0 0 2586
+D1
+~
+~
+0 0 2569
+D3
+~
+~
+0 0 2559
+S
+#2569
+Fisherman's Tent~
+   The local fisherman is an old, yet peppy man.  He sits by the riverside all
+day long hoping to catch a fish.  Using his one trust fishing pole, the man
+knows more about fish than anyone else in the town.  Filled with an amazing
+love of nature, the fisherman small tent so he can go out and fish in the
+middle of the night if he's so inclined.    
+~
+25 0 0
+D1
+~
+~
+0 0 2539
+D3
+~
+~
+0 0 2568
+S
+#2570
+Jack's Farm~
+   Comprised of basically a huge chunk of land.  Jack's farm was in a
+completely horrid state when he first arrived.  Weeds were growing all over the
+place, rocks were scattered in the soil, and the soil was old and dry of
+nutrients.  However, using his amazing work ethic, Jack worked on it and turned
+the run-down farmland into a perfectly suitable place to grow crops and raise
+animals.    
+~
+25 0 0
+D0
+~
+~
+0 0 2559
+D1
+~
+~
+0 0 2585
+D2
+~
+~
+0 0 2571
+S
+#2571
+Farmland~
+   With crops growing in rows all along the soil, Jack's farm is doing quite
+well.  The soil is well fertilized and has a nice, rich, black color.  The
+crops themselves all have grown to their full potential, with large, green
+leaves sprouting off the stems.  Being a environmentally caution person, Jack
+avoids all pesticides, and stick with the efficient solution of soap and water
+to rid of any critters that might harm his crops.  As exercise, Jack also lets
+his dog out into the farm, letting him run around until he becomes tired.    
+~
+25 0 0
+D0
+~
+~
+0 0 2570
+D1
+~
+~
+0 0 2574
+D2
+~
+~
+0 0 2582
+D3
+~
+~
+0 0 2572
+S
+#2572
+Farmland~
+   With crops growing in rows all along the soil, Jack's farm is doing quite
+well.  The soil is well fertilized and has a nice, rich, black color.  The
+crops themselves all have grown to their full potential, with large, green
+leaves sprouting off the stems.  Being a environmentally caution person, Jack
+avoids all pesticides, and stick with the efficient solution of soap and water
+to rid of any critters that might harm his crops.  As exercise, Jack also lets
+his dog out into the farm, letting him run around until he becomes tired.    
+~
+25 0 0
+D0
+~
+~
+0 0 2573
+D1
+~
+~
+0 0 2571
+D2
+~
+~
+0 0 2581
+S
+#2573
+Greenhouse~
+   For some odd reason, the greenhouse seems much large inside than outside,
+however, it is more than large enough to hold an ample amount of crops.  Rows
+of vegatables are grown here during all times of the year.  A well is placed in
+the left of the room, in order for Jack to fill up his watering can without too
+much trouble.  Other than that, the greenhouse protects the plants from the
+harshness of the outside world, especially heavy winds and pesky bugs.    
+~
+25 0 0
+D2
+~
+~
+0 0 2572
+S
+#2574
+Farmland~
+   With crops growing in rows all along the soil, Jack's farm is doing quite
+well.  The soil is well fertilized and has a nice, rich, black color.  The
+crops themselves all have grown to their full potential, with large, green
+leaves sprouting off the stems.  Being a environmentally caution person, Jack
+avoids all pesticides, and stick with the efficient solution of soap and water
+to rid of any critters that might harm his crops.  As exercise, Jack also lets
+his dog out into the farm, letting him run around until he becomes tired.    
+~
+25 0 0
+D1
+~
+~
+0 0 2575
+D2
+~
+~
+0 0 2577
+D3
+~
+~
+0 0 2571
+S
+#2575
+Chicken Coop~
+   An extension into the stable, the chicken coop is basically filled with one
+thing, chickens.  In the left is a large bag of chicken feed, which has obvious
+signs of being pecked at.  As for the chickens, they are grown here to provide
+eggs, and in some cases, food.  In order to keep a constant supply, and
+incubator sits in the top right of the room, so that someday another chicken
+can be born and raised.    
+~
+25 0 0
+D0
+~
+~
+0 0 2576
+D3
+~
+~
+0 0 2574
+S
+#2576
+Animal Stable~
+   A quite large stable, Jack keeps mainly sheep and cows inside here.  
+Several bales of hay sit around in the back corners.  Shearing scissors and a
+milking apparatus hangs on two hooks by the door.  There are 8 stalls
+altogether, accommodating for all the animals Jack will ever plan to get.    
+~
+25 0 0
+D2
+~
+~
+0 0 2575
+S
+#2577
+Farmland~
+   With crops growing in rows all along the soil, Jack's farm is doing quite
+well.  The soil is well fertilized and has a nice, rich, black color.  The
+crops themselves all have grown to their full potential, with large, green
+leaves sprouting off the stems.  Being a environmentally caution person, Jack
+avoids all pesticides, and stick with the efficient solution of soap and water
+to rid of any critters that might harm his crops.  As exercise, Jack also lets
+his dog out into the farm, letting him run around until he becomes tired.    
+~
+25 0 0
+D0
+~
+~
+0 0 2574
+D1
+~
+~
+0 0 2584
+D2
+~
+~
+0 0 2578
+D3
+~
+~
+0 0 2582
+S
+#2578
+Farmland~
+   With crops growing in rows all along the soil, Jack's farm is doing quite
+well.  The soil is well fertilized and has a nice, rich, black color.  The
+crops themselves all have grown to their full potential, with large, green
+leaves sprouting off the stems.  Being a environmentally caution person, Jack
+avoids all pesticides, and stick with the efficient solution of soap and water
+to rid of any critters that might harm his crops.  As exercise, Jack also lets
+his dog out into the farm, letting him run around until he becomes tired.    
+~
+25 0 0
+D0
+~
+~
+0 0 2577
+D1
+~
+~
+0 0 2583
+D3
+~
+~
+0 0 2579
+S
+#2579
+Farmland~
+   With crops growing in rows all along the soil, Jack's farm is doing quite
+well.  The soil is well fertilized and has a nice, rich, black color.  The
+crops themselves all have grown to their full potential, with large, green
+leaves sprouting off the stems.  Being a environmentally caution person, Jack
+avoids all pesticides, and stick with the efficient solution of soap and water
+to rid of any critters that might harm his crops.  As exercise, Jack also lets
+his dog out into the farm, letting him run around until he becomes tired.    
+~
+25 0 0
+D0
+~
+~
+0 0 2582
+D1
+~
+~
+0 0 2578
+D3
+~
+~
+0 0 2580
+S
+#2580
+Farmland~
+   With crops growing in rows all along the soil, Jack's farm is doing quite
+well.  The soil is well fertilized and has a nice, rich, black color.  The
+crops themselves all have grown to their full potential, with large, green
+leaves sprouting off the stems.  Being a environmentally caution person, Jack
+avoids all pesticides, and stick with the efficient solution of soap and water
+to rid of any critters that might harm his crops.  As exercise, Jack also lets
+his dog out into the farm, letting him run around until he becomes tired.    
+~
+25 0 0
+D0
+~
+~
+0 0 2581
+D1
+~
+~
+0 0 2579
+S
+#2581
+Farmland~
+   With crops growing in rows all along the soil, Jack's farm is doing quite
+well.  The soil is well fertilized and has a nice, rich, black color.  The
+crops themselves all have grown to their full potential, with large, green
+leaves sprouting off the stems.  Being a environmentally caution person, Jack
+avoids all pesticides, and stick with the efficient solution of soap and water
+to rid of any critters that might harm his crops.  As exercise, Jack also lets
+his dog out into the farm, letting him run around until he becomes tired.    
+~
+25 0 0
+D0
+~
+~
+0 0 2572
+D1
+~
+~
+0 0 2582
+D2
+~
+~
+0 0 2580
+S
+#2582
+Farmland~
+   With crops growing in rows all along the soil, Jack's farm is doing quite
+well.  The soil is well fertilized and has a nice, rich, black color.  The
+crops themselves all have grown to their full potential, with large, green
+leaves sprouting off the stems.  Being a environmentally caution person, Jack
+avoids all pesticides, and stick with the efficient solution of soap and water
+to rid of any critters that might harm his crops.  As exercise, Jack also lets
+his dog out into the farm, letting him run around until he becomes tired.    
+~
+25 0 0
+D0
+~
+~
+0 0 2571
+D1
+~
+~
+0 0 2577
+D2
+~
+~
+0 0 2579
+D3
+~
+~
+0 0 2581
+S
+#2583
+Big Oak Tree~
+   This large oak tree used to be one of the best hang-out places on the entire
+farm.  Jack and his dad would spend hours under this tree, playing around.  
+However, the tree is just a memory now for Jack, who has grown up beyond his
+past.  The large, brown trunk, and the small, green leaves, make up this
+immense tree, which waits for the day that another father and son can lie under
+it's shade.    
+~
+25 0 0
+D0
+~
+~
+0 0 2584
+D3
+~
+~
+0 0 2578
+S
+#2584
+Watering Hole~
+   A small watering hole here, filled a decent supply of water.  Animals come
+here often to drink from it, but for the most part, it is used to provide Jack
+with the water to feed his crops.  Many time, Jack's neighbors will bring some
+of their animals in to drink from this small pond.  A constant reminder of how
+the community helps each other, the watering hole is a part of the town as much
+as anything else.    
+~
+25 0 0
+D2
+~
+~
+0 0 2583
+D3
+~
+~
+0 0 2577
+S
+#2585
+Jack's House~
+   A relatively new house, Jack hasn't had much time to try and make additions
+to the small home.  In the middle of backwall is a TV, which conveniently only
+has 4 channels.  A well-made bed sits on the left of the TV, with a cabinet
+nearby.  A table sits ontop of a rug in the middle of the room.    
+~
+25 0 0
+D3
+~
+~
+0 0 2570
+S
+#2586
+Along the Riverbed~
+   The river is a small and gentle, but teeming with life.  One of the prime
+fishing spots, the river hold many aquatic creatures.  Many people like to come
+here and throw food for the fish to eat.  Feeding right into the mountain, the
+river sustains all life around it.  Many animals and plants can be found around
+the river at all times, and during some seasons, exotic fruits can be found
+here.    
+~
+25 0 0
+D1
+~
+~
+0 0 2587
+D2
+~
+~
+0 0 2568
+S
+#2587
+Bridge over the River~
+   The bridge is made of a sturdy oak.  Made by the carpenters that reside over
+it, the bride was made with a unique quality that the carpenters in this town
+are famous for The river of Mount Moon feeds most of a living creatures in this
+area, being a great fishing spot, many people stand on this bridge while trying
+to catch a couple fish.    
+~
+25 0 0
+D0
+~
+~
+0 0 2588
+D1
+~
+~
+0 0 2589
+D3
+~
+~
+0 0 2586
+S
+#2588
+Grassy Island~
+   A small island surronded by the river, it is large enough to support life on
+itself.  Mainly comprised of fruits and flowers, the island is a fun place for
+people of all ages to come and enjoy.  To the east is large rock formation,
+with a small opening at the bottom, which is used sometimes as a quarry for
+people to get precious metals and minerals from.    
+~
+25 0 0
+D0
+~
+~
+0 0 2594
+D1
+~
+~
+0 0 2593
+D2
+~
+~
+0 0 2587
+S
+#2589
+Along the Riverside~
+   The river is a small and gentle, but teeming with life.  One of the prime
+fishing spots, the river hold many aquatic creatures.  Many people like to come
+here and throw food for the fish to eat.  Feeding right into the mountain, the
+river sustains all life around it.  Many animals and plants can be found around
+the river at all times, and during some seasons, exotic fruits can be found
+here.  To the south is Mount Moon, one of the greatest natural wonders in this
+town.    
+~
+25 0 0
+D2
+~
+~
+0 0 2590
+D3
+~
+~
+0 0 2587
+S
+#2590
+Foot of Mount Moon~
+   Filled with trees, a small path has been made out for hikers who want to go
+up to the top of the mountain.  Hundreds of small plants and flowers line the
+path, as many people take great pride in the natural state of the mountain.  
+Every year, people go to the top in a hope to get the Moondrop flower, a flower
+so rare, that only the head gardener of town has seen one.  The Moondrop flower
+was said to glow softly in the night, and can bring true love to the one who
+finds it.    
+~
+25 0 0
+D0
+~
+~
+0 0 2589
+D1
+~
+~
+0 0 2591
+S
+#2591
+Up the Mountain~
+   Halfway up the small mountain, the flowers and animals began to grow much
+more scarce.  Trees block the sight of the magnificent view behind it.  A small
+line of plants are spread across the path, as the top becomes closer and closer
+to reach.  Many legends have come from the mountain, especially that of the
+Moondrop flower.    
+~
+25 0 0
+D0
+~
+~
+0 0 2592
+D3
+~
+~
+0 0 2590
+S
+#2592
+At the Peak~
+   An absolutely stunning view, the entire horizon can be seen from here.  The
+town below seems so insignificant compared to this amazing sight.  The sky is
+draped upon the world like a soft blanket, and everything appears beautiful.  
+Towards the edge of the peak is a small patch of land dug out, made by the
+people for the Moondrop flower, the fabled flower of Mount Moon, the one that
+can bring true love to whoever acquires it.    
+~
+25 0 0
+D2
+~
+~
+0 0 2591
+S
+#2593
+In a Cave~
+   A cave created by the town houses the local quarry.  A large wooden door is
+to the north, which opens up into the digging area.  Many people have gotten
+rich off the materials found in these caves, and some materials can be used to
+make magnificent things.  To the east, you can see a very small opening, barely
+enough to fit through.    
+~
+25 0 0
+D0
+~
+~
+0 0 2598
+D1
+~
+~
+0 0 2597
+D3
+~
+~
+0 0 2588
+S
+#2594
+Grassy Island~
+   A small island surronded by the river, it is large enough to support life on
+itself.  Mainly comprised of fruits and flowers, the island is a fun place for
+people of all ages to come and enjoy.  To the east is the carpenter's hut,
+where anyone can go to contract a new house or even some new furniture.  Axes
+are stuck in stumps surronding the hut, suggesting that the carpenter's are
+almost always working.    
+~
+25 0 0
+D0
+~
+~
+0 0 2596
+D1
+~
+~
+0 0 2595
+D2
+~
+~
+0 0 2588
+S
+#2595
+Carpenters~
+   The carpenter's hut is filled with layouts and blueprints all over the
+place.  A large central table sits in the middle of the room, sprawled with
+papers and writings.  Samples of the carpenter's work are found all around the
+room, and a pricing guide is hung from the back wall.  Specializing in anything
+made of wood, the carpenters can make anything.  However, sometimes the
+carpenter's don't have enough resources themselves, and rely on others for
+help.    
+~
+25 0 0
+D3
+~
+~
+0 0 2594
+S
+#2596
+The Magical Land~
+   A small opening through the brush leads to a very magical part of the town.
+Considered a holy spot by many people, this little section is surronded by
+trees, which in part are surronded by water.  A small stream of water is coming
+in from the left side of the trees, which leads into a small pond.  Filled with
+an almost crystal clear liquid, the water is considered to have medicinal
+properties, and some have reported a fairy that lives inside it.    
+~
+25 0 0
+D2
+~
+~
+0 0 2594
+S
+#2597
+The Elf Cave~
+   A small room with little furniture is here, home to the elves of the town.
+Considered somewhat annoyances, the elves are very good at gathering and
+stealing material goods.  They have a large attraction to anythins shiny, but
+tend to be very nice to those who are nice to them.  Having a little cave
+network to many spots around town, the elves can help out when it comes to
+feeding animals or taking care of crops during bad weather.    
+~
+25 0 0
+D3
+~
+~
+0 0 2593
+S
+#2598
+Quarry~
+   Filled with holes all over the place, the quarry was created by people who
+have come and mined the rock.  Several very expensive items can be found here,
+artifacts, rocks, minerals, and precious metals.  Open most of the year, the
+quarry is a perfect place to go when there is simply nothing to do.  Chances
+are, there is something here worth a fortune.    
+~
+25 0 0
+D2
+~
+~
+0 0 2593
+S
+#2599
+Oso Road~
+   Considered somewhat the crossroads of town, Oso Road is connected to
+everywhere one could want to go to.  Many people enjoy meeting here, just to
+talk and mingle.  The postman especially can be often found wandering around
+here.  To the north is Bud Road, home of some of the stranger people in the
+town.    
+~
+25 0 0
+S
+$~

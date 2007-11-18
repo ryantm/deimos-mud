@@ -1,0 +1,17 @@
+#10000
+guard ct crimson~
+&DA &rCrimson &DKnight&n~
+A guard in crimson armor is here watching for intruders.
+~
+
+Pretty rough around the edges, the knight looks ready to kill anyone who enters the Clan hall
+without the proper password.  Better watch out!
+
+~
+253962 132264 0 E
+250 -30 10 30d30+125100 27d27+50
+4687500 10000000
+12 12 0
+E
+T 10001
+$

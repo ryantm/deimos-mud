@@ -1,0 +1,32 @@
+#!bin/sh
+# This rebuilds the index and skips any name that isn't in the existing
+# index, or where the file doesn't exist.
+#
+# Use this script to update your plr_index from the old style to the new.
+# Then mv plr_index.fixed plr_index.
+#
+# Thanks to Postage of NoMUD for getting this started.
+
+if [ ! -d world ]; then
+  echo "You must be in the lib directory to run this."
+  exit
+fi
+
+if [ -r plr_index.fixed ]; then rm -f plr_index.fixed
+fi
+
+awk '{print $2}' plr_index | {
+  while read NAME
+  do {
+    PREFIX=`echo $NAME | cut -b 1`
+    FILE=`echo $PREFIX/$NAME`
+    if [ -f $FILE ]; then {
+      name=`echo $FILE | cut -d"/" -f 2 | cut -d" " -f 1`
+      idnum=`grep "Id  :" $FILE |cut -d" " -f 4`
+      level=`grep "Levl:" $FILE |cut -d" " -f 2`
+      last=`grep "Last:" $FILE |cut -d" " -f 2`
+      echo $idnum $name $level "0" $last >> plr_index.fixed
+    } fi
+  } done
+  echo "~" >> plr_index.fixed
+}

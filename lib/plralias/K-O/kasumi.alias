@@ -1,0 +1,90 @@
+1
+x
+12
+use eag self
+0
+3
+obi
+81
+n;n;n;n;n;n;n;n;n;n;w;n;e;n;n;e;e;e;e;e;e;e;e;e;e;e;e;e;e;n;n;n;n;n;n;n;n;w;w;s;s
+1
+4
+yoda
+79
+n;n;n;n;n;n;n;n;n;n;w;n;e;n;n;e;e;e;e;e;e;e;e;e;e;e;e;e;e;n;n;n;n;n;n;n;n;n;n;n
+1
+2
+di
+19
+cast 'detect invis'
+0
+3
+sum
+13
+cast 'summon'
+0
+2
+re
+6
+rescue
+0
+4
+chnk
+26
+cast 'locate object' chunk
+0
+6
+locate
+20
+cast 'locate object'
+0
+3
+str
+15
+cast 'strength'
+0
+2
+rp
+20
+cast 'remove poison'
+0
+2
+rc
+19
+cast 'remove curse'
+0
+4
+sanc
+16
+cast 'sanctuary'
+0
+2
+id
+15
+cast 'identify'
+0
+3
+arm
+12
+cast 'armor'
+0
+3
+pfe
+27
+cast 'protection from evil'
+0
+5
+bless
+12
+cast 'bless'
+0
+2
+wr
+21
+cast 'word of recall'
+0
+4
+auro
+15
+cast 'aurorous'
+0

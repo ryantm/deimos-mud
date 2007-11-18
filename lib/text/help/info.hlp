@@ -1,0 +1,471 @@
+AC
+
+"AC" is your armor class.  It is a number from -100 to 100, roughly
+defined as follows:
+
+
+  AC  Roughly equivalent to
+-----------------------------------------------------------
+  100  Naked person (No armour)
+    0  Moderatly Armoured (Plate mail, and "two shields") 
+ -100  Completely Armoured
+
+The score command displays your armor class as a number such as 78/10;
+this means 78 on a scale from -100 to 100
+
+See also: SCORE
+#
+Recall
+
+Usage recall
+
+This Command lets you recall when you are below level 10 or if you have
+reached GrandMaster.
+See also: Word of Recall
+#
+AREAS
+
+DeimosMUD List of Areas:
+Area                     -- Builder
+-------------------------------------------------------------------
+Mud School-              -- Firrox
+Great South Ocean        -- Ockham
+Phobos(Main City)        -- Swifte
+King Richards Domain     -- Nightmare
+Gnome Village            -- Elendril
+Shire                    -- Derik
+Bottomless Pit           -- Ockham
+Eastlands/Northlands     
+/Westlands               -- Ockham
+University               -- Derik
+Dwarven Stronghold       -- Nightmare
+Paradise Gone Bad        -- Lyra
+Monopoly                 -- Lyra
+Oz                       -- Lyra
+Minos                    -- Aragorn
+The Jedi Temple          -- Jedi
+The Moon Kingdom         -- Jedi
+Dungeon of Death         -- Banshee/Ockham
+Cesta-(EXTREMELY HARD)   -- Firrox
+Ivten/Corinth            -- Confucious
+The Northern Forest      -- Stirge
+Beowulf                  -- Hazard
+North Cave               -- Wedge
+Narshe                   -- Hazard
+Calimishorn		 -- Confucius
+The Underwater Tunnels   -- Fehitz
+Airship			 -- Zyre
+Harvest Moon		 -- Confucius
+Six Flags		 -- Wedge
+Zan'lir Jungle		 -- Hazard
+Arenburg		 -- Zyre
+Rulek			 -- Hazard
+
+
+For More Updated zones See The Deimos Website www.geocities.com/deimosmud.
+See Also : WEBSITES
+#
+BOARDS
+
+Bulletin boards are the forum of inter-player communication on the MUD.
+There are different bulletin boards for different purposes -- for example,
+a standard mortal board, a board for immortals, a board for fun "social"
+messages, etc.  Naturally, not all players may be allowed to read all
+types of boards.
+
+Type "LOOK BOARD" to see the messages already posted on a board.  Type
+"WRITE <subject>" to post a message to a board; terminate a message with
+a '@' as the first character on a line.  Type "READ <number>" to read a
+post.  Type "REMOVE <number>" to remove your own messages.
+
+Example:
+
+  > look at board
+  > write Am I using these boards correctly?
+  [writes the message; terminates with a '@']
+  > look at board
+  > read 6
+  > remove 6
+
+See also: MAIL, READ, WRITE
+#
+
+COLOR
+
+You place these codes right before the text you are inputing.
+  &&n - normal
+  &&d - black      &&D - gray           &&0 - background black
+  &&b - blue       &&B - bright blue    &&1 - background blue
+  &&g - green      &&G - bright green   &&2 - background green
+  &&c - cyan       &&C - bright cyan    &&3 - background cyan
+  &&r - red        &&R - bright red     &&4 - background red
+  &&m - magenta    &&M - bright magenta &&5 - background magenta
+  &&y - yellow     &&Y - bright yellow  &&6 - background yellow
+  &&w - white      &&W - bright white   &&7 - background white
+Extra codes:      &&l - blink          &&o - bold
+  &&u - underline  &&e - reverse video  &&&& - single &&
+Make sure to always put a normal color code at the end of things to prevent bleeding.
+#
+EXPERIENCE XP
+
+Whenever you kill a monster or a player, you earn experience points.  When
+enough experience points are earned, you must goto your guild to raise a level.
+Things you should know about experience points:
+
+  * When damaging a monster, you do not get experience points.
+
+  * If you kill a monster of higher level than yourself, you get bonus
+    experience points.  If killing a monster of lower level you'll gain
+    less experience points
+
+See also: GROUP, SCORE, GAIN
+#
+FLAGS
+
+Players sometimes have FLAGS after their names in the WHO list.  These
+flags are always in parentheses, not brackets or braces.
+
+  FLAG        MEANING
+  ----------- ---------------------------------------------------------
+  (KILLER)    Player is trying to kill other players.  That means you
+              can try to kill him/her without being flagged.
+  (THIEF)     Player is trying to steal from other players.  Fire away.
+  (invis)     Player is invisible; you can see him/her because you are
+              sensitive to the presence of invisible things.
+  (writing)   Player is writing on the board; do not disturb.
+  (mailing)   Player is writing mail; do not disturb.
+  (deaf)      Player has chosen not to hear shouts.
+  (notell)    Player has chosen not to accept tells.
+  (quest)     Player is participating in a quest currently being run by
+              the Gods.
+  (AFK)       Player is not currently playing the mud and is not accepting
+              tells.
+  (Meeting)   Player is in a meeting with other players in a room and is 
+              not accepting tells.
+  (WhoInvis)  This is for ASSASSINS only.  Only other assassins can see you
+		  on WHO when this flag on.
+See also: NOSHOUT, NOTELL, QUEST, STEAL, VISIBLE
+#
+
+HOUSES
+
+A house entails two things:
+access control and crash protection.  Only you and your guests will be allowed
+to enter the house.  Your house will be crash-saved every five minutes.  You
+can force your house to save by typing 'save' while standing in your house.
+In the event of a crash, the objects in your house as of the last crash-save
+will be loaded back into your house when the MUD reboots.  Also, if you own
+a house, and quit from the game while standing in your house, you will be
+loaded into your house next time you enter the game.
+
+Guests of your house can be defined using the HOUSE command.  See HOUSE for
+more information.
+
+There is currently no limit to the number of objects which can be
+stored in your house.  Of course, players must expect to pay a much higher
+premium for the convenience of houses. Contact the Holiday Inn for room prices.
+
+See also: HOUSE
+#
+IMPLEMENTOR OWNER
+
+The most powerful being in existence. Their job is to administrate the mud
+and any thing they say goes.
+Deimos Implementors: Ockham Confucius Swifte
+
+#
+LINK
+
+A lot of players have problems with their links to the game.  This can be
+very hazardous to your health in the middle of a battle, of course.
+
+I   If your link is broken, you will automatically attempt to flee each
+    time someone attempts to hit you.  If you manage to flee, then you
+    will be saved by divine forces, and put in a safe place until you
+    reconnect to the game.
+
+II  If your link jams (freezes), you have a problem.  The only solution we
+    can give is that you break your link as quickly as possible.  By
+    breaking the link you can hope that the above procedure is initiated.
+
+    Do not try to get out of a fight by breaking link.  You will be not
+    reimbursed for any experience or equipment if you purposefully
+    cut your link.
+
+III Cutting your link and then going on as another character is considered
+    multi-playing, and is against the rules.
+
+IV  Losing your Link is no excuse to get reimbursed unless it was due a MUD   
+    side error as opposed to a user's connection problem.
+
+#
+
+MANA
+
+Mana is used when casting spells.  You must have a certain amount of mana
+in order to cast any particular spell.  If you do not have enough mana to
+cast the spell you must rest until you gain enough points to cast.
+
+See also: SPELLS
+#
+SHOPS
+
+Shops are places where the adventurer may purchase equipment for his quests,
+and where he may sell his treasure if he should manage to survive the perils
+with his life and sanity intact.  Many shops trade only in a specific type of
+merchandise.  Thus, a baker may well refuse to buy your armor, even if it is
+of high quality!
+
+To some people, the prospect of obtaining the entire inventory of a shop by
+murdering the keeper may appear tempting - but beware: The shopkeepers are 
+often rugged, capable men; roughened by years of trading and, indeed, surviving
+in a world where the only safe prospect is death in the end.
+
+See also: BUY, SELL, LIST, VALUE
+#
+SPELL SPELLS
+
+
+#
+CIRCLE CIRCLEMUD CREDITS
+                    C  I  R  C  L  E  M  U  D     3  .  0
+
+CircleMUD was developed from DikuMUD (Gamma 0.0) by Jeremy "Ras" Elson at
+Johns Hopkins University's Department of Computer Science.  All code unique
+to CircleMUD is protected under a copyright by the Trustees of the Johns
+Hopkins University.
+
+Many, many people contributed to CircleMUD in one way or another throughout
+the course of its development.  Although it's impossible for me to remember
+them all, I'd like to extend special thanks to certain people:
+
+  -- Jeff Fink and George Greer, for submitting a veritable mountain of
+     excellent code.
+  -- Chris Epler and Chris Herringshaw for extensive beta-testing and bug
+     reporting.
+  -- Furry (Alex Fletcher), for single-handedly managing Circle's world files.
+  -- Fred Merkel, Ryan Watkins, Jay Levino, and Sharon Goza, for other
+     code and area submissions.
+  -- Jean-Jack Riethoven for porting the code to the Amiga, David Carver
+     for porting it to OS/2, and Jack Patton and Steffen Haeuser for the
+     Amiga port.
+  -- Bill Bogstad and Tim Stearns for allowing Circle to exist at JHU.
+  -- The DikuMUD folk, and the good old WhatMUD implementors Dave & Justin,
+     for starting the ball rolling.
+  -- Bryan Jolson, Steven Lacher, Cat Stanton, and Naved Surve, for being 
+     there in the very early days of Circle's development.
+  -- Sharon, Ben, Erica, Aly, and Josh, for keeping me sane.
+  -- Jules (hamotek sheli) for being the greatest.
+
+...plus everyone else in the Circle community who has submitted material!
+Thanks everyone!
+
+  Anonymous FTP:  ftp.circlemud.org or ftp2.circlemud.org in pub/CircleMUD
+ To report bugs:  bugs@circlemud.org
+    To get help:  help@circlemud.org
+            URL:  http://www.circlemud.org/
+   Mailing List:  listserv@post.queensu.ca
+                  (write "subscribe circle <first name> <last name>")
+
+--Jeremy Elson (jelson@circlemud.org)
+#
+AUTO_COMMANDS
+This is a list of all automated commands available to you.
+--------------------------------------------------------------------
+(autoassist) Automatically assists the leader of your group in an
+             attack
+(autoloot)   Automatically loots the corpse of a monster after you
+             have killed it.
+(autogold)   Automatically loots ONLY the gold from the corpse of a 
+             monster after you have killed it.
+(autoexit)   Automatically shows the exits to the room you are currently
+             in when you type LOOK.
+(autosplit)  Automatically splits the gold looted from a corpse
+             among the members of a group.
+(autodiag)   Automatically shows the condition of the monster you are
+             currently fighting.
+(autoaffect) Automatically shows spells affecting you when you type score.
+(autotick)   Displays TICK when a a tick occurs.
+
+
+
+#
+ASSASSIN PLAYERKILLING PK
+
+The assassins guild is a secretive guild of Phobos. Its members have been givin security
+from the normal Deimos law of no killing of other humans. After finding the guild and
+paying a small fee you will be thrust into a world where ruthlessness and cutthroats
+thrive. Friend is Foe, Foe is friend....
+
+See Also : POLICY 
+#
+TICK 
+
+A tick is the increment of time this mud is based on. You regenerate on the tick. 
+Zones Generally reset on the tick. The tick on this mud is currently 70 real seconds.
+
+See Also : TIME
+#
+CLAN CAPPLY CWITHDRAW CREJECT CACCEPT CDISMISS CRESIGN CWHO CTELL
+
+Cedit - Immortals
+capply - applys you to a clan. List of clans will be updated
+cwithdraw - withdraws application from clan.
+creject (leaders only) - Reject ones application.
+caccept (leaders only) - Accept ones application.
+cdismiss(leaders only) - dismiss a clan member.
+cresign (leaders only) - Leave leader/sponser pos. but
+                         still stay a member of the clan.
+cresign (for members)  - Leave the clan.
+cwho - See a list of online clan members 
+ctell - clan tell command.
+
+See Also : CEDIT, CLANMAKE
+#
+CLANMAKE
+
+What you need to make a clan:
+1. Grandmaster Mortal Character
+2. 500 Million Coins
+3. An Immortal Sponsor
+4. 4 Mortals who will join your clan
+5. Clan Name
+6. Short Description of Clan
+
+Optional Things
+1. Long Paragraph describing your clan
+
+Consult The Implementors for further help.
+See Also : CLAN, CEDIT
+#
+MAILING LIST
+
+The e-mail address is
+deimosmud@yahoo.com
+Subject Titles for Sending Mail
+  Add Me to Mailing List- Deimos-Addme
+  Send mail to everyone- Deimos-SendAll
+  Send mail to everyone anonymously- Deimos-SendAllAnon
+  Mail for Administrators- Deimos-SendAdmin
+  Important- Add 'Important' to end of any other Subject
+  Mail for Immortals- Deimos-SendImmortal
+  Mail for Mortals- Deimos-SendMortal
+  Special Situation- Make subject Deimos- then whatever the message is
+#
+WEBSITES
+
+Our Website is:
+http://deimos.vze.com
+CircleMUD's Website is:
+www.circlemud.org
+The MUD Connectors website is:
+www.mudconnect.com
+Dg Scripts Website is:
+http://www.mindspring.com/~heilpern/dg_scripts/introduction.html
+#
+MULTICLASS MULTICLASSING
+
+Multiclassing is the ability to level in all four guilds. Your ability to
+level in other guilds than your prime guild is determined by your level
+in your prime guild. You can multiclass into differant guilds at these 
+levels: 30, 45, 60. Leveling in other guilds than your prime guild requires
+gold as well as experience.
+
+See Also : PRIME, LEVEL, GAIN, GRANDMASTER
+#
+PRIME
+
+Your prime class is the class that you start in first. It is chosen when you
+first create you character.
+See Also : MULTICLASSING
+#
+MASTER GRANDMASTER
+
+Once you have reached they level of 60 in a guild you are said to have Mastered
+this guild.
+
+Example: [ { 0 60  0  0} ] Tom Bombadil the Master Warrior
+
+Once you have reached level 60 in all guilds you are said to have achieved the
+status of GrandMaster. At this point you will be extremely strong and probably
+have attained much respect from the other playeres. Once you become a grandmaster
+you can then obtain 50 more levels.  You gains are based on your prime class.  Also
+The price in experience and gold is standardized at 2,000,000,000 xp and 500,000,000
+gold per GM level.
+
+
+Example: [GM:    1    :GM] Tom Bombadil the GrandMaster
+
+
+
+See Also: ULTIMATE, MULTICLASSING
+#
+FORGE CHUNK
+
+Chunks are objects you will find scattered around Deimos that load on mobs rarely.
+
+Once you have the right amount of chunks you type assemble and then the Assembly Code.
+Exampe: forge TMac
+You have Forged a Tin Mace.
+
+Weapons
+Code  :Weapon              : Chunks Needed              : Quality 
+------:-------------------------------------------------:----------
+TMac  : Tin Mace           : 5 Tin                      : Poor
+CDag  : Copper Dagger      : 5 Copper                   : Okay   
+IShr  : Iron Shortsword    : 5 Iron                     : Good
+IStil : Iron Stiletto      : 10 Iron                    : Good
+SpSw  : Speed Sword        : 5Iron 5Tin 5Copper         : Good            
+GMal  : Gold Mallet        : 5 Gold                     : High
+GSpSw : Guilded Speed Sword: 10Iron 10Tin 10Copper 5Gold: High                     
+TBr   : Titanium Broadsword: 10 Titanium                : Perfect     
+GSt   : Guilded Stiletto   : 10Titanium 10Gold          : Perfect           
+TThu  : Titanium Thumbtack : 30 Titanium                : Perfect     
+TKat  : Titanium Katana    : 40 Titanium                : Perfect     
+#
+ROMANCE
+
+askout - asks someone out. Must be accepted or rejected by the end of that tick.
+propose - proposes to whoever you are going out with
+accept/reject - accept or reject an offering (askout, propose)
+Immortals can then marry you.
+#
+CAREER
+
+Careers are jobs players can do using special items that can be gained in-game.  After they get a career item, they must find a spot in which they can use it, as not all rooms will allow you to do so.  After working, you will get an item, this you can take to the warehouse in Phobos to trade in for money.
+
+Career Items	Use
+------------	-------------
+Axe		Cutting Trees
+Hammer		Mining Ores
+Fishing Pole	Fishing
+Bow		Hunting
+#
+NEWSPAPER
+
+The Deimos newspaper is one that is run, and owned by the players.  The players send in articles, which are then selected by the newspapers editor.  The 
+papers will be circulated regularly at a price that is set by the editor for the population to read at their discretion.
+#
+CLERIC
+
+Clerics are the priest class of Deimos.  They live spiritual lives and focus on protecting 
+and healing others through magical means.  They are devoted to whichever God they serve.  
+Clerics can also be good or evil, depending on their God.  What is important to classify 
+a cleric different from a mage is the magic each uses.  Clerics themselves have very little 
+offensive magic and it used as a last resort in thier defense.
+
+Ultimate: Manashield
+See Also: PRACTICE, SKILLCLERIC, ULTIMATE
+#
+MAGE
+
+Mages are the wielders of powerful destructive magic.  As they are seekers of changing elements 
+and not maintaining order through magic, they do not dabble into the healing arts.  Mages 
+spend many years studying the arcane arts of destructive magic and can wreak havoc on their enemies
+with their powerful spells of destruction.
+
+Ultimate: Novastorm
+See Also, PRACTIVE, SKILLMAGE, ULTIMATE
+#
+$
+

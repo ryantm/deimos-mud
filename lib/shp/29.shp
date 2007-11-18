@@ -1,0 +1,58 @@
+CircleMUD v3.0 Shop File~
+#2900~
+2904
+2905
+2906
+2907
+2908
+2909
+-1
+1.00
+0.75
+-1
+%s Sorry, I don't stock that item.~
+%s You don't seem to have that.~
+%s I don't trade in such items.~
+%s I can't afford that!~
+%s You are too poor!~
+%s That'll be %d coins, thanks.~
+%s I'll give you %d coins for that.~
+0
+2
+2902
+64
+2915
+-1
+0
+28
+0
+0
+#2915~
+2903
+2904
+2905
+2906
+2907
+2908
+2909
+-1
+1.00
+1.00
+-1
+%s Sorry, I don't stock that item.~
+%s You don't seem to have that.~
+%s I don't trade in such items.~
+%s I can't afford that!~
+%s You are too poor!~
+%s That'll be %d coins, thanks.~
+%s I'll give you %d coins for that.~
+0
+0
+2902
+0
+-1
+0
+28
+0
+0
+$~

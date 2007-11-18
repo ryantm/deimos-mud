@@ -1,0 +1,1900 @@
+#1400
+Outside the Main Entrance~
+   You now stand before the largest structure for miles, the um..  Well, small
+school.  You can enter to the west, which is a hallway dividing the middle and
+high school.  This place is so small that kindergarteners and high school
+seniors share the same building!    
+~
+14 0 0
+D3
+~
+~
+0 0 1401
+S
+#1401
+Front Hallway~
+   This is a hallway often used for small displays and presentations.  On the
+north wall is an old list of elementary students that met reading requirements.
+Also, there is a bulletin board with pictures from Dr.  Seuss Day.  Several of
+the people in the pictures are looking freaky, especially Lyra, who is wearing
+a huge hat!  On the south wall is a display case overflowing with old alumni
+pictures and sports trophies.  There is a sign on the west wall.    
+~
+14 0 0
+D1
+~
+~
+0 0 1400
+D3
+~
+~
+0 0 1402
+E
+sign~
+     Welcome To Villa Grove Schools!
+       <-- High School
+             Main Office -->
+         <-- Cafeteria
+               Elementary School -->
+~
+S
+T 1405
+#1402
+Front Hallway~
+   Here, at the end of this short hall, two other halls branch off.  One goes
+to the north, leading to the main office, gym, and elementary school.  The
+other goes south into the cafeteria and farther on into the high school.    
+~
+14 0 0
+D1
+~
+~
+0 0 1401
+D2
+~
+~
+0 0 1403
+S
+T 1405
+#1403
+Library Steps~
+   Suddenly the floor drops and you find yourself in yet another short hallway.
+On your east is a small desk where a janitor usually sits to punch the lunch
+tickets of elementary students.  To the west is a small nook where kids have
+left lunchboxes, musical instruments, and bookbags.  You can enter the
+cafeteria to the south, or head up the stairs to the elementary library.    
+~
+14 0 0
+D0
+~
+~
+0 0 1402
+D2
+~
+~
+0 0 1404
+D4
+~
+~
+0 0 1484
+S
+T 1405
+#1404
+Cafeteria~
+   Students all around you are busily shoving food down their throats, because
+the lunch period here is very short.  To the west is the seating area, and to
+your east is the hot lunch line, If you're not brave enough to eat school food,
+the ala carte line is a ways to the south.    
+~
+14 0 0
+D0
+~
+~
+0 0 1403
+D1
+~
+~
+0 0 1405
+D2
+~
+~
+0 0 1411
+D3
+~
+~
+0 0 1433
+S
+T 1405
+#1405
+Hot Lunch Line~
+   Welcome to the cafeteria!  You are now in the hot lunch line, waiting to be
+served.  Wonder what's for lunch today?  The lunch line turns south here, but
+on your north side, next to the milk cooler, is a brown wooden door.  There is
+a sign taped to it.    
+~
+14 0 0
+D0
+~
+door~
+2 0 1406
+D2
+~
+~
+0 0 1407
+D3
+~
+~
+0 0 1404
+E
+sign~
+TEACHERS AND STAFF ONLY.
+ABSOLUTELY NO STUDENTS FOR ANY REASON.
+~
+S
+T 1405
+#1406
+Teacher's Lounge~
+   Ahh, it's heaven!  Well..  Not quite, but at least it's air conditioned.  A
+large table, probably used for meetings, consumes most of the space here.  An
+old pepsi machine stands against the wall.  Magazines in racks surround the
+entire room, and a small table holds packets of many different coffees.    
+~
+14 0 0
+D2
+~
+door~
+1 0 1405
+S
+T 1405
+#1407
+Hot Lunch Line~
+   Now you are near the front of the line!  A look over the counter lets you
+see that salmon patties, the school's WORST meal, are being served.  Well, you
+might as well get your tray and head to the pay table.    
+~
+14 0 0
+D0
+~
+~
+0 0 1405
+D2
+~
+~
+0 0 1408
+D3
+~
+~
+0 0 1411
+S
+T 1405
+#1408
+Ala Carte Line~
+   At this part of the line, you see two plastic trays sitting on the counter
+in front of you.  Life has come down to this fatal decision!  Charbroil and
+cheese, turkey and swiss, or chicken salad?    
+~
+14 0 0
+D0
+~
+~
+0 0 1407
+D2
+~
+~
+0 0 1409
+D3
+~
+~
+0 0 1412
+S
+T 1405
+#1409
+Ala Carte Line~
+   There are so many choices here!  At this part of the line, there are many
+different sorts of chips, and several sad-looking pieces of fruit.  On one side
+of you is a water fountain, which people keep pushing their way up to.  There
+is a small gap on your east, just big enough for a person to walk through.    
+~
+14 0 0
+D0
+~
+~
+0 0 1408
+D1
+~
+~
+0 0 1413
+D3
+~
+~
+0 0 1410
+S
+T 1405
+#1410
+Ala Carte Line~
+   On your right side is a monstrous rack of Hostess snacks.  Twinkies, Ho-hos,
+Ding-dongs, they have it all.  Next to the rack is a large humming cooler full
+of milk, juice, and water.    
+~
+14 0 0
+D0
+~
+~
+0 0 1412
+D1
+~
+~
+0 0 1409
+D2
+~
+~
+0 0 1424
+D3
+~
+~
+0 0 1427
+S
+T 1405
+#1411
+Pay/Condiment Table~
+   What?!  You have to pay for this junk?  No way!  Uh oh, you've insulted the
+lunch lady!  Better pay for your food and run!  She looks mad!    
+~
+14 0 0
+D0
+~
+~
+0 0 1404
+D1
+~
+~
+0 0 1407
+D2
+~
+~
+0 0 1412
+D3
+~
+~
+0 0 1431
+S
+T 1405
+T 1405
+#1412
+Pay/Condiment Table~
+   Before you sits an incredible human-like creature, adding up prices faster
+than any calculator.  It's a bird--it's a plane, it's-- Lyra's mommy.  Yes,
+believe it or not, this is what she does for a living, and gets paid for it
+too.    
+~
+14 0 0
+D0
+~
+~
+0 0 1411
+D1
+~
+~
+0 0 1408
+D2
+~
+~
+0 0 1410
+D3
+~
+~
+0 0 1429
+S
+T 1405
+#1413
+Behind the Counter~
+   Ha!  A behind-the-scenes look..  At the cafeteria?  If you say soo..  To
+your south the legacy continues..  So exciting!  Is that a giant stove?!?    
+~
+14 0 0
+D0
+~
+~
+0 0 1414
+D2
+~
+~
+0 0 1417
+D3
+~
+~
+0 0 1409
+S
+T 1405
+#1414
+Behind the Counter~
+   Things are so much different from the other side.  You now stand behind a
+stainless steel counter, which has different knobs to keep food hot or cold.  
+Students stare at you as if you're a complete moron.    
+~
+14 0 0
+D0
+~
+~
+0 0 1415
+D2
+~
+~
+0 0 1413
+S
+T 1405
+#1415
+Behind the Counter~
+   Ahh, what a beautiful view.  The giant refrigerator is here, offering you a
+vast selection of sandwiches, fruit, and bottled water.  Not to mention how
+good that cool breeze feels, blowing out on your face.    
+~
+14 0 0
+D0
+~
+~
+0 0 1416
+D2
+~
+~
+0 0 1414
+S
+T 1405
+#1416
+Behind the Counter~
+   Yuk, this food is really starting to make you feel sick.  A puff of steam
+coming from the salmon catches you right in the nose, nearly causing you to
+pass out!  Get out of here!    
+~
+14 0 0
+D2
+~
+~
+0 0 1415
+S
+T 1405
+#1417
+Hallway~
+   Steamy hot air from the west collides with the cool breeze coming from the
+window to the north, causing your hair to be whipped around and tangled.  To
+your west is the almighty tray room, and to your south is more kitchen!    
+~
+14 0 0
+D0
+~
+~
+0 0 1413
+D2
+~
+~
+0 0 1419
+D3
+~
+~
+0 0 1418
+S
+T 1405
+#1418
+Tray Room~
+   Eww, the air in here is absolutely nasty.  You are in a little stuffy room,
+where students leave their used trays.  A couple sweaty lunchladies dump the
+trays and wearily place them on the conveyor belt to be washed.    
+~
+14 0 0
+D1
+~
+~
+0 0 1417
+S
+T 1405
+#1419
+Hallway~
+   Here most of your way is blocked by a huge table jutting out from the wall.
+On the table are large stacks of canned food, everything from applesauce to
+mixed veggies (yuk!  ) To your west is the middle part of the kitchen.    
+~
+14 0 0
+D0
+~
+~
+0 0 1417
+D2
+~
+~
+0 0 1421
+D3
+~
+~
+0 0 1420
+S
+T 1405
+#1420
+Middle Room~
+   The prevailing object in this room is a large wooden table, with attached
+can openers on each end.  A line of refrigerators is to your north, and a door
+to the west leads into the main hallway.  Also nearby are some sinks big enough
+to take a bath in!    
+~
+14 0 0
+D1
+~
+~
+0 0 1419
+D3
+~
+~
+0 0 1439
+S
+T 1405
+#1421
+Hallway~
+   You startle yourself when you look up and see..  You.  More large sinks line
+the walls, but this time there's a small mirror.  Maybe it's worth going to
+look ta the back room.    
+~
+14 0 0
+D0
+~
+~
+0 0 1419
+D3
+~
+~
+0 0 1422
+S
+T 1405
+#1422
+Back Room~
+   Here is the most interesting --and crowded-- room.  One one wall are giant
+pots for cooking, and also a large stove.  Sinks line the other wall, and in
+the middle of the room is a table.  Above the table is a giant rack of knives.
+To the south is the freezer room.    
+~
+14 0 0
+D1
+~
+~
+0 0 1421
+D2
+~
+~
+0 0 1423
+S
+T 1405
+#1423
+Freezer Room~
+   Brr!!  My god this place is freezing cold.  Shelves around this small room
+are filled with frost covered boxes.  Excess boxes are also stacked on the
+floor.  A few icicles hang from the ceiling, nearly touching your head.    
+~
+14 0 0
+D0
+~
+~
+0 0 1422
+S
+T 1405
+#1424
+Hallway~
+   Teenagers swarm around you, almost fast enough to make a whirlpool.  They
+are throwing away trash, turning in trays, and busily rushing into the hallway.
+A small window shows you the tray room.  On your other side is a storage room,
+and the door is slightly open..    
+~
+14 0 0
+D0
+~
+~
+0 0 1410
+D2
+~
+~
+0 0 1439
+D3
+~
+~
+0 0 1425
+S
+T 1405
+#1425
+Storage Room~
+   As you enter this room, you think to yourself, 'So THIS is where they keep
+the food.  ' All of the school's canned and dry goods are kept here.  Boxes of
+cereal are stacked high above you,, along with huge containers of pasta.  
+There's enough food here to feed an army!    
+~
+14 0 0
+D1
+~
+~
+0 0 1424
+S
+T 1405
+#1426
+Table~
+   Because of the rather small population of this school, almost everyone falls
+into some sort of clique.  However, this small group of students scattered here
+doesn't.  They aren't really outcasts, but they aren't exactly popular either.
+These teenagers are usually known for being shy, but nice once you get to know
+them.    
+~
+14 0 0
+D0
+~
+~
+0 0 1428
+D1
+~
+~
+0 0 1427
+D2
+~
+~
+0 0 1436
+S
+T 1405
+#1427
+Table~
+   If there are jocks at this school, then this is where they sit.  About a
+dozen students, all football players, hang out to mostly make fun of other
+people and stare at cheerleaders.  Several are hated school-wide for their
+rudeness.    
+~
+14 0 0
+D0
+~
+~
+0 0 1429
+D1
+~
+~
+0 0 1410
+D3
+~
+~
+0 0 1426
+S
+T 1405
+#1428
+Cafeteria~
+   You are now standing in the aisle between two tables.  Bookbags are all over
+the floors, anxiously dropped by students starving for their lunches.  
+Someone's homework, crumpled on the floor, look's like it's been used as a
+napkin.    
+~
+14 0 0
+D0
+~
+~
+0 0 1430
+D1
+~
+~
+0 0 1429
+D2
+~
+~
+0 0 1426
+S
+T 1405
+#1429
+Cafeteria~
+   You are in an unfinished room.  This is the aisle space between the tables
+of the jocks and the cheerleaders.  From the mess of food on the floor, it
+looks like they're having a food fight!  Suddenly a pea hits you right in the
+eye, as if to confirm your theory.    
+~
+14 0 0
+D0
+~
+~
+0 0 1431
+D1
+~
+~
+0 0 1412
+D2
+~
+~
+0 0 1427
+D3
+~
+~
+0 0 1428
+S
+T 1405
+#1430
+Table~
+   This is where all of the druggies sit.  A few are looking halfway stoned,
+but the others seem to be okay, picking quietly at their disgusting lunches.  
+There are about a dozen people sitting here, but not one of them is saying a
+word.    
+~
+14 0 0
+D0
+~
+~
+0 0 1432
+D1
+~
+~
+0 0 1431
+D2
+~
+~
+0 0 1428
+S
+T 1405
+#1431
+Table~
+   Aieee!  It's absolutely horrible.  You've run into a bunch of giggly hyper
+cheerleaders.  They're all absorbed in chatting about the new guy around
+school, or else how they want to do someone's hair for the upcoming dance.  
+Suddenly a girl looks up and spies you, giggling.  Uh-oh..  Is that a tube of
+lipstick in her hand?    
+~
+14 0 0
+D0
+~
+~
+0 0 1433
+D1
+~
+~
+0 0 1411
+D2
+~
+~
+0 0 1429
+D3
+~
+~
+0 0 1430
+S
+T 1405
+#1432
+Cafeteria~
+   Ugh, there's actually a PERSON lying in the middle of this aisle.  It looks
+like they're trying to sleep..  Strange.  A druggie taps you on the shoulder
+and gives you a cold stare.  Maybe you had better leave before YOU'RE the one
+lying there out cold.    
+~
+14 0 0
+D0
+~
+~
+0 0 1434
+D1
+~
+~
+0 0 1433
+D2
+~
+~
+0 0 1430
+S
+T 1405
+#1433
+Cafeteria~
+   Watch it!  Careful!  Out of the way!  Looks like someone must have spilled
+their lunch on the floor, what a shame!  But then again, as you get a closer
+look..  That lunch already HAS been eaten!  Gross..  I suppose the salmon
+really DOES taste as bad as it smells..    
+~
+14 0 0
+D0
+~
+~
+0 0 1435
+D1
+~
+~
+0 0 1404
+D2
+~
+~
+0 0 1431
+D3
+~
+~
+0 0 1432
+S
+T 1405
+#1434
+Table~
+   Aww, how sad.  There's only one person at this table.  You want to say hi to
+him, but something stops you.  From the way he sulks around, it looks as if
+he's in trouble or something.  You'd think the poor guy would at least have
+some company.    
+~
+14 0 0
+D1
+~
+~
+0 0 1435
+D2
+~
+~
+0 0 1432
+S
+T 1405
+#1435
+Microwave~
+   Standing here, in front of the microwave, makes you feel really, really
+dumb.  Everyone is sitting down having lunch, but you, the horrible rebel, you
+are standing here waiting patiently for the microwave to ding so you can eat
+your burrito.  On the north side of you, next to some art projects, is a small
+step leading up to a door.    
+~
+14 0 0
+D2
+~
+~
+0 0 1433
+D3
+~
+~
+0 0 1434
+S
+T 1405
+#1436
+Hall~
+   This tiny cramped space is what they call a hallway here at VGHS.  A big
+piece of plywood leans up against one wall, and a large rack of chairs stands
+high against the other.  One end of this hallway goes into the cafeteria, and
+the other leads to an area just inside the back door.    
+~
+14 0 0
+D0
+~
+~
+0 0 1426
+D2
+~
+~
+0 0 1437
+S
+T 1405
+#1437
+Back Entrance~
+   This little place is a popular spot for kids in the bus line, teenagers
+waiting for a bell to ring, or couples who want a little privacy over
+lunchtime.  A small space leads through a smaller hallway and into the
+cafeteria eventually.  On your south is a door.    
+~
+14 0 0
+D0
+~
+~
+0 0 1436
+D1
+~
+~
+0 0 1438
+D2
+~
+~
+0 0 1442
+D3
+~
+~
+0 0 1472
+S
+T 1405
+#1438
+North Stairs~
+   You are just about knocked over as a crazy freshmen slides down the
+staircase banister.  A large rug rustles underneath your feet, with the hopes
+of keeping the floors somewhat cleaner.  On one of the glass doors leading into
+the hallway is a sign.    
+~
+14 0 0
+D1
+~
+~
+0 0 1439
+D3
+~
+~
+0 0 1437
+D4
+~
+~
+0 0 1473
+E
+sign~
+Dance Friday Night! Admission: $3
+~
+S
+T 1405
+#1439
+Hallway~
+   Although this is a very small school, I get the feeling you are lost
+already!  To your north is the cafeteria and front entrance.  To your south is
+the first floor of the high school.  To your east is a door into the cafeteria
+kitchen, and to your west is the back entrance and the north stairs.    
+~
+14 0 0
+D0
+~
+~
+0 0 1424
+D1
+~
+~
+0 0 1420
+D2
+~
+~
+0 0 1440
+D3
+~
+~
+0 0 1438
+S
+T 1405
+#1440
+Hallway~
+   Red alert!  On your west is the feared and dreaded janitor's closet.  The
+rumor is that once a person goes in, they never come out again!  On your east
+is a door to the back room of the lunchroom, but it's always kept locked.    
+~
+14 0 0
+D0
+~
+~
+0 0 1439
+D2
+~
+~
+0 0 1443
+D3
+~
+~
+0 0 1441
+S
+T 1405
+#1441
+Janitor's Closet~
+   Ok, so this place isn't really scary at all, but schools are the ideal
+breeding grounds for rumors to be started, am I not correct?  The only creepy
+things about this place are all of the rolls of toilet paper, and the endless
+tape measures lying about.  This rooms leads on farther to the west.    
+~
+14 0 0
+D1
+~
+~
+0 0 1440
+D3
+~
+~
+0 0 1442
+S
+T 1405
+#1442
+Janitor's Closet~
+   Well, looks like this is more of the janitor's closet!  Are you having fun?
+In front of you is a massive cabinet, with hundreds of tiny little boxes that
+slide out . Inside these boxes are different sizes of screws!  Who ever thought
+screws could come in so many different shapes and forms?!?  The boiler room is
+to your west.    
+~
+14 0 0
+D0
+~
+~
+0 0 1437
+D1
+~
+~
+0 0 1441
+D2
+~
+~
+0 0 1445
+D3
+~
+~
+0 0 1446
+S
+T 1405
+#1443
+Hallway~
+   Well now that you are out of most of the commotion, it is time to get down
+to some real business.  I personally welcome you to Villa Grove High School,
+population..  About 250.  It's pretty dang small, and everyone knows everyone
+else.  Heck half of them are even related!  The popular gossip around the halls
+is usually about the new ice cream stand, or the detassling company that pays
+the most..  Interesting huh?    
+~
+14 0 0
+D0
+~
+~
+0 0 1440
+D2
+~
+~
+0 0 1453
+D3
+~
+~
+0 0 1444
+S
+T 1405
+#1444
+Boys' Locker Room~
+   Well, if you aren't a guy then you better get out..  That is, unless you've
+never been in a boys' locker room before!  This is the second built one,
+primarily used for junior high.  The other one is way over by the big gym.  
+Here there are several rows of tiny lockers, most with padlocks, but a few are
+wide open with junk hanging out.    
+~
+14 0 0
+D1
+~
+~
+0 0 1443
+D3
+~
+~
+0 0 1445
+S
+T 1405
+#1445
+Boys' Locker Room~
+   This is the other part of the locker room.  The nastier, grosser part, that
+is.  On your right are the urinals, sinks, and mirrors, and on the left are the
+showers..  With no curtains!  After a long, long debate over shower curtains,
+this place still has none!  Only the bravest bathe around here..  Most go
+around smelly.  On the north is a door leading to the back entrance, and on the
+west is another door going into the boiler room.    
+~
+14 0 0
+D0
+~
+~
+0 0 1442
+D1
+~
+~
+0 0 1444
+S
+T 1405
+#1446
+Boiler Room~
+   The transition from the other room to this one is nothing small.  The air is
+now sweltering hot, and the whole place smells of heated metal.  Single light
+bulbs hang from the ceiling here and there.  To your south is more of the
+boiler room, and to your west is a door leading to some stairs.    
+~
+14 0 0
+D1
+~
+~
+0 0 1442
+D2
+~
+~
+0 0 1447
+D3
+~
+~
+0 0 1449
+S
+T 1405
+#1447
+Boiler Room~
+   Before you is a giant boiler doing whatever it is that boilers do.  It lets
+off and incredibly oht steam, which is ushered out a vent by some powerful
+fans.  The air is stuffy and dimly lit, making this room seem similar to your
+grandmother's attic.  You can continue exploring to the west, south, or go back
+to the north.    
+~
+14 0 0
+D0
+~
+~
+0 0 1446
+D2
+~
+~
+0 0 1451
+S
+T 1405
+#1448
+Boiler Room~
+   You are now in front of the only window out of this place!  The thick
+screens make the view somewhat blurry, but you can see the buses and some
+parked cars . If you go north from here, there is a door that will take you
+outside.    
+~
+14 0 0
+D0
+~
+~
+0 0 1449
+D1
+~
+~
+0 0 1447
+D2
+~
+~
+0 0 1450
+S
+T 1405
+#1449
+Boiler Room~
+   This little section is partitioned off from the rest of the boiler room by
+two doors.  One leads east and ones lead south.  Also, up a short ramp to the
+north, is a door outside.  On one side of this room is a flight of stairs,
+leading up to the band room.
+~
+14 0 0
+D0
+~
+~
+0 0 1475
+D1
+~
+~
+0 0 1446
+D2
+~
+~
+0 0 1448
+D4
+~
+~
+0 0 1474
+S
+T 1405
+#1450
+Boiler Room~
+   Because of all the time you've spent here, and because of the heat, you are
+quickly beginning to feel weak.  Hardly any fresh air is coming in from
+anywhere, so you are forced to inhale steam off the boilers.  You are at the
+corner furthest from the door, but going north or east will get you out soon
+enough.    
+~
+14 0 0
+D0
+~
+~
+0 0 1448
+D1
+~
+~
+0 0 1451
+S
+T 1405
+#1451
+Boiler Room~
+   You still probably have no ideas what these boilers are used for..  But I
+can let you in on a secret..  THEY BOIL PEOPLE!!  An unless you plan on getting
+boiled yourself, you had better get out of here!    
+~
+14 0 0
+D0
+~
+~
+0 0 1447
+D3
+~
+~
+0 0 1450
+S
+T 1405
+#1452
+Boys' Bathroom~
+   As you enter this room, you are finally beginning to think that it couldn't
+be any more disgusting.  One of the urinals has been converted into a spittoon,
+cigarette butts litter the floor, and wadded up toilet paper sticks to the
+ceiling.  There are two grimy looking stalls, but you wouldn't ever dare to go
+in.  On the west wall, two ground level windows are wide open, as if someone
+tried to sneak out.    
+~
+14 0 0
+D1
+~
+~
+0 0 1453
+S
+T 1405
+#1453
+Hallway~
+   Here there is another water fountain, wich students are constantly drinking
+out of, regardless of the gum spit into it.  On your west is the terrifying
+boys' bathroom, and on your east is one of the LD rooms.  Scary, or scarier?  
+Either choice is rather grim.    
+~
+14 0 0
+D0
+~
+~
+0 0 1443
+D1
+~
+~
+0 0 1454
+D2
+~
+~
+0 0 1458
+D3
+~
+~
+0 0 1456
+S
+T 1405
+#1454
+LD Room~
+   This is where the stupidest of the stupid come to congregate.  Oddly enough,
+you think the teacher would be stupid too, but she is the coach of the
+Scholastic Bowl team.  Both high school textbooks and 5th grade textbooks are
+lying about here.  The students are supposed to be learning, but instead, most
+of them are throwing balls of paper out the window.    
+~
+14 0 0
+D3
+~
+~
+0 0 1453
+S
+T 1405
+#1455
+Hallway~
+   Students divide to either side of the hallway, avoiding the spilled pop on
+the floor.  A janitor busily pushes his way through, grumbling over all the
+messes the kids make.  To the north is the English room that everyone tries to
+avoid.  The teacher spies you looking into the classroom and gives you a warm,
+almost frightening smile.  Crayon colored pictures decorate her door, making
+the overall appearance seem like kindergarten.    
+~
+14 0 0
+D0
+~
+~
+0 0 1453
+S
+T 1405
+#1456
+English Room~
+   Now that you are in here you understand why no one else is..  The teacher
+looks seriously like a kindergarten teacher!!  Her glasses are rimmed with
+striped colors, sorta like the ones you might have had..  When you were 4.  
+She has a huge jar of Jolly Ranchers on her desk, which she gives out for
+pretty much no reason.  Little smiley faces decorate her drawing board, making
+the whole room look insanely horrible.    
+~
+14 0 0
+D1
+~
+~
+0 0 1453
+S
+T 1405
+#1457
+Spanish Room ~
+   Back here there are mostly desk, some with books setting on top.  A few
+posters decorate the walls, advertising bull fighting and tropical resorts and
+such.  Along the back wall there is a table with a computer on it, and the
+starry screen saver is spinning around, diverting your eyes.    
+~
+14 0 0
+D2
+~
+~
+0 0 1459
+S
+T 1405
+#1458
+Hallway~
+   A pile of books are lying on the floor, for no apparent reason.  Students
+are pushing their way in all directions, causing a huge jam.  To the east is
+the Spanish room, which looks rather fun from what you see!  To the west is the
+south stairwell, to the south and north is the hallway.    
+~
+14 0 0
+D0
+~
+~
+0 0 1453
+D1
+~
+~
+0 0 1459
+D2
+~
+~
+0 0 1461
+D3
+~
+~
+0 0 1460
+S
+T 1405
+#1459
+Spanish Room~
+   Hola!  This room is very bright and colorful, every last inch perfectly
+decorated with a Spanish flare.  A large pinata hangs in one corner of the
+room, directly over the teacher's desk.  Over by the windows, a large box full
+of many many many markers stands out to your eyes.  This room continues to the
+north.    
+~
+14 0 0
+D0
+~
+~
+0 0 1457
+D3
+~
+~
+0 0 1458
+S
+T 1405
+#1460
+South Stairs~
+   This is the second, southern staircase.  It too leads up to the second and
+then third floors.  On your west is a door leading outside into the parking
+lot.  On the east is the main high school hallway.  Hurry up, the bell is going
+to ring!    
+~
+14 0 0
+D1
+~
+~
+0 0 1458
+D4
+~
+~
+0 0 1476
+S
+T 1405
+#1461
+Hallway~
+   Alas, you are nearly at the end of this hallway.  On your west is a door
+with a pink tinted beveled glass window.  It appears to be the girls bathroom!
+On the east is the student's bulletin board, which you could read for news and
+information.    
+~
+14 0 0
+D0
+~
+~
+0 0 1458
+D2
+~
+~
+0 0 1463
+D3
+~
+~
+0 0 1462
+E
+bulletin board~
+Dance this week!! Admission $3!! Sign up out of school dates in the office.
+Student council candybar sales are ending this week! Support the Blue Devils!
+Anyone with Interrelated papers should see Mrs. Aden by this Friday.
+There is a football game this Sunday afternoon at Parkland College, all are invited to attend.
+~
+S
+T 1405
+#1462
+Girls' Bathroom~
+   The strong lingering whiff of perfume catches your senses while you are in
+here, nearly making you gag.  Several girls seem glued to the mirror, combing
+every strand of hair into place, or perfectly powdering their noses.  
+Someone's covered the mirror in lipstick saying 'I love Ryan P.  ' or 'Jenna is
+a slut.  ' Several stalls are on one wall, painted pastel pink to match
+everything else here.    
+~
+14 0 0
+D1
+~
+~
+0 0 1461
+S
+T 1405
+#1463
+Hallway~
+   Here, the hallway stops abruptly, leaving you in another hallway that goes
+east or west.  Down the hall to the west you can see a door splattered with
+paint.  To the west the hallway turns and goes somewhere else.  On your south
+is a small door leading into the Home Ec kitchen.    
+~
+14 0 0
+D0
+~
+~
+0 0 1461
+D1
+~
+~
+0 0 1468
+D2
+~
+~
+0 0 1465
+D3
+~
+~
+0 0 1464
+S
+T 1405
+#1464
+Hallway~
+   Nothing.  Here there isn't very much too look at, just a few lockers.  How
+ingenious!  How ingenius!  A sign over the top of the door reads 'VGHS Student
+Council', and then there is another sign on the ledge halfway up the door.  To
+the west is the art room, and also on your north is a door outside.    
+~
+14 0 0
+D1
+~
+~
+0 0 1463
+D3
+~
+~
+0 0 1466
+S
+T 1405
+#1465
+Home Ec Kitchen~
+   Here you see four identical little kitchens, each with a stove, counter,
+sink, oven, and a little table.  Over in one end of this room is a washer,
+dryer, and refrigerator.  A door on the east leads into the HOme Ec classroom.
+  
+~
+14 0 0
+D0
+~
+~
+0 0 1463
+D1
+~
+~
+0 0 1469
+S
+T 1405
+#1466
+Art Room~
+   OH MY GOD!!  You have never seen such a messy place.  Nearby, you *think*
+you see two computers, but you can't tell for sure because they are covered in
+junk!  Spare papers, pencils, markers, and paints litter the room..  
+Everywhere.  There are a few tables in here, all covered in paint and most
+piled high with artwork.  The art room continues to the south.    
+~
+14 0 0
+D1
+~
+~
+0 0 1464
+D2
+~
+~
+0 0 1467
+S
+T 1405
+#1467
+Art Room~
+   This is the back part of the room, and the messier.  Two sinks are back
+here, splattered with paint and clay and anything else imaginable.  The
+cabinets all have fingerprints on them, along with the floor and walls.  A
+drying rack is here too, but art projects fill it completely full and are
+stacked on top as well.  A tv sits in the corner, used as a shelf for someone's
+plaster cast.    
+~
+14 0 0
+D0
+~
+~
+0 0 1466
+S
+T 1405
+#1468
+Hallway~
+   Yet more lockers line the northern wall of this hallway.  On the south is a
+door into the Home Ec room.  If you go east and up the stairs, there is another
+hallway, and judging by the draft, it seems like there is a door to the
+outside.    
+~
+14 0 0
+D1
+~
+~
+0 0 1470
+D3
+~
+~
+0 0 1463
+S
+T 1405
+#1469
+Home Ec Room~
+   This is one of the most used and smallest classrooms in the school.  
+Parenting, Consumer's Ed, Nutrition, Sewing, and Current Events classes are all
+taught here.  Of course, everyone just wants to be here to get the chance to
+cook!  The teacher looks like she obviously enjoys the food!    
+~
+14 0 0
+D3
+~
+~
+0 0 1465
+S
+T 1405
+#1470
+Hallway~
+   Here you see another door leading outside, and a cool draft blows in through
+the corner that is ajar.  South of you you see a pop machine and a vending
+machine, oh yay!  There are some more lockers along the walls, mostly empty and
+open a crack.    
+~
+14 0 0
+D1
+~
+~
+0 0 1477
+D2
+~
+~
+0 0 1471
+D3
+~
+~
+0 0 1468
+S
+T 1405
+#1471
+Vending Area~
+   In this tiny cramped corner, students hurriedly wait in a long line to get
+their pop and candy.  The vending machine is against the west wall, and the pop
+machine is back hidden underneath the staircase.  The staircase leads upstairs
+to the back of the study hall.    
+THERE IS A SIGN HERE! READ IT!!!
+~
+14 0 0
+D0
+~
+~
+0 0 1470
+D4
+~
+~
+0 0 1478
+E
+sign~
+   IMPORTANT: Due to students abusing the vending machine, you no longer have
+the privelege to use it on your own.  Please just tell the lady what you want
+and she will get it for you and give it to you when you type 'buy _____'
+Thanks.    
+~
+S
+T 1403
+T 1405
+#1472
+Parking Lot~
+   Now you are right outside the back entrance, where the kids that ride the
+bus enter the building.  On your west, not too far off you see another door and
+a dumpster.  Buses are in the distance, along with some faculty cars and a
+couple of big sheds.    
+~
+14 0 0
+D1
+~
+~
+0 0 1437
+S
+#1473
+North Stairs~
+   You are now on the north staircase, at the second floor landing.  Nearby is
+the library and office, or you can continue to go upstairs to the third floor.
+  
+~
+14 0 0
+D1
+~
+~
+0 0 1479
+D5
+~
+~
+0 0 1438
+S
+T 1405
+#1474
+Band Room~
+   This is the northwestern corner of the band room.  Here you see a door with
+stairs going down, a window overlooking the bus parking lot, and a few tympani
+drums.  On one wall is a bulletin board for you to read, with current events
+and announcements.    
+~
+14 0 0
+D5
+~
+~
+0 0 1449
+E
+bulletin board~
+Visit Millikin!! Full scholarships available.  Call or write for an information packet.
+University Of Illinois at Chicago invites you to participate in our music program from June 4th to August 10th!  
+EIU Summer Fine Arts Camp- A one of a kind experience.  Prices range between $200-$600 per week.
+~
+S
+T 1405
+#1475
+Parking Lot~
+   Right in front of you is a huge DUMPSTER.  There is a door behind it, almost
+completely blocked but there is enough space to slip in and out.  Going in any
+direction but south will take you to the bus parking lot, and near the faculty
+cars.    
+~
+14 0 0
+D2
+~
+~
+0 0 1449
+S
+#1476
+South Stairs~
+   You are now on the south stairs, at the second floor landing.  Nearby to the
+east you can see the high school office, study hall, and guidance counselor's
+office.  Stairs lead both up and down from here.    
+~
+14 0 0
+D5
+~
+~
+0 0 1460
+S
+T 1405
+#1477
+Entrance~
+   This is another place where you can go inside.  Within the doors you can see
+a pop machine, a vending machine and some stairs.  The door is slightly ajar
+and unlocked.    
+~
+14 0 0
+D3
+~
+~
+0 0 1470
+S
+#1478
+Hallway~
+   You are at the stop of some stairs now, which lead down to the vending
+machine.  If you head east down this short hallway, there are a couple of
+classrooms and then the study hall.  There is a door with a staircase behind it
+here, which is locked..  Do you have the key perhaps?    
+~
+14 0 0
+D5
+~
+~
+0 0 1471
+S
+T 1405
+#1479
+Hallway~
+   This is the second floor hallway, right near the north staircase.  On your
+east side is one of the english rooms, to the west is the staircase, to the
+north is the library, and to the south is more of the hallway.  You can see old
+class pictures hanging on the walls up near the ceiling, and trophy cases here
+and there.    
+~
+14 0 0
+D0
+~
+~
+0 0 1480
+D3
+~
+~
+0 0 1473
+S
+T 1405
+#1480
+Outside the Library~
+   Here there are 2 doors, one on the north, and one on the west.  If you take
+the door to the west, it will put you in the higher/resource library, and if
+you go north, it will put you in the little kid's library.  South will take you
+into the second floor hallway.    
+~
+14 0 0
+D0
+~
+~
+0 0 1486
+D2
+~
+~
+0 0 1479
+D3
+~
+~
+0 0 1481
+S
+T 1405
+#1481
+Library~
+   This is the somewhat small, but complete library.  Here, and also to your
+north, is a small area set up with computers.  There is also the checkout desk.
+To the west are the reference books, and anywhere else is pretty much divided
+into genres.    
+~
+14 0 0
+D0
+~
+~
+0 0 1482
+D1
+~
+~
+0 0 1480
+D3
+~
+~
+0 0 1488
+S
+T 1405
+#1482
+Library~
+   Here is the small area set up with computers.  Most of them are filled up
+with bored students from study hall, playing games and trying to look at porn.
+There is a door to your east that leads to the little kids' library, and also
+the library steps.  To your west are the biographies.    
+~
+14 0 0
+D1
+~
+~
+0 0 1483
+D2
+~
+~
+0 0 1481
+D3
+~
+~
+0 0 1489
+S
+T 1405
+#1483
+Library~
+   Nearby is the librarian's desk, along with the little computer she uses to
+check out books.  To your north is the staircase leading down near the
+cafeteria.  Below your feet is a small rug, which kids sit on as soon as they
+come in, and also do fun worksheets.    
+~
+14 0 0
+D0
+~
+~
+0 0 1484
+D1
+~
+~
+0 0 1485
+D2
+~
+~
+0 0 1486
+D3
+~
+~
+0 0 1482
+S
+T 1405
+#1484
+Library Stairs~
+   This is the back, and for the most part less used, staircase.  It leads
+downstairs to a place near the cafeteria.  Most of the time the little kids use
+this staircase because it's closer than going all the way through the high
+school.    
+~
+14 0 0
+D2
+~
+~
+0 0 1483
+D5
+~
+~
+0 0 1403
+S
+T 1405
+#1485
+Library~
+   This is the little nook in the corner where the kids go to read books and
+magazines.  Several pillows and soft seats lie on the floor.  A small rack of
+magazines is against one wall, along with some windows viewing out onto the
+first floor roof.    
+~
+14 0 0
+D3
+~
+~
+0 0 1483
+S
+T 1405
+#1486
+Library~
+   This is the little kids' section of the library.  The walls are decorated in
+a juvenile fashion.  Near you are several tv's set up to watch videos.  In the
+back is a cabinet full of prizes for worksheets.  To the east is the A/V room,
+where kids watch videos, and occasionally classes are taught.  To your north is
+the desk and stairs.    
+~
+14 0 0
+D0
+~
+~
+0 0 1483
+D1
+~
+~
+0 0 1487
+D2
+~
+~
+0 0 1480
+S
+T 1405
+#1487
+A/V Room~
+   Here, little children sit in the desks and patiently watch movies, or
+sometimes listen to the librarian read them a book.  One one wall is a marker
+board, because this room is often used as a spare classroom.  In the back is a
+huge shelf with all kinds of videos on it, for teachers to check out.    
+~
+14 0 0
+D3
+~
+~
+0 0 1486
+S
+T 1405
+#1488
+Library~
+   This is where everyone learns everything!  On a span of several bookcases,
+there are about 10 different sets of encyclopedias, ranging by year and
+specialty.  Some of them are missing, just because people didn't return them.
+To west are the fiction books, and to your north are the biographies and
+magazines.    
+~
+14 0 0
+D0
+~
+~
+0 0 1489
+D1
+~
+~
+0 0 1481
+D3
+~
+~
+0 0 1490
+S
+T 1405
+#1489
+Libary~
+   This area is mostly just biographies, in tall bookcases along the wall.  In
+the aisles are smaller short bookcases, filled with more biographies, and also
+some magazines on top.  To the west are the science and history books, and to
+the south are the encyclopedias.    
+~
+14 0 0
+D1
+~
+~
+0 0 1482
+D2
+~
+~
+0 0 1488
+D3
+~
+~
+0 0 1491
+S
+T 1405
+#1490
+Library~
+   This quiet little corner is full of fiction books, everything from mysteries
+to horror stories to sci-fi.  A little floor level window overlooks the bus
+parking lot, with a railing over it so you can't fall out.  To the north is a
+little corner full of resources.    
+~
+14 0 0
+D0
+~
+~
+0 0 1491
+D1
+~
+~
+0 0 1488
+S
+T 1405
+#1491
+Library~
+   The little windows along the floor drive you absolutely nuts!!  Why would
+anyone want a window at their feet?  And the little ones..  They could slip
+through.  Here you see an assortment of science journals, history documents,
+and other books of their kind.  Several students search the bookshelves, trying
+to find a resource for their projects.  The biographies are to the east, and
+the fiction area is to your south.    
+~
+14 0 0
+D1
+~
+~
+0 0 1489
+D2
+~
+~
+0 0 1490
+S
+T 1405
+#1492
+An unfinished room~
+You are in an unfinished room.
+~
+14 0 0
+S
+T 1405
+#1493
+An unfinished room~
+You are in an unfinished room.
+~
+14 0 0
+S
+T 1405
+#1494
+An unfinished room~
+You are in an unfinished room.
+~
+14 0 0
+S
+T 1405
+#1495
+An unfinished room~
+You are in an unfinished room.
+~
+14 0 0
+S
+T 1405
+#1496
+An unfinished room~
+You are in an unfinished room.
+~
+14 0 0
+S
+T 1405
+#1497
+An unfinished room~
+You are in an unfinished room.
+~
+14 0 0
+S
+T 1405
+#1498
+An unfinished room~
+You are in an unfinished room.
+~
+14 0 0
+S
+T 1405
+#1499
+An unfinished room~
+You are in an unfinished room.
+~
+14 0 0
+S
+T 1405
+$~

@@ -1,0 +1,63 @@
+#8427
+tree branch~
+a tree branch~
+A thick tree branch is lying here.~
+It's a normal stick from a tree.    
+~
+5 0 8193 0
+2 3 2 0
+3 2000 0 0
+#8471
+bright green tie~
+&ga &Gbright green &gtie&n~
+A bright green tie has been dropped here.~
+Nothing.
+~
+11 0 5 0
+0 0 0 0
+2 30000 0 25
+A
+3 2
+A
+4 2
+A
+1 -4
+#8472
+stylish briefcase~
+&ya stylish briefcase&n~
+Someone has left a stylish briefcase here.~
+~
+15 0 16385 0
+450 1 -1 0
+5 400000 0 0
+A
+6 1
+#8473
+very stylish briefcase~
+&ya &rvery &ystylish briefcase&n~
+Someone has left a very stylish briefcase here.~
+~
+15 0 16385 0
+685 1 -1 0
+6 750000 0 0
+A
+6 2
+A
+4 2
+A
+19 -2
+#8480
+work gloves~
+some work gloves~
+Someone has left a pair of dirty work gloves here.~
+The gloves are black and have some dirt on them.  The insides smell a bit, so
+chances are they've already been used.    
+~
+11 0 129 0
+0 0 0 0
+2 30000 0 24
+A
+1 3
+A
+12 -15
+$~

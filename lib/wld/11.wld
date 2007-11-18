@@ -1,0 +1,1670 @@
+#1100
+Quiet Pathway~
+   You are walking on a beautiful path paved with small polished stones.  
+Nothing is in the areas around you.  To the north the path continues for quite
+a while.    
+~
+11 c 0
+D0
+~
+~
+0 0 1101
+D2
+~
+~
+0 0 554
+S
+#1101
+Further up the Path~
+What could this path be leading to?  The answer is not apparent, but maybe the path itself holds the key.
+The stones are no longer round and smooth, but square and white.
+~
+11 0 0
+D0
+~
+~
+0 0 1102
+D2
+~
+~
+0 0 1100
+S
+#1102
+The Path~
+Ahh, what is this here?  The square stones appear to have little dots on them now.  Why, they look like dice!
+What could this mean?
+~
+11 0 0
+D0
+~
+~
+0 0 1103
+D2
+~
+~
+0 0 1101
+S
+#1103
+Entrance to the Gameboard~
+Wow!  Looks like you've stumbled upon a giant gameboard, which is too large to
+tell what it is.  You see colored houses in the distance.  The game starts to
+your north.    
+~
+11 0 0
+D0
+~
+~
+0 0 1104
+D2
+~
+~
+0 0 1102
+S
+#1104
+&RGO!!&n~
+   Well, I suppose it must be Monopoly..  Now where is my $200?  Heh, looks
+like here you have to earn some things on your own.  Life isn't always a piece
+of cake.  The game begins to the west.    
+~
+11 0 0
+D0
+~
+~
+0 0 -1
+D3
+~
+~
+0 0 1105
+D4
+~
+treasure~
+2 1112 1171
+S
+#1105
+&mMediterranean Avenue&n~
+   Welcome to Monopoly!  You now stand on one of the cheapest lots, which is
+currently vacant.  Actually, this place looks more like a dump than a lot!  
+Trash litters the area, and a sickly cat rubs up against your leg trying to get
+some food.  Who would want to live here?  Well, obviously, no one.    
+~
+11 0 0
+D1
+~
+~
+0 0 1104
+D3
+~
+~
+0 0 1106
+S
+#1106
+&MCommunity Chest&n~
+   This is where the treasure goes from this part of the game.  It is in a
+locked vault below this room.  Do you have the key?  If so, go get your
+treasure!    
+~
+11 0 0
+D1
+~
+~
+0 0 1105
+D3
+~
+~
+0 0 1107
+D5
+~
+door~
+2 1100 1144
+S
+#1107
+&mBaltic Avenue&n~
+   Although you are still in the same price range, this place seems slightly
+better to live in.  There is a rather large carboard box to your north, that
+looks inhabited.  Just as you get used to this place, a rat scutters over your
+foot.  Yuk.    
+~
+11 0 0
+D1
+~
+~
+0 0 1106
+D3
+~
+~
+0 0 1108
+S
+#1108
+Income Tax~
+   Oh no!  It's that place everyone dreads!!  Welcome to the real world...  
+Here is the tax collector to take your money, or if you think you might have a
+chance, his office is to the north, where you might sort something out.  I
+don't know, but it doesn't look too promising.  Maybe you shouldn't go in.    
+~
+11 0 0
+D0
+~
+~
+0 0 1145
+D1
+~
+~
+0 0 1107
+D3
+~
+~
+0 0 1109
+S
+#1109
+Reading Railroad~
+   "I"ve been workin' on the rail-road, all the live long day..  ' Hrmm, you've
+now arrived at one of the four train stations.  An engineer is standing here
+trying to wipe a coal smudge off of his face.  On his overalls dangles a giant
+shiny key.  Wonder what it's good for.    
+~
+11 0 0
+D1
+~
+~
+0 0 1108
+D3
+~
+~
+0 0 1110
+S
+#1110
+&DOriental Avenue&n~
+   Now you have made it to the more expensive, but still cheap section.  To the
+north of you is a shabby apartment building, with only two apartments.  The
+bricks are crumbling and slowly the building is deteriorating.  A small
+clothesline is in the front yard, with granny panties hanging from it!    
+~
+11 0 0
+D0
+~
+~
+0 0 1146
+D1
+~
+~
+0 0 1109
+D3
+~
+~
+0 0 1111
+S
+#1111
+&MChance&n~
+   Welcome to the Chance place.  This means, get a chance at something!!  
+Well, unfortunately I can't tell you what that chance is..  So you'll just have
+to figure it out on your own.  This is the pink chance..  Is that a hint?  
+Might be..    
+~
+11 0 0
+D1
+~
+~
+0 0 1110
+D3
+~
+~
+0 0 1112
+S
+#1112
+&DVermont Avenue&n~
+   This lot is composed of many tents scattered along the ground.  Most have
+people huddled inside trying to keep warm, but a few appear to be empty,
+including the one right to your south.  Why is this place so poor?  There must
+be some sort of reason..  Someone has to have all the money!    
+~
+11 0 0
+D1
+~
+~
+0 0 1111
+D2
+~
+~
+0 0 1148
+D3
+~
+~
+0 0 1113
+S
+#1113
+&DConnecticut Avenue&n~
+   Here, this lot is completely empty.  Why is no one living here?  That cannot
+be explained just by looking..  It looks fairly nice actually.  Before you is a
+large gravel lot, completely clean and deserted.    
+~
+11 0 0
+D1
+~
+~
+0 0 1112
+D3
+~
+~
+0 0 1114
+S
+#1114
+&RIn Jail&b(Just Visting)&n~
+   As you enter this place it makes you glad that you are not really in jail..
+Scratching sounds are coming from within the walls, and somewhere a person is
+screaming.  What do they do here?!  Hopefully you won't end up here, but
+anything can happen.    
+~
+11 u 0
+D0
+~
+~
+0 0 1115
+D1
+~
+~
+0 0 1113
+D2
+~
+door~
+1 1110 1158
+D3
+~
+~
+0 0 -1
+S
+#1115
+&WSt. Charles Place&n~
+   This is the first of the moderate priced lots.  In front of you sits a large
+house, not to shabby but old.  Kids are running out on the lawn..  At least 8
+of them!  A mother sits on the porch smiling to herself as she watches her
+children having fun.    
+~
+11 0 0
+D0
+~
+~
+0 0 1116
+D1
+~
+~
+0 0 -1
+D2
+~
+~
+0 0 1114
+S
+#1116
+Electric Company~
+   This is where all the power comes from!  You are standing before a giant
+powerful power plant, which is making loud buzzing noises as it does its work.
+You can go in to the west.    
+~
+11 0 0
+D0
+~
+~
+0 0 1117
+D2
+~
+~
+0 0 1115
+D3
+~
+~
+0 0 1150
+S
+#1117
+&WStates Avenue&n~
+   You must have reached a commercial district!  You are now standing on a
+large paved square, with a pawn shop to the east, and a grocery store to the
+west.  Not bad for what is still a low end of town.    
+~
+11 0 0
+D0
+~
+~
+0 0 1118
+D1
+~
+~
+0 0 1151
+D2
+~
+~
+0 0 1116
+D3
+~
+~
+0 0 1152
+S
+#1118
+&WVirginia Avenue&n~
+   Wow!  Someone has the money to put a hotel here..  It looks small but nice..
+You can enter to the east.  Off in the distance you can hear trains whistling
+as they rush by.    
+~
+11 0 0
+D0
+~
+~
+0 0 1119
+D1
+~
+~
+0 0 1153
+D2
+~
+~
+0 0 1117
+S
+#1119
+Pennsylvania Railroad~
+   Trains arrive and depart all around you, similar to a big city's train
+depot.  People are running around trying to get to the right train before it
+leaves.  Nearby is one of the conductors, holding a train whistle.  He looks
+sharp and clean with his crisp black suit and sleek haircut.    
+~
+11 0 0
+D0
+~
+~
+0 0 1120
+D2
+~
+~
+0 0 1118
+S
+#1120
+&CSt. James Place&n~
+   Ahh..  This isn't a typical city lot!!  It looks like you left and went out
+to the country..  A farmhouse is in the distance, and the lot seems suddenly
+vast and expansive.  A barn is also nearby.  But as you start to walk toward
+them, you find yourself face to face with a painted curtain!  This lot is
+simply a brick alleyway..  Oh well.    
+~
+11 0 0
+D0
+~
+~
+0 0 1121
+D2
+~
+~
+0 0 1119
+S
+#1121
+&BCommunity Chest&n~
+   Aha!  You think you know what you're doing now....  Well..  It doesn't mean
+you do, but it's still right to you.  Have you figured out the secret yet?  
+Better work on that..  Vault is down from here.    
+~
+11 0 0
+D0
+~
+~
+0 0 1122
+D2
+~
+~
+0 0 1120
+D5
+~
+door~
+2 1101 1159
+S
+#1122
+&CTennessee Avenue&n~
+   This lot is empty, except for a lone 'For Sale' sign stuck into the soft
+dirt.  A realtor is standing nearby grinning dorkily thinking you might want
+this place..    
+~
+11 0 0
+D0
+~
+~
+0 0 1123
+D2
+~
+~
+0 0 1121
+S
+#1123
+&CNew York Avenue&n~
+   This lot is empty too.  Strange..  Two lots in a row...  Maybe something's
+not right..  Water?  Electricity?  The plants are both an equal distance away,
+and close, so it wouldnt be that.  What else could be wrong?  Hmm, maybe no one
+has money..    
+~
+11 0 0
+D0
+~
+~
+0 0 1124
+D2
+~
+~
+0 0 1122
+S
+#1124
+&RFree Parking&n~
+   This looks like it would be a peaceful place to take a nap on any usual day.
+Odd sounds are coming from above, but you only see the ceiling of the parking
+garage.  There is a small rectangle outlined up there, but would it really do
+anything?    
+~
+11 0 0
+D1
+~
+~
+0 0 1125
+D2
+~
+~
+0 0 1123
+D4
+Nothing.
+~
+hatch~
+2 0 1160
+S
+#1125
+&RKentucky Avenue&n~
+   This is yet another empty lot..  What's wrong!??!!?  Someone needs to figure
+it out..  Where are the people?  Dead?  Moved away?  Who knows..  You might see
+civilization to the far east..    
+~
+11 0 0
+D1
+~
+~
+0 0 1126
+D3
+~
+~
+0 0 1124
+S
+#1126
+&BChance&n~
+   Heh heh, it's &Bchance&n time again..  If you've figured out what your
+chance is for...  Oh well, i assume you'll get it eventually.  Till then, tough
+luck.    
+~
+11 0 0
+D1
+~
+~
+0 0 1127
+D3
+~
+~
+0 0 1125
+S
+#1127
+&RIndiana Avenue&n~
+   Ahhh, at last, some people!!  You're now at the gates of one of those
+apartment complexes that thinks it's really cool, but is only expensive.  You
+can't go in because you don't have a *visitor pass*.  So, I spose you'll just
+have to hang out here until someone decides to let you in.    
+~
+11 0 0
+D1
+~
+~
+0 0 1128
+D3
+~
+~
+0 0 1126
+S
+#1128
+&RIllinois Avenue&n~
+   Now, this is something i've never seen before.  It's Illinois Avenue
+though..  Soo...  Well...  If you think about it..  Anyways, to get to the
+point, this lot has a cornfield growing on it!!  Is that even legal?  Oh well,
+well, they're combining now, so i'd best get out of the way.    
+~
+11 0 0
+D1
+~
+~
+0 0 1129
+D3
+~
+~
+0 0 1127
+S
+#1129
+B&O Railroad~
+   Alas, you have come to another railroad!  This one though, is completely
+freight trains.  Cars carrying wheat and soybeans line the track, along with
+various other cars with assorted goods.  A sweaty old man walks by and you can
+hear the clanking of a large key against his pocket change.    
+~
+11 0 0
+D1
+~
+~
+0 0 1130
+D3
+~
+~
+0 0 1128
+S
+#1130
+&YAtlantic Avenue&n~
+   You are at the entrance to a trailor park, but again you can't go in because
+it is surrounded in barb wire fencing!!  What is everyone so pressured from?  
+Well, keep going before you find out..  It might not be good..    
+~
+11 0 0
+D1
+~
+~
+0 0 1131
+D3
+~
+~
+0 0 1129
+S
+#1131
+&YVentnor Avenue&n~
+   Here, all alone, stands a single trailer.  Pretty boring eh?  Well, the door
+is open, entrance to the north..  Smells like something died in there!  Oh
+well, you might want to check it out.    
+~
+11 0 0
+D1
+~
+~
+0 0 1132
+D3
+~
+~
+0 0 1130
+S
+#1132
+Water Works~
+   Wow, bet you didn't think the water works looked like this!!  Someone must
+be keeping a secret...  Before you stands a huuuuge glue factory.  Many
+people..  Or robots..  Or something stand at assembly lines chopping up
+unmentionable horse parts and churning them slowly into sticky glue..  Yucky!
+  
+~
+11 0 0
+D1
+~
+~
+0 0 1133
+D3
+~
+~
+0 0 1131
+S
+#1133
+&YMarvin Gardens&n~
+   This is..  Umm..  Not a garden.  Oh well..  It's just a modular home..  
+Sitting on a large pile of dirt, with green sprouts here and there that might
+be grass.  A rusty old swingset sits in the backyard, and one of the swings is
+moving in the breeze.    
+~
+11 0 0
+D1
+~
+~
+0 0 1134
+D3
+~
+~
+0 0 1132
+S
+#1134
+Go to Jail~
+   Uh oh!  Bad luck on your part..  I guess now you have to go to jail..  The
+only way to go is east, which leads you into your cell.  Hopefully you'll have
+a way out!  Somewhere there was a key floating around...  Oh well..  It's your
+problem.    
+~
+11 0 0
+D1
+~
+~
+0 0 1158
+D2
+~
+~
+0 0 -1
+D3
+~
+~
+0 0 -1
+S
+#1135
+&GPacific Avenue&n~
+   Ahh..  This lot is empty..  But on a sandy warm beach.  Everything looks so
+peaceful.  This would be a nice spot to just sit down and relax for awhile.  
+
+~
+11 0 0
+D0
+~
+~
+0 0 -1
+D2
+~
+~
+0 0 1136
+S
+#1136
+&GNorth Carolina Avenue&n~
+   This is your average ranch home lot..  But it's so plain and boring it looks
+like it could easily be forgotten.  It probably is, because of the house here,
+peeling paint and locked doors, it looks like the owner went on a looong
+vacation.    
+~
+11 0 0
+D0
+~
+~
+0 0 1135
+D2
+~
+~
+0 0 1137
+S
+#1137
+&RCommunity Chest&n~
+   This is the final chest.  The vault, overflowing with riches, is directly
+below you..  Got a key?  If you do, then you're in for a nice surprise of great
+wealth.    
+~
+11 0 0
+D0
+~
+~
+0 0 1136
+D2
+~
+~
+0 0 1138
+D5
+~
+door~
+2 1103 1172
+S
+#1138
+&GPennsylvania Avenue&n~
+   Mmmmm...  Chocolate :-) You do remember that's what Pennsylvania is for
+don't you?  On this lot stands a small brick building, that appears to be the
+Hershey factory!  Yum yum, maybe you should check it out .
+~
+11 0 0
+D0
+~
+~
+0 0 1137
+D2
+~
+~
+0 0 1139
+S
+#1139
+Short Line Railroad~
+   This is the fourth and final railroad.  It seems well..  Rather short.  A
+short fat man stands here, blowing a train whistle, rather annoyingly!!  Isn't
+there any way to shut him up?  *sigh*
+~
+11 0 0
+D0
+~
+~
+0 0 1138
+D2
+~
+~
+0 0 1140
+S
+#1140
+&RChance&n~
+   Oh oh oh!!  It's a *chance*.  Well, if you know what you're doing, you have
+a good chance!  If not, well then, ..  You're stupid.  A litle hint...  This
+chance might have to do with that chest...  Make sense?    
+~
+11 0 0
+D0
+~
+~
+0 0 1139
+D2
+~
+~
+0 0 1141
+S
+#1141
+&BPark Place&n~
+   Oh my!  Could it really be?  Why, I think it is!  You've arrived at the one,
+the only, Park Place!!  This place must cost a FORTUNE to keep up.  Before you
+stands a giant estate, surrounded in trees and an iron fence.    
+~
+11 0 0
+D0
+~
+~
+0 0 1140
+D2
+~
+~
+0 0 1142
+S
+#1142
+Luxury Tax~
+   Eeeek!  Oh no!  LUXURY TAX?!?!  There are some penalties to being rich...  
+Better pay up, or this guy's gonna beat your big head into the dirt.    
+~
+11 0 0
+D0
+~
+~
+0 0 1141
+D2
+~
+~
+0 0 1143
+S
+#1143
+&BBoardwalk&n~
+   Ahh!  The fame!  The glory!  The Peace!!  Yes, you're REALLY on the famous
+Boardwalk.  It's better than you ever expected.  Through the gates you can see
+a HUGE mansion, stables, pool, garden..  Everything!  Too bad you can't go
+explore..  But that will come in another time perhaps.    
+~
+11 0 0
+D0
+~
+~
+0 0 1142
+D2
+~
+~
+0 0 1103
+S
+#1144
+Treasure Chest!~
+   You gasp in awe when you see all the beautiful jewels and coins...  How
+could a city this poor have a treasure like this?  As you pick up some golden
+bauble, it disintigrates into dust.  What is wrong with this vault?  Could it
+just be a mirage?    
+~
+11 0 0
+D4
+~
+door~
+2 1100 1106
+S
+#1145
+Tax Office~
+   Well, welcome to the office.  You now stand in a small room lit only by a
+light bulb dangling from the ceiling, casting odd shadows.  From somewhere
+behind your back comes a voice, saying, 'YOU WILL NEVER ESCAPE MY HELL!!  "
+Suddenly two invisible hands grip your throat and squeeze every last breath out
+of you....  Sorry, you are dead.    
+~
+11 h 0
+D2
+~
+~
+0 0 1108
+S
+#1146
+Apartment Building~
+   You are now within the lower apartment.  Shaggy carpet is covering most of
+the floor, but there are bare cement patches here and there.  From somewhere a
+radio is loudly blasting oldies tunes.  Off in the corner are a set of stairs
+leading to the upstairs apartment.    
+~
+11 0 0
+D2
+~
+~
+0 0 1110
+D4
+~
+~
+0 0 1147
+S
+#1147
+Apartment Building~
+   This is the upstairs apartment.  It is not quite as nice(?  ) as the lower
+one, but seems deserted.  Boxes and boxes of junk are lying around, covered in
+dust.  A mannekin suddenly falls over and scares the living daylights out of
+you!  There's not much here, so you might as well leave.    
+~
+11 0 0
+D5
+~
+~
+0 0 1146
+S
+#1148
+Inside a Tent~
+   You are now in a rather empty tent..  Well almost..  I guess it's not
+deserted..  As a person sits before you.  How odd to have no belongings
+though..  But then again some people must be poor.  Weird enough, the man in
+front of you looks healthy and clean shaven..    
+~
+11 0 0
+D0
+~
+~
+0 0 1112
+S
+#1149
+Jail Cell~
+   This place is horrible!!  Get out get out get out!!!  Well..  Unlike real
+Monopoly..  You don't get to roll the dice.  To get out, you have to have to
+have the key..  The door out is to your north.  Otherwise, I don't know what to
+tell you.    
+~
+11 0 0
+D0
+~
+~
+0 0 1114
+S
+#1150
+The Power Plant~
+   The humming, buzzing noise gets a lot louder as you open the door and let
+yourself in.  Large nuclear reactors tower over you, flashing with light as
+energy is created.  The reactors are on all sides of you, so you have no other
+choice than to go back outside.    
+~
+11 0 0
+D1
+~
+~
+0 0 1116
+S
+#1151
+Pawn Shop~
+   Welcome to the pawn shop.  The walls, counters, tables, and even floor is
+covered with old items, such as equipment, weapons, clothing, and things of
+that sort.  A greasy looking old man stands behind the counter watching you
+carefully to see if you dare steal from him.    
+~
+11 0 0
+D3
+~
+~
+0 0 1117
+S
+#1152
+Grocery Store~
+   Here you can get a lot of food!  Assorted varieties of meats and dry goods
+line one wall, and fruits and vegetables line another.  A small rack of other
+supplies is in front of you.  A young lady waits to ring you up.    
+~
+11 0 0
+D1
+~
+~
+0 0 1117
+S
+#1153
+Virginia Hotel~
+   This seems to be a rather nice hotel.  To the east is the swimming pool, and
+to the north is a hallway of rooms.    
+~
+11 0 0
+D0
+~
+~
+0 0 1154
+D1
+~
+~
+0 0 1155
+D3
+~
+~
+0 0 1118
+S
+#1154
+Hallway~
+   Like i said, this is a SMALL hotel.  There is one room to the east, and one
+to the west.  To the south you can go back to the lobby.    
+~
+11 0 0
+D1
+~
+~
+0 0 1156
+D2
+~
+~
+0 0 1153
+D3
+~
+~
+0 0 1157
+S
+#1155
+Pool~
+   This entire place is starting to remind you of Holiday Inn!!  Weird....  
+The pool is small and smells strongly of chlorine.  There is a rule board on
+the wall, which clearly states you can't swim by yourself!  Sorry..    
+~
+11 0 0
+D3
+~
+~
+0 0 1153
+E
+rule board~
+1.  No diving.
+2. Persons under 18 must be accompanied by an adult.
+3. No swimming alone.
+4. Pool hours 8am-10pm.
+Thanks, and have a great stay.
+~
+S
+#1156
+Room 101~
+   Hrmm...  Uh...  How...  Uninteresting!  A queen size bed is on your right, a
+small dresser with a tv is to your left, and a small bathroom is straight ahead
+of you.    
+~
+11 0 0
+D3
+~
+~
+0 0 1154
+S
+#1157
+Room 102~
+   Boy, this is boring..  A queen size bed is to your left, then a small
+dresser with a tv on top is on your right, and a little bathroom is straight
+ahead..  Sound familiar?    
+~
+11 0 0
+D1
+~
+~
+0 0 1154
+S
+#1158
+Jail!~
+   Welcome to the jail..  There are two doors..  One is for if you have a 'Get
+out of Jail free' card..  Then go to the north.  Or, if you found the key to
+the east door, you can try and escape.    
+~
+11 0 0
+D0
+Nothing.
+~
+door~
+1 1110 1114
+D1
+~
+door~
+2 1111 1135
+D3
+~
+~
+0 0 -1
+S
+#1159
+The Vault~
+   Ahh it's real money!!  This vault contains a whopping 200 coins..  It's best
+you leave it..  Really...  From the appearance of these areas, the citizens
+need it!    
+~
+11 0 0
+D2
+~
+~
+0 0 -1
+D4
+~
+door~
+2 1101 1121
+S
+#1160
+Passage~
+   Well, quite interesting this room..  Isn't.  There is another hatch in the
+ceiling, with a large keyhole clearly marked 'Reading'.  Hmm..  That might mean
+something.  I just get the feeling keys are of great importance.    
+~
+11 0 0
+D4
+~
+hatch~
+2 1104 1161
+D5
+~
+hatch~
+2 0 1124
+S
+#1161
+Passage~
+   Hmm..  Another empty room, and another door.  This time the door doesn't say
+'Reading', it says 'Pennsylvania.  ' Is that the name of the key?  Or the
+state?  Or what?    
+~
+11 0 0
+D4
+~
+hatch~
+2 1105 1162
+D5
+~
+hatch~
+2 1104 1160
+S
+#1162
+Passage~
+   Dang!  What's up with passages and doors?  This time, there's another rather
+large keyhole, and it's marked 'B&O'.  There must be some kind of meaning to
+all these markings.  Another mystery worth solving.  :-)
+~
+11 0 0
+D4
+~
+hatch~
+2 1106 1163
+D5
+~
+hatch~
+2 1105 1161
+S
+#1163
+Passage~
+   You gotta be kidding....  ANOTHER room.  That makes what..  4 locked doors
+now?  *sigh* This door is marked 'Short Line'.    
+~
+11 0 0
+D4
+~
+hatch~
+2 1107 1164
+D5
+~
+~
+2 1106 1162
+S
+#1164
+Passage~
+   Hrmm, it's a wonder you haven't found anyone lost in this long, dark
+passage.  With all those doors and keys, i'd get mixed up too!!  Well, at least
+this time the door is marked a little different.  Spray paint!!  It reads
+'&MPink&n'.    
+~
+11 0 0
+D4
+~
+hatch~
+2 1100 1165
+D5
+~
+hatch ~
+2 1107 1163
+S
+#1165
+Passage~
+   This room looks like it belongs in a nuthouse!!  The walls are rubber, and
+the door is steel...  Odd..  Maybe they expect you to crack?  The door is
+marked with &BBlue&n spray paint, in the shape of a question mark.    
+~
+11 0 0
+D4
+~
+hatch~
+2 1101 1166
+D5
+~
+hatch~
+2 1100 1164
+S
+#1166
+Passage~
+   Blood!  Eeek!!  Well, someone has obviously..  Errmm..  Had an accident
+here.  The walls are splattered with fresh blood, which drips down into puddles
+at your feet.  The door is unmarked this time, but still locked.    
+~
+11 0 0
+D4
+~
+hatch~
+2 1103 1167
+D5
+~
+hatch~
+2 1101 1165
+S
+#1167
+Passage~
+   Although you've come through sooo many locked doors, this room seems to be
+the coolest.  The walls are lined with circuits and little light bulbs that
+flicker and blink.  The floor is covered in wires.  The door has a giant
+padlock on it, which is unlabelled.    
+~
+11 0 0
+D4
+~
+hatch~
+2 1108 1168
+D5
+~
+hatch~
+2 1103 1166
+S
+#1168
+Passage~
+   LOOK!  A pool!!  This room resembles a gym, because of the large indoor pool
+in front of you..  Don't fall in!  There is another hatch directly above the
+high dive.    
+~
+11 0 0
+D4
+~
+hatch~
+2 1109 1169
+D5
+~
+hatch~
+2 1108 1167
+S
+#1169
+Passage~
+   Although you aren't for sure, you get the feeling that this is the last door
+you will have to unlock.  The room is empty, just painted white walls, and a
+thick iron door, with a barred window.  If you have any brains, you should know
+what key it takes.    
+~
+11 0 0
+D4
+~
+hatch~
+2 1111 1170
+D5
+~
+hatch~
+2 1109 1168
+S
+#1170
+The Royal Chamber~
+   OK...  It's not a chamber..  But close enough.  This room is a large office,
+with a huge window lining 3 walls.  The view is of a beautiful New York
+skyline.  In the center of the room is a desk, with a large leather chair
+behind it, which has it's back to you.  Occasionally the chair moves a bit..  
+Something is there..  Oh what could it be?    
+~
+11 0 0
+D5
+~
+hatch~
+2 1111 1169
+S
+#1171
+Treasure Chest~
+   Here you are, the treasure of Uncle Pennybags.  I guess he's not so rich
+anymore!  :-)
+~
+11 0 0
+D5
+~
+treasure~
+2 1112 1104
+S
+#1172
+Vault~
+Wow, this place is rich!!
+Jewels, jewels, and more jewels.. someone must have gotten lucky.
+A large mound of coins begins to tumble your way..better get out.
+~
+11 0 0
+D4
+~
+door~
+2 1103 1137
+S
+#1173
+Entrance to the Nudist Colony~
+   This is the gate to the world reknowned nudist resort, Club Gammi Si.  
+Flowers are everywhere among this lavishly decorated place.  A sign hangs
+overhead, swaying in the soft breeze.  One side reads: WELCOME TO CLUB GAMMA
+SI!  And the other side says: DID YOU REMEMBER CLOTHES?    
+~
+11 e 0
+D0
+~
+~
+0 0 1174
+S
+#1174
+Sidewalk~
+   Once you enter the gates, skimpily dressed maids and manservants meet you to
+give out advice.  To your east is the storage and changing room.  Once you are
+ready to adventure, a path leads into the woods heading west.    
+~
+11 e 0
+D1
+~
+~
+0 0 1175
+D2
+~
+~
+0 0 1173
+D3
+~
+~
+0 0 1176
+S
+#1175
+Storage/Changing Rooms~
+   Eeek, it's time to remove your clothes!  To rent a locker, buy the key and
+unlock it.  First take off all clothing and equipment excluding jewelry, and
+place it in your locker.  Then pull out the robe and flip-flops and put them on
+for now.  The sandals will protect your feet, and the robe will protect your
+ego until you are comfortable here.  You also get a complimentary apartment
+with locker purchase!  Now head out west and have some fun!  Note: If you don't
+have the first locker shown, then you have to type open 2.  Locker or 3.  
+Locker etc, depending on what number in the list your locker is!    
+~
+11 0 0
+D3
+~
+~
+0 0 1174
+S
+#1176
+Sidewalk~
+   Ahh, how good it is to be back to nature.  This club bases their resort on
+the needs of members, therefore all the different areas are divided into
+themes.  They branch off a little farther along the path.    
+~
+11 e 0
+D1
+~
+~
+0 0 1174
+D3
+~
+~
+0 0 1177
+S
+#1177
+Sidewalk~
+   This is the first clearing in the path that branches off.  To the north,
+there seems to be a city, skyscrapers and all!  It closely resembles Los
+Angeles.  This is where club members live and work, and occasionally party!  
+
+~
+11 e 0
+D0
+~
+~
+0 0 1178
+D1
+~
+~
+0 0 1176
+D3
+~
+~
+0 0 1187
+S
+#1178
+Gamma City~
+   Wow, this really could pass for a normal city, because of all the careful
+planning involved.  The only difference is that nobody is wearing clothes!  
+People rush past you naked without even paying attention.  To the east is the
+main office building, and to the west is the apartment building everyone lives
+in.    
+~
+11 e 0
+D1
+~
+~
+0 0 1180
+D2
+~
+~
+0 0 1177
+D3
+~
+~
+0 0 1186
+S
+#1179
+GS Inc.~
+   Wow, all these people are so busy!  This must be what it's like to have one
+of those home offices where you can work in your pajamas..  A couple dozen
+people are all sitting at computers, typing and programming, and even testing
+games!  Not bad...    
+~
+11 e 0
+D3
+~
+~
+0 0 1178
+S
+#1180
+Si Place~
+   This is quite a lavish place!  Everyone who bought a locker has a
+corresponding apartment, just use the same key when you come to your number and
+enjoy!  To the north is Room 1, and to the south is Room 2.    
+~
+11 e 0
+D0
+~
+door~
+1 1129 1181
+D1
+~
+~
+0 0 1178
+D2
+~
+door~
+1 1131 1182
+D3
+~
+~
+0 0 1178
+S
+#1181
+Room 1~
+   This is your typical apartment, plain until personalized.  There is a queen
+size bed, a bathroom, a small tv, and a few shelves.  It would be just the
+place to keep your other belongings.    
+~
+11 e 0
+D2
+~
+door~
+1 1129 1180
+S
+#1182
+Room 2~
+   This is your typical apartment, plain until personalized.  There is a queen
+size bed, a bathroom, a small tv, and a few shelves.  It would be just the
+place to keep your belongings.    
+~
+11 e 0
+D0
+~
+door~
+1 1131 1180
+S
+#1183
+Room 3~
+   This is your typical apartment, plain until personalized.  There is a queen
+size bed, a bathroom, a small tv, and a few shelves.  It would be just the
+place to keep your belongings.    
+~
+11 e 0
+D2
+~
+door~
+1 1133 1186
+S
+#1184
+Room 4~
+   This is your typical apartment, plain until personalized.  There is a queen
+size bed, a bathroom, a small tv, and a few shelves.  It would be just the
+place to keep your belongings.    
+~
+11 e 0
+D0
+~
+door~
+1 1135 1186
+S
+#1185
+Room 5~
+   This is your typical apartment, plain until personalized.  There is a queen
+size bed, a bathroom, a small tv, and a few shelves.  It would be just the
+place to keep your belongings.    
+~
+11 e 0
+D1
+~
+door~
+1 1137 1186
+S
+#1186
+Hallway~
+   Ahh, short and sweet.  To the north is Room 3, to the south is Room 4, and
+off by itself to the west is Room 5.  Hope you like your new place.    
+~
+11 e 0
+D0
+~
+door~
+1 1133 1183
+D1
+~
+~
+0 0 1178
+D2
+~
+door~
+1 1135 1184
+D3
+~
+door~
+1 1137 1185
+S
+#1187
+Sidewalk~
+   This is the most trodden and noisiest part of the path.  Screams of laughter
+are coming from the branch to the south.  Off to the west the path yet
+continues.    
+~
+11 e 0
+D1
+~
+~
+0 0 1177
+D2
+~
+~
+0 0 1188
+D3
+~
+~
+0 0 1191
+S
+#1188
+Cool Pool!~
+   Brrrr..  That water is COLD!  Skinny dipping takes on a whole new effect
+when the pool is freezing.  Many people are just sitting around the edges
+talking.  Another pool is to the east.    
+~
+11 e 0
+D0
+~
+~
+0 0 1187
+D1
+~
+~
+0 0 1189
+S
+#1189
+Hot Spot~
+   Ahh, somehow this place is much more relaxing.  You seem to have wandered
+into a giant hot tub.  Lots of men and women are sitting here waiting for
+someone to talk to, and most of them resemble gods.    
+~
+11 e 0
+D1
+~
+~
+0 0 1190
+D3
+~
+~
+0 0 1188
+S
+#1190
+Mud Pool~
+   Whoa, kinky!  This is unlike anything you have ever seen before.  Think of
+the possibilities..  Several people just can't control their 'natural
+instincts', and are rolling around 'mud wrestling'.  A few of the women slather
+mud all over their bodies in hopes of a better complexion.    
+~
+11 e 0
+D3
+~
+~
+0 0 1189
+S
+#1191
+Sidewalk~
+   Only exciting things happen here, anything goes!  Forget all the rules and
+morals you ever learned and just have fun!  A steamy sauna is north and a beach
+party is west.    
+~
+11 e 0
+D0
+~
+~
+0 0 1192
+D1
+~
+~
+0 0 1187
+D3
+~
+~
+0 0 1195
+S
+#1192
+Sauna~
+   Ooh, steamy...  This place is incredibly warm, and everyone is glistening
+with sweat.  Various people lay sprawled across benches, dozing.  Further north
+the air is even steamier.  To the east are the showers.    
+~
+11 e 0
+D0
+~
+~
+0 0 1193
+D1
+~
+~
+0 0 1194
+D2
+~
+~
+0 0 1191
+S
+#1193
+Steamy Sauna~
+   So sexy!  Here is is soo hot you literally drip in sweat that quickly
+evaporates into more steam.  The air is so thick you can't really see, but odd
+noises let you know what people are up to here..  ;-)
+~
+11 e 0
+D2
+~
+~
+0 0 1192
+S
+#1194
+Showers ~
+   Cool relief feels soo good.  You are now in a large room, where water
+continuously sprinkles down from the ceiling.  Fragrant soaps and shampoos are
+on a shelf for anyone who may need them.    
+~
+11 e 0
+D3
+~
+~
+0 0 1192
+S
+#1195
+Beach Party~
+   Everyone here is hanging out and having a great time.  To the north and
+west, people are sunbathing, drinking, and playing sports.  To the south things
+are MUCH hotter, but you'll just have to find that out for yourself.    
+~
+11 e 0
+D0
+~
+~
+0 0 1198
+D1
+~
+~
+0 0 1191
+D2
+~
+~
+0 0 1199
+D3
+~
+~
+0 0 1196
+S
+#1196
+Volleyball Court~
+   At this small sand dune, everyone is playing a rough game of beach
+volleyball.  Sand is flying, and people are smiling.  To the north is a..  
+Well..  Something.    
+~
+11 e 0
+D0
+~
+~
+0 0 1197
+D1
+~
+~
+0 0 1195
+S
+#1197
+The Orgy Room~
+   Well duh, I think this one kind of explains itself.  People are lying on the
+ground well..  You know...  Guys, girls..  Just anyone who wants to have some
+fun...  :-)
+~
+11 e 0
+D1
+~
+~
+0 0 1198
+D2
+~
+~
+0 0 1196
+S
+#1198
+Sandy Beach~
+   Here, rows and rows of towels are scattered in the sand.  Most are occupied
+by men and ladies roasting their skin to a beautiful golden brown.    
+~
+11 e 0
+D2
+~
+~
+0 0 1195
+D3
+~
+~
+0 0 1197
+S
+#1199
+Stage~
+   Whoa!  Too hot to handle!  You've run into a party of exotic dancers
+strutting their stuff.  The ladies are all over the guys, and vice versa.  If
+you are brave enough, maybe you can dance too.  ;-)
+~
+11 e 0
+D0
+~
+~
+0 0 1195
+S
+$~

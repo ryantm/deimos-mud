@@ -1,0 +1,389 @@
+#2100
+Rat~
+a rat~
+A rat sits here, looking pretty vicious.
+~
+This small rat looks pretty harmless.
+~
+1802 0 -50 E
+5 19 8 5d5+25 2d2+1
+1250 20000
+12 12 0
+BareHandAttack: 4
+E
+#2101
+Evil Guard~
+the Evil Guard~
+The Evil Guard is Busy
+~
+He looks Evil 
+~
+254042 0 -1000 E
+12 17 6 12d12+144 6d6+3
+7200 96000
+12 12 1
+BareHandAttack: 9
+E
+#2102
+Mutated servant~
+the mutated servant~
+A mutated servant stands here, making a strange sucking noise. 
+~
+This servant has a third arm, and and extra head with one eye, not pretty.
+~
+10 0 -50 E
+4 19 8 4d4+16 2d2+1
+800 16000
+12 12 1
+E
+#2103
+Gardener~
+the gardener~
+A gardener is crouching here, looking at the plants.
+~
+   The gardener looks old and weary from the toils of the upkeep of such a
+large garden.  She looks like she has been gardening so long that she her
+thumbs have turned green.    
+~
+10 0 100 E
+5 19 8 5d5+25 2d2+1
+1250 20000
+12 12 2
+E
+#2104
+Disco Stu~
+Disco Stu~
+Disco Stu stands, er, disco's here.
+~
+Disco Stu wears a nice white disco suit while he discos the night away.
+~
+72 0 200 E
+5 19 8 5d5+25 2d2+1
+1250 20000
+12 12 1
+E
+#2105
+mob unfinished~
+the unfinished mob~
+An unfinished mob stands here.
+~
+It looks unfinished.
+~
+8 0 0 E
+0 20 10 1d1+0 1d1+0
+0 0
+12 12 0
+E
+#2106
+Scrooge~
+Scrooge~
+Scrooge stands here, mumbling something about how everyone is stupid.
+~
+Scrooge looks very rude, and upset.
+~
+72 0 -25 E
+15 17 5 15d15+225 7d7+3
+11250 78750
+12 12 1
+E
+#2107
+Big Bob~
+Big Bob~
+Big Bob stands here, trying to sell you some parsley.
+~
+   Big Bob always seems to be saying how combining a vial of clear water and a
+clove of parsley can make a very fresh parsley quaff.    
+~
+72 0 100 E
+5 19 8 5d5+25 2d2+1
+1250 20000
+12 12 1
+E
+#2108
+Village Idiot~
+the Village Idiot~
+The Village Idiot stands on his head here.
+~
+   Wow, there's not much to see.  He has some underwear on his head and two
+hats on his feat...  Wierd.    
+~
+72 0 0 E
+6 19 8 6d6+36 3d3+1
+1800 24000
+12 12 1
+E
+#2109
+Polic Chief Mike~
+Police Chief Mike~
+Police Chief Mike stands here, watching for crime at every turn.
+~
+   He is the fatest policeman you have ever seen!  Thats probably because he
+never gets out and only eats dounuts and drinks coffee.  He is yelling at
+Louis.    
+~
+330 0 500 E
+8 18 7 8d8+64 4d4+2
+3200 32000
+12 12 1
+E
+#2110
+Policeman~
+the policeman~
+A policeman stands here, watching for evil doers.
+~
+   The policeman is very alert and is always looking for criminals.  He eyes
+you suspiciously as he scans the village for any signs of trouble.    
+~
+328 0 150 E
+6 19 8 6d6+36 3d3+1
+1800 24000
+12 12 1
+E
+#2111
+Policewoman~
+the policewoman~
+A policewoman stands here, watching for criminals.
+~
+   The policewoman is very alert and is always looking for criminals.  She eyes
+you suspiciously as she scans the village for any signs of trouble.    
+~
+328 0 150 E
+6 19 8 6d6+36 3d3+1
+1800 24000
+12 12 2
+E
+#2112
+Lieutenant Louis~
+Lieutenant Louis~
+Lieutenant Louis sits here, assisting the Chief.
+~
+   Lieutenant Louis the Chief's faithful assistant is eternally doomed to get
+coffee for his boss untill the boss either keels over or is transfered.    
+~
+330 0 180 E
+7 19 7 7d7+49 3d3+1
+2450 28000
+12 12 1
+E
+#2113
+The Azure Knight~
+the Azure Knight~
+The Azure Knight stands here, striking fear into the hearts of all.
+~
+   As the Knight stands there, rage seems to flow through him like water,
+always tormenting him.  His armor glows with a dull light, as if heated to an
+extreme temperature.  His gaze freezes anything it touches in fear.    
+~
+8234 128 0 E
+35 12 0 35d35+1225 17d17+8
+61250 1120000
+12 12 1
+BareHandAttack: 3
+E
+#2114
+Mindless Drone~
+the mindless drone~
+A mindless Drone stands here, staring off into space.
+~
+It's eyes seems glazed over, and it seems to stare through you, not at you. 
+~
+8 0 0 E
+15 17 5 15d15+225 7d7+3
+11250 120000
+12 12 0
+E
+#2115
+Treasury guard~
+the treasury guard~
+One of the Treasury guards stand here, watching over the kings gold
+~
+   The treasury guard is always alert and looks through all the gold to make
+sure none is missing.  He looks like he knows every item in the treasury by
+heart and would know if anything was missing.    
+~
+10250 0 100 E
+10 18 7 10d10+100 5d5+2
+5000 80000
+12 12 1
+E
+#2116
+King Richard~
+King Richard~
+King Richard stands here, surveying his kingdom.
+~
+   The king has a beautiful robe on, and he has jewels coming out the wazzoo.
+  
+~
+10250 128 500 E
+30 13 1 30d30+900 15d15+7
+45000 960000
+12 12 1
+BareHandAttack: 13
+E
+T 1398
+#2117
+Queen Elizabeth~
+Queen Elizabeth~
+Queen Elizabeth stands here, looking very elagant.
+~
+   The Queen is in a long flowing gown, complete with a beautiful crown that
+sits atop her head.    
+~
+8202 128 500 E
+28 13 1 28d28+784 14d14+7
+39200 560000
+12 12 2
+BareHandAttack: 8
+E
+#2118
+Prince Bobby~
+Prince Bobby~
+Prince Bobby stands here, trying to seem very tough.
+~
+   With his big floppy hat, the prince looks a bit like a clown, but don't say
+that to his face.    
+~
+8202 128 450 E
+25 14 2 25d25+625 12d12+6
+31250 500000
+12 12 1
+E
+#2119
+Princess Lolita~
+Princess Lolita~
+Princess Lolita stands here, seeming very dainty.
+~
+   The Princess is a very pretty young girl, and with all of her jewels, she
+seems to shine.    
+~
+8202 128 450 E
+28 13 1 28d28+784 14d14+7
+39200 560000
+12 12 2
+E
+#2120
+Slime ball~
+the slime ball~
+A slime ball is here, quite disgusting
+~
+   The Slime is icky and yucky and bad and EWWW I think you got some on your
+hand!    
+~
+42 0 -100 E
+2 20 9 2d2+4 1d1+0
+200 8000
+12 12 0
+E
+#2121
+Tiny bird~
+the tiny bird~
+A tiny bird is hopping around.
+~
+   It is a small fragile bird.  It hops around on the ground and looks as if it
+can't fly.  Poor thing.    
+~
+8 0 0 E
+2 20 9 2d2+4 1d1+0
+200 8000
+12 12 0
+E
+#2122
+Constipated servant~
+the constipated servant~
+A constipated servant is here, looking as if he is about explode.
+~
+   He looks like he is in an extreme amount of pain.  You better leave him
+alone before he explodes.    
+~
+10 0 50 E
+10 18 7 10d10+100 5d5+2
+5000 80000
+12 12 1
+E
+#2123
+Head servant~
+the head servant~
+The head servant stands here, ready to bark orders to his subordinates
+~
+   The head servant looks extremely mutated.  He barely looks human except for
+the for heads coming out of his shoulders.  He looks very angry at the other
+servants.    
+~
+8202 0 -100 E
+15 17 5 15d15+225 7d7+3
+11250 120000
+12 12 1
+E
+#2124
+Forest goblin~
+the forest goblin~
+A forest goblin stands here.
+~
+   The Goblin looks very devious and also well armed.  He is short and green
+and looks very repulsive.  There is a black wart on his nose and he has very
+black eyes.    
+~
+40 0 -100 E
+6 19 8 6d6+36 3d3+1
+1800 24000
+12 12 0
+E
+#2136
+Evil Baker~
+the Evil Baker~
+The Evil Baker stands there playing with himself
+~
+It looks unfinished.
+ He looks evily happy
+~
+8 0 -1000 E
+100 -10 10 1d1+0 30d1+30
+0 0
+12 12 1
+BareHandAttack: 9
+E
+#2140
+Boyt~
+Boyt~
+Boyt, the criminal henchman, stands here, looking particularly mean.
+~
+   Boyt the evil criminal henchman stands here.  He looks VERY dumb and does
+not look like he could tie his own shoes.  He follow Mrs.  BIG around and does
+whatever she says.    
+~
+10 0 -50 E
+3 20 9 3d3+9 1d1+0
+450 12000
+12 12 1
+BareHandAttack: 14
+E
+#2141
+Mrs. BIG~
+Mrs. BIG~
+Mrs. BIG, the crime boss, is standing here, looking very cunning.
+~
+   It is Mrs.  BIG, largest crime lord of the forest.  She is tough and really
+mean.  She looks like she'd kill her own mother for a gold coin.    
+~
+10 0 -100 E
+15 17 5 15d15+225 7d7+3
+11250 78750
+12 12 2
+BareHandAttack: 11
+E
+#2142
+Rupoyt~
+Rupoyt~
+Rupoyt , the crime lackey, stands here, looking kind of innocent.
+~
+   Rupoyt is not that bad of a guy, he was forced into this dastardly plot by
+Mrs.  BIG.  If givin the chance he would probably run away and live an honest
+life.    
+~
+10 0 -75 E
+7 19 7 7d7+49 3d3+1
+2450 28000
+12 12 1
+BareHandAttack: 13
+E
+$

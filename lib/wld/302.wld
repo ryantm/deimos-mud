@@ -1,0 +1,1821 @@
+#30200
+&gThe &MGuild &gHall&n~
+   The guild hall is an extremely large hallway that connects all of the guilds
+of the Zyrian Empire into one massive building.  Bright lights hang on the
+ceiling while their reflections can be seen on the polished black, marble
+floor.  On the walls, small lamps can be seen, dimly lighting the hallway.
+Like the floor, the walls are made of black marble.  Small signs can be seen in
+front of the entrance to each of the guilds, labeling each guild respectively.
+~
+302 0 0
+D0
+~
+~
+0 0 30186
+D1
+~
+~
+0 0 30201
+D3
+~
+~
+0 0 30199
+S
+#30201
+&GA &bSmall &GWing&n~
+You are in an unfinished room.
+~
+302 0 0
+D1
+~
+~
+0 0 30202
+D3
+~
+~
+0 0 30200
+S
+#30202
+&GA &bSmall &GWing&n~
+You are in an unfinished room.
+~
+302 0 0
+D1
+~
+~
+0 0 30203
+D3
+~
+~
+0 0 30201
+S
+#30203
+&rThe &DImmortals &rGuild&n~
+You are in an unfinished room.
+~
+302 0 0
+D1
+~
+~
+0 0 30204
+D2
+~
+~
+0 0 30206
+D3
+~
+~
+0 0 30202
+S
+#30204
+&rThe &DImmortals &rGuild&n~
+You are in an unfinished room.
+~
+302 0 0
+D2
+~
+~
+0 0 30205
+D3
+~
+~
+0 0 30203
+S
+#30205
+&rThe &DImmortals &rGuild&n~
+You are in an unfinished room.
+~
+302 0 0
+D0
+~
+~
+0 0 30204
+D3
+~
+~
+0 0 30206
+S
+#30206
+&rThe &DImmortals &rGuild&n~
+You are in an unfinished room.
+~
+302 0 0
+D0
+~
+~
+0 0 30203
+D1
+~
+~
+0 0 30205
+S
+#30207
+&GNorthern Entrance to The Inn&n~
+   Two large sheets of glass in a black metal frame make up the doors to North
+Zyria's inn.  Large windows at the front of the inn reveal the indoors of the
+building.  Large exotic plants grow in front of the windows and next to the
+wide sidewalk.  The air smells very clean and fresh.    
+~
+302 d 0
+D1
+~
+~
+0 0 30210
+D3
+~
+~
+0 0 30017
+S
+#30208
+&GThe &YHotel &GRoom&n~
+   The room is of an average size.  A few neat beds can be seen along with
+small tables next to each.  A fan hangs on the ceiling while a few fancy lambs
+can be seen on top of varioius furniture.  The bright blue carpet seems to go
+well with the gray walls.    
+~
+302 d 0
+D2
+~
+~
+0 0 30209
+S
+#30209
+&GThe &YSide &GHall&n~
+   The side hallway is fairly small compaired to the front hallway.  Though it
+really is not a true hallway, but more of a simple walkway.  A few of the hotel
+room doors can be seen from this hallway.    
+~
+302 d 0
+D0
+~
+~
+0 0 30208
+D1
+~
+~
+0 0 30217
+D2
+~
+~
+0 0 30210
+S
+#30210
+&GThe &YFront &GHall&n~
+   The front hall of the inn is the long hallway that is basically at the front
+of the inn.  The western side of the hall consists of large windows which
+reveal what is going on outside the front of the inn.  From this hallway, the
+majority of the eastern portion of the district can be seen.  Even the water
+shooting from the great fountain can be seen from this hallway.    
+~
+302 d 0
+D0
+~
+~
+0 0 30209
+D1
+~
+~
+0 0 30218
+D2
+~
+~
+0 0 30211
+D3
+~
+~
+0 0 30207
+S
+#30211
+&GThe &YFront &GHall&n~
+   The front hall of the inn is the long hallway that is basically at the front
+of the inn.  The western side of the hall consists of large windows which
+reveal what is going on outside the front of the inn.  From this hallway, the
+majority of the eastern portion of the district can be seen.  Even the water
+shooting from the great fountain can be seen from this hallway.    
+~
+302 d 0
+D0
+~
+~
+0 0 30210
+D2
+~
+~
+0 0 30212
+S
+#30212
+&GThe &YFront &GHall&n~
+   The front hall of the inn is the long hallway that is basically at the front
+of the inn.  The western side of the hall consists of large windows which
+reveal what is going on outside the front of the inn.  From this hallway, the
+majority of the eastern portion of the district can be seen.  Even the water
+shooting from the great fountain can be seen from this hallway.    
+~
+302 d 0
+D0
+~
+~
+0 0 30211
+D1
+~
+~
+0 0 30219
+D2
+~
+~
+0 0 30213
+S
+#30213
+&GThe &YFront &GHall&n~
+   The front hall of the inn is the long hallway that is basically at the front
+of the inn.  The western side of the hall consists of large windows which
+reveal what is going on outside the front of the inn.  From this hallway, the
+majority of the eastern portion of the district can be seen.  Even the water
+shooting from the great fountain can be seen from this hallway.    
+~
+302 d 0
+D0
+~
+~
+0 0 30212
+D2
+~
+~
+0 0 30214
+S
+#30214
+&GThe &YFront &GHall&n~
+   The front hall of the inn is the long hallway that is basically at the front
+of the inn.  The western side of the hall consists of large windows which
+reveal what is going on outside the front of the inn.  From this hallway, the
+majority of the eastern portion of the district can be seen.  Even the water
+shooting from the great fountain can be seen from this hallway.    
+~
+302 d 0
+D0
+~
+~
+0 0 30213
+D1
+~
+~
+0 0 30220
+D2
+~
+~
+0 0 30215
+D3
+~
+~
+0 0 30235
+S
+#30215
+&GThe &YSide &GHall&n~
+   The side hallway is fairly small compaired to the front hallway.  Though it
+really is not a true hallway, but more of a simple walkway.  A few of the hotel
+room doors can be seen from this hallway.    
+~
+302 d 0
+D0
+~
+~
+0 0 30214
+D1
+~
+~
+0 0 30221
+D2
+~
+~
+0 0 30216
+S
+#30216
+&GThe &YHotel &GRoom&n~
+   The room is of an average size.  A few neat beds can be seen along with
+small tables next to each.  A fan hangs on the ceiling while a few fancy lambs
+can be seen on top of varioius furniture.  The bright blue carpet seems to go
+well with the gray walls.    
+~
+302 d 0
+D0
+~
+~
+0 0 30215
+S
+#30217
+&GThe &YSide &GHall&n~
+   The side hallway is fairly small compaired to the front hallway.  Though it
+really is not a true hallway, but more of a simple walkway.  A few of the hotel
+room doors can be seen from this hallway.    
+~
+302 d 0
+D1
+~
+~
+0 0 30223
+D2
+~
+~
+0 0 30218
+D3
+~
+~
+0 0 30209
+S
+#30218
+&GThe &YSmall &GLobby&n~
+   The lobby is very small and is only filled with a few small chairs and
+tables.  A large assortment of magazines can be seen on a rack.  The carpet is
+of a bright blue color while the walls are covered in a gray paint that seems
+to go well with the carpet.    
+~
+302 d 0
+D0
+~
+~
+0 0 30217
+D1
+~
+~
+0 0 30224
+D3
+~
+~
+0 0 30210
+S
+#30219
+&GThe &YFront &GDesk&n~
+   The front desk is very large and is made from wood.  It has been furnished
+and polished to perfection.  Upon the desk lies a phone, a bunch of papers, a
+pen as well as a few other items.  Hanging on the gray wall behind the desk is
+a large clock.    
+~
+302 d 0
+D3
+~
+~
+0 0 30212
+S
+#30220
+&GThe &YSmall &GLobby&n~
+   The lobby is very small and is only filled with a few small chairs and
+tables.  A large assortment of magazines can be seen on a rack.  The carpet is
+of a bright blue color while the walls are covered in a gray paint that seems
+to go well with the carpet.    
+~
+302 d 0
+D1
+~
+~
+0 0 30228
+D2
+~
+~
+0 0 30221
+D3
+~
+~
+0 0 30214
+S
+#30221
+&GThe &YSide &GHall&n~
+   The side hallway is fairly small compaired to the front hallway.  Though it
+really is not a true hallway, but more of a simple walkway.  A few of the hotel
+room doors can be seen from this hallway.    
+~
+302 d 0
+D0
+~
+~
+0 0 30220
+D1
+~
+~
+0 0 30229
+D3
+~
+~
+0 0 30215
+S
+#30222
+&GThe &YHotel &GRoom&n~
+   The room is of an average size.  A few neat beds can be seen along with
+small tables next to each.  A fan hangs on the ceiling while a few fancy lambs
+can be seen on top of varioius furniture.  The bright blue carpet seems to go
+well with the gray walls.    
+~
+302 d 0
+D2
+~
+~
+0 0 30223
+S
+#30223
+&GThe &YSide &GHall&n~
+   The side hallway is fairly small compaired to the front hallway.  Though it
+really is not a true hallway, but more of a simple walkway.  A few of the hotel
+room doors can be seen from this hallway.    
+~
+302 d 0
+D0
+~
+~
+0 0 30222
+D1
+~
+~
+0 0 30231
+D2
+~
+~
+0 0 30224
+D3
+~
+~
+0 0 30217
+S
+#30224
+&GThe &YBack &GHall&n~
+   The small size of the back hallway is as long as the front hallway.  The
+bright blue carpet seems to go well with the gray walls.  Large lamps aluminate
+the hallways of the inn, especially this particular hallway since it lacks any
+windows.  A bunch of hotel rooms are connected to this hallway.    
+~
+302 d 0
+D0
+~
+~
+0 0 30223
+D2
+~
+~
+0 0 30225
+D3
+~
+~
+0 0 30218
+S
+#30225
+&GThe &YBack &GHall&n~
+   The small size of the back hallway is as long as the front hallway.  The
+bright blue carpet seems to go well with the gray walls.  Large lamps aluminate
+the hallways of the inn, especially this particular hallway since it lacks any
+windows.  A bunch of hotel rooms are connected to this hallway.    
+~
+302 d 0
+D0
+~
+~
+0 0 30224
+D1
+~
+~
+0 0 30232
+D2
+~
+~
+0 0 30226
+S
+#30226
+&GThe &YBack &GHall&n~
+   The small size of the back hallway is as long as the front hallway.  The
+bright blue carpet seems to go well with the gray walls.  Large lamps aluminate
+the hallways of the inn, especially this particular hallway since it lacks any
+windows.  A bunch of hotel rooms are connected to this hallway.    
+~
+302 d 0
+D0
+~
+~
+0 0 30225
+D2
+~
+~
+0 0 30227
+S
+#30227
+&GThe &YBack &GHall&n~
+   The small size of the back hallway is as long as the front hallway.  The
+bright blue carpet seems to go well with the gray walls.  Large lamps aluminate
+the hallways of the inn, especially this particular hallway since it lacks any
+windows.  A bunch of hotel rooms are connected to this hallway.    
+~
+302 d 0
+D0
+~
+~
+0 0 30226
+D1
+~
+~
+0 0 30233
+D2
+~
+~
+0 0 30228
+S
+#30228
+&GThe &YBack &GHall&n~
+   The small size of the back hallway is as long as the front hallway.  The
+bright blue carpet seems to go well with the gray walls.  Large lamps aluminate
+the hallways of the inn, especially this particular hallway since it lacks any
+windows.  A bunch of hotel rooms are connected to this hallway.    
+~
+302 d 0
+D0
+~
+~
+0 0 30227
+D2
+~
+~
+0 0 30229
+D3
+~
+~
+0 0 30220
+S
+#30229
+&GThe &YSide &GHall&n~
+   The side hallway is fairly small compaired to the front hallway.  Though it
+really is not a true hallway, but more of a simple walkway.  A few of the hotel
+room doors can be seen from this hallway.    
+~
+302 d 0
+D0
+~
+~
+0 0 30228
+D1
+~
+~
+0 0 30234
+D2
+~
+~
+0 0 30230
+D3
+~
+~
+0 0 30221
+S
+#30230
+&GThe &YHotel &GRoom&n~
+   The room is of an average size.  A few neat beds can be seen along with
+small tables next to each.  A fan hangs on the ceiling while a few fancy lambs
+can be seen on top of varioius furniture.  The bright blue carpet seems to go
+well with the gray walls.    
+~
+302 d 0
+D0
+~
+~
+0 0 30229
+S
+#30231
+&GThe &YHotel &GRoom&n~
+   The room is of an average size.  A few neat beds can be seen along with
+small tables next to each.  A fan hangs on the ceiling while a few fancy lambs
+can be seen on top of varioius furniture.  The bright blue carpet seems to go
+well with the gray walls.    
+~
+302 d 0
+D3
+~
+~
+0 0 30223
+S
+#30232
+&GThe &YHotel &GRoom&n~
+   The room is of an average size.  A few neat beds can be seen along with
+small tables next to each.  A fan hangs on the ceiling while a few fancy lambs
+can be seen on top of varioius furniture.  The bright blue carpet seems to go
+well with the gray walls.    
+~
+302 d 0
+D3
+~
+~
+0 0 30225
+S
+#30233
+&GThe &YHotel &GRoom&n~
+   The room is of an average size.  A few neat beds can be seen along with
+small tables next to each.  A fan hangs on the ceiling while a few fancy lambs
+can be seen on top of varioius furniture.  The bright blue carpet seems to go
+well with the gray walls.    
+~
+302 d 0
+D3
+~
+~
+0 0 30227
+S
+#30234
+&GThe &YHotel &GRoom&n~
+   The room is of an average size.  A few neat beds can be seen along with
+small tables next to each.  A fan hangs on the ceiling while a few fancy lambs
+can be seen on top of varioius furniture.  The bright blue carpet seems to go
+well with the gray walls.    
+~
+302 d 0
+D3
+~
+~
+0 0 30229
+S
+#30235
+&GSouthern Entrance to The Inn&n~
+   Two large sheets of glass in a black metal frame make up the doors to North
+Zyria's inn.  Large windows at the front of the inn reveal the indoors of the
+building.  Large exotic plants grow in front of the windows and next to the
+wide sidewalk.  The air smells very clean and fresh.    
+~
+302 d 0
+D1
+~
+~
+0 0 30214
+D3
+~
+~
+0 0 30023
+S
+#30236
+&bThe &REntrance &bto the &RMarket &bBuilding&n~
+   Two large steel doors with large sheets of glass at the center of each form
+an entrance to the building.  On the doors lies a small sign that lists the
+four stores that lie within the building.  The ground is a bricked sidewalk
+with large patches of grass on either side.  A long light hangs above to
+aluminate the entrance at night.    
+~
+302 d 0
+D0
+~
+~
+0 0 30027
+D2
+~
+~
+0 0 30238
+E
+sign~
+
+- The Weapon Shop
+- The Armor Shop
+- The Food Shop
+- The Accessory Shop
+~
+S
+#30237
+&bThe &DWeapon &bShop&n~
+   The shop is very large.  Countless shelves hang upon the walls, each filled
+with different weapons.  Swords, lances and maces.  These are just a few of the
+weapons available here.  The floor is made of a solidn metallic substance while
+the walls are made of concrete.  A large green rug lies on the floor, covered
+in small particles.  At the back of the store, a large desk with a cash
+register can be seen.  A large light hangs above you.    
+~
+302 d 0
+D1
+~
+~
+0 0 30238
+D2
+~
+~
+0 0 30240
+S
+#30238
+&bThe &RMarket &bHall&n~
+   The hall is quite short.  It's only purpose is to connect a few shops.  The
+building itself acts like a very small mall.  On the floor is a long black
+carpet while the walls are painted with a very dark blue.  A long light hangs
+upon the wall, extending from this end of the hall to the other.  Four doors
+can be seen on his short hall, each leading to a different shop.    
+~
+302 d 0
+D0
+~
+~
+0 0 30236
+D1
+~
+~
+0 0 30239
+D2
+~
+~
+0 0 30241
+D3
+~
+~
+0 0 30237
+S
+#30239
+&bThe &GFood &bShop&n~
+   The large store has a large amount of freezers and shelves filled with all
+kinds of foods.  Because of the large assortment of food, this particular shop
+of North Zyria is one of the most colorful places in town.  The floor is made
+of wood to give the shop a more old fashioned feel to it while the walls, or at
+least aren't covered by shelves and such, consider of wood as well.  A large
+counter can be seen near the front of the store.  On in lies a register as well
+as an assortment of various small items for sale.    
+~
+302 d 0
+D2
+~
+~
+0 0 30242
+D3
+~
+~
+0 0 30238
+S
+#30240
+&bThe &DArmor &bShop&n~
+   A large circular red rug lies on the floor.  A large picture of a shield
+lies at the center of the rug.  On the ceiling directly above the rug, a large
+light glows brightly, aluminating the room.  Numerous shelves outline the room,
+each filled with different types of armor from all over the world.  A large
+desk can be seen in the back of the room with a cash register upon it.    
+~
+302 d 0
+D0
+~
+~
+0 0 30237
+D1
+~
+~
+0 0 30241
+S
+#30241
+&bThe &RMarket &bHall&n~
+   The hall is quite short.  It's only purpose is to connect a few shops.  The
+building itself acts like a very small mall.  On the floor is a long black
+carpet while the walls are painted with a very dark blue.  A long light hangs
+upon the wall, extending from this end of the hall to the other.  Four doors
+can be seen on his short hall, each leading to a different shop.    
+~
+302 d 0
+D0
+~
+~
+0 0 30238
+D1
+~
+~
+0 0 30242
+D3
+~
+~
+0 0 30240
+S
+#30242
+&bThe &GAccessory &bShop&n~
+   All types of different accessories like on numerous shelves, many of which
+are contrasting each other in color.  Because of this, the store has a unique
+look to it.  In fact, a large rainbow-colored mat lies before the check-out
+desk near the back of the room.  A small cash register lies upon the desk as
+well as a large slot for donating various items to the citadel of South Zyria.
+A large light hangs from above, bringing light into the store.    
+~
+302 d 0
+D0
+~
+~
+0 0 30239
+D3
+~
+~
+0 0 30241
+S
+#30243
+&DThe &CGuild Bar &DEntrance&n~
+   The entrance to the bar has two wooden doors similar to that seen in old
+western movies.  As guests walk through them, they flap open and close behind
+the guest.  Like the doors, the floor is also made of wood.  In fact, a lot of
+the bar is made of wood for a more old style touch.  In the easterna and
+western portions of the bar, tables and chairs are scattered about.  At the bar
+of the bar, a long table and stools in front of it resides.  Behind it lies a
+long set of shelves holding hundreds of different types of drinks.  This is a
+very lively place.    
+~
+302 d 0
+D0
+~
+~
+0 0 30033
+D2
+~
+~
+0 0 30245
+S
+#30244
+&DSome &YCrouded &DTables&n~
+   This part of the bar is covered with tables and chairs.  People constantly
+sit upon and get off these chairs all day and night.  It is amazing how many
+people can be in this part of the bar.  Some have been here for hours.  You can
+hear nothing more than the conjoined chatter of conversation.  Dim lights can
+be seen scattered across the ceiling while a few fans blow hard to cool down
+the lively place.    
+~
+302 d 0
+D1
+~
+~
+0 0 30245
+D2
+~
+~
+0 0 30247
+S
+#30245
+&DThe &YOpen &DFloor&n~
+   People move across this part of the bar nonstop.  Some even stand and talk,
+refusing to buy a drink.  The air is hot and humid due to the liveliness of the
+surroundings.  Large fans can be seen near the back of the bar while dim lights
+are scattered across the ceiling.  People can be seen in all directions,
+sitting down or standing up.  Either way, they're having conversations that
+fill the bar with noise.    
+~
+302 d 0
+D0
+~
+~
+0 0 30243
+D1
+~
+~
+0 0 30246
+D2
+~
+~
+0 0 30248
+D3
+~
+~
+0 0 30244
+S
+#30246
+&DSome &YCrouded &DTables&n~
+   This part of the bar is covered with tables and chairs.  People constantly
+sit upon and get off these chairs all day and night.  It is amazing how many
+people can be in this part of the bar.  Some have been here for hours.  You can
+hear nothing more than the conjoined chatter of conversation.  Dim lights can
+be seen scattered across the ceiling while a few fans blow hard to cool down
+the lively place.    
+~
+302 d 0
+D2
+~
+~
+0 0 30249
+D3
+~
+~
+0 0 30245
+S
+#30247
+&CBefore &Dthe &CBar&n~
+   Alcohol is no stranger at this end of the bar.  The back wall is covered
+with hundreds of different types of drink mixes from all over the world.  Most
+of the glasses visible are full, and those that aren't have either been
+finished or are about to be filled.  A long dim light stretches from either
+side of the bar, lighting the living area.  Along with the alcohol, the
+constant clatter of voices fills the air as well.    
+~
+302 d 0
+D0
+~
+~
+0 0 30244
+D1
+~
+~
+0 0 30248
+S
+#30248
+&CBefore &Dthe &CBar&n~
+   Alcohol is no stranger at this end of the bar.  The back wall is covered
+with hundreds of different types of drink mixes from all over the world.  Most
+of the glasses visible are full, and those that aren't have either been
+finished or are about to be filled.  A long dim light stretches from either
+side of the bar, lighting the living area.  Along with the alcohol, the
+constant clatter of voices fills the air as well.    
+~
+302 d 0
+D0
+~
+~
+0 0 30245
+D1
+~
+~
+0 0 30249
+D3
+~
+~
+0 0 30247
+S
+#30249
+&CBefore &Dthe &CBar&n~
+   Alcohol is no stranger at this end of the bar.  The back wall is covered
+with hundreds of different types of drink mixes from all over the world.  Most
+of the glasses visible are full, and those that aren't have either been
+finished or are about to be filled.  A long dim light stretches from either
+side of the bar, lighting the living area.  Along with the alcohol, the
+constant clatter of voices fills the air as well.    
+~
+302 d 0
+D0
+~
+~
+0 0 30246
+D3
+~
+~
+0 0 30248
+S
+#30250
+&rNorth &DZyria &rRoad&n~
+   North Zyria's road is a beautiful road that is made up of grey bricks that
+can also be found within the main town area.  At the edges of the path, a lot
+of green can be seen.  The grass grows high, but it does not lean over the
+road.  Small trees and bushes can be seen scattered around the area.  The air
+is quite cool, but still very comfortable.    
+~
+302 0 0
+D0
+~
+~
+0 0 30029
+D2
+~
+~
+0 0 30251
+S
+#30251
+&rNorth &DZyria &rRoad&n~
+   Green grass can be seen on the edges of North Zyria's road, which is made up
+of gray bricks.  Although the grass isn't cut often, it does not lean over the
+road.  Small trees and bushes accompany the grass as the air feels cool.    
+~
+302 0 0
+D0
+~
+~
+0 0 30250
+D2
+~
+~
+0 0 30252
+S
+#30252
+&rNorth &DZyria &rRoad&n~
+   North Zyria's road is a beautiful road that is made up of grey bricks that
+can also be found within the main town area.  At the edges of the path, a lot
+of green can be seen.  The grass grows high, but it does not lean over the
+road.  Small trees and bushes can be seen scattered around the area.  The air
+is quite cool, but still very comfortable.    
+~
+302 0 0
+D0
+~
+~
+0 0 30251
+D2
+~
+~
+0 0 30253
+S
+#30253
+&rNorth &DZyria &rRoad&n~
+   Green grass can be seen on the edges of North Zyria's road, which is made up
+of gray bricks.  Although the grass isn't cut often, it does not lean over the
+road.  Small trees and bushes accompany the grass as the air feels cool.    
+~
+302 0 0
+D0
+~
+~
+0 0 30252
+D2
+~
+~
+0 0 30254
+S
+#30254
+&rNorth &DZyria &rRoad&n~
+   North Zyria's road is a beautiful road that is made up of grey bricks that
+can also be found within the main town area.  At the edges of the path, a lot
+of green can be seen.  The grass grows high, but it does not lean over the
+road.  Small trees and bushes can be seen scattered around the area.  The air
+is quite cool, but still very comfortable.    
+~
+302 0 0
+D0
+~
+~
+0 0 30253
+D2
+~
+~
+0 0 30255
+S
+#30255
+&rNorth &DZyria &rRoad&n~
+   Green grass can be seen on the edges of North Zyria's road, which is made up
+of gray bricks.  Although the grass isn't cut often, it does not lean over the
+road.  Small trees and bushes accompany the grass as the air feels cool.    
+~
+302 0 0
+D0
+~
+~
+0 0 30254
+D2
+~
+~
+0 0 30256
+S
+#30256
+&rNorth &DZyria &rRoad&n~
+   North Zyria's road is a beautiful road that is made up of grey bricks that
+can also be found within the main town area.  At the edges of the path, a lot
+of green can be seen.  The grass grows high, but it does not lean over the
+road.  Small trees and bushes can be seen scattered around the area.  The air
+is quite cool, but still very comfortable.    
+~
+302 0 0
+D0
+~
+~
+0 0 30255
+D2
+~
+~
+0 0 30257
+S
+#30257
+&rNorth &DZyria &rRoad&n~
+   Green grass can be seen on the edges of North Zyria's road, which is made up
+of gray bricks.  Although the grass isn't cut often, it does not lean over the
+road.  Small trees and bushes accompany the grass as the air feels cool.    
+~
+302 0 0
+D0
+~
+~
+0 0 30256
+D2
+~
+~
+0 0 30258
+S
+#30258
+&rNorth &DZyria &rRoad&n~
+   North Zyria's road is a beautiful road that is made up of grey bricks that
+can also be found within the main town area.  At the edges of the path, a lot
+of green can be seen.  The grass grows high, but it does not lean over the
+road.  Small trees and bushes can be seen scattered around the area.  The air
+is quite cool, but still very comfortable.    
+~
+302 0 0
+D0
+~
+~
+0 0 30257
+D2
+~
+~
+0 0 30259
+S
+#30259
+&rNorth &DZyria &rRoad&n~
+   Green grass can be seen on the edges of North Zyria's road, which is made up
+of gray bricks.  Although the grass isn't cut often, it does not lean over the
+road.  Small trees and bushes accompany the grass as the air feels cool.    
+~
+302 0 0
+D0
+~
+~
+0 0 30258
+D2
+~
+~
+0 0 30260
+S
+#30260
+&rNorth &DZyria &rRoad&n~
+   North Zyria's road is a beautiful road that is made up of grey bricks that
+can also be found within the main town area.  At the edges of the path, a lot
+of green can be seen.  The grass grows high, but it does not lean over the
+road.  Small trees and bushes can be seen scattered around the area.  The air
+is quite cool, but still very comfortable.    
+~
+302 0 0
+D0
+~
+~
+0 0 30259
+D2
+~
+~
+0 0 30261
+S
+#30261
+&gAn &WOpen &gField&n~
+You are in an unfinished room.
+~
+302 0 0
+D0
+~
+~
+0 0 30260
+D1
+~
+~
+0 0 30277
+D2
+~
+~
+0 0 30262
+D3
+~
+~
+0 0 30271
+S
+#30262
+&gAn &WOpen &gField&n~
+You are in an unfinished room.
+~
+302 0 0
+D0
+~
+~
+0 0 30261
+D1
+~
+~
+0 0 30278
+D2
+~
+~
+0 0 30263
+D3
+~
+~
+0 0 30272
+S
+#30263
+&gAn &WOpen &gField&n~
+You are in an unfinished room.
+~
+302 0 0
+D0
+~
+~
+0 0 30262
+D1
+~
+~
+0 0 30279
+D2
+~
+~
+0 0 30264
+D3
+~
+~
+0 0 30273
+S
+#30264
+&gAn &WOpen &gField&n~
+You are in an unfinished room.
+~
+302 0 0
+D0
+~
+~
+0 0 30263
+D1
+~
+~
+0 0 30280
+D2
+~
+~
+0 0 30265
+D3
+~
+~
+0 0 30274
+S
+#30265
+&gAn &WOpen &gField&n~
+You are in an unfinished room.
+~
+302 0 0
+D0
+~
+~
+0 0 30264
+D1
+~
+~
+0 0 30281
+D2
+~
+~
+0 0 30266
+D3
+~
+~
+0 0 30275
+S
+#30266
+&gAn &WOpen &gField&n~
+You are in an unfinished room.
+~
+302 0 0
+D0
+~
+~
+0 0 30265
+D1
+~
+~
+0 0 30282
+D2
+~
+~
+0 0 30287
+D3
+~
+~
+0 0 30276
+S
+#30267
+&gAn &WOpen &gField&n~
+You are in an unfinished room.
+~
+302 0 0
+D1
+~
+~
+0 0 30272
+D2
+~
+~
+0 0 30268
+S
+#30268
+&gAn &WOpen &gField&n~
+You are in an unfinished room.
+~
+302 0 0
+D0
+~
+~
+0 0 30267
+D1
+~
+~
+0 0 30273
+D2
+~
+~
+0 0 30269
+S
+#30269
+&gAn &WOpen &gField&n~
+You are in an unfinished room.
+~
+302 0 0
+D0
+~
+~
+0 0 30268
+D1
+~
+~
+0 0 30274
+D2
+~
+~
+0 0 30270
+S
+#30270
+&gAn &WOpen &gField&n~
+You are in an unfinished room.
+~
+302 0 0
+D0
+~
+~
+0 0 30269
+D1
+~
+~
+0 0 30275
+S
+#30271
+&gAn &WOpen &gField&n~
+You are in an unfinished room.
+~
+302 0 0
+D1
+~
+~
+0 0 30261
+D2
+~
+~
+0 0 30272
+S
+#30272
+&gAn &WOpen &gField&n~
+You are in an unfinished room.
+~
+302 0 0
+D0
+~
+~
+0 0 30271
+D1
+~
+~
+0 0 30262
+D2
+~
+~
+0 0 30273
+D3
+~
+~
+0 0 30267
+S
+#30273
+&gAn &WOpen &gField&n~
+You are in an unfinished room.
+~
+302 0 0
+D0
+~
+~
+0 0 30272
+D1
+~
+~
+0 0 30263
+D2
+~
+~
+0 0 30274
+D3
+~
+~
+0 0 30268
+S
+#30274
+&gAn &WOpen &gField&n~
+You are in an unfinished room.
+~
+302 0 0
+D0
+~
+~
+0 0 30273
+D1
+~
+~
+0 0 30264
+D2
+~
+~
+0 0 30275
+D3
+~
+~
+0 0 30269
+S
+#30275
+&gAn &WOpen &gField&n~
+You are in an unfinished room.
+~
+302 0 0
+D0
+~
+~
+0 0 30274
+D1
+~
+~
+0 0 30265
+D2
+~
+~
+0 0 30276
+D3
+~
+~
+0 0 30270
+S
+#30276
+&gAn &WOpen &gField&n~
+You are in an unfinished room.
+~
+302 0 0
+D0
+~
+~
+0 0 30275
+D1
+~
+~
+0 0 30266
+S
+#30277
+&gAn &WOpen &gField&n~
+You are in an unfinished room.
+~
+302 0 0
+D2
+~
+~
+0 0 30278
+D3
+~
+~
+0 0 30261
+S
+#30278
+&gAn &WOpen &gField&n~
+You are in an unfinished room.
+~
+302 0 0
+D0
+~
+~
+0 0 30277
+D1
+~
+~
+0 0 30283
+D2
+~
+~
+0 0 30279
+D3
+~
+~
+0 0 30262
+S
+#30279
+&gAn &WOpen &gField&n~
+You are in an unfinished room.
+~
+302 0 0
+D0
+~
+~
+0 0 30278
+D1
+~
+~
+0 0 30284
+D2
+~
+~
+0 0 30280
+D3
+~
+~
+0 0 30263
+S
+#30280
+&gAn &WOpen &gField&n~
+You are in an unfinished room.
+~
+302 0 0
+D0
+~
+~
+0 0 30279
+D1
+~
+~
+0 0 30285
+D2
+~
+~
+0 0 30281
+D3
+~
+~
+0 0 30264
+S
+#30281
+&gAn &WOpen &gField&n~
+You are in an unfinished room.
+~
+302 0 0
+D0
+~
+~
+0 0 30280
+D1
+~
+~
+0 0 30286
+D2
+~
+~
+0 0 30282
+D3
+~
+~
+0 0 30265
+S
+#30282
+&gAn &WOpen &gField&n~
+You are in an unfinished room.
+~
+302 0 0
+D0
+~
+~
+0 0 30281
+D3
+~
+~
+0 0 30266
+S
+#30283
+&gAn &WOpen &gField&n~
+You are in an unfinished room.
+~
+302 0 0
+D2
+~
+~
+0 0 30284
+D3
+~
+~
+0 0 30278
+S
+#30284
+&gAn &WOpen &gField&n~
+You are in an unfinished room.
+~
+302 0 0
+D0
+~
+~
+0 0 30283
+D2
+~
+~
+0 0 30285
+D3
+~
+~
+0 0 30279
+S
+#30285
+&gAn &WOpen &gField&n~
+You are in an unfinished room.
+~
+302 0 0
+D0
+~
+~
+0 0 30284
+D2
+~
+~
+0 0 30286
+D3
+~
+~
+0 0 30280
+S
+#30286
+&gAn &WOpen &gField&n~
+You are in an unfinished room.
+~
+302 0 0
+D0
+~
+~
+0 0 30285
+D3
+~
+~
+0 0 30281
+S
+#30287
+&rNorth &DZyria &rRoad&n~
+   Green grass can be seen on the edges of North Zyria's road, which is made up
+of gray bricks.  Although the grass isn't cut often, it does not lean over the
+road.  Small trees and bushes accompany the grass as the air feels cool.    
+~
+302 0 0
+D0
+~
+~
+0 0 30266
+D2
+~
+~
+0 0 30288
+S
+#30288
+&rNorth &DZyria &rRoad&n~
+   North Zyria's road is a beautiful road that is made up of grey bricks that
+can also be found within the main town area.  At the edges of the path, a lot
+of green can be seen.  The grass grows high, but it does not lean over the
+road.  Small trees and bushes can be seen scattered around the area.  The air
+is quite cool, but still very comfortable.    
+~
+302 0 0
+D0
+~
+~
+0 0 30287
+D2
+~
+~
+0 0 30289
+S
+#30289
+&rNorth &DZyria &rRoad&n~
+   Green grass can be seen on the edges of North Zyria's road, which is made up
+of gray bricks.  Although the grass isn't cut often, it does not lean over the
+road.  Small trees and bushes accompany the grass as the air feels cool.    
+~
+302 0 0
+D0
+~
+~
+0 0 30288
+S
+#30290
+&DA Wide &RBricked &DStreet&n~
+   A wide sheet of beautiful gray bricks forms a large path around the northern
+district of Zyria and connects the many buildings within it.  Large patches of
+grass can be seen scattered about with countless trees towering above,
+providing a shade from the sky.    
+~
+302 0 0
+D1
+~
+~
+0 0 30291
+D3
+~
+~
+0 0 30039
+S
+#30291
+&DA Wide &RBricked &DStreet&n~
+   A wide sheet of beautiful gray bricks forms a large path around the northern
+district of Zyria and connects the many buildings within it.  Large patches of
+grass can be seen scattered about with countless trees towering above,
+providing a shade from the sky.    
+~
+302 0 0
+D1
+~
+~
+0 0 30007
+D3
+~
+~
+0 0 30290
+S
+#30292
+&gThe &BConference &gRoom&n~
+You are in an unfinished room.
+~
+302 d 0
+D1
+~
+~
+0 0 30293
+D2
+~
+~
+0 0 30295
+D3
+~
+~
+0 0 30055
+S
+#30293
+&gThe &BConference &gRoom&n~
+You are in an unfinished room.
+~
+302 d 0
+D2
+~
+~
+0 0 30294
+D3
+~
+~
+0 0 30292
+S
+#30294
+&gThe &BConference &gRoom&n~
+You are in an unfinished room.
+~
+302 d 0
+D0
+~
+~
+0 0 30293
+D3
+~
+~
+0 0 30295
+S
+#30295
+&gThe &BConference &gRoom&n~
+You are in an unfinished room.
+~
+302 d 0
+D0
+~
+~
+0 0 30292
+D1
+~
+~
+0 0 30294
+S
+#30296
+&gThe &MGuild &gOffice&n~
+You are in an unfinished room.
+~
+302 d 0
+D0
+~
+~
+0 0 30299
+D3
+~
+~
+0 0 30297
+S
+#30297
+&gThe &MGuild &gOffice&n~
+You are in an unfinished room.
+~
+302 d 0
+D0
+~
+~
+0 0 30298
+D1
+~
+~
+0 0 30296
+S
+#30298
+&gThe &MGuild &gOffice&n~
+You are in an unfinished room.
+~
+302 d 0
+D1
+~
+~
+0 0 30299
+D2
+~
+~
+0 0 30297
+S
+#30299
+&gThe &MGuild &gOffice&n~
+You are in an unfinished room.
+~
+302 d 0
+D1
+~
+~
+0 0 30056
+D2
+~
+~
+0 0 30296
+D3
+~
+~
+0 0 30298
+S
+$~

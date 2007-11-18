@@ -1,0 +1,80 @@
+4
+auro
+11
+cast 'auro'
+0
+9
+visajerry
+65
+http://www.ccse.kfupm.edu.sa/~bmghandi/002/ics201/lab07/names.txt
+0
+7
+refresh
+13
+cast 'refresh
+0
+5
+float
+11
+cast 'float
+0
+2
+rp
+19
+cast 'remove poison
+0
+2
+cb
+16
+cast 'cure blind
+0
+4
+chnk
+26
+cast 'locate object' chunk
+0
+5
+infra
+17
+cast 'infravision
+0
+3
+str
+14
+cast 'strength
+0
+5
+invis
+18
+cast 'invisibility
+0
+10
+protection
+26
+cast 'protection from evil
+0
+3
+det
+25
+cast 'detect invisibility
+0
+5
+bless
+11
+cast 'bless
+0
+4
+heal
+10
+cast 'heal
+0
+5
+armor
+11
+cast 'armor
+0
+2
+wr
+20
+cast 'word of recall
+0

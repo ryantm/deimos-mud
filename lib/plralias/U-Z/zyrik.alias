@@ -1,0 +1,50 @@
+4
+bank
+16
+;w;w;w;w;s;e;bal
+1
+1
+h
+8
+c 'heal'
+0
+4
+auro
+17
+c 'aurorus' zyrik
+0
+5
+armor
+15
+c 'armor' zyrik
+0
+6
+dinvis
+22
+c 'detect invis' zyrik
+0
+2
+rr
+14
+c 'word' zyrik
+0
+3
+ddf
+60
+;drink fountain;drink fountain;drink fountain;drink fountain
+1
+2
+df
+14
+drink fountain
+0
+1
+f
+4
+flee
+0
+1
+g
+5
+group
+0

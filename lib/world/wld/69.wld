@@ -1,0 +1,1535 @@
+#6900
+Lobby~
+   You stand within a large room, painted a bland grey.  The ceiling is white
+tiled, with built in flourescent lights.  Several of them flicker from time to
+time, giving this place a neglected appearance.  The floor beneath you is
+covered in dark plush carpet the color of blood.  A large sign is on the wall..
+Maybe you should read it.  The lobby continues to the north.    
+~
+69 0 0
+D0
+~
+~
+0 0 6901
+D2
+~
+~
+0 0 6999
+E
+sign~
+   Welcome to Boredom Central!  This is the invention of the bored, creative,
+but for the most part, insane, creatures of this realm.  Within this structure
+you will discover the menageries and enigmas that could only come from minds
+like theirs.  This place is not for the weak of heart, stupid, or immature.  
+Beware!    
+~
+S
+#6901
+A Long Hallway~
+   If the entire structure's appearance were based on this one room, you'd
+never leave.  A mesmerizing globe of light is suspended in midair, like a
+beautiful sun.  Tiny flashes of light glimmer and gleam like miniature
+lightning.  The colors change from time to time, based on what mood a person is
+in.  The whole object reacts to your brain waves, as does the music in the
+background.  The walls are curved rather than square, and the floor seems to
+dip down in the center a slight bit.  Many hallways branch off, each one taking
+you to a new adventure.    
+~
+69 0 0
+D2
+~
+~
+0 0 6900
+D3
+~
+~
+0 0 6904
+D4
+~
+~
+0 0 -1
+S
+#6902
+Busy Highway~
+   You are once again standing along the yellow slashed line of this highway.
+Everything's beeping and yelling so fast you can barely take it in.  The noise
+is so much of a bother that you don't even notice the semi that smacks you into
+the next dimension..    
+~
+69 0 0
+D3
+~
+~
+0 0 6999
+S
+#6903
+Busy Highway~
+   Oh, wait..  Something's not right here.  Cars look oddly small and low to
+the ground, and people line the sides of this road.  Somewhere off in the
+distance you see a black and white checkered flag.  Could it be a race track
+possibly?  Too bad you don't have time to find out..  There's a car headed
+straight for you, and you won't even have time to think before you get hit.  
+
+~
+69 0 0
+D1
+~
+~
+0 0 6999
+S
+#6904
+The Glittery Hallway~
+   As soon as you enter this room you suddenly remember to cover your eyes.  
+Everything, including the floor, is covering in a sparkly substance.  Even the
+tiny light coming from your glow in the dark Timex casts reflections upon every
+speck, eventually creating an eye harming sight.  The hallway continues on to
+the west, or leads into a large central area to the east.    
+~
+69 0 0
+D1
+~
+~
+0 0 6901
+D3
+~
+~
+0 0 6905
+S
+#6905
+Hallway~
+   It definitely looks like someone certainly didnt' like this hallway...  The
+walls have been crudely covered with spitballs, but underneath in tiny specks
+you see something shiny.  Could it be..  Um...  Glitter?  The hallway continues
+in the four cardinal directions, with rooms to the north and south.    
+~
+69 0 0
+D0
+~
+~
+0 0 6906
+D1
+~
+~
+0 0 6904
+D2
+~
+~
+0 0 6925
+D3
+~
+~
+0 0 6930
+S
+#6906
+The Obstacle Course~
+   This branch of the building has been created by the famous philosopher/bar
+bouncer, Fig Newton.  He decided what better than to have a preschool type
+obstacle course!!  It's definitely...  Original.  There is a small metal sign
+hanging on one wall.  The course begins to your north.    
+~
+69 0 0
+D0
+~
+~
+0 0 6907
+D2
+~
+~
+0 0 6905
+E
+sign~
+   Please remove all shoes, hair accessories, and jewelry and place them in the
+blue holder.    
+~
+S
+#6907
+The Ball Pit~
+   It seems as if maybe you are in some play area of a restaurant?  You have
+walked straight into a mass of small rubber balls.  They look like a lot of
+fun, except for the fact that this is no child's play area.  The balls must
+extend down many feet, and the more you move the more you seem to get pulled
+down.  Also, you can't forget the little porcupines..  They're just the size of
+the balls too!  A painful reminder could be what you need to get out of here.
+A large rope hangs from the center of the room, leading up to something
+unknown.    
+~
+69 0 0
+D2
+~
+~
+0 0 6906
+D4
+~
+~
+0 0 6908
+S
+#6908
+Rock Climbing~
+   At this point, the space to the north of you suddenly turns into a large
+cliff face.  Little rocks stick out here and there for you to grab onto.  
+Above you there are strange noises, and below you is a rather weak looking
+rope.  Either way will test your braveness and skills.    
+~
+69 0 0
+D4
+~
+~
+0 0 6909
+D5
+~
+~
+0 0 6907
+S
+#6909
+Secret Loft~
+   This small room looks like a child's playhouse, only the ceiling is higher.
+Various notebooks and play spy toys are lying around.  Also, there are three
+exits from this place.  West and east look identical, dark and mysterious.  
+Down seems to take you straight onto the face of a cliff.    
+~
+69 0 0
+D1
+~
+~
+0 0 6910
+D3
+~
+~
+0 0 6921
+D5
+~
+~
+0 0 6908
+S
+#6910
+Mirror Maze~
+   The room around you suddenly fades into mirrors, cut in every size, shape
+and angle you could imagine.  There's no going back from here..  You can't seem
+to find an opening the way you came.  Just feel around until you find the way
+out..  Or you may be stuck here forever!    
+~
+69 fh 0
+D0
+~
+~
+0 0 6911
+D1
+~
+~
+0 0 6912
+D3
+~
+~
+0 0 6917
+S
+#6911
+Mirror Maze~
+   You notice that as you are moving, the mirrors move as well.  It's as if
+they are people, following you along.  But every time you stop walking, they
+stop as well.  Most of the time there is only one or two openings in the walls.
+Sometimes you think you are going in circles, but sometimes you are.    
+~
+69 0 0
+D2
+~
+~
+0 0 6912
+S
+#6912
+Mirror Maze~
+   Looking around, you see...  Yourself, yourself, yourself, yourself, and
+yourself again.  Looking for exits you see...  Yourself, yourself, yourself,
+yourself, and yourself again.  Get the point?    
+~
+69 0 0
+D0
+~
+~
+0 0 6914
+D1
+~
+~
+0 0 6913
+D3
+~
+~
+0 0 6913
+S
+#6913
+Mirror Maze~
+   Never before have you seen so many mirrors in your life.  Every so often,
+you come across a shattered mirror, as if someone got a little tired of looking
+for the way out.  The intricate passageway leads you to an ending, you hope.  
+One slight mistake could lead you in circles.    
+~
+69 0 0
+D0
+~
+~
+0 0 6914
+D1
+~
+~
+0 0 6912
+D2
+~
+~
+0 0 6913
+S
+#6914
+Mirror Maze~
+   The mirrors around you look blurry and fuzzy, and because of the lack of
+something solid and unmoving to stare at, you are becoming dizzy.  Mirrors are
+on all sides of you, gliding past each other to show small holes where you can
+see other mirrors.  Different passageways lead you in different directions, and
+you must not return the way you leave.    
+~
+69 0 0
+D1
+~
+~
+0 0 6915
+D2
+~
+~
+0 0 6913
+S
+#6915
+Mirror Maze~
+   You think you could be getting somewhere, but it is a distant possibility.
+From an unknown source, a small speck of bright light is reflected a thousand
+times across the different mirrors.  But then, just as soon as it appears, the
+light is gone.  Still it could be nearby.    
+~
+69 0 0
+D0
+~
+~
+0 0 6914
+D1
+~
+~
+0 0 6916
+D3
+~
+~
+0 0 6914
+S
+#6916
+Mirror Maze~
+   There's mirrors on the walls.  There's mirrors on the ceiling.  There's
+mirrors on the floors.  Heck, there's even mirrors on the mirrors!  Mirrors
+everywhere!  How do you get out of here?!    
+~
+69 0 0
+D0
+~
+~
+0 0 6916
+D1
+~
+~
+0 0 6916
+D2
+~
+~
+0 0 6917
+D3
+~
+~
+0 0 6916
+S
+#6917
+Mirror Maze~
+   The exit seems nearby, as a draft is coming in from somewhere.  Little
+flecks of light appear spontaneously, and then are gone just as suddenly.  A
+flash of dark material makes you feel as if you are not alone in this maze.  
+Could something else be finding its way out?  Or is it after you?    
+~
+69 0 0
+D0
+~
+~
+0 0 6916
+D1
+~
+~
+0 0 6910
+D2
+~
+~
+0 0 6918
+S
+#6918
+Mirror Maze~
+   Mirror mirror, on the wall, who is the fairest of them all?  Sir Fig Newton
+of course!  Only an ingenius idea like his would make this possible for you to
+explore, discover, and immerse yourself in this tragic labyrinth.    
+~
+69 0 0
+D0
+~
+~
+0 0 6917
+D1
+~
+~
+0 0 6919
+S
+#6919
+Mirror Maze~
+   When you enter this room, you notice something surprisingly odd.  One wall
+is unlike the others.  Rather than mirrors, it is made of stone.  A small knob
+is protruding from the center.  A door perhaps?  Why, yes, it is..  I think you
+have found the way out!    
+~
+69 0 0
+D1
+Nothing.
+~
+door~
+1 0 6920
+D3
+~
+~
+0 0 6918
+S
+#6920
+Falling!~
+   This door has led you to an odd space.  In fact, it seems as if you are
+drifting in midair.  As with all things, what goes up must come down, and it
+looks like you're definitely going down.    
+~
+69 c 0
+D3
+Nothing.
+~
+door~
+1 0 -1
+D5
+~
+~
+0 0 6901
+S
+#6921
+The Dark Nothingness~
+   Before you, you see absolutely nothing..?  It's pitch black on all sides of
+you, and no walls or obstructions are within arms' length.  You feel that you
+should continue in the direction you are going in, so you don't get lost should
+you need to come back this way.  Far off in the distance is a small speck of
+light, barely visible.    
+~
+69 0 0
+D1
+~
+~
+0 0 6909
+D3
+~
+~
+0 0 6922
+S
+#6922
+Dark Area~
+   Everything is yet pitch black, but the speck of light to the west has become
+larger.  It appears that there is a light at the end of the tunnel, after all.
+Odd noises make themselves known in the background, such as that sound that
+seems like a person hitting a pipe with a wrench, and also, a flushing toilet.
+  
+~
+69 0 0
+D1
+~
+~
+0 0 6921
+D3
+~
+~
+0 0 6923
+S
+#6923
+Dark Area~
+   The smell of sewer is thick in the air, and as it reaches your nostrils you
+don't know what hit you.  The ground becomes dank and moist, like that of mud.
+As you get closer to the light, you realize that you are in some sort of pipe
+which opens into a larger area up ahead.  Dripping water sounds nearby.    
+~
+69 0 0
+D1
+~
+~
+0 0 6922
+D3
+~
+~
+0 0 6924
+S
+#6924
+End of the Tunnel~
+   Well, it looks like you've come to a dead end.  The tunnel you are in
+suddenly ends itself to pour out over a drop that is at least a thousand feet
+from the ground.  Far off you see smelly green water, like that of a sewer.  
+If you look up, there is a grate high above you.  To leave the tunnel would be
+sudden death.    
+~
+69 0 0
+D1
+~
+~
+0 0 6923
+S
+#6925
+Airlock~
+   This is an odd egg-shaped room.  The walls are all painted a bland grey,
+such as that of the lobby when you first entered this place.  The floor seems
+odd to have curved underneath your feet.  A small sensor somewhere upon the
+wall makes strange noises and aims a laser beam, scanning your body.  A tiny
+opening leads into another room.    
+~
+69 c 0
+D0
+~
+~
+0 0 6905
+D2
+~
+~
+0 0 6926
+S
+#6926
+Anti Gravity~
+   This room looks like the one you just left, egg-shaped as well.  The only
+odd thing you realize is that you are having difficulty in touching the ground.
+The air seems thick enough to swim in, yet somehow you can still breathe.  A
+hatch is in the top of this egg.    
+~
+69 0 0
+D0
+~
+~
+0 0 6925
+D1
+~
+~
+0 0 6928
+D4
+~
+~
+0 0 6927
+S
+#6927
+Prehistoric Meribia~
+   Standing on the top of the egg, you realize that it was not any normal room,
+but an actual empty egg belonging to some creature.  Everything is many times
+the size that you know it to be.  Huge trees look miles away as the sun glares
+in your eyes.  The ground seems to be made of large pebbles, but you think that
+it might be sand to anyone else.  The land continues in all directions.    
+~
+69 0 0
+D0
+~
+~
+0 0 6939
+D1
+~
+~
+0 0 6957
+D2
+~
+~
+0 0 6959
+D3
+~
+~
+0 0 6958
+D5
+~
+~
+0 0 6926
+S
+#6928
+Egg-shaped Room~
+   Something in your mind makes you wonder why the room is egg-shaped, it seems
+slightly familiar.  The room seems to be lit up by an outside source, such as
+diluted sunlight coming through a translucent source.  Two doors, which remind
+you of a cracked open hole, are to the south and west.    
+~
+69 0 0
+D2
+~
+~
+0 0 6929
+D3
+~
+~
+0 0 6926
+S
+#6929
+Egg-shaped Room~
+   This whole place reminds you oddly enough of space, but yet you don't think
+it is..  You were just in a museum..  The mind can be deceived, after all.  
+The only exit from this room is to the north.    
+~
+69 0 0
+D0
+~
+~
+0 0 6928
+S
+#6930
+Sequoias~
+   This branch of the building is devoted to the well-known giant, Imastallas
+A.  Tree.  He devoted his being to a lifelong study of the huge California
+Sequoia trees.  The room to the west is actually a cut opening into a tree
+trunk, only the trunk seems as if it could be as large as a house.  Believe it
+or not, this is a real sequoia tree.    
+~
+69 0 0
+D1
+~
+~
+0 0 6905
+D3
+~
+~
+0 0 6931
+S
+#6931
+Base of the Giant Tree~
+   This room has been devoted to information on the trees.  Did you know that
+sequoia is the only word in the English language that includes all five vowels?
+It's a nifty one to spell, too.  Sequoias are some of the largest trees in the
+world, but also endangered.  Besides this single tree, which is the largest
+you've ever seen, sequoias are limited to California.    
+~
+69 0 0
+D1
+~
+~
+0 0 6930
+D4
+~
+~
+0 0 6934
+D5
+~
+~
+0 0 6932
+S
+#6932
+The Roots~
+   Like all extremely large trees, this one has roots as well.  Massive chunks
+of wood as big around as your armspan weave their way over and under each
+other.  They form their own kind of network among you.  The way they surround
+you on all sides makes you feel slightly claustrophobic.  Below you the roots
+continue but become more sparse, and above you is the base of the tree.    
+~
+69 0 0
+D4
+~
+~
+0 0 6931
+D5
+~
+~
+0 0 6933
+S
+#6933
+Deeper Within The Roots~
+   Here the massive roots are expanded much more, allowing a person to clamber
+between them . The deep soil is crawling with little critters, hungry for
+something other than the usual meal of dirt.  Thousands of termites scurry all
+around you, munching away at the roots.    
+~
+69 0 0
+D4
+~
+~
+0 0 6932
+S
+#6934
+Sequoia Tree~
+   A large sign on the wall protests, 'In accordance to the law of 'Long
+Words', this tree will now be known simply as tree, rather than its previous
+longer name.  ' The entire trunk has been hollowed out, to form a rather large
+room.  People are busy with daily business tasks, such as nourishing the
+leaves, and smoothing the wood.  The massive trunk continues up further, and
+the base is directly below you.    
+~
+69 0 0
+D4
+~
+~
+0 0 6935
+D5
+~
+~
+0 0 6931
+S
+#6935
+'Tree'~
+   This tree is definitely bigger than you thought.  In little windows carved
+into the thick bark, you can see out into the sky.  Far, far below you you see
+buildings.  Hm, wonder what everyone else thinks of a tall tree in the midst of
+what appears to be a city.  Interesting.  Only the brave of heart should
+continue up.    
+~
+69 0 0
+D4
+~
+~
+0 0 6936
+D5
+~
+~
+0 0 6934
+S
+#6936
+High in the Tree~
+   You feel something strange inside your body, and then you realize that it is
+just your stomach, gurgling extremely nervously.  Outside, clouds drift by.  
+Not far off, you see a jet zooming by.  And yet, the top of the tree is still
+far, far above you.    
+~
+69 0 0
+D4
+~
+~
+0 0 6937
+D5
+~
+~
+0 0 6935
+S
+#6937
+Tree~
+   This portion of the tree is strikingly different from any of the other
+sections.  A single ladder leads up from here inside the trunk, through a small
+hatch.  This area is finely decorated, as if it's a waiting room of some sort.
+Something of importance must be located above this place.    
+~
+69 0 0
+D4
+~
+~
+0 0 6938
+D5
+~
+~
+0 0 6936
+S
+#6938
+Lair of the Royal Squirrel~
+   Straight in front of you is a giant golden throne.  Numerous nuts lie around
+on the floor.  Why, it appears that you have stumbled into the home of a
+squirrel!  Not just any squirrel either, this is the lair of the haughty Royal
+squirrel of Sequoia Tree.  Eek!    
+~
+69 0 0
+D5
+~
+~
+0 0 6937
+S
+#6939
+Meribia~
+   The flora and fauna here is quite different than that of what you are used
+to.  Huge lush ferns dangle from high above, and fruits the size of your head
+are scattered across the ground.  Beneath your feet is soft white sand that
+tickles as you walk across it.  To the north is a large volcano, and to the
+south is a giant green lake.    
+~
+69 0 0
+D0
+~
+~
+0 0 6942
+D1
+~
+~
+0 0 6940
+D2
+~
+~
+0 0 6927
+D3
+~
+~
+0 0 6941
+S
+#6940
+Meribia~
+   The sun?  Shines down upon your head, hot as fire.  It looks like the sun of
+earth, only it is three times as large, and has a glowing red halo around it.
+Several other brightly colored objects litter the purple sky.  The air is crisp
+and clean, and there is not a cloud to be seen anywhere.  A large volcano is
+somewhere to the northwest, and a big lake is to the south.    
+~
+69 0 0
+D2
+~
+~
+0 0 6957
+D3
+~
+~
+0 0 6939
+S
+#6941
+Meribia~
+   Huge trees are scattered here and there, almost as if a giant decided to
+throw darts into the ground.  Their gigantic leaves block the rays of light
+shining in your eyes.  The cool shade seems to act as a sedative, and you find
+yourself wanting to sleep, but there is danger nearby, so you cannot rest.  A
+large mountain-like object is to the northeast, and a body of water is far to
+the south.    
+~
+69 0 0
+D1
+~
+~
+0 0 6939
+D2
+~
+~
+0 0 6958
+S
+#6942
+Meribia~
+   At this point, the sand piles up high in a trail between the many trees.  
+Passage to the east or west is pretty much impossible.  Huge groves of giant
+palms line the path on both sides, so that no one except a dinosaur could break
+through!  This trail leads north to a large volcano, or south to the lake.    
+~
+69 0 0
+D0
+~
+~
+0 0 6943
+D2
+~
+~
+0 0 6939
+S
+#6943
+Meribia~
+   The trail starts getting a little steep as you find yourself heading up
+towards the volcano.  The air starts to get hot and thick from the toxic fumes.
+A few giant vultures sweep through the sky and warn you of approaching danger.
+Will you dare to go on?    
+~
+69 0 0
+D0
+~
+~
+0 0 6944
+D2
+~
+~
+0 0 6942
+S
+#6944
+Meribian Volcano~
+   You now find yourself at the base of the volcano.  The soft sand gives way
+to rough pebbles and stones, along with a black trail of hardened lava.  
+Several pieces of obsidian are lying on the ground, a beautiful but all too
+common jewel.  It's all uphill from here, but you know where to go by the trail
+of gray smoke leaving the top.    
+~
+69 0 0
+D2
+~
+~
+0 0 6943
+D4
+~
+~
+0 0 6945
+S
+#6945
+Meribian Volcano~
+   You are now just a little ways from the bottom, but the fear builds up in
+your heart already.  Can you make it to the top?  Nearby large boulders tumble
+down in an avalanche.  The ground is hot underneath your hands and feet as you
+struggle upwards.  There is still time to turn back, but it could be well worth
+it to venture on.    
+~
+69 0 0
+D4
+~
+~
+0 0 6946
+D5
+~
+~
+0 0 6944
+S
+#6946
+Meribian Volcano~
+   You're nearly there!  Smoke pours out and pollutes the air you once thought
+was wonderful to breathe.  Sweat pours down your face and reminds you that this
+is no cold climate.  The ground is mostly black, from previous eruptions.  The
+volcano is dormant, isn't it?  At least that's what you thought, for only an
+idiot would go up to a live volcano .
+~
+69 0 0
+D4
+~
+~
+0 0 6947
+D5
+~
+~
+0 0 6945
+S
+#6947
+Meribian Volcano~
+   You're so close now you can smell the lava..  The ground beneath your feet
+is completely made of smooth and slippery obsidian.  It's horrible to walk on,
+and even worse to try and walk uphill on!  All plant and animal life has ceased
+at this point.  You are alone in a barren isolated world.  Only the volcano
+lies ahead to your north.    
+~
+69 0 0
+D0
+~
+~
+0 0 6948
+D5
+~
+~
+0 0 6946
+S
+#6948
+Mouth of the Volcano~
+   Lo and behold, this is the ancient volcano.  It gurgles and hisses like a
+hungry monster.  If you go down, wouldn't you surely be burned to death?  You
+can walk around the mouth of the volcano to the east or west.    
+~
+69 0 0
+D1
+~
+~
+0 0 6951
+D2
+~
+~
+0 0 6947
+D3
+~
+~
+0 0 6950
+D5
+~
+~
+0 0 6949
+S
+#6949
+Lava!~
+   Why are you down here?!  I thought I told you you'd burn to death!  Well,
+the good news is you didn't, but the bad news is there is no way out, and the
+hungry lava monster is here to eat you!  Hope you have a way out, or you'll
+reside here forever.    
+~
+69 c 0
+D4
+~
+~
+0 0 -1
+S
+#6950
+Mouth of the Volcano~
+   Just the fact that you are so close to the bubbling lava is enough to scare
+you.  What if you fell in?  You'd burn to death!  Now that would be horrible..
+The walls around the mouth are looking awfully steep..  You'd never get back
+up.  Maybe you should stick to the edge, which continues to the east or north.
+  
+~
+69 0 0
+D0
+~
+~
+0 0 6955
+D1
+~
+~
+0 0 6948
+D5
+~
+~
+0 0 6949
+S
+#6951
+Mouth of the Volcano~
+   Here the rim gets narrow and tricky, almost as if walking on a balance beam.
+Good thing there's nothing here to push you in..  Or is there?  There is so
+much smoke around it burns your eyes, making it hard to see.  The obsidian
+slips and slides you around, like ice.  The rim continues to the north or west.
+  
+~
+69 0 0
+D0
+~
+~
+0 0 6952
+D3
+~
+~
+0 0 6948
+D5
+~
+~
+0 0 6949
+S
+#6952
+Mouth of the Volcano~
+   Have you seen that movie George and the Volcano?  If not maybe you should..
+He jumps into a volcano, wanna know what happens to him?  Muahahaha!  Well, no
+one is gonna tell you, maybe you should go down there and find out.  What are
+the voices in your head telling you?  Listen to them for once.  Just remember,
+the one with the pitchfork is always right!    
+~
+69 0 0
+D0
+~
+~
+0 0 6953
+D2
+~
+~
+0 0 6951
+D5
+~
+~
+0 0 6949
+S
+#6953
+Mouth of the Volcano~
+   You are now at the far northeast corner of the volcano.  It is slightly
+higher than the rest, and you can see far around you.  Waaaaaaay to the south
+there is a giant green lake, and to the north are some mountains, blocked by
+giant trees.  Various prehistoric life can be spotted randomly in the air and
+on the ground.    
+~
+69 0 0
+D2
+~
+~
+0 0 6952
+D3
+~
+~
+0 0 6954
+D5
+~
+~
+0 0 6949
+S
+#6954
+Mouth of the Volcano~
+   This is the place where the wall down to the volcano is least steep.  If you
+wanted to go down there, this is the safest of all, although even it is not so
+safe..  Would you dare?  I would.  ;-) Just remember, you aren't immortal..  
+Are you?  Who knows what creatures, living or dead, could be lurking down
+there.  Maybe you should go back to your playhouse and play your kiddie games,
+chicken!    
+~
+69 0 0
+D1
+~
+~
+0 0 6953
+D3
+~
+~
+0 0 6956
+D5
+~
+~
+0 0 6949
+S
+#6955
+Mouth of the Volcano~
+   Oooh, what a lovely view..  Smoke..  And lava..  And then some more smoke.
+The way the lava churns and bubbles, it sounds like someone is choking and
+gagging to death, dying a horrible fate.  But no one could possibly be down
+there!  It's hot as a furnace!  The mouth continues to the north or south.    
+~
+69 0 0
+D0
+~
+~
+0 0 6956
+D2
+~
+~
+0 0 6950
+D5
+~
+~
+0 0 6949
+S
+#6956
+Mouth of the Volcano~
+   Here the smoke is thin enough that the sun shines down and makes it even
+hotter than it was.  How can a person stand all this heat?  It's absolutely
+horrid, like the summers in Midwest America!  Get yourself a hat and keep
+going, because the exit is not near, and all directions are shrouded in smoke,
+so you have to grope your way out.    
+~
+69 0 0
+D1
+~
+~
+0 0 6954
+D2
+~
+~
+0 0 6955
+D5
+~
+~
+0 0 6949
+S
+#6957
+Meribia~
+   Baby Meribian dinosaurs wander and waddle around as they struggle to walk.
+They're so cute!  But their mother is nearby so you had better not touch them.
+Why not explore instead?  Trees are on your east, so thickly you cannot walk in
+them, but there is a nice lake to the south.  Or, if you are feeling
+particularly adventurous, there is a volcano far away to the north.    
+~
+69 0 0
+D0
+~
+~
+0 0 6940
+D2
+~
+~
+0 0 6960
+D3
+~
+~
+0 0 6927
+S
+#6958
+Meribia~
+   Things are soo beautiful and peaceful.  The dinosaurs live and work around
+you, but most do not take notice that you are here.  A large green lake is to
+your south, where several dinosaurs bathe and relax.  It's like a vacation,
+without the people!  To the north are some trees and eventually a volcano.    
+~
+69 0 0
+D0
+~
+~
+0 0 6941
+D1
+~
+~
+0 0 6927
+D2
+~
+~
+0 0 6961
+S
+#6959
+Meribia Beach~
+   Various small dinosaurs sunbathe and cool themselves in the bluish-green
+backs.  Don't forget the sunscreen huh?  The beach continues on to the east or
+west and the water is right to the south.  2
+~
+69 0 0
+D0
+~
+~
+0 0 6927
+D1
+~
+~
+0 0 6960
+D2
+~
+~
+0 0 6963
+D3
+~
+~
+0 0 6961
+S
+#6960
+Meribia Beach~
+   The view is breathtaking, just water and more water, as far as the eye can
+see.  It's wonderful.  Far away there is something that might be an island,
+because dinosaurs obviously do not have ships!  The beach continues to the west
+if you do not want to go in the water to the south.    
+~
+69 0 0
+D0
+~
+~
+0 0 6957
+D2
+~
+~
+0 0 6964
+D3
+~
+~
+0 0 6959
+S
+#6961
+Meribia Beach~
+   Take a swim if you want!  The water's just great.  Far out to the south
+there is even an island or something.  The lake continues everywhere, but the
+beach comes to an end.  Further on there are rocks around the lake, too sharp
+for climbing on.  It's a small but lovely beach.  Up in the sky prehistoric
+birds sweep and swerve around playfully.    
+~
+69 0 0
+D0
+~
+~
+0 0 6958
+D1
+~
+~
+0 0 6959
+D2
+~
+~
+0 0 6962
+S
+#6962
+Green Lake~
+   Out on the lake today, things are quite peaceful.  The water is a clear
+green color, hence the lake's name.  You can see brightly colored fish swimming
+beneath you as you dog paddle your way out through the warm calming water.  
+The beach is right to your north, and the lake continues a long long way to the
+south.    
+~
+69 0 6
+D0
+~
+~
+0 0 6961
+D1
+~
+~
+0 0 6963
+D2
+~
+~
+0 0 6965
+S
+#6963
+Green Lake~
+   The sun makes its way from north to south as the day passively goes on.  
+You float peacefully in the water, as if nothing could ever hurt you.  Sea
+creatures are swimming around you, taking interest in this new creature
+swimming in their lake.  Shall you swim on out to the island?    
+~
+69 0 7
+D0
+~
+~
+0 0 6959
+D1
+~
+~
+0 0 6964
+D2
+~
+~
+0 0 6966
+D3
+~
+~
+0 0 6962
+S
+#6964
+Green Lake~
+   You are now swimming in water about eight meribian feet deep.  It is unlike
+the water that you are used to, because there is no salt in it at all to hold
+you up better.  You find yourself sinking to the bottom quite easily.  
+However, it is wonderful to drink from, clear and sweet.  Do fish drink water?
+  
+~
+69 0 6
+D0
+~
+~
+0 0 6960
+D2
+~
+~
+0 0 6967
+D3
+~
+~
+0 0 6963
+S
+#6965
+Green Lake~
+   Think of all the things you could be doing right now..  Hunting, fishing,
+exploring..  But no, you'd rather relax on the lake.  The water beneath you is
+getting pretty deep now, deep enough that you cannot see the crystal pebbles on
+the bottom.  The sun sparkles and shines, causing reflections to bounce into
+your eyes.  However, you can still see the island off to the south.    
+~
+69 0 6
+D0
+~
+~
+0 0 6962
+D1
+~
+~
+0 0 6966
+S
+#6966
+Green Lake~
+   My, the lake is green.  Beneath your feet now, you can see a skeleton.  
+Actually, there are a lot of skeletons.  This makes you think that it's
+possible the dinosaurs might have some sort of burial ritual.  If only they
+could talk to you, you'd know a lot.  The island is to the south.    
+~
+69 0 6
+D0
+~
+~
+0 0 6963
+D1
+~
+~
+0 0 6967
+D3
+~
+~
+0 0 6965
+S
+#6967
+Green Lake~
+Nothing.
+~
+69 0 0
+D0
+~
+~
+0 0 6964
+D3
+~
+~
+0 0 6966
+S
+#6968
+New Room~
+You are in an unfinished room.
+~
+69 0 0
+S
+#6969
+DeimosMUD's Asshole~
+   This is DeimosMUD's asshole.  If you're going to fuck DeimosMUD, fuck it
+here!    
+~
+69 0 0
+S
+#6970
+New Room~
+You are in an unfinished room.
+~
+69 0 0
+S
+#6971
+New Room~
+You are in an unfinished room.
+~
+69 0 0
+S
+#6972
+New Room~
+You are in an unfinished room.
+~
+69 0 0
+S
+#6973
+New Room~
+You are in an unfinished room.
+~
+69 0 0
+S
+#6974
+New Room~
+You are in an unfinished room.
+~
+69 0 0
+S
+#6975
+New Room~
+You are in an unfinished room.
+~
+69 0 0
+S
+#6976
+New Room~
+You are in an unfinished room.
+~
+69 0 0
+S
+#6977
+New Room~
+You are in an unfinished room.
+~
+69 0 0
+S
+#6978
+New Room~
+You are in an unfinished room.
+~
+69 0 0
+S
+#6979
+New Room~
+You are in an unfinished room.
+~
+69 0 0
+S
+#6980
+New Room~
+You are in an unfinished room.
+~
+69 0 0
+S
+#6981
+New Room~
+You are in an unfinished room.
+~
+69 0 0
+S
+#6982
+New Room~
+You are in an unfinished room.
+~
+69 0 0
+S
+#6983
+New Room~
+You are in an unfinished room.
+~
+69 0 0
+S
+#6984
+New Room~
+You are in an unfinished room.
+~
+69 0 0
+S
+#6985
+New Room~
+You are in an unfinished room.
+~
+69 0 0
+S
+#6986
+New Room~
+You are in an unfinished room.
+~
+69 0 0
+S
+#6987
+New Room~
+You are in an unfinished room.
+~
+69 0 0
+S
+#6988
+New Room~
+You are in an unfinished room.
+~
+69 0 0
+S
+#6989
+New Room~
+You are in an unfinished room.
+~
+69 0 0
+S
+#6990
+New Room~
+You are in an unfinished room.
+~
+69 0 0
+S
+#6991
+New Room~
+You are in an unfinished room.
+~
+69 0 0
+S
+#6992
+New Room~
+You are in an unfinished room.
+~
+69 0 0
+S
+#6993
+New Room~
+You are in an unfinished room.
+~
+69 0 0
+S
+#6994
+New Room~
+You are in an unfinished room.
+~
+69 0 0
+S
+#6995
+New Room~
+You are in an unfinished room.
+~
+69 0 0
+S
+#6996
+New Room~
+You are in an unfinished room.
+~
+69 0 0
+S
+#6997
+New Room~
+You are in an unfinished room.
+~
+69 0 0
+S
+#6998
+New Room~
+You are in an unfinished room.
+~
+69 0 0
+S
+#6999
+Busy Highway~
+   Uh oh, you'd better get outta here.  Cars are whoooshing past you at the
+speed of lightning.  Horns blare and fingers are displayed all around you.  
+Not too many people are happy to see someone blocking their path..  The highway
+continues east and west, but there seems to be a building of some sort to the
+north.    
+~
+69 0 0
+D0
+~
+~
+0 0 6900
+D1
+~
+~
+0 0 6902
+D3
+~
+~
+0 0 6903
+S
+$~

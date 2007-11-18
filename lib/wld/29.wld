@@ -1,0 +1,2037 @@
+#2900
+Mud Hole~
+The ground falls out from under you!
+
+You are Falling...
+
+Falling..
+
+Falling..
+
+Falling..
+
+  SPLAT!  You have landed in a huge, deep pool of thick, brown, juicy..  No
+not poop; MUD!  There's nothing immediately nearby, but you might find
+something in the distance if you take time to explore.    
+You see a sign here, it could be worth reading.
+~
+29 c 0
+D0
+I don't see anything of importance.. you never know though.
+~
+~
+0 0 2903
+D1
+You see more mud, and maybe something off to the distance.
+~
+~
+0 0 2904
+D2
+The mud appears to get lighter in color and drier in this direction.
+~
+~
+0 0 2906
+D3
+I see more mud.  Maybe some other junk.  But definitely, DEFINITELY more mud.
+~
+~
+0 0 2905
+D4
+~
+~
+0 0 553
+D5
+You can see through mud?!?!? Not me..
+~
+~
+0 0 2901
+E
+sign~
+   The sign reads: MAYBE YOU SHOULDN'T GO DOWN.  I DON'T KNOW, WHAT DO YOU
+THINK?    
+~
+S
+#2901
+Beneath the Surface~
+   You are now completely immersed in the thick, sticky, deoxygenated mud...  
+How can a person survive down here?  Uh oh, maybe that wasn't such a good way.
+The mud is so thick there's no chance of getting back up to the top..    
+~
+29 ah 0
+D5
+It's questionable, but what other choice do you have?
+~
+~
+0 0 2902
+S
+#2902
+Mud, Mud, and more Mud~
+   Ohhhhhhhh the great taste of MUD!  I hope you're used to it, because that's
+all this place has to offer..  Eat it, sleep in it, breathe it....  If you
+can....  Oh wait!  You breathe oxygen, not mud...  I guess you should have
+considered that BEFORE you went diving...    
+~
+29 a 8
+D4
+Mud.. duh.
+~
+~
+0 0 2901
+S
+#2903
+Somewhere in the Mud~
+   You aren't lost, eh?  Heh, that's what they all say!!!  Hope you can get
+out..  Muhahhahaha!  There might be stuff around, might not..  But why should I
+tell YOU?  I'm not getting paid for this you know..    
+~
+29 0 0
+D2
+~
+~
+0 0 2900
+S
+#2904
+Somewhere in the Mud~
+   There is still mud on all sides of you, but off farther to the east you see
+something that appears to be a building.    
+~
+29 a 6
+D3
+More mud awaits you..
+~
+~
+0 0 2900
+S
+#2905
+Lost in the Mud~
+   It seems no matter which way you go, there is more mud.  Off to the west in
+the distance, there appear to be some trees.  Anything is better than this mud
+by now.    
+~
+29 a 6
+D1
+Wow, it looks awfully familiar...
+~
+~
+0 0 2900
+D3
+There are a few palms on the horizon.
+~
+~
+0 0 2907
+S
+#2906
+Crunchy Mud~
+   The mud seems a lot thicker and harder here.  You can almost walk on top of
+it rather than wade through..  The farther south you go, the drier it gets.  
+
+~
+29 0 0
+D0
+It seems to look as if you were there before.. a central view on things.
+~
+~
+0 0 2900
+S
+#2907
+Entrance to the Oasis~
+   Suddenly, the mud turns into soft white sand, and a line of trees stands
+before you.  Somewhere nearby you hear water running.  You can go north and
+south along the sand, or west into the lush palm trees.    
+There is a sign laying on the ground.
+~
+29 0 3
+D0
+
+You see a sand dune in front of you.
+~
+~
+0 0 2908
+D1
+You see a thick brown substance.
+~
+~
+0 0 2905
+D2
+Blowing sand obstructs your view.
+~
+~
+0 0 2928
+D3
+This appears to be where the water is coming from.
+~
+~
+0 0 2909
+E
+sign~
+Heaven lies just a short distance in -----><----- that direction.
+~
+S
+#2908
+Sand Dune~
+The sparkling white sand feels warm underneath your toes.  This would be a good place to take a nap, if it weren't for the predators.
+~
+29 0 0
+D2
+More soft sand awaits you.
+~
+~
+0 0 2907
+S
+#2909
+Peaceful Garden~
+   There are several smooth stones here one might like to sit upon.  Fresh dew
+sprinkles down upon you and moistens your dry skin.  Birds chirp in the
+background and a cool waterfall makes the entire place seem like paradise.    
+This waterfall seems like it might be important..
+~
+29 0 3
+D0
+~
+waterfall~
+1 0 2910
+D1
+~
+~
+0 0 2907
+D2
+You see a large palm tree.
+~
+~
+0 0 2912
+D3
+You wade into a small blue pool.
+~
+~
+0 0 2911
+E
+waterfall~
+This transparent water seems to lead somewhere..
+~
+S
+#2910
+Behind the Waterfall~
+   After a passage through a short tunnel, you arrive in a small, cool room.  
+There is a foglike mist obscuring your view for the most part, but you can make
+out a small chest here.    
+~
+29 0 3
+D2
+~
+waterfall~
+1 0 2909
+S
+#2911
+Quiet Pool~
+   The cool water calls you to its edge with the quiet lapping of waves on your
+feet.  Your toes are slightly chilled, but the pool seems so relaxing and
+irresistible.  Shiny pebbles at the bottom twinkle before your eyes and the
+sunshine seems to make you melt.  Will you dare to take a swim?    
+~
+29 c 6
+D1
+A quiet garden calls you into its presence.
+~
+~
+0 0 2909
+D5
+You see down towards the bottom of the crystal clear pool.
+~
+~
+0 0 2922
+S
+#2912
+Base of the Giant Palm~
+   This is one of the biggest palm trees you have ever seen..  No wait..  It IS
+the biggest anywhere.  The roots alone, popping out of the ground like giant
+worms, are taller than you!  The bark is rough, but at the top, way off in the
+distance, you see huge round objects..  Could those be coconuts?!?!  Wow, it
+might be worth a try...    
+~
+29 0 3
+D0
+~
+~
+0 0 2909
+D1
+~
+~
+0 0 2913
+D2
+The trees turn thick..
+~
+~
+0 0 2929
+D4
+Whoaaa it's a loooooooooong way up!
+~
+~
+0 0 2914
+S
+#2913
+Outside the Tent~
+   This seems to be about the only sign of civilization around you.  A large
+canvas tent is to the east, with a hole you can enter through.  Smoke is coming
+out a slit in the top, and it smells like someone is about to have dinner.  I
+wouldn't be so sure they are expecting guests, so you might not want to go in..
+  
+~
+29 0 3
+D1
+It is too smoky inside the tent to see.
+~
+~
+0 0 2915
+D2
+~
+~
+0 0 -1
+D3
+~
+~
+0 0 2912
+S
+#2914
+Partway Up the Tree~
+   Well, there's not much here to look at..  Actually..  There's not ANYTHING
+to look at.  The best thing to do would be move on, and don't look down!    
+~
+29 0 3
+D4
+All you can really see is massive brown trunk and green leaves.
+~
+~
+0 0 2916
+D5
+Whoa..looks scary....you feel overcome by vertigo..eek!
+~
+~
+0 0 2912
+S
+#2915
+Within the Tent~
+   Smoke is amok in this room, and you wince as it invades your eyes and causes
+them to tear.  In the center of the tent is a large fire, but it burns green
+rather than orange and yellow.  In a corner sits an old man, who is very wise
+looking, and gives off an aura that makes it seem as if he would perhaps make a
+deal with you.    
+~
+29 lm 0
+D3
+Fresh air.  Need I say more?
+~
+~
+0 0 2913
+S
+#2916
+Farther Up the Tree~
+   Up here, the wind seems much stronger, and the leaves move around you.  
+Just a little ways above you are the gigantic coconuts.  Off to the east the
+tree splits out onto a small branch just big enough to climb on.    
+~
+29 0 3
+D1
+~
+~
+0 0 2917
+D4
+Could it be? The top of the tree?!?
+~
+~
+0 0 2920
+D5
+Don't look down, dangit!!
+~
+~
+0 0 2914
+S
+#2917
+Out on a Limb~
+   It's ok to breathe!  This limb is looking pretty dangerous..  Are you sure
+you're ok in the head?  Rub that sand out of your eyes and choose some
+direction or another.    
+~
+29 0 3
+D1
+Thin branches wiggle their fingers out before your feet.
+~
+~
+0 0 2918
+D3
+~
+~
+0 0 2916
+S
+#2918
+Edge of the Limb~
+   You've finally come to the edge of this limb.  Actually though, it does go a
+little farther, but only the extreme tips..  Would you dare go there??  It's
+your decision, not mine.    
+~
+29 0 3
+D1
+It's kind of a long jump..but ok.
+~
+~
+0 0 2919
+D3
+You see the thicker, safer part of the branch.
+~
+~
+0 0 2917
+S
+#2919
+Falling!!~
+   The branches quiver slightly, and suddenly you find yourself in midair!  
+What to do now?    
+~
+29 0 9
+D5
+Down, down, down..down.........
+~
+~
+0 0 2913
+S
+#2920
+Top of the Tree~
+   Wow, you've finally made it!  After such a long time you deserve
+congratulations.  :-) If you yet dare, you can go just a little higher to the
+lookout post.  Is that some kind of hut off to the east?    
+~
+29 0 3
+D1
+There seems to be some kind of hut..
+~
+~
+0 0 2952
+D4
+You see an opening in the leaves.
+~
+~
+0 0 2921
+D5
+Dizzzzzzzzzy.......... the down below is tree..or something..world spinning...whooo..circles..
+~
+~
+0 0 2916
+S
+#2921
+Lookout Post~
+   The breeze ruffles your hair.  It is a beautiful view all around, nice and
+quiet.  Off in the distance you watch the smiling sun settle down for the
+night.    
+~
+29 ce 0
+D5
+Back below the leaves..
+~
+~
+0 0 2920
+S
+#2922
+Paddling Through the Pool~
+   The cold water sends chills up your spine as you dive down towards the
+bottom.  Everything is crystal clear, and the waves cause light to dance around
+you.    
+~
+29 0 8
+D1
+More of the pool..
+~
+~
+0 0 2924
+D2
+More of the pool..
+~
+~
+0 0 2925
+D3
+More of the pool..
+~
+~
+0 0 2923
+D4
+You can see light beyond the surface of the water.
+~
+~
+0 0 2911
+S
+#2923
+Underwater~
+   Wow, it sure is beautiful down here..    
+~
+29 0 8
+D1
+More of the pool..
+~
+~
+0 0 2922
+D2
+More of the pool...
+~
+~
+0 0 2927
+S
+#2924
+Sparkly Water~
+   You've never seen anything quite this beautiful.  Coral reefs surround you,
+and waves wiggle their way around.  Fish are even tame enough to come right up
+to you and hover briefly.    
+~
+29 0 8
+D2
+More of the pool..
+~
+~
+0 0 2926
+D3
+More of the pool..
+~
+~
+0 0 2922
+S
+#2925
+Water, Water Everywhere~
+   Looks like this aqutic habitat is full of life!  Just be careful not to
+disturb the wildlife in their environment.  :-)
+~
+29 0 8
+D0
+More of the pool..
+~
+~
+0 0 2922
+D1
+More of the pool..
+~
+~
+0 0 2926
+D3
+More of the pool..
+~
+~
+0 0 2927
+S
+#2926
+Corner of the Pool~
+   Aweeeesome dude..  A corner.  Heh.  Don't you have better things to look at?
+  
+~
+29 0 8
+D0
+More of the pool..
+~
+~
+0 0 2924
+D3
+More of the pool..
+~
+~
+0 0 2925
+S
+#2927
+Splish Splash~
+   You find yourself admist a lot of..  Well you know..    
+~
+29 0 8
+D0
+More of the pool..
+~
+~
+0 0 2923
+D1
+More of the pool..
+~
+~
+0 0 2925
+S
+#2928
+Sandstorm~
+   A whirlwind of sand almost knocks you off your feet.  It blows in your eyes
+and face and scratches your skin..  My best advice would be to get out of here
+before you're blown away!    
+~
+29 0 0
+D0
+You see a line of lush trees.
+~
+~
+0 0 2907
+S
+#2929
+Lush Trees~
+   At this point, the trees begin to grow much thicker and surround you.  
+Other plant life is also starting to grow from the ground.  In the distance you
+hear the cry of a marmoset...  If you know what that is!    
+~
+29 0 3
+D0
+You see the biggest palm tree ever!
+~
+~
+0 0 2912
+D2
+Trees and more trees obscure your view.
+~
+~
+0 0 2930
+E
+sign~
+Nothing.
+~
+S
+#2930
+Within The Jungle~
+   You are now in the midst of a large jungle, and you aren't sure how to get
+out!  It's ok..  All is good in the jungle :-) The noises around you are
+monstrous, that of lions and tigers and..  Nah no bears..  Just make sure and
+watch out for those marmosets!    
+~
+29 0 3
+D0
+Your eyes hurt trying to look back into real civilization!
+~
+~
+0 0 2929
+D1
+You see a sign off in the distance.
+~
+~
+0 0 2931
+D2
+Figure it out, Sherlock.
+~
+~
+0 0 2933
+D3
+More of the same stuff, I tell you...
+~
+~
+0 0 2932
+S
+#2931
+Jungle ~
+   This place is mostly overgrown with plants and flowers.  You see a sign
+here.    
+~
+29 0 3
+D3
+You see more of the foliage that you do everywhere else.
+~
+~
+0 0 2930
+E
+sign~
+The sign reads:  Welcome to the Jungle! -Axle
+                               Beware the Marmosets!!
+~
+S
+#2932
+More of the Jungle~
+You feel the hairs on the back of your neck prickle up as something moves in the bushes.. What is this great marmoset creature that everyone seems to fear?  Oh don't worry, young one, you will find out soon enough..
+~
+29 0 3
+D1
+More flowers. More leaves. Blah blah blah..
+~
+~
+0 0 2930
+S
+#2933
+A Jungle-ish Sort of Place~
+   The fear in the air is starting to overcome your bravery.  Strange cries are
+haunting the air around you, and you have yet to find out if they are from a
+marmoset, or if a marmoset is really something existing..    
+~
+29 0 3
+D0
+Oh come on! You know what's there!
+~
+~
+0 0 2930
+D1
+~
+~
+0 0 -1
+D2
+Well, there's a ________ and then a _______ that's _____.
+~
+~
+0 0 2934
+S
+#2934
+Lair of the Marmoset!~
+   OH NO!  You've stumbled upon what seems to be where the marmosets live, or
+at least what everyone else thinks, seeing the halfway chewed up sign on the
+ground...    
+~
+29 0 3
+D0
+I see it, don't you?
+~
+~
+0 0 2933
+D1
+Is that music I hear?
+~
+~
+0 0 2936
+D3
+Out of here, that's for sure!
+~
+~
+0 0 2937
+D4
+Heh. Go find out for yourself.
+~
+~
+0 0 2935
+E
+sign~
+                                  Mermisetz b up der!
+~
+S
+#2935
+Marmoset Nest~
+Ahh..so this is what you wanted to see..and here it is.  It looks like the typical marmoset's nest, which you would know EXACTLY to expect if you'd watched Sesame Street...
+~
+29 0 3
+D5
+Entrance to where you are now!
+~
+~
+0 0 2934
+S
+#2936
+The Jungle..Book~
+   Here, the jungle seems happier in tune, as you hear bongo music in the
+background.  Happy little animals scurry around your feet doing their everyday
+work.  Snakes hang from tree branches sleepily trying to get some lunch.    
+~
+29 0 3
+D1
+Looking off to the east, you see a large pit.
+~
+~
+0 0 2939
+D2
+More of the trees, the leaves, the snakes..the trees, the leaves......
+~
+~
+0 0 2950
+D3
+Looks like a lair of some sort..
+~
+~
+0 0 2934
+S
+#2937
+Deserted Camp~
+   Oddly enough, it looks like someone once lived here.  Actually, not that
+long ago as the coals of the fire are still smoldering.  Why did they leave in
+such a hurry with all their things behind?    
+~
+29 0 3
+D1
+It seems to be a lair..
+~
+~
+0 0 2934
+D2
+~
+~
+0 0 -1
+D3
+You see some bushes.
+~
+~
+0 0 2938
+S
+#2938
+Back in the Bushes~
+   Following a trail, you've ended up here.  It doesn't seem to be all that
+much, but could turn out to be a safe haven if you had to hide from something!
+  
+~
+29 0 3
+D1
+You see a deserted campsite.
+~
+~
+0 0 2937
+S
+#2939
+Hunter's Area~
+   Whoa!  Watch out!  Seems like someone is out to get you..  Or something.  
+There is a large pit in the middle of this area, and unpleasant growling is
+coming out.  Well, it's definitely not the PETA!  I suppose if you really WANT
+to you can go down in there and check it out.    
+~
+29 0 3
+D1
+More of this wild hangout..
+~
+~
+0 0 2949
+D2
+More of the jungle..
+~
+~
+0 0 2951
+D3
+Just another lil' happy place.
+~
+~
+0 0 2936
+D5
+You aren't serious, are you?
+~
+~
+0 0 2940
+S
+#2940
+Tiger Pit!!~
+   Oh no!  You've jumped into the tiger pit!  Now what to do??  There don't
+seem to be any tigers right HERE, but from their growling you can tell they're
+nearby.  What to do what to do what to do?  Hope you have a scroll of recall..
+  
+~
+29 a 3
+D0
+Too dark to tell...
+~
+~
+0 0 2941
+D1
+Too dark to tell..
+~
+~
+0 0 2944
+D2
+Too dark to tell..
+~
+~
+0 0 2942
+D3
+Too dark to tell..
+~
+~
+0 0 2943
+D4
+~
+~
+0 0 -1
+S
+#2941
+Tiger Pit!!~
+   More of this tiger pit..  Watch those tigers!  Remember that one time on the
+Discovery Channel where that show about tigers was saying that if you-- oh
+wait..  Hehe you were grounded that night, you didn't see it!  Anyway, be
+careful.    
+~
+29 amn 3
+D1
+Too dark to tell..
+~
+~
+0 0 2945
+D2
+Too dark to tell..
+~
+~
+0 0 2940
+D3
+Too dark to tell..
+~
+~
+0 0 2946
+S
+#2942
+Tiger Pit!!~
+Heeeeeeeere kitty kitty kitty... 
+......mrow?
+Yes, my sweet little one..
+MREEEEEEEEEEEEEOWWW!!!
+~
+29 a 3
+D0
+Too dark to tell..
+~
+~
+0 0 2940
+D1
+Too dark to tell.. 
+~
+~
+0 0 2948
+D3
+Too dark to tell..
+~
+~
+0 0 2947
+S
+#2943
+Tiger Pit!!~
+   What's that smell?  Hrmm I dunno.  The floor is littered with long thick
+strings of brownish smelly goop.  What is it?  Dare to find out?    
+~
+29 a 3
+D0
+Too dark to tell..
+~
+~
+0 0 2946
+D1
+Too dark to tell..
+~
+~
+0 0 2940
+D2
+Too dark to tell..
+~
+~
+0 0 2947
+S
+#2944
+Tiger Pit!!~
+   This is just another spot in the tiger pit..  Haven't you had enough of this
+place yet?  Really, you're lucky to still be alive, because..  Once upon a
+time, a long time ago..  Once upon a time, a long time ago..  There was a guy
+named Sirius.  Sirius was a very daring warrior, and one day he too, stumbled
+into a tiger pit.  Not knowing what to do, he foolishly attacked one of the
+tigers, and things were very obviously not in his favor because within an
+instant every tiger in the place had done their share.  If you didn't figure it
+out by now, Sirius is no more.  Take that sweet advice into your heart and have
+a nice day.  :-)
+~
+29 a 3
+D0
+Too dark to tell..
+~
+~
+0 0 2945
+D2
+Too dark to tell..
+~
+~
+0 0 2948
+D3
+Too dark to tell..
+~
+~
+0 0 2940
+S
+#2945
+Tiger Pit!!~
+   Here a tiger, there a tiger, everywhere a tiger tiger!  The tigers aren't
+nearly as bad as you thought..  Or maybe they are..  Anyways, i have good news
+and bad news.  The good news is that this is a good place to practice killing
+things.  The bad news is there's not much down here other than tigers!    
+~
+29 a 3
+D2
+Too dark to tell..
+~
+~
+0 0 2944
+D3
+Too dark to tell..
+~
+~
+0 0 2941
+S
+#2946
+Tiger Pit!!~
+   Really, I thought by now you'd be tired of this place.  A tiger is a mammal
+common to the southern and eastern hemispheres, usually white or orange with
+stripes to blend into its environment.  Tigers are usually carnivorous, meaning
+they like MEAT!    
+~
+29 a 3
+D1
+Too dark to tell..
+~
+~
+0 0 2941
+D2
+Too dark to tell..
+~
+~
+0 0 2943
+S
+#2947
+Tiger Pit!!~
+   Tony the Tiger says, 'Grrrrrr great!  ' Aren't you yet craving a bowl of
+Frosted Flakes?  Come on..  Leave the poor tigers alone!!  The EPA will get
+you!  Muhahahaha!    
+~
+29 a 3
+D0
+Too dark to tell..
+~
+~
+0 0 2943
+D1
+Too dark to tell..
+~
+~
+0 0 2942
+S
+#2948
+Tiger Pit!!~
+Tell to thee a tantalizing tale of tigers trusting truly twirling turnabouts the trees.
+          __Top_3_Reasons_Not_To_Bother_Tigers__
+                      3.  They will get you.
+                      2. The EPA will get you.
+                      1. I will get you!
+~
+29 a 3
+D0
+Too dark to tell..
+~
+~
+0 0 2944
+D3
+Too dark to tell..
+~
+~
+0 0 2942
+S
+#2949
+Walkin' In a Jungle Wonderland~
+   Everything is starting to resemble a cartoon here..  Even your skin is
+looking unnaturally pink..  Well..  Cartoons always have a happy ending..  
+Right?  Except for that one time that Wyl E.  Coyote decided to...  Oh well,
+it's best I leave you alone to do you work.    
+~
+29 0 3
+D2
+More jungly stuff!
+~
+~
+0 0 2958
+D3
+More of this wild place..
+~
+~
+0 0 2939
+S
+#2950
+Tropical Jungle~
+   Whew, it's getting sorta hot!  Maybe you should remove some of them clothes
+you have on...  Or ask them to turn the thermostat down a bit!  Hehe..  
+Anyways, this is just the right weather for snakes to be lurking around, so
+watch out..    
+~
+29 0 3
+D0
+I see jungle!
+~
+~
+0 0 2936
+D1
+More of the jungle..
+~
+~
+0 0 2951
+S
+#2951
+Jungle~
+   Well, this just appears to be another spot in the jungle..  Not much here,
+but if you look off to the south you will see a giant anthill!  You can't tell
+what kind of ants they are, but remember many things are poisonous in the
+jungle!    
+~
+29 0 3
+D0
+More of the jungle..
+~
+~
+0 0 2939
+D1
+More of the jungle..
+~
+~
+0 0 2958
+D3
+More of the jungle..
+~
+~
+0 0 2950
+S
+#2952
+Entrance to the Robinson's Hut~
+   Before you stands one of the most inviting huts you have ever seen.  It
+actually looks more like a mansion than a hut.  Ladders stretch down from the
+many rooms, and birds and other assorted animals stare at you with a look of
+kindness.  To enter the hut, climb up the ladder.    
+~
+29 0 3
+D3
+Back to the top of the tree..
+~
+~
+0 0 2920
+D4
+Up the ladder..
+~
+~
+0 0 2953
+S
+#2953
+Up the Ladder~
+   You're pretty much halfway to the hut, don't fall down now!  The rope
+ladder, though very thin, seems sturdy enough to hold your weight and several
+other people's.    
+~
+29 0 3
+D4
+Outside the Huts
+~
+~
+0 0 2954
+D5
+Down the ladder..
+~
+~
+0 0 2952
+S
+#2954
+Before the Huts~
+   This is a lot more than you ever expected for a hut!  Bamboo pipes run along
+the whole length of the place carrying in fresh water, and windmills generate
+small amounts of electricity.  Off to the west you see the elegant hut of Mr.
+And Mrs.  Robinson, and over to the east is the large hut that the kids share.
+  
+~
+29 0 3
+D1
+The Robinson kids' hut.
+~
+~
+0 0 2956
+D3
+Mr. and Mrs. Robinson's hut
+~
+~
+0 0 2955
+D5
+A rope ladder awaits to take you down..
+~
+~
+0 0 2953
+S
+#2955
+Mr. and Mrs. Robinson's Hut~
+   This is a most elegant hut, better than that of many hotels!  Grass curtains
+adorn the windows and rustle in the breeze.  A large bed catches your attention
+in the center of the room.  Somewhere a radio is playing soft romantic music,
+which goes along just right with the skylight in the ceiling, showing off the
+beautiful starry night.    
+~
+29 0 3
+D1
+The top of the ladder.
+~
+~
+0 0 2954
+D4
+Up through the skylight.
+~
+~
+0 0 2957
+S
+#2956
+Kids' Hut~
+   This hut is much larger than the others, but a lot simpler as well.  There
+are four bunk beds scattered around the room, one for each of the boys.  
+Clothes litter the floor, and animals scurry around.  A large fan turns in one
+corner blowing air throughout the room.    
+~
+29 0 3
+D3
+The top of the ladder.
+~
+~
+0 0 2954
+S
+#2957
+On the Roof~
+   This roof would have the most excellent view, if it were not for the trees
+overhead!  Still, it is a nice quiet place to sit and talk with a loved one.  
+Talk that is!  Just talk!  Heheh..    
+~
+29 0 3
+D5
+Back into the bedroom..
+~
+~
+0 0 2955
+S
+#2958
+The Jungle~
+   The tropical birds tearing apart bugs with their teeth remind you that even
+a utopia has its hidden flaws.  What is wrong with this picture?  Maybe you
+should find out..  By the way, have you seen Dr.  Watson?    
+~
+29 0 3
+D0
+More of the jungle..
+~
+~
+0 0 2949
+D2
+More of the jungle..?
+~
+~
+0 0 2959
+D3
+More of the jungle..
+~
+~
+0 0 2951
+S
+#2959
+In the Jungle~
+   Suddenly, you've come to a clearing..  Where did all the animals go?  Plant
+life is more sparse and brown with drought.  You smell smoke in the air.  
+Something fishy might be going on..    
+~
+29 0 3
+D0
+More of the jungle..
+~
+~
+0 0 2958
+D2
+Is that a gate of some kind?
+~
+~
+0 0 2960
+S
+#2960
+Before the Gates~
+   Out of nowhere, you now stand before two giant bamboo gates.  They are
+painted with some kind of strange symbols, which you cannot even begin to
+decipher.  What lies within?  Only you can find out..    
+~
+29 0 3
+D0
+The dead jungle..
+~
+~
+0 0 2959
+D2
+Inside the City
+~
+gate~
+1 2919 2961
+S
+#2961
+Within the Village~
+   Ahh..  At last you got on, although those guards looked tricky.  You're now
+within a village, but it hardly looks civilized.  Citizens run around savagely
+making grunting noises and pointing at you.  Are you quite sure you're welcome
+here?    
+~
+29 0 3
+D0
+Back through the gates..
+~
+gate~
+1 2919 2960
+D1
+More of this scary village..
+~
+~
+0 0 2962
+D2
+More of this horrible village..
+~
+~
+0 0 2965
+D3
+More of this horrible village..
+~
+~
+0 0 2963
+S
+#2962
+Inside the Village~
+   What were you ever thinking when you came in here?  This isn't at all the
+place where you want to be, maybe you should consider recalling now before
+you're in too deep..  Remember that some things are not what they seem, all
+that glitters is not gold.    
+~
+29 0 3
+D2
+More of this horrible village..
+~
+~
+0 0 2964
+D3
+More of this horrible village..
+~
+~
+0 0 2961
+S
+#2963
+Inside the Village~
+   Sickness, drought, famine, voodoo, murder..  This place has it all..  ...  
+What???  Yeh, so i said voodoo..  Muwhhahahaha!    
+~
+29 0 3
+D1
+More of this horrible village..
+~
+~
+0 0 2961
+D2
+More of this horrible village..
+~
+~
+0 0 2966
+S
+#2964
+Within the Village~
+   'This could be one heck of a quaint little peaceful village..  Supposing you
+could get rid of the cannibals and rescue Dr.  Watson,' quotes a scared native
+in hiding.....  Dr Watson?  Here??!?  Whoa better hurry before he's eaten
+alive!    
+~
+29 0 3
+D0
+More of this horrible village..
+~
+~
+0 0 2962
+D2
+More of this horrible village..
+~
+~
+0 0 2969
+D3
+More of this horrible village..
+~
+~
+0 0 2965
+S
+#2965
+More of the Freakin' Village!~
+   Well, as they say, much of the world is uncivilized, but it's not worth the
+trouble to try!  That seems how this place is, because the further inside the
+walls you go, the more it seems like a madhouse.  To your south a little ways
+is the large central hut.  What could be inside?    
+~
+29 0 3
+D0
+More of this horrible village..
+~
+~
+0 0 2961
+D1
+More of this horrible village..
+~
+~
+0 0 2964
+D2
+More of this horrible village..
+~
+~
+0 0 2967
+D3
+More of this horrible village..
+~
+~
+0 0 2966
+S
+#2966
+Within the Village~
+   The closer you come to this central hut, the more nervous you become..  
+What's inside?  It's bout time you just got the heck out of here and went back
+to your peaceful life.  Wasn't this supposed to be a vacation anyway?    
+~
+29 0 3
+D0
+More of this horrible village..
+~
+~
+0 0 2963
+D1
+More of this horrible village..
+~
+~
+0 0 2965
+D2
+More of this horrible village..
+~
+~
+0 0 2968
+S
+#2967
+Before the Hut~
+   Now that you have finally reached the massive hut, you realize how big it
+really is.  The guards are watching you closely, so be careful on your way in..
+That smoke sure doesn't seem natural!!    
+~
+29 0 3
+D0
+More of this horrible village..
+~
+~
+0 0 2965
+D1
+More of this horrible village..
+~
+~
+0 0 2969
+D2
+Inside the hut
+~
+~
+0 0 2970
+D3
+More of the horrible village..
+~
+~
+0 0 2968
+S
+#2968
+Within the Village~
+   You'll be glad to get away from this place, and hopefully you'll escape
+unharmed.  That smoke does seem to make you want to sleep..  Now what was that
+about voodoo?  Nah, no one would wanna hurt you, or would they?    
+~
+29 0 3
+D0
+More of this horrible village..
+~
+~
+0 0 2966
+D1
+More of this horrible village..
+~
+~
+0 0 2967
+S
+#2969
+Within the Village~
+   What's that smell?  The roof, the roof, the roof is on fire!  Indeed, smoke
+seems to be coming from the main hut, and you aren't sure whether it should be
+that way or not..  Better hurry, Dr.  Watson is inside!    
+~
+29 0 3
+D0
+More of this horrible village..
+~
+~
+0 0 2964
+D3
+More of this horrible village..
+~
+~
+0 0 2967
+S
+#2970
+Inside the Hut~
+   It's so smoky in here you can barely see!  This is obviously the town bank,
+because mountains of treasure little the rooms.  Off to the east and west are
+relaxing thrones with all the slaves and treasure you want, but you hear
+screaming to the south.  This room just seems so peaceful..  Maybe you should
+just sit down a moment..  And let Dr.  Watson burn..    
+~
+29 0 3
+D0
+Outside the hut
+~
+~
+0 0 2967
+D1
+Ahhh...so peaceful..
+~
+~
+0 0 2971
+D2
+The torture chamber..
+~
+~
+0 0 2973
+D3
+Ahh..soo peaceful..
+~
+~
+0 0 2972
+S
+#2971
+Peaceful Nook~
+   You are getting veeeeeeeeeery sleepy.  This would be a most excellent place
+to take a nap..  A featherbed is awaiting your body.  Will you accept the offer
+or go back and fight?  It's all up to you...  Mmmm...  Sleep..    
+~
+29 e 3
+D3
+Foyer of the hut..
+~
+~
+0 0 2970
+S
+#2972
+Peaceful Nook~
+   Strong incense drifts into this room, and sleep tries to overcome you..  
+Can you resist?  Images of the most loved one you know arise in your head, and
+you find it hard to avoid daydreaming....  WAKE UP!!  DR.  WATSON NEEDS YOUR
+HELP!!    
+~
+29 e 3
+D1
+Foyer of the hut..
+~
+~
+0 0 2970
+S
+#2973
+The Torture Chamber!~
+   Oh no!  As you look around the room, you see undescribable things that make
+you cringe with terror!  It's all so horrible...  And to think Dr.  Watson's
+been through this?  Why, it's enough to make someone turn pure evil..  Which
+would mean..  Uh oh..    
+~
+29 0 3
+D0
+Foyer of the hut..
+~
+~
+0 0 2970
+D2
+The treasure room!!
+~
+door~
+1 2920 2974
+S
+#2974
+Treasure Room!~
+   Ahh at last, the treasure is all yours!  You completed your task, hopefully
+without too much trouble.  Now all you have to do is return home, and hopefully
+next time youll get a real vacation!    
+~
+29 e 3
+D0
+The torture chamber..
+~
+~
+1 2920 2973
+S
+#2975
+Front Door~
+   Seems you have reached some sort of house.  It looks very quaint, and
+appears to belong in the early 1900s in the Midwest U.  S.  No one seems to be
+inside..  Where could they all be?  The door is open, so just walk right in.  
+
+~
+29 0 2
+D1
+~
+~
+0 0 360
+D3
+Inside the house..
+~
+~
+0 0 2976
+S
+#2976
+Inside the House~
+   Aww, what a cute little cottage!  This place appears to be somewhat like
+where your granny lives, with all the old furniture and musty smell..  Off to
+the north and south are bedrooms, and to the west is a kitchen.    
+~
+29 0 0
+D0
+A bedroom lies ahead..
+~
+~
+0 0 2977
+D1
+Back outside again..
+~
+~
+0 0 2975
+D2
+Yet another bedroom..
+~
+~
+0 0 2978
+D3
+I see a kitchen, and is that a door?
+~
+~
+0 0 2979
+S
+#2977
+Dorothy's Bedroom~
+   Aha, so you think you know where you are now??  Good job!  You're in a
+bedroom..  Although it's pretty much empty..  Someone left in a real hurry!  
+They didn't even take their suitcase..  Hmm wonder what's in it..    
+~
+29 0 0
+D2
+The main room of this house..
+~
+~
+0 0 2976
+S
+#2978
+Another Bedroom~
+   This room looks peaceful, yet antique.  A full size bed is here...  And
+wait..  For two people!?!  Whoa, what happened to kings and queens?  There is a
+window along the wall here, and you notice that the weather isn't looking very
+good at all!!    
+~
+29 0 0
+D0
+The main room of this house..
+~
+~
+0 0 2976
+S
+#2979
+The Kitchen~
+   I can't believe it..  It's taken you this long to realize everything is in
+black and white?  Weird...  Oh yeh, you are color, and so are a few other
+things, but look, things just aren't naturally those colors!  There is a basket
+of fruit on the table with gray bananas and black apples..  Something's wrong
+here!  There is a door to the west..    
+~
+29 0 0
+D1
+The main room of this house..
+~
+~
+0 0 2976
+D3
+Outside once again..
+~
+door~
+1 0 2980
+S
+#2980
+The Front Porch?~
+   Whoa!  Watch your step!  What the heck is going on here?  You arrive on the
+front porch, but where it ends, there's only sky!  Everything is quickly
+twirling around you..  What's with that?  It seems you're in the center of a
+TORNADO!!  You can either go back into the house and wait it out, or be brave
+and jump into the tornado and get somewhere..    
+~
+29 0 0
+D1
+Inside the house..
+~
+door~
+1 0 2979
+D5
+Down into the tornado!!
+~
+~
+0 0 2981
+S
+#2981
+Twister!!!~
+   Interesting experience it is, to be in a tornado.  In fact, I don't know of
+many people who have gone into one and still come out alive, but that's ok..  
+Because you're brave and strong and will survive..  Right?    
+~
+29 f 0
+D4
+Back to the porch..
+~
+~
+0 0 2980
+D5
+Tornado!
+~
+~
+0 0 2982
+S
+#2982
+Twister!!!~
+   You spin me right round, baby, right round..  Like a record baby, right
+round, round round...  You motion sick yet?  Muhahaha this is only the
+beginning!!    
+~
+29 f 0
+D1
+~
+~
+0 0 -1
+D4
+More tornado!
+~
+~
+0 0 2981
+D5
+More tornado!!
+~
+~
+0 0 2983
+S
+#2983
+Twister!!!~
+   Really, this whole spinning thing is starting to get annoying.  The wind
+whips you around in circles over and over and over..  Like some out of control
+amusement park ride!!  Hopefully it'll all end soon..    
+~
+29 f 0
+D4
+More tornado!!
+~
+~
+0 0 2982
+D5
+More tornado..
+~
+~
+0 0 2984
+S
+#2984
+Twister!!~
+   Did you ever realize how closely this tornado resembles a washing machine?
+Seems like it's in the spin cycle nonstop!!  ...  (haha laugh?  )
+~
+29 f 0
+D4
+More tornado..
+~
+~
+0 0 2983
+D5
+More tornado..
+~
+~
+0 0 2985
+S
+#2985
+Twister!!~
+   Everything is suddenly spinning muuuchhh slower....  Could you be near the
+bottom?  And where are you?  ..  Where WERE you?  The state of midair?    
+~
+29 f 0
+D4
+More tornado..
+~
+~
+0 0 2984
+D5
+~
+~
+0 0 2986
+S
+#2986
+Ground Bottom!~
+   Ahh..  At last, with a crash and a bang, you've reached the bottom..  Flat
+on your back..  As you look around, you notice the green sky, and blue grass..
+What the heck!??!  I don't think we're in Kansas anymore..    
+~
+29 0 0
+D3
+~
+~
+0 0 2987
+D4
+The tornado!!
+~
+~
+0 0 2985
+S
+#2987
+Munchkin Land~
+   Ahh..  What's this?  Little people!!  The munchkins are all staring at you
+oddly..  What??  What??  One of them runs up to you and says, 'The Wicked Witch
+of the West took Dorothy!!  You have to get her back!!  ' Follow the yellow
+brick road...    
+~
+29 0 0
+D0
+Follow the yellow brick road!
+~
+~
+0 0 2989
+D1
+~
+~
+0 0 2986
+D2
+Follow the yellow brick road!
+~
+~
+0 0 2988
+D3
+Follow the yellow brick road!
+~
+~
+0 0 2990
+S
+#2988
+Munchkin Land~
+   This place seems awfully cheery, but hey!  It's their job.  Everyone is
+dressed in blue, as that's the Munchkins' favorite color.  Several important
+looking people run around in sparkly suits, obviously the city officials.  
+Over in one corner you see the Munchkin Mayor escorted by several lovely young
+ladies.
+~
+29 0 0
+D0
+Follow the yellow brick road!
+~
+~
+0 0 2987
+D3
+Follow the yellow brick road!!
+~
+~
+0 0 2993
+S
+#2989
+Munchkin Land~
+   Hmm..  According to the story, there should be some ruby slippers
+somewhere..  But where??  Oh yes, you musn't forget that Dorothy is somewhere
+in here!  She must have them..  One could get quite good money for a pair...  
+Are you thinking what I am?    
+~
+29 0 0
+D2
+Follow the yellow brick road!!
+~
+~
+0 0 2987
+D3
+Follow the yellow brick road!!
+~
+~
+0 0 2992
+S
+#2990
+The Yellow Brick Road~
+   You are now standing on a brick road, with yellow bricks!!  It seems quite
+nice to walk upon, smooth and clean.  Off to the north and south is still the
+Munchkin City, and all the little munchkins are bidding you farewell.  Dang
+little buggers!!    
+~
+29 0 0
+D0
+Follow the yellow brick road!!
+~
+~
+0 0 2992
+D1
+Follow the yellow brick road!
+~
+~
+0 0 2987
+D2
+Follow the yellow brick road!!
+~
+~
+0 0 2993
+D3
+Follow the yellow brick road!!
+~
+~
+0 0 2991
+S
+#2991
+The Yellow Brick Road~
+   Well, you now stand on the edge of the city..  I suppose it's time to go
+find that witch and kill her!!  How you're gonna do it, I have no clue..  Good
+luck!    
+~
+29 0 0
+D0
+Follow the yellow brick road!!
+~
+~
+0 0 2995
+D1
+Follow the yellow brick road!!
+~
+~
+0 0 2990
+D2
+Follow the yellow brick road!!
+~
+~
+0 0 2996
+D3
+Follow the yellow brick road!!
+~
+~
+0 0 2994
+S
+#2992
+Munchkin Land~
+A group of little munchkins comes up to you and sings,
+     'We represent, the Lullaby League, the Lullaby League, the Lullaby League,
+      And in the name of, the Lullaby League...We wish to welcome you
+      To Munchkin Land!'
+
+Awww, how sweet!!
+~
+29 0 0
+D1
+Follow the yellow brick road!!
+~
+~
+0 0 2989
+D2
+Follow the yellow brick road!!
+~
+~
+0 0 2990
+D3
+Follow the yellow brick road!!
+~
+~
+0 0 2995
+S
+#2993
+Munchkin Land~
+   It's really time for you to get going...  Remember that hourglass?  Ya know,
+the witch could be using it riiiiiight now..  You're Dorothy's only hope!!  
+Hurry!    
+~
+29 0 0
+D0
+Follow the yellow brick road!!
+~
+~
+0 0 2990
+D1
+Follow the yellow brick road!!
+~
+~
+0 0 2988
+D3
+Follow the yellow brick road!!
+~
+~
+0 0 2996
+S
+#2994
+The Yellow Brick Road~
+   You now stand in the midst of many, many Munchkin cornfields.  The crows are
+flying in the sky waiting to rip your head off!!  Better keep going and watch
+your head!    
+~
+29 0 0
+D1
+Follow the yellow brick road!!
+~
+~
+0 0 2991
+D3
+Follow the yellow brick road!!
+~
+~
+0 0 2997
+S
+#2995
+Munchkin Land~
+   This is just another boring little corner of the Munchkin City!  ..  
+Haven't you got something better to do?  Killing harmless little munchkins??  
+Why, that's HORRIBLE!!!!    
+~
+29 0 0
+D1
+Follow the yellow brick road!!
+~
+~
+0 0 2992
+D2
+Follow the yellow brick road!!
+~
+~
+0 0 2991
+S
+#2996
+Munchkin Land~
+   Ever wonder how little people got so little?  What happens when you breed a
+giant and a Munchkin?  Oh wait..  Maybe that's how humans came about..  Duh!  
+
+~
+29 0 0
+D0
+Follow the yellow brick road!!
+~
+~
+0 0 2991
+D1
+Follow the yellow brick road!!
+~
+~
+0 0 2993
+S
+#2997
+The Yellow Brick Road~
+   There is a corn field to your south, and a bean field to your north..  
+Actually, it looks like there's some sort of path into the cornfield..  Maybe
+you should check it out..    
+~
+29 0 0
+D1
+Follow the yellow brick road!!
+~
+~
+0 0 2994
+D2
+Follow the yellow brick road!!
+~
+~
+0 0 2998
+D3
+Follow the yellow brick road!!
+~
+~
+0 0 2999
+S
+#2998
+In a Cornfield~
+   Well..  It certainly is....  Itchy in here.  A path goes on further into the
+corn..  What is it?  A maze?  Hmm..    
+~
+29 0 0
+D0
+Follow the yellow brick road!!
+~
+~
+0 0 2997
+D2
+Further into the cornfield..
+~
+~
+0 0 3800
+S
+#2999
+The Yellow Brick Road~
+   Ahh..  In the middle of the road, you see a solid gold brick rather than a
+yellow brick.  Pretty cool huh?  It appears to have some writing on it.  Go
+ahead, read it, then hurry!  Dorothy awaits you on your long journey..    
+~
+29 0 0
+D1
+Follow the yellow brick road!!
+~
+~
+0 0 2997
+D3
+Follow the yellow brick road!!
+~
+<none>~
+0 0 3801
+E
+brick~
+The brick says:
+     Now leaving Munchkin Property.  Have fun!
+     Watch out for the crows.
+          -The Mayor
+~
+S
+$~

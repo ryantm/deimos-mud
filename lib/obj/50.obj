@@ -1,0 +1,71 @@
+#5000
+red flag~
+&RRED FLAG&n~
+The &RRED FLAG&n is right here!~
+~
+0 67108864 1 0
+0 0 0 0
+0 0 0 0
+#5001
+blue flag~
+&BBLUE FLAG&n~
+The &BBLUE FLAG&n is right here!~
+~
+0 33554432 1 0
+0 0 0 0
+0 0 0 0
+#5097
+sleeves dragonscale~
+&GD&Wr&Ga&Wg&Go&Wn&Gs&Wc&Ga&Wl&Ge&n &GS&Wl&Ge&We&Gv&We&Gs&n~
+A pair of dragonskin sleeves is lying here.~
+~
+11 8454152 257 66
+0 0 0 0
+0 0 0 0
+A
+12 25
+A
+13 25
+A
+18 4
+A
+19 4
+#5098
+leggings dragonscale~
+&GD&Wr&Ga&Wg&Go&Wn&Gs&Wc&Ga&Wl&Ge &Gl&We&Gg&Wg&Gi&Wn&Gg&Ws&n~
+A pair of dragonskin legging is lying here.~
+~
+11 8454152 33 0
+0 0 0 0
+1 0 0 0
+A
+13 25
+A
+12 15
+A
+17 12
+A
+18 4
+A
+19 5
+#5099
+aerith cloak darkness~
+Aerith's Cloak of &DDarkness&n~
+A strange looking cloak that seem to be surrounded by darkness is lying here.~
+~
+11 8389696 5 12583040
+0 0 0 0
+0 0 0 0
+A
+13 80
+A
+13 80
+A
+1 10
+A
+5 10
+A
+18 100
+A
+19 100
+$~

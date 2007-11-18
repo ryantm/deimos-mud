@@ -1,0 +1,89 @@
+CircleMUD v3.0 Shop File~
+#1900~
+1901
+1902
+1903
+1905
+-1
+1.50
+1.00
+-1
+%s Pick something I have will ya!~
+%s Ok, How am I gonna but something you dont have?~
+%s That item isn't worth a dime to me.~
+%s I'm broke at the moment.~
+%s You seem to be short. It's to bad we don't take credit cards.~
+%s Thanks for the %d coins.~
+%s Here, have %d coins.~
+0
+2
+1903
+0
+1903
+-1
+0
+28
+0
+0
+#1901~
+1906
+1907
+1908
+1909
+1910
+-1
+2.00
+1.00
+-1
+%s Sorry, I don't sell that size cup.~
+%s You don't have that item.~
+%s I don't want that. I only sell cups.~
+%s I can't buy that right now. I'm a little short on gold.~
+%s Yori told me not to sell to broke people.~
+%s Thank's for the %d coins. Tell your friends.~
+%s Here's %d coins for that.~
+0
+2
+1902
+0
+1925
+-1
+0
+28
+0
+0
+#1902~
+1911
+1912
+1913
+1914
+1915
+1916
+1917
+1918
+1919
+1920
+1921
+1922
+-1
+2.00
+1.00
+-1
+%s Sorry, I don't sell those.~
+%s You dont have that.~
+%s I don't trade in such items.~
+%s I can't afford that!~
+%s You are too poor!~
+%s That'll be %d coins, thanks.~
+%s I'll give you %d coins for that.~
+0
+2
+1905
+0
+1924
+-1
+0
+28
+0
+0
+$~

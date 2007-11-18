@@ -1,0 +1,115 @@
+2
+ls
+9
+look seph
+0
+3
+str
+17
+cast ' strength '
+0
+5
+float
+14
+cast ' float '
+0
+6
+summon
+17
+cast ' summon '$1
+1
+4
+auro
+11
+cast 'auro'
+0
+6
+locate
+22
+cast 'locate object'$1
+1
+4
+iden
+13
+cast 'iden'$1
+1
+2
+bl
+11
+c 'blind'$1
+1
+2
+dm
+20
+c ' dispel magic '$1
+1
+2
+sl
+11
+c 'sleep'$1
+1
+5
+invis
+14
+cast ' invis '
+0
+5
+sense
+19
+cast ' sense life '
+0
+6
+chunks
+28
+cast ' locate object ' chunk
+0
+4
+sanc
+13
+cast ' sanc '
+0
+2
+qb
+10
+quaff blue
+0
+5
+bless
+14
+cast ' bless '
+0
+4
+heal
+13
+cast ' heal '
+0
+2
+qh
+12
+quaff health
+0
+4
+word
+23
+cast ' word of recall '
+0
+2
+di
+22
+cast ' detect invis ' 
+0
+2
+sn
+5
+sneak
+0
+2
+st
+5
+stand
+0
+2
+df
+14
+drink fountain
+0

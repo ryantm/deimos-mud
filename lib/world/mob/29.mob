@@ -1,0 +1,310 @@
+#2900
+monster~
+the Mud Monster~
+The Mud Monster awaits here to KILL YOU!!
+~
+He is a gigantic mass of gooey mud, and looks strong enough to kill you without thinking about it.  You can't see eyes or any other facial features, but it still feels like he is watching you.
+~
+6248 8 -200 E
+20 15 4 20d20+400 10d10+5
+20000 400000
+12 12 1
+BareHandAttack: 10
+E
+#2901
+snake~
+the sand snake~
+A sand snake slithers sneakily surrounding you.
+~
+It looks unfinished.
+You see a white snake, colored perfectly to match the sand.  He looks deathly!
+~
+104 1024 0 E
+32 12 0 32d32+1024 16d16+8
+51200 1024000
+12 12 0
+BareHandAttack: 4
+E
+#2902
+man~
+the wise old man~
+A wise old man rests here.
+~
+   His face is completely immersed with wrinkles, excluding his sparkling blue
+eyes that look as young as that of an infant.    
+~
+10 2110624 1000 E
+20 15 4 20d20+400 10d10+5
+20000 140000
+12 12 0
+E
+#2903
+angel fish~
+an angelfish~
+A beautiful angelfish flutters her fins.
+~
+She is a beautiful shade of silver, with black stripes along her sleek body.
+~
+32780 0 100 E
+34 12 0 34d34+1156 17d17+8
+57800 404600
+12 12 2
+BareHandAttack: 2
+E
+#2904
+fire scorpion~
+a fire scorpion~
+A fire scorpion sneaks around.
+~
+   It's skin is a fiery shade of red, almost like glowing coals.  He has two
+small beady eyes on his head, and a massive tail that looks strong enough to
+kill, ended with a deadly stinger.    
+~
+522 32768 -500 E
+33 12 0 33d33+1089 16d16+8
+54450 1056000
+12 12 1
+BareHandAttack: 1
+E
+#2905
+a monkey~
+a monkey~
+A monkey hangs here in the branches.
+~
+He looks quite mischievious.
+~
+158 0 0 E
+35 12 0 35d35+1225 17d17+8
+61250 1120000
+12 12 1
+E
+#2906
+killer flower~
+a killer flower~
+A killer flower waits to eat you.
+~
+   This thing looks like it belongs in a Nintendo game!  Its head bobs up and
+down, mostly green with a red mouth and spikes.  Just remember, don't jump up
+into the ones that hang from the ceiling!    
+~
+2586 0 -1000 E
+35 12 0 35d35+1225 17d17+8
+61250 1120000
+12 12 0
+BareHandAttack: 11
+E
+#2907
+toucan~
+a toucan~
+A toucan ruffles its feathers in your presence.
+~
+Its feathers are multi-colored, like that of the Froot Loops bird!
+~
+10 0 50 E
+36 11 0 36d36+1296 18d18+9
+64800 1152000
+12 12 1
+BareHandAttack: 9
+E
+#2908
+father marmoset~
+the father marmoset~
+The father marmoset crouches here protecting his children.
+~
+It looks like your average marmoset should.
+~
+36874 0 10 E
+37 11 -1 37d37+1369 18d18+9
+68450 1184000
+12 12 1
+BareHandAttack: 9
+E
+#2909
+mother marmoset~
+the mother marmoset~
+The mother marmoset bathes her young children.
+~
+She looks just like any other marmoset!
+~
+6154 0 25 E
+37 11 -1 37d37+1369 18d18+9
+68450 1184000
+12 12 2
+BareHandAttack: 9
+E
+#2910
+baby marmoset~
+a baby marmoset~
+A baby marmoset sleeps here.
+~
+It's an ooey gooey fur covered mess, but slightly resembles the other marmosets.
+~
+2058 0 50 E
+10 18 7 10d10+100 5d5+2
+5000 80000
+12 12 0
+BareHandAttack: 9
+E
+#2911
+hunter~
+a hunter~
+A hunter stands on guard with his gun.
+~
+He has a fierce look on his face and is dressed in camoflauge, with a bright orange hat.
+~
+1050 0 0 E
+30 13 1 30d30+900 15d15+7
+45000 960000
+12 12 1
+BareHandAttack: 7
+E
+#2912
+Siberian Tiger~
+a Siberian Tiger~
+A Siberian Tiger keeps low to the ground, waiting to pounce.
+~
+His fur is of a bright, snowy white, and his eyes are and icy blue color.
+~
+41000 0 -250 E
+20 15 4 20d20+400 10d10+5
+20000 400000
+12 12 1
+BareHandAttack: 8
+E
+#2913
+Bengal Tiger~
+a Bengal Tiger~
+A Bengal Tiger lounges sleepily.
+~
+The fur of this large creature is fiery orange with daring black stripes; and also you notice his teeth are quite big.
+~
+40 262144 -500 E
+20 15 4 20d20+400 10d10+5
+20000 400000
+12 12 0
+BareHandAttack: 8
+E
+#2914
+Mogli~
+Mogli~
+Mogli carefully balances on a branch.
+~
+He has shoulder length black hair, a deep tan, and a grim look on his face.  Seems like he lost his loincloth somewhere...maybe you shouldn't be bothering him!
+~
+2058 0 0 E
+35 12 0 35d35+1225 17d17+8
+61250 1120000
+12 12 1
+E
+#2915
+Baloo~
+Baloo~
+Baloo stands here singing a song of his better days.
+~
+Although his gray fur is tattered and worn, he still has a wide grin upon his face.
+~
+4362 0 0 E
+35 12 0 35d35+1225 17d17+8
+61250 1120000
+12 12 1
+BareHandAttack: 9
+E
+#2916
+Mr. Robinson~
+Mr. Robinson~
+Mr. Robinson sits here lovingly staring into the eyes of his wife.
+~
+He looks like quite a hardworking man.  His clothes are ripped and his skin is blistered but he has a warm look upon his face as he cuddles with his wife.
+~
+4106 0 300 E
+30 13 1 30d30+900 15d15+7
+45000 960000
+12 12 1
+E
+#2917
+Mrs. Robinson~
+Mrs. Robinson~
+Mrs. Robinson sits here blushing as her husband gazes at her.
+~
+She is covered from head to toe in grime, but still beautiful.
+~
+10 0 0 E
+30 13 1 30d30+900 15d15+7
+45000 960000
+12 12 2
+E
+#2918
+Fritz~
+Fritz~
+Fritz stands here in deep thought of his newest invention.
+~
+Fritz is a young man of great intelligence, except for that stubborn cowlick!
+~
+4106 0 0 E
+30 13 1 30d30+900 15d15+7
+45000 960000
+12 12 1
+E
+#2919
+Ernest~
+Ernest~
+Ernest runs around catching animals..
+~
+He looks like he doesn't even care what he looks like, so long as he has some new pet to entertain.
+~
+10 0 0 E
+30 13 1 30d30+900 15d15+7
+45000 960000
+12 12 1
+E
+#2920
+Sheer Kahn~
+Sheer Kahn~
+Sheer Kahn romps around playfully.
+~
+She looks sly and cunning.
+~
+1050 0 0 E
+35 12 0 35d35+1225 17d17+8
+61250 1120000
+12 12 2
+BareHandAttack: 8
+E
+#2921
+village guard~
+a village guard~
+A village guard watches for anything suspicious.
+~
+He looks very brave and tough, and the war paint on his face shows that he means business.
+~
+250378 0 -1000 E
+20 15 4 20d20+400 10d10+5
+20000 400000
+12 12 1
+BareHandAttack: 11
+E
+#2922
+cannibal~
+a cannibal~
+A cannibal stares hungrily at you.
+~
+It looks unfed, uneducated, uncivilized, and unkempt! Also, UNFRIENDLY!
+~
+40 0 -1000 E
+30 13 1 30d30+900 15d15+7
+45000 960000
+12 12 0
+E
+#2923
+Dr. Watson~
+Dr. Watson~
+Dr. Watson stands here with an insane look in his eyes..watch out! He's gone EVIL!
+~
+He looks like himself!
+~
+245822 0 -1000 E
+36 11 0 36d36+1296 18d18+9
+64800 1152000
+12 12 1
+E
+$

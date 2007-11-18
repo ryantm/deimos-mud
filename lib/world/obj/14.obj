@@ -1,0 +1,451 @@
+#1400
+@~
+it~
+It is lying here.~
+It.
+Poor you, have fun getting rid of it. It is a family fun torture tool. Widely used in ancient times, this item is dreaded!
+If you have it, well, you must be an idiot. 
+Unfortunately, it does not like having its feelings hurt, so you can't get rid of it.
+~
+12 140 1 512
+0 0 0 0
+0 0 0 0
+#1401
+Lyra's 'DeimosMUD for Dummies' book~
+Lyra's 'DeimosMUD for Dummies' book~
+A book is lying here.~
+This is Lyra's personal little help guide for new immortals..or old ones.
+Make sure you type read 'chapter1' or 'chapter2' etc.
+Chapter1= Being an Idiot
+Chapter2= OLC (REDIT)
+~
+16 1 1 0
+0 0 0 0
+0 0 0 0
+E
+Chapter2~
+   If Lyra said she'd teach you OLC, and she hasn't yet (she's a busy chica!  
+),then look at this first.  It may be of some help.  Depending on how much you
+know, i'll start from the very beginning.  This is a computer.  You are typing
+with a keyboard, a modern-style typewriter..  Ok, hopefully you know that junk
+Now that you are (hopefully) immortal here, you will need a zone.  Type 'stat
+me' and look for the OLC section, which will have a number by it.  If that
+number isn't -1, then you have a zone!  Your zone rooms are your zone number
+00-99, meaning if you had zone 99, then your rooms are 9900 to 9999 You won't
+be able to edit any other zones while you are set to this zone.  Depending on
+who gave you your zone, you may already have empty rooms made for you.  Type
+rlist <yourzone's first #> <Your zone's last #> to see how many rooms are
+already made for you.  If you have rooms already made, it is easier because you
+can map out things first and make rooms later.  If you don't have rooms, you
+will have to work harder.  The main thing you will be building is rooms.  To do
+this, you type redit.  If you are in your zone in a room, then you can redit
+the room you are standing in.  But if you have no rooms, then you have to type
+'redit <room#>' to make it.    
+Now, the way to use your redit:
+1)Name  : {I think this is pretty self explanatory.. just put in your room title.}
+2) Description:  This is what a mortal will see when they walk into the room.. enter a few lines, preferably at least three, and make them let us know what your room is like. :-) To start out editing, you'll need to type /c to clear out what was there.
+Then enter a few lines, making sure to hit enter after every sentence or so, so that your lines aren't too long and don't get cut off.  Then when you are done type /fi so your description looks like a paragraph, then @ or /s to save it.
+3) Roomflags:  {This is probably one of the most confusing ones to you... Even I don't understand all of the commands, but you don't need to use them all.
+Dark= A mortal will need a light to be able to see the description and such in this room.
+Death= A deathtrap!  Kills the mortal and they are unable to get their corpse or belongings.
+!Mob= No wandering mobs will come in.
+Indoors= Doesn't really matter.. just means you aren't outside :-) If there's something special for this then ask an imp, not me.
+Peaceful= You won't be able to attack a mob in this room.
+Soundproof=  A mortal will not be able to use any of the public or tell channels from this room.
+!Track= You cannot be tracked in this room.
+!Magic= Prevents a mortal from using magic or spells.  Be careful as this will prevent them from using recall spells or scrolls!
+Tunnel:  I think this pretty much only lets one person in.
+Private:  Not sure..I think it only lets two people in a room then gives you a message saying a private conversation is in progress.
+Godroom= Only Implementors can go in on their own...don't make these!
+Good_regen= A mortal character going there will heal faster..limit your use of this.
+I know i've left out a few commands, but it's ok!
+4) Sector : {You really don't need to worry about this.}
+5, 6, 7, 8, 9, a) {exits!}
+We now have the dig command, which will link a room to another and make the exit back for you.. to use it type 'dig <direction> #'  Please try not to make typos into other people's zones!!
+When you are making an exit, just enter in the number.. if you have a door, you will have to give it a keyword and set it as a door also.  
+To have it a locked door, there are TWO steps.  First make a key with oedit and enter it's number into the right spot (#4).  THEN you will have to zedit set the door as locked, but i'll explain it more later.
+To purge an exit, just type 6.
+B) Extra descriptions:
+This is how you can make a sign on the wall and such.  They are very easy usually.
+Just type in what you want for the description and save it! That easy!
+When you are done, quit, save, and then type redit save.
+~
+E
+Chapter1~
+   Believe it or not, it happens everywhere, even here.  You are most likely an
+immortal now, so please be serious.  First of all, if you have come to be a
+builder, then actually building.  Talking to others and having fun is allowed
+too, but we don't have a lot of time to waste, so work a lot.  Also, if you
+aren't serious about building here, you might as well self-delete now.  We
+don't need builders that never stop in..  If you are gonna be gone or
+something, just let us know and it'll all be good.  If you don't know OLC, then
+you'll need to be taught.  You can either look in this book or ask a builder or
+implementor.  The head builders are Nightmare and Lyra, we can help you with
+your questions and teach you OLC, that is why we are here.  It's best if you
+have another messenger program if you need help too.  While you're in OLC you
+can't talk, and it's kinda hard to get help.  Someone may snoop you to help
+you, but that's about the only reason you will be watched.  Still, be on your
+best behavior.  That brings me to my next point, DON'T ABUSE THE COMMANDS!  We
+keep losing the cool ones due to misuse.  Yeh, it's probably ok to try out your
+commands a few times to see what they are good for, but repetitiveness is not
+tolerated.  To see some of our rules, type policy or handbook.  Just follow the
+rules, listen to imps, work hard, and have fun!    
+By the way, if you ARE an idiot or dumbass, we'll ban you and make a room just to mock you. :-P
+Also, Confucius gets pissed off really fast, so don't mess with the powerful god!
+~
+#1402
+vending machine~
+a vending machine~
+A vending machine is here! Yummy!  Just say the kind of candy you want after looking at the machine and the lady will give it to you!~
+Inside this vending machine today:
+skittles
+~
+15 0 0 0
+10000 15 1403 0
+0 0 0 0
+E
+machine~
+Inside the machine:
+Skittles
+Twix
+Doritos
+MnM's
+Sweet Tarts
+Lemonheads
+~
+#1403
+vending key~
+vending key~
+A key is lying here.~
+It goes to the vending machine!
+~
+18 128 1 512
+0 0 0 0
+0 0 0 0
+#1404
+skittles~
+a bag of skittles~
+A bag of skittles is lying here.~
+Yummy every color in the rainbow!
+~
+19 0 1 0
+1 0 0 0
+0 50 0 0
+#1405
+twix~
+a Twix bar~
+A Twix bar is lying here.~
+Crunchy cookie, creamy chocolate, chewy caramel. :-)
+~
+19 0 1 0
+1 0 0 0
+0 50 0 0
+#1406
+Lemonheads~
+a box of Lemonheads~
+A box of Lemonheads is lying here.~
+   They look like little yellow gumdrops, only sour on the outside.    
+~
+19 0 1 0
+10 0 0 0
+0 50 0 0
+#1407
+Doritos~
+a bag of Doritos~
+A bag of Doritos is lying here.~
+Yummy, they're the ranch kind!
+~
+19 0 1 0
+1 0 0 5
+0 50 0 0
+#1408
+MnM's~
+a bag of milk chocolate MnM's~
+A bag of milk chocolate MnM's is lying here.~
+They're the new, 'Milk Chocolate' kind...aka PLAIN.
+They're the new, "Milk Chocolate" kind..AKA PLAIN!
+~
+19 0 1 0
+1 0 0 0
+0 50 0 0
+#1409
+Sweet Tarts ~
+a package of Sweet Tarts~
+A package of Sweet Tarts is lying here.~
+The package says Sweet Tarts!! Looks like food!
+~
+19 0 1 0
+0 0 0 0
+0 50 0 0
+#1410
+trophy case~
+a trophy case~
+A trophy case is lying here.~
+It has many trophies in it, sports and music and academic too.  Don't open it!
+~
+15 1 0 0
+10000 5 -1 0
+200 0 0 0
+#1411
+trophy~
+a trophy~
+A trophy is lying here.~
+This is just one of many trophies that this school has won.
+~
+8 0 1 0
+0 0 0 0
+10 0 0 0
+T 1409
+#1412
+educational magazine~
+an educational magazine~
+An educational magazine is lying here.~
+It appears to be a National Geographic.
+~
+16 0 1 0
+0 0 0 0
+1 0 0 0
+#1413
+tray~
+a tray~
+A tray is lying here.~
+It looks like your average lunch tray.
+~
+15 0 1 0
+100 0 -1 0
+2 0 0 0
+#1414
+salmon patty~
+a salmon patty~
+A salmon patty is lying here.~
+Ewww it's absolutely DISGUSTING!
+~
+19 0 1 0
+1332 0 0 3
+0 0 0 0
+#1415
+milk carton~
+a milk carton~
+A milk carton is lying here.~
+MMMM...chocolate milk.
+~
+17 0 1 0
+2 2 10 0
+7 0 0 0
+#1416
+charbroil and cheese sandwich~
+a Charbroil and cheese sandwich~
+A Charbroil and cheese sandwich is lying here.~
+Charbroil and cheese..aka CHEESEBURGER
+~
+19 0 1 0
+0 0 0 0
+1 0 0 0
+#1417
+turkey and swiss sandwich~
+a turkey and swiss sandwich ~
+A turkey and swiss sandwich is lying here.~
+Mmmmm..yummy..
+~
+19 0 1 0
+0 0 0 0
+0 0 0 0
+#1418
+chicken salad sandwich~
+a chicken salad sandwich~
+A chicken salad sandwich is lying here.~
+It looks half frozen!
+~
+19 0 1 0
+0 0 0 0
+0 0 0 0
+#1419
+water fountain~
+a water fountain~
+A water fountain is here.~
+Cold, clear..ish...water
+~
+23 0 0 0
+100000 100000 0 0
+100005 0 0 0
+#1420
+Hostess rack~
+a Hostess rack~
+A Hostess rack is here.~
+It looks like a junk food thing!
+~
+15 0 0 0
+1000 0 -1 0
+0 0 0 0
+#1421
+Twinkies package~
+a package of twinkies~
+A package of Twinkies is lying here.~
+Mmmm....preservatives!
+~
+19 0 1 0
+0 0 0 0
+0 0 0 0
+#1422
+Ho-Ho's~
+a package of Ho-Ho's~
+A package of Ho-Ho's is lying here.~
+Chocolate, creme filling, what more could you want?
+~
+19 0 1 0
+0 0 0 0
+0 0 0 0
+#1423
+Ding Dong's~
+a package of Ding Dong's~
+A package of Ding Dong's is lying here.~
+Yummy!
+~
+19 0 1 0
+0 0 0 0
+0 0 0 0
+#1424
+cooler~
+a cooler~
+A cooler is here.~
+It is full of all kinds of drinks!
+~
+15 0 1 0
+1000 0 -1 0
+0 0 0 0
+#1425
+water bottle~
+a water bottle~
+A water bottle is lying here.~
+It is full of water.
+~
+17 0 1 0
+3 3 0 0
+8 0 0 0
+#1426
+juice ~
+a juice~
+An orange juice is lying here.~
+Sunny Delight, California Style, now with calcium!
+~
+17 0 1 0
+3 3 9 0
+8 0 0 0
+#1427
+Lay's Potato Chips~
+Lay's Potato Chips~
+A bag of Lay's Potato Chips is lying here.~
+Mm...greasy
+~
+19 0 1 0
+0 0 0 0
+0 0 0 0
+#1428
+a literature book~
+a literature book~
+A lonely unopened literature book is collecting dust.~
+It looks brand new..other than the corners ripped off to make spitwads.
+~
+9 262144 513 0
+1 0 0 0
+3 0 0 0
+#1429
+librarian's glasses~
+librarian's glasses~
+A strange pair of glasses is lying here.~
+They look cracked around the edges, plastic rims worn down.
+~
+5 2097152 8193 0
+3 4 1 12
+2 0 0 0
+A
+4 2
+#1430
+storybook~
+a storybook~
+A small red book is lying here.~
+See Bob. See Bob run.  See Bob's dog Spot. See Spot run. See Bob and Spot run.
+~
+9 9 513 262144
+5 0 0 0
+10 0 0 45
+#1431
+television~
+a television~
+A television is in the corner, blaring static.~
+Welcome to the Static Channel! All static, all the time!
+~
+8 0 0 0
+0 0 0 0
+30000 0 0 0
+#1432
+binder~
+a binder~
+A binder is lying here.~
+It's one of them Trapper Keeper things which you can keep lots of stuff in!
+~
+15 0 16385 0
+10000 1 -1 0
+5 0 0 10
+#1433
+sink~
+a large sink~
+A large sink is here.~
+It looks..gross. Bleachwater, yum yum.
+~
+23 0 0 0
+10000000 100000 14 0
+100005 0 0 0
+#1434
+dust bunny~
+a dust bunny~
+A ball of fluff lies on the ground.~
+Dust, lint, and hair collect to make this evil being.
+~
+9 64 2065 0
+2 0 0 0
+0 0 0 10
+#1435
+locker Lyra's~
+Lyra's Locker~
+A tall locker is nailed to the wall.~
+Eww, this locker is disgusting! It's covered in dust from lack of use.
+~
+15 0 0 0
+10000000 15 1437 0
+0 0 0 0
+E
+Locker Lyra's~
+Eww, this locker is disgusting! It's covered in dust from lack of use.
+~
+#1436
+dirty tennis shoes~
+the dirty tennis shoes~
+Some dirty smelly shoes are lying here.~
+Nothing.
+~
+11 1048832 65 0
+0 0 0 0
+2 0 0 15
+A
+14 20
+A
+2 1
+#1437
+combination~
+a locker combination~
+A paper with a locker combination written on it is lying here.~
+~
+18 2 1 0
+0 0 0 0
+10 0 0 0
+#1499
+free sample of sex~
+a free sample of sex~
+A free sample of sex is lying here.~
+It looks like sex!
+~
+12 0 1 0
+0 0 0 0
+0 0 0 0
+$~

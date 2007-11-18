@@ -1,0 +1,47 @@
+#100
+falling person~
+a falling person~
+A Person is here doomed to fall forever.
+~
+   The Person looks distressed about their situation, but they have learned to
+deal with it in a positive manner.  The Person looks distraut and very
+volitile.    
+~
+96348 32768 0 E
+15 17 5 15d15+225 7d7+3
+11250 225000
+12 12 0
+BareHandAttack: 13
+E
+#101
+snake~
+a snake~
+A vicious snake is here, it looks out of place.
+~
+The snake had long, poisonous fangs, and looks ready to use them.
+How did it get here?
+~
+72 1024 -20 E
+15 17 -7 7d7+550 2d2+3
+39375 225000
+12 12 0
+BareHandAttack: 4
+E
+#199
+Wraith~
+a Wraith~
+A Wraith plunges from Darkness
+~
+   The Wraith is a shadow of a man.  Its soul has been destroyed along with his
+human form.  All that is left is a cold lifeless shape . They feed off the
+bodies of people as they try to quench their unquenchable thirst for
+destruction of life.    
+~
+258094 13382910 0 E
+45 9 9 45d45+2025 22d22+11
+0 0
+12 12 0
+BareHandAttack: 8
+E
+T 199
+$

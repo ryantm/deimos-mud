@@ -1,0 +1,167 @@
+#24200
+mob earth apprentice~
+&yApprentice of Amitabha&n~
+An apprentice to Amitabha is practicing his mantra.
+~
+
+Being an apprentice to Amitabha, the apprentice practices the lowest of Mantras, and works
+to keep the living things of the Temple doing well.  Someday he may reach the next stage and
+learn from Madhyamika.&n
+
+~
+24584 0 0 E
+20 15 4 30d30+671 5d5+5
+30000 400000
+12 12 1
+E
+#24201
+mob apprentice water~
+&BApprentice of Madhyamika&n~
+An apprentice to Madhyamika is practicing his mantra.
+~
+
+The apprentice spends his days learning his Mantras.  At this stage there are many mantra's
+a person must learn before they can reach their next level to enlightenment.  Once the
+apprentice learns and can put all mantra's to use, he shall be able to study in the Temple
+of Yogacara.&n
+
+~
+24584 0 0 E
+24 14 4 30d30+923 6d6+6
+43200 576000
+12 12 1
+E
+#24202
+mob apprentice fire~
+&RApprentice of Yogacara&n~
+An apprentice to Yogocara is meditating.
+~
+
+The apprentices of Yogacara are now getting close to enlightenment.  They are here to learn
+about the loss of Id, and how everything we use our senses to realize, is actually nothing
+at all.  Once they realize this, they can move to the next level towards enlightment and
+learn under T'ien T'ai.&n
+
+~
+28680 0 0 E
+35 13 -3 17d17+2550 5d5+7
+91875 1225000
+12 12 1
+E
+#24203
+mob apprentice sky~
+&CApprentice of T'ien T'ai&n~
+An apprentice is here, attempting to reach enlightenment.
+~
+
+Here are the last line of those who have yet to reach enlightenment.  They have learned all
+the mantras, realized their Id, and now must lose it.  They have a choice once they are ready
+to reach enlightenment.  They can become one with all, or take physical form as a Bodishattva
+to spread the word of their learning to others who wish to hear it.
+
+~
+96264 40 0 E
+35 12 7 30d100+1851 8d8+8
+91875 1225000
+12 12 1
+E
+#24204
+mob apprentice dragon bodishattva~
+&DApprentice to the &RDragon God&n~
+A Bodishattva is here, scowling at you.
+~
+
+The Bodishattvas of the Dragon God are those who chose to stay in earthly form and spread the
+word of their vessel instead of choosing enlightenment yet.  They are here in the Temple now
+either learning what to teach from the Dragon God, or for protection of the Dragon God from
+intruders, such as yourself.&n
+
+~
+94248 168 0 E
+40 10 8 30d100+2387 10d10+10
+120000 1600000
+12 12 1
+E
+#24205
+mob god earth amitabha~
+&yThe Earth God Amitabha&n~
+Amitabha is here watching over his Temple
+~
+
+The God Amitabha is a peaceful one, only wishing to preserve all life as it is known.  His
+goal as a Bodishattva is to give all beings a chance to reach enlightenment, and free them
+from the bonds of themselves.&n
+
+~
+61448 128 0 E
+25 14 5 30d100+993 6d6+6
+46875 625000
+12 12 0
+E
+#24206
+water god madhyamika~
+&BThe Water God Madhyamika&n~
+The Water God Madhyamika is here, teaching mantras.
+~
+
+The Water God, Madhyamika tries to bring his apprentices to their next level of enlightenment
+through teaching of the many mantras.  Once his students learn their mantras they may then
+move on and learn from Yogacara.
+
+~
+94216 1048616 0 E
+35 12 7 30d100+1851 8d8+8
+91875 1225000
+12 12 0
+E
+#24207
+mob god fire yogacara~
+&RThe Fire God Yogacara&n~
+Yogacara is here trying to show his pupils how to lose their Id.
+~
+
+The God Yogacara is trying to bring his apprentices closer to enlightenment by helping them
+to realize everything is just illusion and the only way to become one with the real world is
+to lose their Id and realize there is only substinance when everything comes together as the
+same.
+
+~
+47128 9437224 0 E
+45 9 9 30d100+2995 11d11+11
+151875 2025000
+12 12 0
+E
+#24208
+mob god sky t'ien t'ai~
+&CGod of the Sky T'ien T'ai&n~
+The Sky God T'ien T'ai is here trying to lead the vessel.
+~
+
+The Sky God, T'ien T'ai is trying to lead his "vessel" or teachings of the God's to the
+known world.  His apprentices travel along with him, and work to spread the words.  He
+welcomes all who come to the temple, but rest assured he is not a weak embodiment.&n
+
+~
+260120 9437352 0 E
+60 5 10 30d100+5247 15d15+15
+270000 3600000
+12 12 0
+E
+#24209
+mob god dragon~
+&DThe Dragon God&n~
+The Dragon God is here, searching for intruders.
+~
+
+The Dragon God is the embodiment of the greatest Bodishattva.  He has overcome his Id countless
+years ago, and now strives to bring others to enlightenment.  He is a great being, but also
+one to be feared, if his pupils are in danger.  He will wreck havoc to any who wish to bring
+harm to another.
+
+~
+194616 9437352 0 E
+65 4 10 30d65+9750 21d21+16
+316875 4225000
+12 12 0
+E
+$

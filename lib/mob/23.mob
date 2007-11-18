@@ -1,0 +1,251 @@
+#2300
+Dwarf cart owner~
+the dwarf cart owner~
+The dwarf cart owner is here, tending to her cart.
+~
+   The cart keeper is keeping a close watch on her mechandise.    
+~
+450570 0 0 E
+20 15 4 20d20+400 10d10+5
+20000 400000
+12 12 2
+E
+#2301
+Old mountain climber~
+the old mountain climber~
+The old mountain climber stands here, wondering why you've intruded on his home.
+~
+   He looks very scruffy and tired.    
+~
+10250 0 200 E
+21 15 3 21d21+441 10d10+5
+22050 420000
+12 12 1
+E
+#2302
+Dwarf~
+the dwarf~
+A dwarf stands here, looking up at you.
+~
+   The dwarf is only about two thirds of your size.    
+~
+264200 0 500 E
+13 17 6 13d13+169 6d6+3
+8450 104000
+12 12 1
+E
+#2303
+Female Dwarf~
+the female dwarf~
+A female dwarf stands here, looking up at you.
+~
+   It's only about 2/3 the size of any normal human.    
+~
+2056 0 500 E
+12 17 6 12d12+144 6d6+3
+7200 96000
+12 12 2
+E
+#2304
+Bat~
+the bat~
+A bat is hanging upside down here.
+~
+   It has razor sharp fangs and claws.    
+~
+8 0 -300 E
+10 18 7 10d10+100 5d5+2
+5000 80000
+12 12 0
+BareHandAttack: 8
+E
+#2305
+employee~
+the employee~
+An employee stands here
+~
+   The employee has a big suit covered in pockets.  Many of those pockets are
+filled with rags and some spray bottles.    
+~
+2056 0 300 E
+13 17 6 13d13+169 6d6+3
+8450 104000
+12 12 2
+E
+#2306
+Bartender~
+the bartender~
+The bartender is here, standing behind the counter wondering what you'd like.
+~
+   He has a nice suit on and looks very classy.    
+~
+270346 0 300 E
+0 20 10 1d1+0 1d1+0
+0 0
+12 12 1
+E
+#2307
+Dwarven priest~
+the dwarven priest~
+A dwarven priest is praying here.
+~
+   The priest has a nice purple silk robe and a circle with a line going
+through it diagnally.    
+~
+14474 0 1000 E
+23 15 3 23d23+529 11d11+5
+26450 460000
+12 12 1
+E
+#2308
+Street urchin~
+the street urchin~
+A small street urchin stands here, begging for some money.
+~
+   The urchin looks like he's just a young teenager.  He must have been living
+on the streets all of his life.  How sad.  It might be a good idea just to put
+him out of his misery, but be careful.  He looks like he might be hiding
+something.    
+~
+234 0 0 E
+13 17 6 13d13+169 6d6+3
+8450 59150
+12 12 1
+BareHandAttack: 14
+E
+#2309
+Holy follower~
+the holy follower~
+A holy follwer is standing here, reciting a prayer to the god.
+~
+   The follower has only a loincloth on, probably because he feels he should
+have very few worldly posessions.    
+~
+10376 0 784 E
+25 14 2 25d25+625 12d12+6
+31250 500000
+12 12 0
+E
+T 2301
+#2310
+the dwarven god~
+the dwarven god~
+The holy dwarven god is floating here.
+~
+   The dwarven god seems to emanate very powerful aura, and glows like the sun.
+  
+~
+256027 33962 1000 E
+85 3 7 30d30+14550 12d12+17
+541875 7225000
+12 12 1
+E
+T 1399
+#2311
+Giant Bug~
+the giant bug~
+A giant, ugh, bug is crawling here.
+~
+   This is a monsterous bug.  It looks like it has wings, and is incredibly
+slimey.  Ohhh.  Gross.    
+~
+8 0 0 E
+9 18 7 9d9+81 4d4+2
+4050 36000
+12 12 0
+BareHandAttack: 1
+E
+#2312
+Rock Creature~
+the rock creature~
+A strange rock creature is standing here.
+~
+   The rock creature is about 3/4's the size of an average human and looks kind
+of scary, being made of rocks and all.  Despite its size, it's probably pretty
+powerful.    
+~
+131148 0 0 E
+17 16 4 17d17+289 8d8+4
+14450 136000
+12 12 0
+BareHandAttack: 7
+E
+#2313
+Samuel Swankman~
+Samuel Swankman~
+Samuel Swankman is struttin' here.
+~
+   Samuel is the swankiest guy you will ever meet.  He has a huge fro, and
+prides himself on his threads.  Ohh!  He has fish in the heels of his shoes...
+Oh...  They're dead....    
+~
+41050 1064 0 E
+30 13 1 30d30+900 15d15+7
+45000 960000
+12 12 1
+E
+#2396
+dwarf maker cannon canon shop~
+the Dwarven Cannon Maker~
+A larger than usual Dwarf works furiously here on his latest cannon.
+~
+It looks unfinished.
+It may be hard to believe, but this Dwarf is making cannons in his janitorial
+closet in the Power Plant!  Hey, everyone has hobbies.  But his cannons are so
+finely crafted, you wonder why he still cleans this place for a living.  He
+smiles with pride, but at the same time lets you know you are not welcome to
+take any of his cannons.
+~
+256010 40 0 E
+45 9 -3 45d45+2025 22d22+11
+101250 708750
+12 12 1
+BareHandAttack: 12
+E
+#2397
+An Iron Cannon~
+an Iron Cannon~
+A stout iron cannon sits here at the ready.
+~
+A large bore iron cannon sits here loaded and ready to fire at anything in its
+path.  Just looking down the barrel gives you the creeps.  Looks like a huge
+iron ball down in there.
+~
+245770 0 0 E
+1 -30 0 1d1+49 2d100+50
+0 500000
+12 12 0
+BareHandAttack: 12
+E
+#2398
+cannon canon steel~
+a mammoth Steel Cannon~
+A mammoth Steel Cannon sits waiting to blast something to smitherines.
+~
+Wow!  This huge howitzer sized cannon is as powerful as cannons come.  It's
+hard to imagine how anything could survive more than one hit from this thing.
+Cold as steel and deadly accurate, this cannon better be on your side of the
+battle.
+~
+245770 0 0 E
+0 -30 10 1d1+99 10d100+0
+0 2000000
+12 12 0
+BareHandAttack: 12
+E
+#2399
+cannon canon brass~
+a huge Brass Cannon~
+A huge Brass Cannon rests here loaded and ready to fire.
+~
+This large polished cannon is so beautifully crafted, maybe it should just
+be in a museum.  It is loaded and ready to blast whatever objects get in its
+way.  Be careful, this is a big cannon.
+~
+245770 0 0 E
+50 8 -5 50d50+2500 25d25+12
+125000 2500000
+12 12 0
+BareHandAttack: 12
+E
+$

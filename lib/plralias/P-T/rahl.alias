@@ -1,0 +1,55 @@
+8
+'dispel'
+17
+ca 'dispel magic'
+0
+4
+sanc
+9
+ca 'sanc'
+0
+6
+'heal'
+11
+cast 'heal'
+0
+3
+pro
+27
+cast 'protection from evil'
+0
+3
+sus
+18
+cast 'sustainance'
+0
+1
+g
+5
+group
+0
+3
+ber
+14
+cast 'berserk'
+0
+2
+di
+19
+cast 'detect invis'
+0
+4
+reca
+21
+cast 'word of recall'
+0
+4
+auro
+15
+cast 'aurorous'
+0
+2
+st
+5
+stand
+0

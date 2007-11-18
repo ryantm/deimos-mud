@@ -1,0 +1,496 @@
+#6000
+The black castle tower~
+   This is the place where the off duty guards wait until their shift starts,
+or until some crisis rips them from their rest.  There are also a couple of
+archers standing on platforms looking out into tall, thin windows so they may
+fire their arrows without fear of retaliation.    
+~
+60 0 0
+D2
+~
+~
+0 0 6001
+D5
+~
+~
+0 0 5897
+S
+#6001
+The castle wall~
+   This is the massive castle wall for Nottingham Castle.  This is the second
+line of defence for the castle.  Here many guards patrol the wall watching for
+any unsavory characters, ready to repel any attack.  The guards here are loyal
+to the reigning King John to the very end.    
+~
+60 0 0
+D0
+~
+~
+0 0 6000
+D2
+~
+~
+0 0 6002
+S
+#6002
+The blue castle tower~
+   This is the place where the off duty guards wait until their shift starts,
+or until some crisis rips them from their rest.  There are also a couple of
+archers standing on platforms looking out into tall, thin windows so they may
+fire their arrows without fear of retaliation.    
+~
+60 0 0
+D0
+~
+~
+0 0 6001
+D1
+~
+~
+0 0 6003
+S
+#6003
+The castle wall~
+   This is the massive castle wall for Nottingham Castle.  This is the second
+line of defence for the castle.  Here many guards patrol the wall watching for
+any unsavory characters, ready to repel any attack.  The guards here are loyal
+to the reigning King John to the very end.    
+~
+60 0 0
+D1
+~
+~
+0 0 6004
+D3
+~
+~
+0 0 6002
+S
+#6004
+The gate control room~
+   This the part of the wall that is right over the castle gate.  Here is where
+the bridge operator raises and lowers the bridge to allow passage in and out of
+the castle.  There is a large wheel that turns an even larger gear with a chain
+wrapped around its axel which is connected to the bridge.    
+~
+60 0 0
+D1
+~
+~
+0 0 6005
+D3
+~
+~
+0 0 6003
+S
+#6005
+The castle wall~
+   This is the massive castle wall for Nottingham Castle.  This is the second
+line of defence for the castle.  Here many guards patrol the wall watching for
+any unsavory characters, ready to repel any attack.  The guards here are loyal
+to the reigning King John to the very end.    
+~
+60 0 0
+D1
+~
+~
+0 0 6006
+D3
+~
+~
+0 0 6004
+S
+#6006
+The red castle tower~
+   This is the place where the off duty guards wait until their shift starts,
+or until some crisis rips them from their rest.  There are also a couple of
+archers standing on platforms looking out into tall, thin windows so they may
+fire their arrows without fear of retaliation.    
+~
+60 0 0
+D0
+~
+~
+0 0 6007
+D3
+~
+~
+0 0 6005
+S
+#6007
+The castle wall~
+   This is the massive castle wall for Nottingham Castle.  This is the second
+line of defence for the castle.  Here many guards patrol the wall watching for
+any unsavory characters, ready to repel any attack.  The guards here are loyal
+to the reigning King John to the very end.    
+~
+60 0 0
+D0
+~
+~
+0 0 6008
+D2
+~
+~
+0 0 6006
+S
+#6008
+The white castle tower~
+   This is the place where the off duty guards wait until their shift starts,
+or until some crisis rips them from their rest.  There are also a couple of
+archers standing on platforms looking out into tall, thin windows so they may
+fire their arrows without fear of retaliation.    
+~
+60 0 0
+D2
+~
+~
+0 0 6007
+S
+#6009
+The courtyard~
+   This is the castle courtyard.  Here there are many rows of beautiful rose
+bushes and many other wonderfully colored flowers.  There is a large fountain
+in the center of the courtyard that spouts cool clear water from an angle
+perched on the top of a large column.    
+~
+60 0 0
+D0
+~
+~
+0 0 5891
+D2
+~
+~
+0 0 6011
+S
+#6010
+Hallway~
+   This is quite a long hallway.  There are many windows lining the wall
+allowing much light to enter.  There are several tapestries hanging on the
+walls as well.  In the spaces between windows there are notches in the wall in
+which large candles reside.  At night those candles are lit to keep the hallway
+shining brightly.    
+~
+60 0 0
+D1
+~
+~
+0 0 5898
+D2
+~
+~
+0 0 5893
+D3
+~
+~
+0 0 5899
+S
+#6011
+The castle gate~
+   This is the castle gate.  Here the man in charge of commanding the
+drawbridge to be lifted or lowered stands in preparation of fulfilling his
+duties.  From here, the large castle courtyard and the castle entrance can be
+seen.    
+~
+60 ce 0
+D0
+~
+~
+1 0 6009
+D2
+~
+drawbridge bridge~
+2 5801 5816
+S
+#6012
+The Sheriff's house~
+   This is the house of the Sheriff of Nottingham.  It has only one large room,
+but it is quite spectacular.  There are furs and other trophies of successfull
+hunting ventures adorning the walls.  In one corner is a very large, comfy
+looking bed, with a fur blanket and a large goose feather comforter.  There
+doesn't seem to be a kitchen present, so he must recieve most of his food from
+the castle.    
+~
+60 c 0
+D3
+~
+~
+0 0 5829
+S
+#6013
+A villager's house~
+   This is a very small house with two kindly looking elderly people.  It
+doesn't seem like they have much, but they would gladly help out someone in
+need.  There house has only one room, and it's rather empty, with only a few
+pieces of furniture, with a fireplace against one wall.    
+~
+60 0 0
+D1
+~
+~
+0 0 5813
+S
+#6014
+A villager's house~
+   This is a small, but well crafted house.  There are several children in
+here, but there parents are no where to be found.  One child in particular
+stands out from the crowd.  All of the rest of the children seem to look to him
+as a leader of some sort.    
+~
+60 0 0
+D0
+~
+~
+0 0 5832
+S
+#6015
+A villager's house~
+   Here the smell of alcohol is a lot stronger.  There doesn't seem to be
+anything amiss here.  Just a regular, old house.  Small, but cozy.  Not a bad
+place to live without better acommodations.  There is an incredibly beautiful
+rug in the center of the room, however.  That is strange...  Very strange
+indeed.    
+~
+60 0 0
+D2
+~
+~
+0 0 5825
+D5
+Nothing.
+~
+door rug~
+1 0 6016
+E
+rug~
+   Stepping on the rug, a hollow sound can be heard.  Maybe there's something
+underneath?  Better check it out.    
+~
+S
+#6016
+The peasant's secret room~
+   Wow, this is an amazing room.  There are several large vats filled with some
+clear liquid.  The odor is enough to make one's head spin.  Someone really
+wanted to keep this place a secret to dig a hole under their house and put this
+in.  There are several jugs with 'X's on them against the wall.    
+~
+60 0 0
+D4
+~
+door rug~
+1 0 6015
+S
+#6017
+A villager's house~
+   This is a rather small house.  Its only one room and its kind of crowded,
+but its rather cozy.  I wouldn't be to bad to live here, just live out the life
+of a peasant in happiness and comfort.  There must be a large family of
+peasants living here, because there is so much stuff in here it's hard to move
+around.    
+~
+60 0 0
+D3
+~
+~
+0 0 5813
+S
+#6018
+New Room~
+You are in an unfinished room.
+~
+60 0 0
+S
+#6019
+New Room~
+You are in an unfinished room.
+~
+60 0 0
+S
+#6020
+New Room~
+You are in an unfinished room.
+~
+60 0 0
+S
+#6021
+New Room~
+You are in an unfinished room.
+~
+60 0 0
+S
+#6022
+New Room~
+You are in an unfinished room.
+~
+60 0 0
+S
+#6023
+New Room~
+You are in an unfinished room.
+~
+60 0 0
+S
+#6024
+New Room~
+You are in an unfinished room.
+~
+60 0 0
+S
+#6025
+New Room~
+You are in an unfinished room.
+~
+60 0 0
+S
+#6026
+New Room~
+You are in an unfinished room.
+~
+60 0 0
+S
+#6027
+New Room~
+You are in an unfinished room.
+~
+60 0 0
+S
+#6028
+New Room~
+You are in an unfinished room.
+~
+60 0 0
+S
+#6029
+New Room~
+You are in an unfinished room.
+~
+60 0 0
+S
+#6030
+New Room~
+You are in an unfinished room.
+~
+60 0 0
+S
+#6031
+New Room~
+You are in an unfinished room.
+~
+60 0 0
+S
+#6032
+New Room~
+You are in an unfinished room.
+~
+60 0 0
+S
+#6033
+New Room~
+You are in an unfinished room.
+~
+60 0 0
+S
+#6034
+New Room~
+You are in an unfinished room.
+~
+60 0 0
+S
+#6035
+New Room~
+You are in an unfinished room.
+~
+60 0 0
+S
+#6036
+New Room~
+You are in an unfinished room.
+~
+60 0 0
+S
+#6037
+New Room~
+You are in an unfinished room.
+~
+60 0 0
+S
+#6038
+New Room~
+You are in an unfinished room.
+~
+60 0 0
+S
+#6039
+New Room~
+You are in an unfinished room.
+~
+60 0 0
+S
+#6040
+New Room~
+You are in an unfinished room.
+~
+60 0 0
+S
+#6041
+New Room~
+You are in an unfinished room.
+~
+60 0 0
+S
+#6042
+New Room~
+You are in an unfinished room.
+~
+60 0 0
+S
+#6043
+New Room~
+You are in an unfinished room.
+~
+60 0 0
+S
+#6044
+New Room~
+You are in an unfinished room.
+~
+60 0 0
+S
+#6045
+New Room~
+You are in an unfinished room.
+~
+60 0 0
+S
+#6046
+New Room~
+You are in an unfinished room.
+~
+60 0 0
+S
+#6047
+New Room~
+You are in an unfinished room.
+~
+60 0 0
+S
+#6048
+New Room~
+You are in an unfinished room.
+~
+60 0 0
+S
+#6049
+New Room~
+You are in an unfinished room.
+~
+60 0 0
+S
+#6050
+New Room~
+You are in an unfinished room.
+~
+60 0 0
+S
+$~

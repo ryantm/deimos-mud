@@ -1,0 +1,2305 @@
+#9100
+Falling~
+   The air feels very light, as if it isn't even there.  This hole has been dug
+deep into the depths of the earth, nearly one hundred feet or so.  The walls
+are still made of caked mud and rocks that have been dried to make a well-like
+feature.  Obviously this hole has been used as awishing well for many years,
+wonder if there is any more coins at the bottum.  You begin to think about the
+coins and things you'll find in this well, then what actually may be down there
+or if you'll survive this extended fall.  The ground gets closer, and a whistle
+echoes throughout the whole hole, it rings in your ears and sends a sharp pain
+to your brain.  . it's obviously the wind as it passes by you in quick blazes
+that could not be controlled.    
+~
+91 acd 0
+D4
+~
+~
+0 0 2721
+D5
+~
+~
+0 0 9102
+S
+#9101
+Outside the Arena~
+   This path leads to and from the Arena, a spectacular place where mortals can
+do battle with a selection of monsters.  The huge outer walls of the Arena
+appear to look like spikes.    
+~
+91 c 0
+S
+#9102
+Falling~
+   The air feels very light, as if it isn't even there.  This hole has been dug
+deep into the depths of the earth, nearly one hundred feet or so.  The walls
+are still made of caked mud and rocks that have been dried to make a well-like
+feature.  Obviously this hole has been used as awishing well for many years,
+wonder if there is any more coins at the bottum.  You begin to think about the
+coins and things you'll find in this well, then what actually may be down there
+or if you'll survive this extended fall.  The ground gets closer, and a whistle
+echoes throughout the whole hole, it rings in your ears and sends a sharp pain
+to your brain.  . it's obviously the wind as it passes by you in quick blazes
+that could not be controlled.    
+~
+91 cd 0
+D4
+~
+~
+0 0 9100
+D5
+~
+~
+0 0 9103
+E
+sign~
+   Welcome to the Arena!.  We here at Bag em and Tag em enterprises hope you
+enjoy your visit, please note that the management are NOT responsible for
+injury or death.    
+&R1 west is the Battle Area.
+1 west, 1 north is the Holding Area.
+1 west, 1 south is the Sport area.
+2 west is the Swimming Pool.&n
+~
+S
+#9103
+Falling~
+   The air feels very light, as if it isn't even there.  This hole has been dug
+deep into the depths of the earth, nearly one hundred feet or so.  The walls
+are still made of caked mud and rocks that have been dried to make a well-like
+feature.  Obviously this hole has been used as awishing well for many years,
+wonder if there is any more coins at the bottum.  You begin to think about the
+coins and things you'll find in this well, then what actually may be down there
+or if you'll survive this extended fall.  The ground gets closer, and a whistle
+echoes throughout the whole hole, it rings in your ears and sends a sharp pain
+to your brain.  . it's obviously the wind as it passes by you in quick blazes
+that could not be controlled.    
+~
+91 d 0
+D4
+~
+~
+0 0 9102
+D5
+~
+~
+0 0 9104
+E
+sign~
+   In order to battle beasts, please SAY the word inside the ' '
+a Fuzzy = 'fuzzy'
+a Beast = 'beast'
+an Orc Guard = 'orc guard'
+a mutated rat = 'mutated rat'&n
+~
+S
+T 9103
+#9104
+The bottom of the well~
+   The damned ground came up quickly, sending shards of pain throughout your
+body.  Water stands knee deep here in this relivant area.  A large hidden gate
+lies closely to the east, it has been plated with large ancient gold hinges and
+a large dragon door-knocker.  A large metallic plaque has been placed upon the
+door, it has many gold runes scripted on it.  The walls are covered with a
+slimy moss, which slides downward over the time.  You can still see light by
+looking upward, however your not sure if you can make the climb out or not.  
+You hope there is somthing atleast inhuman within the tunnels.    
+A reflective plaque, of extrodenary beauty
+~
+91 cd 0
+D1
+~
+gate~
+1 0 9105
+D4
+~
+~
+0 0 9103
+E
+plaque plaq~
+Beyond this gate troubles load. . . 
+Because this is the wyverns abode. . 
+Darkness will fall within the tunnels of Kwin -Rai. . 
+Shielding the light of even the day. . .
+
+
+Beware. . .
+~
+S
+#9105
+Entering a large cavern~
+   Just inside the large gold-runed gates, yet another small well rests within
+the room.  The caverns walls are very dark and loom way above the dusty dirt
+pathway, which leads through the grim cave of the Ancient Kwin -Rai Wyvern
+Tunnetls.  Loud howls and grunts can be heard echoing throughout the narrow
+cavern.  Either from beasts or other humans training to their fit, your
+concious however sways towards the beast side and forces you to take a step
+back.  The well is made of a fine sandstone, in which has been tightly sealed
+with a thick cement material.  It's a diffrent kind of rock, obviously only
+found within a volcanic acid because obsidion rock has also been crafted into a
+churn for the small pail that hangs within it.    
+~
+91 ad 0
+D1
+~
+~
+0 0 9106
+D3
+~
+Gate~
+1 0 9104
+S
+#9106
+Twisting hall of the cave~
+   The halls curve swiftly within this area of the cave.  They wave in and out
+making the path more narrow then it already was, daring you to turn back.  
+Large chunks are missing out of the walls, and they seem to spell something
+out, however you must get really close if you would imagine to read such fine
+print.  The floor is made of a sandy material a little thicker then what you
+would think sand would feel like, obviously crumbled rocks have been gathering
+here for a long time.  A few lonesomw stalagmites stand independantly in each
+of the four corners of this room, You don't know if they symbolize anything but
+they have too been painted with an offwhite color in which seems to lighten the
+room as you enter the cave depths deepe
+~
+91 ad 0
+D1
+~
+~
+0 0 9107
+D3
+~
+~
+0 0 9105
+S
+#9107
+A rough-walled room~
+   Jagged rocks exert themselves from nearby walls and the floor, daring
+someone to trip.  Some of the shards have been painted white, bearing a small
+dragon in which looks harmless by a small human which stands close by.  The
+ceiling in this room is low and large stalagmites hang nearly to the ground,
+litterly a maze to get through.  It isn't large like the many other corridors
+in this cavern, it's kind of eerie and has the feeling of lonelyness.  The
+walls drip a slimy mildue in which slowly slides effortlessly down the corridor
+walls, disgusting you.  Many yards in the distance another room shows
+clearness, atleast no more jagged rocks, for the time being.    
+~
+91 ad 0
+D1
+~
+~
+0 0 9108
+D3
+~
+~
+0 0 9106
+S
+#9108
+Within the Cavern~
+   The growls echo deep within the cavern, sending a chill up your spine as you
+travel the stone pathway, that has been laid carelessly throughout the cavern.
+Large markings cover the walls most writtein in Elvish language, however a few
+can be made out to be that of the human.  The heat rises as the path narrows
+and begins to roughen, giving you a harder path and a more imaginitive thought
+on what lies deeper in the depths of this cavern.  However thoughs have been
+coming to you, you know what's in the cavern you just don't want to let it slip
+your mind and scare you into leaving some great warriors have conquered such
+fabel creatures and you could be the next one.  The growls grow louder.  . .
+and closer.    
+~
+91 d 0
+D1
+~
+~
+0 0 9109
+D3
+~
+~
+0 0 9107
+E
+wall~
+Janso Si Loco
+~
+S
+#9109
+Roaming the Cavern~
+   The walls are plated with Ivory that has been tinged a deep black, smells of
+burnt leaves float freely around the room, gaging it's victim.  S A large
+boulder rests here acting as some kinda mysterious doorway, however the area if
+there is one has been obviously secret for some time, because the boulder is so
+large.  Many unwarned travelers got lost in this room and never could escape.
+Bones lay on the ground, mostly charred black, sending you a waning of somthing
+hunting within the cavern.  This makes you wonder what the thing is and if you
+really want to find it.  .it's a diffcult dicision.  The markings on the walls
+slowly fade out of existence showing signs of somthing coming up, wonder what
+it is?    
+~
+91 adg 0
+D2
+~
+~
+0 0 9110
+D3
+~
+~
+0 0 9108
+S
+#9110
+Narrow Pathway~
+   As the cave walls heithen around, you begin to feel rushes of nervousness,
+for the growls and grunts now linger in the cave walls more loudly.  They are
+contenuously growing to great heights of screams and yelps that echo throughout
+the whole cavern.  Blood has been caked onto the wall to ruin the markings,
+that have been enscribed to th wall.  Heiroglifics have been imprinted onto the
+walls, they are very iridescent and seem to glow briefly at your entrance.  
+The floor is made of a charred stone, most likely granite.  It is very hott,
+this tunnel is obviously close to volcanic magma or somthing to that estate.  
+Rocks have been thrown from the walls and are exerted into the granite rock,
+cleanly cut.    
+~
+91 ad 0
+D0
+~
+~
+0 0 9109
+D1
+~
+~
+0 0 9115
+D2
+~
+~
+0 0 9111
+S
+#9111
+A wet room within the cavern~
+   This room has been flooded and the walls have been plated with a green hue
+of some kind of algae or somthing to that instinct.  Howls can be heard within
+this room, obviously the water blocks anyway of communication to the outside
+world.  It's very cool in this room, stalagmites hang from the ceiling barely
+off the top of one's scalp . Small burnt out torches line the wet room and seem
+to have once guided travelers through the tunnels.  You wish they were still
+their, along with a few travelers to keep you occupied on this long narrow
+pathway that could lead to nothingness.    
+~
+91 adf 0
+D0
+~
+~
+0 0 9110
+D2
+~
+~
+0 0 9112
+S
+#9112
+Walking within the Cave~
+   Nothing can be heard within this room, and it's quite obvious noone can hear
+anything coming from this room.  Large gargoyle like rocks linger above the
+path, glaring down at the pathway with hatred in their stone visag.  E Small
+bones have been left behind here, they seem to look like bones from minor
+animals and skulls from primapes, however one is not sure because they are in
+no condition to be graded of such.  White splotches cover the wall, looking as
+if shot with some kind of paint gun, these markings can no way be identified as
+human markings or any of the other races at that, they are obviously placed
+there from a wrong doing perhaps a murderous dragon of
+~
+91 d 0
+D0
+~
+~
+0 0 9111
+D2
+~
+~
+0 0 9131
+D3
+~
+~
+0 0 9113
+S
+#9113
+A grim pathway~
+   Bearing an odd feeling of lonelessness this pathway has often been refered
+to as the grim pathway.  It bears not much activity, however some people think
+something lies within the walls of this narrow area of the cavern.  For this
+many people have dug into the walls leaving scratches and chunked out holes.  
+The walls tower high above one's head, making them look up mouth-opened in awe.
+The walls are tinged black from a rain of fire or sulfer, this brings a chill
+to your back.  What if there really are dragons dwelling within this cave?  
+The sign had said somthing about it, not a good thing that you didn't read it.
+  
+~
+91 d 0
+D1
+~
+~
+0 0 9112
+D3
+~
+~
+0 0 9114
+S
+#9114
+A walkway within the cave~
+   This room lacks the artistic drawings that have been earlier found imprinted
+onto the walls.  Large stone gargoyles however take the place of those oddly
+drawn paintings, these gargoyles are a magnificent sight.  They have been
+handly carved from a rough material in which plays as a sturdy backbone force
+for many archetechtural objects.  Besides the gargoyles that have been strewn
+across the room, the room itself is very plain with a minimum of five rocks
+that can be found upon the smooth ground.  Large howls still echo throughout
+the cave, you begin to get impatient with your walking because one part of your
+soul wishes to find such an animal that would howl like so, however you believe
+it's just your imagination playing tricks upon thy.    
+~
+91 d 0
+D0
+~
+boulder~
+1 0 9124
+D1
+~
+~
+0 0 9113
+D2
+~
+boulder~
+1 0 9125
+D3
+~
+~
+0 0 9126
+S
+#9115
+Roaming the cave~
+   The walls are plated with Ivory that has been tinged a deep black, smells of
+burnt leaves float freely around the room, gaging it's victim.  S A large
+boulder rests here acting as some kinda mysterious doorway, however the area if
+there is one has been obviously secret for some time, because the boulder is so
+large.  Many unwarned travelers got lost in this room and never could escape.
+Bones lay on the ground, mostly charred black, sending you a waning of somthing
+hunting within the cavern.  This makes you wonder what the thing is and if you
+really want to find it.  .it's a diffcult dicision.  The markings on the walls
+slowly fade out of existence showing signs of somthing coming up, wonder what
+it is?    
+~
+91 d 0
+D1
+~
+~
+0 0 9116
+D3
+~
+~
+0 0 9110
+S
+#9116
+Twisting hall of the cave~
+   The halls curve swiftly within this area of the cave.  They wave in and out
+making the path more narrow then it already was, daring you to turn back.  
+Large chunks are missing out of the walls, and they seem to spell something
+out, however you must get really close if you would imagine to read such fine
+print.  The floor is made of a sandy material a little thicker then what you
+would think sand would feel like, obviously crumbled rocks have been gathering
+here for a long time.  A few lonesomw stalagmites stand independantly in each
+of the four corners of this room, You don't know if they symbolize anything but
+they have too been painted with an offwhite color in which seems to lighten the
+room as you enter the cave depths deepe
+~
+91 d 0
+D0
+~
+boulder~
+1 0 9122
+D1
+~
+~
+0 0 9117
+D2
+~
+boulder~
+1 0 9121
+D3
+~
+~
+0 0 9115
+S
+#9117
+A rough-walled room~
+   Jagged rocks exert themselves from nearby walls and the floor, daring
+someone to trip.  Some of the shards have been painted white, bearing a small
+dragon in which looks harmless by a small human which stands close by.  The
+ceiling in this room is low and large stalagmites hang nearly to the ground,
+litterly a maze to get through.  It isn't large like the many other corridors
+in this cavern, it's kind of eerie and has the feeling of lonelyness.  The
+walls drip a slimy mildue in which slowly slides effortlessly down the corridor
+walls, disgusting you.  Many yards in the distance another room shows
+clearness, atleast no more jagged rocks, for the time being.    
+~
+91 d 0
+D1
+~
+~
+0 0 9118
+D3
+~
+~
+0 0 9116
+S
+#9118
+Within the cavern~
+   The growls echo deep within the cavern, sending a chill up your spine as you
+travel the stone pathway, that has been laid carelessly throughout the cavern.
+Large markings cover the walls most writtein in Elvish language, however a few
+can be made out to be that of the human.  The heat rises as the path narrows
+and begins to roughen, giving you a harder path and a more imaginitive thought
+on what lies deeper in the depths of this cavern.  However thoughs have been
+coming to you, you know what's in the cavern you just don't want to let it slip
+your mind and scare you into leaving some great warriors have conquered such
+fabel creatures and you could be the next one.  The growls grow louder.  . .
+and closer.    
+~
+91 d 0
+D0
+~
+boulder~
+1 0 9123
+D1
+~
+boulder~
+1 0 9119
+D2
+~
+boulder~
+1 0 9120
+D3
+~
+~
+0 0 9117
+S
+#9119
+A secret alcove within the cavern~
+   Large jagged rocks stick straight out from the walls, enclosing this room to
+be very small.  A large boulder has been set for a door, obviously to keep
+intruders from getting in.  Only the strong can move such a rock, in which the
+person whom lives inside the alcove is obviously of great power.  The room has
+been tented with a yellow hue, and the walls have been nearly all painted a
+bright white, if it all possible white can get bright.  Each of the corners
+bear a statue, showing fierce emotions coming from each of the gargoylic
+figures, however one corner bears a human.  They stand independantly with their
+arms crossed showing their strengths and their rebellious attitudes.  Their
+eyes seem to dare you to take a chance with a battle.  . .so what's it gonna
+be?    
+~
+91 dh 0
+D3
+~
+boulder~
+1 0 9118
+S
+#9120
+A secret room within the cavern~
+   Large jagged rocks stick straight out from the walls, enclosing this room to
+be very small.  A large boulder has been set for a door, obviously to keep
+intruders from getting in.  Only the strong can move such a rock, in which the
+person whom lives inside the alcove is obviously of great power.  The room has
+been tented with a yellow hue, and the walls have been nearly all painted a
+bright white, if it all possible white can get bright.  Each of the corners
+bear a statue, showing fierce emotions coming from each of the gargoylic
+figures, however one corner bears a human.  They stand independantly with their
+arms crossed showing their strengths and their rebellious attitudes.  Their
+eyes seem to dare you to take a chance with a battle.  . .so what's it gonna
+be?    
+~
+91 dh 0
+D0
+~
+boulder~
+1 0 9118
+S
+#9121
+A secret alcove within the rocks~
+   Large jagged rocks stick straight out from the walls, enclosing this room to
+be very small.  A large boulder has been set for a door, obviously to keep
+intruders from getting in.  Only the strong can move such a rock, in which the
+person whom lives inside the alcove is obviously of great power.  The room has
+been tented with a yellow hue, and the walls have been nearly all painted a
+bright white, if it all possible white can get bright.  Each of the corners
+bear a statue, showing fierce emotions coming from each of the gargoylic
+figures, however one corner bears a human.  They stand independantly with their
+arms crossed showing their strengths and their rebellious attitudes.  Their
+eyes seem to dare you to take a chance with a battle.  . .so what's it gonna
+be?    
+~
+91 dh 0
+D0
+~
+boulder~
+1 0 9116
+S
+#9122
+A secret alcove within the rocks~
+   Large jagged rocks stick straight out from the walls, enclosing this room to
+be very small.  A large boulder has been set for a door, obviously to keep
+intruders from getting in.  Only the strong can move such a rock, in which the
+person whom lives inside the alcove is obviously of great power.  The room has
+been tented with a yellow hue, and the walls have been nearly all painted a
+bright white, if it all possible white can get bright.  Each of the corners
+bear a statue, showing fierce emotions coming from each of the gargoylic
+figures, however one corner bears a human.  They stand independantly with their
+arms crossed showing their strengths and their rebellious attitudes.  Their
+eyes seem to dare you to take a chance with a battle.  . .so what's it gonna
+be?    
+~
+91 dh 0
+D2
+~
+boulder~
+1 0 9116
+S
+#9123
+A secret room within the cavern~
+   Large jagged rocks stick straight out from the walls, enclosing this room to
+be very small.  A large boulder has been set for a door, obviously to keep
+intruders from getting in.  Only the strong can move such a rock, in which the
+person whom lives inside the alcove is obviously of great power.  The room has
+been tented with a yellow hue, and the walls have been nearly all painted a
+bright white, if it all possible white can get bright.  Each of the corners
+bear a statue, showing fierce emotions coming from each of the gargoylic
+figures, however one corner bears a human.  They stand independantly with their
+arms crossed showing their strengths and their rebellious attitudes.  Their
+eyes seem to dare you to take a chance with a battle.  . .so what's it gonna
+be?    
+~
+91 dh 0
+D2
+~
+boulder~
+1 0 9118
+S
+#9124
+A secret underground alcove~
+   The growls echo deep within the cavern, sending a chill up your spine as you
+travel the stone pathway, that has been laid carelessly throughout the cavern.
+Large markings cover the walls most writtein in Elvish language, however a few
+can be made out to be that of the human.  The heat rises as the path narrows
+and begins to roughen, giving you a harder path and a more imaginitive thought
+on what lies deeper in the depths of this cavern.  However thoughs have been
+coming to you, you know what's in the cavern you just don't want to let it slip
+your mind and scare you into leaving some great warriors have conquered such
+fabel creatures and you could be the next one.  The growls grow louder.  . .
+and closer.    
+~
+91 dh 0
+D2
+~
+boulder~
+1 0 9114
+S
+#9125
+A secret underground alcove~
+   The growls echo deep within the cavern, sending a chill up your spine as you
+travel the stone pathway, that has been laid carelessly throughout the cavern.
+Large markings cover the walls most writtein in Elvish language, however a few
+can be made out to be that of the human.  The heat rises as the path narrows
+and begins to roughen, giving you a harder path and a more imaginitive thought
+on what lies deeper in the depths of this cavern.  However thoughs have been
+coming to you, you know what's in the cavern you just don't want to let it slip
+your mind and scare you into leaving some great warriors have conquered such
+fabel creatures and you could be the next one.  The growls grow louder.  . .
+and closer.    
+~
+91 dh 0
+D0
+~
+boulder~
+1 0 9114
+S
+#9126
+Twisting hall of the cave~
+   The halls curve swiftly within this area of the cave.  They wave in and out
+making the path more narrow then it already was, daring you to turn back.  
+Large chunks are missing out of the walls, and they seem to spell something
+out, however you must get really close if you would imagine to read such fine
+print.  The floor is made of a sandy material a little thicker then what you
+would think sand would feel like, obviously crumbled rocks have been gathering
+here for a long time.  A few lonesomw stalagmites stand independantly in each
+of the four corners of this room, You don't know if they symbolize anything but
+they have too been painted with an offwhite color in which seems to lighten the
+room as you enter the cave depths deepe
+~
+91 d 0
+D1
+~
+~
+0 0 9114
+D3
+~
+~
+0 0 9127
+S
+#9127
+A rough-walled room~
+   Jagged rocks exert themselves from nearby walls and the floor, daring
+someone to trip.  Some of the shards have been painted white, bearing a small
+dragon in which looks harmless by a small human which stands close by.  The
+ceiling in this room is low and large stalagmites hang nearly to the ground,
+litterly a maze to get through.  It isn't large like the many other corridors
+in this cavern, it's kind of eerie and has the feeling of lonelyness.  The
+walls drip a slimy mildue in which slowly slides effortlessly down the corridor
+walls, disgusting you.  Many yards in the distance another room shows
+clearness, atleast no more jagged rocks, for the time being.    
+~
+91 d 0
+D0
+~
+boulder~
+1 0 9128
+D1
+~
+~
+0 0 9126
+D2
+~
+boulder~
+1 0 9129
+D3
+~
+~
+0 0 9130
+S
+#9128
+A secret underground cove~
+   The growls echo deep within the cavern, sending a chill up your spine as you
+travel the stone pathway, that has been laid carelessly throughout the cavern.
+Large markings cover the walls most writtein in Elvish language, however a few
+can be made out to be that of the human.  The heat rises as the path narrows
+and begins to roughen, giving you a harder path and a more imaginitive thought
+on what lies deeper in the depths of this cavern.  However thoughs have been
+coming to you, you know what's in the cavern you just don't want to let it slip
+your mind and scare you into leaving some great warriors have conquered such
+fabel creatures and you could be the next one.  The growls grow louder.  . .
+and closer.    
+~
+91 dh 0
+D2
+~
+boulder~
+1 0 9127
+S
+#9129
+A secret underground cove~
+   The growls echo deep within the cavern, sending a chill up your spine as you
+travel the stone pathway, that has been laid carelessly throughout the cavern.
+Large markings cover the walls most writtein in Elvish language, however a few
+can be made out to be that of the human.  The heat rises as the path narrows
+and begins to roughen, giving you a harder path and a more imaginitive thought
+on what lies deeper in the depths of this cavern.  However thoughs have been
+coming to you, you know what's in the cavern you just don't want to let it slip
+your mind and scare you into leaving some great warriors have conquered such
+fabel creatures and you could be the next one.  The growls grow louder.  . .
+and closer.    
+~
+91 dh 0
+D0
+~
+boulder~
+1 0 9127
+S
+#9130
+A twisting hall of the cave~
+   The halls curve swiftly within this area of the cave.  They wave in and out
+making the path more narrow then it already was, daring you to turn back.  
+Large chunks are missing out of the walls, and they seem to spell something
+out, however you must get really close if you would imagine to read such fine
+print.  The floor is made of a sandy material a little thicker then what you
+would think sand would feel like, obviously crumbled rocks have been gathering
+here for a long time.  A few lonesomw stalagmites stand independantly in each
+of the four corners of this room, You don't know if they symbolize anything but
+they have too been painted with an offwhite color in which seems to lighten the
+room as you enter the cave depths deepe
+~
+91 0 0
+D1
+~
+~
+0 0 9127
+D5
+~
+~
+0 0 9179
+S
+#9131
+A dark corner-room~
+   The walls are plated with Ivory that has been tinged a deep black, smells of
+burnt leaves float freely around the room, gaging it's victim.  S A large
+boulder rests here acting as some kinda mysterious doorway, however the area if
+there is one has been obviously secret for some time, because the boulder is so
+large.  Many unwarned travelers got lost in this room and never could escape.
+Bones lay on the ground, mostly charred black, sending you a waning of somthing
+hunting within the cavern.  This makes you wonder what the thing is and if you
+really want to find it.  .it's a diffcult dicision.  The markings on the walls
+slowly fade out of existence showing signs of somthing coming up, wonder what
+it is?    
+~
+91 d 0
+D0
+~
+~
+0 0 9112
+D1
+~
+~
+0 0 9132
+S
+#9132
+A room of jagged rocks~
+   Jagged rocks exert themselves from nearby walls and the floor, daring
+someone to trip.  Some of the shards have been painted white, bearing a small
+dragon in which looks harmless by a small human which stands close by.  The
+ceiling in this room is low and large stalagmites hang nearly to the ground,
+litterly a maze to get through.  It isn't large like the many other corridors
+in this cavern, it's kind of eerie and has the feeling of lonelyness.  The
+walls drip a slimy mildue in which slowly slides effortlessly down the corridor
+walls, disgusting you.  Many yards in the distance another room shows
+clearness, atleast no more jagged rocks, for the time being.    
+~
+91 d 0
+D2
+~
+~
+0 0 9133
+D3
+~
+~
+0 0 9131
+S
+#9133
+A twisted hall within the cave~
+   The halls curve swiftly within this area of the cave.  They wave in and out
+making the path more narrow then it already was, daring you to turn back.  
+Large chunks are missing out of the walls, and they seem to spell something
+out, however you must get really close if you would imagine to read such fine
+print.  The floor is made of a sandy material a little thicker then what you
+would think sand would feel like, obviously crumbled rocks have been gathering
+here for a long time.  A few lonesomw stalagmites stand independantly in each
+of the four corners of this room, You don't know if they symbolize anything but
+they have too been painted with an offwhite color in which seems to lighten the
+room as you enter the cave depths deepe
+~
+91 d 0
+D0
+~
+~
+0 0 9132
+D2
+~
+~
+0 0 9134
+S
+#9134
+Lost within the cave~
+   The growls echo deep within the cavern, sending a chill up your spine as you
+travel the stone pathway, that has been laid carelessly throughout the cavern.
+Large markings cover the walls most writtein in Elvish language, however a few
+can be made out to be that of the human.  The heat rises as the path narrows
+and begins to roughen, giving you a harder path and a more imaginitive thought
+on what lies deeper in the depths of this cavern.  However thoughs have been
+coming to you, you know what's in the cavern you just don't want to let it slip
+your mind and scare you into leaving some great warriors have conquered such
+fabel creatures and you could be the next one.  The growls grow louder.  . .
+and closer.    
+~
+91 d 0
+D0
+~
+~
+0 0 9133
+D1
+~
+~
+0 0 9136
+D2
+~
+~
+0 0 9156
+D3
+~
+~
+0 0 9135
+S
+#9135
+A dim room, within the cave~
+   The growls echo deep within the cavern, sending a chill up your spine as you
+travel the stone pathway, that has been laid carelessly throughout the cavern.
+Large markings cover the walls most writtein in Elvish language, however a few
+can be made out to be that of the human.  The heat rises as the path narrows
+and begins to roughen, giving you a harder path and a more imaginitive thought
+on what lies deeper in the depths of this cavern.  However thoughs have been
+coming to you, you know what's in the cavern you just don't want to let it slip
+your mind and scare you into leaving some great warriors have conquered such
+fabel creatures and you could be the next one.  The growls grow louder.  . .
+and closer.    
+~
+91 d 0
+D1
+~
+~
+0 0 9134
+D3
+~
+~
+0 0 9140
+S
+#9136
+Lost in the darkened cavern~
+   The walls are plated with Ivory that has been tinged a deep black, smells of
+burnt leaves float freely around the room, gaging it's victim.  S A large
+boulder rests here acting as some kinda mysterious doorway, however the area if
+there is one has been obviously secret for some time, because the boulder is so
+large.  Many unwarned travelers got lost in this room and never could escape.
+Bones lay on the ground, mostly charred black, sending you a waning of somthing
+hunting within the cavern.  This makes you wonder what the thing is and if you
+really want to find it.  .it's a diffcult dicision.  The markings on the walls
+slowly fade out of existence showing signs of somthing coming up, wonder what
+it is?    
+~
+91 d 0
+D1
+~
+~
+0 0 9137
+D3
+~
+~
+0 0 9134
+S
+#9137
+A rough-walled room~
+   Jagged rocks exert themselves from nearby walls and the floor, daring
+someone to trip.  Some of the shards have been painted white, bearing a small
+dragon in which looks harmless by a small human which stands close by.  The
+ceiling in this room is low and large stalagmites hang nearly to the ground,
+litterly a maze to get through.  It isn't large like the many other corridors
+in this cavern, it's kind of eerie and has the feeling of lonelyness.  The
+walls drip a slimy mildue in which slowly slides effortlessly down the corridor
+walls, disgusting you.  Many yards in the distance another room shows
+clearness, atleast no more jagged rocks, for the time being.    
+~
+91 0 0
+D1
+~
+~
+0 0 9138
+D3
+~
+~
+0 0 9136
+S
+#9138
+A dark, and wet room of the cave~
+   This room has been flooded and the walls have been plated with a green hue
+of some kind of algae or somthing to that instinct.  Howls can be heard within
+this room, obviously the water blocks anyway of communication to the outside
+world.  It's very cool in this room, stalagmites hang from the ceiling barely
+off the top of one's scalp . Small burnt out torches line the wet room and seem
+to have once guided travelers through the tunnels.  You wish they were still
+their, along with a few travelers to keep you occupied on this long narrow
+pathway that could lead to nothingness.    
+~
+91 d 0
+D0
+~
+boulder~
+1 0 9172
+D1
+~
+~
+0 0 9139
+D3
+~
+~
+0 0 9137
+S
+#9139
+A dark corner of the cavern~
+   Large jagged rocks stick straight out from the walls, enclosing this room to
+be very small.  A large boulder has been set for a door, obviously to keep
+intruders from getting in.  Only the strong can move such a rock, in which the
+person whom lives inside the alcove is obviously of great power.  The room has
+been tented with a yellow hue, and the walls have been nearly all painted a
+bright white, if it all possible white can get bright.  Each of the corners
+bear a statue, showing fierce emotions coming from each of the gargoylic
+figures, however one corner bears a human.  They stand independantly with their
+arms crossed showing their strengths and their rebellious attitudes.  Their
+eyes seem to dare you to take a chance with a battle.  . .so what's it gonna
+be?    
+~
+91 d 0
+D2
+~
+~
+0 0 9144
+D3
+~
+~
+0 0 9138
+S
+#9140
+A dark narrow pathway~
+   As the cave walls heithen around, you begin to feel rushes of nervousness,
+for the growls and grunts now linger in the cave walls more loudly.  They are
+contenuously growing to great heights of screams and yelps that echo throughout
+the whole cavern.  Blood has been caked onto the wall to ruin the markings,
+that have been enscribed to th wall.  Heiroglifics have been imprinted onto the
+walls, they are very iridescent and seem to glow briefly at your entrance.  
+The floor is made of a charred stone, most likely granite.  It is very hott,
+this tunnel is obviously close to volcanic magma or somthing to that estate.  
+Rocks have been thrown from the walls and are exerted into the granite rock,
+cleanly cut.    
+~
+91 d 0
+D1
+~
+~
+0 0 9135
+D3
+~
+~
+0 0 9141
+S
+#9141
+A small room within the cavern~
+   The growls echo deep within the cavern, sending a chill up your spine as you
+travel the stone pathway, that has been laid carelessly throughout the cavern.
+Large markings cover the walls most writtein in Elvish language, however a few
+can be made out to be that of the human.  The heat rises as the path narrows
+and begins to roughen, giving you a harder path and a more imaginitive thought
+on what lies deeper in the depths of this cavern.  However thoughs have been
+coming to you, you know what's in the cavern you just don't want to let it slip
+your mind and scare you into leaving some great warriors have conquered such
+fabel creatures and you could be the next one.  The growls grow louder.  . .
+and closer.    
+~
+91 d 0
+D1
+~
+~
+0 0 9140
+D3
+~
+~
+0 0 9142
+S
+#9142
+A room of jagged stone~
+   Jagged rocks exert themselves from nearby walls and the floor, daring
+someone to trip.  Some of the shards have been painted white, bearing a small
+dragon in which looks harmless by a small human which stands close by.  The
+ceiling in this room is low and large stalagmites hang nearly to the ground,
+litterly a maze to get through.  It isn't large like the many other corridors
+in this cavern, it's kind of eerie and has the feeling of lonelyness.  The
+walls drip a slimy mildue in which slowly slides effortlessly down the corridor
+walls, disgusting you.  Many yards in the distance another room shows
+clearness, atleast no more jagged rocks, for the time being.    
+~
+91 d 0
+D1
+~
+~
+0 0 9141
+D2
+~
+~
+0 0 9143
+S
+#9143
+A curved corridor~
+   The halls curve swiftly within this area of the cave.  They wave in and out
+making the path more narrow then it already was, daring you to turn back.  
+Large chunks are missing out of the walls, and they seem to spell something
+out, however you must get really close if you would imagine to read such fine
+print.  The floor is made of a sandy material a little thicker then what you
+would think sand would feel like, obviously crumbled rocks have been gathering
+here for a long time.  A few lonesomw stalagmites stand independantly in each
+of the four corners of this room, You don't know if they symbolize anything but
+they have too been painted with an offwhite color in which seems to lighten the
+room as you enter the cave depths deepen.    
+~
+91 d 0
+D0
+~
+~
+0 0 9142
+D2
+~
+~
+0 0 9146
+S
+#9144
+A creepy trail within the trail~
+   Bearing an odd feeling of lonelessness this pathway has often been refered
+to as the grim pathway.  It bears not much activity, however some people think
+something lies within the walls of this narrow area of the cavern.  For this
+many people have dug into the walls leaving scratches and chunked out holes.  
+The walls tower high above one's head, making them look up mouth-opened in awe.
+The walls are tinged black from a rain of fire or sulfer, this brings a chill
+to your back.  What if there really are dragons dwelling within this cave?  
+The sign had said somthing about it, not a good thing that you didn't read it.
+  
+~
+91 d 0
+D0
+~
+~
+0 0 9139
+D2
+~
+~
+0 0 9145
+S
+#9145
+A elaborate walkway, within the cavern~
+   This room lacks the artistic drawings that have been earlier found imprinted
+onto the walls.  Large stone gargoyles however take the place of those oddly
+drawn paintings, these gargoyles are a magnificent sight.  They have been
+handly carved from a rough material in which plays as a sturdy backbone force
+for many archetechtural objects.  Besides the gargoyles that have been strewn
+across the room, the room itself is very plain with a minimum of five rocks
+that can be found upon the smooth ground.  Large howls still echo throughout
+the cave, you begin to get impatient with your walking because one part of your
+soul wishes to find such an animal that would howl like so, however you believe
+it's just your imagination playing tricks upon thy.    
+~
+91 d 0
+D0
+~
+~
+0 0 9144
+D2
+~
+~
+0 0 9155
+S
+#9146
+A darkened walkway within a cavern~
+   This room lacks the artistic drawings that have been earlier found imprinted
+onto the walls.  Large stone gargoyles however take the place of those oddly
+drawn paintings, these gargoyles are a magnificent sight.  They have been
+handly carved from a rough material in which plays as a sturdy backbone force
+for many archetechtural objects.  Besides the gargoyles that have been strewn
+across the room, the room itself is very plain with a minimum of five rocks
+that can be found upon the smooth ground.  Large howls still echo throughout
+the cave, you begin to get impatient with your walking because one part of your
+soul wishes to find such an animal that would howl like so, however you believe
+it's just your imagination playing tricks upon thy.    
+~
+91 d 0
+D0
+~
+~
+0 0 9143
+D2
+~
+~
+0 0 9147
+S
+#9147
+A creepy path~
+   Bearing an odd feeling of lonelessness this pathway has often been refered
+to as the grim pathway.  It bears not much activity, however some people think
+something lies within the walls of this narrow area of the cavern.  For this
+many people have dug into the walls leaving scratches and chunked out holes.  
+The walls tower high above one's head, making them look up mouth-opened in awe.
+The walls are tinged black from a rain of fire or sulfer, this brings a chill
+to your back.  What if there really are dragons dwelling within this cave?  
+The sign had said somthing about it, not a good thing that you didn't read it.
+  
+~
+91 d 0
+D0
+~
+~
+0 0 9146
+D1
+~
+~
+0 0 9148
+S
+#9148
+Lost deep in a cave~
+   Nothing can be heard within this room, and it's quite obvious noone can hear
+anything coming from this room.  Large gargoyle like rocks linger above the
+path, glaring down at the pathway with hatred in their stone visag.  E Small
+bones have been left behind here, they seem to look like bones from minor
+animals and skulls from primapes, however one is not sure because they are in
+no condition to be graded of such.  White splotches cover the wall, looking as
+if shot with some kind of paint gun, these markings can no way be identified as
+human markings or any of the other races at that, they are obviously placed
+there from a wrong doing perhaps a murderous dragon of
+~
+91 d 0
+D1
+~
+~
+0 0 9149
+D3
+~
+~
+0 0 9147
+S
+#9149
+A flooded room within the cave~
+   This room has been flooded and the walls have been plated with a green hue
+of some kind of algae or somthing to that instinct.  Howls can be heard within
+this room, obviously the water blocks anyway of communication to the outside
+world.  It's very cool in this room, stalagmites hang from the ceiling barely
+off the top of one's scalp . Small burnt out torches line the wet room and seem
+to have once guided travelers through the tunnels.  You wish they were still
+their, along with a few travelers to keep you occupied on this long narrow
+pathway that could lead to nothingness.    
+~
+91 d 0
+D1
+~
+~
+0 0 9150
+D3
+~
+~
+0 0 9148
+S
+#9150
+A narrow corridor~
+   As the cave walls heithen around, you begin to feel rushes of nervousness,
+for the growls and grunts now linger in the cave walls more loudly.  They are
+contenuously growing to great heights of screams and yelps that echo throughout
+the whole cavern.  Blood has been caked onto the wall to ruin the markings,
+that have been enscribed to th wall.  Heiroglifics have been imprinted onto the
+walls, they are very iridescent and seem to glow briefly at your entrance.  
+The floor is made of a charred stone, most likely granite.  It is very hott,
+this tunnel is obviously close to volcanic magma or somthing to that estate.  
+Rocks have been thrown from the walls and are exerted into the granite rock,
+cleanly cut.    
+~
+91 d 0
+D1
+~
+~
+0 0 9151
+D3
+~
+~
+0 0 9149
+S
+#9151
+Roaming a cave~
+   The walls are plated with Ivory that has been tinged a deep black, smells of
+burnt leaves float freely around the room, gaging it's victim.  S A large
+boulder rests here acting as some kinda mysterious doorway, however the area if
+there is one has been obviously secret for some time, because the boulder is so
+large.  Many unwarned travelers got lost in this room and never could escape.
+Bones lay on the ground, mostly charred black, sending you a waning of somthing
+hunting within the cavern.  This makes you wonder what the thing is and if you
+really want to find it.  .it's a diffcult dicision.  The markings on the walls
+slowly fade out of existence showing signs of somthing coming up, wonder what
+it is?    
+~
+91 d 0
+D1
+~
+~
+0 0 9152
+D3
+~
+~
+0 0 9150
+S
+#9152
+Within a cave~
+   The growls echo deep within the cavern, sending a chill up your spine as you
+travel the stone pathway, that has been laid carelessly throughout the cavern.
+Large markings cover the walls most writtein in Elvish language, however a few
+can be made out to be that of the human.  The heat rises as the path narrows
+and begins to roughen, giving you a harder path and a more imaginitive thought
+on what lies deeper in the depths of this cavern.  However thoughs have been
+coming to you, you know what's in the cavern you just don't want to let it slip
+your mind and scare you into leaving some great warriors have conquered such
+fabel creatures and you could be the next one.  The growls grow louder.  . .
+and closer.    
+~
+91 d 0
+D1
+~
+~
+0 0 9153
+D3
+~
+~
+0 0 9151
+S
+#9153
+A deep narrow path~
+   As the cave walls heithen around, you begin to feel rushes of nervousness,
+for the growls and grunts now linger in the cave walls more loudly.  They are
+contenuously growing to great heights of screams and yelps that echo throughout
+the whole cavern.  Blood has been caked onto the wall to ruin the markings,
+that have been enscribed to th wall.  Heiroglifics have been imprinted onto the
+walls, they are very iridescent and seem to glow briefly at your entrance.  
+The floor is made of a charred stone, most likely granite.  It is very hott,
+this tunnel is obviously close to volcanic magma or somthing to that estate.  
+Rocks have been thrown from the walls and are exerted into the granite rock,
+cleanly cut.    
+~
+91 d 0
+D0
+~
+~
+0 0 9159
+D1
+~
+~
+0 0 9154
+D2
+~
+~
+0 0 9160
+D3
+~
+~
+0 0 9152
+S
+#9154
+A room of rough rocks~
+   Jagged rocks exert themselves from nearby walls and the floor, daring
+someone to trip.  Some of the shards have been painted white, bearing a small
+dragon in which looks harmless by a small human which stands close by.  The
+ceiling in this room is low and large stalagmites hang nearly to the ground,
+litterly a maze to get through.  It isn't large like the many other corridors
+in this cavern, it's kind of eerie and has the feeling of lonelyness.  The
+walls drip a slimy mildue in which slowly slides effortlessly down the corridor
+walls, disgusting you.  Many yards in the distance another room shows
+clearness, atleast no more jagged rocks, for the time being.    
+~
+91 d 0
+D1
+~
+~
+0 0 9155
+D3
+~
+~
+0 0 9153
+S
+#9155
+A darkened, crooked corridor~
+   The halls curve swiftly within this area of the cave.  They wave in and out
+making the path more narrow then it already was, daring you to turn back.  
+Large chunks are missing out of the walls, and they seem to spell something
+out, however you must get really close if you would imagine to read such fine
+print.  The floor is made of a sandy material a little thicker then what you
+would think sand would feel like, obviously crumbled rocks have been gathering
+here for a long time.  A few lonesomw stalagmites stand independantly in each
+of the four corners of this room, You don't know if they symbolize anything but
+they have too been painted with an offwhite color in which seems to lighten the
+room as you enter the cave depths deepe
+~
+91 d 0
+D0
+~
+~
+0 0 9145
+D3
+~
+~
+0 0 9154
+S
+#9156
+A secret stairwell~
+   This room lacks the artistic drawings that have been earlier found imprinted
+onto the walls.  Large stone gargoyles however take the place of those oddly
+drawn paintings, these gargoyles are a magnificent sight.  They have been
+handly carved from a rough material in which plays as a sturdy backbone force
+for many archetechtural objects.  Besides the gargoyles that have been strewn
+across the room, the room itself is very plain with a minimum of five rocks
+that can be found upon the smooth ground.  Large howls still echo throughout
+the cave, you begin to get impatient with your walking because one part of your
+soul wishes to find such an animal that would howl like so, however you believe
+it's just your imagination playing tricks upon thy.    
+~
+91 d 0
+D0
+~
+~
+0 0 9134
+D5
+~
+~
+0 0 9157
+S
+#9157
+Falling~
+   The air feels very light, as if it isn't even there.  This hole has been dug
+deep into the depths of the earth, nearly one hundred feet or so.  The walls
+are still made of caked mud and rocks that have been dried to make a well-like
+feature.  Obviously this hole has been used as awishing well for many years,
+wonder if there is any more coins at the bottum.  You begin to think about the
+coins and things you'll find in this well, then what actually may be down there
+or if you'll survive this extended fall.  The ground gets closer, and a whistle
+echoes throughout the whole hole, it rings in your ears and sends a sharp pain
+to your brain.  . it's obviously the wind as it passes by you in quick blazes
+that could not be controlled.    
+~
+91 d 0
+D4
+~
+~
+0 0 9156
+D5
+~
+~
+0 0 9158
+S
+#9158
+Falling~
+   The air feels very light, as if it isn't even there.  This hole has been dug
+deep into the depths of the earth, nearly one hundred feet or so.  The walls
+are still made of caked mud and rocks that have been dried to make a well-like
+feature.  Obviously this hole has been used as awishing well for many years,
+wonder if there is any more coins at the bottum.  You begin to think about the
+coins and things you'll find in this well, then what actually may be down there
+or if you'll survive this extended fall.  The ground gets closer, and a whistle
+echoes throughout the whole hole, it rings in your ears and sends a sharp pain
+to your brain.  . it's obviously the wind as it passes by you in quick blazes
+that could not be controlled.    
+~
+91 d 0
+D4
+~
+~
+0 0 9157
+D5
+~
+~
+0 0 9159
+S
+#9159
+Falling~
+   The air feels very light, as if it isn't even there.  This hole has been dug
+deep into the depths of the earth, nearly one hundred feet or so.  The walls
+are still made of caked mud and rocks that have been dried to make a well-like
+feature.  Obviously this hole has been used as awishing well for many years,
+wonder if there is any more coins at the bottum.  You begin to think about the
+coins and things you'll find in this well, then what actually may be down there
+or if you'll survive this extended fall.  The ground gets closer, and a whistle
+echoes throughout the whole hole, it rings in your ears and sends a sharp pain
+to your brain.  . it's obviously the wind as it passes by you in quick blazes
+that could not be controlled.    
+~
+91 d 0
+D2
+~
+~
+0 0 9153
+D4
+~
+~
+0 0 9158
+S
+#9160
+A large area within the cave~
+   Nothing can be heard within this room, and it's quite obvious noone can hear
+anything coming from this room.  Large gargoyle like rocks linger above the
+path, glaring down at the pathway with hatred in their stone visag.  E Small
+bones have been left behind here, they seem to look like bones from minor
+animals and skulls from primapes, however one is not sure because they are in
+no condition to be graded of such.  White splotches cover the wall, looking as
+if shot with some kind of paint gun, these markings can no way be identified as
+human markings or any of the other races at that, they are obviously placed
+there from a wrong doing perhaps a murderous dragon of
+~
+91 d 0
+D0
+~
+~
+0 0 9153
+D2
+~
+~
+0 0 9161
+S
+#9161
+A grim trail within the tunnels~
+   Bearing an odd feeling of lonelessness this pathway has often been refered
+to as the grim pathway.  It bears not much activity, however some people think
+something lies within the walls of this narrow area of the cavern.  For this
+many people have dug into the walls leaving scratches and chunked out holes.  
+The walls tower high above one's head, making them look up mouth-opened in awe.
+The walls are tinged black from a rain of fire or sulfer, this brings a chill
+to your back.  What if there really are dragons dwelling within this cave?  
+The sign had said somthing about it, not a good thing that you didn't read it.
+  
+~
+91 d 0
+D0
+~
+~
+0 0 9160
+D1
+~
+boulder~
+1 0 9171
+D2
+~
+~
+0 0 9162
+D3
+~
+boulder~
+1 0 9173
+S
+#9162
+A elaborate walkway~
+   This room lacks the artistic drawings that have been earlier found imprinted
+onto the walls.  Large stone gargoyles however take the place of those oddly
+drawn paintings, these gargoyles are a magnificent sight.  They have been
+handly carved from a rough material in which plays as a sturdy backbone force
+for many archetechtural objects.  Besides the gargoyles that have been strewn
+across the room, the room itself is very plain with a minimum of five rocks
+that can be found upon the smooth ground.  Large howls still echo throughout
+the cave, you begin to get impatient with your walking because one part of your
+soul wishes to find such an animal that would howl like so, however you believe
+it's just your imagination playing tricks upon thy.    
+~
+91 d 0
+D0
+~
+~
+0 0 9161
+D2
+~
+~
+0 0 9163
+S
+#9163
+A dark curved corridor~
+   The halls curve swiftly within this area of the cave.  They wave in and out
+making the path more narrow then it already was, daring you to turn back.  
+Large chunks are missing out of the walls, and they seem to spell something
+out, however you must get really close if you would imagine to read such fine
+print.  The floor is made of a sandy material a little thicker then what you
+would think sand would feel like, obviously crumbled rocks have been gathering
+here for a long time.  A few lonesomw stalagmites stand independantly in each
+of the four corners of this room, You don't know if they symbolize anything but
+they have too been painted with an offwhite color in which seems to lighten the
+room as you enter the cave depths deepe
+~
+91 d 0
+D0
+~
+~
+0 0 9162
+D1
+~
+~
+0 0 9164
+S
+#9164
+A room of rough rocks~
+   Jagged rocks exert themselves from nearby walls and the floor, daring
+someone to trip.  Some of the shards have been painted white, bearing a small
+dragon in which looks harmless by a small human which stands close by.  The
+ceiling in this room is low and large stalagmites hang nearly to the ground,
+litterly a maze to get through.  It isn't large like the many other corridors
+in this cavern, it's kind of eerie and has the feeling of lonelyness.  The
+walls drip a slimy mildue in which slowly slides effortlessly down the corridor
+walls, disgusting you.  Many yards in the distance another room shows
+clearness, atleast no more jagged rocks, for the time being.    
+~
+91 d 0
+D2
+~
+~
+0 0 9165
+D3
+~
+~
+0 0 9163
+S
+#9165
+A dark room within the cavern~
+   The growls echo deep within the cavern, sending a chill up your spine as you
+travel the stone pathway, that has been laid carelessly throughout the cavern.
+Large markings cover the walls most writtein in Elvish language, however a few
+can be made out to be that of the human.  The heat rises as the path narrows
+and begins to roughen, giving you a harder path and a more imaginitive thought
+on what lies deeper in the depths of this cavern.  However thoughs have been
+coming to you, you know what's in the cavern you just don't want to let it slip
+your mind and scare you into leaving some great warriors have conquered such
+fabel creatures and you could be the next one.  The growls grow louder.  . .
+and closer.    
+~
+91 d 0
+D0
+~
+~
+0 0 9164
+D1
+~
+~
+0 0 9166
+S
+#9166
+A small room within the cave~
+   The walls are plated with Ivory that has been tinged a deep black, smells of
+burnt leaves float freely around the room, gaging it's victim.  S A large
+boulder rests here acting as some kinda mysterious doorway, however the area if
+there is one has been obviously secret for some time, because the boulder is so
+large.  Many unwarned travelers got lost in this room and never could escape.
+Bones lay on the ground, mostly charred black, sending you a waning of somthing
+hunting within the cavern.  This makes you wonder what the thing is and if you
+really want to find it.  .it's a diffcult dicision.  The markings on the walls
+slowly fade out of existence showing signs of somthing coming up, wonder what
+it is?    
+~
+91 d 0
+D2
+~
+~
+0 0 9167
+D3
+~
+~
+0 0 9165
+S
+#9167
+A dark narrow pathway~
+   As the cave walls heithen around, you begin to feel rushes of nervousness,
+for the growls and grunts now linger in the cave walls more loudly.  They are
+contenuously growing to great heights of screams and yelps that echo throughout
+the whole cavern.  Blood has been caked onto the wall to ruin the markings,
+that have been enscribed to th wall.  Heiroglifics have been imprinted onto the
+walls, they are very iridescent and seem to glow briefly at your entrance.  
+The floor is made of a charred stone, most likely granite.  It is very hott,
+this tunnel is obviously close to volcanic magma or somthing to that estate.  
+Rocks have been thrown from the walls and are exerted into the granite rock,
+cleanly cut.    
+~
+91 d 0
+D0
+~
+~
+0 0 9166
+D1
+~
+~
+0 0 9168
+S
+#9168
+A room full of knee-deep water~
+   This room has been flooded and the walls have been plated with a green hue
+of some kind of algae or somthing to that instinct.  Howls can be heard within
+this room, obviously the water blocks anyway of communication to the outside
+world.  It's very cool in this room, stalagmites hang from the ceiling barely
+off the top of one's scalp . Small burnt out torches line the wet room and seem
+to have once guided travelers through the tunnels.  You wish they were still
+their, along with a few travelers to keep you occupied on this long narrow
+pathway that could lead to nothingness.    
+~
+91 d 0
+D2
+~
+~
+0 0 9169
+D3
+~
+~
+0 0 9167
+S
+#9169
+Walking within the cavern~
+   Nothing can be heard within this room, and it's quite obvious noone can hear
+anything coming from this room.  Large gargoyle like rocks linger above the
+path, glaring down at the pathway with hatred in their stone visag.  E Small
+bones have been left behind here, they seem to look like bones from minor
+animals and skulls from primapes, however one is not sure because they are in
+no condition to be graded of such.  White splotches cover the wall, looking as
+if shot with some kind of paint gun, these markings can no way be identified as
+human markings or any of the other races at that, they are obviously placed
+there from a wrong doing perhaps a murderous dragon of
+~
+91 d 0
+D0
+~
+~
+0 0 9168
+D1
+~
+~
+0 0 9170
+S
+#9170
+A dark, grim pathway~
+   Bearing an odd feeling of lonelessness this pathway has often been refered
+to as the grim pathway.  It bears not much activity, however some people think
+something lies within the walls of this narrow area of the cavern.  For this
+many people have dug into the walls leaving scratches and chunked out holes.  
+The walls tower high above one's head, making them look up mouth-opened in awe.
+The walls are tinged black from a rain of fire or sulfer, this brings a chill
+to your back.  What if there really are dragons dwelling within this cave?  
+The sign had said somthing about it, not a good thing that you didn't read it.
+  
+~
+91 d 0
+D2
+~
+~
+0 0 9174
+D3
+~
+~
+0 0 9169
+S
+#9171
+A small secret cove~
+   The growls echo deep within the cavern, sending a chill up your spine as you
+travel the stone pathway, that has been laid carelessly throughout the cavern.
+Large markings cover the walls most writtein in Elvish language, however a few
+can be made out to be that of the human.  The heat rises as the path narrows
+and begins to roughen, giving you a harder path and a more imaginitive thought
+on what lies deeper in the depths of this cavern.  However thoughs have been
+coming to you, you know what's in the cavern you just don't want to let it slip
+your mind and scare you into leaving some great warriors have conquered such
+fabel creatures and you could be the next one.  The growls grow louder.  . .
+and closer.    
+~
+91 dh 0
+D3
+~
+boulder~
+1 0 9161
+S
+#9172
+A secret underground alcove~
+   The growls echo deep within the cavern, sending a chill up your spine as you
+travel the stone pathway, that has been laid carelessly throughout the cavern.
+Large markings cover the walls most writtein in Elvish language, however a few
+can be made out to be that of the human.  The heat rises as the path narrows
+and begins to roughen, giving you a harder path and a more imaginitive thought
+on what lies deeper in the depths of this cavern.  However thoughs have been
+coming to you, you know what's in the cavern you just don't want to let it slip
+your mind and scare you into leaving some great warriors have conquered such
+fabel creatures and you could be the next one.  The growls grow louder.  . .
+and closer.    
+~
+91 dh 0
+D2
+~
+boulder~
+1 0 9138
+S
+#9173
+A small secret cove~
+   The growls echo deep within the cavern, sending a chill up your spine as you
+travel the stone pathway, that has been laid carelessly throughout the cavern.
+Large markings cover the walls most writtein in Elvish language, however a few
+can be made out to be that of the human.  The heat rises as the path narrows
+and begins to roughen, giving you a harder path and a more imaginitive thought
+on what lies deeper in the depths of this cavern.  However thoughs have been
+coming to you, you know what's in the cavern you just don't want to let it slip
+your mind and scare you into leaving some great warriors have conquered such
+fabel creatures and you could be the next one.  The growls grow louder.  . .
+and closer.    
+~
+91 dh 0
+D1
+~
+boulder~
+1 0 9161
+S
+#9174
+A mysterious walkway through the cavern~
+   This room lacks the artistic drawings that have been earlier found imprinted
+onto the walls.  Large stone gargoyles however take the place of those oddly
+drawn paintings, these gargoyles are a magnificent sight.  They have been
+handly carved from a rough material in which plays as a sturdy backbone force
+for many archetechtural objects.  Besides the gargoyles that have been strewn
+across the room, the room itself is very plain with a minimum of five rocks
+that can be found upon the smooth ground.  Large howls still echo throughout
+the cave, you begin to get impatient with your walking because one part of your
+soul wishes to find such an animal that would howl like so, however you believe
+it's just your imagination playing tricks upon thy.    
+~
+91 d 0
+D0
+~
+~
+0 0 9170
+D2
+~
+~
+0 0 9175
+S
+#9175
+A crooked corridor~
+   The halls curve swiftly within this area of the cave.  They wave in and out
+making the path more narrow then it already was, daring you to turn back.  
+Large chunks are missing out of the walls, and they seem to spell something
+out, however you must get really close if you would imagine to read such fine
+print.  The floor is made of a sandy material a little thicker then what you
+would think sand would feel like, obviously crumbled rocks have been gathering
+here for a long time.  A few lonesomw stalagmites stand independantly in each
+of the four corners of this room, You don't know if they symbolize anything but
+they have too been painted with an offwhite color in which seems to lighten the
+room as you enter the cave depths deepe
+~
+91 d 0
+D0
+~
+~
+0 0 9174
+D3
+~
+~
+0 0 9176
+S
+#9176
+A room of rough walls~
+   Jagged rocks exert themselves from nearby walls and the floor, daring
+someone to trip.  Some of the shards have been painted white, bearing a small
+dragon in which looks harmless by a small human which stands close by.  The
+ceiling in this room is low and large stalagmites hang nearly to the ground,
+litterly a maze to get through.  It isn't large like the many other corridors
+in this cavern, it's kind of eerie and has the feeling of lonelyness.  The
+walls drip a slimy mildue in which slowly slides effortlessly down the corridor
+walls, disgusting you.  Many yards in the distance another room shows
+clearness, atleast no more jagged rocks, for the time being.    
+~
+91 d 0
+D1
+~
+~
+0 0 9175
+D3
+~
+~
+0 0 9177
+S
+#9177
+Within the cavern~
+   The growls echo deep within the cavern, sending a chill up your spine as you
+travel the stone pathway, that has been laid carelessly throughout the cavern.
+Large markings cover the walls most writtein in Elvish language, however a few
+can be made out to be that of the human.  The heat rises as the path narrows
+and begins to roughen, giving you a harder path and a more imaginitive thought
+on what lies deeper in the depths of this cavern.  However thoughs have been
+coming to you, you know what's in the cavern you just don't want to let it slip
+your mind and scare you into leaving some great warriors have conquered such
+fabel creatures and you could be the next one.  The growls grow louder.  . .
+and closer.    
+~
+91 d 0
+D1
+~
+~
+0 0 9176
+D3
+~
+~
+0 0 9178
+S
+#9178
+Lost within the cave~
+   The walls are plated with Ivory that has been tinged a deep black, smells of
+burnt leaves float freely around the room, gaging it's victim.  S A large
+boulder rests here acting as some kinda mysterious doorway, however the area if
+there is one has been obviously secret for some time, because the boulder is so
+large.  Many unwarned travelers got lost in this room and never could escape.
+Bones lay on the ground, mostly charred black, sending you a waning of somthing
+hunting within the cavern.  This makes you wonder what the thing is and if you
+really want to find it.  .it's a diffcult dicision.  The markings on the walls
+slowly fade out of existence showing signs of somthing coming up, wonder what
+it is?    
+~
+91 d 0
+D1
+~
+~
+0 0 9177
+D3
+~
+~
+0 0 9199
+S
+#9179
+A walkway through the cavern~
+   This room lacks the artistic drawings that have been earlier found imprinted
+onto the walls.  Large stone gargoyles however take the place of those oddly
+drawn paintings, these gargoyles are a magnificent sight.  They have been
+handly carved from a rough material in which plays as a sturdy backbone force
+for many archetechtural objects.  Besides the gargoyles that have been strewn
+across the room, the room itself is very plain with a minimum of five rocks
+that can be found upon the smooth ground.  Large howls still echo throughout
+the cave, you begin to get impatient with your walking because one part of your
+soul wishes to find such an animal that would howl like so, however you believe
+it's just your imagination playing tricks upon thy.    
+~
+91 d 0
+D2
+~
+~
+0 0 9180
+D4
+~
+~
+0 0 9130
+S
+#9180
+A grim pathway~
+   Bearing an odd feeling of lonelessness this pathway has often been refered
+to as the grim pathway.  It bears not much activity, however some people think
+something lies within the walls of this narrow area of the cavern.  For this
+many people have dug into the walls leaving scratches and chunked out holes.  
+The walls tower high above one's head, making them look up mouth-opened in awe.
+The walls are tinged black from a rain of fire or sulfer, this brings a chill
+to your back.  What if there really are dragons dwelling within this cave?  
+The sign had said somthing about it, not a good thing that you didn't read it.
+  
+~
+91 d 0
+D0
+~
+~
+0 0 9179
+D2
+~
+~
+0 0 9181
+S
+#9181
+Walking within the cavern~
+   This room lacks the artistic drawings that have been earlier found imprinted
+onto the walls.  Large stone gargoyles however take the place of those oddly
+drawn paintings, these gargoyles are a magnificent sight.  They have been
+handly carved from a rough material in which plays as a sturdy backbone force
+for many archetechtural objects.  Besides the gargoyles that have been strewn
+across the room, the room itself is very plain with a minimum of five rocks
+that can be found upon the smooth ground.  Large howls still echo throughout
+the cave, you begin to get impatient with your walking because one part of your
+soul wishes to find such an animal that would howl like so, however you believe
+it's just your imagination playing tricks upon thy.    
+~
+91 0 0
+D0
+~
+~
+0 0 9180
+D2
+~
+~
+0 0 9182
+S
+#9182
+A flooded room within the cave~
+   This room has been flooded and the walls have been plated with a green hue
+of some kind of algae or somthing to that instinct.  Howls can be heard within
+this room, obviously the water blocks anyway of communication to the outside
+world.  It's very cool in this room, stalagmites hang from the ceiling barely
+off the top of one's scalp . Small burnt out torches line the wet room and seem
+to have once guided travelers through the tunnels.  You wish they were still
+their, along with a few travelers to keep you occupied on this long narrow
+pathway that could lead to nothingness.    
+~
+91 d 0
+D0
+~
+~
+0 0 9181
+D2
+~
+~
+0 0 9183
+S
+#9183
+Upon a narrow path~
+   As the cave walls heithen around, you begin to feel rushes of nervousness,
+for the growls and grunts now linger in the cave walls more loudly.  They are
+contenuously growing to great heights of screams and yelps that echo throughout
+the whole cavern.  Blood has been caked onto the wall to ruin the markings,
+that have been enscribed to th wall.  Heiroglifics have been imprinted onto the
+walls, they are very iridescent and seem to glow briefly at your entrance.  
+The floor is made of a charred stone, most likely granite.  It is very hott,
+this tunnel is obviously close to volcanic magma or somthing to that estate.  
+Rocks have been thrown from the walls and are exerted into the granite rock,
+cleanly cut.    
+~
+91 d 0
+D0
+~
+~
+0 0 9182
+D1
+~
+~
+0 0 9184
+S
+#9184
+Roaming the cave~
+   The walls are plated with Ivory that has been tinged a deep black, smells of
+burnt leaves float freely around the room, gaging it's victim.  S A large
+boulder rests here acting as some kinda mysterious doorway, however the area if
+there is one has been obviously secret for some time, because the boulder is so
+large.  Many unwarned travelers got lost in this room and never could escape.
+Bones lay on the ground, mostly charred black, sending you a waning of somthing
+hunting within the cavern.  This makes you wonder what the thing is and if you
+really want to find it.  .it's a diffcult dicision.  The markings on the walls
+slowly fade out of existence showing signs of somthing coming up, wonder what
+it is?    
+~
+91 d 0
+D2
+~
+~
+0 0 9185
+D3
+~
+~
+0 0 9183
+S
+#9185
+Within a large cave~
+   The growls echo deep within the cavern, sending a chill up your spine as you
+travel the stone pathway, that has been laid carelessly throughout the cavern.
+Large markings cover the walls most writtein in Elvish language, however a few
+can be made out to be that of the human.  The heat rises as the path narrows
+and begins to roughen, giving you a harder path and a more imaginitive thought
+on what lies deeper in the depths of this cavern.  However thoughs have been
+coming to you, you know what's in the cavern you just don't want to let it slip
+your mind and scare you into leaving some great warriors have conquered such
+fabel creatures and you could be the next one.  The growls grow louder.  . .
+and closer.    
+~
+91 d 0
+D0
+~
+~
+0 0 9184
+D2
+~
+~
+0 0 9186
+S
+#9186
+A room, bearing rough-walls~
+   Jagged rocks exert themselves from nearby walls and the floor, daring
+someone to trip.  Some of the shards have been painted white, bearing a small
+dragon in which looks harmless by a small human which stands close by.  The
+ceiling in this room is low and large stalagmites hang nearly to the ground,
+litterly a maze to get through.  It isn't large like the many other corridors
+in this cavern, it's kind of eerie and has the feeling of lonelyness.  The
+walls drip a slimy mildue in which slowly slides effortlessly down the corridor
+walls, disgusting you.  Many yards in the distance another room shows
+clearness, atleast no more jagged rocks, for the time being.    
+~
+91 d 0
+D0
+~
+~
+0 0 9185
+D1
+~
+~
+0 0 9187
+S
+#9187
+A twisting corridor of the cavern~
+   The halls curve swiftly within this area of the cave.  They wave in and out
+making the path more narrow then it already was, daring you to turn back.  
+Large chunks are missing out of the walls, and they seem to spell something
+out, however you must get really close if you would imagine to read such fine
+print.  The floor is made of a sandy material a little thicker then what you
+would think sand would feel like, obviously crumbled rocks have been gathering
+here for a long time.  A few lonesomw stalagmites stand independantly in each
+of the four corners of this room, You don't know if they symbolize anything but
+they have too been painted with an offwhite color in which seems to lighten the
+room as you enter the cave depths deepe
+~
+91 d 0
+D2
+~
+~
+0 0 9188
+D3
+~
+~
+0 0 9186
+S
+#9188
+A walkway through the cavern~
+   This room lacks the artistic drawings that have been earlier found imprinted
+onto the walls.  Large stone gargoyles however take the place of those oddly
+drawn paintings, these gargoyles are a magnificent sight.  They have been
+handly carved from a rough material in which plays as a sturdy backbone force
+for many archetechtural objects.  Besides the gargoyles that have been strewn
+across the room, the room itself is very plain with a minimum of five rocks
+that can be found upon the smooth ground.  Large howls still echo throughout
+the cave, you begin to get impatient with your walking because one part of your
+soul wishes to find such an animal that would howl like so, however you believe
+it's just your imagination playing tricks upon thy.    
+~
+91 d 0
+D0
+~
+~
+0 0 9187
+D1
+~
+~
+0 0 9189
+S
+#9189
+A grim tunnel~
+   Bearing an odd feeling of lonelessness this pathway has often been refered
+to as the grim pathway.  It bears not much activity, however some people think
+something lies within the walls of this narrow area of the cavern.  For this
+many people have dug into the walls leaving scratches and chunked out holes.  
+The walls tower high above one's head, making them look up mouth-opened in awe.
+The walls are tinged black from a rain of fire or sulfer, this brings a chill
+to your back.  What if there really are dragons dwelling within this cave?  
+The sign had said somthing about it, not a good thing that you didn't read it.
+  
+~
+91 d 0
+D2
+~
+~
+0 0 9190
+D3
+~
+~
+0 0 9188
+S
+#9190
+Strolling a darkened cave~
+   Nothing can be heard within this room, and it's quite obvious noone can hear
+anything coming from this room.  Large gargoyle like rocks linger above the
+path, glaring down at the pathway with hatred in their stone visag.  E Small
+bones have been left behind here, they seem to look like bones from minor
+animals and skulls from primapes, however one is not sure because they are in
+no condition to be graded of such.  White splotches cover the wall, looking as
+if shot with some kind of paint gun, these markings can no way be identified as
+human markings or any of the other races at that, they are obviously placed
+there from a wrong doing perhaps a murderous dragon of
+~
+91 0 0
+D0
+~
+~
+0 0 9189
+D2
+~
+~
+0 0 9191
+S
+#9191
+A curved corridor~
+   This room lacks the artistic drawings that have been earlier found imprinted
+onto the walls.  Large stone gargoyles however take the place of those oddly
+drawn paintings, these gargoyles are a magnificent sight.  They have been
+handly carved from a rough material in which plays as a sturdy backbone force
+for many archetechtural objects.  Besides the gargoyles that have been strewn
+across the room, the room itself is very plain with a minimum of five rocks
+that can be found upon the smooth ground.  Large howls still echo throughout
+the cave, you begin to get impatient with your walking because one part of your
+soul wishes to find such an animal that would howl like so, however you believe
+it's just your imagination playing tricks upon thy.    
+~
+91 d 0
+D0
+~
+~
+0 0 9190
+D1
+~
+~
+0 0 9192
+S
+#9192
+A room of jagged walls~
+   Jagged rocks exert themselves from nearby walls and the floor, daring
+someone to trip.  Some of the shards have been painted white, bearing a small
+dragon in which looks harmless by a small human which stands close by.  The
+ceiling in this room is low and large stalagmites hang nearly to the ground,
+litterly a maze to get through.  It isn't large like the many other corridors
+in this cavern, it's kind of eerie and has the feeling of lonelyness.  The
+walls drip a slimy mildue in which slowly slides effortlessly down the corridor
+walls, disgusting you.  Many yards in the distance another room shows
+clearness, atleast no more jagged rocks, for the time being.    
+~
+91 d 0
+D2
+~
+~
+0 0 9193
+D3
+~
+~
+0 0 9191
+S
+#9193
+A dark flooded hall~
+   This room has been flooded and the walls have been plated with a green hue
+of some kind of algae or somthing to that instinct.  Howls can be heard within
+this room, obviously the water blocks anyway of communication to the outside
+world.  It's very cool in this room, stalagmites hang from the ceiling barely
+off the top of one's scalp . Small burnt out torches line the wet room and seem
+to have once guided travelers through the tunnels.  You wish they were still
+their, along with a few travelers to keep you occupied on this long narrow
+pathway that could lead to nothingness.    
+~
+91 d 0
+D0
+~
+~
+0 0 9192
+D1
+~
+~
+0 0 9194
+S
+#9194
+A long narrow path~
+   As the cave walls heithen around, you begin to feel rushes of nervousness,
+for the growls and grunts now linger in the cave walls more loudly.  They are
+contenuously growing to great heights of screams and yelps that echo throughout
+the whole cavern.  Blood has been caked onto the wall to ruin the markings,
+that have been enscribed to th wall.  Heiroglifics have been imprinted onto the
+walls, they are very iridescent and seem to glow briefly at your entrance.  
+The floor is made of a charred stone, most likely granite.  It is very hott,
+this tunnel is obviously close to volcanic magma or somthing to that estate.  
+Rocks have been thrown from the walls and are exerted into the granite rock,
+cleanly cut.    
+~
+91 d 0
+D2
+~
+~
+0 0 9195
+D3
+~
+~
+0 0 9193
+S
+#9195
+A pathway within the cavern~
+   This room lacks the artistic drawings that have been earlier found imprinted
+onto the walls.  Large stone gargoyles however take the place of those oddly
+drawn paintings, these gargoyles are a magnificent sight.  They have been
+handly carved from a rough material in which plays as a sturdy backbone force
+for many archetechtural objects.  Besides the gargoyles that have been strewn
+across the room, the room itself is very plain with a minimum of five rocks
+that can be found upon the smooth ground.  Large howls still echo throughout
+the cave, you begin to get impatient with your walking because one part of your
+soul wishes to find such an animal that would howl like so, however you believe
+it's just your imagination playing tricks upon thy.    
+~
+91 d 0
+D0
+~
+~
+0 0 9194
+D1
+~
+~
+0 0 9196
+S
+#9196
+A dark and grim path~
+   Bearing an odd feeling of lonelessness this pathway has often been refered
+to as the grim pathway.  It bears not much activity, however some people think
+something lies within the walls of this narrow area of the cavern.  For this
+many people have dug into the walls leaving scratches and chunked out holes.  
+The walls tower high above one's head, making them look up mouth-opened in awe.
+The walls are tinged black from a rain of fire or sulfer, this brings a chill
+to your back.  What if there really are dragons dwelling within this cave?  
+The sign had said somthing about it, not a good thing that you didn't read it.
+  
+~
+91 d 0
+D2
+~
+~
+0 0 9197
+D3
+~
+~
+0 0 9195
+S
+#9197
+A long corridor within the cave~
+   Nothing can be heard within this room, and it's quite obvious noone can hear
+anything coming from this room.  Large gargoyle like rocks linger above the
+path, glaring down at the pathway with hatred in their stone visag.  E Small
+bones have been left behind here, they seem to look like bones from minor
+animals and skulls from primapes, however one is not sure because they are in
+no condition to be graded of such.  White splotches cover the wall, looking as
+if shot with some kind of paint gun, these markings can no way be identified as
+human markings or any of the other races at that, they are obviously placed
+there from a wrong doing perhaps a murderous dragon of
+~
+91 d 0
+D0
+~
+~
+0 0 9196
+D1
+~
+~
+0 0 9198
+S
+#9198
+A grim flooded room within the cave~
+   This room has been flooded and the walls have been plated with a green hue
+of some kind of algae or somthing to that instinct.  Howls can be heard within
+this room, obviously the water blocks anyway of communication to the outside
+world.  It's very cool in this room, stalagmites hang from the ceiling barely
+off the top of one's scalp . Small burnt out torches line the wet room and seem
+to have once guided travelers through the tunnels.  You wish they were still
+their, along with a few travelers to keep you occupied on this long narrow
+pathway that could lead to nothingness.    
+~
+91 d 0
+D3
+~
+~
+0 0 9197
+D5
+~
+~
+0 0 9199
+S
+#9199
+A long narrow hall~
+   As the cave walls heithen around, you begin to feel rushes of nervousness,
+for the growls and grunts now linger in the cave walls more loudly.  They are
+contenuously growing to great heights of screams and yelps that echo throughout
+the whole cavern.  Blood has been caked onto the wall to ruin the markings,
+that have been enscribed to th wall.  Heiroglifics have been imprinted onto the
+walls, they are very iridescent and seem to glow briefly at your entrance.  
+The floor is made of a charred stone, most likely granite.  It is very hott,
+this tunnel is obviously close to volcanic magma or somthing to that estate.  
+Rocks have been thrown from the walls and are exerted into the granite rock,
+cleanly cut.    
+~
+91 d 0
+D1
+~
+~
+0 0 9178
+D4
+~
+~
+0 0 9198
+S
+$~

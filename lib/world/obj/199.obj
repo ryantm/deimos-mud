@@ -1,0 +1,105 @@
+#19901
+rifle cp-40 laser gun~
+a &BCP-40&n Pulse Laser Rifle~
+An energy rifle of excelent quality.~
+~
+5 2105344 8193 0
+5 6 6 12
+9 40000 400 0
+A
+19 7
+A
+18 6
+#19902
+c-14 laser rifle gun fire breather~
+a &BC-14 &n"&RF&rire &RB&rreather&n" Laser Rifle~
+An assult laser and grenade launcher rifle.~
+~
+5 2105344 8193 0
+20 3 6 12
+10 30000 300 0
+A
+18 4
+A
+19 6
+#19903
+C-18 laser pistol gun~
+a &BC-18&n Laser Pistol~
+An odd pistol, for a 6mm, but maybe not a laser pistol.~
+~
+5 2105344 8193 0
+2 2 4 12
+4 12000 120 0
+A
+19 5
+A
+18 3
+#19904
+handguard armgear vambreace gaurds gears arm hand~
+a set of &WCS &BS&bpiked &BH&bandgear&n~
+Coalition armgear with spikes and blades.~
+~
+9 0 129 0
+-7 0 0 0
+2 9000 90 0
+A
+19 4
+A
+18 1
+A
+17 -5
+#19905
+handguard armgear arm hand gear guand vambrace~
+a set of &WCS &BD&bual &BB&bladed &BH&bandgear&n~
+A set of Coalition handgear with two large blades.~
+~
+9 0 129 0
+10 0 0 0
+2 11000 110 0
+A
+17 -20
+A
+18 8
+A
+19 8
+#19906
+dead boy body armor CS old~
+'Old Style' &WCS &BD&bead &BB&boy &BB&body &BA&brmor&n~
+A CS chest piece of 'Old Style' body armor.~
+~
+9 0 9 0
+40 0 0 0
+10 7000 70 0
+A
+1 5
+A
+17 -50
+A
+14 5
+#19907
+CS armor helmet dead boy headgear~
+an 'Old Style' &WCS &BD&bead &BB&boy &BH&belmet&n~
+Skeletal like headgear with spikes adornings its surface.~
+~
+9 2105344 17 0
+12 0 0 0
+5 7000 70 0
+A
+17 -20
+A
+2 3
+#19908
+cs dead boy legplates leggings leg plates~
+a set of &WCS &BD&bead &BB&boy &BL&begplates&n~
+Blackish-blue legplates with spikes adorning its surface.~
+~
+9 2105344 33 0
+15 0 0 0
+3 5000 50 0
+A
+17 -20
+A
+14 5
+A
+19 2
+$~

@@ -1,0 +1,17 @@
+
+set
+15
+say I'm a dumbass
+1
+2
+df
+14
+drink fountain
+0
+2
+lb
+21
+c 'lightning bolt' $*
+1
+
+

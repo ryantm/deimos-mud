@@ -1,0 +1,31 @@
+#2200
+hellhound~
+a hellhound~
+A giant hellhound snarls at you.
+~
+   It's a giant, red, snarling dog with two heads.  Two sets of deep red eyes
+glint in the darkness.    
+~
+135210 0 0 E
+65 7 3 30d30+8550 9d9+13
+739375 4225000
+12 12 0
+BareHandAttack: 12
+E
+#2299
+Gandalf~
+Gandalf The Grey~
+Gandalf The Grey leans against a spire, looking pained and tired.
+~
+   He is tired and sore, cuts and bruses covering his bloodstained face.  His
+hair lies down in tatters, yet his eyes seem bright and vibrant.  The eyes of a
+fighter.    
+~
+256283 8422572 0 E
+66 4 13 66d66+4356 33d33+16
+326700 4356000
+12 12 1
+BareHandAttack: 13
+SpecProc: block_south
+E
+$

@@ -1,0 +1,12 @@
+#208
+Cave~
+Tobias Wishame~
+20899 10 2
+O 0 20804 1 20811  0	(a pile of gold)
+M 0 20801 4 20806  0	(a large rat)
+G 1 20802 1000 -1  0	(a rubber ball)
+O 0 20801 1 20808  0	(a well made of sun-baked mud)
+M 0 20800 6 20803  0	(a large vampire bat)
+E 1 20800 2147483647 4  0	(a fang from a vampire bat)
+S
+$

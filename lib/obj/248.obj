@@ -1,0 +1,61 @@
+#24800
+easter egg~
+an &CE&Ya&Cs&Yt&Ce&Yr &CE&Yg&Cg&n~
+&gAn &CE&Ya&Cs&Yt&Ce&Yr &CE&Yg&Cg&g is hiding in the grass here!~
+   Every spring the Easter Bunny, Oryctolagus pascha, awakes from its
+year-round hibernation to roam the world and deposit its hard-shelled eggs in
+clumps of tall grass.  The Easter Bunny is unique in that it is the only
+egg-laying mammal that is not a monotreme, distinguishing it from the platypus
+and the echidna.  Furthermore, its eggs display some of the most vivid and
+intricate color patterns--each one distinct from another--to be found in the
+animal kingdom.    
+~
+15 8388612 1 0
+100 1 -1 0
+0 0 0 0
+#24801
+egg key~
+the egg key~
+The egg key is lying here.~
+   It's a key that goes in an egg.    
+~
+18 4 1 0
+0 0 0 0
+0 0 0 0
+#24802
+mother easter eggs~
+the &MMother of all Easter Eggs&n~
+&gThe &MMother of all Easter Eggs &gtries miserably to hide in the grass here!~
+   Just looking at it scrambles your head!    
+~
+15 8388612 1 0
+100 3 24801 0
+0 0 0 0
+#24810
+crappy katana~
+a crappy katana~
+A crappy katana is lying here.~
+~
+5 0 8193 0
+0 0 50 3
+0 0 0 0
+#24811
+Physics 214 Lecture Notes~
+Physics 214 Lecture Notes~
+It sucks.~
+~
+0 4 16385 0
+0 0 0 0
+0 0 0 0
+#24820
+toilet titanium~
+a Titanium Toilet~
+A shiny Titanium Toilet stands on the floor dead-center.~
+   Who knows why this toilet needs to be cast from a single solid block of
+titanium?  Maybe it's a toilet spaceship that needs to withstand the high
+temperatures of atmospheric reentry.
+~
+15 16 0 0
+1000 1 -1 0
+0 0 0 0
+$~

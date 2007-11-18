@@ -1,0 +1,63 @@
+#24500
+guide handbook newbie deimos~
+&rDeimos &DHandbook - &WType: Exa Handbook&n~
+&RThe Deimos &Whandbook&R is lying here, wanting you to read it!&n~
+
+The Deimos handbook is a wonderfully crafted piece of work.  The leather has been beautifully
+decorated, and it has been faded with age.  There is a plaque that is made of tarnished brass,
+which reads: "Look Introduction".  The book holds all the knowledge someone new to Deimos
+would wish to learn.
+
+Type: &RLOOK INTRODUCTION&n
+
+~
+16 0 1 0
+0 0 0 0
+0 0 0 0
+E
+introduction~
+
+Welcome to the world of Deimos!  This book should be able to guide you through the lays of
+our lands, the rules which you must abide to, and help you become adept in the skills that
+will lead you to proficiency in the class of your choosing.  Read the guide thoroughly, and
+you shall soon become well learned with Deimos.  May the Gods guide you.
+
+Type: &RLook Index&n
+~
+E
+index~
+&R-=&DINDEX&R=-&n
+
+look newbie     - A comprehensive guide to Deimos for all those who have never played here.
+look commands   - A listing of useful commands for getting started.
+
+look page1      -
+look page2      - An in-depth guide that is suited for those
+look page3      - who are new to MUDs in general.
+look page4      -
+~
+E
+newbie~
+&R-=&DNewbie&R=-&n
+
+For those new to Deimos, they should know the mud is a multi-themed game.  That means, although
+there is a consistent story-line for those wish to role-play, there is also no defining theme
+to our zone layouts for 80% of Mud's zones.  They range from places like the Monopoly Board,
+to the land of Oz!  Also another thing we are proud of is the newbie friendly atmosphere we
+host.  As a new player you will notice you do not have much eq, if any at all.  Don
+You really don't need to use equipment until probably level 10 or higher, as the lower level
+mobs are pretty easy.  By that time you can start going out after your own equipment, or have
+others try to find some for you.  Also try exploring the mud once you hit level 15 or so.
+But be sure to ask before you enter areas, as some are not friendly places to be.  After all
+exploring is half the fun, but you can't do it while dead!  And the main point of Deimos is
+to bring enjoyment to our players.
+~
+E
+commands~
+&R-=&DCommands&R=-&n
+
+First off you would want to start out by turning on auto commands.
+Help Auto  - This will bring up a list of all the auto commands that are at your disposal.
+autoall    - This will turn on all autocommands that we have, except autosac.
+~
+$~

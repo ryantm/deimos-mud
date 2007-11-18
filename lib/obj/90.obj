@@ -1,0 +1,255 @@
+#9000
+Mud School Key Beginning~
+the &cMud School Key&n~
+The &cMud School Key&n is lying here.~
+Nothing.
+~
+18 0 1 0
+0 0 0 0
+0 0 0 0
+E
+beginning key~
+The &cMud School Key&n will open the doors to the training rooms.
+~
+#9001
+first key~
+the &yFirst Key&n~
+The &yFirst Key&n for the Mud School is lying here...~
+~
+18 0 1 0
+0 0 0 0
+0 0 0 0
+E
+first key~
+   The &yFirst Key&n will open up the passage to the Speech Room.    
+~
+#9002
+second key~
+the &YSecond Key&n~
+The &YSecond Key&n for the Mud School is lying here...~
+~
+18 0 1 0
+0 0 0 0
+0 0 0 0
+E
+second key~
+   The &YSecond Key&n opens the passages to the Hallway pt.  2 and the Objects
+Room.    
+~
+#9003
+third key~
+the &GThird Key&n~
+The &GThird Key&n for the Mud School is lying here...~
+~
+18 0 1 0
+0 0 0 0
+0 0 0 0
+E
+third key~
+   The &GThird Key&n opens the passage to the Statistical Information Room.  
+
+~
+#9004
+fourth key~
+the &gFourth Key&n~
+The &gFourth Key&n for the Mud School is lying here...~
+~
+18 0 1 0
+0 0 0 0
+0 0 0 0
+E
+fourth key~
+   The &gFourth Key&n opens the passages to the Hallway pt.  3 and the Rooms
+Room.    
+~
+#9005
+fifth key~
+the &bFifth Key&n~
+The &bFifth Key&n for the Mud School is lying here...~
+~
+18 0 1 0
+0 0 0 0
+0 0 0 0
+E
+fifth key~
+   The &bFifth Key&n opens the passage to the Battle System Room.    
+~
+#9006
+sixth key~
+the &BSixth Key&n~
+The &BSixth Key&n for the Mud School is lying here...~
+~
+18 0 1 0
+0 0 0 0
+0 0 0 0
+E
+sixth key~
+   The &BSixth Key&n opens the passage to the Spells Room.    
+~
+#9011
+newbie wee little key~
+a wee little key~
+A wee little key lays at your feet.~
+~
+18 256 16385 0
+0 0 0 0
+15 0 0 0
+A
+19 1
+#9012
+A shiny newbie sword~
+a shiney newbie sword~
+A shiney newbie sword lays here.~
+~
+5 256 8193 0
+2 1 1 3
+0 1 0 0
+#9013
+A newbie mace~
+a newbie mace~
+A newbie mace lays here on the ground.~
+~
+5 524288 1 0
+1 2 1 9
+0 0 0 0
+#9014
+flare~
+Flare~
+A flare lays here on the ground.~
+~
+1 0 1 0
+0 0 9 0
+0 1 0 0
+#9015
+A newbie dagger~
+a newbie dagger~
+A newbie dagger is laying here.~
+~
+5 0 8193 0
+1 1 1 14
+0 0 0 0
+#9016
+A green newbie vest~
+a green newbie vest~
+A green newbie vest lays here on the ground.~
+~
+9 0 1025 0
+2 0 0 0
+2 0 0 0
+#9017
+A newbie signet ring~
+a newbie signet ring~
+A newbie signet ring lays here on the ground.~
+~
+11 0 3 0
+0 0 0 0
+0 0 0 0
+A
+2 1
+#9018
+some cool newbie sleeves~
+some cool newbie sleeves~
+A cool pair of newbie sleeves lay here on the ground.~
+~
+9 0 257 0
+4 0 0 0
+0 0 0 0
+A
+3 2
+#9019
+some cool newbie leggings~
+some cool newbie leggings~
+A cool pair of newbie leggings lay here on the ground.~
+~
+9 0 33 0
+4 0 0 0
+0 0 0 0
+#9020
+A newbie helm~
+a newbie helm~
+A newbie helm lays here on the ground.~
+~
+9 0 17 0
+2 0 0 0
+0 1 0 0
+A
+5 1
+#9021
+A newbie cloak~
+a newbie cloak~
+A newbie cloak is laying here on the ground.~
+~
+11 0 5 0
+0 0 0 0
+1 0 0 0
+A
+4 1
+#9022
+newbie armor~
+some newbie armor~
+Some newbie armor lies here.~
+~
+9 0 9 0
+5 0 0 0
+1 0 0 0
+#9023
+newbie shield~
+a newbie shield~
+A leather newbie shield lies here.~
+~
+9 0 513 0
+10 0 0 0
+1 0 0 0
+#9024
+spiked bracelet~
+a spiked bracelet~
+A spiked bracelet lays here.~
+~
+11 0 4097 0
+0 0 0 0
+0 0 0 0
+A
+1 1
+#9025
+newbie sword~
+a short newbie sword~
+A short newbie sword lies here.~
+   The sword is very small and looks like it couldn't even poke the eye out of
+a monster.    
+~
+0 0 1 0
+0 0 0 0
+0 0 0 0
+#9070
+Rabbit Hood~
+a Rabbit Hood~
+A rabbits pelt lies on the ground waiting for someone to pick it up.~
+~
+9 0 17 0
+1 0 0 0
+2 0 0 0
+#9071
+Orcish Buckler~
+an Orcish Buckler~
+A round buckler shines on the floor.~
+~
+9 0 513 0
+3 0 0 0
+3 0 0 0
+#9072
+Short Spear~
+a short spear~
+A short spear lies here ageing.~
+~
+5 0 8193 0
+1 2 2 11
+0 0 0 0
+#9099
+Modool's Key~
+Modool's Key~
+Modool's Key~
+~
+0 0 1 0
+0 0 0 0
+0 0 0 0
+$~

@@ -1,0 +1,198 @@
+#20600
+buried pipe fountain water~
+a buried pipe~
+A pipe that once fed the Fountain of Phobos now oozes murky filth over the ground.~
+   This used to be an underground pipe that supplied the Fountain of Phobos
+with crystal clear water.  Now it protrudes haphazardly from the broken ground,
+and a foul liquid trickles from its mouth.    
+~
+23 80 0 0
+9999999 9999999 9 1
+9999999 0 0 0
+#20601
+land mine landmine~
+a landmine~
+A landmine senses your presence..~
+>kablooey!<
+~
+5 0 8193 0
+50 50 50 11
+0 0 0 0
+A
+1 100
+A
+2 100
+A
+3 100
+A
+4 100
+A
+5 100
+A
+6 100
+#20608
+golden cross~
+a golden cross~
+An ornate golden cross gleams on the ground here.~
+   This cross has been elaborately cast in metal and plated with gold.  Tiny
+gemstones are set in its surface.    
+~
+12 142606593 1 0
+0 0 0 0
+10 0 0 0
+#20609
+crypt key~
+the Crypt Key~
+An ancient rusted key lies here.~
+It is an old iron key, covered with tiny arcane inscriptions.
+~
+18 142606336 1 0
+0 0 0 0
+0 0 0 0
+#20610
+small wooden cross~
+a small wooden cross~
+A small wooden cruciform lies on the ground here.~
+   This small cross is fashioned simply from two pieces of wood.  It seems to
+be stained slightly red...    
+~
+12 142606593 1 0
+0 0 0 0
+5 0 0 0
+#20611
+a bloodied key~
+a bloodied key~
+A small, iron key lies here. It is stained in blood.~
+This key is iron and covered in blood.
+~
+18 142606336 1 0
+0 0 0 0
+0 0 0 0
+#20612
+bloodied key~
+a bloodied key~
+A small, iron key lies here. It is stained in blood.~
+This key is iron and covered in blood.
+~
+18 8388608 1 0
+0 0 0 0
+0 0 0 0
+#20613
+a bloodied key~
+a bloodied key~
+A small, iron key lies here. It is stained in blood.~
+This key is iron and covered in blood.
+~
+18 142606336 1 0
+0 0 0 0
+0 0 0 0
+#20614
+vampire socks~
+&RVampire Socks&n~
+A pair of old, bloodied socks rot in the corner. Gross!~
+These socks are quest EQ, awarded by Swifte and Mobius on Nov 14, 2003.
+~
+11 134217728 65 32
+0 0 0 0
+2 0 0 30
+A
+19 3
+A
+18 1
+A
+13 50
+#20615
+sack vampire skin~
+a vampire skin sack~
+A heap of vampire skin lies on the ground.~
+This bag is made of the pale, white skin of a very dead vampire.
+It was awarded by Swifte and Mobius on Nov 14, 2003.
+~
+15 134217728 1 0
+10000 0 -1 0
+0 0 0 0
+#20620
+rusty bloody bloodied iron key~
+a rusty, bloodied iron key~
+A rusty iron key covered with blood lies here.~
+This key is:
+rusty
+bloody
+and iron.
+Name kindda says it all, eh?
+~
+18 16 1 0
+0 0 0 0
+0 0 0 0
+#20670
+corpse king richard~
+the corpse of king richard~
+The mangled corpse of King Richard lies sprawled across the floor.~
+   Richard's now dead skin is white as a sheet.  Despite that, the only
+markings are two small holes on his neck.  There is very little blood to be
+found.    
+~
+31 134217728 0 0
+0 0 0 0
+100000 0 0 0
+#20690
+bomb~
+a bomb~
+It's a bomb.~
+~
+19 12 1 0
+0 0 0 0
+0 0 0 0
+T 20680
+#20691
+Zyre's Razor Zyres~
+Zyre's Razor~
+Zyre's Razor, of the utmost suckiness, lies here.~
+It sucks.
+~
+5 4 1 0
+0 1 1 3
+0 0 0 0
+#20696
+heart shaped chocolate~
+a heart-shaped chocolate~
+It's a wonder nobody's eaten this piece of chocolate yet...~
+~
+19 0 1 0
+1 0 0 0
+0 0 0 0
+#20697
+bottomless bucket~
+a bottomless bucket~
+A bottomless bucket sits here.~
+~
+17 0 1 0
+9999999 0 0 0
+0 0 0 0
+#20698
+headcrab~
+a headcrab~
+A rather vicious-looking headcrab sits here docilely, waiting to be put on someone's head.~
+   The underside of this small alien parasitoid's round body is dominated by
+its gaping beaked mouth, surrounded by four stubby legs and a pair of wicked
+hook-like claws.    
+~
+11 276824072 17 0
+0 0 0 0
+0 0 0 60
+#20699
+mithril eggbeater doom~
+the Mithril Eggbeater of &RDOOM&n~
+An exquisite mithril eggbeater gleams as it catches the light.~
+It's mithril.  It's an eggbeater.  You're doomed.    
+~
+5 279970122 8193 128
+1000 823 29 9
+0 0 0 60
+A
+18 100
+A
+19 100
+A
+1 100
+$~

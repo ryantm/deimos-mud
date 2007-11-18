@@ -1,0 +1,90 @@
+KILL HIT
+
+Usage: kill <victim>
+       hit <victim>
+
+The kill or hit command is used to begin a fight with a mobile or another player.  It is not recommended to use this command on another player.
+
+See also: FLEE, WIMPY
+#
+WIELD
+
+Usage: wield <weapon>
+
+Use this command to wield a weapon.  There are different types of weapons
+you may wield.
+
+Example:
+
+  > wield sword
+  > wield 3.sword    (Wield the third sword in your inventory)
+
+See also: EQUIPMENT, REMOVE, WEAR
+#
+WIMPY
+
+Usage: wimpy [hp]
+
+Use the WIMPY command to automatically flee once your health drops below
+The set WIMPY amount.
+Examples:
+
+  > wimpy 35    will make your character automatically flee a fight
+                if you have less than 35 hit points.
+  > wimpy 0     will turn off wimpy mode.
+  > wimpy       will show you your current wimp status.
+
+See also: FLEE, TOGGLE
+#
+ASSIST
+
+Usage: ASSIST <person in need>
+
+If Quifael is being beaten senseless by a warg and you feel brave enough
+to help him, type ASSIST QUIFAEL to hit the warg.  Note that the warg will
+keep hitting Quifael; assist only makes you start to fight whomever the
+person you're assisting is fighting.
+
+  > assist Doctor
+
+See also: FLEE, KILL, RESCUE, AUTOASSIST
+#
+DISARM
+
+Usage disarm <target>
+
+This command is used to disarm your opponents weapon.
+See also: COMBAT
+#
+FLEE
+
+Usage: flee
+
+If you are in a fight and things are beginning to get a little uncomfortable
+(maybe you are dying), just type 'flee', and presto!  You are out of harms way
+- that is, IF there is a suitable exit nearby, and IF that exit doesn't simply
+bring you from the ashes to the fire... but then, who wants to live forever?
+
+See also: WIMPY
+#
+COMBAT
+
+Combat is the art of fighting.  This can be melee fighting (physical) or magical (the use of spells).  There are many commands, skills, and spells that are associated with combating opponents.
+
+See also: KILL, SKILLTHIEF, SKILLWARRIOR, SKILLCLERIC, SKILLMAGE
+#
+SPAR
+
+Sparring is an automated system of combat on Deimos.  You can challenge someone to a sparring match and will be teleported to an arena.  If you die in a sparring match you do not need to worry about loss of items or stats, only ego.  The sparring commands are as follows:
+
+Challenge <target> - This sets up a challenge with another person
+Acceptchallenge <target> - This will begin the match and transport you and the challenger to the arena.  The person being challenged uses this command.
+Rejectchallenge <target> - This will cancel the sparring challenge.  The person being challenged uses this command.
+
+Please note that if you challenge someone they must be in the same room as you.
+
+See also: SPARRANK
+#
+$
+
+

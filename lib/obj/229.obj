@@ -1,0 +1,779 @@
+#22900
+broken wagon~
+a Broken Wagon~
+A Broken Wagon lies rotting here.~
+~
+13 0 0 0
+0 0 0 0
+1000 1 1 0
+E
+broken wagon~
+Looks like this wagon didn't make it.
+~
+#22901
+key~
+a gate key~
+A key for the man-sized gate lies here.~
+~
+18 12 16385 0
+0 0 0 0
+1 1 1 0
+E
+key~
+The key is a plain looking gate key.  There are some words on the key "FRONT
+GATE"
+~
+#22902
+steel breast plate~
+a steel breast plate~
+A large steel breast plate lies here.~
+~
+9 0 9 0
+8 0 0 0
+25 10000 3000 10
+E
+steel breast plate~
+It seems to be of good quality.
+~
+#22903
+steel greaves~
+some steel greaves~
+A pair of steel greaves lie here.~
+~
+9 0 33 0
+8 0 0 0
+10 5000 1000 8
+E
+steel greaves~
+They look heavy.  They probably provided decent protection for the legs.  They
+seem to be well crafted and are in good shape.    
+~
+#22904
+steel vambraces~
+some steel vambraces~
+A pair of steel vambraces lie here.~
+~
+9 0 257 0
+8 0 0 0
+5 5000 1000 8
+E
+steel vambraces~
+They seems to be fairly well made.
+~
+#22905
+steel longsword~
+a steel longsword~
+A well crafted longsword of steel lies here.~
+~
+5 0 8193 0
+0 3 4 3
+10 10000 3000 30
+E
+steel longsword~
+This sword is well crafted with a fine balance and a sharp edge.
+~
+#22906
+Keep key~
+the keep key~
+A keep key lies here.~
+~
+18 12 16385 0
+5 0 0 0
+1 1 1 0
+#22907
+steel backed gloves~
+some steel backed gloves~
+A pair of thick leather gloves with a steel backing lie here~
+~
+9 64 129 0
+2 0 0 0
+5 5000 1500 20
+E
+steel backed gloves~
+Each glove has 3 chevrons on the back.
+~
+A
+19 1
+#22908
+steel boots~
+some steel tipped boots~
+A pair of heavy leather boots with steel tips lie here.~
+~
+9 0 65 0
+6 0 0 0
+5 5000 1500 20
+E
+steel boots~
+The toe of each boot bears the mark of Lord Ctlulac.
+~
+A
+19 1
+A
+2 -1
+#22909
+key~
+a silver key~
+A small silver key lies here.~
+~
+18 12 16385 0
+5 0 0 0
+1 1 1 0
+#22910
+key~
+a brass key~
+A brass key lies here.~
+~
+18 12 16385 0
+11 0 0 0
+1 1 1 0
+#22911
+small chest~
+a small chest~
+A small wooden chest lies here.~
+~
+15 12 1 0
+5 15 22912 0
+20 1 1 0
+E
+small chest~
+This small chest bears the symbol of Lord Ctlulac.
+~
+#22912
+bronze key~
+a bronze key~
+A bronze key lies here.~
+~
+18 12 16385 0
+11 0 0 0
+1 1 1 0
+#22914
+golden pen~
+a golden pen~
+A golden pen lies here.~
+~
+8 0 1 0
+0 0 0 0
+1 10000 3000 0
+E
+golden pen~
+This golden pen looks like it might be worth a lot of money.
+~
+#22915
+bottle ink~
+a bottle of ink~
+A bottle of ink lies here.~
+~
+8 0 1 0
+0 0 0 0
+1 5000 1500 0
+E
+bottle ink~
+The ink in the bottle looks expensive.
+~
+#22916
+obsidian key~
+an obsidian key~
+An obsidian key lies here.~
+~
+18 12 16385 0
+11 0 0 0
+1 1 1 0
+#22919
+cutting table~
+a large cutting table~
+A large cutting table with with scraps of meat on it is here.~
+~
+13 0 0 0
+0 0 0 0
+1 1 1 0
+E
+cutting table~
+Made of oak, this table has been used for some time as the cutting board for
+the kitchen.  It has been marked by numerous knifes and is permanatly stained.
+~
+#22920
+ham~
+a ham~
+A large juicy ham lies here.~
+~
+19 0 1 0
+24 0 0 0
+1 1 1 0
+E
+ham~
+This ham looks pretty good.  You think it would make a good meal.
+~
+#22921
+meat cleaver~
+a meat cleaver~
+A large meat cleaver lies here.~
+~
+5 0 8193 0
+0 3 4 5
+15 1000 300 40
+E
+meat cleaver~
+The cleaver seems to have a very sharp edge.  It looks like it would cut 
+through meat well, living or dead.
+~
+#22922
+barrel~
+a large barrel~
+A large barrel stands here.~
+~
+17 0 1 0
+20 10 0 0
+30 30 5 0
+#22923
+french bread loaf~
+a half of a loaf of french bread~
+A half of a loaf of french bread lies here.~
+~
+19 0 1 0
+12 0 0 0
+1 10 5 0
+#22924
+basin~
+a large basin~
+A large basin is here, filled with spring water.~
+~
+23 0 0 0
+0 0 0 0
+1 1 1 0
+E
+basin~
+The basin is filled with water from the spring.
+~
+#22925
+key~
+a dungeon key~
+A dungeon key lies here.~
+~
+18 12 16385 0
+5 0 0 0
+1 1 1 0
+#22926
+gloves human flesh~
+some Gloves of Human Flesh~
+A small pile of human flesh lies here.~
+~
+9 576 129 0
+5 0 0 0
+1 20000 5000 15
+E
+gloves human flesh~
+These gloves have been made from human flesh.  YECH!
+~
+A
+12 10
+#22927
+brass dagger~
+a Brass Dagger~
+A small dagger made of brass lies here.~
+~
+5 64 8193 0
+0 2 3 11
+5 20000 5000 0
+E
+brass dagger~
+This dagger seems to be quite well made.
+~
+A
+18 3
+A
+19 3
+#22928
+brass lamp~
+a Brass Lamp~
+A small brass lamp lies here.~
+~
+1 1 16385 0
+0 0 10 0
+1 1 1 0
+E
+brass lamp~
+This lamp seems to burn with no oil!
+~
+#22929
+ornate katana~
+an Ornate Katana~
+A beautifly decorated katana lies here.~
+~
+5 65 8193 0
+0 10 2 3
+10 30000 8000 0
+E
+ornate katana~
+Characters have been inscribed on the blade, but you do not know what they 
+mean.
+~
+A
+18 2
+A
+19 2
+#22930
+silver hilted wakashi~
+a Silvery Hilted Wakizashi~
+A short slender sword lies here with a silver hilt.~
+~
+5 64 24577 0
+0 4 4 3
+8 20000 5000 0
+E
+silvery hilted wakizashi~
+This blade appears to have been made to be used to parry an oppenent's blade.
+~
+A
+17 -10
+A
+19 1
+#22931
+do maru do-maru laquered plate~
+a Do-Maru~
+An ornate set of laquered plate lies here.~
+~
+9 64 9 0
+5 0 0 0
+40 30000 10000 0
+E
+do maru do-maru laquered plate~
+This set of armor appears to be a work of art, as well as excelent armor.
+~
+A
+1 1
+A
+2 -1
+#22932
+witch robe black~
+a Witch's robe~
+A tattered robe of black wool lies here.~
+~
+9 576 1025 0
+-10 0 0 0
+3 10000 3000 0
+E
+witch black robe~
+This robe looks like it is barely holding together.
+~
+A
+12 15
+A
+9 8
+#22933
+rod ruin~
+a Rod of Ruin~
+A rod of blackened wood lies here with a small skull on the end.~
+~
+5 578 8193 0
+0 3 3 7
+5 10000 3000 0
+E
+rod ruin~
+A long wooden rod with a carved obsidian tip.  It looks as though it would
+cause average damage.    
+~
+A
+18 2
+#22934
+ring eye tiger~
+a Tiger-Eye Ring~
+A small ring lies here with a small stone mounted on it.~
+~
+9 64 3 0
+1 0 0 0
+1 15000 5000 15
+E
+ring eye tiger~
+This ring looks to be a cheap piece of trash except for the tingle you feel
+when you touch it.    
+~
+A
+12 10
+#22935
+wooden bracelet~
+a Wooden Bracelet~
+A thin loop of wood lies here.~
+~
+9 64 4097 0
+1 0 0 0
+2 12000 4000 0
+E
+wooden bracelet~
+It appears to be made of mahogany.
+~
+A
+9 5
+#22936
+rod blue crystal~
+a Blue Crystal Rod~
+A shaft of pure blue crystal lies here.~
+~
+5 1025 8193 0
+0 2 3 6
+5 20000 8000 0
+E
+rod blue crystal~
+Though seemingly weak, it appears to be suprisingly strong crystal.
+~
+A
+2 -2
+A
+12 10
+#22938
+wooden holy cross~
+a Holy Cross~
+A plain wooden cross lies here.~
+~
+9 1088 5 0
+0 0 0 0
+1 10000 3500 0
+E
+wooden cross holy~
+It radiates an aura of goodness.
+~
+A
+17 -5
+#22939
+white robe holy~
+a Holy Robe~
+A white robe lies here.~
+~
+9 1025 1025 0
+0 0 0 0
+5 17500 5000 0
+E
+white robe holy~
+It appears to be a simple robe of white cotton.    
+~
+A
+12 8
+A
+9 5
+A
+14 10
+#22940
+ninja to ninja-to sword~
+a Ninja-to~
+A finely crafted short sword with a long hilt lies here.~
+~
+5 64 8193 0
+0 3 3 11
+10 20000 10000 0
+E
+ninja to ninja-to sword~
+This short straight blade looks like a good backstabbing weapon.
+~
+#22942
+black cowl mask~
+a Black Cowl and Mask~
+A black cowl with a mask lie here.~
+~
+9 64 17 0
+1 0 0 0
+1 10000 4000 10
+E
+black cowl mask~
+This hood seems to be made of silk.
+~
+A
+18 1
+A
+13 5
+#22943
+sorcerer thin golden staff~
+a Sorcerer's Staff~
+A thin golden staff lies here.~
+~
+5 67 8193 0
+0 3 3 7
+10 25000 5000 0
+E
+sorcerer thin golden staff~
+This staff appears to be made from gold.
+~
+A
+12 10
+A
+14 -15
+#22944
+enchanter vest velvet~
+an Enchanter's Vest~
+A velvet vest with silver runes on it lies here.~
+~
+9 64 9 0
+1 0 0 0
+1 20000 0 0
+E
+enchanter vest velvet~
+Runes have been embroidered on this vest with silver thread.    
+~
+A
+12 10
+A
+13 -5
+#22945
+leather belt magical magic~
+a Magical Belt~
+A small leather belt lies here with runes on it.~
+~
+9 64 2049 0
+1 0 0 0
+1 15000 6000 0
+E
+leather belt magical magic~
+a small leather belt lies here with runes on it.
+~
+A
+12 10
+A
+14 -5
+#22946
+cape golden~
+a Golden Cape~
+A cape woven from golden thread lies here.~
+~
+9 1 5 0
+3 0 0 0
+8 35000 15000 0
+E
+cape golden~
+This cape looks like it would be worth quite a bit.    
+~
+A
+5 1
+A
+4 -1
+A
+14 10
+#22948
+ring crystal~
+a Crystal Ring~
+You can barely make out a ring lying here.~
+~
+9 16448 3 0
+1 0 0 0
+1 20000 8000 15
+E
+ring crystal~
+This ring seems to be made of a crystal so clear you can barely see the ring.
+~
+A
+4 1
+A
+2 -1
+A
+13 5
+#22950
+bracelet black obsidian~
+an Obsidian Bracelet~
+A thin bracelet of black stone lies here.~
+~
+9 64 4097 0
+1 0 0 0
+1 25000 10000 10
+E
+bracelet black obsidian~
+It looks like it's been crafted from obsidian.    
+~
+A
+18 -1
+A
+19 1
+#22951
+chest gold inlaid~
+a Gold Inlaid Chest~
+A gold inlaid chest lays here.~
+~
+15 0 0 0
+5 15 22952 0
+0 0 0 0
+E
+chest gold enlayed~
+It looks like it'd be worth a lot, that is if it wasn't bolted to the floor.
+~
+#22952
+key~
+a Golden Key~
+A golden key lies here.~
+~
+18 12 16385 0
+11 0 0 0
+1 0 0 0
+#22953
+sphere obsidian~
+a Obsidian Sphere~
+A sphere of pure obsidian lies here.~
+~
+15 1 16385 0
+100 15 22916 0
+5000 0 0 0
+E
+sphere obsidian~
+It looks like it is hollow and things can be put inside of it.    
+~
+#22954
+key~
+a Secret Key~
+An odd stone key lies here.~
+~
+18 12 16385 0
+5 0 0 0
+1 0 0 0
+#22956
+plate breast golden~
+a Golden Breast Plate~
+A large golden breast plate lies here.~
+~
+9 1089 9 0
+4 0 0 0
+20 30000 3 28
+E
+plate breast golden~
+This golden breast plate radiates an aura of goodness.    
+~
+A
+18 1
+A
+13 10
+#22957
+guard wrist ivory~
+an Ivory Wrist Guard~
+A wrist guard of pure white lies here.~
+~
+9 1088 4097 0
+2 0 0 0
+3 17500 7500 25
+E
+guard wrist ivory~
+A small cross is inscribed on this wrist guard.
+~
+A
+18 1
+A
+12 8
+#22958
+gloves mesh~
+a pair of Mesh Gloves~
+A pair of gloves made from mesh lies here.~
+~
+9 1088 129 0
+3 0 0 0
+4 20000 8000 30
+E
+gloves mesh~
+The rings from which the mesh is made seem to be of mithril.
+~
+A
+18 1
+A
+12 10
+#22959
+armor spiked~
+a Spiked Armor~
+A set of armor covered in spikes lies here.~
+~
+9 12352 9 0
+5 0 0 0
+15 40000 12500 20
+E
+armor spiked~
+It looks like the only safe way to carry this armor is to wear it.
+~
+A
+19 1
+A
+2 -1
+#22960
+bracelet spiny~
+a Spiny Bracelet~
+A small bracelet convered in spines lies here.~
+~
+9 12352 4097 0
+8 0 0 0
+3 15500 0 31
+E
+bracelet spiny~
+This bracelet looks dangerous even for the wearer.
+~
+A
+19 1
+A
+18 1
+#22961
+necklace silver~
+a Silver Necklace~
+A large silver necklace lies here.~
+~
+9 65 5 0
+1 0 0 0
+10 30000 10000 20
+E
+necklace silver~
+Though quite heavy, this necklace seems to be powerful.
+~
+A
+12 15
+A
+14 -10
+#22962
+axe obsidian~
+an Obsidian Axe~
+A huge axe made from obsidian lies here.~
+~
+5 64 8193 0
+0 3 4 5
+20 45000 17500 32
+E
+axe obsidian~
+This heavy axe has a very sharp edge.
+~
+A
+18 2
+A
+19 1
+#22963
+apartment small iron key~
+an apartment key~
+A small iron key lies here.~
+~
+18 12 16385 0
+8 0 0 0
+5 0 0 0
+#22964
+bag gold~
+a bag of gold~
+A large bag of gold lies here.
+~
+~
+20 0 1 0
+10000 0 0 0
+1 10000 0 0
+#22965
+spring well fountain~
+a spring well~
+A spring well bubbles brightly here.~
+~
+23 0 0 0
+100 50 0 0
+55 0 0 0
+E
+spring well~
+Fresh clean spring water gushes forth into an unobtrusive plain tile basin from
+the grounds below.    
+~
+#22966
+Ornate Katana~
+an Ornate Katana~
+An Ornate Katana lies here on the ground looking very sharp.~
+   Characters have been inscribed on the blade, but you do not know what they
+mean.  The hilt is as thin as the katana which is very thin and looks very
+sharp and precise.    
+~
+5 0 8193 0
+0 10 2 3
+15 3000 0 40
+A
+18 1
+A
+19 1
+$~

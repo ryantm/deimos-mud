@@ -1,0 +1,296 @@
+#22900
+castle guard~
+a Castle Guard~
+A Castle Guard stands here eyeing you wearily.
+~
+This guard looks well trained, even if he does look a bit nervous at your
+presence.  He fingers his sword as he looks you over.
+~
+2058 0 200 E
+26 14 2 26d26+676 13d13+6
+33800 520000
+12 12 1
+E
+#22901
+castle guard~
+a Castle Guard~
+A Castle Guard is patrolling here, looking for intruders.
+~
+Suprisingly, this guard is a woman, but she is no less dangerous than any man.
+Well trained and deadly, she moves with a grace that displays her prowess as
+a swordswoman.
+~
+104 8 -400 E
+27 14 1 27d27+729 13d13+6
+36450 540000
+12 12 0
+E
+#22902
+castle guard~
+a Castle Guard~
+A Castle Guard is patrolling here, looking for intruders.
+~
+This guard appears to be quite proficient.  The way he moves tells you he is
+a well trained swordsman, and is quite deadly with a sword.
+~
+104 8 -400 E
+27 14 1 27d27+729 13d13+6
+36450 540000
+12 12 1
+E
+#22903
+lieutenant guard~
+a Lieutenant Guard~
+The Lieutenant guard is standing here, surveying the courtyard.
+~
+The Lieutenant is using the tower to keep watch on his guards as they patrol
+and also to look for possible threats from outside the castle.  He does not
+look pleased at your arrival.    
+~
+42 8 0 E
+30 13 1 30d30+900 15d15+7
+45000 960000
+12 12 0
+E
+#22904
+joran brinth captain guard~
+Joran Brinth~
+Joran Brinth, Captain of the Guards is standing here.
+~
+Joran Brinth looks to be an older man.  His hair has turned grey and his face
+is wrinkled, but he still appears to be in good shape and is a formidable
+opponent.    
+~
+8234 136 -300 E
+40 10 -2 40d40+1600 20d20+10
+80000 1760000
+12 12 1
+E
+#22905
+tashi samurai~
+Tashi the Samurai~
+Tashi the Samurai stands here, looking you over with a cool arrogance.
+~
+From a foreign land, Tashi has been imprisoned in the dungeon of Lord Ctlulac.
+Even though he has been imprisoned, his spirit has not been broken, and he 
+remains a formidable opponent.  He looks you over as you enter the cell.
+~
+10250 136 0 E
+40 10 -2 40d40+1600 20d20+10
+80000 1760000
+12 12 1
+E
+#22906
+vorgan witch~
+Vorgan the Witch~
+An old witch in tattered robes stands here chanting.
+~
+   Vorgan the witch stands here in tattered black robes, chanting a spell.  As
+you enter, you interrupt his chanting.  He does not look pleased at your
+arrival.  He turns towards you with an evil glint in his eyes and begin
+chanting a new spell...    
+~
+24618 136 -750 E
+37 11 -1 37d37+1369 18d18+9
+68450 1184000
+12 12 1
+E
+#22907
+zintha cleric~
+Zintha the Cleric~
+A cleric stands here in white robes.
+~
+Zintha the Cleric was captured and placed in the dungeon by Lord Ctlulac.  Her
+imprisonment has not changed her sunny disposition, as she beams a smile at you
+as you enter.    
+~
+26634 136 750 E
+37 11 -1 37d37+1369 18d18+9
+68450 1184000
+12 12 2
+E
+#22908
+woman nobuko ninja~
+Nobuko the Ninja~
+A woman dressed in all black from head to toe stands here.
+~
+Nobuko is Ctlulac's assassin.  He brought this ninja from a far off land 
+because of her fame as being one the most deadly assassins ever.  Looks like 
+you'll get a chance to see why she earned her fame.
+~
+10378 786568 -500 E
+40 10 -2 40d40+1600 20d20+10
+80000 1760000
+12 12 2
+E
+#22909
+lady ctlulac mage~
+Lady Ctlulac~
+Lady Ctlulac stands here, she looks displeased at your arrival.
+~
+Lady Ctlulac stands here in glittering robes.  Not only is she a beautiful
+lady, she is also a mage of great skill.  Considering you have just entered
+her private bedroom, you think you might find out how good a mage she is.
+~
+24618 136 0 E
+40 10 -2 40d40+1600 20d20+10
+80000 1760000
+12 12 2
+E
+#22910
+man delvin thief~
+Delvin the Thief~
+A man in gaudy clothing is here counting his money.
+~
+Delvin is a one time petty thief who hit the big time when Lord Ctlulac
+decided to make him head tax collector.  He is a greedy man, and enjoys money
+quite a bit, which was why Ctlulac made him the tax collector.  Of course
+Delvin knows not to embezzle too much or else Ctlulac might notice and decide
+to remove Delvin's head.
+~
+26762 524424 -500 E
+40 10 -2 40d40+1600 20d20+10
+80000 1760000
+12 12 1
+E
+#22911
+telga ghoul~
+Telga the Ghoul~
+Telga the Ghoul is here munching on some human fingers.
+~
+Telga seems to enjoy eating fresh corpses, and most of all she enjoy eating 
+human flesh.  Her sunken eyes looks you over and she licks her bloodless lips.
+~
+24618 136 -1000 E
+40 10 -2 40d40+1600 20d20+10
+80000 1760000
+12 12 2
+E
+#22912
+tarkan paladin~
+Tarkan the Paladin~
+Tarkan stands here, giving you a piercing look.
+~
+Tarken is the classical paladin.  He is tall, muscular and armored with a huge
+sword strapped to his back.  He radiates an aura of goodness.  His pure blue 
+eyes seem to look right into your soul.
+~
+10538 136 1000 E
+40 10 -2 40d40+1600 20d20+10
+80000 1760000
+12 12 1
+E
+#22913
+lord ctlulac~
+Lord Ctlulac~
+Lord Ctlulac glares at you as you enter.
+~
+Lord Ctlulac is going over a map of the nearby kingdoms.  From the marks on it
+it looks like it's a war map.  And considering Ctlulac is dressed in his full
+battle armor, it looks like he's going to go to war soon.    
+~
+24618 136 -750 E
+50 8 -5 50d50+2500 25d25+12
+125000 2800000
+12 12 1
+E
+#22914
+obsidian golem~
+Obsidian Golem~
+The Obsidian Golem is standing here next to the throne.
+~
+This large golem is made completly of black obsidian.  Its dark facets flicker
+in the torch light.  It has been made to protect Lord Ctlulac, and it would if
+he was here.
+~
+8202 0 0 E
+30 13 1 30d30+900 15d15+7
+45000 960000
+12 12 0
+E
+#22915
+torg chef~
+Torg the Chef~
+Torg the Chef stands here with his huge meat cleaver.
+~
+Torg stands here chopping up a some beef.  He is a fair chef, but he is also
+quite muscular so he can do much of the work himself, making him cheap to
+employ.
+~
+10250 8 0 E
+30 13 1 30d30+900 15d15+7
+45000 960000
+12 12 1
+E
+#22916
+guardian~
+a Water Guardian~
+The Water Guardian doesn't recognize you and proceeds to attack you.
+~
+The Water Guardian is a creature of pure water.  It makes its home in the large
+basin that holds the spring water.  It's trained to attack those it doesn't
+recongnize to protect the castle's water source.    
+~
+8234 8 0 E
+30 13 1 30d30+900 15d15+7
+45000 960000
+12 12 0
+E
+#22917
+butler~
+the Butler~
+An impeccably dressed butler stands here.
+~
+The Bulter is impeccably dressed and incredibly well groomed.  His face shows
+no surprise as you enter the room.  He gives you a cool stare as you approach
+the door to the bedroom.    
+~
+8202 8 0 E
+45 9 -3 45d45+2025 22d22+11
+101250 1980000
+12 12 1
+E
+#22918
+bodyguard guard royal~
+a Royal Bodyguard~
+A Royal Bodyguard is standing here, ready to defend Lord Ctlulac.
+~
+Even though Lord Ctlulac isn't here, this bodyguard has been ordered to kill
+all intruders.  He looks to be more powerful than the normal guards.  It looks
+like your in for a fight.
+~
+8234 8 -200 E
+30 13 1 30d30+900 15d15+7
+45000 960000
+12 12 1
+E
+#22919
+dog large~
+a Large Dog~
+a huge dog is here.
+~
+This large dog is about as big as a large bear and looks to be quite deadly.
+Lord Ctlulac probably uses them to hunt down undesireables.  You are glad 
+this one is chained up at the moment.
+~
+8202 8 0 E
+30 13 1 30d30+900 15d15+7
+45000 960000
+12 12 0
+E
+#22920
+guard~
+a Guard of the Keep~
+A Guard of the Keep is standing here.
+~
+The guard is a handsome, well built human male with a dark brown beard and
+moustache, dark brown eyes, weather-beaten face and a long crooked nose.  He is
+probably a veteran of the guards with a slightly higher salary and living in
+better quarters.    
+~
+256094 1032 0 E
+30 13 1 30d30+900 15d15+7
+45000 315000
+12 12 1
+E
+$

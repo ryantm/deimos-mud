@@ -1,0 +1,54 @@
+#9200
+pokeball~
+a pokeball~
+A small ball-shaped capsule is lying here.~
+~
+15 0 1 0
+700 1 -1 0
+1 0 0 0
+#9201
+sign~
+sign~
+A large sign stands before you.~
+~
+8 0 0 0
+0 0 0 0
+0 0 0 0
+E
+sign~
+   Our researches have allowed us to reopen this area for a period of time.  
+The area seems stable and should be safe to enter.  Please report any strange
+occurances to one of our friendly knights.  Thank you.    
+
+     - The Zyrian Council
+~
+#9202
+crushed pokeball~
+a crushed pokeball~
+The remains of a pokeball have been left here.~
+~
+8 0 0 0
+0 0 0 0
+0 0 0 0
+E
+crushed pokeball~
+   The pokeball has been crushed by someone, killing any living thing that was
+inside it before.    
+~
+#9211
+Ockham action figure~
+an Ockham action figure~
+Someone has left their Ockham action figure here.~
+~
+8 0 1 0
+0 0 0 0
+0 1500 0 0
+#9212
+wedge action figure~
+a Wedge action figure~
+Someone has left their Wedge action figure here.~
+~
+8 0 1 0
+0 0 0 0
+1 1500 0 0
+$~

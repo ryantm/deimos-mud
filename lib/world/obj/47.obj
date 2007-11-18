@@ -1,0 +1,404 @@
+#4700
+bloody cloak~
+a bloody cloak~
+A cloak covered with blood lays here untouched.~
+~
+11 0 8193 0
+0 0 0 0
+0 3000 1000 0
+#4701
+a wooden spoon~
+a wooden spoon~
+An old beaten down wooden spoon lays here.~
+~
+5 0 8193 0
+15 5 1 5
+12 1000 500 0
+#4702
+a bat ring~
+a bat ring~
+A small ring in the shape of a bat lies here.~
+~
+11 0 3 0
+0 0 0 0
+5 3000 100 40
+A
+14 50
+A
+19 1
+#4703
+a bead necklace~
+a bead necklace~
+A necklace strung with beads lays here in a pile.~
+~
+11 0 5 0
+0 0 0 0
+20 150 70 0
+#4704
+an electrum sword~
+an electrum sword~
+A giant sword is lying here on the ground.~
+~
+5 262144 8193 0
+10 3 6 10
+5 12000 5000 0
+#4705
+a pair of golden sandals~
+a pair of golden sandals~
+A pair of glittering golden sandals lay here radiating with light.~
+~
+11 97 65 0
+0 0 0 0
+100 100000 25000 35
+A
+14 100
+A
+19 2
+#4706
+A box with a golden lock.A box with a golden lock.~
+box~
+A box is sitting here in the cornor with a radiating glow over the lock.~
+~
+15 0 0 0
+999999999 5 -1 0
+999999999 0 0 0
+#4707
+a plain key~
+a plain key~
+A plain key is lying here untouched.~
+~
+18 0 1 0
+0 0 0 0
+15 50 25 0
+#4708
+mane of the balrog~
+the Mane of the Balrog~
+A mane of hair from the Balrog is lying here.~
+~
+9 320 5 0
+7 0 0 0
+50 5000 2500 35
+A
+13 35
+A
+18 2
+A
+19 2
+#4709
+the Flaming Sword~
+the Flaming Sword~
+A sword covered in flames lays here.~
+~
+5 320 8193 0
+7 6 7 3
+10 10000 5000 20
+A
+19 3
+A
+18 3
+#4710
+a bottle~
+a bottle~
+A brown bottle is laying here.~
+~
+17 0 1 0
+20 20 3 0
+105 50 25 0
+#4711
+a shot~
+a shot~
+A small shot is lying here.~
+~
+17 0 1 0
+2 2 5 0
+15 6 0 0
+#4712
+a decanter~
+a decanter~
+A decanter has been dropped here.~
+~
+17 0 1 0
+20 20 7 0
+20 15 0 0
+#4713
+a loaf of bread~
+a loaf of bread~
+A good looking loaf of bread is lying here.~
+~
+19 0 1 0
+2 0 0 0
+5 80 5 0
+#4714
+a muffin~
+a muffin~
+A muffin has been dropped here.~
+~
+19 0 1 0
+1 0 0 0
+5 65 3 0
+#4715
+a cookie~
+a cookie~
+A yummy cookie is lying here in the dirt.~
+~
+19 0 1 0
+1 0 0 0
+5 55 3 0
+#4716
+a boiling potion~
+a boiling potion~
+A potion that appears to be boiling is lying here.~
+~
+10 0 1 0
+6 36 3 1
+10 10500 1200 0
+#4717
+a glowing potion~
+&WA &MG&ml&Mo&mw&Mi&mn&Mg &BP&bo&Bt&bi&Bo&bn&w~
+A potion is lying here glowing underneath a mound of dirt.~
+~
+10 0 1 0
+5 74 0 0
+10 12000 1200 0
+#4718
+a milk-like potion~
+a milk-like potion~
+A milky potion is lying here under dirt.~
+~
+10 0 1 0
+6 44 19 50
+10 10000 1200 0
+#4719
+a murky potion~
+a murky potion~
+A murky potion has been left behind.~
+~
+10 0 1 0
+6 28 29 58
+10 10000 1200 0
+#4720
+a fountain shaped like a longsword~
+a fountain shaped like a longsword~
+A fountain in the shape of a longsword is mounted here.~
+~
+23 0 0 0
+2147483647 2147483647 15 0
+-2147483644 0 0 0
+#4721
+a Phobos scroll of recall~
+a Phobos scroll of recall~
+A scroll has been left behind in the dirt.~
+~
+2 0 1 0
+6 42 0 0
+10 2301 500 0
+#4722
+enormous treasure~
+an enormous treasure~
+A large wooden picnic table is here, cemented to the ground.~
+~
+20 0 1 0
+2500 0 0 0
+0 0 0 0
+#4723
+a wooden chest~
+a wooden chest~
+A large wooden chest is here bolted to the ground.~
+~
+15 0 0 0
+2147483647 15 4725 0
+0 0 0 0
+#4725
+a plain gold key~
+a plain gold key~
+A golden key is lying here covered in dust.~
+~
+18 0 1 0
+0 0 0 0
+5 0 0 0
+#4726
+a club sandwich~
+a club sandwich~
+A delicious looking club sandwich has been left behing.~
+~
+19 0 1 0
+2 0 0 0
+1 10 5 0
+#4727
+a plate of fries~
+a plate of fries~
+A large plate full of french fries is lying here gathering dirt.~
+~
+19 0 1 0
+4 0 0 0
+5 15 8 0
+#4728
+a bowl of seafood chowder~
+a bowl of seafood chowder~
+A small bowl of soup has been dropped here by someone.~
+~
+19 0 1 0
+1 0 0 0
+5 5 1 0
+#4730
+gypsy dagger~
+a gypsy's dagger~
+A dagger with the mark of a gypsy is stuck into the ground here.~
+~
+5 0 8193 0
+3 3 4 11
+5 1234 123 30
+A
+19 3
+#4731
+sign~
+a large poster~
+A large sign has been planted in the ground by someone.~
+Gypsy Fair... Come One, Come All!!!
+Only a little ways south of here, get your fortune read and join in on the party.
+~
+16 0 0 0
+0 0 0 0
+99999 0 0 0
+#4732
+potion~
+a sticky brown potion~
+A brown liquid in a sticky potion lies on the side of the road.~
+~
+10 12 1 0
+5 54 1 3
+3 25000 250 0
+#4733
+flaming bracelet~
+a flaming bracelet~
+A circle of fire burns the ground around it.~
+~
+9 0 4097 0
+0 0 0 0
+10 100000 5263 60
+A
+18 2
+A
+19 3
+#4740
+A bunkbed.~
+a bunkbed.~
+You notice a bunkbed sitting here.~
+~
+12 0 0 0
+0 0 0 0
+999999999 0 0 100
+#4741
+A king sized bed.~
+a king sized bed.~
+A large bed is on the other side of the room.~
+~
+12 0 0 0
+0 0 0 0
+2147483647 0 0 100
+#4760
+tomb~
+a sacred tomb~
+A sacred tomb is here, locked and guarded.~
+~
+15 0 0 0
+2147483647 9 4761 0
+0 0 0 0
+#4761
+key~
+a sacred key~
+A sacred key is hanging from a string around the Guardian's neck.~
+~
+18 0 5 0
+0 0 0 0
+0 0 0 0
+#4762
+talisman b~
+talisman "B"~
+A stone talisman has the letter "B" embedded in it.~
+~
+12 0 1 0
+0 0 0 0
+0 0 0 0
+#4763
+talisman a~
+talisman "A"~
+A stone talisman has the letter "A" embedded in it.~
+~
+12 0 1 0
+0 0 0 0
+0 0 0 0
+#4764
+talisman c~
+talisman "C"~
+A stone talisman has the letter "C" embedded in it.~
+~
+12 0 1 0
+0 0 0 0
+0 0 0 0
+#4765
+talisman d~
+talisman "D"~
+A stone talisman has the letter "D" embedded in it.~
+~
+12 0 1 0
+0 0 0 0
+0 0 0 0
+#4794
+restore token~
+Restore Token~
+This is a one time use token.  It is to be given to any immortal at any time you wish to receive ONE restore.~
+   This token was given to the winner of a quest, and shall be honored by any
+immortal.  There is an expiry date, however.  This must be used by Friday,
+Sept.  7, 2001.  This shall be honored by typing restore <token redeemer's
+name>.    
+
+Elendril
+~
+16 65544 1 0
+0 0 0 0
+2 0 0 0
+#4795
+raincloud~
+Raincloud~
+A dark cloud hangs in the sky shooting lightning out of it.~
+~
+11 197065 1025 0
+0 0 0 0
+5 0 0 33
+#4796
+gold medal~
+a gold medal~
+A gold circle reflects the light of the sun.~
+~
+12 0 1 0
+0 0 0 0
+0 0 0 0
+#4797
+'Team Elendril' Bulletin Board~
+'Team Elendril' Bulletin Board~
+The 'Team Elendril' bulletin board is hanging on a wall that is bare other than the board.~
+Nothing.
+~
+13 131072 0 0
+0 0 0 0
+0 0 0 61
+#4798
+a large bookshelf~
+a large bookshelf~
+A large bookshelf full of books lines three of the four walls.~
+Wow, there are a lot of books on this bookshelf.
+~
+12 131072 0 0
+0 0 0 0
+0 0 0 63
+#4799
+a comfortable chair~
+a comfortable chair~
+A large, comfortable chair is sitting in the middle of the room.~
+This chair sure does look comfortable.
+~
+12 131072 0 0
+0 0 0 0
+0 0 0 63
+$~

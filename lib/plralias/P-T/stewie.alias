@@ -1,0 +1,60 @@
+8
+fireball
+18
+cast 'fireball' $1
+1
+4
+blin
+15
+cast 'blind' $1
+1
+1
+h
+10
+quaff heal
+0
+5
+blind
+19
+cast 'blindness' $1
+1
+6
+recall
+21
+cast 'word of recall'
+0
+1
+/
+21
+cast 'word of recall'
+0
+5
+light
+24
+cast 'lightning bolt' $1
+1
+4
+fire
+18
+cast 'fireball' $1
+1
+2
+di
+26
+cast 'detect invisibility'
+0
+2
+ii
+22
+cast 'invisibility' $1
+1
+2
+id
+18
+cast 'identify' $1
+1
+2
+df
+14
+drink fountain
+0

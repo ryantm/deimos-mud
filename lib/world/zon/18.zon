@@ -1,0 +1,30 @@
+#18
+Dungeon of Death~
+Mobius~
+1899 30 2
+M 0 1823 1 1823 0	(the Vampire Queen)
+E 1 1808 99 4 94	(a Blood Brooch)
+G 1 20620 3 -1 0	(a rusty, bloodied iron key)
+D 0 1823 0 1 0	(Coffin of the Vampire)
+D 1 1823 0 2 0	(Coffin of the Vampire)
+M 0 1801 1 1807 0	(Yosef the Executioner)
+E 1 1802 20 13 0	(Cloak of Death)
+M 0 1813 3 1813 0	(Lava Golem)
+E 1 1813 10 17 0	(a Lava Chunk)
+M 0 1813 3 1813 0	(Lava Golem)
+M 0 1825 1 1825 0	(the Offical Inn Demon)
+M 0 1816 1 1816 0	(the Red Plumed Mayor)
+E 1 1816 5 6 0	(the Red Plumed Hat)
+M 0 1800 2000 1804 0	(an Orcish Guard)
+E 1 1800 20000 16 0	(Orcish Mace)
+M 0 1804 1 1804 0	(the Cruel Torture Master)
+E 1 1809 20000 13 0	(Belt of Torture)
+M 0 1802 2 1808 0	(a Mirror Guard)
+E 1 1803 1 17 0	(Mirror Key)
+O 0 1806 1 1821 0	(Blood Sink)
+M 0 1810 1 1815 0	(Bartender)
+G 1 1807 1 -1 0	(a bottle of ale)
+M 0 1800 200 1803 0	(an Orcish Guard)
+E 1 1800 2000 16 0	(Orcish Mace)
+S
+$

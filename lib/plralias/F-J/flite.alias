@@ -1,0 +1,40 @@
+4
+fill
+21
+fill canteen fountain
+0
+2
+ga
+7
+get all
+0
+2
+qp
+12
+quaff potion
+0
+4
+drin
+13
+drink canteen
+0
+2
+id
+18
+recite identify $*
+1
+3
+bid
+12
+buy identify
+0
+2
+go
+4
+gold
+0
+3
+gal
+14
+get all corpse
+0

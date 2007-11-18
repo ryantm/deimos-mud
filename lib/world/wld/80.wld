@@ -1,0 +1,1171 @@
+#8000
+Gates of Ivten~
+   The city of Ivten is centuries old, and is populated by the grand race of
+Titans that remain in the castle.  During the first age of the Demon Wars, the
+Titans were betrayed by the demons, and were nearly destroyed.  Garumeth, the
+last Titan, survived in order to keep the race alive, trapping himself in a
+magical crystal.  It wasn't until much later that the warriors of Phobos came
+to rescue him.  Since then, the Titans had rebuilt much of the city, the gates
+have been remade using guilded metal, and stands over 50 feet tall.    
+~
+80 0 1
+D0
+~
+~
+0 0 8001
+D2
+~
+~
+0 0 4282
+S
+#8001
+Ivory Streets~
+   Lined across the streets are ivory lamp posts, kept lit by the magic of the
+Titans.  During the Second Age of Ivten, much of the road, then populated with
+demons, were destroyed by their sharp claws.  Since Ivten was freed, during the
+Third Age, the roads had been cleaned up, and repaved by the Titans.  Though
+the human population is still low, it is expected to grow over the next several
+years, as confidence in the city returns.    
+~
+80 0 1
+D0
+~
+~
+0 0 8002
+D2
+~
+~
+0 0 8000
+D5
+~
+~
+0 0 8019
+S
+#8002
+Continuing Along the Ivory Streets~
+   Covered with a light gray dust from the air, the streets have been rebuilt
+using modern equipment and materials.  Although the city will always have
+permanent damage caused by the demon wars, much of the streets and buildings
+have been repaired to a functional level.  The first foreigners to arrive from
+the city besides Phobos were the Calises, who brought in ivory from their
+streets to donate to the Titans.    
+~
+80 d 0
+D1
+~
+~
+0 0 8003
+D2
+~
+~
+0 0 8001
+D3
+~
+~
+0 0 8005
+E
+paper~
+   This is the start of the 8th month of the war.  It's getting nearer to this
+building.  I don't know how long I can stay here.  The demons have reached the
+city hall and shall come here next.  If anyone finds this letter, I will be
+dead and so will be everyone else.  The demons will probably still be around.
+Be careful.  -Ophius
+~
+S
+#8003
+City Hall~
+   The is the entrance to City Hall, where head commanders meet to discuss the
+politics of Ivten.  Here, the human population gathers together to determine
+the fate of Ivten.  Although the Titans usually reside in the castle, Garumeth
+sits in during many meetings, and assists in making Ivten a better place.  The
+actual council chamber is up several flight of stairs, and sits untop of a
+open-air platform, looking down upon the city.    
+~
+80 d 0
+D3
+~
+~
+0 0 8002
+D4
+~
+~
+0 0 8004
+E
+paper~
+uh oh
+~
+E
+desk~
+   A little desk is sitting here, on it is a little piece of paper that says,
+"uh oh"
+~
+S
+#8004
+Council Platform~
+   Untop of a large platform, the entire city can be viewed.  Vast amounts of
+buildings and life can be seen, expanding from the view.  There is a half
+circle of elevated seating to right of the platform, where the councilmen would
+gather for the daily meetings.  A podium sits in the center of the room, where
+the meeting leader goes over the agenda and current events.  The rest of the
+platform then is open, having no walls or ceilings, allowing the council to
+view their city as it grows.    
+~
+80 d 0
+D5
+~
+~
+0 0 8003
+E
+city~
+   The desolate ruins of a once great city.  Nothing remains except for ruins
+and rubble where beautiful structures once stood.  Alas, the demons have
+destroyed it all...    
+~
+S
+#8005
+Cross Intersection~
+   This is a small intersection in the road.  To the north is the rebuilt
+business district, with the demon tower that was ironically renamed the Beacon
+of Peace.  Since being freed by the Phobians, the Titans have been working hard
+to rebuild the ruins of the cities.  Their castle lies to the west, which since
+the beginning of Ivten, finally has a main road leading right to it.  To the
+east is the City Hall, where the councilmen and women meet to discuss Ivten and
+it's people.    
+~
+80 0 1
+D0
+~
+~
+0 0 8006
+D1
+~
+~
+0 0 8002
+D3
+~
+~
+0 0 8016
+S
+#8006
+Near the Citadel~
+   Used as a sanctuary during the Demon Wars, the citadel was used by many
+warriors to retreat into.  Although no longer used for any religious purposes,
+the citadel is the only building that stood throughout the entire duration of
+the war.  Since then, it has become purely a memorial for people to come visit.
+The business district is to the east, where the majority of Ivten's economy is
+situated.    
+~
+80 0 1
+D0
+~
+~
+0 0 8009
+D1
+~
+~
+0 0 8008
+D2
+~
+~
+0 0 8005
+D3
+~
+~
+0 0 8007
+S
+#8007
+The Citadel of Ivten~
+   This is the only standing structure in Ivten.  The ceiling is painted with
+pictures of angels destroying demons.  The entire building is a work of art,
+one of the most beautiful things you have ever seen.  The demons must have
+never gotten in here, for the building is entirely intact.  A sense of comfort
+raises the spirits of everyone who enters this building, and perhaps was the
+reason why the warriors of Ivten defended it so eagerly.    
+~
+80 ce 0
+D1
+~
+~
+0 0 8006
+E
+ceiling~
+   Breathtaking art is here.  Angels are here fighting devils and in the clouds
+is a large castle.    
+~
+S
+#8008
+The Business District~
+   This is business district of the city.  Hundreds of people flock here daily
+to find deals of current goods.  With the help of the Calises, many trees and
+flowers were planted where rubble once lied.  The district itself is lined up
+with several small shops.  Odd gadgets, armor, and weapons can be found here.
+Also, as an addition, a small magic shop was opened by a Calise, who took up
+permanent residence in the town.    
+~
+80 0 1
+D1
+~
+~
+0 0 8053
+D3
+~
+~
+0 0 8006
+E
+plaque~
+AGGGGGGGH
+~
+S
+#8009
+Nearing the Beacon of Peace~
+   As a blatant mocking of the demons, the tower erected by them during the war
+was renamed the Beacon of Peace.  Using magic from the Calises, the tower emits
+a white light whenever nighttime arrives.  During the war, the tower was home
+to thousands of demons, who tortured and ate many of the humans they took
+prisoner.    
+~
+80 0 1
+D0
+~
+~
+0 0 8010
+D2
+~
+~
+0 0 8006
+S
+#8010
+Inside the Beacon of Peace~
+   For the most part, the Beacon of Peace is used as a gathering place.  
+Especially with a business district, many people come here to rest, and to chat
+in some of the restaurants that were installed.  When the Calises first came to
+help out in rebuilding, the brought with them an archmage, who infused the tip
+of the tower with the power to emit light whenever darkness crept over the
+city.  Although annoying to some of those who are trying to sleep, the light is
+a symbol of hope for all.    
+~
+80 d 0
+D2
+~
+~
+0 0 8009
+D4
+~
+~
+0 0 8011
+S
+#8011
+Ontop of the staircases~
+   The floor, which used to be blood red, was painted over a solid white by the
+Titans.  Large windows were put into the tower, so sunlight could enter the
+otherwise dark building.  To the west is a large rest area, created from the
+Demon's old storage room.  Further up the stairs is a restaurant installed by
+the Titans.  It was placed in the Demon's torture room, and now serves food and
+drinks to patrons from all around the city.    
+~
+80 d 0
+D3
+~
+marble~
+1 0 8013
+D4
+~
+~
+0 0 8012
+D5
+~
+~
+0 0 8010
+S
+#8012
+Top of the Tower~
+   The Beacon of Hope, which specifically refers to the light emitted from the
+tower, was created to serve the people of Ivten.  During the Demon Wars, the
+sky was cast into blackness, and the sun no longer shown for several years.  
+Now, as a precaution, the light was created by the archmage of Calismorn.  
+Though serving much as a symbol of hope, it is also there in case a second
+darkness would ever cross into Ivten.  With the warriors of Ivten and Phobos
+united however, it is very unlikely another powerful evil will appear.    
+~
+80 d 0
+D0
+~
+~
+0 0 8014
+D5
+~
+~
+0 0 8011
+S
+#8013
+Rest Area~
+   Although being a storage room for the demons during the war, the Titans
+converted this small room into a rest area.  The walls were knocked out, and
+the room was expanded to contain a small pool.  Along with that, several wooden
+benches were placed around the room, along with pillows for people to sleep on.
+There was a small problem with the room however, there was nowhere to store all
+the equipment needed to maintain the room.    
+~
+80 dq 0
+D1
+~
+marble~
+1 0 8011
+S
+#8014
+The Ivten Restaurant~
+   No longer a human processing plant, the Ivten Restaurant serves all sorts of
+delicacies.  Many patrons from the business district come here to get a taste
+of Ivten food and drinks.  Although not great cooks, the people of Ivten take
+pride in the food, and pay close attention to detail.  Because of this, many
+people come just to experience the artistic food.    
+~
+80 d 0
+D2
+~
+~
+0 0 8012
+S
+#8015
+In the cellar~
+   Weird, there's a giant green portal on the north wall.  The only exits are
+through the portal and back down the trapdoor.    
+~
+80 d 0
+D0
+~
+~
+0 0 8026
+S
+#8016
+The Red Brick Road~
+   Probably the only road that was left still from the Demon Wars, the brick
+road is the main connection to the Ivten castle.  Originally, the Titans shut
+themselves out from the rest of Ivten, keeping to themselves in their castle.
+Since being freed though, the Titans have built a direct road to the city
+itself, using the brick road as a connector.    
+~
+80 0 0
+D1
+~
+~
+0 0 8005
+D3
+~
+~
+0 0 8017
+S
+#8017
+The Red Brick Road~
+   To the northeast, the Titan's castle can be faintly seen.  Protected during
+the mighty war, the Titan's were one of the strongest beings known to man and
+the Gods.  However, by the deceit and trickery of the demons, the once great
+civilization was devasted.  Now, the Titans have begun to rebuild, making Ivten
+even greater than before.    
+~
+80 0 0
+D1
+~
+~
+0 0 8016
+D3
+~
+~
+0 0 8018
+S
+#8018
+Road to the Castle~
+   Out of the kindness of the Titans, a direct connection from the castle to
+the town was created.  This was just one of the many revolutions in thinking
+for the Titans.  Originally being a very isolated culture, that Titans have
+finally opened up to the outside world.  The castle itself is made from a solid
+blue and white brick, and stands untop of a large hill.    
+~
+80 c 0
+D0
+~
+~
+0 0 8030
+D1
+~
+~
+0 0 8017
+S
+#8019
+Sewers of Ivten~
+   Neglected during the war, the Ivten sewers are an engineering marvel.  
+Constantly cleaned and maintained, many people actually come to take walk
+throughout the tunnels.  It was also here that the Ivten storehouse was kept,
+and Titans were perserved in crystals.  It was Garumeth, after being freed by
+Phobians, who came and released the population of Titans.  Now, the population
+has begun regrowing, along with the inhabitants of Ivten.    
+~
+80 i 0
+D4
+~
+~
+0 0 8001
+D5
+~
+~
+0 0 8046
+S
+#8020
+TRAP!~
+   It's a trap!  The floor suddenly breaks under your feet and you fall down to
+a underground chamber.  YOU HAVE BEEN KILLED!    
+~
+80 c 0
+S
+#8021
+Prodigy's Arena of Death~
+   You're gonna die soon, so be prepared.  To the north is Prodigy's Center
+Arena Room.  Monsters from afar join here to kill travelers and warriors.  I
+hope you're strong, cause this is gonna be hell.    
+~
+80 cde 0
+D0
+~
+~
+0 0 8022
+S
+#8022
+Center Arena~
+   This is the center arena.  Monsters from all over the world gather here to
+fight the bravest warriors in a giant deathmatch.  Little people have ever
+lived through the fights.  The ones who do gain gifts given by the highest
+gods.  Crowds are cheering from the stands as they watch you duke it out.    
+~
+80 0 0
+D1
+~
+~
+0 0 8023
+D3
+~
+~
+0 0 8024
+S
+#8023
+Quick-fix center~
+   This is a small room where you can quickly cast some spells and heal
+yourself.  Don't stay here long though, mobs will track you down in this room
+still.    
+~
+80 0 0
+D3
+~
+~
+0 0 8022
+S
+#8024
+Resting area~
+   The fighters may get tired while fighting, and are allowed to rest in this
+room before going out to fight again.  No monsters or spells are allowed in
+this room.  It's just for resting.    
+~
+80 cdeh 0
+D1
+~
+~
+0 0 8022
+S
+#8025
+Reward Center~
+   Wow, you lived.  You will now be given gifts from the gods for your bravery.
+Good job!    
+~
+80 0 0
+S
+#8026
+Entrance to Cloud City~
+   Shoot!  This place just doesn't ever end!  Welcome to Cloud City.  There are
+people living up here.  It looks like there's a bazaar going on to the north.
+Maybe there's something good to buy there.    
+~
+80 0 0
+D0
+~
+~
+0 0 8027
+D2
+~
+~
+0 0 8015
+S
+#8027
+Southern Bazaar~
+   This is the southern part of the bazaar.  People are hustling around looking
+for the best deal on weapons and armor.  To the far north you can see a large
+castle.    
+~
+80 0 0
+D0
+~
+~
+0 0 8028
+D1
+~
+~
+0 0 8029
+D2
+~
+~
+0 0 8026
+S
+#8028
+Center Bazaar~
+Center Bazaar
+~
+80 0 0
+D2
+~
+~
+0 0 8027
+S
+#8029
+Magic Shop~
+   This is Cloud City's Magic Shop.  There are hundreds of scroll, trinkets,
+and amulets hanging on the back wall.    
+~
+80 0 0
+D3
+~
+~
+0 0 8027
+S
+#8030
+The Gates to Titan Castle~
+   Castle made of blue and white stone.  It is a well known legend that the
+legenday giants called titans reside in such castles.  It is also known that
+they are extremely powerful and are not people to be trifled with.  A
+magnificent race of intelligence, the Titans have grown since being freed by
+the Phobians, and started with rebuilding their castle.    
+~
+80 c 0
+D0
+   It's a golden gate with secret encyptions.  Maybe someone out there can
+decipher them.    
+~
+gate~
+1 0 8031
+D2
+~
+~
+0 0 8018
+S
+#8031
+The Main Corridor~
+   Since being destroyed during the war, the castle had been largely rebuilt.
+The floors and walls had all been cleaned, and the debris was taken out.  To
+the west is the Grand Library of the Titans, containing the records of the war.
+To the east is the kitchen, where the Titans create their own interesting
+recipies.    
+~
+80 cd 0
+D0
+~
+~
+0 0 8034
+D1
+~
+~
+0 0 8033
+D2
+~
+gate~
+1 0 8030
+D3
+~
+~
+0 0 8032
+S
+#8032
+The Library~
+   Being a huge library, volumes amoung volumes of books were placed untop of
+endless amounts of shelves.  A large bay window was installed, to allow a
+constant sun to enter the room.  On one of the shelves is engraved the words of
+Ophius, which assisted the Phobians in saving the city.  Much of the war can
+still be learned from these books, with some specific passages important.    
+~
+80 d 0
+D1
+~
+~
+0 0 8031
+E
+engraving engraved plaque shelf~
+oztersmf sefokspef hwrpesjf
+~
+E
+book~
+   Hm...  Most of these books are in a language you have never seen before.  
+There are a couple of books are in your language.  They include:
+The Chronicles of Ophius
+The Titan's Peace
+The War of the Masters
+~
+E
+chronicle Ophius~
+   These are the records of my days in the great City of Ivten.  I will begin
+with the creation of this city by the Titans.  The titans were giants amoung
+giants.  They had immense strength and intelligence.  They created the entire
+city in a week and then disappeared into their castle.  The first of the
+Ivtanions came in an attempted adventure to the legendary Cloud ity.  They
+never found the city, so instead the settled into Ivten.  About 500 years after
+it's creation, I arrived in a search for knowledge of the world.  I cannot
+emphasize the beauty of this city the first time I saw it.  This city will live
+on for many generations, blessing all that come to visit it.  Peace forever and
+may the Gods bless you.    
+~
+E
+titan peace~
+   The Titan's Peace was a pinnacle event in the history of Ivten and all the
+land that surronded it.  When the first demons arrived, they terrorized the
+land by attacking all that didn't travel in large groups.  Any person who would
+leave the city at night would arrive the next morning without a head.  The
+titans soon became largely aware of these happenings.  They left their castle
+for the first time in hundreds of years to make peace with the demons.  It was
+succesful.  The demons agreed to leave as long as the titans gave them 500
+million gold coins every year.  The titans (whom were very rich), thought it
+was fair and agreed to do so.  This was the Titan's peace, which unfortuantly
+did not last very long.    
+~
+E
+war masters~
+   The War of the Masters was also known as the Betrayal.  After the Titan's
+Peace, the demons gained enormous wealth.  The demons masked themselves as
+humans and used the gold to buy weapons and armor for themselves.  Soon, the
+army of demons was strong enough to overrun Ivten and the Titan's castle.  The
+war lasted for over a hundred years.  Millions of people were tortured, slain,
+or eaten.  The Titans fought back to the best of their ability, but they were
+used to peace and were not ready for fighting.  The demons slowly pushed the
+Titans back into the castle.  This did not occur without many casualties on the
+demons' part.  The Titan's defended their castle well and defeated the frontal
+attack of the demons.  They shot lightning bolts from ontop of their parapets
+and struck the demons down.  At the end, only 20 Titan's survived.  They fell
+asleep only to find them surronded when they woke up the next morning.  A
+second wave of demons invaded the castle and has taken the Titans hostage.  
+Being as courageous as they were, the Titans didn't give up and fought to their
+death.  The demons retreated back to Ivten knowing all the Titans were dead or
+were dying.  Three Titans survived though.  Using the remaining of their magic,
+the Titans shielded the castle from attack.  The last remaining Titan,
+Garumeth, stayed in the castle, waiting for the time he would open the portal
+and allow the Titans to appear once again.  Through the attack though, he
+lossed almost all of his magic and now spends his time in the castle rebuilding
+his energy.  Orphius, the Ivten journalist, was slain while praying at the
+temple.  As for the fate of all the other Ivtens, death would be a relief.  
+They are forced to reproduce, in which they are killed and proccessed after
+producing an offspring.  There is a legend that hidden amoung the city is a
+cystal that will reverse time to the 1 year before the war.  It is prophesized
+that one day an adventurer will learn the power of the crystal and return in
+time.  Then it is foretold that the adventurer will destroy the demons and
+Ivten will survive once again.    
+~
+S
+#8033
+The Kitchen~
+   Though cleaned up since that war, the kitchen is still a mess.  Flour and
+utensils are spread carelessly around the room.  Although never being great
+chefs, the Titans took great pride in their food.  They are mainly pastry
+lovers, and can eat several loaves of bread each day.  However, the Titans are
+also masters of wine, and enjoy a nice cup before dinner.    
+~
+80 d 0
+D3
+~
+~
+0 0 8031
+S
+#8034
+A dark hallway~
+   Adorned with exotic fabrics, this hallway is yet another display of the
+majestic beauty of the Titan's castle.  To the east is the sitting room, where
+the best furniture of the Titans are placed.  To the west was the former trap
+room for Demons, which has since been transformed into a regular room.    
+~
+80 ad 0
+D0
+~
+~
+0 0 8037
+D1
+~
+~
+0 0 8036
+D2
+~
+~
+0 0 8031
+D3
+~
+~
+0 0 8035
+S
+#8035
+The Pit~
+   This room was evidently used a trap by the Titans.  Perhaps used as a method
+of disposing of any demon that might have been captured by the Titans.  
+Seeming of dungeon, there is no exit out of the room, no windows, and no
+escape.  Bones of demons lay across the wet floor, and have been rotting here
+for years.    
+~
+80 ad 0
+D1
+~
+~
+0 0 8034
+S
+#8036
+The Sitting Room~
+   Titans, although hard workers, do get lazy at times.  Being handy craftmen,
+they enjoy making furniture on the side.  The sitting room is somewhat of a
+display of their abilities.  The best furniture made is placed into this room,
+stury and beautiful.    
+~
+80 d 0
+D3
+~
+~
+0 0 8034
+E
+chair~
+   You carefully look at the wooden chair sitting in the west corner.    
+~
+E
+window~
+   You can see a large plain area with rolling hills leading east.  It's quite
+beutiful, problem is, the demons probably reside in there.  It's a shame for
+such beauty to be infested with evil.    
+~
+S
+#8037
+A dark hallway~
+   You head on deeper into the castle, You can still here thumps in the
+distance, but you can't pinpoint the exact location.  To the east there's a
+large oak door, you can see sunshine slipping in from under the doorway,
+providing a small amount of light.    
+~
+80 0 0
+D0
+~
+~
+0 0 8038
+D2
+~
+~
+0 0 8034
+S
+#8038
+A large chamber~
+   This is a huge chamber with a dual stairway leading upstairs, the only other
+way out is through the way you came.    
+~
+80 d 0
+D2
+~
+~
+0 0 8037
+D4
+~
+~
+0 0 8039
+S
+#8039
+Yet another hallway~
+   This place probably seemed smaller when there was more Titans, but now
+there's only one.  This hallway continues on north.  There are rooms to the
+east and west.    
+~
+80 d 0
+D0
+~
+~
+0 0 8042
+D1
+~
+~
+0 0 8041
+D3
+~
+~
+0 0 8040
+D5
+~
+~
+0 0 8038
+S
+#8040
+A bedroom~
+   It seems to be a little bedroom where one of the Titan's slept at night.  
+There is a large bed in the northwest corner, a drawer to your east, and yet
+another window that faces west.    
+~
+80 cd 0
+D1
+~
+~
+0 0 8039
+E
+bed~
+   It's a large bed with a feather-filled mattress.  It has a large, blue,
+comforter covering it.    
+~
+S
+#8041
+The Bathroom~
+   Well, doesn't look like anyone has been in here for a long time.  The toilet
+is drained of all the water, but the sink is overflowing from a little drip the
+comes every minutes.    
+~
+80 d 0
+D3
+~
+~
+0 0 8039
+E
+sink~
+   It's seems to have been dripping for a very long time.  Even though it only
+does so every minutes or so, the sink has completely been overfilled.    
+~
+E
+toilet~
+   It's a toilet, what else do you need to know?    
+~
+S
+#8042
+Entrance to the Throne Room~
+   If the last remaining Titan is anywhere, he's in the room north from here.
+In front of you are a pair of huge golden doors.  There a little crystals on
+the side of the way that glow with a small green light, leading you straight to
+the door.  Past through and you may learn the secret to bring Ivten back to the
+way it was.    
+~
+80 d 0
+D0
+   It's a giant golden door, dang, it's huge.    
+~
+door~
+1 0 8043
+D2
+~
+~
+0 0 8039
+S
+#8043
+The Throne Room~
+   This is the throne room of the Titans.  Since the great adventurers freed
+Garumeth from the crystal he has resided here.  The crystal remained though as
+the only path that could lead back to the mythical realm of Corinth.  The
+throne is made of solid gildic, a gold alloy, that shines brighter than the
+stars in the sky.  Garumeth enjoys spending his time here reminiscing of the
+old times.  The southern exit leads back into the castle, while a stand behind
+the throne looks as though it would prop up a crystal.  This stand must be the
+point where the Titan Crystal's power is concentrated to open the portal to
+Corinth.    
+~
+80 cd 0
+D2
+   It's a giant golden door, dang, it's huge
+~
+door~
+1 0 8042
+E
+throne~
+   It's a giant golden chair with a red cusion.  Ontop of it sits a blue
+crystal that shines brightly.  How mysterious...    
+~
+E
+crystal~
+   It's a small little blue crystal sitting ontop of the chair.  In the center
+of it there is a little green orb.  Maybe it means something,
+~
+E
+candles~
+   Dang, all the candles makes this place look like a church...  Maybe it is...
+  
+~
+S
+#8044
+The Plains~
+   Wow, the great plains.  Hm..  Doesn't seem to be too much stuff here, just
+plains as far as you can see.  Dang, this is going to be fun to explore.  
+There's a small greenhouse farther to the east.  You can smell some smoke to
+the northeast.    
+~
+80 c 2
+D1
+~
+~
+0 0 8045
+S
+#8045
+The entrance to the greenhouse~
+   This is the entrance to the greenhouse.  You can see hundreds of plants
+within.  The plains extends further on north.    
+~
+80 0 2
+D0
+~
+~
+0 0 8047
+D3
+~
+~
+0 0 8044
+S
+#8046
+The Titan's Warehouse~
+   This is the last intact warehouse of the Titans.  In fact, it is the only
+one ever made.  The Titan warehouse was created during the early stages of the
+war, to perserve a small percentage of the population in case the Titans would
+lose the battles.  After being defeated, the Titans stayed in their crystals,
+hoping for another Titan to wake them once the city was safe.  Eventually,
+Garumeth came and revived them, allowing the population to rebuild once again.
+  
+~
+80 cdn 0
+D2
+~
+~
+0 0 8052
+D4
+~
+~
+0 0 8019
+E
+crystal~
+   The crystals have a hypnotic glimmer to them.  Amazing how interesting a
+little stone can be.    
+~
+S
+#8047
+The plains~
+   This is a small dirt pathway through the fields.  Not much can be seen for
+awhile except for more and more plains.  One must wonder what creatures must
+hide in the grass though...    
+~
+80 0 0
+D0
+~
+~
+0 0 8048
+D2
+~
+~
+0 0 8045
+S
+#8048
+The plains~
+   The grass seems even higher here.  Up ahead is a turn.  Hm, it seems
+constantly windy in here.    
+~
+80 0 0
+D0
+~
+~
+0 0 8049
+D2
+~
+~
+0 0 8047
+S
+#8049
+The plains~
+   There's a small turn here.  You can see a wooden cottage to the east.  
+Smoke emminates from the chimney and you can hear a small noise coming from
+inside.    
+~
+80 0 0
+D1
+~
+~
+0 0 8050
+D2
+~
+~
+0 0 8048
+S
+#8050
+The Cottage in the plains~
+   Made of pine, the cottage seems quite sturdy.  There a cut tree stumps
+surronding the house.  Through the west window you can see a fire coming from
+the fireplace.  Hopefully, there will be someone in there who can provide you
+some help.    
+~
+80 c 0
+D1
+~
+door~
+1 0 8051
+D3
+~
+~
+0 0 8049
+S
+#8051
+Inside the cottage~
+   It's a very cosy little place.  There's a small dinner table in the top
+right corner and a small wood burning stove by it.  There's a fire place on the
+left and a chair to sit on in front of it.  There are several books strewn
+around the floor also.    
+~
+80 0 0
+D3
+~
+door~
+1 0 8050
+S
+#8052
+The Storage Room~
+   Although no longer used, the walls are lined with hundreds of shelves.  On
+the shelves are small wooden boxes, with a red cloth inside to protect the
+crystal that were held in them.  The crystals are a magical spell which only
+Titans know how to use, which allows them to transfer their body and soul to a
+crystal, which can later be revived by another secret spell.    
+~
+80 0 0
+D0
+~
+~
+0 0 8046
+S
+#8053
+Business District~
+   The Business district here is always full of life, teeming with the
+greatness of a city that survived the Demon horde.  Now, shops of all kinds are
+open to the general public.  To the north is a weapons shop, while a smaller
+armor shop is to the south.  Though many people expect Ivten to return to its
+former glory, it has already begun showing signs of developing a new culture
+and hope and kindness.    
+~
+80 0 0
+D0
+~
+~
+0 0 8054
+D1
+~
+~
+0 0 8056
+D2
+~
+~
+0 0 8055
+D3
+~
+~
+0 0 8008
+S
+#8054
+Weapon Shop~
+   This is the local weapon shop.  Ivtens specifically master in broadswords.
+Since the Titans are so large, they are able to wield enourmous swords to deal
+massive amounts of damage.  However, many regular humans will have trouble
+lifting such swords with only one hand, so other smaller swords and daggers are
+provided.    
+~
+80 0 0
+D2
+~
+~
+0 0 8053
+S
+#8055
+Armor Shop~
+   Titans are great forgers, and usually make most equipment for themselves.  
+Because of that, this armor shop appeals directly to smaller beings such as
+humans.  Using the famous blue metal of the Titans, the armor sold here is
+strong, but expensive at times also.  Many people agree however, that getting a
+piece of armor from a Titan is best.    
+~
+80 0 0
+D0
+~
+~
+0 0 8053
+S
+#8056
+Business district~
+   The Business district here is always full of life, teeming with the
+greatness of a city that survived the Demon horde.  Now, shops of all kinds are
+open to the general public.  To the north is the magic shop, opened up by a
+Calise, who decided to take up residence here.  To the south is a large gadget
+store, selling odd items with odd purposes.  With the economy improving, the
+Titans hope to begin expanding into other businesses in the future.    
+~
+80 0 0
+D0
+~
+~
+0 0 8057
+D2
+~
+~
+0 0 8058
+D3
+~
+~
+0 0 8053
+S
+#8057
+Magic Shop~
+   This small shop was created by a visiting Calise, who decided to live here.
+Containing mainly scrolls and potions gathered from Calismorn, many people of
+Ivten have taken intrest to the goods of this store.  Not focusing very much on
+magic, having a store that sells only magical products appealed to everyone,
+especially the Titans, who are quite skilled in magical abilities.    
+~
+80 0 0
+D2
+~
+~
+0 0 8056
+S
+#8058
+The Gadget Shop~
+   Filled with small machinery, the gadget shop is an inspiration to all
+inventors.  With items gathered from Phobos, Calismorn, and other cities, the
+gadget store has a wide variety of upcoming technology.  There is a policy in
+the store that no item sold can be infused with magic.  The machines here are
+purely made of natural elements, no magical ones.    
+~
+80 0 0
+D0
+~
+~
+0 0 8056
+S
+#8059
+1~
+&R  __________&n
+&wJ&R|+++++++++&w+&B|&n
+&wI&R|++++++++&w+&B+|&n
+&wH&R|+++++++&w+&B++|&n
+&wG&R|++++++&w+&B+++|&n
+&wF&R|+++++&w+&B++++|&n
+&wE&R|++++&w+&B+++++|&n
+&wD&R|+++&w+&B++++++|&n
+&wC&R|++&w+&B+++++++|&n
+&wB&R|+&w+&B++++++++|&n
+&wA&R|&w+&B++++++++&WU&B|&n
+&C -&w1234567890&C-&n
+
+~
+80 0 0
+D0
+~
+~
+0 0 5099
+D3
+~
+~
+0 0 5098
+S
+#8099
+Go go~
+You are in an unfinished room.
+~
+80 0 0
+S
+$~

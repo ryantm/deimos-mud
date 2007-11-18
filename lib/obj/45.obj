@@ -1,0 +1,162 @@
+#4500
+Six Flags Ticket~
+a Six Flags Ticket~
+A Six Flags Ticket is fluttering around in the wind.~
+~
+18 0 16385 0
+0 0 0 0
+0 0 0 0
+#4501
+tuxedo~
+a black tuxedo~
+An expensive looking black tuxedo is laying on the ground.~
+~
+9 0 9 0
+10 0 0 0
+7 500000 0 25
+A
+6 3
+#4502
+red cape~
+&Ra red cape&n~
+&Ra red cape&n is fluttering on the ground.~
+~
+9 1024 5 0
+4 0 0 0
+3 10000 0 15
+A
+2 1
+A
+13 5
+A
+18 2
+#4503
+food~
+overpriced food~
+Overpriced food is lying here.~
+~
+19 0 1 0
+5 0 0 0
+0 0 0 0
+#4505
+sombrero~
+a sombrero~
+A big Mexican hat lies on the ground.~
+~
+11 0 17 0
+0 0 0 0
+3 2000 0 0
+A
+6 1
+A
+18 1
+#4506
+kerosene lantern~
+a kerosene lantern~
+A kerosene lantern is lying here, burning endlessly.~
+~
+1 1 1 0
+0 0 -1 0
+10 3000 0 20
+A
+1 2
+#4508
+Rolex watch~
+a Rolex watch~
+A golden Rolex watch is on the ground waiting to be crushed.~
+~
+11 0 4097 0
+0 0 0 0
+2 200000 0 20
+A
+19 1
+#4513
+Sign~
+a sign~
+&GA large, colorful sign is mounted at the front gates.&n~
+~
+12 0 0 0
+0 0 0 0
+2000 0 0 0
+E
+sign~
+Well folks, &gSix Flags&n has been reopened! Enjoy your stay!
+
+
+-The staff of &gSix Flags&n
+~
+#4583
+viper skin~
+viper skin~
+Some snake skin is lying on the ground.~
+~
+11 0 257 0
+0 0 0 0
+2 20 0 25
+A
+19 1
+#4586
+the tail of Iron Wolf~
+the tail of Iron Wolf~
+A large iron tail is coiled on the ground.~
+~
+9 0 2049 0
+8 0 0 0
+10 0 0 25
+A
+18 2
+A
+2 -1
+A
+1 1
+#4587
+red robe~
+a red robe~
+A Red Robe is lying on the ground.~
+~
+11 0 1025 0
+0 0 0 0
+5 10000 0 30
+A
+1 1
+A
+19 1
+#4596
+the Cursed Ring~
+the Cursed Ring~
+An odd looking ring emits an evil aura here...~
+~
+11 12583048 3 16796160
+0 0 0 0
+0 0 0 5
+A
+19 2
+A
+17 -1
+A
+3 -5
+#4598
+Wuthering Heights~
+&mWuthering Heights&n~
+&mWuthering Heights&n, the sister book to the Bloodied Vocab book, lies here emitting evil.~
+~
+5 271581184 8193 8192
+50 500 50 9
+100 0 0 1
+A
+19 60
+A
+18 60
+A
+6 -18
+A
+1 5
+#4599
+a spoon~
+a spoon~
+There is a spoon! (here)~
+~
+0 0 1 0
+0 0 0 0
+0 0 0 0
+$~

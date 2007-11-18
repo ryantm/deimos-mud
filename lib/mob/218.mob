@@ -1,0 +1,26 @@
+#21800
+explorer~
+A young explorer~
+A young, explorer Indian is sitting here.
+~
+It looks unfinished.
+~
+190488 128 500 E
+61 -5 10 30d100+250 10d5+25
+0 0
+10 10 1
+BareHandAttack: 10
+E
+#21808
+mob unfinished~
+the unfinished mob~
+An unfinished mob stands here.
+~
+It looks unfinished.
+~
+8 0 0 E
+0 20 10 1d1+0 1d1+0
+0 0
+10 10 0
+E
+$

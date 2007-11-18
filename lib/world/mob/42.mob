@@ -1,0 +1,44 @@
+#4215
+Strong Man~
+a Strong Man~
+A Strong Man stands here read to raise or lower the platform.
+~
+   This man is strong.  He was hired specificly for this job because of his
+talents in that area.    
+~
+10 0 0 E
+20 15 4 20d20+400 10d10+5
+20000 400000
+12 12 1
+BareHandAttack: 13
+E
+#4263
+slave~
+a slave~
+A slave of The Empire Toils on the road endlessly
+~
+   A decrepid and emaciated slave works tirelessly on the northward road as he
+is worked to near death by his slave driving master.  He is not fed well and is
+forced to work 14 hour days, and it shows.    
+~
+10 0 0 E
+10 18 -8 5d5+300 1d1+2
+7500 100000
+12 12 1
+E
+#4264
+Slave Driver~
+a Slave Driver~
+A Slave Driver stands here with a whip, driving the slaves.
+~
+   Well fed and well dressed the slave driver is one of the lower middle class
+of The Empire.  He wears a green garment that flows around his body, and looks
+very regal.  He drives the slaves very harshly as his preformance and likely
+promotion depend on the completion of this road.    
+~
+10 0 0 E
+30 14 -4 15d15+1900 3d3+6
+67500 900000
+12 12 0
+E
+$

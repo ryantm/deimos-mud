@@ -1,0 +1,29 @@
+#101
+New Zone~
+Fehitz~
+10199 240 2
+D 0 10161 1 1 0	(The Archmage's Chamber)
+M 0 10104 1 10161 0	(a Stone Golem)
+E 1 10103 10 17 50	(a Piece of Granite)
+M 0 10103 1 10165 0	(the Battlelord)
+E 1 10105 10 16 10	(a Crystal Greatsword)
+D 0 10173 2 1 0	(A Black and White Room)
+M 0 10100 1 10173 0	(a White Knight)
+M 0 10102 1 10173 0	(a Black Knight)
+D 0 10179 2 1 0	(Inside the Royal Chambers)
+M 0 10101 1 10179 0	(Lord Kor)
+D 0 10187 0 1 0	(Inside Princess Nojri's Chamber)
+D 0 10183 0 1 0	(Inside Prince Edogi's Chamber)
+D 0 10174 0 1 0	(A Beautifully Decorated Stairwell)
+D 0 10166 2 1 0	(A Dimly Lit Room)
+D 0 10162 2 1 0	(A Brightly Lit Stairwell)
+D 0 10160 3 1 0	(The Sorceror's Chamber)
+D 0 10159 3 1 0	(End of the Carpeted Hallway)
+D 0 10159 1 1 0	(End of the Carpeted Hallway)
+D 0 10159 0 1 0	(End of the Carpeted Hallway)
+D 0 10186 2 1 0	(End of the Beautifully Decorated Hallway)
+D 0 10182 2 1 0	(End of the Beautifully Decorated Hallway)
+D 0 10178 0 1 0	(Outside the Royal Chambers)
+D 0 10164 0 1 0	(Outside The Battlelord's Chamber)
+S
+$

@@ -1,0 +1,482 @@
+#4000
+Amongst Bamboo Trees~
+   Trees of bamboo grow from every which direction.  They completely block off
+access to the north and south, but both the east and west open out into a wide,
+dirt path.  There is a gigantic tree with branches creating a ladder here,
+inviting brave souls to climb upwards.    
+~
+40 ce 3
+D1
+A wide path leads in this direction.
+~
+~
+0 0 4002
+D3
+~
+~
+0 0 4003
+D4
+~
+~
+0 0 4001
+S
+#4001
+Atop a Tree~
+   From up here, you can see way out into the distance.  The sheer hieght of
+the first resting point is breathtaking.  You are standing atop a wooden
+platform on which you can see smoke rising from what looks like a small village
+off to the northeast.  To the northwest, there is a clearing in the thick
+bamboo forest which is littered with strange looking pearly-white objects.
+~
+40 gi 2
+D5
+~
+~
+0 0 4000
+S
+#4002
+A Wide, Dirt Path~
+   The bamboo trees seem to cower over the dark, dirt path.  Their broad leaves
+blot out the sky and seem to whisper to the clouds.  The path is well-beaten
+and looks as though it is used regularly.  There is a small, wooden, obviously
+hand-made &Csign&n nearly hidden by the vegetation and foilage.    
+~
+40 0 2
+D0
+The path narrows to a narrower, wilder-looking walkway.
+~
+~
+0 0 4012
+D1
+There is a small creek in this direction.
+~
+~
+0 0 4011
+D3
+There are lots and lots of bamboo trees.
+~
+~
+0 0 4000
+E
+sign~
+ &y+------------+
+ |  &wNorth to&y  |
+ |  &wShaoxiu&y   |
+ +----+--+----+
+      |  |
+      |  |
+      |  |
+      |  |&n
+~
+S
+#4003
+A Wide, Dirt Path~
+   The path is extremely wide here.  It leads off in every direction.  The wide
+path turns into an old-looking walkway to the north, and becomes overgrown and
+unkempt to the west.  The path remains wide and open to the east, and is nearly
+nonexistant to the south.    
+~
+40 0 3
+D0
+~
+~
+0 0 4004
+D1
+~
+~
+0 0 4000
+D2
+~
+~
+0 0 4013
+D3
+~
+~
+0 0 4005
+S
+#4004
+A Dilapidated Walkway~
+   The path has now turned into a cracked and dilapidated sidewalk of sorts.  
+It is difficult to balance on the misshapen and warped cement as it juts out in
+places and caves in at others.  To the north, you can see blurry shapes of what
+used to be a beautiful building.  To the south, the path widens and the bamboo
+trees become thicker.  Vegetation threatens to overtake the pathetic excuse for
+a walkway towards the woods.    
+~
+40 c 2
+D2
+~
+~
+0 0 4003
+S
+#4005
+An Overgrown Path~
+You are in an unfinished room.
+~
+40 0 0
+D0
+~
+~
+0 0 4007
+D1
+~
+~
+0 0 4003
+D2
+~
+~
+0 0 4014
+D3
+~
+~
+0 0 4006
+S
+#4006
+Before a Stone Alter~
+You are in an unfinished room.
+~
+40 0 0
+D0
+~
+~
+0 0 4016
+D1
+~
+~
+0 0 4005
+D2
+~
+~
+0 0 4015
+D5
+~
+~
+0 0 4008
+S
+#4007
+Amongst Bamboo Trees~
+You are in an unfinished room.
+~
+40 0 0
+D2
+~
+~
+0 0 4005
+D3
+~
+~
+0 0 4016
+S
+#4008
+Rassail's Lair~
+You are in an unfinished room.
+~
+40 0 0
+D4
+~
+~
+0 0 4006
+S
+#4009
+Near a Bubbling Creek~
+You are in an unfinished room.
+~
+40 0 0
+D1
+~
+~
+0 0 4010
+D3
+~
+~
+0 0 4013
+S
+#4010
+In a Slow-Moving Creek~
+You are in an unfinished room.
+~
+40 0 0
+D3
+~
+~
+0 0 4009
+S
+#4011
+Crossing a Slow-Moving Creek~
+You are in an unfinished room.
+~
+40 0 0
+D3
+~
+~
+0 0 4002
+S
+#4012
+A Narrow Path~
+   The path narrows and becomes overgrown and less noticable.  Various
+wildflowers peek out from the sides of the path, juxtiposed to the dull
+greenery when the path was wider.  Radiant maroons, deep royal blues, and
+piercing yellows dot the ground, giving the path a more inviting look.  
+Murmurs of life rush from the north, indicating a small village.    
+~
+40 0 3
+D2
+~
+~
+0 0 4002
+S
+#4013
+Lost Amongst Bamboo Trees~
+You are in an unfinished room.
+~
+40 0 0
+D0
+~
+~
+0 0 4003
+D1
+~
+~
+0 0 4009
+D3
+~
+~
+0 0 4014
+S
+#4014
+Lost Amongst Bamboo Trees~
+You are in an unfinished room.
+~
+40 0 0
+D0
+~
+~
+0 0 4005
+D1
+~
+~
+0 0 4013
+D3
+~
+~
+0 0 4015
+S
+#4015
+Lost Amongst Bamboo Trees~
+You are in an unfinished room.
+~
+40 0 0
+D0
+~
+~
+0 0 4006
+D1
+~
+~
+0 0 4014
+S
+#4016
+Lost Amongst Bamboo Trees~
+You are in an unfinished room.
+~
+40 0 0
+D1
+~
+~
+0 0 4007
+D2
+~
+~
+0 0 4006
+S
+#4017
+House Dugout~
+You are in an unfinished room.
+~
+40 0 0
+D3
+~
+~
+0 0 4012
+S
+#4018
+Rock Armory~
+You are in an unfinished room.
+~
+40 0 0
+D2
+~
+~
+0 0 4013
+S
+#4019
+Stores~
+You are in an unfinished room.
+~
+40 0 0
+S
+#4020
+Tunneled Path~
+You are in an unfinished room.
+~
+40 0 0
+D1
+~
+~
+0 0 4014
+D4
+~
+~
+0 0 4021
+S
+#4021
+Steps~
+You are in an unfinished room.
+~
+40 0 0
+D3
+~
+~
+0 0 4022
+D5
+~
+~
+0 0 4020
+S
+#4022
+Stone Gates~
+You are in an unfinished room.
+~
+40 0 0
+D1
+~
+~
+0 0 4021
+D3
+~
+~
+0 0 4023
+S
+#4023
+Huge Cavern~
+You are in an unfinished room.
+~
+40 0 0
+D1
+~
+~
+0 0 4022
+D3
+~
+~
+0 0 4024
+S
+#4024
+Small Hut~
+You are in an unfinished room.
+~
+40 0 0
+D1
+~
+~
+0 0 4023
+D4
+~
+~
+0 0 4030
+D5
+~
+~
+0 0 4025
+S
+#4025
+Down~
+You are in an unfinished room.
+~
+40 0 0
+D4
+~
+~
+0 0 4024
+D5
+~
+~
+0 0 4026
+S
+#4026
+Down~
+You are in an unfinished room.
+~
+40 0 0
+D4
+~
+~
+0 0 4025
+D5
+~
+~
+0 0 4027
+S
+#4027
+Down~
+You are in an unfinished room.
+~
+40 0 0
+D3
+~
+~
+0 0 4028
+D4
+~
+~
+0 0 4026
+S
+#4028
+Ante Room~
+You are in an unfinished room.
+~
+40 0 0
+D1
+~
+~
+0 0 4027
+D3
+~
+~
+0 0 4029
+S
+#4029
+Palace Chambers~
+You are in an unfinished room.
+~
+40 0 0
+D1
+~
+~
+0 0 4028
+S
+#4030
+Ladder~
+You are in an unfinished room.
+~
+40 0 0
+D3
+~
+~
+0 0 4031
+D5
+~
+~
+0 0 4024
+S
+#4031
+Outside the Mountain~
+You are in an unfinished room.
+~
+40 0 0
+D1
+~
+~
+0 0 4030
+S
+$~

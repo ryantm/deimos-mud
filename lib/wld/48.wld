@@ -1,0 +1,1708 @@
+#4800
+Swimming through thick weeds.~
+Weeds cover most of your sight in every direction.  Pushing back the weeds to
+swim has a surprise every time.  Several occasions you catch glimmers of grey
+or green swim back into the weeds as you push your way through.    
+~
+48 c 8
+D0
+~
+~
+0 0 4289
+D1
+~
+~
+0 0 4801
+S
+#4801
+Just before a large cave.~
+The weeds end rather suddenly, leaving about 2 feet of space between the
+opening in the rocks ahead.  The water is still, the current that's making the
+weeds behind you move seems to stop with the weeds.  Perhaps venturing further
+should be done with extreme caution.    
+~
+48 ceq 8
+D1
+~
+~
+0 0 4802
+D3
+~
+~
+0 0 4800
+S
+#4802
+In a large tunnel.~
+This cave has a small glow, making it dim to the eyes.  You can see the faint
+outline of shapes swimming toward you, most likely fish.  But you don't know
+whether they are friendly fish or vicious fish that want to make you their
+dinner.    
+~
+48 a 8
+D1
+~
+~
+0 0 4803
+D3
+~
+~
+0 0 4801
+S
+#4803
+An intersection within the caves.~
+You reach an intersection in the large caves.  A dark cave leads south, while
+the dim cave you're currently traveling continues east.  Choose your destiny
+wisely, for it could be the last thing you do.    
+~
+48 a 8
+D1
+~
+~
+0 0 4827
+D2
+~
+~
+0 0 4804
+D3
+~
+~
+0 0 4802
+S
+#4804
+Swimming through a dark cave.~
+The light entering the cave stops rather suddenly, and it's impossible to see
+beyond the light.  Perhaps swimming faster is a good idea, for anything could
+be lurking in the darkness, ready to strike.    
+~
+48 a 8
+D0
+~
+~
+0 0 4803
+D2
+~
+~
+0 0 4805
+S
+#4805
+Inside a completely dark cave.~
+Darkness, what more needs to be described?  You can't see anything, except the
+light from outside, which is odd, because it's not lighting anything in the
+cave, or if it's even a cave.  You could be in some huge creature's mouth.  
+But as far as you can tell, it's not moving.    
+~
+48 a 8
+D0
+~
+~
+0 0 4804
+D1
+~
+~
+0 0 4806
+S
+#4806
+Inside a completely dark cave.~
+Darkness, what more needs to be described?  You can't see anything, except the
+light from outside, which is odd, because it's not lighting anything in the
+cave, or if it's even a cave.  You could be in some huge creature's mouth.  
+But as far as you can tell, it's not moving.    
+~
+48 a 8
+D2
+~
+~
+0 0 4807
+D3
+~
+~
+0 0 4805
+S
+#4807
+Inside a completely dark cave.~
+Darkness, what more needs to be described?  You can't see anything, except the
+light from outside, which is odd, because it's not lighting anything in the
+cave, or if it's even a cave.  You could be in some huge creature's mouth.  
+But as far as you can tell, it's not moving.    
+~
+48 a 8
+D0
+~
+~
+0 0 4806
+D2
+~
+~
+0 0 4808
+S
+#4808
+Inside a completely dark cave.~
+Darkness, what more needs to be described?  You can't see anything, except the
+light from outside, which is odd, because it's not lighting anything in the
+cave, or if it's even a cave.  You could be in some huge creature's mouth.  
+But as far as you can tell, it's not moving.    
+~
+48 a 8
+D0
+~
+~
+0 0 4807
+D1
+~
+~
+0 0 4809
+S
+#4809
+Inside a completely dark cave.~
+Darkness, what more needs to be described?  You can't see anything, except the
+light from outside, which is odd, because it's not lighting anything in the
+cave, or if it's even a cave.  You could be in some huge creature's mouth.  
+But as far as you can tell, it's not moving.    
+~
+48 a 8
+D1
+~
+~
+0 0 4810
+D2
+~
+~
+0 0 4811
+D3
+~
+~
+0 0 4808
+S
+#4810
+Inside a completely dark cave.~
+Darkness, what more needs to be described?  You can't see anything, except the
+light from outside, which is odd, because it's not lighting anything in the
+cave, or if it's even a cave.  You could be in some huge creature's mouth.  
+But as far as you can tell, it's not moving.    
+~
+48 a 8
+D3
+~
+~
+0 0 4809
+S
+#4811
+Inside a completely dark cave.~
+Darkness, what more needs to be described?  You can't see anything, except the
+light from outside, which is odd, because it's not lighting anything in the
+cave, or if it's even a cave.  You could be in some huge creature's mouth.  
+But as far as you can tell, it's not moving.    
+~
+48 a 8
+D0
+~
+~
+0 0 4809
+D2
+~
+~
+0 0 4812
+S
+#4812
+Inside a completely dark cave.~
+Darkness, what more needs to be described?  You can't see anything, except the
+light from outside, which is odd, because it's not lighting anything in the
+cave, or if it's even a cave.  You could be in some huge creature's mouth.  
+But as far as you can tell, it's not moving.    
+~
+48 a 8
+D0
+~
+~
+0 0 4811
+D2
+~
+~
+0 0 4813
+S
+#4813
+Inside a completely dark cave.~
+Darkness, what more needs to be described?  You can't see anything, except the
+light from outside, which is odd, because it's not lighting anything in the
+cave, or if it's even a cave.  You could be in some huge creature's mouth.  
+But as far as you can tell, it's not moving.    
+~
+48 a 8
+D0
+~
+~
+0 0 4812
+D2
+~
+~
+0 0 4814
+S
+#4814
+Inside a completely dark cave.~
+Darkness, what more needs to be described?  You can't see anything, except the
+light from outside, which is odd, because it's not lighting anything in the
+cave, or if it's even a cave.  You could be in some huge creature's mouth.  
+But as far as you can tell, it's not moving.    
+~
+48 a 8
+D0
+~
+~
+0 0 4813
+D1
+~
+~
+0 0 4815
+S
+#4815
+Inside a completely dark cave.~
+Darkness, what more needs to be described?  You can't see anything, except the
+light from outside, which is odd, because it's not lighting anything in the
+cave, or if it's even a cave.  You could be in some huge creature's mouth.  
+But as far as you can tell, it's not moving.    
+~
+48 a 8
+D1
+~
+~
+0 0 4816
+D3
+~
+~
+0 0 4814
+S
+#4816
+Inside a completely dark cave.~
+Darkness, what more needs to be described?  You can't see anything, except the
+light from outside, which is odd, because it's not lighting anything in the
+cave, or if it's even a cave.  You could be in some huge creature's mouth.  
+But as far as you can tell, it's not moving.    
+~
+48 a 8
+D1
+~
+~
+0 0 4817
+D3
+~
+~
+0 0 4815
+S
+#4817
+Inside a completely dark cave.~
+Darkness, what more needs to be described?  You can't see anything, except the
+light from outside, which is odd, because it's not lighting anything in the
+cave, or if it's even a cave.  You could be in some huge creature's mouth.  
+But as far as you can tell, it's not moving.    
+~
+48 a 8
+D0
+~
+~
+0 0 4818
+D3
+~
+~
+0 0 4816
+S
+#4818
+Inside a completely dark cave.~
+Darkness, what more needs to be described?  You can't see anything, except the
+light from outside, which is odd, because it's not lighting anything in the
+cave, or if it's even a cave.  You could be in some huge creature's mouth.  
+But as far as you can tell, it's not moving.    
+~
+48 a 8
+D0
+~
+~
+0 0 4819
+D2
+~
+~
+0 0 4817
+S
+#4819
+Inside a completely dark cave.~
+Darkness, what more needs to be described?  You can't see anything, except the
+light from outside, which is odd, because it's not lighting anything in the
+cave, or if it's even a cave.  You could be in some huge creature's mouth.  
+But as far as you can tell, it's not moving.    
+~
+48 a 8
+D1
+~
+~
+0 0 4820
+D2
+~
+~
+0 0 4818
+S
+#4820
+Inside a completely dark cave.~
+Darkness, what more needs to be described?  You can't see anything, except the
+light from outside, which is odd, because it's not lighting anything in the
+cave, or if it's even a cave.  You could be in some huge creature's mouth.  
+But as far as you can tell, it's not moving.    
+~
+48 a 8
+D0
+~
+~
+0 0 4821
+D3
+~
+~
+0 0 4819
+S
+#4821
+Inside a completely dark cave.~
+Darkness, what more needs to be described?  You can't see anything, except the
+light from outside, which is odd, because it's not lighting anything in the
+cave, or if it's even a cave.  You could be in some huge creature's mouth.  
+But as far as you can tell, it's not moving.    
+~
+48 a 8
+D0
+~
+~
+0 0 4822
+D2
+~
+~
+0 0 4820
+S
+#4822
+Inside a completely dark cave.~
+Darkness, what more needs to be described?  You can't see anything, except the
+light from outside, which is odd, because it's not lighting anything in the
+cave, or if it's even a cave.  You could be in some huge creature's mouth.  
+But as far as you can tell, it's not moving.    
+~
+48 a 8
+D2
+~
+~
+0 0 4821
+D3
+~
+~
+0 0 4823
+S
+#4823
+Inside a completely dark cave.~
+Darkness, what more needs to be described?  You can't see anything, except the
+light from outside, which is odd, because it's not lighting anything in the
+cave, or if it's even a cave.  You could be in some huge creature's mouth.  
+But as far as you can tell, it's not moving.    
+~
+48 a 8
+D0
+~
+~
+0 0 4824
+D1
+~
+~
+0 0 4822
+S
+#4824
+Inside a completely dark cave.~
+Darkness, what more needs to be described?  You can't see anything, except the
+light from outside, which is odd, because it's not lighting anything in the
+cave, or if it's even a cave.  You could be in some huge creature's mouth.  
+But as far as you can tell, it's not moving.    
+~
+48 a 8
+D0
+~
+~
+0 0 4825
+D2
+~
+~
+0 0 4823
+S
+#4825
+Inside a completely dark cave.~
+Darkness, what more needs to be described?  You can't see anything, except the
+light from outside, which is odd, because it's not lighting anything in the
+cave, or if it's even a cave.  You could be in some huge creature's mouth.  
+But as far as you can tell, it's not moving.    
+~
+48 a 8
+D0
+~
+~
+0 0 4826
+D2
+~
+~
+0 0 4824
+S
+#4826
+Swimming through a dark cave.~
+The light entering the cave stops rather suddenly, and it's impossible to see
+beyond the light.  Perhaps swimming faster is a good idea, for anything could
+be lurking in the darkness, ready to strike.    
+~
+48 a 8
+D0
+~
+~
+0 0 4831
+D2
+~
+~
+0 0 4825
+S
+#4827
+Swimming through a large tunnel.~
+This cave has a small glow, making it dim to the eyes.  You can see the faint
+outline of shapes swimming toward you, most likely fish.  But you don't know
+whether they are friendly fish or vicious fish that want to make you their
+dinner.    
+~
+48 a 8
+D1
+~
+~
+0 0 4828
+D3
+~
+~
+0 0 4803
+S
+#4828
+Swimming through a large tunnel.~
+This cave has a small glow, making it dim to the eyes.  You can see the faint
+outline of shapes swimming toward you, most likely fish.  But you don't know
+whether they are friendly fish or vicious fish that want to make you their
+dinner.    
+~
+48 a 8
+D1
+~
+~
+0 0 4829
+D3
+~
+~
+0 0 4827
+S
+#4829
+Swimming through a large tunnel.~
+This cave has a small glow, making it dim to the eyes.  You can see the faint
+outline of shapes swimming toward you, most likely fish.  But you don't know
+whether they are friendly fish or vicious fish that want to make you their
+dinner.    
+~
+48 a 8
+D1
+~
+~
+0 0 4830
+D3
+~
+~
+0 0 4828
+S
+#4830
+Swimming through a large tunnel.~
+This cave has a small glow, making it dim to the eyes.  You can see the faint
+outline of shapes swimming toward you, most likely fish.  But you don't know
+whether they are friendly fish or vicious fish that want to make you their
+dinner.    
+~
+48 a 8
+D1
+~
+~
+0 0 4831
+D3
+~
+~
+0 0 4829
+S
+#4831
+An intersection in the large tunnel.~
+You reach an intersection in the large caves.  A dark cave leads south, while
+the dim cave you're currently traveling continues east.  Choose your destiny
+wisely, for it could be the last thing you do.    
+~
+48 a 8
+D1
+~
+~
+0 0 4832
+D2
+~
+~
+0 0 4826
+D3
+~
+~
+0 0 4830
+S
+#4832
+Swimming in a large tunnel.~
+This cave has a small glow, making it dim to the eyes.  You can see the faint
+outline of shapes swimming toward you, most likely fish.  But you don't know
+whether they are friendly fish or vicious fish that want to make you their
+dinner.    
+~
+48 a 8
+D1
+~
+~
+0 0 4833
+D3
+~
+~
+0 0 4831
+S
+#4833
+Swimming in a large tunnel.~
+This cave has a small glow, making it dim to the eyes.  You can see the faint
+outline of shapes swimming toward you, most likely fish.  But you don't know
+whether they are friendly fish or vicious fish that want to make you their
+dinner.    
+~
+48 a 8
+D1
+~
+~
+0 0 4834
+D3
+~
+~
+0 0 4832
+S
+#4834
+An intersection in the large tunnel.~
+You reach an intersection in the large caves.  A coral filled cave leads north,
+while the dim cave you're currently traveling continues east.  Choose your
+destiny wisely, for it could be the last thing you do.    
+~
+48 a 8
+D0
+~
+~
+0 0 4835
+D1
+~
+~
+0 0 4853
+D3
+~
+~
+0 0 4833
+S
+#4835
+Swimming just above some coral.~
+You are swimming just above some dense coral.  The coral looks very sharp and
+is very colorful.  Reds, blues, and greens captivate your eyes, almost
+hypnotizing you.    
+~
+48 a 8
+D0
+~
+~
+0 0 4836
+D2
+~
+~
+0 0 4834
+S
+#4836
+Swimming just above some coral.~
+You are swimming just above some dense coral.  The coral looks very sharp and
+is very colorful.  Reds, blues, and greens captivate your eyes, almost
+hypnotizing you.    
+~
+48 a 8
+D1
+~
+~
+0 0 4837
+D2
+~
+~
+0 0 4835
+S
+#4837
+Swimming just above some coral.~
+You are swimming just above some dense coral.  The coral looks very sharp and
+is very colorful.  Reds, blues, and greens captivate your eyes, almost
+hypnotizing you.    
+~
+48 a 8
+D1
+~
+~
+0 0 4838
+D3
+~
+~
+0 0 4836
+S
+#4838
+Swimming just above some coral.~
+You are swimming just above some dense coral.  The coral looks very sharp and
+is very colorful.  Reds, blues, and greens captivate your eyes, almost
+hypnotizing you.    
+~
+48 a 8
+D1
+~
+~
+0 0 4839
+D3
+~
+~
+0 0 4837
+S
+#4839
+Swimming just above some coral.~
+You are swimming just above some dense coral.  The coral looks very sharp and
+is very colorful.  Reds, blues, and greens captivate your eyes, almost
+hypnotizing you.    
+~
+48 a 8
+D1
+~
+~
+0 0 4840
+D3
+~
+~
+0 0 4838
+S
+#4840
+Swimming just above some coral.~
+You are swimming just above some dense coral.  The coral looks very sharp and
+is very colorful.  Reds, blues, and greens captivate your eyes, almost
+hypnotizing you.    
+~
+48 a 8
+D1
+~
+~
+0 0 4841
+D3
+~
+~
+0 0 4839
+S
+#4841
+Swimming just above some coral.~
+You are swimming just above some dense coral.  The coral looks very sharp and
+is very colorful.  Reds, blues, and greens captivate your eyes, almost
+hypnotizing you.    
+~
+48 a 8
+D1
+~
+~
+0 0 4842
+D3
+~
+~
+0 0 4840
+S
+#4842
+Swimming just above some coral.~
+You are swimming just above some dense coral.  The coral looks very sharp and
+is very colorful.  Reds, blues, and greens captivate your eyes, almost
+hypnotizing you.    
+~
+48 a 8
+D2
+~
+~
+0 0 4843
+D3
+~
+~
+0 0 4841
+S
+#4843
+Swimming just above some coral.~
+You are swimming just above some dense coral.  The coral looks very sharp and
+is very colorful.  Reds, blues, and greens captivate your eyes, almost
+hypnotizing you.    
+~
+48 a 8
+D0
+~
+~
+0 0 4842
+D2
+~
+~
+0 0 4844
+S
+#4844
+An intersection in the tunnel.~
+Yet another intersection.  To the north lies a vast quantity of coral, to the
+east the dim tunnel continues.  What will this tunnel reveal in the end?  Will
+it be death?    
+~
+48 a 8
+D0
+~
+~
+0 0 4843
+D1
+~
+~
+0 0 4698
+D2
+~
+~
+0 0 4845
+S
+#4845
+Swimming in a large tunnel.~
+This cave has a small glow, making it dim to the eyes.  You can see the faint
+outline of shapes swimming toward you, most likely fish.  But you don't know
+whether they are friendly fish or vicious fish that want to make you their
+dinner.    
+~
+48 a 8
+D0
+~
+~
+0 0 4844
+D3
+~
+~
+0 0 4846
+S
+#4846
+Swimming in a large tunnel.~
+This cave has a small glow, making it dim to the eyes.  You can see the faint
+outline of shapes swimming toward you, most likely fish.  But you don't know
+whether they are friendly fish or vicious fish that want to make you their
+dinner.    
+~
+48 a 8
+D1
+~
+~
+0 0 4845
+D3
+~
+~
+0 0 4847
+S
+#4847
+Intersection in the tunnel.~
+You have hit an intersection, which way to choose?  To the east lies the dim
+tunnel.  To the south lies a dark cave.  Choose wisely, the dark tunnel may
+contain treasure, but it may also contain death.    
+~
+48 a 8
+D1
+~
+~
+0 0 4846
+D2
+~
+~
+0 0 4854
+D3
+~
+~
+0 0 4848
+S
+#4848
+Swimming in a large tunnel.~
+This cave has a small glow, making it dim to the eyes.  You can see the faint
+outline of shapes swimming toward you, most likely fish.  But you don't know
+whether they are friendly fish or vicious fish that want to make you their
+dinner.    
+~
+48 a 8
+D1
+~
+~
+0 0 4847
+D3
+~
+~
+0 0 4849
+S
+#4849
+Swimming in a large tunnel.~
+This cave has a small glow, making it dim to the eyes.  You can see the faint
+outline of shapes swimming toward you, most likely fish.  But you don't know
+whether they are friendly fish or vicious fish that want to make you their
+dinner.    
+~
+48 a 8
+D1
+~
+~
+0 0 4848
+D3
+~
+~
+0 0 4850
+S
+#4850
+Swimming in a large tunnel.~
+This cave has a small glow, making it dim to the eyes.  You can see the faint
+outline of shapes swimming toward you, most likely fish.  But you don't know
+whether they are friendly fish or vicious fish that want to make you their
+dinner.    
+~
+48 a 8
+D1
+~
+~
+0 0 4849
+D3
+~
+~
+0 0 4851
+S
+#4851
+Swimming in a large tunnel.~
+This cave has a small glow, making it dim to the eyes.  You can see the faint
+outline of shapes swimming toward you, most likely fish.  But you don't know
+whether they are friendly fish or vicious fish that want to make you their
+dinner.    
+~
+48 a 8
+D0
+~
+~
+0 0 4852
+D1
+~
+~
+0 0 4850
+S
+#4852
+Swimming in a large tunnel.~
+This cave has a small glow, making it dim to the eyes.  You can see the faint
+outline of shapes swimming toward you, most likely fish.  But you don't know
+whether they are friendly fish or vicious fish that want to make you their
+dinner.    
+~
+48 a 8
+D2
+~
+~
+0 0 4851
+D3
+~
+~
+0 0 4853
+S
+#4853
+Swimming in a large tunnel.~
+This cave has a small glow, making it dim to the eyes.  You can see the faint
+outline of shapes swimming toward you, most likely fish.  But you don't know
+whether they are friendly fish or vicious fish that want to make you their
+dinner.    
+~
+48 a 8
+D1
+~
+~
+0 0 4852
+D3
+~
+~
+0 0 4834
+S
+#4854
+Swimming through a dark cave.~
+The light entering the cave stops rather suddenly, and it's impossible to see
+beyond the light.  Perhaps swimming faster is a good idea, for anything could
+be lurking in the darkness, ready to strike.    
+~
+48 a 8
+D0
+~
+~
+0 0 4847
+D2
+~
+~
+0 0 4855
+S
+#4855
+Inside a completely dark cave.~
+Darkness, what more needs to be described?  You can't see anything, except the
+light from outside, which is odd, because it's not lighting anything in the
+cave, or if it's even a cave.  You could be in some huge creature's mouth.  
+But as far as you can tell, it's not moving.    
+~
+48 a 8
+D0
+~
+~
+0 0 4854
+D2
+~
+~
+0 0 4856
+S
+#4856
+Inside a completely dark cave.~
+Darkness, what more needs to be described?  You can't see anything, except the
+light from outside, which is odd, because it's not lighting anything in the
+cave, or if it's even a cave.  You could be in some huge creature's mouth.  
+But as far as you can tell, it's not moving.    
+~
+48 a 8
+D0
+~
+~
+0 0 4855
+D3
+~
+~
+0 0 4857
+S
+#4857
+Inside a completely dark cave.~
+Darkness, what more needs to be described?  You can't see anything, except the
+light from outside, which is odd, because it's not lighting anything in the
+cave, or if it's even a cave.  You could be in some huge creature's mouth.  
+But as far as you can tell, it's not moving.    
+~
+48 a 8
+D1
+~
+~
+0 0 4856
+D2
+~
+~
+0 0 4859
+D3
+~
+~
+0 0 4858
+S
+#4858
+Inside a completely dark cave.~
+Darkness, what more needs to be described?  You can't see anything, except the
+light from outside, which is odd, because it's not lighting anything in the
+cave, or if it's even a cave.  You could be in some huge creature's mouth.  
+But as far as you can tell, it's not moving.    
+~
+48 a 8
+D1
+~
+~
+0 0 4857
+S
+#4859
+Inside a completely dark cave.~
+Darkness, what more needs to be described?  You can't see anything, except the
+light from outside, which is odd, because it's not lighting anything in the
+cave, or if it's even a cave.  You could be in some huge creature's mouth.  
+But as far as you can tell, it's not moving.    
+~
+48 a 8
+D0
+~
+~
+0 0 4857
+D2
+~
+~
+0 0 4860
+S
+#4860
+Inside a completely dark cave.~
+Darkness, what more needs to be described?  You can't see anything, except the
+light from outside, which is odd, because it's not lighting anything in the
+cave, or if it's even a cave.  You could be in some huge creature's mouth.  
+But as far as you can tell, it's not moving.    
+~
+48 a 8
+D0
+~
+~
+0 0 4859
+D1
+~
+~
+0 0 4861
+S
+#4861
+Swimming in a dark cave.~
+The light entering the cave stops rather suddenly, and it's impossible to see
+beyond the light.  Perhaps swimming faster is a good idea, for anything could
+be lurking in the darkness, ready to strike.    
+~
+48 a 8
+D1
+~
+~
+0 0 4862
+D3
+~
+~
+0 0 4860
+S
+#4862
+An intersection in the large tunnel.~
+You have reached yet another intersection.  To the west lies a dark cave, to
+the south lies the dim tunnel you've been traveling.  Choose wisely, for it
+could be the last thing you do.    
+~
+48 a 8
+D1
+~
+~
+0 0 4647
+D2
+~
+~
+0 0 4863
+D3
+~
+~
+0 0 4861
+S
+#4863
+Swimming in a large tunnel~
+This cave has a small glow, making it dim to the eyes.  You can see the faint
+outline of shapes swimming toward you, most likely fish.  But you don't know
+whether they are friendly fish or vicious fish that want to make you their
+dinner.    
+~
+48 a 8
+D0
+~
+~
+0 0 4862
+D2
+~
+~
+0 0 4864
+S
+#4864
+Swimming in a large tunnel~
+This cave has a small glow, making it dim to the eyes.  You can see the faint
+outline of shapes swimming toward you, most likely fish.  But you don't know
+whether they are friendly fish or vicious fish that want to make you their
+dinner.    
+~
+48 a 8
+D0
+~
+~
+0 0 4863
+D1
+~
+~
+0 0 4865
+S
+#4865
+Swimming in a large tunnel~
+This cave has a small glow, making it dim to the eyes.  You can see the faint
+outline of shapes swimming toward you, most likely fish.  But you don't know
+whether they are friendly fish or vicious fish that want to make you their
+dinner.    
+~
+48 a 8
+D2
+~
+~
+0 0 4866
+D3
+~
+~
+0 0 4864
+S
+#4866
+Swimming in a large tunnel~
+This cave has a small glow, making it dim to the eyes.  You can see the faint
+outline of shapes swimming toward you, most likely fish.  But you don't know
+whether they are friendly fish or vicious fish that want to make you their
+dinner.    
+~
+48 a 8
+D0
+~
+~
+0 0 4865
+D2
+~
+~
+0 0 4867
+S
+#4867
+Swimming in a large tunnel~
+This cave has a small glow, making it dim to the eyes.  You can see the faint
+outline of shapes swimming toward you, most likely fish.  But you don't know
+whether they are friendly fish or vicious fish that want to make you their
+dinner.    
+~
+48 a 8
+D0
+~
+~
+0 0 4866
+D2
+~
+~
+0 0 4868
+S
+#4868
+Swimming in a large tunnel~
+This cave has a small glow, making it dim to the eyes.  You can see the faint
+outline of shapes swimming toward you, most likely fish.  But you don't know
+whether they are friendly fish or vicious fish that want to make you their
+dinner.    
+~
+48 a 8
+D0
+~
+~
+0 0 4867
+D2
+~
+~
+0 0 4869
+S
+#4869
+Swimming in a large tunnel~
+This cave has a small glow, making it dim to the eyes.  You can see the faint
+outline of shapes swimming toward you, most likely fish.  But you don't know
+whether they are friendly fish or vicious fish that want to make you their
+dinner.    
+~
+48 a 8
+D0
+~
+~
+0 0 4868
+D2
+~
+~
+0 0 4870
+S
+#4870
+Swimming in a large tunnel~
+This cave has a small glow, making it dim to the eyes.  You can see the faint
+outline of shapes swimming toward you, most likely fish.  But you don't know
+whether they are friendly fish or vicious fish that want to make you their
+dinner.    
+~
+48 a 8
+D0
+~
+~
+0 0 4869
+D1
+~
+~
+0 0 4871
+S
+#4871
+Swimming in a large tunnel~
+This cave has a small glow, making it dim to the eyes.  You can see the faint
+outline of shapes swimming toward you, most likely fish.  But you don't know
+whether they are friendly fish or vicious fish that want to make you their
+dinner.    
+~
+48 a 8
+D1
+~
+~
+0 0 4872
+D3
+~
+~
+0 0 4870
+S
+#4872
+Swimming in a large tunnel~
+This cave has a small glow, making it dim to the eyes.  You can see the faint
+outline of shapes swimming toward you, most likely fish.  But you don't know
+whether they are friendly fish or vicious fish that want to make you their
+dinner.    
+~
+48 a 8
+D1
+~
+~
+0 0 4873
+D3
+~
+~
+0 0 4871
+S
+#4873
+Swimming in a large tunnel~
+This cave has a small glow, making it dim to the eyes.  You can see the faint
+outline of shapes swimming toward you, most likely fish.  But you don't know
+whether they are friendly fish or vicious fish that want to make you their
+dinner.    
+~
+48 a 8
+D1
+~
+~
+0 0 4874
+D3
+~
+~
+0 0 4872
+S
+#4874
+Another intersection in the tunnel.~
+You've hit, what hopefully, is the last intersection.  To the north lies a
+rather dark cave.  The light seems to stop at the foot of the cave.  To the
+east is the dim tunnel you've been following.  To the south lies the ocean
+floor.  Sand sparkling in the light.    
+~
+48 a 8
+D0
+~
+~
+0 0 4699
+D1
+~
+~
+0 0 4876
+D2
+~
+~
+0 0 4875
+D3
+~
+~
+0 0 4873
+S
+#4875
+Swimming feet above the ocean floor.~
+You're swimming just a few feet above the sand.  The sand is a dark grey, with
+sparkling rocks in the sand, giving it a glittering affect.  The sand is so
+mesmorizing in this light, you have the urge to stop what you're doing, and
+float to the bottom and play with the sand.    
+~
+48 0 8
+D0
+~
+~
+0 0 4874
+D2
+~
+~
+0 0 4879
+S
+#4876
+Swimming in a large tunnel~
+This cave has a small glow, making it dim to the eyes.  You can see the faint
+outline of shapes swimming toward you, most likely fish.  But you don't know
+whether they are friendly fish or vicious fish that want to make you their
+dinner.    
+~
+48 a 8
+D1
+~
+~
+0 0 4877
+D3
+~
+~
+0 0 4874
+S
+#4877
+Swimming in a large tunnel~
+This cave has a small glow, making it dim to the eyes.  You can see the faint
+outline of shapes swimming toward you, most likely fish.  But you don't know
+whether they are friendly fish or vicious fish that want to make you their
+dinner.    
+~
+48 a 8
+D1
+~
+~
+0 0 4878
+D3
+~
+~
+0 0 4876
+S
+#4878
+Swimming in a dark cave.~
+The light entering the cave stops rather suddenly, and it's impossible to see
+beyond the light.  Perhaps swimming faster is a good idea, for anything could
+be lurking in the darkness, ready to strike.    
+~
+48 a 8
+D3
+~
+~
+0 0 4877
+S
+#4879
+Swimming feet above the ocean floor.~
+You're swimming just a few feet above the sand.  The sand is a dark grey, with
+sparkling rocks in the sand, giving it a glittering affect.  The sand is so
+mesmorizing in this light, you have the urge to stop what you're doing, and
+float to the bottom and play with the sand.    
+~
+48 0 8
+D0
+~
+~
+0 0 4875
+D1
+~
+~
+0 0 4880
+S
+#4880
+Swimming feet above the ocean floor.~
+You're swimming just a few feet above the sand.  The sand is a dark grey, with
+sparkling rocks in the sand, giving it a glittering affect.  The sand is so
+mesmorizing in this light, you have the urge to stop what you're doing, and
+float to the bottom and play with the sand.    
+~
+48 0 8
+D1
+~
+~
+0 0 4881
+D3
+~
+~
+0 0 4879
+S
+#4881
+Swimming feet above the ocean floor.~
+You're swimming just a few feet above the sand.  The sand is a dark grey, with
+sparkling rocks in the sand, giving it a glittering affect.  The sand is so
+mesmorizing in this light, you have the urge to stop what you're doing, and
+float to the bottom and play with the sand.    
+~
+48 0 8
+D1
+~
+~
+0 0 4882
+D3
+~
+~
+0 0 4880
+S
+#4882
+Swimming feet above the ocean floor.~
+You're swimming just a few feet above the sand.  The sand is a dark grey, with
+sparkling rocks in the sand, giving it a glittering affect.  The sand is so
+mesmorizing in this light, you have the urge to stop what you're doing, and
+float to the bottom and play with the sand.    
+~
+48 0 8
+D1
+~
+~
+0 0 4883
+D3
+~
+~
+0 0 4881
+S
+#4883
+Swimming feet above the ocean floor.~
+You're swimming just a few feet above the sand.  The sand is a dark grey, with
+sparkling rocks in the sand, giving it a glittering affect.  The sand is so
+mesmorizing in this light, you have the urge to stop what you're doing, and
+float to the bottom and play with the sand.    
+~
+48 0 8
+D1
+~
+~
+0 0 4884
+D3
+~
+~
+0 0 4882
+S
+#4884
+Swimming feet above the ocean floor.~
+You're swimming just a few feet above the sand.  The sand is a dark grey, with
+sparkling rocks in the sand, giving it a glittering affect.  The sand is so
+mesmorizing in this light, you have the urge to stop what you're doing, and
+float to the bottom and play with the sand.    
+~
+48 0 8
+D1
+~
+~
+0 0 4885
+D3
+~
+~
+0 0 4883
+S
+#4885
+Swimming feet above the ocean floor.~
+You're swimming just a few feet above the sand.  The sand is a dark grey, with
+sparkling rocks in the sand, giving it a glittering affect.  The sand is so
+mesmorizing in this light, you have the urge to stop what you're doing, and
+float to the bottom and play with the sand.    
+~
+48 0 8
+D1
+~
+~
+0 0 4886
+D3
+~
+~
+0 0 4884
+S
+#4886
+Swimming feet above the ocean floor.~
+You're swimming just a few feet above the sand.  The sand is a dark grey, with
+sparkling rocks in the sand, giving it a glittering affect.  The sand is so
+mesmorizing in this light, you have the urge to stop what you're doing, and
+float to the bottom and play with the sand.    
+~
+48 0 8
+D1
+~
+~
+0 0 4887
+D3
+~
+~
+0 0 4885
+S
+#4887
+Swimming feet above the ocean floor.~
+You're swimming just a few feet above the sand.  The sand is a dark grey, with
+sparkling rocks in the sand, giving it a glittering affect.  The sand is so
+mesmorizing in this light, you have the urge to stop what you're doing, and
+float to the bottom and play with the sand.    
+~
+48 0 8
+D1
+~
+~
+0 0 4888
+D3
+~
+~
+0 0 4886
+S
+#4888
+Swimming feet above the ocean floor.~
+You're swimming just a few feet above the sand.  The sand is a dark grey, with
+sparkling rocks in the sand, giving it a glittering affect.  The sand is so
+mesmorizing in this light, you have the urge to stop what you're doing, and
+float to the bottom and play with the sand.    
+~
+48 0 8
+D1
+~
+~
+0 0 4889
+D3
+~
+~
+0 0 4887
+S
+#4889
+Swimming feet above the ocean floor.~
+You're swimming just a few feet above the sand.  The sand is a dark grey, with
+sparkling rocks in the sand, giving it a glittering affect.  The sand is so
+mesmorizing in this light, you have the urge to stop what you're doing, and
+float to the bottom and play with the sand.    
+~
+48 0 8
+D1
+~
+~
+0 0 4890
+D3
+~
+~
+0 0 4888
+S
+#4890
+Swimming feet above the ocean floor.~
+You're swimming just a few feet above the sand.  The sand is a dark grey, with
+sparkling rocks in the sand, giving it a glittering affect.  The sand is so
+mesmorizing in this light, you have the urge to stop what you're doing, and
+float to the bottom and play with the sand.    
+~
+48 0 8
+D1
+~
+~
+0 0 4891
+D3
+~
+~
+0 0 4889
+S
+#4891
+Swimming feet above the ocean floor.~
+You're swimming just a few feet above the sand.  The sand is a dark grey, with
+sparkling rocks in the sand, giving it a glittering affect.  The sand is so
+mesmorizing in this light, you have the urge to stop what you're doing, and
+float to the bottom and play with the sand.    
+~
+48 0 8
+D1
+~
+~
+0 0 4892
+D3
+~
+~
+0 0 4890
+S
+#4892
+Swimming feet above the ocean floor.~
+You're swimming just a few feet above the sand.  The sand is a dark grey, with
+sparkling rocks in the sand, giving it a glittering affect.  The sand is so
+mesmorizing in this light, you have the urge to stop what you're doing, and
+float to the bottom and play with the sand.    
+~
+48 0 8
+D1
+~
+~
+0 0 4893
+D3
+~
+~
+0 0 4891
+S
+#4893
+Swimming feet above the ocean floor.~
+You're swimming just a few feet above the sand.  The sand is a dark grey, with
+sparkling rocks in the sand, giving it a glittering affect.  The sand is so
+mesmorizing in this light, you have the urge to stop what you're doing, and
+float to the bottom and play with the sand.    
+~
+48 0 8
+D1
+~
+~
+0 0 4894
+D3
+~
+~
+0 0 4892
+S
+#4894
+Swimming feet above the ocean floor.~
+You're swimming just a few feet above the sand.  The sand is a dark grey, with
+sparkling rocks in the sand, giving it a glittering affect.  The sand is so
+mesmorizing in this light, you have the urge to stop what you're doing, and
+float to the bottom and play with the sand.    
+~
+48 0 8
+D1
+~
+~
+0 0 4895
+D3
+~
+~
+0 0 4893
+S
+#4895
+Swimming feet above the ocean floor.~
+You're swimming just a few feet above the sand.  The sand is a dark grey, with
+sparkling rocks in the sand, giving it a glittering affect.  The sand is so
+mesmorizing in this light, you have the urge to stop what you're doing, and
+float to the bottom and play with the sand.    
+~
+48 0 8
+D1
+~
+~
+0 0 4896
+D3
+~
+~
+0 0 4894
+S
+#4896
+Swimming feet above the ocean floor.~
+You're swimming just a few feet above the sand.  The sand is a dark grey, with
+sparkling rocks in the sand, giving it a glittering affect.  The sand is so
+mesmorizing in this light, you have the urge to stop what you're doing, and
+float to the bottom and play with the sand.    
+~
+48 0 8
+D1
+~
+~
+0 0 4897
+D3
+~
+~
+0 0 4895
+S
+#4897
+Swimming feet above the ocean floor.~
+You're swimming just a few feet above the sand.  The sand is a dark grey, with
+sparkling rocks in the sand, giving it a glittering affect.  The sand is so
+mesmorizing in this light, you have the urge to stop what you're doing, and
+float to the bottom and play with the sand.    
+~
+48 0 8
+D1
+~
+~
+0 0 4898
+D3
+~
+~
+0 0 4896
+S
+#4898
+Swimming feet above the ocean floor.~
+You're swimming just a few feet above the sand.  The sand is a dark grey, with
+sparkling rocks in the sand, giving it a glittering affect.  The sand is so
+mesmorizing in this light, you have the urge to stop what you're doing, and
+float to the bottom and play with the sand.    
+~
+48 0 8
+D1
+~
+~
+0 0 4899
+D3
+~
+~
+0 0 4897
+S
+#4899
+Swimming feet above the ocean floor.~
+You're swimming just a few feet above the sand.  The sand is a dark grey, with
+sparkling rocks in the sand, giving it a glittering affect.  The sand is so
+mesmorizing in this light, you have the urge to stop what you're doing, and
+float to the bottom and play with the sand.    
+~
+48 0 8
+D1
+~
+~
+0 0 4600
+D3
+~
+~
+0 0 4898
+S
+$~

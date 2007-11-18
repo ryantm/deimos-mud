@@ -1,0 +1,884 @@
+#3700
+New Room~
+Nothing.
+~
+37 0 0
+E
+sword~
+   A living stone glows on the pommel of the sword.  It looks very heavy but in
+fact it is very light.    
+~
+S
+#3701
+&RDesolate &YWastelands &n~
+   Surrounding you is a complete and empty desert.  All seems desolate and
+pointless and you feel if you stay here for too long, you will eventually die.
+  
+~
+37 g 5
+D0
+~
+~
+0 0 3702
+D1
+~
+~
+0 0 3704
+S
+#3702
+&RDesolate &YWastelands &n~
+   Surrounding you is a complete and empty desert.  All seems desolate and
+pointless and you feel if you stay here for too long, you will eventually die.
+  
+~
+37 g 5
+D1
+~
+undefined~
+0 0 3703
+D2
+~
+~
+0 0 3701
+S
+#3703
+&RDesolate &YWastelands &n~
+   Surrounding you is a complete and empty desert.  All seems desolate and
+pointless and you feel if you stay here for too long, you will eventually die.
+  
+~
+37 g 5
+D1
+~
+~
+0 0 3705
+D2
+~
+0~
+0 0 3704
+D3
+~
+~
+0 0 3702
+S
+#3704
+&RDesolate &YWastelands &n~
+   Surrounding you is a complete and empty desert.  All seems desolate and
+pointless and you feel if you stay here for too long, you will eventually die.
+  
+~
+37 g 5
+D0
+~
+0~
+0 0 3703
+D1
+~
+~
+0 0 3706
+D2
+~
+0~
+0 0 -1
+D3
+~
+~
+0 0 3701
+D5
+~
+~
+0 0 -1
+S
+#3705
+&RDesolate &YWastelands &n~
+   Surrounding you is a complete and empty desert.  All seems desolate and
+pointless and you feel if you stay here for too long, you will eventually die.
+  
+~
+37 g 5
+D2
+~
+~
+0 0 3706
+D3
+~
+~
+0 0 3703
+S
+#3706
+&RDesolate &YWastelands &n~
+   Surrounding you is a complete and empty desert.  All seems desolate and
+pointless and you feel if you stay here for too long, you will eventually die.
+  
+~
+37 g 5
+D0
+~
+~
+0 0 3705
+D3
+~
+~
+0 0 3704
+S
+#3707
+New Room~
+Empty room.~
+37 0 0
+S
+#3708
+New Room~
+Empty room.~
+37 0 0
+S
+#3709
+New Room~
+Empty room.~
+37 0 0
+S
+#3710
+New Room~
+Empty room.~
+37 0 0
+D1
+~
+0~
+0 0 3757
+D2
+~
+0~
+0 0 3711
+S
+#3711
+New Room~
+Empty room.~
+37 0 0
+D0
+~
+~
+0 0 3710
+D1
+~
+0~
+0 0 3761
+D2
+~
+~
+0 0 3712
+D3
+A painting of the king hangs upon the wall.
+~
+painting~
+2 3 3798
+S
+#3712
+New Room~
+Empty room.~
+37 0 0
+D0
+~
+~
+0 0 3711
+D1
+~
+~
+0 0 3771
+S
+#3713
+New Room~
+Empty room.~
+37 0 0
+S
+#3714
+New Room~
+Empty room.~
+37 0 0
+S
+#3715
+New Room~
+Empty room.~
+37 0 0
+S
+#3716
+New Room~
+Empty room.~
+37 0 0
+S
+#3717
+New Room~
+Empty room.~
+37 0 0
+S
+#3718
+New Room~
+Empty room.~
+37 0 0
+S
+#3719
+New Room~
+Empty room.~
+37 0 0
+S
+#3720
+New Room~
+Empty room.~
+37 0 0
+D2
+~
+~
+0 0 3721
+D3
+~
+~
+0 0 3758
+S
+#3721
+New Room~
+Empty room.~
+37 0 0
+D0
+~
+~
+0 0 3720
+D1
+~
+painting~
+2 0 3797
+D2
+~
+~
+0 0 3722
+D3
+~
+~
+0 0 3760
+S
+#3722
+New Room~
+Empty room.~
+37 0 0
+D0
+~
+~
+0 0 3721
+D3
+~
+~
+0 0 3770
+S
+#3723
+New Room~
+Empty room.~
+37 0 0
+S
+#3724
+New Room~
+Empty room.~
+37 0 0
+S
+#3725
+New Room~
+Empty room.~
+37 0 0
+S
+#3726
+New Room~
+Empty room.~
+37 0 0
+S
+#3727
+New Room~
+Empty room.~
+37 0 0
+S
+#3728
+New Room~
+Empty room.~
+37 0 0
+S
+#3729
+New Room~
+Empty room.~
+37 0 0
+S
+#3730
+New Room~
+Empty room.~
+37 0 0
+S
+#3731
+New Room~
+Empty room.~
+37 0 0
+S
+#3732
+New Room~
+Empty room.~
+37 0 0
+S
+#3733
+New Room~
+Empty room.~
+37 0 0
+S
+#3734
+New Room~
+Empty room.~
+37 0 0
+S
+#3735
+New Room~
+Empty room.~
+37 0 0
+S
+#3736
+New Room~
+Empty room.~
+37 0 0
+S
+#3737
+New Room~
+Empty room.~
+37 0 0
+S
+#3738
+New Room~
+Empty room.~
+37 0 0
+S
+#3739
+New Room~
+Empty room.~
+37 0 0
+S
+#3740
+New Room~
+Empty room.~
+37 0 0
+S
+#3741
+New Room~
+Empty room.~
+37 0 0
+S
+#3742
+New Room~
+Empty room.~
+37 0 0
+S
+#3743
+New Room~
+Empty room.~
+37 0 0
+S
+#3744
+New Room~
+Empty room.~
+37 0 0
+S
+#3745
+New Room~
+Empty room.~
+37 0 0
+S
+#3746
+New Room~
+Empty room.~
+37 0 0
+S
+#3747
+New Room~
+Empty room.~
+37 0 0
+S
+#3748
+New Room~
+Empty room.~
+37 0 0
+S
+#3749
+New Room~
+Empty room.~
+37 0 0
+S
+#3750
+&CUp In The Air &n~
+   You seem to float in mid-air, harsh winds blowing at you from all
+directions.  You better move quickly, you don't know how long you can last
+before the winds destroy you.    
+~
+37 cg 9
+D4
+~
+~
+0 0 3751
+D5
+~
+~
+0 0 3704
+S
+#3751
+&YThe Platform &n~
+   As you climb upon the platform, you see a &GGrand Castle &n rising before
+you in the distance.  Below you you can see the &RDesolate &YWastelands &nand
+the Earth Elementals which look like little ants.    
+~
+37 0 9
+D2
+~
+~
+0 0 3752
+D5
+~
+~
+0 0 3750
+S
+#3752
+New Room~
+Empty room.~
+37 0 0
+D0
+~
+~
+0 0 3751
+D2
+~
+~
+0 0 3754
+S
+#3753
+New Room~
+Empty room.~
+37 0 0
+D1
+~
+0~
+0 0 -1
+D3
+~
+~
+0 0 3754
+S
+#3754
+New Room~
+Empty room.~
+37 0 0
+D0
+~
+~
+0 0 3752
+D1
+~
+~
+0 0 3753
+D2
+~
+~
+0 0 3756
+D3
+~
+~
+0 0 3755
+S
+#3755
+New Room~
+Empty room.~
+37 0 0
+D1
+~
+~
+0 0 3754
+S
+#3756
+New Room~
+Empty room.~
+37 0 0
+D0
+~
+~
+0 0 3754
+D1
+~
+~
+0 0 3758
+D2
+~
+~
+0 0 3759
+D3
+~
+~
+0 0 3757
+S
+#3757
+New Room~
+Empty room.~
+37 0 0
+D1
+~
+~
+0 0 3756
+D2
+~
+~
+0 0 3761
+D3
+~
+0~
+0 0 3710
+S
+#3758
+New Room~
+Empty room.~
+37 0 0
+D1
+~
+~
+0 0 3720
+D2
+~
+~
+0 0 3760
+D3
+~
+0~
+0 0 3756
+S
+#3759
+New Room~
+Empty room.~
+37 0 0
+D0
+~
+~
+0 0 3756
+D1
+~
+~
+0 0 3760
+D2
+~
+~
+0 0 3762
+D3
+~
+~
+0 0 3761
+S
+#3760
+New Room~
+Empty room.~
+37 0 0
+D0
+~
+~
+0 0 3758
+D1
+~
+~
+0 0 3721
+D2
+~
+~
+0 0 3770
+D3
+~
+~
+0 0 3759
+S
+#3761
+New Room~
+Empty room.~
+37 0 0
+D0
+~
+0~
+0 0 3757
+D1
+~
+~
+0 0 3759
+D2
+~
+~
+0 0 3771
+D3
+~
+~
+0 0 3711
+S
+#3762
+New Room~
+Empty room.~
+37 0 0
+D0
+~
+~
+0 0 3759
+D1
+~
+~
+0 0 3770
+D2
+~
+~
+0 0 3775
+D3
+~
+~
+0 0 3771
+S
+#3763
+New Room~
+Empty room.~
+37 0 0
+S
+#3764
+New Room~
+Empty room.~
+37 0 0
+S
+#3765
+New Room~
+Empty room.~
+37 0 0
+S
+#3766
+New Room~
+Empty room.~
+37 0 0
+S
+#3767
+New Room~
+Empty room.~
+37 0 0
+S
+#3768
+New Room~
+Empty room.~
+37 0 0
+S
+#3769
+New Room~
+Empty room.~
+37 0 0
+S
+#3770
+New Room~
+Empty room.~
+37 0 0
+D0
+~
+~
+0 0 3760
+D1
+~
+~
+0 0 3722
+D3
+~
+~
+0 0 3762
+S
+#3771
+New Room~
+Empty room.~
+37 0 0
+D0
+~
+~
+0 0 3761
+D1
+~
+~
+0 0 3762
+D3
+~
+~
+0 0 3712
+S
+#3772
+New Room~
+Empty room.~
+37 0 0
+S
+#3773
+New Room~
+Empty room.~
+37 0 0
+S
+#3774
+New Room~
+Empty room.~
+37 0 0
+S
+#3775
+New Room~
+Empty room.~
+37 0 0
+D0
+~
+~
+0 0 3762
+D1
+~
+~
+0 0 3776
+D2
+~
+~
+0 0 3780
+D3
+~
+~
+0 0 3777
+S
+#3776
+New Room~
+Empty room.~
+37 0 0
+D3
+~
+~
+0 0 3775
+S
+#3777
+New Room~
+Empty room.~
+37 0 0
+D1
+~
+~
+0 0 3775
+S
+#3778
+New Room~
+Empty room.~
+37 0 0
+S
+#3779
+New Room~
+Empty room.~
+37 0 0
+S
+#3780
+New Room~
+Empty room.~
+37 0 0
+D0
+~
+~
+0 0 3775
+D1
+~
+room~
+2 3791 3799
+S
+#3781
+New Room~
+Empty room.~
+37 0 0
+S
+#3782
+New Room~
+Empty room.~
+37 0 0
+S
+#3783
+New Room~
+Empty room.~
+37 0 0
+S
+#3784
+New Room~
+Empty room.~
+37 0 0
+S
+#3785
+New Room~
+Empty room.~
+37 0 0
+S
+#3786
+New Room~
+Empty room.~
+37 0 0
+S
+#3787
+New Room~
+Empty room.~
+37 0 0
+S
+#3788
+New Room~
+Empty room.~
+37 0 0
+S
+#3789
+New Room~
+Empty room.~
+37 0 0
+S
+#3790
+New Room~
+Empty room.~
+37 0 0
+S
+#3791
+New Room~
+Empty room.~
+37 0 0
+S
+#3792
+New Room~
+Empty room.~
+37 0 0
+S
+#3793
+New Room~
+Empty room.~
+37 0 0
+S
+#3794
+New Room~
+Empty room.~
+37 0 0
+S
+#3795
+New Room~
+Empty room.~
+37 0 0
+S
+#3796
+New Room~
+Empty room.~
+37 0 0
+S
+#3797
+New Room~
+Empty room.~
+37 0 0
+D3
+~
+Painting~
+2 0 3721
+S
+#3798
+New Room~
+Empty room.~
+37 0 0
+D1
+~
+Painting~
+2 0 3711
+S
+#3799
+New Room~
+Empty room.~
+37 0 0
+D3
+~
+room~
+1 3791 3780
+S
+$~

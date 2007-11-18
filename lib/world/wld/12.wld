@@ -1,0 +1,1327 @@
+#1200
+Immortal Meeting Room.~
+   The meeting room is plain and very simple.  A circular table sits
+in the middle of the room, lit by some unseen light source.  There
+are many chairs around the table, all empty.  The Immortal Board Room
+is to the north.
+~
+12 d 0
+S
+#1201
+Inn of the Gods~
+   The Inn of the Gods is a small room, holding only a shelf with many
+small precious stones on it.  When a God comes to rent his belongings,
+his essence is stored in the stones.  The Immortal Board Room is to
+the south.
+~
+12 d 0
+D2
+The Immortal Board Room can be seen to the south.
+~
+~
+0 -1 1204
+S
+#1202
+The Ice Box Of The Gods~
+   The Ice Box is for little boys and girls that cannot play nice.  Be good and
+maybe someone will come and get you.  The wall seems to be full of scratches.
+  
+~
+12 dfhqrsx 0
+E
+wall~
+You read the name next the scratch marks on the wall.
+Morik -|-|-|-|-    -|-|-|-|-
+~
+S
+#1203
+The Gods' Mortal Board Room~
+   Here the Gods have magically created an exact copy of the mortal board
+room.  Any God can easily post and read messages from the mortal board room
+without being seen by any mortals.  The Immortal Board Room is to the west.
+~
+12 d 0
+D3
+The Immortal Board Room can be seen to the west.
+~
+~
+0 -1 1204
+S
+#1204
+The Immortal Board Room~
+   The main hang out of the Gods, the Immortal Board Room is the place to be.
+Gods exchange messages here most every day.  The mortal board room is to the
+east and the meeting room for the gods is to the south.  To the west is a post
+office for Gods.  There is a large staircase leading down to the main temple in
+the city of Phobos.  In the northeast corner you spot a small staircase leading
+upwards.    
+~
+12 d 0
+D0
+~
+~
+0 0 1250
+D1
+The Mortal Board Room can be seen just to the east.
+~
+~
+0 -1 1203
+D3
+~
+~
+0 0 1205
+D4
+There is a small stair in the corner leading up to the social room of
+the Gods.
+~
+~
+0 -1 1206
+S
+#1205
+The Post Office Of The Gods~
+   The Post Office Of The Gods is the same as most Post Offices except that
+it is not as slow.  Even the Postal service knows not to anger the Gods.
+Piles of junk mail line the walls.  I guess even Gods get on mailing lists.
+The Immortal Board Room is to the east.
+~
+12 d 0
+D1
+The Immortal Board Room is just to the east.
+~
+~
+0 -1 1204
+S
+#1206
+The Social Gathering Room~
+   This elegantly decorated room has one simple purpose.  To socialize with everyone
+else around in one central location.  To the east and west lies the Offices of The Gods
+Themselves!  The higher and lower Immortal hangout rooms
+open to the north and south, respectivly. 
+~
+12 d 0
+D0
+~
+~
+0 0 7
+D2
+~
+~
+0 0 1226
+D4
+~
+~
+0 0 1218
+D5
+The Immortal Board Room is just down through the floor.  Funny how you
+didn't notice that exit before isn't it?
+~
+~
+0 -1 1204
+S
+#1207
+Mogi's Office~
+   This room seems like it never ends.  Sounds of the ocean echos all around.
+The ground here seems to be a little island off of some coast some where.  
+Ocean waves splash on the island but nothing gets wet.  Sitting in the middle
+of the island is a blue dragon curled up into the shape of a throne in front of
+the throne sits a red dragon in the shape of a desk.  There are various other
+dragons laying here and there holding books, papers, and other odds and ends.
+Mogi had a very fucked up mind.    
+~
+12 dfrsvx 0
+S
+#1208
+Kodesh's Office~
+   Nothing.  You seem to stand upon an empty void, everything is dark
+blackness, and abyss.  You take a few steps forward, but nothing changes.  All
+that seems to exist is this endless expanse of space is a desk and a chair.  
+Behind the desk is Kodesh.......  Uh Oh, YO
+~
+12 de 0
+S
+#1209
+Shrap's Office~
+   This is Shraps Place..  He is Lazy..  He likes Food...  He likes Alot of
+Food..  Do you care...  He doesnt.  WHOOHOO!    
+~
+12 cdeghn 0
+S
+#1210
+Sliths playroom~
+   This is a VERY big room, its fully furnished with gold, silver and brass.  
+
+~
+12 dgqs 0
+S
+#1211
+&wIad's Sanctuary&n~
+   This is Iad's private sanctuary where he comes to meditate and relax.  If
+you are here then you are either more powerfull then Iad or you were invited
+here.  The room is large and bright with a soft green glow coming from nowhere.
+Small vines seem to be growing from thin air.  Powerfull magic is at work here.
+
+~
+12 den 0
+S
+#1212
+&WWedge's Office&n~
+   You are in Wedge's Sanctum, a small opening in the side of a great mountain.
+Being a cave, it looks perfectly like a small house, a place of comfort, a
+place of peace.  Many weapons hang about the wall, reminding visitors of the
+hard past that Wedge the Warrior had to overcome to get where he is today.  
+Great swords forged by Men and Elves alike hang on the wall, and in the center
+is a silver longsword, brilliantly shining as if nothing had ever touched it.
+Wedge's prized sword.  Also around the room is a quiver of arrows and a great
+longbow, made by the elves and given to Wedge as a gift.  Next to the arrors
+hangs an Elvish dark green cloak, looking exactly like new.  A small leather
+chair sits next to the fireplace, which is always burning.  No matter what the
+wheather outside in the harsh mountain conditions, Wedge's sanctum is always a
+place of rest and peace.    
+~
+12 cdegjklmx 0
+D1
+~
+~
+0 0 1273
+E
+arrors~
+Something seems wrong about the arrors...suddenly you feel the urge to talk like a pirate.
+~
+S
+#1213
+&WZyre's Sanctum&n~
+   The room is indescribably large.  There are no walls because this is no
+room, but a vast gap in space and time.  At the center of this universe lies
+Zyre's desk.  Atop it is Zyre's computer of interminable dominion.  And along
+with the computer is a small picture of a beautiful young girl with light skin
+and long, dark brown hair.  The picture is labeled, "???  ", and lies directly
+under a small lamp that hovers above the desk.  Next to this desk is a massive
+bed, with bright white sheets and a thick black comforter.  The cusion of this
+bed is extremely comfortable, and the black white pillows are said to be as
+soft as a beautiful woman's chest.  There is no question to the vastness of
+this room, as it merely represents the limitless mind of its owner.    
+~
+12 dg 0
+D0
+~
+door~
+2 3999 6799
+D1
+~
+~
+0 0 6779
+D2
+~
+~
+0 0 6794
+D3
+~
+~
+0 0 1262
+D5
+~
+space~
+2 3999 1234
+E
+wall screen~
+There are many words on this screen. They all seem to describe whatever
+you do. WIERD!!!
+~
+E
+desk~
+This desk is complete covered in paper! You can only see 1 square inch
+of actual desk. The surface appears to be a fine, glossy wood.
+~
+E
+speaker~
+A current of music flows smoothly from this speaker. It leaves you
+feeling calm and relaxed. This song seems to be called "Stoned".
+~
+E
+list~
+Across the top, it reads, 'List of vampires killed to date'
+
+1. Melciah
+
+2. Zephon
+
+3. Rahab
+
+4. Dumah
+
+5. Kain
+~
+E
+chair~
+WOW! It is one of those awesome vibrating black leather chairs. It hums
+with a prefect tune. You can't help but want to sit on it. Too bad it
+is Raziel's. You'd better not piss him off, so you will just have to stand
+~
+S
+#1214
+Ockham's Office~
+   The Office of Ockham sits at an indistinguishable point.  Though the floor,
+which is made of large stone tiles, seems to be steady the images on the walls
+continue to change in mind numbing fractal patterns.  All items in the office
+are placed at exact distances and everything is extremely neat.  In the exact
+middle of the room, which is an oval, there is a solid stone monolithic altar
+that serves as Ockham's desk.  Though he clearly has a lot of work to do, the
+desk is empty except for a Newton's Cradle that sits in the upper left corner
+of the desk when facing it from the side of the chair.  The chair has been
+forged completely of titanium, has a back that extends roughly one meter
+upwards and has a seat and back cushion made from the finest eagle feather.  
+Exactly behind the head of the chair, is a large wall hanging that holds a
+sword that seems to be constantly changing along with the walls.  Though the
+blade changes the hilt remains steady and bears the markings, 'Ockham's Razor'.
+Taking a closer look at the sword and the wall it appears that the fractal
+patterns are always converging on a singular coincidence but never fully reach
+the realization of this destination, stuck forever in an endless cycle of
+evolution.    
+~
+12 cdklm 0
+D2
+~
+~
+0 0 1290
+E
+(null)~
+Nothing.
+~
+S
+T 16
+#1215
+Swifte's Office~
+   This room looks more like a play place than an office.  Swifte sure keeps
+his hands busy.  He sits behind a large marble desk in the center of the room
+in a black office chair.  On one side of the desk is a big screen TV attached
+to a Nintendo 64.  In the center of the desk is a large pile of unfinished
+paper work.  On the other side of the desk is a large boom box, playing Smash
+Mouth songs.  In each of the four corners of the room stand huge statues of
+Luigi.  On the base of each of these gold and green statues is a plaque.  On
+the wall you see a sheet of paper, which appears to be a list of some sort.  
+
+~
+12 dh 0
+D1
+~
+~
+0 0 1290
+E
+read paper~
+Across the top, it reads 'The Official Immortal Shit List'
+
+1. Haff
+2. Hans
+3. Jedi
+4. Lyra
+5. Baal
+~
+E
+look list~
+It is a piece of paper on a wall.  Try reading it!  [Read Paper]
+~
+E
+look plaque~
+The plaque reads 'Luigi Forever!'
+~
+S
+#1216
+Confucius's Jail~
+   This is Confucius's Jail.  Here, Confucius will question you on crimes you
+have commited.  Do not attempt to run if you value your life.    
+~
+12 0 0
+D3
+~
+Cell~
+2 100 5
+E
+List~
+Dark's Hit List
+
+Basher is the unlucky one on the list first
+~
+S
+#1217
+Immortal Detention Center~
+You are in the immortal detention center. You must have done something
+bad to get here. Better not do it again or you may get even harsher
+punishment. If you are good you may get out sooner. By the way,
+attempting to escape is futile.
+~
+12 adefh 0
+E
+List~
+Dark's Hit List
+No one , Your lucky
+~
+S
+#1218
+Planning Room~
+   This room is meant for for the immortals to plan out zones and ideas.  
+There's a board here for people to put down thier ideas.  To the north is the
+clandestine Balancer's office.
+~
+12 0 0
+D5
+~
+~
+0 0 1206
+S
+#1219
+Ockham's Waiting Area~
+   If you don't have a direct invitation to Ockham's office this is where you
+are going to have to wait.  The Room isn't well furnished and has only a couple
+of uncomfortable chairs.  Ockham's Door is shut and it looks like you won't be
+getting in until he lets you in.    
+~
+12 cd 0
+D0
+~
+~
+0 0 1214
+D2
+~
+door~
+1 0 1208
+E
+List ~
+ SPAWN'S HIT LIST:
+
+
+basher is unlucky hahaha!
+sucks to be you
+~
+S
+#1220
+&BLyra's &RHangout&c~
+   &b Is that patchouli I smell????  &n This must be Lyra's place, as it is
+very very messy!!  There is a broken in beanbag chair lying on the floor, and a
+computer sitting nearby.  Assorted candy wrappers litter the floor, and off in
+one corner there is a tower of Mountain Dew cans!!  Ahh..  This is the life..
+No not your life!  Lyra's life.    
+~
+12 cdeh 0
+E
+(null)~
+Nothing.
+~
+S
+#1221
+Asmeroths office~
+   Having made your way past the guards you are now in the office of Asmeroth.
+The walls are filled with the records of every mortal in the realm.  Perhaps
+now would not be a good time to bother him as I am sure he is rather busy.    
+~
+12 0 0
+D0
+~
+~
+0 0 1222
+S
+#1222
+Shaolins Office~
+This is the office of Shaolin
+~
+12 0 0
+E
+Bronze~
+Asmeroths Office
+~
+S
+#1223
+&YM&Ci&Bt&Ms&Ru&Gg&Du&Wr&ni's &YO&Cf&Bf&Mi&Rc&Ge&n~
+   In the corner there is a computer.  On the screen is a screen shot of a mud.
+There are books all around here.  Most of the books are about Programming In
+C++.  There is a tv in the other corner.  On the screen is 'South Park' the
+movie.  On the floor lies a japanese anime &Wtape&n.    
+~
+12 0 0
+D2
+~
+~
+0 0 1222
+D4
+~
+~
+0 0 1900
+D5
+~
+Grandfather Clock~
+1 -1 1224
+E
+read tape~
+This movie is entitled: Mitsurugi's Revenge!
+~
+E
+look tape~
+This movie is entitled: Mitsurugi's Revenge!
+~
+S
+#1224
+&r Nightmare's Office &n~
+   This is just a plain old, but very cozy looking office.  There's a computer,
+a TV with a PS2 and an N64 hooked up, and a very comfortable chair at the desk.
+There is a nice fireplace in the wall, and a big book shelf on the opposite
+side.  A nice suit of armor stands in the cornor.    
+~
+12 de 0
+D1
+~
+~
+0 0 1263
+E
+TV~
+   Squinting through the flames, it looks like The Simpsons is playing on the
+TV.    
+~
+E
+armor suit~
+   The entire suit of armor is gold and very shiny.  On the helmet is a long
+golden spike, probably to impale the wearers opponent if they got too close.  
+Wonder if Nightmare ever wore this armor?    
+~
+E
+model stand~
+   This sword is the mystical demon blade, the Soul Edge.  The wielder of this
+sword must have a powerful mind, or it will take that person over.  Beware the
+power of the sword.    
+~
+E
+zones zone~
+Sherwood --- Zone Numbers 58 and 60
+Dwarven Stronghold --- Zone Number 23
+King Richard's Domain --- Zone Number 21
+~
+S
+T 1224
+#1225
+Implementor's Boardroom~
+   The Room is a vast empty space with a giant board that sits suspened in the
+center of it.  The walls are made of some type of metal that doesn't look
+natural.  The room seems well ventilated and kind of drafty.    
+~
+12 cde 0
+D1
+~
+~
+0 0 1272
+D2
+~
+~
+0 0 1277
+S
+#1226
+Lower Immortal Gathering Chamber~
+   The room is very nice looking and colorful.  Each chair in the room matches
+a different Immortals tastes and fancy's.  A box of donuts and the morning
+paper lie open on a mahogany coffee table.  Up above is the Immortal bank of
+offices.    
+~
+12 cden 0
+D0
+~
+~
+0 0 1206
+D3
+~
+~
+0 0 -1
+S
+#1227
+&gF&Girrox's Office&n~
+   This room is completely black except for a bright white table in the middle.
+A small, single light hangs from the ceiling by a slim pole.    
+~
+12 dgsx 0
+D2
+~
+door~
+0 999 -1
+D3
+~
+main~
+0 999 -1
+D4
+~
+~
+0 0 -1
+E
+shoes~
+They are the ultimate running shoes... They are what you imagine them to be... perfect in every way.
+~
+E
+chairs chair~
+   The're just like the desk, translucent, neon green, and ultra comfy!    
+~
+E
+poster posters~
+   Most of the posters are of upcoming games such as Homeworld: Cataclysm and
+Warcraft III.  One of them is Treq's own design: My sister is a bitch.  It
+shows a picture of Treq's sister with a beard and horns.    
+~
+E
+sign~
+   It reads: &R&lDon't you hate red blinking letters?  &n
+~
+E
+speakers~
+   Those are some HUGE bass pumpin', body thumpin' speakers baby!    
+~
+E
+screen screens~
+   Each one of the screens are a 90 inch TV thus coming to a 180 screen TV when
+all are used for one purpose such as playing the PS2 or using the computer.  
+Right now, one screen is of Diablo II, another, The Bouncer, another, Zmud, and
+finally, the last is the TV, tuned to MTV.    
+~
+E
+hole~
+   Its just a small ditch where most of the bulbs from the circuits gather.  
+This too pulsates with electricity
+~
+E
+desk~
+   The desk is just hovering there, being neon green and glow in the dark.  On
+it sits Treq's computer, some blank papers, a mug with writing untencels in it,
+and the ultimate remote controller.    
+~
+E
+circuits~
+   The circuits here are like the ones you see on circuit boards, thin and
+metallic, ending in a circle.  They flow with electricity!    
+~
+E
+playstation~
+Its a sleek black with the big PS2 logo on it... ho hoo..
+~
+S
+#1228
+The Quiet Room~
+   This room is white all around...  It seems to never end.  You can come here
+to work, or just get away from everyone's annoying talking.    
+~
+12 cdfghjoqr 0
+D5
+~
+~
+0 0 -1
+S
+#1234
+&DZyre's Pandemonium&n~
+   Everything is pure black.  Left is no different from right.  Up is no
+different from down.  Yet, despite all the darkness, you can see yourself and
+your belongings perfectly.  This is a void created by Zyre.  Its purpose is to
+bring forth utter torment to those who have somehow made their way into this
+realm of impossible blackness.  The air is cold, and there is no breeze.  The
+only sounds you can hear are those that come from you.  The only means of
+escape from this realm lie within the hands of the gods.    
+~
+12 dfghrsxy 0
+D0
+~
+~
+0 0 1234
+D1
+~
+~
+0 0 1234
+D2
+~
+~
+0 0 1234
+D3
+~
+~
+0 0 1234
+D4
+~
+~
+0 0 1234
+D5
+~
+~
+0 0 1234
+S
+#1248
+&CMobius's Office&n~
+   This is a modestly-sized room with a white floor, a white ceiling, three
+white walls, and no apparent light source, though everything is bathed in a
+soft bright glow.  The fourth wall is a giant computer screen shimmering with
+azure numbers and symbols.  A silver suede couch sits against the back wall,
+providing a comfortable vantage point for the mesmerizing display; there is no
+other furniture.  Doorways on both sides lead elsewhere.    
+~
+12 d 0
+D1
+~
+~
+0 0 24800
+D3
+~
+~
+0 0 1273
+E
+(null)~
+Nothing.
+~
+S
+#1250
+Sleek White Hallway~
+   The hallway is slick white and is brightly lit.  It has an effecient sense
+and looks very business like.  The floor is made of some material that cushions
+footfall but is also very sturdy.  The walls seem to emit a light of their own
+as does the ceiling.    
+~
+12 0 0
+D0
+~
+~
+0 0 1251
+D2
+~
+~
+0 0 1204
+D4
+~
+~
+0 0 1255
+S
+#1251
+Sleek White Hallway~
+   The hallway is slick white and is brightly lit.  It has an effecient sense
+and looks very business like.  The floor is made of some material that cushions
+footfall but is also very sturdy.  The walls seem to emit a light of their own
+as does the ceiling.    
+~
+12 0 0
+D0
+~
+~
+0 0 1252
+D2
+~
+~
+0 0 1250
+S
+#1252
+Sleek White Hallway~
+   The hallway is slick white and is brightly lit.  It has an effecient sense
+and looks very business like.  The floor is made of some material that cushions
+footfall but is also very sturdy.  The walls seem to emit a light of their own
+as does the ceiling.    
+~
+12 0 0
+D0
+~
+~
+0 0 1253
+D2
+~
+~
+0 0 1251
+S
+#1253
+Sleek White Hallway~
+   The hallway is slick white and is brightly lit.  It has an effecient sense
+and looks very business like.  The floor is made of some material that cushions
+footfall but is also very sturdy.  The walls seem to emit a light of their own
+as does the ceiling.    
+~
+12 0 0
+D0
+~
+~
+0 0 1254
+D2
+~
+~
+0 0 1252
+S
+#1254
+Builder's Hall~
+You are in an unfinished room.
+~
+12 0 0
+D2
+~
+~
+0 0 1253
+D4
+~
+~
+0 0 1259
+S
+#1255
+Sleek White Hallway~
+   The hallway is slick white and is brightly lit.  It has an effecient sense
+and looks very business like.  The floor is made of some material that cushions
+footfall but is also very sturdy.  The walls seem to emit a light of their own
+as does the ceiling.    
+~
+12 0 0
+D0
+~
+~
+0 0 1256
+D4
+~
+~
+0 0 1260
+D5
+~
+~
+0 0 1250
+S
+#1256
+Sleek White Hallway~
+   The hallway is slick white and is brightly lit.  It has an effecient sense
+and looks very business like.  The floor is made of some material that cushions
+footfall but is also very sturdy.  The walls seem to emit a light of their own
+as does the ceiling.    
+~
+12 0 0
+D0
+~
+~
+0 0 1257
+D2
+~
+~
+0 0 1255
+S
+#1257
+Sleek White Hallway~
+   The hallway is slick white and is brightly lit.  It has an effecient sense
+and looks very business like.  The floor is made of some material that cushions
+footfall but is also very sturdy.  The walls seem to emit a light of their own
+as does the ceiling.    
+~
+12 0 0
+D0
+~
+~
+0 0 1258
+D2
+~
+~
+0 0 1256
+S
+#1258
+Sleek White Hallway~
+   The hallway is slick white and is brightly lit.  It has an effecient sense
+and looks very business like.  The floor is made of some material that cushions
+footfall but is also very sturdy.  The walls seem to emit a light of their own
+as does the ceiling.    
+~
+12 0 0
+D0
+~
+~
+0 0 1259
+D2
+~
+~
+0 0 1257
+S
+#1259
+Immortal's Hall~
+You are in an unfinished room.
+~
+12 0 0
+D2
+~
+~
+0 0 1258
+D4
+~
+~
+0 0 1264
+D5
+~
+~
+0 0 1254
+S
+#1260
+Sleek White Hallway~
+   The hallway is slick white and is brightly lit.  It has an effecient sense
+and looks very business like.  The floor is made of some material that cushions
+footfall but is also very sturdy.  The walls seem to emit a light of their own
+as does the ceiling.    
+~
+12 0 0
+D0
+~
+~
+0 0 1261
+D4
+~
+~
+0 0 1265
+D5
+~
+~
+0 0 1255
+S
+#1261
+Sleek White Hallway~
+   The hallway is slick white and is brightly lit.  It has an effecient sense
+and looks very business like.  The floor is made of some material that cushions
+footfall but is also very sturdy.  The walls seem to emit a light of their own
+as does the ceiling.    
+~
+12 0 0
+D0
+~
+~
+0 0 1262
+D1
+~
+~
+0 0 1227
+D2
+~
+~
+0 0 1260
+S
+#1262
+Sleek White Hallway~
+   The hallway is slick white and is brightly lit.  It has an effecient sense
+and looks very business like.  The floor is made of some material that cushions
+footfall but is also very sturdy.  The walls seem to emit a light of their own
+as does the ceiling.    
+~
+12 0 0
+D0
+~
+~
+0 0 1263
+D1
+~
+~
+0 0 1213
+D2
+~
+~
+0 0 1261
+D3
+~
+~
+0 0 1297
+S
+#1263
+Sleek White Hallway~
+   The hallway is slick white and is brightly lit.  It has an effecient sense
+and looks very business like.  The floor is made of some material that cushions
+footfall but is also very sturdy.  The walls seem to emit a light of their own
+as does the ceiling.    
+~
+12 0 0
+D0
+~
+~
+0 0 1264
+D2
+~
+~
+0 0 1262
+D3
+~
+~
+0 0 1224
+S
+#1264
+Creator's Hall~
+You are in an unfinished room.
+~
+12 0 0
+D2
+~
+~
+0 0 1263
+D4
+~
+~
+0 0 1269
+D5
+~
+~
+0 0 1259
+S
+#1265
+Sleek White Hallway~
+   The hallway is slick white and is brightly lit.  It has an effecient sense
+and looks very business like.  The floor is made of some material that cushions
+footfall but is also very sturdy.  The walls seem to emit a light of their own
+as does the ceiling.    
+~
+12 0 0
+D0
+~
+~
+0 0 1266
+D4
+~
+~
+0 0 1270
+D5
+~
+~
+0 0 1260
+S
+#1266
+Sleek White Hallway~
+   The hallway is slick white and is brightly lit.  It has an effecient sense
+and looks very business like.  The floor is made of some material that cushions
+footfall but is also very sturdy.  The walls seem to emit a light of their own
+as does the ceiling.    
+~
+12 0 0
+D0
+~
+~
+0 0 1267
+D2
+~
+~
+0 0 1265
+S
+#1267
+Sleek White Hallway~
+   The hallway is slick white and is brightly lit.  It has an effecient sense
+and looks very business like.  The floor is made of some material that cushions
+footfall but is also very sturdy.  The walls seem to emit a light of their own
+as does the ceiling.    
+~
+12 0 0
+D0
+~
+~
+0 0 1268
+D2
+~
+~
+0 0 1266
+S
+#1268
+Sleek White Hallway~
+   The hallway is slick white and is brightly lit.  It has an effecient sense
+and looks very business like.  The floor is made of some material that cushions
+footfall but is also very sturdy.  The walls seem to emit a light of their own
+as does the ceiling.    
+~
+12 0 0
+D0
+~
+~
+0 0 1269
+D2
+~
+~
+0 0 1267
+S
+#1269
+Coder's Lounge~
+You are in an unfinished room.
+~
+12 0 0
+D2
+~
+~
+0 0 1268
+D4
+~
+~
+0 0 1274
+D5
+~
+~
+0 0 1264
+S
+#1270
+Grand Staircase~
+   This Stair case is giant and each step is gilded with the finest gold.  The
+Staircase winds down into the Immortal Palace and ends north at the Immortal
+Meeting Hall.    
+~
+12 0 0
+D0
+~
+~
+0 0 1271
+D5
+~
+~
+0 0 1265
+S
+#1271
+Immortal Meeting Hall~
+   The room is giant and rectangular shaped.  It has huge oak rafters in a
+gothic style.  There are 2 large seats at one side of a large table and seats
+on either side of the table.  The room seems to echo voices so that everyone in
+the room can hear them The table is made of solid polished oak and the chairs
+are made of the same material.  The chairs have two arms and plush green
+coverings on them.  They are high backed.  Behind the two giant chairs there is
+an exit into the Implementor's Private Chambers and to the south there is a
+Grand Staircase.    
+~
+12 k 0
+D0
+~
+~
+0 0 1272
+D2
+~
+~
+0 0 1270
+S
+#1272
+Implementor's Plush Lounge~
+   The Immortal Palace.  Plush Comfortable chairs line this room.  A low coffee
+table in the center of the room has a big viewer that shows everything that is
+happening on the mud.  The entire room has a stunning decor and matches very
+nicely with the rest of the Immortal Palace.
+~
+12 dk 0
+D0
+~
+~
+0 0 1273
+D1
+~
+~
+0 0 1276
+D2
+~
+~
+0 0 1271
+D3
+~
+~
+0 0 1225
+D4
+~
+~
+0 0 1275
+S
+#1273
+Implementors' Office Connection~
+   This is the floor level of the Implementors' Office Connection where the
+implementors meet in an informal fashion.  To the west is Wedge's office, and
+to the east is Mobius's office.  An atrium extends upwards with connections to
+more offices.    
+~
+12 dk 0
+D0
+~
+~
+0 0 1274
+D1
+~
+~
+0 0 1248
+D2
+~
+~
+0 0 1272
+D3
+~
+~
+0 0 1212
+D4
+~
+~
+0 0 1290
+S
+#1274
+Implementor's Schemeing Chambers~
+   Ahh The Implementor's Schemeing Chambers.  This is the room where the
+Implementors scheme and debate over differant topics.  The Room is Circular and
+has a dark Metallic motif.  The room is well ventilated and has chairs for each
+Implementor that face one another.    
+~
+12 dk 0
+D2
+~
+~
+0 0 1273
+D5
+~
+~
+0 0 1269
+S
+#1275
+Implementors' Promontory~
+   From here the great expanse of Deimos can be seen in its entirety.    
+~
+12 k 0
+D0
+~
+~
+0 0 1290
+D5
+~
+~
+0 0 1272
+S
+#1276
+Jail Cell~
+   This is the Implementors Jail Cell, To be put here means you have commited a
+serius offense.  You are probably beyond reckoning.  Have a nice day :).    
+Yes Serious is spelt rong fo a reeson.
+~
+12 dk 0
+D3
+~
+~
+0 0 1272
+S
+#1277
+Implementor's Mail Room~
+Mail is here.
+~
+12 dk 0
+D0
+~
+~
+0 0 1225
+S
+#1278
+&cB&Ce&coW&Cu&clf's &nO&Wf&nfice&n~
+         &D__&n
+        &D|&R#&r*&D|&n
+        &D|&r*&R#&D|&n
+ &y_&D,&y_    &D|&R#&r*&D|&D/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\__,&n
+&y| v |---'&D*  &b\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\|/ &D/&n
+&y| | |&W* &n* &D* &DX&n=&DX&n=&DX&n=&DX&n=&DX&n=&DX&n=&DX&n=&DX&n=&DX&n=&DX&n=&DX&n=&DX&n=&DX&n=&DX&n=&DX&n=&DX&n=&DX&n=&DX&n=&DX&n=&DX&n=&DX&n=&DX&n=&DX&n=&DX&n=&DX&n=&DX&n=&DX&n=&D/&n
+&y| | |___.&D*  &b//////////////////////////////////////////////////&D,_/&n
+&y -&Y^&y-    &D|&R#&r*&D|\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/&n
+        &D|&r*&R#&D|&n
+        &D|&R#&r*&D|&n
+         &D--&n    
+~
+12 ehj 0
+S
+#1279
+&n&rT&mi&bm&B'&n&gs Pad&n~
+   You have entered Tim's pad, that wonderful place where you can do anything.
+Ancient weaponry hangs everywhere, with broadswords and katanas.  A strange
+magical stick rests faithfully in a corner.  A glowing portal leads east to the
+Castle ARRGHH.  A shiny new computer sits on a desk, calculating the value of
+Pi.  The biggest home theatre anyone has ever seen is taking up the rest of
+this meager room.    
+~
+12 0 0
+D1
+~
+~
+0 0 -1
+S
+#1280
+Araforn's Lab of Concoctions~
+   A vast array of test tubes, beakers and computer equipment surround you...
+What th e Hell is this guy trying to prove?    
+~
+12 e 0
+S
+#1281
+Electra's Office~
+   Welcome to an unfinished office.  The furniture is unfinished, the wooden
+floor is unfinished, Electra's purpose in this office is unfinished.  Mudding
+is about taking care of unfinished business, or we would all have stopped
+mudding a long time ago.  Why, I even remember a time when ... (unfinished).
+~
+12 cdeghjnqrs 0
+S
+#1282
+1~
+Nothing.
+~
+12 acdj 0
+S
+#1290
+Implementors' Office Connection~
+   This is the majestic atrium of the Implementors' Office Connection, ringed
+with the doorways to more offices, but the clutter of staircases is noticeably
+absent.  To the west is Swifte's office, and to the east is Confucius's office;
+north leads to Ockham's office, and an archway to the south leads to the peak
+of the highest mountain in the land.    
+~
+12 k 0
+D0
+~
+~
+0 0 1214
+D1
+~
+~
+0 0 5
+D2
+~
+~
+0 0 1275
+D3
+~
+~
+0 0 1215
+D5
+~
+~
+0 0 1273
+S
+#1297
+&WCAPS LOCKHOUSE HEADQUARTERS (DEIMOS BRANCH)&n~
+   THERE IS VERY LITTLE IN THE ROOM AT THIS MOMENT IN TIME.  THERE ARE A FEW
+CHAIRS IN A CIRCLE WITH A SMALL COFFEE TABLE IN THE MIDDLE.  NEAR THE EAST SIDE
+OF THE ROOM THERE IS A 20-INCH TELEVISION WITH A PLAYSTATION 2 CONNECTED TO IT.
+THERE IS ALSO AN XBOX, BUT IT HAS BEEN SMASHED INTO PIECES.  A LARGE ASSORTMENT
+OF SODA CANS CAN BE FOUND SCATTERED ABOUT THE ROOM.  THERE IS A FAINT SMELL OF
+PASTA SAUCE.    
+~
+12 dg 0
+D1
+~
+~
+0 0 1262
+S
+T 1297
+#1298
+New Room~
+Nothing.
+~
+12 cefj 0
+D3
+~
+~
+0 0 1299
+S
+#1299
+Refuge~
+You are currently in the room of Refuge.
+~
+12 aghjlm 0
+E
+grehound dog picture~
+The entire wall consists of a picture of a red brindle greyhound with
+a collar and a tag that reads, 'Tiger'.
+~
+E
+fish tank fishtank~
+The entire wall consists of a massive fish tank that seems to extend
+backward forever. The most common species in this tank are the flame angel,
+shark, and stingray. Looking at this fish tank puts your mind at ease.
+~
+E
+water fall waterfall~
+The entire wall consists of a large waterfall. The water falls from a
+location that is too high for you to see. It is oddly quiet, as waterfalls
+are usually much louder.
+~
+E
+screen world~
+The entire wall consists of a large screen with an overview of Demos
+and its moon. Everything seems to be calm, at the moment. However, Raziel
+could probably change that very quickly. He must like Demos this way.
+~
+S
+$~

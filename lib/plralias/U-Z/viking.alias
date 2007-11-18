@@ -1,0 +1,60 @@
+5
+sleep
+12
+c 'sleep' $*
+1
+5
+invis
+20
+c 'invisibility' vik
+0
+4
+iden
+15
+c 'identify' $*
+1
+4
+fire
+15
+c 'fireball' $*
+1
+4
+bolt
+21
+c 'lightning bolt' $*
+1
+4
+tick
+11
+drink fount
+0
+4
+pois
+13
+c 'poison' $*
+1
+2
+mp
+14
+'mp regen' vik
+0
+6
+detect
+27
+c 'detect invisibility' Vik
+0
+5
+blind
+16
+c 'blindness' $*
+1
+5
+light
+21
+c 'lightning bolt' $*
+1
+6
+recall
+22
+c 'word of recall' Vik
+0

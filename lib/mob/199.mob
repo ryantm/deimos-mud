@@ -1,0 +1,36 @@
+#19900
+guard officer female soldier~
+a female officer~
+A female officer sits in a large chair, eyes fixed on something.
+~
+
+   She sits in her chair, behind the desk, comfortably.  Her blone hair is tied
+up in a pony-tail behind her head.  She has a tough demeanor about her, a
+strong willed aura.    
+
+~
+40970 32768 -300 E
+60 5 -8 60d60+3600 30d30+15
+180000 4080000
+12 12 2
+BareHandAttack: 13
+E
+#19901
+guard soldier CS military personal~
+a CS guard~
+A CS military personal stands here, on duty.
+~
+
+   The soldier's armor, blackish-blue with areas of a grey-white, looks
+formiadble and well enduring.  The skull motif of the CS covers the chest, much
+like an parisite sticking to its host.  The armor resimbles something like a
+skeleton, or an undead being.    
+
+~
+172058 32768 -200 E
+29 13 1 29d29+841 14d14+7
+42050 580000
+12 12 0
+BareHandAttack: 13
+E
+$

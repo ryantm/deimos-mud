@@ -1,0 +1,1401 @@
+#10300
+A Stone Corridor~
+You are in an unfinished room.
+~
+103 0 0
+D0
+~
+~
+0 0 10299
+D2
+~
+~
+0 0 10301
+S
+#10301
+A Stone Stairwell~
+You are in an unfinished room.
+~
+103 0 0
+D0
+~
+~
+0 0 10300
+D5
+~
+~
+0 0 10341
+S
+#10302
+A Stone Corridor~
+You are in an unfinished room.
+~
+103 0 0
+D0
+~
+~
+0 0 10284
+D1
+~
+~
+0 0 10340
+D2
+~
+~
+0 0 10303
+S
+#10303
+A Stone Corridor~
+You are in an unfinished room.
+~
+103 0 0
+D0
+~
+~
+0 0 10302
+D1
+~
+~
+0 0 10339
+D2
+~
+~
+0 0 10304
+S
+#10304
+A Stone Corridor~
+You are in an unfinished room.
+~
+103 0 0
+D0
+~
+~
+0 0 10303
+D1
+~
+~
+0 0 10338
+D2
+~
+~
+0 0 10305
+S
+#10305
+A Stone Corridor~
+You are in an unfinished room.
+~
+103 0 0
+D0
+~
+~
+0 0 10304
+D1
+~
+~
+0 0 10337
+D2
+~
+~
+0 0 10306
+S
+#10306
+A Stone Corridor~
+You are in an unfinished room.
+~
+103 0 0
+D0
+~
+~
+0 0 10305
+D1
+~
+~
+0 0 10336
+D2
+~
+~
+0 0 10307
+S
+#10307
+A Stone Corridor~
+You are in an unfinished room.
+~
+103 0 0
+D0
+~
+~
+0 0 10306
+D1
+~
+~
+0 0 10335
+D2
+~
+~
+0 0 10308
+S
+#10308
+A Stone Corridor~
+You are in an unfinished room.
+~
+103 0 0
+D0
+~
+~
+0 0 10307
+D1
+~
+~
+0 0 10334
+D2
+~
+~
+0 0 10309
+S
+#10309
+A Stone Corridor~
+You are in an unfinished room.
+~
+103 0 0
+D0
+~
+~
+0 0 10308
+D1
+~
+~
+0 0 10310
+S
+#10310
+A Stone Corridor~
+You are in an unfinished room.
+~
+103 0 0
+D1
+~
+~
+0 0 10311
+D3
+~
+~
+0 0 10309
+S
+#10311
+A Stone Corridor~
+You are in an unfinished room.
+~
+103 0 0
+D1
+~
+~
+0 0 10312
+D3
+~
+~
+0 0 10310
+S
+#10312
+A Stone Corridor~
+You are in an unfinished room.
+~
+103 0 0
+D1
+~
+~
+0 0 10313
+D3
+~
+~
+0 0 10311
+S
+#10313
+A Stone Corridor~
+You are in an unfinished room.
+~
+103 0 0
+D1
+~
+~
+0 0 10314
+D3
+~
+~
+0 0 10312
+S
+#10314
+A Stone Corridor~
+You are in an unfinished room.
+~
+103 0 0
+D1
+~
+~
+0 0 10315
+D3
+~
+~
+0 0 10313
+S
+#10315
+A Stone Corridor~
+You are in an unfinished room.
+~
+103 0 0
+D1
+~
+~
+0 0 10316
+D3
+~
+~
+0 0 10314
+S
+#10316
+A Stone Corridor~
+You are in an unfinished room.
+~
+103 0 0
+D1
+~
+~
+0 0 10317
+D3
+~
+~
+0 0 10315
+S
+#10317
+A Stone Corridor~
+You are in an unfinished room.
+~
+103 0 0
+D1
+~
+~
+0 0 10318
+D3
+~
+~
+0 0 10316
+S
+#10318
+A Stone Corridor~
+You are in an unfinished room.
+~
+103 0 0
+D1
+~
+~
+0 0 10319
+D3
+~
+~
+0 0 10317
+S
+#10319
+A Stone Corridor~
+You are in an unfinished room.
+~
+103 0 0
+D0
+~
+~
+0 0 10320
+D3
+~
+~
+0 0 10318
+S
+#10320
+A Stone Corridor~
+You are in an unfinished room.
+~
+103 0 0
+D0
+~
+~
+0 0 10321
+D2
+~
+~
+0 0 10319
+D3
+~
+~
+0 0 10333
+S
+#10321
+A Stone Corridor~
+You are in an unfinished room.
+~
+103 0 0
+D0
+~
+~
+0 0 10322
+D2
+~
+~
+0 0 10320
+D3
+~
+~
+0 0 10332
+S
+#10322
+A Stone Corridor~
+You are in an unfinished room.
+~
+103 0 0
+D0
+~
+~
+0 0 10323
+D2
+~
+~
+0 0 10321
+D3
+~
+~
+0 0 10331
+S
+#10323
+A Stone Corridor~
+You are in an unfinished room.
+~
+103 0 0
+D0
+~
+~
+0 0 10324
+D2
+~
+~
+0 0 10322
+D3
+~
+~
+0 0 10330
+S
+#10324
+A Stone Corridor~
+You are in an unfinished room.
+~
+103 0 0
+D0
+~
+~
+0 0 10325
+D2
+~
+~
+0 0 10323
+D3
+~
+~
+0 0 10329
+S
+#10325
+A Stone Corridor~
+You are in an unfinished room.
+~
+103 0 0
+D0
+~
+~
+0 0 10326
+D2
+~
+~
+0 0 10324
+D3
+~
+~
+0 0 10328
+S
+#10326
+A Stone Corridor~
+You are in an unfinished room.
+~
+103 0 0
+D0
+~
+~
+0 0 10294
+D2
+~
+~
+0 0 10325
+D3
+~
+~
+0 0 10327
+S
+#10327
+A Jail Cell~
+You are in an unfinished room.
+~
+103 0 0
+D1
+~
+~
+0 0 10326
+S
+#10328
+A Jail Cell~
+You are in an unfinished room.
+~
+103 0 0
+D1
+~
+~
+0 0 10325
+S
+#10329
+A Jail Cell~
+You are in an unfinished room.
+~
+103 0 0
+D1
+~
+~
+0 0 10324
+S
+#10330
+A Jail Cell~
+You are in an unfinished room.
+~
+103 0 0
+D1
+~
+~
+0 0 10323
+S
+#10331
+A Jail Cell~
+You are in an unfinished room.
+~
+103 0 0
+D1
+~
+~
+0 0 10322
+S
+#10332
+A Jail Cell~
+You are in an unfinished room.
+~
+103 0 0
+D1
+~
+~
+0 0 10321
+S
+#10333
+A Jail Cell~
+You are in an unfinished room.
+~
+103 0 0
+D1
+~
+~
+0 0 10320
+S
+#10334
+A Jail Cell~
+You are in an unfinished room.
+~
+103 0 0
+D3
+~
+~
+0 0 10308
+S
+#10335
+A Jail Cell~
+You are in an unfinished room.
+~
+103 0 0
+D3
+~
+~
+0 0 10307
+S
+#10336
+A Jail Cell~
+You are in an unfinished room.
+~
+103 0 0
+D3
+~
+~
+0 0 10306
+S
+#10337
+A Jail Cell~
+You are in an unfinished room.
+~
+103 0 0
+D3
+~
+~
+0 0 10305
+S
+#10338
+A Jail Cell~
+You are in an unfinished room.
+~
+103 0 0
+D3
+~
+~
+0 0 10304
+S
+#10339
+A Jail Cell~
+You are in an unfinished room.
+~
+103 0 0
+D3
+~
+~
+0 0 10303
+S
+#10340
+A Jail Cell~
+You are in an unfinished room.
+~
+103 0 0
+D3
+~
+~
+0 0 10302
+S
+#10341
+A Stone Stairwell~
+You are in an unfinished room.
+~
+103 0 0
+D0
+~
+~
+0 0 10342
+D1
+~
+~
+0 0 10344
+D2
+~
+~
+0 0 10343
+D4
+~
+~
+0 0 10301
+S
+#10342
+A Jail Cell~
+You are in an unfinished room.
+~
+103 0 0
+D2
+~
+~
+0 0 10341
+S
+#10343
+A Jail Cell~
+You are in an unfinished room.
+~
+103 0 0
+D0
+~
+~
+0 0 10341
+S
+#10344
+A Stone Corridor~
+You are in an unfinished room.
+~
+103 0 0
+D0
+~
+~
+0 0 10345
+D1
+~
+~
+0 0 10347
+D2
+~
+~
+0 0 10346
+D3
+~
+~
+0 0 10341
+S
+#10345
+A Jail Cell~
+You are in an unfinished room.
+~
+103 0 0
+D2
+~
+~
+0 0 10344
+S
+#10346
+A Jail Cell~
+You are in an unfinished room.
+~
+103 0 0
+D0
+~
+~
+0 0 10344
+S
+#10347
+A Stone Corridor~
+You are in an unfinished room.
+~
+103 0 0
+D1
+~
+~
+0 0 10348
+D3
+~
+~
+0 0 10344
+S
+#10348
+A Stone Corridor~
+You are in an unfinished room.
+~
+103 0 0
+D0
+~
+~
+0 0 10349
+D1
+~
+~
+0 0 10351
+D2
+~
+~
+0 0 10350
+D3
+~
+~
+0 0 10347
+S
+#10349
+A Jail Cell~
+You are in an unfinished room.
+~
+103 0 0
+D2
+~
+~
+0 0 10348
+S
+#10350
+A Jail Cell~
+You are in an unfinished room.
+~
+103 0 0
+D0
+~
+~
+0 0 10348
+S
+#10351
+A Stone Corridor~
+You are in an unfinished room.
+~
+103 0 0
+D1
+~
+~
+0 0 10352
+D3
+~
+~
+0 0 10348
+S
+#10352
+A Stone Corridor~
+You are in an unfinished room.
+~
+103 0 0
+D0
+~
+~
+0 0 10353
+D1
+~
+~
+0 0 10355
+D2
+~
+~
+0 0 10354
+D3
+~
+~
+0 0 10351
+S
+#10353
+A Jail Cell~
+You are in an unfinished room.
+~
+103 0 0
+D2
+~
+~
+0 0 10352
+S
+#10354
+A Jail Cell~
+You are in an unfinished room.
+~
+103 0 0
+D0
+~
+~
+0 0 10352
+S
+#10355
+A Stone Corridor~
+You are in an unfinished room.
+~
+103 0 0
+D1
+~
+~
+0 0 10356
+D3
+~
+~
+0 0 10352
+S
+#10356
+A Stone Corridor~
+You are in an unfinished room.
+~
+103 0 0
+D0
+~
+~
+0 0 10357
+D1
+~
+~
+0 0 10359
+D2
+~
+~
+0 0 10358
+D3
+~
+~
+0 0 10355
+S
+#10357
+A Jail Cell~
+You are in an unfinished room.
+~
+103 0 0
+D2
+~
+~
+0 0 10356
+S
+#10358
+A Jail Cell~
+You are in an unfinished room.
+~
+103 0 0
+D0
+~
+~
+0 0 10356
+S
+#10359
+A Stone Corridor~
+You are in an unfinished room.
+~
+103 0 0
+D1
+~
+~
+0 0 10360
+D3
+~
+~
+0 0 10356
+S
+#10360
+A Stone Corridor~
+You are in an unfinished room.
+~
+103 0 0
+D0
+~
+~
+0 0 10361
+D1
+~
+~
+0 0 10363
+D2
+~
+~
+0 0 10362
+D3
+~
+~
+0 0 10359
+S
+#10361
+A Jail Cell~
+You are in an unfinished room.
+~
+103 0 0
+D2
+~
+~
+0 0 10360
+S
+#10362
+A Jail Cell~
+You are in an unfinished room.
+~
+103 0 0
+D0
+~
+~
+0 0 10360
+S
+#10363
+A Stone Corridor~
+You are in an unfinished room.
+~
+103 0 0
+D1
+~
+~
+0 0 10364
+D3
+~
+~
+0 0 10360
+S
+#10364
+A Stone Corridor~
+You are in an unfinished room.
+~
+103 0 0
+D0
+~
+~
+0 0 10365
+D1
+~
+~
+0 0 10367
+D2
+~
+~
+0 0 10366
+D3
+~
+~
+0 0 10363
+S
+#10365
+A Jail Cell~
+You are in an unfinished room.
+~
+103 0 0
+D2
+~
+~
+0 0 10364
+S
+#10366
+A Jail Cell~
+You are in an unfinished room.
+~
+103 0 0
+D0
+~
+~
+0 0 10364
+S
+#10367
+A Stone Corridor~
+You are in an unfinished room.
+~
+103 0 0
+D1
+~
+~
+0 0 10368
+D3
+~
+~
+0 0 10364
+S
+#10368
+A Stone Corridor~
+You are in an unfinished room.
+~
+103 0 0
+D0
+~
+~
+0 0 10369
+D1
+~
+~
+0 0 10371
+D2
+~
+~
+0 0 10370
+D3
+~
+~
+0 0 10367
+S
+#10369
+A Jail Cell~
+You are in an unfinished room.
+~
+103 0 0
+D2
+~
+~
+0 0 10368
+S
+#10370
+A Jail Cell~
+You are in an unfinished room.
+~
+103 0 0
+D0
+~
+~
+0 0 10368
+S
+#10371
+A Stone Corridor~
+You are in an unfinished room.
+~
+103 0 0
+D1
+~
+~
+0 0 10372
+D3
+~
+~
+0 0 10368
+S
+#10372
+A Stone Corridor~
+You are in an unfinished room.
+~
+103 0 0
+D0
+~
+~
+0 0 10373
+D1
+~
+~
+0 0 10375
+D2
+~
+~
+0 0 10374
+D3
+~
+~
+0 0 10371
+S
+#10373
+A Jail Cell~
+You are in an unfinished room.
+~
+103 0 0
+D2
+~
+~
+0 0 10372
+S
+#10374
+A Jail Cell~
+You are in an unfinished room.
+~
+103 0 0
+D0
+~
+~
+0 0 10372
+S
+#10375
+A Stone Corridor~
+You are in an unfinished room.
+~
+103 0 0
+D1
+~
+~
+0 0 10376
+D3
+~
+~
+0 0 10372
+S
+#10376
+A Stone Corridor~
+You are in an unfinished room.
+~
+103 0 0
+D0
+~
+~
+0 0 10377
+D1
+~
+~
+0 0 10379
+D2
+~
+~
+0 0 10378
+D3
+~
+~
+0 0 10375
+S
+#10377
+A Jail Cell~
+You are in an unfinished room.
+~
+103 0 0
+D2
+~
+~
+0 0 10376
+S
+#10378
+A Jail Cell~
+You are in an unfinished room.
+~
+103 0 0
+D0
+~
+~
+0 0 10376
+S
+#10379
+A Stone Corridor~
+You are in an unfinished room.
+~
+103 0 0
+D1
+~
+~
+0 0 10380
+D3
+~
+~
+0 0 10376
+S
+#10380
+A Stone Corridor~
+You are in an unfinished room.
+~
+103 0 0
+D2
+~
+~
+0 0 10381
+D3
+~
+~
+0 0 10379
+S
+#10381
+A Stone Corridor~
+You are in an unfinished room.
+~
+103 0 0
+D0
+~
+~
+0 0 10380
+D1
+~
+~
+0 0 10382
+D2
+~
+~
+0 0 10384
+D3
+~
+~
+0 0 10383
+S
+#10382
+A Jail Cell~
+You are in an unfinished room.
+~
+103 0 0
+D3
+~
+~
+0 0 10381
+S
+#10383
+A Jail Cell~
+You are in an unfinished room.
+~
+103 0 0
+D1
+~
+~
+0 0 10381
+S
+#10384
+A Stone Corridor~
+You are in an unfinished room.
+~
+103 0 0
+D0
+~
+~
+0 0 10381
+D2
+~
+~
+0 0 10385
+S
+#10385
+A Stone Corridor~
+You are in an unfinished room.
+~
+103 0 0
+D0
+~
+~
+0 0 10384
+D1
+~
+~
+0 0 10386
+D2
+~
+~
+0 0 10388
+D3
+~
+~
+0 0 10387
+S
+#10386
+A Jail Cell~
+You are in an unfinished room.
+~
+103 0 0
+D3
+~
+~
+0 0 10385
+S
+#10387
+A Jail Cell~
+You are in an unfinished room.
+~
+103 0 0
+D1
+~
+~
+0 0 10385
+S
+#10388
+A Stone Corridor~
+You are in an unfinished room.
+~
+103 0 0
+D0
+~
+~
+0 0 10385
+D2
+~
+~
+0 0 10389
+S
+#10389
+A Stone Corridor~
+You are in an unfinished room.
+~
+103 0 0
+D0
+~
+~
+0 0 10388
+D1
+~
+~
+0 0 10390
+D2
+~
+~
+0 0 10392
+D3
+~
+~
+0 0 10391
+S
+#10390
+A Jail Cell~
+You are in an unfinished room.
+~
+103 0 0
+D3
+~
+~
+0 0 10389
+S
+#10391
+A Jail Cell~
+You are in an unfinished room.
+~
+103 0 0
+D1
+~
+~
+0 0 10389
+S
+#10392
+A Stone Corridor~
+You are in an unfinished room.
+~
+103 0 0
+D0
+~
+~
+0 0 10389
+D2
+~
+~
+0 0 10393
+S
+#10393
+A Stone Corridor~
+You are in an unfinished room.
+~
+103 0 0
+D0
+~
+~
+0 0 10392
+D1
+~
+~
+0 0 10394
+D2
+~
+~
+0 0 10396
+D3
+~
+~
+0 0 10395
+S
+#10394
+A Jail Cell~
+You are in an unfinished room.
+~
+103 0 0
+D3
+~
+~
+0 0 10393
+S
+#10395
+A Jail Cell~
+You are in an unfinished room.
+~
+103 0 0
+D1
+~
+~
+0 0 10393
+S
+#10396
+A Stone Corridor~
+You are in an unfinished room.
+~
+103 0 0
+D0
+~
+~
+0 0 10393
+D2
+~
+~
+0 0 10397
+S
+#10397
+A Stone Corridor~
+You are in an unfinished room.
+~
+103 0 0
+D0
+~
+~
+0 0 10396
+D1
+~
+~
+0 0 10398
+D2
+~
+~
+0 0 10400
+D3
+~
+~
+0 0 10399
+S
+#10398
+A Jail Cell~
+You are in an unfinished room.
+~
+103 0 0
+D3
+~
+~
+0 0 10397
+S
+#10399
+A Jail Cell~
+You are in an unfinished room.
+~
+103 0 0
+D1
+~
+~
+0 0 10397
+S
+$~

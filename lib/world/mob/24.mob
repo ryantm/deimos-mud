@@ -1,0 +1,218 @@
+#2400
+cow minister~
+the Cow minister~
+The Cow Minister is here, ready to marry two special people at any time.
+~
+   He's big, he's religious, and he's a cow.    
+~
+16394 0 1000 E
+30 13 1 30d30+900 15d15+7
+45000 315000
+12 12 1
+E
+#2401
+cow scientist~
+the Cow Scientist~
+A feeble cow scientist is standing here.
+~
+   He doesn't get out much, so he looks pretty weak.  Looks can be decieving
+though.  These scientists are very intelligent, and might have something up
+their sleeves (literally).    
+~
+16522 0 0 E
+15 17 5 15d15+225 7d7+3
+11250 78750
+12 12 1
+E
+#2402
+A cow secretary~
+the cow secretary~
+The cow secretary is sitting here, reading her magazine.
+~
+   Obviously, she's pretty bored with her job.    
+~
+18442 0 0 E
+20 15 4 20d20+400 10d10+5
+20000 140000
+12 12 2
+E
+#2403
+cow calf baby~
+a little calf~
+A little baby calf is grazing here.
+~
+Whaaaaa
+~
+16394 0 0 E
+10 18 7 10d10+100 5d5+2
+5000 35000
+12 12 1
+E
+#2404
+cow adult~
+an adult cow~
+An adult cow is lying here, overlooking it's young.
+~
+   He's very protective of his young, be careful of him.    
+~
+16394 0 0 E
+25 14 2 25d25+625 12d12+6
+31250 218750
+12 12 1
+E
+#2405
+cow sweeper~
+the cow sweeper~
+The city sweeper is standing here, cleaning up trash.
+~
+   Even though in a janitorial business, he's very content with keeping the
+city clean.    
+~
+16394 0 0 E
+5 19 8 5d5+25 2d2+1
+1250 8750
+12 12 1
+E
+#2406
+cow lawyer bovine~
+the bovine lawyer~
+A bovine lawyer is standing here.
+~
+   With a stern look on it's face.  The bovine lawyer is prepared to deal out #
+~
+16394 0 0 E
+35 12 0 35d35+1225 17d17+8
+61250 428750
+12 12 0
+E
+#2407
+juror jury cow~
+a cow juror~
+A cow juror is here, pondering the verdict
+~
+   The juror doesn't seem to really want to be here.  But examines the evidence
+to the best of it's ability.    
+~
+16394 0 0 E
+5 19 8 5d5+25 2d2+1
+1250 8750
+12 12 0
+E
+#2408
+cow gruff strong~
+a gruff cow~
+A gruff cow is standing here, staring at you...
+~
+   He's big, and kinda angry.    
+~
+16394 0 0 E
+35 12 0 35d35+1225 17d17+8
+61250 428750
+12 12 1
+E
+#2409
+cow judge~
+the cow judge~
+The cow judge is sitting here.
+~
+   The mighty cow judge is sitting here.  Listening to the lawyers and
+examining the evidence.    
+~
+16394 0 0 E
+66 4 -9 66d66+4356 33d33+16
+217800 1524600
+12 12 1
+E
+#2410
+citizen cow~
+a regular cow citizen~
+A regular cow citizen is walking around here.
+~
+   A regular cow is walking around here.  Everything is pretty laid back in Cow
+City.    
+~
+24584 0 0 E
+15 17 5 15d15+225 7d7+3
+11250 78750
+12 12 2
+E
+#2411
+butter cow~
+the Butter Cow~
+The Butter Cow is here, selling butter.
+~
+   Quite happy with his job, the butter cow is a joyous and highly respected
+cow.  He takes great pride in his job, and provides the highest quality butter
+there is.    
+~
+16394 0 0 E
+40 10 -2 40d40+1600 20d20+10
+80000 560000
+12 12 1
+E
+#2412
+old candy cow~
+the old candy cow~
+The old candy shopkeeper is standing here.
+~
+   Old, but still full of life.  The old shopkeeper puts happiness into the
+younger's calfs lives.    
+~
+24586 0 0 E
+40 10 -2 40d40+1600 20d20+10
+80000 560000
+12 12 1
+E
+#2413
+cow keeper shop shopkeeper~
+the Milk Shopkeeper~
+The Milk Shopkeeper is here.
+~
+   Her entire family line have all been milk sellers.  She an expert at milk
+and milk processing.  She is one of the hearts of Cow City's commerce.    
+~
+16394 0 0 E
+25 14 2 25d25+625 12d12+6
+31250 218750
+12 12 2
+E
+#2414
+Ivten Overlord~
+an Ivten Overlord~
+An Ivten Overlord is here, killing the cows.
+~
+   An Ivten Demon is here, at the rank of Overlord.  These demons are used as
+special units to be placed in remote locations.  In this case, they are in Cow
+City, in which the process the cows for food.    
+~
+16394 0 0 E
+66 4 -9 66d66+4356 33d33+16
+217800 1524600
+12 12 1
+E
+#2415
+ivten demon~
+an Ivten demon~
+An Ivten Demon is wandering around here.
+~
+   Working under the overlords, these demons are here to round up cows to be
+sent to the factory.  Other than that, they serve very little purpose.    
+~
+16394 0 0 E
+30 13 1 30d30+900 15d15+7
+45000 315000
+12 12 0
+E
+#2416
+gambler cow~
+a gambling cow~
+A gambling cow is sitting here, gambling.
+~
+   With a cigar in his mouth, it plays poker with his other buddies.    
+~
+16394 0 0 E
+10 18 7 10d10+100 5d5+2
+5000 35000
+12 12 1
+E
+$

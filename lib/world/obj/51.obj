@@ -1,0 +1,585 @@
+#5100
+&BWater&n Crystal~
+&BWater&n Crystal~
+The &BWater&n Crystal lies here.~
+Nothing.
+~
+11 8454145 16385 64
+0 0 0 0
+0 0 0 0
+E
+water crystal~
+   This water crystal is one of the eight elemental crystals of the world.  
+Its power specializes in healing magic, although many mortals don't know how to
+use it.  It glows with a vibrant blue glow.    
+~
+A
+4 5
+A
+3 5
+A
+12 100
+#5101
+&RFire&n Crystal~
+&RFire&n Crystal~
+The &RFire&n Crystal lies here.~
+~
+11 8454145 16385 0
+0 0 0 0
+0 0 0 0
+E
+fire crystal~
+   The fire crystal is a powerful elemental attack crystal.  It is almost too
+hot for someone to hold.  It emits a bright, orange glow.    
+~
+A
+19 2
+A
+5 5
+A
+13 100
+A
+17 20
+#5102
+&YLightning&n Crystal~
+&YLightning&n Crystal~
+The &YLightning&n Crystal lies here.~
+~
+11 8454145 16385 8388608
+0 0 0 0
+0 0 0 0
+E
+lightning crystal~
+   The lightning crystal is one of the most powerful crystals in the land.  
+Harnessing the power of lightning and electricity, it can strike fear into any
+that oppose it.  A tingly feeling envelopes you as you hold it...  It glows
+bright yellow.    
+~
+A
+19 6
+A
+18 5
+A
+1 5
+#5103
+&GBio&n Crystal~
+&GBio&n Crystal~
+The &GBio&n Crystal lies here.~
+~
+11 8454145 16385 275708
+0 0 0 0
+0 0 0 0
+E
+bio crystal~
+   The Bio Crystal represents all that is living in the world.  It carries
+within it all the powers of nature, and all of the connections of nature to the
+magical rhelm of the world.  It glows slightly green, and gives out an aura of
+protection and peace.    
+~
+#5104
+&yEarth&n Crystal~
+&yEarth&n Crystal~
+The &yEarth&n Crystal lies here.~
+~
+11 8454144 16385 0
+0 0 0 0
+0 0 0 0
+E
+earth crystal~
+   The Earth Crystal does not look very special at all.  In fact, it looks a
+mere rock.  But within this "rock" lurks the power of the earth.  Its power
+will make its user extremely durable and strong against anything or anyone's
+attacks.    
+~
+A
+13 100
+A
+13 100
+A
+13 100
+A
+13 100
+A
+13 125
+A
+13 125
+#5105
+&MWind&n Crystal~
+&MWind&n Crystal~
+The &MWind&n Crystal lies here.~
+~
+11 8454145 16385 2
+0 0 0 0
+0 0 0 0
+E
+Wind Crystal~
+   The Wind Crystal contains the power of the winds of the world, a brutally
+powerful force when faced with something that is very strong and heavy.  The
+Crystal is almost clear in appearence, but its presence is made known by the
+vast amount of air current disruption it causes.  It emits a light pink glow.
+  
+~
+A
+12 100
+A
+12 100
+A
+12 100
+A
+12 100
+A
+12 125
+A
+12 125
+#5106
+&DDark&n Crystal~
+&DDark&n Crystal~
+The &DDark&n Crystal lies here.~
+~
+1 8454657 1 270336
+0 0 -1 0
+0 0 0 0
+E
+Dark Crystal~
+   The Dark Crystal is evilness itself.  The dark powers of all the evil in the
+world are stored in this one, tiny crystal.  Its blackness pierces all other
+colors.  Suprisingly, it seems to emit black light to everything around it.  
+
+~
+A
+2 3
+A
+1 3
+A
+19 3
+A
+13 125
+A
+18 3
+A
+6 -10
+#5107
+&WHoly&n Crystal~
+&WHoly&n Crystal~
+The &WHoly&n Crystal lies here.~
+~
+1 8455169 1 4224
+0 0 -1 0
+0 0 0 0
+E
+Holy Crystal~
+   The Holy Crystal is the most powerful of all the Crystals.  While the Dark
+Crystal balances its power, the Holy Crystal has the potential to overcome
+anything buy the person that obtains it.  It emits a bright white light,
+piercing through the darkness and illuminating anything near it.    
+~
+A
+4 6
+A
+3 6
+A
+12 125
+A
+19 5
+A
+6 10
+A
+18 5
+#5108
+Hellfire~
+&RHellfire&n~
+&RHellfire&n lies burning eternally on the ground.~
+~
+9 65672 16385 8224
+10 0 0 0
+0 0 0 10
+E
+Hellfire~
+   Hellfire is a piece of the fire of hell.  It burns eternally, forever
+cursing anything it comes in contact with.  However, it holds immense power
+within it.  It its not ment to be seen or touched by mortals, but if it comes
+in the hands of one...    
+~
+A
+19 6
+A
+18 3
+A
+1 3
+A
+13 100
+A
+12 -25
+#5109
+elevator key~
+the elevator key~
+A small key card labled "elevator" sits on the ground.~
+~
+18 0 16385 0
+0 0 0 0
+0 0 0 0
+#5110
+deimos key~
+&Rthe key of Deimos&n~
+&RThe key of Deimos&n shines bright &Rred&n on the ground.~
+~
+18 0 16385 0
+0 0 0 0
+0 0 0 10
+E
+key deimos~
+This is the key to Deimos's throne.
+~
+A
+19 10
+#5111
+restring ticket~
+a restring ticket~
+A restring ticket sits here.~
+~
+16 65536 1 0
+0 0 0 0
+0 1000000 0 0
+E
+ticket~
+Good for one renaming of an item.
+~
+#5112
+bloody ring champions~
+&rthe Bloody Ring of Champions&n~
+&rA bloody ring lies here in a puddle of blood.&n~
+~
+9 65560 3 0
+10 0 0 0
+3 0 0 10
+A
+19 4
+A
+18 4
+A
+13 40
+A
+12 40
+#5113
+hoyl ring eternal hope~
+&Wthe Holy Ring of Eternal Hope&n~
+&WA holy ring lies here, emiting forth a quiet glow.&n~
+~
+9 65560 3 0
+10 0 0 0
+3 0 0 10
+A
+19 3
+A
+18 1
+A
+13 15
+A
+12 15
+#5114
+armor gods~
+&DArmor&n of the &WGods&n~
+&DArmor&n of the &WGods&n sits here.~
+~
+9 65560 9 12288
+40 0 0 0
+10 0 0 10
+A
+19 6
+A
+18 4
+A
+1 3
+A
+13 50
+A
+5 3
+#5115
+good token~
+a &Bgood&n token~
+A &Bgood&n token sits here.~
+~
+11 65548 16385 0
+0 0 0 0
+0 0 0 0
+#5116
+evil token~
+an &Revil&n token~
+An &Revil&n token sits here.~
+~
+11 65548 16385 0
+0 0 0 0
+0 0 0 0
+#5117
+razor ticket~
+a RAZOR ticket~
+A RAZOR ticket is lying here!~
+   &gSince you have just GMed, this ticket is redeemable for &Rrazors for
+everyone!  &w One time use only.  May not be used during a quest.  &n
+~
+16 8454152 1 0
+0 0 0 0
+0 0 0 0
+#5136
+helicopter~
+a helicopter~
+A large helicopter sits here, blades spinning swiftly.~
+~
+12 0 0 0
+0 0 0 0
+2000 0 0 0
+E
+helicopter~
+   This large helicopter is painted tundra colors, stripes and patches of white
+and gray.  It has two blades on the top, and appears to be used for carrying
+cargo.    
+~
+#5140
+arrow Aluranian~
+&yan Aluranian arrow&n~
+&yAn Aluranian arrow&n lies on the ground, glistening.~
+~
+0 4 1 0
+0 0 0 0
+0 0 0 0
+#5141
+wisp smoke~
+a wisp of smoke~
+A wisp of smoke floats here.~
+~
+5 141623301 8193 0
+0 0 1 0
+15 0 0 10
+#5142
+wisp smoke~
+a wisp of smoke~
+A wisp of smoke floats here.~
+~
+11 4194310 16385 0
+0 0 0 0
+10 0 0 10
+#5143
+magical orb~
+&Ba magical orb&n~
+&BA magical orb&n floats a few inches off the ground.&n~
+~
+0 4 1 0
+0 0 0 0
+0 0 0 0
+#5144
+wisp smoke~
+a wisp of smoke~
+A wisp of smoke floats here.~
+~
+4 138477709 16385 131080
+0 0 0 12
+0 0 0 10
+A
+19 12
+A
+12 120
+A
+12 120
+A
+12 120
+A
+12 120
+A
+3 10
+#5145
+small Aluranian knife~
+&Ca small Aluranian knife&n~
+&CA small Aluranian knife lies on the ground, its blade sharp and pointy.&n~
+~
+0 4 1 0
+0 0 0 0
+0 0 0 0
+#5146
+blacked shield darkness~
+&Dthe grand shield of darkness&n~
+&DThe grand shield of darkness&n sucks in all light...&n~
+~
+9 134283274 513 12288
+20 0 0 0
+10 0 0 10
+A
+19 14
+A
+5 8
+A
+13 120
+A
+13 120
+A
+13 120
+A
+3 -3
+#5150
+chocolate bunny~
+a &Ychocolate &Mbunny&n~
+A piece of chocolate is here~
+~
+5 7340044 8193 12416
+10 10 10 3
+0 0 0 1
+A
+19 20
+A
+18 20
+#5151
+life~
+a life~
+A life full of excitement is here.~
+~
+0 0 1 0
+0 0 0 0
+0 0 0 0
+E
+life~
+It looks so rewarding and so fun!
+~
+#5185
+120mm case fan~
+a 120mm case fan~
+Ooooo, its a shiny 120mm case fan!~
+~
+0 0 1 0
+0 0 0 0
+0 0 0 0
+#5186
+white blue scroll~
+&wa &Wwhite &wand &Bblue&n scroll&n~
+&wa &Wwhite &wand &Bblue&n scroll&n is here begging to be recited.~
+~
+2 0 1 0
+50 69 69 69
+0 0 0 0
+#5187
+orange blue shorts~
+a pair of orange and blue shorts~
+A pair of orange and blue gym shorts lie here.~
+~
+11 0 33 0
+0 0 0 0
+0 0 0 0
+#5188
+illini jersey~
+a Fighting Illini jersey~
+An orange and blue jersey is lying here.~
+~
+9 0 9 0
+0 0 0 0
+0 0 0 0
+#5189
+basketball~
+a basketball~
+A basketball is rolling around.~
+~
+11 0 16385 0
+0 0 0 0
+0 0 0 0
+#5190
+Epsilon Naught~
+Epsilon Naught~
+Epsilon Naught!~
+~
+5 61444 8193 0
+1000 1000 50 6
+0 0 0 0
+A
+1 100
+#5191
+capacitor~
+a capacitor~
+A capacitor sits here, crackling.~
+~
+4 0 16385 0
+10 100 20 30
+0 0 0 200
+#5192
+unfinished object~
+an unfinished object~
+An unfinished object is lying here.~
+~
+2 0 1 0
+10 77 0 0
+0 0 0 0
+#5194
+metamucil laxative~
+a bottle of metamucil laxative~
+A bottle of metamucil laxative sits here, curing constipation.~
+~
+0 0 1 0
+0 0 0 0
+0 0 0 1
+#5195
+resistor~
+a 10000 ohm resistor~
+A 10000 ohm resistor sits here, resisting stuff.~
+~
+11 0 16385 0
+0 0 0 0
+0 0 0 0
+#5196
+head~
+Wedge's head~
+Wedge's head is laying here.~
+~
+11 268435456 17 128
+0 0 0 0
+0 0 0 0
+A
+19 50
+A
+18 50
+#5197
+Morning Wood~
+Morning Wood~
+Morning Wood is here... and it just won't go away!~
+Nothing.
+~
+11 0 16385 0
+0 0 0 0
+10 0 0 0
+E
+morning wood~
+Its long, hard, and you have no idea why its here.    
+~
+A
+1 20
+#5198
+Crystal Shard~
+&wA &BC&Rr&Dy&Ys&Ct&Ga&Ml &wShard&n~
+&wA &BC&Rr&Dy&Ys&Ct&Ga&Ml &wShard&n lies on the ground.~
+~
+1 65545 1 0
+0 0 -1 0
+0 0 0 10
+E
+Crystal Shard~
+   This small shard is a fragment of one of the eight crystals.  From which
+crystal it is is a mystery, for it contains all the colors of the spectrum.  
+It can be used as light, and gifts its user with a small portion of the
+crystals' immense power.    
+~
+A
+19 4
+A
+18 3
+A
+1 2
+#5199
+quest bag goodie goodie-bag~
+Wedge's Quest Goodie-bag~
+This is Wedge's Quest Goodie-bag, its not for the likes of you!~
+~
+15 268435456 16385 0
+10000000 1 -1 0
+0 0 0 61
+A
+1 25
+A
+19 90
+A
+18 90
+$~

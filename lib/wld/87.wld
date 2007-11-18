@@ -1,0 +1,1334 @@
+#8700
+Entrance To Dallas' Cathedral~
+   The entrance to Dallas' cathedral is a gloomily lit by candles, that cast
+an exaggerated shape of the statue of Gabriel upon the walls. Upper sections
+of the walls are covered with the intricate carvings of important religious
+figures of days gone by. Heavy slabs of stone create an uneven floor, loose
+stones making a dull clicking noise whenever stood upon. The foul streets of
+Dallas lie to the south, contrasting somewhat with the cathedral's beauty,
+and the main aisle travels north, leading to an altar, far ahead.
+~
+87 cd 0
+D0
+You see a narrow aisle between some pews.    
+~
+~
+0 0 8703
+D2
+You see Alpha Lane.
+~
+~
+0 0 8740
+E
+carvings figures~
+Gothic cathedral carvings are in the walls and columns.  There are paintings of
+the saints and other religious personages painted on marble insets on the
+walls.    
+~
+E
+slabs floor~
+The slabs are poorly crafted blocks of stone, obviously not dwarven, probably
+human.    
+~
+S
+#8701
+The Graveyard~
+   The cathedral graveyard is a sad sight, with it's overgrown grasses and
+nettles. Where there was once a tidily kept memorial to the dead, there are
+now damaged tombstones, and trash. Fallen trees lay here, rotting away into
+nothingness. Stray animals seem to have made the graveyard their home.
+~
+87 0 2
+D1
+There is a door to the west wing of the cathedral.    
+~
+door~
+1 0 8705
+D2
+You see the entrance to the graveyard.    
+~
+~
+0 0 8708
+D3
+You see another part of the graveyard.
+~
+~
+0 0 8702
+S
+#8702
+The Graveyard~
+   The cathedral graveyard is a sad sight, with it's overgrown grasses and
+nettles. Where there was once a tidily kept memorial to the dead, there are
+now damaged tombstones, and trash. Fallen trees lay here, rotting away into
+nothingness. A deep hole leads downwards, into what was once a grave.
+~
+87 0 2
+D1
+You see another part of the graveyard.
+~
+~
+0 0 8701
+D2
+You see another part of the graveyard.
+~
+~
+0 0 8707
+D5
+There is an open grave there leading down.
+~
+~
+0 0 8709
+S
+#8703
+The Main Aisle~
+   A feeling of inner peace fills the vast main section of the cathedral.  A
+series of towering pillars support the roof, a masterpiece of architecture.
+To the east and west, pews have been provided, to allow the congregation to
+rest their bones, and the stone slabs of the floor continue to the north,
+where a magnificent altar can be seen, decorated with flowers and candles.
+~
+87 d 0
+D0
+You see a large altar in the distance.    
+~
+~
+0 0 8706
+D1
+You see the east wing of the cathedral.    
+~
+~
+0 0 8704
+D2
+You see a cathedral entrance.    
+~
+~
+0 0 8700
+D3
+You see the west wing of the cathedral.    
+~
+~
+0 0 8705
+S
+#8704
+The East Wing~
+   The distinct scent of old papers hangs heavy in the air, mingling with a
+mixture of perfume, and wood polish. Several people sit here by themselves,
+in quiet contemplation. What once must have been a stained-glass window has
+now been destroyed, leaving a gaping hole, through which the breeze blows.
+~
+87 d 0
+D3
+You see an aisle with rows of pews on each side.
+~
+~
+0 0 8703
+S
+#8705
+The West Wing~
+   The distinct scent of old papers hangs heavy in the air, mingling with a
+mixture of perfume, and wood polish. Several people sit here by themselves,
+in quiet contemplation. An impressive stained-glass window portrays various
+biblical stories, and a large door to the west leads into the graveyard.
+~
+87 d 0
+D1
+You see an aisle with rows of pews on each side.
+~
+undefined~
+0 0 8703
+D3
+You see a door to the graveyard.
+~
+door~
+1 0 8701
+S
+#8706
+The Altar~
+   This position provides an excellent point to take in the beauty of the
+cathedral. The altar is surrounded by a wooden rail, around which people may
+kneel, when taking communion. A series of candles surround the area, casting
+light upon the ornate altar, decorated with vases of flowers.
+~
+87 d 0
+D2
+You see an aisle with rows of pews on each side.
+~
+~
+0 0 8703
+S
+#8707
+The Graveyard~
+   The cathedral graveyard is a sad sight, with it's overgrown grasses and
+nettles. Where there was once a tidily kept memorial to the dead, there are
+now damaged tombstones, and trash. Fallen trees lay here, rotting away into
+nothingness. A wrought iron fence runs through here, leading to an old gate
+which just about manages to stay standing, to the east.
+~
+87 0 2
+D0
+You see another part of the graveyard.
+~
+~
+0 0 8702
+D1
+You see the entrance to the graveyard.
+~
+~
+0 0 8708
+S
+#8708
+Entrance To Dallas' Graveyard~
+   The entrance to the graveyard is more like the city dump, than an area
+where respect is shown for the dead. All manner of trash has been left just
+lying around, here. Small groups of people hunt for anything that might be
+useful, amongst the rotting plant life.
+~
+87 0 1
+D0
+You see the graveyard.
+~
+~
+0 0 8701
+D3
+You see another part of the graveyard.
+~
+~
+0 0 8707
+S
+#8709
+The Grave~
+   The foul, almost choking smell of rotting bodies lingers in the air here.  
+Soil is tightly packed against the sides of the grave, where it seems that the
+body which once lay here has disappeared completely.  A dark tunnel leads to
+the south, where strange noises can be heard.  There are some posters on the
+walls.    
+~
+87 0 2
+D2
+You see a tunnel leading to under the graveyard.
+~
+~
+0 0 8710
+D4
+You see an open grave in the graveyard.
+~
+~
+0 0 8702
+E
+posters~
+A large poster pasted on the wall advertises the band, "Death By Dagger".  A
+group of rough looking males are pictured playing their instruments, presumably
+band members.    
+~
+S
+#8710
+Beneath The Graveyard~
+   The stench of rotting flesh seems to be particularly strong, inside the
+tunnels, which seem to have been dug by hand, judging by the way in which
+they have been structured. It would appear that somebody must live here, as
+small torches line the walls, burning with a strange green flame.
+~
+87 i 0
+D0
+You see an open grave leading to the graveyard.
+~
+~
+0 0 8709
+D1
+You see a tunnel under the graveyard.
+~
+~
+0 0 8711
+D2
+You see a tunnel under the graveyard.
+~
+~
+0 0 8714
+D3
+You see a tunnel under the graveyard.
+~
+~
+0 0 8712
+S
+#8711
+Beneath The Graveyard~
+   The stench of rotting flesh seems to be particularly strong, inside the
+tunnels, which seem to have been dug by hand, judging by the way in which
+they have been structured. A strange sludge covers the floor, here.
+~
+87 ai 0
+D1
+You see a tunnel under the graveyard.
+~
+~
+0 0 8713
+D2
+You see a tunnel under the graveyard.
+~
+~
+0 0 8715
+D3
+You see a tunnel under the graveyard.
+~
+~
+0 0 8710
+S
+#8712
+Beneath The Graveyard~
+   The stench of rotting flesh seems to be particularly strong, inside the
+tunnels, which seem to have been dug by hand, judging by the way in which
+they have been structured. It would appear that somebody must live here, as
+small torches line the walls, burning with a strange green flame.
+~
+87 i 0
+D1
+You see a tunnel under the graveyard.
+~
+~
+0 0 8710
+D2
+You see a tunnel under the graveyard.
+~
+~
+0 0 8716
+D3
+You see a tunnel under the graveyard.
+~
+~
+0 0 8713
+S
+#8713
+Beneath The Graveyard~
+   The stench of rotting flesh seems to be particularly strong, inside the
+tunnels, which seem to have been dug by hand, judging by the way in which
+they have been structured. A strange sludge covers the floor, here.
+~
+87 ai 0
+D1
+You see a tunnel under the graveyard.
+~
+~
+0 0 8712
+D2
+You see another part of the tunnel.
+~
+~
+0 0 8717
+D3
+You see another part of the tunnel under the graveyard.
+~
+~
+0 0 8711
+S
+#8714
+Beneath The Graveyard~
+   The stench of rotting flesh seems to be particularly strong, inside the
+tunnels, which seem to have been dug by hand, judging by the way in which
+they have been structured. It would appear that somebody must live here, as
+small torches line the walls, burning with a strange green flame.
+~
+87 i 0
+D0
+You see another part of the tunnel under the graveyard.
+~
+~
+0 0 8710
+D1
+You see another part of the tunnel under the graveyard.
+~
+~
+0 0 8715
+D2
+You see another part of the tunnel under the graveyard.
+~
+~
+0 0 8718
+D3
+You see another part of the tunnel under the graveyard.
+~
+~
+0 0 8716
+S
+#8715
+Beneath The Graveyard~
+   The stench of rotting flesh seems to be particularly strong, inside the
+tunnels, which seem to have been dug by hand, judging by the way in which
+they have been structured. A strange sludge covers the floor, here.
+~
+87 ai 0
+D0
+You see another part of the tunnel under the graveyard.
+~
+~
+0 0 8711
+D1
+You see another part of the tunnel under the graveyard.
+~
+~
+0 0 8717
+D2
+You see another part of the tunnel under the graveyard.
+~
+~
+0 0 8719
+D3
+You see another part of the tunnel under the graveyard.
+~
+~
+0 0 8714
+S
+#8716
+Beneath The Graveyard~
+   The stench of rotting flesh seems to be particularly strong, inside the
+tunnels, which seem to have been dug by hand, judging by the way in which
+they have been structured. It would appear that somebody must live here, as
+small torches line the walls, burning with a strange green flame.
+~
+87 i 0
+D0
+You see another part of the tunnel under the graveyard.
+~
+~
+0 0 8712
+D1
+You see another part of the tunnel under the graveyard.
+~
+~
+0 0 8714
+D2
+You see another part of the tunnel under the graveyard.
+~
+~
+0 0 8720
+D3
+You see another part of the tunnel under the graveyard.
+~
+~
+0 0 8717
+S
+#8717
+Beneath The Graveyard~
+   The stench of rotting flesh seems to be particularly strong, inside the
+tunnels, which seem to have been dug by hand, judging by the way in which
+they have been structured. A strange sludge covers the floor, here.
+~
+87 ai 0
+D0
+You see another part of the tunnel under the graveyard.
+~
+~
+0 0 8713
+D1
+You see another part of the tunnel under the graveyard.
+~
+~
+0 0 8716
+D2
+You see another part of the tunnel under the graveyard.
+~
+~
+0 0 8721
+D3
+You see another part of the tunnel under the graveyard.
+~
+~
+0 0 8715
+S
+#8718
+Beneath The Graveyard~
+   The stench of rotting flesh seems to be particularly strong, inside the
+tunnels, which seem to have been dug by hand, judging by the way in which
+they have been structured. It would appear that somebody must live here, as
+small torches line the walls, burning with a strange green flame.
+~
+87 i 0
+D0
+You see another part of the tunnel under the graveyard.
+~
+~
+0 0 8714
+D1
+You see another part of the tunnel under the graveyard.
+~
+~
+0 0 8719
+D2
+You see another part of the tunnel under the graveyard.
+~
+~
+0 0 8722
+D3
+You see another part of the tunnel under the graveyard.
+~
+~
+0 0 8720
+S
+#8719
+Beneath The Graveyard~
+   The stench of rotting flesh seems to be particularly strong, inside the
+tunnels, which seem to have been dug by hand, judging by the way in which
+they have been structured. A strange sludge covers the floor, here.
+~
+87 ai 0
+D0
+You see another part of the tunnel under the graveyard.
+~
+~
+0 0 8715
+D1
+You see another part of the tunnel under the graveyard.
+~
+~
+0 0 8721
+D2
+You see another part of the tunnel under the graveyard.
+~
+~
+0 0 8723
+D3
+You see another part of the tunnel under the graveyard.
+~
+~
+0 0 8718
+S
+#8720
+Beneath The Graveyard~
+   The stench of rotting flesh seems to be particularly strong, inside the
+tunnels, which seem to have been dug by hand, judging by the way in which
+they have been structured. It would appear that somebody must live here, as
+small torches line the walls, burning with a strange green flame.
+~
+87 i 0
+D0
+You see another part of the tunnel under the graveyard.
+~
+~
+0 0 8716
+D1
+You see another part of the tunnel under the graveyard.
+~
+~
+0 0 8718
+D2
+You see another part of the tunnel under the graveyard.
+~
+~
+0 0 8724
+D3
+You see another part of the tunnel under the graveyard.
+~
+~
+0 0 8721
+S
+#8721
+Beneath The Graveyard~
+   The stench of rotting flesh seems to be particularly strong, inside the
+tunnels, which seem to have been dug by hand, judging by the way in which they
+have been structured.  A strange sludge covers the floor here.  There is a
+grate leading down.    
+~
+87 ai 0
+D0
+You see another part of the underground tunnel.
+~
+~
+0 0 8717
+D1
+You see another part of the underground tunnel.
+~
+~
+0 0 8720
+D2
+You see another part of the underground tunnel.
+~
+~
+0 0 8725
+D3
+You see another part of the underground tunnel.
+~
+~
+0 0 8719
+D5
+There is a grate to the sewerage here.    
+~
+grate sewer door~
+2 8703 8726
+S
+#8722
+Beneath The Graveyard~
+   The stench of rotting flesh seems to be particularly strong, inside the
+tunnels, which seem to have been dug by hand, judging by the way in which
+they have been structured. A strange sludge covers the floor, here.
+~
+87 ai 0
+D0
+You see another part of the underground tunnel.
+~
+~
+0 0 8718
+D1
+You see another part of the underground tunnel.
+~
+~
+0 0 8723
+D3
+You see another part of the underground tunnel.
+~
+~
+0 0 8724
+S
+#8723
+Beneath The Graveyard~
+   The stench of rotting flesh seems to be particularly strong, inside the
+tunnels, which seem to have been dug by hand, judging by the way in which
+they have been structured. A strange sludge covers the floor, here.
+~
+87 ai 0
+D0
+You see another part of the underground tunnel.
+~
+~
+0 0 8719
+D1
+You see another part of the underground tunnel.
+~
+~
+0 0 8725
+D3
+You see another part of the underground tunnel.
+~
+~
+0 0 8722
+S
+#8724
+Beneath The Graveyard~
+   The stench of rotting flesh seems to be particularly strong, inside the
+tunnels, which seem to have been dug by hand, judging by the way in which
+they have been structured. A strange sludge covers the floor, here.
+~
+87 ai 0
+D0
+You see another part of the underground tunnel.
+~
+~
+0 0 8720
+D1
+You see another part of the underground tunnel.
+~
+~
+0 0 8722
+D3
+You see another part of the underground tunnel.
+~
+~
+0 0 8725
+E
+sign~
+     Slave Shop
+' Not for the color of thier skin but for the price on thier head. '
+~
+S
+#8725
+Beneath The Graveyard~
+   The stench of rotting flesh seems to be particularly strong, inside the
+tunnels, which seem to have been dug by hand, judging by the way in which
+they have been structured. A strange sludge covers the floor, here.
+~
+87 ai 0
+D0
+You see another part of the underground tunnel.
+~
+~
+0 0 8721
+D1
+You see another part of the underground tunnel.
+~
+~
+0 0 8724
+D3
+You see another part of the underground tunnel.
+~
+~
+0 0 8723
+S
+#8726
+The Sewerage Pipe~
+   This aging sewerage pipe is filled with all manner of disgusting waste, from
+the homes of Dallas' residents.  The sounds of rats and other creatures echoes
+around the cylindrical waste transport pipe, along with the sound of running
+water.  The pipe seems to continue to the west.  There is a grate leading up.
+  
+~
+87 ai 0
+D3
+You see a long sewerage pipe leading into the darkness.
+~
+~
+0 0 8727
+D4
+There is a grate to the graveyard here.    
+~
+grate sewer door~
+2 8703 8721
+S
+#8727
+The Sewerage Pipe~
+   This aging sewerage pipe is filled with all manner of disgusting waste,
+from the homes of Dallas' residents. The sounds of rats and other creatures
+echoes around the cylindrical waste transport pipe, along with the sound of
+running water. To the west, there seems to be an intersection of some sort.
+~
+87 ai 0
+D0
+You see a long sewerage pipe leading into the darkness.    
+~
+~
+0 0 8900
+D1
+You see a long sewerage pipe leading into the darkness.
+~
+~
+0 0 8726
+D3
+You see a short sewerage pipe leading into the darkness.
+~
+~
+0 0 8728
+S
+#8728
+An Intersection~
+   From here, two sections of pipe lead in different directions.  South of
+here the sun's rays seem to be pouring into the sewers. The tube continues
+deeper into the sewers to the south and to the east, where strange moaning
+noises seem to be coming from.
+fi
+~
+87 ai 0
+D1
+You see a short sewerage pipe leading into the darkness.
+~
+~
+0 0 8727
+D2
+You see a short sewerage pipe leading into a lighted area.    
+~
+~
+0 0 8729
+S
+#8729
+The Ladder Out Of The Sewers~
+   The light streaming into the sewers is something to behold for anybody
+that has spent any length of time, no matter how short, wading through the
+waste matter. A ladder, covered with all kinds of disgusting substances
+leads up, and out of the sewers, while this pipe leads to the north.
+~
+87 i 0
+D0
+You see a long sewerage pipe leading into the darkness.
+~
+~
+0 0 8728
+D4
+A ladder goes up into a drainage area.
+~
+Ladder~
+0 0 8730
+S
+#8730
+End of the Drain~
+   There is a ladder going down into the sewerage here.  The walls of broken
+concrete have weeds growing in the cracks.  There is a small river of dirty
+water flowing downwards into the sewerage.  There is faint putrid odor coming
+from the sewerage below.  The sounds of water trickling along the floor can be
+heard along with a distant moaning sound coming from below.  The drain
+continues to the south.    
+~
+87 d 0
+D2
+You see that the drain continues on towards the south.
+~
+~
+0 0 8731
+D5
+A ladder leads down into the sewerage pipe.
+~
+ladder~
+0 0 8729
+S
+#8731
+In the Drain~
+   The drain is old and the stained concrete walls are cracked in several
+places.  There is a small river of dirty water flowing on the floor.  There are
+faint sounds of trickling water.  Some strange moaning sounds can be heard
+coming from the north.  The drain continues to the north and south.    
+~
+87 d 0
+D0
+You see that the drain continues on towards the north.
+~
+~
+0 0 8730
+D2
+You see that the drain continues on towards the south.
+~
+~
+0 0 8732
+S
+#8732
+End of the Drain~
+   The drain is old and the stained concrete walls are cracked in several
+places.  There is a small river of dirty water flowing on the floor.  There are
+faint sounds of trickling water.  There is a drain cover going up into the
+street.    
+~
+87 cd 0
+D0
+You see that the drain continues on towards the north.
+~
+~
+0 0 8731
+D4
+There is a drain that leads out into the street.
+~
+drain cover~
+1 0 8733
+S
+#8733
+Hillcrest Road~
+   The asphalt that once served as a road now lays crumbled and shattered, it
+purpose is no longer needed as it was in the past.  Along side the road,
+providing little shade, are sickly trees, their leaves wilted and brown.  
+Rotted remains of houses line the sides of the roads, occasionally give away to
+piles of trash and ruined vehicles.  In the far north large buildings,
+crumbling and collapsing, hang in the horizon.  North is more of Hillcrest
+Road.  There is a sewerage drain here going down.    
+~
+87 0 1
+D0
+You see more of Hillcrest Road to the north.
+~
+~
+0 -1 8734
+D5
+The drain appears to lead into some tunnel.
+~
+drain cover~
+1 0 8732
+S
+#8734
+Hillcrest Road~
+
+   Along side the road, providing little shade, are sickly trees, their leaves
+wilted and brown.  The asphalt that once served as a road now lays crumbled and
+shattered, it purpose is no longer needed as it was in the past.  Rotted
+remains of houses line the sides of the roads, occasionally give away to piles
+of trash and ruined vehicles.  In the far north large buildings, crumbling and
+collapsing, hang in the horizon.  North and south is more of Hillcrest Road.  
+
+ 
+~
+87 0 1
+D0
+You see that Hillcrest Road continues to the north.
+~
+~
+0 -1 8735
+D2
+You see that Hillcrest Road continues to the south.
+~
+~
+0 -1 8733
+S
+#8735
+Hillcrest Road~
+
+   Along side the road are the remains of houses and trees, though most the
+trees are dead, some do still live.  The road here is almost impossible to see
+due to to overgrowth of weeds and wild grass as well as fallen leaves.  The
+remains of a human skeleton, bleached white from the sun, sits off to the side
+of the road, propped up on a well hidden wall.  North and south Hillcrest road
+runs off into the distant.    
+ 
+~
+87 0 1
+D0
+You see that Hillcrest Road continues to the north.
+~
+~
+0 -1 8736
+D2
+You see that Hillcrest Road continues to the south.
+~
+~
+0 -1 8734
+S
+#8736
+Hillcrest Road~
+
+   Small patches of asphalt and concrete manage to fend off the wild plants,
+though their efforts will eventually fade way to the rampant weeds.  Leaves
+from the dead trees pile thickly, producing a rotted smell of mold and wood.
+Mushrooms, which glow faintly at night seem to swarm the edges of the wild
+weeds, threatening to overtake portions.  To the east is Alpha Lane and north
+and south Hillcrest continues.    
+ 
+~
+87 0 1
+D0
+You see that Hillcrest Road continues to the north.
+~
+~
+0 -1 8742
+D1
+There is an intersection of Hillcrest Road and Alpha Lane.
+~
+~
+0 -1 8737
+D2
+You see that Hillcrest Road continues to the south.
+~
+~
+0 -1 8735
+S
+#8737
+Alpha Lane~
+
+   Several craters, large enough to fit some of the largest vehicles seen in
+the past from adventures and wanderers dot the road randomly, these are
+probably the results after a bomb hit.  Further to the west the road becomes too
+hard to travel for even the most skilled adventurers and many of the mutants
+too.  East and west are more broken roads.    
+ 
+~
+87 0 1
+D1
+Alpha lane continues to the east.
+~
+~
+0 -1 8738
+D3
+You see an intersection of Hillcrest Road and Alpha Lane.
+~
+~
+0 -1 8736
+S
+#8738
+Alpha Lane~
+   Several craters, large enough to fit some of the largest vehicles seen in
+the past from adventures and wanderers dot the road randomly, these are
+probably the results after a bomb hit.  Further to the west the road becomes
+too hard to travel for even the most skilled adventurers and many of the
+mutants too.  East and west are more broken roads.  To the south is Commerce
+Street in New Dallas.    
+~
+87 0 1
+D0
+You see an entrance to a shop.
+~
+~
+0 0 8750
+D1
+Alpha lane continues to the east.
+~
+~
+0 -1 8739
+D2
+You see an intersection of Alpha Lane and Commerce street.
+~
+~
+0 0 8743
+D3
+Alpha lane continues to the west.
+~
+~
+0 -1 8737
+S
+#8739
+Alpha Lane~
+   Several craters, large enough to fit some of the largest vehicles seen in
+the past from adventures and wanderers dot the road randomly, these are
+probably the results after a bomb hit.  Further to the west the road becomes
+too hard to travel for even the most skilled adventurers and many of the
+mutants too.  East and west are more broken roads.    
+~
+87 0 1
+D1
+Alpha lane continues to the east.
+~
+~
+0 -1 8740
+D3
+Alpha lane continues to the west.
+~
+~
+0 -1 8738
+S
+#8740
+Alpha Lane~
+   Several craters, large enough to fit some of the largest vehicles seen in
+the past from adventures and wanderers dot the road randomly, these are
+probably the results after a bomb hit.  Further to the west the road becomes
+too hard to travel for even the most skilled adventurers and many of the
+mutants too.  East and west are more broken roads.  To the north is the
+entrance to Dallas Cathedral.    
+~
+87 0 1
+D0
+You see the entrance to the Dallas Cathedral.
+~
+~
+0 0 8700
+D1
+You see some more of Alpha Lane.
+~
+~
+0 -1 8741
+D3
+You see some more of Alpha Lane.
+~
+~
+0 -1 8739
+S
+#8741
+Alpha Lane~
+   Several craters, large enough to fit some of the largest vehicles seen in
+the past from adventures and wanderers dot the road randomly, these are
+probably the results after a bomb hit.  Further to the west the road becomes
+too hard to travel for even the most skilled adventurers and many of the
+mutants too.  East and west are more broken roads.    
+~
+87 0 1
+D1
+You see an intersection of city streets.
+~
+~
+0 -1 8824
+D3
+You see that Alpha Lane continues to the west.
+~
+~
+0 -1 8740
+S
+#8742
+End of Hillcrest Road~
+
+   This is a dead end for Hillcrest road.  The smell is very nice here as the
+breeze from the west is coming in.  To the south is more of Hillcrest, while
+west is a path leading away from the city.    
+ 
+~
+87 c 1
+D2
+You see that Hillcrest Road continues to the south.
+~
+~
+0 -1 8736
+D3
+A path leads away from the city here.
+~
+~
+0 -1 -1
+S
+#8743
+Commerce Street~
+   Commerce street is used by almost all of New Dallas.  The roads here have
+been repaired and look almost new.  To the west is Al's Armor and to the east
+is the Pawn Shop.  To the south is more of Commerce street.  To the north is an
+intersection.    
+~
+87 0 1
+D0
+You see an intersection of Alpha Lane and Commerce street.
+~
+~
+0 0 8738
+D1
+You see the Pawn shop.    
+~
+~
+0 0 8745
+D2
+You see some more of Commerce St.    
+~
+~
+0 0 8746
+D3
+You see Al's armor shop.    
+~
+~
+0 0 8744
+S
+#8744
+Al's Armor~
+
+   Al's Armor , is one of the more well known shops in New Dallas.  The walls
+are a bright yellow and the floor is made of a plush red carpet.  Armor lines
+the walls and fills the cases.  Back to the east is Commerce street.    
+ 
+~
+87 d 0
+D1
+The entrance leads out onto Commerce Street.
+~
+~
+0 -1 8743
+S
+#8745
+Pawn Shop~
+   The walls here have been painted a rich forest green.  The carpet underfoot
+is a thick plush black.  The tables around you display many interesting cheaply
+priced object, some from very exotic locations.  There is an entrance off of
+Commerce Street to the west.    
+~
+87 d 0
+D3
+You see the entrance from Commerce Street.
+~
+~
+0 -1 8743
+S
+#8746
+Commerce Street~
+   The road is almost new here and has been repaired in several spots on more
+than one occassion.  There are shops on the east and west and Commerce Street
+continues to the north and south.    
+~
+87 0 1
+D0
+You see more of Commerce St.    
+~
+~
+0 -1 8743
+D1
+You see the entrance to Pete's weapon shop.
+~
+~
+0 0 8748
+D2
+You see more of Commerce St.    
+~
+~
+0 -1 8749
+D3
+You see what looks like a chemical shop.    
+~
+~
+0 -1 8747
+S
+#8747
+Chemical Shop~
+   This is the Chem Shop of New Dallas.  Many wonderful chemical things are
+sold here.  The walls are of the blackest stone inset with the rarest jewels
+and prisms.  When the light from a small window in the north wall enters at the
+correct time of the day and passes through one of the huge prisms, the room is
+showered in the colors of the spectrum.    
+~
+87 d 0
+D1
+You see the entrance from Commerce Street.
+~
+~
+0 -1 8746
+S
+#8748
+Pete's Weapons~
+   This is a stone building with a black and white checkered marble tiled
+floor.  There is are exquisite glass display cases containing polished swords
+and daggers.  Shimmering light dances across the highly reflective surfaces of
+these beautiful but deadly weapons.  The entrance to the shop is to the west.
+  
+~
+87 d 0
+D3
+You see the entrance from Commerce Street.
+~
+~
+0 0 8746
+S
+#8749
+The Food Kingdom~
+
+   This is the place if you need some food.  All at great prices, so even the
+homeless people can eat.  The walls are a light green and the floor is made of
+a strong tile, it makes a light click as you walk.  Back to the north is
+Commerce street.    
+ 
+~
+87 d 0
+D0
+You see Commerce St.    
+~
+~
+0 -1 8746
+S
+#8750
+Porno Shop~
+   The walls are lined with pornographic pictures and phone numbers of all the
+major pimps.  The smell in here is nice and the lighting is perfect.  To the
+south is the entrance leading out to Alpha Lane.    
+~
+87 d 0
+D2
+You see the entrance of the shop.
+~
+~
+0 0 8738
+S
+#8799
+Zone Description Room Dallas~
+This zone will be multi level zone , with an area for newbies 10-20, and small zones for midlevels 20-30, 30-40.
+The newbie zone will be a Hack/Slash exp area with poor equipment called the sewers.
+The midlevel 20-30 zone will have fair eq and fair exp.
+The midlevel 30-40 will be a hack/slash zone with decent exp, no equipment, a few good weapons.
+To see the topics just look at BIG RED LETTERS, there are extra descriptions on them.
+&RMOBS&n
+&RMAP&n
+&ROBJECTS&n
+&RCONNECTIONS&n
+Come back to this room for Daily updates on this zone.
+Exit descriptions now on all rooms in zone 87, woo woo, they are connected and mapped.
+Now working on zone 88 and 89, probably will delete some of these, and try to fit this zone into just zone 87 and 88 somehow.
+Modifying the existing mobs, going to have to make some more mobs too.
+The objects are a real mess, but will get to them soon.
+~
+87 ds 0
+E
+mobs~
+Mob List From Vnum 8700 to 8999
+    1. [ 8700] the priest
+    2. [ 8701] a male worshipper
+    3. [ 8702] a female worshipper
+    4. [ 8703] a zombie
+    5. [ 8704] a dog
+    6. [ 8705] Blade
+    7. [ 8706] Bo
+    8. [ 8707] the Bartender
+    9. [ 8708] a Drunk
+   10. [ 8709] a Diplomat
+   11. [ 8710] a Citizen
+   12. [ 8732] a female slave
+   13. [ 8733] a Warrior Slave
+   14. [ 8734] a FASSAR-20 Skelebot
+   15. [ 8744] Al
+   16. [ 8745] a pawn shop owner
+   17. [ 8747] Asher
+   18. [ 8749] a Grocer
+   19. [ 8750] the Owner
+   20. [ 8900] a Penguin
+   21. [ 8901] Jessica
+   22. [ 8902] a giant blood-sucking rat
+   23. [ 8903] a male rogue
+   24. [ 8904] a female slave
+   25. [ 8905] a female rogue
+   26. [ 8999] a dude
+~
+E
+objects~
+Object List From Vnum 8700 to 8999
+    1. [ 8700] a crucifix
+    2. [ 8701] a medium-sized key
+    3. [ 8702] a gravestone
+    4. [ 8703] a strange key
+    5. [ 8704] an oversized turtle's shell
+    6. [ 8705] a pair of nunchucks
+    7. [ 8745] a Bar of Gold
+    8. [ 8746] a Bar of Platinum
+    9. [ 8747] a Chemical labeled "Life Giver"
+   10. [ 8748] a Scroll called "D&Kark R&Kising"
+   11. [ 8749] a Chemical labeled "Mega"
+   12. [ 8750] a Chemical labeled "True &KVision"
+   13. [ 8790] a refrigerator
+   14. [ 8791] a table
+   15. [ 8792] a waterbed
+   16. [ 8793] a computer
+   17. [ 8794] a couch
+   18. [ 8798] a newbie sign
+   19. [ 8799] a Barf Bag 
+   20. [ 8800] a keyring with several keys
+   21. [ 8801] a lunch box
+   22. [ 8802] a cage
+   23. [ 8804] a rotting corpse
+   24. [ 8805] some gold
+   25. [ 8806] a warning
+   26. [ 8807] a computer
+   27. [ 8895] some chicken feet
+   28. [ 8896] some chicken wings
+   29. [ 8897] some chicken leggings
+   30. [ 8898] a chicken suit
+   31. [ 8899] a chicken head
+   32. [ 8900] an open-chested shirt
+   33. [ 8901] a Sword of Slaying
+   34. [ 8902] a short loincloth
+   35. [ 8903] a wicked shortsword
+   36. [ 8904] a modified huntsman body armor
+   37. [ 8905] a studded leather armor
+   38. [ 8906] a demonic-looking sword
+   39. [ 8907] a torch
+   40. [ 8908] a Key of Kazagroth
+   41. [ 8999] a sword
+~
+E
+map~
+Zone 87
+Graveyard/Cathedral
+00 03 40
+01 08 02  05 Keywrd: door, Type: DOOR CLOSED 
+02 01 07 09
+03 00 04 05 06
+04 03
+05 03 01 Keywrd: door, Type: DOOR CLOSED 
+06 03
+07 02 08
+08 01 07
+09 02 10
+11 10 13 15
+12 10 13 16 
+13 11 12 17
+14 10 15 16 18
+15 11 14 17 19
+16 12 14 17 20
+17 13 15 16 21
+18 14 19 20 22
+19 15 18 21 23
+20 16 18 21 24
+21 17 19 20 25 26Key: [ 8703], Keywrd: sewer gate door, Type: DOOR CLOSED LOCKED PICKPROOF loads on zombies(a strange key)
+22 18 23 24
+23 19 22 25
+24 20 22 25
+25 21 23 24
+SEWER
+26 27 21, Key: [ 8703], Keywrd: sewer gate door, Type: DOOR CLOSED LOCKED PICKPROOF loads on zombies(a strange key)
+27 26 28
+28 27 29
+29 28 30
+30 31 29
+31 30 32
+32 31 33
+33 34 32  Key: [    0], Keywrd: drain, Type: DOOR CLOSED 
+34 33 35
+35 34 36
+36 35 37 42
+37 36 38
+38 37 39 43 50(porno shop)
+39 38 40
+40 00 39 41 
+41 (8824) 40
+42 36 xxWest
+43 38 44 45 46 
+44 43
+45 43
+46 43 47 48 49
+47 46
+48 46
+49 46
+50 38
+99 None, God Room ONLY
+~
+E
+connections~
+Possible roomlinks to this zone are:
+8742 End of Hillcrest Road -west is a path leading away from the city.
+8800 Coit Road- exit to the west, should be a road or highway.
+~
+S
+$~

@@ -1,0 +1,110 @@
+#8900
+Penguin~
+a Penguin~
+A giant penguin, which is chasing Kazagroth
+~
+This is a very vicious penguin. Beware.
+~
+74 2 0 E
+2 20 9 2d2+4 1d1+0
+200 8000
+12 12 1
+BareHandAttack: 1
+E
+#8901
+Jessica~
+Jessica~
+The Rogue Leader Jessica lounges here.
+~
+   Lounging infront of you is a beautiful young woman with soft brown hair and
+sparkling blue eyes.  Wearing only a loincloth, which is fully opened on the
+left side, and a shirt, which is held together in the middle by two tied
+strings.    
+~
+24 44 0 E
+56 6 -6 56d56+3136 28d28+14
+156800 3136000
+12 12 2
+BareHandAttack: 13
+E
+#8902
+rat~
+a giant blood-sucking rat~
+A giant, blood-sucking rat scurries about, looking for a new victim.
+~
+This giant, blood-sucking rat is looking for a new body to suck the life out
+of.  Definitely not a nice rat to be around.    
+~
+90138 1032 0 E
+20 15 4 20d20+400 10d10+5
+20000 400000
+12 12 0
+BareHandAttack: 8
+E
+#8903
+rogue~
+a male rogue~
+A male rogue guards this tunnel.
+~
+
+
+   A male rogue, dressed in a metal breastplate and loincloth, stands here,
+guarding the tunnel.  He is built like a rock, and looks like you will need to
+have a lot of luck to prevail over him.    
+
+~
+42 1032 0 E
+42 10 -2 42d42+1764 21d21+10
+88200 1848000
+12 12 1
+BareHandAttack: 6
+E
+#8904
+slave~
+a female slave~
+A scantly clad female slave stands here.
+~
+
+   Clothed only in a few rags to cover her genitals, this female slave seems to
+be treated fairly well.  Not many whip marks marr her figure, and she doesn't
+have the rough, haggard looks of many of the other slaves that you have seen on
+your travels.    
+
+~
+74 0 0 E
+40 10 -2 40d40+1600 20d20+10
+80000 1760000
+12 12 2
+BareHandAttack: 8
+E
+#8905
+rogue~
+a female rogue~
+A female rogue walks around, policing the area.
+~
+
+   A beautiful female rogue, with brown hair and brown eyes, wearing her
+studded leather armor, a red loincloth, and knee-high boots stands before you.
+If she notices you looking at her, she doesn't show it, as she keeps scanning
+the crowd, making sure no fights break out.    
+
+~
+72 0 0 E
+57 6 -7 57d57+3249 28d28+14
+162450 3192000
+12 12 2
+BareHandAttack: 13
+E
+#8999
+dude~
+a dude~
+A dude is here.
+~
+It looks unfinished.
+~
+8 0 0 E
+1 20 9 1d1+1 0d0+0
+50 4000
+12 12 0
+E
+$

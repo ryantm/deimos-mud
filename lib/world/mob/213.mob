@@ -1,0 +1,247 @@
+#21300
+Arlem seeker guardian~
+Seeker Arlem~
+Seeker Arlem staunchly guards the gate eyeing everyone who passes.
+~
+   Large muscles ripple beneath a set of battered steel armor, showing true
+strength.  A man who's worked all his life in the arena, protraying ancient
+rome gladiators and risking his life sparingly.  A stern visage glares from
+beneath an ornamented crown of adamantite platinum.    
+~
+188490 0 0 E
+50 10 0 25d25+5100 7d7+10
+187500 2500000
+12 12 1
+BareHandAttack: 3
+E
+T 21300
+#21301
+inquisitor~
+the Inquisitor~
+The Inquisitor stands here calmly sharpening his knives.
+~
+   There is nothing special about this massive man.  He towers over the average
+human, and has no noticeable features.  He's shrouded in darkened fabric, and
+cannot be seen from head to toe.  His belt has many knives hanging from it,
+he's ready to slay.    
+~
+8202 0 0 E
+35 13 -3 17d17+2550 5d5+7
+91875 1225000
+12 12 1
+BareHandAttack: 11
+E
+#21303
+A raging heretic~
+a raging heretic~
+Clawing ferociously at the walls, this raging heretic screams wildly.
+~
+   Blood trckles down this raging heretics torn visage, as it screams insanely
+at the walls.  Years upon years of being locked up has done it's toll to this
+figure.  Clattered with mud-caked clothing, this heretic shrieks a horrified
+pain
+~
+10 0 0 E
+30 14 -4 15d15+1900 4d4+6
+67500 900000
+12 12 1
+BareHandAttack: 1
+E
+#21304
+Malis Seeker High Priest~
+Malis~
+High Seeker Malis eyes you coldly for intruding upon his privacy.
+~
+   High Seeker Malis, dwells deep in the ground beneath the Seeker Encampment
+for fear of his life.  Upon starting this false religion years ago, he's been
+hassled to this.  An old worn man, with nothing left in his life but this dank
+celler room in the prison.    
+~
+10 128 0 E
+60 8 2 30d30+7300 8d8+12
+270000 3600000
+12 12 1
+E
+#21305
+A swirling mist of disgruntled gas~
+a noxious cloud of gas~
+Swirling about the room, this storm of gas assaults an attack!
+~
+   Swirling violently this gas cloud seeks a way from this disgruntled chamber.
+Ferociously fighting it's way through the door, brushing you and attempting
+your death!    
+~
+43 168 0 E
+60 8 2 30d30+7300 8d8+12
+270000 3600000
+12 12 0
+BareHandAttack: 12
+SpecProc: block_west
+E
+#21306
+temple priest~
+the temple priest~
+The temple priest stands here preaching the seeker religion.
+~
+   This priest is in the typical robes of the Seeker's.  He stands at the front
+of the temple preaching his religion to the masses.  He brings his fist down on
+the podium to drive home his point now and again.    
+~
+26 8192 0 E
+30 14 -4 15d15+1900 4d4+6
+67500 900000
+12 12 1
+BareHandAttack: 5
+E
+#21307
+Seeker Dirkas~
+Seeker Dirkas~
+Seeker Dirkas stands stiffly at his post scowling fiercly.
+~
+   Standing very straight and obviously unhappy with his assignment seeker
+Dirkas guards the outpost gates.  He barely watches the peasant that come in
+and out of the gates seemingly absorbed in his misery at having to stand watch.
+  
+~
+10 0 0 E
+50 10 0 25d25+5100 7d7+10
+187500 2500000
+12 12 1
+BareHandAttack: 3
+E
+#21308
+seeker priest~
+a seeker priest~
+A seeker priest walks confidently by here.
+~
+   This priest is dressed in the traditional robes of the seekers.  He walks
+about with a confidence that reflects his faith in his religion.  He smiles
+warmly at all that pass.    
+~
+10 0 0 E
+30 14 -4 15d15+1900 4d4+6
+67500 900000
+12 12 1
+E
+#21309
+Master Tolbert~
+Master Tolbert~
+Master Tolbert, the headmaster of the acolytes stands here grimacing.
+~
+   This is the teacher of the acolytes.  He keeps a watchful eye on the
+aspiring priests and teaches them the way.  He has a stern unforgiving look on
+his face that has cowed even the most spirited acolyte.    
+~
+10 0 0 E
+45 11 -1 22d22+4150 6d6+9
+151875 2025000
+12 12 1
+BareHandAttack: 5
+E
+#21310
+Seeker Acolyte~
+a seeker acolyte~
+An acolyte of the seeker religion walks about in contemplation.
+~
+   Elongated robes engulf this Acolyte's small frame and claim him into the
+religion.  A wide grin has been labeled across his face, as he prepares to meet
+up with Master Tolbert for his daily teachings.  He stands here joyfully gazing
+about the room.    
+~
+10 0 0 E
+30 14 -4 15d15+1900 4d4+6
+67500 900000
+12 12 1
+E
+#21311
+man follower seeker~
+a male followers of the seeker religion~
+A young man strolls about talking about the seeker religion.
+~
+   Before you is a young man from Rulek.  He is dressed in the garb common to
+the people of the world.  He walks about talking with the other followers and
+the priests about the seeker religion.    
+~
+8 0 0 E
+30 14 -4 15d15+1900 4d4+6
+67500 900000
+12 12 1
+E
+#21312
+Guardian Seeker~
+a guardian Seeker~
+A guardian seeker walks about here watching for trouble.
+~
+   This is one of the seeker's hired mercenaries.  It's there job to protect
+the seeker's from heretics and to help enforce their policies upon their
+people.    
+~
+8 0 0 E
+32 14 -3 16d16+2148 4d4+6
+76800 1024000
+12 12 1
+E
+#21313
+tower guard seeker~
+a tower guard~
+A tower guard stands here watching the surrounding land for signs of trouble.
+~
+   This is one of the seeker's hired mercenaries.  It's his job to guard the
+seeker's outpost from attack by monsters or those who feel the seeker's should
+preach their religion elsewhere.    
+~
+10 0 0 E
+30 14 -4 15d15+1900 4d4+6
+67500 900000
+12 12 1
+E
+#21314
+A seeker skeptic~
+a seeker Skeptic~
+A skeptic walks about the complex in disbelief.
+~
+   Shaking her head in disbelief, this skeptic walks around the complex in pure
+confusion.  Reddish-blonde hair cascades down the woman's spine, as her
+lustrous pale blue eyes scan the horizon for more interesting artifacts.    
+~
+8 0 0 E
+30 14 -4 15d15+1900 4d4+6
+67500 900000
+12 12 1
+E
+#21315
+An ugly troll guard~
+an ugly Troll guard~
+In an aura of it's own stench, this Troll Guard peers from beneath an oversized helm.
+~
+   Large muscles ripple beneath this trolls tightly fitted clothing, showing
+enough strength in one being that a human could ever maintain.  His face has
+been wrinkled up over the time spent in the sun and his hand dwells just above
+the hilt of his iron bastard sword.  He's truely a monstrosity in the area,
+being that the area is already covered with crusted blood.    
+~
+10 0 0 E
+30 14 -4 15d15+1900 4d4+6
+67500 900000
+12 12 1
+BareHandAttack: 12
+E
+#21320
+Shade of Pestilence troll~
+Shade of Pestilence~
+Hovering in the corner, this troll-like shade dwells in it's own solitude.
+~
+   Anger lies deep within this disfigured shade's visage of red-stained eyes.
+It's built of a misty transparent fog, seemingly blinking in and out of this
+realm of time.  A burial shroud has been tightly wrapped around the body of
+this shade, and a pair of bands have been strapped tightly around his arms.  
+Scars shroud it's disgruntled figure, sharing stories of true torturous
+beatings it lived through and harsh tests the trolls put it through.    
+~
+65546 557186 0 E
+60 8 2 30d30+7300 8d8+12
+270000 3600000
+12 12 1
+BareHandAttack: 1
+E
+$

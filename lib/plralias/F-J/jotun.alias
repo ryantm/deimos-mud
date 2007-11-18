@@ -1,0 +1,125 @@
+10
+thongemote
+59
+emote slides his &mPink&n &WThong down shows you some bush!
+0
+2
+ms
+15
+c 'magic shroud
+0
+2
+sh
+9
+c 'shroud
+0
+2
+sp
+11
+c 'sleep'$1
+1
+3
+res
+9
+c 'res'$1
+1
+4
+heal
+7
+c 'heal
+0
+2
+of
+18
+order followers $*
+1
+2
+ft
+17
+c 'find target'$1
+1
+5
+charm
+11
+c 'charm'$1
+1
+3
+sum
+12
+c 'summon'$1
+1
+3
+ice
+9
+c 'ice'$1
+1
+4
+gate
+10
+c 'gate'$1
+1
+4
+sanc
+7
+c 'sanc
+0
+4
+auro
+7
+c 'auro
+0
+4
+nova
+7
+c 'nova
+0
+3
+bli
+11
+c 'blind'$1
+1
+2
+qu
+14
+c 'earthquake'
+0
+3
+loc
+16
+c 'locate obj'$1
+1
+3
+dis
+18
+c 'dispel magic'$1
+1
+2
+id
+8
+c 'id'$1
+1
+2
+fb
+14
+c 'fireball'$1
+1
+3
+rec
+8
+c 'word'
+0
+2
+df
+14
+drink fountain
+0
+2
+di
+11
+c 'detect i
+0
+5
+light
+11
+c 'light'$1
+1

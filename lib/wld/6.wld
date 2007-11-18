@@ -1,0 +1,1616 @@
+#600
+Entrance to the Holiday Inn~
+   This is the entrance to the local Holiday Inn.  People from all over the
+world constantly stay at this luxurious hotel, which is complete with a pool,
+many rooms, a fine lobby, and a great Italian Resturant.  The Main Lobby is to
+the south.  A receptionist sits at a desk, welcoming you to the hotel.    
+~
+6 cd 0
+D0
+~
+Glass Door~
+1 0 4214
+D2
+~
+~
+0 0 601
+S
+#601
+The Main Lobby~
+   This spacious lobby is the heart of the Holiday Inn.  The room is filled
+with leather sofas, recliners, and oak tables.  A big screen TV sits in the
+center of the lobby.  A mix of different music can be heard over the sound of
+tired and crabby guests from their long flights in.  To the to the north is the
+entrance to this hotel, and to the east, west, and south are more of this vast
+lobby.    
+~
+6 d 0
+D0
+~
+~
+0 0 600
+D1
+~
+~
+0 0 603
+D2
+~
+~
+0 0 604
+D3
+~
+~
+0 0 602
+S
+#602
+The Main Lobby~
+   This spacious lobby is the heart of the Holiday Inn.  The room is filled
+with leather sofas, recliners, and oak tables.  A big screen TV sits in the
+center of the lobby.  A mix of different music can be heard over the sound of
+tired and crabby guests from their long flights in.  To the east, and south are
+more of this vast lobby.    
+~
+6 d 0
+D1
+~
+~
+0 0 601
+D2
+~
+~
+0 0 605
+S
+#603
+The Main Lobby~
+   This spacious lobby is the heart of the Holiday Inn.  The room is filled
+with leather sofas, recliners, and oak tables.  A big screen TV sits in the
+center of the lobby.  A mix of different music can be heard over the sound of
+tired and crabby guests from thier long flights in.  To the west and south are
+more of this vast lobby, and to the north are the areas for the employees.    
+~
+6 d 0
+D0
+~
+~
+0 0 607
+D1
+~
+~
+0 0 -1
+D2
+~
+~
+0 0 606
+D3
+~
+~
+0 0 601
+S
+#604
+The Main Lobby~
+   This spacious lobby is the heart of the Holiday Inn.  The room is filled
+with leather sofas, recliners, and oak tables.  A big screen TV sits in the
+center of the lobby.  A mix of different music can be heard over the sound of
+tired and crabby guests from thier long flights in.  To the north, east, and
+west are more of this vast lobby, and to the south are the elevators to the
+second floor.    
+~
+6 d 0
+D0
+~
+~
+0 0 601
+D1
+~
+~
+0 0 606
+D2
+~
+~
+0 0 636
+D3
+~
+~
+0 0 605
+S
+#605
+The Main Lobby~
+   This spacious lobby is the heart of the Holiday Inn.  The room is filled
+with leather sofas, recliners, and oak tables.  A big screen TV sits in the
+middle of the lobby.  A mix of different music can be heard over the sound of
+tired and crabby guests from their long flights in.  To the north and west are
+more of this large lobby, and to the west is a garden path leading to the
+locker room.    
+~
+6 d 0
+D0
+~
+~
+0 0 602
+D1
+~
+~
+0 0 604
+D3
+~
+~
+0 0 614
+S
+#606
+The Main Lobby~
+   This spacious lobby is the heart of the Holiday Inn.  The room is filled
+with leather sofas, recliners, and oak tables.  A big screen TV sits in the
+middle of the room.  A mix of different music can be heard over the sound of
+tired and crabby guests from their long flights in.  To the north and west are
+more of the spacious lobby, and to the south is the entrance to a delicous
+Italian resturant.    
+~
+6 d 0
+D0
+~
+~
+0 0 603
+D2
+~
+~
+0 0 630
+D3
+~
+~
+0 0 604
+S
+#607
+A Narrow Hallway~
+   This area of the Holiday Inn is the place nobody ever sees.  All the
+employees work in this section, without any guest knowing about them.  The air
+has a air-conditioned feeling to it, and it smells of coffee.  To the south is
+the main lobby, and to the east is an un-marked door.    
+~
+6 cd 0
+D1
+~
+door~
+1 0 608
+D2
+~
+~
+0 0 603
+S
+#608
+Office~
+   Its a standard office room, white walls, carpeted floors.  A few cubicles
+expand to the south, this must be the administrative portion of the Holiday
+Inn.  The door to the west leads back to the main part of the Holiday Inn.    
+~
+6 cd 0
+D2
+~
+~
+0 0 609
+D3
+~
+door~
+1 0 607
+S
+#609
+Cubicle~
+   This is the cubicle section of the office, there are a bunch of small
+cubicles some filled with disgruntiled employees.  There is that smell of new
+paint that seems to have never left this room.    
+~
+6 d 0
+D0
+~
+~
+0 0 608
+D1
+~
+~
+0 0 610
+D2
+~
+~
+0 0 612
+S
+#610
+Cubicle~
+   This is the cubicle section of the office, there are a bunch of small
+cubicles some filled with disgruntiled employees.  There is that smell of new
+paint that seems to have never left the room.    
+~
+6 d 0
+D2
+~
+~
+0 0 611
+D3
+~
+~
+0 0 609
+S
+#611
+Cubicle~
+   This is the cubicle section of the office, there are a bunch of small
+cubicles some filled with disgruntiled employees.  There is that smell of new
+paint that seems to have never left the room.    
+~
+6 d 0
+D0
+~
+~
+0 0 610
+D3
+~
+~
+0 0 612
+S
+#612
+Cubicle~
+   This is the cubicle section of the office, there are a bunch of small
+cubicles some filled with disgruntiled employees.  There is that smell of new
+paint that seems to have never left the room.  To the south is a large door.  
+
+~
+6 d 0
+D0
+~
+~
+0 0 609
+D1
+~
+~
+0 0 611
+D2
+~
+door~
+1 0 613
+S
+#613
+The Office~
+   This large office is filled with finished oak cabnets and a big comfy
+executives' chair.  The Boss usually resides here, playing online poker and
+spitting into his intercom.    
+~
+6 du 0
+D0
+~
+door~
+1 0 612
+S
+#614
+A Garden Path~
+   This is an indoor garden, it feels really hot in here because of the
+greenhouse affect the roof is giving the room.  There are tons of fake
+'rainforest' plants in the dirt mounds surrounded with ugly bricks.  To the
+east is the entrance area of the Holiday
+~
+6 c 0
+D1
+~
+~
+0 0 605
+D3
+~
+~
+0 0 615
+S
+#615
+A Garden Path~
+   This is an indoor garden, it feels really hot in here because of the
+greenhouse affect the roof is giving the room.  There are tons of fake
+'rainforest' plants in the dirt mounds surrounded with ugly bricks.  To the
+west is the entrance to the Holiday Inn's famed pool.  Many go in but few come
+out alive, probably because of the lack of good lifeguarding staff.    
+~
+6 c 0
+D1
+~
+~
+0 0 614
+D3
+~
+~
+0 0 616
+S
+#616
+The Locker Room~
+   This locker room is one of the worst places to be in the hotel.  There are
+no lockers despite the name, and the air smells of mold.  A small shower spout
+is in the corner, and extra clothing has been thrown about.  To the west is
+more of the locker room, to the east a garden path, and to the north is a room
+filled with thick steam.    
+~
+6 cd 0
+D0
+~
+~
+0 0 618
+D1
+~
+door~
+1 0 615
+D3
+~
+~
+0 0 617
+S
+#617
+The Locker Room~
+   This locker room is one of the worst places to be in the hotel.  There are
+no lockers despite the name, and the air smells of mold.  A small shower spout
+is in the corner, and extra clothing has been thrown about.  To the east is
+more of the locker room.    
+~
+6 cd 0
+D1
+~
+~
+0 0 616
+S
+#618
+The Steam Room~
+   Walking into this room, many people choke on the thick steam.  Visibility is
+only about 5 inches, and a strange man can be made out sitting on one of the
+benches.  To the south is the locker room, while to the west is the pool deck.
+  
+~
+6 cdh 0
+D2
+~
+~
+0 0 616
+D3
+~
+~
+0 0 619
+S
+#619
+The Pool Deck~
+   The smell of chlorine is heavy here on the rotting pool deck.  This pool
+seems to have been neglected, the major cause of it's deterioration.  The pool
+to the west is murky, and very deep.    
+~
+6 cd 0
+D0
+~
+~
+0 0 627
+D1
+~
+~
+0 0 618
+D3
+~
+~
+0 0 620
+S
+#620
+The Pool~
+   Visibility is low, and murky shapes can be seen swimming underneath the
+water.  This is not the best area of the Holiday Inn.  Only crazed and insane
+guests actually think about coming in this swimming pool.    
+~
+6 d 7
+D0
+~
+~
+0 0 623
+D1
+~
+~
+0 0 619
+D3
+~
+~
+0 0 621
+S
+#621
+The Pool~
+   Visibility is low, and murky shapes can be seen swimming underneath the
+water.  This is not the best area of the Holiday Inn.  Only crazed and insane
+guests actually think about coming in this swimming pool.    
+~
+6 d 7
+D0
+~
+~
+0 0 622
+D1
+~
+~
+0 0 620
+S
+#622
+The Pool~
+   Visibility is low, and murky shapes can be seen swimming underneath the
+water.  This is not the best area of the Holiday Inn.  Only crazed and insane
+guests actually think about coming in this swimming pool.    
+~
+6 d 7
+D0
+~
+~
+0 0 624
+D1
+~
+~
+0 0 623
+D2
+~
+~
+0 0 621
+S
+#623
+A Whirlpool~
+   WRONG MOVE, TIME TO DIE....    
+~
+6 cf 7
+D2
+~
+Gate~
+2 624 622
+S
+#624
+The Pool~
+   Visibility is low, and murky shapes can be seen swimming underneath the
+water.  This is not the best area of the Holiday Inn.  Only crazed and insane
+guests actually think about coming in this swimming pool.    
+~
+6 d 7
+D1
+~
+~
+0 0 625
+D2
+~
+~
+0 0 622
+S
+#625
+The Pool~
+   Visibility is low, and murky shapes can be seen swimming underneath the
+water.  This is not the best area of the Holiday Inn.  Only crazed and insane
+guests actually think about coming in this swimming pool.    
+~
+6 d 7
+D0
+~
+~
+0 0 628
+D1
+~
+~
+0 0 626
+D2
+~
+~
+0 0 623
+D3
+~
+~
+0 0 624
+S
+#626
+The Pool~
+   Visibility is low, and murky shapes can be seen swimming underneath the
+water.  This is not the best area of the Holiday Inn.  Only crazed and insane
+guests actually think about coming in this swimming pool.    
+~
+6 d 7
+D2
+~
+~
+0 0 627
+D3
+~
+~
+0 0 625
+S
+#627
+The Pool~
+   Visibility is low, and murky shapes can be seen swimming underneath the
+water.  This is not the best area of the Holiday Inn.  Only crazed and insane
+guests actually think about coming in this swimming pool.    
+~
+6 d 7
+D0
+~
+~
+0 0 626
+D2
+~
+~
+0 0 619
+D3
+~
+~
+0 0 623
+S
+#628
+Under the Lifeguard Stand~
+   All thats here is a ladder that leads up and a small portion of slippery
+deck that leads back into the pool.  The ladder leads up into the lifeguard's
+stand which doesn't seem to be very sturdy.    
+~
+6 cd 0
+D2
+~
+~
+0 0 625
+D4
+~
+~
+0 0 629
+S
+#629
+Life Guard Stand~
+   This is the lifeguards stand there isn't much you can see from here except
+the pool.  It looks like a bunch of brats are reeking havoc...  Shouldn't the
+lifeguard be doing something?    
+~
+6 d 0
+D5
+~
+~
+0 0 628
+S
+#630
+Entrance to Resturant~
+   Ah, the smell of good 'ol Italian cooking drifts through the door and tempts
+your nostrils.  Just smelling the tangy and sweet smell of spicy tomato sauce
+makes you drool automatically.  The resturant has a friendly environment, along
+with dim lighting and private tables.  To the south is the entrance.    
+~
+6 cd 0
+D0
+~
+~
+0 0 606
+D2
+~
+~
+0 0 631
+S
+#631
+Italian Resturant~
+   Walking into the resturant, the smell of Italian food is overwhelming.  
+Waiters and waitresses are waltzing around patiently, serving grateful guests.
+There is a very peaceful feeling in the air.    
+~
+6 d 0
+D0
+~
+~
+0 0 630
+D1
+~
+~
+0 0 632
+D2
+~
+~
+0 0 633
+S
+#632
+Italian Resturant~
+   Walking into the resturant, the smell of Italian food is overwhelming.  
+Waiters and waitresses are waltzing around patiently, serving grateful guests.
+There is a very peaceful feeling in the air.    
+~
+6 d 0
+D2
+~
+~
+0 0 634
+D3
+~
+~
+0 0 631
+S
+#633
+Italian Resturant~
+   Walking into the resturant, the smell of Italian food is overwhelming.  
+Waiters and waitresses are waltzing around patiently, serving grateful guests.
+There is a very peaceful feeling in the air.    
+~
+6 d 0
+D0
+~
+~
+0 0 631
+D1
+~
+~
+0 0 634
+D2
+~
+tomato~
+1 0 635
+S
+#634
+Italian Resturant~
+   Walking into the resturant, the smell of Italian food is overwhelming.  
+Waiters and waitresses are waltzing around patiently, serving grateful guests.
+There is a very peaceful feeling in the air.    
+~
+6 d 0
+D0
+~
+~
+0 0 632
+D3
+~
+~
+0 0 633
+S
+#635
+Kitchen~
+   The interior of the kitchen is totally different from the peaceful
+resturant.  The blinding white lights beat down on you, while the smell of
+onions and garlic (LOTS of garlic) drift around the room.  Singing can be heard
+from many plump chefs, while they are cooking to perfection.  The main lobby is
+to the north.    
+~
+6 cdg 0
+D0
+~
+tomato~
+1 0 633
+S
+#636
+The Main Hallway~
+   The hallway is dimly lit, serveral doors are on both sides of the hall.  At
+the end of the hall you see a giant door, what could be in there?    
+~
+6 d 0
+D0
+~
+~
+0 0 604
+D2
+~
+~
+0 0 637
+S
+#637
+The Main Hallway~
+   The hallway is dimly lit, serveral doors are on both sides of the hall.  At
+the end of the hall you see a giant door, what could be in there?    
+~
+6 d 0
+D0
+~
+~
+0 0 636
+D1
+~
+~
+0 0 647
+D2
+~
+~
+0 0 638
+S
+#638
+The Main Hallway~
+   The hallway is dimly lit, serveral doors are on both sides of the hall.  At
+the end of the hall you see a giant door, what could be in there?    
+~
+6 d 0
+D0
+~
+~
+0 0 637
+D2
+~
+~
+0 0 639
+S
+#639
+The Main Hallway~
+   The hallway is dimly lit, serveral doors are on both sides of the hall.  At
+the end of the hall you see a giant door, what could be in there?    
+~
+6 d 0
+D0
+~
+~
+0 0 638
+D2
+~
+~
+0 0 640
+S
+#640
+The Corner~
+   Screams and Hollars can be heard from the door to the south.  The hallway
+turns to the east.  Maybe you should check out whats on the other side of the
+door.    
+~
+6 cd 0
+D0
+~
+~
+0 0 639
+D1
+~
+~
+0 0 642
+D2
+~
+door~
+2 640 641
+S
+#641
+The Boxing Ring~
+   This is a big room, it seems men and women from all of Deimos come here to
+test there skills.  There seems to be a match going on right now, maybe you
+should go in there and teach somebody a lesson!    
+~
+6 d 0
+D0
+~
+door~
+1 0 640
+S
+T 604
+#642
+The Hallway~
+   This a long hallway that extends west and east.  There is a turn in the
+hallway to the west and the hallway continues to the west.  This seems to be
+the extention of the Holiday Inn where all the Suites are.  Some opened doors
+give way to nice....  Okay kinda nice....  Okay, okay....  Rooms.    
+~
+6 d 0
+D1
+~
+~
+0 0 643
+D3
+~
+~
+0 0 640
+S
+#643
+The Hallway~
+   This a long hallway that extends west and east.  There is a turn in the
+hallway to the west and the hallway continues to the west.  This seems to be
+the extention of the Holiday Inn where all the Suites are.  Some opened doors
+give way to nice....  Okay kinda nice....  Okay, okay....  Rooms.    
+~
+6 0 0
+D1
+~
+~
+0 0 644
+D3
+~
+~
+0 0 642
+S
+#644
+The Hallway~
+   This a long hallway that extends west and east.  There is a turn in the
+hallway to the west and the hallway continues to the west.  This seems to be
+the extention of the Holiday Inn where all the Suites are.  Some opened doors
+give way to nice....  Okay kinda nice....  Okay, okay....  Rooms.    
+~
+6 0 0
+D1
+~
+~
+0 0 645
+D3
+~
+~
+0 0 643
+S
+#645
+The Hallway~
+   This a long hallway that extends west and east.  There is a turn in the
+hallway to the west and the hallway continues to the west.  This seems to be
+the extention of the Holiday Inn where all the Suites are.  Some opened doors
+give way to nice....  Okay kinda nice....  Okay, okay....  Rooms.    
+~
+6 0 0
+D1
+~
+~
+0 0 646
+D3
+~
+~
+0 0 644
+S
+#646
+The Hallway~
+   This a long hallway that extends west and east.  There is a turn in the
+hallway to the west and the hallway continues to the west.  This seems to be
+the extention of the Holiday Inn where all the Suites are.  Some opened doors
+give way to nice....  Okay kinda nice....  Okay, okay....  Rooms.    
+~
+6 c 0
+D1
+~
+Door~
+1 0 648
+D3
+~
+~
+0 0 645
+S
+#647
+Hotel Room~
+   This is a hotel room gone bad, it looks like Julien has made it his
+permanent home.  Julien is standing by his bed, maybe you should go say hi.  
+~
+6 adf 0
+D3
+~
+~
+0 0 637
+S
+#648
+Outside~
+   Brrrr...  It is freezing out here.  There is a giant view of hills and ski
+slopes that line the side of the VERY nearby mountain.  The bunny hill in
+particular is to the east.  The ground is covered with nice fluffy snow perfect
+for skiing.    
+~
+6 0 0
+D1
+~
+~
+0 0 649
+D3
+~
+~
+0 0 646
+S
+#649
+The entrance to the bunny hill~
+   This hill appears to be very easy, not too many trees in the way, and its
+not very crouded.  The perfect hill for beginners.    
+~
+6 c 0
+D1
+~
+~
+0 0 650
+D3
+~
+~
+0 0 648
+D5
+~
+~
+0 0 665
+S
+#650
+Narrow path~
+   This is the path between trails, to the east is where the more advanced
+trails are.    
+~
+6 0 0
+D1
+~
+~
+0 0 651
+D3
+~
+~
+0 0 649
+S
+#651
+Narrow path~
+   This is the path between trails, to the east is where the more advanced
+trails are.    
+~
+6 0 0
+D1
+~
+~
+0 0 652
+D3
+~
+~
+0 0 650
+S
+#652
+Expert hill~
+   This is the path between trails, to the east is where the more advanced
+trails are.    
+~
+6 c 0
+D1
+~
+~
+0 0 653
+D2
+~
+~
+0 0 681
+D3
+~
+~
+0 0 651
+D5
+~
+~
+0 0 674
+S
+#653
+Trail of Death~
+   This path leads to the immpossibly hard Extreme hill.    
+~
+6 0 0
+D1
+~
+~
+0 0 654
+D3
+~
+~
+0 0 652
+S
+#654
+Trail of Death~
+   This path leads to the immpossibly hard Extreme hill.    
+~
+6 0 0
+D1
+~
+~
+0 0 655
+D3
+~
+~
+0 0 653
+S
+#655
+Trail Of death~
+   This path leads to the immpossibly hard Extreme hill.    
+~
+6 0 0
+D0
+~
+~
+0 0 656
+D3
+~
+~
+0 0 654
+S
+#656
+Trail Of death~
+   This path leads to the immpossibly hard Extreme hill.    
+~
+6 0 0
+D0
+~
+~
+0 0 657
+D2
+~
+~
+0 0 655
+S
+#657
+Trail Of death~
+   This path leads to the immpossibly hard Extreme hill.    
+~
+6 0 0
+D2
+~
+~
+0 0 656
+D4
+~
+~
+0 0 658
+S
+#658
+The steady climb.~
+   Approximately 30 warning signs can be spotted from this one spot!  Maybe its
+time to turn back.    
+~
+6 0 5
+D4
+~
+~
+0 0 659
+D5
+~
+~
+0 0 657
+S
+#659
+The steady climb~
+   Approximately 30 warning signs can be spotted from this one spot!  Maybe its
+time to turn back.    
+~
+6 0 0
+D4
+~
+~
+0 0 661
+D5
+~
+~
+0 0 658
+S
+#660
+New Room~
+Empty room.~
+6 0 0
+S
+#661
+The steady climb~
+   Approximately 30 warning signs can be spotted from this one spot!  Maybe its
+time to turn back.    
+~
+6 0 0
+D1
+~
+~
+0 0 662
+D5
+~
+~
+0 0 659
+S
+#662
+The extreme hill!~
+   Are you brave enough to dare try your luck against the best of the best, if
+the anser is yes, be my guest
+~
+6 c 0
+D3
+~
+~
+0 0 661
+D5
+~
+~
+0 0 682
+S
+#663
+New Room~
+Empty room.~
+6 0 0
+D3
+~
+~
+0 0 662
+S
+#664
+New Room~
+Empty room.~
+6 0 0
+D4
+~
+~
+0 0 649
+S
+#665
+The Bunny Hill~
+   This hill isn't very popular, a few things may get in the way, but not many.
+  
+~
+6 0 0
+D4
+~
+~
+0 0 649
+D5
+~
+~
+0 0 666
+S
+#666
+The Bunny Hill~
+   This hill isn't very popular, a few things may get in the way, but not many.
+  
+~
+6 0 0
+D4
+~
+~
+0 0 665
+D5
+~
+~
+0 0 667
+S
+#667
+The Bunny Hill~
+   This hill isn't very popular, a few things may get in the way, but not many.
+  
+~
+6 0 0
+D4
+~
+~
+0 0 666
+D5
+~
+~
+0 0 668
+S
+#668
+The Bunny Hill~
+   This hill isn't very popular, a few things may get in the way, but not many.
+  
+~
+6 0 0
+D4
+~
+~
+0 0 667
+D5
+~
+~
+0 0 669
+S
+#669
+The Bunny Hill~
+   This hill isn't very popular, a few things may get in the way, but not many.
+  
+~
+6 0 0
+D4
+~
+~
+0 0 668
+D5
+~
+~
+0 0 670
+S
+#670
+The Bunny Hill~
+   This hill isn't very popular, a few things may get in the way, but not many.
+  
+~
+6 0 0
+D4
+~
+~
+0 0 669
+D5
+~
+~
+0 0 671
+S
+#671
+The Bunny Hill~
+   This hill isn't very popular, a few things may get in the way, but not many.
+  
+~
+6 0 0
+D4
+~
+~
+0 0 670
+D5
+~
+~
+0 0 672
+S
+#672
+The Bunny Hill~
+   This hill isn't very popular, a few things may get in the way, but not many.
+  
+~
+6 0 0
+D4
+~
+~
+0 0 671
+D5
+~
+~
+0 0 673
+S
+#673
+The lift~
+   The ski lift is a big machine with red seats and spots for your skis, it
+sure beats walking all the way up again!  Enjoy the Ride.    
+~
+6 0 0
+D0
+~
+~
+0 0 649
+S
+#674
+The Expert Hill~
+   Don't go too fast.  Other skiers, trees and the snow monster are out there,
+waiting to cause trouble.    
+~
+6 0 0
+D4
+~
+~
+0 0 652
+D5
+~
+~
+0 0 675
+S
+#675
+Expert Hill~
+   Don't go too fast.  Other skiers, trees and the snow monster are out there,
+waiting to cause trouble.    
+~
+6 0 0
+D1
+~
+~
+0 0 676
+D4
+~
+~
+0 0 674
+S
+#676
+Expert hill~
+   Don't go too fast.  Other skiers, trees and the snow monster are out there,
+waiting to cause trouble.    
+~
+6 0 0
+D3
+~
+~
+0 0 675
+D5
+~
+~
+0 0 677
+S
+#677
+Expert Hill~
+   Don't go too fast.  Other skiers, trees and the snow monster are out there,
+waiting to cause trouble.    
+~
+6 0 0
+D3
+~
+~
+0 0 678
+D4
+~
+~
+0 0 676
+S
+#678
+Expert Hill~
+   Don't go too fast.  Other skiers, trees and the snow monster are out there,
+waiting to cause trouble.    
+~
+6 0 0
+D1
+~
+~
+0 0 677
+D5
+~
+~
+0 0 679
+S
+#679
+Expert Hill~
+   Don't go too fast.  Other skiers, trees and the snow monster are out there,
+waiting to cause trouble.    
+~
+6 0 0
+D4
+~
+~
+0 0 678
+D5
+~
+~
+0 0 680
+S
+#680
+Expert Hill~
+   Don't go too fast.  Other skiers, trees and the snow monster are out there,
+waiting to cause trouble.    
+~
+6 0 0
+D1
+~
+~
+0 0 681
+D4
+~
+~
+0 0 679
+S
+#681
+Expert Hill Lift~
+   This is another giant red lift.  It leads back up to the highest path.  
+Good Luck and have a nice ride.    
+~
+6 0 0
+D0
+~
+~
+0 0 652
+D3
+~
+~
+0 0 680
+S
+#682
+The extreme hill!~
+   Do you really want to die?  This hill is very dangerous.  Watch out for
+other skiers and trees!    
+~
+6 0 0
+D4
+~
+~
+0 0 662
+D5
+~
+~
+0 0 683
+S
+#683
+The extreme hill!~
+   Do you really want to die?  This hill is very dangerous.  Watch out for
+other skiers and trees!    
+~
+6 0 0
+D4
+~
+~
+0 0 682
+D5
+~
+~
+0 0 684
+S
+#684
+The extreme hill!~
+   Do you really want to die?  This hill is very dangerous.  Watch out for
+other skiers and trees!    
+~
+6 0 0
+D4
+~
+~
+0 0 683
+D5
+~
+~
+0 0 685
+S
+#685
+The extreme hill!~
+   Do you really want to die?  This hill is very dangerous.  Watch out for
+other skiers and trees!    
+~
+6 0 0
+D4
+~
+~
+0 0 684
+D5
+~
+~
+0 0 686
+S
+#686
+The extreme hill!~
+   Do you really want to die?  This hill is very dangerous.  Watch out for
+other skiers and trees!    
+~
+6 0 0
+D4
+~
+~
+0 0 685
+D5
+~
+~
+0 0 687
+S
+#687
+The extreme hill!~
+   Do you really want to die?  This hill is very dangerous.  Watch out for
+other skiers and trees!    
+~
+6 0 0
+D4
+~
+~
+0 0 686
+D5
+~
+~
+0 0 688
+S
+#688
+The extreme hill!~
+   Do you really want to die?  This hill is very dangerous.  Watch out for
+other skiers and trees!    
+~
+6 0 0
+D4
+~
+~
+0 0 687
+D5
+~
+~
+0 0 689
+S
+#689
+The extreme hill!~
+   Do you really want to die?  This hill is very dangerous.  Watch out for
+other skiers and trees!    
+~
+6 0 0
+D4
+~
+~
+0 0 688
+D5
+~
+~
+0 0 690
+S
+#690
+The extreme hill!~
+   Do you really want to die?  This hill is very dangerous.  Watch out for
+other skiers and trees!    
+~
+6 0 0
+D4
+~
+~
+0 0 689
+D5
+~
+~
+0 0 691
+S
+#691
+The extreme hill!~
+   Do you really want to die?  This hill is very dangerous.  Watch out for
+other skiers and trees!    
+~
+6 0 0
+D4
+~
+~
+0 0 690
+D5
+~
+~
+0 0 692
+S
+#692
+The extreme hill!~
+   Do you really want to die?  This hill is very dangerous.  Watch out for
+other skiers and trees!    
+~
+6 0 0
+D4
+~
+~
+0 0 691
+D5
+~
+~
+0 0 693
+S
+#693
+The extreme hill!~
+   Do you really want to die?  This hill is very dangerous.  Watch out for
+other skiers and trees!    
+~
+6 0 0
+D4
+~
+~
+0 0 692
+D5
+~
+~
+0 0 694
+S
+#694
+The extreme hill!~
+   Do you really want to die?  This hill is very dangerous.  Watch out for
+other skiers and trees!    
+~
+6 0 0
+D4
+~
+~
+0 0 693
+D5
+~
+~
+0 0 695
+S
+#695
+The extreme hill!~
+   Do you really want to die?  This hill is very dangerous.  Watch out for
+other skiers and trees!    
+~
+6 0 0
+D4
+~
+~
+0 0 694
+D5
+~
+~
+0 0 696
+S
+#696
+The extreme hill!~
+   Do you really want to die?  This hill is very dangerous.  Watch out for
+other skiers and trees!    
+~
+6 0 0
+D4
+~
+~
+0 0 695
+D5
+~
+~
+0 0 697
+S
+#697
+The extreme hill!~
+   Do you really want to die?  This hill is very dangerous.  Watch out for
+other skiers and trees!    
+~
+6 0 0
+D4
+~
+~
+0 0 696
+D5
+~
+~
+0 0 698
+S
+#698
+The extreme hill!~
+   Do you really want to die?  This hill is very dangerous.  Watch out for
+other skiers and trees!    
+~
+6 c 0
+D4
+~
+~
+0 0 697
+D5
+~
+~
+0 0 699
+S
+#699
+The lift~
+   This lift is very long, it stretches all the way up the extreme hill, should
+you go back for more, or just quit now?    
+~
+6 cdgq 0
+D0
+~
+~
+0 0 662
+D4
+~
+~
+0 0 698
+S
+$~

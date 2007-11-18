@@ -1,0 +1,1835 @@
+#2100
+Cobblestone path~
+   This is a cobblestone path that only leads north.  Surrounding the path is a
+large forest that streches as far as the eye can see.  The sound of animals can
+be heard constantly in the area, and there seems to be some sort of greater
+force watching over the forest and everything near it.  There is a loamy path
+perpendicular to this cobblestone road that leads through the forest.    
+~
+21 0 3
+D0
+Nothing.
+~
+~
+0 0 2101
+D2
+~
+~
+0 0 557
+E
+Old Sign~
+Beware : No newbies should enter ...
+This land is a land from hell. 
+BEWARE
+~
+S
+#2101
+Cobblestone path~
+   This is a cobblestone path the leads to the north and to the south.  To the
+east and west is a large forest filled with animals, for you can hear them all.
+Everyone who enters this forest feels like there is a force greater than them
+watching over the area.    
+~
+21 0 3
+D0
+Nothing.
+~
+~
+0 0 2102
+D2
+~
+~
+0 0 2100
+E
+Field~
+   An empty field, nothing can grow because of the barren, dry, dusty dirt.  
+All you can see is a few corpse in the background and a Chain fence along the
+Field that prevents intruders.    
+~
+S
+#2102
+Cobblestone path~
+   This is a continuation of of the cobblestone path from the north, but also
+leads to the south.  A forest surrounds the path to the east and west, and you
+can see many, many animals running around in the underbrush.  There seems to be
+something peering down upon the area, emanating power.    
+~
+21 0 3
+D0
+Nothing.
+~
+~
+0 0 2103
+D2
+~
+~
+0 0 2101
+S
+#2103
+Cobblestone path~
+   This path goes north and south, with a large forest to the east and west.  
+Filled with animals, the forest seems to pulse with a feeling of peace.  There
+also is a strong feeling of power here.  Something great must guard this
+wonderful forest.  To the north a strange statue can be seen.    
+~
+21 c 3
+D0
+Nothing.
+~
+~
+0 0 2104
+D2
+~
+~
+0 0 2102
+S
+#2104
+Cobblestone Square~
+   This place is called Cobblestone Square.  Four Cobblesone paths meet here.
+To the south is a large forest.  To the east, west, and north , a small village
+sits, and farther to the north is a large castle.  Sitting in the middle of the
+Square is a large statue.    
+~
+21 0 1
+D0
+~
+~
+0 0 2105
+D1
+Nothing.
+~
+~
+0 0 2136
+D2
+~
+~
+0 0 2103
+D3
+~
+~
+0 0 2142
+E
+look knight examine statue~
+   It is a statue of a large Knight.  There seems to be something written upon
+it.  It reads, 'This is the Auzre Knight, protector of this land.  '
+~
+S
+#2105
+Cobblestone road~
+   This cobblestone road is in the midst of a small village.  To the north, a
+castle can be seen, and to the south is Cobbleston Square.  There are houses to
+the east and west, with stairs leading up to a balcony on one of them.    
+~
+21 0 1
+D0
+~
+~
+0 0 2106
+D1
+~
+door~
+1 0 2132
+D2
+~
+~
+0 0 2104
+D3
+~
+door~
+1 0 2130
+S
+#2106
+Cobblestone road~
+   This cobblestone road, in the middle of a small village, leads to a castle
+north, and goes farther in the village south.  To the east and west there are
+beautiful two story houses.    
+~
+21 0 1
+D0
+~
+~
+0 0 2107
+D1
+~
+door~
+1 0 2135
+D2
+~
+~
+0 0 2105
+D3
+~
+door~
+1 0 2133
+S
+#2107
+Garden path~
+   This is a beautiful garden path leading up to the castle gate.  Gardeners
+are working diligently to keep it looking nice.  To the south is a small, but
+quaint, village.    
+~
+21 0 1
+D0
+~
+~
+0 0 2108
+D2
+~
+~
+0 0 2106
+S
+#2108
+Castle gate~
+   This is the entrance gate for the castle where the King and Queen live.  To
+the south is a beautiful garden, filled with bustling gardeners.  To the right
+and left of the gate are tall sculptures of the current Pope.    
+~
+21 c 1
+D0
+~
+gate~
+1 0 2109
+D2
+~
+~
+0 0 2107
+S
+#2109
+Outer Chamber~
+   In the Inner Chamber of the castle, colorful light floods through the
+wonderful stained glass windows.  Up ahead, there are stairs leading to the
+second floor.  There are two doors to the east and the west, and there is a
+stair well leading down.    
+~
+21 d 0
+D1
+~
+undefined~
+1 0 2110
+D2
+~
+gate~
+1 0 2108
+D3
+~
+door~
+1 0 2116
+D4
+~
+~
+0 0 2117
+D5
+~
+~
+0 0 2125
+S
+#2110
+Inner Chamber~
+   This room, the Inner Chamber, is the only way to get to the rest of the
+ground level part of the castle.  There are two plush benches, and one
+grandfather clock here, both of them beautifully constructed.    
+~
+21 d 0
+D0
+~
+~
+1 0 2111
+D1
+~
+~
+1 0 2115
+D3
+~
+~
+1 0 2109
+S
+#2111
+Dining room~
+   This is the elegant dining room of the castle.  There are candles all over
+the place, filling the room with an ominous light.  Servants bustle around the
+table, taking away dirty dishes and replacing them with new delicious dishes.
+To the east is the the pickup area, where the servants get the food to bring to
+the nobles.  The the west is a large bedroom, and from the looks of it, it must
+be the Kings.    
+~
+21 d 0
+D1
+~
+undefined~
+0 0 2114
+D2
+~
+~
+0 0 2110
+D3
+~
+undefined~
+0 0 2112
+S
+#2112
+Kings bedchamber~
+   In the Kings bedchamber, there is a huge, ultra soft, Kingly Kove Bed.  
+Jewels cover the bed, and make it shine with a devine light.  This room
+emanates an elgance found nowhere else, and it's sheer size is amazing.  To the
+east is the castle dining room, and to the west is a door with a diamond shape
+imprinted in it.  Wonder what it is?    
+~
+21 d 0
+D1
+~
+undefined~
+0 0 2111
+D3
+~
+Treasury door~
+2 2108 2113
+S
+#2113
+Treasury~
+   This room is filled with gold and jewels.  The shine from the gold is so
+bright that people have to shield their eyes, so as not to be blinded.  In the
+corner of the room, a little electronic box can be seen.  The treasury guards
+constantly watch over the gold, never letting any of it out of there sight,
+unless by request of the king himself.  The only way out is to the east, back
+to the King's bedchamber.    
+~
+21 d 0
+D1
+~
+Treasury door~
+2 2108 2112
+S
+#2114
+Pick-up room~
+   In the pick-up room, the servants are running around, telling the chefs what
+to make, and then bringing it to the nobles.  The only way out is to the west,
+into the Dining room.    
+~
+21 d 0
+D3
+Nothing.
+~
+~
+0 0 2111
+S
+#2115
+Kitchen~
+   This is the Kitchen, where the master chefs prepare the food for the nobles.
+There are stoves, ovens and MICROWAVES!?!  All around.  There are also cabinets
+filled to the breaking point with pots and pans.  The only way out is to the
+west, back into the Inner Chamber.    
+~
+21 d 0
+D3
+~
+~
+1 0 2110
+S
+#2116
+Ye Olde Royal Can~
+   For those of you who don't know what this room is, look around.  There is a
+toilet, a sink, and a tub.  Just think about it.  Ohh...  And does it smell or
+what!  Someone must have just gone!  Ewwwww...  Don't look in the toilet.    
+~
+21 d 0
+D1
+~
+door~
+1 0 2109
+E
+Look toilet~
+   Oh crikey!  Fat Bastard left us a floater!    
+~
+S
+#2117
+Castle hallway~
+   This is the upstairs hall of the castle.  To the east and the west the hall
+continues.  To the north is the elegant throne room of the royal family.    
+~
+21 d 0
+D0
+~
+~
+0 0 2121
+D1
+Nothing.
+~
+~
+0 0 2118
+D3
+~
+~
+0 0 2122
+D5
+~
+~
+0 0 2109
+S
+#2118
+Castle hallway~
+      Just another hall in the castle.  To the north is a bedroom, and
+to the south is a balcony.    
+~
+21 d 0
+D0
+Nothing.
+~
+door~
+1 0 2119
+D2
+Nothing.
+~
+door~
+0 0 2120
+D3
+~
+~
+0 0 2117
+S
+#2119
+Prince's bedchamber~
+   In the Prince's bedchamber, there are many swords and plates of armor hung up
+on the wall.  There are also many paintings hung on the walls of his room.  Most of
+them have him and Knights in them.  In fact, there is something written on one
+of the paintings.  The only way out is to the south.    
+~
+21 d 0
+D2
+~
+door~
+1 0 2118
+E
+look painting ~
+   That picture is it fair prince!  I've had enough of you coming around and
+asking for pictures, so just leave me alone!    
+~
+S
+#2120
+Balcony~
+   On this balcony, there are many plants, mostly roses, covering the sides.  
+From here, the whole village can be seen.  A wonderful place to survey the
+land.  To the north is the castle hallway.    
+~
+21 0 0
+D0
+Nothing.
+~
+undefined~
+0 0 2118
+S
+#2121
+Throne room~
+   In this room, there is a chair for every member of the royal family, each
+one covered in jewels and gold.  There is also a chair for the royal sorceror
+and advisor, Merlin.  The only way out is to the south, back to the hall.  An
+inscription can be seen on the wall.    
+~
+21 d 0
+D2
+~
+~
+0 0 2117
+E
+Look wall Look Inscription~
+   "E plurbus unim" Hey wait isn't that the United States' motto?!?  Why did
+King Richard steal it?    
+~
+S
+#2122
+Castle hallway~
+   Just another hallway in the castle, leading to the princesses room north,
+and the castle study south.    
+~
+21 d 0
+D0
+~
+door~
+1 0 2123
+D1
+Nothing.
+~
+~
+0 0 2117
+D2
+~
+~
+0 0 2124
+S
+#2123
+Princesses bedchamber~
+   Just from the decor in the room, everyone knows that the princess is very
+prissy.  She has pink frilly sheets, pink walls, pink shades and tiny little
+horsey statuets on her dresser.    
+~
+21 d 0
+D2
+~
+door~
+1 0 2122
+S
+#2124
+Study~
+   Surrounding the study are wall to wall bookshelves, with books filling it
+completely.  In the center is a desk, very neat and orderly, except for a big
+broken cookie jar on the right hand cornor.  There's a note in it.    
+~
+21 d 0
+D0
+~
+~
+1 0 2122
+E
+Look note~
+   DON'T BREAK THIS JAR!    
+~
+S
+#2125
+Steep stairwell~
+   On this steep stair well, it is impossible to see.  One wrong step could
+spell disaster for anyone. Up ahead, a faint russling can be heard, inspiring
+fear in the bravest.    
+~
+21 ad 0
+D4
+~
+~
+0 0 2109
+D5
+Nothing.
+~
+~
+0 0 2126
+S
+#2126
+Steep stairwell~
+   The darkness is very clausterphobic, and the rustling ahead is getting
+louder every moment.  Remember, don't trip, or who know how long you'll be
+falling!    
+~
+21 adu 0
+D4
+~
+~
+0 0 2125
+D5
+~
+~
+0 0 2127
+S
+#2127
+Wine cellar~
+   Looking around the cellar you see...  RATS!  There are rats all over the
+place, and some of them stumble around and smell like booze.  Better watch out,
+this guys look restless, they could do anything.    
+~
+21 d 0
+D1
+~
+~
+0 0 2128
+D4
+~
+~
+0 0 2126
+S
+#2128
+Dank, dark hallway~
+   The occasional rat still runs by your feet...  Or you think they're rats,
+it's to dark to see...  And that noisy rustling is starting to fade.  Up ahead,
+there is a small bit of light, and seems like people moving around.  The way
+back to the surface is still available, maybe you should turn back.    
+~
+21 ad 0
+D1
+~
+~
+0 0 2129
+D3
+~
+~
+0 0 2127
+S
+#2129
+Servants!?! quarters~
+   In the servants quar...  Er...  Um...  Just quarters, no servants, just
+quarters...  In the quarters you've found the servants, or the people who used
+to be servants.  Now they're just...  Bleh!  These...  People...  Have been
+living down here for years.  According to their story, they were servants, but
+some of them woke up with an extra arm one day, and refused to work.  (Might
+have something to do with the green flowing liquid in the corner of the room)
+Anyway, some of the "servants" are pretty badly mutated, so they might attack
+in a deranged rage.  Better get out soon...  Looks that the only way out though
+is to the west, but wait, is that a door on the ceiling?    
+~
+21 d 0
+D3
+~
+~
+0 0 2128
+D4
+~
+Trap door~
+1 0 2107
+S
+#2130
+Disco Stu's house~
+   Well it seems that this man, Disco Stu, is a genius, because in the
+technological age of the area, he has records, sub woofers, disco balls, laser
+lights and everything else you need for an appropriate Disco Pad.  All around the
+room, there are pictures of women, all of them with a little lipstick imprint
+some where on it.  He must be quite a ladies man to have all of those pictures.
+Anyway, to get to the balcony, go up the stairs, duh.  Wait, there seems to be
+something written on the wall in here.    
+~
+21 d 0
+D1
+~
+door~
+1 0 2105
+D4
+~
+~
+0 0 2131
+E
+look inscription wall writing~
+Remember, Disco Stu does not advertise. ;)
+
+                       Disco Stu
+~
+S
+#2131
+Upstairs balcony~
+   This Disco Stu is quite a character, because it seems he is a botanist to.
+There are plants all over the place, even going up the wall.  There's cacti,
+roses, posies and almost every other kind of plant you can think of.  He even
+has a spot for weeds.  The way out is down.    
+~
+21 0 1
+D5
+~
+~
+0 0 2130
+S
+#2132
+The Local Idiots house~
+   You guessed it, the guy who lives here is and idiot...  And it shows.  In
+his left over cereal bowls, there is orange juice instead of milk, and his cat
+is eating dog food while his dog chomps down on some kibbles and bits.  Well,
+at least you can get a good laugh from this guy before you leave.  West that
+is.    
+~
+21 d 1
+D3
+~
+door~
+1 0 2105
+S
+#2133
+Scrooges living room~
+       The only thing that can be seen in here is a nice lounge chair
+facing a fireplace.  It's not a very welcoming place so you better leave.  Uh
+oh, it looks like the door is locked, you'll never get out that way, better go
+up the stairs.    
+~
+21 d 0
+D4
+~
+~
+0 0 2134
+S
+#2134
+Scrooges bedroom~
+   This is Scrooges bedroom, and guess what, the door is locked again, and the
+only way out is a large window.  Maybe you can jump across the alley onto the
+next door neighbors balcony.  I mean honestly, who has doors that lock once you
+go through them?    
+~
+21 d 1
+D2
+~
+~
+0 0 2131
+S
+#2135
+Big Bobs Parsley Shop~
+     It's self explanitory, this is a parsley shop.  Big Bob's to be
+exact.  There is parsley all over the wall, there is even special kinds of
+parsley.  Green parsley, red parsley, even black parsley - eew, don't try the
+black parsley.    
+~
+21 d 1
+D3
+~
+door~
+1 0 2106
+S
+#2136
+Cobblestone road~
+   Just another road in this semi-large village.  To the north is a house, and
+down the drain a light protrudes.  There is also a corn field to the east.    
+~
+21 0 1
+D0
+~
+~
+1 0 2137
+D1
+~
+~
+0 0 2194
+D3
+~
+~
+0 0 2104
+D5
+~
+~
+0 0 2138
+S
+#2137
+Abandoned Old Shack~
+   This run down old shack has been standing on this spot for years, and before
+that, it was a block down.  Most of the roof has fallen or is falling, and one
+or two rats are always around.  Might as well leave, nothing to see here except
+for that little statue that sometimes appears.  Wonder if it's there now.    
+~
+21 d 1
+D2
+~
+~
+1 0 2136
+S
+#2138
+Sewer~
+   Boy does it smell down here...  Well, I guess that's the best you can expect
+for a sewer.  Any way, there are rows of lights hung up on the wall, and,
+looking around a human figure can be seen.  As it turns, it's face can be seen.
+OH NO!  IT'S A MUTATED SERVANT!
+~
+21 i 1
+D1
+~
+~
+0 0 2139
+D4
+~
+~
+0 0 2136
+S
+#2139
+Sewer~
+   Just another part of the mutated servant infested sewer.  Well, if they
+haven't attacked yet, why not just keep going?  It could be fun.  Except for
+the fact that there is a terrible smell coming the room to the east.  DON'T GO
+IN THERE!  IT'S MUCH TO DANGEROUS!    
+~
+21 ci 1
+D0
+~
+~
+0 0 2140
+D1
+Nothing.
+~
+~
+0 0 2141
+D3
+~
+~
+0 0 2138
+S
+#2140
+Criminal's hideout~
+   As expected, it's just another- Hey!  This isn't just another part of the
+sewer.  There are people here, and they don't look to happy.  There are bags
+with money in them, almost falling out of them.  There is also a big rack of weapons.
+This is not good.    
+~
+21 i 1
+D2
+~
+~
+0 0 2139
+S
+#2141
+Crapfall~
+   The smell is this room is so terrible it is's hard to keep conscious.  There is
+so much crap in this room that it's smell seems to have been imbedded in the
+walls.  Uh oh, that sound, it a toilet flushing!  Better get out fast!  Oh no!
+The exit has been covered by a crapfall.  Going through there could result in
+death!  Now there's no way out!    
+~
+21 i 1
+S
+#2142
+Cobblestone road~
+   This another part of the cobblestone road that leads through the small
+village.  To the north is the local police station, and to the east is a
+continuation of the road.  Also, to the south, there is a very small forest
+path.    
+~
+21 0 1
+D0
+~
+door~
+1 0 2143
+D1
+~
+~
+0 0 2104
+D2
+~
+~
+0 0 2145
+D3
+~
+~
+0 0 2144
+S
+#2143
+Police station~
+   In the police station the large police chief sits at his desk waiting for
+the call to right any wrong.  Sitting next to him on a bench is the Lieutenant,
+the police chief's assistant and confidant.  On the wall is a sign with
+something written on it.    
+~
+21 d 1
+D2
+~
+door~
+1 0 2142
+E
+Look sign writing wall~
+   All ye who darith to breakith the lawith, beith preparedith toith getith
+yourith assith kickedith.    
+~
+S
+#2144
+Cobblestone road~
+   Just more of the cobblestone road.  To the north is a berry patch, and even
+more of the cobblestone road goes east and west.    
+~
+21 0 1
+D0
+Nothing.
+~
+~
+0 0 2146
+D1
+~
+~
+0 0 2142
+D2
+~
+~
+0 0 -1
+D3
+~
+~
+0 0 2147
+S
+#2145
+Small forest path~
+   This small forest path is exactly that, a small path through the forest.  
+To the west it gets darker, probably because of the trees' density.  Back to
+the north is the cobblestone path.    
+~
+21 c 3
+D0
+~
+~
+0 0 2142
+D3
+Nothing.
+~
+~
+0 0 2151
+S
+#2146
+Berry Patch~
+   This is a large berry patch, but it seems about half of the berries have
+been picked off the bushes.  There is a small path leading through the path,
+but it just seems to smaller and smaller, and eventually ends about half way
+throught the patch.  Might as well just go back from wence you came.    
+~
+21 0 1
+D2
+~
+~
+0 0 2144
+S
+#2147
+Cobblestone road~
+   This is the end of the cobblestone road.  It stops up against the forest
+with a small path leading into it.  Back to the east is the small village, and
+to the west is a small path leading into the forest.    
+~
+21 0 1
+D1
+~
+~
+0 0 2144
+D3
+~
+~
+0 0 2148
+S
+#2148
+Small forest path~
+   On this small forest path, the sound of the forest animals is almost over
+whelming.  Trees surround this path, making it impossible to venture into the
+forest itself.  Back to the east is a cobblestone path, and the path continues
+to the west.    
+~
+21 c 3
+D1
+Nothing.
+~
+~
+0 0 2147
+D3
+~
+~
+0 0 2149
+D4
+~
+~
+0 0 -1
+S
+#2149
+Small forest path~
+   Down this small path, animals frequently walk by, and the sound of almost
+every animal in the known area can be heard.  The trees around here are huge,
+and farther down to the west it gets darker and darker.  The forest canopy is
+blocking out all of the light.  Maybe it'd be best just to go east, to the
+light.    
+~
+21 0 1
+D1
+~
+~
+0 0 2148
+D3
+~
+~
+0 0 2150
+S
+#2150
+Very dim forest path~
+   The trees seem to get thicker here and because of that it is very dim.  
+Towards the south it gets very dark, but back to the east it is lighter.  The
+path to the east seems much safer, and the southern trail just emanates a
+dangerous aura.    
+~
+21 0 3
+D0
+~
+~
+0 0 2500
+D1
+~
+~
+0 0 2149
+D2
+~
+~
+0 0 2169
+S
+#2151
+Dark forest path~
+   This path is barley big enough to accomodate anyone, and with all the animal
+noises, it is quite frightening.  The path turns to the south, but it's too
+dark to see what's up there, and to the east it is lighter, probably leading
+back to the village that can be seen through the trees.    
+~
+21 a 1
+D0
+Nothing.
+~
+~
+0 0 2152
+D1
+~
+~
+0 0 2145
+D2
+~
+~
+0 0 -1
+S
+#2152
+Dark forest path~
+   On this dark forest path, it is impossible to see anything without a light,
+and even with the light, there is hardly anything worth seeing.  The only ways
+out are to the west and south, but if the trail in those directions is anything
+like this is, there isn't really any point in going.    
+~
+21 0 1
+D0
+~
+~
+0 0 -1
+D1
+~
+~
+0 0 -1
+D2
+~
+~
+0 0 2151
+D3
+~
+~
+0 0 2153
+S
+#2153
+Dark forest path~
+   The darkness surrounding this path seems to pull stupid travelers into the
+dangerous depths of the tree filled forest, and for some, their doom.  It's be
+best just to stay on the path to the west or east, though there seems to
+something to the north, too.    
+~
+21 a 3
+D0
+~
+~
+0 0 2155
+D1
+~
+~
+0 0 2152
+D3
+~
+~
+0 0 2154
+S
+#2154
+Dark forest path~
+   The darkness all around the path is most annoying, and as the rumors say,
+too much causes people to go insane.  Maybe it'd be best just to get back to
+the village as fast as possible, but most of the bravest travelers just keep
+going down the trail to the west.    
+~
+21 a 3
+D1
+~
+~
+0 0 2153
+D3
+~
+~
+0 0 2161
+E
+SIGN~
+Welcome to Amon Su`l Castle, if you are not evil you should already be dead!  
+But come in and BEWARE HAHAHAHA!!!    
+~
+S
+#2155
+Forest clearing~
+   In this clearing, a statue is sits in the center of a large circle of
+smaller statues.  The large statue is of a knight, and strangly, it looks
+exactly like the statue in Cobblestone Square.  It would probably be best to go
+back onto the path, but there also seems to be a smaller path to the north.  
+There is also another clearing to the east...  And it is light.  Wait a minute,
+there seems to be something inscripted on the statue.    
+~
+21 a 3
+D0
+~
+~
+0 0 2156
+D1
+~
+~
+0 0 2157
+D2
+~
+~
+0 0 2153
+E
+look statue inscription writing~
+   Do not be turned away, this is the same Knight from the village.  The Auzre
+knight protects the city, but destroys all who wander into the forest.  So...
+Beware the Auzre Knight, he WILL destroy you at every chance he gets.  Do not
+go to the...    
+~
+S
+#2156
+Tunnel entrance~
+   Strangly this is the entrance to a tunnel that just seems to form out of the
+trees.  Thankfully, there are some torches that lead through the tunnel,
+lighting up the whole thing.  Now there's a choice, go through the mysterious
+tunnel to the north, or head back to the clearing to the south.    
+~
+21 0 3
+D0
+~
+~
+0 0 2167
+D2
+~
+~
+0 0 2155
+S
+#2157
+Strange forest clearing.~
+   This clearing seems very strange, for all of the animals that used to clog
+the forest with sound are gone.  Not a single animal can be seen or heard,
+filling the area with an eerie silence.  To the east is a small building, and to
+the west is the statue of the Knight.    
+~
+21 c 3
+D1
+~
+~
+0 0 2158
+D3
+~
+~
+0 0 2155
+S
+#2158
+A small strange house~
+   For some reason, a person built a house right in the middle of the forest.
+It's really small, and very run down, but some one is obviously living here,
+because there are some food scraps on the table.  The owner must be out, but
+out where, and to do what?  There is another room to the north, and there are
+some stairs leading down to the basement.  Going to the west will bring you
+back into the clearing.    
+~
+21 d 0
+D0
+~
+~
+1 0 2159
+D3
+~
+~
+0 0 2157
+D5
+~
+~
+0 0 2160
+S
+#2159
+Assembly chamber~
+   On every side of this room there are a number of benches.  This must be a
+staging area, or something like a church.  There is a sign on the wall, and
+pictures all around of people, but they look different.  They don't seem to be
+people at all, but strange creatures that used to be humans.  Back to the south
+is the main room, and to the west is...  Another room...  Or something....    
+~
+21 d 0
+D2
+~
+~
+1 0 2158
+D3
+~
+~
+0 0 2182
+E
+sign~
+   Worship services held every Sunday and Wednesday at 8:00 am       
+~
+S
+#2160
+The basement~
+   This place seems to be where the house owner keep all of their food, but
+there is a pretty large amount of food for one or two people.  The food doesn't
+look like normal food either, it's orange and purple, and it seems like some of
+it might still be moving.  Some stairs are leading up and out of here, and to
+the north is another room.    
+~
+21 d 0
+D0
+~
+~
+0 0 2183
+D4
+~
+~
+0 0 2158
+S
+#2161
+Dead end~
+   Just another dark forest path, and there doesn't seem to be any obvious way
+out, so it's probably best to go back to the east.  OH NO!  THE PATH HAS BEEN
+COVERED, THE PLANTS SEEM TO HAVE GROWN OVER IT JUST TO KEEP PEOPLE FROM
+LEAVING!.  Gulp...  I guess that is painfully obvious now...  There are bones
+scattered all over the place. There must be a way out somewhere!
+~
+21 ac 3
+D5
+Nothing.
+~
+~
+0 0 2162
+S
+#2162
+Mysterious tunnel passageway~
+   Well, besides that fact that one of the ways into here is a high fall from
+the top of the tunnel, and the small layer of water on the ground, it's a
+pretty happy place.  It's pretty happy if water dripping on your head and the
+darkness all around is normal conditions.  Anyway, the only way to go now is to
+the north.    
+~
+21 ac 3
+D0
+~
+~
+0 0 2163
+S
+#2163
+Mysterious tunnel passageway~
+   It's dark, dreary and damp.  The 3 d's.  That's never good.  Always the best
+conditions for monsters.  Oh well, don't be scared.  The only ways to go are
+south and east.    
+~
+21 ai 3
+D1
+~
+~
+0 0 2164
+D2
+~
+~
+0 0 2162
+S
+#2164
+Mysterious tunnel passageway~
+   Right now, the ceiling is beggining to get lower, and the dripping is
+getting faster.  Must be under a lake or river.  To the east and west is the
+rest of this tunnel.    
+~
+21 ai 3
+D1
+~
+~
+0 0 2165
+D3
+~
+~
+0 0 2163
+S
+#2165
+Mysterious tunnel passageway~
+   The drip, drip, drip ,Drip, DRip, DRIp, DRIP, DRIP!  Of the water gets quite
+annoying, but there's nothing anyone can do about that.  To the west is the
+other part of this passage, and to the east is the rest.    
+~
+21 ai 3
+D1
+~
+~
+0 0 2166
+D3
+~
+~
+0 0 2164
+S
+#2166
+Mysterious tunnel passageway~
+   In the darkness, the dripping of the water, and the russle of rocks every
+once in a while can make the jumpy traveler even jumpier.  To the west is most
+of the tunnel, and at the back of the tunnel wall is a ladder leading up into
+the darkness.    
+~
+21 aci 3
+D3
+~
+~
+0 0 2165
+D4
+~
+~
+0 0 2167
+S
+#2167
+Strange forest tunnel~
+   This tunnel seems to have just formed out of the trees, but there are
+torches to light the way, so it's way better than the rest of the forest.  To
+the south is the tunnel entrance, and to the north is the rest of this tunnel.
+There is also a ladder on the side of the tunnel leading downward.    
+~
+21 i 3
+D0
+~
+~
+0 0 2168
+D2
+~
+~
+0 0 2156
+D5
+~
+~
+0 0 2166
+S
+#2168
+Strange forest tunnel~
+   This tunnel is very bright, but there is no sunlight, so it makes it sort of
+dreary.  To the north is the rest of the tunnel, and a ways to the south is the
+tunnel exit.    
+~
+21 i 3
+D0
+~
+~
+0 0 2175
+D2
+~
+~
+0 0 2167
+S
+#2169
+Dark forest path~
+   On this path, the darkness covers everything.  If not for a light, it would
+be to dark to see anything.  To the north is a brighter part of the path, and
+to the south is more darkness.    
+~
+21 a 3
+D0
+~
+~
+0 0 2150
+D2
+~
+~
+0 0 2170
+S
+#2170
+Dark forest path~
+   The tress block out so much of the suns light, it's impossible to see
+anything without a light.  The animals still make lots of noise, and it's just
+like the begining of the path, but dark.  To the south is some sort of tunnel
+entrance, and the the north is some more darkness.    
+~
+21 a 3
+D0
+~
+~
+0 0 2169
+D2
+~
+~
+0 0 2171
+S
+#2171
+Tunnel entrance~
+   Here is the begining of a strange tunnel that just forms out of the trees.
+There are torches lining the tunnel walls, so it's light.  To the north is the
+dark forest path, and to the south is the mysterious tunnel.  There is also a
+sign stuck in the ground here.    
+~
+21 0 3
+D0
+~
+~
+0 0 2170
+D2
+~
+~
+0 0 2172
+E
+sign~
+   All of ye who enter this area, beware!  Beware the Auzre Knight, he will
+destroy all who get to close.  BEWARE!!    
+~
+S
+#2172
+Strange forest tunnel~
+   In this tunnel, fallen leaves line the floor, and birds still sing their
+beautiful songs.  To the south, the rest of the tunnel can be seen and to the
+north is the tunnel entrance.    
+~
+21 i 3
+D0
+~
+~
+0 0 2171
+D2
+~
+~
+0 0 2173
+S
+#2173
+Strange forest tunnel~
+   From the tree's that make the tunnel, birds ocasionally dip down and grab a
+bug or two.  Even though there are more birds trying to eat, the sound of
+animals has lessened greatly, wonder what that means.  Oh well, to the north is
+a little bit of the tunnel, and to the south is the rest of the tunnel.    
+~
+21 i 3
+D0
+~
+~
+0 0 2172
+D2
+~
+~
+0 0 2174
+S
+#2174
+Strange forest tunnel~
+   This tunnel seems very long, and the fact that there has been no sunlight
+seen for a while would start to wear on anyone.  The animal noise has again
+dropped, and less birds are dropping down to eat, increasing the amount of
+pestering bugs.  To the north and south is some more of the tunnel, and to the
+east is a smaller branch of the tunnel.  There is also a sign posted on the
+wall.    
+~
+21 i 3
+D0
+~
+~
+0 0 2173
+D1
+~
+~
+0 0 2176
+D2
+~
+~
+0 0 2175
+E
+sign~
+   Be warned, the path to the east is the entrance of the Auzre Knights domain.
+The paths to the south and north are safe, so it is advised to take those.    
+~
+S
+#2175
+Strange forest tunnel~
+   In this tunnel, the trees seem to form a roof, stopping all natural light
+from seeping through to touch the traveler.  That is not a very good thought,
+but it's the only one to think about.  To the north is the rest of the tunnel,
+and to the south is a bit of the tunnel.    
+~
+21 i 3
+D0
+~
+~
+0 0 2174
+D2
+~
+~
+0 0 2168
+S
+#2176
+Stone tunnel~
+   Well, this tunnel is different from the tunnel that can be seen to the west,
+for that one seems to be made out of the trees in the forest.  Anyway, to the
+east is more of the tunnel, and to the west is a different tunnel.    
+~
+21 ci 3
+D1
+~
+~
+0 0 2177
+D3
+~
+~
+0 0 2174
+S
+#2177
+Stone tunnel~
+   The walls in this stone tunnel seem to be closing in the farther the tunnel
+stretches.  Too much farther and the walls will be to tight to fit anyone.  To
+the west is some more of the tunnel, and to the east the tunnel just stops.  
+
+~
+21 i 3
+D1
+~
+~
+0 0 2178
+D3
+~
+~
+0 0 2176
+S
+#2178
+Large tunnel entrance~
+   Looking at the flashy decorations and statues, ect.  , it is a huge contrast
+to the actual size of the tunnel that sits at the bottom of this huge temple,
+it seems.  To the west is the tunnel, to the south is another path, and some
+stairs are leading up onto the upper levels of this temple.    
+~
+21 c 3
+D2
+~
+~
+0 0 2179
+D3
+~
+~
+0 0 2177
+D4
+~
+~
+0 0 2187
+S
+#2179
+Forest path~
+   Down this forest path, many animals can be heard all around.  The sound of
+animals moving in the underbrush is very loud, and almost overwhelming.  To the
+south is a some sort of clearing, and to the north is a large temple.    
+~
+21 c 3
+D0
+~
+~
+0 0 2178
+D2
+~
+~
+0 0 2180
+S
+#2180
+Someone's backyard~
+   Well, this seems to be someones backyard...  Or...  A lot of someones back
+yards.  It seems that a lot of...  Um...  People...  Are walking around back
+here, but they don't seems to be regular healthy humans.  What could be wrong
+with them, and maybe it's not such a good idea to be hanging around with
+"people" like this.  To the south is a patio, and to the north is a forest
+trail.    
+~
+21 0 3
+D0
+~
+~
+0 0 2179
+D2
+~
+~
+0 0 2181
+S
+#2181
+Back patio~
+   Well, there are some strange "people" walking around here, and they seem to
+be having a BBQ.  Instead of having hamburgers and hotdogs though, they are
+eating some sort of strange orange and purple stuff.  None of it looks very
+tastey.  Anyway, to the south is a house and to the north is this houses
+backyard.    
+~
+21 0 3
+D0
+~
+~
+0 0 2180
+D2
+~
+~
+0 0 2182
+S
+#2182
+A very strange room~
+   In this, well, room, the walls are completely covered in a strange,
+pulsating slime.  It drips down from the cieling onto the floor, and then seems
+to move back onto the walls and cieling.  To the east is another room, and to
+the north is a back patio.  Wait, it seems that some of the slime might even be
+intelligent...  And mean.    
+~
+21 0 3
+D0
+~
+~
+0 0 2181
+D1
+~
+~
+0 0 2159
+S
+#2183
+The basement bedrooms~
+   It is obvious now that the all the food in the other room isn't just for one
+person but alot of people, for there are alot of bunk beds against the wall,
+for many people To the south is a food storage area, and to the east is a sort
+of dining room.    
+~
+21 0 3
+D1
+~
+~
+0 0 2184
+D2
+~
+~
+0 0 2160
+S
+#2184
+The dining hall~
+   This is a sort of crude dining hall.  There is a large, long table in the
+center of the room, with many chairs, about fifty at least.  Many people must
+eat here, though it's easy to tell that they are not very clean, because there
+are many dirty plates sitting on the table.  To the west is a sort of bed room,
+and to the north is a kitchen.    
+~
+21 d 0
+D0
+~
+~
+0 0 2185
+D3
+~
+~
+0 0 2183
+S
+#2185
+The kitchen~
+   Down here, even with all the people that eat here, there is only one stove,
+one fridge, and one oven.  How these people survive, it is impossible to know.
+To the south is a dining hall, and to the west is a very strange room.    
+~
+21 d 3
+D2
+~
+~
+0 0 2184
+D3
+~
+~
+0 0 2186
+S
+#2186
+A strange room~
+   This room is very strange.  There are several tables down here, and there is
+some sort of red stuff, maybe blood, splattered on the walls, floor, and
+tables.  Maybe this is a place where someone sacrafices things...  Maybe
+people...  Hopefully not, but maybe it'd be best to get out of here anyway.  
+To the east is a kitchen, the only way out.    
+~
+21 d 3
+D1
+~
+~
+0 0 2185
+S
+#2187
+2nd temple floor~
+   On the 2nd floor of the temple, it's easy to see how far the forest
+stretches.  Up above the forest, many birds can be seen, flying in the air.  
+Just think of all the animals in the forest, there are probably to many to
+count.  There are some stairs leading up and down, and to the north is a small
+room.    
+~
+21 0 3
+D0
+~
+~
+0 0 2188
+D4
+~
+~
+0 0 2189
+D5
+~
+~
+0 0 2178
+S
+#2188
+Candle room~
+   This room is almost completely filled with candles, filling the room with an
+eerie glow.  All of these candles must have some sort of importance to someone,
+or there would be no point to a large temple in the middle of the forest.  To
+the south is the outer part of the temple.    
+~
+21 d 0
+D2
+~
+~
+0 0 2187
+S
+#2189
+3rd temple floor~
+   On the third floor of the temple it's possible to see even farther than the
+lower level.  But even though it's higher, it's impossible to see anything but
+forest.  This must be a very big forest.  Some stairs are here, leading to the
+2nd and 4th floor of the temple, and there is also another room to the north.
+  
+~
+21 0 3
+D0
+~
+~
+0 0 2190
+D4
+~
+~
+0 0 2191
+D5
+~
+~
+0 0 2187
+S
+#2190
+The Eternal Flame~
+   Right smack dab in the center of this room is a flame.  A really big ETERNAL
+flame, that is.  The flames heat can be felt from the door, and what is really
+perplexing is, how come there is no smoke in this room?  To the south is the
+outer part of this level.    
+~
+21 d 0
+D2
+~
+~
+0 0 2189
+S
+#2191
+4th temple floor~
+   There!  Finally!  The castle can be seen from here, and the end of the
+forest can also be seen.  Past the end, some grasslands can be seen.  Some
+stairs here lead to the top and the 3rd floor of the temple.  There is also a
+room to the north.    
+~
+21 0 3
+D0
+~
+~
+0 0 2192
+D4
+~
+~
+0 0 2193
+D5
+~
+~
+0 0 2189
+S
+#2192
+The Smoke room~
+   This room *cough* is filled with smoke.  *cough* Well, *cough* it seems
+there is *cough* a hole in the floor.  *cough* That must be *cough* where the
+smoke is coming from.  *cough* It's probably be best *cough* to leave now.  
+*cough* To the south *cough* is the way out.  *cough*
+~
+21 d 0
+D2
+~
+~
+0 0 2191
+S
+#2193
+Temple's top floor~
+   Well this is the top of the temple, the very tip top.  Looking out over the
+forest, it's possible to see the small village at the end of the trees.  Well,
+now that the top has been reached, it kinda makes ya think who the temple was
+built for.  Maybe it was some god, or...  Maybe the...  Gulp...  Azure Knight.
+That would not be good, especially if anyone gets caught trespassing on his
+sacred temple.  Anyway, the stairs lead down only.    
+~
+21 0 3
+D5
+~
+~
+0 0 2191
+S
+#2194
+A corn field~
+   Well, this corn field is completely uninteresting.  There is nothing around
+but corn.  To the west is a small town, and to the east and north is more of
+the corn field.    
+~
+21 c 2
+D0
+~
+~
+0 0 2199
+D1
+~
+~
+0 0 2195
+D3
+~
+~
+0 0 2136
+S
+#2195
+A corn field~
+   Well, this corn field looks exactly like the rest of the corn field.  
+There's lot's of corn, and lot's more corn, but not much else.  To the east,
+north, and west is more corn.    
+~
+21 0 2
+D0
+~
+~
+0 0 2198
+D1
+~
+~
+0 0 2196
+D3
+~
+~
+0 0 2194
+S
+#2196
+A corn field~
+   This corn field is quite boring, and there is really no point in being here,
+so why not just leave?  To the north and west is more corn.    
+~
+21 0 2
+D0
+~
+~
+0 0 2197
+D3
+~
+~
+0 0 2195
+S
+#2197
+A corn field~
+   All the corn in this corn field is liable to make someone hungry, and it's
+amazing one of the workers in this field has not eaten it yet.  To the south
+and west is more corn.    
+~
+21 0 2
+D2
+~
+~
+0 0 2196
+D3
+~
+~
+0 0 2198
+S
+#2198
+A corn field~
+   In this corn field it is impossible to see anything but corn, corn, and
+corn.  To the south, east, and west is more corn.    
+~
+21 0 2
+D1
+~
+~
+0 0 2197
+D2
+~
+~
+0 0 2195
+D3
+~
+~
+0 0 2199
+S
+#2199
+A corn field~
+   Corn, corn, corn and more corn.  I wonder why there's so much corn here.  
+Wait a minute!  It's a corn field!  Duh!  To the east and south is more corn.
+  
+~
+21 0 2
+D1
+Nothing.
+~
+~
+0 0 2198
+D2
+~
+~
+0 0 2194
+S
+$~

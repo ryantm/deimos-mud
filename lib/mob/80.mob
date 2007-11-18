@@ -1,0 +1,136 @@
+#8000
+citizen~
+an Ivten citizen~
+An Ivten citizn is walking around here.
+~
+   Despite barely surviving through a brutal war, the Ivten citizens are a very
+brave and proud group.  For centuries, they have had close relationships with
+the Titans, who constantly protect them from harm.    
+~
+88 28 -1000 E
+50 10 0 25d25+5100 7d7+10
+187500 2500000
+12 12 1
+E
+#8001
+angel~
+a holy angel~
+A holy angel sits in the citadel here.
+~
+   An angel is here!  Maybe it's the protector of the citadel from the
+~
+74 4152 1000 E
+20 15 4 20d20+400 10d10+5
+20000 400000
+12 12 2
+BareHandAttack: 10
+E
+#8002
+beast little~
+a little beast~
+A little beast is trying to take a bite out of you! Kill it! Kill it!
+~
+   Let's see, it looks like a cross between a dog and a rabbit.  That plus the
+fact that it has six huge fans sticking out of it's mouth.  Not your average
+Furbie.    
+~
+42 8 -1000 E
+9 18 7 9d9+81 4d4+2
+4050 36000
+12 12 1
+BareHandAttack: 4
+E
+#8003
+Ivten Titan~
+an Ivten titan~
+An Ivten titan stands here.
+~
+   Saved by the warriors of Phobos and the powers of Garumeth, the Titans once
+again live within the walls of their castle.  With a greater sense of
+responsibility, they take care of the Ivten citizens, and constantly remind
+themselves never to trust a demon again.    
+~
+8 0 -200 E
+45 11 -1 22d22+4150 6d6+9
+151875 2025000
+12 12 0
+E
+#8004
+field mouse~
+a field mouse~
+A small field mouse is running around here.
+~
+It looks unfinished.
+~
+8 1024 20 E
+4 19 8 4d4+16 2d2+1
+800 16000
+12 12 1
+E
+#8005
+prophecy~
+the Prophecy~
+The Prophecy stands here...contemplating existence.
+~
+   He's over a thousand years old.  Surviving through hundreds of events
+including the Ivten wars.  He refuses to tell you his real name, but you are
+sure he knows something you need to know.    
+~
+8 0 500 E
+50 8 -5 50d50+2500 25d25+12
+125000 2800000
+12 12 1
+E
+#8006
+titan keeper~
+the Titan Keeper~
+The Keeper of the Titan sits in side of the room
+~
+   An enourmous man, from a distance he looks like a statue.  His eyes are a
+deep blue hue and he is equipped with grey armor.    
+~
+8 0 500 E
+60 5 -8 60d60+3600 30d30+15
+180000 4080000
+12 12 1
+BareHandAttack: 5
+E
+#8007
+undefined~
+the unfinished mob~
+An unfinished mob stands here.
+~
+It looks unfinished.
+~
+8 0 0 E
+66 4 -9 66d66+4356 33d33+16
+217800 4356000
+12 12 1
+E
+#8009
+Garumeth titan~
+Garumeth, the Titan~
+Garumeth, the Titan, stares deeply into your soul
+~
+   Finally been released from his torment.  Garumeth, long trapped in the blue
+crystal, has
+~
+1040395 8388736 0 E
+100 0 10 30d30+20100 14d14+20
+750000 10000000
+12 12 1
+SpecProc: gmzone
+E
+#8099
+mob unfinished~
+Beer's friend~
+An unfinished mob stands here.
+~
+It looks unfinished.
+~
+8 0 0 E
+0 20 0 1d1+0 1d1+0
+0 0
+12 12 0
+E
+$

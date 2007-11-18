@@ -1,0 +1,569 @@
+#1500
+BalDor Wizard~
+BalDor the Wizard~
+BalDor the Wizard is here Hypnotyzing you.
+~
+He wants to take over Phobos and trap all your minds.
+~
+42 0 0 E
+60 5 -8 60d60+4000 5d20+15
+180000 100000000
+12 12 0
+E
+#1501
+Big Thunder Golem~
+a Big Thunder Golem~
+A Big Thunder Golem lunges forward.
+~
+It has an Evil Look in it's Eyes.
+~
+42 0 0 E
+30 13 1 30d30+900 15d15+7
+45000 960000
+12 12 0
+E
+T 1501
+#1502
+Forest Man~
+the Biotch~
+The Biotch is hear to destroy Phobos
+~
+It has an Evil look in It's eyes
+~
+42 0 0 E
+15 17 5 15d15+225 7d7+3
+11250 120000
+12 12 0
+E
+T 1502
+#1507
+Cardinal Tonocai~
+the Cardinal Tonocai~
+The Cardinal Tonocai stands here overlooking his Diocese.
+~
+   He is a very pious man and has his hands clasped together under his robe of
+red.  His hair is grey because of his great age but he still has the capacity
+to move around quite well.  His presance seems to calm people and bring them
+toward His God.    
+~
+221258 4224 1000 E
+65 4 -9 65d65+4225 32d32+16
+211250 1478750
+12 12 1
+BareHandAttack: 10
+E
+#1513
+Thomas Tillquin ~
+Thomas Tillquin ~
+Thomas Tillquin Master Scribe of Phobos sits here going over records, and writing his own.
+~
+   He is a short man.  The main feature about him is his glasses which hide owl
+eyes.  His hair is white and flowing but He doesn't look too old yet.  He is
+the Master Scribe of Phobos, Its is a very renowned position and requires a lot
+of work.  Work he can ha but organization is another thing.    
+~
+8 0 0 E
+50 8 -5 50d50+2500 25d25+12
+125000 2500000
+12 12 1
+E
+#1521
+Quillary Donovan~
+the Quill-Master Quillary Donovan ~
+Quillary Donovan sits here behind his desk, organizing the latest(well 10 year old) shipment of parchments.
+~
+   Quillary is a very small man who sits on a stool behind his very dusty desk
+for most of his time.  He has a small loft which lies above the ground floor
+with all the parchments where he sleeps.  He wears a set of half-moon glasses
+that has each end connected by a chain so he an wear them around his neck, and
+not lose them.  He waits ready to sell you a variety of quills and writing
+receptacles.    
+~
+516123 0 0 E
+100 0 10 30d30+20100 14d14+20
+750000 10000000
+12 12 0
+E
+#1524
+Charles Rigsbee Fourth~
+Charles Rigsbee the Fourth~
+Charles Rigsbee the Fourth stands here behind the bar, filling orders of only the people he likes.
+~
+   He is a very large man with only one eye, the other was obviously lost in a
+bar fight of many years past.  He must weigh around 350 pounds, and wears a
+large green smock which is completely drenched in sticky alocoholic beverages.
+He wears a sneering grin as he goes up and down the bar only helping the people
+he likes.  Since he doesn't like you, it takes you forever to get his
+attention.    
+~
+516106 0 0 E
+100 0 10 30d30+20100 14d14+20
+750000 10000000
+12 12 0
+E
+#1540
+Wandering Wizard~
+the Grey Magician~
+@
+~
+It looks unfinished.
+~
+8 0 0 E
+0 20 0 1d1+0 1d1+0
+0 0
+12 12 0
+E
+#1541
+Clan Guard~
+Clan Guard~
+A buff Clan guard blocks your path.
+~
+He is a clan guard
+~
+354315 0 0 E
+66 7 3 30d30+8812 9d9+13
+326700 4356000
+12 12 0
+SpecProc: clan_guard
+E
+#1542
+clan guard~
+a Clan Guard~
+A buff Clan Guard blocks your path.
+~
+He is a clan guard.
+~
+262155 0 0 E
+66 7 3 30d30+8812 9d9+13
+326700 4356000
+12 12 0
+SpecProc: clan_guard
+E
+#1544
+Clan Guard~
+Clan Guard~
+A buff Clan Guard blocks your path.
+~
+It is a clan guard.
+~
+262155 0 0 E
+200 -20 10 30d30+80100 28d17+40
+3000000 10000000
+12 12 0
+SpecProc: clan_guard
+E
+#1550
+Dead Meat Monster~
+the Dead Meat Monster~
+This Monster is DEAD MEAT!
+~
+WOW! Really easy.
+~
+14 0 -200 E
+1 20 10 1d2+5 1d1+0
+250 50
+12 12 1
+BareHandAttack: 13
+E
+T 1550
+#1551
+Dwight the Dwarf~
+&YDwight the Dwarf&n~
+&YDwight the Dwarf&n
+~
+   &YDwight the Dwarf is short but he doesn't tire easily.  He also looks
+pretty mean and dangerous.  &n
+~
+16394 0 0 E
+61 20 10 1d1+0 1d1+0
+0 0
+12 12 0
+E
+T 1551
+#1552
+Announcer zzzzimbo~
+the Anouncer~
+The Announcer is here Announcing the Race.
+~
+   He is kinda old looking but has a really good "Radio" voice.    
+~
+16394 0 0 E
+61 20 10 1d1+0 1d1+0
+0 0
+12 12 0
+E
+T 1552
+#1553
+Tin Man~
+&BTin Man&n~
+&BTin Man&n
+~
+   &BThe Tin Man is a huge man who is incased in Tin armor, he looks a bit
+clumsy but show him a goal and he will never stop untill he reaches it (and he
+will bowl everyone else over that is in the way).  &n
+~
+16394 0 0 E
+61 20 10 1d1+0 1d1+0
+0 0
+12 12 0
+E
+T 1551
+#1554
+Prince Bobby~
+&CPrince Bobby&n~
+&CPrince Bobby&n
+~
+   &CPrince Bobby is the royal heir to the throne of King Richard's Domain.  
+He is kinda snobby but he is a really good runner and he likes to shove it in
+our peoples faces.  Bad Personality, Good runner.  &n
+~
+16394 0 0 E
+61 20 10 1d1+0 1d1+0
+0 0
+12 12 0
+E
+T 1551
+#1555
+CheckPoint Man One~
+&RCheckPoint Man One&n~
+CheckPoint Man One stands here watching the race.
+~
+   Hes a man that looked like he did a lot of running in his day, a completely
+uncorruptable man that watches to make sure none of the racers cheat.    
+~
+16394 0 0 E
+61 20 10 1d1+0 1d1+0
+0 0
+12 12 0
+E
+T 1555
+#1556
+Modool the Teacher~
+&MModool the Teacher&n~
+&MModool the Teacher&n
+~
+   &MModool the Teacher is the teacher of the Newbie School of Phobos.  He is
+very smart and knows his way around the track very well.  If someone is trying
+to outsmart him the have picked the wrong battle.  &n
+~
+16394 0 0 E
+61 20 10 1d1+0 1d1+0
+0 0
+12 12 0
+E
+T 1551
+#1557
+Cestarian~
+&GCecil the Cestarian&n~
+&GCecil the Cestarian&n
+~
+   &GCecil the Cestarian looks kinda strange as if he is from another planet.
+Thats right!  Hes from Cesta, the moon of Deimos.  He is tall and looks very
+scary.  &n
+~
+16394 0 0 E
+61 20 10 1d1+0 1d1+0
+0 0
+12 12 0
+E
+T 1551
+#1558
+Bouncer~
+Bouncer~
+Bouncer
+~
+Here to stop YOU!
+~
+16394 32828 0 E
+0 20 10 1d1+0 1d1+0
+0 0
+12 12 0
+E
+T 1558
+#1560
+CheckPoint Man~
+&BCheckPoint Man Two&n~
+CheckPoint Man Two stands here watching the race.
+~
+   Hes a man that looked like he did a lot of running in his day, a completely
+uncorruptable man that watches to make sure none of the racers cheat.    
+~
+16394 0 0 E
+60 20 10 1d1+0 1d1+0
+0 0
+12 12 0
+E
+T 1560
+#1570
+Barricade~
+a North Barricade~
+A Barricade blocks the path out of Phobos.. and In?
+~
+   A barricade constructed by the citizens of Phobos Provides some protection
+agasinst the oncoming hordes of Demons.    
+~
+262155 0 0 E
+0 20 10 1d1+2000000000 1d1+0
+0 0
+12 12 0
+SpecProc: block_north
+E
+#1571
+Barricade~
+a East Barricade~
+A Barricade blocks the path out of Phobos... and In?
+~
+   A barricade constructed by the citizens of Phobos Provides some protection
+agasinst the oncoming hordes of Demons.    
+~
+262155 0 0 E
+0 20 10 1d1+2000000000 1d1+0
+0 0
+12 12 0
+SpecProc: block_east
+E
+#1572
+Barricade~
+a South Barricade~
+A Barricade blocks the path out of Phobos.. and In?
+~
+   A barricade constructed by the citizens of Phobos Provides some protection
+agasinst the oncoming hordes of Demons.    
+~
+262155 0 0 E
+0 20 10 1d1+2000000000 1d1+0
+0 0
+12 12 0
+SpecProc: block_south
+E
+#1573
+Barricade~
+a West Barricade~
+A Barricade blocks the path out of Phobos.. and In?
+~
+   A barricade constructed by the citizens of Phobos Provides some protection
+agasinst the oncoming hordes of Demons.    
+~
+262155 0 0 E
+0 20 10 1d1+2000000000 1d1+0
+0 0
+12 12 0
+SpecProc: block_west
+E
+#1579
+Queen of Hearts~
+&WThe &RQueen&W of &RHearts&n~
+&WThe &RQueen&W of &RHearts&W yells, "OFF WITH YOUR HEAD!"&n
+~
+   &WThe Queen of Hearts stands around doing crazy stuff for her last minute
+valentine's day preparations!  Don't get in her way!  &n
+~
+780361 1049852 0 E
+400 -80 10 30d30+228899 10d50+100
+5000000 10000000
+12 12 0
+SpecProc: magic_user
+E
+#1580
+a stuffing Stealer~
+a Stuffing Stealer~
+a Stuffing Stealer slinks here, ruining Thanksgiving for everyone.
+~
+   He is a very small shadow of a creature spawned from pure malice, intent on
+destroying thanksgiving for everyone.    
+~
+2154600 0 0 E
+30 14 -4 15d15+1900 4d4+6
+67500 900000
+12 12 1
+BareHandAttack: 6
+E
+#1581
+Cranberry Creep~
+a Cranberry Creep~
+a Cranberry Creep is here, grinning horribly.
+~
+   The cranberry creep is a large red plump looking creature that has 2 giant
+white eyes and a mouth full of razor sharp teeth.  He doesn't like Thanksgiving
+at all.    
+~
+3209320 32768 0 E
+40 12 -2 20d20+3300 5d5+8
+120000 1600000
+12 12 2
+BareHandAttack: 4
+E
+T 1581
+#1582
+Sergeant Squasher~
+a Sergeant Squasher~
+a Sergeant Squasher stands here, squashing everyone's Thanksgiving thankfulness.
+~
+   A Sergeant Squasher is a very large broad shouldered creature that is
+entirely pitch black save for two grey eyes sitting atop his very small head
+dwarfed by his shoulders and huge arms.  He uses his giant hands to squash
+things.    
+~
+3209320 32768 0 E
+70 6 4 30d30+9900 10d10+14
+367500 4900000
+12 12 1
+BareHandAttack: 6
+E
+T 1581
+#1583
+Captain Coleslaw~
+a Captain of Coleslaw~
+A Captain of Coleslaw is here, slicing and dicing everyone's fun.
+~
+   He is a large thin creature, with two arms that end in swords causing him to
+look like a giant blender.  He looks very powerful.    
+~
+1112170 1081480 0 E
+170 -14 10 30d30+57900 24d15+34
+2167500 10000000
+12 12 0
+BareHandAttack: 6
+E
+T 1583
+#1584
+Mashed Potato Mage~
+a Mashed Potato Mage~
+a Mashed Potato Mage, floats here, conjouring the end of thanksgiving.
+~
+   The mash potatoe mage floats here casting spells of butter and pepper slowly
+abosorbing thanksgiving cheer with his gelatinous form.    
+~
+3405931 4227210 0 E
+200 -20 10 30d30+80100 28d17+40
+3000000 10000000
+12 12 1
+BareHandAttack: 12
+SpecProc: super_magic_user
+E
+T 1800
+T 1801
+T 1583
+#1585
+General Gravy~
+a General of Gravy~
+a General of Gravy oozes along here.
+~
+   A General of Gravy, one of the highest ranked officers of the Turkey
+Snatchers is a huge blob of dark matter that oozes in all directions.  He has
+the ability to consume things merely by surrounding them with his liquid form.
+  
+~
+1308795 269516940 0 E
+100 0 10 30d30+20100 14d14+20
+750000 10000000
+12 12 0
+BareHandAttack: 10
+SpecProc: Troll
+E
+T 1585
+#1586
+Personal Consort~
+a Personal Consort to the President of the Turkey Snatchers~
+a Personal Consort to the President of the Turkey Snatchers hovers above you.
+~
+   This very skinny dark embodiment, floats high above.  It has a brilliant red
+gem in the middle of it's forhead that shines with great brillaince...  We need
+that shard!    
+~
+2357355 295070 0 E
+200 -20 10 30d30+80100 28d17+40
+3000000 10000000
+12 12 0
+BareHandAttack: 3
+SpecProc: Fear-Maker
+E
+T 1586
+#1587
+Master Demon~
+a Master Demon~
+a Master Demon stands here commanding his troops.
+~
+   The Master Demon is 40 feet tall and easily steps over the walls of Phobos.
+He stands commanding his troops from afar.  He has wings and his entire body
+burns with a green flame.  His sword burns of hellfire and blood drips from it
+eternally.    
+~
+784441 156 0 E
+66 -107 -9 66d66+4356 33d33+127
+326700 4356000
+12 12 0
+SpecProc: calise_hunter
+E
+#1588
+Hellfire Dragon~
+Hellfire Dragon~
+A Hellfire Dragon Scorches the skies.
+~
+   The hellfire dragon is gaint and flies over Phobos scorching the skys and
+ground with ash.    
+~
+782440 4194494 0 E
+66 -107 -9 66d66+20000 33d33+127
+326700 4356000
+12 12 0
+BareHandAttack: 12
+E
+#1589
+Kalrati Demon Overlord~
+Kalrati the Demon Overlord~
+Kalrati the Demon Overlord steps forward with the fate of Phobos.
+~
+   Kalrati is about twice the size of a normal man an has clipped wings behind
+him, the sign of his Overlord rank and his loyalty to Deimos.  He comes to
+Phobos to devliver it to its fate.    
+~
+778331 12592380 -1000 E
+66 -107 -20 0d0+500000 100d4+127
+326700 4356000
+12 12 0
+BareHandAttack: 10
+SpecProc: magic_user
+E
+#1590
+GateKeeper~
+&dGateKeeper&n~
+&dGateKeeper&n
+~
+&dGateKeeper&n
+~
+782458 12629246 -1000 E
+1 -107 -9 0d0+1500000 100d10+127
+326700 4356000
+12 12 0
+BareHandAttack: 8
+E
+#1591
+phantom~
+Phantom~
+Phantom Menace is standing here.
+~
+You see nothing special about him.
+~
+8 128 0 E
+50 8 -5 50d50+2500 25d25+12
+187500 2500000
+12 12 1
+E
+#1599
+president turkey snatchers~
+the President of the Turkey Snatchers~
+The President of the Turkey Snatchers has decided to take matters into his own hands!
+~
+   He towers above everyone at about 9 meters tall.  His huge sword arms swing
+about haphazardly destroying everything that is around, including buildings.  
+His only goal is ruin thanksgiving forever.    
+~
+3373483 14169246 500 E
+300 -40 10 30d30+180100 42d26+60
+5000000 10000000
+12 12 1
+BareHandAttack: 13
+SpecProc: Troll
+E
+$

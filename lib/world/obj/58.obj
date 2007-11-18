@@ -1,0 +1,242 @@
+#5800
+Large wooden key~
+a large wooden key~
+There is a large wooden key lying here.~
+~
+18 65676 1 0
+0 0 0 0
+1 0 0 0
+#5801
+Bridge key~
+the drawbridge key~
+A steel key lies here.~
+~
+18 0 1 0
+0 0 0 0
+0 0 0 0
+#5802
+tiny key~
+a tiny key~
+A tiny, badly made key is lying here.~
+~
+18 65676 1 0
+0 0 0 0
+0 0 0 0
+#5803
+Robin Hood's bow~
+Robin Hood's bow~
+A long bow lies here.~
+~
+9 65544 16385 32
+10 0 0 0
+4 0 0 60
+A
+1 1
+A
+19 2
+#5804
+Robin Hood's quiver~
+Robin Hood's quiver~
+A beautiful quiver of arrows is lying here.~
+   This is a nice leather quiver, fashioned by Robin Hood himself of the royal
+deer's skin.  There are several arrows in it, but there is a lot of space left
+over.    
+~
+15 65544 9 0
+300 0 -1 0
+2 0 0 60
+A
+13 50
+A
+18 2
+A
+17 5
+#5805
+Will Scarlet's knives~
+Will Scarlet's knives~
+A pair of knives is sitting here.~
+   The knives are pretty plain, but obviously expertly crafted.  They come in a
+a pair though; take one, and the other comes with.
+~
+5 851976 8193 0
+5 5 5 3
+2 0 0 51
+#5806
+Little John's staff~
+Little John's staff~
+A large wooden staff lies here.~
+   The staff is just a plain old, large staff.  It's made of brown wood, and
+has nothing special about it.    
+~
+5 589832 8193 0
+2 5 5 0
+7 0 0 45
+A
+5 2
+A
+19 2
+A
+2 1
+#5807
+Friar Tuck's robe~
+Friar Tuck's robe~
+A tattered brown robe is lying here.~
+   The robe is pretty old and faded, but looks very comfortable and soft.  It
+has a couple holes in it, but it's a high quality material and still has a long
+life in it.    
+~
+11 65545 1025 0
+0 0 0 0
+8 0 0 41
+A
+24 -3
+A
+17 -3
+A
+4 1
+#5808
+X bottle~
+a bottle with an 'X' on it~
+A bottle with an 'X' on it is sitting here.~
+~
+17 65601 1 0
+1 1 7 0
+6 0 0 0
+#5809
+XX bottle~
+a bottle with 'XX' on it~
+A bottle with 'XX' on it is sitting here.~
+quaff
+~
+10 65 1 0
+5 28 0 0
+0 0 0 0
+#5810
+XXX bottle~
+a bottle with 'XXX' on it~
+A bottle with 'XXX' on it is lying here.~
+quaff
+~
+10 0 1 0
+5 28 36 39
+0 0 0 0
+#5811
+gold bar~
+a gold bar~
+A nice shiny gold bar is lying here.~
+   The gold bar is a very nice and large piece of gold.  It could probably be
+sold for a lot.    
+~
+20 1 16385 0
+1000000 0 0 0
+30 1000000 0 45
+A
+24 2
+A
+5 1
+#5812
+bear skin cloak~
+a bear skin cloak~
+A large cloak is lying here.~
+   The cloak is very nice and furry.  The hood is the bear's head, which makes
+for very dramatic entrances.    
+~
+9 65545 1025 0
+10 0 0 0
+3 0 0 60
+A
+18 2
+A
+19 1
+#5813
+Sheriff of Nottingham's sword~
+the Sheriff of Nottingham's sword~
+The Sheriff's sword lies here.~
+   The sword is a beautiful long sword.  The hilt is made of gold with a
+beautiful diamond on the very bottom.    
+~
+5 65545 8193 0
+4 6 6 3
+5 0 0 60
+#5814
+Prince John's crown~
+Prince John's crown~
+A nice crown is lying here.~
+   The crown is very nice.  It's made out of gold and has diamonds all over the
+place.    
+~
+9 65545 17 0
+10 0 0 0
+3 0 0 60
+A
+1 1
+A
+13 15
+#5815
+Prince John's robe~
+Prince John's robe~
+A beautiful robe is lying here.~
+   Prince John's robe is a wonderful large robe.  Hmmm.  A little too large in
+fact.  It was probably made for a very large individual and Prince John decided
+to take it for himself.    
+~
+9 65609 1025 0
+5 0 0 0
+4 0 0 60
+A
+6 1
+A
+18 2
+#5816
+croquet ball~
+a croquet ball~
+A large green and red ball is sitting here.~
+   This heavy croquet ball is half red and half green.  It's made of wood and
+is perfectly round.  It's really a very well crafted croquet ball.    
+~
+11 0 16385 32
+0 0 0 0
+7 0 0 15
+A
+12 -100
+#5817
+Large piece of paper~
+a large piece of paper~
+A large piece of paper is lying here.~
+   The password is 'apples'
+~
+16 0 1 0
+0 0 0 0
+0 0 0 0
+#5818
+Little piece of paper~
+a little piece of paper~
+A little piece of paper is lying here.~
+   The p-word is 'apple pie'
+~
+16 0 1 0
+0 0 0 0
+0 0 0 0
+#5819
+Buck skin canteen~
+a buck skin canteen~
+A nice canteen is lying here.~
+~
+17 0 1 0
+10 3 0 0
+8 0 0 0
+#5820
+Maid Marian's bracelet~
+Maid Marian's bracelet~
+A beautiful bracelet is lying here.~
+   The bracelet is covered in diamonds and ruby's.  This is the most treasured
+item of her lady, Maid Marian.    
+~
+11 8 4097 0
+0 0 0 0
+3 0 0 0
+A
+24 2
+A
+12 75
+$~

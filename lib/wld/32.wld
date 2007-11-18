@@ -1,0 +1,264 @@
+#3200
+&DCity Entrance&n~
+
+&DThe city of Vector is spread out beyond the entrance of the city.  The 
+huge iron gates seem to be more like fortress walls themselves.  The
+smell of metal and oil is in the air, as Vector is known to be a city
+of power and industry.  The gate way is covered and well guarded.
+To the north the street continues on into the city of Vector.&n
+
+~
+32 i 1
+S
+#3202
+&DGuard Post&n~
+
+&DThe post is crawling with guards under the service of his imperial
+majesty Emporer Ghestal.  With securty such as this, it seems only those
+with some sort of identification will get past without a fight.  The
+guards, much like the city are covered with metal.  Beyond the post the
+sun is blotted out by the steam that comes from the factory within Vector.&n
+
+~
+32 0 1
+S
+#3203
+&DMain Street of Vector&n~
+
+&DThe streets of vector converge here near its entrance,  The sky is
+covered by a dense cloud as the factories of vector work nonstop.  The
+streets are heavily patrolled by imperial guards.  Once in a while a
+magitek warrior is seen going by, making sure everything is running
+smoothly.  The road goes in all directions, and there is a guard post
+to the south.&n
+
+~
+32 0 1
+S
+#3204
+&DStreet in Vector&n~
+
+&DAlthough there are dim lamps glowing in the night like darkness, there
+is little to penetrate the shroud that covers the city of Vector.  Yet
+the city and streets, although bland and harsh looking, are clean.  The
+street continues to the east and the west.&n
+
+~
+32 0 1
+S
+#3205
+&DStreet in Vector&n~
+
+&DThe street here splits in three directions.  To the east the street
+continues on towards the center of the city.  There is a small building
+to the north, looking to small to be an actual house.  There is a beat
+up looking sign on the building with something scrawled on it.  The
+street also goes on to the west where it ends in darkness at the large
+wall the surrounds the city.&n
+
+~
+32 0 1
+E
+sign~
+&nIn large bold letters that have been worn with time:
+&RRELIC SHOP&n
+Below reads in small almost illegible scrawl:
+ret post vector
+~
+S
+#3206
+&DDead End&n~
+
+&DHere the street ends at a high wall that surrounds all of vector.  There
+is very little light here to see by, and nothing of interest.  The street
+goes back towards the city to the east.&n
+
+~
+32 0 1
+S
+#3207
+&DReturners Hideout&n~
+
+&DThis small building is an outpost for the Returners.  They are a small
+group of elite fighters that are opposed to the empire.  It is said their
+base of operations is in Narshe.  There is nothing left of them here,
+for the empire searches for them everywhere, and an outpost in the
+imperial city would not last long.  All that is left is a table and a
+few chairs.&n
+
+~
+32 0 0
+S
+#3208
+&DMain street in Vector&n~
+
+&DThe street here goes north and south.  The sky above can't be seen thru
+the pollution caused by the factories.  The guard patrolls run constantly,
+watching for those who might be against the empire.  There are a few
+buildings to the north, and the street comes to a large intersection in
+the south.&n
+
+~
+32 0 1
+S
+#3209
+&DMain street in Vector&n~
+
+&DThe street here passes by two buildings.  They are large, and like the
+rest of Vector, made of metal.  To the east is a building with a sign
+that reads: Weapons.  To the west the sign on the building reads: Armor.
+These must be where the soldiers become outfitted.&n
+
+~
+32 0 1
+S
+#3210
+&cIn Front of the Weapon Shop&n~
+
+&DThere are a few people here in front the of the weapon shop, but there
+really isn't much going on.  There is a sign in fron the of the shop that
+reads "Weapons" and has a sword painted on it as well.  What kind of fine
+weaponry does this place have to offer?&n
+
+~
+32 ai 1
+D0
+~
+~
+0 0 3211
+D3
+~
+~
+0 0 -1
+S
+#3211
+&cIn the Weapon Shop&n~
+
+&DWow!  This place is full of the worst weapons that the lands have probably
+ever seen.  The weapons are all rusted, and the copper ones (Yes, Copper!)
+are covered with a green type of mold from disuse.  Its a wonder this
+place would be open and actually have customers with these types of
+wares.  The people of Narshe must be living in desperate times indeed.&n
+
+~
+32 ah 0
+D2
+~
+~
+0 0 3210
+S
+#3212
+&cOn a Street in Narshe&n~
+
+&DThe street here turns northward towards a very high and steep hill.
+From the distance it looks as if something is on the hill, but what
+it is cannot be determined.  The street ends to the north, and continues
+back towards the mainstreet of Narshe to the east.&n
+
+~
+32 a 1
+D0
+~
+~
+0 0 3213
+D1
+~
+~
+0 0 -1
+S
+#3213
+&cOn a Street in Narshe&n~
+
+&DThe road ends before a hill here.  The hill looks very steep and raises
+fairly high up.  There is a type of ladder leading up to the top of the
+hills, on top of which rests a small house made of stone.  There seems
+to be no indication of life coming from the house other than a soft light
+eminating from inside.&n
+
+~
+32 0 1
+D2
+~
+~
+0 0 3212
+D4
+~
+~
+0 0 3214
+S
+#3214
+&cClimbing the Ladder&n~
+
+&DThe ladder is swinging slightly in the wind, but seems sturdy enough.
+Below, the tops of some nearby buildings in Narshe can be seen.  Above
+A house hanging over the edge of the hill is looking across the northern
+wastes.  A soft glow can be seen coming from inside, but there is no
+other indication of life inside.&n
+
+~
+32 ci 4
+D4
+~
+~
+0 0 3215
+D5
+~
+~
+0 0 3213
+S
+#3215
+&cClimbing the Ladder&n~
+
+&DThe ladder continues into the air, and there can be a hatch up ahead
+to the house, this must be how it is entered.  Below Narsh is spread
+out, a blot in an otherwise serene mountain view.  Those who live on
+the hill must be the only sane ones of the city, as they chose the perfect
+place to live in such a horrid town.&n
+
+~
+32 ci 4
+D4
+~
+~
+0 0 3216
+D5
+~
+~
+0 0 3214
+S
+#3216
+&cTop of the Ladder&n~
+
+&DHere the ladder comes to an end, right below a hatch that seems to lead
+to the house right above.  Shuffling can be heard from within and also
+what seems to be whispering.  The words cannot be made out, but it sounds
+like the voice of a man.  Perhaps it is some kind of meeting.&n
+
+~
+32 ci 4
+D4
+~
+~
+0 0 3217
+D5
+~
+~
+0 0 3215
+S
+#3217
+&cWithin the House&n~
+
+&DSmoke lingers in the air from lamps and also incense that is burning
+in the small, one-room house.  There is a mat on the floor, which looks
+to be worn from training.  There is also a very cushioned chair in the
+corner.  This is perhaps the house of Sabin and Edgar, two convicts of
+the Vector Empire.&n
+
+~
+32 dhs 0
+D5
+~
+~
+0 0 3216
+S
+$~

@@ -1,0 +1,202 @@
+#24100
+mob priestess rulek high~
+High Priestess of Rulek~
+The High Priestess is here beckoning you to relax.
+~
+
+The high priestess of Rulek is here bowing her head in worship of her god Rulek.  Her role
+is not only to spread the word of Rulek to the world, but also the heal those who are in need
+of it, no matter their place in society.  All are welcome in the temple of Rulek.
+
+~
+516123 1160 0 E
+66 4 13 66d66+4356 33d33+16
+326700 4356000
+12 12 2
+SpecProc: maiden
+E
+#24101
+mob alchemist female woman~
+the Alchemist~
+A woman is here working on her potions.
+~
+
+The alchemist is here working on new potions, stocking old potions, and keeping an index of
+all her items.  She looks very old, but to have such ability she must also be very wise.
+
+~
+516106 8 0 E
+66 4 13 66d66+4356 33d33+16
+326700 4356000
+12 12 2
+E
+#24102
+king rulek~
+&DThe &YKing &Dof &MRulek&n~
+The king of Rulek is here going over the matters of state.
+~
+
+Short, round, and happy.  Those are the best ways to describe the king of Rulek.  Working
+always to keep his subjects happy, he tries his best to keep his kingdom in the highest of
+upkeep.  And although he is the king of the God Rulek, religious matters he leaves to the
+priests and priestesses of the temple.
+
+~
+90122 0 0 E
+25 14 5 25d25+625 12d12+6
+46875 625000
+12 12 1
+E
+#24103
+mob captain guard protector~
+&cCaptain&D of the &RGuard&n~
+The captain of the guard is here watching over the king.
+~
+
+The Captain of the guard.  His sole duty is the well being of the king.  All other things
+come after this one duty.  He watches the king from the time he ascends the throne until the
+time of one of their deaths.  The captain and king in the past have become best friends, and
+these two are no exception to the rule.  It is said that the captain sleeps with his eyes
+open so that if something happens he will be near the king as quickly as possible.
+
+~
+28682 1048616 0 E
+23 15 4 23d23+529 11d11+5
+39675 529000
+12 12 0
+E
+#24104
+mob rulek guard~
+&RGuard &Dof &CRulek&n~
+A guard is standing here, watching out for trouble.
+~
+
+The Guard is the example of greatness of Rulek.  Strong and never wavering, they would do
+anything to keep their king and kinsmen safe from intruders.  They are the masters of weapons
+and will protect their city to the death.
+
+~
+10 1064 0 E
+15 17 3 15d15+225 7d7+3
+16875 225000
+12 12 0
+E
+#24105
+mob dirt peasant~
+a dirty peasant~
+A dirty peasant is here going about its business.
+~
+
+The lowest class of Rulek, yet still happy with their life.  They go about their business
+doing day-to-day duties, helping to keep the kingdom running.  Wheather its farming, or
+just running messages, all people have a place in the society of Rulek.
+
+~
+8 0 0 E
+3 20 0 3d3+9 1d1+0
+675 9000
+12 12 0
+E
+#24106
+mob boar wild~
+&gThe Wild Boar&n~
+A wild boar is here looking for something to impale&n
+~
+
+Life in the forest have made the animals very territorial, and the boar is king.  Undisturbed
+for so many years, the boar is ready to defend its home from intruders.
+
+~
+8 0 0 E
+24 14 4 24d24+576 12d12+6
+43200 576000
+12 12 0
+BareHandAttack: 9
+E
+#24107
+mob woodsman~
+the Woodsman~
+The woodsman is here with a sad look on his face.
+~
+
+In exile, the woodsman is now only a legend of a time gone.  He was once a revolutionary, now
+he just lives alone in the forest with the animals.  He hopes one day to return to Rulek and
+find out about his friends who were also exiled.
+
+~
+90122 1048576 0 E
+29 13 5 29d29+841 14d14+7
+63075 841000
+12 12 1
+E
+#24108
+heirophant maz mob~
+&REx-Heirophant Maz&n~
+The Ex-Heirophant Maz is here in the shadows.
+~
+
+After the revolution and freeing of the kingdom Rulek, Maz escaped capture, and hid within
+the city.  He now has possession of the Bone Bladed Dirk, a weapon known to have killed many
+during the revolution.  He still plots his return and rule over Rulek.&n
+
+~
+256010 1049768 0 E
+60 5 12 60d60+3600 30d30+15
+270000 3600000
+12 12 0
+BareHandAttack: 13
+E
+#24109
+mob noble~
+&CA Haughty &GNoble&n~
+A haughty noble is looking down its nose at you!
+~
+
+The upper class of Rulek, the nobles go on with their lives of luxary, and think of little
+else but their own pleasure.  They spend most of their days in the kings court, trying to
+get an aproving glance from his majesty.  They know their place in society, and feel those
+below them should as well, and not aspire to higher roles.
+
+~
+8 0 0 E
+9 18 1 9d9+81 4d4+2
+6075 81000
+12 12 0
+E
+#24198
+mob prophet~
+&DThe Wandering Prophet&n~
+A prophet is wandering the lands, spreading the gospel of Zan'lir.
+~
+
+The prophet is old and very decrepit.  He has been wandering the lands for sometime, and has
+been a speaker for the God-creature Zan'lir.  He is a fanatic, and should be dealt with
+wearily, as people like this can be quite unorthodox.
+
+~
+8 0 0 E
+35 12 7 30d35+5250 11d11+8
+91875 1225000
+12 12 0
+E
+T 24100
+#24199
+mob disciple~
+&WDisciple of &RZan'lir&n~
+A disciple of Zan'lir is looking to disrupt society.
+~
+
+A mix of Siss'rith and Mankind, these disciples are those who have sacrificed their bodies
+and scarred their mind in the namesake of their God, Zan'lir.  These creatures although they
+carry no weapons, have a fierce loyalty, and would sacrifice their very lives to promote the
+spread of their religion.  These creatures have been made this way voluntarily through the
+magical arts, which were conducted by Maz.&n
+
+~
+26664 1192 0 E
+45 9 9 45d45+2025 22d22+11
+151875 2025000
+12 12 0
+BareHandAttack: 8
+E
+$

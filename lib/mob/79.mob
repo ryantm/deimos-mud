@@ -1,0 +1,16 @@
+#7934
+small white cat~
+the small &Wwhite&n cat~
+A small &Wwhite&n cat is here, looking around in confusion.
+~
+The cat is very small and very black. It's got a cute, pink nose and big black
+eyes. The small kitty must belong to someone, because it is wearing a &Wwhite&n
+colar around its neck.
+~
+200 0 0 E
+1 20 0 1d1+1000 1d1+0
+0 1000000
+12 12 0
+BareHandAttack: 8
+E
+$

@@ -1,0 +1,1602 @@
+#5100
+Underwater Tunnel~
+   This large, dim underwater tunnel leads from the vast expanses of the ocean
+into a secret, hidden facility.  There is a complete absense of light,
+therefore a pair of night vision goggles would be quite helpful.  The
+underwater tunnel leads to the north.    
+~
+51 ac 0
+D0
+~
+~
+0 0 5101
+S
+#5101
+Underwater Tunnel~
+   This large, dim underwater tunnel leads from the vast expanses of the ocean
+into a secret, hidden facility.  There is a complete absense of light,
+therefore a pair of night vision goggles would be quite helpful.  The
+underwater tunnel leads to the north.    
+~
+51 0 0
+D0
+~
+~
+0 0 5102
+D2
+~
+~
+0 0 5100
+S
+#5102
+Underwater Tunnel~
+   This large, dim underwater tunnel leads from the vast expanses of the ocean
+into a secret, hidden facility.  There is a complete absense of light,
+therefore a pair of night vision goggles would be quite helpful.  The
+underwater tunnel leads to the north.    
+~
+51 0 0
+D0
+~
+~
+0 0 5103
+D2
+~
+~
+0 0 5101
+S
+#5103
+Underwater Tunnel~
+   This large, dim underwater tunnel leads from the vast expanses of the ocean
+into a secret, hidden facility.  There is a complete absense of light,
+therefore a pair of night vision goggles would be quite helpful.  The
+underwater tunnel leads to the north.    
+~
+51 0 0
+D0
+~
+~
+0 0 5104
+D2
+~
+~
+0 0 5102
+S
+#5104
+Underwater Tunnel~
+   This large, dim underwater tunnel leads from the vast expanses of the ocean
+into a secret, hidden facility.  There is a complete absense of light,
+therefore a pair of night vision goggles would be quite helpful.  The
+underwater tunnel leads to the north.    
+~
+51 c 0
+D2
+~
+~
+0 0 5103
+D4
+~
+~
+0 0 5105
+S
+#5105
+Storage Facility 1-A~
+   This small, damp room is the entrance to the establishment on Shadow Moses.
+Being right near the water, different types of weapons and chemicals are
+smuggled in through various underwater ways.  The room is not very big, but
+large boxes filled with unknown cargo lay about the room.  A large cargo
+elevator can be seen at the northern wall of the room.    
+~
+51 0 0
+D0
+~
+~
+0 0 5106
+D1
+~
+~
+0 0 5109
+D5
+~
+~
+0 0 5104
+S
+#5106
+Storage Facility 1-A~
+   This small, damp room is the entrance to the establishment on Shadow Moses.
+Being right near the water, different types of weapons and chemicals are
+smuggled in through various underwater ways.  The room is not very big, but
+large boxes filled with unknown cargo lay about the room.  A large cargo
+elevator can be seen at the northern wall of the room.    
+~
+51 0 0
+D0
+~
+~
+0 0 5107
+D2
+~
+~
+0 0 5105
+S
+#5107
+Storage Facility 1-A~
+   This small, damp room is the entrance to the establishment on Shadow Moses.
+Being right near the water, different types of weapons and chemicals are
+smuggled in through various underwater ways.  The room is not very big, but
+large boxes filled with unknown cargo lay about the room.  A large cargo
+elevator can be seen at the northern wall of the room.    
+~
+51 0 0
+D0
+~
+door~
+2 5109 5108
+D1
+~
+~
+0 0 5123
+D2
+~
+~
+0 0 5106
+S
+#5108
+Cargo Elevator~
+   This large cargo elevator is used to take equipment up to the first level of
+the establishment.  Up above, a drift of chilly arctic air blasts its way down
+the elevator shaft.  Through the metal chain-link elevator walls, a large
+helicopter can be seen on a pad to the northwest.  It seems as if it is loading
+up for something.  At your feet seems to be a strange mask, a small bandana,
+and a still burning cigarette.  It seems you aren't the only one here.    
+~
+51 c 0
+D2
+~
+door~
+2 5109 5107
+D4
+~
+~
+0 0 5125
+S
+#5109
+Storage Facility 1-A~
+   This small, damp room is the entrance to the establishment on Shadow Moses.
+Being right near the water, different types of weapons and chemicals are
+smuggled in through various underwater ways.  The room is not very big, but
+large boxes filled with unknown cargo lay about the room.  A large cargo
+elevator can be seen at the northern wall of the room.    
+~
+51 0 0
+D1
+~
+~
+0 0 5119
+D3
+~
+~
+0 0 5105
+S
+#5110
+&rRed Tunnel&n~
+   &rThe smell of rotting carcasses and a whole lot of sulfer fill the air of
+this bright red tunnel.  The ground seems to be burning endlessly, glowing
+bright red and extremely hot to the touch.  Steam and intense red light cloud
+all vision, making it nearly impossible to defend one's self against the
+seemingly endless hoards of mutated monsters rushing to attack and eat anything
+they see.  The tunnel continues to the north, towards the source of the
+blinding light.    
+~
+51 r 0
+D0
+~
+~
+0 0 5111
+S
+#5111
+&rRed Tunnel&n~
+   &rThe smell of rotting carcasses and a whole lot of sulfer fill the air of
+this bright red tunnel.  The ground seems to be burning endlessly, glowing
+bright red and extremely hot to the touch.  Steam and intense red light cloud
+all vision, making it nearly impossible to defend one's self against the
+seemingly endless hoards of mutated monsters rushing to attack and eat anything
+they see.  The tunnel continues to the north, towards the source of the
+blinding light.    
+~
+51 r 0
+D0
+~
+~
+0 0 5112
+D2
+~
+~
+0 0 5110
+S
+#5112
+&rRed Tunnel&n~
+   &rThe smell of rotting carcasses and a whole lot of sulfer fill the air of
+this bright red tunnel.  The ground seems to be burning endlessly, glowing
+bright red and extremely hot to the touch.  Steam and intense red light cloud
+all vision, making it nearly impossible to defend one's self against the
+seemingly endless hoards of mutated monsters rushing to attack and eat anything
+they see.  The tunnel continues to the north, towards the source of the
+blinding light.    
+~
+51 r 0
+D0
+~
+~
+0 0 5113
+D2
+~
+~
+0 0 5111
+S
+#5113
+&rRed Tunnel&n~
+   &rThe smell of rotting carcasses and a whole lot of sulfer fill the air of
+this bright red tunnel.  The ground seems to be burning endlessly, glowing
+bright red and extremely hot to the touch.  Steam and intense red light cloud
+all vision, making it nearly impossible to defend one's self against the
+seemingly endless hoards of mutated monsters rushing to attack and eat anything
+they see.  The tunnel continues to the north, towards the source of the
+blinding light.    
+~
+51 r 0
+D0
+~
+~
+0 0 5114
+D2
+~
+~
+0 0 5112
+S
+#5114
+&rRed Tunnel&n~
+   &rThe smell of rotting carcasses and a whole lot of sulfer fill the air of
+this bright red tunnel.  The ground seems to be burning endlessly, glowing
+bright red and extremely hot to the touch.  Steam and intense red light cloud
+all vision, making it nearly impossible to defend one's self against the
+seemingly endless hoards of mutated monsters rushing to attack and eat anything
+they see.  The tunnel continues to the north, towards the source of the
+blinding light.    
+~
+51 r 0
+D0
+~
+~
+0 0 5115
+D2
+~
+~
+0 0 5113
+S
+#5115
+&rRed Tunnel&n~
+   &rThe smell of rotting carcasses and a whole lot of sulfer fill the air of
+this bright red tunnel.  The ground seems to be burning endlessly, glowing
+bright red and extremely hot to the touch.  Steam and intense red light cloud
+all vision, making it nearly impossible to defend one's self against the
+seemingly endless hoards of mutated monsters rushing to attack and eat anything
+they see.  The tunnel continues to the north, towards the source of the
+blinding light.    
+~
+51 r 0
+D0
+~
+~
+0 0 5117
+D2
+~
+~
+0 0 5114
+S
+#5116
+&rThrone of &RDeimos&n~
+   This large open cavern is one of the resting places of Deimos himself.  
+Suprisingly, it does not look like the rest of the tunnel.  The red light is
+still intense, yet the creatures are nowhere to be found.  It is a simple
+place, reminding you of your own h The tunnel is back up a small ramp at a
+corner of the room.    
+~
+51 crs 0
+D4
+~
+door~
+2 5110 5117
+S
+#5117
+&rRed Tunnel&n~
+   &rThe smell of rotting carcasses and a whole lot of sulfer fill the air of
+this bright red tunnel.  The ground seems to be burning endlessly, glowing
+bright red and extremely hot to the touch.  Steam and intense red light cloud
+all vision, making it nearly impossible to defend one's self against the
+seemingly endless hoards of mutated monsters rushing to attack and eat anything
+they see.  At the end of the tunnel, a ramp leads down into intense red light.
+  
+~
+51 r 0
+D2
+~
+~
+0 0 5115
+D5
+~
+door~
+2 5110 5116
+S
+#5118
+Main Hanger 2-A~
+You are in an unfinished room.
+~
+51 0 0
+S
+#5119
+Storage Facility 1-A~
+   You are in an unfinished room.  This small, damp room is the entrance to the
+establishment on Shadow Moses.  Being right near the water, different types of
+weapons and chemicals are smuggled in through various underwater ways.  The
+room is not very big, but large boxes filled with unknown cargo lay about the
+room.  A large cargo elevator can be seen at the northern wall of the room.  
+
+~
+51 0 0
+D0
+~
+~
+0 0 5121
+D3
+~
+~
+0 0 5109
+S
+#5120
+Main Hanger 2-A~
+   This large area is not really a hanger at all.  Rather, it is a large open
+area, the start of this massive facility.  A helicopter can be seen to the
+west, its blades spinning swiftly, ready to take off.  To the north is a large
+cargo door, guarded by soldiers.  To the east are small boxes of who knows
+what.    
+~
+51 0 0
+D0
+~
+~
+0 0 5129
+D1
+~
+~
+0 0 5124
+D3
+~
+~
+0 0 5125
+S
+#5121
+Storage Facility 1-A~
+   This small, damp room is the entrance to the establishment on Shadow Moses.
+Being right near the water, different types of weapons and chemicals are
+smuggled in through various underwater ways.  The room is not very big, but
+large boxes filled with unknown cargo lay about the room.  A large cargo
+elevator can be seen at the northern wall of the room.    
+~
+51 0 0
+D0
+~
+~
+0 0 5122
+D2
+~
+~
+0 0 5119
+S
+#5122
+Storage Facility 1-A~
+   This small, damp room is the entrance to the establishment on Shadow Moses.
+Being right near the water, different types of weapons and chemicals are
+smuggled in through various underwater ways.  The room is not very big, but
+large boxes filled with unknown cargo lay about the room.  A large cargo
+elevator can be seen at the northern wall of the room.    
+~
+51 0 0
+D2
+~
+~
+0 0 5121
+D3
+~
+~
+0 0 5123
+S
+#5123
+Storage Facility 1-A~
+   This small, damp room is the entrance to the establishment on Shadow Moses.
+Being right near the water, different types of weapons and chemicals are
+smuggled in through various underwater ways.  The room is not very big, but
+large boxes filled with unknown cargo lay about the room.  A large cargo
+elevator can be seen at the northern wall of the room.    
+~
+51 0 0
+D1
+~
+~
+0 0 5122
+D3
+~
+~
+0 0 5107
+S
+#5124
+Main Hanger 2-A~
+   This large area is not really a hanger at all.  Rather, it is a large open
+area, the start of this massive facility.  A helicopter can be seen to the
+west, its blades spinning swiftly, ready to take off.  To the north is a large
+cargo door, guarded by soldiers.  To the east are small boxes of who knows
+what.    
+~
+51 0 0
+D0
+~
+~
+0 0 5130
+D3
+~
+~
+0 0 5120
+S
+#5125
+Main Hanger 2-A~
+   This large area is not really a hanger at all.  Rather, it is a large open
+area, the start of this massive facility.  A helicopter can be seen to the
+west, its blades spinning swiftly, ready to take off.  To the north is a large
+cargo door, guarded by soldiers.  To the east are small boxes of who knows
+what.    
+~
+51 0 0
+D0
+~
+~
+0 0 5128
+D1
+~
+~
+0 0 5120
+D3
+~
+~
+0 0 5126
+D5
+~
+~
+0 0 5108
+S
+#5126
+Main Hanger 2-A~
+   This large area is not really a hanger at all.  Rather, it is a large open
+area, the start of this massive facility.  A helicopter can be seen to the
+west, its blades spinning swiftly, ready to take off.  To the north is a large
+cargo door, guarded by soldiers.  To the east are small boxes of who knows
+what.    
+~
+51 0 0
+D0
+~
+~
+0 0 5127
+D1
+~
+~
+0 0 5125
+S
+#5127
+Main Hanger 2-A~
+   This large area is not really a hanger at all.  Rather, it is a large open
+area, the start of this massive facility.  A helicopter can be seen to the
+west, its blades spinning swiftly, ready to take off.  To the north is a large
+cargo door, guarded by soldiers.  To the east are small boxes of who knows
+what.    
+~
+51 0 0
+D0
+~
+~
+0 0 5134
+D1
+~
+~
+0 0 5128
+D2
+~
+~
+0 0 5126
+D3
+~
+~
+0 0 5135
+S
+#5128
+Main Hanger 2-A~
+   This large area is not really a hanger at all.  Rather, it is a large open
+area, the start of this massive facility.  A helicopter can be seen to the
+west, its blades spinning swiftly, ready to take off.  To the north is a large
+cargo door, guarded by soldiers.  To the east are small boxes of who knows
+what.    
+~
+51 0 0
+D0
+~
+~
+0 0 5133
+D1
+~
+~
+0 0 5129
+D2
+~
+~
+0 0 5125
+D3
+~
+~
+0 0 5127
+S
+#5129
+A Truck~
+   This small green cargo truck is parked in the middle of the Hanger.  It is
+good cover from the constant waves or arctic wind, and from the guards who
+constantly patrol the area.  Boxes lay scattered about the truck.  A few unused
+clips of ammo rest on the floor.    
+~
+51 c 0
+D0
+~
+~
+0 0 5132
+D1
+~
+~
+0 0 5130
+D2
+~
+~
+0 0 5120
+D3
+~
+~
+0 0 5128
+S
+#5130
+Main Hanger 2-A~
+   This large area is not really a hanger at all.  Rather, it is a large open
+area, the start of this massive facility.  A helicopter can be seen to the
+west, its blades spinning swiftly, ready to take off.  To the north is a large
+cargo door, guarded by soldiers.  To the east are small boxes of who knows
+what.    
+~
+51 0 0
+D0
+~
+~
+0 0 5131
+D1
+~
+~
+0 0 5137
+D2
+~
+~
+0 0 5124
+D3
+~
+~
+0 0 5129
+S
+#5131
+Main Hanger 2-A~
+   This large area is not really a hanger at all.  Rather, it is a large open
+area, the start of this massive facility.  A helicopter can be seen to the
+west, its blades spinning swiftly, ready to take off.  To the north is a large
+cargo door, guarded by soldiers.  To the east are small boxes of who knows
+what.    
+~
+51 0 0
+D2
+~
+~
+0 0 5130
+D3
+~
+~
+0 0 5132
+S
+#5132
+Main Hanger 2-A~
+   This large area is not really a hanger at all.  Rather, it is a large open
+area, the start of this massive facility.  A helicopter can be seen to the
+west, its blades spinning swiftly, ready to take off.  To the north is a large
+cargo door, guarded by soldiers.  To the east are small boxes of who knows
+what.    
+~
+51 0 0
+D1
+~
+~
+0 0 5131
+D2
+~
+~
+0 0 5129
+D3
+~
+~
+0 0 5133
+S
+#5133
+Main Hanger 2-A~
+   This large area is not really a hanger at all.  Rather, it is a large open
+area, the start of this massive facility.  A helicopter can be seen to the
+west, its blades spinning swiftly, ready to take off.  To the north is a large
+cargo door, guarded by soldiers.  To the east are small boxes of who knows
+what.    
+~
+51 0 0
+D1
+~
+~
+0 0 5132
+D2
+~
+~
+0 0 5128
+D3
+~
+~
+0 0 5134
+S
+#5134
+Main Hanger 2-A~
+   This large area is not really a hanger at all.  Rather, it is a large open
+area, the start of this massive facility.  A helicopter can be seen to the
+west, its blades spinning swiftly, ready to take off.  To the north is a large
+cargo door, guarded by soldiers.  To the east are small boxes of who knows
+what.    
+~
+51 0 0
+D0
+~
+tunnel~
+1 0 5141
+D1
+~
+~
+0 0 5133
+D2
+~
+~
+0 0 5127
+S
+#5135
+The Helipad~
+   This small helipad is the only way to access Shadow Moses from the air.  
+The ground is made of concrete, with small, dim lights at each corner.  It
+extends to the west a bit, leading to the helicopter.    
+~
+51 0 0
+D1
+~
+~
+0 0 5127
+D3
+~
+~
+0 0 5136
+S
+#5136
+The Helipad~
+   This small helipad is the only way to access Shadow Moses from the air.  
+The ground is made of concrete, with small, dim lights at each corner.  A large
+helicopter is in the center of of the helipad.  The Main Hanger extends to the
+east.    
+~
+51 0 0
+D1
+~
+~
+0 0 5135
+S
+#5137
+Storage Room 2-A~
+   You are in a large storage room, packed full with crates of materials.  The
+room is completely without paint, extremely gray and dull.  A red light flashes
+in the corner.  As the light shifts, a security camera with a machine gun
+mounted on it can be seen.    
+~
+51 0 0
+D0
+~
+~
+0 0 5139
+D1
+~
+~
+0 0 5138
+D3
+~
+~
+0 0 5130
+S
+#5138
+Storage Room 2-A~
+   You are in a large storage room, packed full with crates of materials.  The
+room is completely without paint, extremely gray and dull.  A red light flashes
+in the corner.  As the light shifts, a security camera with a machine gun
+mounted on it can be seen.    
+~
+51 0 0
+D0
+~
+~
+0 0 5140
+D3
+~
+~
+0 0 5137
+S
+#5139
+Storage Room 2-A~
+   You are in a large storage room, packed full with crates of materials.  The
+room is completely without paint, extremely gray and dull.  A red light flashes
+in the corner.  As the light shifts, a security camera with a machine gun
+mounted on it can be seen.    
+~
+51 0 0
+D1
+~
+~
+0 0 5140
+D2
+~
+~
+0 0 5137
+S
+#5140
+Storage Room 2-A~
+   You are in a large storage room, packed full with crates of materials.  The
+room is completely without paint, extremely gray and dull.  A red light flashes
+in the corner.  As the light shifts, a security camera with a machine gun
+mounted on it can be seen.    
+~
+51 0 0
+D2
+~
+~
+0 0 5138
+D3
+~
+~
+0 0 5139
+S
+#5141
+Small tunnel~
+   This small tunnel is barely big enough for one to crawl through.  It is in
+all actuality a vent system, therefore a strong blast of warm air is constant
+throughout the tunnel.  Rats scurry about, and their droppings are everyone.  
+Every once in a while, the tunnel encounters a grate on the bottom, looking
+into rooms of some sort.  The tunnel growls slightly brighter to the north.  
+
+~
+51 0 0
+D0
+~
+~
+0 0 5142
+D2
+~
+tunnel~
+1 0 5134
+S
+#5142
+Small Tunnel~
+   This small tunnel is barely big enough for one to crawl through.  It is in
+all actuality a vent system, therefore a strong blast of warm air is constant
+throughout the tunnel.  Rats scurry about, and their droppings are everyone.  
+Every once in a while, the tunnel encounters a grate on the bottom, looking
+into rooms of some sort.  The tunnel growls slightly brighter to the north.  
+
+~
+51 0 0
+D0
+~
+~
+0 0 5143
+D2
+~
+~
+0 0 5141
+S
+#5143
+Small Tunnel~
+   This small tunnel is barely big enough for one to crawl through.  It is in
+all actuality a vent system, therefore a strong blast of warm air is constant
+throughout the tunnel.  Rats scurry about, and their droppings are everyone.  
+Every once in a while, the tunnel encounters a grate on the bottom, looking
+into rooms of some sort.  The tunnel growls slightly brighter to the north.  
+The path divides into three seperate directions: west, north and east.    
+~
+51 0 0
+D0
+~
+~
+0 0 5149
+D1
+~
+~
+0 0 5144
+D2
+~
+~
+0 0 5142
+D3
+~
+~
+0 0 5155
+S
+#5144
+Small Tunnel~
+   This small tunnel is barely big enough for one to crawl through.  It is in
+all actuality a vent system, therefore a strong blast of warm air is constant
+throughout the tunnel.  Rats scurry about, and their droppings are everyone.  
+Every once in a while, the tunnel encounters a grate on the bottom, looking
+into rooms of some sort.  The tunnel growls slightly brighter to the north.  
+
+~
+51 0 0
+D1
+~
+~
+0 0 5145
+D3
+~
+~
+0 0 5143
+S
+#5145
+Small Tunnel~
+   This small tunnel is barely big enough for one to crawl through.  It is in
+all actuality a vent system, therefore a strong blast of warm air is constant
+throughout the tunnel.  Rats scurry about, and their droppings are everyone.  
+Every once in a while, the tunnel encounters a grate on the bottom, looking
+into rooms of some sort.  The tunnel growls slightly brighter to the north.  A
+small &Bgrate&n is directly in front of you, showing a small jail cell.    
+~
+51 0 0
+D0
+~
+~
+0 0 5146
+D3
+~
+~
+0 0 5144
+E
+grate~
+   A small jail cell can be seen through the grate, showing a messed up bed and
+a disgusting looking toilet.  A large framed dark-skinned man can be seen
+pacing around the room.    
+~
+S
+#5146
+Small Tunnel~
+   This small tunnel is barely big enough for one to crawl through.  It is in
+all actuality a vent system, therefore a strong blast of warm air is constant
+throughout the tunnel.  Rats scurry about, and their droppings are everyone.  
+Every once in a while, the tunnel encounters a grate on the bottom, looking
+into rooms of some sort.  The tunnel growls slightly brighter to the north.  
+
+~
+51 0 0
+D0
+~
+~
+0 0 5147
+D2
+~
+~
+0 0 5145
+S
+#5147
+Small Tunnel~
+   This small tunnel is barely big enough for one to crawl through.  It is in
+all actuality a vent system, therefore a strong blast of warm air is constant
+throughout the tunnel.  Rats scurry about, and their droppings are everyone.  
+Every once in a while, the tunnel encounters a grate on the bottom, looking
+into rooms of some sort.  The tunnel growls slightly brighter to the north.  
+
+~
+51 0 0
+D1
+~
+~
+0 0 5148
+D2
+~
+~
+0 0 5146
+S
+#5148
+Small Tunnel~
+   This small tunnel is barely big enough for one to crawl through.  It is in
+all actuality a vent system, therefore a strong blast of warm air is constant
+throughout the tunnel.  Rats scurry about, and their droppings are everyone.  
+Every once in a while, the tunnel encounters a grate on the bottom, looking
+into rooms of some sort.  The tunnel growls slightly brighter to the north.  
+
+~
+51 0 0
+D3
+~
+~
+0 0 5147
+D5
+~
+~
+0 0 5160
+S
+#5149
+Small Tunnel~
+   This small tunnel is barely big enough for one to crawl through.  It is in
+all actuality a vent system, therefore a strong blast of warm air is constant
+throughout the tunnel.  Rats scurry about, and their droppings are everyone.  
+Every once in a while, the tunnel encounters a grate on the bottom, looking
+into rooms of some sort.  The tunnel growls slightly brighter to the north.  
+
+~
+51 0 0
+D0
+~
+~
+0 0 5150
+D2
+~
+~
+0 0 5143
+S
+#5150
+Small Tunnel~
+   This small tunnel is barely big enough for one to crawl through.  It is in
+all actuality a vent system, therefore a strong blast of warm air is constant
+throughout the tunnel.  Rats scurry about, and their droppings are everyone.  
+Every once in a while, the tunnel encounters a grate on the bottom, looking
+into rooms of some sort.  The tunnel growls slightly brighter to the north.  A
+metal &Bgrate&n is on the bottom of the tunnel directly in front of you maybe
+you should take a look.    
+~
+51 0 0
+D0
+~
+~
+0 0 5151
+D2
+~
+~
+0 0 5149
+E
+grate~
+   A small, jail-cell type room is directly below this tunnel.  On the bed, an
+attractive woman with red hair can be seen doing situps at an incredible rate.
+  
+~
+S
+#5151
+Small Tunnel~
+   This small tunnel is barely big enough for one to crawl through.  It is in
+all actuality a vent system, therefore a strong blast of warm air is constant
+throughout the tunnel.  Rats scurry about, and their droppings are everyone.  
+Every once in a while, the tunnel encounters a grate on the bottom, looking
+into rooms of some sort.  The tunnel growls slightly brighter to the north.  
+
+~
+51 0 0
+D0
+~
+~
+0 0 5152
+D2
+~
+~
+0 0 5150
+S
+#5152
+Small Tunnel~
+   This small tunnel is barely big enough for one to crawl through.  It is in
+all actuality a vent system, therefore a strong blast of warm air is constant
+throughout the tunnel.  Rats scurry about, and their droppings are everyone.  
+Every once in a while, the tunnel encounters a grate on the bottom, looking
+into rooms of some sort.  The tunnel growls slightly brighter to the north.  
+
+~
+51 0 0
+D2
+~
+~
+0 0 5151
+D3
+~
+~
+0 0 5153
+S
+#5153
+Small Tunnel~
+   This small tunnel is barely big enough for one to crawl through.  It is in
+all actuality a vent system, therefore a strong blast of warm air is constant
+throughout the tunnel.  Rats scurry about, and their droppings are everyone.  
+Every once in a while, the tunnel encounters a grate on the bottom, looking
+into rooms of some sort.  The tunnel growls slightly brighter to the north.  
+
+~
+51 0 0
+D0
+~
+~
+0 0 5154
+D1
+~
+~
+0 0 5152
+S
+#5154
+Small Tunnel~
+   This small tunnel is barely big enough for one to crawl through.  It is in
+all actuality a vent system, therefore a strong blast of warm air is constant
+throughout the tunnel.  Rats scurry about, and their droppings are everyone.  
+Every once in a while, the tunnel encounters a grate on the bottom, looking
+into rooms of some sort.  The tunnel growls slightly brighter to the north.  
+
+~
+51 0 0
+D2
+~
+~
+0 0 5153
+S
+#5155
+Small Tunnel~
+   This small tunnel is barely big enough for one to crawl through.  It is in
+all actuality a vent system, therefore a strong blast of warm air is constant
+throughout the tunnel.  Rats scurry about, and their droppings are everyone.  
+Every once in a while, the tunnel encounters a grate on the bottom, looking
+into rooms of some sort.  The tunnel growls slightly brighter to the north.  
+
+~
+51 0 0
+D1
+~
+~
+0 0 5143
+D3
+~
+~
+0 0 5156
+S
+#5156
+Small Tunnel~
+   This small tunnel is barely big enough for one to crawl through.  It is in
+all actuality a vent system, therefore a strong blast of warm air is constant
+throughout the tunnel.  Rats scurry about, and their droppings are everyone.  
+Every once in a while, the tunnel encounters a grate on the bottom, looking
+into rooms of some sort.  The tunnel growls slightly brighter to the north.  
+
+~
+51 0 0
+D1
+~
+~
+0 0 5155
+D3
+~
+~
+0 0 5157
+S
+#5157
+Small Tunnel~
+   This small tunnel is barely big enough for one to crawl through.  It is in
+all actuality a vent system, therefore a strong blast of warm air is constant
+throughout the tunnel.  Rats scurry about, and their droppings are everyone.  
+Every once in a while, the tunnel encounters a grate on the bottom, looking
+into rooms of some sort.  The tunnel growls slightly brighter to the north.  
+
+~
+51 0 0
+D1
+~
+~
+0 0 5156
+D5
+~
+~
+0 0 5158
+S
+#5158
+Small Tunnel~
+   This small tunnel is barely big enough for one to crawl through.  It is in
+all actuality a vent system, therefore a strong blast of warm air is constant
+throughout the tunnel.  Rats scurry about, and their droppings are everyone.  
+Every once in a while, the tunnel encounters a grate on the bottom, looking
+into rooms of some sort.  The tunnel growls slightly brighter to the north.  
+
+~
+51 0 0
+D3
+~
+~
+0 0 5159
+D4
+~
+~
+0 0 5157
+S
+#5159
+Small Tunnel~
+   This small tunnel is barely big enough for one to crawl through.  It is in
+all actuality a vent system, therefore a strong blast of warm air is constant
+throughout the tunnel.  Rats scurry about, and their droppings are everyone.  
+Every once in a while, the tunnel encounters a grate on the bottom, looking
+into rooms of some sort.  The tunnel growls slightly brighter to the north.  
+
+~
+51 0 0
+D1
+~
+~
+0 0 5158
+S
+#5160
+Small Tunnel~
+   This small tunnel is barely big enough for one to crawl through.  It is in
+all actuality a vent system, therefore a strong blast of warm air is constant
+throughout the tunnel.  Rats scurry about, and their droppings are everyone.  
+Every once in a while, the tunnel encounters a grate on the bottom, looking
+into rooms of some sort.  The tunnel growls slightly brighter to the north.  
+
+~
+51 0 0
+D1
+~
+~
+0 0 5161
+D4
+~
+~
+0 0 5148
+S
+#5161
+The Armory~
+   The small tunnel emerges into a very large armory, complete with missile
+weapons and a gigantic tank in the center.  Many rooms are scattered about for
+storage of different weapons.  Guards patrol the area endlessly, as well as
+many armed security cameras surveying the scene.  A small staircase can be seen
+on the east side of this gigantic room.    
+~
+51 ch 0
+D0
+~
+~
+0 0 5162
+D1
+~
+~
+0 0 5165
+D2
+~
+~
+0 0 5163
+D3
+~
+~
+0 0 5160
+S
+#5162
+The Armory~
+   The small tunnel emerges into a very large armory, complete with missile
+weapons and a gigantic tank in the center.  Many rooms are scattered about for
+storage of different weapons.  Guards patrol the area endlessly, as well as
+many armed security cameras surveying the scene.  A small staircase can be seen
+on the east side of this gigantic room.    
+~
+51 h 0
+D1
+~
+~
+0 0 5166
+D2
+~
+~
+0 0 5161
+S
+#5163
+The Armory~
+   The small tunnel emerges into a very large armory, complete with missile
+weapons and a gigantic tank in the center.  Many rooms are scattered about for
+storage of different weapons.  Guards patrol the area endlessly, as well as
+many armed security cameras surveying the scene.  A small staircase can be seen
+on the east side of this gigantic room.    
+~
+51 h 0
+D0
+~
+~
+0 0 5161
+D1
+~
+~
+0 0 5164
+S
+#5164
+The Armory~
+   The small tunnel emerges into a very large armory, complete with missile
+weapons and a gigantic tank in the center.  Many rooms are scattered about for
+storage of different weapons.  Guards patrol the area endlessly, as well as
+many armed security cameras surveying the scene.  A small staircase can be seen
+on the east side of this gigantic room.    
+~
+51 h 0
+D0
+~
+~
+0 0 5165
+D1
+~
+~
+0 0 5169
+D3
+~
+~
+0 0 5163
+S
+#5165
+The Armory~
+   The small tunnel emerges into a very large armory, complete with missile
+weapons and a gigantic tank in the center.  Many rooms are scattered about for
+storage of different weapons.  Guards patrol the area endlessly, as well as
+many armed security cameras surveying the scene.  A small staircase can be seen
+on the east side of this gigantic room.    
+~
+51 h 0
+D0
+~
+~
+0 0 5166
+D1
+~
+~
+0 0 5168
+D2
+~
+~
+0 0 5164
+D3
+~
+~
+0 0 5161
+S
+#5166
+The Armory~
+   The small tunnel emerges into a very large armory, complete with missile
+weapons and a gigantic tank in the center.  Many rooms are scattered about for
+storage of different weapons.  Guards patrol the area endlessly, as well as
+many armed security cameras surveying the scene.  A small staircase can be seen
+on the east side of this gigantic room.    
+~
+51 h 0
+D1
+~
+~
+0 0 5167
+D2
+~
+~
+0 0 5165
+D3
+~
+~
+0 0 5162
+S
+#5167
+The Armory~
+   The small tunnel emerges into a very large armory, complete with missile
+weapons and a gigantic tank in the center.  Many rooms are scattered about for
+storage of different weapons.  Guards patrol the area endlessly, as well as
+many armed security cameras surveying the scene.  A small staircase can be seen
+on the east side of this gigantic room.    
+~
+51 h 0
+D1
+~
+~
+0 0 5172
+D2
+~
+~
+0 0 5168
+D3
+~
+~
+0 0 5166
+S
+#5168
+The Armory~
+   The small tunnel emerges into a very large armory, complete with missile
+weapons and a gigantic tank in the center.  Many rooms are scattered about for
+storage of different weapons.  Guards patrol the area endlessly, as well as
+many armed security cameras surveying the scene.  A small staircase can be seen
+on the east side of this gigantic room.    
+~
+51 h 0
+D0
+~
+~
+0 0 5167
+D1
+~
+~
+0 0 5171
+D2
+~
+~
+0 0 5169
+D3
+~
+~
+0 0 5165
+S
+#5169
+The Armory~
+   The small tunnel emerges into a very large armory, complete with missile
+weapons and a gigantic tank in the center.  Many rooms are scattered about for
+storage of different weapons.  Guards patrol the area endlessly, as well as
+many armed security cameras surveying the scene.  A small staircase can be seen
+on the east side of this gigantic room.    
+~
+51 h 0
+D0
+~
+~
+0 0 5168
+D1
+~
+~
+0 0 5170
+D3
+~
+~
+0 0 5164
+S
+#5170
+The Armory~
+   The small tunnel emerges into a very large armory, complete with missile
+weapons and a gigantic tank in the center.  Many rooms are scattered about for
+storage of different weapons.  Guards patrol the area endlessly, as well as
+many armed security cameras surveying the scene.  A small staircase can be seen
+on the east side of this gigantic room.    
+~
+51 h 0
+D0
+~
+~
+0 0 5171
+D3
+~
+~
+0 0 5169
+S
+#5171
+The Armory~
+   The small tunnel emerges into a very large armory, complete with missile
+weapons and a gigantic tank in the center.  Many rooms are scattered about for
+storage of different weapons.  Guards patrol the area endlessly, as well as
+many armed security cameras surveying the scene.  A small staircase can be seen
+on the east side of this gigantic room.    
+~
+51 h 0
+D0
+~
+~
+0 0 5172
+D2
+~
+~
+0 0 5170
+D3
+~
+~
+0 0 5168
+S
+#5172
+The Armory~
+   The small tunnel emerges into a very large armory, complete with missile
+weapons and a gigantic tank in the center.  Many rooms are scattered about for
+storage of different weapons.  Guards patrol the area endlessly, as well as
+many armed security cameras surveying the scene.  A small staircase can be seen
+on the east side of this gigantic room.    
+~
+51 h 0
+D2
+~
+~
+0 0 5171
+D3
+~
+~
+0 0 5167
+S
+#5173
+The Armory~
+You are in an unfinished room.
+~
+51 h 0
+S
+#5174
+The Armory~
+You are in an unfinished room.
+~
+51 h 0
+S
+#5175
+The Armory~
+You are in an unfinished room.
+~
+51 h 0
+S
+#5176
+1~
+You are in an unfinished room.
+~
+51 0 0
+S
+#5177
+1~
+You are in an unfinished room.
+~
+51 0 0
+S
+#5178
+1~
+You are in an unfinished room.
+~
+51 0 0
+S
+#5179
+1~
+You are in an unfinished room.
+~
+51 0 0
+S
+#5180
+1~
+You are in an unfinished room.
+~
+51 0 0
+S
+#5181
+1~
+You are in an unfinished room.
+~
+51 0 0
+S
+#5182
+1~
+You are in an unfinished room.
+~
+51 0 0
+S
+#5183
+1~
+You are in an unfinished room.
+~
+51 0 0
+S
+#5184
+1~
+You are in an unfinished room.
+~
+51 0 0
+S
+#5185
+1~
+You are in an unfinished room.
+~
+51 0 0
+S
+#5186
+1~
+You are in an unfinished room.
+~
+51 0 0
+S
+#5187
+1~
+You are in an unfinished room.
+~
+51 0 0
+S
+#5188
+1~
+You are in an unfinished room.
+~
+51 0 0
+S
+#5189
+1~
+You are in an unfinished room.
+~
+51 0 0
+S
+#5190
+1~
+You are in an unfinished room.
+~
+51 0 0
+S
+#5191
+1~
+You are in an unfinished room.
+~
+51 0 0
+S
+#5192
+1~
+You are in an unfinished room.
+~
+51 0 0
+S
+#5193
+1~
+You are in an unfinished room.
+~
+51 0 0
+S
+#5194
+1~
+You are in an unfinished room.
+~
+51 0 0
+S
+#5195
+1~
+You are in an unfinished room.
+~
+51 0 0
+S
+#5196
+1~
+You are in an unfinished room.
+~
+51 0 0
+S
+#5197
+1~
+You are in an unfinished room.
+~
+51 0 0
+S
+#5198
+1~
+You are in an unfinished room.
+~
+51 0 0
+S
+#5199
+Blank~
+Nothing.
+~
+51 dq 0
+D4
+~
+~
+0 0 1204
+S
+T 5199
+$~

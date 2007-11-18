@@ -1,0 +1,200 @@
+CircleMUD v3.0 Shop File~
+#2705~
+-1
+1.00
+1.00
+-1
+%s Sorry, I don't stock that item.~
+%s You don't seem to have that.~
+%s I don't trade in such items.~
+%s I can't afford that!~
+%s You are too poor!~
+%s That'll be %d coins, thanks.~
+%s I'll give you %d coins for that.~
+0
+0
+2705
+0
+2719
+-1
+0
+28
+0
+0
+#2713~
+-1
+1.00
+1.00
+-1
+%s Ke?!~
+%s Ke?!~
+%s Ke?!~
+Ð¬Jˆ¼J ±J8¯J~
+8¼J~
+h~
+%s Ke?! %d?~
+0
+0
+1
+0
+-1
+0
+28
+0
+0
+#2719~
+-1
+1.00
+1.00
+99
+-1
+%s Sorry, I don't stock that item.~
+%s You don't seem to have that.~
+%s I don't trade in such items.~
+%s I can't afford that!~
+%s You are too poor!~
+%s That'll be %d coins, thanks.~
+%s I'll give you %d coins for that.~
+0
+0
+26739
+0
+-1
+0
+28
+0
+0
+#2736~
+-1
+1.00
+1.00
+-1
+%s Sorry, I don't stock that item.~
+%s You don't seem to have that.~
+%s I don't trade in such items.~
+%s I can't afford that!~
+%s You are too poor!~
+%s That'll be %d coins, thanks.~
+%s I'll give you %d coins for that.~
+0
+0
+2736
+0
+2736
+-1
+0
+28
+0
+0
+#2737~
+-1
+1.00
+1.00
+-1
+%s That'll be %d coins, thanks.~
+I~
+%s You are too poor!~
+~
+%s I'll give you %d coins for that.~
+¯MÀm@³
+~
+%s Ke?! %d?~
+0
+0
+2737
+0
+2737
+-1
+0
+28
+0
+0
+#2738~
+-1
+1.00
+1.00
+-1
+2ÿÿ~
+Îÿÿ~
+I~
+~
+%s That'll be %d coins, thanks.~
+%s I'll give you %d coins for that.~
+ ßJ ¶M~
+0
+0
+2738
+0
+2738
+-1
+0
+28
+0
+0
+#2739~
+-1
+1.00
+1.00
+-1
+%s Sorry, I don't stock that item.~
+%s You don't seem to have that.~
+%s I don't trade in such items.~
+%s I can't afford that!~
+%s You are too poor!~
+%s That'll be %d coins, thanks.~
+%s I'll give you %d coins for that.~
+0
+0
+2739
+0
+2739
+-1
+0
+28
+0
+0
+#2740~
+-1
+1.00
+1.00
+-1
+ø±Mˆm@~
+ˆm@ÝJon't seem to have that.~
+¾N@ÍJ't trade in such items.~
+%s I can't afford that!~
+%s I can't afford that!~
+ÝJ ÌJll be %d coins, thanks.~
+@ÍJ@£Mgive you %d coins for th(~
+0
+0
+2740
+0
+2740
+-1
+0
+28
+0
+0
+#2741~
+-1
+1.00
+1.00
+-1
+%s Sorry, I don't stock that iteP~
+¾N@ÍJ't trade in such items.~
+ÝJ ÌJll be %d coins, thanks.~
+%s I can't afford that!~
+s~
+@ÍJ@£Mgive you %d coins for th(~
+%s Sorry, I don't stock that item.~
+0
+0
+2741
+0
+2741
+-1
+0
+28
+0
+0
+$~

@@ -1,0 +1,1428 @@
+#7300
+&gThe &mCursed &gForest Path&n~
+You are in an unfinished room.
+~
+73 c 0
+D1
+~
+~
+0 0 8562
+D3
+~
+~
+0 0 7301
+S
+#7301
+&gThe &mCursed &gForest Path&n~
+You are in an unfinished room.
+~
+73 0 0
+D1
+~
+~
+0 0 7300
+D3
+~
+~
+0 0 7302
+S
+#7302
+&gThe &mCursed &gForest Path&n~
+You are in an unfinished room.
+~
+73 0 0
+D1
+~
+~
+0 0 7301
+D3
+~
+~
+0 0 7303
+S
+#7303
+&gThe &mCursed &gForest Path&n~
+You are in an unfinished room.
+~
+73 0 0
+D1
+~
+~
+0 0 7302
+D3
+~
+~
+0 0 7304
+S
+#7304
+&gA Split in the Path&n~
+You are in an unfinished room.
+~
+73 0 0
+D0
+~
+~
+0 0 7305
+D1
+~
+~
+0 0 7303
+D2
+~
+~
+0 0 7311
+S
+#7305
+&gThe &mCursed &gForest Path&n~
+You are in an unfinished room.
+~
+73 0 0
+D2
+~
+~
+0 0 7304
+D3
+~
+~
+0 0 7306
+S
+#7306
+&gThe &mCursed &gForest Path&n~
+You are in an unfinished room.
+~
+73 0 0
+D1
+~
+~
+0 0 7305
+D2
+~
+~
+0 0 7308
+D3
+~
+~
+0 0 7307
+S
+#7307
+&gA Split in the Path&n~
+You are in an unfinished room.
+~
+73 0 0
+D1
+~
+~
+0 0 7306
+D3
+~
+~
+0 0 7338
+S
+#7308
+&gThe &mCursed &gForest Path&n~
+You are in an unfinished room.
+~
+73 0 0
+D0
+~
+~
+0 0 7306
+D2
+~
+~
+0 0 7309
+S
+#7309
+&gThe &mCursed &gForest Path&n~
+You are in an unfinished room.
+~
+73 0 0
+D0
+~
+~
+0 0 7308
+D1
+~
+~
+0 0 7310
+S
+#7310
+&gA Split in the Path&n~
+You are in an unfinished room.
+~
+73 0 0
+D1
+~
+~
+0 0 7311
+D2
+~
+~
+0 0 7312
+D3
+~
+~
+0 0 7309
+S
+#7311
+&gThe &mCursed &gForest Path&n~
+You are in an unfinished room.
+~
+73 0 0
+D0
+~
+~
+0 0 7304
+D3
+~
+~
+0 0 7310
+S
+#7312
+&gThe &mCursed &gForest Path&n~
+You are in an unfinished room.
+~
+73 0 0
+D0
+~
+~
+0 0 7310
+D2
+~
+~
+0 0 7313
+S
+#7313
+&gA Bend in the Path&n~
+You are in an unfinished room.
+~
+73 0 0
+D0
+~
+~
+0 0 7312
+D3
+~
+~
+0 0 7314
+S
+#7314
+&gA Bend in the Path&n~
+You are in an unfinished room.
+~
+73 0 0
+D1
+~
+~
+0 0 7313
+D2
+~
+~
+0 0 7315
+S
+#7315
+&gThe &mCursed &gForest Path&n~
+You are in an unfinished room.
+~
+73 0 0
+D0
+~
+~
+0 0 7314
+D2
+~
+~
+0 0 7316
+S
+#7316
+&gThe &mCursed &gForest Path&n~
+You are in an unfinished room.
+~
+73 0 0
+D0
+~
+~
+0 0 7315
+D2
+~
+~
+0 0 7317
+S
+#7317
+&gA Split in the Path&n~
+You are in an unfinished room.
+~
+73 0 0
+D0
+~
+~
+0 0 7316
+D1
+~
+~
+0 0 7332
+D3
+~
+~
+0 0 7318
+S
+#7318
+&gA Small Opening in the Path&n~
+You are in an unfinished room.
+~
+73 0 0
+D1
+~
+~
+0 0 7317
+D2
+~
+~
+0 0 7319
+D3
+~
+~
+0 0 7355
+S
+#7319
+&gThe &mCursed &gForest Path&n~
+You are in an unfinished room.
+~
+73 0 0
+D0
+~
+~
+0 0 7318
+D2
+~
+~
+0 0 7320
+S
+#7320
+&gThe &mCursed &gForest Path&n~
+You are in an unfinished room.
+~
+73 0 0
+D0
+~
+~
+0 0 7319
+D3
+~
+~
+0 0 7321
+S
+#7321
+&gThe &mCursed &gForest Path&n~
+You are in an unfinished room.
+~
+73 0 0
+D1
+~
+~
+0 0 7320
+D2
+~
+~
+0 0 7322
+S
+#7322
+&gThe &mCursed &gForest Path&n~
+You are in an unfinished room.
+~
+73 0 0
+D0
+~
+~
+0 0 7321
+D2
+~
+~
+0 0 7323
+S
+#7323
+&gThe &mCursed &gForest Path&n~
+You are in an unfinished room.
+~
+73 0 0
+D0
+~
+~
+0 0 7322
+D2
+~
+~
+0 0 7324
+S
+#7324
+&CA Clearing&n~
+You are in an unfinished room.
+~
+73 0 0
+D0
+~
+~
+0 0 7323
+D2
+~
+~
+0 0 7325
+D3
+~
+~
+0 0 7327
+S
+#7325
+&gA Narrow Path&n~
+   The narrow path is nothing more than some long grass growing over a small
+path of dirt.  Short and tall trees surround you, producing a lot of shade from
+the sky's light.  Not much can be heard besides the rustling of leaves from the
+occasional breeze or gust of wind.    
+~
+73 0 0
+D0
+~
+~
+0 0 7324
+D2
+~
+~
+0 0 7326
+S
+#7326
+&gA Narrow Path&n~
+   There really isn't much of a path.  What may have been a path at one point
+in time is now just some dirt with long grass growing over it.  There are a
+large assortment of trees, both tall and short, that produce a lot of shade.  
+Besides the occasionally breeze rustling the surrounding leaves, there really
+isn't much noise.    
+~
+73 0 0
+D0
+~
+~
+0 0 7325
+D2
+~
+~
+0 0 7100
+S
+#7327
+&gA Narrow Path&n~
+   Long grass can be seen growing over what some may not even call a path.  
+However, it leads to somewhere so it must be a path of some sort.  The area is
+very quite when the wind isn't gently blowing.  Trees tower above shading the
+land.    
+~
+73 0 0
+D1
+~
+~
+0 0 7324
+D3
+~
+~
+0 0 7328
+S
+#7328
+&gA Narrow Path&n~
+   The narrow path is nothing more than some long grass growing over a small
+path of dirt.  Short and tall trees surround you, producing a lot of shade from
+the sky's light.  Not much can be heard besides the rustling of leaves from the
+occasional breeze or gust of wind.    
+~
+73 0 0
+D1
+~
+~
+0 0 7327
+D3
+~
+~
+0 0 7329
+S
+#7329
+&gA Narrow Path&n~
+   There really isn't much of a path.  What may have been a path at one point
+in time is now just some dirt with long grass growing over it.  There are a
+large assortment of trees, both tall and short, that produce a lot of shade.  
+Besides the occasionally breeze rustling the surrounding leaves, there really
+isn't much noise.    
+~
+73 0 0
+D0
+~
+~
+0 0 7330
+D1
+~
+~
+0 0 7328
+S
+#7330
+&gA Narrow Path&n~
+   The narrow path is nothing more than some long grass growing over a small
+path of dirt.  Short and tall trees surround you, producing a lot of shade from
+the sky's light.  Not much can be heard besides the rustling of leaves from the
+occasional breeze or gust of wind.    
+~
+73 0 0
+D2
+~
+~
+0 0 7329
+D3
+~
+~
+0 0 7331
+S
+#7331
+&gA Narrow Path&n~
+   Long grass can be seen growing over what some may not even call a path.  
+However, it leads to somewhere so it must be a path of some sort.  The area is
+very quite when the wind isn't gently blowing.  Trees tower above shading the
+land.    
+~
+73 0 0
+D1
+~
+~
+0 0 7330
+S
+#7332
+&gA Concealed Path&n~
+You are in an unfinished room.
+~
+73 0 0
+D1
+~
+~
+0 0 7333
+D3
+~
+~
+0 0 7317
+S
+#7333
+&gAn Extremely Dark Path&n~
+You are in an unfinished room.
+~
+73 0 0
+D2
+~
+~
+0 0 7334
+D3
+~
+~
+0 0 7332
+S
+#7334
+&gAn Extremely Dark Path&n~
+You are in an unfinished room.
+~
+73 t 0
+D0
+~
+~
+0 0 7333
+D2
+~
+~
+0 0 7335
+S
+#7335
+&gAn Extremely Dark Path&n~
+You are in an unfinished room.
+~
+73 t 0
+D0
+~
+~
+0 0 7334
+D2
+~
+~
+0 0 7336
+S
+#7336
+&gAn Very Dark and Concealed Path&n~
+You are in an unfinished room.
+~
+73 0 0
+D0
+~
+~
+0 0 7335
+D1
+~
+~
+0 0 7337
+S
+#7337
+&gA Dead End&n~
+You are in an unfinished room.
+~
+73 0 0
+D3
+~
+~
+0 0 7336
+D5
+~
+secret~
+2 3999 7591
+S
+#7338
+&gThe &mCursed &gForest Path&n~
+You are in an unfinished room.
+~
+73 0 0
+D1
+~
+~
+0 0 7307
+D3
+~
+~
+0 0 7339
+S
+#7339
+&gThe &mCursed &gForest Path&n~
+You are in an unfinished room.
+~
+73 0 0
+D1
+~
+~
+0 0 7338
+D3
+~
+~
+0 0 7340
+S
+#7340
+&gThe &mCursed &gForest Path&n~
+You are in an unfinished room.
+~
+73 0 0
+D1
+~
+~
+0 0 7339
+D3
+~
+~
+0 0 7341
+S
+#7341
+&gThe &mCursed &gForest Path&n~
+You are in an unfinished room.
+~
+73 0 0
+D1
+~
+~
+0 0 7340
+D3
+~
+~
+0 0 7342
+S
+#7342
+&gThe &mCursed &gForest Path&n~
+You are in an unfinished room.
+~
+73 0 0
+D1
+~
+~
+0 0 7341
+D2
+~
+~
+0 0 7343
+S
+#7343
+&gThe &mCursed &gForest Path&n~
+You are in an unfinished room.
+~
+73 0 0
+D0
+~
+~
+0 0 7342
+D2
+~
+~
+0 0 7344
+S
+#7344
+&gThe &mCursed &gForest Path&n~
+You are in an unfinished room.
+~
+73 0 0
+D0
+~
+~
+0 0 7343
+D2
+~
+~
+0 0 7361
+D3
+~
+~
+0 0 7345
+S
+#7345
+&gThe &mCursed &gForest Path&n~
+You are in an unfinished room.
+~
+73 0 0
+D1
+~
+~
+0 0 7344
+D3
+~
+~
+0 0 7346
+S
+#7346
+&gA Dark, Narrow Path&n~
+You are in an unfinished room.
+~
+73 0 0
+D0
+~
+~
+0 0 7347
+D1
+~
+~
+0 0 7345
+S
+#7347
+&gA Dark, Narrow Path&n~
+You are in an unfinished room.
+~
+73 0 0
+D1
+~
+~
+0 0 7348
+D2
+~
+~
+0 0 7346
+S
+#7348
+&gA Dark, Narrow Path&n~
+You are in an unfinished room.
+~
+73 0 0
+D0
+~
+~
+0 0 7349
+D3
+~
+~
+0 0 7347
+S
+#7349
+&gA Dark, Narrow Path&n~
+You are in an unfinished room.
+~
+73 0 0
+D0
+~
+~
+0 0 7350
+D2
+~
+~
+0 0 7348
+S
+#7350
+&gA Dark, Narrow Path&n~
+You are in an unfinished room.
+~
+73 0 0
+D2
+~
+~
+0 0 7349
+D3
+~
+~
+0 0 7351
+S
+#7351
+&gA Dark, Narrow Path&n~
+You are in an unfinished room.
+~
+73 0 0
+D1
+~
+~
+0 0 7350
+D3
+~
+~
+0 0 7352
+S
+#7352
+&gA Dark, Narrow Path&n~
+You are in an unfinished room.
+~
+73 0 0
+D0
+~
+~
+0 0 7353
+D1
+~
+~
+0 0 7351
+S
+#7353
+&gA Dirt Path&n~
+You are in an unfinished room.
+~
+73 0 0
+D0
+~
+~
+0 0 7354
+D2
+~
+~
+0 0 7352
+S
+#7354
+&gA Dirt Path&n~
+You are in an unfinished room.
+~
+73 0 0
+D2
+~
+~
+0 0 7353
+S
+#7355
+&gAn Extremely Dark Path&n~
+You are in an unfinished room.
+~
+73 0 0
+D1
+~
+~
+0 0 7318
+D3
+~
+~
+0 0 7356
+S
+#7356
+&gAn Extremely Dark Path&n~
+You are in an unfinished room.
+~
+73 t 0
+D0
+~
+~
+0 0 7357
+D1
+~
+~
+0 0 7355
+S
+#7357
+&gAn Extremely Dark Path&n~
+You are in an unfinished room.
+~
+73 t 0
+D0
+~
+~
+0 0 7358
+D2
+~
+~
+0 0 7356
+S
+#7358
+&gAn Extremely Dark Path&n~
+You are in an unfinished room.
+~
+73 t 0
+D1
+~
+~
+0 0 7359
+D2
+~
+~
+0 0 7357
+S
+#7359
+&gAn Extremely Dark Path&n~
+You are in an unfinished room.
+~
+73 0 0
+D0
+~
+~
+0 0 7360
+D3
+~
+~
+0 0 7358
+S
+#7360
+&gA Dead End&n~
+You are in an unfinished room.
+~
+73 0 0
+D2
+~
+~
+0 0 7359
+S
+#7361
+&gThe &mCursed &gForest Path&n~
+You are in an unfinished room.
+~
+73 0 0
+D0
+~
+~
+0 0 7344
+D1
+~
+~
+0 0 7362
+S
+#7362
+&gAn Extremely Dark Path&n~
+You are in an unfinished room.
+~
+73 0 0
+D1
+~
+~
+0 0 7363
+D3
+~
+~
+0 0 7361
+S
+#7363
+&gA Dead End&n~
+You are in an unfinished room.
+~
+73 0 0
+D3
+~
+~
+0 0 7362
+S
+#7364
+.~
+You are in an unfinished room.
+~
+73 0 0
+D1
+~
+~
+0 0 7365
+S
+#7365
+.~
+You are in an unfinished room.
+~
+73 0 0
+D1
+~
+~
+0 0 7366
+D3
+~
+~
+0 0 7364
+S
+#7366
+.~
+You are in an unfinished room.
+~
+73 0 0
+D1
+~
+~
+0 0 7367
+D3
+~
+~
+0 0 7365
+S
+#7367
+.~
+You are in an unfinished room.
+~
+73 0 0
+D1
+~
+~
+0 0 7368
+D3
+~
+~
+0 0 7366
+S
+#7368
+.~
+You are in an unfinished room.
+~
+73 0 0
+D1
+~
+~
+0 0 7369
+D3
+~
+~
+0 0 7367
+S
+#7369
+.~
+You are in an unfinished room.
+~
+73 0 0
+D1
+~
+~
+0 0 7370
+D3
+~
+~
+0 0 7368
+S
+#7370
+.~
+You are in an unfinished room.
+~
+73 0 0
+D0
+~
+~
+0 0 7397
+D2
+~
+~
+0 0 7371
+D3
+~
+~
+0 0 7369
+S
+#7371
+.~
+You are in an unfinished room.
+~
+73 0 0
+D0
+~
+~
+0 0 7370
+D2
+~
+~
+0 0 7372
+S
+#7372
+.~
+You are in an unfinished room.
+~
+73 0 0
+D0
+~
+~
+0 0 7371
+D2
+~
+~
+0 0 7373
+S
+#7373
+.~
+You are in an unfinished room.
+~
+73 0 0
+D0
+~
+~
+0 0 7372
+D2
+~
+~
+0 0 7374
+S
+#7374
+.~
+You are in an unfinished room.
+~
+73 0 0
+D0
+~
+~
+0 0 7373
+D2
+~
+~
+0 0 7375
+S
+#7375
+.~
+You are in an unfinished room.
+~
+73 0 0
+D0
+~
+~
+0 0 7374
+D1
+~
+~
+0 0 7376
+S
+#7376
+.~
+You are in an unfinished room.
+~
+73 0 0
+D1
+~
+~
+0 0 7377
+D3
+~
+~
+0 0 7375
+S
+#7377
+.~
+You are in an unfinished room.
+~
+73 0 0
+D0
+~
+~
+0 0 7378
+D3
+~
+~
+0 0 7376
+S
+#7378
+.~
+You are in an unfinished room.
+~
+73 0 0
+D1
+~
+~
+0 0 7379
+D2
+~
+~
+0 0 7377
+S
+#7379
+.~
+You are in an unfinished room.
+~
+73 0 0
+D2
+~
+~
+0 0 7380
+D3
+~
+~
+0 0 7378
+S
+#7380
+.~
+You are in an unfinished room.
+~
+73 0 0
+D0
+~
+~
+0 0 7379
+D1
+~
+~
+0 0 7381
+S
+#7381
+.~
+You are in an unfinished room.
+~
+73 0 0
+D2
+~
+~
+0 0 7382
+D3
+~
+~
+0 0 7380
+S
+#7382
+.~
+You are in an unfinished room.
+~
+73 0 0
+D0
+~
+~
+0 0 7381
+D1
+~
+~
+0 0 7383
+S
+#7383
+.~
+You are in an unfinished room.
+~
+73 0 0
+D0
+~
+~
+0 0 7384
+D3
+~
+~
+0 0 7382
+S
+#7384
+.~
+You are in an unfinished room.
+~
+73 0 0
+D1
+~
+~
+0 0 7385
+D2
+~
+~
+0 0 7383
+S
+#7385
+.~
+You are in an unfinished room.
+~
+73 0 0
+D1
+~
+~
+0 0 7386
+D3
+~
+~
+0 0 7384
+S
+#7386
+.~
+You are in an unfinished room.
+~
+73 0 0
+D1
+~
+~
+0 0 7387
+D3
+~
+~
+0 0 7385
+S
+#7387
+.~
+You are in an unfinished room.
+~
+73 0 0
+D1
+~
+~
+0 0 7388
+D3
+~
+~
+0 0 7386
+S
+#7388
+.~
+You are in an unfinished room.
+~
+73 0 0
+D1
+~
+~
+0 0 7392
+D3
+~
+~
+0 0 7387
+S
+#7389
+.~
+You are in an unfinished room.
+~
+73 0 0
+D0
+~
+~
+0 0 7390
+S
+#7390
+.~
+You are in an unfinished room.
+~
+73 0 0
+D0
+~
+~
+0 0 7391
+D2
+~
+~
+0 0 7389
+S
+#7391
+.~
+You are in an unfinished room.
+~
+73 0 0
+D0
+~
+~
+0 0 7392
+D2
+~
+~
+0 0 7390
+S
+#7392
+.~
+You are in an unfinished room.
+~
+73 0 0
+D0
+~
+~
+0 0 7393
+D2
+~
+~
+0 0 7391
+D3
+~
+~
+0 0 7388
+S
+#7393
+.~
+You are in an unfinished room.
+~
+73 0 0
+D0
+~
+~
+0 0 7394
+D2
+~
+~
+0 0 7392
+S
+#7394
+.~
+You are in an unfinished room.
+~
+73 0 0
+D0
+~
+~
+0 0 7395
+D2
+~
+~
+0 0 7393
+S
+#7395
+.~
+You are in an unfinished room.
+~
+73 0 0
+D0
+~
+~
+0 0 7396
+D2
+~
+~
+0 0 7394
+S
+#7396
+.~
+You are in an unfinished room.
+~
+73 0 0
+D2
+~
+~
+0 0 7395
+S
+#7397
+.~
+You are in an unfinished room.
+~
+73 0 0
+D1
+~
+~
+0 0 7398
+D2
+~
+~
+0 0 7370
+S
+#7398
+.~
+You are in an unfinished room.
+~
+73 0 0
+D0
+~
+~
+0 0 7399
+D3
+~
+~
+0 0 7397
+S
+#7399
+.~
+You are in an unfinished room.
+~
+73 0 0
+D2
+~
+~
+0 0 7398
+S
+$~

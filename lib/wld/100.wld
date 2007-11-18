@@ -1,0 +1,902 @@
+#10000
+&DGreat Hall of &rCrimson&D Twilight&n~
+
+&DThe &rCimson&D Hall is large and echos with sound.  The walls are made of onyx and there is no
+decoration on the wall.  The floor though is covered with exquisit carpets, and the room itself
+is well lit, with braziers in the corners.  There is a ruby fountain set in the center
+of the room, gurgling ceaslessly.  On the base of the fountain is an inscription which can
+only be made out on closer inspection.&n
+
+~
+100 cejlm 0
+D0
+~
+~
+0 0 10001
+D3
+~
+~
+0 0 -1
+D4
+~
+~
+0 0 -1
+S
+#10001
+&DTransport Room&n~
+&DThe transport room is how the members of &rCrimson&D Twilight gain access to the outside world.
+There is a portal in the east north and west, each leading to a different place within phobos
+and Rulek.  On the floor there is the archaic pentagram, used to harness the energies needed
+to keep the portals open at all times.&n
+
+~
+100 elm 0
+D0
+~
+~
+0 0 24156
+D1
+~
+~
+0 0 200
+D2
+~
+~
+0 0 10000
+D3
+~
+~
+0 0 24166
+D4
+~
+~
+0 0 10003
+S
+#10002
+A Grassy Track~
+This track has been formed mostly from the foot traffic going through here.
+The grass is relatively long and is in need of some looking after.  Some weeds
+with strange flowers and prickles sting your legs, leaving little cuts that may
+become infected.  A few little insects hop around in the grass clinging to long
+blades and jumping back into the bushes on sight of you.
+~
+100 0 0
+D1
+~
+~
+0 0 10001
+D3
+~
+~
+0 0 10003
+S
+#10003
+&rCrimson &DHall&n~
+
+&DThe second floor hall is covered with paintings and tapestries.  There are scenes of battles
+and portraits of members.  The hall is also well carpeted and very warm.  There is little
+light as the only source are a few candles on the walls.  To the east is the communication
+hall and in the west is the meeting rooms of the &rCrimson&D Twilight.&n
+
+~
+100 elm 0
+D1
+~
+~
+0 0 10007
+D3
+~
+~
+0 0 10004
+D5
+~
+~
+0 0 10001
+S
+#10004
+&rCrimson &DHall&n~
+
+&DThis is the corridor that leads to the meeting room and and resting room of &rCrimson&D Twilight.
+Like the rest of the hall, it is warm here and well maintained.  There is a sign here that
+reads:&r Loyalty to your brethren leads to greatness.&D  To the north lies the resting room
+and to the south is the meeting room.&n
+
+~
+100 elm 0
+D0
+~
+~
+0 0 10005
+D1
+~
+~
+0 0 10003
+D2
+~
+~
+0 0 10006
+D3
+~
+~
+0 0 -1
+S
+#10005
+&D-&rCT&D- Meeting Room&n~
+
+&DThe meeting room is expansive and well lit.  There candlebras in the corners of the room,
+and the walls are not shined as they in the rest of the fortress, thus keeping the glare
+in the room to a minimum.  There are a few places to sit, and there is a fireplace against
+the back wall, keeping the room at a comfortable temperature.  There is a portrait of Zyre
+on the left wall, and a portrait of Mith on the right wall, facing each other, and watching
+over the clan.&n
+
+~
+100 ejlm 0
+D0
+~
+~
+0 0 -1
+D1
+~
+~
+0 0 -1
+D2
+~
+~
+0 0 10004
+S
+#10006
+&DThe &rRegen &DRoom&n~
+
+&DAn immense calming feeling fills this large room who's only purpose is to help heal those who
+are wounded. Peace and tranquility are almost seeping from the dim lights which aluminate the
+large room. The comfortable warm air makes the environment of this room the perfect place for
+the members of the &rCrimson&D Twilight to rest.&n
+
+~
+100 jlmq 0
+D0
+~
+~
+0 0 10004
+S
+#10007
+&DCommunications &rChamber&n~
+
+&DThis room is where the members of &rCrimson &DTwilight can keep in contact with the rest of
+the people on Deimos.  The General Board of Deismo is located here.  To the north is the
+clan board room, and to the south lies the &rCrimson &DTwilight Post office.&n
+
+~
+100 elm 0
+D0
+~
+~
+0 0 10008
+D2
+~
+~
+0 0 10009
+D3
+~
+~
+0 0 10003
+S
+#10008
+&D-&rCT&D- Message Room&n~
+
+&D       dBBBBBBBBBBBBBBBBBBBBBBBBb
+      BP YBBBBBBBBBBBBBBBBBBBBBBBb
+     dB   YBb &rCrimson Twilight &DYBBb
+     dB    YBBBBBBBBBBBBBBBBBBBBBBBb
+      Yb    YBBBBBBBBBBBBBBBBBBBBBBBb
+       Yb    YBBBBBBBBBBBBBBBBBBBBBBBb
+        Yb    YBBBBBBBBBBBBBBBBBBBBBBBb
+         Yb    YBBBBBBBBBBBBBBBBBBBBBBBb
+          Yb    YBBBBBBBBBBBBBBBBBBBBBBBb
+           Yb   dBBBBBBBBBBBBBBBBBBBBBBBBb
+            Yb dP&r-======================&D
+             YbB&r-======================&D
+              Ybb&r-======================&D
+               Y888888888888888888DSI8888b&n
+
+~
+100 ejlm 0
+D2
+~
+~
+0 0 10007
+S
+#10009
+&D-&rCT&D- Post Office&n~
+
+&DYou've got mail!  Well maybe...  The members of &rCrimson &DTwilight use this as their post
+office.  The post work is here ready to give or send your mail.  To the north lies the main
+communication chamber of the &rCrimson&D Twilight.&n
+
+~
+100 elm 0
+D0
+~
+~
+0 0 10007
+S
+#10010
+&DEntrance to -&rCT&D- Hall&n~
+
+&DThe hall of &rCrimson&D Twilight lies ahead.  Solid walls of onyx block the path that leads
+to the hall.  Being built underground, it can only be assumed it was done by magical means.
+There is little light in the subterranian cavern,  and above the sounds of the Northern
+Forest can be heard.  It looks like there is no immediate way into the hall.&n
+
+~
+100 cfh 0
+D2
+~
+~
+0 0 -1
+S
+T 10001
+#10011
+An unfinished room~
+You are in an unfinished room.
+~
+100 0 0
+D0
+~
+~
+0 0 10010
+D2
+~
+~
+0 0 10012
+S
+#10012
+An unfinished room~
+You are in an unfinished room.
+~
+100 0 0
+D0
+~
+~
+0 0 10011
+D2
+~
+~
+0 0 10013
+S
+#10013
+An unfinished room~
+You are in an unfinished room.
+~
+100 0 0
+D0
+~
+~
+0 0 10012
+D2
+~
+~
+0 0 10014
+S
+#10014
+An unfinished room~
+You are in an unfinished room.
+~
+100 0 0
+D0
+~
+~
+0 0 10013
+D1
+~
+~
+0 0 10015
+D3
+~
+~
+0 0 10016
+S
+#10015
+An unfinished room~
+You are in an unfinished room.
+~
+100 0 0
+D3
+~
+~
+0 0 10014
+S
+#10016
+An unfinished room~
+You are in an unfinished room.
+~
+100 0 0
+D1
+~
+~
+0 0 10014
+D3
+~
+~
+0 0 10017
+S
+#10017
+An unfinished room~
+You are in an unfinished room.
+~
+100 0 0
+D1
+~
+~
+0 0 10016
+D3
+~
+~
+0 0 10018
+S
+#10018
+An unfinished room~
+You are in an unfinished room.
+~
+100 0 0
+D1
+~
+~
+0 0 10017
+D3
+~
+~
+0 0 10019
+S
+#10019
+An unfinished room~
+You are in an unfinished room.
+~
+100 0 0
+D1
+~
+~
+0 0 10018
+D2
+~
+~
+0 0 10020
+S
+#10020
+An unfinished room~
+You are in an unfinished room.
+~
+100 0 0
+D0
+~
+~
+0 0 10019
+D2
+~
+~
+0 0 10021
+S
+#10021
+An unfinished room~
+You are in an unfinished room.
+~
+100 0 0
+D0
+~
+~
+0 0 10020
+D2
+~
+~
+0 0 10022
+S
+#10022
+An unfinished room~
+You are in an unfinished room.
+~
+100 0 0
+D0
+~
+~
+0 0 10021
+D2
+~
+~
+0 0 10023
+S
+#10023
+An unfinished room~
+You are in an unfinished room.
+~
+100 0 0
+D0
+~
+~
+0 0 10022
+D2
+~
+~
+0 0 10024
+S
+#10024
+An unfinished room~
+You are in an unfinished room.
+~
+100 0 0
+D0
+~
+~
+0 0 10023
+D2
+~
+~
+0 0 10025
+S
+#10025
+An unfinished room~
+You are in an unfinished room.
+~
+100 0 0
+D0
+~
+~
+0 0 10024
+D1
+~
+~
+0 0 -1
+D3
+~
+~
+0 0 10026
+S
+#10026
+New Room~
+You are in an unfinished room.
+~
+100 0 0
+D1
+~
+~
+0 0 10025
+S
+#10027
+New Room~
+You are in an unfinished room.
+~
+100 0 0
+S
+#10028
+New Room~
+You are in an unfinished room.
+~
+100 0 0
+S
+#10029
+New Room~
+You are in an unfinished room.
+~
+100 0 0
+S
+#10030
+New Room~
+You are in an unfinished room.
+~
+100 0 0
+S
+#10031
+New Room~
+You are in an unfinished room.
+~
+100 0 0
+S
+#10032
+New Room~
+You are in an unfinished room.
+~
+100 0 0
+S
+#10033
+New Room~
+You are in an unfinished room.
+~
+100 0 0
+S
+#10034
+New Room~
+You are in an unfinished room.
+~
+100 0 0
+S
+#10035
+New Room~
+You are in an unfinished room.
+~
+100 0 0
+S
+#10036
+New Room~
+You are in an unfinished room.
+~
+100 0 0
+S
+#10037
+New Room~
+You are in an unfinished room.
+~
+100 0 0
+S
+#10038
+New Room~
+You are in an unfinished room.
+~
+100 0 0
+S
+#10039
+New Room~
+You are in an unfinished room.
+~
+100 0 0
+S
+#10040
+New Room~
+You are in an unfinished room.
+~
+100 0 0
+S
+#10041
+New Room~
+You are in an unfinished room.
+~
+100 0 0
+S
+#10042
+New Room~
+You are in an unfinished room.
+~
+100 0 0
+S
+#10043
+New Room~
+You are in an unfinished room.
+~
+100 0 0
+S
+#10044
+New Room~
+You are in an unfinished room.
+~
+100 0 0
+S
+#10045
+New Room~
+You are in an unfinished room.
+~
+100 0 0
+S
+#10046
+New Room~
+You are in an unfinished room.
+~
+100 0 0
+S
+#10047
+New Room~
+You are in an unfinished room.
+~
+100 0 0
+S
+#10048
+New Room~
+You are in an unfinished room.
+~
+100 0 0
+S
+#10049
+New Room~
+You are in an unfinished room.
+~
+100 0 0
+S
+#10050
+New Room~
+You are in an unfinished room.
+~
+100 0 0
+S
+#10051
+New Room~
+You are in an unfinished room.
+~
+100 0 0
+S
+#10052
+New Room~
+You are in an unfinished room.
+~
+100 0 0
+S
+#10053
+New Room~
+You are in an unfinished room.
+~
+100 0 0
+S
+#10054
+New Room~
+You are in an unfinished room.
+~
+100 0 0
+S
+#10055
+New Room~
+You are in an unfinished room.
+~
+100 0 0
+S
+#10056
+New Room~
+You are in an unfinished room.
+~
+100 0 0
+S
+#10057
+New Room~
+You are in an unfinished room.
+~
+100 0 0
+S
+#10058
+New Room~
+You are in an unfinished room.
+~
+100 0 0
+S
+#10059
+New Room~
+You are in an unfinished room.
+~
+100 0 0
+S
+#10060
+New Room~
+You are in an unfinished room.
+~
+100 0 0
+S
+#10061
+New Room~
+You are in an unfinished room.
+~
+100 0 0
+S
+#10062
+New Room~
+You are in an unfinished room.
+~
+100 0 0
+S
+#10063
+New Room~
+You are in an unfinished room.
+~
+100 0 0
+S
+#10064
+New Room~
+You are in an unfinished room.
+~
+100 0 0
+S
+#10065
+New Room~
+You are in an unfinished room.
+~
+100 0 0
+S
+#10066
+New Room~
+You are in an unfinished room.
+~
+100 0 0
+S
+#10067
+New Room~
+You are in an unfinished room.
+~
+100 0 0
+S
+#10068
+New Room~
+You are in an unfinished room.
+~
+100 0 0
+S
+#10069
+New Room~
+You are in an unfinished room.
+~
+100 0 0
+S
+#10070
+New Room~
+You are in an unfinished room.
+~
+100 0 0
+S
+#10071
+New Room~
+You are in an unfinished room.
+~
+100 0 0
+S
+#10072
+New Room~
+You are in an unfinished room.
+~
+100 0 0
+S
+#10073
+New Room~
+You are in an unfinished room.
+~
+100 0 0
+S
+#10074
+New Room~
+You are in an unfinished room.
+~
+100 0 0
+S
+#10075
+New Room~
+You are in an unfinished room.
+~
+100 0 0
+S
+#10076
+New Room~
+You are in an unfinished room.
+~
+100 0 0
+S
+#10077
+New Room~
+You are in an unfinished room.
+~
+100 0 0
+S
+#10078
+New Room~
+You are in an unfinished room.
+~
+100 0 0
+S
+#10079
+New Room~
+You are in an unfinished room.
+~
+100 0 0
+S
+#10080
+New Room~
+You are in an unfinished room.
+~
+100 0 0
+S
+#10081
+New Room~
+You are in an unfinished room.
+~
+100 0 0
+S
+#10082
+New Room~
+You are in an unfinished room.
+~
+100 0 0
+S
+#10083
+New Room~
+You are in an unfinished room.
+~
+100 0 0
+S
+#10084
+New Room~
+You are in an unfinished room.
+~
+100 0 0
+S
+#10085
+New Room~
+You are in an unfinished room.
+~
+100 0 0
+S
+#10086
+New Room~
+You are in an unfinished room.
+~
+100 0 0
+S
+#10087
+New Room~
+You are in an unfinished room.
+~
+100 0 0
+S
+#10088
+New Room~
+You are in an unfinished room.
+~
+100 0 0
+S
+#10089
+New Room~
+You are in an unfinished room.
+~
+100 0 0
+S
+#10090
+New Room~
+You are in an unfinished room.
+~
+100 0 0
+S
+#10091
+New Room~
+You are in an unfinished room.
+~
+100 0 0
+S
+#10092
+New Room~
+You are in an unfinished room.
+~
+100 0 0
+S
+#10093
+New Room~
+You are in an unfinished room.
+~
+100 0 0
+S
+#10094
+New Room~
+You are in an unfinished room.
+~
+100 0 0
+S
+#10095
+New Room~
+You are in an unfinished room.
+~
+100 0 0
+S
+#10096
+New Room~
+You are in an unfinished room.
+~
+100 0 0
+S
+#10097
+New Room~
+You are in an unfinished room.
+~
+100 0 0
+S
+#10098
+New Room~
+You are in an unfinished room.
+~
+100 0 0
+S
+#10099
+New Room~
+&RGRRRRRRRRRRRRRRRRRRRRRRRRRRR
+~
+100 ghq 0
+S
+$~

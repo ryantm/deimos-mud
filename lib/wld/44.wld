@@ -1,0 +1,520 @@
+#4400
+Gates of Damnation~
+     You are standing before Bone Castle.  Once named for it's defensive
+Prowess.  Many an aggressor cast their bones against these walls.
+Rumor has it that the Paladins that once kept this keep are no more.
+What happened to this place of light?  Why are the walls bleeding?
+Why is it that a holy place leaves you feeling like death?
+The answers lie within for those foolish enough to look for them.  
+
+~
+44 h 0
+D0
+~
+~
+0 0 4401
+S
+#4401
+The Tunnel Beneath the Walls ~
+     Walking beneath these walls you can see their thickness.  The tunnel
+spans at least 12 lengths of a mans corpse laid out long ways.  In fact as
+you think of it, it kind of smells as it there are corpses that were left
+here a bit to long.
+
+~
+44 0 0
+D0
+~
+~
+0 0 4402
+D2
+~
+~
+0 0 4400
+S
+#4402
+The Tunnel Beneath the Walls ~
+     Walking beneath these walls you can see their thickness.  The tunnel
+spans at least 12 lengths of a mans corpse laid out long ways.  In fact as
+you think of it, it kind of smells as it there are corpses that were left
+here a bit to long.
+
+~
+44 0 0
+D0
+~
+~
+0 0 4403
+D2
+~
+~
+0 0 4401
+S
+#4403
+Inside the Castle Walls ~
+     As you look into the keep you notice there is only the one road.  
+Where the roads would have led deeper into the keep are blocked by
+debris.  Some of it looks as if it is or was at least flesh and bone it
+looks as if someone stacked the rubble and then pressed corpses in to
+fill the gaps that were left.  No wonder it smells so bad!
+Farther to the north, west, and east you can see larger mounds of
+debris.  
+
+~
+44 0 1
+D0
+~
+~
+0 0 4408
+D1
+~
+~
+0 0 4406
+D2
+~
+~
+0 0 4402
+D3
+~
+~
+0 0 4404
+S
+#4404
+Wheylyn Way ~
+     The avenue of Whyelyn once a road filled with laughter and joy.
+Now its laughter has been turned to tears and its joy to despair.
+There seems to be one main pile of rubble farther to the west.
+It looks as though there might be a door or something there.
+
+~
+44 0 1
+D1
+~
+~
+0 0 4403
+D3
+~
+~
+0 0 4405
+S
+#4405
+Wheylyn Way ~
+     You stand before a large pile of rubble.  There seems to be
+a huge stone slab standing upright in the center of the pile.
+It almost looks like some kind of a door.  But what purpose
+would a door have on a pile of rubble?
+
+~
+44 0 1
+D1
+~
+~
+0 0 4404
+D5
+~
+hatch hole down~
+1 4410 4410
+S
+#4406
+Wheylyn Way ~
+     The avenue of Whyelyn once a road filled with laughter and joy.
+Now its laughter has been turned to tears and its joy to despair.
+There seems to be one main pile of rubble farther to the east.
+It looks as though there might be a door or something there.
+
+~
+44 0 1
+D1
+~
+~
+0 0 4407
+D3
+~
+~
+0 0 4403
+S
+#4407
+Wheylyn Way~
+     You stand before a large pile of rubble.  There seems to be
+a huge stone slab standing upright in the center of the pile.
+It almost looks like some kind of a door.  But what purpose
+would a door have on a pile of rubble?
+
+~
+44 0 1
+D3
+~
+~
+0 0 4406
+S
+#4408
+A Path Through the Rubble ~
+     You walk along a narrow path that looks to have been recently cleared.
+There is no way of knowing whether this was done by a friend or foe though.
+Ahead you see the largest of the three mounds.  This one seems to
+have been stacked more carefully than the other two.  It actually resembles
+a building or maybe even a temple of some sort, if you look just right.
+Whoever built it may not have had much skill but they were incredibly
+strong and BIG.  There are slabs twelve times a humans size 
+set more than 20 body lengths high.  It's not to late to turn back.
+
+~
+44 0 1
+D0
+~
+~
+0 0 4409
+D2
+~
+~
+0 0 4403
+S
+#4409
+The Temple of Entelis ~
+     A sounds emanates from the very stone, calling for salvation.
+The walls of this mound or temple bleed freely from the spaces between
+the stones.  The air smells of fire and death, and the very ground
+pulses with an unsteady beat.
+
+~
+44 0 1
+D2
+~
+~
+0 0 4408
+S
+#4410
+A Hiding Place ~
+     The walls here are different than above.  Here you feel peace.
+This place seems to have survived the unholy onslaught that
+occurred above.  As you look closely you notice there is someone
+here with you.  Hidden in the shadows of time.
+~
+44 ehq 0
+D4
+A hole that seems to have been covered in a hurry.
+~
+hole up hatch~
+1 4410 4405
+S
+#4411
+Within the First Mound ~
+     You have passed beyond the first wall of rubble.  Here lies a
+path leading east and west.  It seems to follow the same course that 
+the streets must have followed before whatever happened here.
+
+~
+44 0 0
+S
+#4412
+A Path Within the Mound ~
+     Walking westward from the opening you smell decay.  It's almost
+as if there were hundreds of corpses left here to rot.  After taking a 
+minute to keep from throwing up, you notice a sound.  The shuffling 
+of footsteps farther within the passage.
+
+~
+44 0 0
+S
+#4413
+A Path Within the Mound ~
+   The smell the smell.  The farther away from fresh air the worse it gets.
+Not only are you hearing sounds, but also the walls seem to be grabbing 
+at you.  It's almost as if someone or something stuffed bodies into the 
+walls like mortar but the bodies have refused to die.  They just suffer 
+and bleed.
+
+~
+44 0 0
+S
+#4414
+A Path Within the Mound ~
+     The walls seem to shrink and grow as you pass almost as if the very 
+mound were waking from a deep slumber.  The walls seem to be making
+some sort of sound.  Almost an under your breath type of moan.
+
+~
+44 0 0
+S
+#4415
+A Path Within the Mound ~
+     As the walls shrink and grow, your footing becomes less stable.  You
+get the feeling that this place may rise up and crush you at any second.
+The farther you pass into the mound the louder and smellier it gets.
+
+~
+44 0 0
+S
+#4416
+A Path Within the Mound ~
+     As the walls shrink and grow, your footing becomes less stable.  You
+get the feeling that this place may rise up and crush you at any second.
+The farther you pass into the mound the louder and smellier it gets.
+
+~
+44 0 0
+D5
+Nothing.
+~
+~
+0 0 0
+S
+#4417
+A Path Within the Mound ~
+     As the walls shrink and grow, your footing becomes less stable.  You
+get the feeling that this place may rise up and crush you at any second.
+The farther you pass into the mound the louder and smellier it gets.
+
+~
+44 0 0
+S
+#4418
+The End of the Passage ~
+     You have reached the end of the passage.  The ground still shrinks
+and grows.  Your footing still seems unstable, but besides the zombies
+there is nothing here.  As you turn and try not to scream in frustration,
+you notice in the corner of your eye something in the ceiling.  An odd
+crack.  No flesh is pressed here and the stones seem to run in a rough
+rectangle design.
+
+~
+44 0 0
+S
+#4419
+The parlor of Malfius ~
+     The walls are made entirely of bodies here.  Pressed together with 
+some form of red goop.  The walls seem to chant "All Praise Malfius".
+Once in a while you hear a small voice moan "please free us".  This
+is usually followed by the whole room wailing in pain.  As you walk 
+you step on the bodies of those stuck here.  No matter how hard you
+try you are unable to avoid this.
+
+~
+44 0 0
+S
+#4420
+The Home of Malfius ~
+     The walls here are covered with partially eaten corpses.  An arm
+missing here a leg missing there.  There is no chanting here.  Only the
+pained wails of those who wish they could die, but will never be 
+granted that peace.  A large pile of bones lies to the northwest corner of the room spanning a good twenty by twenty area (20 by 20 bodies that is).  
+
+~
+44 0 0
+S
+#4421
+The Second Mound ~
+     The stone work of this mound is a bit neater than the first.  Still
+using bodies as mortar, but it looks like this mound was planned.  You
+see a huge slab covering the entrance.  Entrance this is just a heap of 
+rubble isn't it??  There seems to be something marked on the slab.  
+Maybe you can read it.
+
+~
+44 0 1
+S
+#4422
+Within the Second Mound ~
+     Nope not just a mound.  This mound was built with a purpose.  The 
+walls are fairly straight.  It is very quiet though.  Almost to Quiet!  Maybe
+now would be a good time to go home!!
+
+~
+44 fh 0
+S
+#4423
+The Bleeding Halls ~
+     As you leave the entrance you smell   FLOWERS??  What in the
+world are flowers doing here.  Along the walls you see deep mauve 
+flowers with dark red stems.  There must be dozens of them rooted to 
+the very wall.  They seem to pulsate almost as if they had a heartbeat.
+
+~
+44 0 0
+E
+flower flowers~
+As you look upon these flowers you notice 1 that has been torn a bit.
+It looks as if it's bleeding?  Blood Roses? Nah can't be.  They can
+only be grown and cultivated by very powerful Necromancers.
+
+~
+S
+#4424
+The Burial Chamber ~
+     There may have once been a building here.  You see pillars
+and columns that may have once supported a great arched dome.  
+The new building has none of the beauty that once was.  There 
+are broken weapons and shattered armor strewn about the chamber
+floor.  Coffins have been opened.  Farther north you see a large 
+shrine or burial building.
+
+~
+44 0 0
+S
+#4425
+The Burial Chamber ~
+     The southwestern corner of the chamber is littered with opened 
+coffins.  The floor is covered with a fine ash.  The etchings and holy 
+symbols that once lined the walls have all been scratched away.
+
+~
+44 0 0
+S
+#4426
+The Burial Chamber ~
+     The western wall of the chamber has been breached and sealed 
+over with some form of red goop and stone.  It looks  as if this may 
+have been where the invaders entered this area.  It's amazing that 
+for all the destruction.  There are no corpses!
+
+~
+44 0 0
+S
+#4427
+The Burial Chamber ~
+     The northwestern corner of the of the chamber.  Here is the wall
+of heroes.  Every hero that has died in service to his god has been
+placed to rest here.  Well that was then.  Now the wall that stretches
+eastward across this chamber has been desecrated.  Every name has
+been altered, and the holy markings have been scratched away.
+
+~
+44 0 0
+S
+#4428
+The Burial Chamber ~
+     The north central portion of the burial chamber.  Here the wall
+continues, as does the desecration.  There is one difference though.
+There is a archway that leads into some sort of shrine.  Here the holy
+markings that cover the arch have not been scratched away, but they 
+have been altered in very subtle ways.
+
+~
+44 0 0
+S
+#4429
+The Burial Chamber ~
+     The center of the chamber.  Also the center of the destruction.  Looking
+around you see dried blood everywhere.  It's almost as if they were trying
+to keep the invaders away from something near here.  Farther to the north
+is an archway or shrine of some type.  To the east and west is just more 
+destruction.  It stirs emotions in you to see such a holy place desecrated
+like this.
+
+~
+44 0 0
+S
+#4430
+The Burial Chamber~
+     The southeastern section of the chamber.  Here you see empty coffins, 
+broken weapons, dried blood, but no bodies or bones.  It sees odd that such
+destruction could have no fatal casualties.  What happened to the dead?  Why
+are all the coffins empty?  BY THE GODS!! What happened here!
+
+~
+44 0 0
+S
+#4431
+The Burial Chamber ~
+     The eastern wall of the chamber.  Here the floor and walls have been
+scorched.  It must have been some intense heat to mark these marble walls.
+There is the same destruction you have seen in the other rooms.  There 
+does seem to be one difference here though.  A residue of long dead magic
+seems to have remained.  It's as if the spell were trapped, waiting to be
+released.
+
+~
+44 0 0
+S
+#4432
+The Burial Chamber ~
+     The northeastern corner of the of the chamber.  Here is the wall
+of heroes.  Every hero that has died in service to his god has been
+placed to rest here.  Well that was then.  Now the wall that stretches
+westward across this chamber has been desecrated.  Every name has
+been altered, and the holy markings have been scratched away.
+
+~
+44 0 0
+S
+#4433
+The Portals of Hope and Damnation ~
+     You feel a sudden lurch as your body has been transported to this
+place.  Time seems to be swimming around you drawing to forward 
+and backward along it's powerful eddies.  You feel your body age 
+and grow younger as you stand here.  The walls are covered in runes 
+some have been altered some have repaired themselves.  You see to 
+swirling vortexes here drawing your attention one is filled with light 
+the other with darkness. There is no way back I guess it's time to choose.
+
+~
+44 0 0
+S
+#4434
+The Path of Light ~
+     You stand in a room filled with feelings of hope and love.  A calm 
+washes over you as you plan your next move.  Symbols of strength 
+and vitality cover the walls.  Suits of gleaming white armor are lined 
+up along the walls as if they were giving a heroes welcome.  Farther 
+to the north you notice something.
+
+~
+44 0 0
+E
+armor~
+     The armor was once that of a secret order of paladins.  Forged by 
+the very gods themselves to be worn by only the most holy of the 
+holy.  The suits have long since been retired.  They do seem ready to 
+take up the call once more, if the need arises.  You do notice that one 
+of the stands is currently empty.
+
+~
+S
+#4435
+The Path of Fear and Despair ~
+     You enter a room and suddenly your head explodes with images 
+of hatred and violence.  The very air screams and tears at your soul.  
+An intense feeling of hatred begins to take root in your heart.  It's 
+almost as if the very air here were the essence of evil.  Wisps of 
+smoke swirl around the room attacking each other and anything else 
+that comes to close.  Farther to the north you hear a booming sound.  
+It's cadence makes it sound like a heart beating??
+
+~
+44 0 0
+S
+#4436
+The Dining Hall of Anthius  ~
+     You recognize this place from the stories your grandparents told 
+when you were young.  The Hall of Anthius.  Anthius was one of the 
+finest paladins to have ever lived.  Kings and commoners alike sought 
+after his hall.  Anthius was said to be a man of outstanding character.  
+He treated all men equal.  Be they rich or poor, he looked for the good 
+in all men hoping to find salvation for them.  The hall is adorned with 
+a long table and eleven chairs.  Shields adorn the walls bearing the 
+markings of all the major nations of the world.
+Seated at the head of the table is a suit of armor Gleaming in spite
+of all the surrounding dust.
+~
+44 0 0
+E
+anthius armor~
+     You see a suit of armor large enough for a giant.  It stands almost seven feet  
+tall and has shoulders wide enough to shame a plow horse.  Armed with a magnificent two handed sword this suit of Anthius looks ready to take up the call to battle.  With all the evil outside of this place why is he still here.
+
+~
+S
+#4437
+q~
+You are in an unfinished room.
+~
+44 0 0
+S
+#4498
+Hidden Shop~
+You have found what looks to be a shop of some kind.  As
+you look around you see the shopkeeper hiding behind the counter.
+~
+44 hqrs 0
+S
+$~

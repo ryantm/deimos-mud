@@ -1,0 +1,10 @@
+#52
+&gAlurane Village&n~
+Wedge~
+5299 45 2
+M 0 5200 1 5212 0	(Bartlowe, the guard,)
+E 1 5200 2 17 0	(the village key)
+D 0 5213 3 2 0	(Path to town)
+D 0 5211 1 2 0	(West gates of Alurane Village)
+S
+$

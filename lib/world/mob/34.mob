@@ -1,0 +1,376 @@
+#3401
+stone gargoyle~
+a stone gargoyle~
+A stone gargoyle stands still as stone.
+~
+It looks a like a two-foot tall gargoyle, but is brimming with evil.
+~
+188938 8192 0 E
+30 13 1 30d30+900 15d15+7
+67500 900000
+12 12 0
+E
+#3404
+stone golem~
+a stone golem~
+A stone golem stands here, looming in the darkness.
+~
+   The golem is very large, and made of gray stone.  It doesn't have many
+features, other than the basic 2 arms, 2 legs, and a round head.  It looks
+quite powerful.    
+~
+26634 0 0 E
+35 12 0 35d35+1225 17d17+8
+91875 1225000
+12 12 0
+BareHandAttack: 6
+E
+#3407
+master tonberry~
+a master tonberry~
+A master tonberry stands here peacefully.
+~
+   The small, green skinned creature is hidden by a large black cloak.  He
+holds a small a small dagger as his only weapon, as well as a stone lantern for
+light.  It eyes you wearily.    
+~
+2074 128 0 E
+45 9 -3 45d45+2025 22d22+11
+151875 2025000
+12 12 0
+BareHandAttack: 14
+E
+#3413
+parasite~
+a parasite~
+A parasite crawls on the ground.
+~
+   Despite its name, this creature is not a parasite at all.  It is about three
+feet long, with green and purple spots on its snake-like body.  It can be
+destroyed with ease.    
+~
+8 0 0 E
+20 15 4 20d20+400 10d10+5
+30000 400000
+12 12 0
+BareHandAttack: 10
+E
+#3420
+Barret Wallace~
+Barret Wallace~
+Barret Wallace stands here, mumbling about Shinra Inc.
+~
+   Barret Wallace is a huge, dark skinned man.  Anger seems to radiate from his
+huge body, as his eyes are intense and suspicious.  He is wearing a small black
+vest,a pair of baggy green pants, and extremely large, black boots.  Tattoos
+cover both his arms, and his right arm has been cut away, leaving an enourmous
+gun.  He doesn't look like one to mess with.    
+~
+26634 4224 0 E
+40 10 -2 40d40+1600 20d20+10
+120000 1600000
+12 12 1
+BareHandAttack: 12
+E
+#3421
+Yuffie Kisaragi~
+Yuffie Kisaragi~
+Yuffie Kisaragi stands here, looking over her stolen materia.
+~
+   Yuffie comes from a long line of ninjas, born and raised in the far-off town
+of Wutai.  She has many marks of the ninja, as she is quick and strong.  
+Different forms of  'armor' cover her arms and legs, and she holds a massive
+ninja star in her right hand.    
+~
+26650 4224 0 E
+60 5 -8 60d60+3600 30d30+15
+270000 3600000
+12 12 2
+BareHandAttack: 3
+E
+#3429
+Vincent Valentine~
+Vincent Valentine~
+Vincent Valentine leans against the wall, lost in his thoughts.
+~
+   Vincent is a very stange looking man.  Covered from head to toe in red and
+black, Vincent looks very much like a vampire.  He wears a long, red cape, and
+dark red armor.  Vincent is a mystical man, stern and upright while at the same
+time dark and mysterious.  He may seem frail at first glance, but hidden inside
+his body lurks a fearsome power...  He carries a large shotgun, barely visible
+within his dark clothing.  His gun packs tremendous power.    
+~
+780315 12416 0 E
+140 -8 10 30d30+59300 20d18+70
+147000 5000000
+12 12 0
+BareHandAttack: 12
+SpecProc: magic_user
+E
+#3432
+Cid Highwind~
+Cid Highwind~
+Cid Highwind stands here, smoking a cigarette.
+~
+   Cid Highwind is the best pilot in land or sea.  Unfortunatly, he has not had
+the chance to prove his pilot abilities in space.  Nevertheless, his power in
+battle is remarkable.  He wears a dark blue jacket and a pair of brown pants,
+and his blonde hair is all messed up as usual.  Cid uses a long lance as a
+weapon, capable of defeating enemies with ease.    
+~
+256010 12416 0 E
+61 5 -8 61d61+3721 30d30+15
+279075 3721000
+12 12 1
+BareHandAttack: 3
+E
+#3434
+magic pot~
+a magic pot~
+A small brown pot bounces on the ground.
+~
+   This small, decorated brown pot is not what one would think.  Inside lurks a
+small, hairy creature, that seems to be obssessed with elixers.    
+~
+136 262144 0 E
+15 17 5 15d15+225 7d7+3
+16875 225000
+12 12 0
+BareHandAttack: 6
+E
+#3435
+Cait Sith~
+Cait Sith~
+A huge stuffed mog bounces around here.
+~
+   What the hell is this thing?    
+~
+18442 128 0 E
+40 10 -2 40d40+1600 20d20+10
+120000 1600000
+12 12 0
+BareHandAttack: 7
+E
+#3440
+Red~
+Red XIII~
+Red XIII stands here, looking at you suspiciously.
+~
+   Red XIII is a large, bright red creature, very similar looking to a dog or
+wolf.  But there is much more too him than his appearence.  He is a very
+intelligent being, and is also very strong.  A bright orange glow radiates from
+the small flame on the tip of his tail.    
+~
+190474 4224 0 E
+55 7 -6 55d55+3025 27d27+13
+226875 3025000
+12 12 1
+BareHandAttack: 8
+E
+#3444
+King Behemoth~
+a King Behemoth~
+A King Behemoth stands here, ready to attack.
+~
+   This huge creature his very strong and powerful.  It is bright orange in
+color, has three horns on its head, and it looks mean.    
+~
+18216 8232 0 E
+42 10 -2 42d42+1764 21d21+10
+132300 1764000
+12 12 0
+BareHandAttack: 3
+E
+#3445
+Dark Dragon~
+a Dark Dragon~
+A Dark Dragon stands here, towering above you.
+~
+   The Dark Dragon is one of the most powerful species of monster in the
+northern cave.  It is a very dark black in color, but its eyes are bright red.
+It seems to glow with evil.    
+~
+149512 0 0 E
+45 9 -3 45d45+2025 22d22+11
+151875 2025000
+12 12 0
+BareHandAttack: 3
+E
+#3459
+a Death Dealer~
+a Death Dealer~
+A Death Dealer floats here, staring into your soul.
+~
+   The Death Dealer is a master in black magic and usage of card tricks.  
+Despite its name, it is not the strongest creature in the cave, but should be
+approached with care.  Extremely intelligent, these creatures can heal
+themselves if they must.    
+~
+6152 24 0 E
+25 14 2 25d25+625 12d12+6
+46875 625000
+12 12 0
+BareHandAttack: 3
+E
+#3474
+malboro~
+the Malboro~
+The Malboro stands here, opening its tooth-filled mouth.
+~
+   The Malboro is not a creature to be messed with.  It has a huge mouth,
+capable of swallowing almost anything.  Its tentacles can cause major damage,
+and its vicious spell 'bad breath' can kill one instantly.    
+~
+239418 12595348 0 E
+65 4 -9 65d65+4225 32d32+16
+316875 4225000
+12 12 0
+BareHandAttack: 2
+E
+#3482
+Tifa Lockheart~
+Tifa Lockheart~
+Tifa Lockheart stands here, checking her equipment.
+~
+   Tifa Lockheart is a very attractive woman in her 20's.  But don't let her
+looks fool you, she is one of the strongest martial arts fighters.  Her fists
+pack a tremendous punch, and can easily decimate any foe.  She wears a tight,
+white tank top, and short leather shorts.    
+~
+256011 8401024 0 E
+80 0 10 30d100+9251 20d20+20
+480000 6400000
+12 12 2
+BareHandAttack: 13
+SpecProc: magic_user
+E
+#3490
+Cloud Strife~
+Cloud Strife~
+Cloud Strife stands here, leaning on his sword.
+~
+   Cloud Strife is the brave mercenary trying to remember his past.  Even
+though different stones have been thrown at him, he still continues on to face
+Sephiroth.  Cloud has long, spikey blonde hair, and holds a huge sword, the
+Buster Sword.  He wears a blue SOLDIER uniform, and his eyes have an intense,
+yet friendly blue glow.    
+~
+256027 8433816 0 E
+81 0 10 30d100+9482 20d20+20
+492075 6561000
+12 12 1
+BareHandAttack: 3
+SpecProc: magic_user
+E
+#3491
+Jenova Synthesis~
+Jenova Synthesis~
+Jenova Synthesis floats here, preceding to attack.
+~
+   Jenova Synthesis is a huge being in the shape of a ball.  It is very odd
+looking...  It has two massive tentacles for fighting.    
+~
+257835 12424 0 E
+61 5 -8 61d61+3721 30d30+15
+279075 3721000
+12 12 2
+BareHandAttack: 2
+SpecProc: magic_user
+E
+#3492
+Sephiroth~
+Sephiroth~
+Sephiroth unsheathes his sword, looks at you, and grins.
+~
+   Sephiroth is a tall, powerful looking man.  His long, pure white hair is a
+sharp contrast to his all black clothing.  Sephiroth is rumored to be the best
+and most powerful fighter on the planet.  But he was also rumoured to be
+dead...  An insane, yet intelligent glare comes from his glowing green eyes.  
+
+~
+780331 8402104 0 E
+155 -11 10 30d30+42024 22d20+50
+1801875 6000000
+12 12 1
+BareHandAttack: 3
+SpecProc: magic_user
+E
+#3493
+Reno~
+Reno, of the Turks~
+Reno, of the Turks, stands here patiently.
+~
+   Reno is the leader of the Turks after the death of their former leader,
+Tseng.  Reno is smart and cunning, but also quite lazy.  His former job with
+Shinra Inc has deteriorated, leaving the Turks free to do as they wish.  Reno
+is quite short, and wears a blue suit.    
+~
+260122 8401064 0 E
+90 2 8 30d30+16300 12d12+18
+607500 8100000
+12 12 1
+BareHandAttack: 6
+E
+#3494
+Rude~
+Rude, of the Turks~
+Rude, of the Turks, stands here pondering his future.
+~
+   Rude is Reno's second-hand man.  While not as talkative, sneaky, and
+intelligent as Reno, Rude is powerful in battle.  He is very quiet, but still
+questions his purpose in the world.  Rude is tall and dark skinned, and has no
+hair whatsoever.    
+~
+260122 8401064 0 E
+100 0 10 30d30+20100 14d14+20
+750000 10000000
+12 12 1
+BareHandAttack: 13
+E
+#3495
+Elena~
+Elena, of the Turks~
+Elena, of the Turks, stands here pacing rapidly.
+~
+   Elena is the newest member of the Turks.  Mainly hired for her various
+skills with magic, Elena doesn't make a good spy.  Being nosy and talkative,
+much information is given out through her.  She is short and slender, and has
+short blonde hair.    
+~
+260122 8401064 0 E
+95 1 9 30d30+18150 13d13+19
+676875 9025000
+12 12 2
+E
+#3496
+Aeris Gainborough ghost~
+Aeris Gainborough~
+A ghostly girl dressed in pink stands here, picking flowers and praying.
+~
+   Aeris Gainborough was killed by Sephiroth, as he saw she threatened his
+plan.  However, like Sephiroth, she was not truly eliminated.  Aeris will still
+protect the planet, by any means necessary.  Aeris's power rivals that of
+Sephiroth himself, despite her look of peace and beauty.  She wears a long pink
+dress with a small red jacket and has long brown hair.  She holds a powerful
+looking staff as her weapon.    
+~
+256027 9606334 0 E
+150 -10 10 30d30+45100 21d13+30
+1687500 10000000
+12 12 2
+BareHandAttack: 6
+SpecProc: super_magic_user
+E
+#3499
+the punisher~
+the punisher~
+The punisher stands here beginning to punish you.
+~
+He is here because you are all morons.
+~
+260154 8663202 0 E
+45 9 9 45d45+2025 22d22+11
+151875 2025000
+12 12 0
+E
+$

@@ -1,0 +1,1315 @@
+#7500
+GrandMaster's Hangout~
+   This is the Clerics' Sanctum.  The room is very peaceful, with a white tiled
+floor, and orange brick wall.  Many baskets full of herbs and spices for
+healing are sitting in a corner of the room.  The room is full of the sound of
+people chanting, however, trying to cure everything from simple cuts to mortal
+wounds.  The only exit is to the east, and leads to the exit of the Guild.    
+~
+75 adfgsx 0
+D3
+~
+~
+0 0 7271
+D5
+~
+floorboard~
+2 7500 7501
+E
+plaque list~
+Dedsune
+Apollo
+Tribe
+Phantom
+Jason
+Xenozyre
+Dreadnought
+Crimson
+Dumsomi
+Krixen
+Magus
+Lucky
+Vorador
+Drasus
+Raziel
+Gattsu
+Moron
+Hboboli
+Rift
+Datower
+Maximus
+Cid
+Jehuty
+Sodrod
+UnCola
+Mustafah
+~
+S
+#7501
+.~
+You are in an unfinished room.
+~
+75 adfgsx 0
+D3
+~
+~
+0 0 7502
+D4
+~
+floorboard~
+2 7500 7500
+S
+#7502
+.~
+You are in an unfinished room.
+~
+75 adfgsx 0
+D1
+~
+~
+0 0 7501
+D3
+~
+~
+0 0 7503
+S
+#7503
+.~
+You are in an unfinished room.
+~
+75 adfgsx 0
+D0
+~
+~
+0 0 7504
+D1
+~
+~
+0 0 7502
+S
+#7504
+.~
+You are in an unfinished room.
+~
+75 adfgsx 0
+D2
+~
+~
+0 0 7503
+D3
+~
+~
+0 0 7505
+S
+#7505
+.~
+You are in an unfinished room.
+~
+75 adfgsx 0
+D1
+~
+~
+0 0 7504
+D3
+~
+~
+0 0 7506
+S
+#7506
+.~
+You are in an unfinished room.
+~
+75 adfgsx 0
+D0
+~
+~
+0 0 7507
+D1
+~
+~
+0 0 7505
+D2
+~
+~
+0 0 7511
+S
+#7507
+.~
+You are in an unfinished room.
+~
+75 adfgsx 0
+D0
+~
+~
+0 0 7508
+D2
+~
+~
+0 0 7506
+S
+#7508
+.~
+You are in an unfinished room.
+~
+75 adfgsx 0
+D0
+~
+~
+0 0 7509
+D2
+~
+~
+0 0 7507
+S
+#7509
+.~
+You are in an unfinished room.
+~
+75 adfgsx 0
+D0
+~
+~
+0 0 7510
+D2
+~
+~
+0 0 7508
+S
+#7510
+.~
+You are in an unfinished room.
+~
+75 adfgsx 0
+D2
+~
+~
+0 0 7509
+S
+#7511
+.~
+You are in an unfinished room.
+~
+75 adfgsx 0
+D0
+~
+~
+0 0 7506
+D2
+~
+~
+0 0 7512
+S
+#7512
+.~
+You are in an unfinished room.
+~
+75 adfgsx 0
+D0
+~
+~
+0 0 7511
+D1
+~
+~
+0 0 7513
+S
+#7513
+.~
+You are in an unfinished room.
+~
+75 adfgsx 0
+D2
+~
+~
+0 0 7514
+D3
+~
+~
+0 0 7512
+S
+#7514
+.~
+You are in an unfinished room.
+~
+75 adfgsx 0
+D0
+~
+~
+0 0 7513
+D2
+~
+~
+0 0 7515
+S
+#7515
+.~
+You are in an unfinished room.
+~
+75 adfgsx 0
+D0
+~
+~
+0 0 7514
+D1
+~
+~
+0 0 7516
+S
+#7516
+.~
+You are in an unfinished room.
+~
+75 adfgsx 0
+D1
+~
+~
+0 0 7517
+D3
+~
+~
+0 0 7515
+S
+#7517
+.~
+You are in an unfinished room.
+~
+75 adfgsx 0
+D1
+~
+~
+0 0 7518
+D3
+~
+~
+0 0 7516
+S
+#7518
+.~
+You are in an unfinished room.
+~
+75 adfgsx 0
+D2
+~
+~
+0 0 7519
+D3
+~
+~
+0 0 7517
+S
+#7519
+.~
+You are in an unfinished room.
+~
+75 adfgsx 0
+D0
+~
+~
+0 0 7518
+D1
+~
+~
+0 0 7529
+D2
+~
+~
+0 0 7520
+S
+#7520
+.~
+You are in an unfinished room.
+~
+75 adfgsx 0
+D0
+~
+~
+0 0 7519
+D2
+~
+~
+0 0 7521
+S
+#7521
+.~
+You are in an unfinished room.
+~
+75 adfgsx 0
+D0
+~
+~
+0 0 7520
+D1
+~
+~
+0 0 7535
+D2
+~
+~
+0 0 7522
+S
+#7522
+.~
+You are in an unfinished room.
+~
+75 adfgsx 0
+D0
+~
+~
+0 0 7521
+D2
+~
+~
+0 0 7523
+S
+#7523
+.~
+You are in an unfinished room.
+~
+75 adfgsx 0
+D0
+~
+~
+0 0 7522
+D1
+~
+~
+0 0 7541
+D2
+~
+~
+0 0 7524
+S
+#7524
+.~
+You are in an unfinished room.
+~
+75 adfgsx 0
+D0
+~
+~
+0 0 7523
+D3
+~
+~
+0 0 7525
+S
+#7525
+.~
+You are in an unfinished room.
+~
+75 adfgsx 0
+D1
+~
+~
+0 0 7524
+D3
+~
+~
+0 0 7526
+S
+#7526
+.~
+You are in an unfinished room.
+~
+75 adfgsx 0
+D1
+~
+~
+0 0 7525
+D2
+~
+~
+0 0 7527
+S
+#7527
+.~
+You are in an unfinished room.
+~
+75 adfgsx 0
+D0
+~
+~
+0 0 7526
+D2
+~
+~
+0 0 7528
+S
+#7528
+.~
+You are in an unfinished room.
+~
+75 adfgsx 0
+D0
+~
+~
+0 0 7527
+S
+#7529
+.~
+You are in an unfinished room.
+~
+75 adfgsx 0
+D1
+~
+~
+0 0 7530
+D3
+~
+~
+0 0 7519
+S
+#7530
+.~
+You are in an unfinished room.
+~
+75 adfgsx 0
+D1
+~
+~
+0 0 7531
+D3
+~
+~
+0 0 7529
+S
+#7531
+.~
+You are in an unfinished room.
+~
+75 adfgsx 0
+D1
+~
+~
+0 0 7532
+D3
+~
+~
+0 0 7530
+S
+#7532
+.~
+You are in an unfinished room.
+~
+75 adfgsx 0
+D1
+~
+~
+0 0 7533
+D3
+~
+~
+0 0 7531
+S
+#7533
+.~
+You are in an unfinished room.
+~
+75 adfgsx 0
+D1
+~
+~
+0 0 7534
+D3
+~
+~
+0 0 7532
+S
+#7534
+.~
+You are in an unfinished room.
+~
+75 adfgsx 0
+D3
+~
+~
+0 0 7533
+D5
+~
+grate~
+2 3999 7591
+S
+#7535
+.~
+You are in an unfinished room.
+~
+75 adfgsx 0
+D1
+~
+~
+0 0 7536
+D3
+~
+~
+0 0 7521
+S
+#7536
+.~
+You are in an unfinished room.
+~
+75 adfgsx 0
+D1
+~
+~
+0 0 7538
+D3
+~
+~
+0 0 7535
+S
+#7537
+.~
+You are in an unfinished room.
+~
+75 adfgsx 0
+D3
+~
+~
+0 0 7536
+S
+#7538
+.~
+You are in an unfinished room.
+~
+75 adfgsx 0
+D1
+~
+~
+0 0 7539
+D3
+~
+~
+0 0 7536
+S
+#7539
+.~
+You are in an unfinished room.
+~
+75 adfgsx 0
+D1
+~
+~
+0 0 7540
+D3
+~
+~
+0 0 7538
+S
+#7540
+.~
+You are in an unfinished room.
+~
+75 adfgsx 0
+D3
+~
+~
+0 0 7539
+D5
+~
+grate~
+1 0 7547
+S
+#7541
+.~
+You are in an unfinished room.
+~
+75 adfgsx 0
+D1
+~
+~
+0 0 7542
+D3
+~
+~
+0 0 7523
+S
+#7542
+.~
+You are in an unfinished room.
+~
+75 adfgsx 0
+D1
+~
+~
+0 0 7543
+D3
+~
+~
+0 0 7541
+S
+#7543
+.~
+You are in an unfinished room.
+~
+75 adfgsx 0
+D1
+~
+~
+0 0 7544
+D3
+~
+~
+0 0 7542
+S
+#7544
+.~
+You are in an unfinished room.
+~
+75 adfgsx 0
+D1
+~
+~
+0 0 7545
+D3
+~
+~
+0 0 7543
+S
+#7545
+.~
+You are in an unfinished room.
+~
+75 adfgsx 0
+D1
+~
+~
+0 0 7546
+D3
+~
+~
+0 0 7544
+S
+#7546
+.~
+You are in an unfinished room.
+~
+75 adfgsx 0
+D3
+~
+~
+0 0 7545
+D5
+~
+grate~
+2 3999 0
+S
+#7547
+.~
+You are in an unfinished room.
+~
+75 adfgsx 0
+D4
+~
+grate~
+1 0 7540
+D5
+~
+~
+0 0 7548
+S
+#7548
+.~
+You are in an unfinished room.
+~
+75 adfgsx 0
+D4
+~
+~
+0 0 7547
+D5
+~
+~
+0 0 7549
+S
+#7549
+.~
+You are in an unfinished room.
+~
+75 adfgsx 0
+D2
+~
+~
+0 0 7550
+D4
+~
+~
+0 0 7548
+D5
+~
+grate~
+2 3999 7591
+S
+#7550
+.~
+You are in an unfinished room.
+~
+75 adfgsx 0
+D0
+~
+~
+0 0 7549
+D2
+~
+~
+0 0 7551
+S
+#7551
+.~
+You are in an unfinished room.
+~
+75 adfgsx 0
+D0
+~
+~
+0 0 7550
+D1
+~
+~
+0 0 7552
+S
+#7552
+.~
+You are in an unfinished room.
+~
+75 adfgsx 0
+D2
+~
+~
+0 0 7553
+D3
+~
+~
+0 0 7551
+S
+#7553
+.~
+You are in an unfinished room.
+~
+75 adfgsx 0
+D0
+~
+~
+0 0 7552
+D1
+~
+~
+0 0 7554
+S
+#7554
+.~
+You are in an unfinished room.
+~
+75 adfgsx 0
+D2
+~
+~
+0 0 7555
+D3
+~
+~
+0 0 7553
+S
+#7555
+.~
+You are in an unfinished room.
+~
+75 adfgsx 0
+D0
+~
+~
+0 0 7554
+D2
+~
+~
+0 0 7556
+S
+#7556
+.~
+You are in an unfinished room.
+~
+75 adfgsx 0
+D0
+~
+~
+0 0 7555
+D3
+~
+~
+0 0 7557
+S
+#7557
+.~
+You are in an unfinished room.
+~
+75 adfgsx 0
+D1
+~
+~
+0 0 7556
+D3
+~
+~
+0 0 7558
+S
+#7558
+.~
+You are in an unfinished room.
+~
+75 adfgsx 0
+D1
+~
+~
+0 0 7557
+D5
+~
+~
+0 0 7559
+S
+#7559
+.~
+You are in an unfinished room.
+~
+75 adfgsx 0
+D3
+~
+~
+0 0 7560
+D4
+~
+~
+0 0 7558
+S
+#7560
+.~
+You are in an unfinished room.
+~
+75 adfgsx 0
+D0
+~
+~
+0 0 7561
+D1
+~
+~
+0 0 7559
+S
+#7561
+.~
+You are in an unfinished room.
+~
+75 adfgsx 0
+D0
+~
+~
+0 0 7562
+D2
+~
+~
+0 0 7560
+S
+#7562
+.~
+You are in an unfinished room.
+~
+75 adfgsx 0
+D0
+~
+~
+0 0 7563
+D2
+~
+~
+0 0 7561
+S
+#7563
+.~
+You are in an unfinished room.
+~
+75 adfgsx 0
+D0
+~
+~
+0 0 7564
+D2
+~
+~
+0 0 7562
+D3
+~
+~
+0 0 7566
+S
+#7564
+.~
+You are in an unfinished room.
+~
+75 adfgsx 0
+D2
+~
+~
+0 0 7563
+D3
+~
+~
+0 0 7567
+S
+#7565
+.~
+You are in an unfinished room.
+~
+75 adfgsx 0
+D0
+~
+~
+0 0 7566
+D3
+~
+~
+0 0 7568
+S
+#7566
+.~
+You are in an unfinished room.
+~
+75 adfgsx 0
+D0
+~
+~
+0 0 7567
+D1
+~
+~
+0 0 7563
+D2
+~
+~
+0 0 7565
+D3
+~
+~
+0 0 7569
+S
+#7567
+.~
+You are in an unfinished room.
+~
+75 adfgsx 0
+D0
+~
+~
+0 0 7571
+D1
+~
+~
+0 0 7564
+D2
+~
+~
+0 0 7566
+D3
+~
+~
+0 0 7570
+S
+#7568
+.~
+You are in an unfinished room.
+~
+75 adfgsx 0
+D1
+~
+~
+0 0 7565
+S
+#7569
+.~
+You are in an unfinished room.
+~
+75 adfgsx 0
+D1
+~
+~
+0 0 7566
+S
+#7570
+.~
+You are in an unfinished room.
+~
+75 adfgsx 0
+D1
+~
+~
+0 0 7567
+S
+#7571
+.~
+You are in an unfinished room.
+~
+75 adfgsx 0
+D0
+~
+~
+0 0 7572
+D2
+~
+~
+0 0 7567
+S
+#7572
+.~
+You are in an unfinished room.
+~
+75 adfgsx 0
+D2
+~
+~
+0 0 7571
+D3
+~
+~
+0 0 7573
+S
+#7573
+.~
+You are in an unfinished room.
+~
+75 adfgsx 0
+D1
+~
+~
+0 0 7572
+S
+#7574
+.~
+You are in an unfinished room.
+~
+75 0 0
+S
+#7575
+.~
+You are in an unfinished room.
+~
+75 0 0
+S
+#7576
+.~
+You are in an unfinished room.
+~
+75 0 0
+S
+#7577
+.~
+You are in an unfinished room.
+~
+75 0 0
+S
+#7578
+.~
+You are in an unfinished room.
+~
+75 0 0
+S
+#7579
+.~
+You are in an unfinished room.
+~
+75 0 0
+S
+#7580
+.~
+You are in an unfinished room.
+~
+75 0 0
+S
+#7581
+.~
+You are in an unfinished room.
+~
+75 0 0
+S
+#7582
+.~
+You are in an unfinished room.
+~
+75 0 0
+S
+#7583
+.~
+You are in an unfinished room.
+~
+75 0 0
+S
+#7584
+.~
+You are in an unfinished room.
+~
+75 0 0
+S
+#7585
+.~
+You are in an unfinished room.
+~
+75 0 0
+S
+#7586
+.~
+You are in an unfinished room.
+~
+75 0 0
+S
+#7587
+.~
+You are in an unfinished room.
+~
+75 0 0
+S
+#7588
+.~
+You are in an unfinished room.
+~
+75 0 0
+S
+#7589
+.~
+You are in an unfinished room.
+~
+75 0 0
+S
+#7590
+.~
+You are in an unfinished room.
+~
+75 0 0
+S
+#7591
+Pure Blackness...~
+   Absolutely nothing can be seen.    
+~
+75 adfgt 0
+S
+#7592
+Record Room~
+   The room here is a small underground chamber thrust completely full of
+papers and documents.  Desks overflow with papers, bookshelves overflow with
+books, filing cabinets sit open and contain unsorted papers.  This place is a
+general mess; it would be a miracle if anyone could find anything in this
+chaos.    
+~
+75 adfgsx 0
+D2
+~
+~
+0 0 7219
+P
+rental
+S
+#7593
+North Arena~
+   The sparring arena has 4 main blocks in 4 directions, fighting can be
+initiated and continued in any of these rooms.  Certain spells have been
+restricted inside these confines, however, everything else is allowed.    
+~
+75 adfgsx 0
+D2
+~
+~
+0 0 7597
+S
+#7594
+West Arena~
+   The sparring arena has 4 main blocks in 4 directions, fighting can be
+initiated and continued in any of these rooms.  Certain spells have been
+restricted inside these confines, however, everything else is allowed.    
+~
+75 adfgsx 0
+D1
+~
+~
+0 0 7597
+S
+#7595
+East Arena~
+   The sparring arena has 4 main blocks in 4 directions, fighting can be
+initiated and continued in any of these rooms.  Certain spells have been
+restricted inside these confines, however, everything else is allowed.    
+~
+75 adfgsx 0
+D3
+~
+~
+0 0 7597
+S
+#7596
+South Arena~
+   The sparring arena has 4 main blocks in 4 directions, fighting can be
+initiated and continued in any of these rooms.  Certain spells have been
+restricted inside these confines, however, everything else is allowed.    
+~
+75 adfgsx 0
+D0
+~
+~
+0 0 7597
+S
+#7597
+Center Arena~
+   The sparring arena has 4 main blocks in 4 directions, fighting can be
+initiated and continued in any of these rooms.  Certain spells have been
+restricted inside these confines, however, everything else is allowed.    
+~
+75 adfgsx 0
+D0
+~
+~
+0 0 7593
+D1
+~
+~
+0 0 7595
+D2
+~
+~
+0 0 7596
+D3
+~
+~
+0 0 7594
+D5
+~
+~
+0 0 7229
+S
+#7598
+Entrance to the Courthouse~
+   This is the entrance to the courthouse of Phobos.  Although Phobos is a
+happy town, it is not free of a fair share of criminals.  The courthouse is
+beautifully decorated, with tall Roman columns and marble flooring.  The only
+exits lie to the north and south, leading back to Phobos or into the tiny one
+room courthouse.    
+~
+75 adfgsx 0
+D0
+~
+~
+0 0 7290
+D2
+~
+~
+0 0 7599
+S
+#7599
+The Courthouse~
+   This is the tiny courthouse of Phobos.  The room is half full of chairs for
+people who come to witness trails.  The tall judge's stand is made of wood, and
+stands in the center of south wall, where he judge can oversee all.  Unlike the
+entrance, most of the room is made of wooden boards, for the building has been
+around a long time.  The only exit lies to the north, leading back to the
+entrance of the courthouse.    
+~
+75 adfgsx 0
+D0
+~
+~
+0 0 7598
+S
+$~

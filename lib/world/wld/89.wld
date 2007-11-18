@@ -1,0 +1,300 @@
+#8900
+The Dallas Sewer System~
+   Even though the city above is in ruins, most of the sewer seems to have
+survived.  The disgusting fluid of the sewer is flowing like nothing had ever
+happened here.  The walls are saturated with the stains of flushes long gone.
+There even appears to be old graffiti writings on the wall.    
+~
+89 ai 0
+D0
+You see a long pipe leading into the darkness.
+~
+~
+0 0 8901
+D1
+You see a long pipe leading into a lighted area.
+~
+~
+0 -1 8903
+D2
+You see a long sewerage pipe leading into the darkness.    
+~
+~
+0 0 8727
+E
+graffiti~
+ICP RULEZ!!!
+~
+S
+#8901
+The Dallas Sewer System~
+
+   Even though the city above is in ruins, most of the sewer seems to have
+survived.  The disgusting fluid of the sewers is flowing like nothing had ever
+happened here.  The walls are saturated with the stains of flushes long gone.
+There even appears to be old graffiti writings on the wall.    
+ 
+~
+89 ai 0
+D0
+There is a long pipe leading into darkness.    
+~
+~
+0 0 8902
+D2
+There is a long pipe leading into darkness.    
+~
+~
+0 0 8900
+E
+graffiti~
+RIC   DSON IS DA BOMB!
+~
+S
+#8902
+The Dallas Sewer System~
+   Even though the city above is in ruins, most of the sewer seems to have
+survived.  The disgusting fluid of the sewers is flowing like nothing had ever
+happened here.  The walls are saturated with the stains of flushes long gone.
+Unlike most of the other sections of the sewers, this one is clean of graffiti.
+  
+~
+89 ai 0
+D0
+There is a long pipe leading into darkness.
+~
+~
+0 0 8905
+D2
+There is a long pipe leading into darkness.    
+~
+~
+0 0 8901
+S
+#8903
+Under a Manhole~
+
+
+   Finally, there is some light around here.  There is a good amount of light
+comming from a man hole above you.  All around you, except for the west, is
+blocked up by huge amounts of sewage and rocks.  The Dallas Sewer System is
+rumored to be the home of the rogue's who haunt the ruins of Dallas.  As legend
+has it, the rogue leader has a palace covered in gold and jewels.    
+
+~
+89 i 0
+D3
+You see a long pipe leading into darkness.
+~
+~
+0 -1 8900
+S
+#8904
+The Dallas Sewer System~
+
+
+   As you walk farther into the sewers, you keep noticing the absence of
+graffiti seems extremely strange.  Everywhere else you have gone in the sewers
+has been filled with it.  The other strange fact is that the sewer tunnel seems
+to be smelling better.    
+
+~
+89 0 0
+S
+#8905
+The Dallas Sewer System~
+   There is less stench here than in other parts of the sewerage.  The walls
+are saturated with the stains of flushes long gone.  Even though the city above
+is in ruins, most of the sewer seems to have survived.  The dirty brown fluid
+trickles along the floor of the pipe on an endless journey to who knows where.
+  
+~
+89 ai 0
+D2
+There is a long pipe leading into darkness.
+~
+~
+0 0 8902
+D3
+There is a long pipe leading into a lighted area.
+~
+~
+0 0 8906
+S
+#8906
+A Guard Post~
+   This area seem very clean.  There are no rodents squeaking, and only the
+sound of the trickling clean water can be heard.  There are no spots on the
+repaired walls.  There is a small breeze of clean fresh air wafting through
+this section of the sewerage.    
+~
+89 d 1
+D1
+There is a long pipe leading into darkness.
+~
+~
+0 0 8905
+D3
+There is a long pipe leading into a lighted area.
+~
+~
+0 0 8907
+S
+#8907
+A Gatehouse~
+   The gatehouse has a wall made of metal on all sides and metal gate in the
+middle.  Torches are set into the walls, illuminating the area around the
+gatehouse.  The sound of trickling water is coming from the east.    
+~
+89 d 1
+D1
+There is a long pipe leading into a lighted area.
+~
+~
+0 0 8906
+D3
+You see the east end of the Plaza.
+~
+~
+0 0 8908
+S
+#8908
+East Side of Plaza~
+You are in an unfinished room.
+~
+89 d 0
+D0
+You see the north east plaza.
+~
+~
+0 0 8909
+D1
+You see the gatehouse.
+~
+~
+0 0 8907
+D2
+You see the south east plaza.
+~
+~
+0 0 8913
+D3
+You see the central plaza.    
+~
+~
+0 0 8911
+S
+#8909
+North East Plaza~
+You are in an unfinished room.
+~
+89 d 0
+D2
+You see the east plaza.
+~
+~
+0 0 8908
+D3
+You see the north plaza.
+~
+~
+0 0 8910
+S
+#8910
+North Plaza~
+You are in an unfinished room.
+~
+89 d 0
+D1
+You see the north east plaza.
+~
+~
+0 0 8909
+D2
+You see the central plaza.    
+~
+~
+0 0 8911
+D3
+You see the north west plaza.
+~
+~
+0 0 8914
+S
+#8911
+Center of Plaza~
+You are in an unfinished room.
+~
+89 d 0
+D0
+You see the north plaza.
+~
+~
+0 0 8910
+D1
+You see the east plaza.
+~
+~
+0 0 8908
+D2
+You see the south plaza.
+~
+~
+0 0 8912
+S
+#8912
+South Plaza~
+You are in an unfinished room.
+~
+89 0 0
+D0
+You see the north plaza.
+~
+~
+0 0 8911
+D1
+You see the south east plaza.
+~
+~
+0 0 8913
+S
+#8913
+South East Plaza~
+You are in an unfinished room.
+~
+89 0 0
+D0
+You see the east plaza.
+~
+~
+0 0 8908
+D3
+You see the south plaza.
+~
+~
+0 0 8912
+S
+#8914
+North West Plaza~
+You are in an unfinished room.
+~
+89 0 0
+D1
+You see the north plaza.
+~
+~
+0 0 8910
+S
+#8950
+undefined~
+Nothing.
+~
+89 0 0
+S
+#8999
+undefined~
+
+~
+89 0 0
+S
+$~

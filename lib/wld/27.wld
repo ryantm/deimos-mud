@@ -1,0 +1,1265 @@
+#2700
+Gazing up the mountainside~
+   This is the base of a tall cliff.  It looks steep and difficult to climb.  
+To the south is a frozen plain.  It is cold and inhospitable looking.  The wind
+blows fiercely, and snow swirls around.    
+~
+27 0 4
+D4
+It look like the mountain can be climbed.
+~
+~
+0 0 2701
+D5
+~
+~
+0 0 513
+S
+#2701
+Clinging to the cliffside~
+   The chilling breeze blows mercilessly, stinging the bare skin of anyone who
+come in contact with it.  Below is the bottom of the cliff.  There are noises
+echoing down the mountainside from the ledge above.    
+~
+27 0 5
+D4
+Sound echoes from the ledge above.
+~
+~
+0 0 2702
+D5
+The base of the mountain
+The base of the mountain
+~
+~
+0 0 2700
+S
+#2702
+Minotaur scout camp~
+   Three small tents are pitched here, and a small fire smolders in the center
+of camp.  Loud snores echo, and the sound of wimpering can be heard in the
+large tent to the west.  There is a ropeladder hanging agaist the mountain
+here, leading up to the next ledge.    
+~
+27 0 4
+D3
+~
+~
+0 0 2703
+D4
+~
+~
+0 0 2704
+D5
+~
+~
+0 0 2701
+S
+#2703
+Prisoners tent~
+   Small cages line the walls of the tent, with children in them . The kids
+wimper and cry, afraid to be away from there homes and families.  There is a
+chair in the middle, where a guard should sit.    
+~
+27 0 0
+D1
+~
+~
+0 0 2702
+S
+#2704
+A huge mountain ledge~
+   This is a huge ledge on a mountainside.  So big that there is a town on it!
+The gate is to the north, and to the west you see a large cave.  Further down
+there is a small encampment
+~
+27 0 0
+D0
+~
+~
+0 0 2706
+D3
+~
+~
+0 0 2705
+D5
+~
+~
+0 0 2702
+S
+#2705
+Minotaur guardhouse~
+   This "cave" is hardly even a cave.  Its just a hole in the mountainside to
+keep the wind out.  There is a rack off rusted weapons, and a small fire in the
+center.  Two chairs surround the fire, and there is a stained old blanket on
+one of them.    
+~
+27 0 0
+D1
+~
+~
+0 0 2704
+S
+#2706
+Daedalus' Southern Gate~
+   There is a large steel gate here, reinforced to keep intruders away, the
+outer wall continues west and east, and the city is though the gate to the
+north.    
+~
+27 c 1
+D0
+~
+Gate~
+1 0 2709
+D1
+~
+~
+0 0 2707
+D2
+~
+~
+0 0 2704
+D3
+~
+~
+0 0 2708
+S
+#2707
+Daedalus's outer wall~
+   A huge battlement has been built here, it is made out of rock, presumably
+slate.  There appears to be grafiti on it.  Who the hell vandalizes minotaurs?
+Try: LOOK WALL Further east is a ledge off the cliff, jumping is a bad idea,
+otherwise, there is only
+~
+27 0 1
+D1
+It's off the cliff moron!
+~
+~
+0 0 2710
+D3
+~
+~
+0 0 2706
+E
+wall~
+Minotaurs are stoopid!! - Revjak
+~
+S
+#2708
+Daedalus's outer wall~
+   A tall rampart has been put here to repel intruders, a tall minotaur patrols
+on it, but he seems pretty dumb.  It looks like someone vandalized the wall
+here...  LOOK at the WALL!  The shear mountain peak surrounds this place,
+except to the east.    
+~
+27 0 1
+D1
+~
+~
+0 0 2706
+E
+wall~
+Barbarians are kool!!! - Borengar
+~
+S
+#2709
+Southern Daedalus~
+   This is the southern road through Daedalus.  Minotaurs wander around busily,
+spouting some native tounge.  A residence is to the east.  To the west is a
+huge cathedral.  Off to the north, you can see a small town square.    
+~
+27 0 1
+D0
+~
+~
+0 0 2714
+D1
+~
+~
+0 0 2711
+D2
+~
+Gate~
+1 0 2706
+D3
+~
+~
+0 0 2713
+S
+#2710
+Falling~
+   You walked off the cliff, moron!!  I even warned you....  Well, now you
+gotta die.....  Sorry.    
+~
+27 0 9
+S
+#2711
+Private residence~
+   This is a quaint little house.  It is composed of mostly rocks fitted
+together.  There is a little table in the middle with some chairs nearby.  A
+fire crackles, and two beds sit by the fireplace, cozy and warm.  A small hole
+in the floor in the corner catches your attention.    
+~
+27 cd 0
+D3
+~
+~
+0 0 2709
+D5
+~
+~
+0 0 2712
+S
+#2712
+A storage cellar~
+   Barrels line the walls here.  There are some bags and some shelves all full
+of food, or atleast the elements needed to make food.  Some cheeses age to
+perfection in the corner....  Ewww.    
+~
+27 acd 0
+D4
+~
+~
+0 0 2711
+S
+#2713
+Arcamedes's cathedral~
+   Stained glass windows shine odd colored hues all over the marble floor of
+this sacred palce.  In here, humans are safe, free from minotaur persecution.
+A foutain flows water, and there is enough food for anyone.  They have only to
+ask Matt, the minister here.  A large statue of Arcamedes stands here proudly.
+  
+~
+27 cdhiu 0
+D1
+~
+~
+0 0 2709
+D5
+~
+hatch~
+2 0 2742
+E
+statue arcamedes~
+   An old man is immortalized in this statue forever.  Just looking at his
+calmness and wisdom creates a sense of protection.    
+~
+S
+#2714
+Southen Daedalus~
+   The cobblestone make a clattering noise under the hooves of the minotaurs.
+The town square is just to the north, and residences line the west and east.  
+
+~
+27 0 1
+D0
+~
+~
+0 0 2717
+D1
+~
+~
+0 0 2715
+D2
+~
+~
+0 0 2709
+D3
+~
+~
+0 0 2716
+S
+#2715
+Abondoned house~
+   Dust collects on the floor of this house.  Spiderwebs create patterns in the
+corners, and a putrid smell rises from the hole in the floor.    
+~
+27 d 1
+D3
+Nothing.
+~
+~
+0 0 2714
+D5
+~
+~
+0 0 2718
+S
+#2716
+A warriors home~
+   Whoever owns this house is really tough!  Weights lie all over the floor.  
+A rack of weapons is in the corner, instead of a lock, someone has just wrapped
+a large piece of steel around the latch.  Raw meat lies all over, and there is
+a fireplace in one corner.    
+~
+27 d 0
+D1
+~
+~
+0 0 2714
+S
+#2717
+Southern square~
+   This is the town square, where the minotaurs go to hang out.  There is a
+well to the north, with a few minotaurs crowded around it.  There is a coppery
+scent of blood to west, which appears to be the butcher.  To the east is the
+clatter of metal can be heard, pehaps someone is forging something?    
+~
+27 0 1
+D0
+~
+~
+0 0 2721
+D1
+~
+~
+0 0 2719
+D2
+~
+~
+0 0 2714
+D3
+~
+~
+0 0 2720
+S
+#2718
+Horrible smelling cellar~
+   Oh, god!!  The stench here is blinding!  It smells like rotting flesh.  
+There is a post in the floor, with a chain attached to it.  The chain is
+broken.    
+~
+27 a 0
+D4
+~
+~
+0 0 2715
+S
+#2719
+Ertie's Armory~
+   This is a hot room.....  The firepit consumes about half of this bulding.  
+Sparks fly and a the clanking of a hammer can be heard.  Exotic armors hang on
+the walls here.    
+~
+27 cd 0
+D0
+~
+~
+0 0 2722
+D3
+Nothing.
+~
+~
+0 0 2717
+S
+#2720
+Richo's butchery~
+   Huge hunks of meat hang on hooks here, and there is no firepit, instead,
+there is an icepit!  A variety of knives hang from the ceiling.  Insane
+laughter echos around, and blood flecks the walls.    
+~
+27 cd 0
+D0
+~
+~
+0 0 2723
+D1
+~
+~
+0 0 2717
+S
+#2721
+Center Square~
+   Minotaurs wander here, looking busy.  Hooves clatter.  They talk in a
+language unfarmiliar to anyone that isn't a minotaur.  A large well in the
+center is full of water.    
+~
+27 0 1
+D0
+~
+~
+0 0 2725
+D1
+~
+~
+0 0 2722
+D2
+~
+~
+0 0 2717
+D3
+~
+~
+0 0 2723
+D5
+~
+~
+0 0 9100
+S
+#2722
+Eastern square~
+   A small cobblestone road rests underfoot.  To the west is the well, and east
+is the residential area of the city.  South is the armory and to the north, is
+another store.    
+~
+27 0 1
+D0
+~
+~
+0 0 2726
+D1
+~
+~
+0 0 2727
+D2
+~
+~
+0 0 2719
+D3
+~
+~
+0 0 2721
+S
+#2723
+Western square~
+   The western square has little purpose, but to link everything together.  
+East is the central well.  There is residual heat coming from the north, and
+evil laughter echos from the south.  Further west is the residential section.
+  
+~
+27 0 1
+D0
+Nothing.
+~
+~
+0 0 2724
+D1
+~
+~
+0 0 2721
+D2
+~
+~
+0 0 2720
+S
+#2724
+Warming hut~
+   Steam rises in this room.  It is the only place in town with an acual stove,
+not just a firepit.  Living in the mountains can get cold, so this place was
+put up to keep people from freezing.  Blankets hang on the walls, worn from
+use.    
+~
+27 cd 0
+D0
+~
+~
+0 0 -1
+D1
+~
+~
+0 0 2725
+D2
+~
+~
+0 0 2723
+S
+#2725
+Northern square~
+   The main square is to the south, and west is the warming hut.  It's nice in
+there.  East is the clothing store.  North are more resdences, including the
+house the minotaur shaman of the town lives in.    
+~
+27 0 1
+D1
+~
+~
+0 0 2726
+D2
+~
+~
+0 0 2721
+D3
+~
+~
+0 0 2724
+S
+#2726
+Dapressore's tailoring~
+   Clothes hang all over the walls, totally dissorganized.  A huge pin cushion
+sits on the counter with about 2000 pins in it.  Occasionally, if you wait long
+enough, you can hear Dapressore yell "EUREKA!!  "
+~
+27 cd 0
+D2
+~
+~
+0 0 2722
+D3
+~
+~
+0 0 2725
+S
+#2727
+Eastern Daedalus~
+   This area seems to be the slums.  All the houses are abandoned.  Still, the
+road seems well traveled.  There must be something here....    
+~
+27 0 1
+D0
+~
+door~
+1 0 2728
+D1
+~
+~
+0 0 2730
+D2
+~
+door~
+1 0 2729
+D3
+~
+~
+0 0 2722
+S
+#2728
+An abandonned house~
+   Hmmmm.....  Why would someone lock a house if it were abandonded?  Unless
+they're hiding something.  The only thing in this room is a tresure chest.  
+Maybe its full of money?!?    
+~
+27 d 0
+D2
+~
+door~
+1 0 2727
+D5
+~
+treasure chest~
+1 0 2737
+E
+treasure chest~
+There is a ladder leading down inside the chest!
+~
+S
+#2729
+An abandonded house~
+   Dust collects everywhere.  Hmmm.  Why so many abandoned houses around here?
+This room has a treasure chest in it, and faint hooveprints can be seen.  
+Maybe something is stashed in the chest?    
+~
+27 d 0
+D0
+Nothing.
+~
+door~
+1 0 2727
+D5
+There was a ladder inside the chest leading down!
+~
+treasure chest~
+1 0 2738
+E
+treasure chest~
+A ladder leading into the ground was hidden by the chest!
+~
+S
+#2730
+Eastern Daedalus~
+   This is the side of the ledge.  To go east means you would walk off the
+mountain.  Bad idea.  More abondoned houses to the north and south.    
+~
+27 0 1
+D0
+~
+door~
+1 0 2734
+D1
+~
+~
+0 0 2731
+D2
+~
+door~
+1 0 2735
+D3
+~
+~
+0 0 2727
+S
+#2731
+FALLING!!~
+   Somehow, you managed to walk off the cliff....  Down ya go!    
+~
+27 c 9
+D5
+Nothing.
+~
+~
+0 0 2732
+S
+#2732
+Falling~
+   Damn, that ground is moving quick....  Uh oh.    
+~
+27 0 9
+D5
+~
+~
+0 0 2733
+S
+#2733
+Splat~
+   Congratulations, your a grease spot.    
+~
+27 0 9
+S
+#2734
+Abandoned house~
+   Why all these closed up abandoned houses?  Someone must be hiding something.
+This room has a treasure chest on the floor.  What could be in it?    
+~
+27 d 0
+D2
+~
+door~
+1 0 2730
+D5
+There is a ladder down inside the chest!
+~
+treasure chest~
+1 0 2736
+S
+#2735
+Yet another abondoned house~
+   Where the hell is everyone?  All these houses are abandoned on this side of
+town.  Oh well.  Theres a treasure chest here.  Why not look inside?    
+~
+27 d 0
+D0
+~
+door~
+1 0 2730
+D5
+~
+treasure chest~
+1 0 2739
+E
+treasure chest~
+There is a ladder leading down inside the chest!
+~
+S
+#2736
+The Black Market~
+   This is the only place in town where metal weapons are sold, because the
+chief has made the decree metal weapons are forged by evil spirits.  Most forms
+of magic are frowned upon by the primitive minotaurs, so magical items can be
+purchased here as well.  A ladder lead up, you need to open the chest above to
+access it.    
+~
+27 0 0
+D2
+~
+~
+0 0 2740
+D3
+~
+~
+0 0 2737
+D4
+~
+treasure chest~
+1 0 2734
+S
+#2737
+The Black Market~
+   This place was made by the minotaurs who felt the elders command to shun any
+metal weapons was foolish.  Here, metal weapons are sold, as well as some
+magical items, also shunned by the minotaur community.  A ladder leads up,
+through a treasure chest, and out.    
+~
+27 ad 0
+D1
+~
+~
+0 0 2736
+D2
+~
+~
+0 0 2741
+D4
+~
+treasure chest~
+1 0 2728
+S
+#2738
+The Black Market~
+   Hmm....  This is a well concealed complex, wear minotaurs can sell there
+forbidden wares (metal weapons, magical items) without having to deal with
+guards.  A ladder leads up, but you need to open the treasure chest to user it.
+  
+~
+27 ad 0
+D0
+~
+~
+0 0 2741
+D1
+~
+~
+0 0 2739
+D4
+~
+treasure chest~
+1 0 2729
+S
+#2739
+The Black Market~
+   This is a secret place where metal weapons are sold, since they are
+forbidden.  Magical items are also for sale here.  A ladder leads up, but you
+have to open the treasure chest to get out .
+~
+27 ad 0
+D0
+~
+~
+0 0 2740
+D3
+~
+~
+0 0 2738
+D4
+~
+treasure chest~
+1 0 2735
+D5
+~
+~
+0 0 -1
+S
+#2740
+The forbidden weapons shop~
+   Beautifully crafted blades hang everywhere, litterally.  Your light glints
+of metal hanging on the walls, from the ceiling, and cluttering the floor
+everywhere.    
+~
+27 ad 0
+D0
+~
+~
+0 0 2736
+D2
+~
+~
+0 0 2739
+D3
+~
+~
+0 0 2741
+S
+#2741
+The forbidden magic shop~
+   Scrolls clutter everywhere, and the bookselves are overflowing.  Wands sit
+in corners glinting with power.  For a shopkeeper who seems realtivley
+inteligent, couldn't he have made a filing system?    
+~
+27 ad 0
+D0
+~
+~
+0 0 2737
+D1
+~
+~
+0 0 2740
+D2
+~
+~
+0 0 2738
+S
+#2742
+Arcamedes's test~
+   Runes mark the walls here.  They read: "Arcamede's treasure can only be
+retrieved by one who passes the test of strength, and the test of intelligence.
+To test your strength, head west.  To test your intelligence go east.  But be
+warned, to fail in either t est means death.  Open the door to the north once
+the tests are completed.  "
+~
+27 acd 0
+D0
+~
+door~
+2 2706 2751
+D1
+~
+~
+0 0 2743
+D3
+~
+~
+0 0 2744
+D4
+~
+hatch~
+2 0 2713
+S
+#2743
+The test of intelligence~
+   No turning back now.  The only way out is to answer the questions.  There
+are 10, and this is number one.  If I jam a large rock containing the escence
+of the devil into my skull, in which direction can I travel to find salvation?
+Simply go in the direction of the answer.  North, south, east, west, up, or
+down.  Only one way can be right, and only one way can you survive.    
+~
+27 d 0
+D0
+~
+~
+0 0 2745
+D1
+~
+~
+0 0 2746
+D2
+~
+~
+0 0 2745
+D3
+~
+~
+0 0 2745
+D4
+~
+~
+0 0 2745
+D5
+~
+~
+0 0 2745
+S
+#2744
+The test of strength~
+   Blood runs along the walls and floors of this place.  Balthazar, lord of
+blades, waits here to chalenge any who oppose him.  He is Arcamedes's most
+faithful servant, and has vowed to guard the key of strenth with his life.    
+~
+27 d 0
+D1
+~
+~
+0 0 2742
+S
+#2745
+Wrong answer~
+   Poison gas floods the room.  You answered wrong.  HA HA.    
+~
+27 0 0
+D0
+~
+~
+0 0 2749
+D1
+~
+~
+0 0 2749
+D2
+~
+~
+0 0 2749
+D3
+~
+~
+0 0 2748
+D4
+~
+~
+0 0 2749
+D5
+~
+~
+0 0 2749
+S
+#2746
+2 out of 5~
+   Correct.  Well done.  Next question.  In which general direction would one
+travel to meet Cerebus?    
+~
+27 0 0
+D0
+~
+~
+0 0 2745
+D1
+~
+~
+0 0 2745
+D2
+~
+~
+0 0 2745
+D3
+~
+~
+0 0 2745
+D4
+~
+~
+0 0 2745
+D5
+~
+~
+0 0 2747
+S
+#2747
+3 of 5~
+In what Hemisphere are the Andes Mountains?
+~
+27 0 0
+D0
+~
+~
+0 0 2745
+D1
+~
+~
+0 0 2748
+D2
+~
+~
+0 0 2748
+D3
+~
+~
+0 0 2745
+D4
+~
+~
+0 0 2745
+D5
+~
+~
+0 0 2745
+S
+#2748
+4/10~
+The question is: 12u+4(3d)+99w-12d-9(11w)-11u=?
+~
+27 0 0
+D0
+~
+~
+0 0 2745
+D1
+~
+~
+0 0 2745
+D2
+~
+~
+0 0 2745
+D3
+~
+~
+0 0 2745
+D4
+~
+~
+0 0 2749
+D5
+~
+~
+0 0 2745
+S
+#2749
+5 outta 5~
+The majority of the worlds oil is in the middle _____.
+~
+27 0 0
+D0
+~
+~
+0 0 2745
+D1
+~
+~
+0 0 2750
+D2
+~
+~
+0 0 2745
+D3
+~
+~
+0 0 2745
+D4
+~
+~
+0 0 2745
+D5
+~
+~
+0 0 2745
+S
+#2750
+Victory~
+Well done. Go west to return to the entrance.
+~
+27 0 0
+D3
+~
+~
+0 0 2742
+S
+T 2750
+#2751
+Arcamede's Treasure Room~
+Before you lies a room full of chests and piles of weapons and armor.  Most of it looks pretty beat up but maybe if you look hard enough you can find something worth taking.
+~
+27 adh 0
+D2
+~
+door~
+2 2706 2742
+S
+#2752
+New Room~
+Empty room.~
+27 0 0
+S
+#2753
+New Room~
+Empty room.~
+27 0 0
+S
+#2754
+New Room~
+Empty room.~
+27 0 0
+S
+#2755
+New Room~
+Empty room.~
+27 0 0
+S
+#2756
+New Room~
+Empty room.~
+27 0 0
+S
+#2757
+New Room~
+Empty room.~
+27 0 0
+S
+#2758
+New Room~
+Empty room.~
+27 0 0
+S
+#2759
+New Room~
+Empty room.~
+27 0 0
+S
+#2760
+New Room~
+Empty room.~
+27 0 0
+S
+#2761
+New Room~
+Empty room.~
+27 0 0
+S
+#2762
+New Room~
+Empty room.~
+27 0 0
+S
+#2763
+New Room~
+Empty room.~
+27 0 0
+S
+#2764
+New Room~
+Empty room.~
+27 0 0
+S
+#2765
+New Room~
+Empty room.~
+27 0 0
+S
+#2766
+New Room~
+Empty room.~
+27 0 0
+S
+#2767
+New Room~
+Empty room.~
+27 0 0
+S
+#2768
+New Room~
+Empty room.~
+27 0 0
+S
+#2769
+New Room~
+Empty room.~
+27 0 0
+S
+#2770
+New Room~
+Empty room.~
+27 0 0
+S
+#2771
+New Room~
+Empty room.~
+27 0 0
+S
+#2772
+New Room~
+Empty room.~
+27 0 0
+S
+#2773
+New Room~
+Empty room.~
+27 0 0
+S
+#2774
+New Room~
+Empty room.~
+27 0 0
+S
+#2775
+New Room~
+Empty room.~
+27 0 0
+S
+#2776
+New Room~
+Empty room.~
+27 0 0
+S
+#2777
+New Room~
+Empty room.~
+27 0 0
+S
+#2778
+New Room~
+Empty room.~
+27 0 0
+S
+#2779
+New Room~
+Empty room.~
+27 0 0
+S
+#2780
+New Room~
+Empty room.~
+27 0 0
+S
+#2781
+New Room~
+Empty room.~
+27 0 0
+S
+#2782
+New Room~
+Empty room.~
+27 0 0
+S
+#2783
+New Room~
+Empty room.~
+27 0 0
+S
+#2784
+New Room~
+Empty room.~
+27 0 0
+S
+#2785
+New Room~
+Empty room.~
+27 0 0
+S
+#2786
+New Room~
+Empty room.~
+27 0 0
+S
+#2787
+New Room~
+Empty room.~
+27 0 0
+S
+#2788
+New Room~
+Empty room.~
+27 0 0
+S
+#2789
+New Room~
+Empty room.~
+27 0 0
+S
+#2790
+New Room~
+Empty room.~
+27 0 0
+S
+#2791
+New Room~
+Empty room.~
+27 0 0
+S
+#2792
+New Room~
+Empty room.~
+27 0 0
+S
+#2793
+New Room~
+Empty room.~
+27 0 0
+S
+#2794
+New Room~
+Empty room.~
+27 0 0
+S
+#2795
+New Room~
+Empty room.~
+27 0 0
+S
+#2796
+New Room~
+Empty room.~
+27 0 0
+S
+#2797
+New Room~
+Empty room.~
+27 0 0
+S
+#2798
+New Room~
+Empty room.~
+27 0 0
+S
+#2799
+New Room~
+Empty room.~
+27 0 0
+S
+$~

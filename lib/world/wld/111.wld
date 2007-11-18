@@ -1,0 +1,742 @@
+#11100
+Entrance to Anime Movie World!~
+This is the entrance to Anime Movie World! It is a fun-filled place,
+but for those lacking strength, leaving would be in their best interests.
+Once through these portals, leaving is an &rIMPOSSIBILITY&n.
+~
+111 d 0
+D0
+This is the one-way portal to Anime Movie World.
+~
+Portal~
+1 0 11101
+D3
+~
+~
+0 0 -1
+S
+#11101
+Entrance to &rStreet Fighter Alpha&n~
+The &rStreet Fighter Alpha&n Experiance starts west.
+Be warned, There is no exit once you get to &bRound 1&n.
+There is a staircase asending upwards to the next anime.
+~
+111 s 0
+D0
+~
+~
+0 0 -1
+D2
+~
+~
+0 0 -1
+D3
+This is no wimpy door. This is a Fighter's Door.
+~
+Fighter's Door~
+1 0 11104
+D4
+~
+~
+0 0 11102
+S
+#11102
+Entrance to &gPrincess Mononoke&n~
+The entrance to &gPrincess Mononoke&n is to the east.
+Beware and Be Aware, for this is a land of gods, and of demons.
+The final anime is farther up the staircase.
+~
+111 s 0
+D4
+~
+~
+0 0 11103
+D5
+~
+~
+0 0 11101
+S
+#11103
+The Final Anime: &RAKIRA&n.~
+This is the entrance to the final anime, &rAKIRA&n.
+Turning back would be wise. This is no place for the faint of heart.
+As sign on the wall reads: &bAbandon all hope ye who enter here&n.
+~
+111 s 0
+D5
+~
+~
+0 0 11102
+S
+#11104
+Round 1~
+Welcome to the first round of the Street Fighter Alpha tournament.
+Two fighters enter the arena, and both fighters leave.
+One just has a fashionable bodybag.
+~
+111 0 0
+D0
+~
+~
+0 0 11107
+D3
+This is the door to Round Two.
+~
+Round Two Door~
+0 0 11105
+S
+#11105
+R-and-R Room~
+This is a Recovery Room. They are interspersed in the tournament to give you a place
+to rest between bouts. All true fighters honor the No Fighting rules of these rooms.
+The Pocket Fighter Tournament is starting up to the west of here. Better check it out...
+~
+111 0 0
+D1
+~
+~
+0 0 11104
+D3
+~
+~
+0 0 11106
+S
+#11106
+Little Fighter's Round 1~
+This is the first round of the Little Fighter's tournament. It is a smaller competition
+for those who can't handle the real man's tournament. To the east is the R-and-R room,
+and to the north is the Second Round.
+~
+111 0 0
+D1
+~
+~
+0 0 11105
+S
+#11107
+Round 2~
+This is the second round of the Street Fighter Alpha Tournament. There is little
+hope now for those of the faint of heart. They had better turn back. The only exits
+put of this room are north and south, where large doors stand closed.
+~
+111 0 0
+D0
+~
+~
+0 0 11108
+D2
+~
+~
+0 0 11104
+S
+#11108
+Round 3~
+This is the third round of the tournament. Expect it to get harder from here on in.
+This is no little-kid game: This is for real. Immense doors fill up the north and south
+sides of this little room.
+~
+111 0 0
+D0
+~
+~
+0 0 11109
+D2
+~
+~
+0 0 11107
+S
+#11109
+Round 4~
+This is the fourth round. It is the half-way point of the tournament. This room
+it made of strong, solid metal, with doors leading north and south. Be  
+Warned, this tournament is far from over.
+~
+111 0 0
+D0
+~
+~
+0 0 11110
+D2
+~
+~
+0 0 11108
+S
+#11110
+Round 5~
+This is the fifth round. It is a round room, sparcely furnished. There are a 
+few card table chairs and a poker table, but that's about it. This room is the
+typical room of a movie star or garage bum.
+~
+111 0 0
+D0
+~
+~
+0 0 11111
+D2
+~
+~
+0 0 11109
+S
+#11111
+A TEENAGER'S ROOM?!?!?!~
+Hmmm... This is apparently the room of an adolesent. There are food wrappers 
+and dirty clothes strewn accross the room. It is your typical mess.
+They may be hard to find, but there are actually doors leading north and
+south somewhere in this mess.
+~
+111 0 0
+D0
+~
+~
+0 0 11112
+D2
+~
+~
+0 0 11110
+S
+#11112
+New Room~
+You are in an unfinished room.
+~
+111 0 0
+D0
+~
+~
+0 0 11113
+D2
+~
+~
+0 0 11111
+S
+#11113
+New Room~
+You are in an unfinished room.
+~
+111 0 0
+D0
+~
+~
+0 0 11114
+D2
+~
+~
+0 0 11112
+S
+#11114
+Bonus Round: &rAKUMA&n.~
+This is it. After all that, this is the final round. Akuma. The Lord of Darkness,
+Supreme Master of the Dark Hado.
+~
+111 af 0
+S
+#11115
+New Room~
+You are in an unfinished room.
+~
+111 0 0
+S
+#11116
+New Room~
+You are in an unfinished room.
+~
+111 0 0
+S
+#11117
+New Room~
+You are in an unfinished room.
+~
+111 0 0
+S
+#11118
+New Room~
+You are in an unfinished room.
+~
+111 0 0
+S
+#11119
+New Room~
+You are in an unfinished room.
+~
+111 0 0
+S
+#11120
+New Room~
+You are in an unfinished room.
+~
+111 0 0
+S
+#11121
+New Room~
+You are in an unfinished room.
+~
+111 0 0
+S
+#11122
+New Room~
+You are in an unfinished room.
+~
+111 0 0
+S
+#11123
+New Room~
+You are in an unfinished room.
+~
+111 0 0
+S
+#11124
+New Room~
+You are in an unfinished room.
+~
+111 0 0
+S
+#11125
+New Room~
+You are in an unfinished room.
+~
+111 0 0
+S
+#11126
+New Room~
+You are in an unfinished room.
+~
+111 0 0
+S
+#11127
+New Room~
+You are in an unfinished room.
+~
+111 0 0
+S
+#11128
+New Room~
+You are in an unfinished room.
+~
+111 0 0
+S
+#11129
+New Room~
+You are in an unfinished room.
+~
+111 0 0
+S
+#11130
+New Room~
+You are in an unfinished room.
+~
+111 0 0
+S
+#11131
+New Room~
+You are in an unfinished room.
+~
+111 0 0
+S
+#11132
+New Room~
+You are in an unfinished room.
+~
+111 0 0
+S
+#11133
+New Room~
+You are in an unfinished room.
+~
+111 0 0
+S
+#11134
+New Room~
+You are in an unfinished room.
+~
+111 0 0
+S
+#11135
+New Room~
+You are in an unfinished room.
+~
+111 0 0
+S
+#11136
+New Room~
+You are in an unfinished room.
+~
+111 0 0
+S
+#11137
+New Room~
+You are in an unfinished room.
+~
+111 0 0
+S
+#11138
+New Room~
+You are in an unfinished room.
+~
+111 0 0
+S
+#11139
+New Room~
+You are in an unfinished room.
+~
+111 0 0
+S
+#11140
+New Room~
+You are in an unfinished room.
+~
+111 0 0
+S
+#11141
+New Room~
+You are in an unfinished room.
+~
+111 0 0
+S
+#11142
+New Room~
+You are in an unfinished room.
+~
+111 0 0
+S
+#11143
+New Room~
+You are in an unfinished room.
+~
+111 0 0
+S
+#11144
+New Room~
+You are in an unfinished room.
+~
+111 0 0
+S
+#11145
+New Room~
+You are in an unfinished room.
+~
+111 0 0
+S
+#11146
+New Room~
+You are in an unfinished room.
+~
+111 0 0
+S
+#11147
+New Room~
+You are in an unfinished room.
+~
+111 0 0
+S
+#11148
+New Room~
+You are in an unfinished room.
+~
+111 0 0
+S
+#11149
+New Room~
+You are in an unfinished room.
+~
+111 0 0
+S
+#11150
+New Room~
+You are in an unfinished room.
+~
+111 0 0
+S
+#11151
+New Room~
+You are in an unfinished room.
+~
+111 0 0
+S
+#11152
+New Room~
+You are in an unfinished room.
+~
+111 0 0
+S
+#11153
+New Room~
+You are in an unfinished room.
+~
+111 0 0
+S
+#11154
+New Room~
+You are in an unfinished room.
+~
+111 0 0
+S
+#11155
+New Room~
+You are in an unfinished room.
+~
+111 0 0
+S
+#11156
+New Room~
+You are in an unfinished room.
+~
+111 0 0
+S
+#11157
+New Room~
+You are in an unfinished room.
+~
+111 0 0
+S
+#11158
+New Room~
+You are in an unfinished room.
+~
+111 0 0
+S
+#11159
+New Room~
+You are in an unfinished room.
+~
+111 0 0
+S
+#11160
+New Room~
+You are in an unfinished room.
+~
+111 0 0
+S
+#11161
+New Room~
+You are in an unfinished room.
+~
+111 0 0
+S
+#11162
+New Room~
+You are in an unfinished room.
+~
+111 0 0
+S
+#11163
+New Room~
+You are in an unfinished room.
+~
+111 0 0
+S
+#11164
+New Room~
+You are in an unfinished room.
+~
+111 0 0
+S
+#11165
+New Room~
+You are in an unfinished room.
+~
+111 0 0
+S
+#11166
+New Room~
+You are in an unfinished room.
+~
+111 0 0
+S
+#11167
+New Room~
+You are in an unfinished room.
+~
+111 0 0
+S
+#11168
+New Room~
+You are in an unfinished room.
+~
+111 0 0
+S
+#11169
+New Room~
+You are in an unfinished room.
+~
+111 0 0
+S
+#11170
+New Room~
+You are in an unfinished room.
+~
+111 0 0
+S
+#11171
+New Room~
+You are in an unfinished room.
+~
+111 0 0
+S
+#11172
+New Room~
+You are in an unfinished room.
+~
+111 0 0
+S
+#11173
+New Room~
+You are in an unfinished room.
+~
+111 0 0
+S
+#11174
+New Room~
+You are in an unfinished room.
+~
+111 0 0
+S
+#11175
+New Room~
+You are in an unfinished room.
+~
+111 0 0
+S
+#11176
+New Room~
+You are in an unfinished room.
+~
+111 0 0
+S
+#11177
+New Room~
+You are in an unfinished room.
+~
+111 0 0
+S
+#11178
+New Room~
+You are in an unfinished room.
+~
+111 0 0
+S
+#11179
+New Room~
+You are in an unfinished room.
+~
+111 0 0
+S
+#11180
+New Room~
+You are in an unfinished room.
+~
+111 0 0
+S
+#11181
+New Room~
+You are in an unfinished room.
+~
+111 0 0
+S
+#11182
+New Room~
+You are in an unfinished room.
+~
+111 0 0
+S
+#11183
+New Room~
+You are in an unfinished room.
+~
+111 0 0
+S
+#11184
+New Room~
+You are in an unfinished room.
+~
+111 0 0
+S
+#11185
+New Room~
+You are in an unfinished room.
+~
+111 0 0
+S
+#11186
+New Room~
+You are in an unfinished room.
+~
+111 0 0
+S
+#11187
+New Room~
+You are in an unfinished room.
+~
+111 0 0
+S
+#11188
+New Room~
+You are in an unfinished room.
+~
+111 0 0
+S
+#11189
+New Room~
+You are in an unfinished room.
+~
+111 0 0
+S
+#11190
+New Room~
+You are in an unfinished room.
+~
+111 0 0
+S
+#11191
+New Room~
+You are in an unfinished room.
+~
+111 0 0
+S
+#11192
+New Room~
+You are in an unfinished room.
+~
+111 0 0
+S
+#11193
+New Room~
+You are in an unfinished room.
+~
+111 0 0
+S
+#11194
+New Room~
+You are in an unfinished room.
+~
+111 0 0
+S
+#11195
+New Room~
+You are in an unfinished room.
+~
+111 0 0
+S
+#11196
+New Room~
+You are in an unfinished room.
+~
+111 0 0
+S
+#11197
+New Room~
+You are in an unfinished room.
+~
+111 0 0
+S
+#11198
+New Room~
+You are in an unfinished room.
+~
+111 0 0
+S
+#11199
+New Room~
+You are in an unfinished room.
+~
+111 0 0
+S
+$~

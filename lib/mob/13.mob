@@ -1,0 +1,121 @@
+#1300
+disgruntled tin man fan~
+a disgruntled Tin Man fan~
+A disgruntled Tin Man fan stands here.
+~
+   He is dressed in common clothing.  He fists seem to shake and his knuckles
+are white.  Is that a card he's holding?  The fan is EXTREMELY ANGRY.    
+~
+524360 0 0 E
+60 8 2 30d30+14600 16d16+12
+270000 7200000
+12 12 1
+E
+#1301
+forget faerie~
+a forget faerie~
+A forget faerie darts around here.
+~
+   The forget faerie has &Ggreen glowing wings&n.  She is very sensitive to
+sound...  If you say the name of something she will automatically make it
+forget you!  She only has enough energy to do this 5 times...    
+~
+16394 4194304 0 E
+5 19 -9 2d2+150 1d1+1
+1875 25000
+12 12 2
+BareHandAttack: 1
+E
+T 1311
+#1302
+disgruntled newbie~
+a disgruntled newbie~
+A disgruntled newbie stands here.
+~
+Do not underestimate the power of a disgruntled newbie!  With arms flailing
+and shouting out random jibberish like, "I WAHNT MYSDF MONNEY BAAKCC!!!!!!11" 
+or "MUDOOOL RULEZ!!!111", he can be a very powerful force.
+~
+524360 0 0 E
+60 8 2 30d30+14600 16d16+12
+270000 7200000
+12 12 0
+E
+#1303
+disgruntled dwarf~
+a disgruntled dwarf~
+A disgruntled dwarf huffs and puffs here.
+~
+   Making a striking resemblance to Dwight, this little dwarf is PISSED.  
+After losing ALL his money, he hath come to seek revenge on...  Well anyone.  
+~
+524360 0 0 E
+60 8 2 30d30+14600 16d16+12
+270000 7200000
+12 12 1
+E
+#1304
+A Disgruntled Defect~
+a Disgruntled Defect~
+A Defect from the Disgruntled groups stands here.
+~
+He is very tired and wants to tell you something!
+~
+10 0 0 E
+65 7 3 30d30+17100 16d16+13
+316875 12675000
+12 12 1
+E
+#1312
+raven~
+a raven~
+A raven hops around here.
+~
+   The raven's feathers are pitch black.  Its eyes stare at you as it hops
+around, pecking at the ground in search of something.    
+~
+8 0 0 E
+7 19 7 7d7+49 3d3+1
+2450 17150
+12 12 0
+BareHandAttack: 8
+E
+#1353
+shadowy figure~
+a shadowy figure~
+A shadowy figure stands here.
+~
+It is very tall and seems to be wearing a cloak. His eyes shine in the dismal light.
+~
+286730 40 0 E
+60 5 -8 60d60+3600 30d30+15
+180000 1260000
+12 12 0
+E
+#1354
+trap~
+a trap~
+A trap lies here in wait...
+~
+It has a symbol on it... it looks like a black circle...
+~
+262154 524330 0 E
+60 20 10 1d1+0 1d1+0
+0 0
+12 12 0
+E
+T 1354
+#1399
+Skeleton Man~
+the skeleton man~
+The skeleton man stands here, looking for his pumpkin head
+~
+Its a big skeleton!
+~
+10 0 0 E
+60 0 -8 60d60+3600 30d30+15
+1800000 12600000
+12 12 0
+BareHandAttack: 1
+E
+$

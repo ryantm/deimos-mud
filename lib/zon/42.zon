@@ -1,0 +1,16 @@
+#42
+Westlands~
+Firrox~
+4299 45 2
+M 0 8500 1 4222 0	(the Elven officer)
+M 0 509 1 4249 0	(&Bthe Blue Magician&n)
+G 1 500 10000000 -1 94	(a scroll written on charred metal)
+M 0 4215 2 4215 0	(a Strong Man)
+E 1 40 2147483647 5 0	(a plain shirt)
+E 1 41 2147483647 7 0	(plain pants)
+M 0 4264 1 4263 0	(a Slave Driver)
+O 0 4263 1 4263 0	(a sign)
+M 0 4263 5 4263 0	(a slave)
+M 0 4263 5 4263 0	(a slave)
+S
+$

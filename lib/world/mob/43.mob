@@ -1,0 +1,100 @@
+#4300
+A nearly transparent ghost with a slender build stares blankly at a rock.~
+a nearly transparent ghost ~
+A nearly transparent ghost with a slender build stares blankly at a rock.
+~
+   This slender ghost hovers several inches off the ground.  Her intense eyes
+buldge out of their ghostly sockets.  She has a haggard drawn face.  She is
+dressed in transparent flowing robes.    
+~
+8 0 0 E
+15 17 -7 7d7+550 2d2+3
+16875 225000
+12 12 0
+E
+#4301
+A lanky skeleton hobbles around on one leg.~
+a lanky skeleton~
+A lanky skeleton hobbles around on one leg.
+~
+   This human skeleton hobbles around on one leg.  Perhaps he is in search of
+his missing leg, or he is the result of a twisted mage.  He stands, on his one
+leg, over six feet in height.  On closer inspection, his cracked skull becomes
+noticable
+~
+8 0 0 E
+10 18 -8 5d5+300 1d1+2
+7500 100000
+12 12 0
+E
+#4302
+A crippled ghast with one arm giggles to himself.~
+a crippled ghast~
+A crippled ghast with one arm giggles to himself.
+~
+   This giggling ghast with one arm is walking around picking up rocks.  He is
+wearing a pair of tattered brown pants.  This ghasts one arm is in horrible
+condition and looks as if it might fall off at any second.    
+~
+8 0 0 E
+20 16 -6 10d10+900 2d2+4
+30000 400000
+12 12 0
+E
+#4303
+A belligerent ghoul~
+a belligerent ghoul~
+A belligerent ghoul stands here staring aimlessly down the corridors.
+~
+   Upon closer inspection this belligerent ghoul is quite muscular for an
+undead being.  His greenish hands bear some vicious claws.  His teeth are
+jagged and sharp like daggers.  He is wearing a set of holy green robes.    
+~
+8 0 0 E
+15 17 -7 7d7+550 2d2+3
+16875 225000
+12 12 0
+E
+#4304
+An undead rat scurries about the ground.~
+an undead rat ~
+An undead rat scurries about the ground.
+~
+   These small rodents are much like their living counterparts.  Very little
+flesh remains attached to the bones.  They wander about mindlessly snapping at
+anything that gets in their way.    
+~
+8 0 0 E
+6 19 -8 3d3+172 1d1+1
+2700 36000
+12 12 0
+E
+#4305
+An undead snake slithers across the ground here.~
+an undead snake~
+An undead snake slithers across the ground here.
+~
+   This snake crawls along the ground much as it did when it was alive.  Its
+stark white body gleams slightly in the meager light.  It mindlessly wanders
+along the ground.    
+~
+8 0 0 E
+11 18 -7 5d5+342 1d1+2
+9075 121000
+12 12 0
+E
+#4306
+A skeleton shuffles mindlessly about here.~
+a skeleton~
+A skeleton shuffles mindlessly about here.
+~
+   Bleach white bones are all that remain of this hapless soul.  His body now
+animated and used to practice fighting against.  The empty eyesockets stare
+forward at nothing at all.    
+~
+8 0 0 E
+16 17 -6 8d8+612 2d2+3
+19200 256000
+12 12 0
+E
+$

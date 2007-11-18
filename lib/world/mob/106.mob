@@ -1,0 +1,37 @@
+#10600
+hamster~
+a Hamster~
+A Hamster is sitting here.
+~
+A Hamster.
+~
+16394 0 0 E
+5 19 8 5d5+200 2d2+1
+0 0
+12 12 0
+E
+#10601
+penguin~
+a Tiny Penguin~
+A Penguin is sitting here.
+~
+It looks unfinished.
+~
+16394 0 0 E
+15 17 5 15d15+400 7d7+3
+16875 225000
+10 10 0
+E
+#10602
+dog~
+a tiny dog~
+A tiny dog is barking loudly.
+~
+It looks unfinished.
+~
+16394 0 0 E
+35 12 0 35d35+1225 17d17+8
+0 0
+12 12 2
+E
+$

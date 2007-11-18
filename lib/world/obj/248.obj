@@ -1,0 +1,66 @@
+#24800
+weighted companion cube~
+a Weighted Companion Cube~
+An Aperture Science Weighted Companion Cube sits peacefully on the floor here.~
+&W.------.  ___  .------.
+|      |&D-&W|___|&D-&W|      |
+|   .-'    &M|&W    '-.   |
+|__/    .-'''-.    \__|
+  &D|    &W/&M/''v''\&W\    &D|&W
+ |_|&M--&W| &M'.   .' &W|&M--&W|_|
+ _&D|    &W\  &M'v'  &W/    &D|&W_
+|  \    '-...-'    /  |
+|   '-.   _&M|&W_   .-'   |
+|      |&D-&W|___|&D-&W|      |
+'------'       '------'
+~
+12 8388608 16385 0
+0 0 0 0
+100 0 0 0
+T 24800
+#24801
+egg key~
+the egg key~
+The egg key is lying here.~
+   It's a key that goes in an egg.    
+~
+18 4 1 0
+0 0 0 0
+0 0 0 0
+#24802
+mother easter eggs~
+the &MMother of all Easter Eggs&n~
+&gThe &MMother of all Easter Eggs &gtries miserably to hide in the grass here!~
+   Just looking at it scrambles your head!    
+~
+15 8388612 1 0
+100 3 24801 0
+0 0 0 0
+#24810
+crappy katana~
+a crappy katana~
+A crappy katana is lying here.~
+~
+5 0 8193 0
+0 0 50 3
+0 0 0 0
+#24811
+Physics 214 Lecture Notes~
+Physics 214 Lecture Notes~
+It sucks.~
+~
+0 4 16385 0
+0 0 0 0
+0 0 0 0
+#24820
+toilet titanium~
+a Titanium Toilet~
+A shiny Titanium Toilet stands on the floor dead-center.~
+   Who knows why this toilet needs to be cast from a single solid block of
+titanium?  Maybe it's a toilet spaceship that needs to withstand the high
+temperatures of atmospheric reentry.
+~
+15 16 0 0
+1000 1 -1 0
+0 0 0 0
+$~

@@ -1,0 +1,204 @@
+#2300
+Ice pick~
+an ice pick~
+An ice pick lies here with something scratched on it.~
+   There seems to be something scratched on the handle.    
+~
+18 65536 16385 0
+0 0 0 0
+2 0 0 0
+E
+handle scratches scratch~
+   The pick is locked in a closed position, and the cold makes it possible to
+unlock it.  When it's unlocked, open the pick and it's possible to climb walls
+of ice and snow.    
+~
+#2301
+Dwarven body armor~
+the dwarven body armor~
+Some dwarven body armor is lying here.~
+   The body armor is so smooth and so perfectly made, it's amazing to know it's
+entirely hand made.    
+~
+9 0 9 0
+10 0 0 0
+2 11762 0 10
+A
+5 1
+#2302
+Dwarven sword~
+a dwarven sword~
+A dwarven sword is lying here.~
+   The sword is made out of stainless steel and is very strong.    
+~
+5 0 8193 0
+2 2 5 14
+2 14022 0 15
+#2303
+employee special issue key~
+an employee special issue key~
+An employee's special issue key is lying here.~
+You see nothing special.
+~
+18 65544 1 0
+0 0 0 0
+1 0 0 0
+#2304
+Dwarven shield~
+a dwarven shield~
+A dwarven shield is lying here.~
+   The shield is a perfect circle, and light enough so it can be carried
+without much of a burden.    
+~
+9 0 513 0
+10 0 0 0
+1 11479 0 10
+A
+5 1
+#2305
+Dwarven arm plates~
+a dwarven armored arm plate~
+A dwarven armored arm plate is lying here.~
+   It's very shiny and looks very strong.    
+~
+9 0 257 0
+10 0 0 0
+1 10234 0 10
+#2306
+Dwarven Leg plates~
+a dwarven armored leg plate~
+A dwarven leg plate is lying here.~
+   It's very thick, but very light, and strong.    
+~
+9 0 33 0
+8 0 0 0
+1 10234 0 10
+#2307
+Dwarven helmet~
+a dwarven helmet~
+A dwarven helmet is lying here.~
+   The helmets surface is very smooth and perfectly made.  It must be very
+strong, and could stand up in many battles.    
+~
+9 0 17 0
+4 0 0 0
+1 13023 0 10
+#2308
+Spatula sword~
+a spatula sword~
+A spatula like thing is lying here.~
+   This spatula was changed into a very sharp sword.    
+~
+5 65544 8193 0
+0 1 3 1
+4 0 0 0
+#2309
+bowl of pancake batter~
+a bowl of pancake batter~
+There is a bowl with a strange thick liquid in it here.~
+   The bowl is an ugly pea green, and makes the stuff in it look very
+disgusting.    
+~
+19 65544 1 0
+2 0 0 0
+2 0 0 0
+#2310
+Japanese saki tea~
+a shot glass~
+A shot glass of japanese saki tea has been set here.~
+   The small glass is filled to the brim with pleasnt smelling warm liquid.  
+
+~
+17 65544 1 0
+1 1 11 0
+1 58 0 0
+#2311
+Local specialty~
+a bottle~
+A small bottle of the local specialty has been put here.~
+   The local specialty is a dark brown liquid that looks quite disgusting.  
+Oh, it looks like there is something written on the lable.    
+~
+17 65544 1 0
+1 1 8 0
+6 132 0 0
+E
+lable~
+The lable says:
+
+      The local specialty is made right here in Dwarf Village in a villager's kitchen.
+This is the only place in the world that this particular drink can be aquired.
+~
+#2312
+Indian firebreather~
+a shot glass~
+A shot glass of Idian firebreather is here.~
+   The liquid is a bright red, and is used in it's native India to sooth a
+firebreathers throat.    
+~
+17 0 1 0
+1 1 7 0
+6 73 0 0
+#2313
+Good Old American Whisky~
+a bottle~
+A bottle of Good Old American Whisky has been dropped here.~
+   This long neck bottle is filled with the famous Good Old American Whisky.  
+It's the highest quality whisky ever.  Or that's what the bottle says, anyway.
+  
+~
+17 65544 1 0
+1 1 5 0
+6 100 0 0
+#2314
+Diving stick~
+a diving stick~
+A strange stick is floating here.~
+   It seems to have a weight on the bottom of it.    
+~
+3 65544 16385 0
+1 2 2 11
+3 0 0 0
+#2315
+Hold-out knife~
+a hold-out knife~
+A small hold-out knife is lying here.~
+   It's is a very small knife that is easily hidden.  It looks like it'd be a
+good knife for a theif.    
+~
+5 1114112 8193 0
+0 3 3 14
+5 0 0 0
+#2316
+Afro wig~
+an afro wig~
+A large afro wig is lying here.~
+   You see nothing special.    
+~
+9 65536 17 0
+0 0 0 0
+1 0 0 0
+#2317
+Funky glasses~
+some funky glasses~
+Some funky glasses are here.~
+   A pair of funky, purple glasses that seem to glow.    
+~
+11 65537 17 8
+0 0 0 0
+1 0 0 0
+E
+glasses funky~
+   They are small purple glasses.    
+~
+#2318
+Enchanted Dwarven Hammer~
+an Enchanted dwarven hammer~
+An Enchanted dwarven hammer is lying here.~
+   This hammer is huge.  Its made perfectly, with the best of craftsmanship.  
+Wow, it looks like you have to hold it with two hands, too.    
+~
+5 589825 8193 0
+5 5 5 7
+9 0 0 45
+$~

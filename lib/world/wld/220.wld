@@ -1,0 +1,273 @@
+#22000
+-=[ The Path's Ending ]=-~
+The path that appears from the east ends here abruptly as the direction
+drastically curves to the north.  From a distance, you see what seems to be
+a huge but somewhat humble-looking castle.  You pause for a moment to wonder
+what to do next.  The trees around you gap away from you and part as the
+structures of the huge building to the north presents itself clearly, almost
+inviting you to go there.
+
+The Exits are north and east.
+~
+220 0 0
+D0
+~
+~
+0 0 22001
+D1
+~
+~
+0 0 -1
+S
+#22001
+-=[ Before the Great Gates. ]=-~
+You stand before the gates of a huge fortress.  The drawbridge is up, the
+gates closed, and the portcullis down.  This place looks very dangerous,
+and you decide not to continue onward.
+
+The Exits are north and south.
+~
+220 0 0
+D0
+~
+Gates~
+1 0 22002
+D2
+~
+~
+0 0 22000
+S
+#22002
+-=[ Before the Entrance ]=-~
+You arrive at a humongous building reaching high above you.  The castle
+itself is humongous in structure and is massive in every way.
+
+The exits are north and south.
+~
+220 0 0
+D0
+~
+~
+0 0 22003
+D2
+~
+Gates~
+1 0 22001
+E
+sign~
+Beware You are now Entering The Chambers of Fate!!!
+~
+S
+#22003
+-=[ Entrance to the Chambers of Fate]=-~
+Welcome!  The castle is dark and deserted.  Cobwebs fill the corners of
+the walls as a slight chilly breeze tingles your spine.  Echoes of screams
+and cries are heard within the castle.  Old aged bricks keep support of the
+walls around you.  A dark pathway takes you further into what is supposed to
+be the end of your life!
+
+The Exits are north and south.
+~
+220 0 0
+D0
+~
+~
+0 0 22004
+D2
+~
+~
+0 0 22002
+S
+#22004
+-=[ A Dark Pathway ]=-~
+The path leading further into the chambers darkens immensely and for some
+reasons turns chilly.  Not much can be seen around you but total pitch
+blackness.  Two tiny sparks of fire from small candles provide some
+visibility here.  Much more light can be seen to the south.  The path north
+is black as ever can be.
+
+There is exits to the north and south.
+~
+220 0 0
+D0
+~
+~
+0 0 22005
+D2
+~
+~
+0 0 22003
+S
+#22005
+-=[ A Dark Pathway ]=-~
+A tiny mouse scampers by as you enter here.  Blackness is dominant around
+you.  The tiny patches of light to your left and right are all that's visible
+here.  Blackness is seen south of here.  To the north light can be observed.
+
+The exits are north and south.
+~
+220 0 0
+D0
+~
+~
+0 0 22006
+D2
+~
+~
+0 0 22004
+S
+#22006
+-=[ A Somewhat Lit Passageway ]=-~
+A stone-faced carving of an evil cackling face glows above both of the
+chamber doors to your left and right.  The shambled wooden doors that hold
+you here in this dim area are old and rotting away badly.  Strange noises
+are heard from both sides.  Beside each door is a large torch giving light
+as you stand here.  Darkness fills both to the south and the north.
+
+There are doors to your east and west,
+with exits to the north and south.
+~
+220 0 0
+D0
+~
+~
+0 0 22009
+D1
+A rotting wooden door.
+~
+wooden door~
+1 0 22008
+D2
+~
+~
+0 0 22005
+D3
+~
+rotting~
+1 0 22007
+S
+#22007
+An unfinished room~
+You are in an unfinished room.
+~
+220 0 0
+D1
+~
+rotting~
+1 0 22006
+S
+#22008
+A small forest area in the Warner Bros Studio.~
+A plush forest surrounds you.
+~
+220 0 0
+D3
+~
+wooden~
+1 0 22006
+S
+#22009
+An unfinished room~
+You are in an unfinished room.
+~
+220 0 0
+D0
+~
+~
+0 0 22010
+D2
+~
+~
+0 0 22006
+S
+#22010
+An unfinished room~
+You are in an unfinished room.
+~
+220 0 0
+D0
+~
+~
+0 0 22011
+D2
+~
+~
+0 0 22009
+S
+#22011
+An unfinished room~
+You are in an unfinished room.
+~
+220 0 0
+D2
+~
+~
+0 0 22010
+D3
+~
+~
+0 0 22012
+S
+#22012
+An unfinished room~
+You are in an unfinished room.
+~
+220 0 0
+D1
+~
+~
+0 0 22011
+S
+#22014
+An unfinished room~
+You are in an unfinished room.
+~
+220 0 0
+S
+#22015
+Acme Labs~
+You see a very clean and spacious mice experimentation lab,
+in the corner you see two white mice having a conversation.
+~
+220 0 0
+S
+#22016
+-=[ Before the Entrance ]=-~
+You arrive at a humongous building reaching high above you.  The castle
+itself is humongous in structure and is massive in every way.
+~
+220 0 0
+S
+#22017
+Office of the CEO of the Warner Bros. Studios~
+You are in an unfinished room.
+~
+220 dry 0
+S
+#22018
+Dr. Otto Scratchansniff office.~
+You are in an unfinished room.
+~
+220 0 0
+S
+#22019
+Midway point of the WB tower.~
+You are in an unfinished room.
+~
+220 0 0
+S
+#22098
+An unfinished room~
+You are in a unfinished room.
+~
+220 ac 0
+S
+#22099
+An unfinished room~
+As you enter the room, you hear a loud chittering sound,
+ the words are faint but you can distinguish a few of them very clearly.
+GET OUT OF MY HOUSE, YOU CLUMSY HUMAN!!!
+~
+220 lmq 0
+S
+$~

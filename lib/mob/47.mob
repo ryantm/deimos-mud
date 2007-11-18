@@ -1,0 +1,381 @@
+#4700
+a gnome mother~
+a gnome mother~
+The gnome mother stands here, beating an old wooden spoon on her hand.
+~
+   You have interrupted the gnome mother's important meal.  It is her husband's
+50th birthday, and she is making him a special cake.    
+~
+131096 0 0 E
+5 19 8 5d5+25 2d2+1
+1250 20000
+12 12 2
+BareHandAttack: 5
+E
+T 1
+#4701
+a gnome father~
+a gnome father~
+A gnome father is sitting here eating his birthday supper.
+~
+You have interrupted him from his delicious pork chops.
+He bellows, 'WHAT ARE YOU DOING IN HERE?'
+~
+1800 0 0 E
+5 19 8 5d5+25 2d2+1
+1250 20000
+12 12 1
+BareHandAttack: 11
+E
+#4702
+a gnome boy~
+a gnome boy~
+A gnome boy is sitting here watching TV.
+~
+The gnome boy looks to be content. Try not to disturb him.
+~
+4104 256 0 E
+5 19 8 5d5+25 2d2+1
+1250 20000
+12 12 1
+BareHandAttack: 13
+E
+#4703
+a gnome guard~
+a gnome guard~
+A gnome guard stands here protecting the display of weapons and armor
+~
+   The gnome guard looks powerful, and mighty strong.  You could put up a great
+battle.  You notice that his eyes are not any normal color, but they are black
+and cold.    
+~
+8 0 0 E
+10 18 7 10d10+100 5d5+2
+5000 80000
+12 12 1
+BareHandAttack: 3
+E
+#4704
+the gnome chief~
+the gnome chief~
+A powerful looking gnome stands here wearing ornate clothes.
+~
+Nothing.
+~
+16458 0 -200 E
+40 10 -2 40d40+1600 20d20+10
+80000 1760000
+12 12 0
+BareHandAttack: 10
+E
+#4705
+gnome shopkeeper~
+the gnome shopkeeper~
+A wealthy looking man stands here with a smile.
+~
+   In his eyes you see a very wealthy man, with a great deal of merchandice.  
+He then notices you and says, 'If you don't know, type "li" or "list" to see
+what I have for sale.  '
+~
+516186 46268 0 E
+61 5 -8 61d61+3721 30d30+15
+186050 7320000
+12 12 0
+BareHandAttack: 10
+E
+#4706
+A large cave bear stands here snarling at you hungrily.~
+a large cave bear~
+A large cave bear stands here snarling at you hungrily.
+~
+   The cave bear looks to be a nasty creature.  He seems to be hungry on top of
+that.  He could probably put up a good fight, so I'd watch out.    
+~
+1818 524348 0 E
+20 15 4 20d20+400 10d10+5
+20000 400000
+12 12 0
+BareHandAttack: 3
+E
+#4707
+snakes~
+a group of snakes~
+A large group of snakes slither your way hissing.
+~
+   Too late, it has already bitten you.  You are dead!    
+~
+10 0 0 E
+20 15 4 20d20+400 10d10+5
+20000 400000
+12 12 0
+BareHandAttack: 4
+E
+#4708
+rattlesnake~
+a rattlesnake~
+A rattlesnake slithers towards you hissing.
+~
+   Too late, you have already been bitten.  You are dead!    
+~
+10 0 0 E
+20 15 4 20d20+400 10d10+5
+20000 400000
+12 12 0
+BareHandAttack: 4
+E
+#4709
+statue~
+the statue of Elendril~
+A statue of Elendril is here to greet you.
+~
+Nothing.
+~
+516170 13564 0 E
+30 13 1 30d30+900 15d15+7
+45000 315000
+12 12 1
+BareHandAttack: 10
+E
+T 4700
+#4710
+Balrog~
+the Balrog~
+A large Balrog stands here growling at you.
+~
+Nothing.
+~
+257850 832764 0 E
+62 5 -8 62d62+3844 31d31+15
+192200 1345400
+12 12 1
+E
+#4711
+bartender~
+the bartender~
+A bartender stands here offering you a drink.
+~
+   The bartender looks to be content with the job he has.  He then notices you
+and says, 'Can I offer you a drink?  '
+~
+516106 13500 0 E
+61 5 -8 61d61+3721 30d30+15
+999999 7320000
+12 12 0
+BareHandAttack: 9
+E
+T 4701
+#4712
+baker~
+the baker~
+The baker stands here displaying a selection of pastries.
+~
+   The baker seems to enjoy himself at work. The aroma of his shop is
+mesmerizing. Maybe your should buy something from him.
+~
+516106 13468 0 E
+61 5 -8 61d61+3721 30d30+15
+186050 7320000
+12 12 1
+BareHandAttack: 7
+E
+T 4702
+#4713
+alchemist~
+the alchemist~
+The alchemist is here mixing potions.
+~
+   With a face charred black, you can tell that the alchemist has been mixing
+unsuccessfully today.  Maybe it would cheer him up to make some money.    
+~
+516106 13500 0 E
+61 5 -8 61d61+3721 30d30+15
+186050 7320000
+12 12 1
+BareHandAttack: 3
+E
+T 4703
+#4714
+innkeeper~
+the innkeeper~
+A small innkeeper with broken glasses is standing here, typing at his computer.
+~
+   The innkeeper is a very small man.  His broken glasses seem to fall off his
+nose everytime his head moves.  He looks up and says, 'May I help you?  '
+~
+522319 13500 0 E
+61 5 -8 61d61+3721 30d30+15
+186050 7320000
+12 12 1
+BareHandAttack: 9
+E
+#4715
+the chef~
+the head chef~
+A large man with an apron on that says "Kiss the Cook" is standing here offering you something to eat.
+~
+   This man looks to be very jolly.  He seems to enjoy his work, and probably
+does most of the cooking around his home, too.    
+~
+254170 46268 0 E
+61 5 -8 61d61+3721 30d30+15
+186050 7320000
+12 12 1
+BareHandAttack: 12
+E
+#4716
+gypsy~
+the gypsy~
+A gypsy sits here staring mindlessly into her crystal ball.
+~
+   The gypsy looks very powerful with her knowledge.  Just the look in her eyes
+could turn the bravest of hearts away.    
+~
+61658 1052 0 E
+40 10 -2 40d40+1600 20d20+10
+80000 560000
+12 12 2
+BareHandAttack: 4
+E
+T 4705
+#4717
+a gypsy~
+a wandering gypsy~
+A gypsy wanders around looking for a place to rest.
+~
+   The gypsy looks very powerful with its knowledge.  Just the look in its eyes
+could turn the bravest of hearts away.    
+~
+26648 263168 400 E
+17 16 4 17d17+289 8d8+4
+14450 136000
+12 12 0
+BareHandAttack: 1
+E
+#4718
+the bank teller~
+the bank teller~
+A bank teller is here to service your banking needs.
+~
+Nothing.
+~
+253962 38332 1000 E
+61 5 -8 61d61+3721 30d30+15
+186050 7320000
+12 12 0
+BareHandAttack: 3
+E
+#4719
+scientist~
+the gnome scientist~
+A scientist stands here, looking into a microscope.
+~
+   This particular gnome looks to be very intelligent.  Maybe it't the
+microscope, maybe it's the jacket, but he looks to be brainy.    
+~
+8 0 0 E
+5 19 8 5d5+25 2d2+1
+1250 20000
+12 12 1
+BareHandAttack: 6
+E
+#4720
+the shopkeeper~
+the shopkeeper~
+The shopkeeper stands here, serving the line very quickly.
+~
+   What are you looking at?    
+~
+253962 13500 0 E
+61 5 -8 61d61+3721 30d30+15
+186050 7320000
+12 12 1
+E
+#4721
+jackpot winner~
+the jackpot winner~
+A woman walks away with a mountain of gold in her arms.
+~
+   This woman must be the famed "jackpot winner".  Look at all those coins...
+  
+~
+260344 0 0 E
+45 9 -3 45d45+2025 22d22+11
+101250 708750
+12 12 2
+BareHandAttack: 12
+E
+#4760
+Guardian A~
+Guardian A~
+A powerful looking man stands here, wearing a key around his neck.
+~
+It looks unfinished.
+~
+2058 45184 0 E
+30 13 1 30d30+900 15d15+7
+45000 315000
+12 12 1
+E
+#4761
+Guardian B~
+Guardian B~
+A powerful looking man stands here, wearing a key around his neck.
+~
+It looks unfinished.
+~
+2058 45184 0 E
+35 7 0 35d35+1225 17d17+8
+61250 428750
+12 12 2
+E
+#4762
+Guardian C~
+Guardian C~
+A powerful looking man stands here, wearing a key around his neck.
+~
+It looks unfinished.
+~
+8 0 0 E
+40 10 -2 40d40+1600 20d20+10
+80000 560000
+12 12 1
+E
+#4763
+Guardian D~
+Guardian D~
+A powerful looking man stands here, wearing a key around his neck.
+~
+It looks unfinished.
+~
+2058 45184 0 E
+45 9 -3 45d45+2025 22d22+11
+101250 708750
+12 12 1
+E
+#4798
+receptionist~
+the receptionist~
+A woman stands behind a counter looking at a large, black book.
+~
+Nothing.
+~
+516106 46332 0 E
+63 5 -8 63d63+3969 31d31+15
+198450 10000000
+12 12 2
+E
+#4799
+robot~
+the chamber-bot~
+A large robot sits here guarding the room.
+~
+Nothing.
+~
+507914 0 0 E
+63 5 -8 63d63+3969 31d31+15
+198450 4284000
+12 12 0
+BareHandAttack: 3
+E
+T 4799
+$

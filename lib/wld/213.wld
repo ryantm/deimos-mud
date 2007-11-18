@@ -1,0 +1,1721 @@
+#21300
+An Endless Stretch of Hills~
+   Acres of grassy hills shroud the land, as far as the eye can see.  The wind
+whistles through the majestic blades of grass, forming mirages in the horizon.
+The sun has tinged the grass a colorful shade of yellowish brown, and has worn
+some spots to mere dirt patches.  On occasion vibrant patches of green grass
+spurt from the earth's crust, mixing with the landscape of colors.    
+~
+213 c 4
+D0
+~
+~
+0 0 21301
+D1
+~
+~
+0 0 6890
+S
+#21301
+Among the West Dry Hills~
+   As the hills continue westward endlessly the start to become dry and dead.
+The wind is now blowing roughly through the grass making it rip up the ground.
+Grass is blowing everywhere like a whirlwind of sharp knives.  The wind
+suddenly stops blowing confusing they eye.  As the trail continues westward the
+sun shines brilliantly on the grass creating a rainbow of dark colors.    
+~
+213 0 4
+D1
+~
+~
+0 0 21302
+D2
+~
+~
+0 0 21300
+S
+#21302
+Lost in the West Hills~
+   This area shows more life as the trail manuevers it's way through the West
+Hills.  Plants can be found throughout the area, along with small creatures
+looking for food.  Far in the distance storm clouds brew, as the hills level
+out into a great plain.    
+~
+213 0 4
+D0
+~
+~
+0 0 21303
+D3
+~
+~
+0 0 21301
+S
+#21303
+Amongst the West Hills~
+   Beauty lies in the relivant area blocking out the horrible storm clouds
+brewing ahead.  Flowers are beginning to make an appearence as the trail is
+brightened up by the shine from the sun.  Animals can be heard echoeing
+throughout the valley of hills, enlightening the area with a joyous feeling.  
+
+~
+213 0 4
+D0
+~
+~
+0 0 21304
+D2
+~
+~
+0 0 21302
+S
+#21304
+An Endless Stretch of Hills~
+   Large rolling hills of marvelous grasslands lay ahead of this trail, topping
+off at a darkened plain.  Monsterous rocks can be seen scattered throughout the
+bottums of these valleys, symetrically placed a few feet a part.  The sun
+shines it's iridescent glow down upon the land, lighting up the dew on the
+grass and showing the marvelous textures of the boulders.    
+~
+213 0 4
+D0
+~
+~
+0 0 21305
+D2
+~
+~
+0 0 21303
+S
+#21305
+Northern Hills of Despair~
+   Storm clouds loom to the north consuming the pathway in darkness,
+transforming the once blue sky into a horrible mixture of black and brown.  
+Gigantic rocks are being struck down by lightning, reducing them to merely
+rubble.  The sound of the thunder grows louder as the path continues to the
+north.    
+~
+213 0 0
+D0
+~
+~
+0 0 21306
+D2
+~
+~
+0 0 21304
+S
+#21306
+Plain of Darkness~
+   The rough jagged hills have flattened out into a plain covered by darkness.
+The ground reeks of the smell of smoke from the many times lightning has struck
+the ground.  The sound of lightning and thunder grows louder as the path
+continues west.  Most of the animals have scared away from the frightning sound
+of thunder.  Nothing can be seen in the distance.    
+~
+213 0 0
+D2
+~
+~
+0 0 21305
+D3
+~
+~
+0 0 21307
+S
+#21307
+A Land Shrouded by Darkness~
+   The sun's rays have been blocked from view and the ground is shrouded with
+shadows.  Terrible sounds shriek in the distance, bringing fears to even the
+most courageous of warriors turn their back.  The wind's harsh blows cause the
+vision of the trail to be obscurred by numerous dust storms in the relivant
+area.    
+~
+213 0 4
+D0
+~
+~
+0 0 21308
+D1
+~
+~
+0 0 21306
+S
+#21308
+A Dark and Erie Path~
+   The path is almost pitch black, nothing can be seen from a far.  The screech
+of animals screaming can be heard from afar.  Everything here looks dead, the
+path continues to the north.    
+~
+213 0 0
+D0
+~
+~
+0 0 21309
+D2
+~
+~
+0 0 21307
+S
+#21309
+Roaming a Plain of Dust~
+   The area shifts in spirals of sandy storms, once upon a lustrous hill of
+lush green landscape and now on a plain of swirling dust.  The ground holds
+firm under one's footing, as concreate would but is slick to the feeling.  The
+sky is seemingly an empty void, bearing no light and nothing to make it
+distinguishable as the sky once brightened by the sun    
+~
+213 a 2
+D0
+~
+~
+0 0 21310
+D2
+~
+~
+0 0 21308
+D3
+~
+~
+0 0 21500
+S
+#21310
+The Plain of Dust~
+   Dust storms now rage in every direction and combinations of shrieks and
+moans echo the void.  The wind blows furiously ravaging everything in it's path
+now long time bringing destruction to all the grass and plantlife in the
+region.  Slightly ahead of the trail a branch in the path can be sensed, the
+path branches north, west, and east.    
+~
+213 a 2
+D0
+~
+~
+0 0 21326
+D2
+~
+~
+0 0 21309
+S
+#21311
+The Entrance to a Cave~
+   The dust storms have calmed down here creating a path to a cave entrance.  
+Some slight noises can be heard from afar inside the cave.  There are tracks in
+the dirt here leading in the cave.    
+~
+213 0 0
+D1
+~
+~
+0 0 21312
+S
+#21312
+Inside the Cave~
+   The beggining of the cave ground is grassy and the walls are made of dirt
+and clay.  More and more noises can be heard as you go deeper into the cave,
+the tracks in the dirt are becoming more repetitive.  Further in you can see
+some slight torches burning.    
+~
+213 d 0
+D0
+~
+~
+0 0 21313
+D3
+~
+~
+0 0 21311
+S
+#21313
+Deeper Within the Cavern~
+   Torches have been lit to guide the way of whatever lives in these damp
+caves.  The smell of blood can be slightly felt.  The grass which was at the
+entrance is now dirt and rubble, and the only path it to the east
+~
+213 d 0
+D1
+~
+~
+0 0 21314
+D2
+~
+~
+0 0 21312
+S
+#21314
+Inside the Caverns~
+   More and more noises can be heard now, frightening and scary noises echo
+threw out the cave.  The torches have grown dimmer making it harder to see.  
+As continuing down the path the ground becomes wet and muddy.  The path
+continues east.    
+~
+213 d 0
+D1
+~
+~
+0 0 21315
+D3
+~
+~
+0 0 21313
+S
+#21315
+Deep within the caverns~
+   Its almost impossible to see anything.  The ground has become swampy and
+hard to walk through The noises have grown even louder now.  The path still
+continues east.    
+~
+213 d 0
+D1
+~
+~
+0 0 21316
+D3
+~
+~
+0 0 21314
+S
+#21316
+Deep Within the Cavern~
+   The walls have been streakes with blood, the imprints of monsterous size
+hands are on the wall.  Some marking have been left here but it would be
+impossible to decifer them.  It is pitchblack and impossible to see ahead, but
+the path still continues east.    
+~
+213 d 0
+D1
+~
+~
+0 0 21317
+D3
+~
+~
+0 0 21315
+S
+#21317
+An Upcoming Entrance~
+   Strange markings coat the cave walls, showing epic pictorials of the troll's
+way of life.  Large barriers come into view, as the cave narrows into a small
+entrance tunnel.  The ground is plated with dried clay and has many animals
+carved into it aswell with small symbolic runes, you determine them names of
+troll warriors.    
+~
+213 d 0
+D1
+~
+~
+0 0 21318
+D3
+~
+~
+0 0 21316
+S
+#21318
+Entrance to Troll City~
+   The stench of rotting flesh mixed with the horrible odor from the trolls
+drifts from the disgusting stinkhole.  Several razor-sharp spears line the
+wall, pinning recent thieves to the grim barren mud-caked walls.  A wooden sign
+has been crudely staked near the hole, and has been written with human blood.
+  
+~
+213 d 0
+D3
+~
+~
+0 0 21317
+D5
+~
+~
+0 0 21319
+S
+#21319
+A Bloodied Hallway~
+   Blood is soaked everywhere.  There is a ladder leaving up, it seems like the
+only way out of this putrid place.  Troll prints have been created here
+hundreds of times meaning that this cave has been undiscovered for a long time.
+Fearsome noises can be heard up ahead.    
+~
+213 d 0
+D0
+~
+~
+0 0 21320
+D4
+~
+~
+0 0 21318
+S
+#21320
+A Carved Out Tunnel~
+   A horrid stench wafts freely down this carved out corridor.  Blood soaked
+walls present the troll race as a vicious bestial race born with bloodlust.  
+The ground has been packed down tightly from the emence weight of hundreds of
+trolls.  A few carved images can be found on the walls, a few incoherent words,
+but most has been blemished.    
+~
+213 d 0
+D0
+~
+~
+0 0 21321
+D2
+~
+~
+0 0 21319
+S
+#21321
+An Elongated Corridor~
+   Blood cakes the walls and mud shrouds the floor as the trail narrows and
+spirals downward further into Troll City.  The stench of dead victims and the
+stench alone from the trolls is appaling and make most travellers turn back,
+however sometimes the curiousity wins out.  Small torches has been placed along
+the side of the walls directing the trail downward into the jaws of the earth.
+  
+~
+213 d 0
+D0
+~
+~
+0 0 21322
+D2
+~
+~
+0 0 21320
+S
+#21322
+A Sleak and Red Hallway~
+   The walls are covered with claws and scratch marks, blood is dripping from
+the ceiling creating puddles of blood on the floor.  The long corridor is dimly
+lit making it hard to see.  Giant rocks have been left here making it difficult
+to walk, The trail continues north
+~
+213 d 0
+D0
+~
+~
+0 0 21323
+D2
+~
+~
+0 0 21321
+S
+#21323
+A Sleak Red Hallway~
+   Blood drips everywhere creating a slippery mess on the floor making it hard
+to walk on.  The lights have been slowly getting brighter making it easier to
+see.  The floor is now made of rocks that have been smoothed over from many
+years ago.  The trail only continues one way.    
+~
+213 d 0
+D0
+~
+~
+0 0 21324
+D2
+~
+~
+0 0 21322
+S
+#21324
+A Long Brown Corridor~
+   The hallway is not covered in blood confusing the eye.  The walls are made
+of dirt not stone and the ground continues to be a smooth rock path.  
+Devastatingly loud screechy noises can be heard further into the tunnel.  The
+light continues to be getting brighter.  The dirty trail can only continue one
+way.    
+~
+213 d 0
+D0
+~
+~
+0 0 21398
+D2
+~
+~
+0 0 21323
+S
+#21325
+Kain~
+You are in an unfinished room.
+~
+213 0 0
+D2
+~
+~
+0 0 21324
+S
+#21326
+An Opening in the Storms~
+   The ferocious winds slowly die and the sun appears through the bleak clouds.
+The sky shows slivers of multi-colored rainbows.  The ground is black, and
+seemingly charred but minor plantlife begins to form as the trail continues
+it's path northward.    
+~
+213 0 2
+D0
+~
+~
+0 0 21327
+D2
+~
+~
+0 0 21310
+S
+#21327
+A Cleared Dirt Path~
+   The path has been cleared of all underbrush and anything that would stand in
+the way.  The sky now is streaked with wonderful colors of mystical purples and
+blood reds.  Plant life is vibrant in this perticular area, showering the side
+of the path with the beauty of exotic plants.  Towering walls condemn the
+horizon, a great monstrosity in the beauty of the land.    
+~
+213 0 2
+D0
+~
+~
+0 0 21328
+D2
+~
+~
+0 0 21326
+S
+#21328
+A Cobblestone Walkway~
+   A cobblestone trail leads northward to a spectacular outpost built in the
+plains.  Large wooden barriers stand high in the clouds, and the gates are
+massive.  The gates tower over the path, laying a shadowy area of fifty feet or
+so.    
+~
+213 0 0
+D0
+~
+~
+0 0 21329
+D2
+~
+~
+0 0 21327
+S
+#21329
+Before the Seeker Outpost~
+   Before you stands the Seeker's outpost near Solace.  Here the Seeker's have
+set up a training camp for new recruits to their priesthood and a place of
+worship for the people of nearby Phobe.  The sturdy looking wooden gates are
+usually open to all.  Guards walk the battlements and stand watch in the
+towers.    
+~
+213 c 0
+D0
+~
+~
+0 0 21330
+D2
+~
+~
+0 0 21328
+S
+#21330
+Inside the Outpost's Gates~
+   This area is located just inside a dominating religious structure.  The
+complex resembles a military camp more than it does a place of worship.  Two
+long, low structures on the east and west sides of the grounds house the
+resident Seekers.  A large building against the north wall is the public
+worship place and where masses are held.  A large well dominates the center
+courtyard of the outpost.    
+~
+213 c 0
+D0
+~
+~
+0 0 21331
+D1
+~
+~
+0 0 21374
+D2
+~
+~
+0 0 21329
+D3
+~
+~
+0 0 21378
+S
+#21331
+Approaching the Courtyard of the Outpost~
+   The ground here is hard packed from the constant traffic of worshippers
+going to the temple to the north.  Ahead is the center of the complex.  Some
+kind of wooden stake has been driven into the ground in the middle of the
+grounds ahead.  To the south loom the sturdy wooden gates.    
+~
+213 0 0
+D0
+~
+~
+0 0 21332
+D2
+~
+~
+0 0 21330
+S
+#21332
+The Outpost's Courtyard~
+   This is the outpost's main courtyard.  Seeker's and faithful followers of
+the Seeker religion hurry about their duties.  A large well stands in the
+center of the courtyard.  Two buildings flank the area to the east and west.  
+The ground has been plated with limestone and an off-white stone creating a
+carving path to the main temple.    
+~
+213 0 0
+D0
+~
+~
+0 0 21333
+D1
+~
+~
+0 0 21363
+D2
+~
+~
+0 0 21331
+D3
+~
+~
+0 0 21364
+S
+#21333
+The Center of the Courtyard~
+   This is the center of the courtyard.  A large well stands in the very center
+providing water to the inhabitants of the post.  A large wooden stake for
+burning heretics has also been set up nearby.  The ashes of past victims is
+gathered about the pole.  To the east and west are the barracks for the
+Seeker's.  The temple stands to the north.    
+~
+213 c 0
+D0
+~
+~
+0 0 21334
+D1
+~
+~
+0 0 21360
+D2
+~
+~
+0 0 21332
+D3
+~
+~
+0 0 21351
+S
+#21334
+The Outpost's Courtyard~
+   This is the outpost's main courtyard.  Seeker's and faithful followers of
+the Seeker religion hurry about their duties.  A large well stands in the
+center of the courtyard.  Two buildings flank the area to the east and west.  
+
+~
+213 0 0
+D0
+~
+~
+0 0 21335
+D1
+~
+~
+0 0 21362
+D2
+~
+~
+0 0 21333
+D3
+~
+~
+0 0 21361
+S
+#21335
+Approaching the Temple~
+   Seeker's and other faithful followers of that religion travel purposefully
+up and down the path to the temple.  The temple itself is an unimpressive
+structure.  It has a steepled roof and is larger than the other structures in
+the complex but is otherwise unremarkable.    
+~
+213 0 0
+D0
+~
+~
+0 0 21336
+D1
+~
+~
+0 0 21394
+D2
+~
+~
+0 0 21334
+D3
+~
+~
+0 0 21395
+S
+#21336
+On the Temple Steps~
+   These are a set of wide wooden steps leading up to the temple doors.  
+Residents and pilgrims to the outpost linger here gossiping or talking about
+the recent sermon.  The doors to the temple stand wide open at the top of the
+steps.    
+~
+213 0 0
+D0
+~
+~
+0 0 21337
+D1
+~
+~
+0 0 21393
+D2
+~
+~
+0 0 21335
+D3
+~
+~
+0 0 21392
+S
+#21337
+The Temple Foyer~
+   This is a small entry room just outside the main temple chamber.  The high
+vaulted ceiling makes even the slightest sound echo.  The wooden floor is
+smooth and polished making your footsteps sound loudly.    
+~
+213 0 0
+D0
+~
+~
+0 0 21338
+D1
+~
+~
+0 0 21390
+D2
+~
+~
+0 0 21336
+D3
+~
+~
+0 0 21391
+S
+#21338
+The Center Aisle~
+   This is the large worship area of the temple.  Rows of pews stand off to
+either side of the main aisle.  The floor in here is made of wood except for
+the aisle which is covered in a carpet of red dyed animal furs.  Ahead at the
+front of the churche is a small raised dias with a wooden podium from which the
+priest preaches
+~
+213 0 0
+D0
+~
+~
+0 0 21339
+D1
+~
+~
+0 0 21389
+D2
+~
+~
+0 0 21337
+D3
+~
+~
+0 0 21388
+S
+#21339
+The Center Aisle~
+   This is the center aisle of the temple.  Long wooden pews are lined up
+facing the raised dias at the front of the temple.  A thick carpet of red dyed
+animal furs muffes your footfalls.    
+~
+213 0 0
+D0
+~
+~
+0 0 21340
+D1
+~
+~
+0 0 21387
+D2
+~
+~
+0 0 21338
+D3
+~
+~
+0 0 21386
+S
+#21340
+The Center Aisle~
+   This is the center aisle of the temple.  Long wooden pews are lined up
+facing the raised dias at the front of the temple.  A thick carpet of red dyed
+animal furs muffes your footfalls.    
+~
+213 0 0
+D0
+~
+~
+0 0 21341
+D1
+~
+~
+0 0 21385
+D2
+~
+~
+0 0 21339
+D3
+~
+~
+0 0 21384
+S
+#21341
+At the Podium~
+   This is a raised circular platform at the front of the temple.  A large
+wooden podium stands here facing the pews.  From here the Seeker Priests spread
+their teachings to the masses that come here.    
+~
+213 c 0
+D0
+~
+secret~
+1 0 21342
+D2
+~
+~
+0 0 21340
+S
+#21342
+Secret Priest's Chambers~
+   This is the secret chamber of the priests.  Here they prepare for sermons
+and await the filling of the temple before the service begins.  A full length
+mirror rests against one wall.  A small table and chair stands in the middle of
+the room.  A set of wooden steps leads down beneath the temple.    
+~
+213 0 0
+D2
+~
+secret~
+1 0 21341
+D5
+~
+~
+0 0 21343
+S
+#21343
+At the Bottom of Stairs~
+   This is a small dark chamber.  The only light coming in is down the stairs
+from the room above.  A passage leads off into the darkness of the south.  An
+eerie scent pulls you forward into the darkness.    
+~
+213 c 0
+D2
+~
+~
+0 0 21344
+D4
+~
+~
+0 0 21342
+S
+#21344
+A Dark Underground Passage~
+   The air in this passage is cool.  The dark stone walls press in on each
+side.  A dark wood door rests in the east wall.  Its barely noticeable except
+for the thin sliver of light showing underneath the door.  The passage
+continues to the north and south.    
+~
+213 0 0
+D0
+~
+~
+0 0 21343
+D1
+~
+door~
+1 0 21345
+D2
+~
+~
+0 0 21346
+S
+#21345
+The High Seeker's Chambers~
+   This is the High Seeker's Chambers.  Its far more luxurious than anything
+the rest of the priests have.  Thick furs cover the cold stone floor and a
+large four post bed with a thick mattress and down filled pillows dominates the
+room.  A large wooden desk rests against one wall.  On the east wall a large
+quilt made to represent world is hanging on the wall.    
+~
+213 0 0
+D1
+~
+door~
+1 21305 21350
+D3
+~
+door~
+1 0 21344
+S
+#21346
+A Dark Underground Passage~
+   This is a dark, cool passage.  The only light comes from the north end of
+the passage.  The stone walls are dark and smooth.  It is difficult to tell
+whether they were man made, natural, or carved by magical forces.    
+~
+213 0 0
+D0
+~
+~
+0 0 21344
+D2
+~
+~
+0 0 21347
+S
+#21347
+The End of the Passage~
+   This is the end of a long dark passage.  Two heavy oaken doors are on either
+side of the passage.  Movement can be heard behind the door to the east.  A
+metallic grinding sound is coming from the door to the west.    
+~
+213 0 0
+D0
+~
+~
+0 0 21346
+D1
+~
+door~
+1 0 21349
+D3
+~
+door~
+1 0 21348
+S
+#21348
+A Dank Cell~
+   This is a small dark cell.  Small mice scurry for cover at your entrance.  
+Small piles of rotting straw are all the comfort that this cell provides.  It
+stinks of sweat and excrement.  A small table rests in the middle of the room.
+Thick leather straps have been attached to the table.    
+~
+213 0 0
+D1
+~
+door~
+1 0 21347
+S
+#21349
+A Dank Cell~
+   This is a small dark cell.  Small mice scurry for cover at your entrance.  
+Small piles of rotting straw are all the comfort that this cell provides.  It
+stinks of sweat and excrement.  A small table rests in the middle of the room.
+Thick leather straps have been attached to the table.    
+~
+213 0 0
+D3
+~
+door~
+1 0 21347
+S
+#21350
+A Chamber of Treasure~
+   Adamantite gold plate covers the walls of this small chamber of mystical
+treasure.  Large sculptures of ancient greek gods, line the walls in symetric
+order from their appearances in the mythological books.  Mice scurry the
+floor's stone, long sense shrouded with dust.  It's obvious this place has not
+been used for years, it's ancient.    
+~
+213 cdqs 0
+D3
+~
+door~
+1 21305 21345
+S
+#21351
+Before the Seeker's Barracks~
+   This is the main courtyard of the outpost.  The ground here is hard packed
+earth.  To the west stands the barracks for the Seeker priests.  Seeker's and
+other faithful followers of the seeker religion travel about the complex.    
+~
+213 0 0
+D0
+~
+~
+0 0 21361
+D1
+~
+~
+0 0 21333
+D2
+~
+~
+0 0 21364
+D3
+~
+door~
+1 0 21352
+S
+#21352
+The Common Room~
+   This is the main chamber of the Seeker's barracks.  Two long tables stand in
+the center of the room.  Here the Seeker's take their meals and gather
+together.  A doorway to the west leads to the sleeping quarters.    
+~
+213 cd 0
+D1
+~
+door~
+1 0 21351
+D3
+~
+~
+0 0 21353
+S
+#21353
+A Hallway in the Seeker's Barracks~
+   This is a short hallway running the length of the building.  Doors line the
+hallway on both sides.  To the east is the common chamber.  The ground has been
+carpeted with fancy fabrics adorned with many religious symbols.    
+~
+213 d 0
+D0
+~
+~
+0 0 21357
+D1
+~
+~
+0 0 21352
+D2
+~
+~
+0 0 21354
+S
+#21354
+The End of the Hallway~
+   This is the southern end of the hallway.  Doors stand on either side of the
+hallway.  The hallway is cold and bare.  No decorations adorn the walls.  The
+ground has been carpeted with fancy fabrics adorned with many religious
+symbols.    
+~
+213 d 0
+D0
+~
+~
+0 0 21353
+D1
+~
+~
+0 0 21356
+D3
+~
+~
+0 0 21355
+S
+#21355
+A Seeker's Room~
+   This is the personal chambers of one of the Seeker Priests.  A small bed is
+built into one wall.  A small chest of drawers and a stand with a wooden basin
+filled with water are the rooms only furnishings.    
+~
+213 d 0
+D1
+~
+~
+0 0 21354
+S
+#21356
+A Seeker's Room~
+   This is the personal chambers of one of the Seeker Priests.  A small bed is
+built into one wall.  A small chest of drawers and a stand with a wooden basin
+filled with water are the rooms only furnishings.    
+~
+213 d 0
+D3
+~
+~
+0 0 21354
+S
+#21357
+The End of the Hallway~
+   This is the northern end of the hallway.  Doors stand on either side of the
+hallway.  The hallway is cold and bare, free of people.  No decorations adorn
+the walls, however the ground has been carpeted with fancy foriegn fabrics
+adorned with intricate religous symbols of the Seeker Religion.    
+~
+213 d 0
+D1
+~
+~
+0 0 21359
+D2
+~
+~
+0 0 21353
+D3
+~
+~
+0 0 21358
+S
+#21358
+A Seeker's Room~
+   This is the personal chambers of one of the Seeker Priests.  A small bed is
+built into one wall.  A small chest of drawers and a stand with a wooden basin
+filled with water are the rooms only furnishings.    
+~
+213 d 0
+D1
+~
+~
+0 0 21357
+S
+#21359
+A Seeker's Room~
+   This is the personal chambers of one of the Seeker Priests.  A small bed is
+built into one wall.  A small chest of drawers and a stand with a wooden basin
+filled with water are the rooms only furnishings.    
+~
+213 d 0
+D3
+~
+~
+0 0 21357
+S
+#21360
+Before the Acolyte's Barracks~
+   This is the main courtyard of the outpost.  To the east stands a long low
+building used to house the aspiring seekers.  The center of the courtyward lies
+to the direct west.    
+~
+213 0 0
+D0
+~
+~
+0 0 21362
+D1
+~
+door~
+1 0 21365
+D2
+~
+~
+0 0 21363
+D3
+~
+~
+0 0 21333
+S
+#21361
+The Outpost's Courtyard~
+   This is the outpost's main courtyard.  Seeker's and faithful followers of
+the Seeker religion hurry about their duties.  A large well stands in the
+center of the courtyard.  Two buildings flank the area to the east and west.  
+
+~
+213 0 0
+D1
+~
+~
+0 0 21334
+D2
+~
+~
+0 0 21351
+S
+#21362
+The Outpost's Courtyard~
+   This is the outpost's main courtyard.  Seeker's and faithful followers of
+the Seeker religion hurry about their duties.  A large well stands in the
+center of the courtyard.  Two buildings flank the area to the east and west.  
+
+~
+213 0 0
+D2
+~
+~
+0 0 21360
+D3
+~
+~
+0 0 21334
+S
+#21363
+The Outpost's Courtyard~
+   This is the outpost's main courtyard.  Seeker's and faithful followers of
+the Seeker religion hurry about their duties.  A large well stands in the
+center of the courtyard.  Two buildings flank the area to the east and west.  
+Limestone has been lain here to create a lovely path to the main structure of
+the temple.    
+~
+213 0 0
+D0
+~
+~
+0 0 21360
+D3
+~
+~
+0 0 21332
+S
+#21364
+The Outpost's Courtyard~
+   This is the outpost's main courtyard.  Seeker's and faithful followers of
+the Seeker religion hurry about their duties.  A large well stands in the
+center of the courtyard.  Two buildings flank the area to the east and west.  
+Intricately placed here, large sheets of limestone create a nice trail to the
+main structure of the temple.    
+~
+213 0 0
+D0
+~
+~
+0 0 21351
+D1
+~
+~
+0 0 21332
+S
+#21365
+The Common Room~
+   This is the common room of the acolyte's barracks.  One long table with
+benches runs along one wall.  A large slate board has been hung on the opposite
+wall.  Here the acolyte's learn from a resident master of the teachings of the
+Seeker's.  A doorway leads east to the sleeping chambers.    
+~
+213 cd 0
+D1
+~
+~
+0 0 21366
+D3
+~
+door~
+1 0 21360
+S
+#21366
+A Hallway in the Acolyte's Barracks~
+   This hallway runs north and south along the length of the building.  Doors
+line the hallway leading to sleeping chambers.  A doorway leads west to the
+common chamber, which is where the seekers gather to speak of upcoming
+meetings.    
+~
+213 d 0
+D0
+~
+~
+0 0 21367
+D2
+~
+~
+0 0 21370
+D3
+~
+~
+0 0 21365
+S
+#21367
+The End of the Hallway~
+   This is the northern end of the hallway.  Two doors lead off to the east and
+west here.  Muffled voices can be heard behind the doors.  To the south light
+streams in from an open doorway leadting west.    
+~
+213 d 0
+D1
+~
+~
+0 0 21368
+D2
+~
+~
+0 0 21366
+D3
+~
+~
+0 0 21369
+S
+#21368
+An Acolyte's Chamber~
+   This is the humble chambers of one of the aspiring Seeker's.  A small wooden
+cot rests in one corner of the room.  A small chest and a basin for holding
+water are the only other furnishings.    
+~
+213 d 0
+D3
+~
+~
+0 0 21367
+S
+#21369
+An Acolyte's Chambers~
+   This is the humble chambers of one of the aspiring Seeker's.  A small wooden
+cot rests in one corner of the room.  A small chest and a basin for holding
+water are the only other furnishings.    
+~
+213 d 0
+D1
+~
+~
+0 0 21367
+S
+#21370
+The End of The Hallway~
+   This is the northern end of the hallway.  Two doors lead off to the east and
+west here.  Muffled voices can be heard behind the doors.  To the south light
+streams in from an open doorway leadting west.    
+~
+213 d 0
+D0
+~
+~
+0 0 21366
+D1
+~
+~
+0 0 21371
+D2
+~
+~
+0 0 21373
+D3
+~
+~
+0 0 21372
+S
+#21371
+An Acolytes Chamber~
+   This is the humble chambers of one of the aspiring Seeker's.  A small wooden
+cot rests in one corner of the room.  A small chest and a basin for holding
+water are the only other furnishings.    
+~
+213 d 0
+D3
+~
+~
+0 0 21370
+S
+#21372
+An Acolyte's Chamber~
+   This is the humble chambers of one of the aspiring Seeker's.  A small wooden
+cot rests in one corner of the room.  A small chest and a basin for holding
+water are the only other furnishings.    
+~
+213 d 0
+D1
+~
+~
+0 0 21370
+S
+#21373
+The Master's Chambers~
+   This is the master's chambers.  His room is much larger than the acolytes.
+It sports a real bed, chest of drawers, and a nightstand with a mirror.  A
+small window also looks out onto the courtyard.    
+~
+213 d 0
+D0
+~
+~
+0 0 21370
+S
+#21374
+Roaming the Southern Wall~
+   You are standing along the outer wall of the outpost.  The wall is made up
+of the trees that were cut down to make the clearing that holds the complex.  
+A narrow wooden walkway has been built near the top of the wall to allow guards
+to repel attackers from the tops of the wall.    
+~
+213 0 0
+D1
+~
+~
+0 0 21375
+D3
+~
+~
+0 0 21330
+S
+#21375
+The Southern Wall~
+   You are standing along the outer wall of the outpost.  The wall is made up
+of the trees that were cut down to make the clearing that holds the complex.  
+A narrow wooden walkway has been built near the top of the wall to allow guards
+to repel attackers from the tops of the wall.    
+~
+213 0 0
+D1
+~
+~
+0 0 21376
+D3
+~
+~
+0 0 21374
+S
+#21376
+Walking along the Southern Wall~
+   You are standing along the outer wall of the outpost.  The wall is made up
+of the trees that were cut down to make the clearing that holds the complex.  
+A narrow wooden walkway has been built near the top of the wall to allow guards
+to repel attackers from the tops of the wall.    
+~
+213 0 0
+D1
+~
+~
+0 0 21377
+D3
+~
+~
+0 0 21375
+S
+#21377
+Just Below the Guard Tower~
+   You are standing along the outer wall of the outpost.  The wall is made up
+of the trees that were cut down to make the clearing that holds the complex.  
+A narrow wooden walkway has been built near the top of the wall to allow guards
+to repel attackers from the tops of the wall.    
+~
+213 0 0
+D3
+~
+~
+0 0 21376
+D4
+~
+~
+0 0 21383
+S
+#21378
+Along the Southern Wall~
+   You are standing along the outer wall of the outpost.  The wall is made up
+of the trees that were cut down to make the clearing that holds the complex.  
+A narrow wooden walkway has been built near the top of the wall to allow guards
+to repel attackers from the tops of the wall.    
+~
+213 0 0
+D1
+~
+~
+0 0 21330
+D3
+~
+~
+0 0 21379
+S
+#21379
+Wandering Along the Southern Wall~
+   You are standing along the outer wall of the outpost.  The wall is made up
+of the trees that were cut down to make the clearing that holds the complex.  
+A narrow wooden walkway has been built near the top of the wall to allow guards
+to repel attackers from the tops of the wall.    
+~
+213 0 0
+D1
+~
+~
+0 0 21378
+D3
+~
+~
+0 0 21380
+S
+#21380
+Walking along the Southern Wall~
+   You are standing along the outer wall of the outpost.  The wall is made up
+of the trees that were cut down to make the clearing that holds the complex.  
+A narrow wooden walkway has been built near the top of the wall to allow guards
+to repel attackers from the tops of the wall.    
+~
+213 0 0
+D1
+~
+~
+0 0 21379
+D3
+~
+~
+0 0 21381
+S
+#21381
+Just Beneath the Guard Tower~
+   You are standing along the outer wall of the outpost.  The wall is made up
+of the trees that were cut down to make the clearing that holds the complex.  
+A narrow wooden walkway has been built near the top of the wall to allow guards
+to repel attackers from the tops of the wall.    
+~
+213 0 0
+D1
+~
+~
+0 0 21380
+D4
+~
+~
+0 0 21382
+S
+#21382
+At the South West Tower~
+   This is the south west corner of the complex.  A small wooden tower has been
+built into the outer wall here.  A ladder leads down to the ground level and
+another one leads up to the top of the tower.  A narrow walkway leads along the
+wall to the north and east.    
+~
+213 c 0
+D4
+~
+~
+0 0 21396
+D5
+~
+~
+0 0 21381
+S
+#21383
+At the South West Tower~
+   This is the south west corner of the complex.  A small wooden tower has been
+built into the outer wall here.  A ladder leads down to the ground level and
+another one leads up to the top of the tower.  A narrow walkway leads along the
+wall to the north and east.    
+~
+213 c 0
+D4
+~
+~
+0 0 21397
+D5
+~
+~
+0 0 21377
+S
+#21384
+Among the Pews~
+   This is one of the many of the long wooden pews that are lined up in the
+temple and outside of the temple.  It's made of roughly cut wood and looks very
+uncomfortable to sit on.  Small, narrow windows line the walls letting in rays
+of sunlight.    
+~
+213 0 0
+D1
+~
+~
+0 0 21340
+S
+#21385
+Among the Pews~
+   This is one of the many of the long wooden pews that are lined up in the
+temple and outside of the temple.  It's made of roughly cut wood and looks very
+uncomfortable to sit on.  Small, narrow windows line the walls letting in rays
+of sunlight.    
+~
+213 0 0
+D3
+~
+~
+0 0 21340
+S
+#21386
+Among the Pews~
+   This is one of the many of the long wooden pews that are lined up in the
+temple and outside of the temple.  It's made of roughly cut wood and looks very
+uncomfortable to sit on.  Small, narrow windows line the walls letting in rays
+of sunlight.    
+~
+213 0 0
+D1
+~
+~
+0 0 21339
+S
+#21387
+Among the Pews~
+   This is one of the many of the long wooden pews that are lined up in the
+temple and outside of the temple.  It's made of roughly cut wood and looks very
+uncomfortable to sit on.  Small, narrow windows line the walls letting in rays
+of sunlight.    
+~
+213 0 0
+D3
+~
+~
+0 0 21339
+S
+#21388
+Among the Pews~
+   This is one of the many of the long wooden pews that are lined up in the
+temple and outside of the temple.  It's made of roughly cut wood and looks very
+uncomfortable to sit on.  Small, narrow windows line the walls letting in rays
+of sunlight.    
+~
+213 0 0
+D1
+~
+~
+0 0 21338
+S
+#21389
+Among the Pews~
+   This is one of the many of the long wooden pews that are lined up in the
+temple and outside of the temple.  It's made of roughly cut wood and looks very
+uncomfortable to sit on.  Small, narrow windows line the walls letting in rays
+of sunlight.    
+~
+213 0 0
+D3
+~
+~
+0 0 21338
+S
+#21390
+Among the Pews~
+   This is one of the many of the long wooden pews that are lined up in the
+temple and outside of the temple.  It's made of roughly cut wood and looks very
+uncomfortable to sit on.  Small, narrow windows line the walls letting in rays
+of sunlight.    
+~
+213 0 0
+D3
+~
+~
+0 0 21337
+S
+#21391
+Among the Pews~
+   This is one of the many of the long wooden pews that are lined up in the
+temple and outside of the temple.  It's made of roughly cut wood and looks very
+uncomfortable to sit on.  Small, narrow windows line the walls letting in rays
+of sunlight.    
+~
+213 0 0
+D1
+~
+~
+0 0 21337
+S
+#21392
+Among the Pews~
+   This is one of the many of the long wooden pews that are lined up in the
+temple and outside of the temple.  It's made of roughly cut wood and looks very
+uncomfortable to sit on.  Small, narrow windows line the walls letting in rays
+of sunlight.    
+~
+213 0 0
+D1
+~
+~
+0 0 21336
+S
+#21393
+Among the Pews~
+   This is one of the many of the long wooden pews that are lined up in the
+temple and outside of the temple.  It's made of roughly cut wood and looks very
+uncomfortable to sit on.  Small, narrow windows line the walls letting in rays
+of sunlight.    
+~
+213 0 0
+D3
+~
+~
+0 0 21336
+S
+#21394
+Among the Pews~
+   This is one of the many of the long wooden pews that are lined up in the
+temple and outside of the temple.  It's made of roughly cut wood and looks very
+uncomfortable to sit on.  Small, narrow windows line the walls letting in rays
+of sunlight.    
+~
+213 0 0
+D3
+~
+~
+0 0 21335
+S
+#21395
+Among the Pews~
+   This is one of the many of the long wooden pews that are lined up in the
+temple and outside of the temple.  It's made of roughly cut wood and looks very
+uncomfortable to sit on.  Small, narrow windows line the walls letting in rays
+of sunlight.    
+~
+213 d 0
+D1
+~
+~
+0 0 21335
+S
+#21396
+Atop a Tower~
+   You are standing atop the south western tower of the Seeker's Outpost.  
+From here you have a clear view of anyone coming up the path to the gates and a
+clear shot at any potential attackers.  A trapdoor in the floor leads to the
+ladder downward.    
+~
+213 0 0
+D5
+~
+~
+0 0 21382
+S
+#21397
+Atop a Tower~
+   You are standing atop the south eastern tower of the Seeker's Outpost.  
+From here you have a clear view of anyone coming up the pat hto the gates and a
+clear shot at any potential attackers.  A trapdoor in the floor leads to a
+ladder down.    
+~
+213 0 0
+D5
+~
+~
+0 0 21383
+S
+#21398
+A Long Corridor~
+   Walls are imprinted with signs of the trolls way of life.  Blood is streaked
+throughout the walls on the carvings of trolls.  The loud noises of trolls seem
+to get louder as the path continues.  The corridor continues north.    
+~
+213 d 0
+D0
+~
+~
+0 0 21399
+D2
+~
+~
+0 0 21324
+S
+#21399
+A Small Shrine~
+   A small gleaming shrine has been built into the side of the corridor.  Its
+seems to be used as a prayer offering before these destructive creatures go
+onwards into battle.  The shrine glistens red like freshley spilled blood.  
+Many grotesque offerings have been left here by trolls.    
+~
+213 d 0
+D2
+~
+~
+0 0 21398
+D5
+~
+floor~
+1 0 21400
+S
+$~

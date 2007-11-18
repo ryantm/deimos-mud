@@ -1,0 +1,1190 @@
+#7000
+Sanctuary Ticket~
+Sanctuary Ticket~
+A small white ticket is lying on the ground here.~
+Good for one free sanc from Drake.    
+~
+8 0 1 0
+0 0 0 0
+1 1 0 0
+#7001
+Tank Ticket~
+Tank Ticket~
+A small red ticket is lying on the ground here.~
+Good for one free tank with Drake.    
+~
+0 0 1 0
+0 0 0 0
+1 1 0 0
+#7002
+Quest Token~
+Quest Token~
+A small golden token lies on the ground.~
+The token reads "Quest".    
+~
+8 0 1 0
+0 0 0 0
+0 0 0 0
+#7003
+Orichalcon~
+Orichalcon~
+A sleak-looking dagger is lying here.~
+Perhaps one of the greatest stabbing weapons in the world.    
+~
+5 8585224 8193 0
+9 5 8 11
+3 0 0 10
+A
+18 9
+A
+19 3
+#7004
+coral ring~
+coral ring~
+A small ring made of coral is lying here.~
+The ring is very small and consists of high quality coral.    
+~
+11 8585224 3 0
+0 0 0 0
+17 0 0 10
+A
+19 2
+A
+18 2
+#7005
+Sahagin Amulet~
+Sahagin Amulet~
+A small, colorful amulet is lying here.~
+The amulet is small, but is unbelievably colorful.    
+~
+11 8454152 5 0
+0 0 0 0
+4 0 0 10
+A
+19 4
+A
+6 -2
+A
+1 2
+#7006
+Hi-Potion~
+&MHi-Potion&n~
+A Hi-Potion is lying here.~
+$n quaffs a Hi-Potion, and is suddenly rejuvinated!
+~
+10 0 1 0
+66 28 28 28
+1 2 0 0
+#7007
+Ultima Potion~
+&BUltima Potion&n~
+An Ultima Potion is lying here.~
+$n glows momentarily as they quaff an Ultima Potion.
+~
+10 0 1 0
+1 3 36 1
+1 2 0 0
+#7008
+Scroll of Life~
+&WScroll of Life&n~
+A Scroll of Life is lying here.~
+As $n recites the words on the Scroll of Life, $N is brought back to life!
+~
+2 0 1 0
+60 53 28 1
+1 2 0 0
+#7009
+a goody bag~
+a goody bag~
+A small goody back lies here.~
+The bag is small but was made to fit good stuff.    
+~
+15 0 1 0
+100 1 -1 0
+2 0 0 0
+#7010
+an Earth crystal shard~
+an &GEarth&n crystal shard~
+&wA &GEarth &wcrystal shard is lying here.&n~
+~
+8 8388608 1 0
+0 0 0 0
+2 500000 0 0
+#7011
+an Fire crystal shard~
+an &RFire&n crystal shard~
+&wA &RFire &wcrystal shard is lying here.&n~
+Nothing.
+~
+8 8388608 1 0
+0 0 0 0
+2 500000 0 0
+#7012
+a Water crystal shard~
+a &BWater&n crystal shard~
+&wA &BWater &wcrystal shard is lying here.&n~
+~
+8 8388608 1 0
+0 0 0 0
+2 500000 0 0
+#7013
+a Wind crystal shard~
+a &WWind&n crystal shard~
+&wA &WWind &wcrystal shard is lying here.&n~
+~
+8 8388608 1 0
+0 0 0 0
+2 500000 0 0
+#7014
+scroll written on blue paper~
+a scroll written on blue paper~
+A familiar-looking blue scroll is lying here.~
+~
+2 0 1 0
+60 24 0 0
+1 1000000 0 0
+E
+blue scroll~
+The blue scroll looks oddly familiar...    
+~
+#7015
+note~
+a note~
+A note has been dropped here.~
+circlemud~
+16 8388608 1 0
+0 0 0 0
+0 0 0 0
+#7016
+pen~
+a pen~
+A pen has been dropped here.~
+~
+21 8388608 16385 0
+0 0 0 0
+0 0 0 0
+#7017
+a map of Corinth~
+a map of Corinth~
+A map of Corinth has been left here. Who could have dropped it?~
+~
+8 0 513 0
+0 0 0 0
+1 0 0 20
+E
+a map of Corinth~
+_________________________The Fabulous City of Corinth__________________________
+|               N                }------------------LEGEND------------------{ |
+|    SS         |          TG    | A = Armourey          LS = Leather Shop    |
+| DL-+----------+-----------+--T |AA = Advent. Academy    M = Market Square   |
+|    |AT   HQ         TH  WG|    |AT = Antique Shop      MD = Morning Dove    |
+|  MS|PS                AA--|MG  | B = Bank              MG = Mage's Guild    |
+|    |       WF C  A      CG|    | C = Citadel           MP = Mapmaker's Shop |
+|   J|H    GS+--+--+WS      | MP |CG = Cleric's Guild    MS = Magic Shop      |
+| W----------|  M  |-----------E |CH = Courthouse         N = North Gate      |
+|      SP   S+--+--+LS GD        | D = City Dump         PS = Pet Shop        |
+|               |I               |DL = Dimly Lit Path     S = Stables         |
+|           D---|                | E = East Gate         SP = Sage Prep. Room |
+|       FH     B|MD  park        |FH = Fish Hatchery     SS = Scribe's Shop   |
+|      L+-------|-----+          |GD = Green Dragon Pub   T = Teagle's Manor  |
+|       |      CH                |GS = General Store     TG = Thieve's Guild  |
+|       |                        | H = Herbalist's Hut   TH = Townhall        |
+|       |          {\_/}         |HQ = Militia Headqt.    W = West Gate       |
+|     docks        {0v0}  East   | I = Ivory Chapel      WF = Wells Fargo     |
+|                  || ||         | J = Jeweller's Shop   WG = Warrior's Guild |
+|                ==="="===>      | L = River Levee       WS = Weapons Shop    |
+|________________________________|____________________________________________|
+~
+A
+19 1
+A
+17 7
+#7018
+corpse~
+the corpse~
+A corpse is lying here.~
+Nothing.
+~
+31 0 0 0
+0 0 0 0
+127 0 0 0
+#7019
+mutilated corpse~
+the mutilated corpse~
+An corpse that has been mutilated lies here.~
+~
+31 0 0 0
+0 0 0 0
+102 0 0 0
+#7020
+mauled corpse~
+the mauled corpse~
+Lying here is what looks like a severely mauled corpse.~
+~
+31 0 0 0
+0 0 0 0
+89 0 0 0
+#7021
+small red key~
+&wa small &Rred&n&w key&n~
+&wA small &Rred&n&w key is lying here.&n~
+~
+18 0 1 0
+0 0 0 0
+1 0 0 0
+#7022
+small piece of paper~
+a small piece of paper~
+A small piece of paper has been left here.~
+~
+8 0 1 0
+0 0 0 0
+0 0 0 0
+E
+small piece of paper~
+&RSeek the maiden you thought you could trust
+And turn her body back into dust.&n
+~
+#7023
+small piece of paper~
+a small piece of paper~
+A small piece of paper has been left here.~
+~
+8 0 1 0
+0 0 0 0
+1 0 0 0
+E
+small piece of paper~
+&RSearch for those who wield blades of light
+And beneath your feet shall await your fight.&n
+~
+#7024
+small piece of paper~
+a small piece of paper~
+A small piece of paper has been left here.~
+~
+8 0 1 0
+0 0 0 0
+1 0 0 0
+E
+small piece of paper~
+&RYou'll have to find some pointy ears
+And under your drink the darkness leers.&n
+~
+#7025
+small piece of paper~
+a small piece of paper~
+A small piece of paper has been left here.~
+~
+8 0 1 0
+0 0 0 0
+1 0 0 0
+E
+small piece of paper~
+&RWest of the crystal and under the moon
+A hateful soul plans your potential doom.&n
+~
+#7026
+small piece of paper~
+a small piece of paper~
+A small piece of paper has been left here.~
+~
+8 0 1 0
+0 0 0 0
+1 0 0 0
+E
+small piece of paper~
+&RFind the machine that leads to the sky
+Then head to its nose and prepare to die.&n
+~
+#7027
+small piece of paper~
+a small piece of paper~
+A small piece of paper has been left here.~
+~
+8 0 1 0
+0 0 0 0
+1 0 0 0
+E
+small piece of paper~
+&RReturn to the path concealed
+And search behind the leaves.
+Now clash both sword and shield
+If her ghost decides to appear.
+
+But do not act too hasty
+For your fate forever weaves.
+A new long path awaits you
+And your death may be quite near.&n
+~
+#7028
+airship's second floor key~
+the airship's second floor key~
+The airship's key to the second floor is lying here.~
+~
+18 0 1 0
+0 0 0 0
+1 0 0 0
+#7029
+Staff of Shadows~
+&MStaff of Shadows&n~
+A staff has been left here.~
+~
+5 3145728 8193 0
+5 8 8 7
+5 0 0 0
+A
+19 5
+A
+18 5
+#7030
+Mile-Long Whip~
+&BMile-Long Whip&n~
+A whip has been left here.~
+~
+5 3145728 8193 0
+5 8 8 2
+5 0 0 0
+A
+19 5
+A
+18 5
+#7031
+Behemoth's Axe~
+&CBehemoth's Axe&n~
+An axe has been left here~
+~
+5 3153984 1 0
+5 8 8 6
+5 0 0 0
+A
+19 5
+A
+18 5
+#7032
+Lance of Integrity~
+&GLance of Integrity&n~
+A lance has been left here.~
+~
+5 3153984 1 0
+5 8 8 14
+5 0 0 0
+A
+19 5
+A
+18 5
+#7033
+Triple-Barreled Shotgun~
+&YTriple-Barreled Shotgun&n~
+An unfinished object is lying here.~
+~
+5 3145728 8193 0
+5 8 8 12
+5 0 0 0
+A
+19 5
+A
+18 5
+#7034
+Spiked Nunchucks~
+&RSpiked Nunchucks&n~
+Some nunchucks have been left here.~
+~
+5 3145728 8193 0
+5 8 8 10
+5 0 0 0
+A
+19 5
+A
+18 5
+#7035
+Blackened Katana of Reversmore~
+&DBlackened Katana of Reversmore&n~
+An unfinished object is lying here.~
+~
+5 3145728 8193 0
+5 8 8 3
+5 0 0 0
+A
+19 5
+A
+18 5
+#7036
+The Forsaken Gavel~
+&WThe Forsaken Gavel&n~
+A gavel has been left here.~
+~
+5 3145728 8193 0
+5 8 8 9
+5 0 0 0
+A
+19 5
+A
+18 5
+#7037
+pilot's tie~
+the pilot's tie~
+A pilot's tie lies here.~
+~
+11 0 5 0
+0 0 0 0
+1 300 0 24
+E
+pilot's tie~
+The tie is black and made of silk.  It seems very expensive, and was probably
+made by a highly skilled Zyrian craftsman.    
+~
+A
+19 1
+A
+5 2
+#7038
+co-pilot's belt~
+the co-pilot's belt~
+A glossy black belt has been left here.~
+~
+5 0 10241 0
+10 7 6 2
+1 300 0 40
+A
+19 1
+A
+2 2
+A
+1 -4
+#7039
+Zyrian katana~
+&ra &DZyrian &rkatana&n~
+A Zyrian katana has been left here.~
+~
+5 1048576 8193 0
+5 6 6 3
+4 350 0 40
+A
+19 1
+A
+1 -1
+A
+2 1
+#7040
+Zyrian cape~
+&ra &DZyrian &rcape&n~
+A large, dark red cape has been left here.~
+~
+11 0 5 0
+0 0 0 0
+2 350 0 40
+A
+1 -2
+A
+2 -1
+A
+6 3
+#7041
+Zyrian chestplate~
+&ra &DZyrian &rchestplate&n~
+A large, black and red metallic chestplate with the Trisophian seal on it is lying here.~
+~
+9 0 9 0
+20 0 0 0
+20 350 0 43
+A
+2 -3
+A
+14 -2
+#7042
+Zyrian magic stone~
+&ra &DZyrian &rmagic stone&n~
+A small black and blue stone has been dropped here.~
+~
+8 0 1 0
+0 0 0 0
+0 350 0 40
+E
+Zyrian magic stone~
+This small black and blue stone has a small Trisophian crest, the symbol of the
+official Zyrian religion.  This stone is used by those ungifted with magic use,
+which allows them to summon sometimes powerful magic.    
+~
+A
+3 4
+A
+4 4
+A
+1 -8
+A
+5 -8
+#7043
+royal Zyrian cloak~
+&ra royal &DZyrian &rcloak&n~
+A thick black cloak is lying here.~
+~
+11 0 1025 0
+0 0 0 0
+5 400 0 42
+A
+5 2
+A
+6 2
+A
+3 -3
+A
+4 -3
+#7044
+royal Zyrian ring~
+&ra royal &DZyrian &rring&n~
+A small silver ring is lying here.~
+Nothing.
+~
+8 0 3 0
+0 0 0 0
+1 400 0 42
+E
+royal Zyrian ring~
+This small silver ring has the Trisophian seal engraved on it.
+~
+A
+4 1
+#7045
+a spiked bracelet~
+a spiked bracelet~
+A spiked bracelet has been left here.~
+~
+11 0 4097 8696892
+0 0 0 0
+1 0 0 0
+A
+1 15
+A
+2 15
+A
+3 15
+A
+4 15
+A
+5 15
+#7046
+a shiny newbie sword~
+a shiny newbie sword~
+A special newbie sword has carelessly been left here.~
+~
+5 11862088 8193 0
+40 50 50 3
+0 0 0 2
+A
+19 40
+A
+18 40
+A
+2 5
+A
+3 5
+A
+4 5
+A
+5 5
+#7047
+fake Rolex watch~
+a fake Rolex watch~
+Someone has dropped their Rolex watch here.~
+~
+11 0 4097 0
+0 0 0 0
+1 2000000 0 0
+E
+fake rolex watch~
+It looks just like the real thing.
+~
+A
+13 -115
+A
+13 -115
+A
+13 -115
+A
+13 -115
+A
+13 -115
+A
+13 -115
+#7048
+fake spiked bracelet~
+a fake spiked bracelet~
+A spiked bracelet has been dropped here.~
+~
+11 0 4097 0
+0 0 0 0
+1 1000000 0 0
+E
+fake spiked bracelet~
+It looks just like the real thing.
+~
+A
+12 -115
+A
+12 -115
+A
+12 -115
+A
+12 -115
+A
+12 -115
+A
+12 -115
+#7049
+chunk of shit Cleveland Steamer poop poo wedge~
+a Shit Chunk~
+Someone has squeezed out a Cleveland Steamer on the ground here.~
+~
+19 0 1 0
+9999 0 0 0
+0 0 0 0
+#7050
+Mithril chunk~
+a Mithril Chunk~
+A small chunk of green metal has been left here.~
+Mithril is an extremely rare metal known for its green color.  Although it
+isn't as rare as adamantium, many still doubt the existance of mithril.  Only
+skilled blacksmiths and true adventurers know of mithril's existance.    
+~
+8 0 1 0
+0 0 0 0
+0 0 0 0
+#7051
+adamantium chunk~
+an Adamantium Chunk~
+An Adamantium Chunk lies here.~
+~
+8 0 1 0
+0 0 0 0
+0 0 0 0
+#7052
+anthracite chunk~
+an Anthracite Chunk~
+An Anthracite Chunk lies here.~
+~
+8 0 8193 0
+0 0 0 0
+8 0 0 1
+#7053
+passport~
+a passport~
+A passport has been left here.~
+~
+2 0 1 0
+28 2 0 0
+0 0 0 0
+#7054
+magic portal~
+the magic portal~
+There is a magic portal glowing brightly here.~
+~
+24 0 1 0
+0 0 0 0
+0 0 0 0
+#7055
+special ticket~
+a special ticket~
+Someone has dropped a special-looking ticket here.~
+~
+8 0 1 0
+0 0 0 0
+0 0 0 1
+E
+special ticket~
+Bring this ticket to Zyre for something special.
+~
+#7056
+Genji armor~
+&cGenji &Darmor&n~
+A formidible piece of armor is lying here.~
+~
+9 0 9 0
+0 0 0 0
+10 1000 0 1
+E
+genji armor~
+This piece of armor is actually an unfinished work.  Perhaps some mithril
+chunks could make it better.    
+~
+#7057
+something special~
+something special~
+Something special has been left here.~
+~
+8 0 1 0
+0 0 0 0
+2 0 0 0
+E
+something special~
+It's a special something, but you don't know what it is.  Maybe you should have
+it appraised.    
+~
+#7060
+Zyrian heal potion health~
+a Zyrian health potion~
+A bright green potion has been left here.~
+~
+10 0 1 0
+6 28 0 0
+0 850 0 0
+#7061
+zyrian potion of invisible detection~
+a Zyrian potion of invisible detection~
+A bright green potion has been left here.~
+~
+10 0 1 0
+6 19 0 0
+1 900 0 0
+#7062
+potion refreshment~
+a Zyrian potion of refreshment~
+A bright green potion has been left here.~
+~
+10 0 1 0
+6 54 15 0
+9 550 0 0
+#7063
+zyrian scroll of identification~
+a Zyrian scroll of identification~
+A scroll written on green paper has been left here.~
+~
+2 0 1 0
+6 52 0 0
+1 250 0 0
+#7064
+zyrian scroll of disintegration~
+a Zyrian scroll of disintegration~
+A scroll written on green paper has been left here.~
+~
+2 0 1 0
+6 63 0 0
+1 1000 0 0
+#7065
+zyrian food ration~
+a Zyrian food ration~
+A food ration marked with the Zyrian flag has been left here.~
+~
+19 0 1 0
+24 0 0 0
+1 150 0 0
+#7066
+thermos zyrian water~
+a thermos of Zyrian water~
+A bright green thermos has been left here.~
+~
+17 0 1 0
+12 12 0 0
+1 150 0 0
+#7068
+scroll instant diarrhea~
+a scroll of Instant Diarrhea~
+Someone has left a brown scroll here.~
+~
+2 0 1 0
+1 0 41 49
+1 10000 0 1
+#7070
+small piece of paper~
+a small piece of paper~
+The memory of another world has been forgotten here.~
+~
+8 0 1 0
+0 0 0 0
+0 0 0 0
+E
+small piece of paper memory MeatMUD~
+                                    /   \
+   _                        )      ((   ))     (
+  (@)                      /|\      ))_((     /|\                        _
+  |-|`\                   / | \    (/\|/\)   / | \                      (@)
+  | | -------------------/--|-voV---\`|'/--Vov-|--\---------------------|-|
+  |-|  Welcome into the Realm '^`   (o o)  '^`                          | |
+  | |    of our Imagination.        `\Y/'                               |-|
+  |-|                                                                   | |
+  | |     ))))    )))))    )))))))))    )))))))    ))))))))))      M    |-|
+  |-|    ((( ((  (( ((    (((          (((   (((      (((               | |
+  | |     ))) ))))  )))    ))))))       )))))))))      )))         U    |-|
+  |-|    (((   ((  (((    (((          (((   (((      (((               | |
+  | |     )))       )))    )))))))))   ))))   ))))     )))         D    |-|
+  |-|                                                                   | |
+  | |                    Run by:  Eldred and Seuss                      |-|
+  |_|___________________________________________________________________| |
+  (@)                l   /\ /       ( (       \ /\   l                `\|-|
+                     l /   V         \ \       V   \ l                  (@)
+                     l/              _) )_          \I
+                                     `\ /'
+                                       `
+~
+#7071
+small silver box~
+a small silver box~
+A small silver box has been left here.~
+~
+15 276824204 16385 0
+1000 4 -1 0
+0 0 0 0
+#7072
+asus motherboard~
+an ASUS brand motherboard~
+An ASUS brand motherboard has been left here.~
+~
+13 0 513 0
+0 0 0 0
+0 0 0 0
+E
+asus motherboard~
+It looks like a piece of shit.
+~
+A
+19 -100
+A
+18 -100
+A
+1 -100
+A
+3 -100
+A
+5 -100
+A
+6 1
+#7073
+unfinished object~
+the unfinished object~
+An unfinished object is lying here.~
+~
+0 0 1 0
+0 0 0 0
+0 0 0 0
+#7074
+Mystery Chunk~
+&GMystery Chunk&n~
+A mysterious chunk of something has been left here.~
+~
+8 0 16385 60
+0 0 0 0
+5 2000000 0 0
+A
+19 -2
+#7075
+cannoli~
+a cannoli~
+Somebody has dropped their cannoli here.~
+~
+19 0 1 0
+9999 0 0 0
+0 0 0 0
+E
+cannoli~
+It looks delicious.
+~
+#7076
+a Christmas coupon~
+&Ra &GC&Rh&Gr&Ri&Gs&Rt&Gm&Ra&Gs &Rc&Go&Ru&Gp&Ro&Gn&n~
+Someone has dropped a Christmas coupon here.~
+~
+0 0 1 0
+0 0 0 0
+0 0 0 0
+E
+Christmas coupon~
+   &RGood for one free Christmas present from Zyre.&n
+
+&rOffer good until 1/1/04. Limit one per person per lifetime. Void where prohibited.&n
+~
+#7077
+Santa's Gift Sack~
+&RS&Ga&Rn&Gt&Ra&G'&Rs &GG&Ri&Gf&Rt &GS&Ra&Gc&Rk&n~
+Santa has left his gift sack here. Touch it, and you're going on his bad list.~
+~
+15 0 1025 0
+9999 1 -1 0
+0 0 0 0
+#7078
+Christmas present~
+&RChristmas &Gpresent&n~
+Someone has left their Christmas present here.~
+~
+15 4 1 0
+30 1 -1 0
+0 500000 0 0
+E
+Christmas present~
+   It's extremely pretty.  There is a label on it.  Why don't you look at the
+label?    
+~
+E
+label~
+To: You
+From: &DZyre&n
+~
+#7079
+dark crystal~
+&wthe &DDark &wcrystal&n~
+&wThe &DDark &wcrystal is lying here.&n~
+~
+8 8388608 16385 1
+0 0 0 0
+5 20000000 0 0
+A
+19 20
+A
+13 -100
+A
+12 -100
+A
+14 -100
+#7080
+Ecryst the Earth crystal~
+&wthe &GEarth &wcrystal&n~
+&wThe &GEarth &wcrystal has been left here.&n~
+~
+8 1 16385 12296
+0 0 0 0
+5 10000000 0 0
+A
+19 -2
+#7081
+Fcryst the Fire crystal~
+&wthe &RFire &wcrystal&n~
+&wThe &RFire &wcrystal has been left here.&n~
+~
+8 1 16385 8421408
+0 0 0 0
+5 10000000 0 0
+A
+19 -2
+#7082
+Wcryst the Water crystal~
+&wthe &BWater &wcrystal&n~
+&wThe &BWater &wcrystal has been left here.&n~
+~
+8 1 16385 524354
+0 0 0 0
+5 10000000 0 0
+A
+19 -2
+#7083
+Wicryst the Wind crystal~
+&wthe &WWind &wcrystal&n~
+&wThe &WWind &wcrystal has been left here.&n~
+~
+8 1 16385 12845056
+0 0 0 0
+5 10000000 0 0
+A
+19 -2
+#7084
+???? the Crystal of Elements~
+&wthe &GC&Rr&By&Ws&Gt&Ra&Bl &wof &WE&Gl&Re&Bm&We&Gn&Rt&Bs&n~
+&wThe &MR&Ba&Ci&Gn&Yb&Ro&Ww &wcrystal has been left here.&n~
+~
+8 1 16385 128
+0 0 0 0
+8 50000000 0 0
+A
+19 -4
+A
+18 -4
+#7085
+sign~
+a sign~
+&wA sign marked '&GE&Rl&Be&Wm&Ge&Rn&Bt&Wa&Gl &RC&Br&Wy&Gs&Rt&Ba&Wl&Gs&w' is here.&n~
+~
+12 0 0 0
+0 0 0 0
+0 0 0 0
+E
+sign~
+
+&M(&G@&M)                                                         &M(&R@&M)
+&M| |---------------------------------------------------------| |
+&M| |            &BThe Elemental Crystals Mini Quest            &M| |
+&M| |                                                         &M| |
+&M| | &Y   There are for elemental crystals: Fire, Water, Earth &M| |
+&M| | &Yand Wind. But these crystals have broken, and their     &M| |
+&M| | &Yshards have been scattered across the world. There are  &M| |
+&M| | &Ytwelve shards for each of the four crystals, totaling   &M| |
+&M| | &Yto fourty-eight crystal shards. If you can find all of  &M| |
+&M| | &Ythe shards for one of the crystals, go to the forge and &M| |
+&M| | &Yassemble them back into the crystal.                    &M| |
+&M| | &Y   The only real prize for attained the shards or the   &M| |
+&M| | &Ycrystals is money. Below shows the value of the shards  &M| |
+&M| | &Yand the crystals.&n                                       &M| |
+&M| |                                                         &M| |
+&M| |      &CShards: &G500,000 Gold     &CCrystals: &G10,000,000      &M| |
+&M| |                                                         &M| |
+&M| | &Y   However, if you somehow attain all four crystals, a  &M| |
+&M| | &Ysurprise awaits you. Anyway, you will find the codes of &M| |
+&M| | &Yassembly below. When you are going to assemble at the   &M| |
+&M| | &Yforge, you need to type &Rassemble X&Y. Replace the &RX&Y with  &M| |
+&M| | &Yone of the below codes depending on what shards you     &M| |
+&M| | &Yhave. If you have all four crystals, the fifth code     &M| |
+&M| | &Yapplies to you.                                         &M| |
+&M| |                                                         &M| |
+&M| |               &GEcryst &C= &wthe &GEarth &wcrystal&n                &M| |
+&M| |               &RFcryst &C= &wthe &RFire &wcrystal&n                 &M| |
+&M| |               &BWcryst &C= &wthe &BWater &wcrystal&n                &M| |
+&M| |               &WWicryst &C= &wthe &WWind &wcrystal&n                &M| |
+&M| |               &D???? &C= &D????                               &M| |
+&M| |                                                         &M| |
+&M| | --------------------------------------------------------| |
+&M(&B@&M)                                                         &M(&W@&M)&n
+~
+#7086
+dark crystal shard~
+&wa &DDark &wcrystal shard&n~
+&wA &DDark&w crystal shard has been left here.&n~
+~
+8 8388608 1 268439609
+0 0 0 0
+2 1000000 0 0
+E
+dark crystal shard~
+It is one of three dark crystal shards.
+~
+#7087
+Kuragari~
+&DKuragari&n~
+Zyre has left his darkened katana here.~
+~
+5 3145732 1 0
+10 3 3 3
+4 0 0 59
+#7088
+Zyre action figure~
+a Zyre action figure~
+Someone has left their Zyre action figure here!~
+~
+8 8454152 16385 0
+0 0 0 0
+1 1500 0 0
+E
+Zyre action figure~
+It's the coolest little action figure you've ever seen!
+              &W90+ points of articulation!&n
+~
+#7089
+shit~
+a moist piece of shit~
+Someone took a crap on the ground here.~
+~
+19 12648600 16385 18561
+1 0 0 99
+1 0 0 0
+#7090
+Mystery Goo~
+&GMystery Goo&n~
+A blob of a mysterious green goo is lying here.~
+~
+8 0 16385 0
+0 0 0 0
+1 1000000 0 0
+#7091
+Mystery Mold~
+&GMystery Mold&n~
+An odd type of mold is growing here.~
+~
+8 0 16385 0
+0 0 0 0
+1 150000 0 0
+#7092
+dragonball~
+a dragonball~
+A dragonball with one star is lying here.~
+~
+8 0 1 0
+0 0 0 0
+1 0 0 0
+E
+dragonball~
+It is an orange ball with one red star on it.    
+~
+#7093
+dragonball~
+a dragonball~
+A dragonball with two stars is lying here.~
+~
+8 0 1 0
+0 0 0 0
+1 0 0 0
+E
+dragonball~
+It is an orange ball with two red stars on it.    
+~
+#7094
+dragonball~
+a dragonball~
+A dragonball with three star is lying here.~
+~
+8 0 1 0
+0 0 0 0
+1 0 0 0
+E
+dragonball~
+It is an orange ball with three red stars on it.
+~
+#7095
+dragonball~
+a dragonball~
+A dragonball with four stars is lying here.~
+~
+8 0 1 0
+0 0 0 0
+1 0 0 0
+E
+dragonball~
+It is an orange ball with four red stars on it.    
+~
+#7096
+dragonball~
+a dragonball~
+A dragonball with five stars is lying here.~
+~
+8 0 1 0
+0 0 0 0
+1 0 0 0
+E
+dragonball~
+It is an orange ball with five red stars on it.    
+~
+#7097
+dragonball~
+a dragonball~
+A dragonball with six stars is lying here.~
+~
+8 0 1 0
+0 0 0 0
+1 0 0 0
+E
+dragonball~
+It is an orange ball with six red stars on it.    
+~
+#7098
+dragonball~
+a dragonball~
+A dragonball with seven stars is lying here.~
+~
+8 0 1 0
+0 0 0 0
+1 0 0 0
+E
+dragonball~
+It is an orange ball with seven red stars on it.    
+~
+#7099
+Zyre's Quest Backpack~
+&RZyre's Quest Backpack&n~
+Zyre left his quest backpack here.~
+Nothing.
+~
+15 276889736 1025 0
+2000000000 1 -1 0
+1 0 0 0
+E
+Zyre's Quest Backpack~
+It's the biggest fucking backpack you've ever seen.
+~
+A
+5 14
+$~

@@ -1,0 +1,444 @@
+#700
+The Casino Entrance~
+   Bright lights.  Loud music.  The hustle and bustle of many people can be
+heard from beyond two large doors.  Everything is out-lined in neon chaser
+lights, filling the night sky with a bright glow.  There is a large crowd of
+people, all trying to press their way into the large casino.  From some of the
+wealthiest men in the world, to the poor and diseased, this appears to be the
+place to hang out.    
+~
+7 0 0
+D1
+~
+~
+0 0 704
+S
+#701
+The Corner of the Lounge~
+   The lights in this room are almost blinding!  Rainbow colored lights for the
+words "Win Big" on the velvet wall.  It seems there is to be some sort of
+drawing.  Though no one is sure what they will win, there is a long line of
+people waiting to sign up.  There are some hardly noticeable creases in the
+velvet along the wall.  There are exits to the south and east, leading to the
+lounge.    
+~
+7 0 0
+D0
+~
+wall~
+1 0 -1
+D1
+~
+~
+0 0 708
+D2
+~
+~
+0 0 702
+S
+#702
+The Casino Lounge~
+   This is one of the few quiet rooms in the lounge.  There are some
+beautifully carved wooden tables, each with its own set of hand crafted, padded
+chairs.  From the ceiling hangs another golden chandelier.  There are very few
+people here, and they seem to be heading towards some bright lights to the
+north.  To the south is the exit to casino, and to the east is more lounge.  
+
+~
+7 0 0
+D0
+~
+~
+0 0 701
+D1
+~
+~
+0 0 709
+D2
+~
+~
+0 0 703
+S
+#703
+The Casino Lounge~
+   Everyone is crowding around some huge display in the middle of the room.  
+It seems to be a large ice sculpture of a dragon.  It is sitting inside of a
+fountain, which has green light cast upon it.  The bottom of the fountain is
+filled with money, from people making wishes.  The sights and sounds of the
+casino stretch before you in every direction but east.    
+~
+7 0 0
+D0
+~
+~
+0 0 702
+D1
+~
+~
+0 0 710
+D2
+~
+~
+0 0 704
+S
+#704
+Inside the Casino~
+   The casino is huge.  Red velvet covers all the walls, and three large,
+golden chandeliers hang from the ceiling.  Many people are running around,
+attracted to all the bright lights.  Some are standing, catching up on the
+local gossip, and others are stumbling towards the exit, drunk and not a penny
+richer then they were when they arrived.    
+~
+7 0 0
+D0
+~
+~
+0 0 703
+D1
+~
+~
+0 0 711
+D2
+~
+~
+0 0 705
+D3
+~
+~
+0 0 700
+S
+#705
+The Casino Lounge~
+   The room is very open there is finally enough space to breathe.  There is a
+beautiful design made on the ceiling made entirely out of neon colored lights.
+It fills the whole room with a large variety of colors.  To the south and east
+is lounge area, and to the north lies the exit of the casino.    
+~
+7 0 0
+D0
+~
+~
+0 0 704
+D1
+~
+~
+0 0 712
+D2
+~
+~
+0 0 706
+S
+#706
+The Casino Lounge~
+   Bright, blue lights spell out the word "Poker" on the wall.  Shiny wooden
+counters covered with green velvet are here, and dealers sit on the other side,
+each with a rigged deck of cards in their hand.  There are many others here,
+trying their luck.  To the east you see more bright lights, and to the north is
+the casino Lounge.    
+~
+7 0 0
+D0
+~
+~
+0 0 705
+D1
+~
+~
+0 0 713
+S
+#707
+Behind the Counter~
+   The green velvet counter top reaches the western wall of the casino here,
+marking the end of the domain of the dealers.  Bright lights from the "Poker"
+sign overhead fill the room.  A tall stool sits close behind the counter for
+the dealer to sit on.  Below the counter sit an array of decks of cards, each
+with the house icon and a special symbol.  The only exit is to the east.    
+~
+7 0 0
+D1
+~
+~
+0 0 714
+S
+#708
+The Casino~
+   Along the red velvet walls stand many tall, gold platted slot machines, each
+either out of order or occupied.  No one seems to be winning, and many are
+kicking at the machines, trying to get extra coins to fall out.  To the south
+and east is more of the casino, and to the east you see blinding lights.    
+~
+7 0 0
+D1
+~
+~
+0 0 715
+D2
+~
+~
+0 0 709
+D3
+~
+~
+0 0 701
+S
+#709
+The Casino Lounge~
+   Although the bright lights of slot machines are usually the centers of
+attention here, the first thing that demands attention in this room is a large
+platform.  Neon lights and mist cast an earie fog upon the platform, and the
+pole in the middle makes its purpose obvious.  A techno style of music booms,
+and the temerature seems to rise with every breath.  The Casino lounge
+stretches in all directions, but why hurry?    
+~
+7 0 0
+D0
+~
+~
+0 0 708
+D1
+~
+~
+0 0 716
+D2
+~
+~
+0 0 710
+D3
+~
+~
+0 0 702
+S
+#710
+The Casino Lounge~
+You are in an unfinished room.
+~
+7 0 0
+D0
+~
+~
+0 0 709
+D1
+~
+~
+0 0 717
+D2
+~
+~
+0 0 711
+D3
+~
+~
+0 0 703
+S
+#711
+The Casino Lounge~
+   The sea of casino guests continues to meander into the casino and towards
+the east, blocking many of those trying to leave.  Bright lights shine from
+every direction, announcing entertainment and luring the guests like flies.  
+The casino lounge continues in all directions.    
+~
+7 0 0
+D0
+~
+~
+0 0 710
+D1
+~
+~
+0 0 718
+D2
+~
+~
+0 0 712
+D3
+~
+~
+0 0 704
+S
+#712
+The Casino Lounge~
+   Although the bright lights of slot machines are usually the centers of
+attention here, the first thing that demands attention in this room is a large
+platform.  Neon lights and mist cast an earie fog upon the platform, and the
+pole in the middle makes its purpose obvious.  A techno style of music booms,
+and the temerature seems to rise with every breath.  The Casino lounge
+stretches in all directions, but why hurry?    
+~
+7 0 0
+D0
+~
+~
+0 0 711
+D1
+~
+~
+0 0 719
+D2
+~
+~
+0 0 713
+D3
+~
+~
+0 0 705
+S
+#713
+The Casino Lounge~
+   Bright, green lights spell out the word "Black Jack" on the wall.  Shiny
+wooden counters covered with green velvet are here, and dealers sit on the
+other side, each with a rigged deck of cards in their hand.  There are many
+others here, trying their luck.  To the east the casino continues, and to the
+north is the casino Lounge.  The green counter continues to the west, where
+more bright lights are shining.    
+~
+7 d 0
+D0
+~
+~
+0 0 712
+D1
+~
+~
+0 0 -1
+D3
+~
+~
+0 0 706
+S
+#714
+Behind the Counter~
+   This small area behind the counter is used by the dealers to seperate them
+from the many gamblers.  The counter is lined with stools for them to sit at.
+Overhead, bright lights anounce the names of games that can be played at the
+counter.  Beneath the counter sit stacks of chips and cards.  The counter
+continues to the west, or can be exited to the east.    
+~
+7 0 0
+D1
+~
+door~
+1 0 -1
+D3
+~
+~
+0 0 707
+S
+#715
+The Casino Lounge~
+   The sounds of the casino fade slightly at the outer reaches of the lounge.
+The velvet walls are covered in a red velvet and flashing neon lights.  A
+directory gives directions to everything but the exit.  The casino lounge
+continues in every direction but to the north.    
+~
+7 0 0
+D1
+~
+~
+0 0 -1
+D2
+~
+~
+0 0 716
+D3
+~
+~
+0 0 708
+S
+#716
+The Casino Lounge~
+   The sea of casino guests continues to meander into the casino and towards
+the east, blocking many of those trying to leave.  Bright lights shine from
+every direction, announcing entertainment and luring the guests like flies.  
+The casino lounge continues in all directions.    
+~
+7 0 0
+D0
+~
+~
+0 0 715
+D1
+~
+~
+0 0 -1
+D2
+~
+~
+0 0 717
+D3
+~
+~
+0 0 709
+S
+#717
+The Casino Lounge~
+   The sea of casino guests continues to meander into the casino and towards
+the east, blocking many of those trying to leave.  Bright lights shine from
+every direction, announcing entertainment and luring the guests like flies.  
+The casino lounge continues in all directions.    
+~
+7 0 0
+D0
+~
+~
+0 0 716
+D1
+~
+~
+0 0 -1
+D2
+~
+~
+0 0 718
+D3
+~
+~
+0 0 710
+S
+#718
+The Casino Lounge~
+   The sea of casino guests continues to meander into the casino and towards
+the east, blocking many of those trying to leave.  Bright lights shine from
+every direction, announcing entertainment and luring the guests like flies.  
+The casino lounge continues in all directions.    
+~
+7 0 0
+D0
+~
+~
+0 0 717
+D1
+~
+~
+0 0 -1
+D2
+~
+~
+0 0 719
+D3
+~
+~
+0 0 711
+S
+#719
+New Room~
+You are in an unfinished room.
+~
+7 0 0
+D0
+~
+~
+0 0 718
+D1
+~
+~
+0 0 -1
+D2
+~
+~
+0 0 -1
+D3
+~
+~
+0 0 712
+S
+$~

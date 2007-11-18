@@ -1,0 +1,36 @@
+#87
+&RDallas&n~
+Tori~
+8799 30 0
+M 0 8706 1 8709 0	(Justin)
+M 0 8705 1 8709 0	(Blade)
+M 0 8734 5 8737 0	(a FASSAR-20 Skelebot)
+M 0 8734 5 8734 0	(a FASSAR-20 Skelebot)
+M 0 8749 1 8749 0	(a Grocer)
+M 0 8748 1 8748 0	(Pete)
+M 0 8747 1 8747 0	(Asher)
+M 0 8745 1 8745 0	(a pawn shop owner)
+M 0 8744 1 8744 0	(Al)
+M 0 8750 1 8750 0	(the Owner)
+D 0 8732 4 1 0	(End of the Drain)
+D 0 8733 5 1 0	(Hillcrest Road)
+M 0 8703 15 8720 0	(a zombie)
+M 0 8703 15 8715 0	(a zombie)
+M 0 8703 15 8717 0	(a zombie)
+M 0 8703 15 8725 0	(a zombie)
+M 0 8703 15 8722 0	(a zombie)
+G 1 8703 1000 -1 0	(a strange key)
+D 0 8721 5 2 0	(Beneath The Graveyard)
+D 0 8726 4 2 0	(The Sewerage Pipe)
+D 0 8701 1 1 0	(The Graveyard)
+M 0 8704 1 8701 0	(a dog)
+O 0 8702 1 8702 0	(a gravestone)
+M 0 8701 3 8705 0	(a male worshipper)
+M 0 8702 3 8705 0	(a female worshipper)
+D 0 8705 3 1 0	(The West Wing)
+M 0 8701 3 8704 0	(a male worshipper)
+M 0 8702 3 8704 0	(a female worshipper)
+M 0 8700 1 8706 0	(the priest)
+E 1 8700 10000 17 0	(a crucifix)
+S
+$

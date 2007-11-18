@@ -1,0 +1,176 @@
+#6800
+A key to Damsville~
+a key to Damsville~
+A Gate key to Damsville is sitting here.~
+~
+18 4 16385 0
+0 0 0 0
+1 0 0 0
+#6801
+chest treasure~
+a Treasure chest~
+A Treasure chest is sitting here.~
+~
+15 0 0 0
+100 15 6803 0
+0 0 0 0
+#6802
+key secret~
+a Secret key~
+A Secret key is lying here.~
+~
+18 0 1 0
+0 0 0 0
+1 0 0 0
+#6803
+key treasure~
+a Treasure key~
+A golden treasure key is lying here.~
+~
+18 0 16385 0
+0 0 0 0
+1 0 0 0
+#6804
+chest thief~
+the thief's treasure~
+The Thief's treasure chest.~
+~
+15 0 1 0
+50 15 6805 0
+100 0 0 0
+#6805
+key Master~
+the Master thief's key~
+A key inscribed with "Master Thief" is lying here.~
+~
+18 0 1 0
+0 0 0 0
+0 0 0 0
+#6806
+thief's treasure~
+the Thief's treasure~
+The thief's treasure is lying here.~
+~
+8 0 1 0
+0 0 0 0
+40 150000 0 0
+#6810
+Headache tablets~
+Headache tablets~
+Some Headache tablets are lying here.~
+~
+19 0 1 0
+100 0 0 0
+0 0 0 0
+#6839
+walkman~
+a Sony walkman~
+A walkman is lying here branded with the name "Sony"~
+~
+9 0 1025 0
+3 0 0 0
+1 0 0 40
+A
+5 3
+A
+3 -2
+#6841
+obsidian plate~
+the Obsidian plate~
+A plate made of obsidian is lying here.~
+This plate looks very powerful
+~
+9 1 9 262144
+15 0 0 0
+10 20000 0 39
+A
+19 1
+A
+1 2
+#6843
+obsidian sword~
+the Obsidian Sword of Fire~
+A sword surrounded in flames is lying here.~
+~
+5 262146 8193 4096
+2 7 4 3
+9 10000 0 30
+A
+19 2
+A
+18 2
+#6849
+Frozen potion~
+a Frozen potion~
+A potion surrounded in ice is lying here.~
+~
+10 0 16385 0
+10 36 28 0
+1 10000 0 0
+#6875
+katana Master~
+a rare katana of Master thieves~
+A very powerful looking katana is lying here~
+~
+5 65539 8193 0
+7 6 5 11
+20 500000 0 100
+A
+18 5
+A
+19 2
+#6877
+dark sign~
+a dark sign~
+A dark sign is standing here.~
+The password is "I am a thief and always will be a thief"
+~
+25 0 0 0
+0 0 0 0
+5 0 0 0
+#6878
+Damtrios's hellslayer~
+&RD&Ga&Bm&Mt&cr&wi&oo&gs&m's &RHellslayer&n~
+&RD&Ga&Bm&Mt&cr&wi&oo&gs&m's &RHellslayer&n is lying here pulsating with powerful aura's~
+&RD&Ga&Bm&Mt&cr&wi&oo&gs&m's &RHellslayer&n is a weapon of the gods!
+~
+5 271843651 8193 9175208
+50 600 50 3
+1 2147483647 0 1
+A
+19 100
+A
+19 100
+A
+19 100
+A
+19 100
+A
+19 100
+A
+19 100
+#6888
+The key of fear~
+the key of fear~
+The key of fear is lying here.~
+~
+18 0 1 0
+0 0 0 0
+0 0 0 0
+#6889
+talons wrist~
+&RS&re&Rr&rr&Ra&rt&Re&rd &Dwrist talons&n~
+&RS&re&Rr&rr&Ra&rt&Re&rd &Dwrist talons&n are lying here glinting.~
+   Slasher is the king of all thiefs, he has blood stained clothes and gold
+pooring out his pockets.    
+~
+9 65536 4097 0
+10 0 0 0
+12 0 0 120
+A
+19 4
+A
+18 2
+A
+13 3
+$~

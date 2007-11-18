@@ -1,0 +1,226 @@
+#1000
+Spam~
+some Spam~
+Some spam is hardening on the ground here.~
+   You feel sick, but fuller.    
+~
+19 0 1 0
+1 0 0 1
+1 20 0 0
+A
+13 100
+#1001
+tile~
+the Mosaic Tile~
+A small fragment of colored tile sits on the floor.~
+   It looks like it would fit into that hole in the mosaic right there...  
+~
+18 12 1 0
+0 0 0 0
+0 0 0 0
+#1002
+burrito~
+a burrito~
+A tasty looking burrito lies abandoned here.~
+It smells slightly of motorcycle exhaust.    
+~
+19 0 16385 0
+24 0 0 0
+0 1000 0 0
+A
+19 1
+A
+4 -2
+#1003
+Herugrim~
+Herugrim~
+Theoden's sword Herugrim lies here, gleaming brilliantly.~
+   Wrought in ancient times by the most skillful of hands, the blade Herugrim
+still shines as bright as on the day it was forged.  The emerald-eyes of carved
+horses adorn its golden hilt, scattering light through their green faces.    
+~
+5 1 8193 0
+5 2 8 3
+20 1000 0 30
+A
+4 2
+A
+19 1
+#1004
+whistle~
+a Silver Whistle~
+A shiney Whistle lies here on the ground.~
+~
+9 0 5 0
+8 0 0 0
+10 1000 0 10
+A
+1 1
+A
+4 -1
+#1005
+principal whip~
+the Principal's Whip~
+The Principal's whip is here, looking menacing all by itself.~
+   Your victim screams in pain!    
+~
+5 8739 8193 2048
+2 5 5 2
+5 200000 0 31
+A
+1 1
+A
+19 -2
+#1006
+super locker~
+the Super-Locker~
+The super-locker is here, holding everything it can.~
+   The Super-Locker is now opened!!!    
+~
+15 43 16385 0
+200 1 -1 0
+30 0 0 40
+A
+1 2
+A
+19 3
+A
+13 -100
+#1007
+one ring~
+the one ring~
+The one ring is laying on the ground.~
+   You fade out of existence.    
+~
+9 0 16387 0
+3 0 0 0
+1 1000 0 10
+A
+1 2
+#1008
+sting~
+Sting~
+Sting is lying here.~
+~
+5 2 8193 0
+3 3 3 11
+4 1234 0 15
+A
+2 1
+A
+1 1
+#1009
+old shoe~
+an old shoe~
+An old shoe that could stand for anything stands here uselessly.~
+It looks a little worn, as if Yaschin has used it a little too much.
+~
+11 1 65 0
+0 0 0 0
+5 1000 0 5
+A
+3 2
+A
+4 2
+A
+13 -50
+#1010
+essay prompt~
+an essay prompt~
+An AP English essay prompt lies here, striking terror into the hearts of all who read it.~
+   Without reading the following poem, explain how elements such as diction,
+syntax, tone, imagery, and structure contribute to the author's intent...    
+~
+2 128 1 0
+30 2 0 0
+1 500 0 0
+#1011
+book~
+a book~
+A nasty-looking book lies here.~
+~
+5 786432 8193 8
+2 6 3 9
+2 1423 0 10
+T 1001
+A
+3 1
+A
+4 1
+A
+6 -2
+A
+12 5
+#1023
+Plastic Tray~
+a Plastic food Tray~
+A Plastic food Tray has clattered to the ground here.~
+~
+9 0 513 0
+12 0 0 0
+30 1000 0 15
+A
+5 3
+#1050
+shatterproof ruler~
+a Shatterproof Ruler~
+A trod-upon but unfazed Shatterproof Ruler lies on the ground.~
+   Twelve plastic inches of knifelike unbreakable pain-infliction.  Well, it
+might break if you hit someone hard enough with it.    
+~
+5 0 8193 0
+0 2 4 3
+5 0 0 8
+A
+19 1
+A
+18 1
+#1051
+conductor's maestro's baton~
+the Maestro's Baton~
+A long slender conductor's baton lies on the floor here.~
+   It's a lightweight wooden rod, covered with black lacquer, with a
+pear-shaped bulb at one end.  A strange hypnotic effect is produced when it's
+swung around...    
+~
+3 64 16385 0
+1 5 5 38
+2 1000 0 10
+A
+2 1
+#1060
+trumpet~
+&wThe Shining &YTrumpet &wof &RExtreme &DStupidity&n~
+A trumpet is lying here.~
+Its valves are kind of stuck.
+~
+13 0 16401 0
+0 0 0 0
+5 0 0 0
+A
+3 -50
+A
+4 -50
+#1099
+post it note~
+a Post-it note~
+A Post-it note has been stuck to the front door.~
+
+To whom it may concern:
+
+   The University of Wooga Bonn has been temporarily closed for renovation.  
+We apologize for any inconvenience this may cause.  Please note that no objects
+will be changed without confirmation of their disuse.  Current priorities
+include the Super-Locker and plaid pants.  Please notify Mobius if there are any
+additional concerns.    
+
+Thank you,
+Mobius and the construction crew
+
+P.S. We are now Helm's Deep University.
+
+~
+16 65560 0 0
+0 0 0 0
+0 0 0 0
+$~

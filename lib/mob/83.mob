@@ -1,0 +1,283 @@
+#8304
+elf storage keeper person packager~
+the storage keeper~
+A person keeping watch over the stored objects is standing here.
+~
+The person looks a bit tired.  He doesn't want to be here, but he has to get
+money one way or another.  He wears decent clothing, but his shirt is untucked
+and his pants are a little too big.    
+~
+10 0 0 E
+16 16 5 16d16+256 8d8+4
+19200 256000
+12 12 1
+BareHandAttack: 13
+E
+#8314
+elf slum dweller~
+the slum dweller~
+A slum dweller is here, roaming the slums.
+~
+The dweller wears clothing that are a bit torn up but still look half decent to
+wear.    
+~
+72 0 0 E
+12 17 6 12d12+144 6d6+3
+10800 144000
+12 12 1
+BareHandAttack: 13
+E
+#8315
+elf slum dweller~
+the slum dweller~
+A slum dweller is here, roaming the slums.
+~
+The dweller wears clothing that are a bit torn up but still look half decent to
+wear.    
+~
+72 0 0 E
+12 17 6 12d12+144 6d6+3
+10800 144000
+12 12 2
+BareHandAttack: 13
+E
+#8328
+elf druggy~
+the druggy~
+A druggy is moaping around here.
+~
+The druggy smells like smoke and looks miserable, yet he would sell his soul
+for more drugs.    
+~
+72 0 0 E
+10 18 7 10d10+100 5d5+2
+7500 100000
+12 12 1
+BareHandAttack: 13
+E
+#8329
+elf druggy~
+the druggy~
+A druggy is moaping around here.
+~
+The druggy smells like smoke and looks miserable, yet she would sell her soul
+for more drugs.    
+~
+72 0 0 E
+10 18 7 10d10+100 5d5+2
+7500 100000
+12 12 2
+BareHandAttack: 13
+E
+#8331
+elf prostitute~
+the prostitute~
+A prostitute is standing here, winking at you suggestively.
+~
+The prostitute is a very attractive young woman with next to nothing on.  Her
+top lifts her breasts in a position that make them look larger than they really
+are.  Her legs are next to perfect and her behind is tight.    
+~
+72 0 0 E
+11 18 6 11d11+121 5d5+2
+9075 121000
+12 12 2
+BareHandAttack: 13
+E
+#8332
+elf pimp~
+the pimp~
+A pimp is here, ordering various prostitutes around.
+~
+The pimp wears a thick fur code over his large body.  Sunglasses cover his eyes
+and he persuades you to spend the night with one of his attractive girls.    
+~
+10 0 0 E
+15 17 5 15d15+225 7d7+3
+16875 225000
+12 12 1
+BareHandAttack: 13
+E
+#8335
+elf prostitute~
+the prostitute~
+A prostitute is lying in bed here, ready for you.
+~
+The prostitude is an attractive young woman who wears absolutely nothing.  She
+reveals every part of her body to you in hope that you will spend the night
+with her for a minimal fee.    
+~
+10 0 0 E
+13 17 6 13d13+169 6d6+3
+12675 169000
+9 9 2
+BareHandAttack: 13
+E
+#8344
+elf clerk~
+the clerk~
+The store's clerk is standing here, eager to make a sale.
+~
+The clerk wears a white apron over his neat clothing.  He has a serious look on
+his face like he doesn't want to be here, but he wants the money.    
+~
+10 0 0 E
+15 17 5 15d15+225 7d7+3
+16875 225000
+12 12 1
+BareHandAttack: 13
+E
+#8348
+elf clerk~
+the clerk~
+The store's clerk is standing here, eager to make a sale.
+~
+The clerk wears a white apron over her neat clothing.  She has a serious look
+on her face like she doesn't want to be here, but she wants the money.    
+~
+10 0 0 E
+15 17 5 15d15+225 7d7+3
+16875 225000
+12 12 2
+BareHandAttack: 13
+E
+#8357
+elf citizen~
+the citizen~
+A citizen is here, praying.
+~
+The citizen looks like your average female slum dweller.    
+~
+10 0 0 E
+12 17 6 12d12+144 6d6+3
+10800 144000
+12 12 2
+BareHandAttack: 13
+E
+#8360
+elf citizen~
+the citizen~
+A citizen is here, praying.
+~
+The citizen looks like your average male slum dweller.    
+~
+10 0 0 E
+12 17 6 12d12+144 6d6+3
+10800 144000
+12 12 1
+BareHandAttack: 13
+E
+#8364
+elf druggy~
+the druggy~
+A druggy is moaping around here, smoking various things.
+~
+The druggy looks pale and miserable, but he likes his smokes more than anything
+else in the universe.    
+~
+10 0 0 E
+10 18 7 10d10+100 5d5+2
+7500 100000
+12 12 1
+BareHandAttack: 13
+E
+#8365
+elf druggy~
+the druggy~
+A druggy is moaping around here, smoking various things.
+~
+The druggy looks pale and miserable, but she likes her smokes more than
+anything else in the universe.    
+~
+10 0 0 E
+10 18 7 10d10+100 5d5+2
+7500 100000
+12 12 2
+BareHandAttack: 13
+E
+#8376
+elf priest~
+the priest~
+The priest stands here, trying to conduct mass.
+~
+The priests wears some shaggy white robes over his body that look a bit
+unclean.  This large cap is just as dirty.    
+~
+10 0 0 E
+13 17 6 13d13+169 6d6+3
+12675 169000
+12 12 1
+BareHandAttack: 13
+E
+#8378
+elf terrified garbage man~
+the terrified garbage man~
+A terrified garbage man is standing here, wondering what just happened.
+~
+The garbage man wears a pair of dirty overalls.  He also wears a blue had.  He
+smells unbelievably bad.  He also looks a bit scared from his recent plunge.  
+
+~
+10 0 0 E
+14 17 5 14d14+196 7d7+3
+14700 196000
+12 12 1
+BareHandAttack: 13
+E
+#8379
+elf garbage man~
+the garbage man~
+A garbage man is standing here.
+~
+The garbage man wears a pair of dirty overalls.  He also wears a blue had.  He
+smells unbelievably bad.    
+~
+10 0 0 E
+13 17 6 13d13+169 6d6+3
+12675 169000
+12 12 1
+BareHandAttack: 13
+E
+T 8378
+#8380
+elf garbage man~
+the garbage man~
+A garbage man is standing here.
+~
+The garbage man wears a pair of dirty overalls.  He also wears a blue had.  He
+smells unbelievably bad.    
+~
+10 0 0 E
+14 17 5 14d14+196 7d7+3
+14700 196000
+12 12 1
+BareHandAttack: 13
+E
+#8398
+elf enraged spirit~
+the enraged spirit~
+An enraged spirit is here, ready to end your pitiful existance.
+~
+It is big, transparent, and really, really pissed.    
+~
+258062 12629244 0 E
+66 4 -9 66d66+4356 33d33+16
+326700 4356000
+12 12 0
+BareHandAttack: 12
+E
+T 8398
+#8399
+elf lowly spirit~
+the lowly spirit~
+A lowly spirit is hovering here.
+~
+It's small, transparent, and lowly.    
+~
+256058 12629244 0 E
+15 17 5 15d15+225 7d7+3
+16875 225000
+12 12 0
+BareHandAttack: 12
+E
+$

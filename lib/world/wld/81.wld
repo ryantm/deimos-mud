@@ -1,0 +1,1459 @@
+#8100
+Gates of Calismorn~
+   Born from the remenants of a forgotten people.  The Grand Gates of Calismorn
+are edged in gold, and guarded heavily.  These gates were created by the
+Calises back during the age of darkness.  During this period, the demon hordes
+that ran throughout the mainland forced the Calises to bar their fair city away
+from others.  Master craftsmen and warriors, The Calises became the last known
+people to have survived the Demon War.    
+~
+81 0 1
+D0
+~
+~
+0 0 8101
+D2
+~
+~
+0 0 8153
+S
+#8101
+The Helendrial Path~
+   Bordered by Lanorian trees, the Helendrial Path is beautiful in itself.  
+Created during the Golden Age of the Calismornian history, the Helendrial Path
+is a symbol of the power and prestige of the Calises and their love of nature
+and art.  Only in existence here, they are dearly loved by all the people who
+dwell here.  It is considered a crime punishable to death to defile any of
+these trees.  To the east is the Calismornian Library, a beautiful building
+filled with the history of Calismorn and its people.    
+~
+81 0 1
+D0
+~
+~
+0 0 8103
+D1
+~
+~
+0 0 8102
+D2
+~
+~
+0 0 8100
+S
+#8102
+The Calismornian Library~
+   Surronded by a serene landscape.  The Library is made of glass, with a view
+of the ocean background.  The gentle waves of the ocean upon the shore is
+echoed thoughout the circular room.  Books of lore and history are on large oak
+shelves that surrond the room.  White benches of stone are placed in the center
+of the room, for those who wish to read.  The finest collections and records of
+the Demon War can be found here, but without fail, must be returned.    
+~
+81 0 0
+D3
+~
+~
+0 0 8101
+E
+book books shelves~
+   There are several books in the surronding shelves, however, most are in a
+language not understood by humans.  There are 5 books though, that have some
+form of human translation in them, those include:
+The Battle of Corinth
+The Biography of Xulfer
+The Invasion of Cow City
+The Portal of Garumeth
+The Death of Perris of Lanora
+~
+E
+Battle Corinth~
+   During the Age of Darkness for Corinth, the fall of the free nations led to
+the invasion of demons.  The four guilds, with the representative guildmasters
+and their students, fought together against the demons.  Fireballs and
+lightning bolts fell from the sky and scorched the demons.  In the end however,
+the entrance gates fell to the mass hordes, and the demons rushed into town,
+killing all those that resided in it.  The last of the heroes in Corinth were
+forced in the Citadel, where they held their ground for over a month.  
+Finally, the dark Overlord of the demons came, and killed the remaining
+soldiers in Corinth, except for a small handful that escaped and sought refuge
+elsewhere.  Hundreds of years later, after the survivors of Corinth had long
+passed, descendents of these heroes (and those who have heard their tales),
+came upon the city of Phobos.  It was here that a new group of adventures were
+found, as strong as those in Corinth, and as willing to rid the world of
+demons.  Then came the day that Corinth would be released from the power of the
+demons.  The dark Overlord had kept his spell of power of the Corinthian land,
+and thought that all entrances to the city were forever blocked.  However,
+through the ventures of two groups of heroes, they found a way to free Corinth.
+Traveling deep into the ruins of Ivten and Cow City, the secret of Garumeth and
+the grave of the Adept were discovered, and the portal to Corinth was created.
+It was then that a great battle occured, over 200 demons were destroyed by the
+powerful adventures, and with the aid of Garumeth, eventually the Overlord
+himself was slain.  Although a few demons are left in Corinth, the men of
+Calismorn have agreed to enter Corinth one day and rebuild the city to it's
+former glory.    
+~
+E
+biography Xulfer~
+   Not much is known of Xulfer, except for his escape from demonkind and his
+defense of Calismorn.  It is thought that he still wanders the earth as a
+shadow, but it cannot be confirmed.  The story of Xulfer is quite short, and
+begins with his birth in Afenorse.  It was here that Xufler was kidnapped by a
+demon, and brought back to it's lair.  Here, he was grown and trained as a
+demon, even with the same hatred of humans.  However, his true purpose to the
+demons would come later.  Eventually, he was assigned to return to Afenorse,
+and trick the noble priests there to allow him to study the crystal of
+Afenorse.  It was then that the crystal was stolen by Xulfer, and brought back
+to the demon horde.  It was this act that allowed the demons to open a portal
+that led to the Demon War.  Xulfer, who after the initial destruction of the
+Grand Army, was assigned to go to Calismorn, where he was to befriend the elite
+force that was to destroy the crystal.  Being a great warrior, Xulfer was
+quickly accepted by the Calises, and joined the elite force including Garumeth
+of Ivten, Perris of Lanora, and Eileid of Sanctuary.  When finally reaching the
+crystal, after the sacrifice of Eileid to find it, Xulfer betrayed Perris and
+killed him.  It was here that Garumeth casted a spell on Xulfer, dispelling all
+evil inside of him, and causing his to reveals his human identity.  It was here
+that the legend of Xulfer began.  He destroyed the crystal, and with the power
+given to him by the demons, destroyed the High Commanders of the demon hordes.
+He then returned to Lanora, and began another push to eliminate the demon
+threat.  However, even with the power of the crystal destroyed, the Overlord's
+power was much to great for Xulfer to handle.  The army was once again
+destroyed, and Xulfer was forced to retreat to Calismorn.  As the free nations
+began to fall, and Sanctuary overrun, Calismorn was put into a desperate
+situation.  The demon invasion of Calismorn was well expected, and came
+swiftly.  It was Xulfer, who with all the remainder of his strength, fought
+back the demons, and kept Calismorn safe.  Eventually, the demons gave up
+attempts to reclaim Calismorn, as their defenses were much to great, and Xulfer
+was much too powerful for all demons except the Overlord.  One day though,
+Xulfer disappeared, some thought he went to the grand city of Phobos, but
+others felt that Xulfer was broken, and could no longer fight.    
+~
+E
+Invasion Cow City~
+   Cow City was a somewhat odd city to behold.  It seemed that a number of
+cows, with a magical spell casted upon them, evolved into beings that were
+intelligent enough to create a city.  At first, Cow City was a flourishing
+commercial district, with a goverment based off of Calismorn and also a school
+of culinary art.  However, during the same period of the Corinth destruction,
+Cow City too was placed under siege.  Without any standing army, the cows
+quickly fell.  Allowed to live on in their own city, the cows became a source
+of food for the demons.  Living in a factory off to the left side of the city,
+the demons would keep a watchful eye on the city, periodically coming in the
+night to kidnap a cow, and bring it in for processing.  During the vindication
+of Corinth, Cow City was also freed from the powers of the demons, and are now
+ruled over by the cows.    
+~
+E
+Portal Garumeth~
+   The portal, which occured with the revival of Garumeth during the Corinth
+vindication was created during the Demon War, after the Betrayal.  In a final
+vain attempt to survive, Garumeth the Titan casted a spell the embedded his
+soul into that of a crystal.  When revived, and given the Demon Sphere from the
+grave of his friend, the adept of Fharlanghn he would be able to open a portal
+to Corinth.  His hope was for Corinth to come to Ivten's aid, and to use the
+portal as a method of bringing in mass amounts of troops to defeat the demons
+(it was a long journey from Corinth to Ivten).  Although at that time, Garumeth
+never realized that C possibly fall to the demon horde.  Eventually though,
+Garumeth was revived (though much weaker), and opened the gate to Corinth,
+where the demon hordes were destroyed.    
+~
+E
+Death Perris Lanora~
+   After being killed by the demon possessed Xulfer, Perris death spread across
+the land of Lanora.  Although glad that the demon in Xulfer was destroyed, the
+Lanorians could not survive with their leader.  Disorganized and confused,
+Lanora looked upon Xulfer for guidance.  Leading a final battle, Xulfer's army
+was eventually beaten by the Demon Overlord and it's minions.  Lanora then fell
+to the demons, and was completely destroyed.  It is said that the sword of
+Perris still exists, though it is not known where.  One of the last swords that
+was infused with the magic of Sanctuary, the sword was known to be able to
+destroy any demon.    
+~
+S
+#8103
+The Helendrial Path~
+   Bordered by Lanorian trees, the Helendrial Path is beautiful in itself.  
+Created during the Golden Age of the Calismornian history, the Helendrial Path
+is a symbol of the power and prestige of the Calises and their love of nature
+and art.  Only in existence here, they are dearly loved by all the people who
+dwell here.  It is considered a crime punishable to death to defile any of
+these trees.  To the north is the Grand Hall of Calismorn.  The equivalent of a
+city hall.    
+~
+81 0 1
+D0
+~
+~
+0 0 8104
+D1
+~
+~
+0 0 8107
+D2
+~
+~
+0 0 8101
+D3
+~
+~
+0 0 8124
+S
+#8104
+The Great Hall~
+   Though not purely a hall, the Great Hall is the base of the Calismornian
+goverment.  Here is where the decision to pull out of the Demon War was
+created.  The Calises are a reasonable people, who do not wish to blindly go
+into battle.  Though some of the strongest warrior alive, violence is always
+considered a final option.    
+~
+81 0 0
+D0
+~
+~
+0 0 8131
+D1
+~
+~
+0 0 8106
+D2
+~
+~
+0 0 8103
+D3
+~
+~
+0 0 8105
+S
+#8105
+Military~
+   In times of great need, this section of the Great Hall is called into a
+session.  Never opened since the Demon Wars, some of the greatest men alive sat
+here.  Eileid the Magician, Perris of Lanora, and Garumeth of Ivten all met
+here to discuss the fates of the free worlds.  Though fighting to the best of
+their ability, the free world collapsed to the Demons.  Ivten was placed into
+complete destruction, Corinth was seiged, and Lanora has not been heard of
+since.    
+~
+81 0 0
+D1
+~
+~
+0 0 8104
+S
+#8106
+Political~
+   Created specifically for the business of Calismorn, the delegates of the
+town meet here to discuss events of the day.  Though Calismorn does not ever
+have pressing events, day to day life can be improved through the laws and
+ideas founded in this room.    
+~
+81 0 0
+D3
+~
+~
+0 0 8104
+S
+#8107
+Ivory Circle~
+   Revolving around the entire city, the Ivory Circle is the main road in
+Calismorn.  Specifically, many of the commercial buildings are located here.  
+In Calismorn, there are no shops, for there is no need.  Everyone in the town
+is skilled in the arts, and construct their own goods for personal use.  
+However, local gatherings are created daily to trade different goods.    
+~
+81 0 1
+D1
+~
+~
+0 0 8108
+D3
+~
+~
+0 0 8103
+S
+#8108
+Ivory Circle~
+   Revolving around the entire city, the Ivory Circle is the main road in
+Calismorn.  Specifically, many of the commercial buildings are located here.  
+In Calismorn, there are no shops, for there is no need.  Everyone in the town
+is skilled in the arts, and construct their own goods for personal use.  
+However, local gatherings are created daily to trade different goods.  To the
+south is blacksmith, and to the north is the bathhouse.    
+~
+81 0 1
+D0
+~
+~
+0 0 8126
+D1
+~
+~
+0 0 8109
+D2
+~
+~
+0 0 8125
+D3
+~
+~
+0 0 8107
+S
+#8109
+Ivory Circle~
+   Revolving around the entire city, the Ivory Circle is the main road in
+Calismorn.  Specifically, many of the commercial buildings are located here.  
+In Calismorn, there are no shops, for there is no need.  Everyone in the town
+is skilled in the arts, and construct their own goods for personal use.  
+However, local gatherings are created daily to trade different goods.    
+~
+81 0 1
+D0
+~
+~
+0 0 8110
+D3
+~
+~
+0 0 8108
+S
+#8110
+Ivory Circle~
+   Revolving around the entire city, the Ivory Circle is the main road in
+Calismorn.  Specifically, many of the commercial buildings are located here.  
+In Calismorn, there are no shops, for there is no need.  Everyone in the town
+is skilled in the arts, and construct their own goods for personal use.  
+However, local gatherings are created daily to trade different goods.  To the
+east is the house of Elorin, trainer of Xulfer and oldest citizen in Calismorn.
+  
+~
+81 0 1
+D0
+~
+~
+0 0 8111
+D1
+~
+~
+0 0 8127
+D2
+~
+~
+0 0 8109
+S
+#8111
+Ivory Circle~
+   Revolving around the entire city, the Ivory Circle is the main road in
+Calismorn.  Specifically, many of the commercial buildings are located here.  
+In Calismorn, there are no shops, for there is no need.  Everyone in the town
+is skilled in the arts, and construct their own goods for personal use.  
+However, local gatherings are created daily to trade different goods.  To the
+east in the hunting grounds, where citizens are trained in archery.    
+~
+81 0 1
+D0
+~
+~
+0 0 8112
+D1
+~
+~
+0 0 8128
+D2
+~
+~
+0 0 8110
+S
+#8112
+Ivory Circle~
+   Revolving around the entire city, the Ivory Circle is the main road in
+Calismorn.  Specifically, many of the commercial buildings are located here.  
+In Calismorn, there are no shops, for there is no need.  Everyone in the town
+is skilled in the arts, and construct their own goods for personal use.  
+However, local gatherings are created daily to trade different goods.    
+~
+81 0 1
+D2
+~
+~
+0 0 8111
+D3
+~
+~
+0 0 8113
+S
+#8113
+Ivory Circle~
+   Revolving around the entire city, the Ivory Circle is the main road in
+Calismorn.  Specifically, many of the commercial buildings are located here.  
+In Calismorn, there are no shops, for there is no need.  Everyone in the town
+is skilled in the arts, and construct their own goods for personal use.  
+However, local gatherings are created daily to trade different goods.  To the
+north is the Museum of the Demon Wars.    
+~
+81 0 1
+D0
+~
+~
+0 0 8130
+D1
+~
+~
+0 0 8112
+D3
+~
+~
+0 0 8114
+S
+#8114
+Ivory Circle~
+   Revolving around the entire city, the Ivory Circle is the main road in
+Calismorn.  Specifically, many of the commercial buildings are located here.  
+In Calismorn, there are no shops, for there is no need.  Everyone in the town
+is skilled in the arts, and construct their own goods for personal use.  
+However, local gatherings are created daily to trade different goods.  To the
+south is the Militia Headquarters.    
+~
+81 0 1
+D1
+~
+~
+0 0 8113
+D2
+~
+~
+0 0 8136
+D3
+~
+~
+0 0 8115
+S
+#8115
+Ivory Circle~
+   Revolving around the entire city, the Ivory Circle is the main road in
+Calismorn.  Specifically, many of the commercial buildings are located here.  
+In Calismorn, there are no shops, for there is no need.  Everyone in the town
+is skilled in the arts, and construct their own goods for personal use.  
+However, local gatherings are created daily to trade different goods.  To the
+south is the Woodsman's house.    
+~
+81 0 1
+D1
+~
+~
+0 0 8114
+D2
+~
+~
+0 0 8135
+D3
+~
+~
+0 0 8116
+S
+#8116
+Ivory Circle~
+   Revolving around the entire city, the Ivory Circle is the main road in
+Calismorn.  Specifically, many of the commercial buildings are located here.  
+In Calismorn, there are no shops, for there is no need.  Everyone in the town
+is skilled in the arts, and construct their own goods for personal use.  
+However, local gatherings are created daily to trade different goods.  To the
+north is the Common Meeting House.    
+~
+81 0 1
+D0
+~
+~
+0 0 8137
+D1
+~
+~
+0 0 8115
+D3
+~
+~
+0 0 8117
+S
+#8117
+Ivory Circle~
+   Revolving around the entire city, the Ivory Circle is the main road in
+Calismorn.  Specifically, many of the commercial buildings are located here.  
+In Calismorn, there are no shops, for there is no need.  Everyone in the town
+is skilled in the arts, and construct their own goods for personal use.  
+However, local gatherings are created daily to trade different goods.    
+~
+81 0 1
+D1
+~
+~
+0 0 8116
+D2
+~
+~
+0 0 8140
+D3
+~
+~
+0 0 8118
+S
+#8118
+Ivory Circle~
+   Revolving around the entire city, the Ivory Circle is the main road in
+Calismorn.  Specifically, many of the commercial buildings are located here.  
+In Calismorn, there are no shops, for there is no need.  Everyone in the town
+is skilled in the arts, and construct their own goods for personal use.  
+However, local gatherings are created daily to trade different goods.    
+~
+81 0 1
+D0
+~
+~
+0 0 8146
+D1
+~
+~
+0 0 8117
+D3
+~
+~
+0 0 8119
+S
+#8119
+Ivory Circle~
+   Revolving around the entire city, the Ivory Circle is the main road in
+Calismorn.  Specifically, many of the commercial buildings are located here.  
+In Calismorn, there are no shops, for there is no need.  Everyone in the town
+is skilled in the arts, and construct their own goods for personal use.  
+However, local gatherings are created daily to trade different goods.    
+~
+81 0 1
+D1
+~
+~
+0 0 8118
+D2
+~
+~
+0 0 8120
+S
+#8120
+Ivory Circle~
+   Revolving around the entire city, the Ivory Circle is the main road in
+Calismorn.  Specifically, many of the commercial buildings are located here.  
+In Calismorn, there are no shops, for there is no need.  Everyone in the town
+is skilled in the arts, and construct their own goods for personal use.  
+However, local gatherings are created daily to trade different goods.    
+~
+81 0 1
+D0
+~
+~
+0 0 8119
+D2
+~
+~
+0 0 8121
+D3
+~
+~
+0 0 8147
+S
+#8121
+Ivory Circle~
+   Revolving around the entire city, the Ivory Circle is the main road in
+Calismorn.  Specifically, many of the commercial buildings are located here.  
+In Calismorn, there are no shops, for there is no need.  Everyone in the town
+is skilled in the arts, and construct their own goods for personal use.  
+However, local gatherings are created daily to trade different goods.    
+~
+81 0 1
+D0
+~
+~
+0 0 8120
+D2
+~
+~
+0 0 8122
+D3
+~
+~
+0 0 8148
+S
+#8122
+Ivory Circle~
+   Revolving around the entire city, the Ivory Circle is the main road in
+Calismorn.  Specifically, many of the commercial buildings are located here.  
+In Calismorn, there are no shops, for there is no need.  Everyone in the town
+is skilled in the arts, and construct their own goods for personal use.  
+However, local gatherings are created daily to trade different goods.    
+~
+81 0 1
+D0
+~
+~
+0 0 8121
+D1
+~
+~
+0 0 8123
+S
+#8123
+Ivory Circle~
+   Revolving around the entire city, the Ivory Circle is the main road in
+Calismorn.  Specifically, many of the commercial buildings are located here.  
+In Calismorn, there are no shops, for there is no need.  Everyone in the town
+is skilled in the arts, and construct their own goods for personal use.  
+However, local gatherings are created daily to trade different goods.    
+~
+81 0 1
+D0
+~
+~
+0 0 8150
+D1
+~
+~
+0 0 8124
+D3
+~
+~
+0 0 8122
+S
+#8124
+Ivory Circle~
+   Revolving around the entire city, the Ivory Circle is the main road in
+Calismorn.  Specifically, many of the commercial buildings are located here.  
+In Calismorn, there are no shops, for there is no need.  Everyone in the town
+is skilled in the arts, and construct their own goods for personal use.  
+However, local gatherings are created daily to trade different goods.    
+~
+81 0 1
+D1
+~
+~
+0 0 8103
+D2
+~
+~
+0 0 8151
+D3
+~
+~
+0 0 8123
+S
+#8125
+Blacksmith~
+   The only building in the city considered to be somewhat of a shop.  The
+Blacksmith forges weapons and armor only to those who need it.  Though there is
+no currency in Calismorn and everything is free, the blacksmith will only
+provide items for those who can prove the need it.  Also, in tradition with the
+Calimornian isolationist goverment, the blacksmith is not allowed to forge
+items for foreigners, although they are welcome in the town.    
+~
+81 h 0
+D0
+~
+~
+0 0 8108
+S
+#8126
+Calismornian Bathhouse~
+   Purely for recreational purposes, the bathhouse is a perfect spot for
+Calises to come rest after a hard day of work.  The water here is infused with
+magic as a gift from the archmage of Sanctuary, a no longer existant land since
+the Demon War.  The water therefore, is always hot, and always clean.  As a
+side affect, the water is also given a slightly pink hue.  The bath itself is a
+large square, with three stairs in the actual bath for those who wish to swim
+rather than sit.  Perfect for those who which to relaxe, the bathhouse is one
+of most essential buildings in all of Calismorn.    
+~
+81 q 0
+D2
+~
+~
+0 0 8108
+S
+#8127
+House of Elorin~
+   This is the house of Elorin, elder of Calismorn, surivivor of Ivten.  He is
+from a shadow race, one that has not been seen or heard from for thousands of
+years.  Although he looks human, Elorin has been known to be one of the most
+powerful beings on the planet.  With the speed and strength gained from the
+Calises, and the ancient sword techniques of Ivten, he is a formidable
+opponent.  However, along with all that dwell in Calismorn, he is gentle at
+heart, and one of the most well-respected people in Calismorn, in addition to
+being the oldest citizen alive.    
+~
+81 0 0
+D3
+~
+~
+0 0 8110
+S
+#8128
+Entrance to the Hunting Grounds~
+   Designed during the Demon Wars as a source of recreation and training.  The
+bowmen of Calismorn were positioned here during the war to practice aim against
+fast moving targets.  From here, there were sent to assist the main forces of
+Ivten and Lanora against the Demon Hordes.  Though no longer used for intensive
+war training, all students must come here for archery lessons as part of the
+required courses in school.    
+~
+81 0 0
+D1
+~
+~
+0 0 8129
+D3
+~
+~
+0 0 8111
+S
+#8129
+Hunting Grounds~
+   Soft, green grass covers this fenced in section known as the Hunting
+Grounds.  However, no animals are shot in these premises.  Through magic given
+by those at Sanctuary, fantastic beasts are summoned here to simulate Demons.
+Though the point of this was to train archers in the Demon War, the targets are
+just as fast and powerful as the Demons were back during the war.    
+~
+81 0 0
+D3
+~
+~
+0 0 8128
+S
+#8130
+Museum of the Demon War~
+   The only museum in existance that contains information of the war, this
+museum consists of three chambers, each depicting a stage in the Demon War, in
+order from the left to right.  The first chamber is that of the beginning of
+the demon invasion, including the Titan's Peace, which failed and began the
+war.  The second chamber is dedicated to the war itself, and the journey of 4
+armies of the world.  Intermixed were knights of Lanora, Titans of Ivten, mages
+of Sanctuary, and warriors of Calismorn.  The final chamber is that of the end,
+the destruction of the free world, and the last glimmer of hope that was left.
+  
+~
+81 0 0
+D0
+~
+~
+0 0 8133
+D1
+~
+~
+0 0 8134
+D2
+~
+~
+0 0 8113
+D3
+~
+~
+0 0 8132
+S
+#8131
+The Chamber of Existence~
+   A large white fountain sits in the middle of this room.  An angel is perched
+on top, spurting water into the bowl below.  A vine creeps around the entire
+room, and has budded small, red flowers.  Without a paved floor.  The ground is
+dirt, with a small rock path to the throne.  The rich scent of Doriaser herbs
+and the yellow and blue flowers help accent the features of the room.  The
+ceiling is vaulted, and lined in a leaf-shaped pattern that matches that of the
+Lanorian trees.  However, the silver throne, embedded with jewels, is by far
+the most colorful object in the room.    
+~
+81 0 0
+D2
+~
+~
+0 0 8104
+E
+throne~
+   Made of silver, and lines with gold.  The throne was designed for one
+purpose, if the goverment were to fail, and a king was to take his place as
+head of Calismorn.  However, it has not been used for years, and has been used
+as a decorational piece for the main part.    
+~
+S
+#8132
+The Beginning...~
+   Ontop of a single pedestal in the middle of the room sits a large book,
+containing the history of the Demon Wars.  Specifically, this volume is
+dedicated to the beginning of war, and all those who participated in it.  The
+chapters are split into a Introduction, and then each specific kingdom and
+their role.    
+~
+81 0 0
+D1
+~
+~
+0 0 8130
+E
+Calismorn~
+   Calismorn naturally was isolated from the world, yet cared deeply for those
+in danger.  When the demons first arrived, Calismorn paid little heed to them.
+It wasn't until the war began that Calismorn began a campaign to fight back the
+forces of evil.  From Afenorse came a great warrior by the name of Xulfer, who
+studied under Elorin, and fought bravely in battle.  Though Xulfer disappeared
+soon after the war ended, his legend grew with those who lived on.    
+
+*The journey of Xulfer can be found in the library
+~
+E
+Afenorse~
+   The role of Afenorse was short, and little history is known of them.  
+Deeply spiritual people, the scribes at Afenorse studied artifacts of old
+legends, one being a crystal, that led to the portal of the demons.  The
+crystal was taken one day, but they never realized it's true power yet, and so
+they considered it quite little of consenquence.  The main researcher of this
+crystal was Xulfer, who during the war was sent to Calismorn to join their
+army, and became one of the most famous legends in history.    
+~
+E
+Sanctuary~
+   Originally allied with Corinth, which did not participate in the war,
+Sanctuary was the home of the archmages.  When the demons first arrived, the
+mages realized that no magic at that time of theirs were powerful enough to
+stop the demons if they decided to attack, but yet they trusted the demons to a
+small extent.  Up until the actual war, the amount of deaths caused by the
+demons were less than that of most common beasts in the woods.  They were then
+considered to be relatively safe, and no instance besides in Ivten were any
+troubles found with demons.  However, the archmages would play a pinnacle role
+in the war when it arrived, and would fight to the bitter end.    
+~
+E
+Ivten~
+   When the demon's first arrived in Ivten, random killings of foreigners
+traveling abroad were blamed on the monsters.  However, the Titan's did attempt
+to create a peaceful treaty with the demons, in exchange for safe living within
+their boundries and the sum of 500 million coins a year.  Being rich and
+powerful, the Titan's Peace was then created, and served both sides quite well.
+However, the demons tricked the Titan's, using the money to gather in forces
+and weapons, creating a grand army of demons, consisting of millions of
+soldiers.  Thus was the era known as the Betrayal, which was also the beginning
+of the Demon War itself.    
+~
+E
+Lanora~
+   In the beginning, when the demons first arrived, Lanora was perhaps the most
+cautious of the kingdoms.  They refused to allow the demons within their
+boundaries, but never commited violence against them.  Lanora then, remained
+relatively safe from the Demon Horde, in spite of being the closest to their
+gathering point.  It was them too, when the war began, led the main forces
+against the demons, driving them quite far back, but falling at the end at the
+demise of Perris, their main general and leader.    
+~
+E
+Introduction~
+   The beginning of the Demon Wars begins with the coming of the demons.  The
+first recorded knowledge of the demons was found in a diary in Afenorse.  A tax
+collector began having visions one night.  In his visions were sights of demons
+waging war on the mainland.  Death reigned from their claws, as they ripped
+through armies one by one.  He did not know at that time how true those visions
+would become.  One day, he was found dead, decapitated, as if he was shredded
+by some horrible monster, perhaps a demon.  It was then his brother, Arais, who
+took it upon himself to find the truth about the disappearence of his brother.
+He too began having visions, however not in his sleep.  He saw visions in the
+reflections of water and mirrors, where entire courses of the future were
+revealed to him as if he was there in flesh.  Recording these strange
+happenings, he beheld a child, seemingly from Afenorse, being kidnapped by a
+demon and taken back to it's lair.  However, he was found dead in the same
+fashion as his brother a week later, his body was found floating in a lake,
+with his head washed upon the bank.  As with Arais's vision, a child was taken
+one day from Afenorse, and was raised with the malice of demonkind, becoming
+imbittered against humans.  Stealing the crystal of Afenorse, he opened a
+portal from the mainland to the demon world, where thousands of demons began
+swarming the land.  How the original demons arrived to begin with, will remain
+a mystery, but definetly had to do with the powers given by the crystal.  At
+first, the demons did not immedietly attack, and even began peaceful
+communication with the Titan's in Ivten (however, only after killing several of
+their townspeople).  It was though then, that demons had rational thoughts, and
+could possibly co-exist with man.  However, it was never realized their
+strength, which would be marked with The Betrayal, which is further recorded in
+the Ivten ruins.    
+~
+E
+book~
+The chapters are as follows:
+Introduction
+Ivten
+Lanora
+Sanctuary
+Afenorse
+Calismorn
+~
+S
+#8133
+The Demon War~
+   Upon a pedestal, sits a large blue book with gold edges.  This is the record
+of the Demon War, and all those who participated in it.  It is split into three
+chapter, each depicting a seperate time of the war, and the battles of the free
+nations against the horde of demons.    
+~
+81 0 0
+D2
+~
+~
+0 0 8130
+E
+fall nations~
+   With Xulfer as leader, the demon forces were pushed back.  His knowledge of
+demonkind proved invaluable when fighting the monsters.  However, in one final
+push, Xulfer's army was destroyed by the Demon Overlord, and Xulfer himself was
+forced back to Calismorn.  From here, came the fall of nations.  Lanora was the
+first to be destroyed, falling to the demon horde without Perris as a leader.
+The Ivten Titans were trapped in their castle, and Garumeth casted a spell to
+bind himself to a crystal and to protect the castle from destruction.  
+Sanctuary was soon ravaged, but is rumored to still be in existence, altough
+none has dared to make the travel to the land.  As for Calismorn, they shut
+themselves out to the world, with Xulfer remaining there.  As the demon forces
+began to arrive to Calismorn, Xulfer, with a stained reputation, fought the
+demons back with the same fury taught to him by the demons themselves.  It was
+with this, that Calismorn forever remained safe, and Xulfer was recorded in
+history as a legend, a demon who's heart led to the salvation of Calismorn.  
+
+~
+E
+fight survival~
+   The Grand Army of Lanora was one never remotely created again.  Containing
+the greatest fighting of all time, they marched confidently into battle.  The
+Demon Overlord however, had other plans for the army.  As long as he had the
+crystal of Afenorse, his army would be infintely strong, since the world of the
+demons had over 300 billion in numbers.  As the portal opened days before the
+army arrived, the demon hordes massed in much greater numbers than the army.  
+The Grand Army then, on the Day of Blood, fought a battle for two straight
+weeks.  Putting on a strong fight, the army was eventually forced to retreat,
+with only 3,000 men left.  Luckily, the crystal power at that point had greatly
+diminished from the millions of demons gated in during the battle.  Thus, the
+forces were sent home to discuss alternatives.  Afenorse had already been taken
+over by the demons, and Ivten was still fighting against the demon army there.
+It was then decided that the only method of destroying the demons would be to
+destroy the crystal in which it came from.  It was with that, a small group of
+elite forces were created to penetrate the Demon Horde, and to destroy the
+crystal.  There were 13 groups created, each coming in from a different side of
+the horde, with the only goal of destroying the portal.  Eileid, Xulfer,
+Garumeth, and Perris were thus sent as one group to the demon horde.  When the
+reached their destination, they came upon an opening into a large cave, where
+the crystal's power could be felt.  However, they understood that they couldn't
+get much further without detection.  Luckily, at this point, the other 12
+groups had arrived, and scattered the demon forces out of the cave, distracting
+the demons long enough for the group to reach the bottom.  Here, a singular
+door was found, and the crystal's power was clearly evident from inside.  The
+portal was found in a seperate room, so the crystal itself must have been
+safely stored away.  When they opened the door, they were found starting at a
+solid piece of cement.  The crystal was embedded in it, and was not easily
+retrieved.  It was then that Eileid sacrificed himself, and casted a final
+spell to destroy the stone walls that trapped the crystal.  However, before
+retrieving the crystal, it was Perris that was killed.  Not by any demon, but
+by Xulfer, who revealed himself loyal to the demons, being the child taken in
+Afenorse, and raised by the demons.  Garumeth, with little power left, and
+without the skill to kill Xulfer, casted a spell instead.  "Dispel Evil" was a
+spell learned by every Titan, but was only effective in destroying creatures of
+pure evil, such as demons.  However, Xulfer was neither human nor demon, and
+it's affects on him were not evident.  However, the spell caused much pain to
+Xulfer, knocking him to the ground.  It was with this that the evil and spite
+in Xulfer was destroyed, leaving left the will of a human and the power of a
+demon.  With this, Xulfer destroyed the crystal, and led a battle that would
+stop the demons in their advances.    
+~
+E
+gathering nations~
+   The beginning of the war was also the most chaotic.  The Betrayal of Ivten
+led to a chain events of battles through the of world.  Ivten was busy fighting
+their own battles against the demon hordes in their fair city, while demon
+forces were attacking other kingdoms in the continent.  Calismorn, being an
+island as also Sanctuary, led the planning from afar.  The representatives of
+the kingdoms gathered in Calismorn when the battle first began escalating.  
+Already, hundreds of armies had fallen to the demons.  The High Commanders of
+the demons were known to kill over a thousand men individually before being
+injured.  Only the strength of Titans were matched for the demons, but there
+were too many of them.  Meeting in Calismorn included the following: Xulfer of
+Calismorn, Garumeth of Ivten, Perris of Lanora, and Eileid from Sanctuary.  
+Discussing plans to defeat the demons, Eileid brought over the mages of
+Sanctuary to the research facility of Calismorn, to discover methods of
+defeating the demons.  Up to then, conventional weapons did little damage to
+demons, after weeks of hundreds of studying mages, did Eileid himself discover
+a spell to infuse into weapons, that would cause massive damage to the demons.
+Though proven to work well in the beginning, the demons' incredible speed and
+reflexes still overruled the new weapons.  Unable to do more in a research
+standpoint, the mages joined the gathering of forces in Lanora.  The army
+contained that of soldiers from every nation at the time, and were millions in
+numbers.  They marched into the heart of the Demon Horde, in an attempt to
+finally destroy the demons.    
+~
+E
+book~
+   This is the book of the Demon War, thus having three chapters:
+The Gathering of Armies
+The Fight for Survival
+The Fall of Nations
+~
+S
+#8134
+The End~
+   The small black book sits upon the pedestal here.  It has clearly not been
+finished, for the end of the demons has not yet occured.  The book will only be
+finished as history goes on.  Until then, it will remain in it's current state.
+The book is seperated as of so far, into two main chapters
+~
+81 0 0
+D3
+~
+~
+0 0 8130
+E
+rise era~
+   The rise of a new era was issued with the creation of Phobos, with it's
+benevolent goddess.  With powerful heroes from across the land, including
+veterens of Corinth, the demon hordes are destined for destruction.  It is with
+this that this chapter is not finished, for the rest of history has not occured
+yet.  The demon hordes have already been weakened by the rise of heroes, but it
+is not known in the future was is held in place.  Corinth has been vindicated,
+with only a small group of demons left, soon it will be rebuilt by the men of
+Calismorn.  Garumeth has also reawakened.  Soon, the tides will turn, and the
+demon horde will be no more.    
+~
+E
+Plague Demonkind~
+   After the destruction of the mainland, and with Calismorn having strong
+enough defense to prevent invasion, the demons spread to other continents.  
+With Ivten, Afenorse, and Lanora under their full control, the demon hordes
+moved into yet another city.  This city was known as Corinth, and was home to
+great heroes of the land.  Even though eventually claiming Corinth, the demon
+hordes were nearly destroyed by the strength of the Corinthians.  After taken
+over several other smaller cities, the demon horde, no longer having a method
+to replenish their numbers efficiently, lost much of thier power outside of the
+continent they already controlled.  It was with that Corinth was sealed off
+from the world, linked only to Ivten through the last spell of Garumeth.    
+~
+E
+book~
+   This is the history of the free world, after the Demon War, and the fall of
+the free nations.    
+The chapters are as follows:
+The Plague of Demonkind
+The Rise of a New Era
+~
+S
+#8135
+The Woodsmen~
+   The woodsman of Calismorn are perhaps the best the entire world.  Living
+among the forests their entire lives, the Calises are all trained when it comes
+to creating wood products.  Perhaps their biggest assignment was the creating
+of the Calismornian walls during the Demon Wars.  Entire forests were taken
+down in order to create the wall, but in the end, the sacrifice saved the lives
+of hundreds of Calises.  The woodsman of Calismorn are also the caretakers of
+the more sacred trees, such as a Lanorian trees on the Helendrial Path.    
+~
+81 0 0
+D0
+~
+~
+0 0 8115
+S
+#8136
+Militia Headquarters~
+   Since the end of the Demon Wars, the need for a mass army was no longer
+needed.  Even though all citizens in Calismorn are trained to fight, a local
+militia is always standing in case of emergency situations.  They are highly
+trained in martial arts, archery, fencing, and many other deadly arts.  Due to
+their effectivness, there are nearly no crimes left committed in Calismorn, in
+fear of the strength of the militia.    
+~
+81 0 0
+D0
+~
+~
+0 0 8114
+S
+#8137
+The Common House~
+   This is the main gathering place in Calismorn.  All Calises come here every
+day to trade different goods or skills with each other.  With no currency
+basis, all Calises work together to develop the community which they live in.
+During the War, this area was used as a storage house for weapons and armor
+that were to be used by the warriors, but was converted back right afterwards.
+To the right is the kitchen, and the to the left is the Helendrial Garden.    
+~
+81 0 0
+D1
+~
+~
+0 0 8138
+D2
+~
+~
+0 0 8116
+D3
+~
+~
+0 0 8139
+S
+#8138
+The Kitchen~
+   Although not famous for their cooking, the Calises are very particular about
+the food they eat.  All being strict vegetarians, Calises find that keeping a
+garden inside the Common House was effective when it came to preparing the
+nightly meal for all the citizens.  The kitchens consists of a bakery oven, a
+fireplace, and a large wooden table in the center of the room.  A large
+menubook sits ontop a counter to the right, and contains different recipes that
+have been devised over time.    
+~
+81 0 0
+D3
+~
+~
+0 0 8137
+E
+oven~
+   The Oven is made of solid steel, with a seperate heating tray for wood to be
+placed on, and lit on fire to heat the oven.    
+~
+E
+fireplace~
+   The fireplace is used for making soups and stews, a large cauldron hangs
+over it, which is heated for dinner.    
+~
+E
+menubook~
+   Inside the menubooks contains hundres of recipes...  However not in the
+human tongue.    
+~
+S
+#8139
+Helendrial Garden~
+   All citizens of Calismorn contribute to this garden, growing different
+vegetables and fruits in this prime location.  The garden itself is used to
+create food for the Calises, who are all vegetarians.  Although not having a
+very large space, the Helendrial Garden constantly grows a magnificent harvest,
+which is able to keep a large enough supply to lead the Calises through the
+year.    
+~
+81 0 0
+D1
+~
+~
+0 0 8137
+S
+#8140
+Calismornian School of Research~
+   Used during the great Demon Wars.  This is where the top wizards and mages
+from Sanctuary came to study spells that would be effective against the demon
+hordes.  This is also where Eileid, creator of Perris's mighty sword, first
+discovered a way of infusing weapons with magic that would allow them to cut
+through the flesh of the demons.  It is over 5 stories high, and contains all
+the secrets of the magical world, including lost spells from the age of Corinth
+of Ivten.    
+~
+81 0 0
+D0
+~
+~
+0 0 8117
+D2
+~
+~
+0 0 8141
+S
+#8141
+First Level - Defensive Spells~
+   Calismorn is the city where manashield was first developed, oddly enough
+created to defend against termites The first floor is thus dedicated to the
+research and development of all defensive skills.  There are three long tables
+that extend from one side of the room to the other, with six large chandiliers
+hanging from above.  On the shelves to the side contain thousands of notes
+created by different mages and wizards while attempting to develope a new
+spell.  Plants are placed on each table, and are used to experiment the spells
+on.    
+~
+81 0 0
+D0
+~
+~
+0 0 8140
+D4
+~
+~
+0 0 8142
+S
+#8142
+Floor Two - Offensive Skills~
+   As with the first floor, the research area on this floor consists of two
+large table stemming from one side of the room to the other.  Offensive skills,
+which usually require more small adjustments than long hours of research, are
+considered when of the less important areas of spell-making.  In the back, a
+large blackboard has been erected in the back.  Scribbles of different wizards
+can always be found here, giving other researchers ideas on energy
+requirements, and power levels of different spells.    
+~
+81 0 0
+D0
+~
+~
+0 0 8143
+D4
+~
+~
+0 0 8144
+D5
+~
+~
+0 0 8141
+S
+#8143
+Practice Room~
+   Though the walls have been long burned from spells gone awry, this room is
+for the offensive spell-researchers to practice out their creations.  Targets,
+such as those used in the hunting grounds in the east part of the town, are
+created here to simulate actual fighting environments.  Because of many
+problems in the past, the entire back wall has been removed, and has instead
+been replaced with a magical field that absorbs the energy from the spells.  
+
+~
+81 0 0
+D2
+~
+~
+0 0 8142
+S
+#8144
+Floor Three - Modifier Spells~
+   For those who want the strongest weapons and armor, this is the best place
+to get them.  The researchers on this floor, such as the legendary Eileid of
+Sanctuary, can change the properties of metal, making weapons of grand power.
+Perhaps the hardest field to work in, there is one large round table here, with
+several chairs surronding it.  The rest of the room is littered with books and
+notes, all pertaining to modifier spells that could potentionally change the
+way battles are fought.    
+~
+81 0 0
+D0
+~
+~
+0 0 8145
+D5
+~
+~
+0 0 8142
+S
+#8145
+Storage Room~
+   This room is filled with hundreds of weak weapons and armor, although most
+are not in usable condition, they can still be used in the experiments of
+modifier spells.  Items such as small daggers, longswords, breastplates, helms,
+and gauntlets can all be found in this room.    
+~
+81 0 0
+D2
+~
+~
+0 0 8144
+S
+#8146
+Statue of Lanora~
+   Long friends of the Calises before the Demon Wars, this monument is
+dedicated to their dear departed friends.  The hope of finding Lanora been
+given up long ago, for demons destroyed all of the kingdom.  Here stands then,
+a large statue crafted from titanium and gold metal.  It depictes a Lanorian
+warrior in battle position, with the flag in his left hand and a shortsword in
+the other.  Indeed the Lanorians were great fighters, and are sorely missed by
+the Calises, who have always regreted losing their friends to the enemy.    
+~
+81 0 0
+D2
+~
+~
+0 0 8118
+S
+#8147
+Tavern~
+   This is the local Calismornian tavern.  Every single night, flocks of
+Calises come here to relax and to have a drink.  Even though everything is free
+in this city, you are only allowed a certain limit of alcohol before you are
+allowed to be given any more.  A bar extends the northern part of the bar, with
+stools and wooden tables scattered around the room.  Old wine bottles can be
+seen stored away under a small counter behind the main bar area, probably only
+to be opened during a special occasion.    
+~
+81 0 0
+D1
+~
+~
+0 0 8120
+S
+#8148
+The Church~
+   Although the Calises have no official religion, the church is universally
+known for all people to come and gather.  Small sermons and religious groups
+can be formed if wanted, but the church is Calismorn is to celebrate all
+spirituality, regardless of the beliefs.  A small room is connected to the
+south, which can be reserved by special religious groups to hold private
+meetings.    
+~
+81 0 0
+D1
+~
+~
+0 0 8121
+D2
+~
+~
+0 0 8149
+S
+#8149
+Reservation Room~
+   Small religious groups can be held in this room, away from the main church.
+There is only one Church in Calismorn, and it cannot appeal to all religions at
+the same time.  Thus, this room is simple, with several chairs placed in a
+circular formation.  The head of the group can sit in the middle, and conduct
+the religious meeting from there.    
+~
+81 0 0
+D0
+~
+~
+0 0 8148
+S
+#8150
+Training Center~
+   The Calises are known for their amazing fighting skills, being one of the
+premier fighters during the Demon War.  They are the fast, strong, and skilled
+in all swordplay.  Above all that however, they have all developed a keen sense
+of aim, and are almost all proficient with the bow.  However, this is the main
+center where the majority of students are taught.  Although not too strong yet,
+the young warriors being trained here are on the way to becoming some of best
+warriors the world has ever seen.    
+~
+81 0 0
+D2
+~
+~
+0 0 8123
+S
+#8151
+Hospital~
+   The one sad part about Calises are that they are always having accidents.  
+Whether is from the researchers who hurt themselves from spells, are the
+citizens who hurt themselves training in the deadly arts.  Luckily, there is a
+Calismornian hospital, which has facilities to facilitate the injuries of all
+in Calismorn.  A healer is present at almost all time, and will cure any
+Calises who has hurt themselves.    
+~
+81 0 0
+D0
+~
+~
+0 0 8124
+D3
+~
+~
+0 0 8152
+S
+#8152
+Recovery Room~
+   Consisting of 5 rows of six beds each, the recovery room is designed to take
+in large amount of injured persons, such as during the Demon War.  Although
+there are no longer that magnitude of injuries, and ample amount of sick and
+wounded are still placed inside this room.    
+~
+81 0 0
+D1
+~
+~
+0 0 8151
+S
+#8153
+Outside the Gates~
+   The Gates of Calismorn were forged from gold and steel, and lead into the
+Helendrial Path.  During the Demon Wars, the entire city was protected with a
+thick wall, with these gates being the only entrance and exit from the city.  
+Two guard towers flank the sides of the gates, showing signs of age and wear
+from countless battles.  To the south is the Demiacas Sea, travelled on by few
+ever since the isolation of the city.    
+~
+81 0 0
+D0
+~
+~
+0 0 8100
+D2
+~
+~
+0 0 8154
+S
+#8154
+Wooden Path~
+   A road paved with the wood of Calismorn, old and greying from the ages of
+batter and war.  The demons traveled down this road many years ago, destroying
+it with their clawed feet.  Ever since, nobody has come to claim responsibility
+of renovating this street, for no Calise has ever left the walls of the city to
+explore the world beyond.    
+~
+81 0 0
+D0
+~
+~
+0 0 8153
+D2
+~
+~
+0 0 8155
+S
+#8155
+Wooden Path~
+   A road paved with the wood of Calismorn, old and greying from the ages of
+batter and war.  The demons traveled down this road many years ago, destroying
+it with their clawed feet.  Ever since, nobody has come to claim responsibility
+of renovating this street, for no Calise has ever left the walls of the city to
+explore the world beyond.    
+~
+81 0 0
+D0
+~
+~
+0 0 8154
+D2
+~
+~
+0 0 8156
+S
+#8156
+Demiacas Dockyard~
+   Although now shattered and broken, the dockyards used to be a center for
+commerce in Calismorn.  Before the war, these docks would be filled from ships
+from Lanora and Ivten, but no longer.  Now, all that remains are pieces of wood
+strewn about and the remains of a formerly grand navy.    
+~
+81 0 0
+D0
+~
+~
+0 0 8155
+S
+#8157
+1~
+You are in an unfinished room.
+~
+81 0 0
+S
+#8158
+1~
+You are in an unfinished room.
+~
+81 0 0
+S
+#8159
+1~
+You are in an unfinished room.
+~
+81 0 0
+S
+#8160
+1~
+You are in an unfinished room.
+~
+81 0 0
+S
+$~

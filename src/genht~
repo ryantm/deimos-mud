@@ -1,0 +1,15 @@
+#!/bin/bash
+
+# Script to generate updated HTML from source code.
+
+OUTPUT_DIR="/home/mulligan/public_html/quarkmud/dm"
+
+echo Running gtags.
+gtags
+echo Running htags.
+htags
+echo Moving HTML files to $OUTPUT_DIR.
+rm -r ${OUTPUT_DIR}/*
+mv HTML/* $OUTPUT_DIR
+rmdir HTML
+echo Done.

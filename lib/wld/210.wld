@@ -1,0 +1,580 @@
+#21000
+Entrance to a Cemetery~
+   There is black fence that leads all around this property line.  This is the
+entrance to a nice cemetery where you can see the bright green grass that is
+well kept.  There are flowers planted and blooming; the smell of these flowers
+is fresh.  There are also signs next to them that say Do Not Pick.  There is
+another sign on the black fence that have the rules and regulations.    
+~
+210 0 0
+D1
+~
+~
+0 0 1534
+D3
+~
+~
+0 0 21001
+S
+#21001
+An Old Paved Road~
+   This is a long paved road that follows around the lake.  There are many
+cracks and potholes in this road.  There are plants that follow around the edge
+of the road; it looks as if someone tends to them daily.  The road is very old
+and you can smell the tar as the sun heats it up.  In some places there is dirt
+showing within the cracks.    
+~
+210 0 0
+D0
+~
+~
+0 0 21002
+D1
+~
+~
+0 0 21000
+D2
+~
+~
+0 0 21003
+D3
+~
+~
+0 0 21004
+S
+#21002
+North Parking Lot~
+   This is a parking lot where you see very little parking spaces left open and
+there are a lot of nice new cars.  The lines on the parking lot are starting to
+fade as you notice this is an old cemetery.  The parking spots left have signs
+in front of them, either handicapped or thirty minute parking.    
+~
+210 0 0
+D2
+~
+~
+0 0 21001
+S
+#21003
+South Parking Lot~
+   This is a parking lot where there are very few cars in here.  The lines are
+faded and the cement is cracked; there are many potholes.  This parking lot
+needs to be repaved and is in very bad shape.  There are a few cars and they
+are old and in as bad shape as the parking lot itself.  This parking lot has a
+bad smell to it.    
+~
+210 0 0
+D0
+~
+~
+0 0 21001
+S
+#21004
+Old Paved Intersection~
+   Here is an intersection where the paved roads meet.  This doesnt look any
+better than the rest of the road.  There are many potholes and the roads are
+cracked all over.  The lake has given this place a good smell as you notice
+this road takes you around the whole lake.  There are a lot of people walking
+around to mourn for the people that have died.    
+~
+210 0 0
+D0
+~
+~
+0 0 21005
+D1
+~
+~
+0 0 21001
+D2
+~
+~
+0 0 21029
+S
+#21005
+An Old Paved Road~
+   This is a long paved road that follows around the lake.  There are many
+cracks and potholes in this road.  There are plants that follow around the edge
+of the road; it looks as if someone tends to them daily.  The road is very old
+and you can smell the tar as the sun heats it up.  In some places there is dirt
+showing within the cracks.    
+~
+210 0 0
+D0
+~
+~
+0 0 21006
+D2
+~
+~
+0 0 21004
+S
+#21006
+An Old Paved Road~
+   This is a long paved road that follows around the lake.  There are many
+cracks and potholes in this road.  There are plants that follow around the edge
+of the road; it looks as if someone tends to them daily.  The road is very old
+and you can smell the tar as the sun heats it up.  In some places there is dirt
+showing within the cracks.    
+~
+210 0 0
+D0
+~
+~
+0 0 21007
+D2
+~
+~
+0 0 21005
+S
+#21007
+Northeast Corner~
+   This is the northeast corner of the cemetery.  All you can see to the north
+are grave stones.  There is a path to the east where people have walked on it
+so much and made their own path.  There are very few trees, but there are
+bushes near the road with flowers on them.  The flowers on this bush are purple
+which makes them stand out.  The lake can be seen very clearly from here, with
+geese sitting in the center and near the edge.    
+~
+210 0 0
+D1
+~
+~
+0 0 21008
+D2
+~
+~
+0 0 21006
+D3
+~
+~
+0 0 21010
+S
+#21008
+A Small Path~
+   This is a small one person path that leads between the grave stones.  Looks
+as if it has been walked on by many of people to visit there loved ones that
+have died.  The grave stones are all in alignment; the words are starting to
+rub off these grave stones.  There are flowers on most of the grave
+stones--some dead, some alive.    
+~
+210 0 0
+D1
+~
+~
+0 0 21009
+D3
+~
+~
+0 0 21007
+S
+#21009
+A Small Path~
+   This is a small one person path that leads between the grave stones.  Looks
+as if it has been walked on by many of people to visit there loved ones that
+have died.  The grave stones are all in alignment; the words are starting to
+rub off these grave stones.  There are flowers on most of the grave
+stones--some dead, some alive.    
+~
+210 0 0
+D3
+~
+~
+0 0 21008
+S
+#21010
+An Old Paved Road~
+   This is a long paved road that follows around the lake.  There are many
+cracks and potholes in this road.  There are plants that follow around the edge
+of the road; it looks as if someone tends to them daily.  The road is very old
+and you can smell the tar as the sun heats it up.  In some places there is dirt
+showing within the cracks.    
+~
+210 0 0
+D1
+~
+~
+0 0 21007
+D3
+~
+~
+0 0 21011
+S
+#21011
+An Old Paved Road~
+   This is a long paved road that follows around the lake.  There are many
+cracks and potholes in this road.  There are plants that follow around the edge
+of the road; it looks as if someone tends to them daily.  The road is very old
+and you can smell the tar as the sun heats it up.  In some places there is dirt
+showing within the cracks.    
+~
+210 0 0
+D1
+~
+~
+0 0 21010
+D2
+~
+~
+0 0 21012
+D3
+~
+~
+0 0 21013
+S
+#21012
+A Hut~
+   This is a small one-room shack.  There is a bed, and books scattered all
+over the place.  The walls seem to have posters and writing on them; it looks
+as if they are scriptures written on the wall.  There is a candle light all
+around the outside walls where you can see a giant cross is hanging from the
+wall.  Suddenly, as you stand engrossed in your surroundings, the door behind
+you closes with a click.    
+~
+210 cfs 0
+S
+#21013
+An Old Paved Road~
+   This is a long paved road that follows around the lake.  There are many
+cracks and potholes in this road.  There are plants that follow around the edge
+of the road; it looks as if someone tends to them daily.  The road is very old
+and you can smell the tar as the sun heats it up.  In some places there is dirt
+showing within the cracks.    
+~
+210 0 0
+D1
+~
+~
+0 0 21011
+D3
+~
+~
+0 0 21014
+S
+#21014
+An Old Paved Road~
+   This is a long paved road that follows around the lake.  There are many
+cracks and potholes in this road.  There are plants that follow around the edge
+of the road; it looks as if someone tends to them daily.  The road is very old
+and you can smell the tar as the sun heats it up.  In some places there is dirt
+showing within the cracks.    
+~
+210 0 0
+D1
+~
+~
+0 0 21013
+D3
+~
+~
+0 0 21015
+S
+#21015
+Northwest Corner~
+   This is the northwest corner of the cemetery; you can see that the road is
+ending.  There is a small path to the north where people have made their own
+path.  There are few trees, which makes all the grave stones stand out.  There
+are many little chunks of cement coming up over here.  The road doesnt look
+safe to drive on for too much longer.  There is garbage lying all over the
+ground which is giving off a bad odor.    
+~
+210 0 0
+D0
+~
+~
+0 0 21016
+D1
+~
+~
+0 0 21014
+D2
+~
+~
+0 0 21018
+S
+#21016
+A Small Path~
+   This is a small one person path that leads between the grave stones.  Looks
+as if it has been walked on by many of people to visit there loved ones that
+have died.  The grave stones are all in alignment; the words are starting to
+rub off these grave stones.  There are flowers on most of the grave
+stones--some dead, some alive.    
+~
+210 0 0
+D0
+~
+~
+0 0 21017
+D2
+~
+~
+0 0 21015
+S
+#21017
+A Small Path~
+   This is a small one person path that leads between the grave stones.  Looks
+as if it has been walked on by many of people to visit there loved ones that
+have died.  The grave stones are all in alignment; the words are starting to
+rub off these grave stones.  There are flowers on most of the grave
+stones--some dead, some alive.    
+~
+210 0 0
+D2
+~
+~
+0 0 21016
+S
+#21018
+An Old Paved Road~
+   This is a long paved road that follows around the lake.  There are many
+cracks and potholes in this road.  There are plants that follow around the edge
+of the road; it looks as if someone tends to them daily.  The road is very old
+and you can smell the tar as the sun heats it up.  In some places there is dirt
+showing within the cracks.    
+~
+210 0 0
+D0
+~
+~
+0 0 21015
+D2
+~
+~
+0 0 21019
+S
+#21019
+An Old Paved Road~
+   This is a long paved road that follows around the lake.  There are many
+cracks and potholes in this road.  There are plants that follow around the edge
+of the road; it looks as if someone tends to them daily.  The road is very old
+and you can smell the tar as the sun heats it up.  In some places there is dirt
+showing within the cracks.    
+~
+210 0 0
+D0
+~
+~
+0 0 21018
+D2
+~
+~
+0 0 21020
+S
+#21020
+An Old Paved Road~
+   This is a long paved road that follows around the lake.  There are many
+cracks and potholes in this road.  There are plants that follow around the edge
+of the road; it looks as if someone tends to them daily.  The road is very old
+and you can smell the tar as the sun heats it up.  In some places there is dirt
+showing within the cracks.    
+~
+210 0 0
+D0
+~
+~
+0 0 21019
+D2
+~
+~
+0 0 21021
+S
+#21021
+An Old Paved Road~
+   This is a long paved road that follows around the lake.  There are many
+cracks and potholes in this road.  There are plants that follow around the edge
+of the road; it looks as if someone tends to them daily.  The road is very old
+and you can smell the tar as the sun heats it up.  In some places there is dirt
+showing within the cracks.    
+~
+210 0 0
+D0
+~
+~
+0 0 21020
+D2
+~
+~
+0 0 21022
+S
+#21022
+Southwest Corner~
+   This is the southwest corner of the road.  There are gravestones all to the
+right.  There is a little path to the south people have made themselves by
+walking to visit their families gravestones.  There are a lot of cracks from
+where people have driven on this road for a long time.  This cemetery has been
+around for many years.    
+~
+210 0 0
+D0
+~
+~
+0 0 21021
+D1
+~
+~
+0 0 21025
+D2
+~
+~
+0 0 21023
+S
+#21023
+A Small Path~
+   You are in an unfinished room.  This is a small one person path that leads
+between the grave stones.  Looks as if it has been walked on by many of people
+to visit there loved ones that have died.  The grave stones are all in
+alignment; the words are starting to rub off these grave stones.  There are
+flowers on most of the grave stones--some dead, some alive.    
+~
+210 0 0
+D0
+~
+~
+0 0 21022
+D2
+~
+~
+0 0 21024
+S
+#21024
+A Small Path~
+   You are in an unfinished room.  This is a small one person path that leads
+between the grave stones.  Looks as if it has been walked on by many of people
+to visit there loved ones that have died.  The grave stones are all in
+alignment; the words are starting to rub off these grave stones.  There are
+flowers on most of the grave stones--some dead, some alive.    
+~
+210 0 0
+D0
+~
+~
+0 0 21023
+S
+#21025
+An Old Paved Road~
+   This is a long paved road that follows around the lake.  There are many
+cracks and potholes in this road.  There are plants that follow around the edge
+of the road; it looks as if someone tends to them daily.  The road is very old
+and you can smell the tar as the sun heats it up.  In some places there is dirt
+showing within the cracks.    
+~
+210 0 0
+D1
+~
+~
+0 0 21026
+D3
+~
+~
+0 0 21022
+S
+#21026
+An Old Paved Road~
+   This is a long paved road that follows around the lake.  There are many
+cracks and potholes in this road.  There are plants that follow around the edge
+of the road; it looks as if someone tends to them daily.  The road is very old
+and you can smell the tar as the sun heats it up.  In some places there is dirt
+showing within the cracks.    
+~
+210 0 0
+D1
+~
+~
+0 0 21027
+D3
+~
+~
+0 0 21025
+S
+#21027
+An Old Paved Road~
+   This is a long paved road that follows around the lake.  There are many
+cracks and potholes in this road.  There are plants that follow around the edge
+of the road; it looks as if someone tends to them daily.  The road is very old
+and you can smell the tar as the sun heats it up.  In some places there is dirt
+showing within the cracks.    
+~
+210 0 0
+D1
+~
+~
+0 0 21028
+D3
+~
+~
+0 0 21026
+S
+#21028
+An Old Paved Road~
+   This is a long paved road that follows around the lake.  There are many
+cracks and potholes in this road.  There are plants that follow around the edge
+of the road; it looks as if someone tends to them daily.  The road is very old
+and you can smell the tar as the sun heats it up.  In some places there is dirt
+showing within the cracks.    
+~
+210 0 0
+D1
+~
+~
+0 0 21029
+D3
+~
+~
+0 0 21027
+S
+#21029
+Southeast Corner~
+   This is the southeast corner of the road.  There are gravestones all to the
+right.  There is a one person path to the east which people have made
+themselves to visit their families gravestones.  There are trees that are very
+big to the south that have bright green leaves on them; the branches are very
+high.  The trees have names carved in the bark where there is a rope around
+these trees, with a sign that says Do Not Touch.    
+~
+210 0 0
+D0
+~
+~
+0 0 21004
+D1
+~
+~
+0 0 21030
+D3
+~
+~
+0 0 21028
+S
+#21030
+A Small Path~
+   This is a small one person path that leads between the grave stones.  Looks
+as if it has been walked on by many of people to visit there loved ones that
+have died.  The grave stones are all in alignment; the words are starting to
+rub off these grave stones.  There are flowers on most of the grave
+stones--some dead, some alive.    
+~
+210 0 0
+D1
+~
+~
+0 0 21031
+D3
+~
+~
+0 0 21029
+S
+#21031
+A Small Path~
+   This is a small one person path that leads between the grave stones.  Looks
+as if it has been walked on by many of people to visit there loved ones that
+have died.  The grave stones are all in alignment; the words are starting to
+rub off these grave stones.  There are flowers on most of the grave
+stones--some dead, some alive.    
+~
+210 0 0
+D3
+~
+~
+0 0 21030
+S
+$~

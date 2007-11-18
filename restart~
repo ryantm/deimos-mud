@@ -1,0 +1,7 @@
+#!/bin/bash
+echo "Killing DeimosMUD"
+kill `ps auxw | grep -v "grep" | grep "circle" | awk '{print $2}'`
+sleep 0.5
+echo "Restarting DeimosMUD"
+cd /home/mulligan/dm/
+./bin/circle 6666 & >> syslog 2>&1

@@ -1,0 +1,107 @@
+TUTORIAL
+---------------------------------------------------
+Help NEWBIE_TUTOIAL
+Help REDIT_TUTORIAL
+---------------------------------------------------
+#
+REDIT_TUTORIAL
+1. Goto a Room in zone 20(aka 2000) that has the title 'New Room'.
+2. Turn on roomflags, nohassle, holylight, syslog complete, color complete
+3. Type redit
+4. Type 1
+5. You are now editing the room Name so type, "This is Where the Room Title Goes"
+6. Type 2
+7. You are now editing the room description. Type /h for a list of commands
+8. Type /c to clear the buffer before you type any description.
+9. Type "This Is the Room Description, Where all the important room information
+goes."
+10. Type @ to exit the description editor.
+11. Type 3
+12. This is where you define different qualities of the room. A room can have more 
+then one quality.
+13. Most of the qualities are self-explanatory. A list of what each does is in the 
+appendix.
+14. Type 0 to exit to the main menu.
+15. Type 4
+16. This is the command that decides how much Movement points it takes a player to 
+cross this room.
+17. Inside requires the lowest amount of movement and mountains requires the 
+highest.
+18. Type 1 to switch the type to CITY.
+19. Type 5
+20. This is the exit menu for the northward direction.
+21. Type 1
+22. This is where you enter the room number of the room you want this room to take
+you to when you go north.
+23. Type the number of the room you are editing. If you don't remember scroll up 
+until you see -- Room number: ???? in place of the question marks you will see 4 
+numbers, type in those four numbers.
+24. Type 2
+25. This is the section where you type an exit description, type /c then "This is ;what you see if you type look north"
+26. Type @ to exit the description editor.
+27. Type 3
+28. This is where you would type keywords if you wanted to make a door to the room 
+to the north.
+29. Type "door"
+30. You will learn about number 4 in the OEDIT second.
+31. Type 5
+32. It will give you a list of door options, Type 1
+33. You have now created a exit to the north that leads back to the room you are in 
+and has a door named "door"
+34. Typing 6 would cause your door to be deleted.
+35. Type 0 to exit the door editor.
+36. Commands 5-A are all door editors for all the different exits of a room.;
+37. Type B
+38. This command is used for extra descriptions, whatever you type in the keyword 
+area will be what a person would have to type to see whatever is in the 
+description area.
+39. Example: keyword picture, person types look picture, person sees whatever is in 
+the description field.
+40. Type 0 to exit extra descriptions.
+41. You have now learnt the Basics of Redit goto room 2000 to see a sample of what 
+your room should look like.
+#
+RUBRIC
+Theme
+ Is Theme Evident?
+            /2
+ Is Theme expressed throughout zone?
+            /4
+Creativity/Originality
+ Does the zone have a creative twist?
+            /4
+ Does this zone stand out against other zones? (Bonus)
+            +2
+Description
+ Are all descriptions over 3 lines?
+            /4
+ Do the descriptions illustrate well and don't merely 
+ 'tell' the reader what to think?      
+            /4
+ Do descriptions relate to overall theme?
+            /2
+Setup/Transition
+ Is the zone setup in a logical manor?
+            /2
+ Do transitions between scenery in the zone make sense?
+            /2
+Navigation
+ Does the navigation of this zone go with its theme?
+ (easy = easy nav)
+            /4
+ Are there any mazes or specific twists that go along with
+ the theme? (Bonus)
+           +2 
+Crap o Meter
+ Does this zone contain useless crap?
+          -4
+ Does it look like the maker spent actual TIME on the zone?
+          /4
+Comments?
+
+Total
+          /32
+#
+$
+
+

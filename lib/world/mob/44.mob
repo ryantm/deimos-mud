@@ -1,0 +1,64 @@
+#4400
+ragged skeleton~
+a ragged Skeleton~
+The long dead reamains of a noble soldier wander about.
+~
+This must once have been a soldier.  The scraps of uniform and armor that 
+still cling to its decaying form have mocked him.  It would seem
+that these pieces were left to remind some deep part of this mindless
+animation that its resistance was in vain.  The darkness will take and the
+light will give.  As you look upon this soldier you can almost hear
+something speaking in your mind.
+(whispering) kill me, kill me, kill me, kill me
+~
+188456 32 0 E
+60 -15 4 50d50+2500 12d12+20
+150000 600000
+12 12 0
+BareHandAttack: 4
+E
+#4401
+Undead Ghoul~
+a hideous ghoul shambles along~
+Bones creak break and shatter as this walking corpses continues its unending path
+~
+As you look upon this wretched creation, it bursts into sobs.  It is hard
+to understand if it is sad or yearning.  Dressed in scraps of armor and uniform
+it looks to have been a soldier at some time in the past.  Now it can only seek
+life to feed upon.
+~
+172072 2560 -350 E
+66 -2 7 22d22+1000 22d22+22
+125000 300000
+12 12 0
+BareHandAttack: 8
+E
+#4403
+undead spectre~
+a spectre of shade and darkness~
+A spectre of shade and darkness sends your flesh crawling
+~
+Raging in the light this shade seems to meld with the shadows.  Screams echo
+from inside your head every time light touches it form.  It pulsates with a
+fire that seems to absorb the heat from the room.  
+~
+385036 281018496 -500 E
+80 5 8 40d40+10000 15d15+15
+1000000 1000000
+12 12 0
+BareHandAttack: 12
+E
+#4498
+shop keeper shopkeeper man~
+a shopkeeper hides here.~
+A timid shopkeeper hides behind the counter.
+~
+This timid man looks as if he has been robbed and beaten numerous
+times.  He looks at you as he decides if he should stay or run.
+~
+2547736 8388736 500 E
+60 -30 6 50d50+0 50d50+50
+10000 10000
+12 12 1
+E
+$

@@ -1,0 +1,164 @@
+#24000
+boots zan'lir~
+&DBoots of the &RZan'Lir&n~
+A pair of black skinned boot glisten sickly.~
+The boots, which can be made only by the work of Siss'rith craftsmanship
+and arcane arts, come from the terrible Zan'lir, the beast which burrows
+under the subterranean Zan'lir Jungle.  It is said that the boots are very
+rare, but are instilled with great power given by the magic from the
+Siss'rith battlemages.
+~
+9 262144 65 0
+1 0 0 0
+5 1000000 0 50
+A
+19 2
+A
+18 3
+#24001
+beads war~
+&rB&Re&ra&Rd&rs &Dof &RW&ra&Rr&n~
+A string of beads that stink of death lie here turning the ground crimson.~
+The War Beads of the people of Zan'lir are mystic beyond compare.  Worn
+by the warchief, it is said they are all that keep the Siss'rith from
+destroying the humans.  The beads echantment is said to be brought from
+the spells of the villages shaman.
+~
+9 8388610 4097 32
+1 0 0 0
+0 0 0 60
+A
+12 -35
+A
+13 35
+A
+18 3
+A
+19 3
+#24002
+fountain stone~
+&CA Bubbling Fountain&n~
+&BAn fountain of odd stone is &Cbubbling&B merrily here.&n~
+The fountain is a bit worn, showing it has been used in the village
+for quite sometime.  Perhaps it was a gift from their God, or a feat
+of the peoples own enginuity.  Whatever the case, the fountain seems to
+have an endless supply of pure clean water.
+~
+23 0 0 0
+9999999 9999999 15 0
+10000004 0 0 0
+#24003
+bookshelf shelf siss'rith~
+&yA tattered shelf&n~
+&yA tattered shelf is standing against a wall, it looks to hold a few books.&n~
+Within the shelf there are two books.  One that says "Of the Siss'rith
+and Zan'lir".  The other looks to be a journal of the commander.  So
+a diary and a history book?  Perhaps some interesting reading.
+~
+12 0 0 0
+0 0 0 0
+0 0 0 0
+E
+DAY120~
+A man came to us recently.  Not one from the trees, although he said
+that he had visited those humands as well.  This man was named Marushin,
+and said he came from "outside".  Perhaps he is another god, although
+he claimed not to be.  He said out world is one within another, larger
+world.  He gave me a book, that shows what happened between us and our
+human enemies.  It begins to come clearer that the humans are not our
+enemy, and if there is a larger world outside our own, which I still
+doubt, then our fighting is meaningless.  Of course this could be a trick
+from the humans to stop our attacks, which have been all but futile against
+their defenses.  We have stopped our work with Zan'lir and it attacked
+us. We drove the beast back, but cannot hope to destroy it either.  There
+is much to ponder about over the recent events.  I hope I can lead my
+people to their rightful destiny, and not one of damnantion.
+~
+E
+DAY37~
+The camp is now set after much work, and the destruction of some of the
+jungle.  I did not wish to take such hast action, but we needed to be
+settled with a defensive position incase the humans decided to attack.
+I doubt they would as they seem well enough holed up in their trees, but
+you can never be sure with them, they are quite cunning.  Zan'lir asked
+for my presence recently, and I went to it.  It tried to pry into my
+mind yet I resist.  This seemed to upset the creature, and he cast me
+out of his cavern.  My men have not been feeling as strong, but morale
+is still strong, as we seem to be more in control of ourselves than we
+have been in many years.  I do not doubt the power Zan'lir but I am
+beginning to doubt his motives.  It feels he is using us more to get
+to Ranfir, than to give us dominion over the humans...
+
+Perhaps my doubt it unjustified.  We lived with them in peace long enough
+and now it is time to show them who the true rulers of our world is.
+~
+E
+DAY1~
+I Frysthak, after leading a revolt againt our corrupted leader, am now
+taking control of our forces.  Its odd, this leader seemed to last the
+shortest amount of time, compared to our last leaders, before being completly
+consumed by the Zan'lir.  I must try my strongest to resist the forces
+with which the Zan'lir works against us, while still using its power
+as much as is possible.  I will not turn out like our last leader and
+become one who feeds off the blood of our own kind.  The war camp must
+be lain down again, in what I hope to be a permenant location.  Hopefully
+we shall soon be settled and can look again to dominion over the humans.
+~
+E
+journal~
+The journal seems to belong to Frysthak, current leader of the Siss'rith.
+There are a few pages of marked pages, apparently the ones of importance.
+These are marked DAY1 DAY37 DAY120
+~
+E
+book history~
+This is a condensed account of the recent history of the Siss'rith, and
+the Zan'lir.  It is said about 300 years ago the Siss'rith and the humans
+of the jungle lived in harmony.  They lived under the guidance of the
+God known as Ranfir.  There was commerce between the races, and prosperity
+for both.  Life within the mountain was seemingly perfect.  Yet there
+came one from under the earth known as Zan'lir.  It whispered lies to
+the Siss'rith and ensnared them with promises of power and dominion over
+the humans.  To show its power, it gave skin from one of its spawn to
+the Siss'rith to make boots of power with.  With this gift, the Siss'rith
+could no longer deny the dark whisperings inside them, and began to lay
+seige to the human encampment.  Ranfir, fearing for its people, lifted
+them to the skys and gave them new abode amongst the higest trees within
+the jungle.  The Siss'rith continue to lay seige to the humans, but
+the humans hope that one day they can co-exist with the Siss'rith, if
+only the Zan'lir and all its kind could be removed from the world, perhaps
+then things would return to as they were.
+-Marushin of Narshe
+~
+#24004
+stone key large~
+&DA Large Stone Key&n~
+A large heavy key made of stone is lying on the earth.~
+This is the key for the gates of the human village.  Much like the gates
+this key looks almost indestructible.  It would be wise to keep this
+safe.
+~
+18 0 1 0
+0 0 0 0
+20 0 0 0
+#24005
+small red key~
+&RA small red key&n~
+A Red key, made of ruby is lying here.~
+Nothing.
+~
+18 0 1 0
+0 0 0 0
+1 0 0 0
+E
+key~
+
+&DThere is small writing on the shaft of the key, it reads as follows:
+
+&RThis key opens the way to blood and pain.
+Look for the dark shrine in Rulek to find
+the tool of destruction.
+The Great Heirophant Maz&n
+
+~
+$~

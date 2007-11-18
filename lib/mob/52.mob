@@ -1,0 +1,36 @@
+#5200
+town guard Bartlowe~
+Bartlowe, the guard,~
+Bartlowe, the village guard, stands here peering through the frosted window.
+~
+   Bartlowe is a strong looking middle aged man.  For years he and his family
+have protected their village from unwanted visitors.  He has grown tolerable to
+the boring job of watching over the town, and takes pride in his position.  
+Nobody will get past him as long as he is alive.    
+~
+154 32904 0 E
+70 6 4 30d30+9900 10d10+14
+367500 4900000
+12 12 1
+BareHandAttack: 3
+E
+#5201
+Elfang wizard grand~
+Elfang~
+The grand wizard Elfang sits here, writing a scroll.
+~
+   Elfang is the descendent of a long line of wizards who at one time helped to
+protect Alurane from outside harm.  Since the end of the wars and the long time
+of peace, Elfang has used his magical knowledge to pursue the art of scroll
+writing, and has managed to do quite well in his buisness.  He wears a clean
+grey robe with a white cloak, fastened to him by a golden brooch.  A mighty
+staff leans next to him, ready at all times.    
+~
+1300506 1081512 0 E
+150 -10 10 30d30+45100 21d13+30
+1687500 10000000
+12 12 1
+BareHandAttack: 5
+E
+T 1800
+$

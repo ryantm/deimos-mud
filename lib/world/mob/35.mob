@@ -1,0 +1,318 @@
+#3501
+the librarian~
+the librarian~
+The "all-knowing" librarian stares at your from here.
+~
+The librarian is an old woman who wants nothing more to aid you in your search
+for knowledge, but she has a sense of mistrust in her old bones.  Her dark
+dress is a tad poofy below the waste and is not a very revealing piece of
+clothing.  Her wait hair, wrinkled skin, and weak voice prove her old age.    
+~
+2136 0 0 E
+45 9 -3 45d45+2025 22d22+11
+151875 2025000
+12 12 2
+E
+#3504
+a young Jedi Padawan~
+the young Jedi Padawan~
+A young Jedi Padawan is standing here.
+~
+The young Jedi padawan has a small robe over his tannish suit and brown belt.
+5 A small training lightsaber can be seen hanging on his waist.    
+~
+24 0 0 E
+10 18 7 10d10+100 5d5+2
+7500 100000
+12 12 1
+BareHandAttack: 3
+E
+#3506
+a civilian~
+the civilian~
+A normal civilian is standing here.
+~
+He looks like a normal person simply roaming around for something he needs.  
+
+~
+76 0 0 E
+20 15 4 20d20+400 10d10+5
+30000 400000
+12 12 1
+BareHandAttack: 13
+E
+#3508
+a civilian~
+the civilian~
+A normal civilian is standing here.
+~
+She looks like a normal person simply roaming around for something she needs.
+  
+~
+76 0 0 E
+20 15 4 20d20+400 10d10+5
+30000 400000
+12 12 2
+BareHandAttack: 4
+E
+#3520
+Queen Amidala~
+Queen Amidala~
+Queen Amidala is sitting on the couch here.
+~
+The queen is has her brown hair up in a headdress.  Her silky red dress covers
+almost her entire body.    
+~
+10 0 0 E
+30 13 1 30d30+900 15d15+7
+67500 900000
+12 12 2
+BareHandAttack: 8
+E
+#3522
+a royal servent~
+the royal servent~
+One of the queen's royal servents are standing here.
+~
+The servent wears a thin orange-red cloak over her body.  Only her face and
+hands are visible.    
+~
+10 0 0 E
+20 15 4 20d20+400 10d10+5
+30000 400000
+12 12 2
+BareHandAttack: 13
+E
+#3524
+Jar Jar Binks~
+Jar Jar Binks~
+Jar Jar Binks stands tall here.
+~
+Jar Jar is a tall Gungan with a loud voice.  He wears a light brown vest over
+his tan shirt.    
+~
+10 0 0 E
+28 13 1 28d28+784 14d14+7
+58800 784000
+12 12 1
+BareHandAttack: 7
+E
+#3526
+Senator Palpatine~
+Senator Palpatine~
+Senator Palpatine is standing here.
+~
+Palpatine is an older man who wears a blue and purple cloak over his body.  
+His slightly wrinkled face shows innocence, but there's something about Senator
+Palpatine...    
+~
+131082 0 0 E
+35 12 0 35d35+1225 17d17+8
+91875 1225000
+12 12 1
+BareHandAttack: 13
+E
+#3540
+an electrician~
+the electrician~
+An electrician is standing here, inspecting various electrical devices.
+~
+The electrician is in a dirty pair of overalls.  She wears dirty white gloves
+on her hands and black boots on her feet.    
+~
+10 0 0 E
+15 17 5 15d15+225 7d7+3
+16875 225000
+12 12 2
+BareHandAttack: 7
+E
+#3542
+a communicator~
+the communicator~
+A man is sitting here, sending various messages to the outside world.
+~
+He wears a red suit and a dark blue tie.  Black pants cover his legs.    
+~
+10 0 0 E
+15 17 5 15d15+225 7d7+3
+16875 225000
+10 10 1
+BareHandAttack: 13
+E
+#3554
+the Jedi Knight~
+the Jedi Knight~
+A Jedi Knight is standing here.
+~
+The Jedi Knight's face is hidden under a brown hood which is connected to a
+large, brown cloak.  He also wears an off-white shirt and pair of pants under
+the cloak.  You can barely make out a small hilt attached to a belt.    
+~
+162056 4156 0 E
+30 13 1 30d30+900 15d15+7
+67500 900000
+12 12 1
+BareHandAttack: 3
+E
+#3555
+Barris Offee~
+Barris Offee~
+Barris Offee, the Jedi Padiwan, is standing here.
+~
+Barris is a young woman with the typical padiwan clothing.    
+~
+158234 4156 0 E
+29 13 1 29d29+841 14d14+7
+63075 841000
+12 12 2
+BareHandAttack: 3
+E
+#3556
+Anakin Skywalker~
+Anakin Skywalker~
+Anakin Skywalker boldly stands in this spot.
+~
+Anakin Skywalker is a handsome young man with a small braid sitting on the his
+left shoulder.  He wears a black vest over a very dark brown tunic.  From the
+brown belt on his waste lies his lightsaber.    
+~
+158234 4284 0 E
+85 3 7 30d30+14550 12d12+17
+541875 7225000
+12 12 1
+BareHandAttack: 3
+E
+#3558
+Shaak Ti~
+Shaak Ti~
+Shaak Ti, the Jedi Master, is standing here.
+~
+Shaak Ti is a woman of highly refined Jedi skills.  She has a red face with two
+large striped tenticles running over her chest and one larger one from the back
+of her head.  She also has two smaller tenticle-like horns on top of her head.
+Her large, brown dress cover her lower body while her dark brown top covers her
+upper body.    
+~
+157978 4156 0 E
+31 13 0 31d31+961 15d15+7
+72075 961000
+12 12 2
+BareHandAttack: 3
+E
+#3560
+Nikto~
+Nikto~
+Nikto, the Jedi Knight, stands here.
+~
+Nikto has a flat brown face and a white hood over his head.  The hood is part
+of a white cloak that covers his other clothing.  His gray pants and brown
+boots cover his legs.  His large brown hand is ready to grab his lightsaber if
+any trouble were to confront him.    
+~
+157978 4156 0 E
+33 12 0 33d33+1089 16d16+8
+81675 1089000
+12 12 1
+E
+#3561
+Kit Fisto~
+Kit Fisto~
+Jedi Master Kit Fisto tenaciously stands here.
+~
+Kit Fisto is a very green Jedi Master with a tenticles coming from the back of
+his head and two large, black eyes.  Brown bands strap his long, green
+tenticles into pairs.  He has a light brown tunic with brown pants and boots.
+His lightsaber hangs from the brown belt upon his waste.  Kit Fisto has a grin
+glued to his face.    
+~
+157978 4156 0 E
+36 11 0 36d36+1296 18d18+9
+97200 1296000
+12 12 1
+BareHandAttack: 3
+E
+#3563
+Luminara Unduli~
+Luminara Unduli~
+Luminara Unduli, the Jedi Master, stands here.
+~
+Luminara is a green-faced woman with blue eyes that punctuate her amgular face.
+And intricate, diamond-shaped tatoos decorate her chin.  Cloaked in dark
+clothes, she is noted for her tranquil beauty and most disciplined presense.  
+
+~
+157978 4156 0 E
+32 12 0 32d32+1024 16d16+8
+76800 1024000
+12 12 2
+E
+#3566
+Jedi III~
+Jedi III~
+Jedi III stands here, watching over his zone.
+~
+Jedi is a tall young man with brown hair.  He wears a black cloak over his
+black clothing.  His hood creates a shadow, hiding his face.    
+~
+256030 45244 0 E
+66 4 -9 66d66+4356 33d33+16
+326700 4356000
+12 12 1
+BareHandAttack: 3
+E
+#3577
+a young Jedi Padawan~
+the young Jedi Padawan~
+A young Padawan is standing here, training with a small lightsaber.
+~
+The young Padawan is a small child with a thin braid upon her left shoulder.  
+She wears tan clothing and brown boots.    
+~
+14 0 0 E
+10 18 7 10d10+100 5d5+2
+7500 100000
+12 12 2
+BareHandAttack: 3
+E
+#3579
+a young Jedi Padawan~
+the young Jedi Padawan~
+A young Padawan is standing here, training with a small lightsaber.
+~
+The young Padawan is a small child with a thin braid upon his left shoulder.  
+He wears tan clothing and brown boots.    
+~
+14 0 0 E
+10 18 7 10d10+100 5d5+2
+7500 100000
+12 12 1
+BareHandAttack: 3
+E
+#3592
+a pilot~
+the pilot~
+The pilot of a ship is standing here.
+~
+He wears some dirty clothing but looks very, very strong for his occupation.  
+
+~
+2058 0 0 E
+25 14 2 25d25+625 12d12+6
+46875 625000
+12 12 1
+BareHandAttack: 12
+E
+#3595
+an R4 unit~
+the R4 unit~
+An R4 droid is here.
+~
+The droid has a dome top and is colored mostly red.    
+~
+174090 0 0 E
+0 20 10 1d1+0 1d1+0
+0 0
+12 12 0
+BareHandAttack: 1
+E
+$

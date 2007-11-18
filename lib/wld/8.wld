@@ -1,0 +1,2301 @@
+#800
+A Deep Hole~
+   This is a deep hole.  You can hardly see a thing.  Under your feet is a big
+red surface...  Hmmm...    
+~
+8 acdgs 2
+D0
+~
+~
+0 0 -1
+D1
+~
+~
+0 0 -1
+D2
+~
+~
+0 0 -1
+D3
+~
+~
+0 0 -1
+D4
+~
+~
+0 0 885
+E
+(null)~
+Nothing.
+~
+S
+#801
+In the Rocket Ship~
+   The ship has been decimated by some sort of huge explosion!  The sides of
+the ship are scorched black and the chairs are, too.  Speaking of the chair, it
+looks like it has been shredded to pieces with the stuffings falling out.  The
+control panel is also scorched and now not usable.  The walls are thick and are
+made of a super-strong metal.  They seem unscathed save the scorches.  The
+explosion must have come from inside.  There is a log book on the floor.  To
+the north is out of the Rocket Ship.    
+~
+8 ds 0
+D0
+~
+door~
+1 0 802
+S
+#802
+A Rocket Platform~
+   This is a rocket platform used as a landing spot for incoming space ships or
+other types of rocket ships.  There is a rocket ship to the south and it looks
+burnt and twisted, probably the result of a crash for some unknown reason.  
+The ground here is scorched and crumbling because of the explosion of the ship.
+The sky is a sickening pea green and has neon-yellow clouds.  The surrounding
+area and to the north is all curved mountains pointing inwards.  The ground is
+a muddy red color with tiny fragments of a metalic material.  There is a metal
+pathway leading to the north.    
+~
+8 cs 2
+D0
+~
+~
+0 0 803
+D2
+~
+door~
+2 802 801
+S
+#803
+A Pathway~
+   This is the midway between the Rocket Platform and the tunneled mountains.
+The metal path on the ground is fading into the muddy red dirt.  The scorch is
+now gone and the path shines brightly in the light from the sun.  The Rocket
+Platform is to the south while to the north lies the tunneled mountains.    
+~
+8 cs 2
+D0
+~
+~
+0 0 804
+D2
+~
+~
+0 0 802
+S
+#804
+The Tunneled Mountains~
+   You start your look around at the bottom.  The pathway is gone and tiny
+pebbles are scattered on the muddy red ground.  To the sides are gargantuan
+boulders, the smallest as big as yourself.  Yet with all this excitement, you
+look up to see the plain old pea green sky with the neon-yellow clouds.  The
+problem is, you can hardly see it because of the inverted peaks of the huge
+mountains, making a tunnel effect.  To the north continues the Tunneled
+Mountains while to the south is the pathway leading on to the Rocket Platform.
+  
+~
+8 fis 5
+D0
+~
+~
+0 0 805
+D2
+~
+~
+0 0 803
+S
+#805
+The Tunneled Mountains~
+   You start your look around at the bottom.  Tiny pebbles are scattered on the
+muddy red ground.  To the sides are gargantuan boulders, the smallest as big as
+yourself.  Yet with all this excitement, you look up to see the plain old pea
+green sky with the neon-yellow clouds.  The problem is, you can hardly see it
+because of the inverted peaks of the huge mountains, making a tunnel effect.  
+To the north and south continues the Tunneled Mountains.    
+~
+8 fis 5
+D0
+~
+~
+0 0 806
+D2
+~
+~
+0 0 804
+S
+#806
+The Tunneled Mountains~
+   You start your look around at the bottom.  Tiny pebbles are scattered on the
+muddy red ground.  To the sides are gargantuan boulders, the smallest as big as
+yourself.  Yet with all this excitement, you look up to see the plain old pea
+green sky with the neon-yellow clouds.  The problem is, you can hardly see it
+because of the inverted peaks of the huge mountains, making a tunnel effect.  
+To the north and south continues the Tunneled Mountains.    
+~
+8 fis 5
+D0
+~
+~
+0 0 807
+D2
+~
+~
+0 0 805
+S
+#807
+The Tunneled Mountains~
+   You start your look around at the bottom.  Tiny pebbles are scattered on the
+muddy red ground.  To the sides are gargantuan boulders, the smallest as big as
+yourself.  Yet with all this excitement, you look up to see the plain old pea
+green sky with the neon-yellow clouds.  The problem is, you can hardly see it
+because of the inverted peaks of the huge mountains, making a tunnel effect.  
+To the north and south continues the Tunneled Mountains.
+~
+8 fis 5
+D0
+~
+~
+0 0 808
+D2
+~
+~
+0 0 806
+S
+#808
+The Tunneled Mountains~
+   You start your look around at the bottom.  Tiny pebbles are scattered on the
+muddy red ground.  To the sides are gargantuan boulders, the smallest as big as
+yourself.  There seems to be a different shaped boulder to your right...  It's
+square and looks almost as if it were carved that way.  Yet with all this
+excitement, you look up to see the plain old pea green sky with the neon-yellow
+clouds.  The problem is, you can hardly see it because of the inverted peaks of
+the huge mountains, making a tunnel effect.  To the north and south continues
+the Tunneled Mountains.    
+~
+8 fis 5
+D0
+~
+~
+0 0 809
+D1
+~
+boulder~
+1 0 811
+D2
+~
+~
+0 0 807
+S
+#809
+The Tunneled Mountains~
+   You start your look around at the bottom.  Tiny pebbles are scattered on the
+muddy red ground.  To the sides are gargantuan boulders, the smallest as big as
+yourself.  Yet with all this excitement, you look up to see the plain old pea
+green sky with the neon-yellow clouds.  The problem is, you can hardly see it
+because of the inverted peaks of the huge mountains, making a tunnel effect.  
+To the north and south continues the Tunneled Mountains.
+~
+8 fis 5
+D0
+~
+~
+0 0 810
+D2
+~
+~
+0 0 808
+S
+#810
+The Tunneled Mountains~
+   You start your look around at the bottom.  Tiny pebbles are scattered on the
+muddy red ground.  To the sides are gargantuan boulders, the smallest as big as
+yourself.  Yet with all this excitement, you look up to see the plain old pea
+green sky with the neon-yellow clouds.  The problem is, you can hardly see it
+because of the inverted peaks of the huge mountains, making a tunnel effect.  
+To the north and south continues the Tunneled Mountains.
+~
+8 fis 5
+D0
+~
+~
+0 0 805
+D2
+~
+~
+0 0 809
+S
+#811
+A Small Tunnel~
+   Darkness...  You suddenly wish you hadn't entered this small, cramped
+tunnel.  The walls are slimey and a dark green.  You can't tell which direction
+leads where but you know it continues east and west.  Luckily to the west is
+some sunlight.    
+~
+8 acdfis 0
+D0
+~
+~
+0 0 -1
+D1
+~
+~
+0 0 812
+D3
+~
+boulder~
+1 0 808
+S
+#812
+A Small Tunnel~
+   Darkness...  You suddenly wish you hadn't entered this small, cramped
+tunnel.  The walls are slimey and a dark green.  You can't tell which direction
+leads where but you know it continues east and west.  There is a small rock
+pushing into your stomache on your left.    
+~
+8 adfis 0
+D0
+~
+rock~
+1 0 815
+D1
+~
+~
+0 0 813
+D3
+~
+~
+0 0 811
+S
+#813
+A Small Tunnel~
+   Darkness...  You suddenly wish you hadn't entered this small, cramped
+tunnel.  The walls are slimey and a dark green.  You can't tell which direction
+leads where but you know it continues east and west.
+~
+8 adfis 0
+D1
+~
+~
+0 0 814
+D2
+~
+~
+0 0 -1
+D3
+~
+~
+0 0 812
+S
+#814
+A Small Tunnel~
+   Darkness...  You suddenly wish you hadn't entered this small, cramped
+tunnel.  The walls are slimey and a dark green.  You can't tell which direction
+leads where but you know it continues east and west.
+~
+8 adfis 0
+D1
+~
+~
+0 0 813
+D3
+~
+~
+0 0 813
+S
+#815
+The End of a Tunnel~
+   This spot is an opening.  There are no mountains and you are not enclosed in
+a tunnel either.  Although you cannot go east or west because of some sharp,
+pointy rocks on both sides.  To the north is some more Tunneled Mountains.  To
+the south is a small, protruding rock coming out of the side of a cliff.    
+~
+8 fs 5
+D0
+~
+~
+0 0 816
+D2
+~
+rock~
+1 0 812
+S
+#816
+The Tunneled Mountains~
+   You start your look around at the bottom.  Tiny pebbles are scattered on the
+muddy red ground.  To the sides are gargantuan boulders, the smallest as big as
+yourself.  Yet with all this excitement, you look up to see the plain old pea
+green sky with the neon-yellow clouds.  The problem is, you can hardly see it
+because of the inverted peaks of the huge mountains, making a tunnel effect.  
+To the north there are the Grand Gates of Quijert while to the south is an
+opening.    
+~
+8 fis 5
+D0
+~
+~
+0 0 817
+D2
+~
+~
+0 0 815
+D4
+~
+undefined~
+0 0 -1
+S
+#817
+The Grand Gates of Qwejirt~
+   This is an opening but the sides are still blocked off by sharp rocks.  
+Infront of you lies the Grand Gates of Quijert which stand a looming seventeen
+feet tall.  Each of the two gates are laced with shining, oily coils that wrap
+and twist around the painfully detailed designs on the gates.  The designs
+depict a huge battle between two opposing creatures, the Humans and the
+Cestarians.  The Cestarians seem to be winning.  To the south lies the Tunneled
+Mountains.    
+~
+8 cfs 1
+D0
+~
+gates~
+1 0 818
+D2
+~
+~
+0 0 816
+S
+#818
+Wetarby Street~
+   Wetarby Street is the southern street of Quijert.  It's surface is an
+obsidian color but it still retains the shine of a slick metal.  The sides of
+the streets has the name of the street in a white, backlit, alien print.  To
+the north is a huge, muddy red wall made out of a kind of concrete but also has
+tiny fragments of metal in it.  Looking up, there is a skinny and skyscraping
+tower with a large but short cylinder to top it off.  To the east and west
+continues Wetarby Street while to the south are the Gates of Quijert.    
+~
+8 fs 1
+D0
+~
+~
+0 0 -1
+D1
+~
+~
+0 0 819
+D2
+~
+gate~
+1 0 817
+D3
+~
+~
+0 0 832
+S
+#819
+Wetarby Street~
+   Wetarby Street is the southern street of Quijert.  It's surface is an
+obsidian color but it still retains the shine of a slick metal.  The sides of
+the streets has the name of the street in a white, backlit, alien print.  To
+the north is a huge, muddy red wall made out of a kind of concrete but also has
+tiny fragments of metal in it.  Looking up, there is a skinny and skyscraping
+tower with a large but short cylinder to top it off.  To the east and west
+continues Wetarby Street.    
+~
+8 fs 1
+D1
+~
+~
+0 0 820
+D3
+~
+~
+0 0 818
+S
+#820
+Corner Wetarby/Cejunthka~
+   This is a corner that goes to the north, Cejunthka, and to the west, Wetarby
+Street.  It's surface is an obsidian color but it still retains the shine of a
+slick metal.  The sides of the streets has the name of the street in a white,
+backlit, alien print.  Creating this corner is a huge, muddy red wall made out
+of a kind of concrete but also has tiny fragments of metal in it.  Looking up,
+there is a skinny and skyscraping tower with a large but short cylinder to top
+it off.    
+~
+8 fs 1
+D0
+~
+~
+0 0 821
+D3
+~
+~
+0 0 819
+S
+#821
+Cejunthka Lane~
+   Cejunthka Lane is the eastern street of Quijert.  It's surface is an
+obsidian color but it still retains the shine of a slick metal.  The sides of
+the streets has the name of the street in a white, backlit, alien print.  To
+the west is a huge, muddy red wall made out of a kind of concrete but also has
+tiny fragments of metal in it.  Looking up, there is a skinny and skyscraping
+tower with a large but short cylinder to top it off.  To the north and south
+continues Cejunthka Lane.    
+~
+8 fs 1
+D0
+~
+~
+0 0 822
+D2
+~
+~
+0 0 820
+S
+#822
+Cejunthka Lane~
+   Cejunthka Lane is the eastern street of Quijert.  It's surface is a royal
+blue color but it still retains the shine of a slick metal.  The sides of the
+streets has the name of the street in a white, backlit, alien print.  To the
+east is a huge, muddy red wall made out of a kind of concrete but also has tiny
+fragments of metal in it.  Looking up, there is a skinny and skyscraping tower
+with a large but short cylinder to top it off.  To the north and south
+continues Cejunthka Lane.  To the west is a metal door with a panel on the side
+of it.  To the east are the Docks.    
+~
+8 fs 1
+D0
+~
+~
+0 0 823
+D1
+~
+gates~
+1 0 871
+D2
+~
+~
+0 0 821
+D3
+~
+Door~
+2 822 838
+S
+#823
+Cejunthka Lane~
+   Cejunthka Lane is the eastern street of Quijert.  It's surface is an
+obsidian color but it still retains the shine of a slick metal.  The sides of
+the streets has the name of the street in a white, backlit, alien print.  To
+the west is a huge, muddy red wall made out of a kind of concrete but also has
+tiny fragments of metal in it.  Looking up, there is a skinny and skyscraping
+tower with a large but short cylinder to top it off.  To the north and south
+continues Cejunthka Lane.    
+~
+8 fs 1
+D0
+You see nothing special.
+~
+~
+0 0 824
+D2
+~
+~
+0 0 822
+S
+#824
+Corner Cejunthka/Bavchelip~
+   This is a corner that goes to the south, Cejunthka Lane, and to the west,
+Bavchelip Drive.  It's surface is an obsidian color but it still retains the
+shine of a slick metal.  The sides of the streets has the name of the street in
+a white, backlit, alien print.  Creating this corner is a huge, muddy red wall
+made out of a kind of concrete but also has tiny fragments of metal in it.  
+Looking up, there is a skinny and skyscraping tower with a large but short
+cylinder to top it off.    
+~
+8 fs 1
+D1
+~
+~
+0 0 -1
+D2
+~
+~
+0 0 823
+D3
+~
+~
+0 0 825
+S
+#825
+Bavchelip Drive~
+   Bavchelip Drive is the northern street of Quijert.  It's surface is an
+obsidian color but it still retains the shine of a slick metal.  The sides of
+the streets has the name of the street in a white, backlit, alien print.  To
+the south is a huge, muddy red wall made out of a kind of concrete but also has
+tiny fragments of metal in it.  Looking up, there is a skinny and skyscraping
+tower with a large but short cylinder to top it off.  To the east and west
+continues Bavchelip Drive.    
+~
+8 fs 1
+D1
+~
+~
+0 0 824
+D3
+~
+~
+0 0 826
+S
+#826
+Bavchelip Drive~
+   Bavchelip Drive is the northern street of Quijert.  It's surface is an
+obsidian color but it still retains the shine of a slick metal.  The sides of
+the streets has the name of the street in a white, backlit, alien print.  To
+the south is a huge, muddy red wall made out of a kind of concrete but also has
+tiny fragments of metal in it.  Looking up, there is a skinny and skyscraping
+tower with a large but short cylinder to top it off.  To the east and west
+continues Bavchelip Drive.  To the north is the entrance to the Cold Fusion
+Power Plant.    
+~
+8 fs 1
+D0
+~
+~
+0 0 898
+D1
+~
+~
+0 0 825
+D3
+~
+~
+0 0 899
+S
+#827
+Corner Bavchelip/Likoiy~
+   This is a corner that goes to the south, Likoiy Way, and to the east,
+Bavchelip Drive.  It's surface is an obsidian color but it still retains the
+shine of a slick metal.  The sides of the streets has the name of the street in
+a white, backlit, alien print.  Creating this corner is a huge, muddy red wall
+made out of a kind of concrete but also has tiny fragments of metal in it.  
+Looking up, there is a skinny and skyscraping tower with a large but short
+cylinder to top it off.  There seems to be a large congregation of people to
+the west and you notice a huge colosseum to that direction.    
+~
+8 cfs 1
+D1
+~
+~
+0 0 899
+D2
+~
+~
+0 0 828
+D3
+~
+~
+0 0 886
+S
+#828
+Likoiy Way~
+   Likoiy Way is the western street of Quijert.  It's surface is an obsidian
+color but it still retains the shine of a slick metal.  The sides of the
+streets has the name of the street in a white, backlit, alien print.  To the
+east is a huge, muddy red wall made out of a kind of concrete but also has tiny
+fragments of metal in it.  Looking up, there is a skinny and skyscraping tower
+with a large but short cylinder to top it off.  To the north and south
+continues Likoiy Way.    
+~
+8 fs 1
+D0
+~
+~
+0 0 827
+D2
+~
+~
+0 0 829
+S
+#829
+Likoiy Way~
+   Likoiy Way is the western street of Quijert.  It's surface is a royal blue
+color but it still retains the shine of a slick metal.  The sides of the
+streets has the name of the street in a white, backlit, alien print.  To the
+east is a huge, muddy red wall made out of a kind of concrete but also has tiny
+fragments of metal in it.  Looking up, there is a skinny and skyscraping tower
+with a large but short cylinder to top it off.  To the north and south
+continues Likoiy Way.  To the east is a metal door with a panel on the side of
+it.  To the west are the Grand Gates of Quijert, leading to the Endless Desert.
+  
+~
+8 fs 1
+D0
+~
+~
+0 0 828
+D1
+~
+door~
+2 822 834
+D2
+~
+~
+0 0 830
+D3
+~
+gates~
+1 0 848
+S
+#830
+Likoiy Way~
+   Likoiy Way is the western street of Quijert.  It's surface is an obsidian
+color but it still retains the shine of a slick metal.  The sides of the
+streets has the name of the street in a white, backlit, alien print.  To the
+east is a huge, muddy red wall made out of a kind of concrete but also has tiny
+fragments of metal in it.  Looking up, there is a skinny and skyscraping tower
+with a large but short cylinder to top it off.  To the north and south
+continues Likoiy Way.    
+~
+8 fs 1
+D0
+~
+~
+0 0 829
+D2
+~
+~
+0 0 831
+S
+#831
+Corner Likoiy/Wetarby~
+   This is a corner that goes to the north, Likoiy Way, and to the east,
+Wetarby Street.  It's surface is an obsidian color but it still retains the
+shine of a slick metal.  The sides of the streets has the name of the street in
+a white, backlit, alien print.  Creating this corner is a huge, muddy red wall
+made out of a kind of concrete but also has tiny fragments of metal in it.  
+Looking up, there is a skinny and skyscraping tower with a large but short
+cylinder to top it off.    
+~
+8 fs 1
+D0
+~
+~
+0 0 830
+D1
+~
+~
+0 0 832
+S
+#832
+Wetarby Street~
+   Wetarby Street is the southern street of Quijert.  It's surface is an
+obsidian color but it still retains the shine of a slick metal.  The sides of
+the streets has the name of the street in a white, backlit, alien print.  To
+the north is a huge, muddy red wall made out of a kind of concrete but also has
+tiny fragments of metal in it.  Looking up, there is a skinny and skyscraping
+tower with a large but short cylinder to top it off.  To the east and west
+continues Wetarby Street.    
+~
+8 fs 1
+D1
+~
+~
+0 0 818
+D3
+~
+~
+0 0 831
+S
+#833
+The Inner Square~
+   The Inner Square is much nicer than the outside of the city.  The walls are
+an egg white and the halogen lights softly glow against the tiled floor.  The
+tiles on the floor are colored grass green.  There are frames like doorways on
+the walls that flow with electricity.  These would normally take workers home
+but it seems that they are boarded up.  The Inner Square continues to the north
+and east.    
+~
+8 dfs 1
+D0
+~
+~
+0 0 834
+D1
+~
+~
+0 0 840
+S
+#834
+The Inner Square~
+   The Inner Square is much nicer than the outside of the city.  The walls are
+an egg white and the halogen lights softly glow against the tiled floor.  The
+tiles on the floor are colored grass green.  There are frames like doorways on
+the walls that flow with electricity.  These would normally take workers home
+but it seems that they are boarded up.  The Inner Square continues to the north
+and south.  To the west is a metallic door.  To the east is the first floor of
+the Cardinal Building but right now all there is is just a wall.    
+~
+8 dfs 1
+D0
+~
+~
+0 0 835
+D1
+~
+~
+0 0 -1
+D2
+~
+~
+0 0 833
+D3
+~
+door~
+1 0 829
+S
+#835
+The Inner Square: Behind the Cardinal Building~
+   Behind the Cardinal Building is a little darker than the front.  Some of the
+lights have been poked out and there is a small amount of graffiti on the
+walls.  It still retains its shiny tiles though.  This place gives you an
+uneasy feeling because of the insecurity of the darkness.  In the haze of the
+light, the walls shimmer with small metalic pieces imbedded into the wall which
+seems to be made out of concrete.  The Inner Square continues to the south and
+east.    
+~
+8 dfs 1
+D1
+~
+~
+0 0 836
+D2
+~
+~
+0 0 834
+D3
+~
+~
+0 0 -1
+S
+#836
+The Inner Square: Behind the Cardinal Building~
+   Behind the Cardinal Building is a little darker than the front.  Some of the
+lights have been poked out and there is a small amount of graffiti on the
+walls.  It still retains its shiny tiles though.  This place gives you an
+uneasy feeling because of the insecurity of the darkness.  In the haze of the
+light, the walls shimmer with small metalic pieces imbedded into the wall which
+seems to be made out of concrete.  The Inner Square continues to the east and
+west.    
+~
+8 dfs 1
+D1
+~
+~
+0 0 837
+D3
+~
+~
+0 0 835
+S
+#837
+The Inner Square: Behind the Cardinal Building~
+   Behind the Cardinal Building is a little darker than the front.  Some of the
+lights have been poked out and there is a small amount of graffiti on the
+walls.  It still retains its shiny tiles though.  This place gives you an
+uneasy feeling because of the insecurity of the darkness.  In the haze of the
+light, the walls shimmer with small metalic pieces imbedded into the wall which
+seems to be made out of concrete.  The Inner Square continues to the south and
+west.    
+~
+8 dfs 1
+D2
+~
+~
+0 0 838
+D3
+~
+~
+0 0 836
+S
+#838
+The Inner Square~
+   The Inner Square is much nicer than the outside of the city.  The walls are
+an egg white and the halogen lights softly glow against the tiled floor.  The
+tiles on the floor are colored grass green.  There are frames like doorways on
+the walls that flow with electricity.  These would normally take workers home
+but it seems that they are boarded up.  The Inner Square continues to the north
+and south.  To the east is a metalic door.  To the west is the first floor of
+the Cardinal Building but right now all there is is just a wall.    
+~
+8 dfs 1
+D0
+~
+~
+0 0 837
+D1
+~
+door~
+1 0 822
+D2
+~
+~
+0 0 839
+S
+#839
+The Inner Square~
+   The Inner Square is much nicer than the outside of the city.  The walls are
+an egg white and the halogen lights softly glow against the tiled floor.  The
+tiles on the floor are colored grass green.  There are frames like doorways on
+the walls that flow with electricity.  These would normally take workers home
+but it seems that they are boarded up.  The Inner Square continues to the north
+and west.    
+~
+8 dfs 1
+D0
+~
+~
+0 0 838
+D3
+~
+~
+0 0 840
+S
+#840
+The Inner Square~
+   The Inner Square is much nicer than the outside of the city.  The walls are
+an egg white and the halogen lights softly glow against the tiled floor.  The
+tiles on the floor are colored grass green.  There are frames like doorways on
+the walls that flow with electricity.  These would normally take workers home
+but it seems that they are boarded up.  The Inner Square continues to the east
+and west.  To the north lies a metallic door that leads to the first floor of
+the Cardinal Building.    
+~
+8 dfs 1
+D0
+~
+door~
+2 840 841
+D1
+~
+~
+0 0 839
+D2
+~
+~
+0 0 -1
+D3
+~
+~
+0 0 833
+S
+#841
+Cardinal Building: 1st Floor~
+   This room has marbled walls with many pillars on the sides.  The bottom of
+the pillars are wrapped in grass green coloring.  To the south, the entrance,
+there is a handful of guards, making sure that whoever comes through the doors
+are authorized.  Besides that, the room is completely empty except for a single
+elevator.  You go towards it and press the button on it.  The elevator opens
+and you step in.  You can go up, or leave south, back to the Inner Square.    
+~
+8 dfs 0
+D2
+~
+door~
+1 0 840
+D4
+~
+elevator~
+1 0 842
+S
+#842
+Cardinal Building: 2nd Floor~
+   This is a small hallway that is both carpeted and wallpapered.  There are
+two chairs on the southern wall while to the north is an elevator door in which
+you need to open before going down.  The only other way to go is to the east.
+  
+~
+8 cdfs 0
+D1
+~
+~
+0 0 843
+D3
+~
+~
+0 0 -1
+D5
+~
+elevator~
+2 0 841
+E
+chair~
+   They look comfy and very puffed up with stuffing...  Something someone would
+sit in if they were going to sit for a long time.    
+~
+S
+#843
+Cardinal Waiting Room~
+   This room has an abundance of chairs and couches!  There are several desks
+with random magazines on them.  This is where people come to sit and wait to
+see the almighty Controller.  Most of the time, they are turned down.  To the
+west is a small hallway that leads to the elevator down while to the south is
+the Secretary's room.    
+~
+8 dfs 0
+D2
+~
+door~
+1 0 844
+D3
+~
+~
+0 0 842
+S
+#844
+Secretary's Room~
+   Yet more chairs lie here, sitting up against the wall in waiting to see the
+Controller.  There is a desk here where the secretary sits.  The air here is
+very tense, will the Cestarians in waiting be able to see the Controller and
+will they be able to survive the encounter?  The Controller has a very hot
+temper you know.  To the north is the waiting room while to the west is the
+metal-plated hatch leading into the Controller's Office.    
+~
+8 dfjs 0
+D0
+~
+door~
+1 0 843
+D3
+~
+hatch~
+2 844 845
+S
+#845
+Cardinal Building: Controller's Office~
+   The hatch to the east closes behind you as you step into the enormous
+office.  To the north is the diamond throne where the Controller sits, filling
+out forms and writing speeches.  He has everything to his disposal here
+including a beautiful bed and a bar where he gets all his food.  There are
+servants running around everywhere, getting him food to eat and paper to write
+on.  To the south is a small chair for the visitors to sit.  The west side of
+the room is darkened for some reason.  To the east is back to the Secretary's
+room.    
+~
+8 cdfs 0
+D1
+~
+hatch~
+1 0 844
+D3
+~
+wall~
+2 845 846
+E
+throne~
+   It's beautiful!  Elevated upon steps and painfully carved, it looks just
+like a very comfortable chair with the padding on the seat.  Of course this
+chair is just for show, to show the very extent of the Controller's power.    
+~
+E
+bed~
+   It's one of those formal beds with the "ceiling" on it.  It looks very comfy
+with all those feathers stuffed into them.    
+~
+E
+bar~
+   The bar seems to have everything a Controller would need!  A barbeque,
+fridge, oven, microwave, macrowave, cupboards with silverware, plates, and
+cups, and even the kitchen sink with a garbage disposal installed!  A lifeless
+robot serves the Controller from this bar.    
+~
+S
+#846
+A Hallway~
+   The wall behind you slams shut and with no doorknob, you wont be able to get
+back.  This hallway is very dark, you can hardly see anything and you cough
+from the abundance of dust in this room.  There is a speck of light emminating
+from the north.    
+~
+8 adfs 0
+D0
+~
+~
+0 0 847
+S
+#847
+Treasury~
+   &GJackpot!  &nYou seemed to have reached the Treasury of Quijert.  There are
+oodles of riches and pieces of gold here, just waiting to be taken.  Treasure
+chests and pearl necklaces...  What are you waiting for?  There is an outline
+of a door to the east while to the south is a dark hallway.    
+~
+8 cdefghs 0
+D1
+~
+wall~
+1 0 842
+D2
+~
+~
+0 0 846
+S
+#848
+The Gates of Qwejirt~
+   To the east of you lies the Grand Gates of Quijert which stand a looming
+seventeen feet tall.  Each of the two gates are laced with shining, oily coils
+that wrap and twist around the painfully detailed designs on the gates.  The
+designs depict a huge battle between two opposing creatures, the Humans and the
+Cestarians.  The Cestarians seem to be winning.  To the west lies the Endless
+Desert.    
+~
+8 cfs 1
+D1
+~
+gates~
+1 0 829
+D3
+~
+undefined~
+0 0 849
+S
+#849
+The Endless Desert~
+   There is nothing but an endless stretch of wasteland in every direction.  
+The wind has made intricate patterns into the muddy red sand and the sun
+tenaciously beats down on your skin both dehydrating you and giving you a bad
+sunburn.  The wind here is fierce and whips up sudden and violent sandstorms
+throwing off your sense of direction.  The Endless Desert continues on in every
+direction.    
+~
+8 fs 2
+D0
+~
+~
+0 0 850
+D1
+~
+gates~
+1 0 848
+D2
+~
+~
+0 0 850
+D3
+~
+~
+0 0 853
+S
+#850
+The Endless Desert~
+   There is nothing but an endless stretch of wasteland in every direction.  
+The wind has made intricate patterns into the muddy red sand and the sun
+tenaciously beats down on your skin both dehydrating you and giving you a bad
+sunburn.  The wind here is fierce and whips up sudden and violent sandstorms
+throwing off your sense of direction.  To the east is an igloo-like hut.  The
+Endless Desert continues on in every direction.    
+~
+8 fs 2
+D0
+~
+~
+0 0 849
+D1
+~
+~
+0 0 851
+D2
+~
+~
+0 0 855
+D3
+~
+~
+0 0 854
+S
+#851
+A Hermit's House~
+   This seems to be a makeshift house of some kind.  There are only the
+necessities, water, a bathroom, and a blanket with a pillow...  Probably filled
+with sand.  There is also a spear for hunting to eat.  In the middle of the
+whole house is a burnt out stack of logs, likey for a fire.  The whole house is
+made up of slabs of hard-packed sand and rock.    
+~
+8 dflms 0
+D2
+~
+slab~
+1 0 852
+D3
+~
+~
+0 0 850
+S
+#852
+A Crawl Space~
+   This is a small crawl space.  It's not for you though, your hand is in it
+and searching around.  You feel the rough sides of the walls of stone.  This
+might be a hiding place of some sort.    
+~
+8 dfis 0
+D0
+~
+Slab~
+1 0 851
+S
+#853
+The Endless Desert~
+   There is nothing but an endless stretch of wasteland in every direction.  
+The wind has made intricate patterns into the muddy red sand and the sun
+tenaciously beats down on your skin both dehydrating you and giving you a bad
+sunburn.  The wind here is fierce and whips up sudden and violent sandstorms
+throwing off your sense of direction.  The Endless Desert continues on in every
+direction. 
+~
+8 fs 2
+D0
+~
+~
+0 0 856
+D1
+~
+~
+0 0 849
+D2
+~
+~
+0 0 854
+D3
+~
+~
+0 0 860
+S
+#854
+The Endless Desert~
+   There is nothing but an endless stretch of wasteland in every direction.  
+The wind has made intricate patterns into the muddy red sand and the sun
+tenaciously beats down on your skin both dehydrating you and giving you a bad
+sunburn.  The wind here is fierce and whips up sudden and violent sandstorms
+throwing off your sense of direction.  The Endless Desert continues on in every
+direction. 
+~
+8 fs 2
+D0
+~
+~
+0 0 853
+D1
+~
+~
+0 0 862
+D2
+~
+~
+0 0 855
+D3
+~
+~
+0 0 859
+S
+#855
+The Endless Desert~
+   There is nothing but an endless stretch of wasteland in every direction.  
+The wind has made intricate patterns into the muddy red sand and the sun
+tenaciously beats down on your skin both dehydrating you and giving you a bad
+sunburn.  The wind here is fierce and whips up sudden and violent sandstorms
+throwing off your sense of direction.  The Endless Desert continues on in every
+direction. 
+~
+8 fs 2
+D0
+~
+~
+0 0 854
+D1
+~
+~
+0 0 863
+D2
+~
+~
+0 0 856
+D3
+~
+~
+0 0 858
+S
+#856
+The Endless Desert~
+   There is nothing but an endless stretch of wasteland in every direction.  
+The wind has made intricate patterns into the muddy red sand and the sun
+tenaciously beats down on your skin both dehydrating you and giving you a bad
+sunburn.  The wind here is fierce and whips up sudden and violent sandstorms
+throwing off your sense of direction.  The Endless Desert continues on in every
+direction. 
+~
+8 fs 2
+D0
+~
+~
+0 0 855
+D1
+~
+~
+0 0 864
+D2
+~
+~
+0 0 854
+D3
+~
+~
+0 0 857
+S
+#857
+The Endless Desert~
+   There is nothing but an endless stretch of wasteland in every direction.  
+The wind has made intricate patterns into the muddy red sand and the sun
+tenaciously beats down on your skin both dehydrating you and giving you a bad
+sunburn.  The wind here is fierce and whips up sudden and violent sandstorms
+throwing off your sense of direction.  The Endless Desert continues on in every
+direction. 
+~
+8 fs 2
+D0
+~
+~
+0 0 858
+D1
+~
+~
+0 0 856
+D2
+~
+~
+0 0 860
+D3
+~
+~
+0 0 864
+S
+#858
+The Endless Desert~
+   There is nothing but an endless stretch of wasteland in every direction.  
+The wind has made intricate patterns into the muddy red sand and the sun
+tenaciously beats down on your skin both dehydrating you and giving you a bad
+sunburn.  The wind here is fierce and whips up sudden and violent sandstorms
+throwing off your sense of direction.  The Endless Desert continues on in every
+direction. 
+~
+8 fs 2
+D0
+~
+~
+0 0 860
+D1
+~
+~
+0 0 854
+D2
+~
+~
+0 0 856
+D3
+~
+~
+0 0 862
+S
+#859
+The Endless Desert~
+   There is nothing but an endless stretch of wasteland in every direction.  
+The wind has made intricate patterns into the muddy red sand and the sun
+tenaciously beats down on your skin both dehydrating you and giving you a bad
+sunburn.  The wind here is fierce and whips up sudden and violent sandstorms
+throwing off your sense of direction.  The Endless Desert continues on in every
+direction. 
+~
+8 fs 2
+D0
+~
+~
+0 0 855
+D1
+~
+~
+0 0 862
+D2
+~
+~
+0 0 862
+D3
+~
+~
+0 0 864
+S
+#860
+The Endless Desert~
+   There is nothing but an endless stretch of wasteland in every direction.  
+The wind has made intricate patterns into the muddy red sand and the sun
+tenaciously beats down on your skin both dehydrating you and giving you a bad
+sunburn.  The wind here is fierce and whips up sudden and violent sandstorms
+throwing off your sense of direction.  The Endless Desert continues on in every
+direction. 
+~
+8 fs 2
+D0
+~
+~
+0 0 856
+D1
+~
+~
+0 0 861
+D2
+~
+~
+0 0 859
+D3
+~
+~
+0 0 853
+S
+#861
+The Endless Desert~
+   There is nothing but an endless stretch of wasteland in every direction.  
+The wind has made intricate patterns into the muddy red sand and the sun
+tenaciously beats down on your skin both dehydrating you and giving you a bad
+sunburn.  The wind here is fierce and whips up sudden and violent sandstorms
+throwing off your sense of direction.  The Endless Desert continues on in every
+direction. 
+~
+8 fs 2
+D0
+~
+~
+0 0 864
+D1
+~
+~
+0 0 860
+D2
+~
+~
+0 0 862
+D3
+~
+~
+0 0 865
+S
+#862
+The Endless Desert~
+   There is nothing but an endless stretch of wasteland in every direction.  
+The wind has made intricate patterns into the muddy red sand and the sun
+tenaciously beats down on your skin both dehydrating you and giving you a bad
+sunburn.  The wind here is fierce and whips up sudden and violent sandstorms
+throwing off your sense of direction.  The Endless Desert continues on in every
+direction. 
+~
+8 fs 2
+D0
+~
+~
+0 0 861
+D1
+~
+~
+0 0 854
+D2
+~
+~
+0 0 863
+D3
+~
+~
+0 0 858
+S
+#863
+The Endless Desert~
+   There is nothing but an endless stretch of wasteland in every direction.  
+The wind has made intricate patterns into the muddy red sand and the sun
+tenaciously beats down on your skin both dehydrating you and giving you a bad
+sunburn.  The wind here is fierce and whips up sudden and violent sandstorms
+throwing off your sense of direction.  The Endless Desert continues on in every
+direction. 
+~
+8 fs 2
+D0
+~
+~
+0 0 862
+D1
+~
+~
+0 0 858
+D2
+~
+~
+0 0 864
+D3
+~
+~
+0 0 867
+S
+#864
+The Endless Desert~
+   There is nothing but an endless stretch of wasteland in every direction.  
+The wind has made intricate patterns into the muddy red sand and the sun
+tenaciously beats down on your skin both dehydrating you and giving you a bad
+sunburn.  The wind here is fierce and whips up sudden and violent sandstorms
+throwing off your sense of direction.  The Endless Desert continues on in every
+direction. 
+~
+8 fs 2
+D0
+~
+~
+0 0 861
+D1
+~
+~
+0 0 856
+D2
+~
+~
+0 0 863
+D3
+~
+~
+0 0 857
+S
+#865
+The Endless Desert~
+   There is nothing but an endless stretch of wasteland in every direction.  
+The wind has made intricate patterns into the muddy red sand and the sun
+tenaciously beats down on your skin both dehydrating you and giving you a bad
+sunburn.  The wind here is fierce and whips up sudden and violent sandstorms
+throwing off your sense of direction.  The Endless Desert continues on in every
+direction. 
+~
+8 fs 2
+D0
+~
+~
+0 0 863
+D1
+~
+~
+0 0 870
+D2
+~
+~
+0 0 859
+D3
+~
+~
+0 0 860
+S
+#866
+A Rocky Plain~
+   The medium pitched throbbing is now pounding at your chest.  
+Tha-tha-thrum...  Tha-tha-thrum.  There is a huge boulder infront of you with a
+small white, shining cap on it.  The rocks around the boulder are bouncing to
+the throbbing, letting you know that sound is not just in your mind.  There are
+also many other big rocks around but none compair to this monstrosity.    
+~
+8 fs 2
+D1
+~
+~
+0 0 -1
+D3
+~
+~
+0 0 869
+S
+#867
+The Endless Desert~
+   There is nothing but an endless stretch of wasteland in every direction.  
+The wind has made intricate patterns into the muddy red sand and the sun
+tenaciously beats down on your skin both dehydrating you and giving you a bad
+sunburn.  The wind here is fierce and whips up sudden and violent sandstorms
+throwing off your sense of direction.  The Endless Desert continues on in every
+direction. 
+~
+8 fs 0
+D0
+~
+~
+0 0 862
+D1
+~
+~
+0 0 868
+D2
+~
+~
+0 0 858
+D3
+~
+~
+0 0 863
+S
+#868
+The Endless Desert~
+   There is nothing but an endless stretch of wasteland in every direction.  
+The wind has made intricate patterns into the muddy red sand and the sun
+tenaciously beats down on your skin both dehydrating you and giving you a bad
+sunburn.  The wind here is fierce and whips up sudden and violent sandstorms
+throwing off your sense of direction.  The Endless Desert continues on in every
+direction. 
+~
+8 fs 2
+D0
+~
+~
+0 0 869
+D1
+~
+~
+0 0 867
+D2
+~
+~
+0 0 853
+D3
+~
+~
+0 0 855
+S
+#869
+The Endless Desert~
+   There is nothing but an endless stretch of wasteland in every direction.  
+The wind has made intricate patterns into the muddy red sand and the sun
+tenaciously beats down on your skin both dehydrating you and giving you a bad
+sunburn.  The wind here is fierce and whips up sudden and violent sandstorms
+throwing off your sense of direction.  To the east you hear a medium pitched
+throbbing sound.  You look there and you can barely make out a shining piece of
+metal on a huge rock.  The Endless Desert continues on in every direction.    
+~
+8 fs 2
+D0
+~
+~
+0 0 865
+D1
+~
+~
+0 0 866
+D2
+~
+~
+0 0 870
+D3
+~
+~
+0 0 868
+S
+#870
+The Endless Desert~
+   There is nothing but an endless stretch of wasteland in every direction.  
+The wind has made intricate patterns into the muddy red sand and the sun
+tenaciously beats down on your skin both dehydrating you and giving you a bad
+sunburn.  The wind here is fierce and whips up sudden and violent sandstorms
+throwing off your sense of direction.  The Endless Desert continues on in every
+direction. 
+~
+8 fs 2
+D0
+~
+~
+0 0 868
+D1
+~
+~
+0 0 865
+D2
+~
+~
+0 0 861
+D3
+~
+~
+0 0 856
+S
+#871
+The Gates of Qwejirt~
+   To the west of you lies the Grand Gates of Quijert which stand a looming
+seventeen feet tall.  Each of the two gates are laced with shining, oily coils
+that wrap and twist around the painfully detailed designs on the gates.  The
+designs depict a huge battle between two opposing creatures, the Humans and the
+Cestarians.  The Cestarians seem to be winning.  To the east lies the Docks.  
+
+~
+8 fs 1
+D1
+~
+undefined~
+0 0 872
+D3
+~
+gates~
+1 0 822
+S
+#872
+The Docks~
+   These are the docks of Quijert.  They lead down into the Xenogen Waters.  
+There are strange animals hung up on poles and rods.  Probably the new catch.
+The docks are made up of a strong wood and have little puddles of Xenogenic
+water on them.  To the east are the Gates of Quijert while going down lands you
+in the Xenogenic Waters.    
+~
+8 cfs 1
+D1
+~
+~
+0 0 879
+D3
+~
+~
+0 0 871
+S
+#873
+The Xenogen Waters~
+   The Xenogen Waters are not not actually made out of water, they seem to be
+made out of green gas.  The gas is translucent and you can see all the way to
+the bottom.  Still, there are little pieces of the red dust that makes up this
+moon that hinder your talking capabilities.  You stick your finger into the gas
+and it pulls on it.  This gas must be some type of alien quicksand.  You decide
+not to swim in it.    
+~
+8 fs 7
+D0
+~
+~
+0 0 874
+D1
+~
+~
+0 0 878
+D2
+~
+~
+0 0 -1
+D3
+~
+~
+0 0 877
+S
+#874
+The Xenogen Waters~
+   The Xenogen Waters are not not actually made out of water, they seem to be
+made out of green gas.  The gas is translucent and you can see all the way to
+the bottom.  Still, there are little pieces of the red dust that makes up this
+moon that hinder your talking capabilities.  You stick your finger into the gas
+and it pulls on it.  This gas must be some type of alien quicksand.  You decide
+not to swim in it.    
+~
+8 fs 7
+D0
+~
+~
+0 0 875
+D1
+~
+~
+0 0 877
+D2
+~
+~
+0 0 873
+D3
+~
+~
+0 0 876
+S
+#875
+The Xenogen Waters~
+   The Xenogen Waters are not not actually made out of water, they seem to be
+made out of green gas.  The gas is translucent and you can see all the way to
+the bottom.  Still, there are little pieces of the red dust that makes up this
+moon that hinder your talking capabilities.  You stick your finger into the gas
+and it pulls on it.  This gas must be some type of alien quicksand.  You decide
+not to swim in it.    
+~
+8 f 7
+D0
+~
+~
+0 0 881
+D1
+~
+~
+0 0 876
+D2
+~
+~
+0 0 874
+D3
+~
+~
+0 0 880
+S
+#876
+The Xenogen Waters~
+   The Xenogen Waters are not not actually made out of water, they seem to be
+made out of green gas.  The gas is translucent and you can see all the way to
+the bottom.  Still, there are little pieces of the red dust that makes up this
+moon that hinder your talking capabilities.  You stick your finger into the gas
+and it pulls on it.  This gas must be some type of alien quicksand.  You decide
+not to swim in it.    
+~
+8 fs 7
+D0
+~
+~
+0 0 881
+D1
+~
+~
+0 0 882
+D2
+~
+~
+0 0 877
+D3
+~
+~
+0 0 875
+S
+#877
+The Xenogen Waters~
+   The Xenogen Waters are not not actually made out of water, they seem to be
+made out of green gas.  The gas is translucent and you can see all the way to
+the bottom.  Still, there are little pieces of the red dust that makes up this
+moon that hinder your talking capabilities.  You stick your finger into the gas
+and it pulls on it.  This gas must be some type of alien quicksand.  You decide
+not to swim in it.    
+~
+8 fs 7
+D0
+~
+~
+0 0 876
+D1
+~
+~
+0 0 875
+D2
+~
+~
+0 0 878
+D3
+~
+~
+0 0 874
+S
+#878
+The Xenogen Waters~
+   The Xenogen Waters are not not actually made out of water, they seem to be
+made out of green gas.  The gas is translucent and you can see all the way to
+the bottom.  Still, there are little pieces of the red dust that makes up this
+moon that hinder your talking capabilities.  You stick your finger into the gas
+and it pulls on it.  This gas must be some type of alien quicksand.  You decide
+not to swim in it.
+~
+8 fs 7
+D0
+~
+~
+0 0 877
+D1
+~
+~
+0 0 875
+D2
+~
+~
+0 0 879
+D3
+~
+~
+0 0 873
+S
+#879
+The Xenogen Waters~
+   The Xenogen Waters are not not actually made out of water, they seem to be
+made out of green gas.  The gas is translucent and you can see all the way to
+the bottom.  Still, there are little pieces of the red dust that makes up this
+moon that hinder your talking capabilities.  You stick your finger into the gas
+and it pulls on it.  This gas must be some type of alien quicksand.  You decide
+not to swim in it.  Going up lifts you up to the dock.    
+~
+8 fs 7
+D0
+~
+~
+0 0 878
+D1
+~
+~
+0 0 884
+D2
+~
+~
+0 0 880
+D3
+~
+~
+0 0 -1
+D4
+~
+~
+0 0 872
+S
+#880
+The Xenogen Waters~
+   The Xenogen Waters are not not actually made out of water, they seem to be
+made out of green gas.  The gas is translucent and you can see all the way to
+the bottom.  Still, there are little pieces of the red dust that makes up this
+moon that hinder your talking capabilities.  You stick your finger into the gas
+and it pulls on it.  This gas must be some type of alien quicksand.  You decide
+not to swim in it.    
+~
+8 fs 7
+D0
+~
+~
+0 0 879
+D1
+~
+~
+0 0 873
+D2
+~
+~
+0 0 881
+D3
+~
+~
+0 0 874
+S
+#881
+The Xenogen Waters~
+   The Xenogen Waters are not not actually made out of water, they seem to be
+made out of green gas.  The gas is translucent and you can see all the way to
+the bottom.  Still, there are little pieces of the red dust that makes up this
+moon that hinder your talking capabilities.  You stick your finger into the gas
+and it pulls on it.  This gas must be some type of alien quicksand.  You decide
+not to swim in it.    
+~
+8 fs 7
+D0
+~
+~
+0 0 880
+D1
+~
+~
+0 0 883
+D2
+~
+~
+0 0 876
+D3
+~
+~
+0 0 882
+S
+#882
+The Xenogen Waters~
+   The Xenogen Waters are not not actually made out of water, they seem to be
+made out of green gas.  The gas is translucent and you can see all the way to
+the bottom.  Still, there are little pieces of the red dust that makes up this
+moon that hinder your talking capabilities.  You stick your finger into the gas
+and it pulls on it.  This gas must be some type of alien quicksand.  You decide
+not to swim in it.    
+~
+8 fs 7
+D0
+~
+~
+0 0 883
+D1
+~
+~
+0 0 881
+D2
+~
+~
+0 0 876
+D3
+~
+~
+0 0 874
+S
+#883
+A Xenogeneic Whirlpool~
+   You are sucked down into the huge whirlpool.  You can't get out so the only
+option is to dive.    
+~
+8 cfs 7
+D3
+~
+~
+0 0 -1
+D5
+~
+~
+0 0 800
+S
+#884
+The Xenogen Waters~
+   The Xenogen Waters are not not actually made out of water, they seem to be
+made out of green gas.  The gas is translucent and you can see all the way to
+the bottom.  Still, there are little pieces of the red dust that makes up this
+moon that hinder your talking capabilities.  You stick your finger into the gas
+and it pulls on it.  This gas must be some type of alien quicksand.  You decide
+not to swim in it.    
+~
+8 afis 8
+D0
+~
+~
+0 0 876
+D1
+~
+~
+0 0 873
+D2
+~
+~
+0 0 875
+D3
+~
+~
+0 0 878
+D4
+~
+~
+0 0 -1
+S
+#885
+&l&RFALLING!&n~
+You have been launched up into the air! Going higher and higher and higher. But your
+ascent suddenly stops and you come barreling down to the planet, leaving Cesta behind.
+You hit the maximum speed going down! You're
+
+FALLING
+
+
+       FALLING
+
+
+
+
+
+              FALLING
+
+
+
+
+
+
+
+
+
+                           FALLING
+
+
+
+
+
+
+
+
+
+
+
+
+                                     FALLING
+
+~
+8 cefgs 2
+D0
+~
+~
+0 0 -1
+D1
+~
+~
+0 0 -1
+D2
+~
+~
+0 0 -1
+D3
+~
+~
+0 0 -1
+S
+T 885
+#886
+The Battle Ground Pit~
+   You are pushed from the entrance through a huge croud.  Pushed and pushed
+all though the whole colloseum until you are pushed off a 5 foot cliff.  You
+are now in a big pit with some dangerous aliens.  Escape?  I don't think so.  
+Oh wait!  A hatch leading underground!  Well what do you have to loose?    
+~
+8 fs 1
+D5
+~
+hatch~
+1 0 887
+S
+#887
+The Punishment Pit~
+   This does NOT look good!  This is a HUGE underground room, covered in slime
+and goo.  Corpses are strewn around this lair and death is in the air.  On the
+ground are gargantuan footprints of something horrible.  There is a huge door
+to the east but it seems to be locked with a keyhole thats just a big hole.  
+There is something carved into the wall here .
+~
+8 dfs 0
+D1
+~
+door~
+2 887 888
+E
+wall carving carve writing~
+   It reads: If you are in this room, you have been banished by the great
+Controller himself.  You have been deemed worthless in battle and have been
+sent to be fed to The Beast.  Good Bye.    
+~
+S
+#888
+:)~
+   This place is covered in slime!  You ack in disgust...  It echoed!  This
+place allows sound to travel through it!  You can now send and recieve
+telepathic messages and that of the sort.  Try some other stuff out!  :)
+~
+8 0 0
+S
+#889
+CFPP Employee Bathroom~
+   This is a very small and cramped area, like all bathrooms but the problem is
+is that there is no toilet!  But you look up and notice a hole in the ceiling.
+Damn these people are strange!  The room is lit with a blue light and there are
+tiny bugs lurking around.    
+~
+8 dfs 0
+D1
+~
+Door~
+1 0 890
+S
+#890
+Cold Fusion Power Plant~
+   This place is chilly with heavy machinery everywhere!  And the pipes!  Look
+at all the freaking pipes!  They seem to be iced over, better not lick them.  
+To the north east is a HUGE machine that has slits in it that glows blue, then
+red.  This place is relatively dark save a couple blue lights around.  You
+guess that these people really mastered cold fusion since this building is very
+small.  The CFPP continues to the south and east while to the west is the
+employee bathroom.    
+~
+8 dfs 0
+D1
+~
+~
+0 0 891
+D2
+~
+~
+0 0 892
+D3
+~
+door~
+1 0 889
+S
+#891
+Cold Fusion Power Plant~
+   This place is chilly with heavy machinery everywhere!  And the pipes!  Look
+at all the freaking pipes!  They seem to be iced over, better not lick them.  
+To the north east is a HUGE machine that has slits in it that glows blue, then
+red.  This place is relatively dark save a couple blue lights around.  You
+guess that these people really mastered cold fusion since this building is very
+small.  The CFPP continues to the south and west.    
+~
+8 dfs 0
+D2
+~
+~
+0 0 893
+D3
+~
+~
+0 0 890
+S
+#892
+Cold Fusion Power Plant~
+   This place is chilly with heavy machinery everywhere!  And the pipes!  Look
+at all the freaking pipes!  They seem to be iced over, better not lick them.  
+To the north east is a HUGE machine that has slits in it that glows blue, then
+red.  This place is relatively dark save a couple blue lights around.  You
+guess that these people really mastered cold fusion since this building is very
+small.  The CFPP continues to the north and east while to the south is
+Bavchelip Drive.    
+~
+8 dfs 0
+D0
+~
+~
+0 0 890
+D1
+~
+~
+0 0 893
+D2
+~
+~
+0 0 898
+S
+#893
+Cold Fusion Power Plant~
+   This place is chilly with heavy machinery everywhere!  And the pipes!  Look
+at all the freaking pipes!  They seem to be iced over, better not lick them.  
+To the north west is a HUGE machine that has slits in it that glows blue, then
+red.  This place is relatively dark save a couple blue lights around.  You
+guess that these people really mastered cold fusion since this building is very
+small.  The CFPP continues to the north and west while to the east is the
+Director's office.    
+~
+8 dfs 0
+D0
+~
+~
+0 0 891
+D1
+~
+door~
+2 893 894
+D3
+~
+~
+0 0 892
+S
+#894
+CFPP Director's Office~
+   This is the Director's Office.  From here, the Director can control the
+operations of the Cold Fusion Power Plant.  He can shut it down, turn it back
+on, or even make it &RSPLODE!  &n Anyway, this place is much nicer than the
+rest of the Plant, it has a nice, carpeted floor and the walls are a milky
+color.  On the walls hang pictures of different sceneries.  In the middle of
+the room lies an intimidating, wooden, desk.  Behind that desk in an
+intimidating, full, swivel chair where the Director himself sits...  Very
+intimidating.    
+~
+8 cdfs 0
+D0
+~
+~
+0 0 -1
+D3
+~
+Door~
+1 0 893
+S
+#895
+Dummassio~
+DUMMASSIO!
+~
+8 dns 0
+D1
+~
+~
+0 0 -1
+D2
+~
+~
+0 0 897
+D5
+~
+~
+0 0 -1
+S
+T 895
+#896
+A Long Hallway~
+   The long hallway expands for as long as you can see.  But at the moment they
+are blocked off by forcefields marked with the sign "Under Repairs".  To the
+east is a hatch that has a red strike on it and has the letter B on it.  To the
+west is to the storage room.    
+~
+8 ds 0
+D1
+~
+hatch~
+2 896 897
+D3
+~
+~
+0 0 895
+S
+#897
+La la~
+la la
+~
+8 djlms 0
+D0
+~
+~
+0 0 895
+D3
+~
+hatch~
+1 0 -1
+S
+#898
+Entrance to the Cold Fusion Power Plant~
+   There is a large sign infront of you that says "Welcome to the Cold Fusion
+Power Plant".  The building is relatively small except for a huge machine in
+the middle that is jutting out of the top.  Many electrical lines are attached
+to it, sending out electricity to needy Cestarians.  To the north lies the open
+doors of the CFPP while to the south is Bavchelip Drive.    
+~
+8 cfs 1
+D0
+~
+~
+0 0 892
+D2
+~
+~
+0 0 826
+D4
+~
+~
+0 0 -1
+D5
+~
+~
+0 0 -1
+S
+#899
+Bavchelip Drive~
+   Bavchelip Drive is the northern street of Quijert.  It's surface is an
+obsidian color but it still retains the shine of a slick metal.  The sides of
+the streets has the name of the street in a white, backlit, alien print.  To
+the south is a huge, muddy red wall made out of a kind of concrete but also has
+tiny fragments of metal in it.  Looking up, there is a skinny and skyscraping
+tower with a large but short cylinder to top it off.  To the east and west
+continues Bavchelip Drive.    
+~
+8 fs 1
+D1
+~
+~
+0 0 826
+D3
+~
+~
+0 0 827
+S
+$~

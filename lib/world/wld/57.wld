@@ -1,0 +1,54 @@
+#5700
+The great gate to rome~
+   Here standing strong is a gate made out of the finest gold in the land.  
+They is a silver plaque on the gate reading "Welcome to rome".    
+~
+57 0 0
+D2
+~
+ROME~
+1 574 5701
+S
+#5701
+An alley way~
+   There is a paved road running south leading to the Town Square of Rome.  
+There are lots of beggar pleeding for money and food, Lots of people are
+rushingaround to get to the work places.    
+~
+57 0 0
+D0
+Nothing.
+~
+Exit rome~
+2 0 5700
+D2
+~
+~
+0 0 5702
+S
+#5702
+An alley way~
+   There is a paved road running south leading to the Town Square of Rome.  
+There are lots of beggar pleeding for money and food, Lots of people
+arerushingaround to get to the work places.    
+~
+57 0 0
+D0
+~
+~
+0 0 5701
+D2
+~
+~
+0 0 5703
+S
+#5703
+The Town Square~
+   This is the town square,During the day, this place is alive with the hustle
+andbustle of all of the citizens of Rome and everyone in the city is sure
+tostop by at some time or another.  There are several street vendors
+peddlingtheir wares and the overall atmosphere is carnival-like in nature.    
+~
+57 0 0
+S
+$~

@@ -1,0 +1,60 @@
+3
+det
+11
+c 'det inv'
+0
+1
+f
+8
+c 'fire'
+0
+1
+h
+12
+c 'slow' hob
+0
+2
+sm
+13
+c 'slow' mino
+0
+2
+wo
+8
+c 'word'
+0
+2
+re
+8
+c 'word'
+0
+2
+fh
+12
+c 'fire' hob
+0
+2
+sh
+12
+c 'slow' hob
+0
+2
+rr
+13
+recite recall
+0
+1
+p
+14
+c 'slow' spell
+0
+2
+fb
+8
+c 'fire'
+0
+2
+df
+14
+drink fountain
+0

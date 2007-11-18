@@ -1,0 +1,176 @@
+#8700
+crucifix cross~
+a crucifix~
+A crucifix has been left here.~
+~
+4 1 16385 0
+14 5 5 22
+2 0 0 14
+E
+crucifix cross~
+   The crucifix has been made from gold, which has been well-polished.  It
+is obviously an item of great importance to somebody.
+~
+#8701
+keyring~
+a medium-sized key~
+A key, attatched to a keyring, has been left here.~
+~
+18 0 16385 0
+0 0 0 0
+2 0 0 0
+E
+keyring keychain~
+A tag attached to the keyring has the words, "Glass Case" stamped on it.
+~
+#8702
+gravestone tombstone headstone~
+a gravestone~
+An old, damaged gravestone slants backwards, here.~
+~
+12 0 0 0
+0 0 0 0
+0 0 0 0
+E
+gravestone tombstone headstone~
+   The gravestone stands at a strange angle, riddled with cracks.  It seems
+to be tight in the grips of strange plant matter.
+~
+#8703
+key~
+a strange key~
+A strange key has been left here.~
+~
+18 0 1 0
+0 0 0 0
+1 0 0 0
+E
+key~
+   The key is made from a piece of old, tarnished metal.    
+~
+#8704
+oversized turtles shell~
+an oversized turtle's shell~
+An oversized turtle's shell has been left here.~
+~
+9 0 9 0
+6 0 0 0
+3 30000 0 25
+E
+oversized turtles shell~
+   This turtle shell is outrageously large and looks to be capable of taking
+some abuse. It seems to be covered with small scratches.
+~
+#8705
+nunchucks~
+a pair of nunchucks~
+A pair of nunchucks have been left here.~
+~
+5 0 8193 0
+2 3 2 9
+4 10000 0 15
+#8745
+bar gold~
+a Bar of &yGold&n~
+A bar of gold has been left here.~
+~
+8 0 1 0
+0 0 0 0
+0 25000 0 0
+#8746
+bar platinum~
+a Bar of &WPlatinum&n~
+A bar of platinum has been left here.~
+~
+8 0 1 0
+0 0 0 0
+0 50000 0 0
+#8747
+chemical life giver~
+a Chemical labeled "&GL&gif&Ge &GG&gi&Gv&ge&Gr&n"~
+A small pot of a green liquid has been left here.~
+~
+10 256 16385 0
+45 28 52 28
+0 650 1 0
+#8748
+scroll dark rising~
+a Scroll called "&rD&Kar&rk R&Kisin&rg&n"~
+A dark piece of paper has been thrown away here.~
+~
+2 0 16385 0
+50 55 5 0
+0 6600 1 0
+#8749
+chemical mega~
+a Chemical labeled "&cM&ceg&ca&n"~
+Someone has left a vile of Mega here.~
+~
+10 0 16385 0
+50 57 58 1
+0 1100 1 0
+#8750
+chemical true vision~
+a Chemical labeled "&YTrue &KVision&n"~
+A bottle of True Vision has been droped here.~
+~
+10 0 16385 0
+75 18 19 20
+0 225 0 0
+#8790
+refrigerator~
+a refrigerator~
+A refrigerator stands here holding food.~
+~
+15 2 0 0
+0 0 0 0
+0 0 0 0
+#8791
+table~
+a table~
+A large oak table sits here with food on it.~
+~
+12 0 0 0
+0 0 0 0
+0 0 0 0
+#8792
+waterbed~
+a waterbed~
+A king size Water-Bed sits here waiting to be used.~
+~
+12 0 0 0
+0 0 0 0
+0 0 0 0
+#8793
+computer~
+a computer~
+An Advanced Computer System sits here being used by Bob.~
+~
+12 2 0 0
+0 0 0 0
+0 0 0 0
+#8794
+couch~
+a couch~
+A large leather couch rests here.~
+~
+12 0 0 0
+0 0 0 0
+0 0 0 0
+#8798
+sign newbie~
+a newbie sign~
+A large poster of Dallas is mounted on the wall~
+~
+16 1 0 0
+0 0 0 0
+0 0 0 0
+#8799
+bag barf puke~
+a &gB&yar&gf&n Bag ~
+A bag of barf has been dropped here.~
+~
+5 0 8193 0
+1 2 6 6
+3 25 1 0
+$~

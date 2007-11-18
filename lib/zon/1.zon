@@ -1,0 +1,12 @@
+#1
+&CBottomless Pit&n~
+<NONE!>~
+199 30 2
+M 0 100 20 102 0	(a falling person)
+M 0 100 20 101 0	(a falling person)
+M 0 100 20 119 0	(a falling person)
+M 0 100 20 103 0	(a falling person)
+R 0 200 3099 -1 0	(a bulletin board)
+O 1 3099 0 230 0	(a bulletin board)
+S
+$

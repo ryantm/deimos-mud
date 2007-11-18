@@ -1,0 +1,768 @@
+#21400
+Just Beneath the Shrine~
+   This room lies just beneath the Shrine to the Troll God Gorank, it's
+solitude is perfect for the rats that scurry the floor.  The walls are
+surprizingly a parchment white, strieked with bright yellow.  The ground here
+is circular and there is a ladder in the center of the room, it looks to be
+big enough to fit the torso of a troll.    
+~
+214 d 0
+D4
+~
+floor~
+1 0 21399
+D5
+~
+~
+0 0 21401
+S
+#21401
+On a Wooden Ladder~
+   This ladder leads downward in a straight line, entering into a massive
+troll-made cavern.  The ceiling drips with water that has soaken into the
+earth's crust, seeping through the layers of mud and finding an entrance into
+the underground troll city.  Echoing throughout the cavern goblins can be heard
+pounding away at rocks and bickering between one another.    
+~
+214 d 0
+D4
+~
+~
+0 0 21400
+D5
+~
+~
+0 0 21402
+S
+#21402
+Climbing Down a Ladder~
+   The ladder becomes more unstable and begins to waver under the weight.  
+Large sculptures of heroic trolls have been encrusted into the side of the wall
+by a skilled craftsman.  Torches light the walls all around the ladder, and
+beam like throughout the whole cavern.  You continue to descent into the
+darkness.    
+~
+214 d 0
+D0
+~
+~
+0 0 21403
+D4
+~
+~
+0 0 21401
+D5
+~
+~
+0 0 21410
+S
+#21403
+Corridor Under Construction~
+   Weak creatures are here building massive hallways and corridors for the
+mighty trolls.  Goblin-like are being forced to work by being held up by
+chains, if they were to try to run they would be massacred by trolls before
+they would reach the exit.  To the west and east there are holding sanctums for
+the creatures.    
+~
+214 d 0
+D0
+~
+~
+0 0 21404
+D1
+~
+~
+0 0 21409
+D2
+~
+~
+0 0 21402
+D3
+~
+~
+0 0 21408
+S
+#21404
+A Rough Area in the Corridor~
+   This area is still under construction.  Many goblins roam this place freely
+wielding large hammers to crush and chip their way through the corridor.  
+Banging sounds echo throughout this area and small pebbles fall from the
+ceiling of this place.    
+~
+214 0 0
+D0
+~
+~
+0 0 21405
+D1
+~
+~
+0 0 21407
+D2
+~
+~
+0 0 21403
+D3
+~
+~
+0 0 21407
+S
+#21405
+Kain and Raistlin~
+You are in an unfinished room.
+~
+214 0 0
+D1
+~
+~
+0 0 21406
+D2
+~
+~
+0 0 21404
+D3
+~
+~
+0 0 21406
+S
+#21406
+Kain and Raistlin~
+You are in an unfinished room.
+~
+214 0 0
+D1
+~
+~
+0 0 21405
+D3
+~
+~
+0 0 21405
+S
+#21407
+Kain and Raistlin~
+You are in an unfinished room.
+~
+214 0 0
+D1
+~
+~
+0 0 21404
+D3
+~
+~
+0 0 21404
+S
+#21408
+A Holding Sanctum~
+   Creatures scurry around here in the dark fearing the light.  They are
+chained up to the walls making it impossible for them to escape.  Some of them
+are trying to kill themselves but do not have the strength to lift themselves
+up.  There in only one opening to the east.    
+~
+214 d 0
+D1
+~
+~
+0 0 21403
+S
+#21409
+Jail Sanctum~
+   Creature scurry around here in the dark ramming into things making some of
+them die.  The walls are covered with little scratch marks from the
+goblinlike-creatures, trying to claw there way out of there.  The only way out
+of this putrid place is to the west.    
+~
+214 d 0
+D3
+~
+~
+0 0 21403
+S
+#21410
+Kain and Raistlin~
+You are in an unfinished room.
+~
+214 0 0
+D4
+~
+~
+0 0 21402
+S
+#21411
+Kain and Raistlin~
+You are in an unfinished room.
+~
+214 0 0
+S
+#21412
+Kain and Raistlin~
+You are in an unfinished room.
+~
+214 0 0
+S
+#21413
+Kain and Raistlin~
+You are in an unfinished room.
+~
+214 0 0
+S
+#21414
+Kain and Raistlin~
+You are in an unfinished room.
+~
+214 0 0
+S
+#21415
+Kain and Raistlin~
+You are in an unfinished room.
+~
+214 0 0
+S
+#21416
+Kain and Raistlin~
+You are in an unfinished room.
+~
+214 0 0
+S
+#21417
+Kain and Raistlin~
+You are in an unfinished room.
+~
+214 0 0
+S
+#21418
+Kain and Raistlin~
+You are in an unfinished room.
+~
+214 0 0
+S
+#21419
+Kain and Raistlin~
+You are in an unfinished room.
+~
+214 0 0
+S
+#21420
+Kain and Raistlin~
+You are in an unfinished room.
+~
+214 0 0
+S
+#21421
+Kain and Raistlin~
+You are in an unfinished room.
+~
+214 0 0
+S
+#21422
+Kain and Raistlin~
+You are in an unfinished room.
+~
+214 0 0
+S
+#21423
+Kain and Raistlin~
+You are in an unfinished room.
+~
+214 0 0
+S
+#21424
+Kain and Raistlin~
+You are in an unfinished room.
+~
+214 0 0
+S
+#21425
+Kain and Raistlin~
+You are in an unfinished room.
+~
+214 0 0
+S
+#21426
+Kain and Raistlin~
+You are in an unfinished room.
+~
+214 0 0
+S
+#21427
+Kain and Raistlin~
+You are in an unfinished room.
+~
+214 0 0
+S
+#21428
+Kain and Raistlin~
+You are in an unfinished room.
+~
+214 0 0
+S
+#21429
+Kain and Raistlin~
+You are in an unfinished room.
+~
+214 0 0
+S
+#21430
+Kain and Raistlin~
+You are in an unfinished room.
+~
+214 0 0
+S
+#21431
+Kain and Raistlin~
+You are in an unfinished room.
+~
+214 0 0
+S
+#21432
+Kain and Raistlin~
+You are in an unfinished room.
+~
+214 0 0
+S
+#21433
+Kain and Raistlin~
+You are in an unfinished room.
+~
+214 0 0
+S
+#21434
+Kain and Raistlin~
+You are in an unfinished room.
+~
+214 0 0
+S
+#21435
+Kain and Raistlin~
+You are in an unfinished room.
+~
+214 0 0
+S
+#21436
+Kain and Raistlin~
+You are in an unfinished room.
+~
+214 0 0
+S
+#21437
+Kain and Raistlin~
+You are in an unfinished room.
+~
+214 0 0
+S
+#21438
+Kain and Raistlin~
+You are in an unfinished room.
+~
+214 0 0
+S
+#21439
+Kain and Raistlin~
+You are in an unfinished room.
+~
+214 0 0
+S
+#21440
+Kain and Raistlin~
+You are in an unfinished room.
+~
+214 0 0
+S
+#21441
+Kain and Raistlin~
+You are in an unfinished room.
+~
+214 0 0
+S
+#21442
+Kain and Raistlin~
+You are in an unfinished room.
+~
+214 0 0
+S
+#21443
+Kain and Raistlin~
+You are in an unfinished room.
+~
+214 0 0
+S
+#21444
+Kain and Raistlin~
+You are in an unfinished room.
+~
+214 0 0
+S
+#21445
+Kain and Raistlin~
+You are in an unfinished room.
+~
+214 0 0
+S
+#21446
+Kain and Raistlin~
+You are in an unfinished room.
+~
+214 0 0
+S
+#21447
+Kain and Raistlin~
+You are in an unfinished room.
+~
+214 0 0
+S
+#21448
+Kain and Raistlin~
+You are in an unfinished room.
+~
+214 0 0
+S
+#21449
+Kain and Raistlin~
+You are in an unfinished room.
+~
+214 0 0
+S
+#21450
+Kain and Raistlin~
+You are in an unfinished room.
+~
+214 0 0
+S
+#21451
+Kain and Raistlin~
+You are in an unfinished room.
+~
+214 0 0
+S
+#21452
+Kain and Raistlin~
+You are in an unfinished room.
+~
+214 0 0
+S
+#21453
+Kain and Raistlin~
+You are in an unfinished room.
+~
+214 0 0
+S
+#21454
+Kain and Raistlin~
+You are in an unfinished room.
+~
+214 0 0
+S
+#21455
+Kain and Raistlin~
+You are in an unfinished room.
+~
+214 0 0
+S
+#21456
+Kain and Raistlin~
+You are in an unfinished room.
+~
+214 0 0
+S
+#21457
+Kain and Raistlin~
+You are in an unfinished room.
+~
+214 0 0
+S
+#21458
+Kain and Raistlin~
+You are in an unfinished room.
+~
+214 0 0
+S
+#21459
+Kain and Raistlin~
+You are in an unfinished room.
+~
+214 0 0
+S
+#21460
+Kain and Raistlin~
+You are in an unfinished room.
+~
+214 0 0
+S
+#21461
+Kain and Raistlin~
+You are in an unfinished room.
+~
+214 0 0
+S
+#21462
+Kain and Raistlin~
+You are in an unfinished room.
+~
+214 0 0
+S
+#21463
+Kain and Raistlin~
+You are in an unfinished room.
+~
+214 0 0
+S
+#21464
+Kain and Raistlin~
+You are in an unfinished room.
+~
+214 0 0
+S
+#21465
+Kain and Raistlin~
+You are in an unfinished room.
+~
+214 0 0
+S
+#21466
+Kain and Raistlin~
+You are in an unfinished room.
+~
+214 0 0
+S
+#21467
+Kain and Raistlin~
+You are in an unfinished room.
+~
+214 0 0
+S
+#21468
+Kain and Raistlin~
+You are in an unfinished room.
+~
+214 0 0
+S
+#21469
+Kain and Raistlin~
+You are in an unfinished room.
+~
+214 0 0
+S
+#21470
+Kain and Raistlin~
+You are in an unfinished room.
+~
+214 0 0
+S
+#21471
+Kain and Raistlin~
+You are in an unfinished room.
+~
+214 0 0
+S
+#21472
+Kain and Raistlin~
+You are in an unfinished room.
+~
+214 0 0
+S
+#21473
+Kain and Raistlin~
+You are in an unfinished room.
+~
+214 0 0
+S
+#21474
+Kain and Raistlin~
+You are in an unfinished room.
+~
+214 0 0
+S
+#21475
+Kain and Raistlin~
+You are in an unfinished room.
+~
+214 0 0
+S
+#21476
+Kain and Raistlin~
+You are in an unfinished room.
+~
+214 0 0
+S
+#21477
+Kain and Raistlin~
+You are in an unfinished room.
+~
+214 0 0
+S
+#21478
+Kain and Raistlin~
+You are in an unfinished room.
+~
+214 0 0
+S
+#21479
+Kain and Raistlin~
+You are in an unfinished room.
+~
+214 0 0
+S
+#21480
+Kain and Raistlin~
+You are in an unfinished room.
+~
+214 0 0
+S
+#21481
+Kain and Raistlin~
+You are in an unfinished room.
+~
+214 0 0
+S
+#21482
+Kain and Raistlin~
+You are in an unfinished room.
+~
+214 0 0
+S
+#21483
+Kain and Raistlin~
+You are in an unfinished room.
+~
+214 0 0
+S
+#21484
+Kain and Raistlin~
+You are in an unfinished room.
+~
+214 0 0
+S
+#21485
+Kain and Raistlin~
+You are in an unfinished room.
+~
+214 0 0
+S
+#21486
+Kain and Raistlin~
+You are in an unfinished room.
+~
+214 0 0
+S
+#21487
+Kain and Raistlin~
+You are in an unfinished room.
+~
+214 0 0
+S
+#21488
+Kain and Raistlin~
+You are in an unfinished room.
+~
+214 0 0
+S
+#21489
+Kain and Raistlin~
+You are in an unfinished room.
+~
+214 0 0
+S
+#21490
+Raist~
+You are in an unfinished room.
+~
+214 0 0
+S
+#21491
+Kain and Raistlin~
+You are in an unfinished room.
+~
+214 0 0
+S
+#21492
+Kain and Raistlin~
+You are in an unfinished room.
+~
+214 0 0
+S
+#21493
+Kain and Raistlin~
+You are in an unfinished room.
+~
+214 0 0
+S
+#21494
+Kain and Raistlin~
+You are in an unfinished room.
+~
+214 0 0
+S
+#21495
+Kain and Raistlin~
+You are in an unfinished room.
+~
+214 0 0
+S
+#21496
+Atop a Small Staircase~
+   Only the Chieftain of the tribe is allowed to be in this level of the
+temple, where it is said the spirits of past Chieftains come to visit.  Small
+stone jars are laid about the sides of the room apparently housing the ashes of
+the deceased.    
+~
+214 h 0
+D5
+~
+~
+0 0 21497
+S
+#21497
+Walking Up a Spiral Staircase~
+   The stairway is of amazing craftsmanship.  Solid stone has been cut into an
+apparent solid piece to construct a stairway leading to a small upper level
+within the domed ceiling.  To your right and left are the gaps between the
+ceiling and the edges of the wall, and a breeze of cool air blows past you.  
+
+~
+214 0 0
+D4
+~
+~
+0 0 21496
+D5
+~
+~
+0 0 21499
+S
+#21498
+A Circular Worship Area~
+   This small room has a rug enlaid with fine gold laying across it's floor.  
+A small, circular window rests in the northern wall, allowing elements of
+nature to enter the worship space.  This room is reserved for members of the
+Chieftain's Family to worship the head of their household, the Chieftain.    
+~
+214 0 0
+D3
+~
+~
+0 0 21499
+S
+#21499
+Atop a Small Dais~
+   This small dais is raised almost ten feet from the floor below.  The
+chieftain of the tribe sits here while worship takes place to ensure his
+dominance is held in check during rituals.  A small stairway leads from the
+dais to an upper chamber, and there is a door to the right with a wooden frame.
+  
+~
+214 0 0
+D1
+~
+~
+0 0 21498
+D2
+~
+~
+0 0 21599
+D4
+~
+~
+0 0 21497
+S
+$~

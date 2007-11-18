@@ -1,0 +1,952 @@
+Elendril (Jun 21) [ 4759] i think imms should be able to see those that are whoinvis
+Ockham   (Jun 21) [ 4758] make a nolocate flag
+Ockham   (Jun 23) [  230] Immortals should see it when people sneak out of a rom
+Ockham   (Jul 27) [  200] Golden chip like silver disc on meatmud
+Gryshk   (Jul 31) [  569] change the combat colors, the default yellow is confusing, there should be one color for "hits" and another color for "misses"
+Gryshk   (Jul 31) [  537] say how much mana it cost to cast a spell instead of "Okay."
+Gryshk   (Jul 31) [  534] allow prac to work while sleeping
+Gryshk   (Jul 31) [  276] reduce the amount of moves in cities, 7 moves per room seems a little high
+Gryshk   (Jul 31) [  569] dodge and parry skills
+Gryshk   (Jul 31) [  569] prolly even "deflect" and "block"
+Gryshk   (Jul 31) [  560] meditate skill for mage/cleric to regain mana faster within a tick
+Gryshk   (Jul 31) [  208] make quaff come before quest so "q potion" would work
+Gryshk   (Jul 31) [  313] autolook in room when you wake up
+Gryshk   (Jul 31) [  534] we should be able to cast blindness while in combat
+Gryshk   (Jul 31) [ 4700] when a spell wares off, something should be said
+Gryshk   (Jul 31) [ 1004] a help file saying which damage is stronger than which other
+Gryshk   (Jul 31) [  561] mage spell that creates a portal to another player and players can enter it (but fades after a few ticks)
+Gryshk   (Jul 31) [ 4733] give the warriors more skills! :P a single warrior could get REALLY bored quick
+Gryshk   (Aug  1) [ 4700] when copyover finishes, everyone should have an automatic free restore
+Gryshk   (Aug  1) [ 3941] be able to curse and poison during combat
+Gryshk   (Aug  1) [ 4713] autosac should "fail" if something is in the corpse
+Confucius (Aug 12) [ 1204] cuss channel dude ::slap::
+Nihilist (Aug 12) [  497] If a creature is bashed, it shouldn't be able to flee because of being bashed.
+Nihilist (Aug 14) [ 2707] Promoting someone else to group leader when you no longer wish to lead.
+Kaiju    (Aug 16) [  223] adding a command to see damage in numbers when fighting (spells too)
+Xess     (Aug 16) [  417] if you bash someone/something it cannot wimpy or flee until it stands up!
+Confucius (Aug 17) [ 1206] Remake Corinth
+Kaiju    (Aug 18) [ 2706] a regen spell for clerics...(maybe heals light or critical once a 'round')
+Kaiju    (Aug 18) [  810] adding elemental weaknesses in applicable monsters i.e. wood is weak against fire spells and generally making spells better i.e. novastorm
+Ockham   (Aug 21) [  713] MagicShield- Same as sanctuary cept for magic, Magic spell
+Reviewer (Aug 22) [  200] give me a flag for my title that says (Reviewer)
+Reviewer (Aug 22) [  800] Reviewers should have holylight, roomflags, and nohassle
+Reviewer (Aug 22) [  200] put white color code after prompt
+Ockham   (Aug 22) [  400] make shops work better and cleaner
+Confucius (Aug 24) [ 1204] keys go poofy
+Firrox   (Aug 26) [   50] CLAIRVOYANCE BEOTCH!
+Khazbul  (Aug 26) [ 1271] i was thinkin we put in 'rname <roomname>' to save going into redit
+Ockham   (Aug 27) [ 1204] only deities and higher should have power to edit experience and gold of mobilies
+Ockham   (Aug 27) [ 1204] make dg_script variables called actor.tlevel actor.clevel for all the differant class levels.
+Ockham   (Aug 28) [ 1204] change wizlist into a TEDIT file
+Firrox   (Aug 30) [    5] perfect dark= always dark even if you have a light
+Firrox   (Aug 30) [    5] 1 time use key flag
+Ockham   (Aug 30) [ 1204] A way to DELETE aliases!
+Ockham   (Aug 30) [ 1204] a way to view the helpfiles like tedit?
+Leviathan (Aug 31) [  281] levi
+Ockham   (Aug 31) [ 1203] write a pearl/whatever that puts a line at the end of each zonefile so you can put in zoneflags :)
+Ockham   (Aug 31) [ 1203] AFF_INVUNERABLE
+Confucius (Aug 31) [ 1274] zdelete - copyover
+Ockham   (Aug 31) [ 1205] save should save character like rent, it should also save a persons postition
+Ockham   (Aug 31) [ 1203] make look show gender
+Ockham   (Aug 31) [ 9644] tunnel shouldn't affect immortals
+Ockham   (Sep  1) [ 1224] when you die, There has to be something like "When you die you can type die to corpse"
+Wishame  (Sep  1) [ 1204] hey i think we should make a skill called trip for warrors or knights 
+Ockham   (Sep  1) [ 1205] confusion spell. makes people do random commands
+Ockham   (Sep  2) [ 8022] wholink- sees which people are on but linkdead
+Ockham   (Sep  2) [ 1204] autologon should tell you when the person is entering the game not when they have connected
+Ockham   (Sep  2) [    5] Rent like meatmud that backs up player eq for person
+Ockham   (Sep  2) [20801] Trip skill for thieves
+Confucius (Sep  2) [20800] SOMEONE ALREADY PUT IN A TRIP IDEA
+Ockham   (Sep  2) [20801] sorry
+Ockham   (Sep  2) [ 1204] reviewer channel? Like wiznet cept people with reviewer flag can use it to talk to imms
+Khazbul  (Sep  3) [  200] Bye bye.
+Ockham   (Sep  3) [ 1204] show mail, shows who has mail waiting, things like that
+Ockham   (Sep  3) [ 1204] also allows you to read mail of other people(imp only)?
+Wifidi   (Sep  8) [  290] make 'bs' an allowable abbreviation of 'backstab' :)
+Confucius (Sep  8) [  200] file
+Firrox   (Sep  9) [ 1319] in perfdark, make it "someone leaves north"... you can still see the person in the room when you look also.
+Firrox   (Sep  9) [ 9665] buffer command like "buffer line" that takes away that annoying "return to continue" line and the spaces in between but you still need to press enter
+Inverse  (Sep 11) [  291] Immortals being implemented into the game as sources for powerful high level spells that can only be cast when the imm is on
+Mirk     (Sep 13) [  270] tooth
+Mirk     (Sep 13) [  270] ring
+Ockham   (Sep 14) [22943] make a pop rate variable for objects. This is there default, what is in zedit can override that
+Ockham   (Sep 14) [22943] also when you edit their poprate in oedit it will change in zedit...
+Ockham   (Sep 14) [22943] if the poprate in zedit is 0
+Ockham   (Sep 14) [22943] or the same as the previous poprate
+Ockham   (Sep 14) [22928] A command to see all the places an object loads.
+Ockham   (Sep 15) [ 1205] set pretitle
+Kyrone   (Sep 21) [ 3908] fu
+Firrox   (Sep 21) [  304] for immortals, have "where [mob/obj] and then [level number]" to look for a certain thing in a certain zone
+Strider  (Sep 25) [  291] self
+Strider  (Sep 25) [  291] seld
+Mediocrates (Sep 25) [  291] red
+Mediocrates (Sep 25) [  276] Hire mediocrates to build here!, actually better than it sounds. :P
+Gina     (Sep 25) [  329] cleric spells group sanctuary, group recall
+Xar      (Sep 26) [ 2343] charm spell for mage :P
+Xar      (Sep 26) [ 2343] disregard previous idea
+Matzar   (Sep 26) [  287] crown
+Xar      (Sep 26) [  291] keep str spell effect cumulitive, but not the duration :P
+Xar      (Sep 27) [ 2121] change dispel magic so you can cast it during battle. with 3 rounds or 4 rounds lag
+Xar      (Sep 27) [  200] Number:       11803   [** Write this number down **]
+Firrox   (Sep 27) [ 1204] instead of the ice chamber thingy, have it so the mortal is put "in shakles" in the center agora and all his abilites are taken away including speech and movement and so on. People can throw stones at the person.
+Firrox   (Sep 27) [ 1204] my previous idea about the buffer command, beotch.
+Firrox   (Sep 27) [ 1204] yes
+Firrox   (Sep 27) [ 1204] DRUNK THINGY!
+Firrox   (Sep 27) [ 1204] a "key dissapears when used" option
+Firrox   (Sep 27) [  414] alternate thing that you can see players killing mobs in syslog
+Moron    (Sep 27) [  200] sword
+Wifidi   (Sep 27) [  200] make attack dogs that Implementors can let out to 'sick <player>' :)
+Jenny    (Sep 28) [  200] pot
+Moron    (Sep 28) [  215] sword
+Moron    (Sep 28) [  215] what does id do?  oops
+Firrox   (Sep 28) [ 1204] a "bio" command, you would do something like "bio firrox" and firrox would write a bio if he wants and then people can see it
+DarkForce (Sep 29) [  221] make some incentive for grouping with lower people
+Logos    (Sep 29) [ 1539] cause critic and such
+Matzar   (Sep 29) [  200] blood
+Ockham   (Sep 30) [ 1203] Snoop should show the players prompt
+Firrox   (Sep 30) [ 1204] the guilds have weapon proficiencies like theives with daggers and warriors with axes, clerics with swords and so on
+Mediocrates (Oct  1) [ 8007] why make mobs with det-invis and sense-life if they are not aggro??
+Ken      (Oct  1) [  200] There should be a skill called TRIP
+Anthrax  (Oct  2) [  652] float, make u unaffected by earthquake :P
+Moron    (Oct  2) [  215] spear
+Moron    (Oct  2) [  215] oops
+Ockham   (Oct  3) [ 1205] when someone quits it should display their IP
+Jenny    (Oct  3) [  200] palte
+Jenny    (Oct  3) [  200] plate
+Moron    (Oct  3) [  215] stick
+Moron    (Oct  3) [  215] argh 
+Moron    (Oct  3) [  215] sorry i keep typing id for identify, instead of whatif, so sorry again
+Jenny    (Oct  3) [  457] sword
+Nightmare (Oct  4) [ 1203] An annoy social command
+Firrox   (Oct  4) [ 1203] make something that you can program what happens when you just type enter w/out any characters. like using alias.
+Ockham   (Oct  4) [ 2803] non Imp Immortals shouldn't be able to... Load mobs outside their zone and outside their givin vnums
+Ockham   (Oct  4) [ 2803] non imp immortals shouldn't be able to.. Attack mobs, assisst mortals. Transfer people. Teleport people.
+Ockham   (Oct  4) [ 2803] ouphs, above architect should get Teleport and transfer.
+Firrox   (Oct  4) [ 1204] ImpStick: Will "Stick" anyone in that place and cannot be released with out ImpRelease, this includes immortals. this would be good for mortals who have access to immortals ;)
+Ockham   (Oct  5) [ 1204] A way to reset a zone so that everything is deleted... Like a crash cept on purpose and it doesnt' crash
+Jenny    (Oct  5) [  200] pearl
+Jenny    (Oct  5) [  258] on pear
+Janine   (Oct  6) [  260] You should impliment a commant such as "spell" that when you type it, it gives you a list of spells that you can cast so far, and their mana cost, and then like "spell all" that will tell you what spells you can cast in upcoming levels, but not givi
+Magus    (Oct  6) [ 6744] a help menu for color usage
+Vivi     (Oct  7) [  200] Make a spell or something to keep objects from being junked
+Jenny    (Oct  8) [  200] 'ring'
+Fatale   (Oct  8) [  200] I have some ideas for zones
+Lyra     (Oct  8) [ 1218] Maybe Lyra should start building again? :)
+DarkForce (Oct  9) [  200] make it so the maiden can ressurect people
+Fatale   (Oct 10) [  200] FIX BASH! I hate this super bash fighting...2 people can kill pretty much anything with bash..please fix it
+Tom      (Oct 10) [  200] clairvoyance.
+Ockham   (Oct 11) [ 1204] make bash REALLLY random
+DarkForce (Oct 11) [ 3958] when people flee make it purple
+DarkForce (Oct 11) [ 3958] when someone hits you make it red.
+DarkForce (Oct 13) [ 1003] thieves need an in combat skill
+Fatale   (Oct 13) [  296] FIX THE ANON BUG PLEASE!!!!!
+Fatale   (Oct 13) [  291] an arena would be nice
+Fatale   (Oct 13) [  291] the ability to make players stand up...assasin-asssasin only..a warrior skill maybe,...cuz you can't push if somones resting..and if there resting in a peaceful room...you can't kill em!
+Firrox   (Oct 14) [ 1203] fixtypo: imps can type something like "ftypo 'goinh' 'going
+Firrox   (Oct 14) [ 1203] oops sorry
+Firrox   (Oct 14) [ 1203] fixtypo: imps can type something like "ftypo 'goinh' 'going'" and this would change any "goinh" on anything anywhere to "going". handy for snuffing out typos
+Firrox   (Oct 14) [ 1203] invis mortals should be able to be seen by immortals
+Ockham   (Oct 14) [ 1204] Know alignment
+Ockham   (Oct 15) [ 1200] autolevel, lets you see when someone levels. Or at least something in the room so you know when people in the room level.
+Firrox   (Oct 17) [ 1204] make houses
+Moron    (Oct 17) [   50] all you immortals out there, make a thingy so you can throw stuff at other people!!!
+Fatale   (Oct 18) [  200] a bash help file
+Firrox   (Oct 23) [ 1204] at grandmaster, they get to adopt a mob and level them up and stuff, kinda like a pet. ?
+Ockham   (Oct 23) [ 1200] Personal "Colors" for when you talk it displays it in that color...  :)
+Ockham   (Oct 25) [ 1203] cuss channel
+Ockham   (Oct 26) [ 1271] embalmed bags should save.
+Fatale   (Oct 27) [  204] fix the *beep*'in mail bug!!! I just received 3 pieces of mail...and I can't read them..FIX IT 
+Ockham   (Oct 29) [ 1200] Assassin Off Feature for during Quests
+Twitch   (Oct 31) [11106] anime
+Twitch   (Oct 31) [11106] nevermind!
+Fatale   (Oct 31) [  220] A MUTE SPELL...for those hard to shutup mortals like myself
+Ockham   (Oct 31) [ 1206] Imortals should overrule AFK, SOUNDPROOF, NOTELL
+Ockham   (Nov  1) [ 1205] mail all
+Firrox   (Nov  1) [  280] for immortals only
+Ockham   (Nov  1) [ 1205] or more than one person
+Firrox   (Nov  1) [  280] that one for mortals
+Ockham   (Nov  3) [  216] advance command
+Ockham   (Nov  3) [ 1204] ICEBOX command that throws someone in the icebox. It would log when it does this also
+Sorrow   (Nov  4) [  291] h
+Raeki    (Nov  7) [  260] it tells you when you are able to level
+Raeki    (Nov  7) [  260] take off exotics whips and crap
+Raeki    (Nov  7) [  203] incorperate the new armor system!
+Raeki    (Nov  7) [  260] fix practice session #s
+Raeki    (Nov  7) [  209] make the shopkeepers actually able to sell stuff
+Ockham   (Nov  7) [ 1250] Next On Ockhams list: make GT so imms can see it
+Raeki    (Nov  7) [ 2327] TO next level, not next level
+Raeki    (Nov  7) [  260] cleric damage spells damnit!
+Raeki    (Nov  7) [  201] able to TELL mobs stuff
+Nala     (Nov  8) [  270] sword
+Tiel     (Nov  8) [  240] make Wholist sort by level
+Tiel     (Nov  8) [  200] make a quest flag that can be set on eq so it stays with you when you die
+Tribe    (Nov 12) [  200] super
+Firrox   (Nov 13) [ 1227] warrior skillz attract and detract which makes mobs attack immediately or run away 
+Firrox   (Nov 13) [ 1227] warrior skill sprint: doubles the mv points but you move by 2 rooms
+Plubos   (Nov 16) [22947] book
+Plubos   (Nov 16) [22971] create an arena where players can kill each other without reprucusion
+Firrox   (Nov 16) [ 1227] warrior skill: deathslash. only for swords, 5% chance of instantly killing the dude. level 60. like backstab. after use, frozen for 10 rounds?
+Fatale   (Nov 17) [ 9655] ok..2 spell ideas...the first, a portal spell...pretty generic...and the 2nd this mud NEEDS badly, a regain spell...a mid level or so cleric spell, which has the same properties of the regain room, but in the form of a spell...tell me why your not g
+Tribe    (Nov 17) [  200] super
+Tribe    (Nov 17) [  200] super
+Tiel     (Nov 17) [  291] Regen eq
+Confucius (Nov 18) [ 1204] bunch of small zones
+Tiel     (Nov 21) [ 1804] When a mob misses make it yellow when they hit make it red
+Tom      (Nov 21) [  200] RESSURECT SHOULD NOT BRING PEOPLE BACK TO FULL LIFE!!!!!!!!!!!!
+Ockham   (Nov 21) [  197] Assassins can't quit for an amount of time after battleing other assassins
+Pack     (Nov 22) [  200] sword
+Raeki    (Nov 22) [  971] compair: it will compair two items to eachother, saying which is better. only if they are the same though
+Ockham   (Nov 22) [ 1204] spell compare correctly.
+Stefan   (Nov 23) [ 4203] ingold
+Stefan   (Nov 23) [ 2171] stick
+Firrox   (Nov 23) [ 1599] change !RECALL to a !EXIT room meaning you cant cast any transportation spells there
+Pack     (Nov 24) [  232] shield
+Pack     (Nov 24) [  270] long
+Ockham   (Nov 24) [ 1203] a !POST plr flag that restricts people from mailing and posting on boards.
+Ockham   (Nov 24) [ 1205] EXP caps based on Level
+Tiel     (Nov 24) [ 2706] group leaders should see whate everyone gets
+Tiel     (Nov 24) [ 2726] i mean exp wise
+Tiel     (Nov 26) [ 2900] group should say if someone is apsent
+Tiel     (Nov 26) [ 2932] slow down combat pulse here.. to fast
+Fatale   (Nov 27) [ 1562] it'd be nice if there was a way to close a portal...eg: 'close portal'...and the portal shuts...that'd be really cool
+Tori     (Nov 27) [  230] close portal would be unfair, if an assassin was fleeing, the portals should stay open so they can follow them without using up any mana, one solution is have a cleric portal, everyone can enter, and a mage portal only the mage can enter and any cha
+Tori     (Nov 27) [  230] close portal continued- and any charmies the mage has, they can be ordered to enter too.
+Tiel     (Nov 27) [ 3941] LUCK stat
+Firrox   (Nov 30) [  200] give me ban. i need it to get rid of dumbasses
+Raeki    (Nov 30) [  200] command: check (mob) checks to see if the mob is there or not. kind of like tell.
+Ingold   (Dec  1) [ 9634] tribe
+Ockham   (Dec  1) [ 1203] MAKE A NO DROP FLAG that actually can't be dispelled with remove curse, and make it so nodrop doesn't affect immortals.
+Stefan   (Dec  2) [  276] super
+Tribe    (Dec  2) [ 1500] a potion for mana... say 15k for 100 points... just a though
+Ingold   (Dec  2) [  200] cowl
+Swifte   (Dec  2) [ 1204] list
+Ockham   (Dec  2) [ 1214] GodRoom flag and ImpRoom Flag and NoTeleport/Gate Flag
+Ockham   (Dec  4) [ 1206] understand should so mana and mv also
+Confucius (Dec  7) [  200] outlaw
+Cyndi    (Dec  8) [  232] ring
+Cyndi    (Dec  8) [  232] gloves
+Cyndi    (Dec  8) [  232] botts
+Cyndi    (Dec  8) [  232] boots
+Cyndi    (Dec  8) [  232] SORRY!!!!!
+Cyndi    (Dec  8) [  232] bracelet
+Cyndi    (Dec  9) [22983] cape
+Tribe    (Dec  9) [  200] some lvl 50-60 eq perhaps... Hermes.. winged hat +2dam/+3dex....  or Mother Harpy could have arm eq... harpy wings.. +3dam/+3hit... just a thought
+Cyndi    (Dec  9) [  260] ring
+Cyndi    (Dec  9) [  290] hammer
+Tori     (Dec 12) [ 8804] corpse
+Ockham   (Dec 12) [ 1200] There needs to be a plenalty for people over a certain level lose stats when they die
+TectONiC (Dec 13) [  270] tray
+Electra  (Dec 16) [ 9500] Make Titanium Thunbtack a FAST VERY_FAST weapon, oterhwise it's only slightly better than Guilded Stilleto, but costs 30 titanium chunks! :)  Leave it 5d8, since that's still well below the 8d8 titanium katana.
+Cyndi    (Dec 17) [  230] bra
+Confucius (Dec 18) [ 1203] history of gossips
+Fatale   (Dec 22) [ 1512] how about changing the rest command...I rest, and it does about the same recovery as stnading!
+Ockham   (Dec 26) [ 1200] You get intrest from the bank BUT ONLY when you are playing, It comounds Tickly... need some type of rate thing for it
+Raven    (Dec 27) [  200] spiny
+Tribe    (Dec 28) [  271] I think it would give grandmasters something to do if you could train stats up to 25 with the gold chips instead of stopping at 18
+Cleric   (Dec 31) [ 8022] Make portals 'dispel magicalbe'
+Ockham   (Jan  2) [ 1205] a copyto for room attributes not dewscription
+Matzar   (Jan  4) [  200] jingo
+Matzar   (Jan  4) [  200] jingo
+Matzar   (Jan  4) [  200] el
+Matzar   (Jan  4) [  200] el
+Vanyel   (Jan  5) [  291] Spell:: Shroud :: Mage 30something :: better armour, shorter duration, cost more than armour, ALSO:: immune to Identify and look and cant be gated to.. ;)
+Vanyel   (Jan  5) [  230] Make Anon an ability for level 20+ but as a spell.. only lasts so long LOL
+Vanyel   (Jan  5) [  291] Give 57th level magi third attack :) by TONIGHT? *giggle* PUWEEZ..
+Vanyel   (Jan  6) [  200] An amulet that gives your cast spells.. double duration.. amulet of protection
+Firrox   (Jan  6) [  200] the "return to continue" thing should have an option to take it away and just make the segments put together
+Vanyel   (Jan  6) [ 2002] WE really would like a spell to keep people from gating to us.. and such.. and locating us.. *sigh* 
+Vanyel   (Jan  7) [ 2803] Why is the Gold requirement MORE than the exp formulticlass.. wow
+Vanyel   (Jan  7) [  200] Prime Mages (60th) enchane better.. +3 +3 possibly more?
+Vanyel   (Jan  7) [  271] Mage Spell :: Ockahm's Razor Level :: 55 (ish)
+Vanyel   (Jan  7) [  271] crap.. goes on board..
+Vanyel   (Jan  7) [  200] not let title change until char is like.. 15th level or such ;)
+Tori     (Jan  7) [ 2476] heart
+Tori     (Jan  7) [  200] sack
+Elizabeth (Jan  8) [  214] poker
+Matzar   (Jan 10) [  291] b
+Mobius   (Jan 10) [ 1200] egg
+Mobius   (Jan 10) [ 1200] augh sorry
+Firrox   (Jan 16) [ 1203] SNOW, BITCH!
+Nix      (Jan 17) [  232] cape
+Firrox   (Jan 17) [ 1227] make float give some properties like +1hit
+Firrox   (Jan 17) [ 1227] MORE SNOW!
+Firrox   (Jan 17) [ 1227] instant-aggression... for no apparent reason
+Ockham   (Jan 17) [ 1200] I think I did this already... Be able to mail gold
+Nix      (Jan 21) [  298] dagger
+Nix      (Jan 21) [  674] staff
+Blaze    (Jan 26) [  200] helm
+Blaze    (Jan 26) [  200] dwa
+Ockham   (Jan 27) [ 1203] MeatMUD's Transient thingy
+Ockham   (Jan 28) [ 1205] regen eq
+Ockham   (Jan 29) [ 1205] nodonate should just make it so you can't donate something... not delete it
+Rainmaker (Feb  6) [  200] sa
+Haan     (Feb 14) [  270] tray
+Ockham   (Feb 16) [ 1200] make our log log extraordinary things, like damage... stats, hitroll/damroll... tons of one item. and so on.
+Ockham   (Feb 18) [ 1204] ask for player's e-mail at creation for password retrieval.
+Confucius (Feb 18) [ 2000] armor affects spell success
+Confucius (Feb 18) [ 2000] weapon spells
+Mith     (Feb 24) [ 1035] ring
+Mith     (Feb 24) [  258] boots
+Mith     (Feb 24) [  208] sting
+Stirge   (Feb 24) [  342] set without arguments list all things possible for immortal of your level to set
+Stirge   (Feb 25) [ 3100] make it so immorts can receive/check/send mail from any room
+Thor     (Apr 17) [  200] orn
+Paylay   (Apr 19) [  200] breast
+Paylay   (Apr 20) [  200] jar
+Mobius   (Apr 20) [ 1204] hey bozos the typo file is full!
+Stayge   (Apr 21) [  210] one
+Rainmaker (Apr 21) [  210] claw
+Ockham   (Apr 22) [ 1204] Make the mud request your E-Mail address in case you want to be on a mailing list - Make it optional.
+Raeki    (Apr 27) [  414] spell list command that shows what you can cast right now
+Trowan   (Apr 28) [  200] do
+Ingold   (May  1) [  210] red
+Julan    (May  1) [  217] me
+Bucko    (May  1) [23237] you guys need more eq in this game... i very rarely come accross anything. I'm level 20 and i'm still wearing A LOT of newbie eq
+Julan    (May  3) [  214] shawl
+Mobius   (May  4) [  200] hey, the typo file is full!!
+Julan    (May  6) [ 1020] locker
+Hallia   (May  7) [  492] bino
+Julan    (May  8) [  200] blood
+Bucko    (May 10) [  501] it would be nice to be able to blind mobs while fighting
+Storji   (May 11) [  200] dagger
+Julan    (May 12) [  200] emer
+Faction  (May 18) [  104] the thiefs should be able to kneecap, which would be very similar to bash
+Julan    (May 22) [22903] wang
+Mith     (May 24) [22927] hammer
+Mith     (May 24) [  200] lamp
+Stan     (May 25) [  232] 16
+Julan    (May 31) [ 1109] whis
+Bucko    (Jun  2) [  291] gold mallet should be fast...
+Apollo   (Jun 13) [  200] elen
+Apollo   (Jun 14) [  202] fido
+Cid      (Jun 14) [  270] boot
+Bucko    (Jun 14) [  898] give mages word of recall
+Tribe    (Jun 17) [ 2595] The carpenter only has 1 hitpoint and he gives you a 6D4 weapon +3 dam?
+Ashbury  (Jun 18) [  818] gui
+Ashbury  (Jun 18) [  818] gui
+Trowan   (Jun 21) [ 2547] po
+Trowan   (Jun 21) [ 2547] popuri
+Bucko    (Jun 22) [  200] smart mobs pleeze - too easy when mobs dont cast
+Apollo   (Jun 27) [  200] vanyel
+Apollo   (Jun 27) [22927] razor
+Wedge    (Jun 28) [ 3407] ton
+Draygon  (Jun 29) [ 1513] sickle
+Draygon  (Jul  1) [ 3947] cloak
+Draygon  (Jul  2) [ 2595] axe
+Dash     (Jul  5) [  291] Spelling mistake in first room of zone 3400
+Lief     (Jul  5) [  202] shield
+Drake    (Jul  7) [  200] test
+Drake    (Jul  7) [  200] heh
+Bucko    (Jul  7) [ 3482] hop social....
+Ingold   (Jul  9) [ 1513] stale
+Xenozyre (Jul 10) [  200] Stop Spoon from being an idiot.
+Lief     (Jul 10) [ 1513] hrunt
+Trowan   (Jul 11) [  200] eag
+Tical    (Jul 15) [  232] necklace
+Homer    (Jul 16) [  270] sting
+Homer    (Jul 16) [  291] mace
+Mith     (Jul 16) [  200] ring
+Mith     (Jul 18) [ 3579] trinaing
+Mal      (Jul 19) [ 3490] me
+Confucius (Jul 19) [ 3134] see when people enter gate
+Mal      (Jul 19) [  200] cry
+Confucius (Jul 20) [ 1206] cyan battle prompt
+Confucius (Jul 21) [ 1203] staff
+Trowan   (Jul 22) [  200] hammer
+Jingo    (Jul 22) [  235] copy
+Jingo    (Jul 22) [  235] phob
+Jingo    (Jul 22) [  235] her
+Trowan   (Jul 23) [  230] eag
+Storji   (Jul 23) [  200] yoda
+Storji   (Jul 23) [  200] guil
+Storji   (Jul 23) [  200] dag
+Stan     (Jul 24) [  232] 2.boots
+Apollo   (Jul 24) [ 3402] hahaha...
+Apollo   (Jul 24) [ 3402] can you hear this drake?
+Lief     (Jul 26) [  200] phantom
+Storji   (Jul 26) [  561] tail
+Storji   (Jul 26) [  200] shirt
+Mith     (Jul 30) [ 3440] cap
+Tiel     (Jul 30) [22949] make it so ressurection can fail
+Tiel     (Jul 30) [  291] gjob is way to short
+Tiel     (Jul 30) [  291] pushable corpses
+Ockham   (Jul 31) [ 1205] make Hitroll matter more
+Dedsune  (Jul 31) [  200] talis
+Hazard   (Aug  2) [ 3352] belt
+Ockham   (Aug  7) [ 1205] make dieing cost more exp
+Aragorn  (Aug  8) [ 1110] look into the room through portal
+Drake    (Aug 12) [ 1204] BERSERK
+Drake    (Aug 14) [ 8485] Ban Wedge.
+Wedge    (Aug 14) [ 1204] fuck you
+Drake    (Aug 14) [ 8485] Put Apollo in Ice Box
+Wedge    (Aug 14) [ 1204] fuck Drake
+Drake    (Aug 14) [ 8485] Freeze Magus
+HBoboli  (Aug 16) [  200] key
+HBoboli  (Aug 16) [  200] mod
+HBoboli  (Aug 16) [  200] bag
+HBoboli  (Aug 16) [  200] obs
+HBoboli  (Aug 16) [  200] brass
+Chaos    (Aug 16) [  214] sle
+HBoboli  (Aug 17) [  200] phant
+HBoboli  (Aug 17) [  200] armor
+Aragorn  (Aug 21) [  200] skills for primary warrior and thief heroes
+Leto     (Aug 21) [  208] shi
+Stan     (Aug 21) [  204] promote fehitz
+Devex    (Aug 21) [  243] pot
+Drake    (Aug 22) [ 9800] Ban Wedge again.
+Wedge    (Aug 22) [ 3496] ban Drake's mom
+Drake    (Aug 22) [ 9800] Beat this crap outta Wedge, then ban him and his mom. Then make his sister an implementor.
+Drake    (Aug 23) [ 9806] Ban Wedge
+Drake    (Aug 23) [ 9806] Ban Wedge again
+Drake    (Aug 23) [ 9806] Ban Apollo
+Drake    (Aug 23) [ 9806] Ban Magus
+Drake    (Aug 23) [ 9806] Ban Magus
+Drake    (Aug 23) [ 9806] Ban Cid
+Magus    (Aug 23) [ 1510] Drake is an idiot.
+Drake    (Aug 23) [ 9806] Sometimes, yes.
+Dreadnought (Aug 23) [ 4628] prime thieves should get some kind of bonus when it comes to backstabbing, like doing 150 or 125 a stab
+Dreadnought (Aug 23) [ 4642] warriors should learned second attack at 20 not 25, because thieves get backstabbing at 20, so warriors should get their main thing just as early
+Quietus  (Aug 23) [ 1203] restrict the number of ideas somebody can have.
+Drake    (Aug 23) [ 9824] Spam Drake
+Magus    (Aug 23) [ 4670] DUR, BAN WEDGE, DUR
+Tribe    (Aug 28) [  230] guard
+Hazard   (Sep  5) [24030] There should be a max of charmed mobs a person could have.  Prolly make the max of the main class be 2, the max of the other classes be 1
+Mobius   (Sep  6) [  200] jecht
+Mobius   (Sep  6) [  200] dang it i keep typing id for "identify"...
+Kraken   (Sep  8) [  209] flail
+Spoon    (Sep 13) [  200] a weapon thats !thief !warrior
+Spoon    (Sep 13) [  200] for foot gear: Achielles Tendon..maybe expand Mt. olympus, and make a greek mythology zone...
+Spoon    (Sep 13) [  647] is this bugged?
+Dreadnought (Sep 14) [  231] make jerome killable
+Kraken   (Sep 15) [ 1514] I seem to be trapped.
+Kraken   (Sep 15) [ 1514] put an exit in the sparring arena!
+Dreadnought (Sep 15) [  200] make jerome an aggro mob, MUWAHAHAHA!!!
+Dreadnought (Sep 16) [  200] is it possible to turn up the frequency of gold chips? because i havent seen one in 3 months, i might be just unlucky though
+Larkin   (Sep 24) [ 4801] cutlass
+Terror   (Sep 24) [  260] terror
+Magus    (Oct 13) [  200] Six Flags rocks!
+Hayato   (Oct 13) [  298] gavel
+Quietus  (Oct 22) [  200] apollo
+Quietus  (Oct 22) [  200] sorry
+Apollo   (Oct 23) [  200] if during an assassin battle you lose your link, you are automatically put in void while attacked. Thats just cheap.
+Magus    (Oct 25) [  637] we need to be able to see in corpses!!
+Bikita   (Oct 27) [  569] locker
+Apollo   (Oct 28) [  271] ban Drake
+Jake     (Nov  4) [  214] do
+Spoon    (Nov  5) [  291] terror
+Jake     (Nov  5) [  214] lan
+Drake    (Nov  5) [ 6795] lan
+Drake    (Nov  5) [ 6795] heh
+Spoon    (Nov  9) [  647] staff
+Spoon    (Nov 11) [ 1820] for a thief skill: Prowl-this will enable a thief to come into a room undected
+Morpheus (Nov 13) [  223] map
+Spoon    (Nov 16) [  200] i would like for people to be able to see my horse
+Spoon    (Nov 16) [  291] the float discription is stupid
+Spoon    (Nov 16) [ 2457] having a channel that allows you to talk with someone that is your same guild....
+Spoon    (Nov 16) [  291] back on my guild say idea...thief say, warrior say, mage say, cleric say....
+Magus    (Nov 17) [ 4841] fix battle message bug
+Spoon    (Nov 22) [  200] viper
+Ithia    (Nov 26) [  208] stone
+Ithia    (Nov 27) [  202] staff
+Tribe    (Dec  1) [  270] wrist
+Wedge    (Dec 18) [ 4500] raz
+Magus    (Dec 18) [ 3421] a kill count (how many mobs killed) and a death count (how many times you have died) on the scoresheet
+Magus    (Dec 18) [ 4681] what sword, the katana?
+Magus    (Dec 18) [ 4681] you are afk
+Apollo   (Dec 18) [  271] kat
+Jake     (Dec 19) [  214] hrut
+Serra    (Dec 20) [  214] tra
+Wedge    (Dec 21) [  287] jerome
+Quietus  (Dec 21) [ 2299] gandolf
+Quietus  (Dec 21) [ 2299] ignore that
+Jake     (Dec 22) [  258] ramel
+Rainmaker (Dec 25) [  258] book
+Apollo   (Dec 26) [  200] pay
+Zyre     (Dec 26) [  200] Ban Wedge
+Zyre     (Dec 26) [ 1204] Ban Wedge AGAIN!
+Zyre     (Dec 26) [ 1204] Make gay level one Haff mob
+Apollo   (Dec 27) [  200] it would be helpful if a message would alert you of magic shroud wearing off like other spells
+Achielles (Dec 29) [  215] black
+Kragan   (Dec 30) [  223] ring
+Matzar   (Dec 31) [ 3593] large
+Mustard  (Jan  4) [ 4200] the forest path description. "THe path is...." just thought you guys wanted to know
+Spoon    (Jan  4) [ 9211] make horses visible to ALL mortals
+Apollo   (Jan  5) [ 1512] update the grandmaster's hangout plaque
+Apollo   (Jan  5) [ 9219] give GMs the pretitle command :D
+Mustard  (Jan  5) [ 4301] vamb
+Xenozyre (Jan  7) [  200] fig
+Goshawk  (Jan  7) [ 2716] steel
+Hazard   (Jan 10) [24171] dirk
+Matzar   (Jan 19) [ 1513] fury
+Matzar   (Jan 20) [ 9228] fury
+Bob      (Jan 20) [  200] gen
+Spoon    (Jan 21) [ 2357] hammer
+Cid      (Jan 21) [  230] one
+APECS    (Jan 22) [  208] skin
+Spoon    (Jan 23) [ 9207] Mana Drain. Assassian only.
+Matzar   (Jan 24) [ 9619] corpse
+Mustard  (Jan 25) [ 4346] Leach health...i think you can figure out what that means
+Matzar   (Jan 25) [  200] cloak
+OverLord (Jan 26) [  200] claw
+Xenozyre (Jan 26) [ 9209] RACIEST flag
+Nod      (Jan 27) [  232] co
+Morphius (Jan 28) [  296] jedi
+Crimson  (Feb  1) [  200] masa
+Dreadnought (Feb  2) [  291] either make concentration better or make less mobs that dispell
+Zyre     (Feb  3) [30000] cloak
+Zyre     (Feb  3) [30000] d'oh
+Wedge    (Feb  3) [ 1204] kill zyre
+Zyre     (Feb  3) [30000] Let Hazard pay the extra $80 to upgrade the mud.
+Wedge    (Feb  3) [ 1204] make confucius do something
+Ockham   (Feb  3) [ 1204] Ockham isn't going to base his mud off some guy that lives far away
+Zyre     (Feb  3) [30000] Agree with Ockham.
+Morthis  (Feb  4) [  209] small
+Morthis  (Feb  4) [  209] small
+Morthis  (Feb  4) [  209] small
+Morthis  (Feb  4) [  209] small
+Morthis  (Feb  4) [  209] small
+Magus    (Feb  4) [ 9225] GM PRETITLES SUCK
+Morthis  (Feb  5) [  270] pea
+Wedge    (Feb  7) [ 1203] take away the charm person spell
+Optical  (Feb 12) [ 9209] Salute for a social
+Mith     (Feb 13) [  200] hrunting
+Czaplack (Feb 13) [  214] tia
+Czaplack (Feb 13) [  214] love
+Optical  (Feb 14) [ 8450] self Resurection
+Optical  (Feb 14) [ 8450] Distance Heal...able to heal people not in the same room, but in the same zone...
+Optical  (Feb 14) [  200] hes an idiot
+Heathen  (Feb 21) [  200] hrunting
+Heathen  (Feb 21) [  200] stolen
+Spoon    (Feb 21) [  230] <shove> as a social
+Optical  (Feb 21) [ 9845] have Salute as a Social
+Optical  (Feb 21) [ 9845] Shove
+Optical  (Feb 21) [ 9231] let optical have his title back
+Zyre     (Mar  2) [ 1204] Get Wedge some deoderant
+Wedge    (Mar  2) [ 1204] nod
+Hazard   (Mar  2) [ 1203] Give Zyre a condom so he doesn't contract an STD from Wedge's Ass...
+Wedge    (Mar  2) [ 1204] HEY
+Wedge    (Mar  2) [ 1204] I'M DISEASE FREE
+Dreadnought (Mar  2) [  291] make energy drain actually drain and transfer hp
+Zidane   (Mar 12) [  200] make a new shop in Rulek to sell sanc potions and ambrosia's.
+Optical  (Mar 13) [  200] space
+Optical  (Mar 13) [ 9200] You can't push anybody while is lying on the ground...i pushed a noble aristocrat at the entrance to pokemon...hmmm
+Dragonhunter (Mar 16) [  230] off
+Zidane   (Mar 17) [ 9228] open up the shop in Rulek that sells sanc potions.
+Optical  (Mar 19) [  200] Do something with Cows!!!i love that zone, and would like to see maybe more mobs or more gruff cows....
+Zyre     (Mar 19) [30000] Upgrade memory
+Optical  (Mar 19) [ 9216] make a !teleport spell...terror is teleporting me...i hate that fag
+Zidane   (Mar 21) [ 2539] make the fishing rod so when you look at it, explains how to fish.
+Dreadnought (Mar 25) [ 1823] ock
+Maverick (Mar 27) [  291] dumsomi
+Zidane   (Apr  1) [ 9849] Critical Hit for a skill....
+Zidane   (Apr  1) [  200] Flex social
+Zidane   (Apr  8) [ 9202] make a command for those romantically involved to automatically teleport to their beloved.
+Zidane   (Apr  8) [ 9229] corpse recovery system....very very expensive (expensive enough where you'd try very hard to retrieve your corpse first)
+Zidane   (Apr  8) [ 9202] code it in, where the mud creates a rent file for anyone on the mud (automatic, every 5-10 minutes or so)
+Lucky    (Apr  9) [ 9223] sceptre
+Kiyamvir (Apr 12) [  270] hat
+Terror   (Apr 13) [  230] belt
+Zidane   (Apr 14) [ 9227] put it back where we see the total xp from the group....You receive 557424 experience out of the groups 1.7 million....
+Zidane   (Apr 14) [ 9215] circle for thieves....
+Lucky    (Apr 14) [  298] breast
+Lucky    (Apr 14) [  298] plate
+Lucky    (Apr 14) [  298] sorry....
+Lucky    (Apr 14) [  298] charm
+Lucky    (Apr 16) [ 9235] orb
+Lucky    (Apr 17) [ 5948] caramon
+Zidane   (Apr 21) [  200] make several spots where you can fish.
+Zidane   (Apr 21) [  462] I noticed that mobs have diety's as well. Perhaps make some diety's opposed to others, and if you are attacking a mob of opposite or warring deity's then you do bonus damage, and if you attack those of similiar deity's then you're damage is lessened
+Zidane   (Apr 23) [ 9204] make it so you know who's scrying where you are.....ie. Terror peers into your mind for a second.
+Zidane   (Apr 24) [ 9220] once you reach Maximum Experience points, all xperience points you gain will double or triple the amount of gold you receive per kill.
+Zidane   (Apr 26) [  538] Make it so that you can turn off and on the ability for someone else to push you. For It's annoying when you are idling and someone pushes you somewhere to kill you.
+Zidane   (Apr 27) [  457] Make the fountain milk if you have all those cookies there.
+Zyre     (Apr 27) [10008] Buy Zyre a new watch
+Zyre     (Apr 27) [10008] Buy Save the Homeland!
+Zyre     (Apr 27) [10008] ...for PS2!
+Wedge    (Apr 27) [ 1204] something
+Zyre     (Apr 27) [10008] Havest Moon!
+Zyre     (Apr 27) [10008] Ban Wedge
+Wedge    (Apr 27) [ 1204] we should just use this as an imm channel
+Zyre     (Apr 27) [10008] k
+Wedge    (Apr 27) [ 1204] then ockham will have a huge log of conversations and a useless idea command
+Zyre     (Apr 27) [10008] hehe
+Zyre     (Apr 27) [10008] This one time during music theory, some kids were talking about the toy car thing in Jackass...
+Zyre     (Apr 27) [10008] ...and this girl kept on telling them to stop and they didn't so she ran outta the room!
+Wedge    (Apr 27) [ 1204] hahaha!
+Wedge    (Apr 27) [ 1204] did she BARF?!
+Zyre     (Apr 27) [10008] Jack thinks he's gonna get FAQed on Friday!
+Zyre     (Apr 27) [10008] No
+Wedge    (Apr 27) [ 1204] hahha
+Zyre     (Apr 27) [10008] But I wish she did.
+Wedge    (Apr 27) [ 1204] friday is prom right?
+Wedge    (Apr 27) [ 1204] for us anyway
+Zyre     (Apr 27) [10008] yup
+Zyre     (Apr 27) [10008] Me, too
+Wedge    (Apr 27) [ 1204] hehe, i don't even know what day it is
+Zyre     (Apr 27) [10008] I'm not going.
+Zyre     (Apr 27) [10008] I'm gonna sit in my room and write FAQs
+Wedge    (Apr 27) [ 1204] i'm not going either, but i don't know what i'll be doing
+Zyre     (Apr 27) [10008] Actually I'll be working
+Wedge    (Apr 27) [ 1204] ah
+Zyre     (Apr 27) [10008] So did you find out who Jack's FAQing bitch is?
+Wedge    (Apr 27) [ 1204] yes, i knew who she was
+Zyre     (Apr 27) [10008] Is she hot?
+Zyre     (Apr 27) [10008] How large are her breasts?
+Wedge    (Apr 27) [ 1204] she's ok, i guess
+Zyre     (Apr 27) [10008] Is her vagina pretty?
+Zyre     (Apr 27) [10008] Nice ass?
+Zyre     (Apr 27) [10008] Did she finish her english homework?
+Wedge    (Apr 27) [ 1204] i dunno, i'll give you her e-mail address and you can ask her
+Wedge    (Apr 27) [ 1204] if i knew her e-mail address
+Zyre     (Apr 27) [10008] Cause I didn't.
+Zyre     (Apr 27) [10008] hehe
+Zyre     (Apr 27) [10008] Ya know what's good?
+Zyre     (Apr 27) [10008] Sax on the beach
+Wedge    (Apr 27) [ 1204] sax?
+Zyre     (Apr 27) [10008] Actually I was going to say microwaved peeps on a rice crispy treat.
+Zyre     (Apr 27) [10008] Yes
+Zyre     (Apr 27) [10008] Sax
+Wedge    (Apr 27) [ 1204] "Very good, keep thrusting."  - Orca
+Zyre     (Apr 27) [10008] Hahahah!
+Zyre     (Apr 27) [10008] "Pelvic thrusts!" - Spongebob Squarepants
+Wedge    (Apr 27) [ 1204] hehe
+Wedge    (Apr 27) [ 1204] that episode was on the plane on the way to florida!
+Wedge    (Apr 27) [ 1204] the bubble one!
+Zyre     (Apr 27) [10008] hehe
+Zyre     (Apr 27) [10008] cool
+Zyre     (Apr 27) [10008] Oh man, Ockham's gonna be pissed when he checks out the idea logs!!
+Wedge    (Apr 27) [ 1204] I bet he is!
+Wedge    (Apr 27) [ 1204] &RBLEED DEATH!!
+Zyre     (Apr 27) [10008] bye
+Wedge    (Apr 28) [ 1204] - the WCB social. WCB = Warm Coke Burp. It rattles the ground!
+Hawk     (Apr 30) [ 1513] cload
+Zidane   (May 17) [  276] Make it so the bank has a slight interest rate if there is money in the bank.
+Dragonhunter (May 24) [  227] long
+Dragonhunter (May 24) [  227] rob
+Dragonhunter (May 24) [  209] long
+Viper    (May 28) [  105] coin
+Iad      (May 28) [ 1034] bronze
+Krixen   (May 30) [  200] haste spell: gives one extra attack for 1 round, lags for 2 rounds
+Iad      (Jun  5) [  535] ikar
+Iad      (Jun  5) [  200] stil
+Iad      (Jun  5) [  200] guild
+Zyre     (Jun  5) [ 1204] GMs should be able to change the color of their levels, like how mine was red before
+Zidane   (Jun  6) [ 1513] allow us to purchase practice sessions from some mob....
+Zayl     (Jun  7) [  209] oaken
+Mal      (Jun  8) [ 1513] gavel
+Mal      (Jun  8) [ 2539] glass
+Moron    (Jun 13) [ 9097] swrod
+Mal      (Jun 16) [  214] orb
+Mal      (Jun 16) [  291] tit
+Ri       (Jun 17) [ 4000] the final bracket in "[ Exits: None! ]" should have a colorcode before it
+Ri       (Jun 17) [ 4000] help file for "anonymous"
+Ri       (Jun 17) [ 4001] when 'afk' is enabled, have 'AFK>' or something before prompt.
+Jingo    (Jun 18) [  207] gavel
+Mal      (Jun 18) [  200] dread
+Ri       (Jun 20) [ 4003] extended autoexit command ('autoexit2', 'autoexitext', something like that,) automatically show the names of the rooms (like 'exit' command, only automatically.)
+Optical  (Jun 20) [24220] CONNECT ROBIN HOOD ZONE!!!!
+Mal      (Jun 20) [  291] gavel
+Guilneas (Jun 20) [ 2865] gaunt
+Mal      (Jun 21) [ 2403] butter
+Kal      (Jun 21) [ 1513] belt
+Alleous  (Jun 22) [  200] du
+Alleous  (Jun 22) [  200] light
+Jingo    (Jun 22) [  200] bandit
+Alleous  (Jun 22) [  200] ba
+Kal      (Jun 23) [  255] co
+Alleous  (Jun 24) [  279] key
+Jingo    (Jun 24) [  255] horse
+Jingo    (Jun 25) [  200] steal
+Alleous  (Jun 25) [  561] cle
+Alleous  (Jun 25) [  200] dirk
+Gandalf  (Jun 28) [ 1540] judge
+Vanyel   (Jun 29) [  329] kat
+Alleous  (Jun 29) [ 4560] som
+Damtrios (Jun 29) [ 6839] wee
+Alleous  (Jun 29) [ 9200] kal
+Taren    (Jul  1) [  209] pot
+Vanyel   (Jul  2) [ 1806] key
+APECS    (Jul  4) [  200] kat
+Zidane   (Jul  4) [ 9210] brew....for potions
+Raziel   (Jul  4) [  200] masa
+Raziel   (Jul  4) [  200] masamu
+Moron    (Jul  7) [  268] maybe this room should be !mob
+Gandalf  (Jul  7) [  503] khro
+Dave     (Jul  8) [  214] so
+Thereisnospoon (Jul 11) [  223] rolex
+Kara     (Jul 11) [ 3491] lan
+Kara     (Jul 13) [  200] tag
+Kara     (Jul 13) [  200] kri
+Jehuty   (Jul 15) [  200] tag
+Jehuty   (Jul 16) [  200] ring
+Jehuty   (Jul 16) [  203] cler
+Gattsu   (Jul 16) [  214] work
+Gattsu   (Jul 16) [  200] rolex
+Gattsu   (Jul 17) [  258] long
+Gattsu   (Jul 17) [  258] kata
+Gattsu   (Jul 17) [  200] ornate
+Apollo   (Jul 17) [  291] kill zyre
+Jifi     (Jul 19) [  250] sword
+Lucky    (Jul 19) [  233] #6
+Zyre     (Jul 21) [ 1203] I shall no longer be an immature fool on Deimos Mud!
+Mogi     (Jul 21) [ 1203] yeah right
+Zyre     (Jul 21) [ 1203] Free ice cream on Tuesdays.
+Mogi     (Jul 21) [ 1203] money for all
+Mith     (Jul 22) [  200] dirk
+Confucius (Jul 23) [ 1204] breast
+APECS    (Jul 24) [  200] mat
+Apollo   (Jul 24) [ 6719] or we could use this channel!
+Lucky    (Jul 24) [ 1552] tin
+Confucius (Jul 27) [  200] scroll
+Kara     (Jul 29) [  200] robe
+Megha    (Jul 29) [ 9092] give newbies some food and water when they are created.
+Megha    (Jul 29) [ 9092] if a help file is only one page why is there a need to have the "Return to continue, (q)uit, (r)efresh, (b)ack, or page number (1/2) ]Valid ..."
+Megha    (Jul 29) [  200] have food on corpses?
+Sodrod   (Jul 31) [  200] lighttsaber
+Sodrod   (Jul 31) [  200] helm
+Kara     (Aug  2) [  200] dras
+Wedge    (Aug  3) [ 1204] kill Kal
+Larkin   (Aug  8) [  200] raz
+Larkin   (Aug  8) [  200] razor
+Thorne   (Aug 10) [  200] on
+Xenozyre (Aug 10) [ 1512] FUCK channel
+Xenozyre (Aug 10) [ 1512] FUCK channel
+Xenozyre (Aug 10) [ 1512] FUCK channel
+Xenozyre (Aug 10) [ 1512] FUCK channel
+Xenozyre (Aug 10) [ 1512] FUCK channel
+Stabber  (Aug 11) [  202] gren
+Nesper   (Aug 12) [23056] some help files on choosing a deity to follow would be good
+Nesper   (Aug 12) [23056] some help files on economy, fishing, woodchopping etc.. would be handy
+Nesper   (Aug 16) [  208] spoon
+Nesper   (Aug 16) [  208] opps
+Talance  (Aug 21) [ 9089] bra
+Talance  (Aug 21) [  258] blub
+Talance  (Aug 21) [  258] g
+Wedge    (Aug 22) [ 1204] cloak
+Wedge    (Aug 22) [ 1204] son of a bitchg
+Sodrod   (Aug 23) [ 6880] teddy bear
+Sodrod   (Aug 23) [ 6880] bear
+Sodrod   (Aug 23) [ 6880] f
+Rift     (Aug 24) [  205] belt
+Sodrod   (Sep  1) [  200] materia
+Sodrod   (Sep  1) [  200] fire materia
+Sodrod   (Sep  1) [  260] hbob
+Crapozyre (Sep  2) [  200] suicide command
+Ghaz     (Sep  7) [  270] walk
+Darkenrahl (Sep  7) [  200] sash
+Darkenrahl (Sep  7) [  200] sash
+Sodrod   (Sep  8) [ 2539] glove
+Sodrod   (Sep  8) [ 2539] gloves
+Sodrod   (Sep  8) [ 2539] gloves
+Mystique (Sep  8) [  200] blade
+Sodrod   (Sep 14) [  203] eagle
+Sodrod   (Sep 14) [  203] eagle
+Optical  (Sep 22) [  200] Salute as a social
+Methodman (Sep 24) [  214] hat
+Methodman (Sep 24) [  214] pilot
+Pippen   (Sep 28) [  232] work
+Czaplak  (Sep 29) [ 9236] i shouldnt lose my concentration when i only know ONE SPELL!
+Equus    (Oct  3) [ 2709] katana
+Saibas   (Oct 11) [  200] gat
+Saibas   (Oct 11) [ 6747] dark
+Saibas   (Oct 13) [  200] drag
+Mystique (Oct 18) [  276] ring
+Mystique (Oct 18) [  276] mace
+Mystique (Oct 20) [ 2539] hoe
+Nelozyre (Oct 21) [  200] robe
+Mystique (Oct 23) [ 2539] brace
+Serdious (Oct 25) [  209] 2
+Saibas   (Oct 26) [  214] cloak
+Zyre     (Oct 31) [  270] sony
+Zyre     (Oct 31) [  270] oops
+Zeddic   (Oct 31) [  200] mane
+Zeddic   (Nov  1) [  202] apec
+Zeddic   (Nov  2) [  200] jake
+Zeddic   (Nov  4) [  200] sai
+Zeddic   (Nov  7) [  200] jak
+Ery      (Nov  8) [  207] jingo
+Zeddic   (Nov  8) [  214] wiz
+Zyre     (Nov 14) [ 1204] Have a message be shown when someone is muted so they know they have been muted. Something along the lines of...I dunno....&RYou have been MUTED!!&n
+Zyre     (Nov 17) [ 1204] Make poofin/outs like the ones on Deimos II, if you know what's good for ya.
+Xenozyre (Nov 27) [ 1541] ASIAN flag: infinate int
+UnCola   (Nov 30) [  233] raZ
+UnCola   (Nov 30) [  233] raz
+UnCola   (Nov 30) [  233] ock
+UnCola   (Nov 30) [  206] ock
+UnCola   (Nov 30) [  200] ock
+UnCola   (Nov 30) [  200] razor
+UnCola   (Nov 30) [  200] razor
+UnCola   (Nov 30) [  200] razor
+UnCola   (Nov 30) [  200] ockham's
+UnCola   (Nov 30) [  200] belt
+UnCola   (Dec  1) [  200] cowl
+UnCola   (Dec  1) [  200] hi
+Kara     (Dec  1) [  200] gannon
+Kara     (Dec  2) [  200] tan
+GaNnoN   (Dec  2) [  209] Guild trials
+UnCola   (Dec  2) [  200] self
+GloC     (Dec  5) [  200] mor
+Maraxus  (Dec 10) [  200] implement a rock-paper-scissors game!
+UnCola   (Dec 19) [ 1542] super
+SodiumFree (Dec 22) [ 4307] ring
+Magnum   (Jan 18) [  200] cloak
+Zyrik    (Jan 18) [  214] neck
+Zyrik    (Jan 18) [  214] oops
+Nelson   (Jan 20) [ 1519] zyr
+HBoboli  (Jan 23) [  200] kni
+HBoboli  (Jan 23) [  200] poke
+HBoboli  (Jan 23) [  200] poke
+Ackren   (Jan 24) [  200] ring
+Darkstar (Jan 30) [  200] blaste
+Virgil   (Feb  1) [21578] stricken...
+Saibas   (Feb  2) [  200] brush
+Equus    (Feb  2) [  200] greatsword
+John     (Feb  3) [  202] 2.staff
+Firefly  (Feb  3) [  200] firefly
+Firefly  (Feb  3) [ 5993] kal
+Saibas   (Feb  3) [  200] tit
+Saibas   (Feb  3) [  200] tit
+Saibas   (Feb  5) [  200] breast
+Darkstar (Feb  5) [  291] shiel
+Noxius   (Feb 15) [  200] kri
+Zermus   (Feb 29) [ 8576] flam
+UnCola   (Mar  6) [  652] SIGN
+Garf     (Mar 11) [  230] elec
+Tanin    (Apr 12) [  200] jaso
+Dreadnought (Apr 21) [  270] lax
+Dreadnought (Apr 21) [  270] spam
+Dreadnought (Apr 21) [  270] spam
+Dreadnought (Apr 21) [  270] spam
+Dreadnought (Apr 21) [  270] spam
+Dreadnought (Apr 21) [  270] spam
+Dreadnought (Apr 21) [  270] spam
+Dreadnought (Apr 21) [  270] spam
+Dreadnought (Apr 21) [  270] spam
+Batman   (May  2) [  200] beef
+Gattsu   (May 10) [  200] mr
+Gattsu   (May 10) [  200] ken
+Matzar   (Jun 24) [  208] swor
+Zayl     (Jul  1) [ 2730] sp
+Tybalt   (Jul  1) [ 8346] vest
+Fistandantilus (Jul 11) [ 1820] orn
+Gaffel   (Jul 17) [  214] lan
+Fistandantilus (Jul 26) [  200] tan
+Bren     (Jul 26) [ 9097] chip
+Bren     (Jul 26) [ 9097] shiney
+Bren     (Jul 26) [ 9097] shiney
+Bren     (Jul 26) [ 9097] mace
+Jehuty   (Aug  2) [  200] jazz
+Belgarath (Aug  6) [  200] sle
+Belgarath (Aug  6) [ 2720] richo
+Kiff     (Aug 15) [  232] asdf
+Kiff     (Aug 15) [ 2347] kni
+Wedge    (Dec 16) [ 1204] beef
+Storji   (Jan  5) [  214] blade
+Blyman   (Jan  6) [  223] gem
+Krixen   (Jan  7) [  291] krix
+Wedge    (Feb 25) [  270] beef
+Gandalf  (Mar  8) [  214] sash
+Gandalf  (Mar  8) [ 9133] scale
+Id       (Mar  9) [  291] you suck kevin
+Id       (Mar  9) [ 4535] p
+Nerrolz  (Mar 11) [  276] belt
+Artemis  (Mar 14) [  200] soar
+UnCola   (Mar 15) [  279] flame
+Zyre     (Mar 15) [ 1213] brace
+Zyre     (Mar 15) [ 1213] oops...
+FreeLancer (Mar 20) [  200] corps
+FreeLancer (Mar 21) [  200] red
+Drake    (Mar 27) [  260] brace
+Ixixox   (Mar 29) [  230] scale
+Ixixox   (Mar 29) [  230] tera
+Mobius   (Apr  1) [ 1248] he
+Kreol    (May 20) [  208] gob
+Kreol    (May 31) [  208] kreol
+Matzar   (Jun  9) [  200] newbie
+Achilles (Jun 11) [  200] butcher
+Chidora  (Jun 22) [ 9134] beh
+Chidora  (Jun 22) [ 8537] scy
+Chidora  (Jun 22) [ 8538] ar
+Jehuty   (Jun 22) [  200] blum
+Chidora  (Jun 22) [ 9181] pot
+Chidora  (Jun 23) [ 4215] shir
+Stratfordsoccer (Jun 26) [ 4222] it
+Stratfordsoccer (Jun 26) [ 1519] helm 'dragon
+Stratfordsoccer (Jun 26) [ 1519] helm 'dragon
+Stratfordsoccer (Jun 26) [ 1519] helm 'dragon
+Stratfordsoccer (Jun 26) [  239] 'jerome
+Stratfordsoccer (Jun 26) [  270] 'king
+Chidora  (Jun 27) [  214] staff
+Chidora  (Jun 27) [  200] rib
+Achilles (Jun 27) [ 9169] bear
+Chidora  (Jun 28) [  200] zayl
+Jehuty   (Jun 29) [ 1509] ob
+Achilles (Jul  5) [  200] cloak
+Chiddy   (Jul  6) [  200] jer
+Chiddy   (Jul  6) [  200] achi
+Achilles (Jul 10) [  200] self
+Chiddy   (Jul 11) [  200] amb
+Ambar    (Jul 14) [  200] f
+Ambar    (Jul 14) [  270] band
+Ambar    (Jul 14) [  200] jand
+Jandorf  (Jul 31) [  291] arm
+Jandorf  (Aug 21) [  291] chi
+Jehuty   (Oct 23) [  200] blue
+Jandorf  (Nov  2) [  200] eagle
+Jehuty   (Dec  9) [  200] blue
+Tanin    (Jan 25) [ 9091] mace
+Neo      (Feb  2) [  263] sen
+Shelazar (Feb  4) [ 5948] caramon
+Guts     (Feb  7) [  214] breast
+Guts     (Feb  7) [  214] breast
+Guts     (Feb  7) [  258] breast
+Guts     (Feb  7) [  214] breast
+Alexander (Feb 10) [  232] recite identify id
+Guts     (Feb 14) [  200] hat
+Jehuty   (Feb 16) [  200] ach
+Jehuty   (Feb 16) [  200] jot
+Valdamar (Feb 17) [ 2172] stone
+Jehuty   (Feb 17) [  200] jer
+Jehuty   (Feb 19) [  100] coin
+Kasumi   (Feb 28) [  209] 1
+Sabotage (Mar  2) [  208] diarr
+Rodek    (Mar  3) [  200] beh
+Sabotage (Mar  7) [  200] ma
+Torak    (Mar  9) [  450] jim
+Romano   (Mar 11) [  260] blood
+Bucko    (Mar 12) [  223] shield
+Ojje     (Mar 13) [23276] eag
+Ojje     (Mar 13) [  450] staff
+Odysseus (Mar 20) [  209] sword
+Torak    (Mar 27) [  200] mer
+Apollo   (Mar 28) [  200] spiri
+Eleansar (Apr  8) [  223] staff
+Eleansar (Apr  8) [  223] staff
+Eleansar (Apr  8) [  418] potion
+Eleansar (Apr  8) [ 2129] tray
+John     (Apr 10) [ 9801] lat
+Drizzt   (Apr 11) [ 5902] jas
+Daimun   (Apr 12) [ 9107] diamond
+Jason    (Apr 13) [ 1513] hob
+Cicero   (Apr 23) [ 2150] wood
+Kemo     (Apr 26) [  200] jas
+Xavith   (Jun 30) [ 9091] dagger
+Drizzt   (Aug 30) [  230] bib
+Drizzt   (Aug 31) [ 2804] rune
+Drizzt   (Aug 31) [  214] gaunt
+Pyrhhus  (Sep  3) [ 2928] sco
+Pyrhhus  (Sep  3) [ 2803] drag
+Pyrhhus  (Sep  6) [  635] ekni
+Pyrhhus  (Sep  8) [24054] eun
+Pyrhhus  (Sep  8) [24055] war
+Pyrhhus  (Sep 10) [  813] sco
+Pyrhhus  (Sep 10) [  647] jul
+Pyrhhus  (Sep 12) [ 2709] emin
+Pyrhhus  (Sep 16) [ 1823] vam
+Pyrhhus  (Sep 21) [ 3160] ecre
+Pyrhhus  (Sep 28) [24022] mag
+Wickawan (Oct  2) [  200] sword
+Ganja    (Oct  9) [ 8539] aren
+Ganja    (Oct 10) [  438] ro
+Ganja    (Oct 10) [  200] rod
+Wifidi   (Nov 10) [  291] disassemble at forge breaks items back into chunks

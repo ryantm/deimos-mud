@@ -1,0 +1,238 @@
+#900
+immortal spirit toni cat~
+the Immortal Spirit of Toni the Cat~
+&CThe Immortal Spirit of Toni the Cat is here.&n
+~
+Toni was God's gift to the human world. She did no wrong her whole entire life and pleased all who owned her.
+And yet she was cursed with an erratic heart which crept up on her in the end. She never asked for much, a
+piece of pounce here, some turkey there, and was always the brunt of our jokes. She still loved us though,
+and we loved her too. May her soul rest in eternal peace. &GToni the Cat: &MAug 10, 1985 - Sept 5, 2000.&n God bless, Treq
+~
+200856 1188 1000 E
+5 19 8 5d5+25 2d2+1
+1250 20000
+12 12 2
+BareHandAttack: 8
+E
+T 900
+#901
+Pooky~
+Pooky the fish~
+Pooky the fish is here, swimming in the Captain's fish tank.
+~
+   Pooky is master of his domain and swims around in the fish tank, alone and
+without food...    
+~
+10 64 50 E
+5 19 8 5d5+25 2d2+1
+1250 20000
+12 12 1
+BareHandAttack: 4
+E
+#902
+first mate~
+the First Mate~
+The Fist Mate is standing here, helping the Captain
+~
+   Dressed in a fancy royal blue outfit, the Fist Mate is always ready to help
+the captain.  If the captain orders him to do small tasks, or even large ones,
+the Fist Mate is always there to get the job done.    
+~
+63514 0 0 E
+38 11 -1 38d38+1444 19d19+9
+72200 1216000
+12 12 1
+BareHandAttack: 13
+E
+T 902
+#903
+Queen Moobunga~
+Queen Moobunga~
+Queen Moobunga is standing here, large and in charge!
+~
+   Queen Moobunga is hardly a queen, but would you tell her any differently?  
+She has a dark tan look to her and her hair is shiny black, her eyes are a deep
+brown.  She is very built, but stays attractive at the same time.  She wears
+clothing made out of grass...    
+~
+8 32 0 E
+40 8 -2 30d40+1600 22d20+10
+80000 560000
+12 12 2
+E
+T 1398
+#908
+shipmate~
+a Shipmate~
+A fellow Shipmate stands here, doing menial tasks.
+~
+   This Shipmate is dressed in a striped red shirt and ripped jeans.  He covers
+his head with a bandana to keep the sun off.  He seems to be managing the area,
+cleaning up the floor and the walls etc.    
+~
+4252 0 0 E
+10 18 7 10d10+100 5d5+2
+5000 80000
+12 12 1
+E
+#921
+Nasty Butler~
+the Nasty Butler~
+The Nasty Butler, mascot of the... Nasty Butler, is here, strapped to the front of the ship.
+~
+   Well, The Nasty Butler is like those mermaids you see strapped to ships,
+only this is of a butler, with plate and all.  Some say that these 'mascots'
+had a soul, and helped the ship through rough times.  Well, not only does this
+one have a soul, it has cells and is equipped with a long fencing sword...    
+~
+10 0 0 E
+20 15 4 20d20+400 10d10+5
+20000 400000
+12 12 0
+BareHandAttack: 11
+E
+#949
+scout~
+a scout~
+A Scout stands here, looking off into the distance for land and and such.
+~
+   Hes dressed up like all the other ship mates except for that he has a keen
+eye for things...    
+~
+10 0 0 E
+10 18 7 10d10+100 5d5+2
+5000 35000
+12 12 1
+E
+#962
+Captain Hand~
+Captain Hand~
+Captain Hand stands here, looking very proud of his ship and crew.
+~
+   Captain Hand is dressed lavishly in a bright red suit.  The suit stands out,
+clarifying time and time again that he is the ruler of this ship.  But contrary
+to cliched oppinions of other captains, Captain Hand is actually a very down to
+earth guy and respects his crew moderately.    
+~
+30748 8 0 E
+40 10 -2 40d40+1600 20d20+10
+80000 1760000
+12 12 0
+BareHandAttack: 13
+E
+#966
+brig guard~
+the Brig Guard~
+The Brig Guard sits here, slowly dozing off to sleep.
+~
+   The Brig Guard is like any other shipmate; striped red shirt, ripped jeans,
+bandana...  Yadda yadda yadda.  The Bring Guard has some keys to open the bars
+into the Brig.    
+~
+14366 0 0 E
+25 14 2 25d25+625 12d12+6
+31250 500000
+12 12 1
+BareHandAttack: 13
+E
+#973
+gunner~
+a cannon gunner~
+A cannon gunner is here, on the lookout for enemy ships.
+~
+   The gunner is big and muscular.  He seems to have a lot of charcoal marks on
+him, from the explosions that come from firing the canon.  You really can't
+make out his shirt...  Or his pants for that matter, they're all black
+anyway...    
+~
+6174 0 0 E
+15 17 5 15d15+225 7d7+3
+11250 120000
+12 12 1
+E
+#990
+navigator~
+the Navigator~
+The Navigator stands here, contemplating the area.
+~
+   The navigator is well dressed but his shirt is ruffled, he has a hard time
+keeping track of where is where.  Some sweat trickles down his shirt as he
+calculates the next destination.    
+~
+10 0 0 E
+35 12 -2 35d35+1225 17d17+8
+61250 428750
+12 12 0
+E
+#993
+chef~
+the Chef~
+The highly praised Chef is here.
+~
+   The Chef is dressed in bright white plus an apron that says "Arg!  Kiss tha
+damn cook!  ".  His clothes are all sparkly clean, as is his food.  The members
+of the Nasty Butler hail him as almost a god!  They are always hungry...  
+Always waiting...    
+~
+8 0 100 E
+30 13 1 30d30+900 15d15+7
+45000 960000
+12 12 0
+BareHandAttack: 13
+E
+#996
+Fuzzils Pet Hamster~
+Fuzzils, Modoc's Pet Hamster.~
+Fuzzils, Modoc's Pet Hamster, runs around here franticly...
+~
+   Hes a rabid hamster that seems to be mind controlled by his master Modoc.  
+He is brown with black spots and is running around wildly.    
+~
+256010 128 0 E
+40 10 -2 40d40+1600 20d20+10
+80000 560000
+12 12 0
+BareHandAttack: 4
+E
+#997
+Modoc~
+Dr. Modoc~
+Dr. Modoc has been waiting for YOU!!!?!!!
+~
+   This guy is insane and it turns out he made the Fuzzy creatures.  He carrys
+a razor edged scoupula and seems to have an evil glare....    
+~
+254058 12629244 0 E
+66 4 -9 66d66+10000 33d33+40
+217800 1524600
+12 12 1
+E
+#998
+&Ma fuzzy&n~
+&Ma fuzzy&n~
+A small fuzzy is lying here on the ground
+~
+Its a big, pink, puff ball... nothing special...
+~
+26762 46092 0 E
+50 8 -5 50d50+2500 25d10+10
+1 1
+12 12 0
+BareHandAttack: 13
+E
+T 997
+#999
+fuzzy~
+a &Mfuzzy&n~
+A small &Mfuzzy&n is lying here on the ground
+~
+Its a big, pink, puff ball... nothing special...
+~
+136 33896 0 E
+1 20 9 1d1+1 0d0+0
+1 1
+12 12 0
+BareHandAttack: 13
+E
+T 999
+$

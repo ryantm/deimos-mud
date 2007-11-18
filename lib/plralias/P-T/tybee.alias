@@ -1,0 +1,105 @@
+5
+armor
+16
+cast 'armor' Tyb
+0
+1
+6
+6
+reelin
+0
+1
+5
+7
+castout
+0
+5
+sense
+17
+cast 'sense life'
+0
+4
+reca
+12
+cast 'word' 
+0
+2
+hh
+12
+cast 'heal' 
+0
+2
+lo
+23
+cast 'locate object' $1
+1
+5
+float
+12
+cast 'float'
+0
+1
+-
+22
+cast 'dispel magic' $1
+1
+2
+fb
+15
+cast 'fire' god
+0
+2
+lg
+16
+cast 'light' god
+0
+3
+rec
+13
+recite recall
+0
+2
+ii
+15
+cast 'invis' $1
+1
+2
+lb
+15
+cast 'light' $1
+1
+5
+light
+15
+cast 'light' $1
+1
+4
+fire
+18
+cast 'fireball' $1
+1
+2
+id
+18
+cast 'identify' $1
+1
+1
+h
+12
+quaff health
+0
+6
+recall
+11
+cast 'word'
+0
+1
+/
+11
+cast 'word'
+0
+2
+df
+14
+drink fountain
+0

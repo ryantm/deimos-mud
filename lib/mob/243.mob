@@ -1,0 +1,91 @@
+#24300
+mob pig demon~
+&MPig Demon&n~
+A demon that strangly resembles a pig is here.
+~
+
+&MMost likely giving his soul up to one of the Dukes of Hell for power on Earth, this demon
+is one that is quite grotesque to behold.  Although it stands on two legs, it looks very
+much like a pig.  Perhaps the Dukes of Hell have an odd sense of humor and made him look
+thus, after a reflection of his actions on Earth.&n
+
+~
+190504 1064 0 E
+50 8 10 50d50+2500 25d25+12
+187500 2500000
+12 12 0
+BareHandAttack: 6
+E
+#24301
+mob snake demon~
+&GSnake Demon&n~
+A demon with countless snakes for its head is here looking for a victim.
+~
+
+&GAlthough this demon has the body of a young man, in place of his head is countless snakes.
+They writhe and glare at you, wanting to give your soul to one of the Dukes of Hell.  It
+seems this is his territory, and you are invading it.  The only thing that this creature 
+would not attack most likely is another demon.&n
+
+~
+190504 1064 0 E
+50 8 10 50d50+2500 25d25+12
+187500 2500000
+12 12 0
+BareHandAttack: 4
+E
+#24302
+mob thing demon shapeless~
+&DThe Shapeless Demon&n~
+A demon without a identifiable shape is here constantly changing.
+~
+
+&DA true entity of chaos, this demon takes no particular form, but is constantly changing its
+shape.  It is probably one of the stronger demons as it can change on will, and use this
+ability to help itself in combat.  The only way to kill this creature would be to inflict
+enough damage that it would not have the power to change, then it will utter its true name.&n
+
+~
+190504 1064 0 E
+55 7 11 55d55+3025 27d27+13
+226875 3025000
+12 12 0
+E
+#24303
+mob rackhir red archer~
+&RRackhir the Red&n~
+An archer in Red is here watching for pursuers.
+~
+
+&RBanished from the world for ending his allegiance with the chaos lords, Rackhir was doomed
+to spend eternity in this realm of chaos, where the Dukes of Hell are in power.  But he met
+Elric, and was promised release from this realm and to be returned to his own, if he could
+help Elric find the two runelbades, Stormbringer and Mournblade.  So now he is watching
+the plane for pursuers of Elric, and will try to stop them.&n
+
+~
+256010 1049640 0 E
+60 5 12 60d60+3600 30d30+15
+270000 3600000
+12 12 1
+BareHandAttack: 14
+E
+#24304
+mob niun~
+&mNiun &BWho Knew All&n~
+Niun who knew all is here, trying to forget...
+~
+
+&mMaking a pact with Orland of the Staff, Niun is know as he who knew all.  Yet his curiosity
+led him to this plane, and the only way he can leave is to forget all he knew.  He has
+been here a countless time, and will be here much longer as there is still much he knows.  The
+question is, when he can leave, will he know to?&n
+
+~
+190475 1192 0 E
+60 5 12 60d60+3600 30d30+15
+270000 3600000
+12 12 1
+SpecProc: block_west
+E
+$

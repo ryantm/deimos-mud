@@ -1,0 +1,16 @@
+#44
+Village of the damned~
+Katz~
+4499 30 2
+M 0 4498 1 4498 0	(a shopkeeper hides here.)
+G 1 4480 100 -1 0	(a shiny pearl)
+G 1 3090 999999999 -1 0	(a health potion)
+G 1 208 999999999 -1 0	(a blue potion)
+M 0 4400 50 4400 0	(a ragged Skeleton)
+M 0 4401 25 4400 0	(a hideous ghoul shambles along)
+D 0 4405 5 2 0	(Wheylyn Way )
+D 0 4410 4 1 0	(A Hiding Place )
+D 1 4410 4 2 0	(A Hiding Place )
+O 0 4428 1 4428 0	(Archway of the Gods!)
+S
+$

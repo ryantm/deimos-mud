@@ -1,0 +1,79 @@
+NORTH SOUTH EAST WEST UP DOWN
+
+Usage: north
+       south
+       east
+       west
+       up
+       down
+
+To travel in a given direction.
+#
+
+EXITS
+
+Usage: exits
+
+Gives you a list of the obvious exits from your location.  Of course, the less
+obvious ones won't show up here - you have to THINK in order to locate those.
+
+See also: AUTOEXIT
+#
+SLEEP
+
+SLEEP is both a command and the name of a spell.
+
+The SLEEP command puts you to sleep, allowing you to regain your health more
+quickly.  You will be largely unaware of your surroundings while asleep.
+You can awaken yourself with the WAKE command.
+
+The SLEEP spell forces the victim into a magical sleep such that they cannot
+be awakened until the spell wears off.
+
+Usage       : cast 'sleep' <victim>
+Accumulative: Yes (Duration)
+Duration    : 4 hours + level/4
+Level       : Mage level 8.
+
+If failing saving throw versus spell, the person will fall asleep.
+A person who is affected by sleep can only be awakened if attacked.
+
+See also: WAKE
+#
+WAKE SLEEPING REST SIT STAND
+
+For changing your position.  If you feel weary, it's probably a good idea
+to sit and rest for a while, or maybe even take a nap.
+#
+SCAN
+
+Usage: Scan <Dir>
+Cost: 3 Movement
+
+Scans in all directions or selected direction from mobs and players.
+#
+OPEN CLOSE LOCK UNLOCK
+
+Usage: open | close | lock | unlock <door> [direction]
+
+To open, close, lock, and unlock doors, of course.
+
+Examples:
+
+  > open portal
+  > lock door
+  > unlock door south
+  > close gate
+
+See also: ENTER, LEAVE
+#
+ENTER LEAVE
+
+Usage: Enter
+	 Leave
+
+The enter and leave commands can be used on buildings or portals.  You must use the enter command to use a portal and certain buildings.  If you in certain buildings or houses, you must use the leave command to leave instead of using a direction.
+#
+$
+
+

@@ -1,0 +1,74 @@
+MAIN
+|----------------------Main---------------------|
+|						|
+| Type Help then one of the capitalized words.  | 
+|  Main Menus:                                  | 
+|  MOVEMENT COMMUNICATION OBJECTS INFORMATION   | 
+|            COMBAT UTILITY MISC                |
+|_______________________________________________|
+
+#
+MOVEMENT
+|--------------------Movement-------------------|
+|                                               |
+|  NORTH SOUTH EAST WEST UP DOWN EXITS          |
+|  SLEEP WAKE REST SIT STAND SCAN               |
+|  LOCK UNLOCK OPEN CLOSE ENTER LEAVE           | 
+|_______________________________________________|
+
+#                          
+COMMUNICATION
+|---------------Communication------------------|
+|                                              |
+|  SAY GSAY SHOUT HOLLER TELL ASK WHISPER MAIL | 
+|  RECEIVE CHECK GOSSIP GRATS AUCTION NOTELL   | 
+|  NOSHOUT NOGOSSIP NOGRATS NOAUCTION COLOR    | 
+|                                              |
+|______________________________________________|
+
+#
+OBJECTS
+|--------------------Objects--------------------|
+| GET DROP JUNK DONATE PUT GIVE WEAR GRAB       |
+| INVENTORY EQUIPMENT REMOVE EXAMINE COMPARE    |
+| EAT DRINK TASTE SIP POUR                      |
+|                                               |
+|_______________________________________________|      
+
+#
+INFORMATION
+|------------------Information------------------|
+| SCORE HELP INFO WHO NEWS TIME WEATHER WHERE   |
+| CONSIDER LEVEL WIZLIST IMMLIST CREDITS        |
+| TOGGLE FLAGS WIZHELP AUTO WHOAMI LOOK         |
+|                                               |
+|_______________________________________________|
+
+#
+COMBAT
+|---------------------Combat--------------------|
+| KILL WIELD FLEE ASSIST TRACK KICK BASH RESCUE |
+| BACKSTAB CAST MULTIATTACK WIMPY COMBAT SPAR   |
+|                                               |
+|_______________________________________________|
+
+#
+UTILITY
+|------------------Utilities--------------------|
+|! BUG IDEA TYPO QUIT SAVE BRIEF COMPACT TITLE  |
+| NOSUMMON COMMANDS SOCIALS DISPLAY AUTO RENT   |
+|                                               |
+|_______________________________________________|
+
+#
+MISC
+|---------------------MISC----------------------|
+| SOCIAL SHOPS CLERIC WARRIOR THIEF MAGIC       |
+| SPELLS LINK SPARRANK  CAREER                  |
+|                                               |
+|_______________________________________________|
+
+#
+$
+
+

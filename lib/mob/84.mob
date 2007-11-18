@@ -1,0 +1,411 @@
+#8406
+elf an Elven kid~
+the Elven kid~
+A small Elven kid is here, roaming the park.
+~
+The kid looks like the average small little girl.    
+~
+72 0 0 E
+6 19 8 6d6+36 3d3+1
+2700 36000
+12 12 2
+E
+#8407
+elf an Elven kid~
+the Elven kid~
+A small Elven kid is here, roaming the park.
+~
+The kid looks like the average small little boy.    
+~
+72 0 0 E
+6 19 8 6d6+36 3d3+1
+2700 36000
+12 12 1
+E
+#8413
+elf Elven man~
+the Elven man~
+An Elven man is here, walking around the park
+~
+The man looks like the average male Elven citizen.    
+~
+72 0 0 E
+10 18 7 10d10+100 5d5+2
+7500 100000
+12 12 1
+BareHandAttack: 13
+E
+#8414
+elf Elven woman~
+the Elven woman~
+An Elven woman is here, walking around the park.
+~
+The woman looks like the average female Elven citizen.    
+~
+72 0 0 E
+10 18 7 10d10+100 5d5+2
+7500 100000
+12 12 2
+BareHandAttack: 13
+E
+#8421
+elf Elven man~
+the Elven man~
+An Elven man is sitting here, enjoying the shade.
+~
+The man looks like the average male Elven citizen.    
+~
+10 0 0 E
+10 18 7 10d10+100 5d5+2
+7500 100000
+12 12 1
+BareHandAttack: 13
+E
+#8423
+elf Elven woman~
+the Elven woman~
+An Elven woman is sitting here, enjoying the shade.
+~
+The woman looks like the average female Elven citizen.    
+~
+10 0 0 E
+10 18 7 10d10+100 5d5+2
+7500 100000
+12 12 2
+BareHandAttack: 13
+E
+#8427
+elf Elven boy~
+the Elven boy~
+A small Elven boy is standing here.
+~
+The little boy wears the average little kid clothing for the Elven race.  He
+uses a tree branch as a walking stick and he's poking at various things.    
+~
+10 0 0 E
+6 19 8 6d6+36 3d3+1
+2700 36000
+12 12 1
+E
+#8430
+elf Elven thief~
+the Elven thief~
+An suspicious-looking Elf is standing here.
+~
+The Elf is a young man in his teens.  He wears a green tunic with a green hat
+upon his head.  Brown boots cover his feet while white stockings are on his
+legs.  But he looks oddly familiar.    
+~
+26 0 0 E
+10 18 7 10d10+100 5d5+2
+7500 100000
+12 12 1
+BareHandAttack: 14
+E
+#8451
+elf secretary~
+the secretary~
+The secretary is here, welcoming you.
+~
+The secretary is an attractive woman with a red suit on and her long hair up in
+a bun.    
+~
+10 0 0 E
+41 10 -2 41d41+1681 20d20+10
+126075 1681000
+10 10 2
+BareHandAttack: 7
+E
+#8452
+elf supervisor~
+the supervisor~
+The floor's supervisor is here, watching over the employees.
+~
+The supervisor wears a black suit and pants.  He looks professional and quite
+mean.    
+~
+10 0 0 E
+52 7 -5 52d52+2704 26d26+13
+202800 2704000
+12 12 1
+BareHandAttack: 13
+E
+#8453
+elf inspector~
+the inspector~
+An inspector is standing here, checking over the company.
+~
+The inspector is wearing a gray suit and a tie.  He looks very serious and
+seems like he hasn't had a good day.    
+~
+72 0 0 E
+46 9 -3 46d46+2116 23d23+11
+158700 2116000
+12 12 1
+BareHandAttack: 13
+E
+#8454
+elf auditor~
+the auditor~
+An auditor is here, inspecting various things.
+~
+The auditor wears a t-shirt and long pants.  He also wears gloves to protect
+his hands from cuts.    
+~
+10 0 0 E
+40 10 -2 40d40+1600 20d20+10
+120000 1600000
+12 12 1
+BareHandAttack: 13
+E
+#8455
+elf auditor~
+the auditor~
+An auditor is here, inspecting various things.
+~
+The auditor wears a t-shirt and long pants.  She also wears gloves to protect
+her hands from cuts.    
+~
+10 0 0 E
+40 10 -2 40d40+1600 20d20+10
+120000 1600000
+12 12 2
+BareHandAttack: 13
+E
+#8456
+elf employee~
+the employee~
+An employee is standing here.
+~
+The employee is dressed up in a suit and wears well-polished shoes.    
+~
+72 0 0 E
+45 9 -3 45d45+2025 22d22+11
+151875 2025000
+12 12 1
+BareHandAttack: 13
+E
+#8457
+elf business executive~
+a business executive~
+A business executive is standing here.
+~
+The business executive wears an expensive black suit.  An even more expensive
+hat is upon his head, barely missing his pointed ears.    
+~
+2120 0 -100 E
+57 9 1 28d28+6598 8d8+13
+418700 3490000
+12 12 1
+BareHandAttack: 13
+E
+#8458
+elf packager~
+the packager~
+A packager is here, putting things into boxes.
+~
+The packager wears a t-shirt with long pants.  There are gloves on his hands to
+protect them from papercuts.    
+~
+10 0 0 E
+42 10 -2 42d42+1764 21d21+10
+132300 1764000
+12 12 1
+BareHandAttack: 7
+E
+#8459
+elf packager~
+the packager~
+A packager is here, putting things into boxes.
+~
+The packager wears a t-shirt with long pants.  There are gloves on her hands to
+protect them from papercuts.    
+~
+10 0 0 E
+42 10 -2 42d42+1764 21d21+10
+132300 1764000
+12 12 2
+BareHandAttack: 7
+E
+#8460
+elf employee~
+the employee~
+An employee is standing here.
+~
+The employee is dressed up in a suit and wears well-polished shoes.    
+~
+72 0 0 E
+45 9 -3 45d45+2025 22d22+11
+151875 2025000
+12 12 2
+BareHandAttack: 13
+E
+#8462
+elf businessman~
+the businessman~
+A businessman is talking business here.
+~
+The businessman wears a gray suit over a white shirt and a red tie.  His gray
+pants perfectly match his coat.  He is very persuasive.    
+~
+10 0 0 E
+44 9 -3 44d44+1936 22d22+11
+145200 1936000
+12 12 1
+BareHandAttack: 13
+E
+#8463
+elf customer~
+the customer~
+A customer is accepting offers here.
+~
+The customer is dressed up in a gray suit and wears a gray hat.    
+~
+10 0 0 E
+43 10 -2 43d43+1849 21d21+10
+138675 1849000
+12 12 1
+BareHandAttack: 13
+E
+#8467
+elf manufacturing worker~
+the manufacturing worker~
+A manufacturer is working hard here.
+~
+Te worker is partially dirty.  He wears safety goggles over his eyes and gloves
+on his hands.  His long pants and sleeves protect him from flying debris.    
+~
+10 0 0 E
+40 10 -2 40d40+1600 20d20+10
+120000 1600000
+12 12 1
+BareHandAttack: 7
+E
+#8471
+elf company boss~
+the company boss~
+The company's boss is here, sitting behind his desk and looking out the window.
+~
+The boss wears a fancy black suit with a bright green tie.  This blond hair is
+combed back and his shoes are unbelievably shiny.    
+~
+10 0 0 E
+62 8 2 30d30+7788 8d8+12
+288300 3844000
+12 12 1
+BareHandAttack: 13
+E
+#8476
+elf manufacturing worker~
+the manufacturing worker~
+A manufacturer is working hard here.
+~
+Te worker is partially dirty.  She wears safety goggles over her eyes and
+gloves on her hands.  Her long pants and sleeves protect her from flying
+debris.    
+~
+10 0 0 E
+40 10 -2 40d40+1600 20d20+10
+120000 1600000
+12 12 2
+BareHandAttack: 13
+E
+#8480
+elf janitor~
+the janitor~
+The janitor is standing here, cleaning various things.
+~
+The janitor is dressed up in black overalls to conceal the dirt on his
+clothing.  Under his overalls, a white shirt can be seen.  He looks kind of
+miserable, but he gets paid a lot.    
+~
+72 0 0 E
+38 11 -1 38d38+1444 19d19+9
+108300 1444000
+12 12 1
+BareHandAttack: 13
+E
+#8481
+elf Elven tourist~
+the Elven tourist~
+An Elven tourist is standing here, gasping at the view.
+~
+The tourist doesn't look like most of the citizens from Arenburg.  She has a
+camera over her shoulder and looks very excited.    
+~
+10 0 0 E
+25 14 2 25d25+625 12d12+6
+46875 625000
+12 12 2
+BareHandAttack: 13
+E
+#8482
+elf Elven tourist~
+the Elven tourist~
+An Elven tourist is standing here, gasping at the view.
+~
+The tourist doesn't look like most of the citizens from Arenburg.  He has a
+camera over his shoulder and looks very excited.    
+~
+10 0 0 E
+25 14 2 25d25+625 12d12+6
+46875 625000
+12 12 1
+BareHandAttack: 13
+E
+#8483
+elf Elven citizen~
+the Elven citizen~
+An Elven citizen is standing here, checking out the view.
+~
+The citizen looks like the average Arenburgian citizen.    
+~
+10 0 0 E
+25 14 2 25d25+625 12d12+6
+46875 625000
+12 12 2
+BareHandAttack: 13
+E
+#8484
+elf Elven citizen~
+the Elven citizen~
+An Elven citizen is standing here, checking out the view.
+~
+The citizen looks like the average Arenburgian citizen.    
+~
+10 0 0 E
+25 14 2 25d25+625 12d12+6
+46875 625000
+12 12 1
+BareHandAttack: 13
+E
+#8489
+elf ghost~
+the ghost~
+A ghost wanders here, searching for someone or something.
+~
+The ghost is a formless being of a transparent white.    
+~
+256028 1276 0 E
+0 20 10 1d1+0 1d1+0
+0 0
+12 12 0
+BareHandAttack: 12
+E
+#8490
+elf master ghost~
+the master ghost~
+The master of all the ghosts hovers here, watching over his minions.
+~
+The ghost is a formless being of a transparent white.  It looks larger than the
+rest of the ghosts.    
+~
+256030 12540 0 E
+60 5 -8 60d60+3600 30d30+15
+270000 3600000
+12 12 0
+BareHandAttack: 12
+E
+T 8489
+T 8490
+$

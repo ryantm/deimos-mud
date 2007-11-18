@@ -1,0 +1,363 @@
+#4800
+Bugula Plumosa plant yellow~
+the Bugula Plumosa~
+A yellowish plant is growing on some rocks.
+~
+Yellow leaves make up this plant.  On the back of these yellow leaves, is a
+dark side.  They look to be sharp leaves, possibly very deadly.  Surrounding
+this plant are purple leaves.    
+~
+254024 0 0 E
+20 15 4 20d20+400 10d10+5
+30000 400000
+12 12 0
+BareHandAttack: 10
+E
+#4801
+Ross Coral red plant~
+Some Coral Ross~
+A red plant is emerging from the rocks.
+~
+What appears to be a wavy leave-like plant is resting here.  The plant is
+mainly red with spots of yellow near the core.  What appears to be tiny spikes
+rest on the center of the plant.    
+~
+254024 0 0 E
+20 15 4 20d20+400 10d10+5
+30000 400000
+12 12 0
+BareHandAttack: 10
+E
+#4802
+Hornwrack white purple plant~
+a Hornwrack~
+A white and purple plant is resting on the ground.
+~
+A White plant covers the rock.  This plant also has purple leaves, but not as
+many purple as white.  It moves slightly in the current of the water, looking
+completely harmless.    
+~
+254024 0 0 E
+25 14 2 25d25+625 12d12+6
+46875 625000
+12 12 0
+BareHandAttack: 9
+E
+#4803
+Tompot Blenny orange fish~
+a Tompot Blenny~
+An orange fish is swimming here with it's beady eyes on you.
+~
+A small fish is swimming here.  It has beady black eyes, watching your every
+move.  Spots of silverish-grey cover this fish, blending it almost perfectly
+against the sand.  The underside of this fish is completely orange.    
+~
+254024 0 0 E
+27 14 1 27d27+729 13d13+6
+54675 729000
+12 12 0
+BareHandAttack: 4
+E
+#4804
+Blackface Blenny long orange fish~
+a male blackface blenny~
+A long orange fish swims past you.
+~
+A long fish swims here.  It's head is almost completely black, which slowly
+turns to yellow, then to orange as it moves down the body.  It has spots of
+black on it's body, giving it a marble look.    
+~
+254024 0 0 E
+20 15 4 20d20+400 10d10+5
+30000 400000
+12 12 1
+BareHandAttack: 4
+E
+#4805
+Blackface Blenny grey fish black~
+a female blackface blenny~
+A greyish-black fish swims past you.
+~
+A long fish swims here.  It's head is a dark grey.  It has black stripes on
+it's back, aswell as grey stripes, giving it a candy-cane affect, but with
+different colours.  It's eyes blend perfectly with it's face, making it hard to
+tell if it's noticed you.    
+~
+254024 0 0 E
+20 15 4 20d20+400 10d10+5
+30000 400000
+12 12 2
+BareHandAttack: 4
+E
+#4806
+Sole Solea sand fish~
+a Sole Solea~
+Some sand moves slightly
+~
+If this creature didn't move, there's not doubting it, you wouldn't of noticed
+it.  It's completely grey, with spots of black over it's back.  It's eyes look
+like small black marbles.    
+~
+254024 0 0 E
+30 13 1 30d30+900 15d15+7
+67500 900000
+12 12 0
+BareHandAttack: 1
+E
+#4807
+Long snouted sea horse seahorse fish golden~
+a Long-snouted seahorse~
+A golden sea-horse floats by.
+~
+A sea-horse is floating here.  It's a dark yellow in colour, and has spots of
+white and grey all over it.  It has faint yellow spikes on it's back.  It's
+black eyes watch you carefully, wondering if you're friend or foe.    
+~
+778312 0 0 E
+10 18 -8 5d5+300 1d1+2
+0 11000
+12 12 0
+BareHandAttack: 4
+E
+#4808
+Short snouted sea horse seahorse fish red~
+a short-snouted seahorse~
+A red sea-horse floats by
+~
+A small sea-horse rests in some weed.  It has a dark red and white body.  It
+seems to have a bony back, which it seems determined to keep hidden from you.
+It seems to watch you intently, almost as if ready for you to attack.    
+~
+778312 0 0 E
+10 18 -8 5d5+300 1d1+2
+0 11000
+12 12 0
+BareHandAttack: 4
+E
+#4809
+congor eel silver fish~
+a conger eel~
+A silver eel's head is poking out of some weeds.
+~
+A rather large head is poking out of the weeds next to you.  It's head is a
+dark silver, it's mouth is white, and it's eyes are jet black.  It watches you
+with the utmost loathing in it's eyes, prepare to defend yourself.    
+~
+256120 799872 0 E
+50 8 -5 50d50+2500 25d25+12
+187500 2500000
+12 12 0
+BareHandAttack: 1
+E
+#4810
+deep snouted pipe fish pipefish green~
+a deep-snouted pipefish~
+A green pipe-like fish is floating here
+~
+A fish with a very long snout is floating here, almost completely hidden in the
+weeds.  It's snout looks to be atleast a foot long, and is dark green.  It's
+eyes are black, with yellow surroundings.  It seems intent on watching your
+every move.    
+~
+254024 0 0 E
+25 14 2 25d25+625 12d12+6
+46875 625000
+12 12 0
+BareHandAttack: 4
+E
+#4811
+greater pipe fish pipefish grey~
+a greater pipefish~
+A grey pipe-like fish is floating here
+~
+A fish with a very long snout is floating here, almost completely hidden in the
+weeds.  It's snout looks to be atleast half a foot long, and is dark grey.  
+It's eyes are black, with yellow surroundings.  It seems intent on watching
+your every move.    
+~
+254024 0 0 E
+25 14 2 25d25+625 12d12+6
+46875 625000
+12 12 0
+BareHandAttack: 4
+E
+#4812
+snake pipe fish pipefish yellow~
+a snake pipefish~
+A yellow pipe-like fish is floating here.
+~
+A fish with a very long snout is floating here, almost completely hidden in the
+weeds.  It's snout looks to be atleast half a foot long, and is bright yellow.
+It's eyes are black, with white surroundings.  It seems intent on watching your
+every move.    
+~
+254024 0 0 E
+30 13 1 30d30+900 15d15+7
+67500 900000
+12 12 0
+BareHandAttack: 4
+E
+#4813
+gurnard triglidae red fish~
+a Gurnard Triglidae~
+A large red fish floats inches off the ground
+~
+A rather large red fish.  It has dark blue eyes, it's fins are a dark red/black
+colour.  On it's back the red blends with white, making some white spots appear
+on it's back.    
+~
+254024 0 0 E
+35 12 0 35d35+1225 17d17+8
+91875 1225000
+12 12 0
+BareHandAttack: 4
+E
+#4814
+Bass dicentrachus labrax fish silver~
+a bass~
+A sparkling silver fish swims by
+~
+A sparkling silver fish.  It's eyes are black with white-yellow surroundings.
+It's top is dark greyish-silver, and it's bottom is light greyish-silver.  
+It's eyeing you with suspicion.    
+~
+254024 0 0 E
+25 14 2 25d25+625 12d12+6
+46875 625000
+12 12 0
+BareHandAttack: 4
+E
+#4815
+red Mullus white fish~
+a red mullus~
+A red and white fish is floating here
+~
+This is a rather pretty fish.  It's a mix of red and white, striped like a
+candy-cane.  It has 2 white antanae's that seem to come from it's nose.  It's
+eyes are jet black, with yellow surroundings.    
+~
+254024 0 0 E
+20 15 4 20d20+400 10d10+5
+30000 400000
+12 12 0
+BareHandAttack: 4
+E
+#4816
+Cuckoo wrasse fish blue yellow~
+a cuckoo wrasse~
+A bright blue and yellow fish is darting around
+~
+A rather tiny fish.  It's surprisingly bright blue.  It's top fin is bright
+yellow, aswell as it's bottom.  Both bright yellow.  It's moving at incredible
+speed, and yet keeps it's eye on you.    
+~
+254024 0 0 E
+25 14 2 25d25+625 12d12+6
+46875 625000
+12 12 0
+BareHandAttack: 4
+E
+#4817
+Shanny lipophrys pholis yellow dark fish~
+a shanny lipophrys~
+A dark yellow fish is floating here, eyeing you suspiciously
+~
+This fish has rather large eyes.  They're jet black with red surroundings.  It
+has a frog-like face, with a very large tail.  It is mainly yellow, with black
+spots.    
+~
+254024 0 0 E
+40 10 -2 40d40+1600 20d20+10
+120000 1600000
+12 12 0
+BareHandAttack: 4
+E
+#4818
+Shore clingfish fish cling pink~
+a shore clingfish~
+A pink fish is floating inches from some rock
+~
+A very pink fish is floating close to the rocks.  It has spots of red and white
+on it's back.  It's eyes are jet black with yellow surroundings.  It's mouth is
+clearish-grey.    
+~
+254024 0 0 E
+30 13 1 30d30+900 15d15+7
+67500 900000
+12 12 0
+BareHandAttack: 4
+E
+#4819
+undulate ray fish rock~
+an undulate ray~
+Some rock seems to be watching you
+~
+It appears to be rocks with eyes.  Is this a good or a bad thing?  Back away...
+Slowly...  Very slowly...    
+~
+254040 786560 0 E
+60 5 -8 60d60+3600 30d30+15
+270000 3600000
+12 12 0
+BareHandAttack: 4
+E
+#4820
+Marbled electric ray fish grey~
+an electric ray~
+A grey flat-fish is sitting on the sand
+~
+A very flat fish is floating on the sand.  It's back is completely grey with
+dark spots, which oddly resembles the sand.  It has two beady black eyes and a
+large tail.    
+~
+254024 128 0 E
+55 7 -6 55d55+3025 27d27+13
+226875 3025000
+12 12 0
+BareHandAttack: 4
+E
+#4821
+common dog fish dogfish evil red~
+a common dogfish~
+a red evil-looking fish is floating here
+~
+A red shark-like fish is floating here.  It's eyes are completely jet black.  
+It has spots of black all over it's body.    
+~
+254024 0 0 E
+45 9 -3 45d45+2025 22d22+11
+151875 2025000
+12 12 0
+BareHandAttack: 4
+E
+#4822
+dory zeus faber fish yellow~
+a dory zeus faber~
+A yellow fish with green spikes on it's back is swimming here
+~
+An oval fish is swimming here.  It has very long green spikes on it's back.  
+It's body is completely yellow with a black spot on the side of it's body.  
+It's eyes are jet black with yellow surroundings.    
+~
+254024 0 0 E
+30 13 1 30d30+900 15d15+7
+67500 900000
+12 12 0
+BareHandAttack: 4
+E
+#4823
+long spined sea scorpion fish grey yellow~
+a long-spined sea scorpion~
+A greyish-yellow fish sits here, eyes watching your every move
+~
+A rather boney fish is floating here.  It has black eyes that watch your every
+move.  It's grey with white stripes on it's body.  It has a rather large mouth,
+possibly bareing large large teeth.    
+~
+254058 262144 0 E
+66 4 -9 66d66+4356 33d33+16
+326700 4356000
+12 12 0
+BareHandAttack: 4
+E
+$

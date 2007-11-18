@@ -1,0 +1,57 @@
+#24800
+battle droid~
+a battle droid~
+A battle droid stands here stiffly, awaiting a command signal.
+~
+   This battle droid is a tall, gaunt humanoid with exposed joints and
+bone-white metal finishes that gives it an eerie resemblance to an animated
+skeleton.  Only a numerical marking on the back of its comlink booster pack
+serves to distinguish it from its m
+~
+10 0 0 E
+30 14 -4 15d15+1900 4d4+6
+157500 900000
+12 12 0
+BareHandAttack: 12
+E
+#24801
+katamari~
+a katamari~
+A katamari sits here, waiting for someone to give it a push.
+~
+It looks unfinished.
+~
+524298 0 0 E
+30 14 -4 0d0+1000000 4d4+6
+0 0
+12 12 0
+E
+T 24801
+T 24802
+#24802
+dschinghis dschingis genghis khan~
+Dschinghis Khan~
+Dschinghis Khan is here, burning up the dance floor!
+~
+He's doing the MOSKAU!
+~
+10 0 0 E
+50 10 0 25d25+5100 7d7+10
+437500 2500000
+12 12 1
+BareHandAttack: 10
+E
+T 24810
+#24899
+Titanium Chunk~
+a Titanium Chunk~
+A Titanium Chunk lies here shining.
+~
+Nothing.
+~
+256026 1064 0 E
+500 -80 10 30d30+500100 71d30+100
+5000000 10000000
+12 12 0
+E
+$

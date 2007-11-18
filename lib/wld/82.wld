@@ -1,0 +1,414 @@
+#8200
+Primary Dock~
+   This is the central dock that connects to Calismorn via a boat or charter
+ship.  This particular dock was actually given to the former Lanorians as a
+gift by the Calises, made of their mighty trees.  Major cargo was shipped along
+the route between the continent and Calismorn.  Though shared by all kingdoms,
+Lanora took advatage of this dockyard the most, even though it was on the
+opposite side of the continent.  The Ivtens never traded with foreign kingdoms,
+especially not with one across the sea; it was against their better judgement
+of keeping a self-sustained economy.    
+~
+82 0 0
+D1
+~
+~
+0 0 8201
+S
+#8201
+Dockyard~
+   The dockyard was used a central station to conduct trade.  Not only were
+goods and men shipped back and forth from this docks, but many businesses were
+established right on the docks themselves.  Many merchants would peddle foriegn
+wares, or at times, trick unsuspecting tourists into buying useless items.  To
+the west is the primary dock, with a direct trading route to Calismorn.    
+~
+82 0 0
+D0
+~
+~
+0 0 8202
+D1
+~
+~
+0 0 8206
+D2
+~
+~
+0 0 8204
+D3
+~
+~
+0 0 8200
+S
+#8202
+Dockyard~
+   Traditionally, the dockyards would be filled with several thousand people a
+day.  Whether it be incoming passengers, tourists, or merchants, there were
+always people on the dockyards.  During the Demon Wars, the dockyard was used
+as a major line of shipment for weapons and men from Calismorn.  Even though
+the Calises were solitary people, they did provide aid to wounded soldiers from
+the continent, having one of the best hospitals in the world.    
+~
+82 0 0
+D2
+~
+~
+0 0 8201
+D3
+~
+~
+0 0 8203
+S
+#8203
+Docks~
+   Bustling with activity, these docks used to be the central area of commerce
+for all the free worlds.  Until the Demon Wars, the docks were constantly
+flowing with goods and people.  At times, the docks literally broke because of
+the tremendous weight brought upon by all the cargo and people.  Eventually,
+the docks were reinforced with metal, which allowed for heavier objects to be
+brought aboard.    
+~
+82 0 0
+D1
+~
+~
+0 0 8202
+S
+#8204
+Dockyard~
+   Traditionally, the dockyards would be filled with several thousand people a
+day.  Whether it be incoming passengers, tourists, or merchants, there were
+always people on the dockyards.  During the Demon Wars, the dockyard was used
+as a major line of shipment for weapons and men from Calismorn.  Even though
+the Calises were solitary people, they did provide aid to wounded soldiers from
+the continent, having one of the best hospitals in the world.    
+~
+82 0 0
+D0
+~
+~
+0 0 8201
+D3
+~
+~
+0 0 8205
+S
+#8205
+Docks~
+   Bustling with activity, these docks used to be the central area of commerce
+for all the free worlds.  Until the Demon Wars, the docks were constantly
+flowing with goods and people.  At times, the docks literally broke because of
+the tremendous weight brought upon by all the cargo and people.  Eventually,
+the docks were reinforced with metal, which allowed for heavier objects to be
+brought aboard.    
+~
+82 0 0
+D1
+~
+~
+0 0 8204
+S
+#8206
+Dockyard Pathway~
+   A thin layer of dust lies over this once traveled road.  Before the war, the
+dockyard was the only method of transportation from the continent to the city
+of Calismorn.  In addition to being a formidable ally, the Calises provided a
+large variety of goods and services for all the free kingdoms.  Although having
+seen better days, this road is still a reminder of the alliances that once
+existed.    
+~
+82 0 0
+D1
+~
+~
+0 0 8208
+D3
+~
+~
+0 0 8201
+S
+#8207
+Shattered Remains~
+   This is the Pesca SOLEMN, within the class of a warship with extreme speed.
+The SOLEMN was the only ship in the fleet never to make it off the docks.  The
+initial demons ravaged the docks quickly, and destroyed the ships.  It wasn't
+until after the rise of Phobos that new heroes came to save Ivten, which in
+turn saved the docks.  Although the docks are still considered a sacred area,
+communication lines between Ivten and Calismorn are still established through
+these docks.  The SOLEMN then, is here as a monument to the lost naval fighters
+during the war.    
+~
+82 q 0
+S
+#8208
+Stone Pathway~
+   Paved with white stone, this road was the main connector between the
+dockyard and the great city of Lanora.  Although battered somewhat from the
+way, these roads have held strong through countless wars and have continued to
+serve the industrious people of this continent for centuries.    
+~
+82 0 0
+D1
+~
+~
+0 0 8209
+D3
+~
+~
+0 0 8206
+S
+#8209
+Stone Pathway~
+   Paved with white stone, this road was the main connector between the
+dockyard and the great city of Lanora.  Although battered somewhat from the
+way, these roads have held strong through countless wars and have continued to
+serve the industrious people of this continent for centuries.  To the east
+stands the Tower of Lanora, one of the greatest structures of mankind.    
+~
+82 0 0
+D1
+~
+~
+0 0 8210
+D3
+~
+~
+0 0 8208
+S
+#8210
+Entrance to Lanora~
+   A slight mist of dust seems to be in perpetual existance, seemingly to
+signal the sense of dread and despair the surronds this once grand city.  The
+remnants of two statues, one of Perris and the other of the King, stands
+half-erect over marble pedestals.  The gate of Lanora is broken, with the thick
+wood broken by the forces of demonkind.  Helmets of slain soldiers and swords
+of mighty warriors lie on the ground, speaking not of any history, but
+remaining as part of the landscape.    
+~
+82 0 0
+D1
+~
+~
+0 0 8211
+D3
+~
+~
+0 0 8209
+S
+#8211
+Beneath the main wall~
+   The thick stone wall surrounds Lanora as do all major cities, with a parapet
+made to accommodate an entire army is needed.  Structured as a surronding wall,
+the six main towers at the northern and southern points of the wall, Lanora was
+a city of peace prepared for war.  The weakest point of the wall then was the
+gate, which was destroyed by the demons quickly, leading to the destruction of
+Lanora and its people.    
+~
+82 0 0
+D1
+~
+~
+0 0 8212
+D3
+~
+~
+0 0 8210
+S
+#8212
+Lanora Square~
+   Surronding the Tower of Lanora, the center square is the only open area
+within Lanora.  Surronded by what used to a bustling commercial district, it is
+now nothing but dirt and sand.  Broken pieces of stone and metal lie scattered
+about, and a pungent odor of death seems to linger eternally in the air.  The
+surronding building are dilapidated, with holes in the roofs and empty
+doorways.  It seems as though nature itself died in the war.    
+~
+82 0 0
+D0
+~
+~
+0 0 8219
+D2
+~
+~
+0 0 8213
+D3
+~
+~
+0 0 8211
+S
+#8213
+Lanora Square~
+   Surronding the Tower of Lanora, the center square is the only open area
+within Lanora.  Surronded by what used to a bustling commercial district, it is
+now nothing but dirt and sand.  Broken pieces of stone and metal lie scattered
+about, and a pungent odor of death seems to linger eternally in the air.  The
+surronding building are dilapidated, with holes in the roofs and empty
+doorways.  It seems as though nature itself died in the war.    
+~
+82 0 0
+D0
+~
+~
+0 0 8212
+D1
+~
+~
+0 0 8214
+S
+#8214
+Lanora Square~
+   Surronding the Tower of Lanora, the center square is the only open area
+within Lanora.  Surronded by what used to a bustling commercial district, it is
+now nothing but dirt and sand.  Broken pieces of stone and metal lie scattered
+about, and a pungent odor of death seems to linger eternally in the air.  The
+surronding building are dilapidated, with holes in the roofs and empty
+doorways.  It seems as though nature itself died in the war.    
+~
+82 0 0
+D1
+~
+~
+0 0 8215
+D3
+~
+~
+0 0 8213
+S
+#8215
+Lanora Square~
+   Surronding the Tower of Lanora, the center square is the only open area
+within Lanora.  Surronded by what used to a bustling commercial district, it is
+now nothing but dirt and sand.  Broken pieces of stone and metal lie scattered
+about, and a pungent odor of death seems to linger eternally in the air.  The
+surronding building are dilapidated, with holes in the roofs and empty
+doorways.  It seems as though nature itself died in the war.    
+~
+82 0 0
+D0
+~
+~
+0 0 8216
+D3
+~
+~
+0 0 8214
+S
+#8216
+Lanora Square~
+   Surronding the Tower of Lanora, the center square is the only open area
+within Lanora.  Surronded by what used to a bustling commercial district, it is
+now nothing but dirt and sand.  Broken pieces of stone and metal lie scattered
+about, and a pungent odor of death seems to linger eternally in the air.  The
+surronding building are dilapidated, with holes in the roofs and empty
+doorways.  It seems as though nature itself died in the war.    
+~
+82 0 0
+D0
+~
+~
+0 0 8217
+D2
+~
+~
+0 0 8215
+S
+#8217
+Lanora Square~
+   Surronding the Tower of Lanora, the center square is the only open area
+within Lanora.  Surronded by what used to a bustling commercial district, it is
+now nothing but dirt and sand.  Broken pieces of stone and metal lie scattered
+about, and a pungent odor of death seems to linger eternally in the air.  The
+surronding building are dilapidated, with holes in the roofs and empty
+doorways.  It seems as though nature itself died in the war.    
+~
+82 0 0
+D2
+~
+~
+0 0 8216
+D3
+~
+~
+0 0 8218
+S
+#8218
+Lanora Square~
+   Surronding the Tower of Lanora, the center square is the only open area
+within Lanora.  Surronded by what used to a bustling commercial district, it is
+now nothing but dirt and sand.  Broken pieces of stone and metal lie scattered
+about, and a pungent odor of death seems to linger eternally in the air.  The
+surronding building are dilapidated, with holes in the roofs and empty
+doorways.  It seems as though nature itself died in the war.    
+~
+82 0 0
+D1
+~
+~
+0 0 8217
+D3
+~
+~
+0 0 8219
+S
+#8219
+Lanora Square~
+   Surronding the Tower of Lanora, the center square is the only open area
+within Lanora.  Surronded by what used to a bustling commercial district, it is
+now nothing but dirt and sand.  Broken pieces of stone and metal lie scattered
+about, and a pungent odor of death seems to linger eternally in the air.  The
+surronding building are dilapidated, with holes in the roofs and empty
+doorways.  It seems as though nature itself died in the war.    
+~
+82 0 0
+D1
+~
+~
+0 0 8218
+D2
+~
+~
+0 0 8212
+S
+#8220
+Path of Strength~
+You are in an unfinished room.
+~
+82 0 0
+D0
+~
+~
+0 0 8216
+S
+#8221
+1~
+You are in an unfinished room.
+~
+82 0 0
+S
+#8222
+1~
+You are in an unfinished room.
+~
+82 0 0
+S
+#8223
+1~
+You are in an unfinished room.
+~
+82 0 0
+S
+#8224
+1~
+You are in an unfinished room.
+~
+82 0 0
+S
+#8225
+1~
+You are in an unfinished room.
+~
+82 0 0
+S
+$~

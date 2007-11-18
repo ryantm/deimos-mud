@@ -1,0 +1,221 @@
+#2700
+blade~
+the masters Blade~
+The well crafted blade~
+~
+5 0 8193 0
+2 4 4 3
+3 146900 100 35
+#2701
+Bread bag~
+a Bread Bag~
+A small cloth bag full of freshly baked bread.~
+The smell of freshly baked bread is coming from this bag and it fills the room.
+~
+15 64 16385 0
+10 0 0 0
+1 1 1 0
+#2702
+Bread~
+a Loaf of Bread~
+A Loaf of Freshly baked Bread~
+The smell of freshly baked bread drift up to your nose and you spot the piece that is is coming from. It looks delicious !
+~
+19 0 1 0
+13 0 0 0
+0 0 0 0
+#2703
+plate~
+Breastplate~
+A shiny Breastplate~
+A newly forged breastplate that reflects the sun into your eyes momentarily blinding you.  Better not look at it to much or you could go blind.
+~
+9 16384 9 0
+-5 0 0 0
+9 24000 0 23
+A
+2 -2
+A
+5 5
+#2704
+token~
+Strength Token~
+A Strength Token~
+A circular piece of metal that has the word strength written upon it.
+~
+12 4 16385 0
+0 0 0 0
+1 0 0 35
+A
+1 4
+#2705
+token intelligence~
+Token~
+An Intelligence Token~
+A small square Metallic disc with the letters IQ written upon it.
+~
+12 131212 16385 0
+0 0 0 0
+1 0 0 25
+A
+3 3
+A
+4 3
+#2706
+key~
+a key~
+A key~
+A key
+~
+18 65692 1 0
+0 0 0 0
+1 0 0 0
+T 2751
+T 2752
+#2707
+chest~
+Treasure Chest~
+A Treasure Chest~
+A beautifully crafted Chest that is probably filled with jewels and money to the brim.  It looks heavy beyond belief.
+~
+15 0 0 0
+100 15 2706 0
+10000 0 0 0
+T 2707
+#2708
+leggings mail plate~
+Plate mail leggings~
+A set of Plate mail leggings~
+A well used set of leggins that still have lots of wear left in them.  You think you see a glow coming off of them.
+~
+9 1 33 0
+10 0 0 0
+3 11000 0 25
+A
+2 1
+A
+19 1
+#2709
+pin cushion~
+Pin Cushion~
+A pin Cushion~
+A green cushion stuffed full of pins.
+~
+5 0 8193 0
+1 1 2 11
+3 0 0 12
+#2710
+Brass gauntlets~
+Brass gauntlets~
+Brass gauntlets rust on the floor.~
+~
+9 0 129 0
+8 0 0 0
+4 0 0 45
+A
+18 2
+A
+19 1
+#2711
+cleaver~
+Cleaver~
+A Meat Cleaver~
+A well worn knife that looks like it could slice a cow in half with one chop.
+~
+5 0 8193 0
+0 2 2 3
+3 0 0 0
+A
+1 1
+#2712
+sword~
+a sword~
+A sword~
+A plain looking sword.
+~
+5 0 8193 0
+2 2 1 3
+4 1000 0 10
+#2713
+spear~
+a Spear~
+A Spear~
+A plain looking wooden spear with a metal tip.
+~
+5 0 8193 0
+1 1 2 11
+4 1200 0 10
+#2714
+long sword~
+a Metal Longsword~
+A Metal Longsword~
+A plain looking longsword with a brass hilt.
+~
+5 0 8193 0
+1 1 3 3
+3 1300 0 12
+#2715
+wand~
+Alabaster Wand~
+An Alabaster Wand~
+A wand of power that is covered in flowing runes.
+~
+3 1 16385 0
+18 10 6 47
+1 1600 0 13
+#2716
+Seal~
+Seal of defense~
+A Seal of Defense~
+A metal disc that strange carvings on both side and pulses with power.  You here a voice teling you to hold this seal would make you invincible.
+~
+9 2 16385 0
+-20 0 0 0
+7 24000 2500 40
+A
+24 5
+#2717
+blade~
+Enchanted Blade~
+An Enchanted Blade~
+Covered with beatitul flowing runes and possessing magical powers the blade calls to you to wield it.
+~
+5 28672 1 0
+2 2 3 3
+5 50000 0 0
+A
+18 1
+A
+19 2
+#2718
+Sword~
+a Sword~
+A plain sword~
+A well used sword, plain and without remark.
+~
+5 262144 8193 0
+4 4 5 3
+1 1400 0 10
+A
+18 1
+A
+19 3
+#2721
+well~
+a Well~
+A Well~
+A well filled with water in the center of the square.
+~
+23 0 0 0
+99999999 99999999 15 0
+100000004 0 0 0
+#2730
+crack~
+a Crack~
+A crack in the Road~
+A gaping hole in the road into which you can see 200 feet down the cliff. Becareful not to fall in because you would not survive the fall !
+~
+12 16 0 0
+0 0 0 0
+0 0 0 0
+$~

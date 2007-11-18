@@ -1,0 +1,1889 @@
+#3400
+Entrance to Northern Cave~
+   Large rocks loom up in the distance, but are strangly blue colored.  The
+dull, brown foilage has disapeered completely, resulting in an absense off
+everything living.  Even though there is no light penetrating from the outside
+world, a dim blue light penetrates everything.  The only visible path is down
+into the depths of the cave.    
+~
+34 c 0
+D0
+~
+~
+0 0 4290
+D5
+~
+~
+0 0 3401
+S
+#3401
+Downward Spiral~
+   Spiraling around the deep hole is a natural ramp, made of smooth rock.  
+Nothing prevents from taking a plunge into eternal nothingness.  The air is
+stuffy, yet clean, and airborn animals can be sensed, flying gracefully above.
+The only way to go is down, d eeper into the cave .
+~
+34 0 0
+D5
+<NONE>
+~
+-1~
+0 0 3402
+S
+#3402
+Downward Spiral~
+   Spiraling around the deep hole is a natural ramp, made of smooth rock.  
+Nothing prevents from taking a plunge into eternal nothingness.  The air is
+stuffy, yet clean, and airborn animals can be sensed, flying gracefully above.
+The only way to go is down, deeper into the cave
+~
+34 0 0
+D5
+~
+~
+0 0 3403
+S
+#3403
+Small platform~
+   The small spiral of rocks has given way to a small platform, laying in the
+middle of vast darkness.  Glowing eyes can be seen all around, waiting, and
+watching.  Its far too steep a climb to go back up, and the only visible exit
+is to the north.    
+~
+34 0 0
+D0
+~
+~
+0 0 3404
+S
+#3404
+Small platform~
+   The small platform stands in the middle of a vast cavern.  Dim blue and
+green lights can be seen along the walls, so far away.  The floor extends well
+out of sight range.    
+~
+34 c 0
+D0
+~
+~
+0 0 3407
+D1
+~
+~
+0 0 3409
+D2
+~
+~
+0 0 3403
+D3
+~
+~
+0 0 3405
+S
+#3405
+Small platform~
+   The small platform stands in the middle of a vast cavern.  Dim blue and
+green lights can be seen along the walls, so far away.  The floor extends well
+out of sight range
+~
+34 0 0
+D0
+~
+~
+0 0 3406
+D1
+~
+~
+0 0 3404
+D2
+~
+stone~
+1 0 3435
+S
+#3406
+Small platform~
+   The small platform stands in the middle of a vast cavern.  Dim blue and
+green lights can be seen along the walls, so far away.  The floor extends well
+out of sight range
+~
+34 0 0
+D0
+~
+~
+0 0 3410
+D1
+~
+~
+0 0 3407
+D2
+~
+~
+0 0 3405
+S
+#3407
+Small platform~
+     The small platform stands in the middle of a vast cavern.  Dim blue and
+green lights can be seen along the walls, so far away.  The floor extends well
+out of sight range
+~
+34 0 0
+D0
+~
+~
+0 0 3411
+D1
+~
+~
+0 0 3408
+D2
+~
+~
+0 0 3404
+D3
+~
+~
+0 0 3406
+S
+#3408
+Small platform~
+   The small platform stands in the middle of a vast cavern.  Dim blue and
+green lights can be seen along the walls, so far away.  The floor extends well
+out of sight range
+~
+34 0 0
+D0
+~
+~
+0 0 3412
+D2
+~
+~
+0 0 3409
+D3
+~
+~
+0 0 3407
+S
+#3409
+Small platform~
+   The small platform stands in the middle of a vast cavern.  Dim blue and
+green lights can be seen along the walls, so far away.  The floor extends well
+out of sight range
+~
+34 0 0
+D0
+~
+~
+0 0 3408
+D3
+~
+~
+0 0 3404
+S
+#3410
+Small platform~
+   The small platform stands in the middle of a vast cavern.  Dim blue and
+green lights can be seen along the walls, so far away.  The floor extends well
+out of sight range
+~
+34 0 0
+D1
+~
+~
+0 0 3411
+D2
+~
+~
+0 0 3406
+S
+#3411
+Small platform~
+   The small platform stands in the middle of a vast cavern.  Dim blue and
+green lights can be seen along the walls, so far away.  The floor extends well
+out of sight range
+~
+34 c 0
+D0
+~
+~
+0 0 3413
+D1
+~
+~
+0 0 3412
+D2
+~
+~
+0 0 3407
+D3
+~
+~
+0 0 3410
+S
+#3412
+Small platform~
+   The small platform stands in the middle of a vast cavern.  Dim blue and
+green lights can be seen along the walls, so far away.  The floor extends well
+out of sight range.    
+~
+34 0 0
+D2
+~
+~
+0 0 3408
+D3
+~
+~
+0 0 3411
+S
+#3413
+Small tunnel~
+   Cracks and fissures cover the walls of the small, stone tunnel, making it
+seem very unstable.  Yet this tunnel has remained in the same condition for
+countless years.  The tunnel leads into a series of platform and drops to the
+north east.    
+~
+34 i 0
+D0
+~
+~
+0 0 3414
+D2
+~
+~
+0 0 3411
+S
+#3414
+Small tunnel~
+   Cracks and fissures cover the walls of the small, stone tunnel, making it
+seem very unstable.  Yet this tunnel has remained in the same condition for
+countless years.  The tunnel leads into a series of platform and drops to the
+east.    
+~
+34 i 0
+D1
+~
+~
+0 0 3415
+D2
+~
+~
+0 0 3413
+S
+#3415
+Steep downgrade~
+   The small, narrow tunnel has given way to a steep drop,, not too steep to
+climb back up, but steep nonetheless.  Another tunnel of rocks can be seen at
+the bottom of the downgrade.    
+~
+34 i 0
+D3
+~
+~
+0 0 3414
+D5
+~
+~
+0 0 3416
+S
+#3416
+Ledge~
+   This ledge seems to float, in the middle of vast darkness.  On each side
+there are steep drops, making the number of people traveling on it down to a
+minimum.  The path continues on.    
+~
+34 i 0
+D1
+Nothing.
+~
+wall~
+1 0 3421
+D3
+~
+~
+0 0 3417
+D4
+~
+~
+0 0 3415
+S
+#3417
+Ledge~
+   This ledge seems to float, in the middle of vast darkness.  On each side
+there are steep drops, making the number of people traveling on it down to a
+minimum.  The path continues on.    
+~
+34 i 0
+D1
+~
+~
+0 0 3416
+D3
+~
+~
+0 0 3418
+S
+#3418
+Ledge~
+   You are in an unfinished room.  This ledge seems to float, in the middle of
+vast darkness.  On each side there are steep drops, making the number of people
+traveling on it down to a minimum.  The path continues on.    
+~
+34 i 0
+D0
+~
+~
+0 0 3419
+D1
+~
+~
+0 0 3417
+S
+#3419
+Steep downgrade~
+   The small, narrow tunnel has given way to a steep drop,, not too steep to
+climb back up, but steep nonetheless.  Another tunnel of rocks can be seen at
+the bottom of the downgrade.    
+~
+34 i 0
+D2
+~
+~
+0 0 3418
+D5
+~
+~
+0 0 3420
+S
+#3420
+Dark tunnnel~
+   The quiet glow of blue and green has given way to absolutly no light
+whatsoever.  Walls can be felt an all sides except east, and a very faint white
+light can be seen at the end of the tunnel...    
+~
+34 ac 0
+D1
+~
+~
+0 0 3422
+D4
+~
+~
+0 0 3419
+S
+#3421
+Small cavern~
+   This small, rock cavern has been hidden away by a wall of rocks.  It is a
+great place to rest before approaching the hardships of the northern cave.  
+Hidden from sight, monsters will not attack, leaving you safe, for now.    
+~
+34 c 0
+D3
+~
+wall~
+1 0 3416
+S
+#3422
+Stone ramp~
+   This large, stone ramp leads in a zigzag down into the deeper parts of the
+cave.  The ramp is not steep at all, making it possible to come back the other
+way.  At the end of this ramp, a vast, dimly lit cavern can be seen.  The ramp
+continues to the north
+~
+34 0 0
+D0
+~
+~
+0 0 3423
+D3
+~
+~
+0 0 3420
+S
+#3423
+Stone ramp~
+   This large, stone ramp leads in a zigzag down into the deeper parts of the
+cave.  The ramp is not steep at all, making it possible to come back the other
+way.  At the end of this ramp, a vast, dimly lit cavern can be seen.  The ramp
+continues downward.    
+~
+34 0 0
+D2
+~
+~
+0 0 3422
+D5
+~
+~
+0 0 3424
+S
+#3424
+Dim cavern~
+   This small, dim cavern marks the spliting of the path of the northern cave.
+The cavern is not very large, with only dim blue and green lights lighting the
+way.  The cavern expands in all directions.    
+~
+34 0 0
+D0
+~
+~
+0 0 3428
+D1
+~
+~
+0 0 3426
+D3
+~
+~
+0 0 3425
+D4
+~
+~
+0 0 3423
+S
+#3425
+Dim cavern~
+   This small, dim cavern marks the spliting of the path of the northern cave.
+The cavern is not very large, with only dim blue and green lights lighting the
+way.  The cavern expands to the east and to the north.    
+~
+34 0 0
+D0
+~
+~
+0 0 3429
+D1
+~
+~
+0 0 3424
+S
+#3426
+Dim cavern~
+   This small, dim cavern marks the spliting of the path of the northern cave.
+The cavern is not very large, with only dim blue and green lights lighting the
+way.  The cavern expands to the west and to the north.    
+~
+34 0 0
+D0
+~
+~
+0 0 3427
+D3
+~
+~
+0 0 3424
+S
+#3427
+&rEntrance to the Right Path&n~
+   Long ago, the northern cave was split into two paths: the left path and the
+right path.  The right path has always been known to be the easier of the two
+to navigate, but hard nonetheless.  The Right Path begins to the east, and more
+of the cavern lies to the south and west.    
+~
+34 c 0
+D1
+~
+~
+0 0 3459
+D2
+~
+~
+0 0 3426
+D3
+~
+~
+0 0 3428
+S
+#3428
+Dim cavern~
+   This small, dim cavern marks the spliting of the path of the northern cave.
+The cavern is not very large, with only dim blue and green lights lighting the
+way.  The cavern expands to the east, west, and south.    
+~
+34 0 0
+D1
+~
+~
+0 0 3427
+D2
+~
+~
+0 0 3424
+D3
+~
+~
+0 0 3429
+S
+#3429
+&gEntrance to the Left Path&n~
+   Long ago, the northern cave was split into two paths: the left path and the
+right path.  The Left Path has been known to be the harder of the two paths,
+with harder monsters and challenging landscape.  This path is only for the
+bravest, and the best of the best.  The left path begins to the west, while the
+rest of the cavern lies to the east and south.    
+~
+34 ch 0
+D1
+~
+~
+0 0 3428
+D2
+~
+~
+0 0 3425
+D3
+~
+~
+0 0 3430
+S
+#3430
+&gGreen&n Pathway~
+   The large, dull rocks have given way to a strange sight.  Immense light and
+greenery can be seen ahead, lush with green plants and glowing green liquid.  
+The very essense of the planet is contained in this small arena, rich with
+life.  The pathway is made of dirt, with small, green plants lining the path.
+The path continues north.    
+~
+34 ch 0
+D0
+~
+~
+0 0 3431
+D1
+~
+~
+0 0 3429
+S
+#3431
+&gGreen&n Pathway~
+   The large, dull rocks have given way to a strange sight.  Immense light and
+greenery can be seen ahead, lush with green plants and glowing green liquid.  
+The very essense of the planet is contained in this small arena, rich with
+life.  The pathway is made of dirt, with small, green plants lining the path.
+The path continues north.    
+~
+34 ch 0
+D0
+~
+~
+0 0 3433
+D2
+~
+~
+0 0 3430
+S
+#3432
+&rBeneath the bones&n~
+   This small, narrow room is just beneath all of the bones of the cavern.  It
+may have once been another pathway, but rocks and dirt have long since blocked
+the path.  The rest of the cavern is back up through the hole.    
+~
+34 c 0
+D4
+~
+bone~
+1 0 3465
+S
+#3433
+&gGreen&n Pathway~
+   The large, dull rocks have given way to a strange sight.  Immense light and
+greenery can be seen ahead, lush with green plants and glowing green liquid.  
+The very essense of the planet is contained in this small arena, rich with
+life.  The pathway is made of dirt, with small, green plants lining the path.
+A small, domed entrance to a glowing green cavern is to the north.    
+~
+34 ch 0
+D0
+~
+wall~
+1 0 3434
+D2
+~
+~
+0 0 3431
+S
+#3434
+&gGlowing green&n cavern~
+   The immense amount of green light is almost blinding.  This cavern has a
+very large, glowing stone directly in the center of the room.  It emits a huge
+quantity of light, making it possible to see all of the detail of the rock
+walls.  The cavern expands to the north and to the east .
+~
+34 h 0
+D0
+~
+~
+0 0 3436
+D1
+~
+~
+0 0 3437
+D2
+~
+wall~
+1 0 3433
+S
+#3435
+Small opening~
+   This small opening in the pure rock wall was chisled out by some sort of
+monster.  It now remains as a lost part of the cave.  Its almost impossible to
+find...  The rest of the platform lies to the north.    
+~
+34 c 0
+D0
+~
+stone~
+1 0 3405
+S
+#3436
+&gGlowing green&n cavern~
+   The immense amount of green light is almost blinding.  This cavern has a
+very large, glowing stone directly in the center of the room.  It emits a huge
+quantity of light, making it possible to see all of the detail of the rock
+walls.  The cavern expands to the south and to the east.    
+~
+34 h 0
+D1
+~
+~
+0 0 3438
+D2
+~
+~
+0 0 3434
+D3
+~
+vegetation~
+1 0 3440
+S
+#3437
+&gGlowing green&n cavern~
+   The immense amount of green light is almost blinding.  This cavern has a
+very large, glowing stone directly in the center of the room.  It emits a huge
+quantity of light, making it possible to see all of the detail of the rock
+walls.  The cavern expands to the north and to the west.    
+~
+34 h 0
+D0
+~
+~
+0 0 3438
+D3
+~
+~
+0 0 3434
+S
+#3438
+&gGlowing green&n cavern~
+   The immense amount of green light is almost blinding.  This cavern has a
+very large, glowing stone directly in the center of the room.  It emits a huge
+quantity of light, making it possible to see all of the detail of the rock
+walls.  The cavern expands to the south and to the west.  A trail lush with
+plants is to the east
+~
+34 h 0
+D1
+~
+~
+0 0 3439
+D2
+~
+~
+0 0 3437
+D3
+~
+~
+0 0 3436
+S
+#3439
+&gLush green&n path~
+   This small, green path has never been walked apon before.  For so deep
+inside the earth, this path has incredible amounts of life and vegetation.  
+Despite its peaceful looks, this path is home to many fearsome monsters,
+mutated by exposure to pure mako energy.  The path continues to the east.    
+~
+34 ch 0
+D1
+~
+~
+0 0 3441
+D3
+~
+~
+0 0 3438
+S
+#3440
+&gIn the trees&n~
+   This small clearing in the middle of tall plants is barely visible from the
+main path.  Surronded on all sides by vegetation, this is a perfect spot for a
+quick rest.  Remains of a small fire can be seen on the ground.  Obviously,
+someone else has been here.  The green cavern is to the east.    
+~
+34 ch 0
+D1
+~
+vegetation~
+1 0 3436
+S
+#3441
+&gLush green&n path~
+   This small, green path has never been walked apon before.  For so deep
+inside the earth, this path has incredible amounts of life and vegetation.  
+Despite its peaceful looks, this path is home to many fearsome monsters,mutated
+by exposure to pure mako energy.  The path continues to the east.    
+~
+34 ch 0
+D1
+~
+~
+0 0 3442
+D3
+~
+~
+0 0 3439
+S
+#3442
+&gLush green&n path~
+   This small, green path has never been walked apon before.  For so deep
+inside the earth, this path has incredible amounts of life and vegetation.  
+Despite its peaceful looks, this path is home to many fearsome monsters,
+mutated by exposure to pure mako energy.  The path continues to the east.    
+~
+34 h 0
+D1
+~
+~
+0 0 3443
+D3
+~
+~
+0 0 3441
+S
+#3443
+&gLush green&n path~
+   This small, green path has never been walked apon before.  For so deep
+inside the earth, this path has incredible amounts of life and vegetation.  
+Despite its peaceful looks, this path is home to many fearsome monsters mutated
+by exposure to pure mako energy.  The path opens up to the east into the
+&gForest of the Lifestream&n.    
+~
+34 ch 0
+D1
+~
+~
+0 0 3444
+D3
+~
+~
+0 0 3442
+S
+#3444
+&gForest of the Lifestream&n~
+   A gigantic, living forest covers everything visible.  The ceiling of this
+vast chamber is covered with green vegetation.  It is impossible to comprehend
+something this massive underground.  A green glowing river of pure Mako runs
+straight through the middle of the forest, producing the soothing green light.
+The forest expands in all directions.    
+~
+34 0 0
+D0
+~
+~
+0 0 3446
+D1
+~
+~
+0 0 3449
+D2
+~
+~
+0 0 3445
+D3
+~
+~
+0 0 3443
+S
+#3445
+&gForest of the Lifestream&n~
+   A gigantic, living forest covers everything visible.  The ceiling of this
+vast chamber is covered with green vegetation.  It is impossible to comprehend
+something this massive underground.  A green glowing river of pure Mako runs
+straight through the middle of the forest, producing the soothing green light.
+The forest expands in all directions.    
+~
+34 0 0
+D0
+~
+~
+0 0 3444
+D1
+~
+~
+0 0 3448
+D2
+~
+~
+0 0 3446
+S
+#3446
+&gForest of the Lifestream&n~
+   A gigantic, living forest covers everything visible.  The ceiling of this
+vast chamber is covered with green vegetation.  It is impossible to comprehend
+something this massive underground.  A green glowing river of pure Mako runs
+straight through the middle of the forest, producing the soothing green light.
+The forest expands in all directions.    
+~
+34 0 0
+D0
+~
+~
+0 0 3445
+D1
+~
+~
+0 0 3447
+D2
+~
+~
+0 0 3444
+S
+#3447
+&gForest of the Lifestream&n~
+   A gigantic, living forest covers everything visible.  The ceiling of this
+vast chamber is covered with green vegetation.  It is impossible to comprehend
+something this massive underground.  A green glowing river of pure Mako runs
+straight through the middle of the forest, producing the soothing green light.
+The forest expands in all directions.    
+~
+34 0 0
+D0
+~
+~
+0 0 3448
+D1
+~
+~
+0 0 3452
+D2
+~
+~
+0 0 3449
+D3
+~
+~
+0 0 3446
+S
+#3448
+&gForest of the Lifestream&n~
+   A gigantic, living forest covers everything visible.  The ceiling of this
+vast chamber is covered with green vegetation.  It is impossible to comprehend
+something this massive underground.  A green glowing river of pure Mako runs
+straight through the middle of the forest, producing the soothing green light.
+The forest expands in all directions.    
+~
+34 0 0
+D0
+~
+~
+0 0 3449
+D1
+~
+~
+0 0 3451
+D2
+~
+~
+0 0 3447
+D3
+~
+~
+0 0 3445
+S
+#3449
+&gForest of the Lifestream&n~
+   You are in an unfinished room.  A gigantic, living forest covers everything
+visible.  The ceiling of this vast chamber is covered with green vegetation.  
+It is impossible to comprehend something this massive underground.  A green
+glowing river of pure Mako runs straight through the middle of the forest,
+producing the soothing green light.  The forest expands in all directions.    
+~
+34 0 0
+D0
+~
+~
+0 0 3447
+D1
+~
+~
+0 0 3450
+D2
+~
+~
+0 0 3448
+D3
+~
+~
+0 0 3444
+S
+#3450
+&gForest of the Lifestream&n~
+   A gigantic, living forest covers everything visible.  The ceiling of this
+vast chamber is covered with green vegetation.  It is impossible to comprehend
+something this massive underground.  A green glowing river of pure Mako runs
+straight through the middle of the forest, producing the soothing green light.
+The forest expands in all directions.    
+~
+34 0 0
+D0
+~
+~
+0 0 3452
+D1
+~
+~
+0 0 3455
+D2
+~
+~
+0 0 3451
+D3
+~
+~
+0 0 3449
+S
+#3451
+&gForest of the Lifestream&n~
+   A gigantic, living forest covers everything visible.  The ceiling of this
+vast chamber is covered with green vegetation.  It is impossible to comprehend
+something this massive underground.  A green glowing river of pure Mako runs
+straight through the middle of the forest, producing the soothing green light.
+The forest expands in all directions.    
+~
+34 0 0
+D0
+~
+~
+0 0 3450
+D1
+~
+~
+0 0 3454
+D2
+~
+~
+0 0 3452
+D3
+~
+~
+0 0 3448
+D5
+~
+ground~
+1 0 3456
+S
+#3452
+&gForest of the Lifestream&n~
+   A gigantic, living forest covers everything visible.  The ceiling of this
+vast chamber is covered with green vegetation.  It is impossible to comprehend
+something this massive underground.  A green glowing river of pure Mako runs
+straight through the middle of the forest, producing the soothing green light.
+The forest expands in all directions.    
+~
+34 0 0
+D0
+~
+~
+0 0 3451
+D1
+~
+~
+0 0 3453
+D2
+~
+~
+0 0 3450
+D3
+~
+~
+0 0 3447
+S
+#3453
+&gForest of the Lifestream&n~
+   A gigantic, living forest covers everything visible.  The ceiling of this
+vast chamber is covered with green vegetation.  It is impossible to comprehend
+something this massive underground.  A green glowing river of pure Mako runs
+straight through the middle of the forest, producing the soothing green light.
+The forest expands in all directions.  A rock entrance is to the east.    
+~
+34 0 0
+D0
+~
+~
+0 0 3454
+D1
+~
+~
+0 0 3458
+D2
+~
+~
+0 0 3455
+D3
+~
+~
+0 0 3452
+S
+#3454
+&gForest of the Lifestream&n~
+   A gigantic, living forest covers everything visible.  The ceiling of this
+vast chamber is covered with green vegetation.  It is impossible to comprehend
+something this massive underground.  A green glowing river of pure Mako runs
+straight through the middle of the forest, producing the soothing green light.
+The forest expands in all directions.    
+~
+34 0 0
+D0
+~
+~
+0 0 3455
+D2
+~
+~
+0 0 3453
+D3
+~
+~
+0 0 3451
+S
+#3455
+&gForest of the Lifestream&n~
+   A gigantic, living forest covers everything visible.  The ceiling of this
+vast chamber is covered with green vegetation.  It is impossible to comprehend
+something this massive underground.  A green glowing river of pure Mako runs
+straight through the middle of the forest, producing the soothing green light.
+The forest expands in all directions.    
+~
+34 0 0
+D0
+~
+~
+0 0 3453
+D2
+~
+~
+0 0 3454
+D3
+~
+~
+0 0 3450
+S
+#3456
+&BBeneath the river&n~
+   This deep, green river is made up of pure Mako energy, or in other words, it
+is the lifestream.  There is a small opening in an underwater cave to the east.
+  
+~
+34 cf 6
+D1
+~
+~
+0 0 3457
+D4
+~
+ground~
+1 0 3451
+S
+#3457
+&DSmall Cave&n~
+   This small, narrow cave is located under the &gForest of the Lifestream&n.
+Monsters do not know of its whereabouts, for it is hidden within the
+lifestream.  Glowing blue and green rocks make up the cave, and an aura of
+spirits fills the room.  The river is to the west.    
+~
+34 cfx 0
+D3
+~
+~
+0 0 3456
+S
+#3458
+Reunion of paths~
+   The lush, green landscape from the left path and the red, boiling lava from
+the right path have given way to dark, gray rock once again.  The small cavern
+is made entirely of rock and dirt.  A faint green glow can be seem down the
+steep drop at the middle of this cavern.  A spiraling path is to the south, the
+left path is to the west, and the right path is to the north.    
+~
+34 ch 0
+D0
+~
+~
+0 0 3486
+D2
+~
+~
+0 0 3487
+D3
+~
+~
+0 0 3453
+S
+#3459
+&rWooden spiral&n~
+   A huge piece of wood, perhaps a root to a tremendous tree, its what you are
+standing on in the middle of a vast chamber.  To the left, a small lake of
+green glows brightly.  Yet on this side of the cavern, lava can be seen boiling
+up through cracks in the The spiral path leads down into intense red light.  
+
+~
+34 0 0
+D3
+~
+~
+0 0 3427
+D5
+~
+~
+0 0 3460
+S
+#3460
+&rWooden spiral&n~
+   A huge piece of wood, perhaps a root to a tremendous tree, its what you are
+standing on in the middle of a vast chamber.  To the left, a small lake of
+green glows brightly.  Yet on this side of the cavern, lava can be seen boiling
+up through cracks in the The spiral path leads down into intense red light.  
+
+~
+34 0 0
+D4
+~
+~
+0 0 3459
+D5
+~
+~
+0 0 3461
+S
+#3461
+&rWooden spiral&n~
+   You are in an unfinished room.  A huge piece of wood, perhaps a root to a
+tremendous tree, its what you are standing on in the middle of a vast chamber.
+To the left, a small lake of green glows brightly.  Yet on this side of the
+cavern, lava can be seen boiling up through cracks in the The spiral path leads
+down into intense red light.    
+~
+34 0 0
+D4
+~
+~
+0 0 3460
+D5
+~
+~
+0 0 3462
+S
+#3462
+&rWooden spiral&n~
+   A huge piece of wood, perhaps a root to a tremendous tree, its what you are
+standing on in the middle of a vast chamber.  To the left, a small lake of
+green glows brightly.  Yet on this side of the cavern, lava can be seen boiling
+up through cracks in the The spiral ends here, leaving an exit to a cavern to
+the north.    
+~
+34 0 0
+D0
+~
+~
+0 0 3463
+D4
+~
+~
+0 0 3461
+S
+#3463
+&rWooden pathway&n~
+   This small, wooden path has been formed for some reason not known to anyone.
+It is a perfect path, leading down deeper into the cave.  To the north lies a
+cavern made of bone and rock, where terrible screams can be heard.    
+~
+34 c 0
+D0
+~
+~
+0 0 3464
+D2
+~
+~
+0 0 3462
+S
+#3464
+&rBone cavern&n~
+   This large cavern is surrounded by bones of various types of animals.  Its a
+very solemn place, covered by death and monsters.  Through the stone walls, an
+immense sea of lava can be seen, glowing bright red.  To the north and east is
+more of this strange cavern, and the southern path leads back to the entrance
+of the cave.    
+~
+34 0 0
+D0
+~
+~
+0 0 3465
+D1
+~
+~
+0 0 3469
+D2
+~
+~
+0 0 3463
+S
+#3465
+&rBone cavern&n~
+   This large cavern is surrounded by bones of various types of animals.  Its a
+very solemn place, covered by death and monsters.  Through the stone walls, an
+immense sea of lava can be seen, glowing bright red.  To the north, east and
+south is more of this strange cavern.    
+~
+34 0 0
+D0
+~
+~
+0 0 3466
+D1
+~
+~
+0 0 3468
+D2
+~
+~
+0 0 3464
+D5
+~
+bone~
+1 0 3432
+S
+#3466
+&rBone cavern&n~
+   This large cavern is surrounded by bones of various types of animals.  Its a
+very solemn place, covered by death and monsters.  Through the stone walls, an
+immense sea of lava can be seen, glowing bright red.  To the east and south is
+more of this strange cavern.    
+~
+34 0 0
+D1
+~
+~
+0 0 3467
+D2
+~
+~
+0 0 3465
+S
+#3467
+&rBone cavern&n~
+   This large cavern is surrounded by bones of various types of animals.  Its a
+very solemn place, covered by death and monsters.  Through the stone walls, an
+immense sea of lava can be seen, glowing bright red.  To the west and south is
+more of this strange cavern, and to the north the path leads on.    
+~
+34 0 0
+D0
+~
+~
+0 0 3470
+D2
+~
+~
+0 0 3468
+D3
+~
+~
+0 0 3466
+S
+#3468
+&rBone cavern&n~
+   This large cavern is surrounded by bones of various types of animals.  Its a
+very solemn place, covered by death and monsters.  Through the stone walls, an
+immense sea of lava can be seen, glowing bright red.  To the west and south,
+and north is more of this strange cavern.    
+~
+34 0 0
+D0
+~
+~
+0 0 3467
+D2
+~
+~
+0 0 3469
+D3
+~
+~
+0 0 3465
+S
+#3469
+&rBone cavern&n~
+   This large cavern is surrounded by bones of various types of animals.  Its a
+very solemn place, covered by death and monsters.  Through the stone walls, an
+immense sea of lava can be seen, glowing bright red.  To the west and north is
+more of this strange cavern.    
+~
+34 0 0
+D0
+~
+~
+0 0 3468
+D3
+~
+~
+0 0 3464
+S
+#3470
+&rRed&n pathway~
+   Immense heat can be felt from all sides, as this small, narrow pathway
+resides above a sea of lava.  How this path was made is a mystery, because
+there seems to be nothing holding it up.  The red glow becomes stronger to the
+west.    
+~
+34 c 0
+D2
+~
+~
+0 0 3467
+D3
+~
+~
+0 0 3471
+S
+#3471
+&rRed&n pathway~
+   Immense heat can be felt from all sides, as this small, narrow pathway
+resides above a sea of lava.  How this path was made is a mystery, because
+there seems to be nothing holding it up.  The red glow becomes stronger to the
+west.    
+~
+34 c 0
+D1
+~
+~
+0 0 3470
+D3
+~
+~
+0 0 3472
+S
+#3472
+&rRed&n pathway~
+   Immense heat can be felt from all sides, as this small, narrow pathway
+resides above a sea of lava.  How this path was made is a mystery, because
+there seems to be nothing holding it up.  The red glow becomes stronger to the
+west.    
+~
+34 c 0
+D1
+~
+~
+0 0 3471
+D3
+~
+~
+0 0 3473
+S
+#3473
+&rLava Sea&n~
+   The &rLava Sea&n is quite literally a sea of lava.  One step into the
+boiling lava would be the last step ever taken.  The heat is almost unbearable
+for a normal human.  However, the monsters living in this area of the cave can
+withstand the heat.  The &rLava Sea&n expands in all directions.    
+~
+34 0 9
+D0
+~
+~
+0 0 3474
+D1
+~
+~
+0 0 3472
+D2
+~
+~
+0 0 3475
+D3
+~
+~
+0 0 3477
+S
+#3474
+&rLava Sea&n~
+   The &rLava Sea&n is quite literally a sea of lava.  One step into the
+boiling lava would be the last step ever taken.  The heat is almost unbearable
+for a normal human.  However, the monsters living in this area of the cave can
+withstand the heat.  The &rLava Sea&n expands in all directions.    
+~
+34 0 9
+D0
+~
+~
+0 0 3475
+D2
+~
+~
+0 0 3473
+D3
+~
+~
+0 0 3478
+S
+#3475
+&rLava Sea&n~
+   The &rLava Sea&n is quite literally a sea of lava.  One step into the
+boiling lava would be the last step ever taken.  The heat is almost unbearable
+for a normal human.  However, the monsters living in this area of the cave can
+withstand the heat.  The &rLava Sea&n expands in all directions.    
+~
+34 0 9
+D0
+~
+~
+0 0 3473
+D2
+~
+~
+0 0 3474
+D3
+~
+~
+0 0 3476
+S
+#3476
+&rLava Sea&n~
+   The &rLava Sea&n is quite literally a sea of lava.  One step into the
+boiling lava would be the last step ever taken.  The heat is almost unbearable
+for a normal human.  However, the monsters living in this area of the cave can
+withstand the heat.  The &rLava Sea&n expands in all directions.    
+~
+34 0 9
+D0
+~
+~
+0 0 3477
+D1
+~
+~
+0 0 3475
+D2
+~
+~
+0 0 3478
+D3
+~
+~
+0 0 3481
+S
+#3477
+&rLava Sea&n~
+   The &rLava Sea&n is quite literally a sea of lava.  One step into the
+boiling lava would be the last step ever taken.  The heat is almost unbearable
+for a normal human.  However, the monsters living in this area of the cave can
+withstand the heat.  The &rLava Sea&n expands in all directions.    
+~
+34 0 9
+D0
+~
+~
+0 0 3478
+D1
+~
+~
+0 0 3473
+D2
+~
+~
+0 0 3476
+D3
+~
+~
+0 0 3480
+S
+#3478
+&rLava Sea&n~
+   The &rLava Sea&n is quite literally a sea of lava.  One step into the
+boiling lava would be the last step ever taken.  The heat is almost unbearable
+for a normal human.  However, the monsters living in this area of the cave can
+withstand the heat.  The &rLava Sea&n expands in all directions.    
+~
+34 0 9
+D0
+~
+~
+0 0 3482
+D1
+~
+~
+0 0 3474
+D2
+~
+~
+0 0 3477
+D3
+~
+~
+0 0 3479
+S
+#3479
+&rLava Sea&n~
+   The &rLava Sea&n is quite literally a sea of lava.  One step into the
+boiling lava would be the last step ever taken.  The heat is almost unbearable
+for a normal human.  However, the monsters living in this area of the cave can
+withstand the heat.  The &rLava Sea&n expands in all directions.    
+~
+34 0 9
+D0
+~
+~
+0 0 3481
+D1
+~
+~
+0 0 3478
+D2
+~
+~
+0 0 3480
+D3
+~
+~
+0 0 3485
+S
+#3480
+&rLava Sea&n~
+   The &rLava Sea&n is quite literally a sea of lava.  One step into the
+boiling lava would be the last step ever taken.  The heat is almost unbearable
+for a normal human.  However, the monsters living in this area of the cave can
+withstand the heat.  The &rLava Sea&n expands in all directions.    
+~
+34 0 9
+D0
+~
+~
+0 0 3479
+D1
+~
+~
+0 0 3477
+D2
+~
+~
+0 0 3481
+D3
+~
+~
+0 0 3484
+S
+#3481
+&rLava Sea&n~
+   The &rLava Sea&n is quite literally a sea of lava.  One step into the
+boiling lava would be the last step ever taken.  The heat is almost unbearable
+for a normal human.  However, the monsters living in this area of the cave can
+withstand the heat.  The &rLava Sea&n expands in all directions.    
+~
+34 0 9
+D0
+~
+~
+0 0 3480
+D1
+~
+~
+0 0 3476
+D2
+~
+~
+0 0 3479
+D3
+~
+~
+0 0 3483
+S
+#3482
+&DSmall Island&n~
+   This small, black island is made of pure dried lava.  Its very small,but
+adequate to support weight for multiple beings.  The lava sea is in all
+directions.    
+~
+34 c 0
+D0
+~
+~
+0 0 3476
+D1
+~
+~
+0 0 3476
+D2
+~
+~
+0 0 3476
+D3
+~
+~
+0 0 3476
+S
+#3483
+&rLava Sea&n~
+   The &rLava Sea&n is quite literally a sea of lava.  One step into the
+boiling lava would be the last step ever taken.  The heat is almost unbearable
+for a normal human.  However, the monsters living in this area of the cave can
+withstand the heat.  The Lava Sea expands in all directions.    
+~
+34 0 9
+D0
+~
+~
+0 0 3484
+D1
+~
+~
+0 0 3481
+D2
+~
+~
+0 0 3485
+S
+#3484
+&rLava Sea&n~
+   The &rLava Sea&n is quite literally a sea of lava.  One step into the
+boiling lava would be the last step ever taken.  The heat is almost unbearable
+for a normal human.  However, the monsters living in this area of the cave can
+withstand the heat.  The Lava Sea expands in all directions.    
+~
+34 0 9
+D0
+~
+~
+0 0 3485
+D1
+~
+~
+0 0 3480
+D2
+~
+~
+0 0 3483
+S
+#3485
+&rLava Sea&n~
+   You are in an unfinished room.  The &rLava Sea&n is quite literally a sea of
+lava.  One step into the boiling lava would be the last step ever taken.  The
+heat is almost unbearable for a normal human.  However, the monsters living in
+this area of the cave can withstand the heat.  The Lava Sea expands in all
+directions.    
+~
+34 0 9
+D0
+~
+~
+0 0 3483
+D1
+~
+~
+0 0 3479
+D2
+~
+~
+0 0 3484
+D3
+~
+~
+0 0 3486
+S
+#3486
+&rSmall red path&n~
+   This small path is made completely out of red soil.  The path is quite
+narrow, but it is very short.  An opening is to the south, while the &rLava
+Sea&n expands to the east.    
+~
+34 c 0
+D1
+~
+~
+0 0 3485
+D2
+~
+~
+0 0 3458
+S
+#3487
+Spiraling stones~
+   This long series of floating rocks and stones leads down deep into the core
+of the planet.  Green plumes of vapor shoot up from the core below.  The
+spirits of many can be felt here, as the lifestream is most concentrated at
+this exact point.  A larger platform can be seen below.    
+~
+34 s 0
+D0
+~
+~
+0 0 3458
+D5
+~
+~
+0 0 3488
+S
+#3488
+Spiraling stones~
+   This long series of floating rocks and stones leads down deep into the core
+of the planet.  Green plumes of vapor shoot up from the core below.  The
+spirits of many can be felt here, as the lifestream is most concentrated at
+this exact point.  A larger platform can be seen below.    
+~
+34 s 0
+D1
+~
+~
+0 0 3493
+D4
+~
+~
+0 0 3487
+D5
+~
+~
+0 0 3489
+S
+#3489
+Spiraling stones~
+   This long series of floating rocks and stones leads down deep into the core
+of the planet.  Green plumes of vapor shoot up from the core below.  The
+spirits of many can be felt here, as the lifestream is most concentrated at
+this exact point.  A larger platform can be seen below.    
+~
+34 s 0
+D4
+~
+~
+0 0 3488
+D5
+~
+~
+0 0 3490
+S
+#3490
+Spiraling stones~
+   This long series of floating rocks and stones leads down deep into the core
+of the planet.  Green plumes of vapor shoot up from the core below.  The
+spirits of many can be felt here, as the lifestream is most concentrated at
+this exact point.  A gigantic rock platform is to the west.    
+~
+34 hs 0
+D3
+~
+~
+0 0 3491
+S
+#3491
+Entrance to the Core ~
+   This shaky rock platform is all that separates you from falling into the
+core of the planet.  Stone pillars make up the ground, each different heights
+than each other.  The green light is intense, but oddly quiet...    
+~
+34 fsu 0
+D5
+~
+planet~
+2 3489 3492
+S
+#3492
+Core of the Planet~
+   You find yourself floating in the middle of...  Nothing.  Being in the
+lifestream, most senses are overpowered, leaving it impossible to speak.  A
+green glow is everywhere, and spirits from all over the world are flowing
+through this room.  There seem to be no visible exits.    
+~
+34 csx 9
+D2
+~
+secret~
+2 3493 3400
+S
+#3493
+Above the Core~
+   Nothing separates you from plummeting into the darkness.  A bright green
+glow can be seen far below, as can be seen in much of the cave.  A small
+opening in solid rock can be seen a ways to the east.    
+~
+34 as 0
+D1
+~
+~
+0 0 3494
+D3
+~
+~
+0 0 3488
+S
+#3494
+Above the Core~
+   Nothing separates you from plummeting into the darkness.  A bright green
+glow can be seen far below, as can be seen in much of the cave.  A small
+opening in solid rock can be seen a ways to the east.    
+~
+34 as 0
+D1
+~
+~
+0 0 3495
+D2
+~
+~
+0 0 3497
+D3
+~
+~
+0 0 3493
+S
+#3495
+Above the Core~
+   Nothing separates you from plummeting into the darkness.  A bright green
+glow can be seen far below, as can be seen in much of the cave.  A small
+opening in solid rock can be seen a ways to the east.    
+~
+34 afs 0
+D1
+~
+~
+0 0 3496
+D3
+~
+~
+0 0 3494
+S
+#3496
+Rock Cave~
+   This small cave was carved out of the solid rock wall millions of years ago.
+Its purpose is unknown, but it looks like it can support a good amount of
+weight.  The core of the planet can be seen far down to the west.    
+~
+34 afs 0
+D3
+~
+~
+0 0 3495
+S
+#3497
+&GInside the Lifestrem&n~
+   This large, green area is the very depths of the lifestream itself.  A loud,
+but not frightening sound can be heard from all the souls and essence of the
+people that have passed away.  The air/liquid around you has a bright green
+glow to it, and everything seems peaceful, except for the planet's struggle for
+survival.    
+~
+34 dfs 9
+D0
+~
+~
+0 0 3494
+S
+$~

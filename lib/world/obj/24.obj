@@ -1,0 +1,157 @@
+#2400
+fountain youth~
+the Fountain of Youth~
+The Fountain of Youth is standing here, spraying out water.~
+~
+23 0 0 0
+2147483647 2147483647 0 0
+-2147483644 0 0 0
+#2401
+flask~
+a flask~
+A flask is lying on the ground here.~
+~
+17 0 1 0
+5 1 9 1
+6 0 0 0
+E
+flask~
+   Has a strange liquid inside it.    
+~
+#2402
+nail file~
+a nail file~
+A nail file is lying here.~
+~
+5 0 8193 0
+2 4 2 11
+0 0 0 0
+E
+nail file~
+   The nail file has a very sharp tip, good for stabbing someone in the back
+with.    
+~
+A
+18 3
+#2409
+cloak judge~
+the Cloak of Judge Cow~
+The Cloak of Judge Cow is lying here.~
+~
+11 1 5 8
+0 0 0 0
+0 0 0 20
+E
+cloak judge~
+   A large black cloak, the Judge wears this as a manifestation of his power.
+  
+~
+A
+17 10
+A
+1 1
+#2411
+butter stick~
+a stick of butter~
+A stick of butter is lying here~
+~
+4 0 16385 0
+15 1 1 28
+0 0 0 0
+E
+butter stick~
+   It is a small stick of butter, which has been known to have healing
+properties.    
+~
+#2412
+candy~
+a little piece of candy~
+A little piece of wrapped candy is lying here.~
+~
+19 0 1 0
+10 0 0 0
+0 0 0 0
+E
+candy~
+   This small piece of candy is wrapped in plasic, waiting to be eaten.    
+~
+#2413
+milk jug~
+a jug of milk~
+A jug of milk is sitting here.~
+~
+17 0 1 0
+10 5 10 0
+10 0 0 0
+E
+milk jug~
+   A big white jug of milk, displaying the words "MILK" on it.    
+~
+#2414
+overlord whip~
+the Overlord Whip~
+The whip of the Overlord is lying on the ground.~
+~
+5 0 8193 0
+4 6 5 2
+0 0 0 50
+E
+overlord whip~
+   This whip has been used by the Overlord to whip cows and torture them before
+killing them.    
+~
+A
+18 4
+A
+19 3
+#2415
+Ivten dagger~
+an Ivten dagger~
+A crude looking dagger is lying here.~
+~
+5 0 8193 0
+3 3 2 14
+0 0 0 0
+E
+ivten dagger~
+   A crude little dagger, all Ivten demons are issued one of these, though most
+lose them.    
+~
+#2416
+poker card~
+a poker card~
+A small card is lying on the ground.~
+~
+2 320 1 0
+10 1 0 0
+0 0 0 0
+E
+poker card~
+   It's the ace of spades, which is known to be lucky.    
+~
+#2420
+ultima rock~
+an Ultima Rock~
+A huge-ass little rock is lying here.~
+~
+7 0 16385 0
+0 0 0 0
+10 0 0 0
+#2499
+bible~
+the Cow Bible~
+A book with the title "Cow Bible", is lying here.~
+~
+9 66560 16385 0
+5 0 0 0
+0 0 0 0
+E
+bible~
+   The sacred Cow bible is translated into the vernacular, to be read by all
+cows.    
+~
+A
+13 5
+A
+3 1
+$~

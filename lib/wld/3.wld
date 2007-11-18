@@ -1,0 +1,1871 @@
+#300
+Outside the North Gate~
+   The north gate leads slowly into a path shadowed by a grove of trees on one
+side and mountains on the other.  The ground is slightly paved here, but shows
+some signs of disrepair.  The trees and mountains set a dark shadow accross the
+path.  The gate to the the south is very large and is mounted by a solid watch
+tower of unyielding stone.    
+~
+3 0 0
+D0
+~
+~
+0 0 301
+D2
+~
+~
+0 0 237
+S
+#301
+Path of Shadows~
+   This path is overshadowed by the Ironhelm mountains on the west and a grove
+of strange trees on the east.  The forest seems mysterious and quite dangerous.
+It would not be advisable to go near it.  The path is made of gravel probably
+from the stones that have fallen from the tops of the mountains.  Northward the
+winding path continues and southwards there seems to be the gate to a big city.
+  
+~
+3 0 4
+D0
+~
+~
+0 0 302
+D2
+~
+~
+0 0 300
+S
+#302
+Path of Shadows~
+   This path is overshadowed by the Ironhelm mountains on the west and a grove
+of strange trees on the east.  The forest seems mysterious and quite dangerous.
+It would not be advisable to go near it.  The path is made of gravel probably
+from the stones that have fallen from the tops of the mountains.  The path
+continues in all accessable directions.    
+~
+3 0 4
+D0
+~
+~
+0 0 303
+D2
+~
+~
+0 0 301
+S
+#303
+Path of Shadows~
+   This path is overshadowed by the Ironhelm mountains on the west and a grove
+of strange trees on the east.  The forest seems mysterious and quite dangerous.
+It would not be advisable to go near it.  The path is made of gravel probably
+from the stones that have fallen from the tops of the mountains.  The path
+continues in all accessable directions.    
+~
+3 0 4
+D2
+~
+~
+0 0 302
+D3
+~
+~
+0 0 304
+S
+#304
+Path of Shadows~
+   This path is overshadowed by the Ironhelm mountains on the west and a grove
+of strange trees on the east.  The forest seems mysterious and quite dangerous.
+It would not be advisable to go near it.  The path is made of gravel probably
+from the stones that have fallen from the tops of the mountains.  The path
+continues in all accessable directions.    
+~
+3 0 4
+D0
+~
+~
+0 0 305
+D1
+~
+~
+0 0 303
+S
+#305
+Path of Shadows~
+   The mountains seem to split here with peaks on either side when looking
+west.  They open to the most traveled pass through the Stonehelm mountains,
+Sapwood Pass.  This pass leads thru the mountains and into the heart of
+Sapwood.  The gravel path continues south and east.    
+~
+3 0 4
+D1
+~
+~
+0 0 306
+D2
+~
+~
+0 0 304
+D3
+~
+~
+0 0 307
+S
+#306
+Path of Shadows~
+   The path curves slight and the forests begin to thin on the east side of the
+path.  The path path is still slightly shadowed from light.  The path to the
+west appears to rise up to the west over the mountains.  Up ahead there seems
+to be some type of watchtower visible on the top of the mountain.    
+~
+3 0 4
+D0
+~
+~
+0 0 308
+D3
+~
+~
+0 0 305
+S
+#307
+Pass~
+   This path leads slowly up and over a low valley in the mountain rage.  It
+has a gentle incline and is quite grassy.  Footholds slip sometimes along the
+path but for the most part it is safe to traverse.  This path leads over the
+mountains and into a forest on the other side of the Stonehelm range.    
+~
+3 0 4
+D1
+~
+~
+0 0 305
+D3
+~
+~
+0 0 341
+S
+#308
+Path of Shadows~
+   The feeling of death leaves you as the forest thins even more to the west.
+The mountains seem to rise up very steeply to the west and the path below is
+made of heavily traveled gravel.    
+~
+3 0 4
+D0
+~
+~
+0 0 309
+D2
+~
+~
+0 0 306
+S
+#309
+Where the Path Splits~
+   The path spilts here.  The path to the north leads up some type of strange
+ramp like path that leads up the rock face.  To the west is a tunnel that
+seemes to be carved out of the living stone by hands rather then the forces of
+nature.  To the east streches a vast plain of rolling meadows.    
+~
+3 0 4
+D0
+~
+~
+0 0 311
+D1
+~
+~
+0 0 312
+D2
+~
+~
+0 0 308
+D3
+~
+~
+0 0 310
+S
+#310
+Carved Steps~
+   Steps are carved out of the living rock in this tunnel.  They seem to be
+leading somewhere well lit.  Even though the cave is way out of the way of
+natural light it is very easy to see around.  The steps seem small to human
+feet and the hight of the tunnel is a bit cramped.    
+~
+3 0 0
+D1
+~
+~
+0 0 309
+D4
+~
+~
+0 0 2300
+S
+#311
+Bend at the River~
+   The path here bends into to differant paths.  One follows the river and the
+other curves up a mountain slope.  The path is gravely and looks slightly
+trodden.  The air is fresh from the crisp river water flowing from the hills.
+  
+~
+3 0 4
+D1
+~
+~
+0 0 323
+D2
+~
+~
+0 0 309
+D3
+~
+~
+0 0 324
+S
+#312
+Stalwart Plains~
+   The plains are vast and seem to contain every type of wildlife.  A giant
+river flows to the north and mountains loom to the south.  The ground is
+spongey and springy.  The air smells of sweet nectar and life.    
+~
+3 0 2
+D0
+~
+~
+0 0 323
+D1
+~
+~
+0 0 313
+D3
+~
+~
+0 0 309
+S
+#313
+Stalwart Plains~
+   The plains are vast and seem to contain every type of wildlife.  A giant
+river flows to the north and mountains loom to the south.  The ground is
+spongey and springy.  The air smells of sweet nectar and life.    
+~
+3 0 2
+D0
+~
+~
+0 0 322
+D1
+~
+~
+0 0 314
+D3
+~
+~
+0 0 312
+S
+#314
+Stalwart Plains~
+   The plains are vast and seem to contain every type of wildlife.  A giant
+river flows to the north and mountains loom to the south.  The ground is
+spongey and springy.  The air smells of sweet nectar and life.    
+~
+3 0 2
+D0
+~
+~
+0 0 321
+D1
+~
+~
+0 0 315
+D3
+~
+~
+0 0 313
+S
+#315
+Stalwart Plains~
+   The plains are vast and seem to contain every type of wildlife.  A giant
+river flows to the north and mountains loom to the south.  The ground is
+spongey and springy.  The air smells of sweet nectar and life.    
+~
+3 0 2
+D0
+~
+~
+0 0 320
+D1
+~
+~
+0 0 316
+D3
+~
+~
+0 0 314
+S
+#316
+Stalwart Plains~
+   The plains are vast and seem to contain every type of wildlife.  A giant
+river flows to the north and mountains loom to the south.  The ground is
+spongey and springy.  The air smells of sweet nectar and life.    
+~
+3 0 2
+D0
+~
+~
+0 0 319
+D1
+~
+~
+0 0 317
+D3
+~
+~
+0 0 315
+S
+#317
+Stalwart Plains~
+   The plains are vast and seem to contain every type of wildlife.  A giant
+river flows to the north and mountains loom to the south.  The ground is
+spongey and springy.  The air smells of sweet nectar and life.    
+~
+3 0 2
+D0
+~
+~
+0 0 318
+D1
+~
+~
+0 0 578
+D3
+~
+~
+0 0 316
+S
+#318
+Bank of the Running River~
+   The running river flows very rapidly to the north.  There is a sent of crisp
+mountain water in the air.  The path is slightly spongy and springy to walk on.
+Some rocks line the path and alge seems to be growing on some of the rocks.  
+The other side of the river is barely visable to the naked eye.  The Stalwart
+Plains expand to the south.    
+~
+3 0 2
+D1
+~
+~
+0 0 579
+D2
+~
+~
+0 0 317
+D3
+~
+~
+0 0 319
+S
+#319
+Bank of the Running River~
+   The running river flows very rapidly to the north.  There is a sent of crisp
+mountain water in the air.  The path is slightly spongy and springy to walk on.
+Some rocks line the path and alge seems to be growing on some of the rocks.  
+The other side of the river is barely visable to the naked eye.  The Stalwart
+Plains expand to the south.    
+~
+3 0 2
+D1
+~
+~
+0 0 318
+D2
+~
+~
+0 0 316
+D3
+~
+~
+0 0 320
+S
+#320
+Bank of the Running River~
+   The running river flows very rapidly to the north.  There is a sent of crisp
+mountain water in the air.  The path is slightly spongy and springy to walk on.
+Some rocks line the path and alge seems to be growing on some of the rocks.  
+The other side of the river is barely visable to the naked eye.  The Stalwart
+Plains expand to the south.    
+~
+3 0 2
+D1
+~
+~
+0 0 319
+D2
+~
+~
+0 0 315
+D3
+~
+~
+0 0 321
+S
+#321
+Bank of the Running River~
+   The running river flows very rapidly to the north.  There is a sent of crisp
+mountain water in the air.  The path is slightly spongy and springy to walk on.
+Some rocks line the path and alge seems to be growing on some of the rocks.  
+The other side of the river is barely visable to the naked eye.  The Stalwart
+Plains expand to the south.    
+~
+3 0 2
+D1
+~
+~
+0 0 320
+D2
+~
+~
+0 0 314
+D3
+~
+~
+0 0 322
+S
+#322
+Bank of the Running River~
+   The running river flows very rapidly to the north.  There is a sent of crisp
+mountain water in the air.  The path is slightly spongy and springy to walk on.
+Some rocks line the path and alge seems to be growing on some of the rocks.  
+The other side of the river is barely visable to the naked eye.  The Stalwart
+Plains expand to the south.    
+~
+3 0 2
+D1
+~
+~
+0 0 321
+D2
+~
+~
+0 0 313
+D3
+~
+~
+0 0 323
+S
+#323
+Bank of the Running River~
+   The running river flows very rapidly to the north.  There is a sent of crisp
+mountain water in the air.  The path is slightly spongy and springy to walk on.
+Some rocks line the path and alge seems to be growing on some of the rocks.  
+The other side of the river is barely visable to the naked eye.  The Stalwart
+Plains expand to the south.    
+~
+3 0 2
+D1
+~
+~
+0 0 322
+D2
+~
+~
+0 0 312
+D3
+~
+~
+0 0 311
+S
+#324
+Path to Lookout Point~
+   The path is here is at a very steep incline and begins to get very
+trecherous higher up.  Fields seem to strech out towards the east and a path
+wound through the sheer rock wall follows westwardly.    
+~
+3 0 5
+D1
+~
+~
+0 0 311
+D3
+~
+~
+0 0 325
+S
+#325
+Path to Lookout Point~
+   The path is here is at a very steep incline and begins to get very
+trecherous higher up.  Fields seem to strech out towards the east and a path
+wound through the sheer rock wall follows westwardly.    
+~
+3 0 5
+D1
+~
+~
+0 0 324
+D2
+~
+~
+0 0 326
+S
+#326
+Path to Lookout Point~
+   The path is here is at a very steep incline and begins to get very
+trecherous higher up.  Fields seem to strech out towards the east and a path
+wound through the sheer rock wall follows westwardly.    
+~
+3 0 5
+D0
+~
+~
+0 0 325
+D2
+~
+~
+0 0 327
+S
+#327
+Path to Lookout Point~
+   The path is here is at a very steep incline and begins to get very
+trecherous higher up.  Fields seem to strech out towards the east and a path
+wound through the sheer rock wall follows westwardly.  A climb upwards leads to
+a flat plateau in the mountains.    
+~
+3 0 5
+D0
+~
+~
+0 0 326
+D4
+~
+~
+0 0 328
+S
+#328
+Path to Lookout Point~
+   A small flate plateau is here sticking out of the giant mountains.  There
+seems to be some sort of tower to the west.  It looks old and not used any
+longer.  There also seems to be a small rope bridge to the north.  Below there
+is a sheer rock face that has small hand holds.    
+~
+3 0 5
+D3
+~
+~
+0 0 329
+D5
+~
+~
+0 0 327
+S
+#329
+Base of a Watchtower~
+   The flat plateau slightly narrows here, and branches off in two directions.
+One leads north across a giant gorge and one leads west to a crumbling
+watchtower.  The ground used to be paved but was worn away by what looks like
+animal tracks and claw marks.    
+~
+3 0 5
+D0
+~
+~
+0 0 334
+D1
+~
+~
+0 0 328
+D3
+~
+~
+0 0 330
+S
+#330
+Inside the Watchtower~
+   The watchtower is very old and parts of it are rotting.  The steps are
+slightly crumbled but still look in good condition.  There are old tables and
+chairs sitting on the ground that look very short and could not accomedate a
+normal sized being.    
+~
+3 0 0
+D1
+~
+~
+0 0 329
+D4
+~
+~
+0 0 331
+S
+#331
+Steps to the Lookout Platform~
+   The steps are very steep and also very small.  The steps encircle the outer
+fortified walls of the tower.  Embrasures and sconces line the walls and a
+giant chain snakes down from the roof.    
+~
+3 0 0
+D4
+~
+~
+0 0 332
+D5
+~
+~
+0 0 330
+S
+#332
+Steps to the Lookout Platform~
+   The steps are very steep and also very small.  The steps encircle the outer
+fortified walls of the tower.  Embrasures and sconces line the walls and a
+giant chain snakes down from the roof.    
+~
+3 0 0
+D4
+~
+~
+0 0 333
+D5
+~
+~
+0 0 331
+S
+#333
+Lookout Platform~
+   This is the top of the lookout tower.  A rampart lines the edges of the
+tower providing protection from missles.  In the center just below a small
+chimney hangs a bell with some writing on it.
+~
+3 0 1
+D0
+~
+crack~
+1 0 9600
+D5
+~
+~
+0 0 332
+E
+bell~
+Durin's day 800
+   This bell crafted from the living rock of the mountains will serve as a
+warning system for all who live under and over the mountain.    
+         May this tower always be guarded.
+~
+S
+T 333
+#334
+Rickity Rope Bridge~
+   A giant gorge expands below in all directions.  The bridge seems to be very
+unstable and also slightly icey.  It leads up at an angle probably towards some
+colder region of the mountains.    
+~
+3 0 5
+D0
+~
+~
+0 0 335
+D2
+~
+~
+0 0 329
+S
+#335
+Rickity Rope Bridge~
+   A giant gorge expands below in all directions.  The bridge seems to be very
+unstable and also slightly icey.  It leads up at an angle probably towards some
+colder region of the mountains.    
+~
+3 0 5
+D0
+~
+~
+0 0 336
+D2
+~
+~
+0 0 334
+S
+#336
+Frozen Rope Bridge~
+   A giant gorge expands below in all directions.  The bridge seems to be very
+unstable and also slightly icey.  It leads up at an angle probably towards some
+colder region of the mountains.    
+~
+3 0 5
+D0
+~
+~
+0 0 337
+D2
+~
+~
+0 0 335
+S
+#337
+Frozen Rope Bridge~
+   A giant gorge expands below in all directions.  The bridge seems to be very
+unstable and also slightly icey.  It leads up at an angle probably towards some
+colder region of the mountains.    
+~
+3 0 5
+D0
+~
+~
+0 0 338
+D2
+~
+~
+0 0 336
+S
+#338
+Frozen Path~
+   Unstable and also slightly icey.  It leads up at an angle probably towards
+some colder region of the mountains.  The bridge ends to reveal a path made of
+frozen earth.  It feels slightly crunchy beneath footfall.  Sheer cliffs lead
+both east and west.  To the north ice-caps seem to crown the peaks of the
+mountains.    
+~
+3 0 5
+D0
+~
+~
+0 0 339
+D2
+~
+~
+0 0 337
+S
+#339
+Frozen Path~
+   Unstable and also slightly icey.  It leads up at an angle probably towards
+some colder region of the mountains.  The bridge ends to reveal a path made of
+frozen earth.  It feels slightly crunchy beneath footfall.  Sheer cliffs lead
+both east and west.  To the north ice-caps seem to crown the peaks of the
+mountains.    
+~
+3 0 5
+D0
+~
+~
+0 0 340
+D2
+~
+~
+0 0 338
+S
+#340
+Walking up the Ice Cap~
+   The bridge strangly lead to the icecaps of a low mountain.  This place looks
+familier like it was out of some type of legend.  The ice is thick here and not
+very slippery.  There are foot prints leading up but none leading south.  
+~
+3 0 5
+D2
+~
+~
+0 0 339
+S
+#341
+Pass~
+   This path leads slowly up and over a low valley in the mountain rage.  It
+has a gentle incline and is quite grassy.  Footholds slip sometimes along the
+path but for the most part it is safe to traverse.  This path leads over the
+mountains and into a forest on the other side of the Stonehelm range.  To the
+north a stoned gate marks the entrance to a strange place shrouded in myst, A
+journey there could be perilous but also rewarding...    
+~
+3 0 4
+D0
+~
+~
+0 0 3101
+D1
+~
+~
+0 0 307
+D3
+~
+~
+0 0 342
+S
+#342
+Pass~
+   This path leads slowly up and over a low valley in the mountain rage.  It
+has a gentle incline and is quite grassy.  Footholds slip sometimes along the
+path but for the most part it is safe to traverse.  This path leads over the
+mountains and into a forest on the other side of the Stonehelm range.    
+~
+3 0 4
+D1
+~
+~
+0 0 341
+D3
+~
+~
+0 0 23099
+S
+#343
+Running River Trail~
+   This trail seems to be an old path that has long been forgotten.  To the
+north there is a dense forest and to the south there is rushing river.  The
+plains seam to stretch on forever.  The path seams to be made from a strange
+rock that must be very rare.    
+~
+3 0 0
+D0
+~
+~
+0 0 362
+D1
+~
+~
+0 0 599
+D3
+~
+~
+0 0 344
+S
+#344
+Running River Trail~
+   This trail seems to be an old path that has long been forgotten.  To the
+north there is a dense forest and to the south there is rushing river.  The
+plains seam to stretch on forever.  The path seams to be made from a strange
+rock that must be very rare.    
+~
+3 0 0
+D0
+~
+~
+0 0 361
+D1
+~
+~
+0 0 343
+D3
+~
+~
+0 0 345
+S
+#345
+Running River Trail~
+   This trail seems to be an old path that has long been forgotten.  To the
+north there is a dense forest and to the south there is rushing river.  The
+plains seam to stretch on forever.  The path seams to be made from a strange
+rock that must be very rare.    
+~
+3 0 0
+D0
+~
+~
+0 0 360
+D1
+~
+~
+0 0 344
+D3
+~
+~
+0 0 346
+S
+#346
+Running River Trail~
+   This trail seems to be an old path that has long been forgotten.  To the
+north there is a dense forest and to the south there is rushing river.  The
+plains seam to stretch on forever.  The path seams to be made from a strange
+rock that must be very rare.  There is a quaint little house to the north, it
+looks like something out of Kansas.  The side of a house blocks passage to the
+north.    
+~
+3 0 0
+D1
+~
+~
+0 0 345
+D3
+~
+~
+0 0 347
+S
+#347
+Running River Trail~
+   This trail seems to be an old path that has long been forgotten.  To the
+north there is a dense forest and to the south there is rushing river.  The
+plains seam to stretch on forever.  The path seams to be made from a strange
+rock that must be very rare.    
+~
+3 0 0
+D0
+~
+~
+0 0 358
+D1
+~
+~
+0 0 346
+D3
+~
+~
+0 0 348
+S
+#348
+Running River Trail~
+   This trail seems to be an old path that has long been forgotten.  To the
+north there is a dense forest and to the south there is rushing river.  The
+plains seam to stretch on forever.  The path seams to be made from a strange
+rock that must be very rare.    
+~
+3 0 0
+D0
+~
+~
+0 0 357
+D1
+~
+~
+0 0 347
+D3
+~
+~
+0 0 349
+S
+#349
+Running River Trail~
+   This trail seems to be an old path that has long been forgotten.  To the
+north there is a dense forest and to the south there is rushing river.  The
+plains seam to stretch on forever.  The path seams to be made from a strange
+rock that must be very rare.    
+~
+3 0 0
+D0
+~
+~
+0 0 356
+D1
+~
+~
+0 0 348
+D3
+~
+~
+0 0 350
+S
+#350
+Running River Trail~
+   This trail seems to be an old path that has long been forgotten.  To the
+north there is a dense forest and to the south there is rushing river.  The
+plains seam to stretch on forever.  The path seams to be made from a strange
+rock that must be very rare.    
+~
+3 0 0
+D0
+~
+~
+0 0 355
+D1
+~
+~
+0 0 349
+D3
+~
+~
+0 0 351
+S
+#351
+Running River Trail~
+   This trail seems to be an old path that has long been forgotten.  To the
+north there is a dense forest and to the south there is rushing river.  The
+plains seam to stretch on forever.  The path seams to be made from a strange
+rock that must be very rare.    
+~
+3 0 0
+D0
+~
+~
+0 0 354
+D1
+~
+~
+0 0 350
+D3
+~
+~
+0 0 352
+S
+#352
+Running River Trail~
+   This trail seems to be an old path that has long been forgotten.  To the
+north there is a dense forest and to the south there is rushing river.  The
+plains seam to stretch on forever.  The path seams to be made from a strange
+rock that must be very rare.    
+~
+3 0 0
+D0
+~
+~
+0 0 353
+D1
+~
+~
+0 0 351
+S
+#353
+Stonewart Plains~
+   The stonewart plains are littered with giant boulders and the rest of the
+ground is covered with short grass.  There is a giant forest to the north and a
+river to the south.  The movement of herdbeasts can be seen in all directions
+along the plains.  This must be prime grazing territory.    
+~
+3 0 0
+D0
+~
+~
+0 0 363
+D1
+~
+~
+0 0 354
+D2
+~
+~
+0 0 352
+S
+#354
+Stonewart Plains~
+   The stonewart plains are littered with giant boulders and the rest of the
+ground is covered with short grass.  There is a giant forest to the north and a
+river to the south.  The movement of herdbeasts can be seen in all directions
+along the plains.  This must be prime grazing territory.    
+~
+3 0 0
+D0
+~
+~
+0 0 364
+D1
+~
+~
+0 0 355
+D2
+~
+~
+0 0 351
+D3
+~
+~
+0 0 353
+S
+#355
+Stonewart Plains~
+   The stonewart plains are littered with giant boulders and the rest of the
+ground is covered with short grass.  There is a giant forest to the north and a
+river to the south.  The movement of herdbeasts can be seen in all directions
+along the plains.  This must be prime grazing territory.    
+~
+3 0 0
+D0
+~
+~
+0 0 365
+D1
+~
+~
+0 0 356
+D2
+~
+~
+0 0 350
+D3
+~
+~
+0 0 354
+S
+#356
+Stonewart Plains~
+   The stonewart plains are littered with giant boulders and the rest of the
+ground is covered with short grass.  There is a giant forest to the north and a
+river to the south.  The movement of herdbeasts can be seen in all directions
+along the plains.  This must be prime grazing territory.    
+~
+3 0 0
+D0
+~
+~
+0 0 366
+D1
+~
+~
+0 0 357
+D2
+~
+~
+0 0 349
+D3
+~
+~
+0 0 355
+S
+#357
+Stonewart Plains~
+   The stonewart plains are littered with giant boulders and the rest of the
+ground is covered with short grass.  There is a giant forest to the north and a
+river to the south.  The movement of herdbeasts can be seen in all directions
+along the plains.  This must be prime grazing territory.    
+~
+3 0 0
+D0
+~
+~
+0 0 367
+D1
+~
+~
+0 0 358
+D2
+~
+~
+0 0 348
+D3
+~
+~
+0 0 356
+S
+#358
+Stonewart Plains~
+   The stonewart plains are littered with giant boulders and the rest of the
+ground is covered with short grass.  There is a giant forest to the north and a
+river to the south.  The movement of herdbeasts can be seen in all directions
+along the plains.  This must be prime grazing territory.  The back of a house
+is to the east.  It looks like someone lives out here in the middle of nowhere.
+~
+3 0 0
+D0
+~
+~
+0 0 368
+D2
+~
+~
+0 0 347
+D3
+~
+~
+0 0 357
+S
+#359
+Blank Room~
+Empty room.~
+3 0 0
+S
+#360
+Stonewart Plains~
+   The stonewart plains are littered with giant boulders and the rest of the
+ground is covered with short grass.  There is a giant forest to the north and a
+river to the south.  The movement of herdbeasts can be seen in all directions
+along the plains.  This must be prime grazing territory.  A small house lies
+directly to the west, strange for a house to be alone on this plain.  I wonder
+who lives there.    
+~
+3 0 0
+D0
+~
+~
+0 0 370
+D1
+~
+~
+0 0 361
+D2
+~
+~
+0 0 345
+D3
+~
+~
+0 0 2975
+S
+#361
+Stonewart Plains~
+   The stonewart plains are littered with giant boulders and the rest of the
+ground is covered with short grass.  There is a giant forest to the north and a
+river to the south.  The movement of herdbeasts can be seen in all directions
+along the plains.  This must be prime grazing territory.    
+~
+3 0 0
+D0
+~
+~
+0 0 371
+D1
+~
+~
+0 0 362
+D2
+~
+~
+0 0 344
+D3
+~
+~
+0 0 360
+S
+#362
+Stonewart Plains~
+   The stonewart plains are littered with giant boulders and the rest of the
+ground is covered with short grass.  There is a giant forest to the north and a
+river to the south.  The movement of herdbeasts can be seen in all directions
+along the plains.  This must be prime grazing territory.    
+~
+3 0 0
+D0
+~
+~
+0 0 372
+D2
+~
+~
+0 0 343
+D3
+~
+~
+0 0 361
+S
+#363
+Stonewart Plains~
+   The stonewart plains are littered with giant boulders and the rest of the
+ground is covered with short grass.  There is a giant forest to the north and a
+river to the south.  The movement of herdbeasts can be seen in all directions
+along the plains.  This must be prime grazing territory.    
+~
+3 0 0
+D1
+~
+~
+0 0 364
+D2
+~
+~
+0 0 353
+S
+#364
+Stonewart Plains~
+   The stonewart plains are littered with giant boulders and the rest of the
+ground is covered with short grass.  There is a giant forest to the north and a
+river to the south.  The movement of herdbeasts can be seen in all directions
+along the plains.  This must be prime grazing territory.    
+~
+3 0 0
+D1
+~
+~
+0 0 365
+D2
+~
+~
+0 0 354
+D3
+~
+~
+0 0 363
+S
+#365
+Stonewart Plains~
+   The stonewart plains are littered with giant boulders and the rest of the
+ground is covered with short grass.  There is a giant forest to the north and a
+river to the south.  The movement of herdbeasts can be seen in all directions
+along the plains.  This must be prime grazing territory.  To the north a gate
+leads into the forest.    
+~
+3 0 0
+D0
+~
+~
+0 0 373
+D1
+~
+~
+0 0 366
+D2
+~
+~
+0 0 355
+D3
+~
+~
+0 0 364
+S
+#366
+Stonewart Plains~
+   The stonewart plains are littered with giant boulders and the rest of the
+ground is covered with short grass.  There is a giant forest to the north and a
+river to the south.  The movement of herdbeasts can be seen in all directions
+along the plains.  This must be prime grazing territory.    
+~
+3 0 0
+D1
+~
+~
+0 0 367
+D2
+~
+~
+0 0 356
+D3
+~
+~
+0 0 365
+S
+#367
+Stonewart Plains~
+   The stonewart plains are littered with giant boulders and the rest of the
+ground is covered with short grass.  There is a giant forest to the north and a
+river to the south.  The movement of herdbeasts can be seen in all directions
+along the plains.  This must be prime grazing territory.    
+~
+3 0 0
+D1
+~
+~
+0 0 368
+D2
+~
+~
+0 0 357
+D3
+~
+~
+0 0 366
+S
+#368
+Stonewart Plains~
+   The stonewart plains are littered with giant boulders and the rest of the
+ground is covered with short grass.  There is a giant forest to the north and a
+river to the south.  The movement of herdbeasts can be seen in all directions
+along the plains.  This must be prime grazing territory.    
+~
+3 0 0
+D1
+~
+~
+0 0 369
+D2
+~
+~
+0 0 358
+D3
+~
+~
+0 0 367
+S
+#369
+Stonewart Plains~
+   The stonewart plains are littered with giant boulders and the rest of the
+ground is covered with short grass.  There is a giant forest to the north and a
+river to the south.  The movement of herdbeasts can be seen in all directions
+along the plains.  This must be prime grazing territory.  The side of a house
+blocks passage to the south.    
+~
+3 0 0
+D1
+~
+~
+0 0 370
+D3
+~
+~
+0 0 368
+S
+#370
+Stonewart Plains~
+   The stonewart plains are littered with giant boulders and the rest of the
+ground is covered with short grass.  There is a giant forest to the north and a
+river to the south.  The movement of herdbeasts can be seen in all directions
+along the plains.  This must be prime grazing territory.    
+~
+3 0 0
+D1
+~
+~
+0 0 371
+D2
+~
+~
+0 0 360
+D3
+~
+~
+0 0 369
+S
+#371
+Stonewart Plains~
+   The stonewart plains are littered with giant boulders and the rest of the
+ground is covered with short grass.  There is a giant forest to the north and a
+river to the south.  The movement of herdbeasts can be seen in all directions
+along the plains.  This must be prime grazing territory.    
+~
+3 0 0
+D1
+~
+~
+0 0 372
+D2
+~
+~
+0 0 361
+D3
+~
+~
+0 0 370
+S
+#372
+Stonewart Plains~
+   The stonewart plains are littered with giant boulders and the rest of the
+ground is covered with short grass.  There is a giant forest to the north and a
+river to the south.  The movement of herdbeasts can be seen in all directions
+along the plains.  This must be prime grazing territory.    
+~
+3 0 0
+D2
+~
+~
+0 0 362
+D3
+~
+~
+0 0 371
+S
+#373
+Gates of Blackwood~
+   These are the Gates of Blackwood forest.  The forest is rumored to be filled
+with many dangerous monsters and also evil magic.  Straying from the path while
+in the forest is akin to suicide.    
+~
+3 0 0
+D0
+~
+~
+0 0 374
+D2
+~
+~
+0 0 365
+S
+#374
+Forest Path~
+   It is very dark and very creepy on this path.  Animals rustle the
+undergrowth just beyond the distance of eyesight.  There is also a eerie glow
+from the sky reflecting of the canopy of trees.  The path is slightly covered
+in moss but right off the path there is an extremely dense growth of plants
+~
+3 0 0
+D0
+~
+~
+0 0 375
+D2
+~
+~
+0 0 373
+S
+#375
+Forest Path~
+   It is very dark and very creepy on this path.  Animals rustle the
+undergrowth just beyond the distance of eyesight.  There is also a eerie glow
+from the sky reflecting of the canopy of trees.  The path is slightly covered
+in moss but right off the path there is an extremely dense growth of plants
+~
+3 0 0
+D0
+~
+~
+0 0 376
+D2
+~
+~
+0 0 374
+S
+#376
+Forest Path~
+   It is very dark and very creepy on this path.  Animals rustle the
+undergrowth just beyond the distance of eyesight.  There is also a eerie glow
+from the sky reflecting of the canopy of trees.  The path is slightly covered
+in moss but right off the path there is an extremely dense growth of plants
+~
+3 0 0
+D0
+~
+~
+0 0 377
+D2
+~
+~
+0 0 375
+S
+#377
+Forest Path~
+   It is very dark and very creepy on this path.  Animals rustle the
+undergrowth just beyond the distance of eyesight.  There is also a eerie glow
+from the sky reflecting of the canopy of trees.  The path is slightly covered
+in moss but right off the path there is an extremely dense growth of plants
+~
+3 0 0
+D0
+~
+~
+0 0 378
+D2
+~
+~
+0 0 376
+D3
+~
+~
+0 0 24100
+S
+#378
+Forest Path~
+   It is very dark and very creepy on this path.  Animals rustle the
+undergrowth just beyond the distance of eyesight.  There is also a eerie glow
+from the sky reflecting of the canopy of trees.  The path is slightly covered
+in moss but right off the path there is an extremely dense growth of plants
+~
+3 0 0
+D0
+~
+~
+0 0 379
+D2
+~
+~
+0 0 377
+S
+#379
+Forest Path~
+   It is very dark and very creepy on this path.  Animals rustle the
+undergrowth just beyond the distance of eyesight.  There is also a eerie glow
+from the sky reflecting of the canopy of trees.  The path is slightly covered
+in moss but right off the path there is an extremely dense growth of plants
+~
+3 0 0
+D0
+~
+~
+0 0 380
+D2
+~
+~
+0 0 378
+S
+#380
+Forest Path~
+   It is very dark and very creepy on this path.  Animals rustle the
+undergrowth just beyond the distance of eyesight.  There is also a eerie glow
+from the sky reflecting of the canopy of trees.  The path is slightly covered
+in moss but right off the path there is an extremely dense growth of plants
+~
+3 0 0
+D0
+~
+~
+0 0 381
+D2
+~
+~
+0 0 379
+S
+#381
+Forest Path~
+   It is very dark and very creepy on this path.  Animals rustle the
+undergrowth just beyond the distance of eyesight.  There is also a eerie glow
+from the sky reflecting of the canopy of trees.  The path is slightly covered
+in moss but right off the path there is an extremely dense growth of plants
+~
+3 0 0
+D0
+~
+~
+0 0 382
+D2
+~
+~
+0 0 380
+S
+#382
+Forest Path~
+   It is very dark and very creepy on this path.  Animals rustle the
+undergrowth just beyond the distance of eyesight.  There is also a eerie glow
+from the sky reflecting of the canopy of trees.  The path is slightly covered
+in moss but right off the path there is an extremely dense growth of plants
+~
+3 0 0
+D0
+~
+~
+0 0 383
+D2
+~
+~
+0 0 381
+S
+#383
+Forest Path~
+   It is very dark and very creepy on this path.  Animals rustle the
+undergrowth just beyond the distance of eyesight.  There is also a eerie glow
+from the sky reflecting of the canopy of trees.  The path is slightly covered
+in moss but right off the path there is an extremely dense growth of plants
+~
+3 0 0
+D0
+~
+~
+0 0 384
+D2
+~
+~
+0 0 382
+S
+#384
+Forest Path~
+   It is very dark and very creepy on this path.  Animals rustle the
+undergrowth just beyond the distance of eyesight.  There is also a eerie glow
+from the sky reflecting of the canopy of trees.  The path is slightly covered
+in moss but right off the path there is an extremely dense growth of plants
+~
+3 0 0
+D0
+~
+~
+0 0 385
+D1
+~
+~
+0 0 -1
+D2
+~
+~
+0 0 383
+S
+#385
+Blackwood Forest Gates~
+   These are the Gates of Blackwood forest.  The forest is rumored to be filled
+with many dangerous monsters and also evil magic.  Straying from the path while
+in the forest is akin to suicide.    
+~
+3 0 0
+D0
+~
+~
+0 0 386
+D2
+~
+~
+0 0 384
+S
+#386
+Desert Dunes~
+   Suddenly the forest turns to a desert.  This swift change in scenery might
+have something to do with the single mountain that looms in the north.  There
+seems to also be a lake around the mountain.  This desert terrain is very sandy
+and rises and falls in dunes.    
+~
+3 0 0
+D0
+~
+~
+0 0 387
+D2
+~
+~
+0 0 385
+S
+#387
+Desert Dunes~
+   Suddenly the forest turns to a desert.  This swift change in scenery might
+have something to do with the single mountain that looms in the north.  There
+seems to also be a lake around the mountain.  This desert terrain is very sandy
+and rises and falls in dunes.    
+~
+3 0 0
+D0
+~
+~
+0 0 388
+D2
+~
+~
+0 0 386
+S
+#388
+Desert Dunes~
+   Suddenly the forest turns to a desert.  This swift change in scenery might
+have something to do with the single mountain that looms in the north.  There
+seems to also be a lake around the mountain.  This desert terrain is very sandy
+and rises and falls in dunes.    
+~
+3 0 0
+D0
+~
+~
+0 0 2800
+D2
+~
+~
+0 0 387
+S
+#389
+Oasis~
+   This is an Oasis in the middle of the desert.  It seems to be a place of
+gathering among the desert traders.  It is rumored that an underground city is
+hidden in the dunes to the south.  To the north, the oasis turns into a river
+and flows towards a lake at the foot of the Mountain peek.    
+~
+3 0 0
+D0
+~
+~
+0 0 390
+D2
+~
+~
+0 0 2804
+S
+#390
+Path Beside a Small River~
+   This is an old path that has not been used for many years.  There are
+marking that seem to indicate danger.  The feels slightly wet, the small river
+must flood frequently.  The mountain to the north is very large and looks
+almost like a Volcano.    
+~
+3 0 0
+D0
+~
+~
+0 0 391
+D2
+~
+~
+0 0 389
+S
+#391
+Path Beside a Small River~
+   This is an old path that has not been used for many years.  There are
+marking that seem to indicate danger.  The feels slightly wet, the small river
+must flood frequently.  The mountain to the north is very large and looks
+almost like a Volcano.    
+~
+3 0 0
+D0
+~
+~
+0 0 392
+D2
+~
+~
+0 0 390
+S
+#392
+Path Beside a Small River~
+   This is an old path that has not been used for many years.  There are
+marking that seem to indicate danger.  The feels slightly wet, the small river
+must flood 
+frequently.  The mountain to the north is very large and looks
+almost like a Volcano.    
+~
+3 0 0
+D0
+~
+~
+0 0 393
+D2
+~
+~
+0 0 391
+S
+#393
+Path Beside a Small River~
+   This is an old path that has not been used for many years.  There are
+marking that seem to indicate danger.  The feels slightly wet, the small
+river
+must flood frequently.  The mountain to the north is very large and looks
+almost like a Volcano.    
+~
+3 0 0
+D0
+~
+~
+0 0 394
+D2
+~
+~
+0 0 392
+S
+#394
+Mouth of the Lake Searn~
+   This is the mouth of the river.  It leads into a large lake that could be
+none other then Lake Searn.  The lake is slightly steaming from how hot the
+water is.  There is a inclined path where boats can be launched into the lake,
+though Im not sure why anyone would want to.    
+~
+3 0 0
+D0
+~
+~
+0 0 395
+D2
+~
+~
+0 0 393
+S
+#395
+On the Water~
+   The Lake is very large and it is hard to see in any direction because
+of the
+steam rising from the lake.  There is also some volcanic rock floating
+around
+the lake.  The mountain looms steeply to the north.  The water seams
+slighty
+black because of its volcanic bottom.    
+~
+3 0 0
+D0
+~
+~
+0 0 396
+D2
+~
+~
+0 0 394
+S
+#396
+Cave Inside the Volcano~
+   This room is slightly hot and it seems to be getting much hotter to the
+north, there is also a strange scent of death that fills the room.  The
+walls
+are made of volcanic ash and look very porous.  The water seems to seep
+forward
+and also steam seems to be coming toward you.    
+~
+3 0 0
+D0
+~
+~
+0 0 1800
+D2
+~
+~
+0 0 395
+S
+#397
+New Room~
+Empty room.~
+3 0 0
+S
+#398
+New Room~
+Empty room.~
+3 0 0
+S
+#399
+New Room~
+Empty room.~
+3 0 0
+S
+$~

@@ -1,0 +1,1596 @@
+#11000
+Approaching the Palace of Elswic~
+   A wide, white marble pathway leads directly towards the giant palace doors.
+Along side the pathway stand several limestone columns inscribed with ancient
+writings.  As the enormous palace comes into clear view, its intimidating size
+is shown to easily consume over two blocks of the heart of the city.  People
+busily rush to and from the giant structure without giving each other a second
+look.    
+~
+110 c 1
+D0
+~
+~
+0 0 11001
+D2
+~
+~
+0 0 290
+E
+Column~
+Jestine Elswic
+~
+S
+#11001
+At the Palace Doors~
+   Two giant granite doors stand here completely opened to allow quicker
+passage into the palace.  A small gust of cool air sweeps softly through the
+doors, offering a refreshing change from the humid outdoor air.  Scattered,
+small groups of constables and noblemen stand quietly speaking of city
+politics.    
+~
+110 0 1
+D0
+~
+doors~
+1 0 11002
+D2
+~
+~
+0 0 11000
+S
+#11002
+The Grande Entry Hall~
+   The grande entry hall boasts a multitude of lush furnishings.  Lining the
+walls stand ancient suits of armor, once worn by the honorable Knights of
+Elswic.  A few couches and chairs have been placed sporadically about the room,
+allowing visitors of the palace to rest and speak with one another.  Several
+hallways branch off from the room, leading to the more private areas of the
+palace.    
+~
+110 d 0
+D0
+~
+~
+0 0 11021
+D1
+~
+~
+0 0 11013
+D2
+~
+doors~
+1 0 11001
+D3
+~
+~
+0 0 11003
+S
+#11003
+A Vaulted Hallway~
+   The vaulted ceiling of this hallway stands well over twenty feet in height,
+dwarfing any being who walks through it.  Large, rectangular windows spaciously
+line the southern wall, giving a clear view of the palace courtyard.  The smell
+of cooked meats and breads slowly emanates from a large banquet hall to the
+west.    
+~
+110 cd 0
+D1
+~
+~
+0 0 11002
+D3
+~
+~
+0 0 11004
+S
+#11004
+The Palace Banquet Hall~
+   The palace banquet hall consists of dozens of well polished tables, each
+lined with a plethora of fine foods from all over the world.  The hundreds of
+formally dressed guests softly converse to one another while enjoying their
+meals.  Minstrels casually make their way through the croded hall, serenading
+the guests with soothing music.    
+~
+110 d 0
+D0
+~
+~
+0 0 11009
+D1
+~
+~
+0 0 11003
+D3
+~
+~
+0 0 11005
+S
+#11005
+The Palace Banquet Hall~
+   The palace banquet hall consists of dozens of well polished tables, each
+lined with a plethora of fine foods from all over the world.  The hundreds of
+formally dressed guests softly converse to one another while enjoying their
+meals.  Minstrels casually make their way through the croded hall, serenading
+the guests with soothing music.    
+~
+110 d 0
+D0
+~
+~
+0 0 11008
+D1
+~
+~
+0 0 11004
+D3
+~
+~
+0 0 11006
+S
+#11006
+The Palace Banquet Hall~
+   The palace banquet hall consists of dozens of well polished tables, each
+lined with a plethora of fine foods from all over the world.  The hundreds of
+formally dressed guests softly converse to one another while enjoying their
+meals.  Minstrels casually make their way through the croded hall, serenading
+the guests with soothing music.    
+~
+110 d 0
+D0
+~
+~
+0 0 11007
+D1
+~
+~
+0 0 11005
+S
+#11007
+The Palace Banquet Hall~
+   The palace banquet hall consists of dozens of well polished tables, each
+lined with a plethora of fine foods from all over the world.  The hundreds of
+formally dressed guests softly converse to one another while enjoying their
+meals.  Minstrels casually make their way through the croded hall, serenading
+the guests with soothing music.    
+~
+110 d 0
+D0
+~
+~
+0 0 11012
+D1
+~
+~
+0 0 11008
+D2
+~
+~
+0 0 11006
+S
+#11008
+The Palace Banquet Hall~
+   The palace banquet hall consists of dozens of well polished tables, each
+lined with a plethora of fine foods from all over the world.  The hundreds of
+formally dressed guests softly converse to one another while enjoying their
+meals.  Minstrels casually make their way through the croded hall, serenading
+the guests with soothing music.    
+~
+110 d 0
+D0
+~
+~
+0 0 11011
+D1
+~
+~
+0 0 11009
+D2
+~
+~
+0 0 11005
+D3
+~
+~
+0 0 11007
+S
+#11009
+The Palace Banquet Hall~
+   The palace banquet hall consists of dozens of well polished tables, each
+lined with a plethora of fine foods from all over the world.  The hundreds of
+formally dressed guests softly converse to one another while enjoying their
+meals.  Minstrels casually make their way through the croded hall, serenading
+the guests with soothing music.    
+~
+110 d 0
+D0
+~
+~
+0 0 11010
+D2
+~
+~
+0 0 11004
+D3
+~
+~
+0 0 11008
+S
+#11010
+The Palace Banquet Hall~
+   The palace banquet hall consists of dozens of well polished tables, each
+lined with a plethora of fine foods from all over the world.  The hundreds of
+formally dressed guests softly converse to one another while enjoying their
+meals.  Minstrels casually make their way through the croded hall, serenading
+the guests with soothing music.    
+~
+110 d 0
+D2
+~
+~
+0 0 11009
+D3
+~
+~
+0 0 11011
+S
+#11011
+The Palace Banquet Hall~
+   The palace banquet hall consists of dozens of well polished tables, each
+lined with a plethora of fine foods from all over the world.  The hundreds of
+formally dressed guests softly converse to one another while enjoying their
+meals.  Minstrels casually make their way through the croded hall, serenading
+the guests with soothing music.    
+~
+110 d 0
+D1
+~
+~
+0 0 11010
+D2
+~
+~
+0 0 11008
+D3
+~
+~
+0 0 11012
+S
+#11012
+The Palace Banquet Hall~
+   The palace banquet hall consists of dozens of well polished tables, each
+lined with a plethora of fine foods from all over the world.  The hundreds of
+formally dressed guests softly converse to one another while enjoying their
+meals.  Minstrels casually make their way through the croded hall, serenading
+the guests with soothing music.    
+~
+110 d 0
+D1
+~
+~
+0 0 11011
+D2
+~
+~
+0 0 11007
+S
+#11013
+A Vaulted Hallway~
+   The vaulted ceiling of this hallway stands well over twenty feet in height,
+dwarfing any being who walks through it.  Large, rectangular windows spaciously
+line the southern wall, giving a clear view of the palace courtyard.  The smell
+of cooked meats and breads slowly emanates from a large banquet hall to the
+west.    
+~
+110 cd 0
+D1
+~
+~
+0 0 11014
+D3
+~
+~
+0 0 11002
+S
+#11014
+The Hall of Records~
+   Stretching from one end of the hall to the other, sturdy oak bookshelves
+stand parallel to each other, housing the complete history of Phobos in
+thousands of books and tombs.  Scholars sort through the books in an attempt to
+gain more knowledge of the great city, while palace workers are one step behind
+them, making sure that no books are put back on the shelves out of place.    
+~
+110 d 0
+D0
+~
+~
+0 0 11019
+D1
+~
+~
+0 0 11015
+D3
+~
+~
+0 0 11013
+S
+#11015
+The Hall of Records~
+   Stretching from one end of the hall to the other, sturdy oak bookshelves
+stand parallel to each other, housing the complete history of Phobos in
+thousands of books and tombs.  Scholars sort through the books in an attempt to
+gain more knowledge of the great city, while palace workers are one step behind
+them, making sure that no books are put back on the shelves out of place.    
+~
+110 d 0
+D0
+~
+~
+0 0 11018
+D1
+~
+~
+0 0 11016
+D3
+~
+~
+0 0 11014
+S
+#11016
+The Hall of Records~
+   Stretching from one end of the hall to the other, sturdy oak bookshelves
+stand parallel to each other, housing the complete history of Phobos in
+thousands of books and tombs.  Scholars sort through the books in an attempt to
+gain more knowledge of the great city, while palace workers are one step behind
+them, making sure that no books are put back on the shelves out of place.    
+~
+110 d 0
+D0
+~
+~
+0 0 11017
+D3
+~
+~
+0 0 11015
+S
+#11017
+The Hall of Records~
+   Stretching from one end of the hall to the other, sturdy oak bookshelves
+stand parallel to each other, housing the complete history of Phobos in
+thousands of books and tombs.  Scholars sort through the books in an attempt to
+gain more knowledge of the great city, while palace workers are one step behind
+them, making sure that no books are put back on the shelves out of place.    
+~
+110 d 0
+D2
+~
+~
+0 0 11016
+D3
+~
+~
+0 0 11018
+S
+#11018
+The Hall of Records~
+   Stretching from one end of the hall to the other, sturdy oak bookshelves
+stand parallel to each other, housing the complete history of Phobos in
+thousands of books and tombs.  Scholars sort through the books in an attempt to
+gain more knowledge of the great city, while palace workers are one step behind
+them, making sure that no books are put back on the shelves out of place.    
+~
+110 d 0
+D0
+~
+iron~
+1 0 11020
+D1
+~
+~
+0 0 11017
+D2
+~
+~
+0 0 11015
+D3
+~
+~
+0 0 11019
+S
+#11019
+The Hall of Records~
+   Stretching from one end of the hall to the other, sturdy oak bookshelves
+stand parallel to each other, housing the complete history of Phobos in
+thousands of books and tombs.  Scholars sort through the books in an attempt to
+gain more knowledge of the great city, while palace workers are one step behind
+them, making sure that no books are put back on the shelves out of place.    
+~
+110 d 0
+D1
+~
+~
+0 0 11018
+D2
+~
+~
+0 0 11014
+S
+#11020
+Chambers of the Ageless One~
+   The chambers of Astinus is well-lit with torches in brass sconces.  Apart
+from huge bookcases filled with tomes, the only furniture in this room is a
+large desk, which the ageless one himself currently occupies.  To the south is
+an iron-bound door leadin
+~
+110 cdf 0
+D2
+~
+iron~
+1 0 11018
+S
+#11021
+A Spiraling Stairway~
+   Gradually spiraling up to the second floor of the palace, this stairway sits
+imposingly in the middle of the room.  Shiny onyx stairs contrast elegantly
+with the matted, white finish of the limestone base of the structure.  Below
+the stairway, a narrow corridor leads further into the first level of the
+palace.    
+~
+110 cd 0
+D0
+~
+~
+0 0 11022
+D2
+~
+~
+0 0 11002
+D4
+~
+~
+0 0 11044
+S
+#11022
+The Guest Wing~
+   Due to the large amount of visitors the palace receives each week, a rather
+large portion of the lower floor has been set aside to accomidate them.  
+Plush, ornate couches line the room along with a nample amount of coffee
+tables.  Reverend guests sit amongst each other, conversing politely while
+enjoying alcoholic beverages provided by the many butlers who pace the room.  
+
+~
+110 d 0
+D0
+~
+~
+0 0 11032
+D1
+~
+~
+0 0 11033
+D2
+~
+~
+0 0 11021
+D3
+~
+~
+0 0 11023
+S
+#11023
+The Guest Wing~
+   Due to the large amount of visitors the palace receives each week, a rather
+large portion of the lower floor has been set aside to accomidate them.  
+Plush, ornate couches line the room along with a nample amount of coffee
+tables.  Reverend guests sit amongst each other, conversing politely while
+enjoying alcoholic beverages provided by the many butlers who pace the room.  
+
+~
+110 d 0
+D0
+~
+~
+0 0 11024
+D1
+~
+~
+0 0 11022
+S
+#11024
+Intersection in the Guest Wing~
+   Due to the large amount of visitors the palace receives each week, a rather
+large portion of the lower floor has been set aside to accomidate them.  
+Plush, ornate couches line the room along with a nample amount of coffee
+tables.  Reverend guests sit amongst each other, conversing politely while
+enjoying alcoholic beverages provided by the many butlers who pace the room.  
+
+~
+110 d 0
+D0
+~
+~
+0 0 11035
+D1
+~
+~
+0 0 11032
+D2
+~
+~
+0 0 11023
+D3
+~
+~
+0 0 11025
+S
+#11025
+A Carpeted Hallway~
+   One of the few areas in the palace where there are no windows adorning the
+walls, this hallway is lined with exquisite foreign paintings.  The lighting in
+the hallway has been dimmed, as it leads tired guests to their rooms for the
+evening.    
+~
+110 d 0
+D1
+~
+~
+0 0 11024
+D3
+~
+~
+0 0 11026
+S
+#11026
+A Carpeted Hallway~
+   One of the few areas in the palace where there are no windows adorning the
+walls, this hallway is lined with exquisite foreign paintings.  The lighting in
+the hallway has been dimmed, as it leads tired guests to their rooms for the
+evening.    
+~
+110 d 0
+D0
+~
+~
+0 0 11027
+D1
+~
+~
+0 0 11025
+S
+#11027
+A Carpeted Hallway~
+   One of the few areas in the palace where there are no windows adorning the
+walls, this hallway is lined with exquisite foreign paintings.  The lighting in
+the hallway has been dimmed, as it leads tired guests to their rooms for the
+evening.    
+~
+110 d 0
+D0
+~
+~
+0 0 11028
+D2
+~
+~
+0 0 11026
+S
+#11028
+Before some Rooms~
+   One of the few areas in the palace where there are no windows adorning the
+walls, this hallway is lined with exquisite foreign paintings.  The lighting in
+the hallway has been dimmed, as it leads tired guests to their rooms for the
+evening.    
+~
+110 d 0
+D0
+~
+door~
+1 0 11030
+D1
+~
+door~
+1 0 11031
+D2
+~
+~
+0 0 11027
+D3
+~
+door~
+1 0 11029
+S
+#11029
+A Guest's Quarters~
+   This spacious, elegantly furnished room welcomes the guests of the palace
+with the sweet smell of freshly picked roses.  Several glass vases of roses
+picked from the palace's garden have been placed about the dimly lit room.  A
+large king sized bed and an overstuffed chair sit comfortable in opposite
+corners of the room, enticing you to rest your tired bones.    
+~
+110 d 0
+D1
+~
+door~
+1 0 11028
+S
+#11030
+A Guest's Chamber~
+   This spacious, elegantly furnished room welcomes the guests of the palace
+with the sweet smell of freshly picked roses.  Several glass vases of roses
+picked from the palace's garden have been placed about the dimly lit room.  A
+large king sized bed and an overstuffed chair sit comfortable in opposite
+corners of the room, enticing you to rest your tired bones.    
+~
+110 d 0
+D2
+~
+door~
+1 0 11028
+S
+#11031
+A Guest's Bedroom~
+   This spacious, elegantly furnished room welcomes the guests of the palace
+with the sweet smell of freshly picked roses.  Several glass vases of roses
+picked from the palace's garden have been placed about the dimly lit room.  A
+large king sized bed and an overstuffed chair sit comfortable in opposite
+corners of the room, enticing you to rest your tired bones.    
+~
+110 d 0
+D3
+~
+door~
+1 0 11028
+S
+#11032
+Middle of the Guest Wing~
+   Due to the large amount of visitors the palace receives each week, a rather
+large portion of the lower floor has been set aside to accomidate them.  
+Plush, ornate couches line the room along with a nample amount of coffee
+tables.  Reverend guests sit amongst each other, conversing politely while
+enjoying alcoholic beverages provided by the many butlers who pace the room.  
+
+~
+110 d 0
+D0
+~
+glass~
+1 0 11066
+D1
+~
+~
+0 0 11034
+D2
+~
+~
+0 0 11022
+D3
+~
+~
+0 0 11024
+S
+#11033
+The Guest Wing~
+   Due to the large amount of visitors the palace receives each week, a rather
+large portion of the lower floor has been set aside to accomidate them.  
+Plush, ornate couches line the room along with a nample amount of coffee
+tables.  Reverend guests sit amongst each other, conversing politely while
+enjoying alcoholic beverages provided by the many butlers who pace the room.  
+
+~
+110 d 0
+D0
+~
+~
+0 0 11034
+D3
+~
+~
+0 0 11022
+S
+#11034
+Intersection in the Guest Wing~
+   Due to the large amount of visitors the palace receives each week, a rather
+large portion of the lower floor has been set aside to accomidate them.  
+Plush, ornate couches line the room along with a nample amount of coffee
+tables.  Reverend guests sit amongst each other, conversing politely while
+enjoying alcoholic beverages provided by the many butlers who pace the room.  
+
+~
+110 d 0
+D0
+~
+~
+0 0 11036
+D1
+~
+~
+0 0 11037
+D2
+~
+~
+0 0 11033
+D3
+~
+~
+0 0 11032
+S
+#11035
+A Small Dining Alcove~
+   With just enough room for a few small dining tables, this small alcove
+allows the guests privacy for any meals they wish to eat at the palace.  
+Windows line each wall, allowing an ample amount of sunshine to be let in
+during the day.    
+~
+110 d 0
+D2
+~
+~
+0 0 11024
+S
+#11036
+A Small Dining Alcove~
+   With just enough room for a few small dining tables, this small alcove
+allows the guests privacy for any meals they wish to eat at the palace.  
+Windows line each wall, allowing an ample amount of sunshine to be let in
+during the day.    
+~
+110 d 0
+D2
+~
+~
+0 0 11034
+S
+#11037
+A Carpeted Hallway~
+   One of the few areas in the palace where there are no windows adorning the
+walls, this hallway is lined with exquisite foreign paintings.  The lighting in
+the hallway has been dimmed, as it leads tired guests to their rooms for the
+evening.    
+~
+110 d 0
+D1
+~
+~
+0 0 11038
+D3
+~
+~
+0 0 11034
+S
+#11038
+A Carpeted Hallway~
+   One of the few areas in the palace where there are no windows adorning the
+walls, this hallway is lined with exquisite foreign paintings.  The lighting in
+the hallway has been dimmed, as it leads tired guests to their rooms for the
+evening.    
+~
+110 d 0
+D0
+~
+~
+0 0 11039
+D3
+~
+~
+0 0 11037
+S
+#11039
+A Carpeted Hallway~
+   One of the few areas in the palace where there are no windows adorning the
+walls, this hallway is lined with exquisite foreign paintings.  The lighting in
+the hallway has been dimmed, as it leads tired guests to their rooms for the
+evening.    
+~
+110 d 0
+D0
+~
+~
+0 0 11040
+D2
+~
+~
+0 0 11038
+S
+#11040
+A Carpeted Hallway~
+   One of the few areas in the palace where there are no windows adorning the
+walls, this hallway is lined with exquisite foreign paintings.  The lighting in
+the hallway has been dimmed, as it leads tired guests to their rooms for the
+evening.    
+~
+110 d 0
+D0
+~
+door~
+1 0 11042
+D1
+~
+door~
+1 0 11043
+D2
+~
+~
+0 0 11039
+D3
+~
+door~
+1 0 11041
+S
+#11041
+A Guest's Chambers~
+   This spacious, elegantly furnished room welcomes the guests of the palace
+with the sweet smell of freshly picked roses.  Several glass vases of roses
+picked from the palace's garden have been placed about the dimly lit room.  A
+large king sized bed and an overstuffed chair sit comfortable in opposite
+corners of the room, enticing you to rest your tired bones.    
+~
+110 d 0
+D1
+~
+door~
+1 0 11040
+S
+#11042
+A Guest's Living Quarters~
+   This spacious, elegantly furnished room welcomes the guests of the palace
+with the sweet smell of freshly picked roses.  Several glass vases of roses
+picked from the palace's garden have been placed about the dimly lit room.  A
+large king sized bed and an overstuffed chair sit comfortable in opposite
+corners of the room, enticing you to rest your tired bones.    
+~
+110 cd 0
+D2
+~
+door~
+1 0 11040
+S
+#11043
+A Guest's Bedroom~
+   This spacious, elegantly furnished room welcomes the guests of the palace
+with the sweet smell of freshly picked roses.  Several glass vases of roses
+picked from the palace's garden have been placed about the dimly lit room.  A
+large king sized bed and an overstuffed chair sit comfortable in opposite
+corners of the room, enticing you to rest your tired bones.    
+~
+110 d 0
+D3
+~
+door~
+1 0 11040
+S
+#11044
+Continuing Up the Stairway~
+   Generally off limits to the public, the second floor of the palace is where
+most of the political events in the city take place.  Swarms of politicians
+make their way down the hall, adamantly arguing their points of view with
+anyone who will listen.  Noticing your unfamiliar face, they give you a
+quizzical glance before shrugging it off and continuing with their duties.    
+~
+110 cd 0
+D0
+~
+~
+0 0 11046
+D2
+~
+~
+0 0 11057
+D4
+~
+~
+0 0 11045
+D5
+~
+~
+0 0 11021
+S
+#11045
+The Map Room~
+   Several huge papyrus maps lie sprawled out on top of a circular oak table,
+filling up the majority of the room.  No artificial lighting is needed in this
+room, as four tremendously large windows let in an overabundance of light.  
+The map room has boasted one of the best views in Phobos for quite some time
+now, as is apparent by the breathtaking view of the city through any of the
+four windows.    
+~
+110 d 0
+D5
+~
+~
+0 0 11044
+S
+#11046
+A Congested Hallway~
+   Generally off limits to the public, the second floor of the palace is where
+most of the political events in the city take place.  Swarms of politicians
+make their way down the hall, adamantly arguing their points of view with
+anyone who will listen.  Noticing your unfamiliar face, they give you a
+quizzical glance before shrugging it off and continuing with their duties.    
+~
+110 d 0
+D0
+~
+~
+0 0 11047
+D1
+~
+~
+0 0 11053
+D2
+~
+~
+0 0 11044
+D3
+~
+~
+0 0 11049
+S
+#11047
+Outside Lord Amothus' Study~
+   A long line of eager politicians has formed before the Lordship's door, each
+hoping to get a quick word with him before the day's end.  Loud arguing can be
+heard between two people inside the study before the door suddenly flies open
+and a rather large man walks out and slams the door behind him.  Noticing the
+sullen reaction of the man exiting the study, a good portion of the awaiting
+politicians quickly step out of line and walk briskly away from the door.    
+~
+110 cd 0
+D0
+~
+chamber~
+1 0 11048
+D2
+~
+~
+0 0 11046
+S
+#11048
+Lord Amothus' Study~
+   Sparing no expense at the hand of the tax payers, Lord Amothu's study is
+amply furnished with only the finest crafted furniture.  Two windows sit behind
+a desk in the back of the room, each tightly closed and covered with large
+cotton tapestries.  Advisors of his Lordship quickly move to fill his every
+wish, glaring resentfully at your unscheduled intrustion.    
+~
+110 d 0
+D2
+~
+chamber~
+1 0 11047
+S
+#11049
+A Side Hallway~
+   Less congested than the main hallway but still fairly difficult to navigate
+through the mass of people, this side hallway leads to the offices of some of
+the lesser ranked town officials.  No windows line the walls of the hallway, so
+small oil lanterns have taken their place as the main source of light.  The
+marble floor has not been polished in quite some time, as light is absorbed
+into it instead of being reflected.    
+~
+110 d 0
+D1
+~
+~
+0 0 11046
+D3
+~
+~
+0 0 11050
+S
+#11050
+A Side Hallway~
+   Less congested than the main hallway but still fairly difficult to navigate
+through the mass of people, this side hallway leads to the offices of some of
+the lesser ranked town officials.  No windows line the walls of the hallway, so
+small oil lanterns have taken their place as the main source of light.  The
+marble floor has not been polished in quite some time, as light is absorbed
+into it instead of being reflected.    
+~
+110 d 0
+D0
+~
+~
+0 0 11051
+D1
+~
+~
+0 0 11049
+S
+#11051
+A Side Hallway~
+   Less congested than the main hallway but still fairly difficult to navigate
+through the mass of people, this side hallway leads to the offices of some of
+the lesser ranked town officials.  No windows line the walls of the hallway, so
+small oil lanterns have taken their place as the main source of light.  The
+marble floor has not been polished in quite some time, as light is absorbed
+into it instead of being reflected.    
+~
+110 0 0
+D1
+~
+door~
+1 0 11052
+D2
+~
+~
+0 0 11050
+S
+#11052
+A City Magistrates Office~
+   Completely swamped with all the work that Lord Amothus deems too
+insubstantial to be bothered with, this city magistrate's office is a complete
+mess.  Tall pillars of paperwork sit atop the magistrate's desk, having no
+chance of being looked over any time soon.  As the gust of wind from the door
+opening threatens to blow over the pillars, a city clerk's eyes open wide in
+anticipating terror, but quickly close as he breathes a sign of relief when
+they do not fall over.    
+~
+110 cd 0
+D3
+~
+door~
+1 0 11051
+S
+#11053
+A Carpeted Hallway~
+   Less congested than the main hallway but still fairly difficult to navigate
+through the mass of people, this side hallway leads to the offices of some of
+the lesser ranked town officials.  No windows line the walls of the hallway, so
+small oil lanterns have taken their place as the main source of light.  The
+marble floor has not been polished in quite some time, as light is absorbed
+into it instead of being reflected.    
+~
+110 d 0
+D1
+~
+~
+0 0 11054
+D3
+~
+~
+0 0 11046
+S
+#11054
+A Carpeted Hallway~
+   Less congested than the main hallway but still fairly difficult to navigate
+through the mass of people, this side hallway leads to the offices of some of
+the lesser ranked town officials.  No windows line the walls of the hallway, so
+small oil lanterns have taken their place as the main source of light.  The
+marble floor has not been polished in quite some time, as light is absorbed
+into it instead of being reflected.    
+~
+110 d 0
+D0
+~
+~
+0 0 11055
+D3
+~
+~
+0 0 11053
+S
+#11055
+A Carpeted Hallway~
+   Less congested than the main hallway but still fairly difficult to navigate
+through the mass of people, this side hallway leads to the offices of some of
+the lesser ranked town officials.  No windows line the walls of the hallway, so
+small oil lanterns have taken their place as the main source of light.  The
+marble floor has not been polished in quite some time, as light is absorbed
+into it instead of being reflected.    
+~
+110 d 0
+D2
+~
+~
+0 0 11054
+D3
+~
+door~
+1 0 11056
+S
+#11056
+A City Magistrate's Office~
+   Completely swamped with all the work that Lord Amothus deems too
+insubstantial to be bothered with, this city magistrate's office is a complete
+mess.  Tall pillars of paperwork sit atop the magistrate's desk, having no
+chance of being looked over any time soon.  As the gust of wind from the door
+opening threatens to blow over the pillars, a city clerk's eyes open wide in
+anticipating terror, but quickly close as he breathes a sign of relief when
+they do not fall over.    
+~
+110 cd 0
+D1
+~
+door~
+1 0 11055
+S
+#11057
+A Congested Hallway~
+   Generally off limits to the public, the second floor of the palace is where
+most of the political events in the city take place.  Swarms of politicians
+make their way down the hall, adamantly arguing their points of view with
+anyone who will listen.  Noticing your unfamiliar face, they give you a
+quizzical glance before shrugging it off and continuing with their duties.    
+~
+110 d 0
+D0
+~
+~
+0 0 11044
+D1
+~
+~
+0 0 11058
+D3
+~
+~
+0 0 11062
+S
+#11058
+The Southern Hallway~
+   Compared to the other hallways on the second floor, this passageway is
+nearly empty.  Stone sculptures sit in small display cases along the walls,
+being illuminated by oil lanterns above them.  Small triangular windows on the
+southern wall allow a fair amount of light into the hallway.    
+~
+110 d 0
+D1
+~
+~
+0 0 11059
+D3
+~
+~
+0 0 11057
+S
+#11059
+The Southern Hallway~
+   Compared to the other hallways on the second floor, this passageway is
+nearly empty.  Stone sculptures sit in small display cases along the walls,
+being illuminated by oil lanterns above them.  Small triangular windows on the
+southern wall allow a fair amount of light into the hallway.    
+~
+110 d 0
+D0
+~
+~
+0 0 11060
+D3
+~
+~
+0 0 11058
+S
+#11060
+A Southern Hallway~
+   Compared to the other hallways on the second floor, this passageway is
+nearly empty.  Stone sculptures sit in small display cases along the walls,
+being illuminated by oil lanterns above them.  Small triangular windows on the
+southern wall allow a fair amount of light into the hallway.    
+~
+110 d 0
+D2
+~
+~
+0 0 11059
+D3
+~
+door~
+1 0 11061
+S
+#11061
+The Head Magistrates Study~
+   The head magistrates office isn't nearly as messy as those which belong to
+the men who work for him.  Neatly sitting atop his desk, reports of city laws
+and maintenance wait to be read.  It is the head magistrates duty to approve
+plans compiled by his workers and then pass them on to Lord Amothus for final
+approval.    
+~
+110 d 0
+D1
+~
+door~
+1 0 11060
+S
+#11062
+The Southern Hallway~
+   Compared to the other hallways on the second floor, this passageway is
+nearly empty.  Stone sculptures sit in small display cases along the walls,
+being illuminated by oil lanterns above them.  Small triangular windows on the
+southern wall allow a fair amount of light into the hallway.    
+~
+110 d 0
+D1
+~
+~
+0 0 11057
+D3
+~
+~
+0 0 11063
+S
+#11063
+A Southern Hallway~
+   Compared to the other hallways on the second floor, this passageway is
+nearly empty.  Stone sculptures sit in small display cases along the walls,
+being illuminated by oil lanterns above them.  Small triangular windows on the
+southern wall allow a fair amount of light into the hallway.    
+~
+110 d 0
+D0
+~
+~
+0 0 11064
+D1
+~
+~
+0 0 11062
+S
+#11064
+A Southern Hall~
+   Compared to the other hallways on the second floor, this passageway is
+nearly empty.  Stone sculptures sit in small display cases along the walls,
+being illuminated by oil lanterns above them.  Small triangular windows on the
+southern wall allow a fair amount of light into the hallway.    
+~
+110 d 0
+D1
+~
+door~
+1 0 11065
+D2
+~
+~
+0 0 11063
+S
+#11065
+The Tax Collectors Study~
+   Perhaps the most empty room in the palace, the tax collectors study is
+almost completely void of furniture.  Beneath a small window sits a lone,
+modest wooden desk.  A heavy iron safe sits beside the desk, most likely
+holding the days' collection of taxes.    
+~
+110 cd 0
+D3
+~
+door~
+1 0 11064
+S
+#11066
+A Well Trimmed Path~
+   The park path winds between trees, bordered on both sides by neatly-trimmed
+shrubs.  A fresh breeze passes through, and you feel tempted to just sit down
+here and forget all your worries.  To the north you hear the sound of birds
+singing and the splashing sound of water.    
+~
+110 c 2
+D0
+~
+~
+0 0 11067
+D2
+~
+glass~
+1 0 11032
+S
+#11067
+Gardens Of The Blue Phoenix~
+   Walking through the park you notice the sounds of many different animals and
+occasionally you even see them hiding in the nearby bushes.  L Leaves cover the
+path making it soft beneath your feet, and the sun shines down through the
+trees lighting the whole park.    
+~
+110 0 2
+D0
+~
+~
+0 0 11068
+D1
+~
+~
+0 0 11073
+D2
+~
+~
+0 0 11066
+D3
+~
+~
+0 0 11074
+S
+#11068
+Gardens Of the Blue Phoenix~
+   Walking through the park you notice the sounds of many different animals and
+occasionally you even see them hiding in the nearby bushes.  L Leaves cover the
+path making it soft beneath your feet, and the sun shines down through the
+trees lighting the whole park.    
+~
+110 0 2
+D0
+~
+~
+0 0 11069
+D2
+~
+~
+0 0 11067
+S
+#11069
+The Center Courtyard~
+   The gentle swishing and murmuring of the fountain waters give this courtyard
+an air of tranquility.  The gardens surrounding the fountain are lush and well
+taken care of.  Small birds fly around the fountain looking for scraps of food
+or seeds from the nearby trees.    
+~
+110 0 2
+D0
+~
+~
+0 0 11070
+D1
+~
+~
+0 0 11071
+D2
+~
+~
+0 0 11068
+D3
+~
+~
+0 0 11076
+S
+#11070
+A Small Alcove in the Vines~
+   Walking through the park you notice the sounds of many different animals and
+occasionally you even see them hiding in the nearby bushes.  L Leaves cover the
+path making it soft beneath your feet, and the sun shines down through the
+trees lighting the whole park.    
+~
+110 c 0
+D2
+~
+~
+0 0 11069
+S
+#11071
+Silent Pathway~
+   Walking through the park you notice the sounds of many different animals and
+occasionally you even see them hiding in the nearby bushes.  L Leaves cover the
+path making it soft beneath your feet, and the sun shines down through the
+trees lighting the whole park.    
+~
+110 0 0
+D2
+~
+~
+0 0 11072
+D3
+~
+~
+0 0 11069
+S
+#11072
+Tranquil Pathway~
+   Walking through the park you notice the sounds of many different animals and
+occasionally you even see them hiding in the nearby bushes.  L Leaves cover the
+path making it soft beneath your feet, and the sun shines down through the
+trees lighting the whole park.    
+~
+110 0 0
+D0
+~
+~
+0 0 11071
+D2
+~
+~
+0 0 11073
+S
+#11073
+Gardens of the Blue Phoenix~
+   Walking through the park you notice the sounds of many different animals and
+occasionally you even see them hiding in the nearby bushes.  L Leaves cover the
+path making it soft beneath your feet, and the sun shines down through the
+trees lighting the whole park.    
+~
+110 0 0
+D0
+~
+~
+0 0 11072
+D3
+~
+~
+0 0 11067
+S
+#11074
+A Pathway through the Garden~
+   Walking through the park you notice the sounds of many different animals and
+occasionally you even see them hiding in the nearby bushes.  L Leaves cover the
+path making it soft beneath your feet, and the sun shines down through the
+trees lighting the whole park.    
+~
+110 0 2
+D0
+~
+~
+0 0 11075
+D1
+~
+~
+0 0 11067
+S
+#11075
+The Blue Phoenix Gardens~
+   Walking through the park you notice the sounds of many different animals and
+occasionally you even see them hiding in the nearby bushes.  L Leaves cover the
+path making it soft beneath your feet, and the sun shines down through the
+trees lighting the whole park.    
+~
+110 0 2
+D0
+~
+~
+0 0 11076
+D2
+~
+~
+0 0 11074
+S
+#11076
+Wandering through the Gardens~
+   Walking through the park you notice the sounds of many different animals and
+occasionally you even see them hiding in the nearby bushes.  L Leaves cover the
+path making it soft beneath your feet, and the sun shines down through the
+trees lighting the whole park.    
+~
+110 0 2
+D1
+~
+~
+0 0 11069
+D2
+~
+~
+0 0 11075
+S
+#11077
+1~
+You are in an unfinished room.
+~
+110 0 0
+S
+#11078
+1~
+You are in an unfinished room.
+~
+110 0 0
+S
+#11079
+1~
+You are in an unfinished room.
+~
+110 0 0
+S
+#11080
+1~
+You are in an unfinished room.
+~
+110 0 0
+S
+#11081
+1~
+You are in an unfinished room.
+~
+110 0 0
+S
+#11082
+1~
+You are in an unfinished room.
+~
+110 0 0
+S
+#11083
+1~
+You are in an unfinished room.
+~
+110 0 0
+S
+#11084
+1~
+You are in an unfinished room.
+~
+110 0 0
+S
+#11085
+1~
+You are in an unfinished room.
+~
+110 0 0
+S
+#11086
+1~
+You are in an unfinished room.
+~
+110 0 0
+S
+#11087
+1~
+You are in an unfinished room.
+~
+110 0 0
+S
+#11088
+1~
+You are in an unfinished room.
+~
+110 0 0
+S
+#11089
+1~
+You are in an unfinished room.
+~
+110 0 0
+S
+#11090
+1~
+You are in an unfinished room.
+~
+110 0 0
+S
+#11091
+1~
+You are in an unfinished room.
+~
+110 0 0
+S
+#11092
+1~
+You are in an unfinished room.
+~
+110 0 0
+S
+#11093
+1~
+You are in an unfinished room.
+~
+110 0 0
+S
+#11094
+1~
+You are in an unfinished room.
+~
+110 0 0
+S
+#11095
+1~
+You are in an unfinished room.
+~
+110 0 0
+S
+#11096
+1~
+You are in an unfinished room.
+~
+110 0 0
+S
+#11097
+1~
+You are in an unfinished room.
+~
+110 0 0
+S
+#11098
+1~
+You are in an unfinished room.
+~
+110 0 0
+S
+#11099
+1~
+You are in an unfinished room.
+~
+110 0 0
+S
+$~

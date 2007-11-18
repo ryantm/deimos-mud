@@ -1,0 +1,315 @@
+#3100
+&DTimber Wolf&n~
+&DA Timber wolf&n~
+&DA timber wolf is here hunting for its prey&n
+~
+Nothing.
+~
+24600 263176 0 E
+40 10 -2 40d40+1600 20d20+10
+80000 1600000
+12 12 0
+BareHandAttack: 4
+E
+#3101
+wulfgar guard~
+&RWulfgar&D, Knight of the Danes&n~
+&RWulfgar is here protecting the pass into Danish Lands&n
+~
+Nothing.
+~
+258078 1192 0 E
+55 7 -6 55d55+3025 27d27+13
+151250 3025000
+12 12 0
+BareHandAttack: 3
+E
+#3102
+Black Scorpion mob~
+&DA small &dBlack&D Scorpion&n~
+&DA Scorpion crawls along the sand&n
+~
+
+&DThe Small scorpion stands with its stinger high.  One sting from it is
+enough to kill its pray, and put a serious poison into a larger creature.
+Its hard black exoskeleton gives it a strong armor.&n
+
+~
+188444 1024 0 E
+45 9 -3 45d45+2025 22d22+11
+101250 2025000
+12 12 0
+BareHandAttack: 11
+E
+#3103
+kraken mob beast~
+&BThe Great Kraken&w~
+&BA Large beast with innumerable Tentacles looks at you with fury&n
+~
+
+
+&BThe great Kraken is known by most sailors to be the scourge of the ocean.
+The many tentacles are a hazard that have ended many voyages and lives
+early. The kraken, in a fury is always looking for blood to be gotten.&w
+
+~
+190524 1192 0 E
+50 8 -5 50d50+2500 25d25+12
+125000 2500000
+12 12 0
+BareHandAttack: 2
+E
+#3104
+mob cthulu squid~
+the &DCthulu&n~
+An ancient Large Squidlike creatue is here
+~
+
+&nThe Ancient &DCthulu&n, a creature of the deepest and darkest places of the
+sea has come up looking for its meal.  They are known to be great in
+wisdom as well as strength.  Given the age, there is very little that
+harm it aside of brute strength.&n
+
+~
+190524 8389800 0 E
+50 8 -5 50d50+2500 25d25+12
+125000 2500000
+12 12 0
+BareHandAttack: 2
+E
+#3105
+Geat warrior mob~
+&nA Warrior from &CGeatland&n~
+&nA Warrior with the Emblem of &CGeatland&n is here demanding entrance.
+~
+
+&nThe warrior is very strong of build and looks like a menacing opponent.
+It must be true that &CGeatland&n warriors are some of the best in the world.
+
+~
+260110 1064 0 E
+50 8 -5 50d50+2500 25d25+12
+125000 2500000
+12 12 1
+BareHandAttack: 3
+SpecProc: mayor
+E
+#3106
+mob geat sailor~
+&nA Sailor from &CGeatland&n~
+&nA sailor from &CGeatland&n is here watching the ship.
+~
+
+&nThe sailor stands here watching the ship from intruders.  The man is
+obviously strong, with his muscles bulging from out of his clothes.
+Life on the seas has made him a strong fighter as well.
+
+~
+57628 1064 0 E
+50 8 -5 50d50+2500 25d25+12
+125000 2500000
+12 12 1
+E
+#3107
+mob beowulf~
+&CBeowulf&n, prince of the &CGeats&n~
+&CBeowulf&n is here, deep in thought.
+~
+
+&nConsidered by all the be the strongest man in the world, &CBeowulf&n is
+here trying to think of a way to get into &RHerot&n and aid the &RDanish&n king
+in his plight against &DGrendel&n.  His Battle shield is strapped to his arm.
+
+~
+256286 1192 0 E
+60 5 -8 60d60+3600 30d30+15
+180000 3600000
+12 12 1
+E
+#3108
+guard herot mob~
+&nA guard of &RHerot&n~
+&nA large armoured man is guarding the entrance to &RHerot&n.
+~
+&nThe guard is well armoured and very tough looking.  He is here to fulfill
+his one purpose, to guard the entrance of &RHerot&n.  He will do this until
+death takes him.
+~
+192542 1064 0 E
+50 8 -5 50d50+2500 25d25+12
+125000 2500000
+12 12 0
+E
+T 3108
+#3109
+Unferth man dane~
+&RUnferth&n the &RDanish Braggard&n~
+&RUnferth&n is here bragging about some story or other.
+~
+
+&RUnferth&n is known as a braggard, and also a coward.  Yet he is full of
+of cunning and should be watched.  It has been said by not only a few
+that he has had all his siblings killed.
+
+~
+188478 1064 0 E
+55 7 -6 55d55+3025 27d27+13
+151250 3025000
+12 12 1
+E
+#3110
+hrothgar mob~
+&RHrothgar, King of the Danes&n~
+&RHrothgar is here with a worried look on his face.&n
+~
+&RHrothgar&n is on his throne, wishing he had the strength of the past. 
+All he really wants if for someone to be able to come and tell him they
+are here to help.  Until then he will only worry for his people.
+~
+190478 1192 0 E
+66 4 -9 66d66+4356 33d33+16
+217800 4356000
+12 12 1
+E
+T 3110
+#3111
+welthow queen~
+&nThe &RDanish Queen, Welthow&n~
+&RQueen Welthow&n is here wanting to give comfort to her husband.
+~
+&nThe &RQueen of Danes&n is a woman of strong will.  She is strong much like
+the rest of her race.  She is strong minded, and is a keeper of traditions
+for her people.  These days she spends her time reminding her people
+of their power, and comforting her husband in his time of need.
+~
+194590 1192 0 E
+66 4 -9 66d66+4356 33d33+16
+217800 4356000
+12 12 2
+E
+#3112
+mob creature~
+&DA &Gcreature&D with glowing eyes&n~
+&DA creature with &Gglowing&D eyes is here licking its fangs.&n
+~
+
+&DThe small creature is very dexterous and could probably leap out of the
+shadows and catch a person unawares, and kill them with its long fangs.
+Its eyes seem to be made to see in the darkness of the marsh.&n
+
+~
+188476 1064 0 E
+50 8 -5 50d50+2500 25d25+12
+125000 2500000
+12 12 0
+BareHandAttack: 4
+E
+#3113
+mob grendel~
+&DGrendel&n~
+&DThe monster Grendel is here lusting for &rblood&n.
+~
+
+&DThe Scourge of god and spawn of Cain, Grendel is one of the most feared
+of all monsters.  His strength is unmatched, and his ferocity is known
+throughout the world.  His soul purpose is to feed off the blood of
+man.&n
+
+~
+190526 8389800 0 E
+65 4 -9 65d65+4225 32d32+16
+211250 4225000
+12 12 0
+BareHandAttack: 8
+E
+#3114
+mob underling~
+&DUnderling to Grendel&n~
+&DA underling to Grendel is here, grinning at you.&n
+~
+
+&DA monster that is almost as vial as its master, the underling is known
+for its power, the main reason Grendel would let it serve for him.  It
+will never sway in its fellowship to Grendel and will kill anything
+for him, or die trying.&n
+
+~
+159790 1064 0 E
+55 7 -6 55d55+3025 27d27+13
+151250 3025000
+12 12 0
+BareHandAttack: 6
+E
+T 3114
+#3115
+mob fish~
+&RFlesh eating fish&n~
+&RA flesh eating fish is coming after YOU!&n
+~
+&RWith tough scales, and long, sharp fangs, its no wonder there is little
+prey left in these waters for the fish to live off of.  Its hungry eyes
+stare at you lustily.&n
+~
+256060 1064 0 E
+58 6 -7 58d58+3364 29d29+14
+168200 3364000
+12 12 0
+BareHandAttack: 4
+E
+#3116
+Wiglaf mob~
+&nThe &CGeat&n warrior, &CWiglaf&n~
+&CWiglaf &nis here, trying to counsel &CBeowulf&n.
+~
+&CWiglaf is second in strength of warriors next to only Beowulf.  His
+loyalty is adamant and unswaying.  He would give his life for his prince,
+and will kill anyone who tries to bring harm to Beowulf.&n
+~
+194830 1064 0 E
+50 8 -5 50d50+2500 25d25+12
+125000 2500000
+12 12 1
+E
+#3118
+mob unfinished~
+the unfinished mob~
+An unfinished mob stands here.
+~
+It looks unfinished.
+~
+9 0 0 E
+0 20 0 1d1+0 1d1+0
+0 0
+12 12 0
+SpecProc: janitor
+E
+#3198
+Sea Hag~
+the &RSea Hag&n~
+&DThe &RSea Hag&D is here awaiting her next meal&n
+~
+Nothing.
+~
+261951 1184 0 E
+150 -10 10 30d30+45100 21d13+30
+1687500 10000000
+12 12 0
+BareHandAttack: 6
+SpecProc: super_magic_user
+E
+T 3198
+#3199
+henchman mob~
+&DHenchman of the &RSea Hag&n~
+&DA Henchman looks lovingly at the &RSea Hag&n
+~
+Nothing.
+~
+261935 1192 0 E
+50 10 0 25d25+5100 7d7+10
+187500 2500000
+12 12 0
+BareHandAttack: 9
+SpecProc: magic_user
+E
+$

@@ -1,0 +1,282 @@
+#8700
+the priest~
+the priest~
+A priest is standing here, deep in prayer.
+~
+   The priest is attired in a cascading white robe.  His face is crossed by a
+kindly expression, as he peacefully goes about his business.
+~
+266 4194308 0 E
+60 5 -8 60d60+3600 30d30+15
+180000 1260000
+12 12 1
+BareHandAttack: 7
+E
+#8701
+worshipper male christian~
+a male worshipper~
+A male worshipper sits here, silently.
+~
+   The worshipper wears a pair of long black trousers, a white shirt, and a
+pair of well-polished black shoes. He seems a little out of place in Dallas.
+~
+4362 4 0 E
+30 13 1 30d30+900 15d15+7
+45000 315000
+10 10 1
+E
+#8702
+worshipper female christian~
+a female worshipper~
+A female worshipper sits here, silently.
+~
+   The worshipper wears a simple dress, and a pair of sensible shoes.  She
+seems a little out of place in Dallas.
+~
+10 4194304 -500 E
+30 13 1 30d30+900 15d15+7
+45000 315000
+10 10 2
+E
+#8703
+undead zombie~
+a zombie~
+A zombie is staggering around here, moaning.
+~
+   The zombie is a terrifying sight, as it stumbles around, dressed in rags.  
+It's skin has turned a slight shade of green, and a strange liquid trickles
+from it's eyesockets.
+~
+40 1024 -1000 E
+10 18 7 10d10+100 5d5+2
+5000 35000
+12 12 0
+BareHandAttack: 9
+E
+#8704
+dog canine mutt~
+a dog~
+A mangy old dog is sitting here, whining.
+~
+   The dog looks fairly harmless.  It's patchy brown fur seems to have become
+matted, and it doesn't look to have eaten for a while.
+~
+2058 0 -1000 E
+5 19 8 5d5+25 2d2+1
+1250 8750
+10 10 1
+BareHandAttack: 8
+E
+#8705
+blade bodyguard~
+Blade~
+Blade, the bodyguard of "Death By Dagger", stands here watching for trouble.
+~
+Blade's lips turn up into a snarl, as he stands waiting to prevent trouble.
+~
+30730 4981768 -100 E
+20 15 4 20d20+400 10d10+5
+20000 400000
+12 12 1
+BareHandAttack: 13
+E
+#8706
+justin member~
+Justin~
+Justin is a member of the 'Death by Dagger' gang.
+~
+He is a punk rock thrasher with a deadly knife.  He is slim and tall and is
+wearing punk clothes.  His hair is in a green mohawk with a tail.  He has
+several tattoos and piercings in his eyebrow, nose and lip.    
+~
+260122 4457480 0 E
+25 14 2 25d25+625 12d12+6
+31250 625000
+12 12 1
+BareHandAttack: 13
+E
+#8707
+bartender female woman~
+the Bartender~
+A tall, female bartender stands here, serving customers.
+~
+   The bartender appears to be in her late twenties, with short blonde hair.  
+
+~
+262154 128 0 E
+66 4 -9 66d66+4356 33d33+16
+217800 4488000
+12 12 2
+E
+#8708
+drunk man~
+a Drunk~
+A large drunk man is puking here.
+~
+
+    This man has puke all over him.
+
+~
+10 0 0 E
+4 19 8 4d4+16 2d2+1
+800 16000
+12 12 1
+BareHandAttack: 4
+E
+#8709
+coalition diplomat male~
+a Diplomat~
+A diplomat from the Coalition States, walks around here.
+~
+
+    He is from the coalition states. He is trying to talk the leaders of New Dallas into joining the states.
+
+~
+72 12288 -1000 E
+35 12 0 35d35+1225 17d17+8
+61250 1120000
+12 12 1
+BareHandAttack: 13
+E
+#8710
+citizen male~
+a Citizen~
+A citizen of New Dallas, walks past.
+~
+
+     He is a very happy man, after all..he is apart of a great City-State.
+
+~
+72 4096 0 E
+15 17 5 15d15+225 7d7+3
+11250 120000
+12 12 1
+BareHandAttack: 4
+E
+#8732
+slave female healer~
+a female slave~
+A female slaves stands here, crying for the way her life is.
+~
+
+     She is pretty past the bruises and marks or slavery. She has the mark of her master on her forehead.
+
+~
+12 4096 1000 E
+20 15 4 20d20+400 10d10+5
+20000 400000
+12 12 2
+BareHandAttack: 4
+E
+#8733
+warrior slave~
+a warrior slave~
+A warrior slave stands here, guarding his master.
+~
+
+     He is a tough slave, living the life he was breed to do.
+
+~
+8 0 0 E
+35 12 0 35d35+1225 17d17+8
+61250 1120000
+12 12 1
+E
+#8734
+skelebot fassar 20 robot machine~
+a FASSAR-20 Skelebot~
+A FASSAR-20 Skelebot, is following its master.
+~
+   This is one of the older model skelebots.  Since it is not used by the
+Coalition military anymore, it has been used for work and slave labor.  Dents
+and scratchs cover its metal body, but even after all this it still works.    
+~
+254088 4981802 0 E
+40 10 -2 40d40+1600 20d20+10
+80000 1600000
+12 12 0
+BareHandAttack: 6
+E
+#8744
+al armourer~
+Al~
+Al is here ready to make a deal.
+~
+Al has been in New Dallas with his shop for nearly 25 years.  He is well known
+and well respected.  It would be a bad idea to mess with him.    
+~
+57354 0 1000 E
+40 10 -2 40d40+1600 20d20+10
+80000 1600000
+12 12 1
+E
+#8745
+shop owner worker~
+a pawn shop owner~
+The owner of this pawn shop stands here, ready to buy anything.
+~
+The owner is a chubby bald man with black glasses and a dirty t-shirt.  He has
+retired and loans out money to those who need it, but they have to give him
+some collateral.    
+~
+253962 0 0 E
+40 10 -2 40d40+1600 20d20+10
+80000 1600000
+12 12 1
+E
+#8747
+asher~
+Asher~
+Asher, the chemical dealer of New Dallas, Stands here ready to make a deal.
+~
+   A kind old man stands behind the counter.  His dark eyes are those of
+compassion and love.  He reminds you of an old grandfatherly figure.  His warm
+hand shows tenderness.  The deep furrows in his forehead are those of concern
+for others.  He brings comfort to his surroundings and his questions are in
+order to assist.    
+~
+253962 128 0 E
+50 8 -5 50d50+2500 25d25+12
+125000 2500000
+12 12 1
+E
+#8748
+Pete shopkeeper~
+Pete~
+Pete the weapon's shop owner is here assembling a rifle.
+~
+   Pete is the weapon's shop owner.  He has years of experience dealing weapons
+and makes his own modifications to them.  He has a few scars on his arms from
+knife fights.  He walks with a slight limp.  He is dressed in camo, chains and
+black leather.    
+~
+260234 263304 0 E
+45 9 -3 45d45+2025 22d22+11
+101250 2025000
+12 12 1
+E
+#8749
+grocer  man~
+a Grocer~
+A tall and healthy Grocer is here, hold some food.
+~
+   A tall and nice looking man, he is holding up some food for you.    
+~
+260234 136 0 E
+50 8 -5 50d50+2500 25d25+12
+125000 2500000
+12 12 1
+E
+#8750
+fat man owner pervert~
+the Owner~
+The fat perverted club owner is standing here.
+~
+   He is fat and perverted.    
+~
+123018 0 -1000 E
+20 15 4 20d20+400 10d10+5
+20000 400000
+12 12 1
+E
+$

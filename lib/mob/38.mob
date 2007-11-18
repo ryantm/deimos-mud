@@ -1,0 +1,345 @@
+#3800
+a cow~
+a cow~
+A cow flies through the air before your very eyes.
+~
+It appears to look very frightened!
+~
+32778 0 0 E
+20 15 4 20d20+400 10d10+5
+20000 400000
+12 12 0
+BareHandAttack: 10
+E
+#3801
+munchkin little~
+a munchkin~
+A happy little Munchkin stares up at you.
+~
+They look quite happy, although they aren't even up to your waist.  They are mostly dressed in colorful frocks and pointy shoes.
+~
+14 0 500 E
+20 15 4 20d20+400 10d10+5
+20000 400000
+12 12 0
+E
+#3802
+Munchkin Mayor~
+the Munchkin Mayor~
+The Munchkin Mayor stands here, simply looking important.
+~
+He look important.  All hail the mayor!
+~
+26 0 0 E
+21 15 3 21d21+441 10d10+5
+22050 420000
+12 12 1
+E
+#3803
+lullaby girl member~
+a Lullaby Girl~
+A member of the Lullaby League bows before you.
+~
+She looks sweet and frail, wearing the outfit of a ballerina.
+~
+266 0 300 E
+10 18 7 10d10+100 5d5+2
+5000 80000
+12 12 2
+E
+#3804
+Glinda~
+Glinda~
+Glinda, the good witch of the North stands here.
+~
+She is more beautiful than beauty herself.
+~
+247897 0 1000 E
+35 13 -3 17d17+2550 5d5+7
+91875 1225000
+12 12 2
+BareHandAttack: 12
+E
+#3805
+crow~
+crow~
+A crow flies overhead threatening to poop on you!
+~
+All you can really see is a black spot making horrible noise.
+~
+2090 0 -300 E
+10 18 7 10d10+100 5d5+2
+5000 80000
+12 12 0
+BareHandAttack: 8
+E
+#3806
+scarecrow~
+a scarecrow~
+A rather dumb-looking scarecrow hangs from a post.
+~
+He looks old and tattered.  His once bright painted on face is now dull and faded.  Straw is poking out at various places, and crows are perching on his shoulders.
+~
+2074 0 50 E
+12 17 6 12d12+144 6d6+3
+7200 96000
+12 12 0
+E
+#3807
+tree~
+a tree~
+A tree is planted here, looking suspicously alive.
+~
+It looks eeeeevil.
+~
+10 0 -300 E
+30 13 1 30d30+900 15d15+7
+45000 960000
+12 12 0
+E
+#3808
+Tin Man~
+the Tin Man~
+The Tin Man stands here unable to move. 
+~
+He looks kinda rusty..maybe you should oil him!
+~
+2058 0 300 E
+12 17 6 12d12+144 6d6+3
+7200 96000
+12 12 1
+E
+#3809
+Lumber Jack~
+Lumber Jack~
+Lumber Jack is here looking embarrassed and smitten.
+~
+Oh no..not this..he's wearing no pants!!
+~
+32810 0 -1000 E
+13 17 6 13d13+169 6d6+3
+8450 104000
+12 12 1
+E
+#3810
+Bella~
+Bella~
+Bella covers herself up with a sheet.
+~
+Well, she's not exactly the sharpest tool in the shed.
+~
+4106 0 -1000 E
+12 17 6 12d12+144 6d6+3
+7200 96000
+12 12 2
+E
+#3811
+tiger~
+a tiger~
+A tiger glares at you and growls.
+~
+Awwww..he's so cute, and SCARY!
+~
+36907 0 -1000 E
+13 17 6 13d13+169 6d6+3
+8450 104000
+12 12 1
+E
+#3812
+bear~
+a bear~
+A bear attacks and attempts to maul you to death.
+~
+It stands about 8 feet tall, and doesn't look happy.
+~
+4139 0 -1000 E
+13 17 6 13d13+169 6d6+3
+8450 104000
+12 12 0
+E
+#3813
+Cowardly Lion~
+the Cowardly Lion~
+The Cowardly Lion jumps at you and meows!
+~
+He would be a good lion if he weren't crying!
+~
+2186 0 0 E
+35 12 0 35d35+1225 17d17+8
+61250 1120000
+12 12 1
+E
+T 200
+#3814
+poppy~
+a poppy~
+A poppy attempts to cause you to fall asleep.
+~
+Mm..the sweet, lingering smell makes you want to sleep.
+~
+522 0 0 E
+16 16 5 16d16+256 8d8+4
+12800 128000
+12 12 0
+E
+#3815
+guard~
+a guard~
+A guard patiently stands in front of the gate.
+~
+He looks familiar..perhaps someone you used to know?
+~
+35082 0 500 E
+17 16 4 17d17+289 8d8+4
+14450 136000
+12 12 1
+E
+#3816
+horse~
+a horse of many colors~
+A horse stands here, changing from one color to the next.
+~
+He's blue..no..green...no..pink!
+~
+524298 0 1000 E
+17 16 4 17d17+289 8d8+4
+0 150000
+12 12 0
+E
+#3817
+green man~
+a green man~
+A &ggreen&n man stands here, looking rather green today.
+~
+I cannot describe him..he's just so..&Ggreen.&n
+~
+344 0 1000 E
+18 16 4 18d18+324 9d9+4
+16200 144000
+12 12 1
+E
+#3818
+green mistress~
+a green mistress~
+A &ggreen&n mistress curtseys before you.
+~
+My, she has dazzling &Ggreen&n eyes.
+~
+10 0 1000 E
+18 16 4 18d18+324 9d9+4
+16200 144000
+12 12 2
+E
+#3819
+an Oz guard~
+an Oz guard~
+This man doesn't want you to see Oz!
+~
+He looks pretty stubborn.
+~
+4106 0 1000 E
+19 16 4 19d19+361 9d9+4
+18050 152000
+12 12 1
+E
+#3820
+flying monkey~
+a flying monkey~
+A flying monkey lands on your head and shrieks.
+~
+Nassy lil' bugger, ain't he?
+~
+4680 8196 -700 E
+19 16 4 19d19+361 9d9+4
+18050 152000
+12 12 0
+E
+#3821
+Winkie~
+a Winkie~
+A Winkie marches around looking like a complete idiot.
+~
+He has no brains, other than that, he's ugly.
+~
+2570 8192 0 E
+19 16 4 19d19+361 9d9+4
+18050 152000
+12 12 0
+E
+#3822
+Wicked Witch~
+the Wicked Witch of the West~
+The Wicked Witch of the West is here to GET YOU!
+~
+Eeek, she is scary.
+~
+260618 8320 -1000 E
+30 13 1 30d30+900 15d15+7
+45000 960000
+12 12 2
+BareHandAttack: 12
+E
+T 1399
+#3823
+Dorothy~
+Dorothy~
+Dorothy the small and meek stands here looking ignorant in those ruby slippers.
+~
+She is very small, and even more meek
+~
+16778 4096 1000 E
+26 14 2 26d26+676 13d13+6
+33800 520000
+12 12 2
+E
+#3824
+Toto~
+Toto~
+Toto is barking at you!
+~
+Watch out, he looks scary!
+~
+266 4096 800 E
+20 15 4 20d20+400 10d10+5
+20000 400000
+12 12 0
+BareHandAttack: 4
+E
+#3825
+Oz~
+Oz~
+Oz is a gigantic head! Oh dear..
+~
+He looks very..large..
+~
+10 0 0 E
+20 15 4 20d20+400 10d10+5
+20000 400000
+12 12 0
+BareHandAttack: 6
+E
+#3826
+man behind the curtain~
+the man behind the curtain~
+The man behind the curtain looks nervous.
+~
+He is short and rather robust.
+~
+10 0 0 E
+20 15 4 20d20+400 10d10+5
+20000 400000
+12 12 1
+E
+#3827
+mob unfinished~
+the unfinished mob~
+An unfinished mob stands here.
+~
+It looks unfinished.
+~
+8 0 0 E
+0 20 10 1d1+0 1d1+0
+0 0
+12 12 0
+E
+$

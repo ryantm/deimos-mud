@@ -1,0 +1,186 @@
+#20600
+Inside the Fallen Tree~
+   A vast hollow chamber has formed within the interior of the tree trunk as it
+rots away with the years.  The soft, decayed wood is populated with patches of
+slimy orange mold.  Thousands of insects swarm everywhere, perpetually gnawing
+away at their world.  Sunlight streams through a jagged hole in one wall; on
+the other, a cryptic message has been carved.    
+~
+206 d 0
+D0
+~
+~
+0 0 4249
+D1
+~
+~
+0 0 20601
+D3
+Outside the mouth of the tunnel, a falling person plunges past into the depths
+of the bottomless pit.    
+~
+~
+0 0 119
+E
+(null)~
+Nothing.
+~
+S
+#20601
+Tunnel of &DInsufficient Light~
+   As the tunnel winds its way through the shadows, the path is lighted only by
+an occasional glowing crack in the floor.  Jagged black walls of rock press in
+from both sides.    
+~
+206 d 0
+D1
+~
+~
+0 0 20602
+D3
+~
+~
+0 0 20600
+S
+#20602
+Tunnel of &DInsufficient Light~
+   As the tunnel winds its way through the shadows, the path is lighted only by
+an occasional glowing crack in the floor.  Jagged black walls of rock press in
+from both sides.    
+~
+206 d 0
+D1
+~
+~
+0 0 20603
+D3
+~
+~
+0 0 20601
+S
+#20603
+Tunnel of &DInsufficient Light~
+   A sudden encounter with the rough-hewn rock face alerts one to a sharp twist
+in the tunnel.  The air at this point is inexplicably filled with an ominous,
+gloomy feeling of dread.  The distant sound of a river echoes from the north.
+~
+206 d 0
+D0
+~
+~
+0 0 20604
+D3
+~
+~
+0 0 20602
+S
+#20604
+Tunnel of &DInsufficient Light~
+   Illuminating the passage somewhat is a sinister radiance coming from an
+opening to the north; the sound of running water is also quite audible here.  
+The rocky walls take on a reddish-black hue and seem to burn darkly.  To the
+south the tunnel recedes into blackness.    
+~
+206 d 0
+D0
+~
+~
+0 0 20605
+D2
+~
+~
+0 0 20603
+S
+#20605
+Bank of the River Acheron~
+You are in an unfinished room.
+~
+206 0 0
+D2
+~
+~
+0 0 20604
+S
+#20606
+The Gates of Heck~
+   A colossal pair of stone pillars undertakes the Herculean task of bearing
+the monstrous stone arch that looms high into the shadows.  Bristling with
+menacing spikes, two massive iron gates flank the broad threshold, where the
+screams of the tormented echo particularly clearly.  On one of the &gpillar&ns an
+inscription is carved; a &gPost-it note &nhangs loosely on the other.
+~
+206 d 0
+E
+Post-it note~
+{ESPANOL}
+A TRAVES DE MI LA MANERA EN LA CIUDAD SUFRIDORA,
+A TRAVES DE MI LA MANERA AL DOLOR ETERNO,
+A TRAVES DE MI LA MANERA QUE FUNCIONA ENTRE EL PERDIDO.
+ABANDONE CADA ESPERANZA, WHO ENTRAN AQUI.
+
+{FRANCAIS}
+PAR MOI LA MANIERE DANS LA VILLE DE SOUFFRANCE,
+PAR MOI LA MANIERE A LA DOULEUR ETERNELLE,
+PAR MOI LA MANIERE DONT FONCTIONNE PARMI LE PERDU.
+ABANDONNEZ CHAQUE ESPOIR, OMS ENTRENT ICI.
+
+{AOLER}
+THROUGH MA TEH WAY IN2 DA SUFERNG CITY
+THROUGH ME TEH WAY 2 DA ETERNAL PANE
+THROUGH MA TEH WAY TAHT RUNS MONG TEH LOST
+ABANDON1!1! OMG LOL 3V3RY HOPE WHO ENTER HERE1111 OMG
+
+"Post-it" is a registered trademark of 3M.
+~
+E
+pillar transcription carving~
+THROUGH ME THE WAY INTO THE SUFFERING CITY,
+THROUGH ME THE WAY TO THE ETERNAL PAIN,
+THROUGH ME THE WAY THAT RUNS AMONG THE LOST.
+ABANDON EVERY HOPE, WHO ENTER HERE.
+~
+S
+#20698
+Deimose Mudde!~
+&R .______
+  `-.--.\
+   /||__||  ___  <> ___  __   ___   __,   &D- Ockham    -
+&R  _|||__|| || \\ /\ |.-\/-.| || \\ //     &D- Swifte    -
+&R ' ||/__|| ||--' || || || || || || \--\   &D- Confucius -
+&R  _/----'  \\__. |/ \/ \/ |/ \\_|| __//
+&W          __      __   __     __   ________     &Y\
+&W         |   \  /   | |  |   |  | |        \    &Y/|
+&C      ___&W|    \/    |&C_&W|  |&C___&W|  |&C_&W|  .--.   |&C__&YO /      _
+&C _,-``   &W|          | |  |   |  | |  |   |  |  &Y\ |&R`````&Y| \
+&C  `-,,___&W|  |\  /|  |&C_&W|  |&C___&W|  |&C_&W|  |&C___&W|  |&C__&Y/ |&R,,,,,&Y|_/
+&W         |  | \/ |  | |   '-'   | |  '--'   |  &YO \
+&W         |__|    |__|  \_______/  |________/    &Y\|
+&D                      A CircleMUD               &Y/
+~
+206 0 0
+D2
+~
+~
+0 0 1274
+D4
+~
+blackhole~
+1 0 1204
+S
+#20699
+Wreck Room~
+You are in a once-finished, but re-unfinished room.
+~
+206 e 0
+D4
+You see room 1204.
+~
+~
+0 0 1204
+D5
+You see room 200.
+~
+~
+0 0 200
+S
+$~

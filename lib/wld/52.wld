@@ -1,0 +1,775 @@
+#5200
+Snowy path~
+   Snow falls down lightly as a path climbs up the looming mountains to the
+east.  It is not well traveled, as the snow is a few feet deep, and has been
+left undisturbed.  A chilling wind comes from the mountains, howling softly,
+and vision is blurred by the endless amounts of ice and snow in the air.  The
+path continues on for what seems like miles to the east.    
+~
+52 0 0
+D1
+~
+~
+0 0 5201
+S
+#5201
+Snowy path~
+   Snow falls down lightly as a path climbs up the looming mountains to the
+east.  It is not well traveled, as the snow is a few feet deep, and has been
+left undisturbed.  A chilling wind comes from the mountains, howling softly,
+and vision is blurred by the endless amounts of ice and snow in the air.  The
+path continues on for what seems like miles to the east.    
+~
+52 0 0
+D1
+~
+~
+0 0 5202
+D3
+~
+~
+0 0 5200
+S
+#5202
+Snowy path~
+   Snow falls down lightly as a path climbs up the looming mountains to the
+east.  It is not well traveled, as the snow is a few feet deep, and has been
+left undisturbed.  A chilling wind comes from the mountains, howling softly,
+and vision is blurred by the endless amounts of ice and snow in the air.  The
+path continues on for what seems like miles to the east.    
+~
+52 0 0
+D1
+~
+~
+0 0 5203
+D3
+~
+~
+0 0 5201
+S
+#5203
+Snowy path~
+   Snow falls down lightly as a path climbs up the looming mountains to the
+east.  It is not well traveled, as the snow is a few feet deep, and has been
+left undisturbed.  A chilling wind comes from the mountains, howling softly,
+and vision is blurred by the endless amounts of ice and snow in the air.  The
+path seems to split of to the north soon.    
+~
+52 0 0
+D1
+~
+~
+0 0 5204
+D3
+~
+~
+0 0 5202
+S
+#5204
+Snowy path~
+   Snow falls down lightly as a path climbs up the looming mountains to the
+east.  It is not well traveled, as the snow is a few feet deep, and has been
+left undisturbed.  A chilling wind comes from the mountains, howling softly,
+and vision is blurred by the endless amounts of ice and snow in the air.  The
+path splits of to the north, climbing the snowy mountain.
+~
+52 0 0
+D0
+~
+~
+0 0 5205
+D3
+~
+~
+0 0 5203
+S
+#5205
+Snowy path~
+   Snow falls down lightly as a path climbs up the looming mountains to the
+east.  It is not well traveled, as the snow is a few feet deep, and has been
+left undisturbed.  A chilling wind comes from the mountains, howling softly,
+and vision is blurred by the endless amounts of ice and snow in the air.  The
+path continues to the north, climbing a snowy mountain.    
+~
+52 0 0
+D0
+~
+~
+0 0 5206
+D2
+~
+~
+0 0 5204
+S
+#5206
+Snowy path~
+   Snow falls down lightly as a path climbs up the looming mountains to the
+east.  It is not well traveled, as the snow is a few feet deep, and has been
+left undisturbed.  A chilling wind comes from the mountains, howling softly,
+and vision is blurred by the endless amounts of ice and snow in the air.  The
+path continues to the north, climbing a snowy mountain.    
+~
+52 0 0
+D0
+~
+~
+0 0 5207
+D2
+~
+~
+0 0 5205
+S
+#5207
+Snowy path~
+   Snow falls down lightly as a path climbs up the looming mountains to the
+east.  It is not well traveled, as the snow is a few feet deep, and has been
+left undisturbed.  A chilling wind comes from the mountains, howling softly,
+and vision is blurred by the endless amounts of ice and snow in the air.  The
+path continues to the north, climbing a snowy mountain.    
+~
+52 0 0
+D0
+~
+~
+0 0 5208
+D2
+~
+~
+0 0 5206
+S
+#5208
+Snowy path~
+   The snow has begun to fall heavier, with each passing moment more and more
+snow is falling in sheets, covering everything in sight.  The wind has picked
+up, this time blowing from the north, blurring vision and senses, causing
+vision to consist of pure white.  A small trail can be seen on the ground, once
+again bending to the east.  A few small footsteps can be seen in areas of
+lighter snow.    
+~
+52 0 0
+D1
+~
+~
+0 0 5209
+D2
+~
+~
+0 0 5207
+S
+#5209
+Snowy path~
+   The snow has begun to fall heavier, with each passing moment more and more
+snow is falling in sheets, covering everything in sight.  The wind has picked
+up, this time blowing from the north, blurring vision and senses, causing
+vision to consist of pure white.  A small trail can be seen on the ground, once
+again bending to the east.  A few small footsteps can be seen in areas of
+lighter snow.    
+~
+52 0 0
+D1
+~
+~
+0 0 5210
+D3
+~
+~
+0 0 5208
+S
+#5210
+Snowy path~
+   The snow has begun to fall heavier, with each passing moment more and more
+snow is falling in sheets, covering everything in sight.  The wind has picked
+up, this time blowing from the north, blurring vision and senses, causing
+vision to consist of pure white.  A small trail can be seen on the ground, once
+again bending to the east.  A few small footsteps can be seen in areas of
+lighter snow.    
+~
+52 0 0
+D1
+~
+~
+0 0 5211
+D3
+~
+~
+0 0 5209
+S
+#5211
+West gates of Alurane Village~
+   A large wooden double gate looms high up into the bright white sky.  There
+are two very large doors that make up the gate, each nearly 6 meters high.  A
+small guard post to the left of the gates lies abandoned, barried in the snow.
+A small trial of footprints lead into the gate, and it seems as though the snow
+has been swept in a circular motion in front of the gate.  The snow still falls
+from the sky.    
+~
+52 0 0
+D0
+~
+~
+0 0 5212
+D1
+~
+gates~
+2 5200 5213
+D3
+~
+~
+0 0 5210
+S
+#5212
+Guard post~
+   This abandoned guard post is nearly unaccessable due to the large amounts of
+snow pilled up next to the door.  It is a simple little shack, made of wood
+which is now rotting because of the constant moisture it is exposed to.  The
+guard post contains a small glass window that serves as a lookout, but the
+glass has long since been cracked.    
+~
+52 0 0
+D2
+~
+~
+0 0 5211
+S
+#5213
+Path to town~
+   This small brick road leads a but further up the mountains into town.  
+Small wooden houses line the sides of this main road, the only true way to get
+into the town by conventional means.  However, this road is not frequently
+traveled due to the isolation of the inhabitants of the town.  Outsiders are
+generally looked down upon, as many strangers wander into the village in the
+hope of stealing little of what the village has.  A small sign on the side of
+the road warns visitors that they are subject to the local laws.  To the west
+is the main gate to the town, and the road extends eastward towards the town.
+  
+~
+52 0 0
+D1
+~
+~
+0 0 5214
+D3
+~
+gates~
+2 5200 5211
+S
+#5214
+Path to town~
+   This small brick road leads a but further up the mountains into town.  
+Small wooden houses line the sides of this main road, the only true way to get
+into the town by conventional means.  However, this road is not frequently
+traveled due to the isolation of the inhabitants of the town.  Outsiders are
+generally looked down upon, as many strangers wander into the village in the
+hope of stealing little of what the village has.  A small sign on the side of
+the road warns visitors that they are subject to the local laws.  To the west
+is the main gate to the town, and the road extends eastward towards the town.
+  
+~
+52 0 0
+D1
+~
+~
+0 0 5215
+D2
+~
+~
+0 0 5225
+D3
+~
+~
+0 0 5213
+S
+#5215
+Path to town~
+   This small brick road leads a but further up the mountains into town.  
+Small wooden houses line the sides of this main road, the only true way to get
+into the town by conventional means.  However, this road is not frequently
+traveled due to the isolation of the inhabitants of the town.  Outsiders are
+generally looked down upon, as many strangers wander into the village in the
+hope of stealing little of what the village has.  A small sign on the side of
+the road warns visitors that they are subject to the local laws.  To the west
+is the main gate to town, and to the east is an intersection.    
+~
+52 0 0
+D1
+~
+~
+0 0 5216
+D3
+~
+~
+0 0 5214
+S
+#5216
+Intersection with Orenan Road~
+   Orenan Road is the most westward road of the village.  On this road are the
+various merchants and shops, as well as an inn.  A few residences are visible
+to the south, and a large building can be seen at the far north end of Orenan
+Road.  To the east continues the Main path .
+~
+52 0 0
+D0
+~
+~
+0 0 5217
+D2
+~
+~
+0 0 5222
+D3
+~
+~
+0 0 5215
+S
+#5217
+Orenan Road~
+   Orenan road has for long marked the western-most portion of this town.  
+Along the western side of the road are towering wooden watchtowers, which peer
+out over the town walls to gaze at the rest of the world.  Villagers of
+varrying occupations drudge through the snow, which floats down endlessly from
+the bright sky above.  Numerous strong looking guards partol the area.    
+~
+52 0 0
+D0
+~
+~
+0 0 5218
+D2
+~
+~
+0 0 5216
+S
+#5218
+Orenan Road~
+   Orenan road has for long marked the western-most portion of this town.  
+Along the western side of the road are towering wooden watchtowers, which peer
+out over the town walls to gaze at the rest of the world.  Villagers of
+varrying occupations drudge through the snow, which floats down endlessly from
+the bright sky above.  Numerous strong looking guards partol the area.    
+~
+52 0 0
+D0
+~
+~
+0 0 5219
+D2
+~
+~
+0 0 5217
+D3
+~
+~
+0 0 5231
+S
+#5219
+Orenan Road~
+   Orenan road has for long marked the western-most portion of this town.  
+Along the western side of the road are towering wooden watchtowers, which peer
+out over the town walls to gaze at the rest of the world.  Villagers of
+varrying occupations drudge through the snow, which floats down endlessly from
+the bright sky above.  Numerous strong looking guards partol the area.  
+Directly to the west is the entrance to the main guardtower.    
+~
+52 0 0
+D0
+~
+~
+0 0 5220
+D2
+~
+~
+0 0 5218
+D3
+~
+~
+0 0 5229
+S
+#5220
+Orenan Road~
+   Orenan road has for long marked the western-most portion of this town.  
+Along the western side of the road are towering wooden watchtowers, which peer
+out over the town walls to gaze at the rest of the world.  Villagers of
+varrying occupations drudge through the snow, which floats down endlessly from
+the bright sky above.  Numerous strong looking guards partol the area.    
+~
+52 0 0
+D0
+~
+~
+0 0 5221
+D2
+~
+~
+0 0 5219
+S
+#5221
+Orenan Road~
+   Orenan road has for long marked the western-most portion of this town.  
+Along the western side of the road are towering wooden watchtowers, which peer
+out over the town walls to gaze at the rest of the world.  Villagers of
+varrying occupations drudge through the snow, which floats down endlessly from
+the bright sky above.  Numerous strong looking guards partol the area.  To the
+north is a large, tavern like building, and to the west is a small shop.    
+~
+52 0 0
+D0
+~
+~
+0 0 5226
+D2
+~
+~
+0 0 5220
+D3
+~
+~
+0 0 5228
+S
+#5222
+Orenan Road~
+   Orenan road has for long marked the western-most portion of this town.  
+Along the western side of the road are towering wooden watchtowers, which peer
+out over the town walls to gaze at the rest of the world.  Villagers of
+varrying occupations drudge through the snow, which floats down endlessly from
+the bright sky above.  Numerous strong looking guards partol the area.    
+~
+52 0 0
+D0
+~
+~
+0 0 5216
+D2
+~
+~
+0 0 5223
+S
+#5223
+Orenan Road~
+   Orenan road has for long marked the western-most portion of this town.  
+Along the western side of the road are towering wooden watchtowers, which peer
+out over the town walls to gaze at the rest of the world.  Villagers of
+varrying occupations drudge through the snow, which floats down endlessly from
+the bright sky above.  Numerous strong looking guards partol the area.    
+~
+52 0 0
+D0
+~
+~
+0 0 5222
+D2
+~
+~
+0 0 5224
+S
+#5224
+Orenan Road~
+   Orenan road has for long marked the western-most portion of this town.  
+Along the western side of the road are towering wooden watchtowers, which peer
+out over the town walls to gaze at the rest of the world.  Villagers of
+varrying occupations drudge through the snow, which floats down endlessly from
+the bright sky above.  Numerous strong looking guards partol the area.    
+~
+52 0 0
+D0
+~
+~
+0 0 5223
+D1
+~
+~
+0 0 5232
+S
+#5225
+Small outpost~
+Nothing.
+~
+52 0 0
+D0
+~
+~
+0 0 5214
+S
+#5226
+Geramina Inn~
+   Geramina Inn is the only tavern in the town.  It is home to the family of
+tavern owners who have run the inn for decades.  Its wooden structure and cozy
+interior make its guest feel welcome and at peace.  A large fireplace is
+burning on one of the walls, filling the room with the satisfying smell of
+pine.  A rickety wooden staircase leads upwards through the warm air.  To the
+south is Orenan Road.    
+~
+52 0 0
+D2
+~
+~
+0 0 5221
+D4
+~
+~
+0 0 5227
+S
+#5227
+Upstairs room~
+   This small old room is at the top of Geramina room.  Quaint furnishings
+decorate the room, and a neatly made up bed sits in the corner of the room.  
+The room seems to be occupied at the moment, as a few personal items are
+sitting on the night stand.  The rest of the inn is down a wooden staircase.    
+~
+52 0 0
+D5
+~
+~
+0 0 5226
+S
+#5228
+Scribe's Corner~
+   This small corner shop sits at the corner of Orenan Road.  A wise and
+powerful wizard has mastered the art of scroll writing, and has made a living
+for many centuries off of his skills.  Many scrolls are available to the
+citizens of Alurane.  However, the wizard will not sell any of his exceptional
+scrolls to outsiders, at any price.  An intersection is to the east.    
+~
+52 0 0
+D1
+~
+~
+0 0 5221
+S
+#5229
+Entrance to the Guard Tower~
+   The guard tower looms upwards, blocking out the sun and giving protection
+from the endless snowfall.  Guards hustle past, running quickly up the
+staircase, replacing the wearied guards who were done with their shifts.  The
+staircase to the south is circular, and twists along the side of the brick
+walls to the top of the tower, nearly one hundred feet above the town.  Along
+the walls of the entranceway are dozens of bows and quivers of arrows, neatly
+organized and ready for battle if need be.  Guards rush up and down the
+creaking stairs.    
+~
+52 0 0
+D1
+~
+~
+0 0 5219
+D4
+~
+~
+0 0 5230
+S
+#5230
+Spiraling Staircase~
+   The old wooden stairs wind about the inside of this great stone tower.  
+Several bricks have intentionally been left out of the walls, giving small
+images of the mountain range to the north and east, and glimpses of the snow
+covered town.  A helmet suddenly clatters down the steps, which a guard in
+quick pursuit.    
+~
+52 0 0
+D5
+~
+~
+0 0 5229
+S
+#5231
+Magic shop~
+   The only magic shop of Alurane Village sells exotic scrolls and tomes.  
+Most of the population stays away from this shop, as the dangerous art of black
+magic strikes fear into those who know nothing about it.  The younger of the
+wise wizards to populate the town runs this magic shop, and is a master of
+mixing potions.  His prices are set, and he will not sell to outsiders.  
+Orenan road is to the east .
+~
+52 d 0
+D1
+~
+~
+0 0 5218
+S
+#5232
+A dirt path~
+   This small dirt path splits off from the main brick road and veers into a
+small patch of forest, filled with evergreen trees and bare shrubbery.  The
+road continues to the east.    
+~
+52 0 0
+D3
+~
+~
+0 0 5224
+S
+#5233
+1~
+You are in an unfinished room.
+~
+52 0 0
+S
+#5234
+1~
+You are in an unfinished room.
+~
+52 0 0
+S
+#5235
+1~
+You are in an unfinished room.
+~
+52 0 0
+S
+#5236
+1~
+You are in an unfinished room.
+~
+52 0 0
+S
+#5237
+1~
+You are in an unfinished room.
+~
+52 0 0
+S
+#5238
+1~
+You are in an unfinished room.
+~
+52 0 0
+S
+#5239
+1~
+You are in an unfinished room.
+~
+52 0 0
+S
+#5240
+1~
+You are in an unfinished room.
+~
+52 0 0
+S
+#5241
+1~
+You are in an unfinished room.
+~
+52 0 0
+S
+#5242
+1~
+You are in an unfinished room.
+~
+52 0 0
+S
+#5243
+1~
+You are in an unfinished room.
+~
+52 0 0
+S
+#5244
+1~
+You are in an unfinished room.
+~
+52 0 0
+S
+#5245
+1~
+You are in an unfinished room.
+~
+52 0 0
+S
+#5246
+1~
+You are in an unfinished room.
+~
+52 0 0
+S
+#5247
+1~
+You are in an unfinished room.
+~
+52 0 0
+S
+#5248
+1~
+You are in an unfinished room.
+~
+52 0 0
+S
+#5249
+1~
+You are in an unfinished room.
+~
+52 0 0
+S
+#5250
+1~
+You are in an unfinished room.
+~
+52 0 0
+S
+#5251
+1~
+You are in an unfinished room.
+~
+52 0 0
+S
+#5252
+1~
+You are in an unfinished room.
+~
+52 0 0
+S
+#5253
+1~
+You are in an unfinished room.
+~
+52 0 0
+S
+#5254
+1~
+You are in an unfinished room.
+~
+52 0 0
+S
+#5255
+1~
+You are in an unfinished room.
+~
+52 0 0
+S
+#5256
+1~
+You are in an unfinished room.
+~
+52 0 0
+S
+#5257
+1~
+You are in an unfinished room.
+~
+52 0 0
+S
+#5258
+1~
+You are in an unfinished room.
+~
+52 0 0
+S
+#5259
+1~
+You are in an unfinished room.
+~
+52 0 0
+S
+#5260
+1~
+You are in an unfinished room.
+~
+52 0 0
+S
+#5299
+1~
+Nothing.
+~
+52 0 0
+S
+$~

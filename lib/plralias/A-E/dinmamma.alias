@@ -1,0 +1,60 @@
+5
+charm
+11
+c 'charm'$1
+1
+6
+dispel
+16
+c 'dispel mag'$1
+1
+3
+ice
+9
+c 'ice'$1
+1
+4
+heal
+10
+c 'heal'$1
+1
+4
+fire
+10
+c 'fire'$1
+1
+4
+auro
+10
+c 'auro'$1
+1
+4
+sanc
+10
+c 'sanc'$1
+1
+5
+blind
+11
+c 'blind'$1
+1
+4
+chnk
+19
+cast 'locate' chunk
+0
+3
+sus
+9
+cast 'sus
+0
+4
+nova
+13
+c 'novastorm'
+0
+2
+wr
+18
+c 'word of recall'
+0

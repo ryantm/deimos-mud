@@ -1,0 +1,295 @@
+2
+ww
+5
+whirl
+0
+3
+sus
+11
+c 'sustain'
+0
+1
+p
+4
+bs p
+0
+5
+float
+9
+c 'float'
+0
+1
+o
+8
+c 'sanc'
+0
+4
+sanc
+8
+c 'sanc'
+0
+1
+b
+4
+bash
+0
+1
+t
+4
+bs t
+0
+1
+r
+4
+bs r
+0
+2
+bt
+4
+bs t
+0
+1
+1
+10
+quaff heal
+0
+1
+m
+4
+bs m
+0
+1
+v
+4
+bs v
+0
+2
+ba
+4
+bash
+0
+1
+a
+4
+bs a
+0
+1
+g
+4
+bs g
+0
+1
+x
+4
+bs s
+0
+1
+z
+4
+bs z
+0
+2
+be
+7
+bs elem
+0
+3
+bls
+9
+c 'bless'
+0
+3
+arm
+9
+c 'armor'
+0
+2
+bw
+4
+bs w
+0
+2
+bl
+4
+bs l
+0
+2
+bz
+4
+bs z
+0
+2
+cs
+10
+sac corpse
+0
+3
+det
+16
+c 'detect invis'
+0
+2
+wo
+8
+c 'word'
+0
+2
+ar
+8
+c 'auro'
+0
+2
+bv
+4
+bs v
+0
+2
+bx
+4
+bs s
+0
+2
+bc
+4
+bs c
+0
+2
+br
+4
+bs r
+0
+2
+bk
+4
+bs k
+0
+1
+h
+4
+bs h
+0
+2
+bm
+4
+bs m
+0
+2
+bg
+4
+bs g
+0
+3
+bss
+4
+bs s
+0
+2
+bb
+4
+bs b
+0
+2
+ga
+14
+get all corpse
+0
+2
+jm
+13
+junk all.mace
+0
+2
+bo
+4
+bs o
+0
+2
+bd
+4
+bs d
+0
+2
+bn
+4
+bs n
+0
+2
+bh
+4
+bs h
+0
+2
+kk
+4
+kick
+0
+2
+kw
+3
+k w
+0
+2
+bi
+4
+bs i
+0
+2
+bp
+4
+bs p
+0
+2
+qh
+3
+q h
+0
+2
+rr
+13
+recite recall
+0
+2
+kd
+3
+k d
+0
+2
+kp
+3
+k p
+0
+2
+ka
+3
+k a
+0
+1
+f
+3
+k f
+0
+2
+kf
+6
+kill f
+0
+2
+jn
+12
+junk all.new
+0
+2
+kn
+6
+kill n
+0
+2
+lc
+14
+look in corpse
+0
+2
+df
+14
+drink fountain
+0

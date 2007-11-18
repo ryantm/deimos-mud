@@ -1,0 +1,265 @@
+#1
+Puff dragon fractal~
+Puff~
+Puff the Fractal Dragon is here, contemplating a higher reality.
+~
+Is that some type of differential curve involving some strange, and
+unknown calculus that she seems to be made out of?
+~
+213003 33800 1000 E
+26 1 -1 5d10+550 4d6+3
+10000 155000
+8 8 2
+BareHandAttack: 12
+E
+#3
+Immortal follower~
+an immortal follower~
+A very powerful ball of energy is floating here.
+~
+You don't see much. It is just a big ball of power.
+~
+247816 799870 0 E
+71 -30 -20 30d100+25000 30d100+50
+0 0
+8 8 0
+BareHandAttack: 12
+E
+#4
+Kirby~
+Kirby~
+Kirby, the mighty pink puff is here!
+~
+This is Kirby the almighty puff!    
+~
+583691 4264 500 E
+66 4 -9 66d100+4356 50d50+16
+217800 1524600
+12 12 1
+BareHandAttack: 11
+SpecProc: Fear-Maker
+E
+#5
+Dog Sick~
+Ockham's Personal Sick Dog~
+Ockhams Personal Sick Dog is here snarling at you.
+~
+   Hard to tell him apart from other Humans.  He is designed to only take most
+commands from his owner, Ockham.  Its Ockham's personal sick dog.  Its probably
+here to sick you for something youve done.  Have a Nice Day :)
+~
+10 0 0 E
+0 20 10 1d1+0 1d1+0
+0 0
+8 8 1
+E
+T 25
+#6
+test~
+Confucius's Test Guy~
+Confucius's Test Guy is here, testing.
+~
+   He looks like a cross between a cat and a bat, plus an attenna.  Yes, he may
+look cute on the outside, but this warrior can dance like no one can.  
+Learning new dances in new lands, he can do anything from healing everyone or
+killing everyone.    
+~
+10 48 100 E
+66 4 13 66d66+4356 33d33+16
+326700 4356000
+12 12 1
+BareHandAttack: 11
+SpecProc: bounty
+E
+#10
+Cloned Beotch~
+Cloned Beotch~
+Cloned Beotch
+~
+It looks unfinished.
+~
+8 0 0 E
+0 20 10 1d1+0 1d1+0
+0 0
+12 12 0
+E
+#11
+xenoplasm~
+a xenoplasm~
+A xenoplasm is hovering here!
+~
+It has been said that the Lost City of Fharlanghn, once a thriving city
+centuries ago, is now home to the mysterious xenoplasm.  The xenoplasm are
+small, matterless beings capable of hovering and taking over the bodies of
+others.  These mysterious creatures, for reasons that are unknown, haven't made
+contact with adventurers since the construction of Phobos.  Consisting of
+absolutely no physical mass, these creatures are invulnerable to any physical
+weapons.  However, magic seems to harm them.    
+~
+11 0 0 E
+240 18 10 30d30+10 34d21+2
+10000000 10000000
+12 12 0
+BareHandAttack: 12
+SpecProc: block_north
+E
+T 43
+#15
+will~
+will~
+will
+~
+will
+~
+8 0 0 E
+0 20 10 1d1+0 1d1+0
+0 0
+12 12 0
+E
+#18
+will guy~
+Will the Beta Supply Guy~
+Will the Beta Supply Guy is here. (look will)
+~
+Your typical employee he does his job and nothing more.
+say Pen for a Pen
+say Paper for a Paper
+say Flag for a Beta Tester Flag
+~
+74 0 0 E
+0 20 10 1d1+0 1d1+0
+0 0
+8 8 1
+E
+T 18
+#19
+aerial servant shape~
+the aerial servant~
+An amorphous shape is floating in the air.
+~
+As you stare at this amorphous shape, it begins to appear to take
+the shape of a cloud-like humanoid.
+~
+8 0 0 E
+1 0 0 1d1+1 1d1+1
+0 0
+8 8 0
+E
+T 21
+#20
+elemental~
+the elemental~
+An elemental is standing patiently here.
+~
+This creature is the essence of the elements, and appears to be
+waiting patiently for something to occur.
+~
+10 0 0 E
+1 0 0 1d1+1 1d1+1
+0 0
+8 8 0
+E
+#21
+Captain Planet~
+&BCaptain Planet&n~
+&BCaptain Planet is gonna help us put asunder bad guys who like to loot and plunder.&n
+~
+Captain Planet, He's our hero! Gonna take polution down to zero.
+~
+190682 13939964 0 E
+61 -40 10 30d30+180100 42d26+60
+5000000 10000000
+12 12 0
+E
+#25
+The wiseman~
+an old wiseman~
+An old wiseman is sitting here.
+~
+   Aged beyond all possible means, no one remembers when he first arrived in
+Phobos.  He does not speak often, and is always on quest to find one of the
+rarest items in the land, the Golden Chip.  Only a handful of people have ever
+stumbled upon it, and the wiseman is the only one who understands how to
+utilize it's amazing powers.    
+~
+1040394 0 0 E
+66 4 -9 66d66+4356 33d33+16
+0 0
+12 12 1
+SpecProc: gold_chipper
+E
+#26
+healer~
+the Temple Healer~
+The Temple Healer is standing here ready to take care of your wounds.
+~
+He's a old man covered in a brown robe.
+~
+8 0 1000 E
+60 20 10 30d500+0 1d1+0
+0 0
+8 8 1
+E
+#27
+thief~
+the suicide thief~
+The suicidal thief is here, &RRUN!&n
+~
+He'll do anything to get what he wants, including killing himself.
+~
+8 0 -500 E
+30 20 10 30d10+0 1d1+6
+500000 50000
+8 8 2
+E
+#30
+Terror~
+Terror~
+Terror is standing here.
+~
+It looks unfinished.
+~
+10 0 0 E
+0 20 0 1d1+999 1d1+0
+0 0
+12 12 1
+E
+#97
+mob unfinished~
+the Commander in Chief, W~
+An unfinished mob stands here.
+~
+It looks unfinished.
+~
+8 0 0 E
+10 20 0 1d1+0 1d1+0
+0 0
+12 12 0
+E
+#98
+uncle sam~
+Uncle Sam~
+Uncle Sam stands here, looking patriotic.
+~
+It looks unfinished.
+~
+4261915 128 0 E
+200 -20 10 30d30+80100 28d17+40
+5000000 10000000
+12 12 0
+BareHandAttack: 13
+SpecProc: Troll
+E
+#99
+death reaper~
+Death~
+Death the Grim Reaper is observing you silently from empty eye sockets.
+~
+The dark-robed skeletal figure radiates an unendurable coldness.
+~
+256026 33960 0 E
+30 0 -10 1d1+665 10d15+20
+0 500000
+8 8 0
+E
+$

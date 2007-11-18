@@ -1,0 +1,35 @@
+3
+bli
+11
+c 'blind'$1
+1
+3
+dis
+18
+c 'dispel magic'$1
+1
+2
+zt
+15
+say 21100-21199
+0
+4
+zsav
+9
+zsave 211
+0
+3
+ice
+13
+c 'icebolt'$1
+1
+5
+board
+9
+goto 1204
+0
+2
+df
+14
+drink fountain
+0

@@ -1,0 +1,97 @@
+#10600
+Trial One.~
+Kill this mob to proceed.
+~
+106 qs 0
+D0
+~
+Door n no nor nort north~
+2 10600 10601
+S
+#10601
+Trial Two~
+Kill this mob to proceed
+~
+106 qs 0
+D0
+~
+Door n no nor nort north~
+2 10601 10602
+S
+#10602
+Trial Three~
+Kill this mob to proceed
+~
+106 qs 0
+D0
+~
+~
+0 0 10603
+S
+#10603
+Trial Four~
+Kill this mob to proceed
+~
+106 qs 0
+D0
+~
+~
+0 0 10604
+S
+#10604
+Trial Five~
+Kill this mob to proceed
+~
+106 qs 0
+D0
+~
+~
+0 0 10605
+S
+#10605
+Trial Six~
+Kill this mob to proceed
+~
+106 qs 0
+D0
+~
+~
+0 0 10606
+S
+#10606
+Trial Seven~
+Kill this mob to proceed
+~
+106 qs 0
+D0
+~
+~
+0 0 10607
+S
+#10607
+Trial Eight~
+Kill this mob to proceed
+~
+106 qs 0
+D0
+~
+~
+0 0 10608
+S
+#10608
+Trial Nine~
+Kill this mob to proceed
+~
+106 qs 0
+D0
+~
+~
+0 0 10609
+S
+#10609
+Final Trial~
+Kill this mob to proceed
+~
+106 qs 0
+S
+$~

@@ -1,0 +1,1829 @@
+#7100
+&MThe Southern Trisophian Chapel&n~
+   The chapel isn't very large.  A few pews can be seen towards the alter, and
+a large light hangs from the top of the chapel.  The stained glass windows,
+however, are absolutely magnificent.  The floor is made of hard wood, so your
+footsteps are extremely loud, and they echo across the chapel.  The walls are
+made of a dark furnished wood that is very old.  Small patches of dust can be
+seen scattered about the chapel.    
+~
+71 d 0
+D0
+~
+~
+0 0 7326
+D2
+~
+~
+0 0 7101
+S
+#7101
+&MThe Aisle&n~
+   The aisle isn't very wide, but it isn't narrow enough to keep two people
+from walking next to each other.  The hard wood floor makes every footstep loud
+as they echo across the chapel.  Colored light emits from the stained glass
+windows while a large light hangs from the center of the ceiling.  The pews can
+be seen down the aisle; their wooden structures covered in small patches of
+dust.    
+~
+71 d 0
+D0
+~
+~
+0 0 7100
+D1
+~
+~
+0 0 7116
+D2
+~
+~
+0 0 7102
+D3
+~
+~
+0 0 7111
+D5
+~
+~
+0 0 -1
+S
+#7102
+&MThe Aisle&n~
+   The aisle isn't very wide, but it isn't narrow enough to keep two people
+from walking next to each other.  The hard wood floor makes every footstep loud
+as they echo across the chapel.  Colored light emits from the stained glass
+windows while a large light hangs from the center of the ceiling.  The pews can
+be seen down the aisle; their wooden structures covered in small patches of
+dust.    
+~
+71 d 0
+D0
+~
+~
+0 0 7101
+D1
+~
+~
+0 0 7117
+D2
+~
+~
+0 0 7103
+D3
+~
+~
+0 0 7112
+S
+#7103
+&MThe Aisle&n~
+   The aisle isn't very wide, but it isn't narrow enough to keep two people
+from walking next to each other.  The hard wood floor makes every footstep loud
+as they echo across the chapel.  Colored light emits from the stained glass
+windows while a large light hangs from the center of the ceiling.  The pews can
+be seen down the aisle; their wooden structures covered in small patches of
+dust.    
+~
+71 d 0
+D0
+~
+~
+0 0 7102
+D1
+~
+~
+0 0 7118
+D2
+~
+~
+0 0 7104
+D3
+~
+~
+0 0 7113
+S
+#7104
+&MThe Aisle&n~
+   The aisle isn't very wide, but it isn't narrow enough to keep two people
+from walking next to each other.  The hard wood floor makes every footstep loud
+as they echo across the chapel.  Colored light emits from the stained glass
+windows while a large light hangs from the center of the ceiling.  The pews can
+be seen down the aisle; their wooden structures covered in small patches of
+dust.    
+~
+71 d 0
+D0
+~
+~
+0 0 7103
+D1
+~
+~
+0 0 7119
+D2
+~
+~
+0 0 7105
+D3
+~
+~
+0 0 7114
+S
+#7105
+&MBefore the Alter&n~
+   Here there are small steps leading to the alter.  The steps are made of
+stone, as is the ground below the alter ahead.  Unlike the rest of the chapel,
+the walls have various paintings of the three Trisophian goddesses.  Two doors
+can be seen opposite from one another leading to the Priest's Chamber and the
+Confession Chamber.    
+~
+71 d 0
+D0
+~
+~
+0 0 7104
+D1
+~
+door~
+1 0 7120
+D2
+~
+~
+0 0 7106
+D3
+~
+door~
+1 0 7115
+S
+#7106
+&MThe Alter&n~
+   The alter is a gigantic stone table with a bright purple cloth over it.  
+The cloth hangs down at the front of the alter facing the pews.  On this part
+of the purple cloth is the black Trisophian symbol outlined in silver.  The
+walls around the alter are covered with paintings of the three Trisophian
+goddesses.  The ceiling also has paintings of the goddesses upon it.  A large
+stained glass window can be seen behind the alter.    
+~
+71 d 0
+D0
+~
+~
+0 0 7105
+S
+#7107
+&MThe Pews&n~
+   The pews are very long and narrow.  They are made of a hard wood that isn't
+all that comfortable.  The floor is also made of a hard, dark wood.  The
+stained glass windows illuminate the room whether it is sunlight or moonlight
+that is penetrating them.  A large light centered on the ceiling hangs high,
+bringing even more light to the small chapel.    
+~
+71 d 0
+D1
+~
+~
+0 0 7112
+S
+#7108
+&MThe Pews&n~
+   The pews are very long and narrow.  They are made of a hard wood that isn't
+all that comfortable.  The floor is also made of a hard, dark wood.  The
+stained glass windows illuminate the room whether it is sunlight or moonlight
+that is penetrating them.  A large light centered on the ceiling hangs high,
+bringing even more light to the small chapel.    
+~
+71 d 0
+D1
+~
+~
+0 0 7113
+S
+#7109
+&MThe Pews&n~
+   The pews are very long and narrow.  They are made of a hard wood that isn't
+all that comfortable.  The floor is also made of a hard, dark wood.  The
+stained glass windows illuminate the room whether it is sunlight or moonlight
+that is penetrating them.  A large light centered on the ceiling hangs high,
+bringing even more light to the small chapel.    
+~
+71 d 0
+D1
+~
+~
+0 0 7114
+S
+#7110
+&MConfession Chamber&n~
+   This is the room where those loyal to the Trisophian religion confess to
+their sins to the priest of the church.  The room is very narrow and the
+ceiling is low, but the room is very long.  It connects to another part where a
+chair can be seen.  There is also a chair in this room.  The chair is made of
+wood, and there is cushion consisting of a bright green fabric atop each of the
+chairs.  The room also is also made of a light wood.  There are a couple of
+lights on the ceiling that seem very bright, but they face the ceiling so the
+light is spread out across the room.  The floor is covered in a thin, dark
+purple carpet.    
+~
+71 d 0
+D1
+~
+~
+0 0 7115
+S
+#7111
+&MA Small, Dimly Lit Room&n~
+   The room is very small and the only lighting is from a couple of dim lights
+hanging on the walls.  The floor in this room is carpeted in a dark purple and
+the walls are of the same dull wood from the rest of the chapel.  There is a
+small window opposite of the room's exit that is covered by a black curtain.  
+There are three wooden chairs scattered about the room.    
+~
+71 d 0
+D1
+~
+~
+0 0 7101
+S
+#7112
+&MThe Pews&n~
+   The pews are very long and narrow.  They are made of a hard wood that isn't
+all that comfortable.  The floor is also made of a hard, dark wood.  The
+stained glass windows illuminate the room whether it is sunlight or moonlight
+that is penetrating them.  A large light centered on the ceiling hangs high,
+bringing even more light to the small chapel.    
+~
+71 d 0
+D1
+~
+~
+0 0 7102
+D3
+~
+~
+0 0 7107
+S
+#7113
+&MThe Pews&n~
+   The pews are very long and narrow.  They are made of a hard wood that isn't
+all that comfortable.  The floor is also made of a hard, dark wood.  The
+stained glass windows illuminate the room whether it is sunlight or moonlight
+that is penetrating them.  A large light centered on the ceiling hangs high,
+bringing even more light to the small chapel.    
+~
+71 d 0
+D1
+~
+~
+0 0 7103
+D3
+~
+~
+0 0 7108
+S
+#7114
+&MThe Pews&n~
+   The pews are very long and narrow.  They are made of a hard wood that isn't
+all that comfortable.  The floor is also made of a hard, dark wood.  The
+stained glass windows illuminate the room whether it is sunlight or moonlight
+that is penetrating them.  A large light centered on the ceiling hangs high,
+bringing even more light to the small chapel.    
+~
+71 d 0
+D1
+~
+~
+0 0 7104
+D3
+~
+~
+0 0 7109
+S
+#7115
+&MConfession Chamber&n~
+   This is the room where those loyal to the Trisophian religion confess to
+their sins to the priest of the church.  The room is very narrow and the
+ceiling is low, but the room is very long.  It connects to another part where a
+chair can be seen.  There is also a chair in this room.  The chair is made of
+wood, and there is cushion consisting of a bright green fabric atop each of the
+chairs.  The room also is also made of a light wood.  There are a couple of
+lights on the ceiling that seem very bright, but they face the ceiling so the
+light is spread out across the room.  The floor is covered in a thin, dark
+purple carpet.    
+~
+71 d 0
+D1
+~
+door~
+1 0 7105
+D3
+~
+~
+0 0 7110
+S
+#7116
+&MA Small, Dimly Lit Room&n~
+   The room is very small and the only lighting is from a couple of dim lights
+hanging on the walls.  The floor in this room is carpeted in a dark purple and
+the walls are of the same dull wood from the rest of the chapel.  There is a
+small window opposite of the room's exit that is covered by a black curtain.  
+There are three wooden chairs scattered about the room.    
+~
+71 d 0
+D3
+~
+~
+0 0 7101
+S
+#7117
+&MThe Pews&n~
+   The pews are very long and narrow.  They are made of a hard wood that isn't
+all that comfortable.  The floor is also made of a hard, dark wood.  The
+stained glass windows illuminate the room whether it is sunlight or moonlight
+that is penetrating them.  A large light centered on the ceiling hangs high,
+bringing even more light to the small chapel.    
+~
+71 d 0
+D1
+~
+~
+0 0 7121
+D3
+~
+~
+0 0 7102
+S
+#7118
+&MThe Pews&n~
+   The pews are very long and narrow.  They are made of a hard wood that isn't
+all that comfortable.  The floor is also made of a hard, dark wood.  The
+stained glass windows illuminate the room whether it is sunlight or moonlight
+that is penetrating them.  A large light centered on the ceiling hangs high,
+bringing even more light to the small chapel.    
+~
+71 d 0
+D1
+~
+~
+0 0 7122
+D3
+~
+~
+0 0 7103
+S
+#7119
+&MThe Pews&n~
+   The pews are very long and narrow.  They are made of a hard wood that isn't
+all that comfortable.  The floor is also made of a hard, dark wood.  The
+stained glass windows illuminate the room whether it is sunlight or moonlight
+that is penetrating them.  A large light centered on the ceiling hangs high,
+bringing even more light to the small chapel.    
+~
+71 d 0
+D1
+~
+~
+0 0 7123
+D3
+~
+~
+0 0 7104
+S
+#7120
+&MPriest's Chamber&n~
+   The priest's chamber is a long, narrow room with a few chairs and a normal
+window with a purple curtain over it.  There are a number of objects scattered
+about the room on tables or shelves that all have the Trisophian symbol on
+them.  The floor is carpeted and the walls have an offwhite wallpaper.    
+~
+71 d 0
+D1
+~
+~
+0 0 7124
+D3
+~
+door~
+1 0 7105
+S
+#7121
+&MThe Pews&n~
+   The pews are very long and narrow.  They are made of a hard wood that isn't
+all that comfortable.  The floor is also made of a hard, dark wood.  The
+stained glass windows illuminate the room whether it is sunlight or moonlight
+that is penetrating them.  A large light centered on the ceiling hangs high,
+bringing even more light to the small chapel.    
+~
+71 d 0
+D3
+~
+~
+0 0 7117
+S
+#7122
+&MThe Pews&n~
+   The pews are very long and narrow.  They are made of a hard wood that isn't
+all that comfortable.  The floor is also made of a hard, dark wood.  The
+stained glass windows illuminate the room whether it is sunlight or moonlight
+that is penetrating them.  A large light centered on the ceiling hangs high,
+bringing even more light to the small chapel.    
+~
+71 d 0
+D3
+~
+~
+0 0 7118
+S
+#7123
+&MThe Pews&n~
+   The pews are very long and narrow.  They are made of a hard wood that isn't
+all that comfortable.  The floor is also made of a hard, dark wood.  The
+stained glass windows illuminate the room whether it is sunlight or moonlight
+that is penetrating them.  A large light centered on the ceiling hangs high,
+bringing even more light to the small chapel.    
+~
+71 d 0
+D3
+~
+~
+0 0 7119
+S
+#7124
+&MPriest's Chamber&n~
+   The priest's chamber is a long, narrow room with a few chairs and a normal
+window with a purple curtain over it.  There are a number of objects scattered
+about the room on tables or shelves that all have the Trisophian symbol on
+them.  The floor is carpeted and the walls have an offwhite wallpaper.    
+~
+71 d 0
+D3
+~
+~
+0 0 7120
+S
+#7125
+&MThe Northern Trisophian Chapel&n~
+   The chapel isn't very large.  A few pews can be seen towards the alter, and
+a large light hangs from the top of the chapel.  The stained glass windows,
+however, are absolutely magnificent.  The floor is made of hard wood, so your
+footsteps are extremely loud, and they echo across the chapel.  The walls are
+made of a dark furnished wood that is very old.  Small patches of dust can be
+seen scattered about the chapel.    
+~
+71 d 0
+D0
+~
+~
+0 0 7126
+S
+#7126
+&MThe Aisle&n~
+   The aisle isn't very wide, but it isn't narrow enough to keep two people
+from walking next to each other.  The hard wood floor makes every footstep loud
+as they echo across the chapel.  Colored light emits from the stained glass
+windows while a large light hangs from the center of the ceiling.  The pews can
+be seen down the aisle; their wooden structures covered in small patches of
+dust.    
+~
+71 d 0
+D0
+~
+~
+0 0 7127
+D1
+~
+~
+0 0 7141
+D2
+~
+~
+0 0 7125
+D3
+~
+~
+0 0 7136
+S
+#7127
+&MThe Aisle&n~
+   The aisle isn't very wide, but it isn't narrow enough to keep two people
+from walking next to each other.  The hard wood floor makes every footstep loud
+as they echo across the chapel.  Colored light emits from the stained glass
+windows while a large light hangs from the center of the ceiling.  The pews can
+be seen down the aisle; their wooden structures covered in small patches of
+dust.    
+~
+71 d 0
+D0
+~
+~
+0 0 7128
+D1
+~
+~
+0 0 7142
+D2
+~
+~
+0 0 7126
+D3
+~
+~
+0 0 7137
+S
+#7128
+&MThe Aisle&n~
+   The aisle isn't very wide, but it isn't narrow enough to keep two people
+from walking next to each other.  The hard wood floor makes every footstep loud
+as they echo across the chapel.  Colored light emits from the stained glass
+windows while a large light hangs from the center of the ceiling.  The pews can
+be seen down the aisle; their wooden structures covered in small patches of
+dust.    
+~
+71 d 0
+D0
+~
+~
+0 0 7129
+D1
+~
+~
+0 0 7143
+D2
+~
+~
+0 0 7127
+D3
+~
+~
+0 0 7138
+S
+#7129
+&MThe Aisle&n~
+   The aisle isn't very wide, but it isn't narrow enough to keep two people
+from walking next to each other.  The hard wood floor makes every footstep loud
+as they echo across the chapel.  Colored light emits from the stained glass
+windows while a large light hangs from the center of the ceiling.  The pews can
+be seen down the aisle; their wooden structures covered in small patches of
+dust.    
+~
+71 d 0
+D0
+~
+~
+0 0 7130
+D1
+~
+~
+0 0 7144
+D2
+~
+~
+0 0 7128
+D3
+~
+~
+0 0 7139
+S
+#7130
+&MBefore the Alter&n~
+   Here there are small steps leading to the alter.  The steps are made of
+stone, as is the ground below the alter ahead.  Unlike the rest of the chapel,
+the walls have various paintings of the three Trisophian goddesses.  Two doors
+can be seen opposite from one another leading to the Priest's Chamber and the
+Confession Chamber.    
+~
+71 d 0
+D0
+~
+~
+0 0 7131
+D1
+~
+door~
+1 0 7145
+D2
+~
+~
+0 0 7129
+D3
+~
+door~
+1 0 7140
+S
+#7131
+&MThe Alter&n~
+   The alter is a gigantic stone table with a bright purple cloth over it.  
+The cloth hangs down at the front of the alter facing the pews.  On this part
+of the purple cloth is the black Trisophian symbol outlined in silver.  The
+walls around the alter are covered with paintings of the three Trisophian
+goddesses.  The ceiling also has paintings of the goddesses upon it.  A large
+stained glass window can be seen behind the alter.    
+~
+71 d 0
+D2
+~
+~
+0 0 7130
+S
+#7132
+&MThe Pews&n~
+   The pews are very long and narrow.  They are made of a hard wood that isn't
+all that comfortable.  The floor is also made of a hard, dark wood.  The
+stained glass windows illuminate the room whether it is sunlight or moonlight
+that is penetrating them.  A large light centered on the ceiling hangs high,
+bringing even more light to the small chapel.    
+~
+71 d 0
+D1
+~
+~
+0 0 7137
+S
+#7133
+&MThe Pews&n~
+   The pews are very long and narrow.  They are made of a hard wood that isn't
+all that comfortable.  The floor is also made of a hard, dark wood.  The
+stained glass windows illuminate the room whether it is sunlight or moonlight
+that is penetrating them.  A large light centered on the ceiling hangs high,
+bringing even more light to the small chapel.    
+~
+71 d 0
+D1
+~
+~
+0 0 7138
+S
+#7134
+&MThe Pews&n~
+   The pews are very long and narrow.  They are made of a hard wood that isn't
+all that comfortable.  The floor is also made of a hard, dark wood.  The
+stained glass windows illuminate the room whether it is sunlight or moonlight
+that is penetrating them.  A large light centered on the ceiling hangs high,
+bringing even more light to the small chapel.    
+~
+71 d 0
+D1
+~
+~
+0 0 7139
+S
+#7135
+&MPriest's Chamber&n~
+   The priest's chamber is a long, narrow room with a few chairs and a normal
+window with a purple curtain over it.  There are a number of objects scattered
+about the room on tables or shelves that all have the Trisophian symbol on
+them.  The floor is carpeted and the walls have an offwhite wallpaper.    
+~
+71 d 0
+D1
+~
+~
+0 0 7140
+S
+#7136
+&MA Small, Dimly Lit Room&n~
+   The room is very small and the only lighting is from a couple of dim lights
+hanging on the walls.  The floor in this room is carpeted in a dark purple and
+the walls are of the same dull wood from the rest of the chapel.  There is a
+small window opposite of the room's exit that is covered by a black curtain.  
+There are three wooden chairs scattered about the room.    
+~
+71 d 0
+D1
+~
+~
+0 0 7126
+S
+#7137
+&MThe Pews&n~
+   The pews are very long and narrow.  They are made of a hard wood that isn't
+all that comfortable.  The floor is also made of a hard, dark wood.  The
+stained glass windows illuminate the room whether it is sunlight or moonlight
+that is penetrating them.  A large light centered on the ceiling hangs high,
+bringing even more light to the small chapel.    
+~
+71 d 0
+D1
+~
+~
+0 0 7127
+D3
+~
+~
+0 0 7132
+S
+#7138
+&MThe Pews&n~
+   The pews are very long and narrow.  They are made of a hard wood that isn't
+all that comfortable.  The floor is also made of a hard, dark wood.  The
+stained glass windows illuminate the room whether it is sunlight or moonlight
+that is penetrating them.  A large light centered on the ceiling hangs high,
+bringing even more light to the small chapel.    
+~
+71 d 0
+D1
+~
+~
+0 0 7128
+D3
+~
+~
+0 0 7133
+S
+#7139
+&MThe Pews&n~
+   The pews are very long and narrow.  They are made of a hard wood that isn't
+all that comfortable.  The floor is also made of a hard, dark wood.  The
+stained glass windows illuminate the room whether it is sunlight or moonlight
+that is penetrating them.  A large light centered on the ceiling hangs high,
+bringing even more light to the small chapel.    
+~
+71 d 0
+D1
+~
+~
+0 0 7129
+D3
+~
+~
+0 0 7134
+S
+#7140
+&MPriest's Chamber&n~
+   The priest's chamber is a long, narrow room with a few chairs and a normal
+window with a purple curtain over it.  There are a number of objects scattered
+about the room on tables or shelves that all have the Trisophian symbol on
+them.  The floor is carpeted and the walls have an offwhite wallpaper.    
+~
+71 d 0
+D1
+~
+door~
+1 0 7130
+D3
+~
+~
+0 0 7135
+S
+#7141
+&MA Small, Dimly Lit Room&n~
+   The room is very small and the only lighting is from a couple of dim lights
+hanging on the walls.  The floor in this room is carpeted in a dark purple and
+the walls are of the same dull wood from the rest of the chapel.  There is a
+small window opposite of the room's exit that is covered by a black curtain.  
+There are three wooden chairs scattered about the room.    
+~
+71 d 0
+D3
+~
+~
+0 0 7126
+S
+#7142
+&MThe Pews&n~
+   The pews are very long and narrow.  They are made of a hard wood that isn't
+all that comfortable.  The floor is also made of a hard, dark wood.  The
+stained glass windows illuminate the room whether it is sunlight or moonlight
+that is penetrating them.  A large light centered on the ceiling hangs high,
+bringing even more light to the small chapel.    
+~
+71 d 0
+D1
+~
+~
+0 0 7146
+D3
+~
+~
+0 0 7127
+S
+#7143
+&MThe Pews&n~
+   The pews are very long and narrow.  They are made of a hard wood that isn't
+all that comfortable.  The floor is also made of a hard, dark wood.  The
+stained glass windows illuminate the room whether it is sunlight or moonlight
+that is penetrating them.  A large light centered on the ceiling hangs high,
+bringing even more light to the small chapel.    
+~
+71 d 0
+D1
+~
+~
+0 0 7147
+D3
+~
+~
+0 0 7128
+S
+#7144
+&MThe Pews&n~
+   The pews are very long and narrow.  They are made of a hard wood that isn't
+all that comfortable.  The floor is also made of a hard, dark wood.  The
+stained glass windows illuminate the room whether it is sunlight or moonlight
+that is penetrating them.  A large light centered on the ceiling hangs high,
+bringing even more light to the small chapel.    
+~
+71 d 0
+D1
+~
+~
+0 0 7148
+D3
+~
+~
+0 0 7129
+S
+#7145
+&MConfession Chamber&n~
+   This is the room where those loyal to the Trisophian religion confess to
+their sins to the priest of the church.  The room is very narrow and the
+ceiling is low, but the room is very long.  It connects to another part where a
+chair can be seen.  There is also a chair in this room.  The chair is made of
+wood, and there is cushion consisting of a bright green fabric atop each of the
+chairs.  The room also is also made of a light wood.  There are a couple of
+lights on the ceiling that seem very bright, but they face the ceiling so the
+light is spread out across the room.  The floor is covered in a thin, dark
+purple carpet.    
+~
+71 d 0
+D1
+~
+~
+0 0 7149
+D3
+~
+door~
+1 0 7130
+S
+#7146
+&MThe Pews&n~
+   The pews are very long and narrow.  They are made of a hard wood that isn't
+all that comfortable.  The floor is also made of a hard, dark wood.  The
+stained glass windows illuminate the room whether it is sunlight or moonlight
+that is penetrating them.  A large light centered on the ceiling hangs high,
+bringing even more light to the small chapel.    
+~
+71 d 0
+D3
+~
+~
+0 0 7142
+S
+#7147
+&MThe Pews&n~
+   The pews are very long and narrow.  They are made of a hard wood that isn't
+all that comfortable.  The floor is also made of a hard, dark wood.  The
+stained glass windows illuminate the room whether it is sunlight or moonlight
+that is penetrating them.  A large light centered on the ceiling hangs high,
+bringing even more light to the small chapel.    
+~
+71 d 0
+D3
+~
+~
+0 0 7143
+S
+#7148
+&MThe Pews&n~
+   The pews are very long and narrow.  They are made of a hard wood that isn't
+all that comfortable.  The floor is also made of a hard, dark wood.  The
+stained glass windows illuminate the room whether it is sunlight or moonlight
+that is penetrating them.  A large light centered on the ceiling hangs high,
+bringing even more light to the small chapel.    
+~
+71 d 0
+D3
+~
+~
+0 0 7144
+S
+#7149
+&MConfession Chamber&n~
+   This is the room where those loyal to the Trisophian religion confess to
+their sins to the priest of the church.  The room is very narrow and the
+ceiling is low, but the room is very long.  It connects to another part where a
+chair can be seen.  There is also a chair in this room.  The chair is made of
+wood, and there is cushion consisting of a bright green fabric atop each of the
+chairs.  The room also is also made of a light wood.  There are a couple of
+lights on the ceiling that seem very bright, but they face the ceiling so the
+light is spread out across the room.  The floor is covered in a thin, dark
+purple carpet.    
+~
+71 d 0
+D3
+~
+~
+0 0 7145
+S
+#7150
+&MThe Western Trisophian Chapel&n~
+   The chapel isn't very large.  A few pews can be seen towards the alter, and
+a large light hangs from the top of the chapel.  The stained glass windows,
+however, are absolutely magnificent.  The floor is made of hard wood, so your
+footsteps are extremely loud, and they echo across the chapel.  The walls are
+made of a dark furnished wood that is very old.  Small patches of dust can be
+seen scattered about the chapel.    
+~
+71 d 0
+D1
+~
+~
+0 0 7941
+D3
+~
+~
+0 0 7151
+S
+#7151
+&MThe Aisle&n~
+   The aisle isn't very wide, but it isn't narrow enough to keep two people
+from walking next to each other.  The hard wood floor makes every footstep loud
+as they echo across the chapel.  Colored light emits from the stained glass
+windows while a large light hangs from the center of the ceiling.  The pews can
+be seen down the aisle; their wooden structures covered in small patches of
+dust.    
+~
+71 d 0
+D0
+~
+~
+0 0 7161
+D1
+~
+~
+0 0 7150
+D2
+~
+~
+0 0 7166
+D3
+~
+~
+0 0 7152
+S
+#7152
+&MThe Aisle&n~
+   The aisle isn't very wide, but it isn't narrow enough to keep two people
+from walking next to each other.  The hard wood floor makes every footstep loud
+as they echo across the chapel.  Colored light emits from the stained glass
+windows while a large light hangs from the center of the ceiling.  The pews can
+be seen down the aisle; their wooden structures covered in small patches of
+dust.    
+~
+71 d 0
+D0
+~
+~
+0 0 7162
+D1
+~
+~
+0 0 7151
+D2
+~
+~
+0 0 7167
+D3
+~
+~
+0 0 7153
+S
+#7153
+&MThe Aisle&n~
+   The aisle isn't very wide, but it isn't narrow enough to keep two people
+from walking next to each other.  The hard wood floor makes every footstep loud
+as they echo across the chapel.  Colored light emits from the stained glass
+windows while a large light hangs from the center of the ceiling.  The pews can
+be seen down the aisle; their wooden structures covered in small patches of
+dust.    
+~
+71 d 0
+D0
+~
+~
+0 0 7163
+D1
+~
+~
+0 0 7152
+D2
+~
+~
+0 0 7168
+D3
+~
+~
+0 0 7154
+S
+#7154
+&MThe Aisle&n~
+   The aisle isn't very wide, but it isn't narrow enough to keep two people
+from walking next to each other.  The hard wood floor makes every footstep loud
+as they echo across the chapel.  Colored light emits from the stained glass
+windows while a large light hangs from the center of the ceiling.  The pews can
+be seen down the aisle; their wooden structures covered in small patches of
+dust.    
+~
+71 d 0
+D0
+~
+~
+0 0 7164
+D1
+~
+~
+0 0 7153
+D2
+~
+~
+0 0 7169
+D3
+~
+~
+0 0 7155
+S
+#7155
+&MBefore the Alter&n~
+   Here there are small steps leading to the alter.  The steps are made of
+stone, as is the ground below the alter ahead.  Unlike the rest of the chapel,
+the walls have various paintings of the three Trisophian goddesses.  Two doors
+can be seen opposite from one another leading to the Priest's Chamber and the
+Confession Chamber.    
+~
+71 d 0
+D0
+~
+door~
+1 0 7165
+D1
+~
+~
+0 0 7154
+D2
+~
+door~
+1 0 7170
+D3
+~
+~
+0 0 7156
+S
+#7156
+&MThe Alter&n~
+   The alter is a gigantic stone table with a bright purple cloth over it.  
+The cloth hangs down at the front of the alter facing the pews.  On this part
+of the purple cloth is the black Trisophian symbol outlined in silver.  The
+walls around the alter are covered with paintings of the three Trisophian
+goddesses.  The ceiling also has paintings of the goddesses upon it.  A large
+stained glass window can be seen behind the alter.    
+~
+71 d 0
+D1
+~
+~
+0 0 7155
+S
+#7157
+&MThe Pews&n~
+   The pews are very long and narrow.  They are made of a hard wood that isn't
+all that comfortable.  The floor is also made of a hard, dark wood.  The
+stained glass windows illuminate the room whether it is sunlight or moonlight
+that is penetrating them.  A large light centered on the ceiling hangs high,
+bringing even more light to the small chapel.    
+~
+71 d 0
+D2
+~
+~
+0 0 7162
+S
+#7158
+&MThe Pews&n~
+   The pews are very long and narrow.  They are made of a hard wood that isn't
+all that comfortable.  The floor is also made of a hard, dark wood.  The
+stained glass windows illuminate the room whether it is sunlight or moonlight
+that is penetrating them.  A large light centered on the ceiling hangs high,
+bringing even more light to the small chapel.    
+~
+71 d 0
+D2
+~
+~
+0 0 7163
+S
+#7159
+&MThe Pews&n~
+   The pews are very long and narrow.  They are made of a hard wood that isn't
+all that comfortable.  The floor is also made of a hard, dark wood.  The
+stained glass windows illuminate the room whether it is sunlight or moonlight
+that is penetrating them.  A large light centered on the ceiling hangs high,
+bringing even more light to the small chapel.    
+~
+71 d 0
+D2
+~
+~
+0 0 7164
+S
+#7160
+&MConfession Chamber&n~
+   This is the room where those loyal to the Trisophian religion confess to
+their sins to the priest of the church.  The room is very narrow and the
+ceiling is low, but the room is very long.  It connects to another part where a
+chair can be seen.  There is also a chair in this room.  The chair is made of
+wood, and there is cushion consisting of a bright green fabric atop each of the
+chairs.  The room also is also made of a light wood.  There are a couple of
+lights on the ceiling that seem very bright, but they face the ceiling so the
+light is spread out across the room.  The floor is covered in a thin, dark
+purple carpet.    
+~
+71 d 0
+D2
+~
+~
+0 0 7165
+S
+#7161
+&MA Small, Dimly Lit Room&n~
+   The room is very small and the only lighting is from a couple of dim lights
+hanging on the walls.  The floor in this room is carpeted in a dark purple and
+the walls are of the same dull wood from the rest of the chapel.  There is a
+small window opposite of the room's exit that is covered by a black curtain.  
+There are three wooden chairs scattered about the room.    
+~
+71 d 0
+D2
+~
+~
+0 0 7151
+S
+#7162
+&MThe Pews&n~
+   The pews are very long and narrow.  They are made of a hard wood that isn't
+all that comfortable.  The floor is also made of a hard, dark wood.  The
+stained glass windows illuminate the room whether it is sunlight or moonlight
+that is penetrating them.  A large light centered on the ceiling hangs high,
+bringing even more light to the small chapel.    
+~
+71 d 0
+D0
+~
+~
+0 0 7157
+D2
+~
+~
+0 0 7152
+S
+#7163
+&MThe Pews&n~
+   The pews are very long and narrow.  They are made of a hard wood that isn't
+all that comfortable.  The floor is also made of a hard, dark wood.  The
+stained glass windows illuminate the room whether it is sunlight or moonlight
+that is penetrating them.  A large light centered on the ceiling hangs high,
+bringing even more light to the small chapel.    
+~
+71 0 0
+D0
+~
+~
+0 0 7158
+D2
+~
+~
+0 0 7153
+S
+#7164
+&MThe Pews&n~
+   The pews are very long and narrow.  They are made of a hard wood that isn't
+all that comfortable.  The floor is also made of a hard, dark wood.  The
+stained glass windows illuminate the room whether it is sunlight or moonlight
+that is penetrating them.  A large light centered on the ceiling hangs high,
+bringing even more light to the small chapel.    
+~
+71 d 0
+D0
+~
+~
+0 0 7159
+D2
+~
+~
+0 0 7154
+S
+#7165
+&MConfession Chamber&n~
+   This is the room where those loyal to the Trisophian religion confess to
+their sins to the priest of the church.  The room is very narrow and the
+ceiling is low, but the room is very long.  It connects to another part where a
+chair can be seen.  There is also a chair in this room.  The chair is made of
+wood, and there is cushion consisting of a bright green fabric atop each of the
+chairs.  The room also is also made of a light wood.  There are a couple of
+lights on the ceiling that seem very bright, but they face the ceiling so the
+light is spread out across the room.  The floor is covered in a thin, dark
+purple carpet.    
+~
+71 d 0
+D0
+~
+~
+0 0 7160
+D2
+~
+door~
+1 0 7155
+S
+#7166
+&MA Small, Dimly Lit Room&n~
+   The room is very small and the only lighting is from a couple of dim lights
+hanging on the walls.  The floor in this room is carpeted in a dark purple and
+the walls are of the same dull wood from the rest of the chapel.  There is a
+small window opposite of the room's exit that is covered by a black curtain.  
+There are three wooden chairs scattered about the room.    
+~
+71 d 0
+D0
+~
+~
+0 0 7151
+S
+#7167
+&MThe Pews&n~
+   The pews are very long and narrow.  They are made of a hard wood that isn't
+all that comfortable.  The floor is also made of a hard, dark wood.  The
+stained glass windows illuminate the room whether it is sunlight or moonlight
+that is penetrating them.  A large light centered on the ceiling hangs high,
+bringing even more light to the small chapel.    
+~
+71 d 0
+D0
+~
+~
+0 0 7152
+D2
+~
+~
+0 0 7171
+S
+#7168
+&MThe Pews&n~
+   The pews are very long and narrow.  They are made of a hard wood that isn't
+all that comfortable.  The floor is also made of a hard, dark wood.  The
+stained glass windows illuminate the room whether it is sunlight or moonlight
+that is penetrating them.  A large light centered on the ceiling hangs high,
+bringing even more light to the small chapel.    
+~
+71 d 0
+D0
+~
+~
+0 0 7153
+D2
+~
+~
+0 0 7172
+S
+#7169
+&MThe Pews&n~
+   The pews are very long and narrow.  They are made of a hard wood that isn't
+all that comfortable.  The floor is also made of a hard, dark wood.  The
+stained glass windows illuminate the room whether it is sunlight or moonlight
+that is penetrating them.  A large light centered on the ceiling hangs high,
+bringing even more light to the small chapel.    
+~
+71 d 0
+D0
+~
+~
+0 0 7154
+D2
+~
+~
+0 0 7173
+S
+#7170
+&MPriest's Chamber&n~
+   The priest's chamber is a long, narrow room with a few chairs and a normal
+window with a purple curtain over it.  There are a number of objects scattered
+about the room on tables or shelves that all have the Trisophian symbol on
+them.  The floor is carpeted and the walls have an offwhite wallpaper.    
+~
+71 d 0
+D0
+~
+door~
+1 0 7155
+D2
+~
+~
+0 0 7174
+S
+#7171
+&MThe Pews&n~
+   The pews are very long and narrow.  They are made of a hard wood that isn't
+all that comfortable.  The floor is also made of a hard, dark wood.  The
+stained glass windows illuminate the room whether it is sunlight or moonlight
+that is penetrating them.  A large light centered on the ceiling hangs high,
+bringing even more light to the small chapel.    
+~
+71 d 0
+D0
+~
+~
+0 0 7167
+S
+#7172
+&MThe Pews&n~
+   The pews are very long and narrow.  They are made of a hard wood that isn't
+all that comfortable.  The floor is also made of a hard, dark wood.  The
+stained glass windows illuminate the room whether it is sunlight or moonlight
+that is penetrating them.  A large light centered on the ceiling hangs high,
+bringing even more light to the small chapel.    
+~
+71 d 0
+D0
+~
+~
+0 0 7168
+S
+#7173
+&MThe Pews&n~
+   The pews are very long and narrow.  They are made of a hard wood that isn't
+all that comfortable.  The floor is also made of a hard, dark wood.  The
+stained glass windows illuminate the room whether it is sunlight or moonlight
+that is penetrating them.  A large light centered on the ceiling hangs high,
+bringing even more light to the small chapel.    
+~
+71 d 0
+D0
+~
+~
+0 0 7169
+S
+#7174
+&MPriest's Chamber&n~
+   The priest's chamber is a long, narrow room with a few chairs and a normal
+window with a purple curtain over it.  There are a number of objects scattered
+about the room on tables or shelves that all have the Trisophian symbol on
+them.  The floor is carpeted and the walls have an offwhite wallpaper.    
+~
+71 d 0
+D0
+~
+~
+0 0 7170
+S
+#7175
+&MThe Eastern Trisophian Church&n~
+   The chapel isn't very large.  A few pews can be seen towards the alter, and
+a large light hangs from the top of the chapel.  The stained glass windows,
+however, are absolutely magnificent.  The floor is made of hard wood, so your
+footsteps are extremely loud, and they echo across the chapel.  The walls are
+made of a dark furnished wood that is very old.  Small patches of dust can be
+seen scattered about the chapel.    
+~
+71 d 0
+D1
+~
+~
+0 0 7176
+S
+#7176
+&MThe Aisle&n~
+   The aisle isn't very wide, but it isn't narrow enough to keep two people
+from walking next to each other.  The hard wood floor makes every footstep loud
+as they echo across the chapel.  Colored light emits from the stained glass
+windows while a large light hangs from the center of the ceiling.  The pews can
+be seen down the aisle; their wooden structures covered in small patches of
+dust.    
+~
+71 d 0
+D0
+~
+~
+0 0 7186
+D1
+~
+~
+0 0 7177
+D2
+~
+~
+0 0 7191
+D3
+~
+~
+0 0 7175
+S
+#7177
+&MThe Aisle&n~
+   The aisle isn't very wide, but it isn't narrow enough to keep two people
+from walking next to each other.  The hard wood floor makes every footstep loud
+as they echo across the chapel.  Colored light emits from the stained glass
+windows while a large light hangs from the center of the ceiling.  The pews can
+be seen down the aisle; their wooden structures covered in small patches of
+dust.    
+~
+71 d 0
+D0
+~
+~
+0 0 7187
+D1
+~
+~
+0 0 7178
+D2
+~
+~
+0 0 7192
+D3
+~
+~
+0 0 7176
+S
+#7178
+&MThe Aisle&n~
+   The aisle isn't very wide, but it isn't narrow enough to keep two people
+from walking next to each other.  The hard wood floor makes every footstep loud
+as they echo across the chapel.  Colored light emits from the stained glass
+windows while a large light hangs from the center of the ceiling.  The pews can
+be seen down the aisle; their wooden structures covered in small patches of
+dust.    
+~
+71 d 0
+D0
+~
+~
+0 0 7188
+D1
+~
+~
+0 0 7179
+D2
+~
+~
+0 0 7193
+D3
+~
+~
+0 0 7177
+S
+#7179
+&MThe Aisle&n~
+   The aisle isn't very wide, but it isn't narrow enough to keep two people
+from walking next to each other.  The hard wood floor makes every footstep loud
+as they echo across the chapel.  Colored light emits from the stained glass
+windows while a large light hangs from the center of the ceiling.  The pews can
+be seen down the aisle; their wooden structures covered in small patches of
+dust.    
+~
+71 d 0
+D0
+~
+~
+0 0 7189
+D1
+~
+~
+0 0 7180
+D2
+~
+~
+0 0 7194
+D3
+~
+~
+0 0 7178
+S
+#7180
+&MBefore the Alter&n~
+   Here there are small steps leading to the alter.  The steps are made of
+stone, as is the ground below the alter ahead.  Unlike the rest of the chapel,
+the walls have various paintings of the three Trisophian goddesses.  Two doors
+can be seen opposite from one another leading to the Priest's Chamber and the
+Confession Chamber.    
+~
+71 d 0
+D0
+~
+door~
+1 0 7190
+D1
+~
+~
+0 0 7181
+D2
+~
+door~
+1 0 7195
+D3
+~
+~
+0 0 7179
+S
+#7181
+&MThe Alter&n~
+   The alter is a gigantic stone table with a bright purple cloth over it.  
+The cloth hangs down at the front of the alter facing the pews.  On this part
+of the purple cloth is the black Trisophian symbol outlined in silver.  The
+walls around the alter are covered with paintings of the three Trisophian
+goddesses.  The ceiling also has paintings of the goddesses upon it.  A large
+stained glass window can be seen behind the alter.    
+~
+71 d 0
+D3
+~
+~
+0 0 7180
+S
+#7182
+&MThe Pews&n~
+   The pews are very long and narrow.  They are made of a hard wood that isn't
+all that comfortable.  The floor is also made of a hard, dark wood.  The
+stained glass windows illuminate the room whether it is sunlight or moonlight
+that is penetrating them.  A large light centered on the ceiling hangs high,
+bringing even more light to the small chapel.    
+~
+71 d 0
+D2
+~
+~
+0 0 7187
+S
+#7183
+&MThe Pews&n~
+   The pews are very long and narrow.  They are made of a hard wood that isn't
+all that comfortable.  The floor is also made of a hard, dark wood.  The
+stained glass windows illuminate the room whether it is sunlight or moonlight
+that is penetrating them.  A large light centered on the ceiling hangs high,
+bringing even more light to the small chapel.    
+~
+71 d 0
+D2
+~
+~
+0 0 7188
+S
+#7184
+&MThe Pews&n~
+   The pews are very long and narrow.  They are made of a hard wood that isn't
+all that comfortable.  The floor is also made of a hard, dark wood.  The
+stained glass windows illuminate the room whether it is sunlight or moonlight
+that is penetrating them.  A large light centered on the ceiling hangs high,
+bringing even more light to the small chapel.    
+~
+71 d 0
+D2
+~
+~
+0 0 7189
+S
+#7185
+&MPriest's Chamber&n~
+   The priest's chamber is a long, narrow room with a few chairs and a normal
+window with a purple curtain over it.  There are a number of objects scattered
+about the room on tables or shelves that all have the Trisophian symbol on
+them.  The floor is carpeted and the walls have an offwhite wallpaper.    
+~
+71 d 0
+D2
+~
+~
+0 0 7190
+S
+#7186
+&MA Small, Dimly Lit Room&n~
+   The room is very small and the only lighting is from a couple of dim lights
+hanging on the walls.  The floor in this room is carpeted in a dark purple and
+the walls are of the same dull wood from the rest of the chapel.  There is a
+small window opposite of the room's exit that is covered by a black curtain.  
+There are three wooden chairs scattered about the room.    
+~
+71 d 0
+D2
+~
+~
+0 0 7176
+S
+#7187
+&MThe Pews&n~
+   The pews are very long and narrow.  They are made of a hard wood that isn't
+all that comfortable.  The floor is also made of a hard, dark wood.  The
+stained glass windows illuminate the room whether it is sunlight or moonlight
+that is penetrating them.  A large light centered on the ceiling hangs high,
+bringing even more light to the small chapel.    
+~
+71 d 0
+D0
+~
+~
+0 0 7182
+D2
+~
+~
+0 0 7177
+S
+#7188
+&MThe Pews&n~
+   The pews are very long and narrow.  They are made of a hard wood that isn't
+all that comfortable.  The floor is also made of a hard, dark wood.  The
+stained glass windows illuminate the room whether it is sunlight or moonlight
+that is penetrating them.  A large light centered on the ceiling hangs high,
+bringing even more light to the small chapel.    
+~
+71 d 0
+D0
+~
+~
+0 0 7183
+D2
+~
+~
+0 0 7178
+S
+#7189
+&MThe Pews&n~
+   The pews are very long and narrow.  They are made of a hard wood that isn't
+all that comfortable.  The floor is also made of a hard, dark wood.  The
+stained glass windows illuminate the room whether it is sunlight or moonlight
+that is penetrating them.  A large light centered on the ceiling hangs high,
+bringing even more light to the small chapel.    
+~
+71 d 0
+D0
+~
+~
+0 0 7184
+D2
+~
+~
+0 0 7179
+S
+#7190
+&MPriest's Chamber&n~
+   The priest's chamber is a long, narrow room with a few chairs and a normal
+window with a purple curtain over it.  There are a number of objects scattered
+about the room on tables or shelves that all have the Trisophian symbol on
+them.  The floor is carpeted and the walls have an offwhite wallpaper.    
+~
+71 d 0
+D0
+~
+~
+0 0 7185
+D2
+~
+door~
+1 0 7180
+S
+#7191
+&MA Small, Dimly Lit Room&n~
+   The room is very small and the only lighting is from a couple of dim lights
+hanging on the walls.  The floor in this room is carpeted in a dark purple and
+the walls are of the same dull wood from the rest of the chapel.  There is a
+small window opposite of the room's exit that is covered by a black curtain.  
+There are three wooden chairs scattered about the room.    
+~
+71 d 0
+D0
+~
+~
+0 0 7176
+S
+#7192
+&MThe Pews&n~
+   The pews are very long and narrow.  They are made of a hard wood that isn't
+all that comfortable.  The floor is also made of a hard, dark wood.  The
+stained glass windows illuminate the room whether it is sunlight or moonlight
+that is penetrating them.  A large light centered on the ceiling hangs high,
+bringing even more light to the small chapel.    
+~
+71 d 0
+D0
+~
+~
+0 0 7177
+D2
+~
+~
+0 0 7196
+S
+#7193
+&MThe Pews&n~
+   The pews are very long and narrow.  They are made of a hard wood that isn't
+all that comfortable.  The floor is also made of a hard, dark wood.  The
+stained glass windows illuminate the room whether it is sunlight or moonlight
+that is penetrating them.  A large light centered on the ceiling hangs high,
+bringing even more light to the small chapel.    
+~
+71 d 0
+D0
+~
+~
+0 0 7178
+D2
+~
+~
+0 0 7197
+S
+#7194
+&MThe Pews&n~
+   The pews are very long and narrow.  They are made of a hard wood that isn't
+all that comfortable.  The floor is also made of a hard, dark wood.  The
+stained glass windows illuminate the room whether it is sunlight or moonlight
+that is penetrating them.  A large light centered on the ceiling hangs high,
+bringing even more light to the small chapel.    
+~
+71 d 0
+D0
+~
+~
+0 0 7179
+D2
+~
+~
+0 0 7198
+S
+#7195
+&MConfession Chamber&n~
+   This is the room where those loyal to the Trisophian religion confess to
+their sins to the priest of the church.  The room is very narrow and the
+ceiling is low, but the room is very long.  It connects to another part where a
+chair can be seen.  There is also a chair in this room.  The chair is made of
+wood, and there is cushion consisting of a bright green fabric atop each of the
+chairs.  The room also is also made of a light wood.  There are a couple of
+lights on the ceiling that seem very bright, but they face the ceiling so the
+light is spread out across the room.  The floor is covered in a thin, dark
+purple carpet.    
+~
+71 d 0
+D0
+~
+door~
+1 0 7180
+D2
+~
+~
+0 0 7199
+S
+#7196
+&MThe Pews&n~
+   The pews are very long and narrow.  They are made of a hard wood that isn't
+all that comfortable.  The floor is also made of a hard, dark wood.  The
+stained glass windows illuminate the room whether it is sunlight or moonlight
+that is penetrating them.  A large light centered on the ceiling hangs high,
+bringing even more light to the small chapel.    
+~
+71 d 0
+D0
+~
+~
+0 0 7192
+S
+#7197
+&MThe Pews&n~
+   The pews are very long and narrow.  They are made of a hard wood that isn't
+all that comfortable.  The floor is also made of a hard, dark wood.  The
+stained glass windows illuminate the room whether it is sunlight or moonlight
+that is penetrating them.  A large light centered on the ceiling hangs high,
+bringing even more light to the small chapel.    
+~
+71 d 0
+D0
+~
+~
+0 0 7193
+S
+#7198
+&MThe Pews&n~
+   The pews are very long and narrow.  They are made of a hard wood that isn't
+all that comfortable.  The floor is also made of a hard, dark wood.  The
+stained glass windows illuminate the room whether it is sunlight or moonlight
+that is penetrating them.  A large light centered on the ceiling hangs high,
+bringing even more light to the small chapel.    
+~
+71 d 0
+D0
+~
+~
+0 0 7194
+S
+#7199
+&MConfession Chamber&n~
+   This is the room where those loyal to the Trisophian religion confess to
+their sins to the priest of the church.  The room is very narrow and the
+ceiling is low, but the room is very long.  It connects to another part where a
+chair can be seen.  There is also a chair in this room.  The chair is made of
+wood, and there is cushion consisting of a bright green fabric atop each of the
+chairs.  The room also is also made of a light wood.  There are a couple of
+lights on the ceiling that seem very bright, but they face the ceiling so the
+light is spread out across the room.  The floor is covered in a thin, dark
+purple carpet.    
+~
+71 d 0
+D0
+~
+~
+0 0 7195
+S
+$~

@@ -1,0 +1,65 @@
+#4400
+bag holding~
+a bag of ultimate holding.~
+A small insignificant bag.~
+As you look at this bag it seems very ordinary.  As you look inside you see that it does not have a bottom.
+~
+15 0 16385 0
+0 0 0 0
+1 10000 1000 0
+#4401
+booger~
+a booger~
+A stinky booger~
+~
+11 0 4097 0
+0 0 0 0
+1 0 0 0
+A
+13 -100
+A
+13 -100
+A
+13 -100
+A
+13 -100
+A
+13 -100
+A
+13 -100
+#4428
+portal gate archway~
+Archway of the Gods!~
+An archway created by the gods to provide their loyal worshipers access to other reals lies here.~
+
+     A great wave of evil passes over you as you look more closely at the 
+markings.  By the gods this is wrong.  You are sure that examining this
+archway should have filled you with peace.  Could those subtle changes 
+in the runes have caused such a major change in their meaning.
+
+~
+24 320 0 4194304
+0 0 0 0
+1200000 0 0 50
+#4480
+Pearl shiny~
+a shiny pearl~
+A shiny pearl pulsing energy~
+Shining with some inner glow you notice that this pearl is actually a potion of some sort.
+~
+10 0 1 0
+15 65 65 0
+2 20000 0 180
+#4490
+scroll auburn~
+an Auburn Scroll~
+An Auburn Scroll Sizzles with scribed energy.~
+This scroll of Auburn parchment has a glow that seems to come from
+the lettering written upon it.  As you look to see what it says
+you are baffled.  It seems to have been written in a language 
+you have never seen before.
+~
+2 4 1 0
+10 75 36 54
+5 2000000 0 180
+$~

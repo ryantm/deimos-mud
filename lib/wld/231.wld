@@ -1,0 +1,2880 @@
+#23100
+Within the Sticker Bushes~
+   The forest sings and the trees lift to the heavens.  The trees attract
+forest denizens to their boughs.  The lights of Phobos aren't enough to
+penetrate this wood.  A small sapling crouches close to the ground.  The forest
+deepens to the south.  The trees to the east overhang the trail.    
+~
+231 a 3
+D1
+To the east the path continues.
+~
+~
+0 0 23101
+D2
+To the south the path continues.
+~
+~
+0 0 23110
+D3
+~
+~
+0 0 23309
+S
+#23101
+A Wooded Area~
+   The wind blows and the smaller trees sway under its gale.  The trees attract
+forest denizens to their boughs.  The brush and stickers prick travellers.  A
+large tree with beautiful green leaves towers above all others.  The forest
+thickens to the south.  Further east are more woods and trees.  The woods in
+the western direction are covered in brush.    
+~
+231 a 3
+D1
+To the east the path continues.
+~
+~
+0 0 23102
+D2
+To the south the path continues.
+~
+~
+0 0 23111
+D3
+To the south the path continues.
+~
+~
+0 0 23100
+S
+#23102
+Within a Great Forest~
+   The forest sings and the trees lift to the heavens.  The trees attract
+forest denizens to their boughs.  The lights of Phobos aren't enough to
+penetrate this wood.  A log trips up those who would walk over it.  The forest
+thickens to the south.  To the east is a plethora of trees.  The forest
+continues in the direction west.    
+~
+231 a 3
+D1
+To the east the path continues.
+~
+~
+0 0 23103
+D2
+To the south the path continues.
+~
+~
+0 0 23112
+D3
+To the south the path continues.
+~
+~
+0 0 23101
+S
+#23103
+Beneath a Large Tree~
+   During the day the sun lights these woods most beautifully.  The floor of
+the forest seems to slither and move.  The lights of Phobos aren't enough to
+penetrate this wood.  A log trips up those who would walk over it.  Everywhere
+that can be seen to the south is full of forest.  The eastern direction has
+brush and sticker bushes everywhere.  The forest continues in the direction
+west.    
+~
+231 a 3
+D0
+~
+tree~
+1 0 5800
+D1
+To the east the path continues.
+~
+~
+0 0 23104
+D2
+To the south the path continues.
+~
+~
+0 0 23113
+D3
+To the south the path continues.
+~
+~
+0 0 23102
+S
+#23104
+Within the Sticker Bushes~
+   The forest sings and the trees lift to the heavens.  The trees attract
+forest denizens to their boughs.  The brush and stickers prick travellers.  A
+log trips up those who would walk over it.  Everywhere that can be seen to the
+south is full of forest.  The forest continues to the east.  The forest
+continues in the direction west.    
+~
+231 a 3
+D1
+To the east the path continues.
+~
+~
+0 0 23105
+D2
+To the south the path continues.
+~
+~
+0 0 23114
+D3
+To the south the path continues.
+~
+~
+0 0 23103
+S
+#23105
+The Dark Forest~
+   The forest sings and the trees lift to the heavens.  The floor of the forest
+seems to slither and move.  The brush and stickers prick travellers.  The
+forest beckons adventurers to come hither.  All things to the south are trees.
+To the east is a plethora of trees.  The woods in the western direction are
+covered in brush.    
+~
+231 a 3
+D1
+To the east the path continues.
+~
+~
+0 0 23106
+D2
+To the south the path continues.
+~
+~
+0 0 23115
+D3
+To the south the path continues.
+~
+~
+0 0 23104
+S
+#23106
+Beneath a Large Tree~
+   The wind blows and the smaller trees sway under its gale.  The floor of the
+forest seems to slither and move.  The lights of Phobos aren't enough to
+penetrate this wood.  A large tree with beautiful green leaves towers above all
+others.  All things to the south are trees.  To the east is a plethora of
+trees.  All things to the west are trees.    
+~
+231 a 3
+D1
+To the east the path continues.
+~
+~
+0 0 23107
+D2
+To the south the path continues.
+~
+~
+0 0 23116
+D3
+To the south the path continues.
+~
+~
+0 0 23105
+S
+#23107
+Within a Great Forest~
+   During the day the sun lights these woods most beautifully.  The floor of
+the forest seems to slither and move.  The lights of Phobos aren't enough to
+penetrate this wood.  The remnants of what could be a path are here.  The woods
+in the southern direction are covered in brush.  The eastern direction has
+brush and sticker bushes everywhere.  The forest thickens to the west.    
+~
+231 a 3
+D1
+To the east the path continues.
+~
+~
+0 0 23108
+D2
+To the south the path continues.
+~
+~
+0 0 23117
+D3
+To the south the path continues.
+~
+~
+0 0 23106
+S
+#23108
+By a Brush Pile~
+   The wind blows and the smaller trees sway under its gale.  The trees attract
+forest denizens to their boughs.  The lights of Phobos aren't enough to
+penetrate this wood.  A large tree with beautiful green leaves towers above all
+others.  The forest thickens to the south.  The trees to the east overhang the
+trail.  Trees overhang the area to the west.    
+~
+231 a 3
+D1
+To the east the path continues.
+~
+~
+0 0 23109
+D2
+To the south the path continues.
+~
+~
+0 0 23118
+D3
+To the south the path continues.
+~
+~
+0 0 23107
+S
+#23109
+Within a Great Forest~
+   During the day the sun lights these woods most beautifully.  The trees
+attract forest denizens to their boughs.  The lights of Phobos aren't enough to
+penetrate this wood.  A large tree with beautiful green leaves towers above all
+others.  All things to the south are trees.  Everywhere that can be seen to the
+west is full of forest.    
+~
+231 a 3
+D2
+To the south the path continues.
+~
+~
+0 0 23119
+D3
+To the south the path continues.
+~
+~
+0 0 23108
+S
+#23110
+By a Brush Pile~
+   The wind blows and the smaller trees sway under its gale.  Birds chirp here
+and there, with haunting melodies.  This forest goes on as far as the eye can
+see.  A large tree with beautiful green leaves towers above all others.  The
+forest thickens to the south.  To the east is a plethora of trees.    
+~
+231 a 3
+D0
+To the east the path continues.
+~
+~
+0 0 23100
+D1
+To the east the path continues.
+~
+~
+0 0 23111
+D2
+To the south the path continues.
+~
+~
+0 0 23120
+D3
+~
+~
+0 0 23319
+S
+#23111
+Beneath a Canopy of Trees~
+   During the day the sun lights these woods most beautifully.  The floor of
+the forest seems to slither and move.  The brush and stickers prick travellers.
+A small sapling crouches close to the ground.  All things to the south are
+trees.  The eastern direction has brush and sticker bushes everywhere.  The
+forest thickens to the west.    
+~
+231 a 3
+D0
+To the east the path continues.
+~
+~
+0 0 23101
+D1
+To the east the path continues.
+~
+~
+0 0 23112
+D2
+To the south the path continues.
+~
+~
+0 0 23121
+D3
+To the south the path continues.
+~
+~
+0 0 23110
+S
+#23112
+The Dark Forest~
+   During the day the sun lights these woods most beautifully.  The trees
+attract forest denizens to their boughs.  This forest goes on as far as the eye
+can see.  A log trips up those who would walk over it.  The forest deepens to
+the south.  To the east is a plethora of trees.  Trees overhang the area to the
+west.    
+~
+231 a 3
+D0
+To the east the path continues.
+~
+~
+0 0 23102
+D1
+To the east the path continues.
+~
+~
+0 0 23113
+D2
+To the south the path continues.
+~
+~
+0 0 23122
+D3
+To the south the path continues.
+~
+~
+0 0 23111
+S
+#23113
+By a Brush Pile~
+   During the day the sun lights these woods most beautifully.  The trees
+attract forest denizens to their boughs.  The lights of Phobos aren't enough to
+penetrate this wood.  A crushed down section of the forest floor denotes this
+area as a deer mating place.  All things to the south are trees.  The forest
+moves along in the east.  The forest continues in the direction west.    
+~
+231 a 3
+D0
+To the east the path continues.
+~
+~
+0 0 23103
+D1
+To the east the path continues.
+~
+~
+0 0 23114
+D2
+To the south the path continues.
+~
+~
+0 0 23123
+D3
+To the south the path continues.
+~
+~
+0 0 23112
+S
+#23114
+Within a Great Forest~
+   The forest sings and the trees lift to the heavens.  The floor of the forest
+seems to slither and move.  This forest goes on as far as the eye can see.  
+The forest beckons adventurers to come hither.  The forest continues in the
+direction south.  The trees to the east overhang the trail.  The forest
+continues in the direction west.    
+~
+231 a 3
+D0
+To the east the path continues.
+~
+~
+0 0 23104
+D1
+To the east the path continues.
+~
+~
+0 0 23115
+D2
+To the south the path continues.
+~
+~
+0 0 23124
+D3
+To the south the path continues.
+~
+~
+0 0 23113
+S
+#23115
+Beneath a Large Tree~
+   During the day the sun lights these woods most beautifully.  Birds chirp
+here and there, with haunting melodies.  The lights of Phobos aren't enough to
+penetrate this wood.  A log trips up those who would walk over it.  The forest
+deepens to the south.  The trees to the east overhang the trail.  The forest
+continues in the direction west.    
+~
+231 a 3
+D0
+To the east the path continues.
+~
+~
+0 0 23105
+D1
+To the east the path continues.
+~
+~
+0 0 23116
+D2
+To the south the path continues.
+~
+~
+0 0 23125
+D3
+To the south the path continues.
+~
+~
+0 0 23114
+S
+#23116
+Within a Great Forest~
+   The wind blows and the smaller trees sway under its gale.  The floor of the
+forest seems to slither and move.  The brush and stickers prick travellers.  
+The remnants of what could be a path are here.  Everywhere that can be seen to
+the south is full of forest.  Further east are more woods and trees.  The woods
+in the western direction are covered in brush.    
+~
+231 a 3
+D0
+To the east the path continues.
+~
+~
+0 0 23106
+D1
+To the east the path continues.
+~
+~
+0 0 23117
+D2
+To the south the path continues.
+~
+~
+0 0 23126
+D3
+To the south the path continues.
+~
+~
+0 0 23115
+S
+#23117
+A Wooded Area~
+   The forest sings and the trees lift to the heavens.  Birds chirp here and
+there, with haunting melodies.  The brush and stickers prick travellers.  A
+large tree with beautiful green leaves towers above all others.  All things to
+the south are trees.  The forest continues to the east.  The forest continues
+in the direction west.    
+~
+231 a 3
+D0
+To the east the path continues.
+~
+~
+0 0 23107
+D1
+To the east the path continues.
+~
+~
+0 0 23118
+D2
+To the south the path continues.
+~
+~
+0 0 23127
+D3
+To the south the path continues.
+~
+~
+0 0 23116
+S
+#23118
+Within a Great Forest~
+   The wind blows and the smaller trees sway under its gale.  Birds chirp here
+and there, with haunting melodies.  The lights of Phobos aren't enough to
+penetrate this wood.  A log trips up those who would walk over it.  The forest
+deepens to the south.  To the east is a plethora of trees.  All things to the
+west are trees.    
+~
+231 a 3
+D0
+To the east the path continues.
+~
+~
+0 0 23108
+D1
+To the east the path continues.
+~
+~
+0 0 23119
+D2
+To the south the path continues.
+~
+~
+0 0 23128
+D3
+To the south the path continues.
+~
+~
+0 0 23117
+S
+#23119
+By a Brush Pile~
+   The forest sings and the trees lift to the heavens.  Birds chirp here and
+there, with haunting melodies.  This forest goes on as far as the eye can see.
+A large tree with beautiful green leaves towers above all others.  The forest
+continues in the direction south.  The woods in the western direction are
+covered in brush.    
+~
+231 a 3
+D0
+To the east the path continues.
+~
+~
+0 0 23109
+D2
+To the south the path continues.
+~
+~
+0 0 23129
+D3
+To the south the path continues.
+~
+~
+0 0 23118
+S
+#23120
+Within a Great Forest~
+   During the day the sun lights these woods most beautifully.  The floor of
+the forest seems to slither and move.  This forest goes on as far as the eye
+can see.  The remnants of what could be a path are here.  Everywhere that can
+be seen to the south is full of forest.  The forest continues to the east.    
+~
+231 a 3
+D0
+To the east the path continues.
+~
+~
+0 0 23110
+D1
+To the east the path continues.
+~
+~
+0 0 23121
+D2
+To the south the path continues.
+~
+~
+0 0 23130
+D3
+~
+~
+0 0 23329
+S
+#23121
+A Wooded Area~
+   The forest sings and the trees lift to the heavens.  The trees attract
+forest denizens to their boughs.  The lights of Phobos aren't enough to
+penetrate this wood.  The forest beckons adventurers to come hither.  The woods
+in the southern direction are covered in brush.  To the east is a plethora of
+trees.  The forest thickens to the west.    
+~
+231 a 3
+D0
+To the east the path continues.
+~
+~
+0 0 23111
+D1
+To the east the path continues.
+~
+~
+0 0 23122
+D2
+To the south the path continues.
+~
+~
+0 0 23131
+D3
+To the south the path continues.
+~
+~
+0 0 23120
+S
+#23122
+By a Brush Pile~
+   The wind blows and the smaller trees sway under its gale.  The floor of the
+forest seems to slither and move.  The brush and stickers prick travellers.  A
+crushed down section of the forest floor denotes this area as a deer mating
+place.  Everywhere that can be seen to the south is full of forest.  The
+eastern direction has brush and sticker bushes everywhere.  The forest
+continues in the direction west.    
+~
+231 a 3
+D0
+To the east the path continues.
+~
+~
+0 0 23112
+D1
+To the east the path continues.
+~
+~
+0 0 23123
+D2
+To the south the path continues.
+~
+~
+0 0 23132
+D3
+To the south the path continues.
+~
+~
+0 0 23121
+S
+#23123
+Beneath a Large Tree~
+   The forest sings and the trees lift to the heavens.  The trees attract
+forest denizens to their boughs.  This forest goes on as far as the eye can
+see.  The forest beckons adventurers to come hither.  The woods in the southern
+direction are covered in brush.  Further east are more woods and trees.  The
+forest thickens to the west.    
+~
+231 a 3
+D0
+To the east the path continues.
+~
+~
+0 0 23113
+D1
+To the east the path continues.
+~
+~
+0 0 23124
+D2
+To the south the path continues.
+~
+~
+0 0 23133
+D3
+To the south the path continues.
+~
+~
+0 0 23122
+S
+#23124
+The Dark Forest~
+   The forest sings and the trees lift to the heavens.  The trees attract
+forest denizens to their boughs.  The lights of Phobos aren't enough to
+penetrate this wood.  A crushed down section of the forest floor denotes this
+area as a deer mating place.  The forest deepens to the south.  The forest
+moves along in the east.  The forest thickens to the west.    
+~
+231 a 3
+D0
+To the east the path continues.
+~
+~
+0 0 23114
+D1
+To the east the path continues.
+~
+~
+0 0 23125
+D2
+To the south the path continues.
+~
+~
+0 0 23134
+D3
+To the south the path continues.
+~
+~
+0 0 23123
+S
+#23125
+Within a Great Forest~
+   The forest sings and the trees lift to the heavens.  Birds chirp here and
+there, with haunting melodies.  The lights of Phobos aren't enough to penetrate
+this wood.  A large tree with beautiful green leaves towers above all others.
+The woods in the southern direction are covered in brush.  To the east is a
+plethora of trees.  All things to the west are trees.    
+~
+231 a 3
+D0
+To the east the path continues.
+~
+~
+0 0 23115
+D1
+To the east the path continues.
+~
+~
+0 0 23126
+D2
+To the south the path continues.
+~
+~
+0 0 23135
+D3
+To the south the path continues.
+~
+~
+0 0 23124
+S
+#23126
+The Dark Forest~
+   The wind blows and the smaller trees sway under its gale.  The trees attract
+forest denizens to their boughs.  The brush and stickers prick travellers.  
+The remnants of what could be a path are here.  The woods in the southern
+direction are covered in brush.  The eastern direction has brush and sticker
+bushes everywhere.  Trees overhang the area to the west.    
+~
+231 a 3
+D0
+To the east the path continues.
+~
+~
+0 0 23116
+D1
+To the east the path continues.
+~
+~
+0 0 23127
+D2
+To the south the path continues.
+~
+~
+0 0 23136
+D3
+To the south the path continues.
+~
+~
+0 0 23125
+S
+#23127
+By a Brush Pile~
+   The wind blows and the smaller trees sway under its gale.  The floor of the
+forest seems to slither and move.  The lights of Phobos aren't enough to
+penetrate this wood.  The forest beckons adventurers to come hither.  
+Everywhere that can be seen to the south is full of forest.  The forest
+continues to the east.  The forest thickens to the west.    
+~
+231 a 3
+D0
+To the east the path continues.
+~
+~
+0 0 23117
+D1
+To the east the path continues.
+~
+~
+0 0 23128
+D2
+To the south the path continues.
+~
+~
+0 0 23137
+D3
+To the south the path continues.
+~
+~
+0 0 23126
+S
+#23128
+Deep Within the Wood~
+   The wind blows and the smaller trees sway under its gale.  The floor of the
+forest seems to slither and move.  The lights of Phobos aren't enough to
+penetrate this wood.  A log trips up those who would walk over it.  The forest
+thickens to the south.  The forest moves along in the east.  Trees overhang the
+area to the west.    
+~
+231 a 3
+D0
+To the east the path continues.
+~
+~
+0 0 23118
+D1
+To the east the path continues.
+~
+~
+0 0 23129
+D2
+To the south the path continues.
+~
+~
+0 0 23138
+D3
+To the south the path continues.
+~
+~
+0 0 23127
+S
+#23129
+The Dark Forest~
+   The forest sings and the trees lift to the heavens.  Birds chirp here and
+there, with haunting melodies.  This forest goes on as far as the eye can see.
+The forest beckons adventurers to come hither.  Everywhere that can be seen to
+the south is full of forest.  The forest continues in the direction west.    
+~
+231 a 3
+D0
+To the east the path continues.
+~
+~
+0 0 23119
+D2
+To the south the path continues.
+~
+~
+0 0 23139
+D3
+To the south the path continues.
+~
+~
+0 0 23128
+S
+#23130
+By a Brush Pile~
+   The forest sings and the trees lift to the heavens.  The floor of the forest
+seems to slither and move.  The lights of Phobos aren't enough to penetrate
+this wood.  A small sapling crouches close to the ground.  All things to the
+south are trees.  Further east are more woods and trees.  The woods in the
+western direction are covered in brush.    
+~
+231 a 3
+D0
+To the east the path continues.
+~
+~
+0 0 23120
+D1
+To the east the path continues.
+~
+~
+0 0 23131
+D2
+To the south the path continues.
+~
+~
+0 0 23140
+D3
+~
+~
+0 0 23339
+S
+#23131
+By a Brush Pile~
+   The wind blows and the smaller trees sway under its gale.  The trees attract
+forest denizens to their boughs.  This forest goes on as far as the eye can
+see.  The forest beckons adventurers to come hither.  The forest deepens to the
+south.  The trees to the east overhang the trail.  The forest continues in the
+direction west.    
+~
+231 a 3
+D0
+To the east the path continues.
+~
+~
+0 0 23121
+D1
+To the east the path continues.
+~
+~
+0 0 23132
+D2
+To the south the path continues.
+~
+~
+0 0 23141
+D3
+To the south the path continues.
+~
+~
+0 0 23130
+S
+#23132
+Beneath a Large Tree~
+   During the day the sun lights these woods most beautifully.  The trees
+attract forest denizens to their boughs.  The lights of Phobos aren't enough to
+penetrate this wood.  The remnants of what could be a path are here.  The
+forest thickens to the south.  Further east are more woods and trees.  
+Everywhere that can be seen to the west is full of forest.    
+~
+231 a 3
+D0
+To the east the path continues.
+~
+~
+0 0 23122
+D1
+To the east the path continues.
+~
+~
+0 0 23133
+D2
+To the south the path continues.
+~
+~
+0 0 23142
+D3
+To the south the path continues.
+~
+~
+0 0 23131
+S
+#23133
+Beneath a Large Tree~
+   The forest sings and the trees lift to the heavens.  The trees attract
+forest denizens to their boughs.  The brush and stickers prick travellers.  
+The remnants of what could be a path are here.  All things to the south are
+trees.  The eastern direction has brush and sticker bushes everywhere.  The
+forest continues in the direction west.    
+~
+231 a 3
+D0
+To the east the path continues.
+~
+~
+0 0 23123
+D1
+To the east the path continues.
+~
+~
+0 0 23134
+D2
+To the south the path continues.
+~
+~
+0 0 23143
+D3
+To the south the path continues.
+~
+~
+0 0 23132
+S
+#23134
+By a Brush Pile~
+   The forest sings and the trees lift to the heavens.  Birds chirp here and
+there, with haunting melodies.  This forest goes on as far as the eye can see.
+A crushed down section of the forest floor denotes this area as a deer mating
+place.  The forest thickens to the south.  The forest moves along in the east.
+Trees overhang the area to the west.    
+~
+231 a 3
+D0
+To the east the path continues.
+~
+~
+0 0 23124
+D1
+To the east the path continues.
+~
+~
+0 0 23135
+D2
+To the south the path continues.
+~
+~
+0 0 23144
+D3
+To the south the path continues.
+~
+~
+0 0 23133
+S
+#23135
+Within a Great Forest~
+   The wind blows and the smaller trees sway under its gale.  The trees attract
+forest denizens to their boughs.  The lights of Phobos aren't enough to
+penetrate this wood.  A crushed down section of the forest floor denotes this
+area as a deer mating place.  The woods in the southern direction are covered
+in brush.  Further east are more woods and trees.  Everywhere that can be seen
+to the west is full of forest.    
+~
+231 a 3
+D0
+To the east the path continues.
+~
+~
+0 0 23125
+D1
+To the east the path continues.
+~
+~
+0 0 23136
+D2
+To the south the path continues.
+~
+~
+0 0 23145
+D3
+To the south the path continues.
+~
+~
+0 0 23134
+S
+#23136
+Beneath a Large Tree~
+   The forest sings and the trees lift to the heavens.  The trees attract
+forest denizens to their boughs.  The lights of Phobos aren't enough to
+penetrate this wood.  The remnants of what could be a path are here.  The
+forest continues in the direction south.  The forest continues to the east.  
+All things to the west are trees.    
+~
+231 a 3
+D0
+To the east the path continues.
+~
+~
+0 0 23126
+D1
+To the east the path continues.
+~
+~
+0 0 23137
+D2
+To the south the path continues.
+~
+~
+0 0 23146
+D3
+To the south the path continues.
+~
+~
+0 0 23135
+S
+#23137
+Beneath a Large Tree~
+   The forest sings and the trees lift to the heavens.  The trees attract
+forest denizens to their boughs.  The brush and stickers prick travellers.  A
+crushed down section of the forest floor denotes this area as a deer mating
+place.  Everywhere that can be seen to the south is full of forest.  The forest
+moves along in the east.  The woods in the western direction are covered in
+brush.    
+~
+231 a 3
+D0
+To the east the path continues.
+~
+~
+0 0 23127
+D1
+To the east the path continues.
+~
+~
+0 0 23138
+D2
+To the south the path continues.
+~
+~
+0 0 23147
+D3
+To the south the path continues.
+~
+~
+0 0 23136
+S
+#23138
+The Dark Forest~
+   During the day the sun lights these woods most beautifully.  The trees
+attract forest denizens to their boughs.  The brush and stickers prick
+travellers.  A large tree with beautiful green leaves towers above all others.
+All things to the south are trees.  To the east is a plethora of trees.  The
+woods in the western direction are covered in brush.    
+~
+231 a 3
+D0
+To the east the path continues.
+~
+~
+0 0 23128
+D1
+To the east the path continues.
+~
+~
+0 0 23139
+D2
+To the south the path continues.
+~
+~
+0 0 23148
+D3
+To the south the path continues.
+~
+~
+0 0 23137
+S
+#23139
+Beneath a Large Tree~
+   The forest sings and the trees lift to the heavens.  Birds chirp here and
+there, with haunting melodies.  This forest goes on as far as the eye can see.
+A small sapling crouches close to the ground.  The woods in the southern
+direction are covered in brush.  The woods in the western direction are covered
+in brush.    
+~
+231 a 3
+D0
+To the east the path continues.
+~
+~
+0 0 23129
+D2
+To the south the path continues.
+~
+~
+0 0 23149
+D3
+To the south the path continues.
+~
+~
+0 0 23138
+S
+#23140
+Within the Sticker Bushes~
+   The wind blows and the smaller trees sway under its gale.  The trees attract
+forest denizens to their boughs.  The brush and stickers prick travellers.  A
+large tree with beautiful green leaves towers above all others.  The forest
+thickens to the south.  The trees to the east overhang the trail.    
+~
+231 a 3
+D0
+To the east the path continues.
+~
+~
+0 0 23130
+D1
+To the east the path continues.
+~
+~
+0 0 23141
+D2
+To the south the path continues.
+~
+~
+0 0 23150
+D3
+~
+~
+0 0 23349
+S
+#23141
+Beneath a Large Tree~
+   During the day the sun lights these woods most beautifully.  Birds chirp
+here and there, with haunting melodies.  This forest goes on as far as the eye
+can see.  A large tree with beautiful green leaves towers above all others.  
+All things to the south are trees.  The forest moves along in the east.  The
+forest thickens to the west.    
+~
+231 a 3
+D0
+To the east the path continues.
+~
+~
+0 0 23131
+D1
+To the east the path continues.
+~
+~
+0 0 23142
+D2
+To the south the path continues.
+~
+~
+0 0 23151
+D3
+To the south the path continues.
+~
+~
+0 0 23140
+S
+#23142
+Deep Within the Wood~
+   The forest sings and the trees lift to the heavens.  The trees attract
+forest denizens to their boughs.  This forest goes on as far as the eye can
+see.  A crushed down section of the forest floor denotes this area as a deer
+mating place.  The forest continues in the direction south.  The trees to the
+east overhang the trail.  The woods in the western direction are covered in
+brush.    
+~
+231 a 3
+D0
+To the east the path continues.
+~
+~
+0 0 23132
+D1
+To the east the path continues.
+~
+~
+0 0 23143
+D2
+To the south the path continues.
+~
+~
+0 0 23152
+D3
+To the south the path continues.
+~
+~
+0 0 23141
+S
+#23143
+A Wooded Area~
+   During the day the sun lights these woods most beautifully.  The trees
+attract forest denizens to their boughs.  This forest goes on as far as the eye
+can see.  A small sapling crouches close to the ground.  The woods in the
+southern direction are covered in brush.  The forest moves along in the east.
+The forest thickens to the west.    
+~
+231 a 3
+D0
+To the east the path continues.
+~
+~
+0 0 23133
+D1
+To the east the path continues.
+~
+~
+0 0 23144
+D2
+To the south the path continues.
+~
+~
+0 0 23153
+D3
+To the south the path continues.
+~
+~
+0 0 23142
+S
+#23144
+The Dark Forest~
+   During the day the sun lights these woods most beautifully.  Birds chirp
+here and there, with haunting melodies.  The brush and stickers prick
+travellers.  A log trips up those who would walk over it.  All things to the
+south are trees.  The forest moves along in the east.  Everywhere that can be
+seen to the west is full of forest.    
+~
+231 a 3
+D0
+To the east the path continues.
+~
+~
+0 0 23134
+D1
+To the east the path continues.
+~
+~
+0 0 23145
+D2
+To the south the path continues.
+~
+~
+0 0 23154
+D3
+To the south the path continues.
+~
+~
+0 0 23143
+S
+#23145
+A Wooded Area~
+   During the day the sun lights these woods most beautifully.  The trees
+attract forest denizens to their boughs.  The brush and stickers prick
+travellers.  The forest beckons adventurers to come hither.  The forest deepens
+to the south.  The eastern direction has brush and sticker bushes everywhere.
+The woods in the western direction are covered in brush.    
+~
+231 a 3
+D0
+To the east the path continues.
+~
+~
+0 0 23135
+D1
+To the east the path continues.
+~
+~
+0 0 23146
+D2
+To the south the path continues.
+~
+~
+0 0 23155
+D3
+To the south the path continues.
+~
+~
+0 0 23144
+S
+#23146
+Within the Sticker Bushes~
+   The wind blows and the smaller trees sway under its gale.  The floor of the
+forest seems to slither and move.  The lights of Phobos aren't enough to
+penetrate this wood.  The forest beckons adventurers to come hither.  The woods
+in the southern direction are covered in brush.  The forest continues to the
+east.  The forest continues in the direction west.    
+~
+231 a 3
+D0
+To the east the path continues.
+~
+~
+0 0 23136
+D1
+To the east the path continues.
+~
+~
+0 0 23147
+D2
+To the south the path continues.
+~
+~
+0 0 23156
+D3
+To the south the path continues.
+~
+~
+0 0 23145
+S
+#23147
+Within the Sticker Bushes~
+   The wind blows and the smaller trees sway under its gale.  Birds chirp here
+and there, with haunting melodies.  This forest goes on as far as the eye can
+see.  The forest beckons adventurers to come hither.  The forest thickens to
+the south.  The trees to the east overhang the trail.  The forest thickens to
+the west.    
+~
+231 a 3
+D0
+To the east the path continues.
+~
+~
+0 0 23137
+D1
+To the east the path continues.
+~
+~
+0 0 23148
+D2
+To the south the path continues.
+~
+~
+0 0 23157
+D3
+To the south the path continues.
+~
+~
+0 0 23146
+S
+#23148
+Within the Sticker Bushes~
+   The wind blows and the smaller trees sway under its gale.  The floor of the
+forest seems to slither and move.  The lights of Phobos aren't enough to
+penetrate this wood.  The remnants of what could be a path are here.  The
+forest thickens to the south.  Further east are more woods and trees.  All
+things to the west are trees.    
+~
+231 a 3
+D0
+To the east the path continues.
+~
+~
+0 0 23138
+D1
+To the east the path continues.
+~
+~
+0 0 23149
+D2
+To the south the path continues.
+~
+~
+0 0 23158
+D3
+To the south the path continues.
+~
+~
+0 0 23147
+S
+#23149
+Beneath a Large Tree~
+   The wind blows and the smaller trees sway under its gale.  Birds chirp here
+and there, with haunting melodies.  The lights of Phobos aren't enough to
+penetrate this wood.  The forest beckons adventurers to come hither.  The
+forest deepens to the south.  The forest thickens to the west.    
+~
+231 a 3
+D0
+To the east the path continues.
+~
+~
+0 0 23139
+D2
+To the south the path continues.
+~
+~
+0 0 23159
+D3
+To the south the path continues.
+~
+~
+0 0 23148
+S
+#23150
+By a Brush Pile~
+   During the day the sun lights these woods most beautifully.  Birds chirp
+here and there, with haunting melodies.  The brush and stickers prick
+travellers.  The remnants of what could be a path are here.  The forest
+thickens to the south.  The eastern direction has brush and sticker bushes
+everywhere.    
+~
+231 a 3
+D0
+To the east the path continues.
+~
+~
+0 0 23140
+D1
+To the east the path continues.
+~
+~
+0 0 23151
+D2
+To the south the path continues.
+~
+~
+0 0 23160
+D3
+~
+~
+0 0 23359
+S
+#23151
+Within a Great Forest~
+   During the day the sun lights these woods most beautifully.  The floor of
+the forest seems to slither and move.  The brush and stickers prick travellers.
+A crushed down section of the forest floor denotes this area as a deer mating
+place.  The woods in the southern direction are covered in brush.  The eastern
+direction has brush and sticker bushes everywhere.  The forest continues in the
+direction west.    
+~
+231 a 3
+D0
+To the east the path continues.
+~
+~
+0 0 23141
+D1
+To the east the path continues.
+~
+~
+0 0 23152
+D2
+To the south the path continues.
+~
+~
+0 0 23161
+D3
+To the south the path continues.
+~
+~
+0 0 23150
+S
+#23152
+The Dark Forest~
+   The wind blows and the smaller trees sway under its gale.  Birds chirp here
+and there, with haunting melodies.  The brush and stickers prick travellers.  
+A small sapling crouches close to the ground.  All things to the south are
+trees.  To the east is a plethora of trees.  Everywhere that can be seen to the
+west is full of forest.    
+~
+231 a 3
+D0
+To the east the path continues.
+~
+~
+0 0 23142
+D1
+To the east the path continues.
+~
+~
+0 0 23153
+D2
+To the south the path continues.
+~
+~
+0 0 23162
+D3
+To the south the path continues.
+~
+~
+0 0 23151
+S
+#23153
+Deep Within the Wood~
+   The wind blows and the smaller trees sway under its gale.  The floor of the
+forest seems to slither and move.  The lights of Phobos aren't enough to
+penetrate this wood.  A crushed down section of the forest floor denotes this
+area as a deer mating place.  The forest thickens to the south.  The trees to
+the east overhang the trail.  Everywhere that can be seen to the west is full
+of forest.    
+~
+231 a 3
+D0
+To the east the path continues.
+~
+~
+0 0 23143
+D1
+To the east the path continues.
+~
+~
+0 0 23154
+D2
+To the south the path continues.
+~
+~
+0 0 23163
+D3
+To the south the path continues.
+~
+~
+0 0 23152
+S
+#23154
+A Wooded Area~
+   The wind blows and the smaller trees sway under its gale.  The floor of the
+forest seems to slither and move.  The lights of Phobos aren't enough to
+penetrate this wood.  A log trips up those who would walk over it.  All things
+to the south are trees.  The forest moves along in the east.  The forest
+continues in the direction west.    
+~
+231 a 3
+D0
+To the east the path continues.
+~
+~
+0 0 23144
+D1
+To the east the path continues.
+~
+~
+0 0 23155
+D2
+To the south the path continues.
+~
+~
+0 0 23164
+D3
+To the south the path continues.
+~
+~
+0 0 23153
+S
+#23155
+Within a Great Forest~
+   During the day the sun lights these woods most beautifully.  Birds chirp
+here and there, with haunting melodies.  The lights of Phobos aren't enough to
+penetrate this wood.  A small sapling crouches close to the ground.  The woods
+in the southern direction are covered in brush.  The eastern direction has
+brush and sticker bushes everywhere.  The forest continues in the direction
+west.    
+~
+231 a 3
+D0
+To the east the path continues.
+~
+~
+0 0 23145
+D1
+To the east the path continues.
+~
+~
+0 0 23156
+D2
+To the south the path continues.
+~
+~
+0 0 23165
+D3
+To the south the path continues.
+~
+~
+0 0 23154
+S
+#23156
+The Dark Forest~
+   During the day the sun lights these woods most beautifully.  Birds chirp
+here and there, with haunting melodies.  The lights of Phobos aren't enough to
+penetrate this wood.  A large tree with beautiful green leaves towers above all
+others.  The forest thickens to the south.  Further east are more woods and
+trees.  Everywhere that can be seen to the west is full of forest.    
+~
+231 a 3
+D0
+To the east the path continues.
+~
+~
+0 0 23146
+D1
+To the east the path continues.
+~
+~
+0 0 23157
+D2
+To the south the path continues.
+~
+~
+0 0 23166
+D3
+To the south the path continues.
+~
+~
+0 0 23155
+S
+#23157
+Beneath a Large Tree~
+   During the day the sun lights these woods most beautifully.  The floor of
+the forest seems to slither and move.  The lights of Phobos aren't enough to
+penetrate this wood.  A crushed down section of the forest floor denotes this
+area as a deer mating place.  Everywhere that can be seen to the south is full
+of forest.  The eastern direction has brush and sticker bushes everywhere.  
+The forest continues in the direction west.    
+~
+231 a 3
+D0
+To the east the path continues.
+~
+~
+0 0 23147
+D1
+To the east the path continues.
+~
+~
+0 0 23158
+D2
+To the south the path continues.
+~
+~
+0 0 23167
+D3
+To the south the path continues.
+~
+~
+0 0 23156
+S
+#23158
+Beneath a Large Tree~
+   During the day the sun lights these woods most beautifully.  The floor of
+the forest seems to slither and move.  This forest goes on as far as the eye
+can see.  A small sapling crouches close to the ground.  The forest deepens to
+the south.  The trees to the east overhang the trail.  The woods in the western
+direction are covered in brush.    
+~
+231 a 3
+D0
+To the east the path continues.
+~
+~
+0 0 23148
+D1
+To the east the path continues.
+~
+~
+0 0 23159
+D2
+To the south the path continues.
+~
+~
+0 0 23168
+D3
+To the south the path continues.
+~
+~
+0 0 23157
+S
+#23159
+A Wooded Area~
+   During the day the sun lights these woods most beautifully.  Birds chirp
+here and there, with haunting melodies.  This forest goes on as far as the eye
+can see.  A small sapling crouches close to the ground.  The forest deepens to
+the south.  The forest continues in the direction west.    
+~
+231 a 3
+D0
+To the east the path continues.
+~
+~
+0 0 23149
+D2
+To the south the path continues.
+~
+~
+0 0 23169
+D3
+To the south the path continues.
+~
+~
+0 0 23158
+S
+#23160
+A Wooded Area~
+   The forest sings and the trees lift to the heavens.  Birds chirp here and
+there, with haunting melodies.  The brush and stickers prick travellers.  A log
+trips up those who would walk over it.  All things to the south are trees.  
+Further east are more woods and trees.    
+~
+231 a 3
+D0
+To the east the path continues.
+~
+~
+0 0 23150
+D1
+To the east the path continues.
+~
+~
+0 0 23161
+D2
+To the south the path continues.
+~
+~
+0 0 23170
+D3
+~
+~
+0 0 23369
+S
+#23161
+Within the Sticker Bushes~
+   During the day the sun lights these woods most beautifully.  Birds chirp
+here and there, with haunting melodies.  The brush and stickers prick
+travellers.  A crushed down section of the forest floor denotes this area as a
+deer mating place.  The forest thickens to the south.  The trees to the east
+overhang the trail.  Everywhere that can be seen to the west is full of forest.
+  
+~
+231 a 3
+D0
+To the east the path continues.
+~
+~
+0 0 23151
+D1
+To the east the path continues.
+~
+~
+0 0 23162
+D2
+To the south the path continues.
+~
+~
+0 0 23171
+D3
+To the south the path continues.
+~
+~
+0 0 23160
+S
+#23162
+By a Brush Pile~
+   The wind blows and the smaller trees sway under its gale.  Birds chirp here
+and there, with haunting melodies.  The brush and stickers prick travellers.  
+A crushed down section of the forest floor denotes this area as a deer mating
+place.  The forest thickens to the south.  Further east are more woods and
+trees.  All things to the west are trees.    
+~
+231 a 3
+D0
+To the east the path continues.
+~
+~
+0 0 23152
+D1
+To the east the path continues.
+~
+~
+0 0 23163
+D2
+To the south the path continues.
+~
+~
+0 0 23172
+D3
+To the south the path continues.
+~
+~
+0 0 23161
+S
+#23163
+Beneath a Large Tree~
+   During the day the sun lights these woods most beautifully.  Birds chirp
+here and there, with haunting melodies.  The lights of Phobos aren't enough to
+penetrate this wood.  A small sapling crouches close to the ground.  All things
+to the south are trees.  The forest moves along in the east.  The woods in the
+western direction are covered in brush.    
+~
+231 a 3
+D0
+To the east the path continues.
+~
+~
+0 0 23153
+D1
+To the east the path continues.
+~
+~
+0 0 23164
+D2
+To the south the path continues.
+~
+~
+0 0 23173
+D3
+To the south the path continues.
+~
+~
+0 0 23162
+S
+#23164
+The Dark Forest~
+   The forest sings and the trees lift to the heavens.  Birds chirp here and
+there, with haunting melodies.  The lights of Phobos aren't enough to penetrate
+this wood.  A large tree with beautiful green leaves towers above all others.
+The forest thickens to the south.  The forest continues to the east.  The
+forest continues in the direction west.    
+~
+231 a 3
+D0
+To the east the path continues.
+~
+~
+0 0 23154
+D1
+To the east the path continues.
+~
+~
+0 0 23165
+D2
+To the south the path continues.
+~
+~
+0 0 23174
+D3
+To the south the path continues.
+~
+~
+0 0 23163
+S
+#23165
+The Dark Forest~
+   The wind blows and the smaller trees sway under its gale.  The floor of the
+forest seems to slither and move.  This forest goes on as far as the eye can
+see.  The remnants of what could be a path are here.  The forest deepens to the
+south.  The eastern direction has brush and sticker bushes everywhere.  The
+forest thickens to the west.    
+~
+231 a 3
+D0
+To the east the path continues.
+~
+~
+0 0 23155
+D1
+To the east the path continues.
+~
+~
+0 0 23166
+D2
+To the south the path continues.
+~
+~
+0 0 23175
+D3
+To the south the path continues.
+~
+~
+0 0 23164
+S
+#23166
+Within a Great Forest~
+   During the day the sun lights these woods most beautifully.  The trees
+attract forest denizens to their boughs.  The lights of Phobos aren't enough to
+penetrate this wood.  The remnants of what could be a path are here.  The
+forest thickens to the south.  The forest moves along in the east.  The forest
+continues in the direction west.    
+~
+231 a 3
+D0
+To the east the path continues.
+~
+~
+0 0 23156
+D1
+To the east the path continues.
+~
+~
+0 0 23167
+D2
+To the south the path continues.
+~
+~
+0 0 23176
+D3
+To the south the path continues.
+~
+~
+0 0 23165
+S
+#23167
+Within the Sticker Bushes~
+   The forest sings and the trees lift to the heavens.  The trees attract
+forest denizens to their boughs.  This forest goes on as far as the eye can
+see.  A log trips up those who would walk over it.  The forest thickens to the
+south.  The forest moves along in the east.  The forest thickens to the west.
+  
+~
+231 a 3
+D0
+To the east the path continues.
+~
+~
+0 0 23157
+D1
+To the east the path continues.
+~
+~
+0 0 23168
+D2
+To the south the path continues.
+~
+~
+0 0 23177
+D3
+To the south the path continues.
+~
+~
+0 0 23166
+S
+#23168
+Within the Sticker Bushes~
+   The forest sings and the trees lift to the heavens.  The floor of the forest
+seems to slither and move.  The lights of Phobos aren't enough to penetrate
+this wood.  The remnants of what could be a path are here.  The forest thickens
+to the south.  The trees to the east overhang the trail.  All things to the
+west are trees.    
+~
+231 a 3
+D0
+To the east the path continues.
+~
+~
+0 0 23158
+D1
+To the east the path continues.
+~
+~
+0 0 23169
+D2
+To the south the path continues.
+~
+~
+0 0 23178
+D3
+To the south the path continues.
+~
+~
+0 0 23167
+S
+#23169
+Deep Within the Wood~
+   During the day the sun lights these woods most beautifully.  The trees
+attract forest denizens to their boughs.  The lights of Phobos aren't enough to
+penetrate this wood.  A large tree with beautiful green leaves towers above all
+others.  The woods in the southern direction are covered in brush.  The forest
+thickens to the west.    
+~
+231 a 3
+D0
+To the east the path continues.
+~
+~
+0 0 23159
+D2
+To the south the path continues.
+~
+~
+0 0 23179
+D3
+To the south the path continues.
+~
+~
+0 0 23168
+S
+#23170
+Deep Within the Wood~
+   During the day the sun lights these woods most beautifully.  Birds chirp
+here and there, with haunting melodies.  This forest goes on as far as the eye
+can see.  The forest beckons adventurers to come hither.  The woods in the
+southern direction are covered in brush.  The forest continues to the east.  
+
+~
+231 a 3
+D0
+To the east the path continues.
+~
+~
+0 0 23160
+D1
+To the east the path continues.
+~
+~
+0 0 23171
+D2
+To the south the path continues.
+~
+~
+0 0 23180
+D3
+~
+~
+0 0 23379
+S
+#23171
+The Dark Forest~
+   During the day the sun lights these woods most beautifully.  The trees
+attract forest denizens to their boughs.  The brush and stickers prick
+travellers.  A log trips up those who would walk over it.  The forest continues
+in the direction south.  The forest continues to the east.  Everywhere that can
+be seen to the west is full of forest.    
+~
+231 a 3
+D0
+To the east the path continues.
+~
+~
+0 0 23161
+D1
+To the east the path continues.
+~
+~
+0 0 23172
+D2
+To the south the path continues.
+~
+~
+0 0 23181
+D3
+To the south the path continues.
+~
+~
+0 0 23170
+S
+#23172
+Beneath a Large Tree~
+   During the day the sun lights these woods most beautifully.  The trees
+attract forest denizens to their boughs.  This forest goes on as far as the eye
+can see.  The remnants of what could be a path are here.  The woods in the
+southern direction are covered in brush.  Further east are more woods and
+trees.  The forest continues in the direction west.    
+~
+231 a 3
+D0
+To the east the path continues.
+~
+~
+0 0 23162
+D1
+To the east the path continues.
+~
+~
+0 0 23173
+D2
+To the south the path continues.
+~
+~
+0 0 23182
+D3
+To the south the path continues.
+~
+~
+0 0 23171
+S
+#23173
+Within the Sticker Bushes~
+   The wind blows and the smaller trees sway under its gale.  Birds chirp here
+and there, with haunting melodies.  The brush and stickers prick travellers.  
+A large tree with beautiful green leaves towers above all others.  Everywhere
+that can be seen to the south is full of forest.  The trees to the east
+overhang the trail.  Everywhere that can be seen to the west is full of forest.
+  
+~
+231 a 3
+D0
+To the east the path continues.
+~
+~
+0 0 23163
+D1
+To the east the path continues.
+~
+~
+0 0 23174
+D2
+To the south the path continues.
+~
+~
+0 0 23183
+D3
+To the south the path continues.
+~
+~
+0 0 23172
+S
+#23174
+Deep Within the Wood~
+   The forest sings and the trees lift to the heavens.  Birds chirp here and
+there, with haunting melodies.  The brush and stickers prick travellers.  A
+small sapling crouches close to the ground.  The woods in the southern
+direction are covered in brush.  The forest continues to the east.  Everywhere
+that can be seen to the west is full of forest.    
+~
+231 a 3
+D0
+To the east the path continues.
+~
+~
+0 0 23164
+D1
+To the east the path continues.
+~
+~
+0 0 23175
+D2
+To the south the path continues.
+~
+~
+0 0 23184
+D3
+To the south the path continues.
+~
+~
+0 0 23173
+S
+#23175
+Beneath a Large Tree~
+   The forest sings and the trees lift to the heavens.  The trees attract
+forest denizens to their boughs.  This forest goes on as far as the eye can
+see.  The forest beckons adventurers to come hither.  The forest continues in
+the direction south.  Further east are more woods and trees.  The forest
+thickens to the west.    
+~
+231 a 3
+D0
+To the east the path continues.
+~
+~
+0 0 23165
+D1
+To the east the path continues.
+~
+~
+0 0 23176
+D2
+To the south the path continues.
+~
+~
+0 0 23185
+D3
+To the south the path continues.
+~
+~
+0 0 23174
+S
+#23176
+Within the Sticker Bushes~
+   The wind blows and the smaller trees sway under its gale.  The floor of the
+forest seems to slither and move.  The lights of Phobos aren't enough to
+penetrate this wood.  The forest beckons adventurers to come hither.  
+Everywhere that can be seen to the south is full of forest.  Further east are
+more woods and trees.  The forest thickens to the west.    
+~
+231 a 3
+D0
+To the east the path continues.
+~
+~
+0 0 23166
+D1
+To the east the path continues.
+~
+~
+0 0 23177
+D2
+To the south the path continues.
+~
+~
+0 0 23186
+D3
+To the south the path continues.
+~
+~
+0 0 23175
+S
+#23177
+The Dark Forest~
+   The forest sings and the trees lift to the heavens.  Birds chirp here and
+there, with haunting melodies.  The lights of Phobos aren't enough to penetrate
+this wood.  A log trips up those who would walk over it.  All things to the
+south are trees.  The forest moves along in the east.  Trees overhang the area
+to the west.    
+~
+231 a 3
+D0
+To the east the path continues.
+~
+~
+0 0 23167
+D1
+To the east the path continues.
+~
+~
+0 0 23178
+D2
+To the south the path continues.
+~
+~
+0 0 23187
+D3
+To the south the path continues.
+~
+~
+0 0 23176
+S
+#23178
+Beneath a Canopy of Trees~
+   During the day the sun lights these woods most beautifully.  The trees
+attract forest denizens to their boughs.  This forest goes on as far as the eye
+can see.  A large tree with beautiful green leaves towers above all others.  
+All things to the south are trees.  The forest continues to the east.  Trees
+overhang the area to the west.    
+~
+231 a 3
+D0
+To the east the path continues.
+~
+~
+0 0 23168
+D1
+To the east the path continues.
+~
+~
+0 0 23179
+D2
+To the south the path continues.
+~
+~
+0 0 23188
+D3
+To the south the path continues.
+~
+~
+0 0 23177
+S
+#23179
+Deep Within the Wood~
+   The wind blows and the smaller trees sway under its gale.  Birds chirp here
+and there, with haunting melodies.  This forest goes on as far as the eye can
+see.  The remnants of what could be a path are here.  All things to the south
+are trees.  The forest thickens to the west.    
+~
+231 a 3
+D0
+To the east the path continues.
+~
+~
+0 0 23169
+D2
+To the south the path continues.
+~
+~
+0 0 23189
+D3
+To the south the path continues.
+~
+~
+0 0 23178
+S
+#23180
+Beneath a Large Tree~
+   The wind blows and the smaller trees sway under its gale.  Birds chirp here
+and there, with haunting melodies.  The lights of Phobos aren't enough to
+penetrate this wood.  A crushed down section of the forest floor denotes this
+area as a deer mating place.  All things to the south are trees.  The eastern
+direction has brush and sticker bushes everywhere.  All things to the west are
+trees.    
+~
+231 a 3
+D0
+To the east the path continues.
+~
+~
+0 0 23170
+D1
+To the east the path continues.
+~
+~
+0 0 23181
+D2
+To the south the path continues.
+~
+~
+0 0 23190
+D3
+~
+~
+0 0 23389
+S
+#23181
+Deep Within the Wood~
+   The wind blows and the smaller trees sway under its gale.  Birds chirp here
+and there, with haunting melodies.  This forest goes on as far as the eye can
+see.  A log trips up those who would walk over it.  All things to the south are
+trees.  The eastern direction has brush and sticker bushes everywhere.  The
+forest thickens to the west.    
+~
+231 a 3
+D0
+To the east the path continues.
+~
+~
+0 0 23171
+D1
+To the east the path continues.
+~
+~
+0 0 23182
+D2
+To the south the path continues.
+~
+~
+0 0 23191
+D3
+To the south the path continues.
+~
+~
+0 0 23180
+S
+#23182
+The Dark Forest~
+   The wind blows and the smaller trees sway under its gale.  The floor of the
+forest seems to slither and move.  The lights of Phobos aren't enough to
+penetrate this wood.  A log trips up those who would walk over it.  The woods
+in the southern direction are covered in brush.  The eastern direction has
+brush and sticker bushes everywhere.  All things to the west are trees.    
+~
+231 a 3
+D0
+To the east the path continues.
+~
+~
+0 0 23172
+D1
+To the east the path continues.
+~
+~
+0 0 23183
+D2
+To the south the path continues.
+~
+~
+0 0 23192
+D3
+To the south the path continues.
+~
+~
+0 0 23181
+S
+#23183
+Beneath a Canopy of Trees~
+   During the day the sun lights these woods most beautifully.  The trees
+attract forest denizens to their boughs.  This forest goes on as far as the eye
+can see.  A log trips up those who would walk over it.  The woods in the
+southern direction are covered in brush.  Further east are more woods and
+trees.  The woods in the western direction are covered in brush.    
+~
+231 a 3
+D0
+To the east the path continues.
+~
+~
+0 0 23173
+D1
+To the east the path continues.
+~
+~
+0 0 23184
+D2
+To the south the path continues.
+~
+~
+0 0 23193
+D3
+To the south the path continues.
+~
+~
+0 0 23182
+S
+#23184
+Deep Within the Wood~
+   During the day the sun lights these woods most beautifully.  Birds chirp
+here and there, with haunting melodies.  This forest goes on as far as the eye
+can see.  A small sapling crouches close to the ground.  The woods in the
+southern direction are covered in brush.  The eastern direction has brush and
+sticker bushes everywhere.  All things to the west are trees.    
+~
+231 a 3
+D0
+To the east the path continues.
+~
+~
+0 0 23174
+D1
+To the east the path continues.
+~
+~
+0 0 23185
+D2
+To the south the path continues.
+~
+~
+0 0 23194
+D3
+To the south the path continues.
+~
+~
+0 0 23183
+S
+#23185
+Within a Great Forest~
+   During the day the sun lights these woods most beautifully.  The floor of
+the forest seems to slither and move.  The lights of Phobos aren't enough to
+penetrate this wood.  The remnants of what could be a path are here.  
+Everywhere that can be seen to the south is full of forest.  The forest
+continues to the east.  The forest thickens to the west.    
+~
+231 a 3
+D0
+To the east the path continues.
+~
+~
+0 0 23175
+D1
+To the east the path continues.
+~
+~
+0 0 23186
+D2
+To the south the path continues.
+~
+~
+0 0 23195
+D3
+To the south the path continues.
+~
+~
+0 0 23184
+S
+#23186
+Beneath a Large Tree~
+   During the day the sun lights these woods most beautifully.  Birds chirp
+here and there, with haunting melodies.  The brush and stickers prick
+travellers.  A small sapling crouches close to the ground.  The forest deepens
+to the south.  The trees to the east overhang the trail.  Everywhere that can
+be seen to the west is full of forest.    
+~
+231 a 3
+D0
+To the east the path continues.
+~
+~
+0 0 23176
+D1
+To the east the path continues.
+~
+~
+0 0 23187
+D2
+To the south the path continues.
+~
+~
+0 0 23196
+D3
+To the south the path continues.
+~
+~
+0 0 23185
+S
+#23187
+Beneath a Canopy of Trees~
+   The wind blows and the smaller trees sway under its gale.  The floor of the
+forest seems to slither and move.  This forest goes on as far as the eye can
+see.  A crushed down section of the forest floor denotes this area as a deer
+mating place.  All things to the south are trees.  The forest continues to the
+east.  The woods in the western direction are covered in brush.    
+~
+231 a 3
+D0
+To the east the path continues.
+~
+~
+0 0 23177
+D1
+To the east the path continues.
+~
+~
+0 0 23188
+D2
+To the south the path continues.
+~
+~
+0 0 23197
+D3
+To the south the path continues.
+~
+~
+0 0 23186
+S
+#23188
+Within a Great Forest~
+   The wind blows and the smaller trees sway under its gale.  The floor of the
+forest seems to slither and move.  This forest goes on as far as the eye can
+see.  A log trips up those who would walk over it.  The forest continues in the
+direction south.  The forest continues to the east.  The woods in the western
+direction are covered in brush.    
+~
+231 a 3
+D0
+To the east the path continues.
+~
+~
+0 0 23178
+D1
+To the east the path continues.
+~
+~
+0 0 23189
+D2
+To the south the path continues.
+~
+~
+0 0 23198
+D3
+To the south the path continues.
+~
+~
+0 0 23187
+S
+#23189
+Within the Sticker Bushes~
+   The wind blows and the smaller trees sway under its gale.  Birds chirp here
+and there, with haunting melodies.  The lights of Phobos aren't enough to
+penetrate this wood.  A crushed down section of the forest floor denotes this
+area as a deer mating place.  All things to the south are trees.  All things to
+the west are trees.    
+~
+231 a 3
+D0
+To the east the path continues.
+~
+~
+0 0 23179
+D2
+To the south the path continues.
+~
+~
+0 0 23199
+D3
+To the south the path continues.
+~
+~
+0 0 23188
+S
+#23190
+Deep Within the Wood~
+   The wind blows and the smaller trees sway under its gale.  Birds chirp here
+and there, with haunting melodies.  The lights of Phobos aren't enough to
+penetrate this wood.  The forest beckons adventurers to come hither.  The
+forest moves along in the east.    
+~
+231 a 3
+D0
+To the east the path continues.
+~
+~
+0 0 23180
+D1
+To the east the path continues.
+~
+~
+0 0 23191
+D2
+~
+~
+0 0 23000
+D3
+~
+~
+0 0 23399
+S
+#23191
+Within the Sticker Bushes~
+   The forest sings and the trees lift to the heavens.  Birds chirp here and
+there, with haunting melodies.  This forest goes on as far as the eye can see.
+A large tree with beautiful green leaves towers above all others.  The eastern
+direction has brush and sticker bushes everywhere.  All things to the west are
+trees.    
+~
+231 a 3
+D0
+To the east the path continues.
+~
+~
+0 0 23181
+D1
+To the east the path continues.
+~
+~
+0 0 23192
+D2
+~
+~
+0 0 23001
+D3
+To the south the path continues.
+~
+~
+0 0 23190
+S
+#23192
+Deep Within the Wood~
+   During the day the sun lights these woods most beautifully.  The trees
+attract forest denizens to their boughs.  This forest goes on as far as the eye
+can see.  The forest beckons adventurers to come hither.  The forest continues
+to the east.  The woods in the western direction are covered in brush.    
+~
+231 a 3
+D0
+To the east the path continues.
+~
+~
+0 0 23182
+D1
+To the east the path continues.
+~
+~
+0 0 23193
+D2
+~
+~
+0 0 23002
+D3
+To the south the path continues.
+~
+~
+0 0 23191
+S
+#23193
+Deep Within the Wood~
+   During the day the sun lights these woods most beautifully.  Birds chirp
+here and there, with haunting melodies.  The lights of Phobos aren't enough to
+penetrate this wood.  The remnants of what could be a path are here.  The
+forest continues to the east.  All things to the west are trees.    
+~
+231 a 3
+D0
+To the east the path continues.
+~
+~
+0 0 23183
+D1
+To the east the path continues.
+~
+~
+0 0 23194
+D2
+~
+~
+0 0 23003
+D3
+To the south the path continues.
+~
+~
+0 0 23192
+S
+#23194
+Beneath a Large Tree~
+   The wind blows and the smaller trees sway under its gale.  Birds chirp here
+and there, with haunting melodies.  The lights of Phobos aren't enough to
+penetrate this wood.  The remnants of what could be a path are here.  The
+eastern direction has brush and sticker bushes everywhere.  All things to the
+west are trees.    
+~
+231 a 3
+D0
+To the east the path continues.
+~
+~
+0 0 23184
+D1
+To the east the path continues.
+~
+~
+0 0 23195
+D2
+~
+~
+0 0 23004
+D3
+To the south the path continues.
+~
+~
+0 0 23193
+S
+#23195
+Beneath a Large Tree~
+   The forest sings and the trees lift to the heavens.  The floor of the forest
+seems to slither and move.  The lights of Phobos aren't enough to penetrate
+this wood.  A log trips up those who would walk over it.  The forest moves
+along in the east.  The forest thickens to the west.    
+~
+231 a 3
+D0
+To the east the path continues.
+~
+~
+0 0 23185
+D1
+To the east the path continues.
+~
+~
+0 0 23196
+D2
+~
+~
+0 0 23005
+D3
+To the south the path continues.
+~
+~
+0 0 23194
+S
+#23196
+A Wooded Area~
+   The forest sings and the trees lift to the heavens.  The trees attract
+forest denizens to their boughs.  The brush and stickers prick travellers.  
+The forest beckons adventurers to come hither.  The trees to the east overhang
+the trail.  The forest continues in the direction west.    
+~
+231 a 3
+D0
+To the east the path continues.
+~
+~
+0 0 23186
+D1
+To the east the path continues.
+~
+~
+0 0 23197
+D2
+~
+~
+0 0 23006
+D3
+To the south the path continues.
+~
+~
+0 0 23195
+S
+#23197
+Beneath a Canopy of Trees~
+   During the day the sun lights these woods most beautifully.  The floor of
+the forest seems to slither and move.  The brush and stickers prick travellers.
+The forest beckons adventurers to come hither.  The trees to the east overhang
+the trail.  The forest thickens to the west.    
+~
+231 a 3
+D0
+To the east the path continues.
+~
+~
+0 0 23187
+D1
+To the east the path continues.
+~
+~
+0 0 23198
+D2
+~
+~
+0 0 23007
+D3
+To the south the path continues.
+~
+~
+0 0 23196
+S
+#23198
+The Dark Forest~
+   The wind blows and the smaller trees sway under its gale.  The floor of the
+forest seems to slither and move.  This forest goes on as far as the eye can
+see.  The forest beckons adventurers to come hither.  To the east is a plethora
+of trees.  Trees overhang the area to the west.    
+~
+231 a 3
+D0
+To the east the path continues.
+~
+~
+0 0 23188
+D1
+To the east the path continues.
+~
+~
+0 0 23199
+D2
+~
+~
+0 0 23008
+D3
+To the south the path continues.
+~
+~
+0 0 23197
+S
+#23199
+Deep Within the Wood~
+   During the day the sun lights these woods most beautifully.  Birds chirp
+here and there, with haunting melodies.  The lights of Phobos aren't enough to
+penetrate this wood.  A log trips up those who would walk over it.  The forest
+thickens to the west.    
+~
+231 a 3
+D0
+To the east the path continues.
+~
+~
+0 0 23189
+D2
+~
+~
+0 0 23009
+D3
+To the south the path continues.
+~
+~
+0 0 23198
+S
+$~

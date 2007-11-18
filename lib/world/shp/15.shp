@@ -1,0 +1,56 @@
+CircleMUD v3.0 Shop File~
+#1521~
+209
+210
+-1
+1.00
+0.90
+21
+16
+-1
+%s I only sell quills and parchment~
+%s I only buy writing utensils and their counterparts.~
+%s I don't trade in such items.~
+%s I can't afford that!~
+%s Sorry... You don't have enough money!~
+%s Here you are, %d coins please.~
+%s Thank you, here's %d coins.~
+0
+0
+1521
+0
+1521
+-1
+0
+28
+0
+0
+#1524~
+3000
+3001
+3002
+3003
+3004
+-1
+1.00
+0.20
+17
+-1
+%s Sorry, I don't stock that item.~
+%s You don't seem to have that.~
+%s I don't trade in such items.~
+%s I can't afford that!~
+%s You are too poor!~
+%s That'll be %d coins, thanks.~
+%s I'll give you %d coins for that.~
+0
+0
+1524
+0
+1524
+-1
+0
+28
+0
+0
+$~

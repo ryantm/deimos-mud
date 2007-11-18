@@ -1,0 +1,51 @@
+#23000
+scales dragon green~
+&ggreen scales of the forest dragon&n~
+There is pile of dragon's scales upon the ground.~
+~
+8 0 1 0
+0 0 0 0
+1 100000 0 0
+E
+dragon scales~
+The scales of the forest dragon are very hard and look
+almost impenetrable.  They must bring in a lot of coinage
+in just about any market.
+~
+#23001
+shirt scale dragon green~
+&Da shirt of &gdragon&D scale&n~
+Some glinting armor lies on the ground.~
+~
+9 4161 9 32768
+8 0 0 0
+5 4000 0 0
+E
+shirt scale dragon green~
+This is dragon scale shirt of mail is of such
+exquisite quality it could only have been produced
+by the Tanner of the Northern Forest.
+~
+A
+13 50
+A
+18 1
+#23002
+helmet dragon scale green~
+&Da helmet formed of &gdragon&D scale&n~
+On the ground is a glinting helm.~
+~
+9 0 17 1024
+3 0 0 0
+1 5000 0 10
+E
+helmet dragon scale green~
+The dragon scale helmet is fashioned of green scales,
+and could only have been created by the Tanner of the
+Northern Forest.
+~
+A
+13 25
+A
+19 1
+$~

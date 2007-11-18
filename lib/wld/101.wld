@@ -1,0 +1,1652 @@
+#10100
+Just Inside The Castle Doors~
+   Large double doors lie behind you.  The walls to your right and left are
+made of pure stone, but you are uncertain of which stone it may be.  It looks
+to be granite, but is granite supposed to shine like that?    
+~
+101 cgqs 0
+D0
+~
+~
+0 0 10101
+E
+Wall walls~
+Sparkling greyish silver rock makes up the wall.  It looks to be hundreds of
+years old, but you can't be too sure.    
+~
+S
+#10101
+Entering A Granite Hallway~
+   Large hallways lead east and west.  The walls seem to be almost glowing with
+magic.  There are no torches, for the hallway itself is glowing.    
+~
+101 dgqs 0
+D1
+~
+~
+0 0 10102
+D2
+~
+~
+0 0 10100
+D3
+~
+~
+0 0 10138
+E
+Wall walls~
+Sparkling greyish silver rock makes up the wall.  It looks to be hundreds of
+years old, but you can't be too sure.    
+~
+S
+#10102
+A Granite Hallway~
+   An almost granite like rock guides you through it's tunnel-like body.  It's
+glow mesmorizing you, a slight echo is coming from the depth of this hallway,
+but the end is not visible.    
+~
+101 0 0
+D1
+~
+~
+0 0 10103
+D3
+~
+~
+0 0 10101
+E
+rock granite~
+The granite rock is glowing a slightly brighter shade of blue, giving it a
+dreamy affect.    
+~
+E
+Echo~
+A distant echo can be heard from the depths of the hallway, it almost sounds
+like a moan.  Perhaps someone is in pain.    
+~
+S
+#10103
+A Granite Hallway~
+You are in an unfinished room.
+~
+101 0 0
+D1
+~
+~
+0 0 10104
+D3
+~
+~
+0 0 10102
+S
+#10104
+A Granite Hallway~
+You are in an unfinished room.
+~
+101 0 0
+D1
+~
+~
+0 0 10105
+D3
+~
+~
+0 0 10103
+S
+#10105
+A Granite Hallway~
+You are in an unfinished room.
+~
+101 0 0
+D1
+~
+~
+0 0 10106
+D3
+~
+~
+0 0 10104
+S
+#10106
+A Granite Hallway~
+You are in an unfinished room.
+~
+101 0 0
+D1
+~
+~
+0 0 10107
+D3
+~
+~
+0 0 10105
+S
+#10107
+A Granite Hallway~
+You are in an unfinished room.
+~
+101 0 0
+D1
+~
+~
+0 0 10108
+D3
+~
+~
+0 0 10106
+S
+#10108
+A Turn in the Granite Hallway~
+You are in an unfinished room.
+~
+101 0 0
+D0
+~
+~
+0 0 10109
+D1
+~
+~
+0 0 10148
+D2
+~
+~
+0 0 10149
+D3
+~
+~
+0 0 10107
+S
+#10109
+A Granite Hallway~
+You are in an unfinished room.
+~
+101 0 0
+D0
+~
+~
+0 0 10110
+D2
+~
+~
+0 0 10108
+S
+#10110
+A Granite Hallway~
+You are in an unfinished room.
+~
+101 0 0
+D0
+~
+~
+0 0 10111
+D2
+~
+~
+0 0 10109
+S
+#10111
+A Granite Hallway~
+You are in an unfinished room.
+~
+101 0 0
+D0
+~
+~
+0 0 10112
+D2
+~
+~
+0 0 10110
+S
+#10112
+A Granite Hallway~
+You are in an unfinished room.
+~
+101 0 0
+D0
+~
+~
+0 0 10113
+D2
+~
+~
+0 0 10111
+S
+#10113
+A Granite Hallway~
+You are in an unfinished room.
+~
+101 0 0
+D0
+~
+~
+0 0 10114
+D2
+~
+~
+0 0 10112
+S
+#10114
+A Turn in the Granite Hallway~
+You are in an unfinished room.
+~
+101 0 0
+D0
+~
+~
+0 0 10146
+D1
+~
+~
+0 0 10145
+D2
+~
+~
+0 0 10113
+D3
+~
+~
+0 0 10115
+S
+#10115
+A Granite Hallway~
+You are in an unfinished room.
+~
+101 0 0
+D1
+~
+~
+0 0 10114
+D3
+~
+~
+0 0 10116
+S
+#10116
+A Granite Hallway~
+You are in an unfinished room.
+~
+101 0 0
+D1
+~
+~
+0 0 10115
+D3
+~
+~
+0 0 10117
+S
+#10117
+A Granite Hallway~
+You are in an unfinished room.
+~
+101 0 0
+D1
+~
+~
+0 0 10116
+D3
+~
+~
+0 0 10118
+S
+#10118
+A Granite Hallway~
+You are in an unfinished room.
+~
+101 0 0
+D1
+~
+~
+0 0 10117
+D3
+~
+~
+0 0 10119
+S
+#10119
+A Granite Hallway~
+You are in an unfinished room.
+~
+101 0 0
+D1
+~
+~
+0 0 10118
+D3
+~
+~
+0 0 10120
+S
+#10120
+A Granite Hallway~
+You are in an unfinished room.
+~
+101 0 0
+D1
+~
+~
+0 0 10119
+D3
+~
+~
+0 0 10121
+S
+#10121
+Before A Carpeted Hallway~
+You are in an unfinished room.
+~
+101 0 0
+D1
+~
+~
+0 0 10120
+D2
+~
+~
+0 0 10151
+D3
+~
+~
+0 0 10122
+S
+#10122
+A Granite Hallway~
+You are in an unfinished room.
+~
+101 0 0
+D1
+~
+~
+0 0 10121
+D3
+~
+~
+0 0 10123
+S
+#10123
+A Granite Hallway~
+You are in an unfinished room.
+~
+101 0 0
+D1
+~
+~
+0 0 10122
+D3
+~
+~
+0 0 10124
+S
+#10124
+A Granite Hallway~
+You are in an unfinished room.
+~
+101 0 0
+D1
+~
+~
+0 0 10123
+D3
+~
+~
+0 0 10125
+S
+#10125
+A Granite Hallway~
+You are in an unfinished room.
+~
+101 0 0
+D1
+~
+~
+0 0 10124
+D3
+~
+~
+0 0 10126
+S
+#10126
+A Granite Hallway~
+You are in an unfinished room.
+~
+101 0 0
+D1
+~
+~
+0 0 10125
+D3
+~
+~
+0 0 10127
+S
+#10127
+A Turn in the Granite Hallway~
+You are in an unfinished room.
+~
+101 0 0
+D0
+~
+~
+0 0 10142
+D1
+~
+~
+0 0 10126
+D2
+~
+~
+0 0 10128
+D3
+~
+~
+0 0 10143
+S
+#10128
+A Granite Hallway~
+You are in an unfinished room.
+~
+101 0 0
+D0
+~
+~
+0 0 10127
+D2
+~
+~
+0 0 10129
+S
+#10129
+A Granite Hallway~
+You are in an unfinished room.
+~
+101 0 0
+D0
+~
+~
+0 0 10128
+D2
+~
+~
+0 0 10130
+S
+#10130
+A Granite Hallway~
+You are in an unfinished room.
+~
+101 0 0
+D0
+~
+~
+0 0 10129
+D2
+~
+~
+0 0 10131
+S
+#10131
+A Granite Hallway~
+You are in an unfinished room.
+~
+101 0 0
+D0
+~
+~
+0 0 10130
+D2
+~
+~
+0 0 10132
+S
+#10132
+A Granite Hallway~
+You are in an unfinished room.
+~
+101 0 0
+D0
+~
+~
+0 0 10131
+D2
+~
+~
+0 0 10133
+S
+#10133
+A Turn in the Granite Hallway~
+You are in an unfinished room.
+~
+101 0 0
+D0
+~
+~
+0 0 10132
+D1
+~
+~
+0 0 10134
+D2
+~
+~
+0 0 10140
+D3
+~
+~
+0 0 10139
+S
+#10134
+A Granite Hallway~
+You are in an unfinished room.
+~
+101 0 0
+D1
+~
+~
+0 0 10135
+D3
+~
+~
+0 0 10133
+S
+#10135
+A Granite Hallway~
+You are in an unfinished room.
+~
+101 0 0
+D1
+~
+~
+0 0 10136
+D3
+~
+~
+0 0 10134
+S
+#10136
+A Granite Hallway~
+You are in an unfinished room.
+~
+101 0 0
+D1
+~
+~
+0 0 10137
+D3
+~
+~
+0 0 10135
+S
+#10137
+A Granite Hallway~
+You are in an unfinished room.
+~
+101 0 0
+D1
+~
+~
+0 0 10138
+D3
+~
+~
+0 0 10136
+S
+#10138
+A Granite Hallway~
+You are in an unfinished room.
+~
+101 0 0
+D1
+~
+~
+0 0 10101
+D3
+~
+~
+0 0 10137
+S
+#10139
+The Bottom of the South-Western Tower~
+You are in an unfinished room.
+~
+101 0 0
+D1
+~
+~
+0 0 10133
+D2
+~
+~
+0 0 10141
+S
+#10140
+The Bottom of the South-Western Tower~
+You are in an unfinished room.
+~
+101 0 0
+D0
+~
+~
+0 0 10133
+D3
+~
+~
+0 0 10141
+S
+#10141
+Stairs Leading up the South-Western Tower~
+You are in an unfinished room.
+~
+101 0 0
+D0
+~
+~
+0 0 10139
+D1
+~
+~
+0 0 10140
+D4
+~
+~
+0 0 10192
+S
+#10142
+The Bottom of the North-Western Tower~
+You are in an unfinished room.
+~
+101 0 0
+D2
+~
+~
+0 0 10127
+D3
+~
+~
+0 0 10144
+S
+#10143
+The Bottom of the North-Western Tower~
+You are in an unfinished room.
+~
+101 0 0
+D0
+~
+~
+0 0 10144
+D1
+~
+~
+0 0 10127
+S
+#10144
+Stairs Leading up the North-Western Tower~
+You are in an unfinished room.
+~
+101 0 0
+D1
+~
+~
+0 0 10142
+D2
+~
+~
+0 0 10143
+D4
+~
+~
+0 0 10188
+S
+#10145
+The Bottom of the North-Eastern Tower~
+You are in an unfinished room.
+~
+101 0 0
+D0
+~
+~
+0 0 10147
+D3
+~
+~
+0 0 10114
+S
+#10146
+The Bottom of the North-Eastern Tower~
+You are in an unfinished room.
+~
+101 0 0
+D1
+~
+~
+0 0 10147
+D2
+~
+~
+0 0 10114
+S
+#10147
+Stairs Leading up the North-Eastern Tower~
+You are in an unfinished room.
+~
+101 0 0
+D2
+~
+~
+0 0 10145
+D3
+~
+~
+0 0 10146
+D4
+~
+~
+0 0 10202
+S
+#10148
+The Bottom of the South-Eastern Tower~
+You are in an unfinished room.
+~
+101 0 0
+D2
+~
+~
+0 0 10150
+D3
+~
+~
+0 0 10108
+S
+#10149
+The Bottom of the South-Eastern Tower~
+You are in an unfinished room.
+~
+101 0 0
+D0
+~
+~
+0 0 10108
+D1
+~
+~
+0 0 10150
+S
+#10150
+Stairs Leading up the South-Eastern Tower~
+You are in an unfinished room.
+~
+101 0 0
+D0
+~
+~
+0 0 10148
+D3
+~
+~
+0 0 10149
+D4
+~
+~
+0 0 10197
+S
+#10151
+A Carpeted Hallway~
+   A dazzling &Rred&n carpet follows the hallway south.  In the distance you
+can see that the carpet follows up a circular stairwell.  The walls around you
+seem to have shifted to a slight haze of red instead of blue.  Perhaps this
+hallway leads to the king of the castle.    
+~
+101 cgqs 0
+D0
+~
+~
+0 0 10121
+D2
+~
+~
+0 0 10152
+E
+carpet red~
+&RThe most beautiful carpet you have ever seen.  It is lined with &ygolden
+&Rletters that you do not understand, perhaps some foreign magic.  In the
+center of this carpet lies a large K, perhaps the initial of the king, or some
+sort of magic.  &n
+~
+S
+#10152
+A Carpeted Hallway~
+   The &Rred&n carpet continues through the hallway south.  The stairwell in
+the distance seems to be enshrouded in a layer of golden mist.  This mist
+wasn't there a few paces back.  Perhaps it's magic triggered by someone's
+presense.  Only time will tell.    
+~
+101 0 0
+D0
+~
+~
+0 0 10151
+D2
+~
+~
+0 0 10153
+E
+Carpet red~
+&RThe most beautiful carpet you have ever seen.  It is lined with &ygolden&R
+letters that you do not understand, perhaps some foreign magic.  In the center
+of this carpet lies a large K, perhaps the initial of the king, or some sort of
+magic.  &n
+~
+E
+mist layer golden~
+&YIn the distance, you can see a layer of golden mist.  This layer is extremely
+thick, the odd thing is that it seems to be completely still.  Perhaps this is
+a layer of some pure magic.  &n
+~
+S
+#10153
+A Carpeted Hallway~
+   The &Rred&n carpet continues south.  The &ygolden&n mist seems to thicken
+even more.  To your west and east, however, are stairwells that lead into
+complete &Ddarkness&n.    
+~
+101 cgqs 0
+D0
+~
+~
+0 0 10152
+D1
+~
+~
+0 0 10154
+D2
+~
+~
+0 0 10156
+D3
+~
+~
+0 0 10155
+E
+red carpet~
+&RThe most beautiful carpet you have ever seen.  It is lined with &ygolden&R
+letters that you do not understand, perhaps some foreign magic.  In the center
+of this carpet lies a large K, perhaps the initial of the king, or some sort of
+magic.  &n
+~
+E
+mist layer golden~
+&YIn the distance, you can see a layer of golden mist.  This layer is extremely
+thick, the odd thing is that it seems to be completely still.  Perhaps this is
+a layer of some pure magic.  &n
+~
+S
+#10154
+Stairs Leading into the Darkness~
+You are in an unfinished room.
+~
+101 0 0
+D3
+~
+~
+0 0 10153
+D5
+~
+~
+0 0 10246
+S
+#10155
+Stairs Leading into the Darkness~
+You are in an unfinished room.
+~
+101 0 0
+D1
+~
+~
+0 0 10153
+D5
+~
+~
+0 0 10244
+S
+#10156
+Carpeted Stairs~
+   The &ygolden&n layer of mist, or magic, seems to have no affect on you.  
+Your vision is perfect, you can see that the &Rred&n carpet continues up the
+stairs, aswell as the mist.  The mist smells like fresh air, there is a hint of
+fruit in the mist filled air.    
+~
+101 cefghq 0
+D0
+~
+~
+0 0 10153
+D4
+~
+~
+0 0 10157
+E
+red carpet~
+&RThe most beautiful carpet you have ever seen.  It is lined with &ygolden&R
+letters that you do not understand, perhaps some foreign magic.  In the center
+of this carpet lies a large K, perhaps the initial of the king, or some sort of
+magic.  &n
+~
+E
+mist layer golden~
+&BThe &Ygolden&B layer of mist is extremely relaxing.  It gives you the feeling
+that you could sleep forever.  The hint of fruit wafts your senses as you take
+in the beautiful magic of the mist.  &n
+~
+S
+#10157
+Top of the Carpeted Stairs~
+   The &ygolden&n mist surrounds the entire stairwell, that fruity smell still
+tempting your senses.  To the north the &Rred&n carpet continues to a small
+door in the distance.    
+~
+101 efghq 0
+D0
+~
+~
+0 0 10158
+D5
+~
+~
+0 0 10156
+E
+mist~
+&BThe &Ygolden &Blayer of mist is extremely relaxing.  It gives you the feeling
+that you could sleep forever.  The hint of fruit wafts your senses as you take
+in the beautiful magic of the mist.  &n
+~
+E
+red carpet~
+&RThe most beautiful carpet you have ever seen.  It is lined with &ygolden&R
+letters that you do not understand, perhaps some foreign magic.  In the center
+of this carpet lies a large K, perhaps the initial of the king, or some sort of
+magic.  &n
+~
+S
+#10158
+A Carpeted Hallway~
+   The &ygolden&n mist stops rather suddenly.  The room is clear again, the
+&Rred&n carpet continues north and stops at a door.  The walls seem to shine a
+brilliant white, almost as if magic itself is radiating from it.    
+~
+101 gqs 0
+D0
+~
+~
+0 0 10159
+D2
+~
+~
+0 0 10157
+E
+Mist~
+&BThe &Ygolden &Blayer of mist is extremely relaxing.  It gives you the feeling
+that you could sleep forever.  The hint of fruit wafts your senses as you take
+in the beautiful magic of the mist.  &n
+~
+E
+red carpet~
+&RThe most beautiful carpet you have ever seen.  It is lined with &ygolden&R
+letters that you do not understand, perhaps some foreign magic.  In the center
+of this carpet lies a large K, perhaps the initial of the king, or some sort of
+magic.  &n
+~
+S
+#10159
+End of the Carpeted Hallway~
+   The &Rred&n carpet stops in front of a shimmering &Bblue&n granite door.  A
+granite door is to the east,glowing a bright shade of &Rred&n, aswell as a
+granite door to the west, glowing a brilliant shade of &Ggreen&n.  The
+brilliant light cascading from the previous room lights up the entire room.  
+
+~
+101 gqs 0
+D0
+   A large granite like door.  It glows a bright &Bblue&n.    
+~
+Door n no nor nort north~
+2 0 10162
+D1
+   A large granite like door.  It glows a bright &Rred&n.    
+~
+Door e ea eas east~
+2 0 10160
+D2
+~
+~
+0 0 10158
+D3
+   A large granite like door.  It glows a bright &Ggreen&n.    
+~
+Door w we wes west~
+2 0 10161
+S
+#10160
+The Sorceror's Chamber~
+   The brilliantly coloured walls of the hallway are not present in this small
+room.  The room is filled with varying smells.  On one side of the room, is a
+small bed covered in papyrous scrolls and books.  On the other, is a small and
+neat table, with 2 candles placed opposite each other, with an overly large
+&Yyellow&n flame erupting from both of the candles.    
+~
+101 gqs 0
+D3
+   A large granite like door.  It glows a bright &Rred&n.    
+~
+Door w we wes west~
+2 0 10159
+S
+#10161
+The Archmage's Chamber~
+   A large atrium of a room meets your eyes.  The ceiling stands approximately
+70 feet above you, and is glowing bright &Bblue&n through a layer of mist.  
+There are large pillars set up at strategic positions in the room, to keep it
+from falling in on itself
+~
+101 gnqs 0
+D1
+   A large granite like door.  It glows a bright &Ggreen&n.    
+~
+Door e ea eas east~
+2 0 10159
+S
+#10162
+A Brightly Lit Stairwell~
+   The steps before you are glowing a tinted hue of &Rred&n.  The walls on
+either side are glowing a light &Bblue&n.  In the distance the sound of someone
+talking reaches your ears, but the words are muffled.    
+~
+101 gqs 0
+D2
+   A large granite like door.  It glows a bright &Bblue&n.    
+~
+Door s so sou sout south~
+2 0 10159
+D4
+~
+~
+0 0 10163
+E
+steps step red~
+   The steps seem to be made of the same granite like rock that the rest of the
+castle is made of.  However, these steps are glowing a tinted hue of &Rred&n.
+  
+~
+S
+#10163
+Top of the Brightly Lit Stairwell~
+   The steps graduatelly level off into a flat floor that leads north.  The
+floor to the north is still glowing a tinted hue of &Rred&n.  The sound of
+someone talking reaches your ears, clearer, but still the words are muffled.  
+
+~
+101 gqs 0
+D0
+~
+~
+0 0 10164
+D5
+~
+~
+0 0 10162
+E
+step red steps~
+   The steps seem to be made of the same granite like rock that the rest of the
+castle is made of.  However, these steps are glowing a tinted hue of &Rred&n.
+  
+~
+S
+#10164
+Outside The Battlelord's Chamber~
+   The floor continues east, but the &Rred&n glow stops just before the eastern
+room.  The sounds are perfectly clear, it is, indeed, someone talking to
+themselves.  To the north lies a large granite door, it's glowing a light shade
+of &Yyellow&n.    
+~
+101 gqs 0
+D0
+   This door is made of some strange jewel.  For each part of the stone is
+glowing a different colour.  &GGreen&n,&Rred&n,&Bblue&n, and &Mmagenta&n, but
+from a distance, it shines a uniform &Yyellow&n.    
+~
+Door n no nor nort north~
+2 0 10166
+D1
+~
+~
+0 0 10165
+D2
+~
+~
+0 0 10163
+E
+sounds talking sound~
+   The sounds of a man talking to himself reaches your ears, "Of all the rulers
+in the world, i have to be following the ONE guy that can make the most
+powerful weapon in the world, and he gives me this useless greatsword"
+~
+S
+#10165
+The Battlelord's Chamber~
+   The walls of this room are made of some strange jewel, however, there is no
+glow to these walls.  The floor is also made of the same jewel, and yet, no
+glow like the previous parts of the castle.  However, there is a fire in the
+center part of the back wall that is producing bright &Yyellow&n flames.  
+These flames give you a sense of safety.    
+~
+101 gqs 0
+D3
+~
+~
+0 0 10164
+E
+fire yellow~
+   The bright &Yyellow&n flames are mesmorizing, the crackling sound of the
+fire makes the room feel very relaxing.    
+~
+S
+#10166
+A Dimly Lit Room~
+You are in an unfinished room.
+~
+101 0 0
+D0
+~
+~
+0 0 10168
+D1
+~
+~
+0 0 10167
+D2
+~
+Door s so sou sout south~
+2 0 10164
+D3
+~
+~
+0 0 10169
+S
+#10167
+A Dimly Lit Stairwell~
+You are in an unfinished room.
+~
+101 0 0
+D3
+~
+~
+0 0 10166
+D4
+~
+~
+0 0 10172
+S
+#10168
+A Dimly Lit Stairwell~
+You are in an unfinished room.
+~
+101 0 0
+D2
+~
+~
+0 0 10166
+D4
+~
+~
+0 0 10170
+S
+#10169
+A Dimly Lit Stairwell~
+You are in an unfinished room.
+~
+101 0 0
+D1
+~
+~
+0 0 10166
+D4
+~
+~
+0 0 10171
+S
+#10170
+Top of the Dimly Lit Stairwell~
+You are in an unfinished room.
+~
+101 0 0
+D2
+~
+~
+0 0 10173
+D5
+~
+~
+0 0 10168
+S
+#10171
+Top of the Dimly Lit Stairwell~
+You are in an unfinished room.
+~
+101 0 0
+D1
+~
+~
+0 0 10173
+D5
+~
+~
+0 0 10169
+S
+#10172
+Top of the Dimly Lit Stairwell~
+You are in an unfinished room.
+~
+101 0 0
+D3
+~
+~
+0 0 10173
+D5
+~
+~
+0 0 10167
+S
+#10173
+A Black and White Room~
+You are in an unfinished room.
+~
+101 0 0
+D0
+~
+~
+0 0 10170
+D1
+~
+~
+0 0 10172
+D2
+~
+Door s so sou sout south~
+2 0 10174
+D3
+~
+~
+0 0 10171
+S
+#10174
+A Beautifully Decorated Stairwell~
+You are in an unfinished room.
+~
+101 0 0
+D0
+~
+Door n no nor nort north~
+2 0 10173
+D4
+~
+~
+0 0 10175
+S
+#10175
+Top of the Beautifully Decorated Stairwell~
+You are in an unfinished room.
+~
+101 0 0
+D0
+~
+~
+0 0 10176
+D5
+~
+~
+0 0 10174
+S
+#10176
+A Beautifully Decorated Hallway~
+You are in an unfinished room.
+~
+101 0 0
+D0
+~
+~
+0 0 10177
+D2
+~
+~
+0 0 10175
+S
+#10177
+A Beautifully Decorated Hallway~
+You are in an unfinished room.
+~
+101 0 0
+D0
+~
+~
+0 0 10178
+D2
+~
+~
+0 0 10176
+S
+#10178
+Outside the Royal Chambers~
+You are in an unfinished room.
+~
+101 0 0
+D0
+~
+Door n no nor nort north~
+2 0 10179
+D1
+~
+~
+0 0 10184
+D2
+~
+~
+0 0 10177
+D3
+~
+~
+0 0 10180
+S
+#10179
+Inside the Royal Chambers~
+You are in an unfinished room.
+~
+101 0 0
+D2
+~
+Door s so sou sout south~
+2 0 10178
+S
+#10180
+A Beautifully Decorated Hallway~
+You are in an unfinished room.
+~
+101 0 0
+D1
+~
+~
+0 0 10178
+D3
+~
+~
+0 0 10181
+S
+#10181
+A Beautifully Decorated Hallway~
+You are in an unfinished room.
+~
+101 0 0
+D1
+~
+~
+0 0 10180
+D2
+~
+~
+0 0 10182
+S
+#10182
+End of the Beautifully Decorated Hallway~
+You are in an unfinished room.
+~
+101 0 0
+D0
+~
+~
+0 0 10181
+D2
+~
+Door so sou sout south s~
+1 0 10183
+S
+#10183
+Inside Prince Edogi's Chamber~
+You are in an unfinished room.
+~
+101 0 0
+D0
+~
+Door n no nor nort north~
+2 0 10182
+S
+#10184
+A Beautifully Decorated Hallway~
+You are in an unfinished room.
+~
+101 0 0
+D1
+~
+~
+0 0 10185
+D3
+~
+~
+0 0 10178
+S
+#10185
+A Beautifully Decorated Hallway~
+You are in an unfinished room.
+~
+101 0 0
+D2
+~
+~
+0 0 10186
+D3
+~
+~
+0 0 10184
+S
+#10186
+End of the Beautifully Decorated Hallway~
+You are in an unfinished room.
+~
+101 0 0
+D0
+~
+~
+0 0 10185
+D2
+~
+Door s so sou sout south~
+2 0 10187
+S
+#10187
+Inside Princess Nojri's Chamber~
+You are in an unfinished room.
+~
+101 0 0
+D0
+~
+Door n no nor nort north~
+2 0 10186
+S
+#10188
+Stairs Leading up the North-Western Tower~
+You are in an unfinished room.
+~
+101 0 0
+D4
+~
+~
+0 0 10189
+D5
+~
+~
+0 0 10144
+S
+#10189
+Stairs Leading up the North-Western Tower~
+You are in an unfinished room.
+~
+101 0 0
+D4
+~
+~
+0 0 10190
+D5
+~
+~
+0 0 10188
+S
+#10190
+Stairs Leading up the North-Western Tower~
+You are in an unfinished room.
+~
+101 0 0
+D4
+~
+~
+0 0 10191
+D5
+~
+~
+0 0 10189
+S
+#10191
+Stairs Leading Up the North-Western Tower~
+You are in an unfinished room.
+~
+101 0 0
+D1
+~
+~
+0 0 10230
+D2
+~
+~
+0 0 10208
+D4
+~
+~
+0 0 10207
+D5
+~
+~
+0 0 10190
+S
+#10192
+Stairs Leading up the South-Western Tower~
+You are in an unfinished room.
+~
+101 0 0
+D4
+~
+~
+0 0 10193
+D5
+~
+~
+0 0 10141
+S
+#10193
+Stairs Leading up the South-Western Tower~
+You are in an unfinished room.
+~
+101 0 0
+D4
+~
+~
+0 0 10194
+D5
+~
+~
+0 0 10192
+S
+#10194
+Stairs Leading up the South-Western Tower~
+You are in an unfinished room.
+~
+101 0 0
+D4
+~
+~
+0 0 10195
+D5
+~
+~
+0 0 10193
+S
+#10195
+Stairs Leading Up the South-Western Tower~
+You are in an unfinished room.
+~
+101 0 0
+D0
+~
+~
+0 0 10212
+D1
+~
+~
+0 0 10231
+D4
+~
+~
+0 0 10196
+D5
+~
+~
+0 0 10194
+S
+#10196
+Top of the South-Western Tower~
+You are in an unfinished room.
+~
+101 0 0
+D5
+~
+~
+0 0 10195
+S
+#10197
+Stairs Leading up the South-Eastern Tower~
+You are in an unfinished room.
+~
+101 0 0
+D4
+~
+~
+0 0 10198
+D5
+~
+~
+0 0 10150
+S
+#10198
+Stairs Leading up the South-Eastern Tower~
+You are in an unfinished room.
+~
+101 0 0
+D4
+~
+~
+0 0 10199
+D5
+~
+~
+0 0 10197
+S
+#10199
+Stairs Leading up the South-Eastern Tower~
+You are in an unfinished room.
+~
+101 0 0
+D4
+~
+~
+0 0 10200
+D5
+~
+~
+0 0 10198
+S
+$~

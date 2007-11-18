@@ -1,0 +1,289 @@
+#9801
+co-pilot~
+the co-pilot~
+The co-pilot is sitting here, assisting the pilot.
+~
+The co-pilot is a short man.  He wears a hat over his head, hiding all of his
+hair.  He wears black gloves and a white suit.  A small red thread can be seen
+coming from under his hat.  But it's not like human's red hair.  It's more like
+the actual color red.  What could this mean?    
+~
+10 0 0 E
+22 15 4 22d22+484 11d11+5
+36300 484000
+12 12 1
+BareHandAttack: 13
+E
+#9803
+pilot~
+the pilot~
+The airship's pilot is sitting here, looking at various controls.
+~
+The pilot is a tall man.  He wears a hat over his head, hiding all of his hair.
+He wears black gloves and a white suit.  A small blue thread can be seen coming
+from under his hat...  Or is that his hair?    
+~
+10 0 0 E
+25 14 5 25d25+625 12d12+6
+46875 625000
+12 12 1
+BareHandAttack: 13
+E
+#9811
+inspector~
+the inspector~
+An inspector is standing here, making sure the airship is in prime condition.
+~
+The inspector wears a large hat over his head.  His shirt has a pocket filled
+with pens of assorted colors.  His pants are in good condition except for the
+knee area are quite dirty and torn apart.    
+~
+72 0 0 E
+19 16 3 19d19+361 9d9+4
+27075 361000
+12 12 1
+BareHandAttack: 13
+E
+#9813
+flight attendant~
+the flight attendant~
+A flight attendant is standing here, willing to help those to require it.
+~
+The flight attendant is a cute, middle-aged women.  She is quite busty and her
+tight suit reveals her attractive body.  Her hair is covered with a cap, but
+some colored threads can be seen coming from under the hat.  Or is that
+something else?    
+~
+72 0 0 E
+15 17 3 15d15+225 7d7+3
+16875 225000
+12 12 2
+BareHandAttack: 13
+E
+#9816
+flight attendant~
+the flight attendant~
+A flight attendant is standing here, willing to help those who require it.
+~
+The attendant looks like the average person wearing a blue suit.  Over his hair
+lies a cap, hiding all traces of his hair.    
+~
+72 0 0 E
+16 16 3 16d16+256 8d8+4
+19200 256000
+12 12 1
+BareHandAttack: 13
+E
+#9819
+passenger~
+the passenger~
+A normal passenger is standing here.
+~
+The passenger is a normal person who wears a large hat over his hair as if he
+was concealing something.  Upon his body lies a suit which seems very thin but
+comfortable.    
+~
+72 0 0 E
+14 17 2 14d14+196 7d7+3
+14700 196000
+12 12 1
+BareHandAttack: 13
+E
+#9822
+passenger~
+the passenger~
+A normal passenger is standing here.
+~
+The passenger is a normal person who wears a large hat over her hair as if she
+was concealing something.  Upon her body lies a suit which seems very thin but
+comfortable.    
+~
+72 0 0 E
+14 17 2 14d14+196 7d7+3
+14700 196000
+12 12 2
+BareHandAttack: 13
+E
+#9825
+small droid~
+the small droid~
+A small droid is here, roaming the airship.
+~
+The small droid consists of a metal frame which protects its electrical
+circuits and such.  Colored with a large stripe of red in a vertical position
+over its otherwise black body, it looks quite sleak.  Also, it has two small
+arms extending from its frame.  In its hands lie a pair of tazers.    
+~
+172104 1064 0 E
+14 17 0 14d14+400 7d7+3
+32000 400000
+12 12 0
+BareHandAttack: 12
+E
+#9838
+very small gun turret~
+the very small gun turret~
+A very small gun turret is attached here.
+~
+Two very, very small laser cannons can be seen coming from a very small,
+rotatable metal dome.    
+~
+253978 0 0 E
+20 15 4 20d20+400 10d10+5
+30000 400000
+12 12 0
+BareHandAttack: 12
+E
+#9839
+repair droid~
+a repair droid~
+A repair droid is here, repairing the badly damaged wing.
+~
+The repair driod is small but has a lot of different gadgets upon its arms.  
+Its eyes glow with a green essence.  It works almost completely silently.  
+It's simply amazing how perfectly this thing does its job.    
+~
+172042 1064 0 E
+24 14 4 24d24+576 12d12+6
+43200 576000
+12 12 0
+BareHandAttack: 11
+E
+#9850
+cloaked woman~
+the cloaked woman~
+A cloaked woman is standing here gazing through the window.
+~
+   The tall woman is completely covered by a long, dark gray cloak.  A hood
+conceals her face, but a few locks of bright green hair can be seen hanging in
+front of her face.  She is holding a long, wooden walking stick.    
+~
+34827 8 -1000 E
+64 0 4 35d35+100000 10d10+38
+377280 5844000
+12 12 2
+BareHandAttack: 7
+SpecProc: magic_user
+E
+T 9849
+T 9850
+T 9851
+#9851
+mysterious-looking man~
+the mysterious-looking man~
+A mysterious-looking man stands here, attempting to cover his bright green hair.
+~
+   The man is of an average size.  A long trench coat covers his body while a
+small hat attempts to cover his head.  He wears some slightly tinted glasses
+that have a dark green frame.  Not much else can be seen of this man.    
+~
+8 0 0 E
+0 20 0 1d1+0 1d1+0
+0 0
+12 12 1
+E
+#9870
+small creature~
+the small, &Rsavage&n creature~
+A very small, &Rsavage&n creature is growling here.
+~
+The little creature is very small but has very long claws for its size.  Drool
+drips from its large fangs.  Its small black eyes are very keen.  It looks
+mean.    
+~
+6264 1056 0 E
+1 20 -9 1d1+102 1d1+0
+75 1000
+12 12 0
+BareHandAttack: 3
+E
+#9871
+small black creature~
+the small &Dblack&n creature~
+A small &Dblack&n creature is crawling here.
+~
+The creature is small.  Its scales are jet-black and shiney.  The creature's
+eyes are bright red and its teeth look quite sharp.  Upon its hands lie large
+gray claws.    
+~
+72 0 0 E
+3 20 -9 1d1+118 1d1+0
+675 9000
+12 12 0
+BareHandAttack: 3
+E
+#9872
+small blue-scaled reptile~
+the small &Bblue-scaled&n reptile~
+A small &Bblue-scaled&n reptile is standing here.
+~
+The small reptile is completely covered in dark blue scales.  It has two large
+eyes on its triangular head.  A long tail can be seen extending from its
+behind.  Upon its head lies two long, pointy horns.    
+~
+2120 0 0 E
+2 20 -9 1d1+108 1d1+0
+300 4000
+12 12 0
+BareHandAttack: 7
+E
+#9873
+giant yellow bug~
+the giant &Yyellow&n bug~
+A giant &Yyellow&n bug is creeping around here.
+~
+The bug is extremely large and completely yellow.  The only part of its body
+that is not yellow is its small green eyes.  A hard shell protects its muscular
+body.    
+~
+65608 0 0 E
+5 19 -9 2d2+150 1d1+1
+1875 25000
+12 12 0
+BareHandAttack: 6
+E
+#9897
+Kuragari no Rusui~
+&DKuragari no Rusui&n~
+&DKuragari no Rusui wa koko kiritsu o desu.&n
+~
+It is the enemy of all who trig-exp.
+~
+522270 832636 0 E
+200 -20 10 30d30+80100 28d17+40
+3000000 10000000
+12 12 0
+BareHandAttack: 12
+E
+T 9870
+T 9871
+T 9872
+T 9873
+T 9874
+T 9875
+T 9876
+T 9877
+T 9878
+T 9879
+T 9880
+T 9881
+T 9882
+T 9883
+#9898
+Arkadia's Ghost~
+Arkadia's Ghost~
+The ghost of Arkadia is silently standing here.
+~
+The ghost's figure resembles a beautiful young woman with short blond hair.  
+She wears short skirt which matches her short vest over her white shirt.  The
+expression upon her face looks very empty as though she feels she has some
+unfinished business to attend to.  She seems to be starring at the airship to
+the north.    
+~
+253962 8434876 0 E
+135 -7 10 30d30+60000 19d12+27
+1366875 10000000
+12 12 2
+BareHandAttack: 3
+E
+$

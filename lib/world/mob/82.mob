@@ -1,0 +1,39 @@
+#8200
+King Xerxes~
+King Xerxes~
+Standing here is The Dreadful King Xerxes
+~
+It looks unfinished.
+~
+24632 1152 0 E
+60 -30 20 30d100+0 30d100+50
+2147483647 20000000
+12 12 0
+BareHandAttack: 9
+E
+#8201
+Key Keeper~
+Key Keeper~
+Here stands the Key Keeper
+~
+It looks unfinished.
+~
+2076 160 0 E
+60 -25 10 30d1+30000 30d1+50
+2147483647 1000000000
+12 12 0
+E
+#8222
+bob~
+bob~
+bob
+~
+It looks unfinished.
+bob
+~
+8 0 0 E
+0 20 0 1d1+30000 1d1+0
+2147483647 2147483647
+6 6 0
+E
+$
