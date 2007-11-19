@@ -1,19 +1,19 @@
 Name: Aesop
 Pass: Ae4sKMrQnc
-Titl: the Gatekeeper
+Titl: Rocks
 PreT: 
 Pos : 12
 Sex : 1
-Levl: 53
-LMge: 53
+Levl: 55
+LMge: 55
 Home: 1
 Brth: 1193792763
-Plyd: 146580
-Last: 1195322917
-Host: cpe0011950bc39d-cm000a73a932ee
+Plyd: 168490
+Last: 1195513660
+Host: cpe001a7088544d-cm0012c9daf922
 Hite: 179
 Wate: 164
-Alin: 30
+Alin: 363
 Id  : 754
 Act : 2240
 Skil:
@@ -39,28 +39,27 @@ Room: 200
 Hrom: 0
 Pref: efghnowxyBF
 Prf2: abcij
-Hung: 22
-Thir: 23
-Lern: 4
+Hung: 15
+Thir: 15
+Lern: 6
 Str : 14/
-Sac : 3060
+Sac : 3347
 Int : 18
 Wis : 16
 Dex : 14
 Con : 13
 Cha : 13
-Hit : 322/312
-Mana: 931/906
-Move: 220/220
-Gold: 1313332
-Bank: 32000000
-Exp : 148470
+Hit : 322/327
+Mana: 945/945
+Move: 229/229
+Gold: 1655060
+Bank: 38000000
+Exp : 514627
 Econ: 259
 ARnk: 0
 Horh: 50/0
 Deth: 2
-Kill: 3358
+Kill: 3641
 Spar: 0
 Affs:
-19 17 0 0 8 1
 0 0 0 0 0

@@ -340,24 +340,6 @@ D3
 ~
 0 0 244
 E
-armor~
-Armor                      Code     &WTin&n &RCopp&n &DIron&n &YGold &CTita&n
-Tin Strip-Link Belt        TSLB     &W20&n    &R5&n    -    -    -  
-Copper Handshield          CHS       -   &R25&n    -    -    -
-Iron Vizzer                IV        -    -   &D25&n    -    -
-Iron Sleeves               ISLV      -    -   &D25&n    -    -
-Five Linked Steel Rings    FLSR      -    -   &D50&n    -    - 
-Linkbronze Cape            LKCP     &W10&n   &R15&n    -    &Y1&n    -
-Golden Greaves             GG        -    -    -   &Y25&n    -
-Gildflower Pendant         GFP       -    -    -   &Y20&n    &C5&n
-Twice Titan Choker         TTC       -    &R3&n    -    &Y3&n   &C10&n
-Puregild Ring              PGRG      -    -    -   &Y10&n   &C10&n
-Twincrescent Signet        TCSG      -    -    -   &Y10&n   &C10&n
-Titanium Galoshes          TGS       -    -    -    -   &C50&n
-Pure-Amalgam Tower Shield  PATS     &W20&n   &R20&n   &D20&n   &Y20&n   &C20&n
-Titanium Plate Mail        TPM       -    -    -    -  &C100&n
-~
-E
 paper instructions wall~
 
 &GOnce you have the right amount of Chunks you type assemble and then the Assembly Code.
@@ -394,6 +376,24 @@ paper instructions wall~
 
 
 There are also forgable armors listed next to this. To look at those type LOOK ARMOR.
+~
+E
+armor~
+Armor                      Code     &WTin&n &RCopp&n &DIron&n &YGold &CTita&n
+Tin Strip-Link Belt        TSLB     &W20&n    &R5&n    -    -    -  
+Copper Handshield          CHS       -   &R25&n    -    -    -
+Iron Vizzer                IV        -    -   &D25&n    -    -
+Iron Sleeves               ISLV      -    -   &D25&n    -    -
+Five Linked Steel Rings    FLSR      -    -   &D50&n    -    - 
+Linkbronze Cape            LKCP     &W10&n   &R15&n    -    &Y1&n    -
+Golden Greaves             GG        -    -    -   &Y25&n    -
+Gildflower Pendant         GFP       -    -    -   &Y20&n    &C5&n
+Twice Titan Choker         TTC       -    &R3&n    -    &Y3&n   &C10&n
+Puregild Ring              PGRG      -    -    -   &Y10&n   &C10&n
+Twincrescent Signet        TCSG      -    -    -   &Y10&n   &C10&n
+Titanium Galoshes          TGS       -    -    -    -   &C50&n
+Pure-Amalgam Tower Shield  PATS     &W20&n   &R20&n   &D20&n   &Y20&n   &C20&n
+Titanium Plate Mail        TPM       -    -    -    -  &C100&n
 ~
 P
 forge
@@ -498,10 +498,6 @@ shelves covered with medical supplies of all sorts.  The only exit lies to the
 east, leading back onto Egeria Road.    
 ~
 2 0 0
-D1
-~
-~
-0 0 238
 S
 #219
 The Assassins' Guild~
@@ -857,10 +853,6 @@ D2
 ~
 ~
 0 0 248
-D3
-~
-~
-0 0 218
 S
 #239
 Ceres Lane~
@@ -1959,8 +1951,7 @@ The Bank~
    This is the bank of Phobos.  This building is one of the most beautiful in
 the city.  It is enormous and made almost entirely of marble.  The floor is
 carpeted, and ceiling has a mural painted on it.  There are many tables
-throughout the room and a main desk against one wall.  A small sign is placed
-on the wall, with instructions on how to use the bank.    
+throughout the room and a main desk against one wall.    
 ~
 2 e 0
 D3

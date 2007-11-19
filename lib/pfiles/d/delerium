@@ -2,19 +2,19 @@ Name: Delerium
 Pass: De9Tv9/QM3
 Titl: 
 PreT: 
-Pos : 9
+Pos : 12
 Sex : 1
 Clas: 1
 Levl: 55
 LClr: 55
 Home: 1
 Brth: 1120696079
-Plyd: 225540
-Last: 1195331325
+Plyd: 225890
+Last: 1195499720
 Host: c-68-35-101-41.hsd1.nm.comcast
 Hite: 199
 Wate: 166
-Alin: -29
+Alin: -23
 Id  : 258
 Act : 526528
 Skil:
@@ -32,31 +32,34 @@ Skil:
 74 10
 0 0
 Wimp: 200
-Room: 291
+Room: 200
 Hrom: 0
 Pref: efghnowxyBCF
 Prf2: abcgi
-Hung: 18
-Thir: 19
+Hung: 21
+Thir: 21
 Str : 16/
-Sac : 118
+Sac : 124
 Int : 16
 Wis : 18
 Dex : 16
 Con : 15
 Cha : 15
 Hit : 573/478
-Mana: 757/757
-Move: 353/383
-Gold: 1027748
+Mana: 457/757
+Move: 352/383
+Gold: 1063942
 Bank: 84000000
-Exp : 12539043
+Exp : 12745843
 Econ: 0
 ARnk: 0
 Relg: 3
-Horh: 0/0
+Horh: 50/0
 Deth: 3
-Kill: 2134
+Kill: 2140
 Spar: 0
 Affs:
+19 28 0 0 8 1
+36 1 0 0 128 9
+74 3 10 19 0 10
 0 0 0 0 0

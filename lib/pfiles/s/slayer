@@ -12,12 +12,12 @@ LMge: 45
 LClr: 60
 Home: 1
 Brth: 1106023835
-Plyd: 727160
-Last: 1195323696
-Host: cpe0011950bc39d-cm000a73a932ee
+Plyd: 728350
+Last: 1195513315
+Host: cpe001a7088544d-cm0012c9daf922
 Hite: 183
 Wate: 174
-Alin: -15
+Alin: -59
 Id  : 48
 Act : 14682304
 Skil:
@@ -63,9 +63,9 @@ Skil:
 162 1
 0 0
 Wimp: 200
-Room: 200
+Room: 454
 Hrom: 0
-Pref: efghknowxyB
+Pref: efghjknowxyB
 Prf2: abcij
 Hung: -1
 Thir: -1
@@ -77,21 +77,20 @@ Wis : 14
 Dex : 11
 Con : 16
 Cha : 9
-Hit : 807/1266
-Mana: 324/1253
-Move: 596/596
-Gold: 2491054
+Hit : 508/1266
+Mana: 154/1253
+Move: 558/596
+Gold: 2652928
 Bank: 64000000
-Exp : 2931754
+Exp : 3816758
 ARnk: 0
 Horh: 50/0
 Deth: 23
-Kill: 5695
+Kill: 5699
 Spar: 51
 Trak: thief
 Affs:
-19 27 0 0 8 1
-39 12 2 1 0 2
-74 1 10 19 0 10
+19 10 0 0 8 1
 36 4 0 0 128 10
+74 5 10 19 0 10
 0 0 0 0 0

@@ -1,0 +1,11 @@
+BUGS
+* color prompt even with color off
+* track is broken (moving is not in the track loop)
+* people can multiplay whith new characters
+
+
+
+Enhancements
+* Make chunks pop randomly on Mob spawn not death
+* GM/hero channel
+* Limit track to 50 rooms (base on dexterity and class, practices for track) possibly decrease time between moves

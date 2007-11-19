@@ -12,7 +12,7 @@ exchange
 gold.  The rate is 1 million gold to 6 million exp and 5 million exp to 500
 thousand gold.    
 |
-#240
+#66
 stats
 
 Strength:     - Carrying Capacity, Hit Strength
@@ -5753,7 +5753,7 @@ first create you character.
 #0
 MASTER GRANDMASTER
 
-Once you have reached they level of 60 in a guild you are said to have Mastered
+Once you have reached the level of 60 in a guild, you are said to have Mastered
 this guild.
 
 Example: [ { 0 60  0  0} ] Tom Bombadil the Master Warrior
@@ -6530,7 +6530,7 @@ Ultimate: Fourth Attack
 ULTIMATE
 This is the ultimate skill you get for mastering a class, It is a very
 powerfull skill and even much more powerful if you are prime in the class.
-
+powerful skill and even much more powerful if you are prime in the class.
 |
 #0
 
@@ -8097,5 +8097,8 @@ Comments?
 
 Total
 |
+#0
+UNDEFINED
+Empty|
 #0
 $~

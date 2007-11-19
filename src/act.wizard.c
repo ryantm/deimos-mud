@@ -198,16 +198,16 @@ ACMD(do_liblist)
     if (!*buf || !*buf2) {
       switch (subcmd) {
         case SCMD_RLIST:
-          send_to_char("Usage: rlist  \r\n", ch);
+          send_to_char("Usage: rlist <first_vnum> <second_vnum>\r\n", ch);
           break;
         case SCMD_OLIST:
-          send_to_char("Usage: olist  \r\n", ch);
+          send_to_char("Usage: olist <first_vnum> <second_vnum>\r\n", ch);
           break;
         case SCMD_MLIST:
-          send_to_char("Usage: mlist  \r\n", ch);
+          send_to_char("Usage: mlist <first_vnum> <second_vnum>\r\n", ch);
           break;
         case SCMD_ZLIST:
-          send_to_char("Usage: zlist  \r\n", ch);
+          send_to_char("Usage: zlist <first_vnum> <second_vnum>\r\n", ch);
           break;
         default:
           sprintf(buf, "SYSERR:: invalid SCMD passed to ACMDdo_build_list!");

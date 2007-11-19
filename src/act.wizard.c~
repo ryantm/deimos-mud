@@ -2585,8 +2585,8 @@ ACMD(do_zreset)
   if (i >= 0 && i <= top_of_zone_table) {
     for (d = character_list; d; d = d->next)
       {
-      if (IS_NPC(d) && d->in_room != NOWHERE && world[d->in_room].zone == i)
-        extract_char(d);
+	if (IS_NPC(d) && d->in_room != NOWHERE && world[d->in_room].zone == i)
+	  extract_char(d);
       }
 
     for (num = 0, k = object_list; k; k = next_obj)

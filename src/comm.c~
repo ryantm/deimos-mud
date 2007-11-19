@@ -164,6 +164,7 @@ void nonblock(socket_t s);
 int perform_subst(struct descriptor_data *t, char *orig, char *subst);
 int perform_alias(struct descriptor_data *d, char *orig);
 void record_usage(void);
+char *color_cycle(char *txt, struct descriptor_data *t);
 char *make_prompt(struct descriptor_data *point);
 void check_idle_passwords(void);
 void heartbeat(int pulse);
@@ -199,6 +200,7 @@ void econupdate();
 void make_corpse();
 void check_careers();
 void perform_animation(int seq);
+
 
 #ifdef __CXREF__
 #undef FD_ZERO
@@ -730,6 +732,9 @@ void game_loop(socket_t mother_desc)
   FD_ZERO(&null_set);
 
   gettimeofday(&last_time, (struct timezone *) 0);
+  
+  //setup the chip
+  goldchip(); 
 
   /* The Main Loop.  The Big Cheese.  The Top Dog.  The Head Honcho.  The.. */
   while (!circle_shutdown) {
@@ -1190,38 +1195,34 @@ char *make_prompt(struct descriptor_data *d)
       perc = (100*(int)(GET_HIT(vict)) / GET_MAX_HIT(vict));
 
     if(FIGHTING(d->character) && PRF_FLAGGED(d->character, PRF_AUTODIAG))
-      count += sprintf(prompt + count, "\x1B[1;31m<%d%%>\x1B[0;0m ",
-(int) (100.*
-(double)GET_HIT(FIGHTING(d->character))/GET_MAX_HIT(FIGHTING(d->character))));
+      count += sprintf(prompt + count, "&R<%d%%>&n ",
+		       (int) (100.*(double)GET_HIT(FIGHTING(d->character))/GET_MAX_HIT(FIGHTING(d->character))));
  
     if (FIGHTING(d->character) && PRF_FLAGGED(d->character, PRF_AUTODIAG)) {
-     if (FIGHTING(d->character) && (tank =FIGHTING(FIGHTING(d->character))) && tank != d->character)
-      count +=  sprintf(prompt + count, "\x1B[1;34m%s (%d)\x1B[0;0m ", GET_NAME(tank), 
-      (int)(100.*(double)GET_HIT(tank)/GET_MAX_HIT(tank)));
+      if (FIGHTING(d->character) && (tank =FIGHTING(FIGHTING(d->character))) && tank != d->character)
+	count +=  sprintf(prompt + count, "&B%s (%d)&n ", GET_NAME(tank), 
+			  (int)(100.*(double)GET_HIT(tank)/GET_MAX_HIT(tank)));
     }
 
     if (PRF_FLAGGED(d->character, PRF_DISPHP))
-      count += sprintf(prompt + count, "\x1B[1;32m%d/%dH\x1B[0;0m ",
+      count += sprintf(prompt + count, "&G%d/%dH&n ",
       GET_HIT(d->character), GET_MAX_HIT(d->character));
  
     if (PRF_FLAGGED(d->character, PRF_DISPMANA))
-      count += sprintf(prompt + count, "\x1B[1;32m%d/%dM\x1B[0;0m ",
+      count += sprintf(prompt + count, "&G%d/%dM&n ",
       GET_MANA(d->character), GET_MAX_MANA(d->character));
  
     if (PRF_FLAGGED(d->character, PRF_DISPMOVE))
-      count += sprintf(prompt + count, "\x1B[1;32m%d/%dV\x1B[0;0m ",
+      count += sprintf(prompt + count, "&G%d/%dV&n ",
       GET_MOVE(d->character), GET_MAX_MOVE(d->character));
-
-    if (AFF_FLAGGED(d->character, AFF_MOUNTED))
-      count += sprintf(prompt + count, "\x1B[1;31mHorse: %d/%d\x1B[0;0m ",
-      GET_HORSEHAPPY(d->character), GET_MAXHAPPY(d->character));
-    }
 
     strcat(prompt, "> ");
   } else if (STATE(d) == CON_PLAYING && IS_NPC(d->character))
     sprintf(prompt, "%s> ", GET_NAME(d->character));
   else
     *prompt = '\0';
+
+  strcpy(prompt,color_cycle(prompt, d));
 
   return (prompt);
 }
@@ -1295,18 +1296,10 @@ const char *ANSI[] = {"&",A"0;37m",A"0;30m",A"0;34m",A"0;32m",A"0;36m",A"0;31m",
 #undef A
 const char OUR[] = "&ndbgcrmywDBGCRMYW01234567luoe!";
 
-/* Add a new string to a player's output queue */
-void write_to_output(const char *txt, struct descriptor_data *t)
-{
-  int size;
+char *color_cycle(char *txt, struct descriptor_data *t) {
   int j;
   const char *i = NULL;
   char lbuf[MAX_STRING_LENGTH], *buf;
-
-
-  /* if we're in the overflow state already, ignore this new output */
-  if (t->bufptr < 0)
-    return;
 
   /* Color codes replacement cycle.    Renx -- 011100 */
   if (t->character != NULL) {
@@ -1330,12 +1323,26 @@ void write_to_output(const char *txt, struct descriptor_data *t)
       } else if (!(*(buf++) = *(txt++)))
         break;
     }
-    if (MAX_STRING_LENGTH - 32 < strlen(lbuf)) return; 
+    if (MAX_STRING_LENGTH - 32 < strlen(lbuf)) return txt; 
    /* I THINK this was coded incorrectly, it used to be txt = lbuf
       but that makes no sense cause txt is constant
       A crash occured here, Im not sure why? ~ Ryan*/
     txt = lbuf;
   }
+  return txt;
+}
+/* Add a new string to a player's output queue */
+void write_to_output(const char *txt, struct descriptor_data *t)
+{
+  int size;
+
+  /* if we're in the overflow state already, ignore this new output */
+  if (t->bufptr < 0)
+    return;
+
+  txt = color_cycle((char *)&txt,t);
+  if (MAX_STRING_LENGTH - 32 < strlen(txt)) return; 
+
 
   size = strlen(txt);
 

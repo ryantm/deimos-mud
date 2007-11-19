@@ -12,14 +12,15 @@ LMge: 45
 LClr: 45
 Home: 1
 Brth: 1157208952
-Plyd: 273000
-Last: 1195356953
+Plyd: 288260
+Last: 1195435081
 Host: cpe-65-24-199-37.insight.res.r
 Hite: 162
 Wate: 147
-Alin: -45
+Alin: -42
 Id  : 581
 Act : 14682304
+Aff : i
 Skil:
 1 4
 3 4
@@ -68,7 +69,7 @@ Skil:
 161 4
 162 1
 0 0
-Wimp: 500
+Wimp: 400
 Room: 200
 Hrom: 0
 Pref: efghnowxyB
@@ -77,28 +78,32 @@ Hung: -1
 Thir: -1
 Lern: 7
 Str : 18/
-Sac : 624
+Sac : 632
 Int : 18
 Wis : 18
 Dex : 18
 Con : 18
 Cha : 18
-Hit : 2002/2355
-Mana: 1243/1060
-Move: 1424/1751
-Gold: 9166150
+Hit : 1178/2355
+Mana: 911/1060
+Move: 1736/1751
+Gold: 16509512
 Bank: 73000000
-Exp : 16919119
+Exp : 95632780
 Econ: 0
 ARnk: 0
 Horh: 50/0
 Deth: 2
-Kill: 8616
+Kill: 8814
 Spar: 0
-Trak: meisner
+Trak: judge
 Affs:
-39 16 3 1 0 3
-34 22 0 0 4096 2
-19 23 0 0 8 1
-138 26 0 0 262144 387
+39 24 3 1 0 3
+74 2 4 19 0 4
+36 1 0 0 128 4
+34 30 0 0 4096 2
+3 30 -1 24 0 0
+3 30 2 18 0 4
+19 31 0 0 8 1
+1 30 12 17 0 4
 0 0 0 0 0

@@ -501,7 +501,7 @@ int cast_spell(struct char_data * ch, struct char_data * tch,
   if (GET_POS(ch) < SINFO.min_position && (!IS_NPC(ch))) {
     switch (GET_POS(ch)) {
       case POS_SLEEPING:
-      send_to_char("&RYou dream about great magical powers.&n\r\n", ch);
+      send_to_char("&RYou dream about great magical powers (You are sleeping.).&n\r\n", ch);
       break;
     case POS_RESTING:
       send_to_char("&RYou cannot concentrate while resting.&n\r\n", ch);
@@ -1175,7 +1175,7 @@ void mag_assign_spells(void)
 
   /* NON-castable spells should appear below here. */
 
-  spello(SPELL_IDENTIFY, "identify", 0, 0, 0, 0,
+  spello(SPELL_IDENTIFY, "identify", 20, 200, 0, 0,
 	TAR_CHAR_ROOM | TAR_OBJ_INV | TAR_OBJ_ROOM, FALSE, MAG_MANUAL);
 
   spello(SPELL_RESURRECTION, "resurrection", 200, 150, 5, POS_STANDING,

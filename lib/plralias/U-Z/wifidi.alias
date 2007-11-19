@@ -1,7 +1,42 @@
+2
+ig
+15
+c 'icebolt' gov
+0
+2
+tp
+16
+use eagle wifidi
+0
+5
+titan
+10
+gt titango
+0
+2
+ri
+13
+rescue cerise
+0
 1
 r
-6
-recall
+8
+c 'word'
+0
+2
+rc
+14
+rescue charlie
+0
+2
+hc
+15
+c 'heal' cerise
+0
+2
+ra
+12
+rescue aesop
 0
 2
 gl
@@ -64,11 +99,6 @@ ou
 open door u
 0
 2
-rc
-16
-c 'rem curse' $1
-1
-2
 cw
 12
 close door w
@@ -77,11 +107,6 @@ close door w
 pm
 16
 c 'auro' meisner
-0
-2
-ra
-13
-rescue acelin
 0
 2
 lk
@@ -1004,11 +1029,6 @@ saturn
 gt saturngo
 0
 2
-tp
-16
-use eagle wifidi
-0
-2
 qb
 10
 quaff blue
@@ -1673,11 +1693,6 @@ pa
 11
 put all hav
 0
-2
-ri
-12
-recite id $1
-1
 2
 kf
 3

@@ -3,6 +3,9 @@ Pass: OcoMhHb.Lt
 Titl: 
 PreT: 
 Pos : 12
+Desc:
+Nothing.
+~
 PfIn: stops by.
 PfOt: leaves.
 Sex : 1
@@ -14,21 +17,21 @@ LMge: 60
 LClr: 60
 Home: 1
 Brth: 1105829174
-Plyd: 39413640
-Last: 1195328947
-Host: 74-141-214-255.dhcp.insightbb.
+Plyd: 39511290
+Last: 1195514995
+Host: d47-69-71-185.nap.wideopenwest
 Hite: 174
 Wate: 158
-Alin: -51
+Alin: -105
 Id  : 45
 Act : 264320
-Room: 1204
+Room: 1203
 Hrom: 0
-Pref: ehimnoqrvwyBF
+Pref: efghimnoqrvwxyBF
 Prf2: abcfi
 Lern: 1
 Str : 25/
-Sac : 5
+Sac : 3
 Int : 25
 Wis : 25
 Dex : 25
@@ -37,15 +40,14 @@ Cha : 25
 Hit : 666/666
 Mana: 666/666
 Move: 666/666
-Gold: 199999408
+Gold: 200547417
 Bank: 4749767
 Exp : 1126
 Econ: 0
 ARnk: 76
-Relg: 1
 Horh: 50/0
 Deth: 1
-Kill: 206
+Kill: 209
 Spar: 158
 Trak: fish
 Affs:

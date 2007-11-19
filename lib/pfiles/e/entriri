@@ -15,8 +15,8 @@ LMge: 46
 LClr: 30
 Home: 1
 Brth: 1113954178
-Plyd: 450310
-Last: 1195331190
+Plyd: 450590
+Last: 1195462425
 Host: c-68-35-101-41.hsd1.nm.comcast
 Hite: 165
 Wate: 123
@@ -69,13 +69,13 @@ Room: 200
 Hrom: 0
 Pref: efghnowxyBCEF
 Prf2: abci
-Hung: 21
-Thir: 21
+Hung: 20
+Thir: 22
 Lern: 9
 Sac : 17760
 Hit : 2294/2294
-Mana: 690/707
-Move: 1846/1855
+Mana: 707/707
+Move: 1847/1855
 Gold: 6084
 Exp : 772840
 Econ: 0
@@ -85,7 +85,7 @@ Horh: 50/0
 Deth: 127
 Kill: 17810
 Affs:
-138 37 0 0 262144 384
-138 32 0 0 262144 384
-19 33 0 0 8 1
+138 33 0 0 262144 384
+138 28 0 0 262144 384
+19 29 0 0 8 1
 0 0 0 0 0

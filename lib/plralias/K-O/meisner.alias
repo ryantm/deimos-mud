@@ -1,4 +1,19 @@
 1
+2
+21
+rem iron;wield katana
+1
+1
+1
+21
+rem katana;wield iron
+1
+2
+df
+14
+drink fountain
+0
+1
 q
 29
 get recall sack;recite recall
@@ -13,13 +28,3 @@ st
 5
 stand
 0
-1
-2
-21
-rem iron; wield sword
-1
-1
-1
-21
-rem sword; wield iron
-1

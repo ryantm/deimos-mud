@@ -1242,14 +1242,14 @@ The wooden door leads back out into the hallway.
 wooden door~
 1 -1 22947
 E
-map~
-This is a map of the area surrounding the castle.  It seems to be marked in
-several places, but you are uncertain as to what they mean.
-~
-E
 desk lamp~
 A small lamp rest on the desk, illumanting a pile of papers.  The papers are
 reports from his leutenants and the wages of the castle guards.
+~
+E
+map~
+This is a map of the area surrounding the castle.  It seems to be marked in
+several places, but you are uncertain as to what they mean.
 ~
 S
 #22949
@@ -1556,10 +1556,8 @@ You see a small trapdoor in the ceiling.
 trapdoor~
 1 -1 22963
 E
-shelves bottles jars boxes~
-The shelevs seem covered with small bottle jars and boxes, with strange labels
-like toad skin, and bat dung.  You don't think you want to take a look inside
-them.
+bed~
+This bed looks old and worn, but it also looks quite comfortable.
 ~
 E
 wooden desk~
@@ -1567,8 +1565,10 @@ This desk seems to be have been put here as an afterthought.  Given the dust on
 it, you don't think it's ever been used.
 ~
 E
-bed~
-This bed looks old and worn, but it also looks quite comfortable.
+shelves bottles jars boxes~
+The shelevs seem covered with small bottle jars and boxes, with strange labels
+like toad skin, and bat dung.  You don't think you want to take a look inside
+them.
 ~
 S
 #22965
@@ -1606,7 +1606,7 @@ The hallway leads off into the darkness.
 D1
 You see an old cell door.  It's lock has been ruined by rust.
 ~
-cell door~
+cell door east~
 1 -1 22968
 D2
 You see some light up ahead.
@@ -1616,7 +1616,7 @@ You see some light up ahead.
 D3
 You see an old cell door.  Rust has ruined it's lock.
 ~
-cell door~
+cell door west~
 1 -1 22967
 S
 #22967
@@ -2287,131 +2287,23 @@ Short cut to the immortal board in the God complex
 ~
 0 0 1204
 E
-mobs~
-    1. [22900] a Castle Guard
-    2. [22901] a Castle Guard
-    3. [22902] a Castle Guard
-    4. [22903] a Lieutenant Guard
-    5. [22904] Joran Brinth
-    6. [22905] Tashi the Samurai
-    7. [22906] Vorgan the Witch
-    8. [22907] Zintha the Cleric
-    9. [22908] Nobuko the Ninja
-   10. [22909] Lady Ctlulac
-   11. [22910] Delvin the Thief
-   12. [22911] Telga the Ghoul
-   13. [22912] Tarkan the Paladin
-   14. [22913] Lord Ctlulac
-   15. [22914] Obsidian Golem
-   16. [22915] Torg the Chef
-   17. [22916] a Water Guardian
-   18. [22917] the Butler
-   19. [22918] a Royal Bodyguard
-   20. [22919] a Large Dog
-~
-E
-objects~
-The armor and weapons are mediocre level 20-30 stuff.
-    1. [22902] a steel breast plate
-    2. [22903] some steel greaves
-    3. [22904] some steel vambraces
-    4. [22905] a steel longsword
-    5. [22907] some steel backed gloves
-    6. [22908] some steel tipped boots
-    7. [22921] a meat cleaver
-    8. [22926] some Gloves of Human Flesh
-    9. [22927] a Brass Dagger
-   10. [22932] a Witch's robe
-   11. [22933] a Rod of Ruin
-   12. [22934] a Tiger-Eye Ring
-   13. [22935] a Wooden Bracelet
-   14. [22936] a Blue Crystal Rod
-   15. [22938] a Holy Cross
-   16. [22939] a Holy Robe
-   17. [22940] a Ninja-to
-   18. [22942] a Black Cowl and Mask
-   19. [22943] a Sorcerer's Staff
-   20. [22944] an Enchanter's Vest
-   21. [22945] a Magical Belt
-   22. [22946] a Golden Cape
-   23. [22948] a Crystal Ring
-   24. [22950] an Obsidian Bracelet
-   25. [22956] a Golden Breast Plate
-   27. [22957] an Ivory Wrist Guard
-   28. [22958] a pair of Mesh Gloves
-   29. [22959] a Spiked Armor
-   30. [22960] a Spiny Bracelet
-   31. [22961] a Silver Necklace
-   32. [22962] an Obsidian Axe
-Misc. Objects
-    1. [22900] a Broken Wagon
-    2. [22911] a small chest
-    3. [22914] a golden pen
-    4. [22915] a bottle of ink
-    5. [22919] a large cutting table
-    6. [22920] a ham
-    7. [22922] a large barrel
-    8. [22923] a half of a loaf of French bread
-   .9. [22924] a large basin
-   10. [22928] a Brass Lamp
-   11. [22951] a Gold Inlaid Chest
-   12. [22953] a Obsidian Sphere
-   13. [22964] a bag of gold
-   14. [22965] a spring well
-~
-E
-story~
-   Twenty years ago in the great war of King Zeth against the Parviusians.  
-Lord Ctlulac was granted 4000 acres of land on the condition that he furnished
-an army for the king and defend the southwest area against invaders and pay
-taxes anually.  Lord Ctlulac was an ingenious general and had great influence
-over his men.  It was said that he was a wizard and could cast magical spells
-against his enemies.  The Lord Ctlulac was victorious in all of his battles and
-defended his lands for his king.  However other lords established by the King
-were not so successful and the barbarian troops of the Parviusians gradually
-conquered them and invaded the Kingdom of Zeth.  When the capital fell and was
-overrun by them they slaughtered the king and cut his body into several pieces
-and placed the parts on poles at all the corners of their newfound land.  The
-barbarian leader contracted plaque shortly after the victory and soon died
-along with most of his troops and the lands fell into a darkness.  It was said
-that Lord Ctlulac may have been responsible for the plague and survived for
-many years after the downfall of the Kingdom of Zeth and prospered in his
-lands.  But as time passed he became influenced by his dark magic and was
-perverted into capturing slaves and torturing them.  As he aged and his body
-begin to fail him his staff seemed to dwindle and the castle fell into
-disrepair.  Lord Ctlulac has lost most interests in life and now only waits for
-his punishment in hell after his death.    
-~
-E
-rooms~
-   There are a few traps in the towers, if they don't just go straight up and
-they veer to the side they are punished by a one way exit back to the court
-yard.  It is scary but they are unharmed and placed back into the courtyard
-near the tower that they fell from.  There is also a secret tunnel.  This has a
-one way exit out onto the path outside of the castle.    
-For a complete list of the rooms just type rlist 22900 22999
-~
-E
-notes~
-   This area was originally built by an unknown builder here.  I accepted the
-job of REVAMPING it.  The were a few technical mistakes on the mobs and
-objects, ie.  Forgot to put a, an, some in front of the s-descriptions and some
-of them didn't have an extra description.  There was horrendous spelling errors
-throughout the zone in the rooms objects and mobs.  The builder failed to
-follow good rules of building, had 1 line room descriptions, used "you are in"
-"you see a" and also used 'to the right' or 'to the left' so almost all of the
-room descriptions had to be repaired, but as to general context of what the
-original builder was trying to say, I left that the same.  The major problem
-was not having keys load in the proper places and bad room connections and
-doors not reseting correctly.  I believe that that has been fixed now and the
-area is ready to be played now.  Also there were too many rooms to fit into one
-zone, so I deleted a few redundant tunnel rooms in order to fit the whole zone
-into 98 rooms and this room.    
-What I have left to do in this zone:
-I have to go over the objects make sure they have extra desc,are appropriate equipment and weapons for this level of an area.
-I have to go over mobs make sure the are appropriate for this level of an area, difficult enough for level 20 and easy enough for level 40 and that they meet the guidelines of the mud.
-I have to playtest the zone, make sure all doors can be open with  keys that can be found, it is fun, and the appropriate amount of gold and exp is obtained for the mobs killed as outlined in mud guidelines.
-Finally a run thru of rooms make sure they are connected properly and in a logical manner, have good desc, have good clues, and flow in a logical manner.
+keys~
+Most keys are on mobs in the same room as the locked door.
+However, to make things more interesting other keys are on mobs from different sections of the castle.
+Obsidian Key-opens obsidian sphere-loads on Nobuko ninja
+which opens an obsidian sphere in another room which has Lady Ctlulac in it.
+[22901] a gate key -loads on gate guard
+ [22906] the keep key- loads on guard same room
+[22909] a silver key loads in the chest opens secret door to throne room.
+[22910] a brass key loads on golem and opens the chest
+[22912] a bronze key loads in chest opens nothing
+
+[22916] an obsidian key loads on Nobuko, opens obsidian sphere
+[22925] a dungeon key loads on captain of guard Joran opens dungeon doors
+ [22963] an apartment key loads on witch opens apartments
+[22954] a Secret Key loads in the obsidian sphere opens secret hallway
+[22952] a Golden Key loads on Delvin, opens golden inlaid chest
+
 ~
 E
 map~
@@ -2513,23 +2405,131 @@ Falling trap (Battlements)
 
 ~
 E
-keys~
-Most keys are on mobs in the same room as the locked door.
-However, to make things more interesting other keys are on mobs from different sections of the castle.
-Obsidian Key-opens obsidian sphere-loads on Nobuko ninja
-which opens an obsidian sphere in another room which has Lady Ctlulac in it.
-[22901] a gate key -loads on gate guard
- [22906] the keep key- loads on guard same room
-[22909] a silver key loads in the chest opens secret door to throne room.
-[22910] a brass key loads on golem and opens the chest
-[22912] a bronze key loads in chest opens nothing
-
-[22916] an obsidian key loads on Nobuko, opens obsidian sphere
-[22925] a dungeon key loads on captain of guard Joran opens dungeon doors
- [22963] an apartment key loads on witch opens apartments
-[22954] a Secret Key loads in the obsidian sphere opens secret hallway
-[22952] a Golden Key loads on Delvin, opens golden inlaid chest
-
+notes~
+   This area was originally built by an unknown builder here.  I accepted the
+job of REVAMPING it.  The were a few technical mistakes on the mobs and
+objects, ie.  Forgot to put a, an, some in front of the s-descriptions and some
+of them didn't have an extra description.  There was horrendous spelling errors
+throughout the zone in the rooms objects and mobs.  The builder failed to
+follow good rules of building, had 1 line room descriptions, used "you are in"
+"you see a" and also used 'to the right' or 'to the left' so almost all of the
+room descriptions had to be repaired, but as to general context of what the
+original builder was trying to say, I left that the same.  The major problem
+was not having keys load in the proper places and bad room connections and
+doors not reseting correctly.  I believe that that has been fixed now and the
+area is ready to be played now.  Also there were too many rooms to fit into one
+zone, so I deleted a few redundant tunnel rooms in order to fit the whole zone
+into 98 rooms and this room.    
+What I have left to do in this zone:
+I have to go over the objects make sure they have extra desc,are appropriate equipment and weapons for this level of an area.
+I have to go over mobs make sure the are appropriate for this level of an area, difficult enough for level 20 and easy enough for level 40 and that they meet the guidelines of the mud.
+I have to playtest the zone, make sure all doors can be open with  keys that can be found, it is fun, and the appropriate amount of gold and exp is obtained for the mobs killed as outlined in mud guidelines.
+Finally a run thru of rooms make sure they are connected properly and in a logical manner, have good desc, have good clues, and flow in a logical manner.
+~
+E
+rooms~
+   There are a few traps in the towers, if they don't just go straight up and
+they veer to the side they are punished by a one way exit back to the court
+yard.  It is scary but they are unharmed and placed back into the courtyard
+near the tower that they fell from.  There is also a secret tunnel.  This has a
+one way exit out onto the path outside of the castle.    
+For a complete list of the rooms just type rlist 22900 22999
+~
+E
+story~
+   Twenty years ago in the great war of King Zeth against the Parviusians.  
+Lord Ctlulac was granted 4000 acres of land on the condition that he furnished
+an army for the king and defend the southwest area against invaders and pay
+taxes anually.  Lord Ctlulac was an ingenious general and had great influence
+over his men.  It was said that he was a wizard and could cast magical spells
+against his enemies.  The Lord Ctlulac was victorious in all of his battles and
+defended his lands for his king.  However other lords established by the King
+were not so successful and the barbarian troops of the Parviusians gradually
+conquered them and invaded the Kingdom of Zeth.  When the capital fell and was
+overrun by them they slaughtered the king and cut his body into several pieces
+and placed the parts on poles at all the corners of their newfound land.  The
+barbarian leader contracted plaque shortly after the victory and soon died
+along with most of his troops and the lands fell into a darkness.  It was said
+that Lord Ctlulac may have been responsible for the plague and survived for
+many years after the downfall of the Kingdom of Zeth and prospered in his
+lands.  But as time passed he became influenced by his dark magic and was
+perverted into capturing slaves and torturing them.  As he aged and his body
+begin to fail him his staff seemed to dwindle and the castle fell into
+disrepair.  Lord Ctlulac has lost most interests in life and now only waits for
+his punishment in hell after his death.    
+~
+E
+objects~
+The armor and weapons are mediocre level 20-30 stuff.
+    1. [22902] a steel breast plate
+    2. [22903] some steel greaves
+    3. [22904] some steel vambraces
+    4. [22905] a steel longsword
+    5. [22907] some steel backed gloves
+    6. [22908] some steel tipped boots
+    7. [22921] a meat cleaver
+    8. [22926] some Gloves of Human Flesh
+    9. [22927] a Brass Dagger
+   10. [22932] a Witch's robe
+   11. [22933] a Rod of Ruin
+   12. [22934] a Tiger-Eye Ring
+   13. [22935] a Wooden Bracelet
+   14. [22936] a Blue Crystal Rod
+   15. [22938] a Holy Cross
+   16. [22939] a Holy Robe
+   17. [22940] a Ninja-to
+   18. [22942] a Black Cowl and Mask
+   19. [22943] a Sorcerer's Staff
+   20. [22944] an Enchanter's Vest
+   21. [22945] a Magical Belt
+   22. [22946] a Golden Cape
+   23. [22948] a Crystal Ring
+   24. [22950] an Obsidian Bracelet
+   25. [22956] a Golden Breast Plate
+   27. [22957] an Ivory Wrist Guard
+   28. [22958] a pair of Mesh Gloves
+   29. [22959] a Spiked Armor
+   30. [22960] a Spiny Bracelet
+   31. [22961] a Silver Necklace
+   32. [22962] an Obsidian Axe
+Misc. Objects
+    1. [22900] a Broken Wagon
+    2. [22911] a small chest
+    3. [22914] a golden pen
+    4. [22915] a bottle of ink
+    5. [22919] a large cutting table
+    6. [22920] a ham
+    7. [22922] a large barrel
+    8. [22923] a half of a loaf of French bread
+   .9. [22924] a large basin
+   10. [22928] a Brass Lamp
+   11. [22951] a Gold Inlaid Chest
+   12. [22953] a Obsidian Sphere
+   13. [22964] a bag of gold
+   14. [22965] a spring well
+~
+E
+mobs~
+    1. [22900] a Castle Guard
+    2. [22901] a Castle Guard
+    3. [22902] a Castle Guard
+    4. [22903] a Lieutenant Guard
+    5. [22904] Joran Brinth
+    6. [22905] Tashi the Samurai
+    7. [22906] Vorgan the Witch
+    8. [22907] Zintha the Cleric
+    9. [22908] Nobuko the Ninja
+   10. [22909] Lady Ctlulac
+   11. [22910] Delvin the Thief
+   12. [22911] Telga the Ghoul
+   13. [22912] Tarkan the Paladin
+   14. [22913] Lord Ctlulac
+   15. [22914] Obsidian Golem
+   16. [22915] Torg the Chef
+   17. [22916] a Water Guardian
+   18. [22917] the Butler
+   19. [22918] a Royal Bodyguard
+   20. [22919] a Large Dog
 ~
 S
 $~

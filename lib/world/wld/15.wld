@@ -339,10 +339,6 @@ pennisula and entering the port of Phobos where it exchanges goods and
 passengers.    
 ~
 15 d 0
-D1
-~
-~
-0 0 4222
 S
 #1520
 Sparring Chamber~
@@ -356,7 +352,7 @@ S
 Inks and Blots~
    This very very dusty store contains the items essential to any stationery
 inclined person.  They sell a wide variety of Quills, Ballpoint pens, and a
-vast array of stationary that comes in all colors and all scents.  The shop
+vast array of stationery that comes in all colors and all scents.  The shop
 lies just off the street of Phobos in a narrow alleyway that contains other
 little shops.  In the center of the shop is a desk that is completely covered
 in extremely large parchments that are all dusty from lack of use, or just from
@@ -377,7 +373,7 @@ Narrow Alleyway~
    This is a narrow alleyway that leads into a shopping district of Phobos
 which isn't the most pleasant of places.  This is where odd items are sold and
 some off the wall customers come to prey.  The street is full of sewage and
-grime and the 4 inch wide side walk is raised about half a foot above the
+grime and the 4 inch wide sidewalk is raised about half a foot above the
 street due to its lack of repair.  Shops line all the edges of this alleyway
 and continue to the south.  The road opens back to the main street, and some
 light and fresh air, to the north.    
@@ -943,16 +939,9 @@ tunnel.
 ~
 15 cdn 0
 E
-table~
-   A small flickering fire comes up from the center of the table.  It casts an
-eerie glow on the room.    
-~
-E
-tapestries~
-   The enormous red and gold tapestries depict many great battles such as the
-storming of Mt.  Olympus and Valhalla.  The smaller green and silver ones show
-the downfall of great tyrants such as the Mighty Beholder, King Welmar and of
-the Great White Sharks.    
+statues~
+   The four great stautes are of Firrox, Wifidi, Tribe, and Ashbury, the
+founding fathers of OoD.    
 ~
 E
 slab~
@@ -962,9 +951,16 @@ Rules of OoD
 1. God Forgives, Overlords Do Not
 ~
 E
-statues~
-   The four great stautes are of Firrox, Wifidi, Tribe, and Ashbury, the
-founding fathers of OoD.    
+tapestries~
+   The enormous red and gold tapestries depict many great battles such as the
+storming of Mt.  Olympus and Valhalla.  The smaller green and silver ones show
+the downfall of great tyrants such as the Mighty Beholder, King Welmar and of
+the Great White Sharks.    
+~
+E
+table~
+   A small flickering fire comes up from the center of the table.  It casts an
+eerie glow on the room.    
 ~
 S
 #1564
@@ -1003,9 +999,15 @@ D4
 ~
 0 0 1566
 E
-table~
-   A small flickering fire comes up from the center of the table.  It casts an
-eerie glow on the room.    
+statues~
+   The four great stautes are of Firrox, Wifidi, Tribe, and Ashbury, the
+founding fathers of OoD.    
+~
+E
+slab~
+Rules of OoD
+------------
+1. God Forgives, Overlords Do Not
 ~
 E
 tapestries~
@@ -1015,15 +1017,9 @@ the downfall of great tyrants such as the Mighty Beholder, King Welmar and of
 the Great White Sharks.    
 ~
 E
-slab~
-Rules of OoD
-------------
-1. God Forgives, Overlords Do Not
-~
-E
-statues~
-   The four great stautes are of Firrox, Wifidi, Tribe, and Ashbury, the
-founding fathers of OoD.    
+table~
+   A small flickering fire comes up from the center of the table.  It casts an
+eerie glow on the room.    
 ~
 S
 #1566

@@ -95,17 +95,12 @@ D3
 ~
 0 0 1290
 E
-read paper~
-Confucius's shit list:
-1.Confucius...sigh...
+portal~
+It's a big a green, you can see a forest through the portal.
 ~
 E
-window~
-You look out of the window at the beautiful world of DemosMUD :)
-~
-E
-deity~
-You look at the statue of....Buddah!
+laptop~
+   It's a goverment laptop, 500 Mhz, 40x cd rom.  How sweet life is....    
 ~
 E
 bear~
@@ -113,12 +108,17 @@ Pooky!  The cute little blue bear!  It's been battered over the years, but it's
 still cool : )
 ~
 E
-laptop~
-   It's a goverment laptop, 500 Mhz, 40x cd rom.  How sweet life is....    
+deity~
+You look at the statue of....Buddah!
 ~
 E
-portal~
-It's a big a green, you can see a forest through the portal.
+window~
+You look out of the window at the beautiful world of DemosMUD :)
+~
+E
+read paper~
+Confucius's shit list:
+1.Confucius...sigh...
 ~
 S
 #6
@@ -403,14 +403,14 @@ The hard floor seems to go on forever.
 ~
 0 0 99
 E
-sky wind winds~
-Cold winds plunge ceaselessly at you from the dark, cloudless sky.
-~
-E
 floor~
 The stone floor is the same shade of grey as the sky and is completely plain
 and unscratched.  It is probably too hard for anything to leave as much as a
 scratch on it.
+~
+E
+sky wind winds~
+Cold winds plunge ceaselessly at you from the dark, cloudless sky.
 ~
 S
 $~

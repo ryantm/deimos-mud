@@ -1,0 +1,267 @@
+Bucko    (Nov  7) [  200] 'auto' command does autoexits... put it higher in the code or something. same with help auto
+Bucko    (Nov 16) [  200] selecting no for ansi color at login still turns it on
+Gore     (Feb 20) [ 1550] wear all gives. "you cant wear newbie vest/helm there.
+Gore     (Feb 20) [  461] electric eel description
+Bucko    (Mar  4) [  201] color off still leaves prompt green
+Bucko    (May 25) [  280] color off doesnt turn off the prompt colors :-)
+
+Tipper   (Jun 29) [  291] when you first attack mobs suchs as balrog and theseus they get 7 attacks but if you flee and come back in they only get 4 attacks
+
+
+Wifidi   (Jul 30) [ 1029] Shao Kahn's door won't work after using his key to get out, then a repop - sweet area tho :)!
+
+Kaiju    (Aug 16) [  221] equipment requiring a spells' bonus stats does not unequip when the spell is dispelled/runs out
+Ockham   (Aug 17) [ 1204] It should be changed so mobs don't gain exp for killing mortals
+
+Wifidi   (Aug 18) [  291] resurrection spell makes players "half-dead" - they can't move and can't be healed
+Kaiju    (Aug 18) [ 1540] shocking grasp does not appear at level 40 contrary to the skillmage help file
+Walter   (Aug 18) [ 8000] Rlist when you hit enter to continue it crashes the mud...
+Walter   (Aug 19) [  847] Obj 847 shouldn't have 25000000 coins for mortals to get... 
+Walter   (Aug 19) [  847] nm that
+Folgrim  (Aug 19) [  200] In the gypsy tent, the gypsy was greeting me as Electra, who wasn't following me at the time.
+Wifidi   (Aug 20) [ 6747] ressurection puts players in limbo, can't heal them and they can't quit
+Wifidi   (Aug 20) [ 6747] '562/562H 238/538M 275/279V  Lie still; you are DEAD!!!'
+Ashbury  (Aug 20) [ 6747] resurrection id messed up
+Gakra    (Aug 20) [ 9014] test
+Ockham   (Aug 21) [ 1204] nohit doesn't affect the cast command
+Ockham   (Aug 22) [ 1214] DamN YOU BEOTCH, Fix sanctuary put spell durations in order of smallest to greatest
+Electra  (Aug 24) [  200] [NO_RECALL] still allows players to recall from the room
+Kaiju    (Aug 24) [  291] Track works way too fast if spammed ... works as an in-game speedwalk system ... I could get from harpyland to monopoly within seconds for example.
+Electra  (Aug 24) [ 9641] Track, when spammed, works like "goto" (follow up on Kaiju's bug).
+Confucius (Aug 24) [ 3017] track
+Ockham   (Aug 25) [ 1203] you can lose your immortality by gaining at a guild
+Ockham   (Aug 26) [ 1204] making more than about 20 new rooms crashes the mud.
+Ockham   (Aug 26) [ 1214] track if spammed takes to right to target like goto
+Folgrim  (Aug 27) [  200] Getting disconnected while in oedit makes logging back in difficult. Apparently it's a bug. Any chance of it getting fixed? ;)
+Ockham   (Aug 27) [ 1204] chunks still don't work right their pop percentage is messed....
+Ockham   (Aug 28) [ 1203] ashbury: When grouped the exp gets split but if your in a group by yourself the exp is still split in have and you only get have as much as you should  just fyi  :)
+Ockham   (Aug 31) [ 1203] copyover should save position :/
+Swifte   (Sep  1) [20621] Wishame can't type
+Swifte   (Sep  1) [20621] wishame knows no "grammar"
+Ashbury  (Sep  1) [ 9651] group heal doesnt work while fighting
+Ashbury  (Sep  1) [  200] cant examine more than one of the same container
+Confucius (Sep  2) [  271] review+aggresive =shitball
+Ockham   (Sep  2) [  271] reviwer + needsholylightyroomflags
+Ashbury  (Sep  3) [  200] i can recall at level 56 and i didnt think that would be considered grandmaster
+Elendril (Sep  6) [ 4759] HBoboli crashed mud by typing /a in the char descript
+Elendril (Sep  6) [ 4759] HBoboli has also crashed mud by having too many lines in char descript
+Ockham   (Sep  6) [ 1205] Playtime doesn't work
+Ockham   (Sep  6) [ 1204] group exp splitting still affects someone if noone is in their group....
+Ashbury  (Sep  7) [ 2722] poison doesnt work on mobs anymore is says the same thing about non-assassins
+Ashbury  (Sep  7) [ 2722] and float doesnt work i cant seem to find the target
+Ashbury  (Sep  7) [ 2708] manashield seems to steal mana instead give it to you
+Firrox   (Sep  8) [  200] float spell broken?
+Ashbury  (Sep  8) [  200] curse says you cannot cast on non-assassins
+Firrox   (Sep  9) [ 9665] need to take down the damage level display thing like ***SMITE** and stuff... like we did before only now it went back up.
+Wifidi   (Sep 10) [ 2706] resurrection brings player back to life with full hp's! (maybe that's too good?) *ponder*
+Ockham   (Sep 13) [ 1204] Prompt displays color with color pref off
+Ashbury  (Sep 16) [  202] curse doesnt work you cant curse a non-assassin
+Ashbury  (Sep 16) [  200] wants a clan and willing to pay 5x the amount
+Ockham   (Sep 21) [ 2121] you can summon dead peopel
+Ockham   (Sep 22) [ 1204] you can start a fight with backstab even if you arn't an assassin
+Confucius (Sep 24) [ 1206] dead, summon, corpse, no, bad.
+Xar      (Sep 26) [  924] standing at room, Port Main Deck, if you try to go west it gives this message "The undefined seems to be closed."
+Xar      (Sep 26) [  284] consider command doesn't seem to work on some mobs, as in it doesn't tell you anything when you type it
+Confucius (Sep 26) [ 1203] Press enter to continue must DIE
+Xar      (Sep 27) [  419] when you bash a mob, it shouldn't be able to flee until it stands, as it is now it can flee the same round
+Confucius (Sep 27) [ 1204] 1282 into board
+Ockham   (Sep 28) [ 1204] hbob"possible to flee while webbed"
+DarkForce (Sep 29) [  283] spamming sneak allows you to become superb at it
+DarkForce (Sep 29) [  283] same with spamming hide
+Firrox   (Sep 29) [ 1204] help combat
+Firrox   (Sep 29) [ 1204] help spells
+Firrox   (Sep 29) [ 1204] help cleric
+Firrox   (Sep 29) [  260] fix the help files on skillz
+Firrox   (Sep 29) [  260] the command "skill" brings up thief skillz
+Ockham   (Sep 30) [ 1204] combat colors all crappy fix.
+Confucius (Sep 30) [ 1507] whoinvis
+Mediocrates (Oct  1) [ 8010] there seems to be something wrong with useing 2.item 3.item, especially when looking in multiple containers of the same type like 2.bag 3.bag etc.
+Ashbury  (Oct  1) [  291] nosummon doesnt work
+Electra  (Oct  2) [ 9637] !BASH flag on mobs does not stop players from bashing
+Ockham   (Oct  3) [ 1205] Ken can't multiclass when he should be able to...
+Ashbury  (Oct  7) [  291] anon is working like whoi
+Ashbury  (Oct  9) [ 3908] resurrect is messed up
+Ockham   (Oct 12) [ 1205] cwho doesn't take into account invis people
+Ockham   (Oct 12) [ 1205] neither does gemote
+Tom      (Oct 12) [  200] WhoInvis people show up on autologon
+Confucius (Oct 17) [ 2049] help whisper
+Confucius (Oct 17) [ 1204] exp, not dead, what the fe fi fo fum is this betoch?
+Ockham   (Oct 19) [  200] slayer  seemed to die but wasn't dead?
+Wifidi   (Oct 20) [ 2706] autoassist is on, but not working (seems to not work for player immediately following leader)
+Moron    (Oct 21) [  200] when i type assist when not fighting i disconnect
+Tori     (Oct 24) [  230] last- doesn't really appear to give the correct date of the logins, ie last wifidi July 29, made a post today
+Confucius (Oct 24) [ 1204] assassin restriction level 50
+Ashbury  (Oct 26) [  200] Postmaster has obviously contracted Anthrax cause the mail is FUCKED up
+Ockham   (Oct 26) [  217] MOBS STILL CAN BE ATTACKED WITH NO HIT FLAG WITH SPELLS
+Ockham   (Oct 28) [  279] LOOK MAIL should check inventory first
+Wifidi   (Oct 30) [  279] mail is not working properly: it says: 'You see nothing special.. ..It has a soft glowing aura!' when I try to read the mail
+Zane     (Nov  1) [  200] You cant wear worm gloves either
+Zane     (Nov  1) [ 3900] There are a pair of gloves called worm gloves and the dont work
+Confucius (Nov  1) [  200] grouped attack against self
+Ockham   (Nov  4) [ 1204] GOOOD LORD MAKE IT SO PEOPLE DON"T LOSE EQ WHEN THEY HAVE NO OR NEGATIVE GOLD
+Ockham   (Nov  4) [ 1214] you can cast sleep on nonassassins...
+Ashbury  (Nov  5) [  218] when sleep is casting on someone and that someone quits the comes back then they are no longer asleep
+Ashbury  (Nov  5) [ 2140] earthquake isnt working
+Tiel     (Nov  7) [  200] strength shouldn't be cumulative affect
+Ockham   (Nov  9) [  202] Make QUIT only allowed to be done when you are standing
+Ockham   (Nov  9) [ 1204] In the future need to make it so sleep spell saves when you quit
+Swifte   (Nov 21) [  100] Guys don't seem to be included in "dating"
+Tiel     (Nov 21) [  200] I can still fight assassins when grouped
+Tiel     (Nov 21) [  202] I can still get exp from assassins when grouped
+Tiel     (Nov 21) [  291] Everyone regens all ther hp in one tick.. pretty much
+Ashbury  (Nov 22) [  200] buffet has a mispelling in the desc
+Tiel     (Nov 22) [ 1030] identify and ressurection costs no mana according to apollo
+Ockham   (Nov 22) [ 1204] Clerics get 4 attacks witha  fastflagged weapon and second attack practiced?
+Ingold   (Nov 22) [  557] when i try to scan it tells me im fighting for my life - ingold
+Vivi     (Nov 23) [ 2399] Brass Cannon is level 50, takes one hit from Vivi and give 2500000
+Vivi     (Nov 23) [ 2399] exp that is
+Vivi     (Nov 23) [ 2398] All the cannons bad
+Ingold   (Nov 23) [  200] i have lost all of my eq more than once now.  please restore my eq.  gavel, whistles, shawl, goblin haversack, ect 
+Tribe    (Nov 23) [  202] I went to kill the vampire queen, recalled while fighting, came back and she was gone
+Tribe    (Nov 23) [  230] the mob disappearing also happened with a mirror guard but not with Thes.
+Dedsune  (Nov 25) [22921] autosplit doesn't work when I'm following in a group (yes, it's on...) - Dedsune
+Stefan   (Nov 25) [ 4767] Stefan: I died went to the corpse to get stuff, and realized that it was there, and I had a set on my person.
+Ingold   (Nov 25) [ 3930] Dedsune doesnt autosplit in groups - Ingold
+Raeki    (Nov 25) [ 1500] when in a group, you "fight" when you're not even there, you cant movie
+Ingold   (Nov 26) [ 1565] fountain in overlords should read "The Fountain of Mercy is here streaming clear cool water.   streaming is spelled "steaming"  thxs ingold
+Ingold   (Nov 29) [  271] keys for doors in castle area dont work ie bronze silver ect
+Tribe    (Nov 30) [  834] The green Higher cestarians only give out 1k exp
+Firrox   (Nov 30) [  291] "title" adds another space after your name
+Tribe    (Nov 30) [ 9645] the mirror guard is on the other side of the mirror so the key is unattainable
+Tribe    (Nov 30) [ 1808] I have the mirror key and the mirror won't let me into the Queen vampire's lair
+Ingold   (Dec  1) [ 1820] mirror phrase to queen doesnt work "I crave pure blood"
+Ingold   (Dec  1) [  230] when i cast str my str changes, but it doesnt show up on my affects
+Tiel     (Dec  1) [  258] Age Fluctuates?
+Tiel     (Dec  1) [  258] nevermind
+Ingold   (Dec  2) [  200] str doesnt appear in my affects although it does affect my stat
+Ingold   (Dec  2) [  200] the password at the mirror to the vampire queen no longer works - I crave pure blood
+Ingold   (Dec  2) [  200] i have noticed many times as will as Jason that we have to sometimes remove all of our eq and put it back on because because all of a sudden monsters hits get about 3 times as hard, but that fixes it
+Ingold   (Dec  3) [  291] where are the rewards for reporting bugs???  :)
+Ingold   (Dec  4) [  230] when i locat gold it shows me staffs
+Confucius (Dec  5) [ 1203] lower gold for god sakes
+Ockham   (Dec  6) [ 1204] Manashield should be self castable only
+Dedsune  (Dec  8) [  200] Autosplit doesn't work if Autoloot is disabled, even if Autogold is enabled
+Tribe    (Dec  9) [  291] I got a gold chip, removed all, had a score of 15 for Dex, tried to train at the old wiseman, he took my chip but, my stats didn't go up
+Electra  (Dec 16) [ 2967] cannibals can be charmed and used as "!hit tanks"
+Confucius (Dec 18) [ 1203] summon in no magic rooms
+Tribe    (Dec 22) [  271] I was just wondering if the repop for the titanium key from Beh. had been changed... I've killed him a couple of times and it doens't show up
+Tribe    (Dec 23) [  291] I try to cast manashield and it says "you can't find the target", I'm typing in my own name... c 'manashield' tribe... and it's not responding
+Ingold   (Dec 24) [  242] found command that enables the mud to crash.  Was informed by another player.  I will not disclose the name of the player.  I will demonstrate it at the time that this message is written.  My email is formyfriendsbr@hotmail.com  the command is cwith 
+Ingold   (Dec 24) [  200] cwith (n) is still working to crash  attn:conf thanks
+Vanyel   (Dec 24) [  200] I seem to have lost an attack.. i no longer get an extra attack with my guilded speed sword
+Vanyel   (Dec 24) [22916] Ick.. this loss of one attack majorly affects my melee/gaming experience.. please fix.. :) 
+Tori     (Dec 26) [ 1204] gain- with syslog complete on, something wrong says advance d 1 level to XX several times, same level, was non-primary class in thief guild
+Tori     (Dec 26) [  226] g in guilds, I was able to multiclass into mage for some reason with no exp at level 1
+Tribe    (Dec 27) [  200] Dedsune has been accepted into the clan and is on the house list but, he cannot speak on clan tell.... Thanks and I hope the holidays were merry  =)
+Ockham   (Dec 27) [ 1274] Backstab shouldn't cap damage I don't think
+Confucius (Dec 29) [ 1206] Test, test, crash and die
+Tori     (Jan  2) [ 8799] I typed where chunk and saw a wizinvis god (ockham) showed titanium chunks in inventory of ockham
+Tori     (Jan  2) [ 1205] Hmm Ockham was linkless and not wizinvis I guess , showed up on where ockham in post office, was just linkless. sorry
+Dedsune  (Jan  5) [  291] 'level' said I needed 200 mil gold to get level 60 warrior, however it let me level with only 100 mil coins on me
+Vanyel   (Jan  5) [  293] Cant look or read sign at all in bank
+Vanyel   (Jan  5) [  293] test
+Vanyel   (Jan  5) [  230] people LIKE FATALE shoud not be able to WAKE you when you sleep or FOLLOW if you dont want.. not sure how that'd be fixed.. *think*
+Vanyel   (Jan  7) [  200] The key to corinth.. if dedsune or someone has it.. does it even POP anymore.. i'd love to slay the evil Overlord.. if i could get there.. :)
+Nix      (Jan 17) [ 2304] I can't go back down even with the exit showing me I can... and I need an ice pick to go up
+Nix      (Jan 20) [  450] I can't touch the leader of the coral reefers in the ocean, not even to kill, look, etc...
+Tribe    (Jan 20) [  291] Considering the rats in the titan's castle is crashing the mud
+Tori     (Jan 21) [ 2430] poker card stats- Spells (level 10) armor, UNDEFINED, UNDEFINED  might cause of crash, should be oedited I suppose
+Ockham   (Jan 21) [ 8022] if you miss with a throwing object you still have it
+Nix      (Feb  5) [22966] I can't open both the doors here.. they both have the same name of cell/wooden
+Nix      (Feb  7) [  200] anytime you consider a mouse in the Titan's castle it crashes the mud
+Ockham   (Feb  8) [  225] SPL: (408hr) strength              +24 to STR
+Nix      (Feb 14) [22964] when a player is carrying to much weight and kills a mob with eq..  the items are not droped to the ground, they disappear
+Ockham   (Feb 18) [ 9637] make web display on mobs in a room.
+Nix      (Feb 21) [22909] the castle guards show a red aura, however they are taking my alignment points away as if they were good aligned mobs
+Heathen  (Feb 24) [  200] char-descriptions messing up the mud
+Stirge   (Feb 24) [23000] rlist with no arguments doesn't exactly show how to use rlist command
+Confucius (Mar 16) [ 2357] mailing quest eq to yourself
+Cricket  (Apr 19) [  200] color leak in post number 35 on the mortal board
+Bucko    (Apr 25) [  215] old wiseman needs a long desc =)
+Bucko    (Apr 29) [ 3807] when fighting multiple mobs at once with same desc, only one shows up on look
+Bucko    (Apr 30) [  920] typo file full... you guys need to clean it up a bit =)
+Bucko    (May  1) [23295] when i group myself and kill alone i receive much less experience
+Mobius   (May  4) [  200] hey the typo file is full!!
+Bucko    (May 11) [ 2706] 'group' does not work while asleep... to see group members
+Bucko    (May 11) [  483] you guys need to look at the group exp code... talk to me about it, it's horrible
+Bucko    (May 11) [  200] you lose exp when you die in sparring arena, but dont gain any when you kill
+Bucko    (May 11) [  652] signs in your skiing area need descriptions...
+Bucko    (May 20) [  104] if you have 2 bags in inventory, exa 2.bag looks in first bag. 298372.bag still looks in first bag
+Bucko    (May 28) [  200] locate object is buggy... typical locate bug. doesnt find all items with the keyword in it, but finds one then lists more like that... hard to explain. see for yourself
+Bucko    (Jun  2) [ 2726] you can reply in your sleep but you can't tell....
+Bucko    (Jun  2) [ 1502] i can fail at a spell in a no magic room and get hit, but if it succeeds my magic fizzles and dies. should fizzle no matter what
+Dedsune  (Jun  2) [  230] Spoon cast a spell on the dwarven god during a fight, and it showed the following message "Suffer miss room - should never see."
+Tribe    (Jun  7) [  291] How is player age calculated? Is it time player or time since creation?  I haven't been on in about a month and now my player is 40 years old!
+Bucko    (Jun  8) [  561] hobgoblin shaman pops copper chunk every time... you guys need to rewrite chunk code
+Bucko    (Jun 16) [  561] energy drain doesn't do anything...
+Bucko    (Jun 21) [  848] crawl space no exit room in cesta - the door does not have a name. can't get out! =)
+Bucko    (Jun 21) [ 2320] another door with no name... dwarven village gate
+Stan     (Jul 17) [ 2576] when grouping with someone, and they make a mob flee, somehow I'm still fighting it after it flees, and I can cast spells on it
+Confucius (Jul 20) [ 1206] fleeing down into flying zones
+Confucius (Jul 20) [    5] break out of webs
+Tiel     (Jul 29) [  200] cast sleep is evil
+Confucius (Jul 30) [ 1503] webbing assassins and such
+Confucius (Jul 30) [  286] pushing webs
+Confucius (Jul 30) [  225] Assassin key don't delete it you got another key
+Ockham   (Jul 31) [ 1204] you can fight yourself
+Confucius (Aug  1) [ 1215] res costs nothing..or sometin'
+Confucius (Aug  4) [    5] no sac pc corpse
+Ockham   (Aug 12) [  227] You can't look inside corpses of Players
+Devex    (Aug 26) [ 4512] kick isnt showing its message
+Vanyel   (Aug 26) [ 8627] cook cooks are buggy.. only 1 exp?
+Vanyel   (Aug 27) [ 8527] In this zone.. the citizens and ELVEN people and students are mostly elves? could you PLEASE ADD "ELF" to all of their mobs? thanks :)
+Ockham   (Aug 27) [ 8571] none of skills or spells display correctly, What did I f-up?
+Spoon    (Sep 13) [  291] spells
+Spoon    (Sep 13) [  217] buying stats...If I already have the maximum, then why take my money? thers no way of knowing if i have the max or not...
+Kraken   (Sep 22) [ 1514] no way to escape sparring arena
+Spoon    (Oct 13) [ 6721] geez, the 
+Spoon    (Oct 13) [ 6721] these !flee zones are gay....
+Spoon    (Oct 16) [ 9608] mt. olympus
+Spoon    (Oct 17) [ 4761] smartmud
+Spoon    (Nov 28) [ 1540] the locate obj spell...if i can recall correctly, that was messed up to begin with...
+Ashbury  (Dec 17) [  256] the stbles are selling horses for a100 million and the horse doesnt create when bought
+Rik      (Dec 24) [  200] If you can't pick up coins because they're too heavy, shouldn't the weight you're holding decrease when you deposit it at the bank?
+Spoon    (Jan  1) [  200] when magic shroud wears off, it says Undead
+Spoon    (Jan  1) [  218] embalm not working anymore?
+Spoon    (Jan  1) [  219] when you enter the assassian guild
+Spoon    (Jan  1) [  219] it says 'You don't seem to have an ascii
+Ashbury  (Jan 15) [ 1564] Well there seems to be a farmer's wife that likes to pop A Moogle Key, Theif Gloves, and Genji
+Zidane   (Feb 25) [ 2539] stroke social doesn't look at sex.....automatically assumes it is done to a guy
+APECS    (Feb 27) [ 5950] gwho
+APECS    (Feb 27) [ 5950] when mobiles are sitting you can't see how many there are in []
+APECS    (Feb 27) [ 5950] gwho if you have more than 100 people group and you gwho the mud will crash just thought you might want to know
+APECS    (Mar  3) [ 5906] there is a bug in quet-tok where i think should be another door the room just leads to a room that would make it a loop. i can show you if you like :)
+Zidane   (Mar  6) [ 2539] Prices of Health potions keep going up.....
+Zidane   (Mar  7) [22944] Stroke social still screwed up....
+Zidane   (Apr  2) [  200] identify spell takes up no mana on my part.....
+Dumsomi  (Apr  3) [ 9234] when pushing to a room you can't it says "You can't push he there"... lame.
+Zidane   (Apr  9) [ 2539] Relationship code is screwed....if you propose to someone...it makes you single.
+Zidane   (Apr 26) [ 2539] Identify spell costs no mana.
+Wedge    (Jun 16) [ 1204] BUG
+Ri       (Jun 18) [ 4000] 'help skill' needs to be before 'help skillset'.. you can't pull up 'help skill'.
+Optical  (Jun 19) [ 8541] the flex command:Spoon shows off his huge bulging biceps Huh?!?
+Kryx     (Jun 29) [  200] romance error:6 (null) can't go out
+Moron    (Jul  7) [  538] FIX THE CONSIDER DESCRIPTIONS!
+Jandin   (Jul  9) [  260] I type help armor and then when I pressed enter to continue the page it showed me what looked like the end of someone elses score listing (someone who is engaged to Zidane?)
+Moron    (Jul 10) [ 6852] "Suffer miss room - should never see."
+Zidane   (Jul 16) [  277] all my containers are empty
+Zyre     (Jul 21) [30047] hi
+Gandalf  (Jul 22) [  211] box
+Moron    (Jul 28) [  232] item names in selling stuff to shopkeepers
+Nesper   (Aug  4) [ 2539] I gained minus 1 mana point(i lost a mana point) when I gained in the mage guild :(
+Sodrod   (Aug 29) [ 6801] typo in some of the help books
+Equus    (Aug 31) [ 6766] me
+GaNnoN   (Nov 19) [ 2539] Mystique
+GaNnoN   (Dec  2) [  209] Jehuty
+Malaki   (Nov  3) [  200] please read message board
+Wedge    (Apr 23) [ 1204] BUG
+Entriri  (May  1) [  200] i have tracked learned at 2/1 i was wondering if that is wrong.
+Bran     (Oct 23) [ 4296] track doesnt work
+You      (Jan  3) [  200] a
+You      (Jan  3) [  200] weeheehee
+Bucko    (Apr 26) [  202] identify spell does not use any mana
+Bucko    (Apr 27) [  498] the Otter pops an iron chunk every time
+Bucko    (May  6) [ 2451] what's the deal with whirlwind not wanting to deal the killing blow to mobs?
+Wifidi   (Nov 23) [24129] You get  Wifidi, 'You'll get 161997 coins for it!' from the corpse of the 
+Cerise   (May 31) [  200] sometimes when i backstab a mob nothing happens. The command 'bs' does not miss or succeed, the comand does not do anything.
+Charlie  (Oct 28) [   50] THE BOOOK OF FAQ'S IS BEING MEAN TO ME
