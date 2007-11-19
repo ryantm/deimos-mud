@@ -9,7 +9,7 @@ Levl: 28
 LClr: 28
 Home: 1
 Brth: 1185236666
-Plyd: 217350
+Plyd: 218120
 Last: 1195515179
 Host: 12-227-165-134.client.mchsi.co
 Hite: 195
@@ -45,9 +45,9 @@ Wis : 16
 Dex : 11
 Con : 11
 Cha : 6
-Hit : 218/197
+Hit : 267/197
 Mana: 404/404
-Move: 119/166
+Move: 166/166
 Gold: 4298348
 Bank: 280080
 Exp : 1296750
@@ -59,5 +59,5 @@ Deth: 1
 Kill: 331
 Spar: 0
 Affs:
-19 17 0 0 8 1
+19 5 0 0 8 1
 0 0 0 0 0
