@@ -1630,6 +1630,7 @@ int extra_attacks_from_skill(struct char_data *ch)
 {
 	int percent = 0;
 	int attacks = 0;
+	int loop_times = 0;
 	int i;
 
 	if (GET_SKILL(ch, SKILL_MULTI_ATTACK) == 0)
@@ -1637,15 +1638,15 @@ int extra_attacks_from_skill(struct char_data *ch)
 
 	switch (GET_CLASS(ch))
 		{
-		case CLASS_MAGE:    percent = 75;	break;
-		case CLASS_CLERIC:  percent = 80; break;
-		case CLASS_THIEF:		percent = 85;	break;
-		case CLASS_WARRIOR:	percent = 90;	break;
+		case CLASS_MAGE:    percent = 50; loop_times = 1; break;
+		case CLASS_CLERIC:  percent = 55; loop_times = 1; break;
+		case CLASS_THIEF:		percent = 60;	loop_times = 2; break;
+		case CLASS_WARRIOR:	percent = 70;	loop_times = 2; break;
 		}
 
-	percent += GET_SKILL(ch, SKILL_MULTI_ATTACK) * 2;
+	percent += GET_SKILL(ch, SKILL_MULTI_ATTACK) * 4;
 
-	for (i = 0; i < GET_SKILL(ch, SKILL_MULTI_ATTACK) / 2; i++)
+	for (i = 0; i < loop_times; i++)
 		{
 			if (percent > number(0,100))
 				attacks++;
