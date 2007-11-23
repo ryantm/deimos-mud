@@ -148,6 +148,13 @@ const struct specproc_info room_procs[] = {
   {"forge",             assemble,               LVL_IMPL},
   {"religion",          religion,               LVL_IMPL},
   {"sholo",             sholo,                  LVL_IMPL},
+
+  {"gm_wall",           gmaster,                LVL_IMPL},
+  {"mage_guild",        mage_guild,             LVL_IMPL},
+  {"warrior_guild",     warrior_guild,          LVL_IMPL},
+  {"thief_guild",       thief_guild,            LVL_IMPL},
+  {"rental",            rental,                 LVL_IMPL},
+  {"gm_guild",          gm_guild,               LVL_IMPL},
   {"\n",                0,                      0}
 };
 
@@ -224,12 +231,12 @@ void assign_mobiles(void)
   ASSIGNMOB(1, puff);
 
   /* Phobos */
-  ASSIGNMOB(25, wiseman);
-  ASSIGNMOB(217,meta_physician);
+  ASSIGNMOB(25,  wiseman);
+  ASSIGNMOB(217, meta_physician);
   ASSIGNMOB(223, assassin_guild);
   ASSIGNMOB(234, embalmer);
   ASSIGNMOB(202, postmaster);
-  ASSIGNMOB(25, gold_chipper);
+  ASSIGNMOB(25,  gold_chipper);
   ASSIGNMOB(213, cussgiver);
 
 
@@ -257,17 +264,16 @@ void assign_rooms(void)
 {
  // ASSIGNROOM(3030, dump);
  // ASSIGNROOM(3031, pet_shops);
-  ASSIGNROOM(256, stableshop);
-  ASSIGNROOM(255, stable);
+  //ASSIGNROOM(256, stableshop);
+  //ASSIGNROOM(255, stable);
   ASSIGNROOM(271, gmaster);
   ASSIGNROOM(276, mage_guild);
   ASSIGNROOM(258, warrior_guild);  
   ASSIGNROOM(260, cleric_guild);  
   ASSIGNROOM(298, thief_guild);  
-  ASSIGNROOM(200, casino); 
+  //ASSIGNROOM(200, casino); 
   ASSIGNROOM(1513, rental);
   ASSIGNROOM(1512, gm_guild);
-
 }
 
 room_rnum get_holo_room(room_vnum vnum)

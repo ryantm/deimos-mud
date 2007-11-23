@@ -633,6 +633,11 @@
 /*You MUST change these if you change levels!! */
 #define MAX_GM_LEVEL    100000
 #define MAX_TOTAL_LEVEL 240
+#define MAX_MASTER_LEVEL       60
+#define MULTICLASS_LEVEL_ONE   30
+#define MULTICLASS_LEVEL_TWO   45
+#define MULTICLASS_LEVEL_THREE 60
+
 
 /* Level of the 'freeze' command */
 #define LVL_FREEZE	LVL_GRGOD
@@ -647,11 +652,11 @@
 #define PASSES_PER_SEC	(1000000 / OPT_USEC)
 #define RL_SEC		* PASSES_PER_SEC
 
-#define PULSE_ZONE      (10 RL_SEC)
-#define PULSE_MOBILE    (10 RL_SEC)
-#define PULSE_VIOLENCE  (2 RL_SEC)
+#define PULSE_ZONE      (10  RL_SEC)
+#define PULSE_MOBILE    (10  RL_SEC)
+#define PULSE_VIOLENCE  (2   RL_SEC)
 #define PULSE_DEATH     (100 RL_SEC)
-#define PULSE_TRACK     (5 RL_SEC)
+#define PULSE_TRACK     (2   RL_SEC)
  
 /* Variables for the output buffering system */
 #define MAX_SOCK_BUF            (12 * 1024) /* Size of kernel's sock buf   */
@@ -773,11 +778,11 @@ struct obj_affected_type {
 
 /* ================== Memory Structure for Objects ================== */
 struct obj_data {
-   obj_vnum item_number;	/* Where in data-base			*/
-   room_rnum in_room;		/* In what room -1 when conta/carr	*/
-
-   struct obj_flag_data obj_flags;/* Object information               */
-   struct obj_affected_type affected[MAX_OBJ_AFFECT];  /* affects */
+	obj_vnum item_number;	/* Where in data-base			*/
+	room_rnum in_room;		/* In what room -1 when conta/carr	*/
+	
+	struct obj_flag_data obj_flags;/* Object information               */
+	struct obj_affected_type affected[MAX_OBJ_AFFECT];  /* affects */
 
    char	*name;                    /* Title of object :get etc.        */
    char	*description;		  /* When in room                     */

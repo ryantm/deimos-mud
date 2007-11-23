@@ -674,10 +674,12 @@ void core_dump_real(const char *who, int line)
 int can_murder(struct char_data *ch, struct char_data *victim) {
   if (pk_allowed == TRUE)
     return TRUE;
-  if (IS_NPC(ch) || IS_NPC(victim))
-    return TRUE;  /* you can always kill these */
-  if (PLR_FLAGGED(ch, PLR_ASSASSIN))
-    return TRUE;  /* they can kill anyone */
+  if (IS_NPC(ch) || IS_NPC(victim)) /* NPC fights are okay */
+    return TRUE;
+  if (PLR_FLAGGED(ch, PLR_ASSASSIN) && PLR_FLAGGED(victim, PLR_ASSASSIN))
+    return TRUE;
+
+
   if (!PLR_FLAGGED(victim, PLR_ASSASSIN))
     check_killer(ch, victim);
     return TRUE;
@@ -685,6 +687,7 @@ int can_murder(struct char_data *ch, struct char_data *victim) {
     return TRUE;
 
   /* Add further checks here */
+	return FALSE;
 }
 
 void line_input(struct descriptor_data *d, const char *prompt,

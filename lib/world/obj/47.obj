@@ -182,8 +182,8 @@ a fountain shaped like a longsword~
 A fountain in the shape of a longsword is mounted here.~
 ~
 23 0 0 0
-2147483647 2147483647 15 0
--2147483644 0 0 0
+1000000 1000000 15 0
+0 0 0 0
 #4721
 a Phobos scroll of recall~
 a Phobos scroll of recall~

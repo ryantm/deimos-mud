@@ -17,9 +17,9 @@
 #include "interpreter.h"	/* alias_data definition for structs.h */
 
 #define TRUE	1
-#define YES	1
+#define YES  	1
 #define FALSE	0
-#define NO	0
+#define NO	  0
 
 /*
  * Below are several constants which you can change to alter certain aspects
@@ -282,7 +282,7 @@ const char *LOGNAME = NULL;
 /* const char *LOGNAME = "log/syslog";  -- useful for Windows users */
 
 /* maximum number of players allowed before game starts to turn people away */
-int max_playing = 100;
+int max_playing = 1000;
 
 /* maximum size of bug, typo and idea files in bytes (to prevent bombing) */
 int max_filesize = 50000;

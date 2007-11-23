@@ -84,7 +84,6 @@ void	advance_level(struct char_data *ch);
 void    set_pretitle(struct char_data *ch, char *pretitle);
 void	set_title(struct char_data *ch, char *title);
 void	gain_exp(struct char_data *ch, int gain);
-void	gain_exp_regardless(struct char_data *ch, int gain);
 void	gain_condition(struct char_data *ch, int condition, int value);
 void	check_idling(struct char_data *ch);
 void	point_update(void);
@@ -279,6 +278,7 @@ void    check_fishing(void);
 
 #define GET_PC_NAME(ch)	((ch)->player.name)
 #define GET_NAME(ch)    (IS_NPC(ch) ? (ch)->player.short_descr : GET_PC_NAME(ch))
+#define SET_NAME(ch, value)    if (IS_NPC(ch)) { (ch)->player.short_descr = value; } else { GET_PC_NAME(ch) = value; } 
 #define GET_TITLE(ch)   ((ch)->player.title)
 #define GET_PRETITLE(ch) ((ch)->player.pretitle)
 #define GET_LNAME(ch)    ((ch)->player.lastname)
@@ -287,18 +287,21 @@ void    check_fishing(void);
 #define GET_GTITLE(ch) ((ch)->player.gtitle)
 
 #define GET_LEVEL(ch)   ((ch)->player.level)
-#define GET_THIEF_LEVEL(ch)  (IS_NPC(ch) ? \
-       (ch)->player.level : ((ch)->player.levelthief))
-#define GET_WARRIOR_LEVEL(ch) (IS_NPC(ch) ? \
-       (ch)->player.level : ((ch)->player.levelwarrior))
-#define GET_MAGE_LEVEL(ch) (IS_NPC(ch) ? \
-       (ch)->player.level : ((ch)->player.levelmage))
-#define GET_CLERIC_LEVEL(ch) (IS_NPC(ch) ?  \
-       (ch)->player.level : ((ch)->player.levelcleric))
+
+#define GET_THIEF_LEVEL(ch)  (IS_NPC(ch) ? (ch)->player.level : ((ch)->player.levelthief))
+#define GET_WARRIOR_LEVEL(ch)(IS_NPC(ch) ? (ch)->player.level : ((ch)->player.levelwarrior))
+#define GET_MAGE_LEVEL(ch)   (IS_NPC(ch) ? (ch)->player.level : ((ch)->player.levelmage))
+#define GET_CLERIC_LEVEL(ch) (IS_NPC(ch) ? (ch)->player.level : ((ch)->player.levelcleric))
+
+#define SET_THIEF_LEVEL(ch,value)   if (IS_NPC(ch)) { (ch)->player.level = value; } else { (ch)->player.levelthief = value;}
+#define SET_WARRIOR_LEVEL(ch,value) if (IS_NPC(ch)) { (ch)->player.level = value; } else { (ch)->player.levelwarrior = value;}
+#define SET_MAGE_LEVEL(ch,value)    if (IS_NPC(ch)) { (ch)->player.level = value; } else { (ch)->player.levelmage = value;}
+#define SET_CLERIC_LEVEL(ch,value)  if (IS_NPC(ch)) { (ch)->player.level = value; } else { (ch)->player.levelcleric = value;}
+
+
 #define GET_HORSELEVEL(ch)   ((ch)->player.levelhorse)
 #define GET_PASSWD(ch)	 ((ch)->player.passwd)
 #define GET_PFILEPOS(ch) ((ch)->pfilepos)
-
 #define GET_TOTAL_LEVEL(ch) (((ch)->player.levelthief) + \
                             ((ch)->player.levelmage) +   \
                             ((ch)->player.levelcleric) + \

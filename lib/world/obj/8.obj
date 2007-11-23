@@ -204,9 +204,9 @@ drink~
 Man's drink~
 A HUGE container of a Man's drink is lying here.~
 ~
-17 0 1 0
-2147483647 2147483647 15 0
--2147483644 0 0 0
+17 0 0 0
+1000000 1000000 15 0
+0 0 0 0
 #817
 Beta Tester Flag~
 a Beta Tester Flag~

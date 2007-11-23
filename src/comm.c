@@ -2618,13 +2618,9 @@ void act(const char *str, int hide_invisible, struct char_data *ch,
   if (type == TO_GMOTE) {
     for (i = descriptor_list; i; i = i->next) {
       if (!i->connected && i->character &&
-
-!PRF_FLAGGED(i->character, PRF_NOGOSS) &&
-
-!PLR_FLAGGED(i->character, PLR_WRITING) &&
-
-!ROOM_FLAGGED(i->character->in_room, ROOM_SOUNDPROOF) &&
-!IS_NPC(i->character)) {
+					!PRF_FLAGGED(i->character, PRF_NOGOSS) &&
+					!PLR_FLAGGED(i->character, PLR_WRITING) &&
+					!IS_NPC(i->character)) {
 
         send_to_char(CCYEL(i->character, C_NRM), i->character);
         perform_act(str, ch, obj, vict_obj, i->character);

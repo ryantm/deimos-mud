@@ -273,6 +273,7 @@ void	spellname(int level, struct char_data *ch, \
 
 ASPELL(spell_create_water);
 ASPELL(spell_recall);
+ASPELL(spell_arenburg_recall);
 ASPELL(spell_teleport);
 ASPELL(spell_summon);
 ASPELL(spell_locate_object);

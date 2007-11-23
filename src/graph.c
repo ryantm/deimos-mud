@@ -142,10 +142,10 @@ int find_first_step(room_rnum src, room_rnum target)
       return (curr_dir);
     } else {
       for (curr_dir = 0; curr_dir < NUM_OF_DIRS; curr_dir++)
-	if (VALID_EDGE(queue_head->room, curr_dir)) {
-	  MARK(TOROOM(queue_head->room, curr_dir));
-	  bfs_enqueue(TOROOM(queue_head->room, curr_dir), queue_head->dir);
-	}
+				if (VALID_EDGE(queue_head->room, curr_dir)) {
+					MARK(TOROOM(queue_head->room, curr_dir));
+					bfs_enqueue(TOROOM(queue_head->room, curr_dir), queue_head->dir);
+				}
       bfs_dequeue();
     }
   }
@@ -211,8 +211,10 @@ ACMD(do_track)
    }
 
   /* 101 is a complete failure, no matter what the proficiency. */
-  if (number(0, 20) < GET_SKILL(ch, SKILL_TRACK)) 
+  if (number(0, 12) >= GET_SKILL(ch, SKILL_TRACK)) 
   {
+    SET_BIT(PLR_FLAGS(ch), PLR_TRACK);
+    TRACKING(ch) = str_dup(arg);
     int tries = 10;
     /* Find a random direction. :) */
     do {
@@ -220,6 +222,8 @@ ACMD(do_track)
     } while (!CAN_GO(ch, dir) && --tries);
     sprintf(buf, "You sense a trail %s from here!\r\n", dirs[dir]);
     send_to_char(buf, ch);
+    perform_move(ch, dir, 1);
+		WAIT_STATE(ch, PULSE_VIOLENCE * 1);	
     return;
   }
 
@@ -249,6 +253,7 @@ ACMD(do_track)
     sprintf(buf, "You sense a trail %s from here!\r\n", dirs[dir]);
     send_to_char(buf, ch);
     perform_move(ch, dir, 1);
+		WAIT_STATE(ch, PULSE_VIOLENCE * 1);	
     break;
    }
 }
