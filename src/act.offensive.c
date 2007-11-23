@@ -268,7 +268,7 @@ ACMD(do_backstab)
 				{
 					//Failure
 					act("&GAttempts to backstab you, but cuts $Mself instead.&n"  , FALSE, vict, 0, ch, TO_CHAR);
-					act("&RYou cut yourself badly trying to backstab $e!&n"     , FALSE, vict, 0, ch, TO_VICT);
+					act("&RYou cut yourself badly trying to backstab $m!&n"     , FALSE, vict, 0, ch, TO_VICT);
 					act("&Y$N attempts to backstab $n but cuts $Mself instead.&n" , FALSE, vict, 0, ch, TO_NOTVICT);
 					damage(ch, ch, damage_from(ch, SKILL_BACKSTAB), TYPE_HIT);
 				}
