@@ -367,43 +367,6 @@ void gain_exp(struct char_data * ch, int gain)
   }
 
 
-void gain_exp_regardless(struct char_data * ch, int gain)
-{
-  int is_altered = FALSE;
-  int num_levels = 0;
- 
-  GET_EXP(ch) += gain;
-  if (GET_EXP(ch) < 0)
-    GET_EXP(ch) = 0;
- 
-  if (!IS_NPC(ch)) {
-    while (GET_LEVEL(ch) < LVL_IMPL &&
-        GET_EXP(ch) >= level_exp(GET_CLASS(ch), GET_LEVEL(ch) + 1)) {
-      GET_LEVEL(ch) += 1;
-      num_levels++;
-      advance_level(ch);
-      is_altered = TRUE;
-    }
- 
-    if (is_altered) {
-      sprintf(buf, "%s advanced %d level%s to level %d.",
-                GET_NAME(ch), num_levels, num_levels == 1 ? "" : "s",     
-                 GET_LEVEL(ch));
-      mudlog(buf, BRF, MAX(LVL_IMMORT, GET_INVIS_LEV(ch)), TRUE);
-      if (num_levels == 1)
-        send_to_char("You rise a level!\r\n", ch);
-      else {
-        sprintf(buf, "You rise %d levels!\r\n", num_levels);
-        send_to_char(buf, ch);
-	GET_EXP(ch) = 0;
-      }
-      set_title(ch, NULL);
-      check_autowiz(ch);
-    }
-  }
-}
-
-
 void gain_condition(struct char_data * ch, int condition, int value)
 {
   bool intoxicated;
@@ -807,71 +770,66 @@ void tracker(void) {
   for (ch = character_list; ch; ch = next_char) {
     next_char = ch->next;
  
- if (PLR_FLAGGED(ch, PLR_TRACK)) {
-  /* The person can't see the victim. */
-
-  if (!(vict = get_char_vis(ch, TRACKING(ch), FIND_CHAR_WORLD))) {
-    REMOVE_BIT(PLR_FLAGS(ch), PLR_TRACK);
-    TRACKING(ch) = NULL;
-    return;
-  }
-
- if (IN_ROOM(ch) == IN_ROOM(vict) && PLR_FLAGGED(ch, PLR_TRACK)) {
-   REMOVE_BIT(PLR_FLAGS(ch), PLR_TRACK);
-   TRACKING(ch) = NULL;
-   return;
-  }
-
- if (IN_ROOM(ch) == IN_ROOM(vict) && !PLR_FLAGGED(ch, PLR_TRACK)) {
-   send_to_char("You're already in the same room!!\r\n", ch);
-   REMOVE_BIT(PLR_FLAGS(ch), PLR_TRACK);
-   TRACKING(ch) = NULL;
-   return;
-  }
-
-  /* 101 is a complete failure, no matter what the proficiency. */
-  if (number(0, 101) >= GET_SKILL(ch, SKILL_TRACK)) {
-    int tries = 10;
-    /* Find a random direction. :) */
-    do {
-      dir = number(0, NUM_OF_DIRS - 1);
-    } while (!CAN_GO(ch, dir) && --tries);
-    sprintf(buf, "You sense a trail %s from here!\r\n", dirs[dir]);
-    send_to_char(buf, ch);
-    return;
-  }
-
-  /* They passed the skill check. */
-  dir = find_first_step(ch->in_room, vict->in_room);
-
-  switch (dir) {
-  case BFS_ERROR:
-    send_to_char("Hmm.. something seems to be wrong.\r\n", ch);
-   REMOVE_BIT(PLR_FLAGS(ch), PLR_TRACK);
-   TRACKING(ch) = NULL;
-    break;
-  case BFS_ALREADY_THERE:
-    send_to_char("You're already in the same room!!\r\n", ch);
-   REMOVE_BIT(PLR_FLAGS(ch), PLR_TRACK);
-   TRACKING(ch) = NULL;
-    break;
-  case BFS_NO_PATH:
-    sprintf(buf, "You can't sense a trail to %s from here.\r\n", HMHR(vict));
-    send_to_char(buf, ch);
-   REMOVE_BIT(PLR_FLAGS(ch), PLR_TRACK);
-   TRACKING(ch) = NULL;
-    break;
-  default:	/* Success! */
-    SET_BIT(PLR_FLAGS(ch), PLR_TRACK);
-    TRACKING(ch) = str_dup(arg);
-    sprintf(buf, "You sense a trail %s from here!\r\n", dirs[dir]);
-    send_to_char(buf, ch);
-    perform_move(ch, dir, 1);
-    improve_skill(ch, SKILL_TRACK);
-    break;
-   }
-     }
-   }
+		if (PLR_FLAGGED(ch, PLR_TRACK)) {
+			/* The person can't see the victim. */
+			
+			if (!(vict = get_char_vis(ch, TRACKING(ch), FIND_CHAR_WORLD))) 
+				{
+					send_to_char("You lose track of your prey.\r\n", ch);
+					REMOVE_BIT(PLR_FLAGS(ch), PLR_TRACK);
+					TRACKING(ch) = NULL;
+					return;
+				}
+			
+			if (IN_ROOM(ch) == IN_ROOM(vict)) 
+				{
+					send_to_char("You find your prey!\r\n", ch);
+					REMOVE_BIT(PLR_FLAGS(ch), PLR_TRACK);
+					TRACKING(ch) = NULL;
+					return;
+				}
+			
+			/* 101 is a complete failure, no matter what the proficiency. */
+			if (number(0, 11) >= GET_SKILL(ch, SKILL_TRACK)) {
+				int tries = 10;
+				/* Find a random direction. :) */
+				do {
+					dir = number(0, NUM_OF_DIRS - 1);
+				} while (!CAN_GO(ch, dir) && --tries);
+				sprintf(buf, "You sense a trail %s from here!\r\n", dirs[dir]);
+				send_to_char(buf, ch);
+				perform_move(ch, dir, 1);
+				return;
+			}
+			
+			/* They passed the skill check. */
+			dir = find_first_step(ch->in_room, vict->in_room);
+			
+			switch (dir) {
+			case BFS_ERROR:
+				send_to_char("Hmm.. something seems to be wrong.\r\n", ch);
+				REMOVE_BIT(PLR_FLAGS(ch), PLR_TRACK);
+				TRACKING(ch) = NULL;
+				break;
+			case BFS_ALREADY_THERE:
+				send_to_char("You find your prey!\r\n", ch);
+				REMOVE_BIT(PLR_FLAGS(ch), PLR_TRACK);
+				TRACKING(ch) = NULL;
+				break;
+			case BFS_NO_PATH:
+				sprintf(buf, "You can't sense a trail to %s from here.\r\n", HMHR(vict));
+				send_to_char(buf, ch);
+				REMOVE_BIT(PLR_FLAGS(ch), PLR_TRACK);
+				TRACKING(ch) = NULL;
+				break;
+			default:	/* Success! */
+				sprintf(buf, "You sense a trail %s from here!\r\n", dirs[dir]);
+				send_to_char(buf, ch);
+				perform_move(ch, dir, 1);
+				break;
+			}
+		}
+	}
 }
 
 void goldchip(void) 

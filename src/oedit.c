@@ -1204,7 +1204,7 @@ ACMD(do_iedit) {
   }
 
                 /* set up here */
-  CREATE(OLC(ch->desc), struct oasis_olc_data, 1);
+  CREATE((ch->desc)->olc, struct oasis_olc_data, 1);
   SET_BIT(GET_OBJ_EXTRA(k), ITEM_UNIQUE_SAVE);
 
   SET_BIT(PLR_FLAGS(ch), PLR_WRITING);

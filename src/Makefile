@@ -10,7 +10,6 @@ CXREF = cxref
 
 # Any special flags you want to pass to the compiler
 MYFLAGS = -Wall
-#removed the -Wall above
 
 #flags for profiling (see hacker.doc for more information)
 PROFILE = 
@@ -18,13 +17,9 @@ PROFILE =
 ##############################################################################
 # Do Not Modify Anything Below This Line (unless you know what you're doing) #
 ##############################################################################
-
-
-
 BINDIR = ../bin
 
-#extedned debug, no warnings
-
+#extedned debug
 CFLAGS = -ggdb -O2 $(MYFLAGS) $(PROFILE)
 
 LIBS =  -lcrypt 
@@ -40,188 +35,21 @@ OBJFILES = act.comm.o act.informative.o act.item.o act.movement.o \
   dg_mobcmd.o dg_misc.o dg_objcmd.o dg_scripts.o dg_triggers.o dg_wldcmd.o \
   dg_olc.o hedit.o prgrun.o diskio.o cedit.o clan.o freezetag.o screen.o
 
-CXREF_FILES = act.comm.c act.informative.c act.item.c act.movement.c \
-  act.offensive.c act.other.c act.social.c act.wizard.c alias.c ban.c boards.c \
-  class.c comm.c config.c constants.c db.c fight.c genmob.c genobj.c \
-  genolc.c genshp.c genwld.c genzon.c graph.c handler.c house.c improved-edit.c \
-  interpreter.c limits.c magic.c mail.c medit.c mobact.c modify.c oasis.c \
-  objsave.c oedit.c olc.c random.c redit.c sedit.c shop.c spec_assign.c \
-  spec_procs.c spell_parser.c spells.c tedit.c utils.c weather.c zedit.c \
-  assemblies.c assedit.c dg_comm.c dg_db_scripts.c dg_event.c dg_handler.c \
-  dg_mobcmd.c dg_misc.c dg_objcmd.c dg_scripts.c dg_triggers.c dg_wldcmd.c \
-  dg_olc.c hedit.c prgrun.c diskio.c cedit.c clan.c freezetag.c screen.c
+default: deimos
 
+all:
+	$(MAKE) $(BINDIR)/deimos
 
-default: circle
+deimos:
+	$(MAKE) $(BINDIR)/deimos
 
-all: .accepted
-	$(MAKE) $(BINDIR)/circle
+$(BINDIR)/deimos : $(OBJFILES)
+	$(CC) -o $(BINDIR)/deimos $(PROFILE) $(OBJFILES) $(LIBS)
 
-.accepted:
-#       @./licheck less
-
-
-circle:
-	$(MAKE) $(BINDIR)/circle
-
-$(BINDIR)/circle : $(OBJFILES)
-	$(CC) -o $(BINDIR)/circle $(PROFILE) $(OBJFILES) $(LIBS)
+deploy:
+	deimosname=$(BINDIR)/archive/deimos
+	cp ${BINDIR}/deimos-live
+	cp ${BINDIR}/archive/deimos-live
 
 clean:
 	rm -f *.o
-ref:
-#
-# Create the cross reference files
-# Note, this is not meant to be used unless you've installed cxref...
-#
-	@for file in $(CXREF_FILES) ; do \
-	  echo Cross referencing $$file ; \
-	  $(CXREF) -D__CXREF__ -xref -Odoc -Ncircle $$file ; \
-	done
-#
-# Create the source files using cxref
-#
-	@for file in $(CXREF_FILES) ; do \
-	   echo Documenting $$file ; \
-	   ( cd . ; $(CXREF) -D__CXREF__ -warn-xref -xref -Odoc -Ncircle -html $$file ) ; \
-	   rm -f $(DOCS) ; \
-	done
-#
-# Create the index using cxref
-#
-	@echo Indexing
-	@( cd . ; $(CXREF) -D__CXREF__ -index-all -Odoc -Ncircle -html )
-	@rm -f $(DOCS)
-#
-# Make html files for the .h files
-#
-	@echo Creating .h.html files...
-	@for file in *.h ; do \
-	  echo $$file ; \
-	  cat /home/jelson/mud/htmlh-head $$file /home/jelson/mud/htmlh-tail > doc/$$file.html ; \
-	done
-# Copy over to the html directory
-	cp doc/*.html /home/jelson/public_html/circle/cdp/cxref
-	chmod 644 /home/jelson/public_html/circle/cdp/cxref/*.html
-
-# Dependencies for the object files (automagically generated with
-# gcc -MM)
-
-act.comm.o: act.comm.c conf.h structs.h utils.h comm.h interpreter.h handler.h db.h screen.h dg_scripts.h
-	$(CC) -c $(CFLAGS) act.comm.c
-act.informative.o: act.informative.c conf.h structs.h utils.h comm.h interpreter.h handler.h db.h spells.h screen.h constants.h dg_scripts.h
-	$(CC) -c $(CFLAGS) act.informative.c
-act.item.o: act.item.c conf.h structs.h utils.h comm.h interpreter.h handler.h db.h spells.h constants.h dg_scripts.h
-	$(CC) -c $(CFLAGS) act.item.c
-act.movement.o: act.movement.c conf.h structs.h utils.h comm.h interpreter.h handler.h db.h spells.h house.h constants.h dg_scripts.h
-	$(CC) -c $(CFLAGS) act.movement.c
-act.offensive.o: act.offensive.c conf.h structs.h utils.h comm.h interpreter.h handler.h db.h spells.h
-	$(CC) -c $(CFLAGS) act.offensive.c
-act.other.o: act.other.c conf.h structs.h utils.h comm.h interpreter.h handler.h db.h spells.h screen.h house.h constants.h dg_scripts.h
-	$(CC) -c $(CFLAGS) act.other.c
-act.social.o: act.social.c conf.h structs.h utils.h comm.h interpreter.h handler.h db.h spells.h
-	$(CC) -c $(CFLAGS) act.social.c
-act.wizard.o: act.wizard.c conf.h structs.h utils.h comm.h interpreter.h handler.h db.h spells.h house.h screen.h constants.h dg_scripts.h
-	$(CC) -c $(CFLAGS) act.wizard.c
-alias.o: alias.c conf.h structs.h utils.h interpreter.h db.h 
-	$(CC) -c $(CFLAGS) alias.c
-ban.o: ban.c conf.h structs.h utils.h comm.h interpreter.h handler.h db.h
-	$(CC) -c $(CFLAGS) ban.c
-boards.o: boards.c conf.h structs.h utils.h comm.h db.h boards.h interpreter.h handler.h
-	$(CC) -c $(CFLAGS) boards.c
-class.o: class.c conf.h structs.h db.h utils.h spells.h interpreter.h constants.h
-	$(CC) -c $(CFLAGS) class.c
-comm.o: comm.c conf.h structs.h utils.h comm.h interpreter.h handler.h db.h house.h dg_scripts.h
-	$(CC) -c $(CFLAGS) comm.c
-config.o: config.c conf.h structs.h interpreter.h
-	$(CC) -c $(CFLAGS) config.c
-constants.o: constants.c conf.h structs.h interpreter.h
-	$(CC) -c $(CFLAGS) constants.c
-db.o: db.c conf.h structs.h utils.h db.h comm.h handler.h spells.h mail.h interpreter.h house.h constants.h dg_scripts.h diskio.h pfdefaults.h
-	$(CC) -c $(CFLAGS) db.c
-diskio.o: diskio.c diskio.h
-	$(CC) -c $(CFLAGS) diskio.c  
-fight.o: fight.c conf.h structs.h utils.h comm.h handler.h interpreter.h db.h spells.h screen.h constants.h dg_scripts.h
-	$(CC) -c $(CFLAGS) fight.c
-genwld.o: genwld.c conf.h structs.h utils.h db.h interpreter.h handler.h comm.h genolc.h genwld.h genzon.h oasis.h screen.h constants.h
-	$(CC) -c $(CFLAGS) genwld.c
-graph.o: graph.c conf.h structs.h utils.h comm.h interpreter.h handler.h db.h spells.h
-	$(CC) -c $(CFLAGS) graph.c
-handler.o: handler.c conf.h structs.h utils.h comm.h db.h handler.h interpreter.h spells.h dg_scripts.h
-	$(CC) -c $(CFLAGS) handler.c
-house.o: house.c conf.h structs.h comm.h handler.h db.h interpreter.h utils.h house.h constants.h
-	$(CC) -c $(CFLAGS) house.c
-interpreter.o: interpreter.c conf.h structs.h comm.h interpreter.h db.h utils.h spells.h handler.h mail.h screen.h dg_scripts.h
-	$(CC) -c $(CFLAGS) interpreter.c
-limits.o: limits.c conf.h structs.h utils.h spells.h comm.h db.h handler.h dg_scripts.h
-	$(CC) -c $(CFLAGS) limits.c
-magic.o: magic.c conf.h structs.h utils.h comm.h spells.h handler.h db.h dg_scripts.h
-	$(CC) -c $(CFLAGS) magic.c
-mail.o: mail.c conf.h structs.h utils.h comm.h db.h interpreter.h handler.h mail.h
-	$(CC) -c $(CFLAGS) mail.c
-mobact.o: mobact.c conf.h structs.h utils.h db.h comm.h interpreter.h handler.h spells.h constants.h
-	$(CC) -c $(CFLAGS) mobact.c
-modify.o: modify.c conf.h structs.h utils.h interpreter.h handler.h db.h comm.h spells.h mail.h boards.h
-	$(CC) -c $(CFLAGS) modify.c
-objsave.o: objsave.c conf.h structs.h comm.h handler.h db.h interpreter.h utils.h spells.h
-	$(CC) -c $(CFLAGS) objsave.c
-olc.o: olc.c conf.h structs.h utils.h comm.h interpreter.h handler.h db.h olc.h dg_scripts.h
-	$(CC) -c $(CFLAGS) olc.c
-random.o: random.c utils.h
-	$(CC) -c $(CFLAGS) random.c
-shop.o: shop.c conf.h structs.h comm.h handler.h db.h interpreter.h utils.h shop.h constants.h dg_scripts.h
-	$(CC) -c $(CFLAGS) shop.c
-spec_assign.o: spec_assign.c conf.h structs.h db.h interpreter.h utils.h
-	$(CC) -c $(CFLAGS) spec_assign.c
-spec_procs.o: spec_procs.c conf.h structs.h utils.h comm.h interpreter.h handler.h db.h spells.h constants.h dg_scripts.h
-	$(CC) -c $(CFLAGS) spec_procs.c
-spell_parser.o: spell_parser.c conf.h structs.h utils.h interpreter.h spells.h handler.h comm.h db.h dg_scripts.h
-	$(CC) -c $(CFLAGS) spell_parser.c
-spells.o: spells.c conf.h structs.h utils.h comm.h spells.h handler.h db.h constants.h interpreter.h
-	$(CC) -c $(CFLAGS) spells.c
-utils.o: utils.c conf.h structs.h utils.h comm.h screen.h spells.h handler.h db.h interpreter.h
-	$(CC) -c $(CFLAGS) utils.c
-weather.o: weather.c conf.h structs.h utils.h comm.h handler.h interpreter.h db.h
-	$(CC) -c $(CFLAGS) weather.c
-redit.o: redit.c conf.h structs.h utils.h comm.h boards.h db.h olc.h dg_olc.h
-	$(CC) -c $(CFLAGS) redit.c
-oedit.o: oedit.c conf.h structs.h utils.h comm.h boards.h spells.h db.h olc.h shop.h dg_olc.h
-	$(CC) -c $(CFLAGS) oedit.c
-zedit.o: zedit.c conf.h structs.h utils.h comm.h db.h olc.h dg_scripts.h
-	$(CC) -c $(CFLAGS) zedit.c 
-medit.o: medit.c conf.h structs.h utils.h comm.h spells.h shop.h db.h olc.h handler.h dg_olc.h
-	$(CC) -c $(CFLAGS) medit.c 
-sedit.o: sedit.c conf.h structs.h utils.h comm.h db.h olc.h shop.h
-	$(CC) -c $(CFLAGS) sedit.c 
-dg_comm.o: dg_comm.c conf.h structs.h dg_scripts.h utils.h comm.h handler.h db.h
-	$(CC) -c $(CFLAGS) dg_comm.c
-dg_db_scripts.o: dg_db_scripts.c conf.h structs.h dg_scripts.h utils.h comm.h handler.h db.h dg_event.h
-	$(CC) -c $(CFLAGS) dg_db_scripts.c
-dg_event.o: dg_event.c conf.h dg_event.h utils.h structs.h
-	$(CC) -c $(CFLAGS) dg_event.c
-dg_handler.o: dg_handler.c conf.h structs.h dg_scripts.h utils.h comm.h handler.h spells.h db.h dg_event.h
-	$(CC) -c $(CFLAGS) dg_handler.c
-dg_misc.o: dg_misc.c conf.h structs.h dg_scripts.h utils.h comm.h handler.h db.h comm.h screen.h
-	$(CC) -c $(CFLAGS) dg_misc.c
-dg_mobcmd.o: dg_mobcmd.c conf.h structs.h dg_scripts.h utils.h comm.h handler.h db.h interpreter.h comm.h spells.h
-	$(CC) -c $(CFLAGS) dg_mobcmd.c
-dg_objcmd.o: dg_objcmd.c conf.h structs.h dg_scripts.h utils.h comm.h handler.h db.h interpreter.h comm.h
-	$(CC) -c $(CFLAGS) dg_objcmd.c
-dg_scripts.o: dg_scripts.c conf.h structs.h dg_scripts.h utils.h comm.h handler.h db.h comm.h screen.h
-	$(CC) -c $(CFLAGS) dg_scripts.c
-dg_triggers.o: dg_triggers.c conf.h structs.h dg_scripts.h utils.h comm.h handler.h db.h interpreter.h
-	$(CC) -c $(CFLAGS) dg_triggers.c
-dg_wldcmd.o: dg_wldcmd.c conf.h structs.h dg_scripts.h utils.h comm.h handler.h db.h comm.h interpreter.h
-	$(CC) -c $(CFLAGS) dg_wldcmd.c
-dg_olc.o: dg_olc.c conf.h structs.h dg_scripts.h utils.h comm.h db.h olc.h dg_olc.h dg_event.h
-	$(CC) -c $(CFLAGS) dg_olc.c
-hedit.o: hedit.c conf.h structs.h utils.h comm.h boards.h db.h olc.h
-	$(CC) -c $(CFLAGS) hedit.c
-prgrun.o: prgrun.c structs.h utils.h comm.h interpreter.h db.h
-	$(CC) -c $(CFLAGS) prgrun.c 
-cedit.o: cedit.c conf.h structs.h utils.h comm.h interpreter.h db.h genolc.h oasis.h improved-edit.h dg_olc.h constants.h cedit.h clan.h
-	$(CC) -c $(CFLAGS) cedit.c
-clan.o: clan.c conf.h structs.h db.h utils.h interpreter.h constants.h screen.h cedit.h pfdefaults.h
-	$(CC) -c $(CFLAGS) clan.c
-freezetag.o: freezetag.c conf.h structs.h utils.h comm.h interpreter.h handler.h db.h spells.h constants.h dg_scripts.h
-	$(CC) -c $(CFLAGS) freezetag.c

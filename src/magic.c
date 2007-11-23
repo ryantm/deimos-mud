@@ -921,7 +921,7 @@ void mag_areas(int level, struct char_data * ch, int spellnum, int savetype)
       continue;
     if (!IS_NPC(tch) && GET_LEVEL(tch) >= LVL_IMMORT)
       continue;
-    if (!can_murder && !IS_NPC(ch) && !IS_NPC(tch))
+    if (!IS_NPC(ch) && !IS_NPC(tch))
       continue;
     if (IS_NPC(tch) && MOB_FLAGGED(tch, MOB_NOHIT)) 
         continue;

@@ -31,6 +31,7 @@ extern struct descriptor_data *descriptor_list;
 extern struct index_data *mob_index;
 extern struct index_data *obj_index;
 extern struct time_info_data time_info;
+
 extern struct spell_info_type spell_info[];
 extern int guild_info[][3];
 extern struct player_index_element *player_table;
@@ -47,13 +48,15 @@ extern void dremoverelig(struct char_data *ch);
 extern void rremoverelig(struct char_data *ch);
 extern void cremoverelig(struct char_data *ch);
 extern struct clan_type *clan_info;
+extern const char *pc_class_types[];
+
 /* extern functions */
 void add_follower(struct char_data * ch, struct char_data * leader);
 void return_blue_flag();
 void return_red_flag();
 bool quotaok();
 
-int level_exp(int chclass, int level);
+int level_exp(int level);
 float level_gold(int level);
 int horse_exp(int horselevel);
 ACMD(do_drop);
@@ -62,6 +65,9 @@ ACMD(do_say);
 ACMD(do_look);
 extern struct new_guild_info guilds[];
 void update_pos(struct char_data * ch);
+int needed_exp(byte char_class, byte gain_class, int level);
+int needed_gold(byte char_class, byte gain_class, int level);
+
 
 /* local functions */
 void sort_spells(void);
@@ -579,87 +585,6 @@ void list_skills(struct char_data * ch)
   page_string(ch->desc, buf2, 1);
 }
 
-SPECIAL(guild)
-{
-  int found, skill_num, i;
-  int percent;
-  extern struct spell_info_type spell_info[];
-
-  found = FALSE;
-  if (IS_NPC(ch))
-    return 0;                 
-   else if (!CMD_IS("practice") && !CMD_IS("level"))
-    return 0;
-
-  for(i=0;guilds[i].class != -1;i++)
-     if (GET_CLASS(ch) == guilds[i].class && world[ch->in_room].number ==
-     guilds[i].guild_room) {
-          found = TRUE;
-          continue;
-    } else
-
- if(CMD_IS("practice") && found == TRUE) {
-   skip_spaces(&argument);
-
-  if (!*argument) {               
-     list_skills(ch);
-    return 1;
-  }
-  if (GET_PRACTICES(ch) <= 0) {
-    send_to_char("You do not seem to be able to practice now.\r\n", ch);
-    return 1;
-  }
-
-  skill_num = find_skill_num(argument);
-
-  if (skill_num < 1 ||
-      GET_LEVEL(ch) < spell_info[skill_num].min_level[(int) GET_CLASS(ch)]) {
-    sprintf(buf, "You do not know of that %s.\r\n", SPLSKL(ch));
-    send_to_char(buf, ch);
-    return 1;
-  }                              
-    if (GET_SKILL(ch, skill_num) >= spell_info[skill_num].max_power[(int) GET_CLASS(ch)]) {
-    send_to_char("You are already learned in that area.\r\n", ch);
-    return 1;
-  }
-
-  send_to_char("You practice for a while...\r\n", ch);
-  GET_PRACTICES(ch)--;
-
-  percent = GET_SKILL(ch, skill_num);
-  percent += MIN(MAXGAIN(ch), MINGAIN(ch));
-
-  SET_SKILL(ch, skill_num, MIN(LEARNED(skill_num, ch, GET_CLASS(ch)), percent));
-
-  if (GET_SKILL(ch, skill_num) >= LEARNED(skill_num, ch, GET_CLASS(ch)))
-    send_to_char("You are now learned in that area.\r\n", ch);
-
-  return 1;                   
-  }
-
- if(CMD_IS("level") && found == TRUE) {
-  if(GET_EXP(ch) >= level_exp(GET_CLASS(ch), GET_LEVEL(ch) + 1) && GET_LEVEL(ch) >=
-LVL_IMMORT - 1) {
-      send_to_char("You can't gain anymore levels!\r\n", ch);
-    return 0;
-  }
-  if(GET_LEVEL(ch) < LVL_IMMORT - 1 && GET_EXP(ch) >= level_exp(GET_CLASS(ch),
-GET_LEVEL(ch) + 1)) {
-      GET_LEVEL(ch) += 1;
-      GET_EXP(ch) -= level_exp(GET_CLASS(ch), GET_LEVEL(ch)); 
-      advance_level(ch);
-      send_to_char("You gain a level!\r\n", ch);
-      return 1;
-     }                
-      else
-     return FALSE;
-
-  }
-else
-     return FALSE;
-}
-
-
 SPECIAL(dump)
 {
   struct obj_data *k;
@@ -786,29 +711,292 @@ SPECIAL(mayor)
   return (FALSE);
 }
 
+byte get_class_level(struct char_data *ch, byte class) {
+	switch (class) 
+		{
+		case CLASS_MAGE:    return GET_MAGE_LEVEL(ch);
+		case CLASS_CLERIC:  return GET_CLERIC_LEVEL(ch);
+		case CLASS_THIEF:   return GET_THIEF_LEVEL(ch);
+		case CLASS_WARRIOR: return GET_WARRIOR_LEVEL(ch);
+		}
+	return -1;
+}
+
+void inc_class_stats(struct char_data *ch, byte class)
+{
+	int add_mana=0, add_move=0, add_hp = 0;
+
+	add_hp   = con_app[GET_CON(ch)].hitp;
+	add_mana = MAX(0, ((GET_INT(ch) - 16) /2));
+	add_move = MAX(0, ((GET_DEX(ch) - 16) /2));
+
+	switch (class) 
+		{
+		case CLASS_MAGE:
+			//MAGE GUILD STATS
+      switch (GET_CLASS(ch)) 
+				{
+				case CLASS_MAGIC_USER:
+					add_hp += number(2, 5);
+					add_mana += number(8, 17);
+					add_move += number(1, 3);
+					break;
+				case CLASS_CLERIC:
+					add_hp += number(2, 5);
+					add_mana += number(6, 13);
+					add_move += number(1, 2);
+					break;
+				case CLASS_THIEF:
+					add_hp += number(2, 4);
+					add_mana += number(2, 5);
+					add_move += number(2, 4);
+					break;
+				case CLASS_WARRIOR:
+					add_hp += number(3, 7);
+					add_mana += number(2, 4);
+					add_move += number(2, 4);
+					break;
+				}
+			break;
+		case CLASS_CLERIC:
+			//CLERIC GUILD STATS
+			switch (GET_CLASS(ch)) 
+				{
+				case CLASS_MAGIC_USER:
+					add_hp += number(1, 3);
+					add_mana += number(6, 13);
+					add_move += number(0, 1);
+					break;
+				case CLASS_CLERIC:
+					add_hp += number(4, 8);
+					add_mana += number(6, 13);
+					add_move += number(2, 4);
+					break;
+				case CLASS_THIEF:
+					add_hp += number(2, 4);
+					add_mana += number(2, 5);
+					add_move += number(2, 4);
+					break;
+				case CLASS_WARRIOR:
+					add_hp += number(3, 7);
+					add_mana += number(2, 4);
+					add_move += number(2, 4);
+					break;
+				}
+			break;
+		case CLASS_THIEF:
+			//THIEF GUILD STATS
+			switch (GET_CLASS(ch)) 
+				{
+				case CLASS_MAGE:
+					add_hp += number(2, 5);
+					add_mana = 0;
+					add_move += number(0,1);
+					break;
+				case CLASS_CLERIC:
+					add_hp += number(2, 5);
+					add_mana = 0;
+					add_move += number(0,6);
+					break;
+				case CLASS_THIEF:
+					add_hp += number(7, 14);
+					add_mana = 0;
+					add_move += number(7, 14);
+					break;
+				case CLASS_WARRIOR:
+					add_hp += number(8, 17);
+					add_mana = 0;
+					add_move += number(2, 5);
+					break;
+				}
+			break;
+		case CLASS_WARRIOR:
+			//WARRIOR GUILD STATS
+			switch(GET_CLASS(ch)) 
+				{
+				case CLASS_MAGIC_USER:
+					add_hp += number(2, 5);
+					add_mana = 0;
+					add_move += number(1, 3);
+					break;
+				case CLASS_CLERIC:
+					add_hp += number(6, 12);
+					add_mana = 0;
+					add_move += number(1, 2);
+					break;
+				case CLASS_THIEF:
+					add_hp += number(7, 14);
+					add_mana = 0;
+					add_move += number(2, 5);
+					break;
+				case CLASS_WARRIOR:
+					add_hp += number(8, 17);
+					add_mana = 0;
+					add_move += number(2, 4);
+					break;
+				}
+			break;
+		}	
+
+	ch->points.max_hit  += MAX(0, add_hp);
+	ch->points.max_move += MAX(0, add_move); 
+	ch->points.max_mana += MAX(0, add_mana); 
+	
+	GET_PRACTICES(ch) += 1;
+	send_to_char("You gain one practice session.\r\n", ch);
+
+	sprintf(buf, "You gain (%d) hit points, (%d) mana, (%d) movement.\r\n", 
+					add_hp,
+					add_mana, 
+					add_move);
+	send_to_char(buf, ch);
+}
+
+void inc_class_level(struct char_data *ch, byte class) 
+{
+	struct descriptor_data *dd = NULL;
+	struct obj_data *obj;
+	int num;
+	const int inc_by = 1;
+	const int new_level = get_class_level(ch, class) + inc_by;
+
+	switch (class) 
+		{
+		case CLASS_MAGE:    SET_MAGE_LEVEL(ch,    new_level); break;
+		case CLASS_CLERIC:  SET_CLERIC_LEVEL(ch,  new_level); break;
+		case CLASS_THIEF:   SET_THIEF_LEVEL(ch,   new_level); break;
+		case CLASS_WARRIOR: SET_WARRIOR_LEVEL(ch, new_level); break;
+		}
+
+	// Set regular level to class level
+	GET_LEVEL(ch) = get_class_level(ch, GET_CLASS(ch));
+
+	inc_class_stats(ch, class);
+
+	//Notify immortals and logs
+	sprintf(buf, "%s gained one %s level to level %d.",
+					GET_NAME(ch), 
+					pc_class_types[(int)class], 
+					new_level);
+	mudlog(buf, BRF, MAX(LVL_IMMORT, GET_INVIS_LEV(ch)), TRUE);
+
+	// Notify everyone
+	sprintf(buf, "&G%s gained one %s level.&n", 
+					GET_NAME(ch), 
+					pc_class_types[(int)class]);
+	for (dd = descriptor_list; dd; dd = dd->next)
+		if (STATE(dd) == CON_PLAYING && dd != ch->desc && PRF_FLAGGED2(dd->character,PRF2_HEARLEVEL))
+			act(buf, 0, 0, 0, dd->character, TO_VICT | TO_SLEEP);
+
+	//Notify self
+	sprintf(buf, "You gain one %s level!\r\n",
+					pc_class_types[(int)class]);
+	send_to_char(buf, ch);
+	
+	if(GET_CLASS(ch) == class && new_level == 60)
+		{
+			sprintf(buf, "You have now mastered %s. Congratulations.\r\n",
+							pc_class_types[(int)class]);
+			send_to_char(buf, ch);
+			send_to_char("Check your inventory for a Master Item.\r\n", ch);
+
+			num = number(0, 14);
+			obj = read_object(100 + num, VIRTUAL);
+			obj_to_char(obj, ch);
+		}
+	if(GET_TOTAL_LEVEL(ch) == MAX_TOTAL_LEVEL)
+		{
+			new_gm(ch);
+		}
+}
+
+
+void cant_multiclass_until(struct char_data *ch, int level, char *again) {
+	sprintf(buf, "You cannot multiclass %suntil you reach level %d in %s.\r\n", again, level, pc_class_types[(int)GET_CLASS(ch)]);
+	send_to_char(buf, ch);
+}
+
+int gain(struct char_data *ch, int gain_class) {
+  int needs_gold, needs_exp, short_exp, short_gold;
+
+  if (get_class_level(ch, gain_class) >= MAX_MASTER_LEVEL) 
+		{
+			sprintf(buf, "You've already mastered the %s class.\r\n", pc_class_types[gain_class]);
+			send_to_char(buf, ch);
+			return (TRUE);
+		}
+	
+	// Checks for additional multiclassing.
+	if (GET_CLASS(ch) != gain_class) 
+		{
+			if (GET_LEVEL(ch) < MULTICLASS_LEVEL_ONE) 
+				{
+					cant_multiclass_until(ch, MULTICLASS_LEVEL_ONE, "");
+					return (TRUE);
+				} 
+			
+			if ((get_class_level(ch, gain_class) == 0)	
+					&& (PLR_FLAGGED(ch, PLR_MULTI)) && (GET_LEVEL(ch) < MULTICLASS_LEVEL_TWO)) 
+				{  
+					cant_multiclass_until(ch, MULTICLASS_LEVEL_TWO, "again ");
+					return (TRUE);
+				}
+			
+			if ((get_class_level(ch, gain_class) == 0) 
+					&& (PLR_FLAGGED(ch, PLR_MULTII)) && (GET_LEVEL(ch) < MULTICLASS_LEVEL_THREE)) 
+				{ 
+					cant_multiclass_until(ch, MULTICLASS_LEVEL_THREE, "again ");
+					return (TRUE);
+				}
+		}
+
+	needs_exp  = needed_exp( GET_CLASS(ch), gain_class, get_class_level(ch, gain_class));
+	needs_gold = needed_gold(GET_CLASS(ch), gain_class, get_class_level(ch, gain_class));
+	
+
+	//Actually level up.
+	if (GET_EXP(ch) >= needs_exp	&& GET_GOLD(ch) >= needs_gold)
+		{
+			GET_EXP(ch)  -= needs_exp;
+			GET_GOLD(ch) -= needs_gold;
+			inc_class_level(ch, gain_class);
+			save_char(ch, NOWHERE);   
+		}
+	else
+		{
+			short_exp  = MAX(0, needs_exp  - GET_EXP(ch));
+			short_gold = MAX(0, needs_gold - GET_GOLD(ch));
+			sprintf(buf, "You are short %d experience and %d gold.\r\n", short_exp, short_gold);
+			send_to_char(buf, ch);
+			return (TRUE);
+		}
+
+	//Muticlassing flags
+	if ((GET_CLASS(ch) != gain_class) && PLR_FLAGGED(ch, PLR_MULTII) && (GET_LEVEL(ch) == MULTICLASS_LEVEL_THREE))
+		SET_BIT(PLR_FLAGS(ch), PLR_MULTIII);
+	if ((GET_CLASS(ch) != gain_class) && PLR_FLAGGED(ch, PLR_MULTI) && (GET_LEVEL(ch) >= MULTICLASS_LEVEL_TWO))
+		SET_BIT(PLR_FLAGS(ch), PLR_MULTII);
+	if (GET_CLASS(ch) != gain_class) {
+		SET_BIT(PLR_FLAGS(ch), PLR_MULTI);
+	}
+	return (TRUE);
+}
+
 SPECIAL(thief_guild)
 {
-  int is_altered = FALSE;
-  int num_levels = 0;
   char buf[128];
-  int add_hp, add_mana = 0, add_move = MAX(0, ((GET_DEX(ch) - 16) /2)), i;
   int percent, skill_num;
   extern struct spell_info_type spell_info[];
   int temp = GET_CLASS(ch);
-  int num;
-  struct obj_data *obj;
-  struct descriptor_data *dd = NULL;
 
-
-  add_hp = con_app[GET_CON(ch)].hitp; 
 
  if(CMD_IS("practice")) {
    skip_spaces(&argument);
-
+	 
   GET_CLASS(ch) = 2;
   if (!*argument) {               
-     GET_CLASS(ch) = temp;
-     list_skillst(ch);
+		GET_CLASS(ch) = temp;
+		list_skillst(ch);
     return (TRUE);
   }
   if (GET_PRACTICES(ch) <= 0) {
@@ -816,488 +1004,115 @@ SPECIAL(thief_guild)
     GET_CLASS(ch) = temp;
     return (TRUE);
   }
-
+	
   skill_num = find_skill_num(argument);
   if (skill_num < 1 ||
-     ((GET_THIEF_LEVEL(ch) + GET_GM_LEVEL(ch)) < spell_info[skill_num].min_level[(int) 
-GET_CLASS(ch)])
-     || (temp != CLASS_THIEF && spell_info[skill_num].multi == 1)) 
-  { 
-    sprintf(buf, "You do not know of that %s.\r\n", SPLSKL(ch));
-    send_to_char(buf, ch);
-    GET_CLASS(ch) = temp;
-    return (TRUE);
-  }
-
-    if (GET_SKILL(ch, skill_num) >= LEARNED(skill_num, ch, temp)) {
+			((GET_THIEF_LEVEL(ch) + GET_GM_LEVEL(ch)) < spell_info[skill_num].min_level[(int) GET_CLASS(ch)])
+			|| (temp != CLASS_THIEF && spell_info[skill_num].multi == 1)) { 
+		sprintf(buf, "You do not know of that %s.\r\n", SPLSKL(ch));
+		send_to_char(buf, ch);
+		GET_CLASS(ch) = temp;
+		return (TRUE);
+	}
+	
+	if (GET_SKILL(ch, skill_num) >= LEARNED(skill_num, ch, temp)) {
     send_to_char("You are already learned in that area.\r\n", ch);
     GET_CLASS(ch) = temp;
     return (TRUE);
   }
-
+	
   GET_CLASS(ch) = 2;
   send_to_char("You practice for a while...\r\n", ch);
   GET_PRACTICES(ch)--;
-
+	
   percent = GET_SKILL(ch, skill_num);
   percent++;
-
+	
   SET_SKILL(ch, skill_num, percent);
-
+	
   if (GET_SKILL(ch, skill_num) >= LEARNED(skill_num, ch, temp))
     send_to_char("You are now learned in that area.\r\n", ch);
-
+	
   GET_CLASS(ch) = temp;
-
+	
   return (TRUE);                   
-  }
-
-  if (CMD_IS("gain")) {
-   if (GET_THIEF_LEVEL(ch) >= 60) {
-      send_to_char("You're a high enough level as it is!\r\n", ch);
-      return 1;
-   }
-
-   if ((GET_CLASS(ch) != 2) && (GET_LEVEL(ch) < 30)) {
-      send_to_char("You cannot multiclass yet!\r\n", ch);
-      return 1;
-     } 
-
-   if ((GET_CLASS(ch) != 2) && (GET_THIEF_LEVEL(ch) == 0) && (PLR_FLAGGED(ch, PLR_MULTI)) && (GET_LEVEL(ch) < 45)) {  
-      send_to_char("You cannot multiclass!\r\n", ch);
-      return 1;
-     }
-    if ((GET_CLASS(ch) != 2) && (GET_THIEF_LEVEL(ch) == 0) && (PLR_FLAGGED(ch, PLR_MULTII)) && (GET_LEVEL(ch) < 60)) { 
-      send_to_char("You aren't a high enough level to multiclass!\r\n", ch);
-      return 1;
-    }
-    if ((GET_CLASS(ch) != 2) && (GET_THIEF_LEVEL(ch) == 0) && (PLR_FLAGGED(ch, PLR_MULTIII)) && (GET_LEVEL(ch)  != 60)) { 
-      send_to_char("You aren't a high enough level to multiclass!\r\n", ch);
-      return 1;
-    }
-
-   if (GET_THIEF_LEVEL(ch) < LVL_IMMORT) {
-     if (GET_CLASS(ch) == 0) {
-       if ((GET_EXP(ch) >= (level_exp(GET_CLASS(ch),
-GET_THIEF_LEVEL(ch)))*3) && (GET_GOLD(ch) >=
-(level_gold(GET_THIEF_LEVEL(ch)))*MULTI1_CONST))
-        {
-        GET_EXP(ch) -= (level_exp(GET_CLASS(ch), GET_THIEF_LEVEL(ch))*3);
-        GET_GOLD(ch) -= ((level_gold(GET_THIEF_LEVEL(ch)))*MULTI1_CONST);
-        GET_THIEF_LEVEL(ch) = GET_THIEF_LEVEL(ch) + 1;
-	GET_LEVEL(ch) = GET_MAGE_LEVEL(ch);
-    }
-       else {
-       send_to_char("You need more exp or gold to multiclass!\r\n", ch);
-       return 1;
-      }
-    }
-      if (GET_CLASS(ch) == 1) {
-       if ((GET_EXP(ch) >= (level_exp(GET_CLASS(ch),
-GET_THIEF_LEVEL(ch)))*4) && (GET_GOLD(ch) >=
-(level_gold(GET_THIEF_LEVEL(ch)))*MULTI2_CONST))
-        {
-        GET_EXP(ch) -= (level_exp(GET_CLASS(ch), GET_THIEF_LEVEL(ch))*4);
-	GET_GOLD(ch) -= ((level_gold(GET_THIEF_LEVEL(ch)))*MULTI2_CONST);
-        GET_THIEF_LEVEL(ch) = GET_THIEF_LEVEL(ch) + 1;
-	GET_LEVEL(ch) = GET_CLERIC_LEVEL(ch);
-       }
-       else {
-       send_to_char("You do not have enough exp or gold to level.\r\n", ch);
-       return 1;
-       }
-     }
-      if (GET_CLASS(ch) == 2) {
-       if (GET_EXP(ch) >= level_exp(GET_CLASS(ch), GET_THIEF_LEVEL(ch))) {
-        GET_EXP(ch) -= level_exp(GET_CLASS(ch), GET_THIEF_LEVEL(ch));
-        GET_THIEF_LEVEL(ch) = GET_THIEF_LEVEL(ch) + 1;
-	GET_LEVEL(ch) = GET_THIEF_LEVEL(ch);
-       }
-       else {
-       send_to_char("You do not have enough exp to level.\r\n", ch);
-       return 1;
-       }
-   }
-      if (GET_CLASS(ch) == 3) {
-       if ((GET_EXP(ch) >= (level_exp(GET_CLASS(ch), GET_THIEF_LEVEL(ch)))*2) && (GET_GOLD(ch) >= (level_gold(GET_THIEF_LEVEL(ch))))) 
-       {
-        GET_EXP(ch) -= (level_exp(GET_CLASS(ch), GET_THIEF_LEVEL(ch))*2);
-	GET_GOLD(ch) -= ((level_gold(GET_THIEF_LEVEL(ch))));
-        GET_THIEF_LEVEL(ch) = GET_THIEF_LEVEL(ch) + 1;
-	GET_LEVEL(ch) = GET_WARRIOR_LEVEL(ch);
-       }
-       else {
-       send_to_char("You do not have enough exp or gold to level.\r\n", ch);
-       return 1;
-       }
-     }
-
-      if ((GET_CLASS(ch) != 2) && PLR_FLAGGED(ch, PLR_MULTII) && (GET_LEVEL(ch) == 60)) {
-        SET_BIT(PLR_FLAGS(ch), PLR_MULTIII);
-      }
-      if ((GET_CLASS(ch) != 2) && PLR_FLAGGED(ch, PLR_MULTI) && (GET_LEVEL(ch) >= 45)) {
-        SET_BIT(PLR_FLAGS(ch), PLR_MULTII);
-      }      
-      if (GET_CLASS(ch) != CLASS_THIEF) {
-        SET_BIT(PLR_FLAGS(ch), PLR_MULTI);
-      }
-      num_levels++;
-      switch (temp) {
-      case CLASS_MAGIC_USER:
-       add_hp += number(2, 5);
-       add_mana = 0;
-       add_move += number(0,1);
-       break;
-      case CLASS_CLERIC:
-       add_hp += number(2, 5);
-       add_mana = 0;
-       add_move += number(0,6);
-       break;
-      case CLASS_THIEF:
-       add_hp += number(7, 14);
-       add_mana = 0;
-       add_move += number(7, 14);
-       break;
-      case CLASS_WARRIOR:
-       add_hp += number(8, 17);
-       add_mana = 0;
-       add_move += number(2, 5);
-       break;
-     }
-    
-      ch->points.max_hit += MAX(1, add_hp);
-      ch->points.max_move += MAX(1, add_move); 
-    GET_PRACTICES(ch) += 1;
-    send_to_char("You gain 1 practice.\r\n", ch);
-    if (GET_LEVEL(ch) > 1)
-      ch->points.max_mana += add_mana;
-   if (GET_LEVEL(ch) >= LVL_IMMORT) {
-    for (i = 0; i < 3; i++)
-      GET_COND(ch, i) = (char) -1;
-    SET_BIT(PRF_FLAGS(ch), PRF_HOLYLIGHT);
-  }     
-     save_char(ch, NOWHERE);   
-      is_altered = TRUE;
-   }
-   if (is_altered) {
-      if(GET_CLASS(ch) == CLASS_THIEF)
-      {
-        sprintf(buf, "%s advanced %d level%s to level %d.",
-                GET_NAME(ch), num_levels, num_levels == 1 ? "" : "s",
-                GET_THIEF_LEVEL(ch));
-        mudlog(buf, BRF, MAX(LVL_IMMORT, GET_INVIS_LEV(ch)), TRUE);
-        // All imms good now..
-        sprintf(buf, "&G%s gained %d level%s.&n", GET_NAME(ch), num_levels, num_levels == 1 ? "" : "s");
-        for (dd = descriptor_list; dd; dd = dd->next)
-          if (STATE(dd) == CON_PLAYING && dd != ch->desc && GET_LEVEL(dd->character) < LVL_IMMORT && PRF_FLAGGED2(dd->character, PRF2_HEARLEVEL))
-             act(buf, 0, 0, 0, dd->character, TO_VICT | TO_SLEEP);
-      }
-      else
-      {
-       sprintf(buf, "%s advanced %d thief level%s to level %d.",
-                GET_NAME(ch), num_levels, num_levels == 1 ? "" : "s",
-                GET_THIEF_LEVEL(ch));
-       mudlog(buf, BRF, MAX(LVL_IMMORT, GET_INVIS_LEV(ch)), TRUE);
-        // All imms good now..
-        sprintf(buf, "&G%s gained %d level%s.&n", GET_NAME(ch), num_levels, num_levels == 1 ? "" : "s");
-        for (dd = descriptor_list; dd; dd = dd->next)
-          if (STATE(dd) == CON_PLAYING && dd != ch->desc && GET_LEVEL(dd->character) < LVL_IMMORT && PRF_FLAGGED2(dd->character,PRF2_HEARLEVEL))
-             act(buf, 0, 0, 0, dd->character, TO_VICT | TO_SLEEP);
-      }
-      if (num_levels == 1) {
-        send_to_char("You raise a level!\r\n", ch);
-        sprintf(buf, "You gain (%d) hp, (%d) mana, (%d) mv.\r\n", add_hp,
-add_mana, add_move);
-        send_to_char(buf, ch);
-      }
-      else {
-        sprintf(buf, "You raise %d levels!\r\n", num_levels);
-        send_to_char(buf, ch);
-      }
-        if(GET_CLASS(ch) == CLASS_THIEF && GET_THIEF_LEVEL(ch) == 60)
-        {
-          send_to_char(
-   "You have now mastered the class of Thief, Congradulations.\r\n", ch);
-          send_to_char("Check your inventory for a hero item.\r\n", ch);
-          num = number(0, 14);
-          obj = read_object(100 + num, VIRTUAL);
-          obj_to_char(obj, ch);
-        }
-        if(GET_TOTAL_LEVEL(ch) == MAX_TOTAL_LEVEL)
-        {
-	  new_gm(ch);
-        }
-
-
-    }
-  return (TRUE);
-  }
-  return (FALSE);
+ }
+ 
+ if (CMD_IS("gain")) {
+	 return gain(ch, CLASS_THIEF);
+ }
+ return (FALSE);
 }
 
 SPECIAL(warrior_guild)
 {
-  int is_altered = FALSE;
-  int num_levels = 0;
   char buf[128];
-  int add_hp, add_mana = 0, add_move = MAX(0, ((GET_DEX(ch) - 16) /2)), i;
   int percent, skill_num;
   extern struct spell_info_type spell_info[];
   int temp = GET_CLASS(ch);
-          int num;
-          struct obj_data *obj;
-  struct descriptor_data *dd = NULL;
-
-  add_hp = con_app[GET_CON(ch)].hitp;
-
- if(CMD_IS("practice")) {
-   skip_spaces(&argument);
-
-  GET_CLASS(ch) = 3;
-  if (!*argument) {               
-    GET_CLASS(ch) = temp;
-     list_skillsw(ch);
-    return (TRUE);
-  }
-  if (GET_PRACTICES(ch) <= 0) {
-    send_to_char("You do not seem to be able to practice now.\r\n", ch);
-    GET_CLASS(ch) = temp;
-    return (TRUE);
-  }
-
-  skill_num = find_skill_num(argument);
-
-  if (skill_num < 1 ||
-      ((GET_WARRIOR_LEVEL(ch) + GET_GM_LEVEL(ch)) < spell_info[skill_num].min_level[(int)GET_CLASS(ch)])
-       || (temp != CLASS_WARRIOR && spell_info[skill_num].multi == 1)) 
-  {
-    sprintf(buf, "You do not know of that %s.\r\n", SPLSKL(ch));
-    send_to_char(buf, ch);
-    GET_CLASS(ch) = temp;
-    return (TRUE);
-  }               
+	
+	if(CMD_IS("practice")) {
+		skip_spaces(&argument);
+		
+		GET_CLASS(ch) = 3;
+		if (!*argument) {               
+			GET_CLASS(ch) = temp;
+			list_skillsw(ch);
+			return (TRUE);
+		}
+		if (GET_PRACTICES(ch) <= 0) {
+			send_to_char("You do not seem to be able to practice now.\r\n", ch);
+			GET_CLASS(ch) = temp;
+			return (TRUE);
+		}
+		
+		skill_num = find_skill_num(argument);
+		
+		if (skill_num < 1 ||
+				((GET_WARRIOR_LEVEL(ch) + GET_GM_LEVEL(ch)) < spell_info[skill_num].min_level[(int)GET_CLASS(ch)])
+				|| (temp != CLASS_WARRIOR && spell_info[skill_num].multi == 1)) 
+			{
+				sprintf(buf, "You do not know of that %s.\r\n", SPLSKL(ch));
+				send_to_char(buf, ch);
+				GET_CLASS(ch) = temp;
+				return (TRUE);
+			}               
     if (GET_SKILL(ch, skill_num) >= LEARNED(skill_num, ch, temp)) {
-    send_to_char("You are already learned in that area.\r\n", ch);
-    GET_CLASS(ch) = temp;
-    return (TRUE);
+			send_to_char("You are already learned in that area.\r\n", ch);
+			GET_CLASS(ch) = temp;
+			return (TRUE);
+		}
+		
+		GET_CLASS(ch) = 3; 
+		send_to_char("You practice for a while...\r\n", ch);
+		GET_PRACTICES(ch)--;
+		
+		percent = GET_SKILL(ch, skill_num);
+		percent++;
+		
+		SET_SKILL(ch, skill_num, percent);
+		
+		if (GET_SKILL(ch, skill_num) >= LEARNED(skill_num, ch, temp))
+			send_to_char("You are now learned in that area.\r\n", ch);
+		
+		GET_CLASS(ch) = temp;
+		
+		return (TRUE);                   
   }
-
-  GET_CLASS(ch) = 3; 
-  send_to_char("You practice for a while...\r\n", ch);
-  GET_PRACTICES(ch)--;
-
-  percent = GET_SKILL(ch, skill_num);
-  percent++;
-
-  SET_SKILL(ch, skill_num, percent);
-
-  if (GET_SKILL(ch, skill_num) >= LEARNED(skill_num, ch, temp))
-    send_to_char("You are now learned in that area.\r\n", ch);
-
-  GET_CLASS(ch) = temp;
-
-  return (TRUE);                   
-  }
-
+	
   if (CMD_IS("gain")) {
-   if (GET_WARRIOR_LEVEL(ch) >= 60) {
-      send_to_char("You're a high enough level as it is!\r\n", ch);
-      return 1;
-   }
-
-   if ((GET_CLASS(ch) != 3) && (GET_LEVEL(ch) < 30)) {
-      send_to_char("You cannot multiclass yet!\r\n", ch);
-      return 1;
-     }
-    if ((GET_CLASS(ch) != 3) && (GET_WARRIOR_LEVEL(ch) == 0) && (PLR_FLAGGED(ch, PLR_MULTI)) && (GET_LEVEL(ch) < 45)) { 
-      send_to_char("You aren't a high enough level to multiclass!\r\n", ch);
-      return 1;
-    }
-    if ((GET_CLASS(ch) != 3) && (GET_WARRIOR_LEVEL(ch) == 0) && (PLR_FLAGGED(ch, PLR_MULTII)) && (GET_LEVEL(ch) < 60)) { 
-      send_to_char("You aren't a high enough level to multiclass!\r\n", ch);
-      return 1;
-    }
-    if ((GET_CLASS(ch) != 3) && (GET_WARRIOR_LEVEL(ch) == 0) && (PLR_FLAGGED(ch, PLR_MULTIII)) && (GET_LEVEL(ch) != 60)) { 
-      send_to_char("You aren't a high enough level to multiclass!\r\n", ch);
-      return 1;
-    }
-
-   if (GET_WARRIOR_LEVEL(ch) < LVL_IMMORT) {
-    if (GET_CLASS(ch) == 0) {
-     if ((GET_EXP(ch) >= (level_exp(GET_CLASS(ch),
-GET_WARRIOR_LEVEL(ch)))*4) && (GET_GOLD(ch) >=
-(level_gold(GET_WARRIOR_LEVEL(ch)))*MULTI2_CONST))
-      {
-      GET_EXP(ch) -= (level_exp(GET_CLASS(ch), GET_WARRIOR_LEVEL(ch))*4);
-      GET_GOLD(ch) -= ((level_gold(GET_WARRIOR_LEVEL(ch)))*MULTI2_CONST);
-      GET_WARRIOR_LEVEL(ch) = GET_WARRIOR_LEVEL(ch) + 1;
-      GET_LEVEL(ch) = GET_MAGE_LEVEL(ch);
-     }
-     else {
-     send_to_char("You do not have enough exp or gold to level.\r\n", ch);
-     return 1;
-     }
-   }
-      if (GET_CLASS(ch) == 1) {
-    if ((GET_EXP(ch) >= (level_exp(GET_CLASS(ch),
-GET_WARRIOR_LEVEL(ch)))*3) && (GET_GOLD(ch) >=
-(level_gold(GET_WARRIOR_LEVEL(ch)))*MULTI1_CONST))
-      {
-      GET_EXP(ch) -= (level_exp(GET_CLASS(ch), GET_WARRIOR_LEVEL(ch))*3);
-      GET_GOLD(ch) -= ((level_gold(GET_WARRIOR_LEVEL(ch)))*MULTI1_CONST);
-      GET_WARRIOR_LEVEL(ch) = GET_WARRIOR_LEVEL(ch) + 1;
-      GET_LEVEL(ch) = GET_CLERIC_LEVEL(ch);
-     }
-     else {
-     send_to_char("You do not have enough exp or gold to level.\r\n", ch);
-     return 1;
-     }
-   }
-      if (GET_CLASS(ch) == 2) {
-    if ((GET_EXP(ch) >= (level_exp(GET_CLASS(ch), GET_WARRIOR_LEVEL(ch)))*2) && (GET_GOLD(ch) >= (level_gold(GET_WARRIOR_LEVEL(ch)))))
-      {
-      GET_EXP(ch) -= (level_exp(GET_CLASS(ch), GET_WARRIOR_LEVEL(ch))*2);
-      GET_GOLD(ch) -= ((level_gold(GET_WARRIOR_LEVEL(ch))));
-      GET_WARRIOR_LEVEL(ch) = GET_WARRIOR_LEVEL(ch) + 1;
-      GET_LEVEL(ch) = GET_THIEF_LEVEL(ch);
-     }
-     else {
-     send_to_char("You do not have enough exp or gold to level.\r\n", ch);
-     return 1;
-     }
-   }
-      if (GET_CLASS(ch) == 3) {
-    if (GET_EXP(ch) >= level_exp(GET_CLASS(ch), GET_WARRIOR_LEVEL(ch))) {
-      GET_EXP(ch) -= level_exp(GET_CLASS(ch), GET_WARRIOR_LEVEL(ch));
-      GET_WARRIOR_LEVEL(ch) = GET_WARRIOR_LEVEL(ch) + 1;
-      GET_LEVEL(ch) = GET_WARRIOR_LEVEL(ch);
-     }
-    else {
-     send_to_char("You do not have enough exp to level.\r\n", ch);
-     return 1;
-     }
-   }
-
-      if ((GET_CLASS(ch) != 3) && PLR_FLAGGED(ch, PLR_MULTII) && (GET_LEVEL(ch) == 60)) {
-        SET_BIT(PLR_FLAGS(ch), PLR_MULTIII);
-      }
-      if ((GET_CLASS(ch) != 3) && PLR_FLAGGED(ch, PLR_MULTI) && (GET_LEVEL(ch) >= 45)) {
-        SET_BIT(PLR_FLAGS(ch), PLR_MULTII);
-      }
-      if (GET_CLASS(ch) != CLASS_WARRIOR) {
-        SET_BIT(PLR_FLAGS(ch), PLR_MULTI);
-      }  
-    
-      num_levels++;
-     switch(temp) {
-      case CLASS_MAGIC_USER:
-       add_hp += number(2, 5);
-       add_mana = 0;
-       add_move += number(1, 3);
-       break;
-      case CLASS_CLERIC:
-       add_hp += number(6, 12);
-       add_mana = 0;
-       add_move += number(1, 2);
-       break;
-      case CLASS_THIEF:
-       add_hp += number(7, 14);
-       add_mana = 0;
-       add_move += number(2, 5);
-       break;
-      case CLASS_WARRIOR:
-       add_hp += number(8, 17);
-       add_mana = 0;
-       add_move += number(2, 4);
-       break;
-     }
- 
-     ch->points.max_hit += MAX(1, add_hp);
-     ch->points.max_move += MAX(1, add_move);
-    GET_PRACTICES(ch) += 1;  
-    send_to_char("You gain 1 practice.\r\n", ch);
-
-  if (GET_LEVEL(ch) > 1)
-    ch->points.max_mana += add_mana;  
-     if (GET_LEVEL(ch) >= LVL_IMMORT) {
-    for (i = 0; i < 3; i++)
-      GET_COND(ch, i) = (char) -1;
-    SET_BIT(PRF_FLAGS(ch), PRF_HOLYLIGHT);
+		return gain(ch, CLASS_WARRIOR);
   }
- 
-  save_char(ch, NOWHERE); 
-      is_altered = TRUE;
-   }
-   if (is_altered) {
-      if(GET_CLASS(ch) == CLASS_WARRIOR)
-      {
-       sprintf(buf, "%s advanced %d level%s to level %d.",
-                GET_NAME(ch), num_levels, num_levels == 1 ? "" : "s",
-                GET_WARRIOR_LEVEL(ch));
-       mudlog(buf, BRF, MAX(LVL_IMMORT, GET_INVIS_LEV(ch)), TRUE);
-        // All imms good now..
-        sprintf(buf, "&G%s gained %d level%s.&n", GET_NAME(ch), num_levels, num_levels == 1 ? "" : "s");
-        for (dd = descriptor_list; dd; dd = dd->next)
-          if (STATE(dd) == CON_PLAYING && dd != ch->desc && GET_LEVEL(dd->character) < LVL_IMMORT && PRF_FLAGGED2(dd->character, PRF2_HEARLEVEL))
-             act(buf, 0, 0, 0, dd->character, TO_VICT | TO_SLEEP);
-      }
-      else
-      {
-       sprintf(buf, "%s advanced %d warrior level%s to level %d.",
-                GET_NAME(ch), num_levels, num_levels == 1 ? "" : "s",
-                GET_WARRIOR_LEVEL(ch));
-       mudlog(buf, BRF, MAX(LVL_IMMORT, GET_INVIS_LEV(ch)), TRUE);
-        // All imms good now..
-        sprintf(buf, "&G%s gained %d level%s.&n", GET_NAME(ch), num_levels, num_levels == 1 ? "" : "s");
-        for (dd = descriptor_list; dd; dd = dd->next)
-          if (STATE(dd) == CON_PLAYING && dd != ch->desc &&
-GET_LEVEL(dd->character) < LVL_IMMORT && PRF_FLAGGED2(dd->character, PRF2_HEARLEVEL))
-             act(buf, 0, 0, 0, dd->character, TO_VICT | TO_SLEEP);
-      }
-      if (num_levels == 1) {
-        send_to_char("You raise a level!\r\n", ch);
-        sprintf(buf, "You gain (%d) hp, (%d) mana, (%d) mv.\r\n", add_hp,
-add_mana, add_move);
-        send_to_char(buf, ch);
-      }
-      else {
-        sprintf(buf, "You raise %d levels!\r\n", num_levels);
-        send_to_char(buf, ch);
-      }
-        if(GET_CLASS(ch) == CLASS_WARRIOR && GET_WARRIOR_LEVEL(ch) == 60)
-        {
-          send_to_char(
-   "You have now mastered the class of Warrior, Congradulations.\r\n",
-ch);
-          send_to_char("Check your inventory for a hero item.\r\n", ch);
-          num = number(0, 14);
-          obj = read_object(100 + num, VIRTUAL);
-          obj_to_char(obj, ch);
-        }
-        if(GET_TOTAL_LEVEL(ch) == MAX_TOTAL_LEVEL)
-        {
-  
-        }
-    }
-  return (TRUE);
-  }
+
   return (FALSE);
 }
   
 SPECIAL(mage_guild)
 {
-  int is_altered = FALSE;
-  int num_levels = 0;
   char buf[128];
-  int add_hp, add_mana = MAX(0, ((GET_INT(ch) - 16) /2)), add_move = MAX(0, ((GET_DEX(ch) - 16) /2)), i;
   int percent, skill_num;
   extern struct spell_info_type spell_info[];
   int temp = GET_CLASS(ch);
-          int num;
-          struct obj_data *obj;
-  struct descriptor_data *dd = NULL;
-
-  add_hp = con_app[GET_CON(ch)].hitp; 
 
  if(CMD_IS("practice")) {
    skip_spaces(&argument);
@@ -1351,206 +1166,17 @@ SPECIAL(mage_guild)
   }
 
   if (CMD_IS("gain")) {
-   if (GET_MAGE_LEVEL(ch) >= 60) {
-      send_to_char("You're a high enough level as it is!\r\n", ch);
-      return 1;
-   }
-
-   if ((GET_CLASS(ch) != 0) && (GET_LEVEL(ch) < 30)) {
-      send_to_char("You cannot multiclass yet!\r\n", ch);
-      return 1;
-     }
-    if ((GET_CLASS(ch) != 0) && (GET_MAGE_LEVEL(ch) == 0) && (PLR_FLAGGED(ch, PLR_MULTI)) && (GET_LEVEL(ch) < 45)) { 
-      send_to_char("You aren't a high enough level to multiclass!\r\n", ch);
-      return 1;
-    }
-    if ((GET_CLASS(ch) != 0) && (GET_MAGE_LEVEL(ch) == 0) && (PLR_FLAGGED(ch, PLR_MULTII)) && (GET_LEVEL(ch) < 60)) { 
-      send_to_char("You aren't a high enough level to multiclass!\r\n", ch);
-      return 1;
-    }
-    if ((GET_CLASS(ch) != 0) && (GET_MAGE_LEVEL(ch) == 0) && (PLR_FLAGGED(ch, PLR_MULTIII)) && (GET_LEVEL(ch) != 60)) { 
-      send_to_char("You aren't a high enough level to multiclass!\r\n", ch);
-      return 1;
-    }
-   
-   if (GET_MAGE_LEVEL(ch) < LVL_IMMORT) {
-     if (GET_CLASS(ch) == 0) {
-       if (GET_EXP(ch) >= level_exp(GET_CLASS(ch), GET_MAGE_LEVEL(ch))) {
-        GET_EXP(ch) -= level_exp(GET_CLASS(ch), GET_MAGE_LEVEL(ch));
-        GET_MAGE_LEVEL(ch)  = GET_MAGE_LEVEL(ch) + 1;
-	GET_LEVEL(ch) = GET_MAGE_LEVEL(ch);
-       }
-       else {
-	 send_to_char("You do not have enough exp to level.\r\n", ch);
-         return 1;
-        }
-      }
-      if (GET_CLASS(ch) == 1) {
-       if ((GET_EXP(ch) >= (level_exp(GET_CLASS(ch), GET_MAGE_LEVEL(ch)))*2) && (GET_GOLD(ch) >= (level_gold(GET_MAGE_LEVEL(ch)))))
-        {
-        GET_EXP(ch) -= (level_exp(GET_CLASS(ch), GET_MAGE_LEVEL(ch))*2);
-        GET_GOLD(ch) -= ((level_gold(GET_MAGE_LEVEL(ch))));
-        GET_MAGE_LEVEL(ch)  = GET_MAGE_LEVEL(ch) + 1;
-	GET_LEVEL(ch) = GET_CLERIC_LEVEL(ch);
-      }
-       else {
-	 send_to_char("You do not have enough exp or gold to level.\r\n", ch);
-         return 1;
-        }
-      }
-      if (GET_CLASS(ch) == 2) {
-      if ((GET_EXP(ch) >= (level_exp(GET_CLASS(ch),
-GET_MAGE_LEVEL(ch)))*3) && (GET_GOLD(ch) >=
-(level_gold(GET_MAGE_LEVEL(ch)))*MULTI1_CONST))
-        {
-        GET_EXP(ch) -= (level_exp(GET_CLASS(ch), GET_MAGE_LEVEL(ch))*3);
-        GET_GOLD(ch) -= ((level_gold(GET_MAGE_LEVEL(ch)))*MULTI1_CONST);
-        GET_MAGE_LEVEL(ch)  = GET_MAGE_LEVEL(ch) + 1;
-	GET_LEVEL(ch) = GET_THIEF_LEVEL(ch);
-       }
-      else {
-	 send_to_char("You do not have enough exp or gold to level.\r\n", ch);
-         return 1;
-        }
-      }
-      if (GET_CLASS(ch) == 3) {
-      if ((GET_EXP(ch) >= (level_exp(GET_CLASS(ch),
-GET_MAGE_LEVEL(ch)))*4) && (GET_GOLD(ch) >=
-(level_gold(GET_MAGE_LEVEL(ch)))*MULTI2_CONST))
-        {
-        GET_EXP(ch) -= (level_exp(GET_CLASS(ch), GET_MAGE_LEVEL(ch))*4);
-        GET_GOLD(ch) -= ((level_gold(GET_MAGE_LEVEL(ch)))*MULTI2_CONST);
-        GET_MAGE_LEVEL(ch)  = GET_MAGE_LEVEL(ch) + 1;
-	GET_LEVEL(ch) = GET_WARRIOR_LEVEL(ch);
-       }
-      else {
-	 send_to_char("You do not have enough exp or gold to level.\r\n", ch);
-         return 1;
-        }
-      }
-
-      if ((GET_CLASS(ch) != 0) && PLR_FLAGGED(ch, PLR_MULTII) && (GET_LEVEL(ch) == 60)) {
-        SET_BIT(PLR_FLAGS(ch), PLR_MULTIII);
-      }
-      if ((GET_CLASS(ch) != 0) && PLR_FLAGGED(ch, PLR_MULTI) && (GET_LEVEL(ch) >= 45)) {
-        SET_BIT(PLR_FLAGS(ch), PLR_MULTII);
-           }
-      if (GET_CLASS(ch) != CLASS_MAGIC_USER) {
-        SET_BIT(PLR_FLAGS(ch), PLR_MULTI);
-      }
-      num_levels++;
-      switch (temp) {
-      case CLASS_MAGIC_USER:
-       add_hp += number(2, 5);
-       add_mana += number(8, 17);
-       add_move += number(1, 3);
-       break;
-      case CLASS_CLERIC:
-       add_hp += number(2, 5);
-       add_mana += number(6, 13);
-       add_move += number(1, 2);
-       break;
-      case CLASS_THIEF:
-       add_hp += number(2, 4);
-       add_mana += number(2, 5);
-       add_move += number(2, 4);
-       break;
-      case CLASS_WARRIOR:
-       add_hp += number(3, 7);
-       add_mana += number(2, 4);
-       add_move += number(2, 4);
-       break;
-     }
-
-  ch->points.max_hit += MAX(1, add_hp);
-  ch->points.max_move += MAX(1, add_move);
- 
-  if (GET_LEVEL(ch) > 1)
-    ch->points.max_mana += add_mana;
- 
-    GET_PRACTICES(ch) += 1;
-    send_to_char("You gain 1 practice.\r\n", ch);
- 
-  if (GET_LEVEL(ch) >= LVL_IMMORT) {
-    for (i = 0; i < 3; i++)
-      GET_COND(ch, i) = (char) -1;
-    SET_BIT(PRF_FLAGS(ch), PRF_HOLYLIGHT);
-  }                                       
-  save_char(ch, NOWHERE);  
-      is_altered = TRUE;
-   }
-   if (is_altered) {
-      if(GET_CLASS(ch) == CLASS_MAGE)
-      {
-       sprintf(buf, "%s advanced %d level%s to level %d.",
-                GET_NAME(ch), num_levels, num_levels == 1 ? "" : "s",
-                GET_MAGE_LEVEL(ch));
-       mudlog(buf, BRF, MAX(LVL_IMMORT, GET_INVIS_LEV(ch)), TRUE);
-        // All imms good now..
-        sprintf(buf, "&G%s gained %d level%s.&n", GET_NAME(ch), num_levels, num_levels == 1 ? "" : "s");
-        for (dd = descriptor_list; dd; dd = dd->next)
-          if (STATE(dd) == CON_PLAYING && dd != ch->desc && GET_LEVEL(dd->character) < LVL_IMMORT && PRF_FLAGGED2(dd->character, PRF2_HEARLEVEL))
-             act(buf, 0, 0, 0, dd->character, TO_VICT | TO_SLEEP);
-      }
-      else
-      {
-       sprintf(buf, "%s advanced %d mage level%s to level %d.",
-                GET_NAME(ch), num_levels, num_levels == 1 ? "" : "s",
-                GET_MAGE_LEVEL(ch));
-       mudlog(buf, BRF, MAX(LVL_IMMORT, GET_INVIS_LEV(ch)), TRUE);
-        // All imms good now..
-        sprintf(buf, "&G%s gained %d level%s.&n", GET_NAME(ch), num_levels, num_levels == 1 ? "" : "s");
-        for (dd = descriptor_list; dd; dd = dd->next)
-          if (STATE(dd) == CON_PLAYING && dd != ch->desc && GET_LEVEL(dd->character) < LVL_IMMORT && PRF_FLAGGED2(dd->character, PRF2_HEARLEVEL))
-             act(buf, 0, 0, 0, dd->character, TO_VICT | TO_SLEEP);
-
-      }
-      if (num_levels == 1) {
-        send_to_char("You raise a level!\r\n", ch);
-        sprintf(buf, "You gain (%d) hp, (%d)mana, (%d) mv.\r\n", add_hp,
-add_mana, add_move);
-        send_to_char(buf, ch);
-     }
-      else {
-        sprintf(buf, "You raise %d levels!\r\n", num_levels);
-        send_to_char(buf, ch);
-      }
-        if(GET_CLASS(ch) == CLASS_MAGIC_USER && GET_MAGE_LEVEL(ch) == 60)
-        {
-          send_to_char(
-   "You have now mastered the class of Magic User, Congradulations.\r\n",
-ch);
-          send_to_char("Check your inventory for a hero item.\r\n", ch);
-          num = number(0, 14);
-          obj = read_object(100 + num, VIRTUAL);
-          obj_to_char(obj, ch);
-        }
-        if(GET_TOTAL_LEVEL(ch) == MAX_TOTAL_LEVEL)
-        {
-	  new_gm(ch);
-        }
-
-
-    }
-  return (TRUE);
+		return gain(ch, CLASS_MAGE);
   }
   return (FALSE);
 }
   
 SPECIAL(cleric_guild)
 {
-  int is_altered = FALSE;
-  int num_levels = 0;
   char buf[128];
-  int add_hp, add_mana = MAX(0, ((GET_INT(ch) - 16) /2)), add_move = MAX(0, ((GET_DEX(ch) - 16) /2)), i;
   int percent, skill_num;
   extern struct spell_info_type spell_info[];
   int temp = GET_CLASS(ch);
-          int num;
-          struct obj_data *obj;
-  struct descriptor_data *dd = NULL;
-
-  add_hp = con_app[GET_CON(ch)].hitp;
 
  if(CMD_IS("practice")) {
    skip_spaces(&argument);
@@ -1604,185 +1230,7 @@ SPECIAL(cleric_guild)
   }
 
   if (CMD_IS("gain")) {
-   if (GET_CLERIC_LEVEL(ch) >= 60) {
-      send_to_char("You're a high enough level as it is!\r\n", ch);
-      return 1;
-   }
-
-   if ((GET_CLASS(ch) != 1) && (GET_LEVEL(ch) < 30)) {
-      send_to_char("You cannot multiclass yet!\r\n", ch);
-      return 1; 
-    }
-    if ((GET_CLASS(ch) != 1) && (GET_CLERIC_LEVEL(ch) == 0) && (PLR_FLAGGED(ch, PLR_MULTI)) && (GET_LEVEL(ch) < 45)) { 
-      send_to_char("You aren't a high enough level to multiclass!\r\n", ch);
-      return 1;
-    }
-    if ((GET_CLASS(ch) != 1) && (GET_CLERIC_LEVEL(ch) == 0) && (PLR_FLAGGED(ch, PLR_MULTII)) && (GET_LEVEL(ch) < 60)) { 
-      send_to_char("You aren't a high enough level to multiclass!\r\n", ch);
-      return 1;
-    }
-    if ((GET_CLASS(ch) != 1) && (GET_CLERIC_LEVEL(ch) == 0) && (PLR_FLAGGED(ch, PLR_MULTIII)) && (GET_LEVEL(ch) != 60)) { 
-      send_to_char("You aren't a high enough level to multiclass!\r\n", ch);
-      return 1;
-    }
-
-   if (GET_CLERIC_LEVEL(ch) < LVL_IMMORT) {
-     if (GET_CLASS(ch) == 0) {
-       if ((GET_EXP(ch) >= (level_exp(GET_CLASS(ch), GET_CLERIC_LEVEL(ch)))*2) && (GET_GOLD(ch) >= (level_gold(GET_CLERIC_LEVEL(ch)))))
-        {
-        GET_EXP(ch) -= (level_exp(GET_CLASS(ch), GET_CLERIC_LEVEL(ch))*2);
-        GET_GOLD(ch) -= ((level_gold(GET_CLERIC_LEVEL(ch))));
-        GET_CLERIC_LEVEL(ch) = GET_CLERIC_LEVEL(ch) + 1;
-	GET_LEVEL(ch) = GET_MAGE_LEVEL(ch);
-       }
-       else {
-	 send_to_char("You do not have enough exp or gold to level.\r\n", ch);
-	 return 1;
-        }
-      }
-      if (GET_CLASS(ch) == 1) {
-       if (GET_EXP(ch) >= level_exp(GET_CLASS(ch), GET_CLERIC_LEVEL(ch))) {
-        GET_EXP(ch) -= level_exp(GET_CLASS(ch), GET_CLERIC_LEVEL(ch));
-        GET_CLERIC_LEVEL(ch)  = GET_CLERIC_LEVEL(ch) + 1;
-	GET_LEVEL(ch) = GET_CLERIC_LEVEL(ch);
-       }
-       else {
-	 send_to_char("You do not have enough exp to level.\r\n", ch);
-         return 1;
-        }
-      }
-      if (GET_CLASS(ch) == 2) {
-       if ((GET_EXP(ch) >= (level_exp(GET_CLASS(ch),
-GET_CLERIC_LEVEL(ch)))*4) && (GET_GOLD(ch) >=
-(level_gold(GET_CLERIC_LEVEL(ch)))*MULTI2_CONST))
-        {
-        GET_EXP(ch) -= (level_exp(GET_CLASS(ch), GET_CLERIC_LEVEL(ch))*4);
-        GET_GOLD(ch) -= ((level_gold(GET_CLERIC_LEVEL(ch)))*MULTI2_CONST);
-        GET_CLERIC_LEVEL(ch)  = GET_CLERIC_LEVEL(ch) + 1;
-	GET_LEVEL(ch) = GET_THIEF_LEVEL(ch);
-       }
-       else {
-	 send_to_char("You do not have enough exp or gold to level.\r\n", ch);
-         return 1;
-        }
-      }
-      if (GET_CLASS(ch) == 3) {
-       if ((GET_EXP(ch) >= (level_exp(GET_CLASS(ch),
-GET_CLERIC_LEVEL(ch)))*3) && (GET_GOLD(ch) >=
-(level_gold(GET_CLERIC_LEVEL(ch)))*MULTI1_CONST))
-        {
-        GET_EXP(ch) -= (level_exp(GET_CLASS(ch), GET_CLERIC_LEVEL(ch))*3);
-        GET_GOLD(ch) -= ((level_gold(GET_CLERIC_LEVEL(ch)))*MULTI1_CONST);
-        GET_CLERIC_LEVEL(ch)  = GET_CLERIC_LEVEL(ch) + 1;
-	GET_LEVEL(ch) = GET_WARRIOR_LEVEL(ch);
-       }
-       else {
-	 send_to_char("You do not have enough exp or gold to level.\r\n", ch);
-         return 1;
-        }
-      }
-
-      if ((GET_CLASS(ch) != 1) && PLR_FLAGGED(ch, PLR_MULTII) && (GET_LEVEL(ch) == 60)) {
-        SET_BIT(PLR_FLAGS(ch), PLR_MULTIII);
-      }
-      if ((GET_CLASS(ch) != 1) && PLR_FLAGGED(ch, PLR_MULTI) && (GET_LEVEL(ch) >= 45)) {
-        SET_BIT(PLR_FLAGS(ch), PLR_MULTII);
-      }
-      if (GET_CLASS(ch) != CLASS_CLERIC) {
-        SET_BIT(PLR_FLAGS(ch), PLR_MULTI);
-      }
-      num_levels++;
-      switch (temp) {
-      case CLASS_MAGIC_USER:
-       add_hp += number(1, 3);
-       add_mana += number(6, 13);
-       add_move += number(0, 1);
-       break;
-      case CLASS_CLERIC:
-       add_hp += number(4, 8);
-       add_mana += number(6, 13);
-       add_move += number(2, 4);
-       break;
-      case CLASS_THIEF:
-       add_hp += number(2, 4);
-       add_mana += number(2, 5);
-       add_move += number(2, 4);
-       break;
-      case CLASS_WARRIOR:
-       add_hp += number(3, 7);
-       add_mana += number(2, 4);
-       add_move += number(2, 4);
-       break;
-     }
-   
-  ch->points.max_hit += MAX(1, add_hp);
-  ch->points.max_move += MAX(1, add_move);
- 
-  if (GET_LEVEL(ch) > 1)
-    ch->points.max_mana += add_mana;
- 
-    GET_PRACTICES(ch) += 1;
-    send_to_char("You gain 1 practice.\r\n", ch);
-
-  if (GET_LEVEL(ch) >= LVL_IMMORT) {
-    for (i = 0; i < 3; i++)
-      GET_COND(ch, i) = (char) -1;
-    SET_BIT(PRF_FLAGS(ch), PRF_HOLYLIGHT);
-  }                                                
-  save_char(ch, NOWHERE); 
-      is_altered = TRUE;
-
-   }
-   if (is_altered) {
-      if(GET_CLASS(ch) == CLASS_CLERIC)
-      {
-       sprintf(buf, "%s advanced %d level%s to level %d.",
-                GET_NAME(ch), num_levels, num_levels == 1 ? "" : "s",
-                GET_CLERIC_LEVEL(ch));
-       mudlog(buf, BRF, MAX(LVL_IMMORT, GET_INVIS_LEV(ch)), TRUE);
-        // All imms good now..
-        sprintf(buf, "&G%s gained %d level%s.&n", GET_NAME(ch), num_levels, num_levels == 1 ? "" : "s");
-        for (dd = descriptor_list; dd; dd = dd->next)
-          if (STATE(dd) == CON_PLAYING && dd != ch->desc && GET_LEVEL(dd->character) < LVL_IMMORT && PRF_FLAGGED2(dd->character, PRF2_HEARLEVEL))
-             act(buf, 0, 0, 0, dd->character, TO_VICT | TO_SLEEP);
-      }
-      else
-      {
-       sprintf(buf, "%s advanced %d cleric level%s to level %d.",
-                GET_NAME(ch), num_levels, num_levels == 1 ? "" : "s",
-                GET_CLERIC_LEVEL(ch));
-       mudlog(buf, BRF, MAX(LVL_IMMORT, GET_INVIS_LEV(ch)), TRUE);
-        // All imms good now..
-        sprintf(buf, "&G%s gained %d level%s.&n", GET_NAME(ch), num_levels, num_levels == 1 ? "" : "s");
-        for (dd = descriptor_list; dd; dd = dd->next)
-          if (STATE(dd) == CON_PLAYING && dd != ch->desc && GET_LEVEL(dd->character) < LVL_IMMORT && PRF_FLAGGED2(dd->character, PRF2_HEARLEVEL))
-             act(buf, 0, 0, 0, dd->character, TO_VICT | TO_SLEEP);
-
-      }
-
-      if (num_levels == 1) {
-        send_to_char("You raise a level!\r\n", ch);
-        sprintf(buf, "You gain (%d) hp, (%d) mana, (%d) mv.\r\n", add_hp,
-add_mana, add_move);
-        send_to_char(buf, ch);
-      }
-      else {
-        sprintf(buf, "You raise %d levels!\r\n", num_levels);
-        send_to_char(buf, ch);
-      }
-        if(GET_CLASS(ch) == CLASS_CLERIC && GET_CLERIC_LEVEL(ch) == 60)
-        {
-          send_to_char("You have now mastered the class of Cleric, Congradulations.\r\n", ch);
-          send_to_char("Check your inventory for a hero item.\r\n", ch);
-          num = number(0, 14);
-          obj = read_object(100 + num, VIRTUAL);
-          obj_to_char(obj, ch);
-        }
-        if(GET_TOTAL_LEVEL(ch) == MAX_TOTAL_LEVEL)
-	  new_gm(ch);
-
-    }
-  return (TRUE);
+		return gain(ch, CLASS_CLERIC);
   }
   return (FALSE);
 }
@@ -4388,7 +3836,7 @@ void sort_econrank(struct char_data *ch) {
   fprintf(econfile2, "<< Name: %s   Econrank: %d >>\n", GET_NAME(ch), GET_ECONRANK(ch));
   fclose(econfile2);
 
-  system("sort -rn +4 ../lib/etc/econranktwo | head > ../lib/etc/econrank");
+  system("sort -rn -k 4 ../lib/etc/econranktwo | head > ../lib/etc/econrank");
   system("rm ../lib/etc/econranktwo");
 
   file_to_string_alloc(ECON_FILE, &econrank);
@@ -4413,7 +3861,7 @@ void sort_assassinrank(struct char_data *ch) {
   fprintf(assassinfile2, "<< Name: %s   Rank: %d >>\n", GET_NAME(ch), GET_ASSASSINRANK(ch));
   fclose(assassinfile2);
 
-  system("sort -rn +4 ../lib/etc/assassinranktwo | head > ../lib/etc/assassinrank");
+  system("sort -rn -k 4 ../lib/etc/assassinranktwo | head > ../lib/etc/assassinrank");
   system("rm ../lib/etc/assassinranktwo");
 
   file_to_string_alloc(ASSASSIN_FILE, &assassinrank);

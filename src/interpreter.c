@@ -420,7 +420,7 @@ cpp_extern const struct command_info cmd_info[] = {
   { "pardon"   , POS_DEAD    , do_immcmd  , LVL_IMMORT, IMM_PARDON },
   { "peace"    , POS_DEAD    , do_immcmd    , LVL_IMMORT, IMM_PEACE },
   { "peer"     , POS_RESTING , do_action   , 0, 0 },
-  { "pet"      , POS_STANDING, do_not_here , 1, 0 },
+  { "pet"      , POS_STANDING, do_action   , 0, 0 },
   { "petition" , POS_DEAD    , do_petition , 1, 0 },
   { "pick"     , POS_STANDING, do_gen_door , 1, SCMD_PICK },
   { "point"    , POS_RESTING , do_action   , 0, 0 },
@@ -1746,6 +1746,24 @@ cptr = cptr->next);
 }
 
 
+void roll_stats(struct descriptor_data *d)
+{
+	roll_real_abils(d->character);
+	sprintf(buf,"\r\n&WStrength:     [%2d] - Carrying Capacity, Hit Strength \r\n", GET_STR(d->character));
+	SEND_TO_Q(buf, d);
+	sprintf(buf,"Intellegence: [%2d] - Mana Gain, Spell Success\r\n",GET_INT(d->character));
+	SEND_TO_Q(buf, d);
+	sprintf(buf,"Wisdom:       [%2d] - Spell Success \r\n",GET_WIS(d->character));
+	SEND_TO_Q(buf, d);
+	sprintf(buf,"Dexterity:    [%2d] - Evasion, Thief Skills, Move Gain\r\n", GET_DEX(d->character));
+	SEND_TO_Q(buf, d);
+	sprintf(buf,"Constitution: [%2d] - HP Gain, Ressurection Chance \r\n",GET_CON(d->character));
+	SEND_TO_Q(buf, d);
+	sprintf(buf,"Charisma:     [%2d] - Mobile Agressivness, Charm abilities&n \r\n", GET_CHA(d->character));
+	SEND_TO_Q(buf, d);
+	SEND_TO_Q("\r\n\r\nKeep these stats? (y/N)", d);
+}
+
 /* deal with newcomers and other non-playing sockets */
 void nanny(struct descriptor_data *d, char *arg)
 {
@@ -2145,20 +2163,7 @@ void nanny(struct descriptor_data *d, char *arg)
     } else
       GET_CLASS(d->character) = load_result;
 
-         roll_real_abils(d->character);
-   sprintf(buf,"\r\n&WStrength:     [%d] - Carrying Capacity, Hit Strength \r\n", GET_STR(d->character));
-         SEND_TO_Q(buf, d);
-   sprintf(buf,"Intellegence: [%d] - Mana Gain, Spell Success\r\n",GET_INT(d->character));
-         SEND_TO_Q(buf, d);
-   sprintf(buf,"Wisdom:       [%d] - Spell Success \r\n",GET_WIS(d->character));
-         SEND_TO_Q(buf, d);
-   sprintf(buf,"Dexterity:    [%d] - Evasion, Thief Skills, Move Gain\r\n", GET_DEX(d->character));
-         SEND_TO_Q(buf, d);
-   sprintf(buf,"Constitution: [%d] - HP Gain, Ressurection Chance \r\n",GET_CON(d->character));
-         SEND_TO_Q(buf, d);
-   sprintf(buf,"Charisma:     [%d] - Mobile Agressivness, Charm abilities&n \r\n", GET_CHA(d->character));
-         SEND_TO_Q(buf, d);
-         SEND_TO_Q("\r\n\r\nKeep these stats? (y/N)", d);
+		roll_stats(d);
      STATE(d) = CON_QROLLSTATS;
      break;
 
@@ -2170,21 +2175,7 @@ void nanny(struct descriptor_data *d, char *arg)
        case 'n':
        case 'N':
        default:
-         roll_real_abils(d->character);
-   sprintf(buf,"\r\n&WStrength:     [%d] - Carrying Capacity, Hit Strength \r\n", GET_STR(d->character));
-         SEND_TO_Q(buf, d);
-   sprintf(buf,"Intellegence: [%d] - Mana Gain, Spell Success\r\n",GET_INT(d->character));
-         SEND_TO_Q(buf, d);
-   sprintf(buf,"Wisdom:       [%d] - Spell Success \r\n",GET_WIS(d->character));
-         SEND_TO_Q(buf, d);
-   sprintf(buf,"Dexterity:    [%d] - Evasion, Thief Skills, Move Gain\r\n", GET_DEX(d->character));
-         SEND_TO_Q(buf, d);
-   sprintf(buf,"Constitution: [%d] - HP Gain, Ressurection Chance \r\n",GET_CON(d->character));
-         SEND_TO_Q(buf, d);
-   sprintf(buf,"Charisma:     [%d] - Mobile Agressivness, Charm abilities&n \r\n", GET_CHA(d->character));
-         SEND_TO_Q(buf, d);
-
-         SEND_TO_Q("\r\n\r\nKeep these stats? (y/N)", d);
+				 roll_stats(d);
          return;
      }
 

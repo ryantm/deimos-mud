@@ -491,12 +491,12 @@ void boot_db(void)
     House_boot();
   }
 
-  for (i = 0; i <= top_of_zone_table; i++) {
-    log("Resetting %s (rooms %d-%d).", zone_table[i].name,
-	(i ? (zone_table[i - 1].top + 1) : 0), zone_table[i].top);
-    reset_zone(i);
-  }
-
+  for (i = 0; i <= top_of_zone_table; i++) 
+		{
+			//log("Resetting %s (rooms %d-%d).", zone_table[i].name, (i ? (zone_table[i - 1].top + 1) : 0), zone_table[i].top);
+			reset_zone(i);
+		}
+	
   reset_q.head = reset_q.tail = NULL;
 
   boot_time = time(0);
@@ -607,6 +607,8 @@ void build_player_index(void)
   FBFILE *plr_index;
   char index_name[40], line[256], bits[64];
   char arg2[80];
+	int last_time = 0;
+
 
   sprintf(index_name, "%s", PLR_INDEX_FILE);
   if(!(plr_index = fbopen(index_name, FB_READ))) {
@@ -630,10 +632,20 @@ void build_player_index(void)
   CREATE(player_table, struct player_index_element, rec_count);
   for(i = 0; i < rec_count; i++) {
     fbgetline(plr_index, line);
-    sscanf(line, "%ld %s %d %d %d %d %d %s %d %d", &player_table[i].id,
-arg2, &player_table[i].level, &player_table[i].levelthief, &player_table[i].levelwarrior, 
-&player_table[i].levelmage, &player_table[i].levelcleric ,bits, (int *)&player_table[i].last,
-       &player_table[i].autowiz);   
+    sscanf(line, "%ld %s %d %d %d %d %d %s %d %d", 
+					 &player_table[i].id, 
+					 arg2, 
+					 &player_table[i].level, 
+					 &player_table[i].levelthief, 
+					 &player_table[i].levelwarrior, 
+					 &player_table[i].levelmage, 
+					 &player_table[i].levelcleric,
+					 bits, 
+					 &last_time,
+					 &player_table[i].autowiz);   
+
+		player_table[i].last = (time_t)last_time;
+
     CREATE(player_table[i].name, char, strlen(arg2) + 1);
     strcpy(player_table[i].name, arg2);
     player_table[i].flags = asciiflag_conv(bits);
@@ -1006,8 +1018,7 @@ void parse_room(FILE * fl, int virtual_nr)
       }
       t[0] = get_spec_proc(room_procs, sp_buf);
       if (t[0] == 0) {
-        sprintf(buf,"SYSWARR: Attempt to assign non-existing room spec-proc (Room: %d)", 
-real_room(room_nr));
+        sprintf(buf,"SYSWARR: Attempt to assign non-existing room spec-proc (Room: %d)", virtual_nr);
         log(buf);
       } else
         world[room_nr].func = room_procs[t[0]].sp_pointer;
@@ -2427,10 +2438,10 @@ int load_char(char *name, struct char_data *ch)
     GET_SEX(ch) = PFDEF_SEX;
     GET_CLASS(ch) = PFDEF_CLASS;
     GET_LEVEL(ch) = PFDEF_LEVEL;
-    GET_THIEF_LEVEL(ch) = PFDEF_THIEF_LEVEL; 
-    GET_WARRIOR_LEVEL(ch) = PFDEF_WARRIOR_LEVEL; 
-    GET_MAGE_LEVEL(ch) = PFDEF_MAGE_LEVEL; 
-    GET_CLERIC_LEVEL(ch) = PFDEF_CLERIC_LEVEL; 
+    SET_THIEF_LEVEL(ch, PFDEF_THIEF_LEVEL); 
+    SET_WARRIOR_LEVEL(ch, PFDEF_WARRIOR_LEVEL); 
+    SET_MAGE_LEVEL(ch, PFDEF_MAGE_LEVEL); 
+    SET_CLERIC_LEVEL(ch, PFDEF_CLERIC_LEVEL);
     GET_HOME(ch) = PFDEF_HOMETOWN;
     GET_HEIGHT(ch) = PFDEF_HEIGHT;
     GET_WEIGHT(ch) = PFDEF_WEIGHT;
@@ -2675,17 +2686,17 @@ int load_char(char *name, struct char_data *ch)
            }
        else if(!strcmp(tag, "Levl"))
          GET_LEVEL(ch) = num;
-       else if(!strcmp(tag, "LThf"))
-         GET_THIEF_LEVEL(ch) = num;
-        else if(!strcmp(tag, "LWar"))
-         GET_WARRIOR_LEVEL(ch) = num;
-       else if(!strcmp(tag, "LMge"))
-         GET_MAGE_LEVEL(ch) = num;
-       else if(!strcmp(tag, "LClr"))
-         GET_CLERIC_LEVEL(ch) = num; 
-       else if(!strcmp(tag, "LNam"))
+       else if(!strcmp(tag, "LThf")) {
+         SET_THIEF_LEVEL(ch, num);
+			 } else if(!strcmp(tag, "LWar")) {
+				 SET_WARRIOR_LEVEL(ch, num);
+			 } else if(!strcmp(tag, "LMge")) {
+         SET_MAGE_LEVEL(ch, num);
+			 } else if(!strcmp(tag, "LClr")) {
+         SET_CLERIC_LEVEL(ch, num);
+			 } else if(!strcmp(tag, "LNam")) {
          GET_LNAME(ch) = str_dup(line);
-       else if(!strcmp(tag, "Lord"))
+       } else if(!strcmp(tag, "Lord"))
          IS_LORD(ch) = num;
 
       break;
@@ -2703,8 +2714,9 @@ int load_char(char *name, struct char_data *ch)
        break; 
 
       case 'N':
-       if(!strcmp(tag, "Name"))
-         GET_NAME(ch) = str_dup(line);
+				if(!strcmp(tag, "Name")) {
+					SET_NAME(ch, str_dup(line));
+				}
        break;      
 
       case 'P':
@@ -3959,9 +3971,6 @@ int check_object(struct obj_data *obj)
 
     strncpy(onealias, obj->name, offset);
     onealias[offset] = '\0';
-    if (search_block(onealias, drinknames, TRUE) < 0 && (error = TRUE))
-      log("SYSERR: Object #%d (%s) doesn't have drink type as first alias. (%s)",
-		GET_OBJ_VNUM(obj), obj->short_description, obj->name);
   }
   /* Fall through. */
   case ITEM_FOUNTAIN:
@@ -4268,7 +4277,7 @@ int check_object_level(struct obj_data *obj, int val)
 {
   int error = FALSE;
 
-  if ((GET_OBJ_VAL(obj, val) < 0 || GET_OBJ_VAL(obj, val) > LVL_IMPL) && (error = TRUE))
+  if ((GET_OBJ_VAL(obj, val) < 0 || GET_OBJ_VAL(obj, val) > MAX_GM_LEVEL) && (error = TRUE))
     log("SYSERR: Object #%d (%s) has out of range level #%d.",
 	GET_OBJ_VNUM(obj), obj->short_description, GET_OBJ_VAL(obj, val));
 

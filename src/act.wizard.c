@@ -3495,19 +3495,19 @@ int perform_set(struct char_data *ch, struct char_data *vict, int mode,
     break;
 
   case 55:
-    GET_THIEF_LEVEL(vict) = value;
+	  SET_THIEF_LEVEL(vict,value);
     break;
 
   case 56:
-    GET_WARRIOR_LEVEL(vict) = value;
+	  SET_WARRIOR_LEVEL(vict,value);
     break;
 
   case 57:
-    GET_MAGE_LEVEL(vict) = value;
+	  SET_MAGE_LEVEL(vict,value);
     break;
 
   case 58:
-    GET_CLERIC_LEVEL(vict) = value;
+	  SET_CLERIC_LEVEL(vict,value);
     break;
 
   case 59:
@@ -4980,10 +4980,10 @@ ACMD(do_builderize) {
 
   send_to_char("You have been builderized!\r\n", victim);
   GET_LEVEL(victim) = 61;
-  GET_THIEF_LEVEL(victim) = 61;
-  GET_WARRIOR_LEVEL(victim) = 61;
-  GET_MAGE_LEVEL(victim) = 61; 
-  GET_CLERIC_LEVEL(victim) = 61; 
+  SET_THIEF_LEVEL(victim, 61);
+  SET_WARRIOR_LEVEL(victim, 61);
+  SET_MAGE_LEVEL(victim, 61);
+  SET_CLERIC_LEVEL(victim, 61); 
   
   tmstr = (char *) asctime(localtime(&(victim->player.time.builder)));
 }

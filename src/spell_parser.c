@@ -786,9 +786,9 @@ void spell_levelt(int spell, int chclass, int levelthief, int multi, int power)
     return;
   }
 
-  if (levelthief < 1 || levelthief > LVL_IMPL) {
+  if (levelthief < 1 || levelthief > MAX_GM_LEVEL) {
     log("SYSERR: assigning '%s' to illegal level %d/%d.", skill_name(spell),
-		levelthief, LVL_IMPL);
+		levelthief, MAX_GM_LEVEL);
     bad = 1;
   }
 
@@ -809,9 +809,9 @@ power)
     return;
   }
 
-  if (levelwarrior < 1 || levelwarrior > LVL_IMPL) {
+  if (levelwarrior < 1 || levelwarrior > MAX_GM_LEVEL) {
     log("SYSERR: assigning '%s' to illegal level %d/%d.", skill_name(spell),
-		levelwarrior, LVL_IMPL);
+		levelwarrior, MAX_GM_LEVEL);
     bad = 1;
   }
 
@@ -831,9 +831,9 @@ void spell_levelm(int spell, int chclass, int levelmage, int multi, int power)
     return;
   }
 
-  if (levelmage < 1 || levelmage > LVL_IMPL) {
+  if (levelmage < 1 || levelmage > MAX_GM_LEVEL) {
     log("SYSERR: assigning '%s' to illegal level %d/%d.", skill_name(spell),
-		levelmage, LVL_IMPL);
+		levelmage, MAX_GM_LEVEL);
     bad = 1;
   }
 
@@ -853,9 +853,9 @@ void spell_levelc(int spell, int chclass, int levelcleric, int multi, int power)
     return;
   }
 
-   if (levelcleric < 1 || levelcleric > LVL_IMPL) {
+   if (levelcleric < 1 || levelcleric > MAX_GM_LEVEL) {
     log("SYSERR: assigning '%s' to illegal level %d/%d.", skill_name(spell),
-		levelcleric, LVL_IMPL);
+		levelcleric, MAX_GM_LEVEL);
     bad = 1;
   }
 
@@ -891,7 +891,7 @@ void unused_spell(int spl)
 
   for (i = 0; i < NUM_CLASSES; i++)
   {
-    spell_info[spl].min_level[i] = LVL_IMPL + 1;
+    spell_info[spl].min_level[i] = MAX_GM_LEVEL + 1;
     spell_info[spl].max_power[i] = 0;
   }
   spell_info[spl].mana_max = 0;

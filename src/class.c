@@ -40,8 +40,8 @@ void roll_real_abils(struct char_data * ch);
 void do_start(struct char_data * ch);
 double backstab_mult(struct char_data *ch, int level);
 int invalid_class(struct char_data *ch, struct obj_data *obj);
-int level_exp(int chclass, int level);
-float level_gold(int level);
+int level_exp(int level);
+int level_gold(int level);
 int horse_exp(int horselevel);
 const char *title_male(int chclass, int level);
 const char *title_female(int chclass, int level);
@@ -349,16 +349,16 @@ void do_start(struct char_data * ch)
  
  GET_LEVEL(ch) = 1;
  if ((GET_CLASS(ch)) == 0) {
-    GET_MAGE_LEVEL(ch) = 1;
+	 SET_MAGE_LEVEL(ch,1);
   }
  if ((GET_CLASS(ch)) == 1) {
-    GET_CLERIC_LEVEL(ch) = 1; 
+	 SET_CLERIC_LEVEL(ch,1); 
   }
  if ((GET_CLASS(ch)) == 2) {
-    GET_THIEF_LEVEL(ch) = 1;
+	 SET_THIEF_LEVEL(ch,1);
   } 
  if ((GET_CLASS(ch)) == 3) {
-    GET_WARRIOR_LEVEL(ch) = 1; 
+	 SET_WARRIOR_LEVEL(ch,1); 
   }
 
   GET_EXP(ch) = 1;
@@ -607,7 +607,7 @@ void init_spell_levels(void)
   spell_levelt(SKILL_BANDAGE, CLASS_THIEF, 30, 0,mp);
   //Active
   spell_levelt(SKILL_PICK_LOCK, CLASS_THIEF, 1, 0,hp);
-  spell_levelt(SKILL_TRACK, CLASS_THIEF, 15, 0,np);
+  spell_levelt(SKILL_TRACK, CLASS_THIEF, 15, 0,mp);
   spell_levelt(SKILL_STEAL, CLASS_THIEF, 15, 0,mp);
   spell_levelt(SKILL_BACKSTAB, CLASS_THIEF, 15, 0,mp);
   spell_levelt(SKILL_TRIP, CLASS_THIEF, 30, 0,mp);
@@ -638,22 +638,93 @@ void init_spell_levels(void)
  */
 #define EXP_MAX  999999999999
 
-/* Function to return the exp required for each class/level */
-int level_exp(int chclass, int level)
+// 0 Mage, 1 Cleric, 2 Thief, 3 Warrior
+byte first_multi(byte class) {
+	switch (class) 
+		{
+		case CLASS_MAGE:    return CLASS_CLERIC;
+		case CLASS_CLERIC:  return CLASS_MAGE;
+		case CLASS_THIEF:   return CLASS_WARRIOR;
+		case CLASS_WARRIOR: return CLASS_THIEF;
+		}	
+	return -1;
+}
+
+byte second_multi(byte class) {
+	switch (class) 
+		{
+		case CLASS_MAGE:    return CLASS_THIEF;
+		case CLASS_CLERIC:  return CLASS_WARRIOR;
+		case CLASS_THIEF:   return CLASS_MAGE;
+		case CLASS_WARRIOR: return CLASS_CLERIC;
+		}	
+	return -1;
+}
+
+byte third_multi(byte class) {
+	switch (class) 
+		{
+		case CLASS_MAGE:    return CLASS_WARRIOR;
+		case CLASS_CLERIC:  return CLASS_THIEF;
+		case CLASS_THIEF:   return CLASS_CLERIC;
+		case CLASS_WARRIOR: return CLASS_MAGE;
+		}	
+	return -1;
+}
+
+float exp_multiplier(byte char_class, byte gain_class)
 {
-  if (level > LVL_IMPL || level < 0) {
-    log("SYSERR: Requesting exp for invalid level %d!", level);
-    return 0;
-  }
+	const float MULTIPLIER_ONE         = 1.0;
+	const float MULTIPLIER_TWO         = 2.0;
+	const float MULTIPLIER_THREE       = 3.0;
+	const float MULTIPLIER_FOUR        = 4.0;
 
-  /*
-   * Gods have exp close to EXP_MAX.  This statement should never have to
-   * changed, regardless of how many mortal or immortal levels exist.
-   */
-   if (level >= LVL_IMMORT) {
-     return 0;
-   }
+	if (char_class == gain_class) 
+		return MULTIPLIER_ONE;
+	if (first_multi(char_class) == gain_class) 
+		return MULTIPLIER_TWO;
+	if (second_multi(char_class) == gain_class) 
+		return MULTIPLIER_THREE;
+	if (third_multi(char_class) == gain_class) 
+		return MULTIPLIER_FOUR;
 
+	return MULTIPLIER_FOUR;
+}
+
+float gold_multiplier(byte char_class, byte gain_class)
+{
+	const float MULTIPLIER_ONE         = 0.0;
+	const float MULTIPLIER_TWO         = 2.0;
+	const float MULTIPLIER_THREE       = 3.0;
+	const float MULTIPLIER_FOUR        = 4.0;
+
+
+	if (char_class == gain_class) 
+		return MULTIPLIER_ONE;
+	if (first_multi(char_class) == gain_class) 
+		return MULTIPLIER_TWO;
+	if (second_multi(char_class) == gain_class) 
+		return MULTIPLIER_THREE;
+	if (third_multi(char_class) == gain_class) 
+		return MULTIPLIER_FOUR;
+	
+	return MULTIPLIER_FOUR;
+}
+
+int needed_exp(byte char_class, byte gain_class, int level)
+{
+	return level_exp(level) * exp_multiplier(char_class, gain_class);
+}
+
+int needed_gold(byte char_class, byte gain_class, int level)
+{
+	return level_gold(level) * gold_multiplier(char_class, gain_class);
+}
+
+
+/* Function to return the exp required for each class/level */
+int level_exp(int level)
+{
   /* Exp required for normal mortals is below */
    if (level < 20 && level >= 0) {
      return level*level*level * 50;
@@ -668,21 +739,15 @@ int level_exp(int chclass, int level)
      return 30000000;
    }
 
-  return 0;
+  return 2000000000;
 }
 
-float level_gold(int level) {
-
-  if (level > LVL_IMPL || level < 0) {
-    log("SYSERR: Requesting gold for invalid level %d!", level);
-    return 0;
-  }
-
+int level_gold(int level) {
   if (level < LVL_IMMORT && level >= 0) {
-    return level_exp(1, level) * .2;
+    return level_exp(level) * 0.2;
   }
  
-  return 123456;
+  return 2000000000;
 }
 
 int horse_exp(int horselevel)

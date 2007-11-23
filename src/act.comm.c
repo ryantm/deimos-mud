@@ -190,13 +190,11 @@ int is_tell_ok(struct char_data *ch, struct char_data *vict)
     send_to_char("You try to tell yourself something.\r\n", ch);
   else if (!IS_NPC(ch) && PRF_FLAGGED(ch, PRF_NOTELL))
     send_to_char("You can't tell other people while you have notell on.\r\n", ch);
-  else if (ROOM_FLAGGED(ch->in_room, ROOM_SOUNDPROOF))
-    send_to_char("The walls seem to absorb your words.\r\n", ch);
   else if (!IS_NPC(vict) && !vict->desc)        /* linkless */
     act("$E's linkless at the moment.", FALSE, ch, 0, vict, TO_CHAR | TO_SLEEP);
   else if (PLR_FLAGGED(vict, PLR_WRITING))
     act("$E's writing a message right now; try again later.", FALSE, ch, 0, vict, TO_CHAR | TO_SLEEP);
-  else if ((!IS_NPC(vict) && PRF_FLAGGED(vict, PRF_NOTELL)) || ROOM_FLAGGED(vict->in_room, ROOM_SOUNDPROOF))
+  else if ((!IS_NPC(vict) && PRF_FLAGGED(vict, PRF_NOTELL)))
     act("$E can't hear you.", FALSE, ch, 0, vict, TO_CHAR | TO_SLEEP);
   else { 
     if (PRF_FLAGGED(vict, PRF_AFK))
@@ -510,10 +508,7 @@ ACMD(do_gen_comm)
     send_to_char(com_msgs[subcmd][0], ch);
     return;
   }
-  if (ROOM_FLAGGED(ch->in_room, ROOM_SOUNDPROOF) && GET_LEVEL(ch) < LVL_IMMORT) {
-    send_to_char("The walls seem to absorb your words.\r\n", ch);
-    return;
-  }
+
   /* level_can_shout defined in config.c */
   if (GET_LEVEL(ch) < level_can_shout) {
     sprintf(buf1, "You must be at least level %d before you can %s.\r\n",
@@ -592,34 +587,33 @@ ACMD(do_gen_comm)
   /* now send all the strings out */
   for (i = descriptor_list; i; i = i->next) {
     if (STATE(i) == CON_PLAYING && i != ch->desc && i->character &&
-	!PRF_FLAGGED(i->character, channels[subcmd]) &&
-	!PLR_FLAGGED(i->character, PLR_WRITING) &&
-	!ROOM_FLAGGED(i->character->in_room, ROOM_SOUNDPROOF)) {
-
+				!PRF_FLAGGED(i->character, channels[subcmd]) &&
+				!PLR_FLAGGED(i->character, PLR_WRITING)) {
+			
       if (subcmd == SCMD_SHOUT &&
 	  ((world[ch->in_room].zone != world[i->character->in_room].zone) ||
 	   !AWAKE(i->character)))
-	continue;
-
+				continue;
+			
       if (subcmd == SCMD_NEWBIE 
-        && GET_LEVEL(i->character) > 20 && GET_LEVEL(i->character) < LVL_IMMORT 
-        && GET_CLAN(i->character) != 10) 
+					&& GET_LEVEL(i->character) > 20 && GET_LEVEL(i->character) < LVL_IMMORT 
+					&& GET_CLAN(i->character) != 10) 
         continue;
-
+			
       if (COLOR_LEV(i->character) >= C_NRM)
-	send_to_char(color_on, i->character);
+				send_to_char(color_on, i->character);
       
-        act(buf, FALSE, ch, 0, i->character, TO_VICT | TO_SLEEP);
+			act(buf, FALSE, ch, 0, i->character, TO_VICT | TO_SLEEP);
         if (GET_LEVEL(ch) >= LVL_IMMORT)
           sprintf(buf1, "&Y%s %ss, '%s'&n", CAN_SEE(i->character,ch) ? GET_NAME(ch) : "An Immortal", com_msgs[subcmd][1], argument);
         else
           sprintf(buf1, "&Y%s %ss, '%s'&n", CAN_SEE(i->character,ch) ? GET_NAME(ch) : "Someone", com_msgs[subcmd][1], argument);
-
-      if (subcmd == SCMD_GOSSIP)
+				
+				if (subcmd == SCMD_GOSSIP)
          logghistory(buf1, i->character);
-
-      if (COLOR_LEV(i->character) >= C_NRM)
-	send_to_char(KNRM, i->character);
+				
+				if (COLOR_LEV(i->character) >= C_NRM)
+					send_to_char(KNRM, i->character);
     }
   }
 }
@@ -703,9 +697,6 @@ ACMD(do_conspire) {
  
     for (i = descriptor_list; i; i = i->next)
     {
-      if (ROOM_FLAGGED(i->character->in_room, ROOM_SOUNDPROOF) && GET_LEVEL(i->character) < LVL_IMMUNE)
-           continue;
-
       if (STATE(i) == CON_PLAYING && i != ch->desc && PLR_FLAGGED(i->character, PLR_ASSASSIN)){
         act(buf, 0, ch, 0, i->character, TO_VICT | TO_SLEEP);
       } else{
@@ -729,11 +720,6 @@ ACMD(do_cuss) {
     send_to_char("&RYour right to cuss has been revoked!&n\r\n", ch);
     return;
   } 
-  else if (ROOM_FLAGGED(ch->in_room, ROOM_SOUNDPROOF))
-  {
-    send_to_char("The walls seem to absorb your words.\r\n", ch);
-    return;
-  }
 
   if (!PLR_FLAGGED(ch, PLR_CUSSER) && GET_LEVEL(ch) < LVL_IMMORT) {
     sprintf(buf, "&RYou must first gain the right to cuss.&n\r\n");
@@ -764,9 +750,6 @@ ACMD(do_cuss) {
     for (i = descriptor_list; i; i = i->next)
       if (STATE(i) == CON_PLAYING && i != ch->desc && !PRF_FLAGGED2(i->character, PRF2_CUSS))
       {
-       if (ROOM_FLAGGED(i->character->in_room, ROOM_SOUNDPROOF) && GET_LEVEL(i->character) < LVL_IMMUNE)
-           continue;
-
       if (PLR_FLAGGED(i->character, PLR_CUSSER) && PRF_FLAGGED2(ch,PRF2_CUSS))
         act(buf, 0, ch, 0, i->character, TO_VICT | TO_SLEEP);
       else if (GET_LEVEL(i->character) >= LVL_IMMORT)

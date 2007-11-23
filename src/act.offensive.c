@@ -32,7 +32,7 @@ void check_killer(struct char_data * ch, struct char_data * vict);
 int compute_armor_class(struct char_data *ch);
 void improve_skill(struct char_data *ch, int skill);
 bool CAN_FIGHT(struct char_data *ch, struct char_data *vict);
-int calcdamage(struct char_data * ch, struct char_data * victim, int type);
+int damage_from(struct char_data * ch, int type);
 
 /* local functions */
 ACMD(do_assist);
@@ -121,27 +121,25 @@ ACMD(do_hit)
   else if (IS_NPC(vict) && MOB_FLAGGED(vict, MOB_NOHIT))
     send_to_char("You may not attack these mobs!\r\n", ch);  
   else {
-    if (can_murder) {
-      if (!IS_NPC(vict) && !IS_NPC(ch)) {
-	if (subcmd != SCMD_MURDER) {
-	  send_to_char("Use 'murder' to hit another player.\r\n", ch);
-	  return;
-	}
-        if (CAN_ASSASSIN(ch, vict)) 
-        {
-           if (FIGHTING(ch)) return;
-           hit(ch, vict, TYPE_UNDEFINED);
-           return;
-         }
-         else {
-	  send_to_char("You cannot attack another player!\r\n", ch);
-          return;
-	}
-      }
-      if (AFF_FLAGGED(ch, AFF_CHARM) && !IS_NPC(ch->master) && !IS_NPC(vict))
-	return;			/* you can't order a charmed pet to attack a
-				 * player */
-    }
+		if (!IS_NPC(vict) && !IS_NPC(ch)) {
+			if (subcmd != SCMD_MURDER) {
+				send_to_char("Use 'murder' to hit another player.\r\n", ch);
+				return;
+			}
+			if (CAN_ASSASSIN(ch, vict)) 
+				{
+					if (FIGHTING(ch)) return;
+					hit(ch, vict, TYPE_UNDEFINED);
+					return;
+					}
+			else {
+				send_to_char("You cannot attack another player!\r\n", ch);
+				return;
+			}
+		}
+		if (AFF_FLAGGED(ch, AFF_CHARM) && !IS_NPC(ch->master) && !IS_NPC(vict))
+			return;			/* you can't order a charmed pet to attack a
+									 * player */
     if ((GET_POS(ch) == POS_STANDING) && (vict != FIGHTING(ch))) {
       hit(ch, vict, TYPE_UNDEFINED);
       WAIT_STATE(ch, PULSE_VIOLENCE + 2);
@@ -236,42 +234,45 @@ ACMD(do_backstab)
     return;
   }
 
-  percent = number(1, 101);	/* 101% is a complete failure */
-  prob = 60 + 3.5 * GET_SKILL(ch, SKILL_BACKSTAB);
   apr = 1;
+	
+	if (GET_THIEF_LEVEL(ch) >= 30)
+		apr++;
+	if (GET_THIEF_LEVEL(ch) >= 45)
+		apr++;
+		
+	if (GET_CLASS(ch) == CLASS_MAGE    && apr > 1) apr = 1;
+	if (GET_CLASS(ch) == CLASS_CLERIC  && apr > 1) apr = 1;
+	if (GET_CLASS(ch) == CLASS_WARRIOR && apr > 2) apr = 2;
+	if (GET_CLASS(ch) == CLASS_THIEF   && apr > 3) apr = 3;
+	
+	//If fast do another. Very Fast not included becaust that would be crazy.
+	if (GET_EQ(ch, WEAR_WIELD) && IS_OBJ_STAT(GET_EQ(ch, WEAR_WIELD), ITEM_FASTHIT)) apr++;
+		
+	apr = MAX(0, MIN(apr, 6));
 
-  if (AWAKE(vict) && (percent > prob))
-  {
-    act("Attempts to backstab you, but cuts $Mself instead.", FALSE, vict, 0, ch, TO_CHAR);
-    act("You cut yourself trying to backstab $e!", FALSE, vict, 0, ch, TO_VICT);
-    act("$N attempts to backstab $n but cuts $Mself instead.", FALSE, vict, 0, ch, TO_NOTVICT);
-    damage(ch, vict, 0, SKILL_BACKSTAB);
-  }
-  else
-  {
-    if (GET_THIEF_LEVEL(ch) >= 30) {
-      apr++;
-      if (GET_THIEF_LEVEL(ch) >= 45)
-	{
-	  apr++;
-	}
-    }
-      
+	if (GET_LEVEL(ch) == LVL_IMPL) apr = 20;
 
-    if (GET_CLASS(ch) == CLASS_MAGE && apr > 1) apr = 1;
-    if (GET_CLASS(ch) == CLASS_CLERIC && apr > 1) apr = 1;
-    if (GET_CLASS(ch) == CLASS_WARRIOR && apr > 2) apr = 2;
-    if (GET_CLASS(ch) == CLASS_THIEF && apr > 3) apr = 3;
-
-    //If fast do another. Very Fast not included becaust that would be crazy.
-    if (GET_EQ(ch, WEAR_WIELD) && IS_OBJ_STAT(GET_EQ(ch, WEAR_WIELD), ITEM_FASTHIT)) apr++;
-
-    apr = MAX(-1, MIN(apr, 6));
-    if (GET_LEVEL(ch) == LVL_IMPL) apr = 20;
-
-    for (; apr >= 1 && (percent < prob); apr--)
-      hit(ch, vict, SKILL_BACKSTAB);
-  }
+  prob = 60 + 3.5 * GET_SKILL(ch, SKILL_BACKSTAB);
+		
+	for (; apr >= 1; apr--)
+		{
+			percent = number(1,100);
+			
+			if (percent < prob)
+				{
+					//Success
+					hit(ch, vict, SKILL_BACKSTAB);
+				}
+			else
+				{
+					//Failure
+					act("&GAttempts to backstab you, but cuts $Mself instead.&n"  , FALSE, vict, 0, ch, TO_CHAR);
+					act("&RYou cut yourself badly trying to backstab $e!&n"     , FALSE, vict, 0, ch, TO_VICT);
+					act("&Y$N attempts to backstab $n but cuts $Mself instead.&n" , FALSE, vict, 0, ch, TO_NOTVICT);
+					damage(ch, ch, damage_from(ch, SKILL_BACKSTAB), TYPE_HIT);
+				}
+		}
   WAIT_STATE(ch, 1 * PULSE_VIOLENCE);
 }
 
@@ -512,7 +513,7 @@ ACMD(do_bash)
      * first to make sure they don't flee, then we can't bash them!  So now
      * we only set them sitting if they didn't flee. -gg 9/21/98
      */
-    dam = calcdamage(ch, vict, SKILL_BASH);
+    dam = damage_from(ch, SKILL_BASH);
     if (damage(ch, vict, (skill/5.) * dam, SKILL_BASH) > 0) 
     {	/* -1 = dead, 0 = miss */
       if (skill > 0 && skill < 5)
@@ -662,7 +663,7 @@ ACMD(do_kick)
     damage(ch, vict, 0, SKILL_KICK);
   } else
   {
-    dam = calcdamage(ch, vict, SKILL_KICK);
+    dam = damage_from(ch, SKILL_KICK);
     damage(ch, vict, dam , SKILL_KICK);
   }
   WAIT_STATE(ch, PULSE_VIOLENCE * 1);
@@ -718,13 +719,13 @@ ACMD(do_disarm)
            (number(1, 101) > (!IS_NPC(ch) ? 
              60 +3.5*GET_SKILL(ch, SKILL_DISARM) : number(0, 100)))) {
         act("You failed to disarm $N and make $M rather angry!", FALSE, ch, 0, vict, TO_CHAR);
-        dam = calcdamage(vict, ch, TYPE_HIT);
+        dam = damage_from(vict, TYPE_HIT);
         damage(vict, ch, number(1, dam), TYPE_HIT);
     }
   else if (dice(2, GET_STR(ch)) < dice(2, GET_STR(vict))) {
         act("Your hand just misses $N's weapon, failing to disarm $M/", FALSE, ch, 0, vict, TO_CHAR);
         act("$N has tried and failed to disarm you!", FALSE, vict, 0, ch, TO_CHAR);
-        dam = calcdamage(vict, ch, TYPE_HIT);
+        dam = damage_from(vict, TYPE_HIT);
         damage(vict, ch, number(1, dam), TYPE_HIT);
   } else {
         obj_to_char(unequip_char(vict, WEAR_WIELD), vict);
@@ -1178,7 +1179,7 @@ int canhit = skill / 2 + 3;
     send_to_char(buf, ch);
     act("You are caught up in a whirlwind of attacks from $n !", 0, ch, 0, tch, TO_VICT);
     act("$N is caught up in a flurry of attacks from $n.", FALSE, ch, 0, tch, TO_ROOM);
-    dam = calcdamage(ch, tch, TYPE_HIT);
+    dam = damage_from(ch, TYPE_HIT);
 
     if (FIGHTING(tch) == ch)
       damage(ch,tch, 2.*dam, TYPE_AREA_EFFECT);

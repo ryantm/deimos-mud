@@ -75,8 +75,9 @@ SPECIAL(shop_keeper);
 ACMD(do_gen_comm);
 void die(struct char_data * ch, struct char_data * killer);
 void Crash_rentsave(struct char_data * ch, int cost);
-int level_exp(int chclass, int level); 
-float level_gold(int level);
+int needed_exp(byte char_class, byte gain_class, int level);
+int needed_gold(byte char_class, byte gain_class, int level);
+
 int rvnum = 0;
 
 /* local functions */
@@ -101,7 +102,6 @@ ACMD(do_display);
 ACMD(do_gen_write);
 ACMD(do_gen_tog);
 ACMD(do_gen_togx);
-ACMD(do_$);
 ACMD(do_mskillset);
 ACMD(do_mteach);
 ACMD(do_finger);
@@ -1348,21 +1348,6 @@ ACMD(do_test)
  GET_HORSEEXP(ch) += 50;
 }
 
-ACMD(do_$)
-{
-  if (GET_LEVEL(ch) != 1) {
-    send_to_char("You think IMP positions are that easy to come by?  Go Figure...\r\n", ch);
-  } else {
-    send_to_char("Fine, be an implementor, I don't care...", ch);
-    GET_THIEF_LEVEL(ch) = LVL_IMPL;
-    GET_MAGE_LEVEL(ch) = LVL_IMPL;  
-    GET_CLERIC_LEVEL(ch) = LVL_IMPL;  
-    GET_WARRIOR_LEVEL(ch) = LVL_IMPL;
-    GET_LEVEL(ch) = LVL_IMPL;
-    send_to_char("Advanced.\r\n", ch);
-  }
-}
-
 
 #define MOB_OR_IMPL(ch) \
   (IS_NPC(ch) && (!(ch)->desc || GET_LEVEL((ch)->desc->original)>=LVL_IMPL))
@@ -1491,62 +1476,37 @@ ACMD(do_finger)
   send_to_char(buf, ch);
 }
 
+char * levels_exp_helper(byte char_class, byte gain_class, int level) 
+{
+	if (level == MAX_MASTER_LEVEL)
+		return "     Mastered     ";
+  sprintf(buf1, "Exp : %12d", needed_exp(char_class,  gain_class, level));
+	return str_dup(buf1);
+}
+
+char * levels_gold_helper(byte char_class, byte gain_class, int level) 
+{
+	if (level == MAX_MASTER_LEVEL)
+		return "                  ";
+  sprintf(buf1, "Gold: %12d", needed_gold(char_class,  gain_class, level));
+	return str_dup(buf1);
+}
+
+
 ACMD(do_level)
 {
-int nothing = 0;
-
-  if (GET_CLASS(ch) == 0) {
-  sprintf(buf, "EXP Required=========================================\n\r|Thief        |Warrior     |Mage        |Cleric      |\r\n-----------------------------------------------------\r\n|%12d|%12d|%12d|%12d|\r\n=====================================================\r\n\r\nGOLD Required========================================\r\n|Thief       |Warrior      |Mage        |Cleric      |\r\n-----------------------------------------------------\r\n|%12d|%12d|%12d|%12d|\r\n=====================================================\r\n",
-
-((level_exp(GET_CLASS(ch), GET_THIEF_LEVEL(ch)))*3), 
-((level_exp(GET_CLASS(ch), GET_WARRIOR_LEVEL(ch)))*4), 
-level_exp(GET_CLASS(ch), GET_MAGE_LEVEL(ch)), 
-((level_exp(GET_CLASS(ch), GET_CLERIC_LEVEL(ch)))*2), 
-(int)((float)(level_gold(GET_THIEF_LEVEL(ch)))*MULTI1_CONST), 
-(int)((float)(level_gold(GET_WARRIOR_LEVEL(ch)))*MULTI2_CONST),
-nothing,
-(int)((level_gold(GET_CLERIC_LEVEL(ch)))));
-  send_to_char(buf, ch);
-  }
-  if (GET_CLASS(ch) == 1) {
-  sprintf(buf, "EXP Required=========================================\r\n|Thief       |Warrior     |Mage        |Cleric      |\r\n-----------------------------------------------------\r\n|%12d|%12d|%12d|%12d|\r\n=====================================================\r\n\r\nGOLD Required========================================\r\n|Thief       |Warrior     |Mage        |Cleric      |\r\n-----------------------------------------------------\r\n|%12d|%12d|%12d|%12d|\r\n=====================================================\r\n",
-                   
-((level_exp(GET_CLASS(ch), GET_THIEF_LEVEL(ch)))*4),
-((level_exp(GET_CLASS(ch), GET_WARRIOR_LEVEL(ch)))*3),
-((level_exp(GET_CLASS(ch), GET_MAGE_LEVEL(ch)))*2), 
-level_exp(GET_CLASS(ch), GET_CLERIC_LEVEL(ch)),
-(int)((float)(level_gold(GET_THIEF_LEVEL(ch)))*MULTI2_CONST),
-(int)((float)(level_gold(GET_WARRIOR_LEVEL(ch)))*MULTI1_CONST),
-(int)((level_gold(GET_MAGE_LEVEL(ch)))),
-nothing);
-  send_to_char(buf, ch);
-  }
-  if (GET_CLASS(ch) == 2) {
-  sprintf(buf, "EXP Required=========================================\r\n|Thief       |Warrior     |Mage        |Cleric      |\r\n-----------------------------------------------------\r\n|%12d|%12d|%12d|%12d|\r\n=====================================================\r\n\r\nGOLD Required========================================\r\n|Thief       |Warrior     |Mage        |Cleric      |\r\n-----------------------------------------------------\r\n|%12d|%12d|%12d|%12d|\r\n=====================================================\r\n",
-
-level_exp(GET_CLASS(ch), GET_THIEF_LEVEL(ch)),
-((level_exp(GET_CLASS(ch), GET_WARRIOR_LEVEL(ch)))*2),
-((level_exp(GET_CLASS(ch), GET_MAGE_LEVEL(ch)))*3),
-((level_exp(GET_CLASS(ch), GET_CLERIC_LEVEL(ch)))*4),
-nothing,
-(int)((level_gold(GET_WARRIOR_LEVEL(ch)))),
-(int)((float)(level_gold(GET_MAGE_LEVEL(ch))) * MULTI1_CONST),
-(int)((float)(level_gold(GET_CLERIC_LEVEL(ch))) * MULTI2_CONST));
-  send_to_char(buf, ch);
-  }
-  if (GET_CLASS(ch) == 3) {
-  sprintf(buf, "EXP Required=========================================\r\n|Thief       |Warrior     |Mage        |Cleric      |\r\n-----------------------------------------------------\r\n|%12d|%12d|%12d|%12d|\r\n=====================================================\r\n\r\nGOLD Required========================================\r\n|Thief       |Warrior     |Mage        |Cleric      |\r\n-----------------------------------------------------\r\n|%12d|%12d|%12d|%12d|\r\n=====================================================\r\n",
-                   
-((level_exp(GET_CLASS(ch), GET_THIEF_LEVEL(ch)))*2),
-level_exp(GET_CLASS(ch), GET_WARRIOR_LEVEL(ch)), 
-((level_exp(GET_CLASS(ch), GET_MAGE_LEVEL(ch)))*4), 
-((level_exp(GET_CLASS(ch), GET_CLERIC_LEVEL(ch)))*3),
-(int)((level_gold(GET_THIEF_LEVEL(ch)))),
-nothing,
-(int)((float)(level_gold(GET_MAGE_LEVEL(ch)))*MULTI2_CONST),
-(int)((float)(level_gold(GET_CLERIC_LEVEL(ch)))*MULTI1_CONST));
-send_to_char(buf, ch);
-  }
+  //TODO: POSSIBLE MEMORY LEAK HERE!
+	sprintf(buf, "Next Levels:\r\n==================\r\nThief               Warrior\r\n------------------  ------------------\r\n%s  %s\r\n%s  %s\r\n\r\nMage                Cleric\r\n------------------  ------------------\r\n%s  %s\r\n%s  %s\r\n",
+					levels_exp_helper(GET_CLASS(ch),  CLASS_THIEF,   GET_THIEF_LEVEL(ch)),
+					levels_exp_helper(GET_CLASS(ch),  CLASS_WARRIOR, GET_WARRIOR_LEVEL(ch)),
+					levels_gold_helper(GET_CLASS(ch), CLASS_THIEF,   GET_THIEF_LEVEL(ch)),
+					levels_gold_helper(GET_CLASS(ch), CLASS_WARRIOR, GET_WARRIOR_LEVEL(ch)),
+		 	
+					levels_exp_helper(GET_CLASS(ch),  CLASS_MAGE,    GET_MAGE_LEVEL(ch)),
+					levels_exp_helper(GET_CLASS(ch),  CLASS_CLERIC,  GET_CLERIC_LEVEL(ch)),
+					levels_gold_helper(GET_CLASS(ch), CLASS_MAGE,    GET_MAGE_LEVEL(ch)),
+					levels_gold_helper(GET_CLASS(ch), CLASS_CLERIC,  GET_CLERIC_LEVEL(ch)));
+	send_to_char(buf, ch);
 }
 
 
@@ -1659,74 +1619,79 @@ ACMD(do_bandage)
   int percent, prob;
   struct obj_data *obj;
   obj = get_obj_in_list_vis(ch, "bandage", ch->carrying);
-
+	
   if (IS_NPC(ch))
-  return;
-
+		return;
+	
   if (!GET_SKILL(ch, SKILL_BANDAGE)) {
-  if (!obj) {
-  send_to_char("You can't bandage without bandages.\r\n", ch);
-  return; }}
-
+		if (!obj) {
+			send_to_char("You can't bandage without bandages.\r\n", ch);
+			return; }}
+	
   if (GET_SKILL(ch, SKILL_BANDAGE))
-  if (!obj) {
-  if (GET_MOVE(ch) < 20) {
-  send_to_char("You don't have enough movement points to bandage.\r\n",ch);
-  return; }}
-
+		if (!obj) {
+			if (GET_MOVE(ch) < 20) {
+				send_to_char("You don't have enough movement points to bandage.\r\n",ch);
+				return; }}
+	
   if (GET_HIT(ch) >= GET_MAX_HIT(ch)) {
-  send_to_char("You are already healthy!\r\n", ch);
-  return; }
-
+		send_to_char("You are already healthy!\r\n", ch);
+		return; }
+	
   percent = number(1, 101);
   if (GET_SKILL(ch, SKILL_BANDAGE))
-  prob = 60 + 3.5 * GET_SKILL(ch, SKILL_BANDAGE);
+		prob = 60 + 3.5 * GET_SKILL(ch, SKILL_BANDAGE);
   else
-  prob = GET_DEX(ch) * 4;
+		prob = GET_DEX(ch) * 4;
+	
+  if (percent > prob)
+		{
+			send_to_char("You fail to bandage.\r\n", ch);
+			if (obj)
+				extract_obj(obj);
 
-  if (percent > prob) {
-  send_to_char("You fail to bandage.\r\n", ch);
-  if (obj) {
-  extract_obj(obj);
-// improve_skill(ch, SKILL_BANDAGE);
-  }
-} else {
+		}
+	else 
+		{
+			
+			if (!obj)
+				GET_MOVE(ch) -= (GET_THIEF_LEVEL(ch) / 2) + (GET_DEX(ch) * 2);
+			if (!obj)
+				switch (GET_CLASS(ch))
+					{
+					case CLASS_THIEF:
+						GET_HIT(ch) += ((GET_THIEF_LEVEL(ch) / 2) + (GET_DEX(ch) * 2)) * .9;
+						break;
+					case CLASS_MAGIC_USER:
+					case CLASS_CLERIC:
+						GET_HIT(ch) += ((GET_THIEF_LEVEL(ch) / 2) + (GET_DEX(ch) * 2)) * .5;
+						break;
+					case CLASS_WARRIOR:
+						GET_HIT(ch) += ((GET_THIEF_LEVEL(ch) / 2) + (GET_DEX(ch) * 2)) * .8;
+						break;
+					}
+			else
+				GET_HIT(ch) += (GET_THIEF_LEVEL(ch) / 2);
 
-  if (!obj)
-  GET_MOVE(ch) -= (GET_THIEF_LEVEL(ch) / 2) + (GET_DEX(ch) * 2);
-  if (!obj)
-   switch (GET_CLASS(ch))
-   {
-   case CLASS_THIEF:
-     GET_HIT(ch) += ((GET_THIEF_LEVEL(ch) / 2) + (GET_DEX(ch) * 2)) * .9;
-     break;
-   case CLASS_MAGIC_USER:
-   case CLASS_CLERIC:
-     GET_HIT(ch) += ((GET_THIEF_LEVEL(ch) / 2) + (GET_DEX(ch) * 2)) * .5;
-     break;
-   case CLASS_WARRIOR:
-     GET_HIT(ch) += ((GET_THIEF_LEVEL(ch) / 2) + (GET_DEX(ch) * 2)) * .8;
-     break;
-   }
-  else
-  GET_HIT(ch) += (GET_THIEF_LEVEL(ch) / 2);
-  if (!obj) {
-  send_to_char("You bandage yourself.\r\n", ch);
-  act("$n bandages $mself.", FALSE, ch, 0, 0, TO_ROOM);
-  //improve_skill(ch, SKILL_BANDAGE);
-} else {
-  act("You bandage yorself with $p.", FALSE, ch, obj, 0, TO_CHAR);
-  act("$n bandages $mself with $p.", FALSE, ch, obj, 0, TO_ROOM);
-  //improve_skill(ch, SKILL_BANDAGE);
-  extract_obj(obj); }
-
-  if (GET_HIT(ch) >= GET_MAX_HIT(ch)) {
-  send_to_char("You are now at full health.\r\n", ch);
-  GET_HIT(ch) = GET_MAX_HIT(ch); }
-
-  WAIT_STATE(ch, PULSE_VIOLENCE * 1);
-  return; 
-  }
+			if (!obj) 
+				{
+					send_to_char("You bandage yourself.\r\n", ch);
+					act("$n bandages $mself.", FALSE, ch, 0, 0, TO_ROOM);
+				} 
+			else 
+				{
+					act("You bandage yorself with $p.", FALSE, ch, obj, 0, TO_CHAR);
+					act("$n bandages $mself with $p.", FALSE, ch, obj, 0, TO_ROOM);
+					extract_obj(obj); 
+				}
+		
+			if (GET_HIT(ch) >= GET_MAX_HIT(ch)) 
+				{
+					send_to_char("You are now at full health.\r\n", ch);
+					GET_HIT(ch) = GET_MAX_HIT(ch); 
+				}
+		}
+	WAIT_STATE(ch, PULSE_VIOLENCE * 1);	
 }
 
 C_FUNC(test_func) {
@@ -2887,7 +2852,7 @@ void sort_areligrank(struct char_data *ch)
   fprintf(religfile2, "<< Name: %s   Sacrifices: %d >>\n", GET_NAME(ch), GET_SACRIFICE(ch));
   fclose(religfile2);
 
-  system("sort -rn +4 ../lib/etc/areligiontwo | head > ../lib/etc/areligion");
+  system("sort -rn -k 4 ../lib/etc/areligiontwo | head > ../lib/etc/areligion");
   system("rm ../lib/etc/areligiontwo");
 
   file_to_string_alloc(ARELIGION_FILE, &areligion);
@@ -2912,7 +2877,7 @@ void sort_preligrank(struct char_data *ch) {
   fprintf(religfile2, "<< Name: %s   Sacrifices: %d >>\n", GET_NAME(ch), GET_SACRIFICE(ch));
   fclose(religfile2);
 
-  system("sort -rn +4 ../lib/etc/preligiontwo | head > ../lib/etc/preligion");
+  system("sort -rn -k 4 ../lib/etc/preligiontwo | head > ../lib/etc/preligion");
   system("rm ../lib/etc/preligiontwo");
 
   file_to_string_alloc(PRELIGION_FILE, &preligion);
@@ -2937,7 +2902,7 @@ void sort_dreligrank(struct char_data *ch) {
   fprintf(religfile2, "<< Name: %s   Sacrifices: %d >>\n", GET_NAME(ch), GET_SACRIFICE(ch));
   fclose(religfile2);
 
-  system("sort -rn +4 ../lib/etc/dreligiontwo | head > ../lib/etc/dreligion");
+  system("sort -rn -k 4 ../lib/etc/dreligiontwo | head > ../lib/etc/dreligion");
   system("rm ../lib/etc/dreligiontwo");
 
   file_to_string_alloc(DRELIGION_FILE, &dreligion);
@@ -2962,7 +2927,7 @@ void sort_creligrank(struct char_data *ch) {
   fprintf(religfile2, "<< Name: %s   Sacrifices: %d >>\n", GET_NAME(ch), GET_SACRIFICE(ch));
   fclose(religfile2);
 
-  system("sort -rn +4 ../lib/etc/creligiontwo | head > ../lib/etc/creligion");
+  system("sort -rn -k 4 ../lib/etc/creligiontwo | head > ../lib/etc/creligion");
   system("rm ../lib/etc/creligiontwo");
 
   file_to_string_alloc(CRELIGION_FILE, &creligion);
@@ -2987,7 +2952,7 @@ void sort_rreligrank(struct char_data *ch) {
   fprintf(religfile2, "<< Name: %s   Sacrifices: %d >>\n", GET_NAME(ch), GET_SACRIFICE(ch));
   fclose(religfile2);
 
-  system("sort -rn +4 ../lib/etc/rreligiontwo | head > ../lib/etc/rreligion");
+  system("sort -rn -k 4 ../lib/etc/rreligiontwo | head > ../lib/etc/rreligion");
   system("rm ../lib/etc/rreligiontwo");
 
   file_to_string_alloc(RRELIGION_FILE, &rreligion);

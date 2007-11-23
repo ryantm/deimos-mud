@@ -1,7 +1,7 @@
 #0
 bug~
 a bug~
-This object is BAD!  If you see it, there must be a bug in the game.  Please
+This object is BAD!  If you see it, there must be a bug in the game.  Please
 report it immediately using the BUG command.~
 ~
 13 0 0 0
@@ -465,34 +465,8 @@ The Book of Items  is sitting on a shelf here.~
 0 0 0 0
 0 0 0 0
 E
-ItemsPage2~
-   Some Items are containers and can hold other Items which takes off the
-amount of Items in your Inventory that limits the amount of Items you can have
-at a time.  Containers have caps that must be opened to be used but can also To
-open them, simply enter Open and the name of the container.  Closing would use
-Close.  To get an item out of a container, type Get, then the Item name, then
-the container name.  Ex: Get stick bag.  To Put something in a container, enter
-Put then the object name, then the container.  For each command, the cap must
-be open.  There is another type of Item called a Scroll.  These Scrolls have
-magical properties and will do different things when you enter Recite and the
-scroll name and sometimes the object you want it to affect after that.  For
-example, the Scroll of Identify will show all stats of an Item (say, a stick)
-when recited on it.  To do this: you would type: Recite identify stick.  This
-will then show the stats of the stick because you recited the scroll on it.  
-Other Scrolls include the Scroll of Recall and the Scroll Written on Blue
-Paper.  Potions are much like Scrolls in that they have magical properties.  
-The difference is that they are Quaffed and they will only affect the user.  
-For example, a Health Potion will recover your HP (Hit Points).  To make it do
-this, you would enter: Quaff Potion and it would then be cast on you and your
-HP would have recovered.  There is one more type of Item that you should know
-about: That is Food and Water.  Without these, You will not be able to
-regenerate your stats.  If you wish to eat, simply enter Eat and the food's
-name.  To drink, type Drink and the liquid container's name.  Beware, though,
-water containers can run out of liquid and must be refilled either by spell, or
-by the fountain in Phobos.  To refill a container, type Fill and the
-container's name, then the name of the liquid producer, such as a fountain.  
-If you are unsure about what the content of a piece of food or water is, you
-can Taste or Sip each one to make sure it seems okay.    
+book items~
+Enter: 'Read ItemsPage1' for Page 1 and 'Read ItemsPage2' for Page 2
 ~
 E
 ItemsPage1~
@@ -533,8 +507,34 @@ commands have to have the Item's name after it and can also be affected by the
 All addition.    
 ~
 E
-book items~
-Enter: 'Read ItemsPage1' for Page 1 and 'Read ItemsPage2' for Page 2
+ItemsPage2~
+   Some Items are containers and can hold other Items which takes off the
+amount of Items in your Inventory that limits the amount of Items you can have
+at a time.  Containers have caps that must be opened to be used but can also To
+open them, simply enter Open and the name of the container.  Closing would use
+Close.  To get an item out of a container, type Get, then the Item name, then
+the container name.  Ex: Get stick bag.  To Put something in a container, enter
+Put then the object name, then the container.  For each command, the cap must
+be open.  There is another type of Item called a Scroll.  These Scrolls have
+magical properties and will do different things when you enter Recite and the
+scroll name and sometimes the object you want it to affect after that.  For
+example, the Scroll of Identify will show all stats of an Item (say, a stick)
+when recited on it.  To do this: you would type: Recite identify stick.  This
+will then show the stats of the stick because you recited the scroll on it.  
+Other Scrolls include the Scroll of Recall and the Scroll Written on Blue
+Paper.  Potions are much like Scrolls in that they have magical properties.  
+The difference is that they are Quaffed and they will only affect the user.  
+For example, a Health Potion will recover your HP (Hit Points).  To make it do
+this, you would enter: Quaff Potion and it would then be cast on you and your
+HP would have recovered.  There is one more type of Item that you should know
+about: That is Food and Water.  Without these, You will not be able to
+regenerate your stats.  If you wish to eat, simply enter Eat and the food's
+name.  To drink, type Drink and the liquid container's name.  Beware, though,
+water containers can run out of liquid and must be refilled either by spell, or
+by the fountain in Phobos.  To refill a container, type Fill and the
+container's name, then the name of the liquid producer, such as a fountain.  
+If you are unsure about what the content of a piece of food or water is, you
+can Taste or Sip each one to make sure it seems okay.    
 ~
 #53
 book rooms~

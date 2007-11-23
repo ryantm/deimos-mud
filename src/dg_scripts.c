@@ -21,6 +21,7 @@
 #include "dg_event.h"
 #include "db.h"
 #include "screen.h"
+#include "spells.h"
 
 #define PULSES_PER_MUD_HOUR     (SECS_PER_MUD_HOUR*PASSES_PER_SEC)
 

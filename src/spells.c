@@ -401,7 +401,7 @@ ASPELL(spell_charm)
   else if ((AFF_FLAGGED(victim, AFF_CHARM) || GET_MAGE_LEVEL(ch) < GET_LEVEL(victim)) && GET_LEVEL(ch) < LVL_IMPL)
     send_to_char("You fail.\r\n", ch);
   /* player charming another player - no legal reason for this */
-  else if (!can_murder && !IS_NPC(victim))
+  else if (!IS_NPC(victim))
     send_to_char("You fail - shouldn't be doing it anyway.\r\n", ch);
   else if (circle_follow(victim, ch))
     send_to_char("Sorry, following in circles can not be allowed.\r\n", ch);
@@ -929,13 +929,12 @@ ASPELL(spell_gate)
 
   tmp_obj->obj_flags.value[0] = tmp_ch->in_room;
   GET_OBJ_TIMER(tmp_obj) = GET_SKILL(ch, SPELL_GATE);
-  GET_OBJ_TYPE(tmp_obj2) == ITEM_PORTAL;
   obj_to_room(tmp_obj,ch->in_room);
 
   act("$p suddenly appears.",TRUE,ch,tmp_obj,0,TO_ROOM);
   act("$p suddenly appears.",TRUE,ch,tmp_obj,0,TO_CHAR);
 
-/* Portal at other side */
+	/* Portal at other side */
    rp = &world[ch->in_room];
    tmp_obj2 = read_object(PORTAL_OBJ, VIRTUAL);
    if (!rp || !tmp_obj2) {
@@ -945,7 +944,7 @@ ASPELL(spell_gate)
    }
   sprintf(buf,"Through the mists of the portal, you can faintly see %s", rp->name);
 
-  CREATE(ed , struct extra_descr_data, 1);
+  CREATE(ed, struct extra_descr_data, 1);
   ed->next = tmp_obj2->ex_description;
   tmp_obj2->ex_description = ed;
   CREATE(ed->keyword, char, strlen(tmp_obj2->name) + 1);
@@ -953,7 +952,6 @@ ASPELL(spell_gate)
   ed->description = str_dup(buf);
   tmp_obj2->obj_flags.value[0] = ch->in_room;
   GET_OBJ_TIMER(tmp_obj) = GET_SKILL(ch, SPELL_GATE);
-  GET_OBJ_TYPE(tmp_obj2) == ITEM_PORTAL;
   obj_to_room(tmp_obj2,tmp_ch->in_room);
   act("$p suddenly appears.", TRUE, tmp_ch, tmp_obj2, 0, TO_ROOM);
   act("$p suddenly appears.", TRUE, tmp_ch, tmp_obj2, 0, TO_CHAR);

@@ -20,8 +20,10 @@ extern int thaco[NUM_CLASSES][LVL_IMPL+1];
 	((level) <= MAX_MORT_LEVEL ? thaco[(int) (class)][(int) (level)] : 1)
 
 /* Extern functions */
-int level_exp(int class, int level);
+
 int cmp_class(char *class_str);
-int level_gold(int level);
+
+int needed_exp(byte char_class, byte gain_class, int level);
+int needed_gold(byte char_class, byte gain_class, int level);
 
 #endif
