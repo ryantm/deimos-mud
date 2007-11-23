@@ -12,21 +12,20 @@ LMge: 60
 LClr: 60
 Home: 1
 Brth: 1182388713
-Plyd: 16940
-Last: 1195782348
+Plyd: 22820
+Last: 1195803162
 Host: d47-69-12-188.nap.wideopenwest
 Hite: 164
 Wate: 139
 Id  : 718
 Act : 2176
 Skil:
+52 10
 0 0
-Room: 24800
+Room: -1
 Hrom: 0
 Pref: efghnowxyBEF
 Prf2: abci
-Hung: 10
-Thir: 10
 Lern: 2
 Str : 12/
 Int : 13
@@ -43,6 +42,5 @@ Econ: 0
 ARnk: 0
 Horh: 50/0
 Gmst: 1
-Spar: 0
 Affs:
 0 0 0 0 0

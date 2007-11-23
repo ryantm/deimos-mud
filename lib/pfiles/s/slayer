@@ -12,8 +12,8 @@ LMge: 45
 LClr: 60
 Home: 1
 Brth: 1106023835
-Plyd: 736960
-Last: 1195703694
+Plyd: 737450
+Last: 1195798115
 Host: cpe001a7088544d-cm0012c9daf922
 Hite: 183
 Wate: 174
@@ -63,7 +63,7 @@ Skil:
 162 1
 0 0
 Wimp: 200
-Room: 230
+Room: 200
 Hrom: 0
 Pref: efghjknowxyB
 Prf2: abcij
@@ -77,8 +77,8 @@ Wis : 14
 Dex : 11
 Con : 16
 Cha : 9
-Hit : 910/1271
-Mana: 257/1253
+Hit : 1271/1271
+Mana: 1253/1253
 Move: 600/600
 Gold: 66379408
 Exp : 136126
@@ -87,9 +87,7 @@ Horh: 50/0
 Deth: 23
 Kill: 5703
 Spar: 51
-Trak: thief
+Trak: hobgoblin
 Affs:
-39 0 2 1 0 2
-19 15 0 0 8 1
-36 1 0 0 128 10
+19 8 0 0 8 1
 0 0 0 0 0

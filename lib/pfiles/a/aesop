@@ -6,19 +6,19 @@ Pos : 12
 Sex : 1
 Levl: 60
 LThf: 15
-LWar: 21
+LWar: 22
 LMge: 60
 LClr: 30
 Home: 1
 Brth: 1193792763
-Plyd: 254380
-Last: 1195793828
+Plyd: 256340
+Last: 1195797397
 Host: cpe001a7088544d-cm0012c9daf922
 Hite: 179
 Wate: 164
-Alin: 15
+Alin: 220
 Id  : 754
-Act : 14682240
+Act : 14682304
 Skil:
 14 1
 19 1
@@ -50,33 +50,34 @@ Skil:
 160 8
 0 0
 Wimp: 100
-Room: -1
+Room: 200
 Hrom: 0
 Pref: efghjnowxyB
 Prf2: abcij
 Hung: -1
 Thir: -1
-Lern: 1
+Lern: 2
 Str : 15/
-Sac : 5045
+Sac : 5046
 Int : 18
 Wis : 15
 Dex : 14
 Con : 13
 Cha : 13
-Hit : 1055/1006
-Mana: 1789/1780
-Move: 524/644
-Gold: 4758472
+Hit : 633/1013
+Mana: 1133/1780
+Move: 497/649
+Gold: 4637931
 Bank: 15000000
-Exp : 3684086
+Exp : 1844295
 Econ: 259
 ARnk: 0
 Horh: 50/0
 Deth: 5
-Kill: 5559
+Kill: 5572
 Spar: 0
 Affs:
-19 6 0 0 8 1
-39 15 5 1 0 5
+36 2 0 0 128 8
+39 37 5 1 0 5
+19 69 0 0 8 1
 0 0 0 0 0

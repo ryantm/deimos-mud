@@ -9,8 +9,8 @@ Levl: 21
 LThf: 21
 Home: 1
 Brth: 1194680146
-Plyd: 6370
-Last: 1195791242
+Plyd: 6650
+Last: 1195797840
 Host: cpe001a7088544d-cm0012c9daf922
 Hite: 168
 Wate: 153
@@ -24,30 +24,30 @@ Skil:
 162 1
 0 0
 Wimp: 50
-Room: 9847
+Room: 2714
 Hrom: 0
 Pref: efghnowxyBF
 Prf2: abcij
-Hung: 17
-Thir: 17
+Hung: 21
+Thir: 21
 Lern: 5
 Str : 15/
-Sac : 197
+Sac : 203
 Int : 12
 Wis : 12
 Dex : 16
 Con : 12
 Cha : 11
-Hit : 280/245
-Mana: 93/100
-Move: 282/282
-Gold: 566538
-Exp : 1508828
+Hit : 209/245
+Mana: 150/100
+Move: 240/282
+Gold: 572929
+Exp : 1541828
 Econ: 0
 ARnk: 0
-Horh: 50/0
-Kill: 197
+Horh: 0/0
+Kill: 203
 Spar: 0
 Affs:
-1 22 0 17 0 0
+1 18 0 17 0 0
 0 0 0 0 0

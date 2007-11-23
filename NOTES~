@@ -4,23 +4,27 @@ DONE
 * E Multiclassing messages have been improved
 * E Track speed has been increased
 * E Track can now be practiced to level 10 for prime thieves
+* E Failing backstab now sometimes causes you to lose hp
+
 * F Various multiclassing related bugs
-* F Build process no longer hoses live binary
+* F Make process no longer overwrites live binary
 * F Failing bandage now results in 1 round lag
 * F Track now works as expected
+* F Backstab does not fail silently now.
+
+
+TODO
 
 Bug Fixes
-* people can multiplay with new characters
-* color prompt even with color off
-* backstab still sometimes fails silently
-* gtitle crashes the game
+* people can multiplay with new characters (reproducable)
+* color prompt even with color off (reproducable)
+* CRASH: gtitle crashes the game (Can't reproduce)
+* CRASH: title with notitle on crashes game (Can't reproduce)
 
 Enhancements
 * Make chunks pop randomly on Mob spawn not death
 * random mob difficulties +/- 3 levels (if a mob pops with eq he is harder + 3 levels)
-* GM/hero channel
-* Limit track to 50 rooms (base on dexterity and class, practices for track) possibly decrease time between moves
-* Lose hp when you fail backstab
 * trip is useless
 * make nextlevel on scoresheet show good data after Mastering a guild
+* GM/hero channel
 
