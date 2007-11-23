@@ -198,16 +198,16 @@ ACMD(do_liblist)
     if (!*buf || !*buf2) {
       switch (subcmd) {
         case SCMD_RLIST:
-          send_to_char("Usage: rlist  \r\n", ch);
+          send_to_char("Usage: rlist <first_vnum> <second_vnum>\r\n", ch);
           break;
         case SCMD_OLIST:
-          send_to_char("Usage: olist  \r\n", ch);
+          send_to_char("Usage: olist <first_vnum> <second_vnum>\r\n", ch);
           break;
         case SCMD_MLIST:
-          send_to_char("Usage: mlist  \r\n", ch);
+          send_to_char("Usage: mlist <first_vnum> <second_vnum>\r\n", ch);
           break;
         case SCMD_ZLIST:
-          send_to_char("Usage: zlist  \r\n", ch);
+          send_to_char("Usage: zlist <first_vnum> <second_vnum>\r\n", ch);
           break;
         default:
           sprintf(buf, "SYSERR:: invalid SCMD passed to ACMDdo_build_list!");
@@ -1811,7 +1811,7 @@ ACMD(do_syslog)
   send_to_char(buf, ch);
 }
 
-#define EXE_FILE "bin/circle" /* maybe use argv[0] but it's not reliable */
+#define EXE_FILE "bin/deimos-live" /* maybe use argv[0] but it's not reliable */
 
 /* (c) 1996-97 Erwin S. Andreasen <erwin@pip.dknet.dk> */
 ACMD(do_copyover)
@@ -1819,86 +1819,86 @@ ACMD(do_copyover)
 	FILE *fp;
 	struct descriptor_data *d, *d_next;
 	char buf [100], buf2[100];
-        struct char_data *tch;
-
-        for (tch = character_list; tch; tch = tch->next)
-        {
-            if (GET_LEVEL(tch) >= LVL_IMMORT) 
-              continue;
- 
-            if (GET_HIT(tch) < 0 || PLR_FLAGGED(tch, PLR_DEAD))
-            {
-              send_to_char("&RSomeone is dead, Don't copyover now!&n\r\n", ch);
-              return;
-            }
-            if (FIGHTING(tch))
-            {
-              send_to_char("&RSomeone is fighting, Don't copyover now!&n\r\n", ch);
-              return;
-            }
-        }
-        
-
+	struct char_data *tch;
+	
+	for (tch = character_list; tch; tch = tch->next)
+		{
+			if (GET_LEVEL(tch) >= LVL_IMMORT) 
+				continue;
+			
+			if (GET_HIT(tch) < 0 || PLR_FLAGGED(tch, PLR_DEAD))
+				{
+					send_to_char("&RSomeone is dead, Don't copyover now!&n\r\n", ch);
+					return;
+				}
+			if (FIGHTING(tch))
+				{
+					send_to_char("&RSomeone is fighting, Don't copyover now!&n\r\n", ch);
+					return;
+				}
+		}
+	
+	
 	fp = fopen (COPYOVER_FILE, "w");
-
+	
 	if (!fp)
-	{
-		send_to_char ("Copyover file not writeable, aborted.\n\r",ch);
-		return;
-	}
-
+		{
+			send_to_char ("Copyover file not writeable, aborted.\n\r",ch);
+			return;
+		}
+	
 	/* Consider changing all saved areas here, if you use OLC */
 	sprintf (buf, "\t\x1B[1;31m \007\007\007Time stops for a moment as %s folds space and time.\x1B[0;0m\r\n", GET_NAME(ch));
 	/* For each playing descriptor, save its state */
 	Crash_save_all();
-                log("Copyover");
-
-        for (d = descriptor_list; d ; d = d_next)
-	{
-		struct char_data * och = d->character;
-		d_next = d->next; /* We delete from the list , so need to save this */
-		if (!d->character || d->connected > CON_PLAYING) /* drop those logging on */
+	log("Copyover");
+	
+	for (d = descriptor_list; d ; d = d_next)
 		{
-            write_to_descriptor (d->descriptor, "\n\rSorry, we are rebooting. Come back in a few seconds.\n\r");
-			close_socket (d); /* throw'em out */
+			struct char_data * och = d->character;
+			d_next = d->next; /* We delete from the list , so need to save this */
+			if (!d->character || d->connected > CON_PLAYING) /* drop those logging on */
+				{
+					write_to_descriptor (d->descriptor, "\n\rSorry, we are rebooting. Come back in a few seconds.\n\r");
+					close_socket (d); /* throw'em out */
+				}
+			else
+				{
+					fprintf (fp, "%d %s %s\n", d->descriptor, GET_NAME(och), d->host);
+					//(d->character->master) ? GET_NAME(d->character->master) : " ");
+					/* save och */
+					Crash_rentsave(och,0);
+					save_char(och, och->in_room);
+					write_to_descriptor (d->descriptor, buf);
+				}
 		}
-		else
-		{
-		fprintf (fp, "%d %s %s\n", d->descriptor, GET_NAME(och), d->host);
-//(d->character->master) ? GET_NAME(d->character->master) : " ");
-            /* save och */
-            Crash_rentsave(och,0);
-            save_char(och, och->in_room);
-			write_to_descriptor (d->descriptor, buf);
-		}
-	}
-
+	
 	fprintf (fp, "-1\n");
 	fclose (fp);
-
+	
 	/* Close reserve and other always-open files and release other resources
-           since we are now using ASCII pfiles, closing the player_fl would crash
-           the game, since it's no longer around, so I commented it out. I'll
-           leave the code here, for historical reasons -spl
-
-     fclose(player_fl); */
-
+		 since we are now using ASCII pfiles, closing the player_fl would crash
+		 the game, since it's no longer around, so I commented it out. I'll
+		 leave the code here, for historical reasons -spl
+		 
+		 fclose(player_fl); */
+	
 	/* exec - descriptors are inherited */
-
+	
 	sprintf (buf, "%d", port);
-       send_to_char(buf,ch);
-    sprintf (buf2, "-C%d", mother_desc);
-    /* Ugh, seems it is expected we are 1 step above lib - this may be dangerous! */
-    chdir ("..");
-
-
-	execl (EXE_FILE, "circle", buf2, buf, (char *) NULL);
+	send_to_char(buf,ch);
+	sprintf (buf2, "-C%d", mother_desc);
+	/* Ugh, seems it is expected we are 1 step above lib - this may be dangerous! */
+	chdir ("..");
+	
+	
+	execl (EXE_FILE, "deimos-live", buf2, buf, (char *) NULL);
 	/* Failed - sucessful exec will not return */
-
+	
 	perror ("do_copyover: execl");
 	send_to_char ("Copyover FAILED!\n\r",ch);
-
-    exit (1); /* too much trouble to try to recover! */
+	
+	exit (1); /* too much trouble to try to recover! */
 }
 
 ACMD(do_advance)
@@ -3495,19 +3495,19 @@ int perform_set(struct char_data *ch, struct char_data *vict, int mode,
     break;
 
   case 55:
-    GET_THIEF_LEVEL(vict) = value;
+	  SET_THIEF_LEVEL(vict,value);
     break;
 
   case 56:
-    GET_WARRIOR_LEVEL(vict) = value;
+	  SET_WARRIOR_LEVEL(vict,value);
     break;
 
   case 57:
-    GET_MAGE_LEVEL(vict) = value;
+	  SET_MAGE_LEVEL(vict,value);
     break;
 
   case 58:
-    GET_CLERIC_LEVEL(vict) = value;
+	  SET_CLERIC_LEVEL(vict,value);
     break;
 
   case 59:
@@ -4980,10 +4980,10 @@ ACMD(do_builderize) {
 
   send_to_char("You have been builderized!\r\n", victim);
   GET_LEVEL(victim) = 61;
-  GET_THIEF_LEVEL(victim) = 61;
-  GET_WARRIOR_LEVEL(victim) = 61;
-  GET_MAGE_LEVEL(victim) = 61; 
-  GET_CLERIC_LEVEL(victim) = 61; 
+  SET_THIEF_LEVEL(victim, 61);
+  SET_WARRIOR_LEVEL(victim, 61);
+  SET_MAGE_LEVEL(victim, 61);
+  SET_CLERIC_LEVEL(victim, 61); 
   
   tmstr = (char *) asctime(localtime(&(victim->player.time.builder)));
 }

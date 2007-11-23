@@ -1811,7 +1811,7 @@ ACMD(do_syslog)
   send_to_char(buf, ch);
 }
 
-#define EXE_FILE "bin/circle" /* maybe use argv[0] but it's not reliable */
+#define EXE_FILE "bin/deimos-live" /* maybe use argv[0] but it's not reliable */
 
 /* (c) 1996-97 Erwin S. Andreasen <erwin@pip.dknet.dk> */
 ACMD(do_copyover)
@@ -1892,7 +1892,7 @@ ACMD(do_copyover)
     chdir ("..");
 
 
-	execl (EXE_FILE, "circle", buf2, buf, (char *) NULL);
+	execl (EXE_FILE, "deimos-live", buf2, buf, (char *) NULL);
 	/* Failed - sucessful exec will not return */
 
 	perror ("do_copyover: execl");

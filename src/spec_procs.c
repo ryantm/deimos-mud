@@ -67,9 +67,10 @@ extern struct new_guild_info guilds[];
 void update_pos(struct char_data * ch);
 int needed_exp(byte char_class, byte gain_class, int level);
 int needed_gold(byte char_class, byte gain_class, int level);
-
+byte get_class_level(struct char_data *ch, byte class);
 
 /* local functions */
+
 void sort_spells(void);
 int compare_spells(const void *x, const void *y);
 void store_mail(long to, long from, sh_int vnum, char *message_pointer);
@@ -711,16 +712,6 @@ SPECIAL(mayor)
   return (FALSE);
 }
 
-byte get_class_level(struct char_data *ch, byte class) {
-	switch (class) 
-		{
-		case CLASS_MAGE:    return GET_MAGE_LEVEL(ch);
-		case CLASS_CLERIC:  return GET_CLERIC_LEVEL(ch);
-		case CLASS_THIEF:   return GET_THIEF_LEVEL(ch);
-		case CLASS_WARRIOR: return GET_WARRIOR_LEVEL(ch);
-		}
-	return -1;
-}
 
 void inc_class_stats(struct char_data *ch, byte class)
 {

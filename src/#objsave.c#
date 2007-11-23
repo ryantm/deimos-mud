@@ -237,9 +237,10 @@ void auto_equip(struct char_data *ch, struct obj_data *obj, int location)
 
 int Crash_delete_file(char *name)
 {
+  return (1);
+  /*  
   char filename[50];
   FILE *fl;
-
   if(!xap_objs) {
   if (!get_filename(name, filename, CRASH_FILE))
     return (0);
@@ -247,19 +248,19 @@ int Crash_delete_file(char *name)
     if(!get_filename(name,filename,NEW_OBJ_FILES))
       return (0);
   }
-
   if (!(fl = fopen(filename, "rb"))) {
-    if (errno != ENOENT)	/* if it fails but NOT because of no file */
+    if (errno != ENOENT)	// if it fails but NOT because of no file 
       log("SYSERR: deleting crash file %s (1): %s", filename, strerror(errno));
     return (0);
   }
   fclose(fl);
 
-  /* if it fails, NOT because of no file */
+ //  if it fails, NOT because of no file 
   if (remove(filename) < 0 && errno != ENOENT)
     log("SYSERR: deleting crash file %s (2): %s", filename, strerror(errno));
 
   return (1);
+  */
 }
 
 
@@ -1365,36 +1366,36 @@ int Crash_load_xapobjs(struct char_data *ch) {
       sprintf(buf1, "SYSERR: READING OBJECT FILE %s (5)", fname);
       perror(buf1);
       send_to_char("\r\n********************* NOTICE *********************\r\n"
-		   "There was a problem loading your objects from disk.\r\n"
-		   "Contact a God for assistance.\r\n", ch);
+									 "There was a problem loading your objects from disk.\r\n"
+									 "Contact a God for assistance.\r\n", ch);
     }
     sprintf(buf, "%s entering game with no equipment.", GET_NAME(ch));
     mudlog(buf, NRM, MAX(LVL_IMMORT, GET_INVIS_LEV(ch)), TRUE);
- if (PLR_FLAGGED(ch, PLR_DEAD) || 
-     PLR_FLAGGED(ch, PLR_DEADI) || 
-     PLR_FLAGGED(ch, PLR_DEADII) || 
-     PLR_FLAGGED(ch, PLR_DEADIII)) {
-    send_to_char("\r\nYour death has caused you to corpse, look for your eq at your corpse.\r\n", ch);
-  for (i = 0; i < NUM_WEARS; i++) {
-    if (GET_EQ(ch, i))
-     unequip_char(ch, i);
-    }
-    ch->carrying = NULL;
-    IS_CARRYING_N(ch) = 0;
-    IS_CARRYING_W(ch) = 0;
-    REMOVE_BIT(PLR_FLAGS(ch), PLR_DEAD);
-    REMOVE_BIT(PLR_FLAGS(ch), PLR_DEADI);
-    REMOVE_BIT(PLR_FLAGS(ch), PLR_DEADII);
-    REMOVE_BIT(PLR_FLAGS(ch), PLR_DEADIII);
-   }
+		if (PLR_FLAGGED(ch, PLR_DEAD) || 
+				PLR_FLAGGED(ch, PLR_DEADI) || 
+				PLR_FLAGGED(ch, PLR_DEADII) || 
+				PLR_FLAGGED(ch, PLR_DEADIII)) {
+			send_to_char("\r\nYour death has caused you to corpse, look for your eq at your corpse.\r\n", ch);
+			for (i = 0; i < NUM_WEARS; i++) {
+				if (GET_EQ(ch, i))
+					unequip_char(ch, i);
+			}
+			ch->carrying = NULL;
+			IS_CARRYING_N(ch) = 0;
+			IS_CARRYING_W(ch) = 0;
+			REMOVE_BIT(PLR_FLAGS(ch), PLR_DEAD);
+			REMOVE_BIT(PLR_FLAGS(ch), PLR_DEADI);
+			REMOVE_BIT(PLR_FLAGS(ch), PLR_DEADII);
+			REMOVE_BIT(PLR_FLAGS(ch), PLR_DEADIII);
+		}
     return 1;
   }
   if (!feof(fl))
     get_line(fl,line);
 
   sscanf(line,"%d %d %d %d %d %d",&rentcode, &timed,
-        &netcost,&gold,&account,&nitems);
-
+				 &netcost,&gold,&account,&nitems);
+	
   switch (orig_rent_code = rentcode) {
   case RENT_RENTED:
     sprintf(buf, "%s un-renting and entering game.", GET_NAME(ch));
