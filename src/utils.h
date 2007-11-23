@@ -46,6 +46,7 @@ void    line_input(struct descriptor_data *d, const char *prompt,
 		   C_FUNC(*callback), void *info);
 
 void set_arank(struct char_data *killer, struct char_data *ch);
+byte get_class_level(struct char_data *ch, byte class);
 
 #define core_dump()		core_dump_real(__FILE__, __LINE__)
 

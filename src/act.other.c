@@ -77,7 +77,7 @@ void die(struct char_data * ch, struct char_data * killer);
 void Crash_rentsave(struct char_data * ch, int cost);
 int needed_exp(byte char_class, byte gain_class, int level);
 int needed_gold(byte char_class, byte gain_class, int level);
-
+byte get_class_level(struct char_data *ch, byte class);
 int rvnum = 0;
 
 /* local functions */
@@ -1476,36 +1476,49 @@ ACMD(do_finger)
   send_to_char(buf, ch);
 }
 
-char * levels_exp_helper(byte char_class, byte gain_class, int level) 
+char * levels_exp_helper(struct char_data *ch, byte gain_class) 
 {
-	if (level == MAX_MASTER_LEVEL)
+	if (get_class_level(ch, gain_class) == MAX_MASTER_LEVEL)
 		return "     Mastered     ";
-  sprintf(buf1, "Exp : %12d", needed_exp(char_class,  gain_class, level));
+  sprintf(buf1, "Exp : %12d", MAX(0,needed_exp(GET_CLASS(ch),  gain_class, get_class_level(ch, gain_class))-GET_EXP(ch)));
 	return str_dup(buf1);
 }
 
-char * levels_gold_helper(byte char_class, byte gain_class, int level) 
+char * levels_gold_helper(struct char_data *ch, byte gain_class) 
 {
-	if (level == MAX_MASTER_LEVEL)
+	if (get_class_level(ch, gain_class) == MAX_MASTER_LEVEL)
 		return "                  ";
-  sprintf(buf1, "Gold: %12d", needed_gold(char_class,  gain_class, level));
+  sprintf(buf1, "Gold: %12d", MAX(0,needed_gold(GET_CLASS(ch),  gain_class, get_class_level(ch, gain_class))-GET_GOLD(ch)));
 	return str_dup(buf1);
 }
 
+char * can_level_class(struct char_data *ch, byte gain_class) {
+	if (get_class_level(ch, gain_class) == 0)
+		return "           ";
+	if (MAX(0,needed_gold(GET_CLASS(ch),  gain_class, get_class_level(ch,gain_class))-GET_GOLD(ch)) == 0 &&
+			MAX(0,needed_exp(GET_CLASS(ch),  gain_class, get_class_level(ch,gain_class))-GET_EXP(ch)) == 0)
+		return "&G(CAN LEVEL)&n";
+	else
+		return "           ";
+}
 
 ACMD(do_level)
 {
   //TODO: POSSIBLE MEMORY LEAK HERE!
-	sprintf(buf, "Next Levels:\r\n==================\r\nThief               Warrior\r\n------------------  ------------------\r\n%s  %s\r\n%s  %s\r\n\r\nMage                Cleric\r\n------------------  ------------------\r\n%s  %s\r\n%s  %s\r\n",
-					levels_exp_helper(GET_CLASS(ch),  CLASS_THIEF,   GET_THIEF_LEVEL(ch)),
-					levels_exp_helper(GET_CLASS(ch),  CLASS_WARRIOR, GET_WARRIOR_LEVEL(ch)),
-					levels_gold_helper(GET_CLASS(ch), CLASS_THIEF,   GET_THIEF_LEVEL(ch)),
-					levels_gold_helper(GET_CLASS(ch), CLASS_WARRIOR, GET_WARRIOR_LEVEL(ch)),
-		 	
-					levels_exp_helper(GET_CLASS(ch),  CLASS_MAGE,    GET_MAGE_LEVEL(ch)),
-					levels_exp_helper(GET_CLASS(ch),  CLASS_CLERIC,  GET_CLERIC_LEVEL(ch)),
-					levels_gold_helper(GET_CLASS(ch), CLASS_MAGE,    GET_MAGE_LEVEL(ch)),
-					levels_gold_helper(GET_CLASS(ch), CLASS_CLERIC,  GET_CLERIC_LEVEL(ch)));
+	sprintf(buf, "To next level:\r\n==================\r\nThief  %s  Warrior%s\r\n------------------  ------------------\r\n%s  %s\r\n%s  %s\r\n\r\nMage   %s  Cleric %s\r\n------------------  ------------------\r\n%s  %s\r\n%s  %s\r\n",
+					can_level_class(ch, CLASS_THIEF),
+					can_level_class(ch, CLASS_WARRIOR),
+					levels_exp_helper(ch,  CLASS_THIEF),
+					levels_exp_helper(ch,  CLASS_WARRIOR),
+					levels_gold_helper(ch, CLASS_THIEF),
+					levels_gold_helper(ch, CLASS_WARRIOR),
+
+					can_level_class(ch, CLASS_MAGE),
+					can_level_class(ch, CLASS_CLERIC),
+					levels_exp_helper(ch,  CLASS_MAGE),
+					levels_exp_helper(ch,  CLASS_CLERIC),
+					levels_gold_helper(ch, CLASS_MAGE),
+					levels_gold_helper(ch, CLASS_CLERIC));
 	send_to_char(buf, ch);
 }
 

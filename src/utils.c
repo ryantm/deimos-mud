@@ -739,3 +739,14 @@ ACMD(do_helpcheck)
 
 }
 
+byte get_class_level(struct char_data *ch, byte class) {
+	switch (class) 
+		{
+		case CLASS_MAGE:    return GET_MAGE_LEVEL(ch);
+		case CLASS_CLERIC:  return GET_CLERIC_LEVEL(ch);
+		case CLASS_THIEF:   return GET_THIEF_LEVEL(ch);
+		case CLASS_WARRIOR: return GET_WARRIOR_LEVEL(ch);
+		}
+	return -1;
+}
+

@@ -1,52 +1,44 @@
 Name: Ark
 Pass: Ar/5K1Fq.q
-Titl: 
+Titl: the Warrior
 PreT: 
 Pos : 12
 Sex : 1
-Clas: 3
-Levl: 60
-LThf: 60
-LWar: 60
-LMge: 60
-LClr: 60
+Levl: 17
+LWar: 31
+LMge: 17
 Home: 1
-Brth: 1195693538
-Plyd: 9310
-Last: 1195792824
+Brth: 1195801876
+Plyd: 1050
+Last: 1195836257
 Host: localhost
-Hite: 181
-Wate: 132
-Alin: 43
-Id  : 764
-Act : 14680704
-Aff : i
+Hite: 166
+Wate: 152
+Id  : 766
+Act : 2097280
 Skil:
-131 8
-140 8
 0 0
 Room: -1
 Hrom: 0
-Pref: efghnowxyBF
+Pref: hnowxyBF
 Prf2: abci
-Lern: 311
-Str : 16/
-Sac : 46
-Int : 10
-Wis : 11
+Hung: 8
+Thir: 8
+Lern: 48
+Str : 15/
+Int : 11
+Wis : 14
 Dex : 14
-Con : 12
+Con : 14
 Cha : 8
-Hit : 8802/10000
-Mana: 464/464
-Move: 1070/1070
-Gold: 39012
-Exp : 749934618
+Hit : 512/512
+Mana: 192/192
+Move: 225/225
+Gold: 765640
+Exp : 92662025
 Econ: 0
 ARnk: 0
 Horh: 50/0
-Deth: 1
-Kill: 46
 Spar: 0
 Affs:
 0 0 0 0 0
