@@ -12,6 +12,9 @@ DONE
 * F Track now works as expected
 * F Backstab does not fail silently now.
 
+
+TODO
+
 Bug Fixes
 * people can multiplay with new characters (reproducable)
 * color prompt even with color off (reproducable)
