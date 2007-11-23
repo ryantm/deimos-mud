@@ -18,6 +18,7 @@ PROFILE =
 # Do Not Modify Anything Below This Line (unless you know what you're doing) #
 ##############################################################################
 BINDIR = ../bin
+DEIMOSNAME = $(BINDIR)/archive/deimos-`date +'%Y-%m-%d-%H:%M'`	
 
 #extedned debug
 CFLAGS = -ggdb -O2 $(MYFLAGS) $(PROFILE)
@@ -47,9 +48,9 @@ $(BINDIR)/deimos : $(OBJFILES)
 	$(CC) -o $(BINDIR)/deimos $(PROFILE) $(OBJFILES) $(LIBS)
 
 deploy:
-	deimosname=$(BINDIR)/archive/deimos
-	cp ${BINDIR}/deimos-live
-	cp ${BINDIR}/archive/deimos-live
+	mkdir -p ${BINDIR}/archive
+	cp ${BINDIR}/deimos ${DEIMOSNAME}
+	ln -sf ${DEIMOSNAME} ${BINDIR}/deimos-live
 
 clean:
 	rm -f *.o
