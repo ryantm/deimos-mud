@@ -1,18 +1,3 @@
-DONE
-* E Soundproof rooms have been abolished
-* E Levels command has been revamped
-* E Multiclassing messages have been improved
-* E Track speed has been increased
-* E Track can now be practiced to level 10 for prime thieves
-* E Failing backstab now sometimes causes you to lose hp
-
-* F Various multiclassing related bugs
-* F Make process no longer overwrites live binary
-* F Failing bandage now results in 1 round lag
-* F Track now works as expected
-* F Backstab does not fail silently now.
-
-
 TODO
 
 Bug Fixes
