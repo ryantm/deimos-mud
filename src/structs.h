@@ -638,6 +638,8 @@
 #define MULTICLASS_LEVEL_TWO   45
 #define MULTICLASS_LEVEL_THREE 60
 
+#define GMEXP                  200000000
+#define GMGOLD                 20000000
 
 /* Level of the 'freeze' command */
 #define LVL_FREEZE	LVL_GRGOD
