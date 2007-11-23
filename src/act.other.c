@@ -1504,22 +1504,40 @@ char * can_level_class(struct char_data *ch, byte gain_class) {
 
 ACMD(do_level)
 {
-  //TODO: POSSIBLE MEMORY LEAK HERE!
-	sprintf(buf, "To next level:\r\n==================\r\nThief  %s  Warrior%s\r\n------------------  ------------------\r\n%s  %s\r\n%s  %s\r\n\r\nMage   %s  Cleric %s\r\n------------------  ------------------\r\n%s  %s\r\n%s  %s\r\n",
-					can_level_class(ch, CLASS_THIEF),
-					can_level_class(ch, CLASS_WARRIOR),
-					levels_exp_helper(ch,  CLASS_THIEF),
-					levels_exp_helper(ch,  CLASS_WARRIOR),
-					levels_gold_helper(ch, CLASS_THIEF),
-					levels_gold_helper(ch, CLASS_WARRIOR),
+	int short_gold;
+	int short_exp;
+	bool can_level= FALSE;
 
-					can_level_class(ch, CLASS_MAGE),
-					can_level_class(ch, CLASS_CLERIC),
-					levels_exp_helper(ch,  CLASS_MAGE),
-					levels_exp_helper(ch,  CLASS_CLERIC),
-					levels_gold_helper(ch, CLASS_MAGE),
-					levels_gold_helper(ch, CLASS_CLERIC));
-	send_to_char(buf, ch);
+  //TODO: POSSIBLE MEMORY LEAK HERE!
+	if (GET_TOTAL_LEVEL(ch) == MAX_TOTAL_LEVEL)
+		{
+			short_exp  = MAX(0, GMEXP - GET_EXP(ch));
+			short_gold = MAX(0, GMGOLD - GET_GOLD(ch));
+			can_level= (short_exp == 0 && short_gold == 0);
+			sprintf(buf, "To next level:\r\n==================\r\nGrandMaster %s\r\n-----------------------\r\nExp :      %12d\r\nGold:      %12d",
+							can_level ? "&G(CAN LEVEL)&n" : "           ",
+							short_exp,
+							short_gold);
+			send_to_char(buf, ch);
+		}
+	else
+		{
+			sprintf(buf, "To next level:\r\n==================\r\nThief  %s  Warrior%s\r\n------------------  ------------------\r\n%s  %s\r\n%s  %s\r\n\r\nMage   %s  Cleric %s\r\n------------------  ------------------\r\n%s  %s\r\n%s  %s\r\n",
+							can_level_class(ch, CLASS_THIEF),
+							can_level_class(ch, CLASS_WARRIOR),
+							levels_exp_helper(ch,  CLASS_THIEF),
+							levels_exp_helper(ch,  CLASS_WARRIOR),
+							levels_gold_helper(ch, CLASS_THIEF),
+							levels_gold_helper(ch, CLASS_WARRIOR),
+							
+							can_level_class(ch, CLASS_MAGE),
+							can_level_class(ch, CLASS_CLERIC),
+							levels_exp_helper(ch,  CLASS_MAGE),
+							levels_exp_helper(ch,  CLASS_CLERIC),
+							levels_gold_helper(ch, CLASS_MAGE),
+							levels_gold_helper(ch, CLASS_CLERIC));
+			send_to_char(buf, ch);
+		}
 }
 
 
