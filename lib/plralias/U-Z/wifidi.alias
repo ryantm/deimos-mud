@@ -1,4 +1,54 @@
 2
+hc
+15
+c 'heal' cerise
+0
+2
+rl
+6
+recall
+0
+1
+r
+8
+c 'word'
+0
+2
+rc
+19
+c 'remove curse' $1
+1
+2
+pl
+12
+gt peepcheck
+0
+1
+g
+4
+scan
+0
+2
+pd
+8
+push d s
+0
+2
+tg
+11
+tell gov hi
+0
+2
+pg
+14
+c 'poison' gov
+0
+1
+b
+8
+bash gov
+0
+2
 ig
 15
 c 'icebolt' gov
@@ -17,21 +67,6 @@ gt titango
 ri
 13
 rescue cerise
-0
-1
-r
-8
-c 'word'
-0
-2
-rc
-14
-rescue charlie
-0
-2
-hc
-15
-c 'heal' cerise
 0
 2
 ra
@@ -538,11 +573,6 @@ be
 5
 sdsdg
 0
-1
-g
-4
-scan
-0
 2
 bo
 4
@@ -647,11 +677,6 @@ c 'detect invis'
 b5
 4
 bs s
-0
-1
-b
-4
-bash
 0
 1
 o
@@ -1722,11 +1747,6 @@ l in hav
 pk
 9
 bs knight
-0
-2
-pd
-12
-bs dignitary
 0
 2
 pv

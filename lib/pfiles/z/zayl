@@ -9,24 +9,24 @@ Nothing.
 Sex : 1
 Clas: 1
 Levl: 60
-LThf: 35
+LThf: 41
 LWar: 35
 LMge: 60
 LClr: 60
 Home: 1
 Brth: 1088652567
-Plyd: 910980
-Last: 1186858558
+Plyd: 971320
+Last: 1195758983
 Host: unin-20-01-075.dsl.netins.net
 Hite: 177
 Wate: 151
-Alin: -169
+Alin: 454
 Id  : 234
-Act : 14682240
+Act : 14682304
 Skil:
-1 1
-3 1
-4 7
+1 2
+3 2
+4 8
 19 1
 26 8
 28 10
@@ -49,7 +49,7 @@ Skil:
 56 1
 58 1
 59 5
-61 4
+61 8
 62 1
 67 5
 69 8
@@ -73,33 +73,34 @@ Skil:
 162 1
 0 0
 Wimp: 500
-Room: 200
+Room: 100
 Hrom: 0
 Pref: efghknowxyBCF
 Prf2: abci
 Hung: -1
 Thir: -1
-Lern: 4
+Lern: 3
 Str : 16/
-Sac : 5750
+Sac : 6005
 Int : 17
 Wis : 18
 Dex : 16
 Con : 16
 Cha : 9
-Hit : 2411/2411
-Mana: 1838/1854
-Move: 1136/1136
-Gold: 223550
-Exp : 17107723
+Hit : 1200/2449
+Mana: 1836/1854
+Move: 1181/1181
+Gold: 12645675
+Exp : 22656258
 Econ: 0
 ARnk: 0
 Horh: 50/0
 Deth: 4
-Kill: 5504
+Kill: 5749
 Spar: 89
 Affs:
-19 26 0 0 8 1
-74 1 10 19 0 10
-36 0 0 0 128 10
+44 189 0 0 32 1
+19 14 0 0 8 1
+138 52 0 0 262144 387
+36 1 0 0 128 10
 0 0 0 0 0

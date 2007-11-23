@@ -326,16 +326,16 @@ D5
 ~
 0 0 4217
 E
+acropolis cliff~
+   The acropolis is a sheer stone wall that leads up to the walls of Phobos and
+down to the beach.  It is a obvious advantage to the defense of the city.    
+~
+E
 Great South Ocean~
    The Great South Ocean expands southward.  From even here the Ocean has
 created a saline smeel to the atomosphere.  It is a quite calm ocean and known
 for its vast marine life.  This life is one of the ways Phobians sustain life
 in their great city.    
-~
-E
-acropolis cliff~
-   The acropolis is a sheer stone wall that leads up to the walls of Phobos and
-down to the beach.  It is a obvious advantage to the defense of the city.    
 ~
 S
 #4217
@@ -365,11 +365,16 @@ D4
 ~
 0 0 4216
 E
-Great South Ocean~
-   Up close not much can be seen but waves crashing on the shores of the beach.
-The air just above the water seems to be misty.  Someone could easily get lost
-in that ocean it would seem.  Also in the Ocean there seems to be some fishing
-skiffs.    
+Docks~
+   The docks of Phobos appear south of here, They are a network of catwalks and
+fishing boats.  The authorities of Phobos allow free use of the docks for
+fisherman.  Anyone else must pay for a place at the docks.  One ship that would
+appear to be bigger than the rest is floating in the water to the south east.
+~
+E
+Acropolis~
+   The acropolis looks like a sheer wall too the north that leads upward a good
+distance to the walls of Phobos.  It looks compleatly unscalable.    
 ~
 E
 Skiffs~
@@ -378,16 +383,11 @@ are manned by fisherman of Phobos who are out to catch fish and bring them to
 sell in Phobos.    
 ~
 E
-Acropolis~
-   The acropolis looks like a sheer wall too the north that leads upward a good
-distance to the walls of Phobos.  It looks compleatly unscalable.    
-~
-E
-Docks~
-   The docks of Phobos appear south of here, They are a network of catwalks and
-fishing boats.  The authorities of Phobos allow free use of the docks for
-fisherman.  Anyone else must pay for a place at the docks.  One ship that would
-appear to be bigger than the rest is floating in the water to the south east.
+Great South Ocean~
+   Up close not much can be seen but waves crashing on the shores of the beach.
+The air just above the water seems to be misty.  Someone could easily get lost
+in that ocean it would seem.  Also in the Ocean there seems to be some fishing
+skiffs.    
 ~
 S
 #4218
@@ -407,13 +407,6 @@ D2
 ~
 0 0 4220
 E
-Wooden Planks~
-   The wooden planks are made of treated wood that is designed to stand up to
-salt water, None the less the salt solution corrodes the docks with realative
-ease.  The Dock Commission of Phobos has issued a constant state of repair for
-these and any other wood structures close to the water.    
-~
-E
 huge ship~
    Ah the Illustrious, Nasty Butler.  It is one of the largest ships in Phobos.
 It currently seems to be docked in Phobos but through the mist you can't be
@@ -421,6 +414,13 @@ totally sure, Sometimes it is away from port.  But if it were here closer
 examination would bring about the discovery of it's eccentric Mascot, The Nasty
 Butler.  The ships mascot is actually that of a Butler who is strapped to the
 bowspirit...  How unique.    
+~
+E
+Wooden Planks~
+   The wooden planks are made of treated wood that is designed to stand up to
+salt water, None the less the salt solution corrodes the docks with realative
+ease.  The Dock Commission of Phobos has issued a constant state of repair for
+these and any other wood structures close to the water.    
 ~
 S
 #4219

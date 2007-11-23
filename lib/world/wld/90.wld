@@ -1104,7 +1104,7 @@ quest for gold and equipment to make your character the best.  To view the
 DeimosMUD rules and policies, type MOTD.  This is also displayed when logging
 on to the mud.  The mud school continues to the north.    
 ~
-90 p 0
+90 0 0
 D0
 ~
 ~
@@ -1122,7 +1122,7 @@ several basics about Deimos, as well as a few skills to help you out on your
 quest.  If you need help, use the newbie channel.  The syntax is newb
 -message-, and someone will most likely reply to answer your question.    
 ~
-90 ps 0
+90 s 0
 D0
 ~
 ~
@@ -1145,7 +1145,7 @@ Training&n.  &RDeimosMUD&n &Ghelp files are under construction and vast
 improvement!  To access the online help file database, point your browser to:&n
 &Mdeimos.wolfpaw.net/help&n
 ~
-90 psy 0
+90 sy 0
 D0
 ~
 ~
@@ -1173,7 +1173,7 @@ It will give you a brief prediction of the outcome of the fight.  &RThis
 command may save your life!  &n &GTo view your hp, mana and movement as a
 prompt, type &Mprompt all&n.    
 ~
-90 ps 0
+90 s 0
 D1
 ~
 ~
@@ -1195,7 +1195,7 @@ you with one point to your statistics.  To do this type 'train (full name of
 stat)' example train strength You may only be able to train statistics up to
 18.    
 ~
-90 ps 0
+90 s 0
 D3
 ~
 ~
@@ -1212,7 +1212,7 @@ command, type tell <person> <message> Please watch the language you use on
 gossip, as inappriopriate language and racial slurs will result in strict
 consequences.    
 ~
-90 ps 0
+90 s 0
 D1
 ~
 ~
@@ -1235,7 +1235,7 @@ liquid container you must type fill (container), for example fill (waterskin)
 fountain.  TO GET YOUR NEWBIE ARMOR SAY EQUIP ME AND THEN SAY PLAYGROUND TO GO
 TO THE NEWBIE AREA.    
 ~
-90 ehps 0
+90 ehs 0
 D1
 ~
 ~
@@ -1418,7 +1418,7 @@ It is a one way entrance, therefore you must complete the newbie school for old
 time's sake.  The doorway to the MUD school is a large door that stadnds wide
 open, and from inside glows a red radiance.    
 ~
-90 p 0
+90 0 0
 D0
 ~
 ~

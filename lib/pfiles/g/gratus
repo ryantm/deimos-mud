@@ -8,31 +8,34 @@ Clas: 1
 Levl: 1
 LClr: 1
 Home: 1
-Brth: 1193157301
-Plyd: 14350
-Last: 1195468430
+Brth: 1195652523
+Plyd: 420
+Last: 1195654262
 Host: cpe-66-67-129-39.rochester.res
-Hite: 188
-Wate: 155
-Id  : 750
-Act : 2240
+Hite: 190
+Wate: 168
+Id  : 765
+Act : 2176
 Skil:
 0 0
-Room: 214
+Room: 200
 Hrom: 0
 Pref: efghnowxyB
 Prf2: abci
+Hung: 18
+Thir: 18
 Lern: 1
 Str : 16/
+Sac : 1
 Int : 17
 Wis : 18
-Dex : 16
-Con : 14
-Cha : 12
-Hit : 19/19
+Dex : 15
+Con : 13
+Cha : 13
+Hit : 16/16
 Mana: 100/100
-Move: 83/83
-Gold: 78897
+Move: 82/83
+Gold: 158
 Exp : 1126
 Econ: 0
 ARnk: 0

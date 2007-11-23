@@ -365,14 +365,15 @@ The airport ticket machine is here~
 0 0 0 0
 0 0 0 0
 #34
-ochkam's toothbrush~
-&BOchkam's Toothbrush&n~
-&BOchkam's Toothbrush&n~
-&BOchkam's Toothbrush&n
+turkey dispenser~
+a turkey dispenser~
+a turkey dispenser sits here.~
+Yum Turkeys.
 ~
-5 268435456 8193 8401024
-99 99 50 5
-0 667 0 66
+12 268435456 0 8401024
+0 0 0 0
+0 0 0 66
+T 34
 A
 1 25
 #35
@@ -385,6 +386,19 @@ alcoholic.
 10 0 1 0
 50 75 0 0
 0 0 0 0
+#36
+tofu drumstick~
+a tofu tofurkey drumstick~
+a tofu tofurkey drumstick lies here.~
+it's tofu shaped and flavored like a turkey drumstick.
+~
+5 145817759 8193 8401024
+10 10 10 5
+0 0 0 0
+A
+18 10
+A
+19 10
 #40
 plain shirt~
 a plain shirt~

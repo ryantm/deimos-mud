@@ -19,13 +19,13 @@ An Aperture Science Weighted Companion Cube sits peacefully on the floor here.~
 100 0 0 0
 T 24800
 #24801
-egg key~
-the egg key~
-The egg key is lying here.~
-   It's a key that goes in an egg.    
+led~
+a &Bblue&n LED~
+A &Bblue&n LED shines brightly.~
+Shiny!
 ~
-18 4 1 0
-0 0 0 0
+1 276824073 16385 0
+0 0 -1 0
 0 0 0 0
 #24802
 mother easter eggs~
@@ -53,14 +53,23 @@ It sucks.~
 0 0 0 0
 0 0 0 0
 #24820
-toilet titanium~
-a Titanium Toilet~
-A shiny Titanium Toilet stands on the floor dead-center.~
-   Who knows why this toilet needs to be cast from a single solid block of
-titanium?  Maybe it's a toilet spaceship that needs to withstand the high
-temperatures of atmospheric reentry.
+palantir~
+Mobius's palantir~
+A palantir sits atop an ornate pedestal in the center of the chamber.~
+Oh noes, the palantir is broken!
 ~
-15 16 0 0
-1000 1 -1 0
+12 16 0 0
+0 0 0 0
+0 0 0 0
+S
+gen_board
+#24821
+force~
+the Force~
+The Force lies here.~
+Nothing.
+~
+4 4 16385 0
+99999 99999 20 69
 0 0 0 0
 $~

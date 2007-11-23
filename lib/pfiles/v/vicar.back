@@ -11,14 +11,15 @@ LMge: 60
 LClr: 60
 Home: 1
 Brth: 1150496393
-Plyd: 1980510
-Last: 1195515185
+Plyd: 1993810
+Last: 1195743231
 Host: cpe-65-24-199-37.insight.res.r
 Hite: 193
 Wate: 159
-Alin: 29
+Alin: 165
 Id  : 544
 Act : 14682240
+Aff : i
 Skil:
 1 8
 3 8
@@ -73,41 +74,40 @@ Skil:
 161 2
 162 1
 0 0
-Wimp: 400
+Wimp: 800
 Room: 200
 Hrom: 0
-Pref: efghnowxzB
+Pref: efghnowxyB
 Prf2: abci
 Hung: -1
 Thir: -1
+Lern: 2
 Str : 18/
-Sac : 933
+Sac : 938
 Int : 18
 Wis : 18
 Dex : 18
 Con : 18
 Cha : 18
-Hit : 683/1878
-Mana: 1836/2659
-Move: 653/797
-Gold: 18317718
+Hit : 1972/1902
+Mana: 1848/2703
+Move: 798/809
+Gold: 4470494
 Bank: 900000
-Exp : 166936168
+Exp : 35512081
 Econ: 0
 ARnk: 0
 Relg: 2
 Horh: 50/0
 Deth: 16
-Kill: 13257
-Gmst: 14
+Kill: 13271
+Gmst: 15
 Spar: 189
-Trak: ock
 Affs:
-39 36 5 1 0 5
+1 10 24 17 0 8
+3 10 4 18 0 8
+3 10 -1 24 0 0
+39 20 5 1 0 5
 74 0 8 19 0 8
-19 18 0 0 8 1
-1 18 24 17 0 8
-3 18 4 18 0 8
-3 18 -1 24 0 0
-34 18 0 0 4096 4
+19 29 0 0 8 1
 0 0 0 0 0

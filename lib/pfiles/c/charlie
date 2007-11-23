@@ -5,18 +5,18 @@ PreT:
 Pos : 12
 Sex : 1
 Clas: 1
-Levl: 28
-LClr: 28
+Levl: 29
+LClr: 29
 Home: 1
 Brth: 1185236666
-Plyd: 218120
-Last: 1195515179
+Plyd: 245770
+Last: 1195592233
 Host: 12-227-165-134.client.mchsi.co
 Hite: 195
 Wate: 142
-Alin: 5
+Alin: 10
 Id  : 724
-Act : 2176
+Act : 2240
 Skil:
 1 2
 3 2
@@ -30,34 +30,33 @@ Skil:
 52 1
 54 1
 61 1
-71 2
+71 3
 74 10
 0 0
 Wimp: 20
 Room: -1
 Hrom: 0
-Pref: efghknowxyBF
+Pref: efghknowxyzBF
 Prf2: abci
 Str : 13/
-Sac : 208
+Sac : 231
 Int : 14
 Wis : 16
 Dex : 11
 Con : 11
 Cha : 6
-Hit : 267/197
-Mana: 404/404
-Move: 166/166
-Gold: 4298348
+Hit : 272/202
+Mana: 419/419
+Move: 170/170
+Gold: 4351461
 Bank: 280080
-Exp : 1296750
+Exp : 185652
 Econ: 0
 ARnk: 0
 Relg: 1
 Horh: 50/0
 Deth: 1
-Kill: 331
+Kill: 354
 Spar: 0
 Affs:
-19 5 0 0 8 1
 0 0 0 0 0

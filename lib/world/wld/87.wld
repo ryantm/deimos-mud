@@ -20,15 +20,15 @@ You see Alpha Lane.
 ~
 0 0 8740
 E
-slabs floor~
-The slabs are poorly crafted blocks of stone, obviously not dwarven, probably
-human.    
-~
-E
 carvings figures~
 Gothic cathedral carvings are in the walls and columns.  There are paintings of
 the saints and other religious personages painted on marble insets on the
 walls.    
+~
+E
+slabs floor~
+The slabs are poorly crafted blocks of stone, obviously not dwarven, probably
+human.    
 ~
 S
 #8701
@@ -1193,10 +1193,79 @@ The objects are a real mess, but will get to them soon.
 ~
 87 ds 0
 E
-connections~
-Possible roomlinks to this zone are:
-8742 End of Hillcrest Road -west is a path leading away from the city.
-8800 Coit Road- exit to the west, should be a road or highway.
+mobs~
+Mob List From Vnum 8700 to 8999
+    1. [ 8700] the priest
+    2. [ 8701] a male worshipper
+    3. [ 8702] a female worshipper
+    4. [ 8703] a zombie
+    5. [ 8704] a dog
+    6. [ 8705] Blade
+    7. [ 8706] Bo
+    8. [ 8707] the Bartender
+    9. [ 8708] a Drunk
+   10. [ 8709] a Diplomat
+   11. [ 8710] a Citizen
+   12. [ 8732] a female slave
+   13. [ 8733] a Warrior Slave
+   14. [ 8734] a FASSAR-20 Skelebot
+   15. [ 8744] Al
+   16. [ 8745] a pawn shop owner
+   17. [ 8747] Asher
+   18. [ 8749] a Grocer
+   19. [ 8750] the Owner
+   20. [ 8900] a Penguin
+   21. [ 8901] Jessica
+   22. [ 8902] a giant blood-sucking rat
+   23. [ 8903] a male rogue
+   24. [ 8904] a female slave
+   25. [ 8905] a female rogue
+   26. [ 8999] a dude
+~
+E
+objects~
+Object List From Vnum 8700 to 8999
+    1. [ 8700] a crucifix
+    2. [ 8701] a medium-sized key
+    3. [ 8702] a gravestone
+    4. [ 8703] a strange key
+    5. [ 8704] an oversized turtle's shell
+    6. [ 8705] a pair of nunchucks
+    7. [ 8745] a Bar of Gold
+    8. [ 8746] a Bar of Platinum
+    9. [ 8747] a Chemical labeled "Life Giver"
+   10. [ 8748] a Scroll called "D&Kark R&Kising"
+   11. [ 8749] a Chemical labeled "Mega"
+   12. [ 8750] a Chemical labeled "True &KVision"
+   13. [ 8790] a refrigerator
+   14. [ 8791] a table
+   15. [ 8792] a waterbed
+   16. [ 8793] a computer
+   17. [ 8794] a couch
+   18. [ 8798] a newbie sign
+   19. [ 8799] a Barf Bag 
+   20. [ 8800] a keyring with several keys
+   21. [ 8801] a lunch box
+   22. [ 8802] a cage
+   23. [ 8804] a rotting corpse
+   24. [ 8805] some gold
+   25. [ 8806] a warning
+   26. [ 8807] a computer
+   27. [ 8895] some chicken feet
+   28. [ 8896] some chicken wings
+   29. [ 8897] some chicken leggings
+   30. [ 8898] a chicken suit
+   31. [ 8899] a chicken head
+   32. [ 8900] an open-chested shirt
+   33. [ 8901] a Sword of Slaying
+   34. [ 8902] a short loincloth
+   35. [ 8903] a wicked shortsword
+   36. [ 8904] a modified huntsman body armor
+   37. [ 8905] a studded leather armor
+   38. [ 8906] a demonic-looking sword
+   39. [ 8907] a torch
+   40. [ 8908] a Key of Kazagroth
+   41. [ 8999] a sword
 ~
 E
 map~
@@ -1256,79 +1325,10 @@ SEWER
 99 None, God Room ONLY
 ~
 E
-objects~
-Object List From Vnum 8700 to 8999
-    1. [ 8700] a crucifix
-    2. [ 8701] a medium-sized key
-    3. [ 8702] a gravestone
-    4. [ 8703] a strange key
-    5. [ 8704] an oversized turtle's shell
-    6. [ 8705] a pair of nunchucks
-    7. [ 8745] a Bar of Gold
-    8. [ 8746] a Bar of Platinum
-    9. [ 8747] a Chemical labeled "Life Giver"
-   10. [ 8748] a Scroll called "D&Kark R&Kising"
-   11. [ 8749] a Chemical labeled "Mega"
-   12. [ 8750] a Chemical labeled "True &KVision"
-   13. [ 8790] a refrigerator
-   14. [ 8791] a table
-   15. [ 8792] a waterbed
-   16. [ 8793] a computer
-   17. [ 8794] a couch
-   18. [ 8798] a newbie sign
-   19. [ 8799] a Barf Bag 
-   20. [ 8800] a keyring with several keys
-   21. [ 8801] a lunch box
-   22. [ 8802] a cage
-   23. [ 8804] a rotting corpse
-   24. [ 8805] some gold
-   25. [ 8806] a warning
-   26. [ 8807] a computer
-   27. [ 8895] some chicken feet
-   28. [ 8896] some chicken wings
-   29. [ 8897] some chicken leggings
-   30. [ 8898] a chicken suit
-   31. [ 8899] a chicken head
-   32. [ 8900] an open-chested shirt
-   33. [ 8901] a Sword of Slaying
-   34. [ 8902] a short loincloth
-   35. [ 8903] a wicked shortsword
-   36. [ 8904] a modified huntsman body armor
-   37. [ 8905] a studded leather armor
-   38. [ 8906] a demonic-looking sword
-   39. [ 8907] a torch
-   40. [ 8908] a Key of Kazagroth
-   41. [ 8999] a sword
-~
-E
-mobs~
-Mob List From Vnum 8700 to 8999
-    1. [ 8700] the priest
-    2. [ 8701] a male worshipper
-    3. [ 8702] a female worshipper
-    4. [ 8703] a zombie
-    5. [ 8704] a dog
-    6. [ 8705] Blade
-    7. [ 8706] Bo
-    8. [ 8707] the Bartender
-    9. [ 8708] a Drunk
-   10. [ 8709] a Diplomat
-   11. [ 8710] a Citizen
-   12. [ 8732] a female slave
-   13. [ 8733] a Warrior Slave
-   14. [ 8734] a FASSAR-20 Skelebot
-   15. [ 8744] Al
-   16. [ 8745] a pawn shop owner
-   17. [ 8747] Asher
-   18. [ 8749] a Grocer
-   19. [ 8750] the Owner
-   20. [ 8900] a Penguin
-   21. [ 8901] Jessica
-   22. [ 8902] a giant blood-sucking rat
-   23. [ 8903] a male rogue
-   24. [ 8904] a female slave
-   25. [ 8905] a female rogue
-   26. [ 8999] a dude
+connections~
+Possible roomlinks to this zone are:
+8742 End of Hillcrest Road -west is a path leading away from the city.
+8800 Coit Road- exit to the west, should be a road or highway.
 ~
 S
 $~

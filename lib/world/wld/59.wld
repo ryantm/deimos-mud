@@ -1107,12 +1107,12 @@ D3
 door~
 1 0 5947
 E
-chest~
-   It's open and seems to have nothing in it.    
-~
-E
 Parchment~
    The secret stash is hidden benieth the curtain.    
+~
+E
+chest~
+   It's open and seems to have nothing in it.    
 ~
 S
 #5949

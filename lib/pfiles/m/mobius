@@ -13,22 +13,22 @@ LMge: 60
 LClr: 60
 Home: 1
 Brth: 1109354558
-Plyd: 4012960
-Last: 1195447101
-Host: cpe-76-182-218-165.tx.res.rr.c
+Plyd: 4093740
+Last: 1195772172
+Host: d47-69-12-188.nap.wideopenwest
 Hite: 179
 Wate: 129
-Alin: -39
+Alin: -310
 Id  : 81
 Act : 2176
 Frez: 66
-Room: 1248
+Room: 24800
 Hrom: 0
 Pref: efghimnoqrvwxBCF
 Prf2: abcfi
 Lern: 1
 Str : 25/
-Sac : 414
+Sac : 433
 Int : 25
 Wis : 25
 Dex : 25
@@ -37,11 +37,11 @@ Cha : 25
 Hit : 100/100
 Mana: 100/100
 Move: 100/100
-Gold: 361266
+Gold: 1095060
 Econ: 0
 ARnk: 0
 Horh: 50/0
-Kill: 461
+Kill: 479
 Spar: 91
 Affs:
 0 0 0 0 0

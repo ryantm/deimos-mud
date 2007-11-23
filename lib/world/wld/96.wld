@@ -3,7 +3,7 @@ Foggy Ledge~
    A long piece of shale extends outward from the northern edge of the tower.
 Swirling fog obscures any view of what might lay beyond the mists.
 ~
-96 a 0
+96 ap 0
 D0
 ~
 ~
@@ -20,7 +20,7 @@ around you are white mists and the sound of air rushing by.  The chariot appears
 then disappears, which creates doubt in the mind of the passenger.  Where the
 chariot path leads in these swirling clouds is unknown.
 ~
-96 s 0
+96 ps 0
 D0
 ~
 ~
@@ -48,7 +48,7 @@ D5
 E
 chariot~
 A golden inscription written in the tiniest lettering reads what looks like:
-------------/2a/e/3a/e/3a/b/3a/d/3a/e/3a/f/3a/e/3a/e/-------------
+-------------/2a/e/3a/e/3a/b/3a/d/3a/f/3a/e/3a/e/-------------
 ~
 S
 #9602
@@ -58,7 +58,7 @@ swirling blankets of white mist.  The mist is refreshing and appears to have a
 soft glow.  Mysterious folds open for a moment only to reveal more swirling
 clouds.
 ~
-96 0 0
+96 p 0
 D0
 ~
 ~
@@ -86,7 +86,7 @@ D5
 E
 chariot~
 A golden inscription written in the tiniest lettering reads what looks like:
-------------/a/e/3a/e/3a/b/3a/d/3a/e/3a/f/3a/e/3a/e/-------------
+-------------/a/e/3a/e/3a/b/3a/d/3a/f/3a/e/3a/e/-------------
 ~
 S
 #9603
@@ -96,7 +96,7 @@ swirling blankets of white mist.  The mist is refreshing and appears to have a
 soft glow.  Mysterious folds open for a moment only to reveal more swirling
 clouds.
 ~
-96 0 9
+96 p 9
 D0
 ~
 ~
@@ -124,7 +124,7 @@ D5
 E
 chariot~
 A golden inscription written in the tiniest lettering reads what looks like:
-------------/e/3a/e/3a/b/3a/d/3a/e/3a/f/3a/e/3a/e/-------------
+-------------/e/3a/e/3a/b/3a/d/3a/f/3a/e/3a/e/-------------
 ~
 S
 #9604
@@ -134,7 +134,7 @@ swirling blankets of white mist.  The mist is refreshing and appears to have a
 soft glow.  Mysterious folds open for a moment only to reveal more swirling
 clouds.
 ~
-96 0 9
+96 p 9
 D0
 ~
 ~
@@ -162,7 +162,7 @@ D5
 E
 chariot~
 A golden inscription written in the tiniest lettering reads what looks like:
-------------/3a/e/3a/b/3a/d/3a/e/3a/f/3a/e/3a/e/-------------
+-------------/3a/e/3a/b/3a/d/3a/f/3a/e/3a/e/-------------
 ~
 S
 #9605
@@ -172,7 +172,7 @@ swirling blankets of white mist.  The mist is refreshing and appears to have a
 soft glow.  Mysterious folds open for a moment only to reveal more swirling
 clouds.
 ~
-96 0 9
+96 p 9
 D0
 ~
 ~
@@ -200,7 +200,7 @@ D5
 E
 chariot~
 A golden inscription written in the tiniest lettering reads what looks like:
-------------/2a/e/3a/b/3a/d/3a/e/3a/f/3a/e/3a/e/-------------
+-------------/2a/e/3a/b/3a/d/3a/f/3a/e/3a/e/-------------
 ~
 S
 #9606
@@ -210,7 +210,7 @@ swirling blankets of white mist.  The mist is refreshing and appears to have a
 soft glow.  Mysterious folds open for a moment only to reveal more swirling
 clouds.
 ~
-96 0 9
+96 p 9
 D0
 ~
 ~
@@ -238,7 +238,7 @@ D5
 E
 chariot~
 A golden inscription written in the tiniest lettering reads what looks like:
-------------/a/e/3a/b/3a/d/3a/e/3a/f/3a/e/3a/e/-------------
+-------------/a/e/3a/b/3a/d/3a/f/3a/e/3a/e/-------------
 ~
 S
 #9607
@@ -248,7 +248,7 @@ swirling blankets of white mist.  The mist is refreshing and appears to have a
 soft glow.  Mysterious folds open for a moment only to reveal more swirling
 clouds.
 ~
-96 0 9
+96 p 9
 D0
 ~
 ~
@@ -276,7 +276,7 @@ D5
 E
 chariot~
 A golden inscription written in the tiniest lettering reads what looks like:
-------------/e/3a/b/3a/d/3a/e/3a/f/3a/e/3a/e/-------------
+-------------/e/3a/b/3a/d/3a/f/3a/e/3a/e/-------------
 ~
 S
 #9608
@@ -286,7 +286,7 @@ swirling blankets of white mist.  The mist is refreshing and appears to have a
 soft glow.  Mysterious folds open for a moment only to reveal more swirling
 clouds.
 ~
-96 0 9
+96 p 9
 D0
 ~
 ~
@@ -314,7 +314,7 @@ D5
 E
 chariot~
 A golden inscription written in the tiniest lettering reads what looks like:
-------------/3a/b/3a/d/3a/e/3a/f/3a/e/3a/e/-------------
+-------------/3a/b/3a/d/3a/f/3a/e/3a/e/-------------
 ~
 S
 #9609
@@ -324,7 +324,7 @@ swirling blankets of white mist.  The mist is refreshing and appears to have a
 soft glow.  Mysterious folds open for a moment only to reveal more swirling
 clouds.
 ~
-96 0 9
+96 p 9
 D0
 ~
 ~
@@ -352,7 +352,7 @@ D5
 E
 chariot~
 A golden inscription written in the tiniest lettering reads what looks like:
-------------/2a/b/3a/d/3a/e/3a/f/3a/e/3a/e/-------------
+-------------/2a/b/3a/d/3a/f/3a/e/3a/e/-------------
 ~
 S
 #9610
@@ -362,7 +362,7 @@ swirling blankets of white mist.  The mist is refreshing and appears to have a
 soft glow.  Mysterious folds open for a moment only to reveal more swirling
 clouds.
 ~
-96 0 9
+96 p 9
 D0
 ~
 ~
@@ -390,7 +390,7 @@ D5
 E
 chariot~
 A golden inscription written in the tiniest lettering reads what looks like:
-------------/a/b/3a/d/3a/e/3a/f/3a/e/3a/e/-------------
+-------------/a/b/3a/d/3a/f/3a/e/3a/e/-------------
 ~
 S
 #9611
@@ -400,7 +400,7 @@ swirling blankets of white mist.  The mist is refreshing and appears to have a
 soft glow.  Mysterious folds open for a moment only to reveal more swirling
 clouds.
 ~
-96 0 0
+96 p 0
 D0
 ~
 ~
@@ -428,7 +428,7 @@ D5
 E
 chariot~
 A golden inscription written in the tiniest lettering reads what looks like:
-------------/b/3a/d/3a/e/3a/f/3a/e/3a/e/-------------
+-------------/b/3a/d/3a/f/3a/e/3a/e/-------------
 ~
 S
 #9612
@@ -438,7 +438,7 @@ swirling blankets of white mist.  The mist is refreshing and appears to have a
 soft glow.  Mysterious folds open for a moment only to reveal more swirling
 clouds.
 ~
-96 0 9
+96 p 9
 D0
 ~
 ~
@@ -466,7 +466,7 @@ D5
 E
 chariot~
 A golden inscription written in the tiniest lettering reads what looks like:
-------------/3a/d/3a/e/3a/f/3a/e/3a/e/-------------
+-------------/3a/d/3a/f/3a/e/3a/e/-------------
 ~
 S
 #9613
@@ -476,7 +476,7 @@ swirling blankets of white mist.  The mist is refreshing and appears to have a
 soft glow.  Mysterious folds open for a moment only to reveal more swirling
 clouds.
 ~
-96 0 9
+96 p 9
 D0
 ~
 ~
@@ -504,7 +504,7 @@ D5
 E
 chariot~
 A golden inscription written in the tiniest lettering reads what looks like:
-------------/2a/d/3a/e/3a/f/3a/e/3a/e/-------------
+-------------/2a/d/3a/f/3a/e/3a/e/-------------
 ~
 S
 #9614
@@ -514,7 +514,7 @@ swirling blankets of white mist.  The mist is refreshing and appears to have a
 soft glow.  Mysterious folds open for a moment only to reveal more swirling
 clouds.
 ~
-96 0 9
+96 p 9
 D0
 ~
 ~
@@ -542,7 +542,7 @@ D5
 E
 chariot~
 A golden inscription written in the tiniest lettering reads what looks like:
-------------/a/d/3a/e/3a/f/3a/e/3a/e/-------------
+-------------/a/d/3a/f/3a/e/3a/e/-------------
 ~
 S
 #9615
@@ -552,7 +552,7 @@ swirling blankets of white mist.  The mist is refreshing and appears to have a
 soft glow.  Mysterious folds open for a moment only to reveal more swirling
 clouds.
 ~
-96 0 0
+96 p 0
 D0
 ~
 ~
@@ -580,7 +580,7 @@ D5
 E
 chariot~
 A golden inscription written in the tiniest lettering reads what looks like:
-------------/d/3a/e/3a/f/3a/e/3a/e/-------------
+-------------/d/3a/f/3a/e/3a/e/-------------
 ~
 S
 #9616
@@ -590,7 +590,7 @@ swirling blankets of white mist.  The mist is refreshing and appears to have a
 soft glow.  Mysterious folds open for a moment only to reveal more swirling
 clouds.
 ~
-96 0 9
+96 p 9
 D0
 ~
 ~
@@ -618,7 +618,7 @@ D5
 E
 chariot~
 A golden inscription written in the tiniest lettering reads what looks like:
-------------/3a/e/3a/f/3a/e/3a/e/-------------
+-------------/3a/f/3a/e/3a/e/-------------
 ~
 S
 #9617
@@ -628,7 +628,7 @@ Implementor of Deimos.  In an attempt to commune with Confucius, the communers
 have begun chanting and brandishing weapons, little knowing that this could be
 interpreted as blasphemy and mean death to them all.
 ~
-96 sx 9
+96 psx 9
 D0
 ~
 portal~
@@ -651,7 +651,7 @@ communicate with the greatest known intellect of modern times.  If knowledge is
 power in this area, the communers are playing dangerously with a force they
 cannot control.    
 ~
-96 sx 9
+96 psx 9
 D0
 ~
 portal~
@@ -674,7 +674,7 @@ materials and crafstmanship from all points of the world.  Little do these
 communers know that Swifte is impressed by battle and wit alone.  At this rate,
 they are speeding towards a swift demise.
 ~
-96 sx 9
+96 psx 9
 D0
 ~
 portal~
@@ -718,7 +718,7 @@ In the clouds!~
 ====
 You have been transported to an unknown location.
 ~
-96 s 9
+96 ps 9
 D0
 ~
 ~
@@ -756,7 +756,7 @@ swirling blankets of white mist.  The mist is refreshing and appears to have a
 soft glow.  Mysterious folds open for a moment only to reveal more swirling
 clouds.
 ~
-96 0 9
+96 p 9
 D0
 ~
 ~
@@ -784,7 +784,7 @@ D5
 E
 chariot~
 A golden inscription written in the tiniest lettering reads what looks like:
-------------/2a/f/3a/e/3a/e/-------------
+-------------/2a/f/3a/e/3a/e/-------------
 ~
 S
 #9622
@@ -794,7 +794,7 @@ swirling blankets of white mist.  The mist is refreshing and appears to have a
 soft glow.  Mysterious folds open for a moment only to reveal more swirling
 clouds.
 ~
-96 0 9
+96 p 9
 D0
 ~
 ~
@@ -822,7 +822,7 @@ D5
 E
 chariot~
 A golden inscription written in the tiniest lettering reads what looks like:
-------------/a/f/3a/e/3a/e/-------------
+-------------/a/f/3a/e/3a/e/-------------
 ~
 S
 #9623
@@ -832,7 +832,7 @@ swirling blankets of white mist.  The mist is refreshing and appears to have a
 soft glow.  Mysterious folds open for a moment only to reveal more swirling
 clouds.
 ~
-96 0 9
+96 p 9
 D0
 ~
 ~
@@ -860,7 +860,7 @@ D5
 E
 chariot~
 A golden inscription written in the tiniest lettering reads what looks like:
-------------/f/3a/e/3a/e/-------------
+-------------/f/3a/e/3a/e/-------------
 ~
 S
 #9624
@@ -870,7 +870,7 @@ swirling blankets of white mist.  The mist is refreshing and appears to have a
 soft glow.  Mysterious folds open for a moment only to reveal more swirling
 clouds.
 ~
-96 0 9
+96 p 9
 D0
 ~
 ~
@@ -898,7 +898,7 @@ D5
 E
 chariot~
 A golden inscription written in the tiniest lettering reads what looks like:
-------------/3a/e/3a/e/-------------
+-------------/3a/e/3a/e/-------------
 ~
 S
 #9625
@@ -908,7 +908,7 @@ swirling blankets of white mist.  The mist is refreshing and appears to have a
 soft glow.  Mysterious folds open for a moment only to reveal more swirling
 clouds.
 ~
-96 0 9
+96 p 9
 D0
 ~
 ~
@@ -936,7 +936,7 @@ D5
 E
 chariot~
 A golden inscription written in the tiniest lettering reads what looks like:
-------------/2a/e/3a/e/-------------
+-------------/2a/e/3a/e/-------------
 ~
 S
 #9626
@@ -946,7 +946,7 @@ swirling blankets of white mist.  The mist is refreshing and appears to have a
 soft glow.  Mysterious folds open for a moment only to reveal more swirling
 clouds.
 ~
-96 0 9
+96 p 9
 D0
 ~
 ~
@@ -974,7 +974,7 @@ D5
 E
 chariot~
 A golden inscription written in the tiniest lettering reads what looks like:
-------------/a/e/3a/e/-------------
+-------------/a/e/3a/e/-------------
 ~
 S
 #9627
@@ -984,7 +984,7 @@ swirling blankets of white mist.  The mist is refreshing and appears to have a
 soft glow.  Mysterious folds open for a moment only to reveal more swirling
 clouds.
 ~
-96 0 9
+96 p 9
 D0
 ~
 ~
@@ -1022,7 +1022,7 @@ swirling blankets of white mist.  The mist is refreshing and appears to have a
 soft glow.  Mysterious folds open for a moment only to reveal more swirling
 clouds.
 ~
-96 0 9
+96 p 9
 D0
 ~
 ~
@@ -1060,7 +1060,7 @@ swirling blankets of white mist.  The mist is refreshing and appears to have a
 soft glow.  Mysterious folds open for a moment only to reveal more swirling
 clouds.
 ~
-96 0 9
+96 p 9
 D0
 ~
 ~
@@ -1098,7 +1098,7 @@ swirling blankets of white mist.  The mist is refreshing and appears to have a
 soft glow.  Mysterious folds open for a moment only to reveal more swirling
 clouds.
 ~
-96 u 9
+96 pu 9
 D0
 ~
 ~
@@ -1136,7 +1136,7 @@ swirling blankets of white mist.  The mist is refreshing and appears to have a
 soft glow.  Mysterious folds open for a moment only to reveal more swirling
 clouds.
 ~
-96 0 9
+96 p 9
 D0
 ~
 ~
@@ -1174,7 +1174,7 @@ chariot disappears back into the clouds.  A long and high mountain stretches
 upwards into the stratosphere!  It appears as if mortals may scale the mountain
 with great effort.  A huge gate lies directly up.
 ~
-96 c 0
+96 cp 0
 D2
 ~
 hole~
@@ -1197,7 +1197,7 @@ no longer matter.  Absolute power exudes from the mountain above, warning
 mortals from the dire foolishness of scaling the mountain in order to meet
 their makers.
 ~
-96 s 0
+96 ps 0
 D1
 ~
 tunnel~
@@ -1217,7 +1217,7 @@ A Mountain Path~
 adventurers.  This path has been made by gods of extraordinary size and power,
 hardly well suited for the travels of mere mortals.
 ~
-96 s 0
+96 ps 0
 D4
 ~
 ~
@@ -1233,7 +1233,7 @@ A Mountain Path~
 adventurers.  This path has been made by gods of extraordinary size and power,
 hardly well suited for the travels of mere mortals.
 ~
-96 s 0
+96 ps 0
 D4
 ~
 ~
@@ -1249,7 +1249,7 @@ A Mountain Path~
 adventurers.  This path has been made by gods of extraordinary size and power,
 hardly well suited for the travels of mere mortals.
 ~
-96 s 0
+96 ps 0
 D4
 ~
 ~
@@ -1266,7 +1266,7 @@ The entire world lies below the foot of the mountain, as if a scale model that
 can be tweaked and played with at will.  Looking up reveals nothing, for all is
 below this mighty peak.
 ~
-96 s 0
+96 ps 0
 D0
 ~
 portal~
@@ -1294,7 +1294,7 @@ The Ascension Chamber~
 center of the triangle flickers and crackles as if the focal point of an energy
 source from somewhere else.
 ~
-96 s 0
+96 ps 0
 D2
 ~
 door~
@@ -1311,7 +1311,7 @@ ammunition.  Only the most efficient defenders can make use of this space but th
 value of its protection is unquestionable.  The stone on all sides is nearly a
 foot thick, impenetrable by nearly any offensive means.
 ~
-96 0 0
+96 p 0
 D1
 ~
 ~
@@ -1327,7 +1327,7 @@ Dark Tunnel~
 dare do such a thing is unclear, but it appears to have basic dwarven
 craftsmanship commonly used in mines.  The tunnel extends west and north.
 ~
-96 s 0
+96 ps 0
 D0
 ~
 ~
@@ -1366,7 +1366,7 @@ ZAAAAAAAAAP!~
 ====
 You have been transported to an unknown location.
 ~
-96 s 0
+96 ps 0
 D0
 ~
 portal~
@@ -1399,7 +1399,7 @@ in darkness.  Chanting can be heard far to the north, just above an eerie
 silence.  The stone walls here echo even the slightest sound.  A trace of gold
 lines the northern and western walls.
 ~
-96 s 0
+96 ps 0
 D0
 ~
 wall~
@@ -1432,7 +1432,7 @@ The chanting is low and resonates throughout the tunnels.  Mysterious symbols
 appear on the walls here, scribed in a fashion unknown to even the most elder
 scholars.
 ~
-96 0 1
+96 p 1
 D0
 ~
 ~
@@ -1448,7 +1448,7 @@ Safety Point~
 just long enough for something to happen.  If nothing happens, continuing north
 appears to be safe.
 ~
-96 0 0
+96 p 0
 D0
 ~
 barricade~
@@ -1464,7 +1464,7 @@ Safety Point 2~
 just long enough for something to happen.  If nothing happens, continuing north
 appears to be safe.
 ~
-96 s 0
+96 ps 0
 D0
 ~
 barricade~
@@ -1484,7 +1484,7 @@ Safety Point 3~
 just long enough for something to happen.  If nothing happens, continuing east
 appears to be safe.
 ~
-96 0 0
+96 p 0
 D1
 ~
 barricade~
@@ -1501,7 +1501,7 @@ constructed to expose the flank of an advancing party.  Small holes are seen in
 the walls in addition to various spiked implements protruding from the walls, all
 in front of a stone bunker at the far east wall.
 ~
-96 s 0
+96 ps 0
 D1
 ~
 bunker~
@@ -1522,7 +1522,7 @@ ammunition.  Only the most efficient defenders can make use of this space but th
 value of its protection is unquestionable.  The stone on all sides is nearly a
 foot thick, impenetrable by nearly any offensive means.
 ~
-96 0 0
+96 p 0
 D0
 ~
 bunker~
@@ -1539,7 +1539,7 @@ ammunition.  Only the most efficient defenders can make use of this space but th
 value of its protection is unquestionable.  The stone on all sides is nearly a
 foot thick, impenetrable by nearly any offensive means.
 ~
-96 0 0
+96 p 0
 D0
 ~
 ~
@@ -1556,7 +1556,7 @@ targets as they approach.  Levers line the east wall, attached to wires that run
 all the way back to barricades further south.  This elaborate control system is
 intended to prevent even the most persistent intruder from advancing.
 ~
-96 0 0
+96 p 0
 D0
 ~
 handle~
@@ -1577,23 +1577,23 @@ this room is stocked with enough heavy weapons to wipe out a small army!  As a
 last resort, a commander could personally handle these weapons to overthrow an
 invasion.    
 ~
-96 0 0
+96 p 0
 D2
 ~
 handle~
 1 0 9650
-E
-steel ballista~
-Ballista's are huge crossbows, used to launch razor sharp harpoons at very
-large targets.  Got a dragon or ogre that needs to be slain?  This is your
-weapon.  One shot and the battle is over.
-~
 E
 cannon grapeshot 481~
 Bloody, bloody murder is what this weapon does.  Hundreds of steel balls the size
 of large grapes blast toward the enemy from the muzzle of this cannon, hence the
 name, grapeshot.  It weighs 481 pounds fully loaded and 200 pounds empty.  The
 thought of 281 pounds of grapeshot splattering your ememies is gruesome indeed.
+~
+E
+steel ballista~
+Ballista's are huge crossbows, used to launch razor sharp harpoons at very
+large targets.  Got a dragon or ogre that needs to be slain?  This is your
+weapon.  One shot and the battle is over.
 ~
 S
 #9652
@@ -1603,7 +1603,7 @@ figurines decorate the ceiling and archways here, seeming to watch those below.
 Chanting is clearly heard now, far ahead north, echoing off the polished floor
 and walls.
 ~
-96 0 0
+96 p 0
 D0
 ~
 ~
@@ -1624,7 +1624,7 @@ figurines decorate the ceiling and archways here, seeming to watch those below.
 Chanting is clearly heard now, far ahead north, echoing off the polished floor
 and walls.
 ~
-96 0 0
+96 p 0
 D0
 ~
 ~
@@ -1641,7 +1641,7 @@ figurines decorate the ceiling and archways here, seeming to watch those below.
 Chanting is clearly heard now, far ahead north, echoing off the polished floor
 and walls.
 ~
-96 0 0
+96 p 0
 D0
 ~
 ~
@@ -1658,7 +1658,7 @@ figurines decorate the ceiling and archways here, seeming to watch those below.
 Chanting is clearly heard now, far ahead north, echoing off the polished floor
 and walls.
 ~
-96 0 0
+96 p 0
 D0
 ~
 ~
@@ -1675,7 +1675,7 @@ titanium then covered with gold, this door is one of the most beautiful items
 ever to guard an opening.  Micro vents leave just enough air flow through the
 door, since chanting can be heard coming from the other side.
 ~
-96 s 0
+96 ps 0
 D0
 ~
 door~
@@ -1697,7 +1697,7 @@ platform rises.  Vision blurs and sounds blend as the triangle begins pulsating
 and moving upwards.  The chanting sounds are now drowned out by humming from
 the energy shaft.    
 ~
-96 s 0
+96 ps 0
 D4
 ~
 triangle~
@@ -1714,7 +1714,7 @@ platform can be seem further up, but nothing is clearly visible through the ener
 walls.  The red ruby triangle on the floor pulsates with an intensity that is both
 beautiful and alarming.
 ~
-96 s 0
+96 ps 0
 D4
 ~
 triangle~
@@ -1731,7 +1731,7 @@ sound of chanting now comes from all directions and has changed in timbre to a
 warlike tone.  Deep bass voices support tenors with trilling altos and sopranos
 on top.  All around you is now ruby red and pulsating madly.    
 ~
-96 c 0
+96 cp 0
 D0
 ~
 ~
@@ -1748,7 +1748,7 @@ about on its surface.  Large altars and statues push up through the platform in
 a chaos of panic.  Swirling masses attempt to identify the vile intruders and
 deal them death.
 ~
-96 0 0
+96 p 0
 D1
 ~
 ~
@@ -1769,7 +1769,7 @@ about on its surface.  Large altars and statues push up through the platform in
 a chaos of panic.  Swirling masses attempt to identify the vile intruders and
 deal them death.
 ~
-96 0 0
+96 p 0
 D0
 ~
 ~
@@ -1786,7 +1786,7 @@ about on its surface.  Large altars and statues push up through the platform in
 a chaos of panic.  Swirling masses attempt to identify the vile intruders and
 deal them death.
 ~
-96 0 0
+96 p 0
 D0
 ~
 ~
@@ -1803,7 +1803,7 @@ about on its surface.  Large altars and statues push up through the platform in
 a chaos of panic.  Swirling masses attempt to identify the vile intruders and
 deal them death.
 ~
-96 0 0
+96 p 0
 D1
 ~
 ~
@@ -1820,7 +1820,7 @@ about on its surface.  Large altars and statues push up through the platform in
 a chaos of panic.  Swirling masses attempt to identify the vile intruders and
 deal them death.
 ~
-96 0 0
+96 p 0
 D2
 ~
 ~
@@ -1837,7 +1837,7 @@ about on its surface.  Large altars and statues push up through the platform in
 a chaos of panic.  Swirling masses attempt to identify the vile intruders and
 deal them death.
 ~
-96 0 0
+96 p 0
 D0
 ~
 ~
@@ -1858,7 +1858,7 @@ about on its surface.  Large altars and statues push up through the platform in
 a chaos of panic.  Swirling masses attempt to identify the vile intruders and
 deal them death.
 ~
-96 0 0
+96 p 0
 D1
 ~
 ~
@@ -1883,7 +1883,7 @@ about on its surface.  Large altars and statues push up through the platform in
 a chaos of panic.  Swirling masses attempt to identify the vile intruders and
 deal them death.
 ~
-96 0 0
+96 p 0
 D1
 ~
 ~
@@ -1922,7 +1922,7 @@ ZAAAAAAAAAAP!~
 ====
 You have been transported to an unknown location.
 ~
-96 s 0
+96 ps 0
 D0
 ~
 ~
@@ -1955,7 +1955,7 @@ and flesh fold over into themselves sprouting wings, then claws and eyes, until
 finally forming what are known as harpies.  All that is rank and rancid lives
 in this womb of creatures.
 ~
-96 0 9
+96 p 9
 D0
 ~
 ~
@@ -1972,7 +1972,7 @@ Great Mother is not only the ugliest mass in existence, she is made only of
 flesh, hanging with claws and wings growing out of her body which eventually
 form and pull away as bloody harpies.  Evil exudes from her devouring mortals.
 ~
-96 0 9
+96 p 9
 D0
 ~
 ~
@@ -1989,7 +1989,7 @@ could withstand collisions with dozens of harpies every second, it would be an
 amazing feat indeed.  The raw power and centrifugal force here are second to
 none.    
 ~
-96 0 9
+96 p 9
 D0
 ~
 ~
@@ -2002,7 +2002,7 @@ harpies!  Thirty speed past this position in the blink of an eye, generating the
 lift required to support Mount Olympus.  The gods are powerful, but in ways often
 left unknown.  Harpies are evil creatures by nature, made here to serve the gods.
 ~
-96 0 0
+96 p 0
 D0
 ~
 vortex~
@@ -2023,7 +2023,7 @@ harpies!  Thirty speed past this position in the blink of an eye, generating the
 lift required to support Mount Olympus.  The gods are powerful, but in ways often
 left unknown.  Harpies are evil creatures by nature, made here to serve the gods.
 ~
-96 0 9
+96 p 9
 D0
 ~
 ~
@@ -2040,7 +2040,7 @@ harpies!  Thirty speed past this position in the blink of an eye, generating the
 lift required to support Mount Olympus.  The gods are powerful, but in ways often
 left unknown.  Harpies are evil creatures by nature, made here to serve the gods.
 ~
-96 0 9
+96 p 9
 D0
 ~
 ~
@@ -2061,7 +2061,7 @@ harpies!  Thirty speed past this position in the blink of an eye, generating the
 lift required to support Mount Olympus.  The gods are powerful, but in ways often
 left unknown.  Harpies are evil creatures by nature, made here to serve the gods.
 ~
-96 0 0
+96 p 0
 D2
 ~
 ~
@@ -2078,7 +2078,7 @@ harpies!  Thirty speed past this position in the blink of an eye, generating the
 lift required to support Mount Olympus.  The gods are powerful, but in ways often
 left unknown.  Harpies are evil creatures by nature, made here to serve the gods.
 ~
-96 0 9
+96 p 9
 D1
 ~
 ~
@@ -2099,7 +2099,7 @@ shrieking and buzzing erupts outward from an area that becomes increasingly
 more visible to the eye.  A blurry mass of immense proportion sits at the
 exact center of the vortex.
 ~
-96 0 9
+96 p 9
 D1
 ~
 ~
@@ -2120,7 +2120,7 @@ harpies!  Thirty speed past this position in the blink of an eye, generating the
 lift required to support Mount Olympus.  The gods are powerful, but in ways often
 left unknown.  Harpies are evil creatures by nature, made here to serve the gods.
 ~
-96 0 0
+96 p 0
 D1
 ~
 ~
@@ -2141,7 +2141,7 @@ harpies!  Thirty speed past this position in the blink of an eye, generating the
 lift required to support Mount Olympus.  The gods are powerful, but in ways often
 left unknown.  Harpies are evil creatures by nature, made here to serve the gods.
 ~
-96 0 0
+96 p 0
 D1
 ~
 ~
@@ -2158,7 +2158,7 @@ harpies!  Thirty speed past this position in the blink of an eye, generating the
 lift required to support Mount Olympus.  The gods are powerful, but in ways often
 left unknown.  Harpies are evil creatures by nature, made here to serve the gods.
 ~
-96 0 0
+96 p 0
 D0
 ~
 ~
@@ -2179,7 +2179,7 @@ harpies!  Thirty speed past this position in the blink of an eye, generating the
 lift required to support Mount Olympus.  The gods are powerful, but in ways often
 left unknown.  Harpies are evil creatures by nature, made here to serve the gods.
 ~
-96 0 0
+96 p 0
 D0
 ~
 ~
@@ -2196,7 +2196,7 @@ harpies!  Thirty speed past this position in the blink of an eye, generating the
 lift required to support Mount Olympus.  The gods are powerful, but in ways often
 left unknown.  Harpies are evil creatures by nature, made here to serve the gods.
 ~
-96 0 0
+96 p 0
 D0
 ~
 vortex~
@@ -2217,7 +2217,7 @@ harpies!  Thirty speed behind this position in the blink of an eye, generating t
 lift required to support Mount Olympus.  The gods are powerful, but in ways often
 left unknown.  Harpies are evil creatures by nature, made here to serve the gods.
 ~
-96 0 9
+96 p 9
 D0
 ~
 vortex~
@@ -2241,7 +2241,7 @@ The choice is given~
 clouds.  This is an opportunity to cheat fate and escape the death grip of this
 whirlpool.  Down leads directly into the dark crackling mass.
 ~
-96 cs 9
+96 cps 9
 D3
 ~
 ~
@@ -2259,7 +2259,7 @@ Whatever lies at the center of the vortex sits directly beneath the mountain abo
 A dark chilling feeling exudes from the vortex, warning of great power and perhaps
 evil.
 ~
-96 0 9
+96 p 9
 D0
 ~
 ~
@@ -2272,7 +2272,7 @@ Only a dim light can be seen above and grey darkness toward the center of the
 whirlpool.  A prescence is felt coming from inside the vortex, calling to you,
 calling you home.
 ~
-96 c 9
+96 cp 9
 D0
 ~
 ~
@@ -2285,7 +2285,7 @@ motion of the whirlpool.  The dark center draws you into its hypnotic center
 with great steady force.  The cloudbase now begins forming into a whirlpool,
 spiraling rapidly toward the center.    
 ~
-96 cs 9
+96 cps 9
 D0
 ~
 ~
@@ -2302,7 +2302,7 @@ whirlpool, heading north underneath Mount Olympus.  The force drawing in these
 clouds appears to be coming from a central location beneath the suspended mountain.
 Faint crackles of lightning are seen north, followed by thunder.
 ~
-96 0 9
+96 p 9
 D1
 ~
 ~
@@ -2323,7 +2323,7 @@ Clouds swirl about more violently here than above, indicating foul weather below
 These clouds seem to be part of a huge grey whirlpool forming underneath the
 foundation of Mount Olympus.
 ~
-96 0 9
+96 p 9
 D0
 ~
 ~
@@ -2341,7 +2341,7 @@ impossible, but a deep sense of fear fills the area.  Being so close to Mount
 Olympus might have something to do with it, but these clouds seem to hold their
 own potency.    
 ~
-96 c 9
+96 cp 9
 D2
 ~
 ~
@@ -2358,7 +2358,7 @@ about on its surface.  Large altars and statues push up through the platform in
 a chaos of panic.  Swirling masses attempt to identify the vile intruders and
 deal them death.
 ~
-96 0 0
+96 p 0
 D3
 ~
 ~
@@ -2382,7 +2382,7 @@ Dark Tunnel~
 dare do such a thing is unclear, but it appears to have basic dwarven
 craftsmanship commonly used in mines.  The tunnel extends further east.
 ~
-96 is 0
+96 ips 0
 D1
 ~
 ~
@@ -2398,7 +2398,7 @@ In the Chariot~
 into the clouds.  The chariot glows brilliant gold and silver, streaming light
 around its passengers.  It points the firm direction north away from the ledge.
 ~
-96 0 0
+96 p 0
 D0
 ~
 ~
@@ -2410,7 +2410,7 @@ rope~
 E
 chariot~
 A golden inscription written in the tiniest lettering reads what looks like:
-------------/3a/e/3a/e/3a/b/3a/d/3a/e/3a/f/3a/e/3a/e/-------------
+-------------/3a/e/3a/e/3a/b/3a/d/3a/f/3a/e/3a/e/-------------
 ~
 S
 #9695
@@ -2420,7 +2420,7 @@ swirling blankets of white mist.  The mist is refreshing and appears to have a
 soft glow.  Mysterious folds open for a moment only to reveal more swirling
 clouds.
 ~
-96 0 9
+96 p 9
 D0
 ~
 ~
@@ -2457,7 +2457,7 @@ In the clouds!~
 spinning out of control!  Huge clouds blur as the chariot shakes violently, trying
 to point itself back towards the north.
 ~
-96 c 0
+96 cp 0
 D0
 ~
 ~
@@ -2494,7 +2494,7 @@ On the Precipice~
 above and below.  It would be unwise to continue in any direction other than south
 wthout a proper form of transportation.
 ~
-96 0 0
+96 p 0
 D2
 ~
 ~
@@ -2506,7 +2506,7 @@ Foggy Ledge~
 feeling!  Terra firma certainly has its advantages, but maybe the journey through
 the clouds has proven worthy indeed.
 ~
-96 c 0
+96 cp 0
 D0
 ~
 chariot~
@@ -2523,7 +2523,7 @@ those who dare to venture into the clouds.  Monstrous white pillars of gas swirl
 together in the far, far distance.  There is a strong feeling here that only
 adventurers of the greatest power should proceed.
 ~
-96 0 0
+96 p 0
 D0
 ~
 rope~
