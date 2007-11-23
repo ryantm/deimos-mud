@@ -19,23 +19,22 @@ LMge: 66
 LClr: 66
 Home: 1
 Brth: 1008104019
-Plyd: 12372850
-Last: 1195450288
-Host: c-67-167-118-88.hsd1.il.comcas
+Plyd: 12386290
+Last: 1195773524
+Host: d53-64-76-246.nap.wideopenwest
 Hite: 187
 Wate: 167
-Alin: 15
+Alin: 76
 Id  : 5
-Act : 264384
+Act : 264320
 Frez: 66
-Invs: 61
 Room: 1205
 Hrom: 0
 Pref: himnoqrvwxyBF
 Prf2: abcfi
 Lern: 1
 Str : 25/
-Sac : 47
+Sac : 48
 Int : 25
 Wis : 25
 Dex : 25
@@ -44,14 +43,14 @@ Cha : 25
 Hit : 2000000000/2000000000
 Mana: 1/1
 Move: 83/83
-Gold: 125422127
+Gold: 125485128
 Exp : 10000901
 Econ: 1337
 ARnk: 87
 Relg: 1
 Horh: 50/0
 Deth: 1337
-Kill: 1787639
+Kill: 1787640
 Spar: 1000
 Affs:
 0 0 0 0 0

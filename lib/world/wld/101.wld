@@ -55,14 +55,14 @@ D3
 ~
 0 0 10101
 E
-Echo~
-A distant echo can be heard from the depths of the hallway, it almost sounds
-like a moan.  Perhaps someone is in pain.    
-~
-E
 rock granite~
 The granite rock is glowing a slightly brighter shade of blue, giving it a
 dreamy affect.    
+~
+E
+Echo~
+A distant echo can be heard from the depths of the hallway, it almost sounds
+like a moan.  Perhaps someone is in pain.    
 ~
 S
 #10103
@@ -830,17 +830,17 @@ D2
 ~
 0 0 10153
 E
-mist layer golden~
-&YIn the distance, you can see a layer of golden mist.  This layer is extremely
-thick, the odd thing is that it seems to be completely still.  Perhaps this is
-a layer of some pure magic.  &n
-~
-E
 Carpet red~
 &RThe most beautiful carpet you have ever seen.  It is lined with &ygolden&R
 letters that you do not understand, perhaps some foreign magic.  In the center
 of this carpet lies a large K, perhaps the initial of the king, or some sort of
 magic.  &n
+~
+E
+mist layer golden~
+&YIn the distance, you can see a layer of golden mist.  This layer is extremely
+thick, the odd thing is that it seems to be completely still.  Perhaps this is
+a layer of some pure magic.  &n
 ~
 S
 #10153
@@ -867,17 +867,17 @@ D3
 ~
 0 0 10155
 E
-mist layer golden~
-&YIn the distance, you can see a layer of golden mist.  This layer is extremely
-thick, the odd thing is that it seems to be completely still.  Perhaps this is
-a layer of some pure magic.  &n
-~
-E
 red carpet~
 &RThe most beautiful carpet you have ever seen.  It is lined with &ygolden&R
 letters that you do not understand, perhaps some foreign magic.  In the center
 of this carpet lies a large K, perhaps the initial of the king, or some sort of
 magic.  &n
+~
+E
+mist layer golden~
+&YIn the distance, you can see a layer of golden mist.  This layer is extremely
+thick, the odd thing is that it seems to be completely still.  Perhaps this is
+a layer of some pure magic.  &n
 ~
 S
 #10154
@@ -925,17 +925,17 @@ D4
 ~
 0 0 10157
 E
-mist layer golden~
-&BThe &Ygolden&B layer of mist is extremely relaxing.  It gives you the feeling
-that you could sleep forever.  The hint of fruit wafts your senses as you take
-in the beautiful magic of the mist.  &n
-~
-E
 red carpet~
 &RThe most beautiful carpet you have ever seen.  It is lined with &ygolden&R
 letters that you do not understand, perhaps some foreign magic.  In the center
 of this carpet lies a large K, perhaps the initial of the king, or some sort of
 magic.  &n
+~
+E
+mist layer golden~
+&BThe &Ygolden&B layer of mist is extremely relaxing.  It gives you the feeling
+that you could sleep forever.  The hint of fruit wafts your senses as you take
+in the beautiful magic of the mist.  &n
 ~
 S
 #10157
@@ -954,17 +954,17 @@ D5
 ~
 0 0 10156
 E
+mist~
+&BThe &Ygolden &Blayer of mist is extremely relaxing.  It gives you the feeling
+that you could sleep forever.  The hint of fruit wafts your senses as you take
+in the beautiful magic of the mist.  &n
+~
+E
 red carpet~
 &RThe most beautiful carpet you have ever seen.  It is lined with &ygolden&R
 letters that you do not understand, perhaps some foreign magic.  In the center
 of this carpet lies a large K, perhaps the initial of the king, or some sort of
 magic.  &n
-~
-E
-mist~
-&BThe &Ygolden &Blayer of mist is extremely relaxing.  It gives you the feeling
-that you could sleep forever.  The hint of fruit wafts your senses as you take
-in the beautiful magic of the mist.  &n
 ~
 S
 #10158
@@ -983,17 +983,17 @@ D2
 ~
 0 0 10157
 E
+Mist~
+&BThe &Ygolden &Blayer of mist is extremely relaxing.  It gives you the feeling
+that you could sleep forever.  The hint of fruit wafts your senses as you take
+in the beautiful magic of the mist.  &n
+~
+E
 red carpet~
 &RThe most beautiful carpet you have ever seen.  It is lined with &ygolden&R
 letters that you do not understand, perhaps some foreign magic.  In the center
 of this carpet lies a large K, perhaps the initial of the king, or some sort of
 magic.  &n
-~
-E
-Mist~
-&BThe &Ygolden &Blayer of mist is extremely relaxing.  It gives you the feeling
-that you could sleep forever.  The hint of fruit wafts your senses as you take
-in the beautiful magic of the mist.  &n
 ~
 S
 #10159

@@ -91,13 +91,13 @@ D4
 ~
 0 0 8004
 E
-paper~
-uh oh
-~
-E
 desk~
    A little desk is sitting here, on it is a little piece of paper that says,
 "uh oh"
+~
+E
+paper~
+uh oh
 ~
 S
 #8004
@@ -594,44 +594,6 @@ D1
 ~
 0 0 8031
 E
-engraving engraved plaque shelf~
-oztersmf sefokspef hwrpesjf
-~
-E
-book~
-   Hm...  Most of these books are in a language you have never seen before.  
-There are a couple of books are in your language.  They include:
-The Chronicles of Ophius
-The Titan's Peace
-The War of the Masters
-~
-E
-chronicle Ophius~
-   These are the records of my days in the great City of Ivten.  I will begin
-with the creation of this city by the Titans.  The titans were giants amoung
-giants.  They had immense strength and intelligence.  They created the entire
-city in a week and then disappeared into their castle.  The first of the
-Ivtanions came in an attempted adventure to the legendary Cloud ity.  They
-never found the city, so instead the settled into Ivten.  About 500 years after
-it's creation, I arrived in a search for knowledge of the world.  I cannot
-emphasize the beauty of this city the first time I saw it.  This city will live
-on for many generations, blessing all that come to visit it.  Peace forever and
-may the Gods bless you.    
-~
-E
-titan peace~
-   The Titan's Peace was a pinnacle event in the history of Ivten and all the
-land that surronded it.  When the first demons arrived, they terrorized the
-land by attacking all that didn't travel in large groups.  Any person who would
-leave the city at night would arrive the next morning without a head.  The
-titans soon became largely aware of these happenings.  They left their castle
-for the first time in hundreds of years to make peace with the demons.  It was
-succesful.  The demons agreed to leave as long as the titans gave them 500
-million gold coins every year.  The titans (whom were very rich), thought it
-was fair and agreed to do so.  This was the Titan's peace, which unfortuantly
-did not last very long.    
-~
-E
 war masters~
    The War of the Masters was also known as the Betrayal.  After the Titan's
 Peace, the demons gained enormous wealth.  The demons masked themselves as
@@ -661,6 +623,44 @@ cystal that will reverse time to the 1 year before the war.  It is prophesized
 that one day an adventurer will learn the power of the crystal and return in
 time.  Then it is foretold that the adventurer will destroy the demons and
 Ivten will survive once again.    
+~
+E
+titan peace~
+   The Titan's Peace was a pinnacle event in the history of Ivten and all the
+land that surronded it.  When the first demons arrived, they terrorized the
+land by attacking all that didn't travel in large groups.  Any person who would
+leave the city at night would arrive the next morning without a head.  The
+titans soon became largely aware of these happenings.  They left their castle
+for the first time in hundreds of years to make peace with the demons.  It was
+succesful.  The demons agreed to leave as long as the titans gave them 500
+million gold coins every year.  The titans (whom were very rich), thought it
+was fair and agreed to do so.  This was the Titan's peace, which unfortuantly
+did not last very long.    
+~
+E
+chronicle Ophius~
+   These are the records of my days in the great City of Ivten.  I will begin
+with the creation of this city by the Titans.  The titans were giants amoung
+giants.  They had immense strength and intelligence.  They created the entire
+city in a week and then disappeared into their castle.  The first of the
+Ivtanions came in an attempted adventure to the legendary Cloud ity.  They
+never found the city, so instead the settled into Ivten.  About 500 years after
+it's creation, I arrived in a search for knowledge of the world.  I cannot
+emphasize the beauty of this city the first time I saw it.  This city will live
+on for many generations, blessing all that come to visit it.  Peace forever and
+may the Gods bless you.    
+~
+E
+book~
+   Hm...  Most of these books are in a language you have never seen before.  
+There are a couple of books are in your language.  They include:
+The Chronicles of Ophius
+The Titan's Peace
+The War of the Masters
+~
+E
+engraving engraved plaque shelf~
+oztersmf sefokspef hwrpesjf
 ~
 S
 #8033
@@ -729,14 +729,14 @@ D3
 ~
 0 0 8034
 E
-chair~
-   You carefully look at the wooden chair sitting in the west corner.    
-~
-E
 window~
    You can see a large plain area with rolling hills leading east.  It's quite
 beutiful, problem is, the demons probably reside in there.  It's a shame for
 such beauty to be infested with evil.    
+~
+E
+chair~
+   You carefully look at the wooden chair sitting in the west corner.    
 ~
 S
 #8037
@@ -824,13 +824,13 @@ D3
 ~
 0 0 8039
 E
+toilet~
+   It's a toilet, what else do you need to know?    
+~
+E
 sink~
    It's seems to have been dripping for a very long time.  Even though it only
 does so every minutes or so, the sink has completely been overfilled.    
-~
-E
-toilet~
-   It's a toilet, what else do you need to know?    
 ~
 S
 #8042
@@ -871,9 +871,9 @@ D2
 door~
 1 0 8042
 E
-throne~
-   It's a giant golden chair with a red cusion.  Ontop of it sits a blue
-crystal that shines brightly.  How mysterious...    
+candles~
+   Dang, all the candles makes this place look like a church...  Maybe it is...
+  
 ~
 E
 crystal~
@@ -881,9 +881,9 @@ crystal~
 of it there is a little green orb.  Maybe it means something,
 ~
 E
-candles~
-   Dang, all the candles makes this place look like a church...  Maybe it is...
-  
+throne~
+   It's a giant golden chair with a red cusion.  Ontop of it sits a blue
+crystal that shines brightly.  How mysterious...    
 ~
 S
 #8044

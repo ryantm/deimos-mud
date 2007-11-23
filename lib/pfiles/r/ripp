@@ -1,50 +1,53 @@
 Name: Ripp
 Pass: Rij0iDhkN7
-Titl: the Thief
+Titl: Cord
 PreT: 
 Pos : 12
 Sex : 1
 Clas: 2
-Levl: 16
-LThf: 16
+Levl: 21
+LThf: 21
 Home: 1
 Brth: 1194680146
-Plyd: 4340
-Last: 1195283088
-Host: cpe0011950bc39d-cm000a73a932ee
+Plyd: 6370
+Last: 1195791242
+Host: cpe001a7088544d-cm0012c9daf922
 Hite: 168
 Wate: 153
-Alin: -6
+Alin: 15
 Id  : 757
 Act : 2240
 Skil:
 131 10
+144 2
+159 3
 162 1
 0 0
-Wimp: 20
-Room: 298
+Wimp: 50
+Room: 9847
 Hrom: 0
 Pref: efghnowxyBF
 Prf2: abcij
-Hung: 7
-Thir: 7
+Hung: 17
+Thir: 17
 Lern: 5
 Str : 15/
-Sac : 93
+Sac : 197
 Int : 12
 Wis : 12
 Dex : 16
 Con : 12
 Cha : 11
-Hit : 187/187
-Mana: 100/100
-Move: 233/233
-Gold: 134036
-Exp : 169780
+Hit : 280/245
+Mana: 93/100
+Move: 282/282
+Gold: 566538
+Exp : 1508828
 Econ: 0
 ARnk: 0
 Horh: 50/0
-Kill: 93
+Kill: 197
 Spar: 0
 Affs:
+1 22 0 17 0 0
 0 0 0 0 0

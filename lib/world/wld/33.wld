@@ -107,6 +107,10 @@ It is a normal front door.
 door front~
 1 -1 3303
 E
+tracks dust~
+Three sets of prints lead out where the back door used to stand.
+~
+E
 bed~
 Ha!  Lucky, you were always lucky!  Under the pillow is a
 half-written letter, unaddressed.  The bits of text that
@@ -115,10 +119,6 @@ Gabadiel's masterwork: a sword of unequalled power, and two
 swords that came before, discarded as 'Not quite what I was
 working towards'.  Looking around, you notice a distinct lack
 of any swords.  You think you may have a motive now...
-~
-E
-tracks dust~
-Three sets of prints lead out where the back door used to stand.
 ~
 S
 #3305
@@ -1427,8 +1427,9 @@ D2
 ~
 0 -1 3370
 E
-dirt stone~
-It has been dug from somewhere, but where?
+floor~
+The floor up ahead looks... strange.  You don't think going ahead
+would be a good idea.
 ~
 E
 claw claws track tracks mark marks~
@@ -1436,9 +1437,8 @@ They stop very abruptly here, right where the piles of earth begin,
 it seems.
 ~
 E
-floor~
-The floor up ahead looks... strange.  You don't think going ahead
-would be a good idea.
+dirt stone~
+It has been dug from somewhere, but where?
 ~
 S
 #3372

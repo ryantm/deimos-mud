@@ -19,12 +19,12 @@ LMge: 60
 LClr: 60
 Home: 1
 Brth: 1140395601
-Plyd: 1300250
-Last: 1188008364
-Host: unin-20-01-075.dsl.netins.net
+Plyd: 1305990
+Last: 1195753264
+Host: 12-205-198-65.client.mchsi.com
 Hite: 199
 Wate: 174
-Alin: 15
+Alin: 402
 Id  : 411
 Act : 14682304
 Skil:
@@ -82,35 +82,32 @@ Skil:
 Wimp: 700
 Room: 200
 Hrom: 0
-Pref: efghknoxyBCF
+Pref: efghknowxyBF
 Prf2: abci
 Hung: -1
 Thir: -1
 Lern: 58
 Str : 17/
-Sac : 35434
+Sac : 35625
 Int : 15
 Wis : 11
 Dex : 18
 Con : 15
 Cha : 7
 Hit : 3908/3637
-Mana: 1891/1870
+Mana: 2085/1870
 Move: 2442/2442
-Gold: 6199748
+Gold: 363410
 Bank: 20000000
-Exp : 97385318
+Exp : 180139256
 Econ: 0
 ARnk: 0
 Relg: 2
 Horh: 50/0
 Deth: 2
-Kill: 40486
+Kill: 40677
 Gmst: 18
 Spar: 50
 Trak: ot
 Affs:
-39 18 3 1 0 3
-36 1 0 0 128 4
-74 2 4 19 0 4
 0 0 0 0 0

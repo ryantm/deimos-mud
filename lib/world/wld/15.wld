@@ -339,6 +339,10 @@ pennisula and entering the port of Phobos where it exchanges goods and
 passengers.    
 ~
 15 d 0
+D3
+~
+~
+0 0 8564
 S
 #1520
 Sparring Chamber~
@@ -939,16 +943,9 @@ tunnel.
 ~
 15 cdn 0
 E
-statues~
-   The four great stautes are of Firrox, Wifidi, Tribe, and Ashbury, the
-founding fathers of OoD.    
-~
-E
-slab~
-Rules of OoD
-------------
-
-1. God Forgives, Overlords Do Not
+table~
+   A small flickering fire comes up from the center of the table.  It casts an
+eerie glow on the room.    
 ~
 E
 tapestries~
@@ -958,9 +955,16 @@ the downfall of great tyrants such as the Mighty Beholder, King Welmar and of
 the Great White Sharks.    
 ~
 E
-table~
-   A small flickering fire comes up from the center of the table.  It casts an
-eerie glow on the room.    
+slab~
+Rules of OoD
+------------
+
+1. God Forgives, Overlords Do Not
+~
+E
+statues~
+   The four great stautes are of Firrox, Wifidi, Tribe, and Ashbury, the
+founding fathers of OoD.    
 ~
 S
 #1564
@@ -999,15 +1003,9 @@ D4
 ~
 0 0 1566
 E
-statues~
-   The four great stautes are of Firrox, Wifidi, Tribe, and Ashbury, the
-founding fathers of OoD.    
-~
-E
-slab~
-Rules of OoD
-------------
-1. God Forgives, Overlords Do Not
+table~
+   A small flickering fire comes up from the center of the table.  It casts an
+eerie glow on the room.    
 ~
 E
 tapestries~
@@ -1017,9 +1015,15 @@ the downfall of great tyrants such as the Mighty Beholder, King Welmar and of
 the Great White Sharks.    
 ~
 E
-table~
-   A small flickering fire comes up from the center of the table.  It casts an
-eerie glow on the room.    
+slab~
+Rules of OoD
+------------
+1. God Forgives, Overlords Do Not
+~
+E
+statues~
+   The four great stautes are of Firrox, Wifidi, Tribe, and Ashbury, the
+founding fathers of OoD.    
 ~
 S
 #1566

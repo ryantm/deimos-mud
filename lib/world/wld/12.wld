@@ -223,10 +223,19 @@ D5
 space~
 2 3999 1234
 E
-chair~
-WOW! It is one of those awesome vibrating black leather chairs. It hums
-with a prefect tune. You can't help but want to sit on it. Too bad it
-is Raziel's. You'd better not piss him off, so you will just have to stand
+wall screen~
+There are many words on this screen. They all seem to describe whatever
+you do. WIERD!!!
+~
+E
+desk~
+This desk is complete covered in paper! You can only see 1 square inch
+of actual desk. The surface appears to be a fine, glossy wood.
+~
+E
+speaker~
+A current of music flows smoothly from this speaker. It leaves you
+feeling calm and relaxed. This song seems to be called "Stoned".
 ~
 E
 list~
@@ -243,19 +252,10 @@ Across the top, it reads, 'List of vampires killed to date'
 5. Kain
 ~
 E
-speaker~
-A current of music flows smoothly from this speaker. It leaves you
-feeling calm and relaxed. This song seems to be called "Stoned".
-~
-E
-desk~
-This desk is complete covered in paper! You can only see 1 square inch
-of actual desk. The surface appears to be a fine, glossy wood.
-~
-E
-wall screen~
-There are many words on this screen. They all seem to describe whatever
-you do. WIERD!!!
+chair~
+WOW! It is one of those awesome vibrating black leather chairs. It hums
+with a prefect tune. You can't help but want to sit on it. Too bad it
+is Raziel's. You'd better not piss him off, so you will just have to stand
 ~
 S
 #1214
@@ -307,14 +307,6 @@ D1
 ~
 0 0 1290
 E
-look plaque~
-The plaque reads 'Luigi Forever!'
-~
-E
-look list~
-It is a piece of paper on a wall.  Try reading it!  [Read Paper]
-~
-E
 read paper~
 Across the top, it reads 'The Official Immortal Shit List'
 
@@ -323,6 +315,14 @@ Across the top, it reads 'The Official Immortal Shit List'
 3. Jedi
 4. Lyra
 5. Baal
+~
+E
+look list~
+It is a piece of paper on a wall.  Try reading it!  [Read Paper]
+~
+E
+look plaque~
+The plaque reads 'Luigi Forever!'
 ~
 S
 #1216
@@ -450,11 +450,11 @@ D5
 Grandfather Clock~
 1 -1 1224
 E
-look tape~
+read tape~
 This movie is entitled: Mitsurugi's Revenge!
 ~
 E
-read tape~
+look tape~
 This movie is entitled: Mitsurugi's Revenge!
 ~
 S
@@ -471,16 +471,9 @@ D1
 ~
 0 0 1263
 E
-zones zone~
-Sherwood --- Zone Numbers 58 and 60
-Dwarven Stronghold --- Zone Number 23
-King Richard's Domain --- Zone Number 21
-~
-E
-model stand~
-   This sword is the mystical demon blade, the Soul Edge.  The wielder of this
-sword must have a powerful mind, or it will take that person over.  Beware the
-power of the sword.    
+TV~
+   Squinting through the flames, it looks like The Simpsons is playing on the
+TV.    
 ~
 E
 armor suit~
@@ -489,9 +482,16 @@ golden spike, probably to impale the wearers opponent if they got too close.
 Wonder if Nightmare ever wore this armor?    
 ~
 E
-TV~
-   Squinting through the flames, it looks like The Simpsons is playing on the
-TV.    
+model stand~
+   This sword is the mystical demon blade, the Soul Edge.  The wielder of this
+sword must have a powerful mind, or it will take that person over.  Beware the
+power of the sword.    
+~
+E
+zones zone~
+Sherwood --- Zone Numbers 58 and 60
+Dwarven Stronghold --- Zone Number 23
+King Richard's Domain --- Zone Number 21
 ~
 S
 T 1224
@@ -547,24 +547,26 @@ D4
 ~
 0 0 -1
 E
-playstation~
-Its a sleek black with the big PS2 logo on it... ho hoo..
+shoes~
+They are the ultimate running shoes... They are what you imagine them to be... perfect in every way.
 ~
 E
-circuits~
-   The circuits here are like the ones you see on circuit boards, thin and
-metallic, ending in a circle.  They flow with electricity!    
+chairs chair~
+   The're just like the desk, translucent, neon green, and ultra comfy!    
 ~
 E
-desk~
-   The desk is just hovering there, being neon green and glow in the dark.  On
-it sits Treq's computer, some blank papers, a mug with writing untencels in it,
-and the ultimate remote controller.    
+poster posters~
+   Most of the posters are of upcoming games such as Homeworld: Cataclysm and
+Warcraft III.  One of them is Treq's own design: My sister is a bitch.  It
+shows a picture of Treq's sister with a beard and horns.    
 ~
 E
-hole~
-   Its just a small ditch where most of the bulbs from the circuits gather.  
-This too pulsates with electricity
+sign~
+   It reads: &R&lDon't you hate red blinking letters?  &n
+~
+E
+speakers~
+   Those are some HUGE bass pumpin', body thumpin' speakers baby!    
 ~
 E
 screen screens~
@@ -574,26 +576,24 @@ Right now, one screen is of Diablo II, another, The Bouncer, another, Zmud, and
 finally, the last is the TV, tuned to MTV.    
 ~
 E
-speakers~
-   Those are some HUGE bass pumpin', body thumpin' speakers baby!    
+hole~
+   Its just a small ditch where most of the bulbs from the circuits gather.  
+This too pulsates with electricity
 ~
 E
-sign~
-   It reads: &R&lDon't you hate red blinking letters?  &n
+desk~
+   The desk is just hovering there, being neon green and glow in the dark.  On
+it sits Treq's computer, some blank papers, a mug with writing untencels in it,
+and the ultimate remote controller.    
 ~
 E
-poster posters~
-   Most of the posters are of upcoming games such as Homeworld: Cataclysm and
-Warcraft III.  One of them is Treq's own design: My sister is a bitch.  It
-shows a picture of Treq's sister with a beard and horns.    
+circuits~
+   The circuits here are like the ones you see on circuit boards, thin and
+metallic, ending in a circle.  They flow with electricity!    
 ~
 E
-chairs chair~
-   The're just like the desk, translucent, neon green, and ultra comfy!    
-~
-E
-shoes~
-They are the ultimate running shoes... They are what you imagine them to be... perfect in every way.
+playstation~
+Its a sleek black with the big PS2 logo on it... ho hoo..
 ~
 S
 #1228
@@ -649,10 +649,10 @@ S
 white walls, and no apparent light source, though everything is bathed in a
 soft bright glow.  The fourth wall is a giant computer screen shimmering with
 azure numbers and symbols.  A silver suede couch sits against the back wall,
-providing a comfortable vantage point for the mesmerizing display; there is no
-other furniture.  Doorways on both sides lead elsewhere.    
+providing a comfortable vantage point for watching the mesmerizing display;
+there is no other furniture.  Arched portals on both sides lead elsewhere.    
 ~
-12 d 0
+12 cd 0
 D1
 ~
 ~
@@ -1301,16 +1301,9 @@ You are currently in the room of Refuge.
 ~
 12 aghjlm 0
 E
-screen world~
-The entire wall consists of a large screen with an overview of Demos
-and its moon. Everything seems to be calm, at the moment. However, Raziel
-could probably change that very quickly. He must like Demos this way.
-~
-E
-water fall waterfall~
-The entire wall consists of a large waterfall. The water falls from a
-location that is too high for you to see. It is oddly quiet, as waterfalls
-are usually much louder.
+grehound dog picture~
+The entire wall consists of a picture of a red brindle greyhound with
+a collar and a tag that reads, 'Tiger'.
 ~
 E
 fish tank fishtank~
@@ -1319,9 +1312,16 @@ backward forever. The most common species in this tank are the flame angel,
 shark, and stingray. Looking at this fish tank puts your mind at ease.
 ~
 E
-grehound dog picture~
-The entire wall consists of a picture of a red brindle greyhound with
-a collar and a tag that reads, 'Tiger'.
+water fall waterfall~
+The entire wall consists of a large waterfall. The water falls from a
+location that is too high for you to see. It is oddly quiet, as waterfalls
+are usually much louder.
+~
+E
+screen world~
+The entire wall consists of a large screen with an overview of Demos
+and its moon. Everything seems to be calm, at the moment. However, Raziel
+could probably change that very quickly. He must like Demos this way.
 ~
 S
 $~

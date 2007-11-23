@@ -297,6 +297,14 @@ HunterKiller.2~
      mhunt %speech%
      detach mob 19 31
 ~
+#34
+make turkeys~
+0 d 0
+happy thanksgiving~
+say Congratulations! Happy Thanksgiving to you. 
+%load% obj 36
+give drumstick %actor.name%
+~
 #35
 Will.Help~
 0 d 0

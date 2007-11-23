@@ -990,11 +990,10 @@ D3
 wall~
 2 845 846
 E
-bar~
-   The bar seems to have everything a Controller would need!  A barbeque,
-fridge, oven, microwave, macrowave, cupboards with silverware, plates, and
-cups, and even the kitchen sink with a garbage disposal installed!  A lifeless
-robot serves the Controller from this bar.    
+throne~
+   It's beautiful!  Elevated upon steps and painfully carved, it looks just
+like a very comfortable chair with the padding on the seat.  Of course this
+chair is just for show, to show the very extent of the Controller's power.    
 ~
 E
 bed~
@@ -1002,10 +1001,11 @@ bed~
 with all those feathers stuffed into them.    
 ~
 E
-throne~
-   It's beautiful!  Elevated upon steps and painfully carved, it looks just
-like a very comfortable chair with the padding on the seat.  Of course this
-chair is just for show, to show the very extent of the Controller's power.    
+bar~
+   The bar seems to have everything a Controller would need!  A barbeque,
+fridge, oven, microwave, macrowave, cupboards with silverware, plates, and
+cups, and even the kitchen sink with a garbage disposal installed!  A lifeless
+robot serves the Controller from this bar.    
 ~
 S
 #846

@@ -2,7 +2,7 @@ Name: Ixixox
 Pass: Ix0i6jIfUO
 Titl: 
 PreT: 
-Pos : 12
+Pos : 9
 Desc:
 Here stands a man who appears to be wearing the medieval equivalent of a long
 black trenchcoat.  In other words, he's wearing a long black peasant's robe.  
@@ -17,14 +17,14 @@ LMge: 47
 LClr: 60
 Home: 1
 Brth: 1109373546
-Plyd: 2609880
-Last: 1195099637
-Host: cpe-76-182-218-165.tx.res.rr.c
+Plyd: 2617090
+Last: 1195774626
+Host: d47-69-12-188.nap.wideopenwest
 Hite: 171
 Wate: 147
-Alin: -10
+Alin: -8
 Id  : 82
-Act : 15468672
+Act : 15468736
 Skil:
 1 10
 3 10
@@ -72,7 +72,7 @@ Skil:
 0 0
 Wimp: 300
 Frez: 66
-Room: 200
+Room: 291
 Hrom: 0
 Pref: efghknowxyBC
 Prf2: abci
@@ -80,22 +80,23 @@ Hung: -1
 Thir: -1
 Lern: 10
 Str : 12/
-Sac : 5504
+Sac : 5512
 Int : 17
 Wis : 18
 Dex : 9
 Con : 12
 Cha : 7
-Hit : 2108/2108
-Mana: 1589/1589
-Move: 1133/1133
-Gold: 314
-Exp : 3600
+Hit : 2253/2108
+Mana: 1614/1589
+Move: 1123/1133
+Gold: 896958
+Exp : 3310668
 Econ: 0
 Hore: 100
 Horh: 50/0
 Deth: 44
-Kill: 5895
+Kill: 5926
 Spar: 85
 Affs:
+44 87 0 0 32 1
 0 0 0 0 0

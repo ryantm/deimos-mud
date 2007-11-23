@@ -15,14 +15,15 @@ LMge: 48
 LClr: 56
 Home: 1
 Brth: 1118249876
-Plyd: 1492960
-Last: 1186858546
+Plyd: 1493380
+Last: 1195684349
 Host: unin-20-01-075.dsl.netins.net
 Hite: 163
 Wate: 167
 Alin: -270
 Id  : 194
 Act : 14682304
+Aff : i
 Skil:
 1 1
 3 6
@@ -74,7 +75,7 @@ Skil:
 162 1
 0 0
 Wimp: 500
-Room: 200
+Room: 100
 Hrom: 0
 Pref: efghnowxyBCF
 Prf2: abci
@@ -88,11 +89,11 @@ Wis : 17
 Dex : 17
 Con : 16
 Cha : 11
-Hit : 3786/3515
-Mana: 1097/1097
-Move: 1468/1468
-Gold: 2357915
-Exp : 27847044
+Hit : 1124/3515
+Mana: 48/1097
+Move: 1456/1468
+Gold: 245035
+Exp : 27837711
 Econ: 0
 ARnk: 0
 Relg: 2
@@ -102,5 +103,7 @@ Kill: 11346
 Spar: 101
 Trak: ott
 Affs:
-19 35 0 0 8 1
+74 1 6 19 0 6
+36 2 0 0 128 6
+19 31 0 0 8 1
 0 0 0 0 0

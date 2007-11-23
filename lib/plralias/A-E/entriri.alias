@@ -1,3 +1,23 @@
+1
+p
+3
+b a
+0
+4
+gate
+15
+cast ' gate '$1
+1
+1
+h
+15
+cast ' heal '$1
+1
+4
+find
+19
+c ' find target '$1
+1
 2
 ls
 9

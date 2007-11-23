@@ -7,20 +7,19 @@ Sex : 2
 Clas: 2
 Levl: 60
 LThf: 60
-LWar: 50
+LWar: 56
 LMge: 45
 LClr: 45
 Home: 1
 Brth: 1157208952
-Plyd: 288260
-Last: 1195435081
+Plyd: 314790
+Last: 1195791160
 Host: cpe-65-24-199-37.insight.res.r
 Hite: 162
 Wate: 147
-Alin: -42
+Alin: -229
 Id  : 581
 Act : 14682304
-Aff : i
 Skil:
 1 4
 3 4
@@ -76,34 +75,32 @@ Pref: efghnowxyB
 Prf2: abci
 Hung: -1
 Thir: -1
-Lern: 7
+Lern: 13
 Str : 18/
-Sac : 632
+Sac : 649
 Int : 18
 Wis : 18
 Dex : 18
 Con : 18
 Cha : 18
-Hit : 1178/2355
-Mana: 911/1060
-Move: 1736/1751
-Gold: 16509512
+Hit : 2437/2431
+Mana: 726/1060
+Move: 1375/1797
+Gold: 14752253
 Bank: 73000000
-Exp : 95632780
+Exp : 80574447
 Econ: 0
 ARnk: 0
 Horh: 50/0
 Deth: 2
-Kill: 8814
+Kill: 9433
 Spar: 0
-Trak: judge
+Trak: spined
 Affs:
-39 24 3 1 0 3
-74 2 4 19 0 4
-36 1 0 0 128 4
-34 30 0 0 4096 2
-3 30 -1 24 0 0
-3 30 2 18 0 4
-19 31 0 0 8 1
-1 30 12 17 0 4
+39 17 3 1 0 3
+34 23 0 0 4096 2
+3 23 -1 24 0 0
+3 23 2 18 0 4
+1 23 12 17 0 4
+138 9 0 0 262144 387
 0 0 0 0 0

@@ -224,6 +224,20 @@ It looks unfinished.
 0 0
 12 12 1
 E
+#34
+a turkey merchant~
+a Turkey Merchant~
+&Ra Turkey Merchant walks around trying to convince you to buy some of his world famous turkey. &G(Try being nice to him!)&n
+~
+He gives away turkey to well wishers.
+~
+4710411 13762812 0 E
+999 -80 10 30d30+1996102 99d30+100
+5000000 10000000
+12 12 0
+SpecProc: super_magic_user
+E
+T 34
 #97
 mob unfinished~
 the Commander in Chief, W~

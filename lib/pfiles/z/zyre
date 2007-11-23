@@ -17,17 +17,16 @@ LMge: 60
 LClr: 60
 Home: 1
 Brth: 1111815175
-Plyd: 16111410
-Last: 1195450182
+Plyd: 16123590
+Last: 1195784613
 Host: c-67-167-118-88.hsd1.il.comcas
 Hite: 162
 Wate: 164
-Alin: 32
+Alin: 946
 Id  : 128
-Act : 539232448
+Act : 539232384
 Act2: 65536
 Frez: 66
-Invs: 64
 Room: 1204
 Horl: 1
 Hrom: 175
@@ -44,13 +43,13 @@ Cha : 25
 Hit : 10715/10715
 Mana: 5131/5131
 Move: 5379/5379
-Gold: 146535690
+Gold: 148591940
 Bank: 7000000
 Exp : 1506910
 Econ: 0
 Horn: gil
 Deth: 1
-Kill: 585
+Kill: 632
 Gmst: 1
 Spar: 0
 Affs:

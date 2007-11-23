@@ -1,31 +1,30 @@
 #24800
-toilet sentinel~
-the Toilet Sentinel~
-The Toilet Sentinel stands here steadfastly, glaring at you with its one good eye.
+f-14 tomcat jet~
+an F-14 Tomcat~
+An F-14 Tomcat jet is flying a combat air patrol here.
 ~
-   It looks just like an ordinary porcelain toilet, except for the eyepatch.  
+It's a big thing with swing wings and it goes really really fast.
 ~
-4644874 1064 0 E
-1 20 -9 1d1+102 1d1+0
-175 1000
+16440 4195368 0 E
+60 8 2 30d30+7300 8d8+12
+630000 3600000
 12 12 0
 BareHandAttack: 12
 E
-T 24800
 #24801
-katamari~
-a katamari~
-A katamari sits here, waiting for someone to give it a push.
+alderaan~
+Alderaan~
+Alderaan orbits here happily.
 ~
-It looks unfinished.
+He is a blue orc with a mustache.
+It is a cool planet.
 ~
-524298 0 0 E
-30 14 -4 0d0+1000000 4d4+6
-0 0
+10 0 0 E
+30 14 -4 15d15+1900 4d4+6
+157500 900000
 12 12 0
+BareHandAttack: 5
 E
-T 24801
-T 24802
 #24802
 dschinghis dschingis genghis khan~
 Dschinghis Khan~
@@ -40,6 +39,18 @@ He's doing the MOSKAU!
 BareHandAttack: 10
 E
 T 24810
+#24803
+luke skywalker~
+Luke Skywalker~
+Luke Skywalker is skywalking here.
+~
+It looks unfinished.
+~
+8 0 0 E
+0 20 0 1d1+0 1d1+0
+0 0
+12 12 1
+E
 #24899
 Titanium Chunk~
 a Titanium Chunk~

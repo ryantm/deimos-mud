@@ -656,13 +656,13 @@ The room extends as far as (and farther than) you can see...
 ~
 0 -1 18638
 E
-writing words~
-The writing appears to says 'beware the Minotaur...'
-~
-E
 wall~
 There is a crude picture of a man with the head of a bull with some writing
 next to it.
+~
+E
+writing words~
+The writing appears to says 'beware the Minotaur...'
 ~
 S
 #18640
@@ -682,16 +682,16 @@ The hall extends to the south where it seems to darken somewhat.
 ~
 0 -1 18603
 E
-statue~
-Upon closer inspection you see that the statue has a small plaque affixed
-to it.  The face looks remarkably familiar also.
-~
-E
 plaque nameplate name~
 It says:
 
 Maynard, Death Jester of the Harlequins
 
+~
+E
+statue~
+Upon closer inspection you see that the statue has a small plaque affixed
+to it.  The face looks remarkably familiar also.
 ~
 S
 #18641

@@ -11,15 +11,14 @@ LMge: 60
 LClr: 50
 Home: 1
 Brth: 1119831475
-Plyd: 203420
-Last: 1195331106
+Plyd: 203560
+Last: 1195681344
 Host: c-68-35-101-41.hsd1.nm.comcast
 Hite: 171
 Wate: 139
 Alin: 45
 Id  : 225
 Act : 14682304
-Aff : i
 Skil:
 4 10
 7 10
@@ -54,15 +53,15 @@ Skil:
 162 1
 0 0
 Wimp: 599
-Room: 291
+Room: 200
 Hrom: 0
 Pref: efghknowxyBCF
 Prf2: abci
-Hung: 20
-Thir: 23
+Hung: 18
+Thir: 21
 Lern: 2
 Sac : 2642
-Hit : 146/1198
+Hit : 186/1198
 Mana: 2027/2027
 Move: 726/726
 Gold: 2509

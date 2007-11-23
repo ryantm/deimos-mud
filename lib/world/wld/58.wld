@@ -491,15 +491,15 @@ D3
 ~
 0 0 5825
 E
-sign~
-   This Factory is the main Factory for the Base.  This is where the heavier
-vehicles, mainly the Siege Tanks, are produced.    
-~
-E
 Building Machine Shop~
    This building is the Machine Shop.  A Machine Shop is necessary to process
 the parts needed for heavier vehicles and to develop new technology and
 upgrades for existing vehicle designs.    
+~
+E
+sign~
+   This Factory is the main Factory for the Base.  This is where the heavier
+vehicles, mainly the Siege Tanks, are produced.    
 ~
 S
 #5824
@@ -606,10 +606,9 @@ D2
 ~
 0 0 5824
 E
-Covert Ops Center~
-   Only the most trusted officers and researchers are allowed into the Cover
-Ops Center, which conducts all experimantal research for the Confederate
-Intelligence Corps.    
+sign~
+   To look at the different buildings, type 'look physics' or 'look covert'.  
+
 ~
 E
 physics lab~
@@ -618,9 +617,10 @@ equipment to an existing Research Center, Terran s have been able to facilitate
 the development of various technological advancements.    
 ~
 E
-sign~
-   To look at the different buildings, type 'look physics' or 'look covert'.  
-
+Covert Ops Center~
+   Only the most trusted officers and researchers are allowed into the Cover
+Ops Center, which conducts all experimantal research for the Confederate
+Intelligence Corps.    
 ~
 S
 #5829

@@ -64,21 +64,12 @@ D1
 gate~
 2 0 1900
 E
-look white~
-You read the white car's license plate....
-IM COOL
-~
-E
-look green~
-You read the green car's license plate....
+look sign~
+You look at the sign.....
 
-SUX 2BU
-~
-E
-look black~
-You read the black car's license plate....
-
-ILUVRBZ
+Wanna see plates...type look <color of car>
+example: look orange
+assuming there is an orange car
 ~
 E
 look red~
@@ -87,12 +78,21 @@ You read the red car's license plate....
 IH8 RBZ
 ~
 E
-look sign~
-You look at the sign.....
+look black~
+You read the black car's license plate....
 
-Wanna see plates...type look <color of car>
-example: look orange
-assuming there is an orange car
+ILUVRBZ
+~
+E
+look green~
+You read the green car's license plate....
+
+SUX 2BU
+~
+E
+look white~
+You read the white car's license plate....
+IM COOL
 ~
 S
 #1903
@@ -180,7 +180,7 @@ D0
 ~
 0 0 1904
 E
-look sign~
+read sign~
 
 Table Reserved For:
 Management Meetings
@@ -191,7 +191,7 @@ Thanks,
 MGMT
 ~
 E
-read sign~
+look sign~
 
 Table Reserved For:
 Management Meetings
@@ -243,8 +243,7 @@ D3
 door~
 1 0 1924
 E
-read note~
-
+look note~
 EMPLOYEE ENTRANCE ONLY
 TRESSPASSERS WILL BE PROSECUTED
 
@@ -252,7 +251,8 @@ THANKS,
 MGMT
 ~
 E
-look note~
+read note~
+
 EMPLOYEE ENTRANCE ONLY
 TRESSPASSERS WILL BE PROSECUTED
 
@@ -555,21 +555,6 @@ D3
 window~
 1 1900 1914
 E
-read sign~
-10 Tips To Efficient Drive Thru And Happy Customers:
-
-(1) Communicate Clearly
-(2) Be Patient
-(3) Be Polite/Curteous
-(4) Take The Order Accurately
-(5) Be Fast But Not Careless
-(6) Smile At The Customers
-(7) Thank The Customer
-(8) Use the words 'Thank You' 'Sir' 'Mam' and 'Please'
-(9) Give Them The Correct Change
-(10) Give Them The Correct Food
-~
-E
 look sign~
 10 Tips To Efficient Drive Thru And Happy Customers:
 
@@ -583,6 +568,21 @@ look sign~
 (8) Use the words 'Thank You' 'Sir' 'Mam' and 'Please'
 (9) Give Them The Correct Change
 (10) Give Them The Correct Food!
+~
+E
+read sign~
+10 Tips To Efficient Drive Thru And Happy Customers:
+
+(1) Communicate Clearly
+(2) Be Patient
+(3) Be Polite/Curteous
+(4) Take The Order Accurately
+(5) Be Fast But Not Careless
+(6) Smile At The Customers
+(7) Thank The Customer
+(8) Use the words 'Thank You' 'Sir' 'Mam' and 'Please'
+(9) Give Them The Correct Change
+(10) Give Them The Correct Food
 ~
 S
 #1926
@@ -1011,6 +1011,14 @@ D3
 ~
 0 0 1952
 E
+cast~
+Nothing.
+~
+E
+hit jessica~
+Dork! She's on the other side of the counter.
+~
+E
 read menu~
 The Menu Shows The Following Products.
 
@@ -1019,14 +1027,6 @@ Large &YCup&n
 Mozzarella &YSticks&n
 
 To Order: say the highlighted word.
-~
-E
-hit jessica~
-Dork! She's on the other side of the counter.
-~
-E
-cast~
-Nothing.
 ~
 S
 #1952

@@ -15,14 +15,14 @@ LMge: 60
 LClr: 60
 Home: 1
 Brth: 1142106748
-Plyd: 1118110
-Last: 1179628415
-Host: d192-24-22-102.nap.wideopenwes
+Plyd: 1127770
+Last: 1195784611
+Host: c-67-167-118-88.hsd1.il.comcas
 Hite: 179
 Wate: 121
 Alin: 15
 Id  : 459
-Act : 14944384
+Act : 14944448
 Skil:
 1 10
 2 10
@@ -114,7 +114,7 @@ Skil:
 Wimp: 300
 Room: 6784
 Hrom: 0
-Pref: efghknowxyBEF
+Pref: efghknowxyBF
 Prf2: abci
 Hung: -1
 Thir: -1
@@ -126,8 +126,8 @@ Wis : 18
 Dex : 18
 Con : 18
 Cha : 14
-Hit : 3191/3191
-Mana: 2696/2696
+Hit : 3261/3191
+Mana: 2786/2696
 Move: 1727/1727
 Gold: 40949220
 Bank: 172610680

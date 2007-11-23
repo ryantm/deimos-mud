@@ -1,6 +1,6 @@
 Name: Entriri
 Pass: EnwxTsRjde
-Titl: is using insertnamehereMUD client
+Titl: &gRadioactive
 PreT: 
 Pos : 12
 Desc:
@@ -12,15 +12,15 @@ Levl: 60
 LThf: 60
 LWar: 60
 LMge: 46
-LClr: 30
+LClr: 35
 Home: 1
 Brth: 1113954178
-Plyd: 450590
-Last: 1195462425
+Plyd: 478520
+Last: 1195788531
 Host: c-68-35-101-41.hsd1.nm.comcast
 Hite: 165
 Wate: 123
-Alin: 27
+Alin: -15
 Id  : 162
 Act : 14944384
 Skil:
@@ -49,7 +49,7 @@ Skil:
 132 8
 135 5
 137 1
-138 6
+138 10
 139 8
 140 2
 143 8
@@ -65,27 +65,34 @@ Skil:
 162 1
 0 0
 Wimp: 400
-Room: 200
+Room: 291
 Hrom: 0
-Pref: efghnowxyBCEF
+Pref: efghnowxyBCF
 Prf2: abci
-Hung: 20
-Thir: 22
-Lern: 9
-Sac : 17760
-Hit : 2294/2294
-Mana: 707/707
-Move: 1847/1855
-Gold: 6084
-Exp : 772840
+Hung: 16
+Thir: 16
+Lern: 10
+Str : 15/
+Sac : 18280
+Int : 13
+Wis : 10
+Dex : 16
+Con : 15
+Cha : 7
+Hit : 1776/2326
+Mana: 871/741
+Move: 1988/1888
+Gold: 26168013
+Exp : 39040663
 Econ: 0
 Rmac: 1
 Part: Evilshaddo
 Horh: 50/0
 Deth: 127
-Kill: 17810
+Kill: 18330
 Affs:
-138 33 0 0 262144 384
-138 28 0 0 262144 384
-19 29 0 0 8 1
+39 11 3 1 0 3
+44 36 0 0 32 1
+3 27 2 18 0 4
+3 27 -1 24 0 0
 0 0 0 0 0

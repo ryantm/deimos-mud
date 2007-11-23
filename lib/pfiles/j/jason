@@ -2,7 +2,7 @@ Name: Jason
 Pass: JaUqUgB0LI
 Titl: 
 PreT: 
-Pos : 12
+Pos : 9
 Desc:
 q
 1
@@ -16,9 +16,9 @@ LMge: 60
 LClr: 60
 Home: 1
 Brth: 1141241126
-Plyd: 5158230
-Last: 1194282611
-Host: 199.8.170.202
+Plyd: 5158440
+Last: 1195714069
+Host: pool-71-124-0-181.chi01.dsl-w.
 Hite: 196
 Wate: 167
 Alin: -128
@@ -100,8 +100,8 @@ Wis : 18
 Dex : 18
 Con : 17
 Cha : 18
-Hit : 8122/7966
-Mana: 2351/2151
+Hit : 8137/7966
+Mana: 2366/2151
 Move: 2361/2371
 Gold: 4424595
 Exp : 1108385
