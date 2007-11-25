@@ -1279,15 +1279,6 @@ IS_CARRYING_W(ch), CAN_CARRY_W(ch));
   break;
   }
 
-  if (GET_COND(ch, DRUNK) > 10)
-    strcat(buf, "You are intoxicated.\r\n");
-
-  if (GET_COND(ch, FULL) == 0)
-    strcat(buf, "You are hungry.\r\n");
-
-  if (GET_COND(ch, THIRST) == 0)
-    strcat(buf, "You are thirsty.\r\n");
-
   if (ROMANCE(ch) == 0) 
   {
       strcat(buf, "You are single.\r\n");

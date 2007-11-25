@@ -1282,12 +1282,6 @@ GET_MAXHAPPY(k));
   strcat(buf, buf2);
   send_to_char(buf, ch);
 
-  if (!IS_NPC(k)) {
-    sprintf(buf, "Hunger: %d, Thirst: %d, Drunk: %d\r\n",
-	  GET_COND(k, FULL), GET_COND(k, THIRST), GET_COND(k, DRUNK));
-    send_to_char(buf, ch);
-  }
-
   sprintf(buf, "Master is: %s, Followers are:",
 	  ((k->master) ? GET_NAME(k->master) : "<none>"));
 

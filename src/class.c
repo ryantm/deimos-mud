@@ -391,8 +391,6 @@ void do_start(struct char_data * ch)
   GET_HIT(ch) = GET_MAX_HIT(ch);
   GET_MANA(ch) = GET_MAX_MANA(ch);
   GET_MOVE(ch) = GET_MAX_MOVE(ch);
-  GET_COND(ch, THIRST) = 24;
-  GET_COND(ch, FULL) = 24;
   GET_COND(ch, DRUNK) = 0;
   GET_HORSEHAPPY(ch) = GET_MAXHAPPY(ch);
 
@@ -592,7 +590,6 @@ void init_spell_levels(void)
   spell_levelc(SPELL_DETECT_INVIS, CLASS_CLERIC, 1, 0,np);  
   spell_levelc(SPELL_IDENTIFY, CLASS_CLERIC, 15, 0,np); 
   spell_levelc(SPELL_SHROUD, CLASS_CLERIC, 45, 1,hp);
-  spell_levelc(SPELL_SUSTAINANCE, CLASS_CLERIC, 1, 0,mp);
   spell_levelc(SPELL_SUMMON, CLASS_CLERIC, 30, 0,mp);
   
 
