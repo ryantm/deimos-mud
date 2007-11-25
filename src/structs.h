@@ -73,7 +73,7 @@
 #define ROOM_INDOORS		(1 << 3)   /* Indoors			*/
 #define ROOM_PEACEFUL		(1 << 4)   /* Violence not allowed	*/
 #define ROOM_SOUNDPROOF		(1 << 5)   /* Shouts, gossip blocked	*/
-#define ROOM_NOTRACK		(1 << 6)   /* Track won't go through	*/
+#define ROOM_NOTRACK		(1 << 6)      /* Track won't go through	*/
 #define ROOM_NOMAGIC		(1 << 7)   /* Magic not allowed		*/
 #define ROOM_TUNNEL		(1 << 8)   /* room for only 1 pers	*/
 #define ROOM_PRIVATE		(1 << 9)   /* Can't teleport in		*/
@@ -235,13 +235,6 @@
 #define PLR2_CANTRIGEDIT (1 << 18) /* Immortal is allowed to trigedit */
 #define PLR2_HAFF       (1 << 19) /* this player is massivly stupid*/
 #define PLR2_NORENT     (1 << 20) /* player not allowed to rent.*/
-
-
-/* For later expansion*/
-//#define PLR2_GCOLLECTOR (1 << x)  /* Player is a garbage collector      */
-//#define PLR2_HEALER     (1 << x) /* Player is a healer                 */
-//#define PLR2_GUIDE      (1 << x) /* Player is a guide                  */
-//#define PLR2_VIGILANTE  (1 << x) /* Player is a vigilante              */
 
 
 /* Mobile flags: used by char_data.char_specials.act */

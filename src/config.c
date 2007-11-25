@@ -361,8 +361,8 @@ const char *GREETINGS =
 "                  A derivative of DikuMUD (GAMMA 0.0),\r\n"
 "            created by Hans-Henrik Staerfeldt, Katja Nyboe,\r\n"
 "           Tom Madsen, Michael Seifert, and Sebastian Hammer\r\n"
-"\r\n\r\n\r\n\r\n"
-"Enter Thy Name: ";
+"\r\n\r\n"
+"Name: ";
 
 const char *WELC_MESSG =
 "\r\n"

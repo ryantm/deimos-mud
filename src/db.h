@@ -29,7 +29,7 @@
 #define LIB_HOUSE	":house:"
 #define LIB_PLRVARS	":plrvars:"
 #define SLASH		":"
-#elif defined(CIRCLE_AMIGA) || defined(CIRCLE_UNIX) || defined(CIRCLE_WINDOWS) || defined(CIRCLE_ACORN) || defined(CIRCLE_VMS)
+#else
 #define LIB_WORLD	"world/"
 #define LIB_TEXT	"text/"
 #define LIB_TEXT_HELP	"text/help/"
@@ -41,8 +41,6 @@
 #define LIB_HOUSE	"house/"
 #define LIB_PLRVARS	"plrvars/"
 #define SLASH		"/"
-#else
-#error "Unknown path components."
 #endif
 
 #define SUF_OBJS	"objs"
