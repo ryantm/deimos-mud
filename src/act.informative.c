@@ -1197,8 +1197,7 @@ playing_time.hours, playing_time.hours == 1 ? "" : "s");
  
   if (GET_LEVEL(ch) < LVL_IMMORT)
     sprintf(buf + strlen(buf), "&BExpUnused : %s (%d) NextLevel: %s&n\r\n", 
-num_punct(GET_EXP(ch)), GET_EXP(ch), num_punct(level_exp(GET_CLASS(ch),
-GET_LEVEL(ch))));
+	    num_punct(GET_EXP(ch)), GET_EXP(ch), num_punct(level_exp(GET_CLASS(ch), GET_LEVEL(ch))));
 
   sprintf(buf + strlen(buf), "&YGold: %s&n\r\n", num_punct(GET_GOLD(ch)));
   sprintf(buf + strlen(buf), "&WDamroll: %d        Hitroll: %d        Sacri: %d&n\r\n",
