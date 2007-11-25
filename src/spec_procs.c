@@ -3588,8 +3588,7 @@ SPECIAL(gm_guild)
       add_mana = MAX(0,((GET_INT(ch) - 16) /2)),
       add_move = MAX(0, ((GET_DEX(ch) - 16) /2));
   //GM Requirements defined here
-  const int GMEXP = 200000000,
-            GMGOLD = 20000000;
+
   struct descriptor_data *dd; 
 
   argument = one_argument(argument, arg);  

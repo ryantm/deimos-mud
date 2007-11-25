@@ -271,9 +271,9 @@ struct in_addr {
 
 /* Basic system dependencies *******************************************/
 
-#if !defined(__GNUC__)
-#define __attribute__(x)	/* nothing */
-#endif
+//#if !defined(__GNUC__)
+//#define __attribute__(x) 
+//#endif
 
 #if defined(__MWERKS__)
 # define isascii(c)	(((c) & ~0x7f) == 0)	/* So easy to have, but ... */

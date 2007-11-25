@@ -1592,13 +1592,13 @@ int extra_attacks_from_level(struct char_data *ch)
 	if (IS_NPC(ch)) 
 		{
 			if (GET_LEVEL(ch) >= 1)
-				attacks = 1;
+				attacks = 0;
 			if (GET_LEVEL(ch) >= 20)
-				attacks = 2;
+				attacks = 1;
 			if (GET_LEVEL(ch) >= 30)
-				attacks = 3;
+				attacks = 2;
 			if (GET_LEVEL(ch) >= 50)
-				attacks = 4;
+				attacks = 3;
 		}
 	else
 		{

@@ -130,11 +130,9 @@
 #define SKILL_RESCUE                137 /* Reserved Skill[] DO NOT CHANGE */
 #define SKILL_SNEAK                 138 /* Reserved Skill[] DO NOT CHANGE */
 #define SKILL_STEAL                 139 /* Reserved Skill[] DO NOT CHANGE */
-#define SKILL_TRACK		    140 /* Reserved Skill[] DO NOT CHANGE */
+#define SKILL_TRACK		              140 /* Reserved Skill[] DO NOT CHANGE */
 /* New skills may be added here up to MAX_SKILLS (200) */
-//#define SKILL_SECOND_ATTACK	    141 /* Second attack (DAK) */
-//#define SKILL_THIRD_ATTACK	    142 /* Third attack (DAK)  */
-#define SKILL_DISARM 	            141 /* Reserved Skill[] DO NOT CHANGE */
+#define SKILL_DISARM 	              141 /* Reserved Skill[] DO NOT CHANGE */
 #define SKILL_SCAN                  142
 /* weapon proficiencies */
 #define SKILL_WEAPON_SWORDS         143
