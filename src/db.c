@@ -3621,15 +3621,9 @@ void init_char(struct char_data * ch)
     CREATE(ch->player_specials, struct player_special_data, 1);
 
   /* *** if this is our first player --- he be God *** */
-
-  if (top_of_p_table == 0) {
-    GET_EXP(ch) = 7000000;
+  if (top_of_p_table == 0)
     GET_LEVEL(ch) = LVL_IMPL;
 
-    ch->points.max_hit = 5000;
-    ch->points.max_mana = 5000;
-    ch->points.max_move = 5000;
-  }
   set_title(ch, NULL);
   ch->player.short_descr = NULL;
   ch->player.long_descr = NULL;

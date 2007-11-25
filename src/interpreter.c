@@ -2388,33 +2388,33 @@ nanny (struct descriptor_data *d, char *arg)
     case CON_QCLASS:
       load_result = parse_class (*arg);
       if (load_result == CLASS_UNDEFINED)
-	{
-	  SEND_TO_Q ("\r\nThat's not a class.\r\nClass: ", d);
-	  return;
-	}
+				{
+					SEND_TO_Q ("\r\nThat's not a class.\r\nClass: ", d);
+					return;
+				}
       else
-	GET_CLASS (d->character) = load_result;
-
+				GET_CLASS (d->character) = load_result;
+			
       roll_stats (d);
       STATE (d) = CON_QROLLSTATS;
       break;
-
+			
     case CON_QROLLSTATS:
       switch (*arg)
-	{
-	case 'y':
-	case 'Y':
-	  break;
-	case 'n':
-	case 'N':
-	default:
-	  roll_stats (d);
-	  return;
-	}
-
+				{
+				case 'y':
+				case 'Y':
+					break;
+				case 'n':
+				case 'N':
+				default:
+					roll_stats (d);
+					return;
+				}
+			
       if (GET_PFILEPOS (d->character) < 0)
-	GET_PFILEPOS (d->character) =
-	  create_entry (GET_PC_NAME (d->character));
+				GET_PFILEPOS (d->character) =
+					create_entry (GET_PC_NAME (d->character));
       /* Now GET_NAME() will work properly. */
       init_char (d->character);
       save_char (d->character, NOWHERE);

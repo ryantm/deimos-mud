@@ -134,8 +134,6 @@ int mana_gain(struct char_data * ch)
       break;
     }
 
-    if ((GET_COND(ch, FULL) == 0) || (GET_COND(ch, THIRST) == 0))
-      gain /= 4;
   }
 
   if (AFF_FLAGGED(ch, AFF_POISON))
@@ -195,8 +193,6 @@ int hit_gain(struct char_data * ch)
       break;
     }
 
-    if ((GET_COND(ch, FULL) == 0) || (GET_COND(ch, THIRST) == 0))
-      gain /= 4;
   }
 
   if (AFF_FLAGGED(ch, AFF_POISON))
@@ -255,8 +251,7 @@ int move_gain(struct char_data * ch)
       break;
     }
 
-    if ((GET_COND(ch, FULL) == 0) || (GET_COND(ch, THIRST) == 0))
-      gain /= 4;
+
   }
 
   if (AFF_FLAGGED(ch, AFF_POISON))
@@ -385,12 +380,6 @@ void gain_condition(struct char_data * ch, int condition, int value)
     return;
 
   switch (condition) {
-  case FULL:
-    send_to_char("You are hungry.\r\n", ch);
-    return;
-  case THIRST:
-    send_to_char("You are thirsty.\r\n", ch);
-    return;
   case DRUNK:
     if (intoxicated)
       send_to_char("You are now sober.\r\n", ch);
@@ -591,9 +580,7 @@ void point_update(void)
     next_char = i->next;
 	
 	/* MatingMod - Extra Hunger/Thirst */
-    gain_condition(i, FULL, -1);
     gain_condition(i, DRUNK, -1);
-    gain_condition(i, THIRST, -1);
    
     if (PLR_FLAGGED(i, PLR_DEAD)) {
       SET_BIT(PLR_FLAGS(i), PLR_DEADI);
