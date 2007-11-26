@@ -2,7 +2,7 @@ Name: Jason
 Pass: JaUqUgB0LI
 Titl: 
 PreT: 
-Pos : 9
+Pos : 12
 Desc:
 q
 1
@@ -16,12 +16,12 @@ LMge: 60
 LClr: 60
 Home: 1
 Brth: 1141241126
-Plyd: 5158440
-Last: 1195714069
-Host: pool-71-124-0-181.chi01.dsl-w.
+Plyd: 5160120
+Last: 1195954239
+Host: pool-70-106-218-155.chi.dsl-w.
 Hite: 196
 Wate: 167
-Alin: -128
+Alin: -113
 Id  : 424
 Act : 14682304
 Skil:
@@ -90,11 +90,12 @@ Room: 200
 Hrom: 0
 Pref: efghknowxyBCF
 Prf2: abci
+Badp: 2
 Hung: -1
 Thir: -1
 Lern: 102
 Str : 18/
-Sac : 55754
+Sac : 55756
 Int : 18
 Wis : 18
 Dex : 18
@@ -103,15 +104,16 @@ Cha : 18
 Hit : 8137/7966
 Mana: 2366/2151
 Move: 2361/2371
-Gold: 4424595
-Exp : 1108385
+Gold: 4427204
+Exp : 1123285
 Econ: 0
 ARnk: 0
 Horh: 50/0
 Deth: 13
-Kill: 64395
+Kill: 64398
 Gmst: 57
 Spar: 78
 Trak: anakin
 Affs:
+19 30 0 0 8 1
 0 0 0 0 0

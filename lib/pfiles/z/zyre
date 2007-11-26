@@ -1,6 +1,6 @@
 Name: Zyre
 Pass: ZyZaSzVHiI
-Titl: &n&l&M:&n&MD&n
+Titl: &l&M:&n&MD&n
 PreT: &R
 Pos : 12
 Desc:
@@ -17,14 +17,14 @@ LMge: 60
 LClr: 60
 Home: 1
 Brth: 1111815175
-Plyd: 16125760
-Last: 1195797828
+Plyd: 16298240
+Last: 1195837821
 Host: c-67-167-118-88.hsd1.il.comcas
 Hite: 162
 Wate: 164
-Alin: 769
+Alin: 978
 Id  : 128
-Act : 539232448
+Act : 539232384
 Act2: 65536
 Frez: 66
 Room: 1213
@@ -43,13 +43,13 @@ Cha : 25
 Hit : 10715/10715
 Mana: 5131/5131
 Move: 5379/5379
-Gold: 149382204
+Gold: 149423190
 Bank: 7000000
 Exp : 1506910
 Econ: 0
 Horn: gil
 Deth: 1
-Kill: 654
+Kill: 651
 Gmst: 1
 Spar: 0
 Affs:

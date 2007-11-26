@@ -11,12 +11,12 @@ LMge: 60
 LClr: 60
 Home: 1
 Brth: 1150496393
-Plyd: 2002000
-Last: 1195817280
-Host: 69-214-171-3.ded.ameritech.net
+Plyd: 2006550
+Last: 1195873773
+Host: c-68-84-29-180.hsd1.fl.comcast
 Hite: 193
 Wate: 159
-Alin: 124
+Alin: 92
 Id  : 544
 Act : 14682304
 Skil:
@@ -63,7 +63,7 @@ Skil:
 137 1
 138 6
 139 2
-140 1
+140 3
 143 4
 149 6
 152 8
@@ -74,40 +74,35 @@ Skil:
 162 1
 0 0
 Wimp: 950
-Room: 200
+Room: 2004
 Hrom: 0
 Pref: efghnowxyB
 Prf2: abci
 Hung: -1
 Thir: -1
-Lern: 2
 Str : 18/
-Sac : 941
+Sac : 942
 Int : 17
 Wis : 18
 Dex : 18
 Con : 18
 Cha : 18
 Hit : 1972/1902
-Mana: 1824/2703
-Move: 547/809
-Gold: 5399854
+Mana: 2877/2703
+Move: 668/809
+Gold: 7362138
 Bank: 2830000
-Exp : 52027488
+Exp : 74832488
 Econ: 0
 ARnk: 0
 Relg: 2
 Horh: 50/0
 Deth: 17
-Kill: 13281
+Kill: 13286
 Gmst: 15
 Spar: 189
-Trak: judge
 Affs:
-19 48 0 0 8 1
-1 16 24 17 0 8
-3 16 4 18 0 8
-3 16 -1 24 0 0
-34 16 0 0 4096 4
-39 28 5 1 0 5
+19 14 0 0 8 1
+138 7 0 0 262144 387
+39 8 5 1 0 5
 0 0 0 0 0

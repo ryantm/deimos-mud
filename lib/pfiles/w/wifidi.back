@@ -1,6 +1,6 @@
 Name: Wifidi
 Pass: Wi1Zbj4tsX
-Titl: &r{&bxxxxxxxxxxxxxx&wxxxxxx&r}
+Titl: &r{&bxxxxxxxxxxxxxxxx&wxxxx&r}
 PreT: 
 Pos : 12
 Sex : 1
@@ -12,12 +12,12 @@ LMge: 60
 LClr: 60
 Home: 1
 Brth: 1193810897
-Plyd: 676270
-Last: 1195822213
+Plyd: 683270
+Last: 1195833559
 Host: 70.246.118.93
 Hite: 186
 Wate: 158
-Alin: -19
+Alin: -16
 Id  : 755
 Act : 14682240
 Aff : i
@@ -78,13 +78,12 @@ Skil:
 161 4
 162 1
 0 0
-Wimp: 1514
-Room: 2003
+Room: 2121
 Hrom: 0
 Pref: efghknowxyBC
 Prf2: abci
-Hung: 17
-Thir: 17
+Hung: 22
+Thir: 22
 Lern: 4
 Str : 18/
 Int : 18
@@ -92,26 +91,27 @@ Wis : 14
 Dex : 18
 Con : 18
 Cha : 13
-Hit : 791/3014
-Mana: 714/1428
-Move: 1438/2181
-Gold: 6405580
+Hit : 2574/3014
+Mana: 1499/1428
+Move: 2181/2181
+Gold: 7923411
 Bank: 19800616
-Exp : 152481861
+Exp : 165940276
 Econ: 0
 ARnk: 0
 Relg: 3
 Horh: 50/0
 Deth: 2
-Kill: 37311
+Kill: 37358
 Gmst: 1
 Spar: 0
 Affs:
-74 1 4 19 0 4
-44 110 0 0 32 1
-39 5 3 1 0 3
-3 11 2 18 0 4
-3 11 -1 24 0 0
-1 11 12 17 0 4
-19 26 0 0 8 1
+1 17 12 17 0 4
+19 18 0 0 8 1
+44 226 0 0 32 1
+39 6 3 1 0 3
+3 12 -1 24 0 0
+3 12 2 18 0 4
+36 0 0 0 128 4
+58 4 0 0 4194304 1
 0 0 0 0 0

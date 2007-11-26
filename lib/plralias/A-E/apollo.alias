@@ -94,11 +94,6 @@ infra
 c 'infravision' $*
 1
 5
-track
-14
-track $*;track
-1
-5
 armor
 12
 c 'armor' $*

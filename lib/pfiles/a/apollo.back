@@ -1,6 +1,6 @@
 Name: Apollo
 Pass: ArbJQsMF2e
-Titl: the clone
+Titl: 
 PreT: 
 Pos : 12
 Desc:
@@ -11,16 +11,16 @@ Clas: 1
 Levl: 60
 LThf: 34
 LWar: 38
-LMge: 45
+LMge: 46
 LClr: 60
 Home: 1
 Brth: 1110843614
-Plyd: 256690
-Last: 1145052935
-Host: mcn40194.urh.uiuc.edu
+Plyd: 289870
+Last: 1196041819
+Host: 74-134-249-36.dhcp.insightbb.c
 Hite: 170
 Wate: 126
-Alin: -81
+Alin: 15
 Id  : 481
 Act : 15206528
 Skil:
@@ -34,6 +34,7 @@ Skil:
 31 1
 34 5
 36 10
+38 6
 39 4
 42 1
 44 1
@@ -65,45 +66,38 @@ Skil:
 162 1
 0 0
 Wimp: 400
-Room: 291
+Room: 202
 Hrom: 0
 Pref: efghnowxyBCF
 Prf2: abcgi
-Hung: 21
-Thir: 23
-Lern: 5
 Str : 17/
-Sac : 6229
+Sac : 6403
 Int : 18
 Wis : 17
 Dex : 16
 Con : 17
 Cha : 10
-Hit : 2341/2066
-Mana: 1024/1542
-Move: 883/883
-Gold: 27964894
-Exp : 6586427
+Hit : 2347/2072
+Mana: 1566/1558
+Move: 888/888
+Gold: 17716521
+Bank: 40000000
+Exp : 15174307
 Econ: 0
 ARnk: 0
 Rank: 2
 Horh: 50/0
 Deth: 2
-Kill: 6233
+Kill: 6407
 Spar: 112
-Trak: otter
+Trak: jimmy
 Affs:
-36 3 0 0 128 10
-44 45 0 0 32 1
-1 19 30 17 0 10
-34 19 0 0 4096 5
-3 19 5 18 0 10
-3 19 -1 24 0 0
-50 20 0 0 1024 1
-19 51 0 0 8 1
-138 49 0 0 262144 -1106690139
-39 22 4 1 0 4
-58 0 0 0 4194304 1
-67 0 0 0 131072 5
-74 0 10 19 0 10
+39 15 4 1 0 4
+19 232 0 0 8 1
+1 8 30 17 0 10
+3 8 5 18 0 10
+3 8 -1 24 0 0
+50 16 0 0 1024 1
+36 1 0 0 128 10
+74 3 10 19 0 10
 0 0 0 0 0

@@ -1,6 +1,6 @@
 Name: Rodek
-Pass: RolnMsnWKW
-Titl: &Dthe Thief.&n
+Pass: RosVKq2lp3
+Titl: &rKill bodies&n [&RU&YS&RM&YC&n]
 PreT: 
 Pos : 12
 Desc:
@@ -19,14 +19,14 @@ LMge: 60
 LClr: 60
 Home: 1
 Brth: 1140395601
-Plyd: 844900
-Last: 1160319436
-Host: unin-14-190.dsl.netins.net
+Plyd: 1315650
+Last: 1196042889
+Host: 12-205-198-65.client.mchsi.com
 Hite: 199
 Wate: 174
+Alin: 118
 Id  : 411
 Act : 14682240
-Aff : i
 Skil:
 1 4
 3 4
@@ -79,38 +79,33 @@ Skil:
 161 4
 162 1
 0 0
-Wimp: 500
-Room: 1513
+Wimp: 700
+Room: 200
 Hrom: 0
-Pref: efghknowxyBCF
+Pref: efghknowxyBF
 Prf2: abci
-Hung: -1
-Thir: -1
-Lern: 44
-Str : 18/
-Sac : 27614
+Lern: 60
+Str : 16/
+Sac : 35821
 Int : 15
 Wis : 11
 Dex : 18
 Con : 15
 Cha : 7
-Hit : 3674/3403
-Mana: 1917/1702
-Move: 2274/2274
-Gold: 40434
-Bank: 81000000
-Exp : 16788422
+Hit : 3942/3671
+Mana: 2001/1894
+Move: 2466/2466
+Gold: 1570153
+Bank: 3000000
+Exp : 20696117
 Econ: 0
 ARnk: 0
 Relg: 2
 Horh: 50/0
-Deth: 1
-Kill: 32676
-Gmst: 11
+Deth: 3
+Kill: 40874
+Gmst: 19
 Spar: 50
-Trak: prince
+Trak: ot
 Affs:
-1 9 12 17 0 4
-3 9 -1 24 0 0
-3 9 2 18 0 4
 0 0 0 0 0

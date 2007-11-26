@@ -1,4 +1,9 @@
 2
+tp
+16
+use eagle wifidi
+0
+2
 rp
 14
 rescue polgara
@@ -72,11 +77,6 @@ c 'poison' gov
 ig
 15
 c 'icebolt' gov
-0
-2
-tp
-16
-use eagle wifidi
 0
 5
 titan

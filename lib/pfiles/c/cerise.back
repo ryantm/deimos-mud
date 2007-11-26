@@ -2,7 +2,7 @@ Name: Cerise
 Pass: CeEq/S5myV
 Titl: 
 PreT: 
-Pos : 12
+Pos : 8
 Sex : 2
 Clas: 2
 Levl: 60
@@ -12,15 +12,14 @@ LMge: 45
 LClr: 45
 Home: 1
 Brth: 1157208952
-Plyd: 310940
-Last: 1195698539
-Host: cpe-65-24-199-37.insight.res.r
+Plyd: 317800
+Last: 1195859203
+Host: c-68-84-29-180.hsd1.fl.comcast
 Hite: 162
 Wate: 147
-Alin: -5
+Alin: -170
 Id  : 581
 Act : 14682240
-Aff : i
 Skil:
 1 4
 3 4
@@ -57,7 +56,7 @@ Skil:
 137 1
 138 1
 139 10
-140 1
+140 10
 143 8
 144 10
 149 10
@@ -70,39 +69,37 @@ Skil:
 162 1
 0 0
 Wimp: 400
-Room: 9124
+Room: 291
 Hrom: 0
 Pref: efghnowxyB
 Prf2: abci
 Hung: -1
 Thir: -1
-Lern: 13
+Lern: 4
 Str : 18/
-Sac : 648
+Sac : 654
 Int : 18
 Wis : 18
 Dex : 18
 Con : 18
 Cha : 18
-Hit : 2374/2431
-Mana: 1172/1060
-Move: 1614/1797
-Gold: 12380866
+Hit : 2113/2431
+Mana: 1260/1060
+Move: 1797/1797
+Gold: 16134979
 Bank: 73000000
-Exp : 61913741
+Exp : 90904417
 Econ: 0
 ARnk: 0
 Horh: 50/0
 Deth: 2
-Kill: 9402
+Kill: 9481
 Spar: 0
-Trak: torch
 Affs:
-74 2 4 19 0 4
-34 15 0 0 4096 2
-3 15 2 18 0 4
-1 15 12 17 0 4
-36 20 0 0 128 66
-19 18 0 0 8 1
 39 21 3 1 0 3
+19 25 0 0 8 1
+138 29 0 0 262144 387
+1 15 12 17 0 4
+3 15 2 18 0 4
+34 24 0 0 4096 2
 0 0 0 0 0

@@ -1,14 +1,10 @@
 Name: Rodek
 Pass: RosVKq2lp3
-Titl: &Dthe Thief.&n
+Titl: &rKill bodies&n [&RU&YS&RM&YC&n]
 PreT: 
 Pos : 12
 Desc:
 Nothing.
-He is a handsome man, very tall and slender with a gleam in his blue eye.
-He walks with sort of a limp and he leans on his staff. He smells of 
-expensive cologne and wears nothing but the best equipment.  His sly ways
-seem to intrigue you.
 ~
 Sex : 1
 Clas: 2
@@ -19,14 +15,15 @@ LMge: 60
 LClr: 60
 Home: 1
 Brth: 1140395601
-Plyd: 1305990
-Last: 1195753264
+Plyd: 1318310
+Last: 1196044357
 Host: 12-205-198-65.client.mchsi.com
 Hite: 199
 Wate: 174
-Alin: 402
+Alin: -163
 Id  : 411
-Act : 14682304
+Act : 14682240
+Aff : i
 Skil:
 1 4
 3 4
@@ -84,30 +81,30 @@ Room: 200
 Hrom: 0
 Pref: efghknowxyBF
 Prf2: abci
-Hung: -1
-Thir: -1
-Lern: 58
+Lern: 60
 Str : 17/
-Sac : 35625
+Sac : 35841
 Int : 15
 Wis : 11
 Dex : 18
 Con : 15
 Cha : 7
-Hit : 3908/3637
-Mana: 2085/1870
-Move: 2442/2442
-Gold: 363410
-Bank: 20000000
-Exp : 180139256
+Hit : 3942/3671
+Mana: 2109/1894
+Move: 2464/2466
+Gold: 2871981
+Bank: 3000000
+Exp : 27979604
 Econ: 0
 ARnk: 0
 Relg: 2
 Horh: 50/0
-Deth: 2
-Kill: 40677
-Gmst: 18
+Deth: 3
+Kill: 40894
+Gmst: 19
 Spar: 50
 Trak: ot
 Affs:
+1 11 12 17 0 4
+39 11 3 1 0 3
 0 0 0 0 0

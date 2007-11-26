@@ -14,12 +14,12 @@ LMge: 60
 LClr: 60
 Home: 1
 Brth: 1120591705
-Plyd: 2224600
-Last: 1195742896
+Plyd: 2267020
+Last: 1195920429
 Host: unin-20-01-075.dsl.netins.net
 Hite: 162
 Wate: 146
-Alin: 112
+Alin: -14
 Id  : 245
 Act : 14682240
 Aff : i
@@ -85,25 +85,25 @@ Skil:
 0 0
 Wimp: 800
 Frez: 64
-Room: 100
+Room: 6888
 Hrom: 0
 Pref: efghnowxyBCF
 Prf2: abci
 Hung: -1
 Thir: -1
 Str : 18/
-Sac : 4701
+Sac : 4866
 Int : 18
 Wis : 18
 Dex : 18
 Con : 18
 Cha : 18
-Hit : 1087/2734
-Mana: 1525/3816
-Move: 1452/1782
-Gold: 2627242
+Hit : 724/2734
+Mana: 31/3816
+Move: 1782/1782
+Gold: 21274517
 Bank: 98000000
-Exp : 15940000
+Exp : 73853803
 Econ: 0
 ARnk: 0
 Rmac: 1
@@ -111,11 +111,12 @@ Relg: 3
 Part: Jotun
 Horh: 50/0
 Deth: 6
-Kill: 14036
+Kill: 14078
 Gmst: 38
 Spar: 200
 Trak: ott
 Affs:
-19 39 0 0 8 1
-74 0 8 19 0 8
+74 4 8 19 0 8
+19 31 0 0 8 1
+36 1 0 0 128 8
 0 0 0 0 0

@@ -1,25 +1,27 @@
 Name: Aesop
 Pass: Ae4sKMrQnc
-Titl: the Pure Hero
+Titl: &Dno&R&lVacancy&n
 PreT: 
 Pos : 12
 Sex : 1
 Levl: 60
-LThf: 15
-LWar: 22
+LThf: 28
+LWar: 30
 LMge: 60
 LClr: 30
 Home: 1
 Brth: 1193792763
-Plyd: 256340
-Last: 1195797397
+Plyd: 303800
+Last: 1196042900
 Host: cpe001a7088544d-cm0012c9daf922
 Hite: 179
 Wate: 164
-Alin: 220
+Alin: -150
 Id  : 754
-Act : 14682304
+Act : 14682240
+Aff : i
 Skil:
+4 3
 14 1
 19 1
 23 10
@@ -33,6 +35,7 @@ Skil:
 36 8
 39 5
 42 1
+48 7
 52 1
 55 5
 56 1
@@ -47,37 +50,34 @@ Skil:
 143 2
 152 1
 156 10
-160 8
+160 10
+161 2
+162 1
 0 0
-Wimp: 100
+Wimp: 300
 Room: 200
 Hrom: 0
-Pref: efghjnowxyB
+Pref: efghnowxyB
 Prf2: abcij
-Hung: -1
-Thir: -1
-Lern: 2
+Lern: 8
 Str : 15/
-Sac : 5046
+Sac : 5199
 Int : 18
-Wis : 15
+Wis : 14
 Dex : 14
 Con : 13
 Cha : 13
-Hit : 633/1013
-Mana: 1133/1780
-Move: 497/649
-Gold: 4637931
-Bank: 15000000
-Exp : 1844295
+Hit : 1226/1156
+Mana: 1710/1780
+Move: 754/754
+Gold: 1995402
+Bank: 13000000
+Exp : 28789
 Econ: 259
 ARnk: 0
 Horh: 50/0
-Deth: 5
-Kill: 5572
-Spar: 0
+Deth: 6
+Kill: 5986
 Affs:
-36 2 0 0 128 8
-39 37 5 1 0 5
-19 69 0 0 8 1
+19 41 0 0 8 1
 0 0 0 0 0
