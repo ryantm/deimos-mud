@@ -12,12 +12,12 @@ LMge: 45
 LClr: 45
 Home: 1
 Brth: 1157208952
-Plyd: 314790
-Last: 1195791160
-Host: cpe-65-24-199-37.insight.res.r
+Plyd: 317870
+Last: 1195859203
+Host: c-68-84-29-180.hsd1.fl.comcast
 Hite: 162
 Wate: 147
-Alin: -229
+Alin: -170
 Id  : 581
 Act : 14682304
 Skil:
@@ -56,7 +56,7 @@ Skil:
 137 1
 138 1
 139 10
-140 1
+140 10
 143 8
 144 10
 149 10
@@ -69,38 +69,37 @@ Skil:
 162 1
 0 0
 Wimp: 400
-Room: 200
+Room: 214
 Hrom: 0
 Pref: efghnowxyB
 Prf2: abci
 Hung: -1
 Thir: -1
-Lern: 13
+Lern: 4
 Str : 18/
-Sac : 649
+Sac : 654
 Int : 18
 Wis : 18
 Dex : 18
 Con : 18
 Cha : 18
 Hit : 2437/2431
-Mana: 726/1060
-Move: 1375/1797
-Gold: 14752253
+Mana: 1260/1060
+Move: 1786/1797
+Gold: 16134979
 Bank: 73000000
-Exp : 80574447
+Exp : 90904417
 Econ: 0
 ARnk: 0
 Horh: 50/0
 Deth: 2
-Kill: 9433
+Kill: 9481
 Spar: 0
-Trak: spined
 Affs:
-39 17 3 1 0 3
+39 20 3 1 0 3
+19 24 0 0 8 1
+138 28 0 0 262144 387
+1 14 12 17 0 4
+3 14 2 18 0 4
 34 23 0 0 4096 2
-3 23 -1 24 0 0
-3 23 2 18 0 4
-1 23 12 17 0 4
-138 9 0 0 262144 387
 0 0 0 0 0

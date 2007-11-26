@@ -1,25 +1,27 @@
 Name: Aesop
 Pass: Ae4sKMrQnc
-Titl: the Pure Hero
+Titl: Rocks
 PreT: 
 Pos : 12
 Sex : 1
 Levl: 60
 LThf: 15
-LWar: 17
+LWar: 27
 LMge: 60
 LClr: 30
 Home: 1
 Brth: 1193792763
-Plyd: 249200
-Last: 1195784340
+Plyd: 272930
+Last: 1195951729
 Host: cpe001a7088544d-cm0012c9daf922
 Hite: 179
 Wate: 164
-Alin: 238
+Alin: 162
 Id  : 754
 Act : 14682240
 Skil:
+4 3
+14 1
 19 1
 23 10
 24 2
@@ -28,7 +30,8 @@ Skil:
 29 1
 31 1
 33 2
-36 7
+35 1
+36 8
 39 5
 42 1
 52 1
@@ -45,33 +48,36 @@ Skil:
 143 2
 152 1
 156 10
-160 8
+160 10
 0 0
-Wimp: 100
+Wimp: 200
 Room: 200
 Hrom: 0
-Pref: efghjnowxyB
+Pref: efghnowxyB
 Prf2: abcij
 Hung: -1
 Thir: -1
+Lern: 2
 Str : 15/
-Sac : 5042
+Sac : 5093
 Int : 18
-Wis : 15
+Wis : 14
 Dex : 14
 Con : 13
 Cha : 13
-Hit : 981/985
-Mana: 1211/1780
-Move: 617/624
-Gold: 4318205
+Hit : 563/1048
+Mana: 204/1780
+Move: 676/678
+Gold: 3746589
 Bank: 15000000
-Exp : 2221588
+Exp : 2449604
 Econ: 259
 ARnk: 0
 Horh: 50/0
-Deth: 4
-Kill: 5513
-Spar: 0
+Deth: 6
+Kill: 5764
 Affs:
+39 25 5 1 0 5
+36 1 0 0 128 8
+74 2 8 19 0 8
 0 0 0 0 0

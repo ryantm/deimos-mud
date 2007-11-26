@@ -2338,7 +2338,7 @@ SPECIAL(meta_physician)
             }
     }
 
-     /* If it gets this far, show them the menu */
+      /* If it gets this far, show them the menu */
       send_to_char("\r\n", ch);
       send_to_char("Select an operation from the following...\r\n",ch);
       send_to_char("_____________________________ \r\n",ch);
@@ -2347,25 +2347,8 @@ SPECIAL(meta_physician)
       send_to_char("Health            40k \r\n",ch);
       send_to_char("Mana              40k \r\n",ch);
       send_to_char("Move              30k \r\n",ch);   
-      send_to_char("Banish            10mil\r\n",ch);
       send_to_char("------ \r\n",ch);
-   
       return 1;}
-    if(CMD_IS("banish"))
-    {
-      if(GET_GOLD(ch) < 10000000)
-      { 
-       send_to_char("You do not have enough gold to banish hunger and thirst.\r\n", ch);
-       return TRUE;     
-      }
-      GET_COND(ch, FULL) = (char) -1;
-      GET_COND(ch, THIRST) = (char) -1;
-      GET_GOLD(ch)  -= 10000000;
-
-      send_to_char("Your hunger and thirst are banished(Gold Taken).\r\n", ch);
-      return TRUE;
-    }
-
  return 0;
 }
 

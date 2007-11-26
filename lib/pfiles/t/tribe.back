@@ -8,16 +8,16 @@ Clas: 3
 Levl: 60
 LThf: 60
 LWar: 60
-LMge: 45
-LClr: 47
+LMge: 47
+LClr: 50
 Home: 1
 Brth: 1193300652
-Plyd: 398370
-Last: 1195635293
+Plyd: 433370
+Last: 1196014632
 Host: cpe-66-67-129-39.rochester.res
 Hite: 164
 Wate: 158
-Alin: -210
+Alin: -24
 Id  : 751
 Act : 14682240
 Skil:
@@ -69,39 +69,36 @@ Skil:
 161 5
 162 1
 0 0
-Wimp: 1730
-Room: 200
+Wimp: 1750
+Room: 1513
 Hrom: 0
 Pref: efghnowxyB
 Prf2: abci
-Hung: -1
-Thir: -1
-Lern: 11
+Lern: 16
 Str : 18/
 Sac : 7
 Int : 18
 Wis : 16
 Dex : 17
 Con : 18
-Cha : 13
-Hit : 2806/3476
-Mana: 272/1118
-Move: 1468/1517
-Gold: 22286377
+Cha : 14
+Hit : 3521/3514
+Mana: 876/1156
+Move: 875/1552
+Gold: 12218985
 Bank: 128000000
-Exp : 42992835
+Exp : 29280123
 Econ: 0
 ARnk: 0
 Horh: 50/0
 Deth: 2
-Kill: 14596
+Kill: 16027
 Spar: 0
 Affs:
-36 2 0 0 128 6
-74 3 6 19 0 6
-3 22 -1 24 0 0
-3 22 3 18 0 6
-1 22 18 17 0 6
-34 22 0 0 4096 3
-19 655 0 0 8 12
+19 575 0 0 8 12
+3 6 3 18 0 6
+3 6 -1 24 0 0
+1 6 18 17 0 6
+34 6 0 0 4096 3
+74 1 6 19 0 6
 0 0 0 0 0

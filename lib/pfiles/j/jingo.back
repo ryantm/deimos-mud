@@ -1,5 +1,5 @@
 Name: Jingo
-Pass: JiujRNEADo
+Pass: JiA4E2vs4t
 Titl: &GO&rg&BN&Ri&GJ&n
 PreT: 
 Pos : 12
@@ -11,18 +11,19 @@ Clas: 3
 Levl: 60
 LThf: 60
 LWar: 60
-LMge: 45
-LClr: 55
+LMge: 48
+LClr: 56
 Home: 1
 Brth: 1118249876
-Plyd: 1313060
-Last: 1158897497
-Host: unin-14-190.dsl.netins.net
+Plyd: 1496670
+Last: 1195928751
+Host: unin-20-01-075.dsl.netins.net
 Hite: 163
 Wate: 167
-Alin: 5
+Alin: -129
 Id  : 194
-Act : 14682304
+Act : 14682240
+Aff : i
 Skil:
 1 1
 3 6
@@ -74,34 +75,36 @@ Skil:
 162 1
 0 0
 Wimp: 500
-Room: 212
+Room: 100
 Hrom: 0
-Pref: efghnowxBCF
+Pref: efghnowxyBCF
 Prf2: abci
 Hung: -1
 Thir: -1
-Lern: 17
+Lern: 21
 Str : 18/
-Sac : 2995
+Sac : 3582
 Int : 13
 Wis : 17
 Dex : 17
 Con : 16
 Cha : 11
-Hit : 3748/3477
-Mana: 1198/1071
-Move: 1440/1440
-Gold: 3363151
-Exp : 31743383
+Hit : 2611/3515
+Mana: 1181/1097
+Move: 1468/1468
+Gold: 976358
+Exp : 35672686
 Econ: 0
 ARnk: 0
 Relg: 2
 Horh: 50/0
 Deth: 1
-Kill: 10771
+Kill: 11354
 Spar: 101
 Trak: ott
 Affs:
-19 143 0 0 8 1
-36 1 0 0 128 6
+36 2 0 0 128 6
+74 2 6 19 0 6
+19 15 0 0 8 1
+138 20 0 0 262144 387
 0 0 0 0 0

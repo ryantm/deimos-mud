@@ -2,20 +2,22 @@ Name: Medusa
 Pass: MePNsD337H
 Titl: the Witch
 PreT: 
+Pos : 12
 Sex : 2
 Levl: 35
 LMge: 35
 Home: 1
 Brth: 1192117791
-Plyd: 28700
-Last: 1195465405
+Plyd: 31500
+Last: 1196008226
 Host: cpe-66-67-129-39.rochester.res
 Hite: 157
 Wate: 133
 Alin: 27
 Id  : 743
-Act : 1050752
+Act : 2176
 Skil:
+19 1
 26 10
 30 1
 31 1
@@ -27,13 +29,11 @@ Skil:
 156 10
 0 0
 Wimp: 70
-Room: -1
+Room: 200
 Hrom: 0
 Pref: efghnowxyBD
 Prf2: abci
-Hung: 6
-Thir: 6
-Lern: 3
+Lern: 2
 Str : 14/
 Sac : 3
 Int : 18
@@ -41,14 +41,14 @@ Wis : 16
 Dex : 16
 Con : 13
 Cha : 13
-Hit : -133/190
-Mana: 531/653
+Hit : 166/190
+Mana: 633/653
 Move: 179/179
-Exp : 13848103
+Exp : 231494
 Econ: 0
 ARnk: 0
 Horh: 50/0
-Deth: 141
+Deth: 232
 Kill: 764
 Spar: 0
 Affs:

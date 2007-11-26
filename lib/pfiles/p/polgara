@@ -2,7 +2,7 @@ Name: Polgara
 Pass: PoWvHTQWfZ
 Titl: the Sorceress
 PreT: 
-Pos : 9
+Pos : 12
 Desc:
 Nothing.
 ~
@@ -14,12 +14,12 @@ LMge: 60
 LClr: 60
 Home: 1
 Brth: 1120591705
-Plyd: 2254420
-Last: 1195772243
+Plyd: 2294950
+Last: 1196022563
 Host: unin-20-01-075.dsl.netins.net
 Hite: 162
 Wate: 146
-Alin: -30
+Alin: 311
 Id  : 245
 Act : 14682304
 Skil:
@@ -67,7 +67,7 @@ Skil:
 137 1
 138 6
 139 1
-140 1
+140 3
 143 4
 144 6
 149 6
@@ -82,27 +82,25 @@ Skil:
 161 2
 162 1
 0 0
-Wimp: 800
+Wimp: 1000
 Frez: 64
 Room: 100
 Hrom: 0
-Pref: efghnowxyzBCF
+Pref: efghnowxyBC
 Prf2: abci
-Hung: -1
-Thir: -1
 Str : 18/
-Sac : 4725
+Sac : 5030
 Int : 18
 Wis : 18
 Dex : 18
 Con : 18
 Cha : 18
-Hit : 2955/2734
-Mana: 4091/3816
-Move: 1782/1782
-Gold: 5560959
-Bank: 98000000
-Exp : 57416888
+Hit : 2758/2758
+Mana: 3860/3860
+Move: 1796/1796
+Gold: 709021
+Bank: 71000000
+Exp : 5202440
 Econ: 0
 ARnk: 0
 Rmac: 1
@@ -110,9 +108,10 @@ Relg: 3
 Part: Jotun
 Horh: 50/0
 Deth: 6
-Kill: 14060
-Gmst: 38
+Kill: 14223
+Gmst: 39
 Spar: 200
 Trak: ott
 Affs:
+19 25 0 0 8 1
 0 0 0 0 0

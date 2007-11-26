@@ -2,15 +2,15 @@ Name: Lesray
 Pass: LeGPmqtklC
 Titl: the Kamikaze
 PreT: 
-Pos : 12
+Pos : 9
 Sex : 1
 Levl: 28
 LMge: 28
 Home: 1
 Brth: 1192755897
-Plyd: 20020
-Last: 1195540803
-Host: cpe001a7088544d-cm0012c9daf922
+Plyd: 20300
+Last: 1195888233
+Host: cpe001346a5a317-cm0011e6ede9a8
 Hite: 162
 Wate: 180
 Alin: 34
@@ -28,10 +28,10 @@ Skil:
 Wimp: 10
 Room: 200
 Hrom: 0
-Pref: aefghnowxyBDF
+Pref: efghnowxyBDF
 Prf2: abcij
-Hung: 24
-Thir: 24
+Hung: 20
+Thir: 20
 Lern: 1
 Str : 14/
 Sac : 73
@@ -40,14 +40,14 @@ Wis : 15
 Dex : 15
 Con : 13
 Cha : 11
-Hit : 33/109
-Mana: 242/432
-Move: 138/138
-Exp : 23853
+Hit : 1/109
+Mana: 332/432
+Move: 71/138
+Exp : 22214
 Econ: 0
 ARnk: 0
 Horh: 50/0
-Deth: 352
+Deth: 354
 Kill: 68
 Spar: 0
 Affs:

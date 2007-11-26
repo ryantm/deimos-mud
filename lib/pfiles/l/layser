@@ -10,8 +10,8 @@ LWar: 40
 Home: 1
 Brth: 1111124065
 Plyd: 72100
-Last: 1195540754
-Host: cpe001a7088544d-cm0012c9daf922
+Last: 1195887947
+Host: cpe001346a5a317-cm0011e6ede9a8
 Hite: 182
 Wate: 162
 Alin: 284
@@ -25,7 +25,7 @@ Skil:
 161 5
 0 0
 Wimp: 50
-Room: 291
+Room: 200
 Hrom: 0
 Pref: efghknowxBF
 Prf2: abci
@@ -41,7 +41,7 @@ Con : 15
 Cha : 12
 Hit : 550/580
 Mana: 150/100
-Move: 250/254
+Move: 246/254
 Gold: 447297
 Bank: 20094017
 Exp : 686167

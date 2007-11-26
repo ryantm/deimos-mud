@@ -1,6 +1,6 @@
 Name: Apollo
 Pass: ArbJQsMF2e
-Titl: 13 HOUSTON WE'VE HAD A PROBLEM
+Titl: 
 PreT: 
 Pos : 12
 Desc:
@@ -11,16 +11,16 @@ Clas: 1
 Levl: 60
 LThf: 34
 LWar: 38
-LMge: 45
+LMge: 46
 LClr: 60
 Home: 1
 Brth: 1110843614
-Plyd: 282030
-Last: 1195757647
-Host: d53-64-76-246.nap.wideopenwest
+Plyd: 289940
+Last: 1196041819
+Host: 74-134-249-36.dhcp.insightbb.c
 Hite: 170
 Wate: 126
-Alin: -167
+Alin: 15
 Id  : 481
 Act : 15206592
 Skil:
@@ -34,7 +34,7 @@ Skil:
 31 1
 34 5
 36 10
-38 5
+38 6
 39 4
 42 1
 44 1
@@ -70,36 +70,34 @@ Room: 291
 Hrom: 0
 Pref: efghnowxyBCF
 Prf2: abcgi
-Hung: 24
-Thir: 24
 Str : 17/
-Sac : 6270
+Sac : 6403
 Int : 18
 Wis : 17
 Dex : 16
 Con : 17
 Cha : 10
-Hit : 2311/2066
-Mana: 1043/1542
-Move: 879/883
-Gold: 20455662
+Hit : 2347/2072
+Mana: 1583/1558
+Move: 884/888
+Gold: 17716521
 Bank: 40000000
-Exp : 18894224
+Exp : 15174307
 Econ: 0
 ARnk: 0
 Rank: 2
 Horh: 50/0
 Deth: 2
-Kill: 6274
+Kill: 6407
 Spar: 112
-Trak: ixixox
+Trak: jimmy
 Affs:
-67 1 0 0 131072 5
-19 251 0 0 8 1
-74 0 10 19 0 10
-1 25 30 17 0 10
-34 25 0 0 4096 5
-39 27 4 1 0 4
-3 25 5 18 0 10
-3 25 -1 24 0 0
+39 14 4 1 0 4
+19 231 0 0 8 1
+1 7 30 17 0 10
+3 7 5 18 0 10
+3 7 -1 24 0 0
+50 15 0 0 1024 1
+36 0 0 0 128 10
+74 2 10 19 0 10
 0 0 0 0 0

@@ -2654,7 +2654,7 @@ int load_char(char *name, struct char_data *ch)
        else if(!strcmp(tag, "Hrol"))
          GET_HITROLL(ch) = PFDEF_HITROLL;
        else if(!strcmp(tag, "Hung"))
-        GET_COND(ch, FULL) = num;
+        GET_COND(ch, FULL) = -1;
        break;                
 
       case 'I':
@@ -2787,7 +2787,7 @@ int load_char(char *name, struct char_data *ch)
 
       case 'T':
        if(!strcmp(tag, "Thir"))
-         GET_COND(ch, THIRST) = num;
+         GET_COND(ch, THIRST) = -1;
        else if(!strcmp(tag, "Thr1"))
          GET_SAVE(ch, 0) = num;
        else if(!strcmp(tag, "Thr2"))

@@ -12,14 +12,14 @@ LMge: 60
 LClr: 60
 Home: 1
 Brth: 1094869702
-Plyd: 5460
-Last: 1145419603
-Host: mcn40152.urh.uiuc.edu
+Plyd: 6090
+Last: 1195842126
+Host: d53-64-76-246.nap.wideopenwest
 Hite: 193
 Wate: 132
-Alin: 12
+Alin: -18
 Id  : 379
-Act : 2240
+Act : 2176
 Skil:
 1 6
 3 6
@@ -73,37 +73,36 @@ Skil:
 158 8
 159 8
 160 4
-161 5
+161 2
 162 1
 0 0
 Wimp: 400
-Room: 203
+Room: 291
 Hrom: 0
 Pref: efghknowxyBDEF
 Prf2: abci
-Badp: 2
-Hung: 24
-Thir: 24
+Hung: 15
+Thir: 15
 Lern: 40
 Str : 25/
-Sac : 6
+Sac : 8
 Int : 25
 Wis : 25
 Dex : 25
 Con : 25
 Cha : 18
-Hit : 5061/5000
-Mana: 1535/1500
-Move: 1779/1800
-Gold: 102154
+Hit : 2271/5000
+Mana: 1500/1500
+Move: 1798/1800
+Gold: 241386
 Bank: 1000
-Exp : 926602
+Exp : 2028902
 Econ: 0
 ARnk: 0
-Horh: 50/0
-Kill: 6
+Horh: 0/0
+Kill: 8
 Spar: 0
 Affs:
-36 1 0 0 128 99
-138 60 0 0 262144 -1202080187
+19 24 0 0 8 1
+138 51 0 0 262144 -1202080187
 0 0 0 0 0

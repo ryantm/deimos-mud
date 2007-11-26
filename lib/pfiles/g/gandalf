@@ -14,9 +14,9 @@ LMge: 60
 LClr: 60
 Home: 1
 Brth: 1110307241
-Plyd: 1488550
-Last: 1193807621
-Host: ppp-70-247-100-77.dsl.rcsntx.s
+Plyd: 1488830
+Last: 1195833278
+Host: 70.246.118.93
 Hite: 197
 Wate: 150
 Alin: -19
@@ -77,19 +77,19 @@ Skil:
 161 2
 162 1
 0 0
-Room: 200
+Room: 291
 Hrom: 0
 Pref: efghnowxyB
 Prf2: abci
-Hung: 20
-Thir: 21
+Hung: 16
+Thir: 17
 Str : 5/
 Sac : 36349
 Int : 2
 Wis : 5
 Cha : 3
-Hit : 1484/1777
-Mana: 150/2469
+Hit : 676/1777
+Mana: 1459/2469
 Move: 706/706
 Exp : 22781
 Econ: 0
@@ -102,6 +102,4 @@ Gmst: 10
 Spar: 63
 Trak: otter
 Affs:
-36 3 0 0 128 8
-34 30 0 0 4096 3
 0 0 0 0 0

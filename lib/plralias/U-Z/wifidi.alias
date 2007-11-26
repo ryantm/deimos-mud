@@ -1,4 +1,34 @@
 2
+tp
+16
+use eagle wifidi
+0
+2
+rp
+14
+rescue polgara
+0
+2
+rr
+13
+recite recall
+0
+2
+bg
+6
+bash g
+0
+15
+grandmasterarea
+31
+say oztersmf sefokspef hwrpesjf
+0
+1
+b
+4
+bash
+0
+2
 hc
 15
 c 'heal' cerise
@@ -43,20 +73,10 @@ pg
 14
 c 'poison' gov
 0
-1
-b
-8
-bash gov
-0
 2
 ig
 15
 c 'icebolt' gov
-0
-2
-tp
-16
-use eagle wifidi
 0
 5
 titan
@@ -122,11 +142,6 @@ gt cha eq
 gp
 11
 get pic hav
-0
-2
-rp
-17
-recite pic wifidi
 0
 2
 ou
@@ -347,11 +362,6 @@ c 'gate' $1
 bc
 4
 bs c
-0
-2
-bg
-4
-bs g
 0
 2
 dt
@@ -637,11 +647,6 @@ bs h
 h
 8
 c 'heal'
-0
-2
-rr
-13
-recite recall
 0
 2
 br

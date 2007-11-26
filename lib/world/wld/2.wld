@@ -6,7 +6,7 @@ A large, golden statue stands shimmering in the sun from within a fountain.
 The Agora continues in all directions.  A giant map is shaped out of a mosaic
 of tiles on the ground.  A staircase down leads to the Newbie Library.
 ~
-2 u 1
+2 pu 1
 D0
 ~
 ~
@@ -84,7 +84,7 @@ merchants, and adventurers gather here from across the land to trade and barter
 here.  The Center of the Agora is to the south.  The Agora also continues to
 the west and east.  To the north begins Pollux Way.    
 ~
-2 0 1
+2 p 1
 D0
 ~
 ~
@@ -110,7 +110,7 @@ merchants, and adventurers gather here from across the land to trade and barter
 here.  The Center of the Agora is to the west.  The Agora also continues to the
 north and south.  To the east is the entrance to the Mosque of Phobos.
 ~
-2 0 1
+2 p 1
 D0
 ~
 ~
@@ -135,7 +135,7 @@ merchants, and adventurers gather here from across the land to trade and barter
 here.  The Center of the Agora is to the north.  The Agora continues to the
 east and west.  To the south begins Egeria Road.    
 ~
-2 0 1
+2 p 1
 D0
 ~
 ~
@@ -160,7 +160,7 @@ merchants, and adventurers gather here from across the land to trade and barter
 here.  The Center of the Agora is to the east.  The Agora also continues to the
 north and south.  To the west begins Minerva Way.    
 ~
-2 0 0
+2 p 0
 D0
 ~
 ~
@@ -185,7 +185,7 @@ townsfolk, merchants, and adventurers come from across the land to trade and
 barter here.  The agora continues to the south and west.  To the north lies the
 armory, and to the east is a weapon shop.    
 ~
-2 0 1
+2 p 1
 D0
 ~
 ~
@@ -210,7 +210,7 @@ the townsfolk, merchants, and adventurers gather here from across the land to
 trade and barter here.  To the north lies the Jeweler's Tent, and to the west
 lies the Seamstress's Shop.  To the south and east lie more of the Agora.    
 ~
-2 0 1
+2 p 1
 D0
 ~
 ~
@@ -236,7 +236,7 @@ townsfolk, merchants, and adventurers from across the land come from across the
 land to trade and barter here.  The agora continues to the north and west.  The
 general store lies to the south, and there is a bakery to the east.    
 ~
-2 0 1
+2 p 1
 D0
 ~
 ~
@@ -262,7 +262,7 @@ townsfolk, merchants, and adventurers gather here from across the land to trade
 and barter here.  The agora continues to the north and east.  To the south
 there is a scribe's shop, and to the west there is a magic shop.    
 ~
-2 0 1
+2 p 1
 D0
 ~
 ~
@@ -290,7 +290,7 @@ weaponsmith has a small desk at the front of the room, where he waits for
 customers to decide what they would like to purchase.  The only exit lies the
 the west, and leads back into the Agora of Phobos.    
 ~
-2 0 0
+2 p 0
 D3
 ~
 ~
@@ -304,7 +304,7 @@ with many bread products.  Many of the freshly baked ones are in a glass
 covered case that also acts as the checkout counter.  The only exit is to the
 west, which leads back to the Agora of Phobos.    
 ~
-2 0 0
+2 p 0
 D3
 ~
 ~
@@ -318,7 +318,7 @@ store.  The walls of the store are covered by torches and other goodies for
 sale.  There is a large wooden desk near the front door, behind which the owner
 usually sits.  The only exit lies to the north, leading back into the Agora.  
 ~
-2 0 0
+2 p 0
 D0
 ~
 ~
@@ -334,29 +334,11 @@ pierce through the air, as chunks of hot metal are forged into new weapons.
 On one wall is a paper with instructions on how to forge new weapons.  The only
 exit lies to the west, leading back onto Ceres Lane.    
 ~
-2 0 0
+2 p 0
 D3
 ~
 ~
 0 0 244
-E
-armor~
-Armor                      Code     &WTin&n &RCopp&n &DIron&n &YGold &CTita&n
-Tin Strip-Link Belt        TSLB     &W20&n    &R5&n    -    -    -  
-Copper Handshield          CHS       -   &R25&n    -    -    -
-Iron Vizzer                IV        -    -   &D25&n    -    -
-Iron Sleeves               ISLV      -    -   &D25&n    -    -
-Five Linked Steel Rings    FLSR      -    -   &D50&n    -    - 
-Linkbronze Cape            LKCP     &W10&n   &R15&n    -    &Y1&n    -
-Golden Greaves             GG        -    -    -   &Y25&n    -
-Gildflower Pendant         GFP       -    -    -   &Y20&n    &C5&n
-Twice Titan Choker         TTC       -    &R3&n    -    &Y3&n   &C10&n
-Puregild Ring              PGRG      -    -    -   &Y10&n   &C10&n
-Twincrescent Signet        TCSG      -    -    -   &Y10&n   &C10&n
-Titanium Galoshes          TGS       -    -    -    -   &C50&n
-Pure-Amalgam Tower Shield  PATS     &W20&n   &R20&n   &D20&n   &Y20&n   &C20&n
-Titanium Plate Mail        TPM       -    -    -    -  &C100&n
-~
 E
 paper instructions wall~
 
@@ -395,6 +377,24 @@ paper instructions wall~
 
 There are also forgable armors listed next to this. To look at those type LOOK ARMOR.
 ~
+E
+armor~
+Armor                      Code     &WTin&n &RCopp&n &DIron&n &YGold &CTita&n
+Tin Strip-Link Belt        TSLB     &W20&n    &R5&n    -    -    -  
+Copper Handshield          CHS       -   &R25&n    -    -    -
+Iron Vizzer                IV        -    -   &D25&n    -    -
+Iron Sleeves               ISLV      -    -   &D25&n    -    -
+Five Linked Steel Rings    FLSR      -    -   &D50&n    -    - 
+Linkbronze Cape            LKCP     &W10&n   &R15&n    -    &Y1&n    -
+Golden Greaves             GG        -    -    -   &Y25&n    -
+Gildflower Pendant         GFP       -    -    -   &Y20&n    &C5&n
+Twice Titan Choker         TTC       -    &R3&n    -    &Y3&n   &C10&n
+Puregild Ring              PGRG      -    -    -   &Y10&n   &C10&n
+Twincrescent Signet        TCSG      -    -    -   &Y10&n   &C10&n
+Titanium Galoshes          TGS       -    -    -    -   &C50&n
+Pure-Amalgam Tower Shield  PATS     &W20&n   &R20&n   &D20&n   &Y20&n   &C20&n
+Titanium Plate Mail        TPM       -    -    -    -  &C100&n
+~
 P
 forge
 S
@@ -408,7 +408,7 @@ wall of great mages who have left the earth seem to watch whoever passes
 through the hallway at the same time.  The Mages' Experimenting Room is to the
 south, while Juno Road lies to the east.    
 ~
-2 c 0
+2 cp 0
 D1
 ~
 ~
@@ -429,7 +429,7 @@ sometimes explosive, leaving dark marks on the stone walls.  The magical items
 rest on shelves all throughout the store.  To the east you can hear the many
 sounds of the busy Agora of Phobos.    
 ~
-2 0 0
+2 p 0
 D1
 ~
 ~
@@ -444,7 +444,7 @@ round table sitting in the center of the room.  The floor is a simple layer of
 dirt, and the room is poorly lit by a lantern in the corner of the room.  The
 only exit lies to the west, leading to Egeria Road.    
 ~
-2 0 0
+2 p 0
 D3
 ~
 ~
@@ -457,7 +457,7 @@ eastern edge of Phobos.  Bordering the pathway's eastern side is the city wall
 of Phobos.  To the south the path continues, and to the north lies the edge of
 town.  To the west lies the enterance to the Cleric's Guild.    
 ~
-2 0 1
+2 p 1
 D0
 ~
 ~
@@ -480,7 +480,7 @@ The store owner sits behind a desk along one wall, waiting to help those who
 need him.  The only exit lies to the west, and leads back to Ceres Lane.    
 Type Buy to see a list, then e.g. Buy health. You must be level 60 or above.
 ~
-2 0 0
+2 p 0
 D3
 ~
 ~
@@ -524,7 +524,7 @@ Pollux Way~
 grow along the road side.  To the south, you hear the insanely loud sound of a
 cow mooing, and the pathway continues to the north.    
 ~
-2 0 1
+2 p 1
 D0
 ~
 ~
@@ -540,7 +540,7 @@ A Small Dirt Path~
 when walked upon.  Many trees boarder the road side.  To the east lies the
 eastern gate of Phobos and to the west lies Juno Road.    
 ~
-2 0 1
+2 p 1
 D1
 ~
 ~
@@ -560,7 +560,7 @@ commoners can make some clothing of their own tastes as well.  There is a desk
 at the front of the room, where people pay for the items they wish to purchase.
 The only exit lies to the east, and leads to the Agora of Phobos.    
 ~
-2 0 0
+2 p 0
 D1
 ~
 ~
@@ -574,7 +574,7 @@ there is a desk, covered with ink and unfinished scrolls.  Scattered around
 the room are glass containers, holding some of the more valuable and dangerous
 scrolls.  To the north you can hear the sounds of the busy Agora of Phobos.
 ~
-2 0 0
+2 p 0
 D0
 ~
 ~
@@ -587,7 +587,7 @@ Pollux Way meet, forming the edge of town.  The city walls of Phobos block
 passage to the west.  To the east begins Quirinus Street and to the south
 begins Ceres Lane.  A horrible odor drifts in from the north.    
 ~
-2 0 1
+2 p 1
 D0
 ~
 ~
@@ -618,7 +618,7 @@ eastern edge of Phobos.  Bordering the pathway's eastern side is the city wall
 of Phobos.  To the north and south the path continues.  To the west is the
 entrance to the Warriors' Guild.
 ~
-2 0 1
+2 p 1
 D0
 ~
 ~
@@ -643,7 +643,7 @@ titanium, and open outward, to further delay intruders.  Minerva Way lies to
 the east, and leads towards the Agora of Phobos.  To the west you can pass
 through the gates, and beyond the protection and safety offered by Phobos.    
 ~
-2 0 1
+2 p 1
 D1
 ~
 ~
@@ -659,7 +659,7 @@ Egeria Road~
 sunlight.  Many flowers and grasses grow along the road side.  To the north
 lies the Agora of Phobos, and to the south the road continues.    
 ~
-2 0 1
+2 p 1
 D0
 ~
 ~
@@ -678,7 +678,7 @@ condition, different factors of normal combat are controlled in this
 environment.  This allows a warrior to truly be able to test his or her
 abilities in combat.    
 ~
-2 y 0
+2 py 0
 D3
 ~
 ~
@@ -695,7 +695,7 @@ one of the many worship chambers available to the citizens of Phobos.  People
 from all across the world come here to read the message board of the Mosque,
 which is said to be read by even God himself.    
 ~
-2 e 0
+2 ep 0
 D2
 ~
 ~
@@ -708,7 +708,7 @@ eastern edge of Phobos.  Bordering the pathway's eastern side is the city wall
 of Phobos.  To the north the path continues, and to the south lies the edge of
 town.  To the west is the entrance to the Thieves' Guild.
 ~
-2 0 1
+2 p 1
 D0
 ~
 ~
@@ -731,7 +731,7 @@ one-of-a-kind crests.  There is a small room in the back used for sizing, and a
 desk near the front for purchasing items.  The only exit lies to the south, and
 leads to the Agora of Phobos.    
 ~
-2 0 0
+2 p 0
 D2
 ~
 ~
@@ -747,7 +747,7 @@ where they can be examined.  Many items made of pure gold and silver are
 scattered about.  The only exit lies to the south, and leads back to the Agora
 of Phobos.    
 ~
-2 0 0
+2 p 0
 D2
 ~
 ~
@@ -760,7 +760,7 @@ pathway leads around the western edge of Phobos.  Bordering the pathway's
 western side is the city wall of Phobos.  To the south the path continues, and
 to the north lies the edge of town.
 ~
-2 0 1
+2 p 1
 D0
 ~
 ~
@@ -778,7 +778,7 @@ about the upcoming news in Phobos and it's surronding lands.  After production,
 all newspapers are shipped off to the local general store, where they are sold
 to the public.    
 ~
-2 0 0
+2 p 0
 D3
 ~
 ~
@@ -798,7 +798,7 @@ eastern edge of Phobos.  Bordering the pathway's eastern side is the city wall
 of Phobos.  To the north the pathway continues, and to the south you hear many
 noises.    
 ~
-2 0 1
+2 p 1
 D0
 ~
 ~
@@ -823,7 +823,7 @@ titanium, and open outward, to further delay intruders.  Pollux Way lies to the
 south, and leads towards the Agora of Phobos.  To the north you can exit and
 leave the protection and safety of Phobos.    
 ~
-2 0 1
+2 p 1
 D0
 ~
 ~
@@ -840,7 +840,7 @@ sunlight.  Many flowers and grasses grow along the road side.  To the east
 lies the house of the town's wise man, and to the north and south the road
 continues.    
 ~
-2 0 1
+2 p 1
 D0
 ~
 ~
@@ -861,7 +861,7 @@ pathway leads around the eastern edge of Phobos.  Bordering the pathway's
 western side is the city wall of Phobos.  To the east is the bank of Phobos.  
 To the south the path continues.  To the north you hear many noises.    
 ~
-2 0 1
+2 p 1
 D0
 ~
 ~
@@ -886,7 +886,7 @@ titanium, and open outward, to further delay intruders.  A small pathway lies
 to the west.  To the east you can pass through the gate, out of the protection
 of the city of Phobos.    
 ~
-2 0 0
+2 p 0
 D1
 ~
 ~
@@ -904,7 +904,7 @@ people have said the wrong thing, as all the furniture in the room is
 completely destroyed from many fights.  Blood stains can be found almost
 everywhere.  To the south lies the training yard, and to the east is Juno Road.
 ~
-2 c 0
+2 cp 0
 D1
 ~
 ~
@@ -920,7 +920,7 @@ Juno Road~
 eastern edge of Phobos.  To the east lies another small pathway, leading to the
 city's eastern gate.  To the west is the entrance to the Mages' Guild.
 ~
-2 0 1
+2 p 1
 D0
 ~
 ~
@@ -949,7 +949,7 @@ eastern edge of Phobos.  Bordering the pathway's eastern side is the city wall
 of Phobos.  To the south the pathway continues, and to the north you hear many
 noises.    
 ~
-2 0 1
+2 p 1
 D0
 ~
 ~
@@ -966,7 +966,7 @@ pathway leads around the western edge of Phobos.  Bordering the pathway's
 western side is the city wall of Phobos.  To the north and south the path
 continues.  To the east you can hear the loud clang of metal against metal.  
 ~
-2 0 1
+2 p 1
 D0
 ~
 ~
@@ -986,7 +986,7 @@ Juno Road~
 eastern edge of Phobos.  Bordering the pathway's eastern side is the city wall
 of Phobos.  To the north and south the path continues.    
 ~
-2 0 1
+2 p 1
 D0
 ~
 ~
@@ -1007,7 +1007,7 @@ carved from the rock.  The dim light makes it slightly hard to navigate.
 Stalactites hang down from the ceiling, some making a slight dripping noise
 evident in the background.    
 ~
-2 0 0
+2 p 0
 D1
 ~
 ~
@@ -1023,7 +1023,7 @@ Pollux Way~
 grow along the road side.  To the south, you hear the many sounds of a bustling
 intersection, and to the north lies the northern gate of Phobos.    
 ~
-2 0 1
+2 p 1
 D0
 ~
 ~
@@ -1040,7 +1040,7 @@ meet, forming a crowded, bustling intersection.  To the east and west, Janus
 Avenue continues, and to the north and south lies Egeria Road.  Below your feet
 you see a few bloodied wooden boards.    
 ~
-2 0 1
+2 p 1
 D0
 ~
 ~
@@ -1070,7 +1070,7 @@ pathway leads around the western edge of Phobos.  Bordering the pathway's
 western side is the city wall of Phobos.  To the north and south the path
 continues.    
 ~
-2 0 1
+2 p 1
 D0
 ~
 ~
@@ -1092,7 +1092,7 @@ around the northern edge of Phobos.  Bordering the pathway's northern side is
 the city wall of Phobos.  To the east the pathway continues, and to the west
 you hear many noises.    
 ~
-2 0 1
+2 p 1
 D1
 ~
 ~
@@ -1111,7 +1111,7 @@ strange looking building complex.  To the west and east the path continues.
 Directly south of here is a bright red fire station that seems slightly out of
 place in this type of city.
 ~
-2 0 1
+2 p 1
 D0
 ~
 ~
@@ -1137,7 +1137,7 @@ the city wall of Phobos.  To the west the path continues, and to the east lies
 the edge of town.  There is a small gap in the respectable looking buildings to
 the south here, which seems to lead down into a disrepectable looking alleyway.
 ~
-2 0 1
+2 p 1
 D1
 ~
 ~
@@ -1158,7 +1158,7 @@ bricks of Juno Road meet, forming the edge of town.  The city walls of Phobos
 block passage to the north and east.  To the west begins Quirinus Street and to
 the south begins Juno Road.    
 ~
-2 0 1
+2 p 1
 D2
 ~
 ~
@@ -1176,7 +1176,7 @@ western side is the city wall of Phobos.  To the east is the post office of
 Phobos.  To the north the path continues, and to the south you hear many
 noises.    
 ~
-2 0 1
+2 p 1
 D0
 ~
 ~
@@ -1199,7 +1199,7 @@ always filled with fresh hay.  Flies buzz all around, but the smell of horse
 dung is virtually nonexistent.  The only exit is to the south, and leads back
 into the store.    
 ~
-2 0 0
+2 p 0
 D2
 A pair of wooden stable doors lie to the south.
 ~
@@ -1215,7 +1215,7 @@ loudly and much of the light shines through cracks in the walls.  Animals of
 all shapes and sizes view the room through wooden cages.  A small table in a
 corner of the room serves as the owner's counter.    
 ~
-2 c 0
+2 cp 0
 D0
 A stable door swings to the north.
 ~
@@ -1234,7 +1234,7 @@ A Busy Intersection~
 of Pollux Way meet, forming a crowded, bustling intersection.  To the east and
 west, Quirinus Street continues, and to the north and south lies Pollux Way.  
 ~
-2 0 1
+2 p 1
 D0
 ~
 ~
@@ -1261,11 +1261,13 @@ corner, while punching bags and weights lie in another.  There are blood stains
 throughout the training yard, due to various accidents.  The only exit lies to
 the north, leading back towards the entrance.
 ~
-2 c 0
+2 cp 0
 D0
 ~
 ~
 0 0 241
+P
+warrior_guild
 S
 #259
 Ceres Lane~
@@ -1275,7 +1277,7 @@ western side is the city wall of Phobos.  To the north the path continues, and
 to the south lies the edge of town.  A Small opening in the west wall leads to
 the famous Phobos Foot-Race Track.
 ~
-2 0 1
+2 p 1
 D0
 ~
 ~
@@ -1297,11 +1299,13 @@ healing are sitting in a corner of the room.  The room is full of the sound of
 people chanting, however, trying to cure everything from simple cuts to mortal
 wounds.  The only exit is to the east, and leads to the exit of the Guild.    
 ~
-2 c 0
+2 cp 0
 D1
 ~
 ~
 0 0 262
+P
+NONE
 S
 #261
 A Garbage Dump~
@@ -1309,7 +1313,7 @@ A Garbage Dump~
 away by the citizens of Phobos.  It reeks here of a foul rotten egg smell that
 seems to stick to anything and everything in the area.    
 ~
-2 0 0
+2 p 0
 D2
 ~
 ~
@@ -1324,7 +1328,7 @@ at peace.  Many portraits hang on the walls, of great clerics who have passed
 from this world.  Exits lie to the east and west, leading into and out of the
 sanctum.    
 ~
-2 c 0
+2 cp 0
 D1
 ~
 ~
@@ -1340,7 +1344,7 @@ Minerva Way~
 Many flowers and grasses grow along the roadside.  To the west lies the western
 gate of Phobos, and to the east the path meets another path.    
 ~
-2 0 1
+2 p 1
 D1
 ~
 ~
@@ -1356,7 +1360,7 @@ A Busy Intersection~
 meet, forming a crowded, bustling intersection.  To the east and west, Minerva
 Way continues, and to the north and south lies Ceres Lane.    
 ~
-2 0 1
+2 p 1
 D0
 ~
 ~
@@ -1381,7 +1385,7 @@ Minerva Way~
 Many flowers and grasses grow along the roadside.  To the east the pathway
 continues, and to the west the path meets another path.    
 ~
-2 0 1
+2 p 1
 D1
 ~
 ~
@@ -1397,7 +1401,7 @@ Minerva Way~
 Many flowers and grasses grow along the road side.  To the east you hear the
 insanely loud sound of a cow mooing, and to the west the pathway continues.  
 ~
-2 0 0
+2 p 0
 D1
 ~
 ~
@@ -1414,7 +1418,7 @@ Pollux Way~
 grow along the road side.  To the north, you hear the many sounds of a bustling
 intersection, and the pathway continues to the south.    
 ~
-2 0 1
+2 p 1
 D0
 ~
 ~
@@ -1435,7 +1439,7 @@ very prevalent.  The street is paved in flagstone which is also the pavement of
 the stairs that lead up toward the iron grated trapdoor.  On the wall, sconces
 provide the little light of this area.    
 ~
-2 0 0
+2 p 0
 D2
 ~
 ~
@@ -1451,7 +1455,7 @@ Egeria Road~
 sunlight.  Many flowers and grasses grow along the road side.  To the north
 lies a busy intersection, and to the south is the southern gates of Phobos.  
 ~
-2 0 1
+2 p 1
 D0
 ~
 ~
@@ -1469,7 +1473,7 @@ The townsfolk come here to worship Allah, and many of his more dedicated
 followers leave donations for the less fortunate here.  The only exit lies back
 to the north.    
 ~
-2 eh 0
+2 ehp 0
 D0
 ~
 ~
@@ -1484,7 +1488,7 @@ here is covered with extravagant carpets atop marble flooring.  The many sounds
 of Phobos' Agora can be heard coming from the west, and upwards lies the
 temple.  You can go down a separate flight of stairs to an underground hallway.
 ~
-2 0 1
+2 p 1
 D3
 ~
 ~
@@ -1497,6 +1501,8 @@ D5
 ~
 ~
 0 0 1500
+P
+gm_wall
 S
 #272
 Quirinus Street~
@@ -1504,7 +1510,7 @@ Quirinus Street~
 around the northern edge of Phobos.  Bordering the pathway's northern side is
 the city wall of Phobos.  To the west and east the path continues.    
 ~
-2 0 1
+2 p 1
 D0
 ~
 ~
@@ -1525,7 +1531,7 @@ around the northern edge of Phobos.  Bordering the pathway's northern side is
 the city wall of Phobos.  To the west the pathway continues, and to the east
 you hear many noises.    
 ~
-2 0 1
+2 p 1
 D1
 ~
 ~
@@ -1542,7 +1548,7 @@ carved from the rock.  The dim light makes it slightly hard to navigate.
 Stalactites hang down from the ceiling, some making a slight dripping noise
 evident in the background.    
 ~
-2 0 0
+2 p 0
 D0
 ~
 door~
@@ -1563,7 +1569,7 @@ carved from the rock.  The dim light makes it slightly hard to navigate.
 Stalactites hang down from the ceiling, some making a slight dripping noise
 evident in the background.    
 ~
-2 0 0
+2 p 0
 D0
 ~
 ~
@@ -1582,11 +1588,13 @@ throughout the room, covered with flasks and other such magical tools.  A large
 blackboard is on the front wall, covered with strange symbols and mathematical
 equations only the best mages can understand.    
 ~
-2 c 0
+2 cp 0
 D0
 ~
 ~
 0 0 213
+P
+mage_guild
 S
 #277
 The Warehouse~
@@ -1601,7 +1609,7 @@ in which goods may be simply dropped here and their value will be compensated
 for.  From here, the materials are shipped all around the world to the
 different stores and processed into usable goods.    
 ~
-2 d 0
+2 dp 0
 D1
 ~
 ~
@@ -1629,7 +1637,7 @@ carved from the rock.  The dim light makes it slightly hard to navigate.
 Stalactites hang down from the ceiling, some making a slight dripping noise
 evident in the background.    
 ~
-2 n 0
+2 np 0
 D0
 ~
 ~
@@ -1651,7 +1659,7 @@ are made of wooden boards, instead of stone, making the building creak in the
 wind.  Instructions are scratched into the wall.  The only exit lies to the
 west, and leads back to Ceres Lane.    
 ~
-2 e 0
+2 ep 0
 D3
 ~
 ~
@@ -1681,7 +1689,7 @@ chamber.
 
 This looks like a good place for a religion.
 ~
-2 ch 0
+2 chp 0
 D0
 ~
 ~
@@ -1709,7 +1717,7 @@ do so no longer.  The room is surprisingly clean, for all good thieves know
 better than to leave things lying around.  To the west lies the Thieves' Den,
 and to the east is Juno Road.
 ~
-2 c 0
+2 cp 0
 D1
 ~
 ~
@@ -1726,7 +1734,7 @@ carved from the rock.  The dim light makes it slightly hard to navigate.
 Stalactites hang down from the ceiling, some making a slight dripping noise
 evident in the background.    
 ~
-2 0 0
+2 p 0
 D0
 ~
 ~
@@ -1743,7 +1751,7 @@ edge of Phobos.  The city walls of Phobos borders the pathway on its southern
 edge.  The pathway continues to the east and to the west you can hear many
 noises.    
 ~
-2 0 1
+2 p 1
 D1
 ~
 ~
@@ -1759,7 +1767,7 @@ Janus Avenue~
 edge of Phobos.  The city walls of Phobos borders the pathway on its southern
 edge.  The pathway continues to the west and east.    
 ~
-2 0 1
+2 p 1
 D1
 ~
 ~
@@ -1775,7 +1783,7 @@ Janus Avenue~
 edge of Phobos.  The city walls of Phobos borders the pathway on its southern
 edge.  The pathway continues to the west and to the east is the edge of town.
 ~
-2 0 1
+2 p 1
 D1
 ~
 ~
@@ -1796,7 +1804,7 @@ meet, forming the edge of town.  The city walls of Phobos block passage to the
 south and seems to curve farther out to the east.  To the west begins Janus
 Avenue and to the north begins Juno Road.    
 ~
-2 0 1
+2 p 1
 D0
 ~
 ~
@@ -1822,7 +1830,7 @@ titanium, and open outward, to further delay intruders.  Egeria Road lies to
 the north, and leads towards the Agora of Phobos.  To the south you can pass
 through the gates, and beyond the protection and safety offered by Phobos.    
 ~
-2 0 1
+2 p 1
 D0
 ~
 ~
@@ -1842,7 +1850,7 @@ times, when there is a crisis, the fire station is willing to pay large sums of
 money to those willing to help take out the infernos before they spread.
 A Sign is here asking for your attention.
 ~
-2 0 0
+2 p 0
 D0
 ~
 ~
@@ -1869,7 +1877,7 @@ carved from the rock.  The dim light makes it slightly hard to navigate.
 Stalactites hang down from the ceiling, some making a slight dripping noise
 evident in the background.    
 ~
-2 0 0
+2 p 0
 D2
 ~
 ~
@@ -1886,7 +1894,7 @@ around the northern edge of Phobos.  Bordering the pathway's nortnern side is
 the city wall of Phobos.  To the east the path continues, and to the west lies
 the edge of town.    
 ~
-2 0 1
+2 p 1
 D0
 ~
 ~
@@ -1915,7 +1923,7 @@ mats of the inhabitants but the walls remain bare.  This room seems much
 brighter than it should from the little light the candles are emitting.  The
 only exit lies through a small, low, doorless passage to the west.    
 ~
-2 ehq 0
+2 ehpq 0
 D3
 ~
 ~
@@ -1928,7 +1936,7 @@ carved from the rock.  The dim light makes it slightly hard to navigate.
 Stalactites hang down from the ceiling, some making a slight dripping noise
 evident in the background.    
 ~
-2 0 0
+2 p 0
 D0
 ~
 ~
@@ -1945,7 +1953,7 @@ the city.  It is enormous and made almost entirely of marble.  The floor is
 carpeted, and ceiling has a mural painted on it.  There are many tables
 throughout the room and a main desk against one wall.    
 ~
-2 e 0
+2 ep 0
 D3
 ~
 ~
@@ -1957,7 +1965,7 @@ Edge of Town~
 the edge of town.  Phobos's city walls block passage to the south and east.
 Ceres Lane leads to the north, and to the east Janus Avenue begins.    
 ~
-2 0 1
+2 p 1
 D0
 ~
 ~
@@ -1973,7 +1981,7 @@ Janus Avenue~
 edge of Phobos.  The city walls of Phobos borders the pathway on its southern
 edge.  The pathway continues to the east and to the west is the edge of town.
 ~
-2 0 0
+2 p 0
 D1
 ~
 ~
@@ -1989,7 +1997,7 @@ Janus Avenue~
 Phobos.  To the south lies the city Cathedral, and the path continues to the
 east and west.    
 ~
-2 0 1
+2 p 1
 D0
 ~
 ~
@@ -2014,7 +2022,7 @@ edge of Phobos.  The city walls of Phobos border the pathway on its southern
 edge.  The pathway continues to the west and to the east you can hear many
 noises.    
 ~
-2 0 1
+2 p 1
 D1
 ~
 ~
@@ -2033,12 +2041,14 @@ room is dimly lit, by a single torch at one end of the room.  Many people find
 their pockets to be much lighter when they leave the guild than when they came.
 The only exit lies to the east, leading back towards the entry to the Guild.  
 ~
-2 c 0
+2 cp 0
 D1
 Nothing.
 ~
 ~
 0 0 281
+P
+thief_guild
 S
 #299
 Clan Circle~
@@ -2047,7 +2057,7 @@ carved from the rock.  The dim light makes it slightly hard to navigate.
 Stalactites hang down from the ceiling, some making a slight dripping noise
 evident in the background.    
 ~
-2 0 0
+2 p 0
 D0
 ~
 ~
