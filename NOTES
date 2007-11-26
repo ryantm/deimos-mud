@@ -1,11 +1,14 @@
-DIFF
 TODO
 
-Bug Fixes
-* people can multiplay with new characters (reproducable)
-* color prompt even with color off (reproducable)
-* CRASH: gtitle crashes the game (Can't reproduce)
-* CRASH: title with notitle on crashes game (Can't reproduce)
+Bugs to Fix
+Reproducable
+* Next Level on score is uesless.
+* people can multiplay with new characters
+* color prompt even with color off
+
+Cannot Reproduce
+* CRASH: gtitle crashes the game
+* CRASH: title with notitle on crashes game
 
 Enhancements
 * Make levels show how much exp and gold you have and if you can level.

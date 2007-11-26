@@ -62,7 +62,6 @@ SPECIAL(stableshop);
 SPECIAL(stable);
 SPECIAL(gmaster);
 SPECIAL(gm_zone);
-SPECIAL(gold_chipper);
 SPECIAL(fear_maker);
 SPECIAL(cussgiver);
 SPECIAL(casino);
@@ -102,7 +101,6 @@ const struct specproc_info mob_procs[] = {
   {"assassin_guild",    assassin_guild,         LVL_IMPL},
   {"embalmer",          embalmer,               LVL_DEITY},
   {"bounty",            bounty,                 LVL_DEITY},
-  {"gold_chipper",      gold_chipper,           LVL_IMPL},
   {"cussgiver",         cussgiver,              LVL_IMPL},
   {"magic_user",        magic_user,             LVL_IMMORT},
   {"super_magic_user",  super_magic_user,       LVL_IMMORT},
@@ -232,11 +230,11 @@ void assign_mobiles(void)
 
   /* Phobos */
   ASSIGNMOB(25,  wiseman);
+
   ASSIGNMOB(217, meta_physician);
   ASSIGNMOB(223, assassin_guild);
   ASSIGNMOB(234, embalmer);
   ASSIGNMOB(202, postmaster);
-  ASSIGNMOB(25,  gold_chipper);
   ASSIGNMOB(213, cussgiver);
 
 

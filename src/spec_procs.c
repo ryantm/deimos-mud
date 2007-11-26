@@ -116,7 +116,6 @@ SPECIAL(butcher);
 SPECIAL(bounty);
 SPECIAL(stableshop);
 SPECIAL(stable);
-SPECIAL(gold_chipper);
 SPECIAL(cussgiver);
 SPECIAL(casino);
 SPECIAL(rental);
@@ -2103,6 +2102,9 @@ SPECIAL(pet_shops)
 
 SPECIAL(wiseman)
 {
+	char train_type[256]= {"         "};
+	struct obj_data *chip;
+	obj_rnum r_chip = 11;
   struct obj_data *object = NULL;
   char buf[MAX_STRING_LENGTH];
   
@@ -2117,7 +2119,7 @@ SPECIAL(wiseman)
 *) me, 0, ch, TO_VICT);
           call_magic(ch, NULL, object, SPELL_IDENTIFY, 30, 0);
           act("$n looked at some object.", FALSE, (struct char_data *) me, 0, ch,
-TO_NOTVICT);
+							TO_NOTVICT);
           return TRUE;
         }
       else
@@ -2134,6 +2136,112 @@ TO_VICT);
         return TRUE;
       }
   }
+
+  if (CMD_IS("train")) {
+     argument = one_argument(argument, train_type);
+    
+      /* Boost Stats */       
+   if (!*train_type) {
+     send_to_char("Try \"train <statname>\"\r\n", ch);
+     return 1;
+     }
+
+   chip = read_object(r_chip, VIRTUAL);
+
+   for (chip = ch->carrying; chip; chip = chip->next_content) {
+   if (GET_OBJ_TYPE(chip) == ITEM_GOLDDISK) {
+   
+   if (isname(train_type,"strength")) {
+     if (ch->real_abils.str < 18) {
+      ch->real_abils.str += 1;
+      send_to_char("The Wise Man takes your golden chip. \r\n",ch);
+      send_to_char("Your strength increases!\r\n",ch);
+      extract_obj(chip);
+      save_char(ch, NOWHERE);
+      return 1;
+    } else {
+      send_to_char("You have 18 strength already!\r\n", ch);
+      }
+   } else if (isname(train_type,"wisdom")) {
+     if (ch->real_abils.wis < 18) {
+      ch->real_abils.wis += 1;
+      send_to_char("The Wise Man takes your golden chip. \r\n",ch);
+      send_to_char("Your wisdom increases!\r\n",ch);
+      extract_obj(chip);
+      save_char(ch, NOWHERE);
+      return 1;
+    } else {
+      send_to_char("You have 18 wisdom already!\r\n", ch);
+      }
+   } else if (isname(train_type,"intelligence")) {
+     if (ch->real_abils.intel < 18) {
+      ch->real_abils.intel += 1;
+      send_to_char("The Wise Man takes your golden chip. \r\n",ch);
+      send_to_char("Your intelligence increases!\r\n",ch);
+      extract_obj(chip);
+      save_char(ch, NOWHERE);
+      return 1;
+    } else {
+      send_to_char("You have 18 intelligence already!\r\n", ch);
+      }
+   } else if (isname(train_type,"dexterity")) {
+     if (ch->real_abils.dex < 18) {
+      ch->real_abils.dex += 1;
+      send_to_char("The Wise Man takes your golden chip. \r\n",ch);
+      send_to_char("Your dexterity increases!\r\n",ch);
+      extract_obj(chip);
+      save_char(ch, NOWHERE);
+      return 1;
+    } else {
+      send_to_char("You have 18 dexterity already!\r\n", ch);
+      }
+   } else if (isname(train_type,"constitution")) {
+     if (ch->real_abils.con < 18) {
+      ch->real_abils.con += 1;
+      send_to_char("The Wise Man takes your golden chip. \r\n",ch);
+      send_to_char("Your constitution increases!\r\n",ch);
+      extract_obj(chip);
+      save_char(ch, NOWHERE);
+      return 1;
+    } else {
+      send_to_char("You have 18 constitution already!\r\n", ch);
+      }
+   } else if (isname(train_type,"charisma")) {
+     if (ch->real_abils.cha < 18) {
+      ch->real_abils.cha += 1;
+      send_to_char("Your charisma increases!\r\n",ch);
+      extract_obj(chip);
+      save_char(ch, NOWHERE);
+      return 1;
+    } else {
+      send_to_char("You have 18 charisma already!\r\n", ch);
+          }
+        } 
+     else {
+     send_to_char("You have not specified the correct type of training.\r\n", ch);
+     return 1;
+    }
+      }
+    }
+  }
+
+  if (CMD_IS("list")) {
+     /* If it gets this far, show them the menu */
+      send_to_char("\r\n", ch);
+      send_to_char("You may train yourself in one area\r\n",ch);
+      send_to_char("___________________________________ \r\n",ch);
+      send_to_char("Stats\r\n",ch);
+      send_to_char("___________________________________ \r\n",ch);
+      send_to_char("Strength\r\n",ch);
+      send_to_char("Wisdom\r\n",ch);
+      send_to_char("Intelligence\r\n",ch);
+      send_to_char("Dexterity\r\n",ch);
+      send_to_char("Constitution\r\n",ch);
+      send_to_char("Charisma\r\n",ch);
+      send_to_char("------ \r\n",ch); 
+      return 1;
+       }
+   
   return FALSE;
 }
 
@@ -2394,119 +2502,6 @@ SPECIAL(embalmer)
   return 0;
  }
 
-SPECIAL(gold_chipper)
-{
- char train_type[256]= {"         "};
- struct obj_data *chip;
- obj_rnum r_chip = 11;
-
-  if (CMD_IS("train")) {
-     argument = one_argument(argument, train_type);
-    
-      /* Boost Stats */       
-   if (!*train_type) {
-     send_to_char("Try \"train <statname>\"\r\n", ch);
-     return 1;
-     }
-
-   chip = read_object(r_chip, VIRTUAL);
-
-   for (chip = ch->carrying; chip; chip = chip->next_content) {
-   if (GET_OBJ_TYPE(chip) == ITEM_GOLDDISK) {
-   
-   if (isname(train_type,"strength")) {
-     if (ch->real_abils.str < 18) {
-      ch->real_abils.str += 1;
-      send_to_char("The Wise Man takes your golden chip. \r\n",ch);
-      send_to_char("Your strength increases!\r\n",ch);
-      extract_obj(chip);
-      save_char(ch, NOWHERE);
-      return 1;
-    } else {
-      send_to_char("You have 18 strength already!\r\n", ch);
-      }
-   } else if (isname(train_type,"wisdom")) {
-     if (ch->real_abils.wis < 18) {
-      ch->real_abils.wis += 1;
-      send_to_char("The Wise Man takes your golden chip. \r\n",ch);
-      send_to_char("Your wisdom increases!\r\n",ch);
-      extract_obj(chip);
-      save_char(ch, NOWHERE);
-      return 1;
-    } else {
-      send_to_char("You have 18 wisdom already!\r\n", ch);
-      }
-   } else if (isname(train_type,"intelligence")) {
-     if (ch->real_abils.intel < 18) {
-      ch->real_abils.intel += 1;
-      send_to_char("The Wise Man takes your golden chip. \r\n",ch);
-      send_to_char("Your intelligence increases!\r\n",ch);
-      extract_obj(chip);
-      save_char(ch, NOWHERE);
-      return 1;
-    } else {
-      send_to_char("You have 18 intelligence already!\r\n", ch);
-      }
-   } else if (isname(train_type,"dexterity")) {
-     if (ch->real_abils.dex < 18) {
-      ch->real_abils.dex += 1;
-      send_to_char("The Wise Man takes your golden chip. \r\n",ch);
-      send_to_char("Your dexterity increases!\r\n",ch);
-      extract_obj(chip);
-      save_char(ch, NOWHERE);
-      return 1;
-    } else {
-      send_to_char("You have 18 dexterity already!\r\n", ch);
-      }
-   } else if (isname(train_type,"constitution")) {
-     if (ch->real_abils.con < 18) {
-      ch->real_abils.con += 1;
-      send_to_char("The Wise Man takes your golden chip. \r\n",ch);
-      send_to_char("Your constitution increases!\r\n",ch);
-      extract_obj(chip);
-      save_char(ch, NOWHERE);
-      return 1;
-    } else {
-      send_to_char("You have 18 constitution already!\r\n", ch);
-      }
-   } else if (isname(train_type,"charisma")) {
-     if (ch->real_abils.cha < 18) {
-      ch->real_abils.cha += 1;
-      send_to_char("Your charisma increases!\r\n",ch);
-      extract_obj(chip);
-      save_char(ch, NOWHERE);
-      return 1;
-    } else {
-      send_to_char("You have 18 charisma already!\r\n", ch);
-          }
-        } 
-     else {
-     send_to_char("You have not specified the correct type of training.\r\n", ch);
-     return 1;
-    }
-      }
-    }
-  }
-
-  if (CMD_IS("list")) {
-     /* If it gets this far, show them the menu */
-      send_to_char("\r\n", ch);
-      send_to_char("You may train yourself in one area\r\n",ch);
-      send_to_char("___________________________________ \r\n",ch);
-      send_to_char("Stats\r\n",ch);
-      send_to_char("___________________________________ \r\n",ch);
-      send_to_char("Strength\r\n",ch);
-      send_to_char("Wisdom\r\n",ch);
-      send_to_char("Intelligence\r\n",ch);
-      send_to_char("Dexterity\r\n",ch);
-      send_to_char("Constitution\r\n",ch);
-      send_to_char("Charisma\r\n",ch);
-      send_to_char("------ \r\n",ch); 
-      return 1;
-       }
-   
-    return 0; 
-}
 
 SPECIAL(calise_hunter) {
 
