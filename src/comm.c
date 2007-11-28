@@ -115,7 +115,6 @@ extern struct obj_data *object_list;
 extern struct index_data *obj_index;
 
 void update_lyrics();
-void update_imps();
 /* local globals */
 struct descriptor_data *descriptor_list = NULL;		/* master desc list */
 struct txt_block *bufpool = 0;	/* pool of large output buffers */
@@ -1020,7 +1019,6 @@ void heartbeat(int pulse)
    }
 
   if (!(pulse % (10 * PASSES_PER_SEC))) {
-    update_imps();
     check_careers();
     update_lyrics();
   }

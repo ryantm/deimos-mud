@@ -237,9 +237,9 @@ ACMD(do_backstab)
   apr = 1;
 	
 	if (GET_THIEF_LEVEL(ch) >= 30)
-		apr++;
+	  apr++;
 	if (GET_THIEF_LEVEL(ch) >= 45)
-		apr++;
+	  apr++;
 		
 	if (GET_CLASS(ch) == CLASS_MAGE    && apr > 1) apr = 1;
 	if (GET_CLASS(ch) == CLASS_CLERIC  && apr > 1) apr = 1;
@@ -253,7 +253,7 @@ ACMD(do_backstab)
 
 	if (GET_LEVEL(ch) == LVL_IMPL) apr = 20;
 
-  prob = 60 + 3.5 * GET_SKILL(ch, SKILL_BACKSTAB);
+	prob = 64 + 3.5 * GET_SKILL(ch, SKILL_BACKSTAB);
 		
 	for (; apr >= 1; apr--)
 		{
@@ -268,9 +268,9 @@ ACMD(do_backstab)
 				{
 					//Failure
 					act("&GAttempts to backstab you, but cuts $Mself instead.&n"  , FALSE, vict, 0, ch, TO_CHAR);
-					act("&RYou cut yourself badly trying to backstab $m!&n"     , FALSE, vict, 0, ch, TO_VICT);
+					act("&RYou miss a backstab and stab your finger instead!&n"     , FALSE, vict, 0, ch, TO_VICT);
 					act("&Y$N attempts to backstab $n but cuts $Mself instead.&n" , FALSE, vict, 0, ch, TO_NOTVICT);
-					damage(ch, ch, damage_from(ch, SKILL_BACKSTAB), TYPE_HIT);
+					damage(ch, ch, damage_from(ch, SKILL_BACKSTAB) * 0.5, TYPE_HIT);
 				}
 		}
   WAIT_STATE(ch, 1 * PULSE_VIOLENCE);

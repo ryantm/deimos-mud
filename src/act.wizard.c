@@ -5614,36 +5614,6 @@ ACMD (do_economyreset)
     }
 }
 
-void update_imps()
-{
-  struct descriptor_data *pt, *d;  
-  int count = 0;
-  struct char_data *newmob;
-  int new;
-
-
-    for (pt = descriptor_list; pt; pt = pt->next)
-      if (pt->character && GET_LEVEL(pt->character) == 66 && GET_INVIS_LEV(pt->character) == 0)
-	count ++;
-
-  if (count == 3 && !IMPSON)
-  {
-    sprintf(buf, "&MWhen your Three Imps Combine... I AM CAPTAIN PLANET!&n\r\n");
-    // do something here
-    for (d = descriptor_list; d; d = d->next)
-      if (STATE(d) == CON_PLAYING && d->character)
-	send_to_char(buf, d->character);
-     newmob = read_mobile(21, REAL);
-     new = number(0, top_of_world);
-     char_to_room(newmob, new);
-    IMPSON = TRUE;
-  }  
-  else 
-  {
-    IMPSON = (count == 3);
-  }
-}
-
 ACMD(do_rewardall)
 {
   struct obj_data *obj = NULL;

@@ -756,11 +756,18 @@ void tracker(void) {
 
   for (ch = character_list; ch; ch = next_char) {
     next_char = ch->next;
- 
+    
 		if (PLR_FLAGGED(ch, PLR_TRACK)) {
 			/* The person can't see the victim. */
+
+		  if(GET_POS(ch) < POS_STANDING) {
+		    send_to_char("Your current position makes tracking difficult, so you stop.\r\n",ch);
+		    REMOVE_BIT(PLR_FLAGS(ch), PLR_TRACK);
+		    TRACKING(ch) = NULL;
+		    return;
+		  }
 			
-			if (!(vict = get_char_vis(ch, TRACKING(ch), FIND_CHAR_WORLD))) 
+			if (!(vict = get_char_vis(ch, TRACKING(ch), FIND_CHAR_WORLD)))
 				{
 					send_to_char("You lose track of your prey.\r\n", ch);
 					REMOVE_BIT(PLR_FLAGS(ch), PLR_TRACK);
