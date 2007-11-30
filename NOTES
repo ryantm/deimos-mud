@@ -5,13 +5,24 @@ Reproducable
 * Next Level on score is uesless.
 * people can multiplay with new characters
 * color prompt even with color off
+* Missed backstab is sometimes shown after kill.
+* Ranks are all screwed up
+* Deathtoall crashes MUD, probably same error as goldchip
 
 Cannot Reproduce
+* CRASH: zreset causes problems
 * CRASH: gtitle crashes the game
 * CRASH: title with notitle on crashes game
 
 Enhancements
+* Make "Invalid Name" tell you to ask Imm to DC you.
 * Make levels show how much exp and gold you have and if you can level.
+* Blink tag is annoying as hell kill it.
+
+* Make help files more lines max
+* Update Info
+* Make a social editor
+
 
 * Make chunks pop randomly on Mob spawn not death
 * random mob difficulties +/- 3 levels (if a mob pops with eq he is harder + 3 levels)
