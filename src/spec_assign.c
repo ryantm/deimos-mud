@@ -148,6 +148,7 @@ const struct specproc_info room_procs[] = {
   {"sholo",             sholo,                  LVL_IMPL},
 
   {"gm_wall",           gmaster,                LVL_IMPL},
+  {"cleric_guild",      cleric_guild,           LVL_IMPL},
   {"mage_guild",        mage_guild,             LVL_IMPL},
   {"warrior_guild",     warrior_guild,          LVL_IMPL},
   {"thief_guild",       thief_guild,            LVL_IMPL},

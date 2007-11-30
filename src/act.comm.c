@@ -186,9 +186,9 @@ void perform_tell(struct char_data *ch, struct char_data *vict, char *arg)
 
 int is_tell_ok(struct char_data *ch, struct char_data *vict)
 {
-  if (ch == vict)
-    send_to_char("You try to tell yourself something.\r\n", ch);
-  else if (!IS_NPC(ch) && PRF_FLAGGED(ch, PRF_NOTELL))
+  /*if (ch == vict)
+    send_to_char("You try to tell yourself something.\r\n", ch);*/
+  if (!IS_NPC(ch) && PRF_FLAGGED(ch, PRF_NOTELL))
     send_to_char("You can't tell other people while you have notell on.\r\n", ch);
   else if (!IS_NPC(vict) && !vict->desc)        /* linkless */
     act("$E's linkless at the moment.", FALSE, ch, 0, vict, TO_CHAR | TO_SLEEP);
