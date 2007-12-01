@@ -1881,9 +1881,10 @@ ACMD(do_copyover)
 	
 	/* exec - descriptors are inherited */
 	
-	sprintf (buf, "-d %s %d", RUNNING_LIB_DIRECTORY, port);
+	sprintf (buf, "%d",port);
 	send_to_char(buf,ch);
-	sprintf (buf2, "-C%d", mother_desc);
+	sprintf (buf2, "-C%d -d %s", mother_desc, RUNNING_LIB_DIRECTORY);
+
 	/* Ugh, seems it is expected we are 1 step above lib - this may be dangerous! */
 	chdir ("..");
 	

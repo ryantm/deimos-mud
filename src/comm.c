@@ -266,32 +266,31 @@ int main(int argc, char **argv)
 
   port = DFLT_PORT;
   dir = DFLT_DIR;
-	RUNNING_LIB_DIRECTORY = dir;
-
+	
   while ((pos < argc) && (*(argv[pos]) == '-')) {
     switch (*(argv[pos] + 1)) {
     case 'o':
       if (*(argv[pos] + 2))
-	LOGNAME = argv[pos] + 2;
+				LOGNAME = argv[pos] + 2;
       else if (++pos < argc)
-	LOGNAME = argv[pos];
+				LOGNAME = argv[pos];
       else {
-	puts("SYSERR: File name to log to expected after option -o.");
-	exit(1);
+				puts("SYSERR: File name to log to expected after option -o.");
+				exit(1);
       }
       break;
     case 'C': /* -C<socket number> - recover from copyover, this is the control socket */
-        fCopyOver = TRUE;
-        mother_desc = atoi(argv[pos]+2);
+			fCopyOver = TRUE;
+			mother_desc = atoi(argv[pos]+2);
       break;
     case 'd':
       if (*(argv[pos] + 2))
-	dir = argv[pos] + 2;
+				dir = argv[pos] + 2;
       else if (++pos < argc)
-	dir = argv[pos];
+				dir = argv[pos];
       else {
-	puts("SYSERR: Directory arg expected after option -d.");
-	exit(1);
+				puts("SYSERR: Directory arg expected after option -d.");
+				exit(1);
       }
       break;
     case 'm':
@@ -361,11 +360,13 @@ int main(int argc, char **argv)
   log(circlemud_version);
   log(DG_SCRIPT_VERSION);
 
+  log("Using %s as data directory.", dir);
+	RUNNING_LIB_DIRECTORY = dir;
   if (chdir(dir) < 0) {
     perror("SYSERR: Fatal error changing to data directory");
     exit(1);
   }
-  log("Using %s as data directory.", dir);
+
 
   if (scheck) {
     boot_world();
