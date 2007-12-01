@@ -2137,86 +2137,86 @@ void reset_zone(zone_rnum zone)
 
     case 'O':			/* read an object */
       if ((obj_index[ZCMD.arg1].number < ZCMD.arg2) &&
-           (number(1, 100) >= ZCMD.arg4)) {
-	if (ZCMD.arg3 >= 0) {
-	  obj = read_object(ZCMD.arg1, REAL);
+					(number(1, 100) >= ZCMD.arg4)) {
+				if (ZCMD.arg3 >= 0) {
+					obj = read_object(ZCMD.arg1, REAL);
 	  obj_to_room(obj, ZCMD.arg3);
+		obj_load = TRUE;
+		load_otrigger(obj);
+		tobj = obj;
+				} else {
+					obj = read_object(ZCMD.arg1, REAL);
+					obj->in_room = NOWHERE;
+					last_cmd = 1;
           obj_load = TRUE;
-          load_otrigger(obj);
-          tobj = obj;
-	} else {
-	  obj = read_object(ZCMD.arg1, REAL);
-	  obj->in_room = NOWHERE;
-	  last_cmd = 1;
-          obj_load = TRUE;
-	}
+				}
       } else
-	last_cmd = 0;
+				last_cmd = 0;
       break;
-
+			
     case 'P':			/* object to object */
       if ((obj_index[ZCMD.arg1].number < ZCMD.arg2) &&
-           obj_load && (number(1, 100) >= ZCMD.arg4)) {
-	obj = read_object(ZCMD.arg1, REAL);
-	if (!(obj_to = get_obj_num(ZCMD.arg3))) {
-	  ZONE_ERROR("target obj not found, command disabled");
-	  ZCMD.command = '*';
-	  break;
-	}
-	obj_to_obj(obj, obj_to);
-        load_otrigger(obj);
-        tobj = obj;
-	last_cmd = 1;
+					obj_load && (number(1, 100) >= ZCMD.arg4)) {
+				obj = read_object(ZCMD.arg1, REAL);
+				if (!(obj_to = get_obj_num(ZCMD.arg3))) {
+					ZONE_ERROR("target obj not found, command disabled");
+					ZCMD.command = '*';
+					break;
+				}
+				obj_to_obj(obj, obj_to);
+				load_otrigger(obj);
+				tobj = obj;
+				last_cmd = 1;
       } else
-      tmob = NULL;
-	last_cmd = 0;
+				tmob = NULL;
+			last_cmd = 0;
       break;
-
+			
     case 'G':			/* obj_to_char */
       if (!mob) {
-	ZONE_ERROR("attempt to give obj to non-existant mob, command disabled");
-	ZCMD.command = '*';
-	break;
+				ZONE_ERROR("attempt to give obj to non-existant mob, command disabled");
+				ZCMD.command = '*';
+				break;
       }
       if ((obj_index[ZCMD.arg1].number < ZCMD.arg2) &&
           mob_load && (number(1, 100) >= ZCMD.arg4)) {
-	obj = read_object(ZCMD.arg1, REAL);
-	obj_to_char(obj, mob);
+				obj = read_object(ZCMD.arg1, REAL);
+				obj_to_char(obj, mob);
         tobj = obj;
         load_otrigger(obj);
-	last_cmd = 1;
+				last_cmd = 1;
       } else
-	last_cmd = 0;
+				last_cmd = 0;
       tmob = NULL;
       break;
-
+			
     case 'E':			/* object to equipment list */
       if (!mob) {
-	ZONE_ERROR("trying to equip non-existant mob, command disabled");
-	ZCMD.command = '*';
-	break;
+				ZONE_ERROR("trying to equip non-existant mob, command disabled");
+				ZCMD.command = '*';
+				break;
       }
       if ((obj_index[ZCMD.arg1].number < ZCMD.arg2) &&
           mob_load && (number(1, 100) >= ZCMD.arg4)) {
-	if (ZCMD.arg3 < 0 || ZCMD.arg3 >= NUM_WEARS) {
-	  ZONE_ERROR("invalid equipment pos number");
-	} else {
-	  obj = read_object(ZCMD.arg1, REAL);
-        /*  IN_ROOM(obj) = IN_ROOM(mob); */
-	  IN_ROOM(obj) = NOWHERE;
+				if (ZCMD.arg3 < 0 || ZCMD.arg3 >= NUM_WEARS) {
+					ZONE_ERROR("invalid equipment pos number");
+				} else {
+					obj = read_object(ZCMD.arg1, REAL);
+					/*  IN_ROOM(obj) = IN_ROOM(mob); */
+					IN_ROOM(obj) = NOWHERE;
           load_otrigger(obj);
           if (wear_otrigger(obj, mob, ZCMD.arg3))
-	    equip_char(mob, obj, ZCMD.arg3);
+						equip_char(mob, obj, ZCMD.arg3);
           else
             obj_to_char(obj, mob);
           tobj = obj;
-	  last_cmd = 1;
-	}
+					last_cmd = 1;
+				}
       } else
-	last_cmd = 0;
+				last_cmd = 0;
       tmob = NULL;
       break;
-
+			
     case 'R': /* rem obj from room */
       if ((obj = get_obj_in_list_num(ZCMD.arg2, world[ZCMD.arg1].contents)) != NULL) {
         obj_from_room(obj);
@@ -2226,39 +2226,39 @@ void reset_zone(zone_rnum zone)
       tmob = NULL;
       tobj = NULL;
       break;
-
-
+			
+			
     case 'D':			/* set state of door */
       if (ZCMD.arg2 < 0 || ZCMD.arg2 >= NUM_OF_DIRS ||
-	  (world[ZCMD.arg1].dir_option[ZCMD.arg2] == NULL)) {
-	ZONE_ERROR("door does not exist, command disabled");
-	ZCMD.command = '*';
+					(world[ZCMD.arg1].dir_option[ZCMD.arg2] == NULL)) {
+				ZONE_ERROR("door does not exist, command disabled");
+				ZCMD.command = '*';
       } else
-	switch (ZCMD.arg3) {
-	case 0:
-	  REMOVE_BIT(world[ZCMD.arg1].dir_option[ZCMD.arg2]->exit_info,
-		     EX_LOCKED);
-	  REMOVE_BIT(world[ZCMD.arg1].dir_option[ZCMD.arg2]->exit_info,
+				switch (ZCMD.arg3) {
+				case 0:
+					REMOVE_BIT(world[ZCMD.arg1].dir_option[ZCMD.arg2]->exit_info,
+										 EX_LOCKED);
+					REMOVE_BIT(world[ZCMD.arg1].dir_option[ZCMD.arg2]->exit_info,
 		     EX_CLOSED);
-	  break;
-	case 1:
-	  SET_BIT(world[ZCMD.arg1].dir_option[ZCMD.arg2]->exit_info,
-		  EX_CLOSED);
-	  REMOVE_BIT(world[ZCMD.arg1].dir_option[ZCMD.arg2]->exit_info,
-		     EX_LOCKED);
-	  break;
-	case 2:
-	  SET_BIT(world[ZCMD.arg1].dir_option[ZCMD.arg2]->exit_info,
-		  EX_LOCKED);
-	  SET_BIT(world[ZCMD.arg1].dir_option[ZCMD.arg2]->exit_info,
-		  EX_CLOSED);
-	  break;
+					break;
+				case 1:
+					SET_BIT(world[ZCMD.arg1].dir_option[ZCMD.arg2]->exit_info,
+									EX_CLOSED);
+					REMOVE_BIT(world[ZCMD.arg1].dir_option[ZCMD.arg2]->exit_info,
+										 EX_LOCKED);
+					break;
+				case 2:
+					SET_BIT(world[ZCMD.arg1].dir_option[ZCMD.arg2]->exit_info,
+									EX_LOCKED);
+					SET_BIT(world[ZCMD.arg1].dir_option[ZCMD.arg2]->exit_info,
+									EX_CLOSED);
+					break;
 	}
       last_cmd = 1;
       tmob = NULL;
       tobj = NULL;
       break;
-
+			
     case 'T': /* trigger command; details to be filled in later */
       if (ZCMD.arg1==MOB_TRIGGER && tmob) {
         if (!SCRIPT(tmob))

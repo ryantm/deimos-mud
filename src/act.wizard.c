@@ -36,6 +36,8 @@
 extern FILE *player_fl;
 extern socket_t mother_desc;
 extern ush_int port;
+extern char *RUNNING_LIB_DIRECTORY;
+
 extern struct room_data *world;
 extern struct char_data *character_list;
 extern struct char_data *mob_proto;  
@@ -1813,85 +1815,87 @@ ACMD(do_copyover)
 	FILE *fp;
 	struct descriptor_data *d, *d_next;
 	char buf [100], buf2[100];
-        struct char_data *tch;
-
-        for (tch = character_list; tch; tch = tch->next)
-        {
-            if (GET_LEVEL(tch) >= LVL_IMMORT) 
-              continue;
- 
-            if (GET_HIT(tch) < 0 || PLR_FLAGGED(tch, PLR_DEAD))
-            {
-              send_to_char("&RSomeone is dead, Don't copyover now!&n\r\n", ch);
-              return;
-            }
-            if (FIGHTING(tch))
-            {
-              send_to_char("&RSomeone is fighting, Don't copyover now!&n\r\n", ch);
-              return;
-            }
-        }
-        
-
+	struct char_data *tch;
+	
+	for (tch = character_list; tch; tch = tch->next)
+		{
+			if (GET_LEVEL(tch) >= LVL_IMMORT) 
+				continue;
+			
+			if (GET_HIT(tch) < 0 || PLR_FLAGGED(tch, PLR_DEAD))
+				{
+					send_to_char("&RSomeone is dead, Don't copyover now!&n\r\n", ch);
+					return;
+				}
+			if (FIGHTING(tch))
+				{
+					send_to_char("&RSomeone is fighting, Don't copyover now!&n\r\n", ch);
+					return;
+				}
+		}
+	
+	
 	fp = fopen (COPYOVER_FILE, "w");
-
+	
 	if (!fp)
-	{
-		send_to_char ("Copyover file not writeable, aborted.\n\r",ch);
-		return;
-	}
-
+		{
+			send_to_char ("Copyover file not writeable, aborted.\n\r",ch);
+			return;
+		}
+	
 	/* Consider changing all saved areas here, if you use OLC */
 	sprintf (buf, "\t\x1B[1;31m \007\007\007Time stops for a moment as %s folds space and time.\x1B[0;0m\r\n", GET_NAME(ch));
 	/* For each playing descriptor, save its state */
 	Crash_save_all();
-                log("Copyover");
-
-        for (d = descriptor_list; d ; d = d_next)
-	{
-		struct char_data * och = d->character;
-		d_next = d->next; /* We delete from the list , so need to save this */
-		if (!d->character || d->connected > CON_PLAYING) /* drop those logging on */
+	log("Copyover");
+	
+	for (d = descriptor_list; d ; d = d_next)
 		{
-            write_to_descriptor (d->descriptor, "\n\rSorry, we are rebooting. Come back in a few seconds.\n\r");
-			close_socket (d); /* throw'em out */
+			struct char_data * och = d->character;
+			d_next = d->next; /* We delete from the list , so need to save this */
+			if (!d->character || d->connected > CON_PLAYING) /* drop those logging on */
+				{
+					write_to_descriptor (d->descriptor, "\n\rSorry, we are rebooting. Come back in a few seconds.\n\r");
+					close_socket (d); /* throw'em out */
+				}
+			else
+				{
+					fprintf (fp, "%d %s %s\n", d->descriptor, GET_NAME(och), d->host);
+					//(d->character->master) ? GET_NAME(d->character->master) : " ");
+					/* save och */
+					Crash_rentsave(och,0);
+					save_char(och, och->in_room);
+					write_to_descriptor (d->descriptor, buf);
+				}
 		}
-		else
-		{
-		fprintf (fp, "%d %s %s\n", d->descriptor, GET_NAME(och), d->host);
-//(d->character->master) ? GET_NAME(d->character->master) : " ");
-            /* save och */
-            Crash_rentsave(och,0);
-            save_char(och, och->in_room);
-			write_to_descriptor (d->descriptor, buf);
-		}
-	}
-
+	
 	fprintf (fp, "-1\n");
 	fclose (fp);
-
+	
 	/* Close reserve and other always-open files and release other resources
-           since we are now using ASCII pfiles, closing the player_fl would crash
-           the game, since it's no longer around, so I commented it out. I'll
-           leave the code here, for historical reasons -spl
-
-     fclose(player_fl); */
-
+		 since we are now using ASCII pfiles, closing the player_fl would crash
+		 the game, since it's no longer around, so I commented it out. I'll
+		 leave the code here, for historical reasons -spl
+		 
+		 fclose(player_fl); */
+	
 	/* exec - descriptors are inherited */
-
-	sprintf (buf, "%d", port);
-       send_to_char(buf,ch);
-    sprintf (buf2, "-C%d", mother_desc);
-    /* Ugh, seems it is expected we are 1 step above lib - this may be dangerous! */
-    chdir ("..");
-
-
+	
+	sprintf (buf, "-d %s %d", RUNNING_LIB_DIRECTORY, port);
+	send_to_char(buf,ch);
+	sprintf (buf2, "-C%d", mother_desc);
+	/* Ugh, seems it is expected we are 1 step above lib - this may be dangerous! */
+	chdir ("..");
+	
+	
+	mudlog(buf,  BRF, LVL_GOD, TRUE);
+	mudlog(buf2, BRF, LVL_GOD, TRUE);
 	execl (EXE_FILE, "deimos-live", buf2, buf, (char *) NULL);
 	/* Failed - sucessful exec will not return */
-
+	
 	perror ("do_copyover: execl");
 	send_to_char ("Copyover FAILED!\n\r",ch);
-
+	
     exit (1); /* too much trouble to try to recover! */
 }
 
@@ -2537,7 +2541,7 @@ ACMD(do_zreset)
 {
   zone_rnum i = 0;
   zone_vnum j = 0;
-  struct char_data *d;  
+  struct char_data *d, *next_d;  
   struct obj_data *k, *next_obj;
   int num = 0;
 
@@ -2549,50 +2553,53 @@ ACMD(do_zreset)
   if (*arg == '*') {
     if (GET_LEVEL(ch) == LVL_IMPL)
     {
-    for (i = 0; i <= top_of_zone_table; i++)
-      reset_zone(i);
-    send_to_char("Reset world.\r\n", ch);
-    sprintf(buf, "(GC) %s reset entire world.", GET_NAME(ch));
-    mudlog(buf, NRM, MAX(LVL_GRGOD, GET_INVIS_LEV(ch)), TRUE);
-    return;
+			for (i = 0; i <= top_of_zone_table; i++)
+				reset_zone(i);
+			send_to_char("Reset world.\r\n", ch);
+			sprintf(buf, "(GC) %s reset entire world.", GET_NAME(ch));
+			mudlog(buf, NRM, MAX(LVL_GRGOD, GET_INVIS_LEV(ch)), TRUE);
+			return;
     }
     else
-     send_to_char("You don't have the power to do this.\r\n", ch);
+			send_to_char("You don't have the power to do this.\r\n", ch);
   } else if (*arg == '.')
     i = world[ch->in_room].zone;
   else {
     j = atoi(arg);
     for (i = 0; i <= top_of_zone_table; i++)
       if (zone_table[i].number == j)
-	break;
+				break;
     if (i > top_of_zone_table || i < 0)
-    {
-       send_to_char("Zone out of range!\r\n", ch);
-       return;
-    }
+			{
+				send_to_char("Zone out of range!\r\n", ch);
+				return;
+			}
   }
   if (GET_LEVEL(ch) < LVL_DEITY && (!is_name(GET_NAME(ch), zone_table[i].builders))) 
-  {
-    send_to_char("You can only reset your zones!", ch);
-    return;
-  } 
+		{
+			send_to_char("You can only reset your zones!", ch);
+			return;
+		} 
   if (i >= 0 && i <= top_of_zone_table) {
-    for (d = character_list; d; d = d->next)
+    for (d = character_list; d; d = next_d)
       {
-	if (IS_NPC(d) && d->in_room != NOWHERE && world[d->in_room].zone == i)
-	  extract_char(d);
+				next_d = d->next;
+				if (IS_NPC(d) && d->in_room != NOWHERE && world[d->in_room].zone == i)
+					extract_char(d);
       }
-
+		
     for (num = 0, k = object_list; k; k = next_obj)
       {
         next_obj = k->next;
-	if (world[k->in_room].zone == i && k->carried_by == NULL && k->worn_by == NULL)
-          if (GET_OBJ_TYPE(k) != ITEM_PCCORPSE)
-            extract_obj(k);
+				if (world[k->in_room].zone == i && k->carried_by == NULL && k->worn_by == NULL)
+					if (k->in_obj == NULL || k->in_obj->carried_by == NULL)
+						if (GET_OBJ_TYPE(k) != ITEM_PCCORPSE)
+							extract_obj(k);
       }
+		
     reset_zone(i);
     sprintf(buf, "Reset zone %d (#%d): %s.\r\n", i, zone_table[i].number,
-	    zone_table[i].name);
+						zone_table[i].name);
     send_to_char(buf, ch);
     sprintf(buf, "(GC) %s reset zone %d (%s)", GET_NAME(ch), i, zone_table[i].name);
     mudlog(buf, NRM, MAX(LVL_GRGOD, GET_INVIS_LEV(ch)), TRUE);

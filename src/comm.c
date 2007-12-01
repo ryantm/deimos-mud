@@ -84,7 +84,7 @@ extern int mini_mud;
 extern int no_rent_check;
 extern FILE *player_fl;
 extern ush_int DFLT_PORT;
-extern const char *DFLT_DIR;
+extern char *DFLT_DIR;
 extern const char *DFLT_IP;
 extern const char *LOGNAME;
 extern char *GREETINGS;
@@ -133,6 +133,8 @@ int dg_act_check;		/* toggle for act_trigger */
 unsigned long dg_global_pulse = 0; /* number of pulses since game start */
 static bool fCopyOver;          /* Are we booting in copyover mode? */
 ush_int port;
+char *RUNNING_LIB_DIRECTORY;
+
 socket_t mother_desc;
 void make_who2html(void);
 /* functions in this file */
@@ -244,7 +246,7 @@ void gettimeofday(struct timeval *t, struct timezone *dummy)
 int main(int argc, char **argv)
 {
   int pos = 1;
-  const char *dir;
+  char *dir;
 
   /* Initialize these to check for overruns later. */
   plant_magic(buf);
@@ -264,6 +266,7 @@ int main(int argc, char **argv)
 
   port = DFLT_PORT;
   dir = DFLT_DIR;
+	RUNNING_LIB_DIRECTORY = dir;
 
   while ((pos < argc) && (*(argv[pos]) == '-')) {
     switch (*(argv[pos] + 1)) {

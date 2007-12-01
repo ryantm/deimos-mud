@@ -270,7 +270,7 @@ const char *DFLT_IP = NULL; /* bind to all interfaces */
 /* const char *DFLT_IP = "192.168.1.1";  -- bind only to one interface */
 
 /* default directory to use as data directory */
-const char *DFLT_DIR = "lib";
+char *DFLT_DIR = "lib";
 
 /*
  * What file to log messages to (ex: "log/syslog").  Setting this to NULL
