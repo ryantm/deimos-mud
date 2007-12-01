@@ -212,7 +212,7 @@ void sedit_namelist_menu(struct descriptor_data *d)
   get_char_colors(d->character);
 
   clear_screen(d);
-  SEND_TO_Q("##              Type   Namelist\r\n\r\n", d);
+  SEND_TO_Q("##              Type   Keywords\r\n\r\n", d);
   for (i = 0; S_BUYTYPE(shop, i) != -1; i++) {
     sprintf(buf, "%2d - %s%15s%s - %s%s%s\r\n", i, cyn,
 		item_types[S_BUYTYPE(shop, i)], nrm, yel,
