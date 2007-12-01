@@ -3862,8 +3862,8 @@ ACMD(do_objconv) {
 
 ACMD(do_deathtoall)
 {
-  struct char_data *i;
-  struct obj_data *k;
+  struct char_data *i, *next_mob;
+  struct obj_data *k, *next_obj;
   mob_vnum number;
   mob_rnum r_num;
   char type[10];
@@ -3886,13 +3886,16 @@ ACMD(do_deathtoall)
       send_to_char("There is no monster with that number.\r\n", ch);
       return;
     }
-    for (i = character_list; i; i = i->next)
-      if (CAN_SEE(ch, i) && i->in_room != NOWHERE && (GET_MOB_VNUM(i) == number))
-      {
-        found = 1;
-        strcpy(type, "mobs");
-        extract_char(i);
-      }
+    for (i = character_list; i; i = next_mob)
+			{
+				next_mob = i->next;
+				if (CAN_SEE(ch, i) && i->in_room != NOWHERE && (GET_MOB_VNUM(i) == number))
+					{
+						found = 1;
+						strcpy(type, "mobs");
+						extract_char(i);
+					}
+			}
   }
   else if (is_abbrev(buf, "obj"))
   {
@@ -3901,13 +3904,16 @@ ACMD(do_deathtoall)
       send_to_char("There is no object with that number.\r\n", ch);
       return;
     }
-    for (num = 0, k = object_list; k; k = k->next)
-      if (CAN_SEE_OBJ(ch, k) && (GET_OBJ_VNUM(k) == number))
-      {
-        found = 1;
-        strcpy(type, "objs");
-        extract_obj(k);
-      }
+    for (num = 0, k = object_list; k; k = next_obj)
+			{
+				next_obj = k->next;
+				if (CAN_SEE_OBJ(ch, k) && (GET_OBJ_VNUM(k) == number))
+					{
+						found = 1;
+						strcpy(type, "objs");
+						extract_obj(k);
+					}
+			}
   }
   if (!found)
   {
@@ -5650,29 +5656,22 @@ ACMD(do_rewardall)
   else
   {
   sprintf(buf, "Loading Obj: %d\r\n", number);
-  obj = read_object(r_num, REAL); 
-  if (obj)
-  {
-    for (pt = descriptor_list; pt; pt = pt->next)
-      if (STATE(pt) == CON_PLAYING && pt->character)
+
+	for (pt = descriptor_list; pt; pt = pt->next)
+		if (STATE(pt) == CON_PLAYING && pt->character)
       {
-         if (obj)
-         { 
-           obj_to_char(obj, pt->character);
-           sprintf(buf, "&M%s has given everyone %s.&n\r\n", GET_NAME(ch), obj->short_description);
-           send_to_char(buf, pt->character);
-         }
-         obj = NULL;
-         obj = read_object(r_num, REAL); 
+				obj = read_object(r_num, REAL); 
+				if (obj)
+					{ 
+						
+						obj_to_char(obj, pt->character);
+						sprintf(buf, "&M%s has given everyone %s.&n\r\n", GET_NAME(ch), obj->short_description);
+						send_to_char(buf, pt->character);
+					}
       }
-      sprintf(buf, "&MYou give everyone %s.&n\r\n", obj->short_description);
-      send_to_char(buf, ch);
-   }
-   else
-   {
-     send_to_char("That object must not exist..\r\n", ch);
-   }
-  }  
+	sprintf(buf, "&MYou give everyone %s.&n\r\n", obj->short_description);
+	send_to_char(buf, ch);
+	}
 }
 
 ACMD(do_showmob)

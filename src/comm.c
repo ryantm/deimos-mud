@@ -1166,9 +1166,7 @@ void echo_on(struct descriptor_data *d)
 char *make_prompt(struct descriptor_data *d)
  {
   static char prompt[MAX_PROMPT_LENGTH + 1];
-  struct char_data *vict = NULL;
   struct char_data *tank = NULL;
-  int perc;
 
   /* Note, prompt is truncated at MAX_PROMPT_LENGTH chars (structs.h )*/
 
@@ -1192,8 +1190,6 @@ char *make_prompt(struct descriptor_data *d)
 
     if (GET_INVIS_LEV(d->character) && PRF_FLAGGED(d->character, PRF_WHOINVIS) && GET_LEVEL(d->character) < LVL_IMMORT)
       count += sprintf(prompt + count, "(Invis) ");
-
-      perc = (100*(int)(GET_HIT(vict)) / GET_MAX_HIT(vict));
 
     if(FIGHTING(d->character) && PRF_FLAGGED(d->character, PRF_AUTODIAG))
       count += sprintf(prompt + count, "\x1B[1;31m<%d%%>\x1B[0;0m ",

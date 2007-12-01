@@ -21,7 +21,7 @@ BINDIR = ../bin
 DEIMOSNAME = $(BINDIR)/archive/deimos-`date +'%Y-%m-%d-%H:%M'`	
 
 #extedned debug
-CFLAGS = -ggdb -O2 $(MYFLAGS) $(PROFILE)
+CFLAGS = -ggdb -O3 $(MYFLAGS) $(PROFILE)
 
 LIBS =  -lcrypt 
 

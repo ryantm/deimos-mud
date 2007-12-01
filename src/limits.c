@@ -837,9 +837,9 @@ void goldchip(void)
     { 
       next_thing = chip->next; // since loop changes object_list we need to do it this way.
       if (GET_OBJ_TYPE(chip) == ITEM_GOLDDISK)
-	{
-	  extract_obj(chip);
-	}
+				{
+					extract_obj(chip);
+				}
     }
   
   new_chip = read_object(thing, VIRTUAL);  
@@ -851,7 +851,7 @@ void goldchip(void)
     sprintf(buf, "&YGold Chip: %s&n\r\n", world[new].name);
     for (pt = descriptor_list; pt; pt = pt->next)
       if (STATE(pt) == CON_PLAYING && pt->character)
-	send_to_char(buf, pt->character);  
+				send_to_char(buf, pt->character);  
   }
 }
 
