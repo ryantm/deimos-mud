@@ -313,7 +313,7 @@ cpp_extern const struct command_info cmd_info[] = {
   {"grumble", POS_RESTING, do_action, 0, 0},
   {"gsay", POS_SLEEPING, do_gsay, 0, 0},
   {"gtell", POS_SLEEPING, do_gsay, 0, 0},
-  {"gtitle", POS_SLEEPING, do_gtitle, 0, 0},
+  {"gtitle", POS_SLEEPING, do_gtitle, LVL_IMMORT, 0},
   {"gwho", POS_SLEEPING, do_gwho, 0, 0},
   {"gain", POS_RESTING, do_not_here, 0, 0},
 
