@@ -388,12 +388,13 @@ void copyover_recover()
 	FILE *fp;
 	char host[1024];
   //      char masterin[1024];
-//        char *mastertemp = NULL;
+	//        char *mastertemp = NULL;
 	int desc, player_i, lastdesc;
-    bool fOld;
-    char name[MAX_INPUT_LENGTH];
-
+	bool fOld;
+	char name[MAX_INPUT_LENGTH];
+	
 	log ("Copyover recovery initiated");
+	log (getcwd(buf,MAX_STRING_LENGTH));
 
 	fp = fopen (COPYOVER_FILE, "r");
 

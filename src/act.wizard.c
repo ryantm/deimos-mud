@@ -1883,15 +1883,15 @@ ACMD(do_copyover)
 	
 	sprintf (buf, "%d",port);
 	send_to_char(buf,ch);
-	sprintf (buf2, "-C%d -d %s", mother_desc, RUNNING_LIB_DIRECTORY);
+	sprintf (buf2, "-C%d", mother_desc);
+	sprintf (buf1, "-d%s", RUNNING_LIB_DIRECTORY);
 
 	/* Ugh, seems it is expected we are 1 step above lib - this may be dangerous! */
 	chdir ("..");
 	
-	
 	mudlog(buf,  BRF, LVL_GOD, TRUE);
 	mudlog(buf2, BRF, LVL_GOD, TRUE);
-	execl (EXE_FILE, "deimos-live", buf2, buf, (char *) NULL);
+	execl (EXE_FILE, "deimos-live", buf1, buf2, buf, (char *) NULL);
 	/* Failed - sucessful exec will not return */
 	
 	perror ("do_copyover: execl");
