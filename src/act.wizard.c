@@ -902,7 +902,7 @@ void do_stat_object(struct char_data * ch, struct obj_data * j)
   struct extra_descr_data *desc;
 
   vnum = GET_OBJ_VNUM(j);
-  sprintf(buf, "Name: '%s%s%s', Aliases: %s\r\n", CCYEL(ch, C_NRM),
+  sprintf(buf, "Name: '%s%s%s', Keywords: %s\r\n", CCYEL(ch, C_NRM),
 	  ((j->short_description) ? j->short_description : "<None>"),
 	  CCNRM(ch, C_NRM), j->name);
   send_to_char(buf, ch);
@@ -1084,7 +1084,7 @@ void do_stat_character(struct char_data * ch, struct char_data * k)
 	  GET_NAME(k), GET_IDNUM(k), GET_ROOM_VNUM(IN_ROOM(k)));
   send_to_char(strcat(buf, buf2), ch);
   if (IS_MOB(k)) {
-    sprintf(buf, "Alias: %s, VNum: [%5d], RNum: [%5d]\r\n",
+    sprintf(buf, "Keywords: %s, VNum: [%5d], RNum: [%5d]\r\n",
 	    k->player.name, GET_MOB_VNUM(k), GET_MOB_RNUM(k));
     send_to_char(buf, ch);
   }

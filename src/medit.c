@@ -433,7 +433,7 @@ void medit_disp_menu(struct descriptor_data *d)
 
   sprintf(buf,
 	  "-- Mob Number:  [%s%d%s]\r\n"
-	  "%s1%s) Sex: %s%-7.7s%s	         %s2%s) Alias: %s%s\r\n"
+	  "%s1%s) Sex: %s%-7.7s%s	         %s2%s) Keywords: %s%s\r\n"
 	  "%s3%s) S-Desc: %s%s\r\n"
 	  "%s4%s) L-Desc:-\r\n%s%s"
 	  "%s5%s) D-Desc:-\r\n%s%s",

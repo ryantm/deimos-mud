@@ -569,7 +569,7 @@ void oedit_disp_menu(struct descriptor_data *d)
    */
   sprintf(buf,
 	  "-- Item number : [%s%d%s]\r\n"
-	  "%s1%s) Namelist : %s%s\r\n"
+	  "%s1%s) Keywords : %s%s\r\n"
 	  "%s2%s) S-Desc   : %s%s\r\n"
 	  "%s3%s) L-Desc   :-\r\n%s%s\r\n"
 	  "%s4%s) A-Desc   :-\r\n%s%s"

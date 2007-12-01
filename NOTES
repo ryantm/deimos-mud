@@ -5,6 +5,7 @@ Reproducable
 * Next Level on score is uesless.
 * people can multiplay with new characters
 * color prompt even with color off
+* spar & sac ranks are screwed up
 
 Cannot Reproduce
 * CRASH: gtitle crashes the game
@@ -12,10 +13,15 @@ Cannot Reproduce
 
 Enhancements
 * Make levels show how much exp and gold you have and if you can level.
-
+* safeguard against zreset zone 0 (if verify that it hoses containers)
 * Make chunks pop randomly on Mob spawn not death
 * random mob difficulties +/- 3 levels (if a mob pops with eq he is harder + 3 levels)
 * trip is useless
 * make nextlevel on scoresheet show good data after Mastering a guild
 * GM/hero channel
-
+* prompt all, color complete for new chars
+* hide output of autos
+* make tell self say "You tell yourself"?
+* disallow pre-hero multiclassing
+* get rid of recall spell; make recall cost 3/4? mv for everybody
+* make improved ranks with HTML output
