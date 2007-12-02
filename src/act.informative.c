@@ -1195,11 +1195,15 @@ GET_ALIGNMENT(ch), playing_time.day, playing_time.day == 1 ? "" : "s",
 playing_time.hours, playing_time.hours == 1 ? "" : "s");
 
  
-  if (GET_LEVEL(ch) < LVL_IMMORT)
-    sprintf(buf + strlen(buf), "&BExpUnused : %s (%d) NextLevel: %s&n\r\n", 
-	    num_punct(GET_EXP(ch)), GET_EXP(ch), num_punct(level_exp(GET_CLASS(ch), GET_LEVEL(ch))));
+  if (GET_LEVEL(ch) < LVL_IMMORT) {
+    char* curexp = num_punct(GET_EXP(ch));
+    sprintf(buf + strlen(buf), "&BExp : %13s&n\r\n", curexp);
+    free(curexp);
+  }
 
-  sprintf(buf + strlen(buf), "&YGold: %s&n\r\n", num_punct(GET_GOLD(ch)));
+  char* curgold = num_punct(GET_GOLD(ch));
+  sprintf(buf + strlen(buf), "&YGold: %13s&n\r\n", curgold);
+  free(curgold);
   sprintf(buf + strlen(buf), "&WDamroll: %d        Hitroll: %d        Sacri: %d&n\r\n",
 GET_DAMROLL(ch), GET_HITROLL(ch), GET_SACRIFICE(ch));
   sprintf(buf + strlen(buf), "&CKills: %d          Deaths: %d        Ratio: %f&n\r\n",
