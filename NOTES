@@ -2,14 +2,12 @@ TODO
 
 Bugs to Fix
 Reproducable
-* Next Level on score is uesless.
 * people can multiplay with new characters
 * color prompt even with color off
 * spar & sac ranks are screwed up
 
 * Missed backstab is sometimes shown after kill.
 * Ranks are all screwed up
-* Deathtoall crashes MUD, probably same error as goldchip
 
 Cannot Reproduce
 * CRASH: zreset causes problems
@@ -18,22 +16,25 @@ Cannot Reproduce
 
 Enhancements
 * Make "Invalid Name" tell you to ask Imm to DC you.
-* Make levels show how much exp and gold you have and if you can level.
 * safeguard against zreset zone 0 (if verify that it hoses containers)
 * Blink tag is annoying as hell kill it.
-
 * Make help files more lines max
 * Update Info
 * Make a social editor
-
 * Make chunks pop randomly on Mob spawn not death
 * random mob difficulties +/- 3 levels (if a mob pops with eq he is harder + 3 levels)
 * trip is useless
-* make nextlevel on scoresheet show good data after Mastering a guild
 * GM/hero channel
 * prompt all, color complete for new chars
-* hide output of autos
+* hide output of autos for new chars
 * make tell self say "You tell yourself"?
-* disallow pre-hero multiclassing
+* disallow pre-hero multiclassing or make warning (make a player flag you have to set first, like with the cuss channel?)
 * get rid of recall spell; make recall cost 3/4? mv for everybody
 * make improved ranks with HTML output
+* commaify bank transactions
+* make identify show armor wear spots/weapon attack types
+
+
+Needs Discussion
+* it doesn't make sense to lose stats when you die if you can't earn them back any way (besides gold chip)
+* make a way to recharge staffs? maybe a merchant can do it for a price, or you can find e.g. an energy stone to do it with
