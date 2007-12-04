@@ -83,6 +83,7 @@ SPECIAL(cap_flag);
 SPECIAL(reincarnation);
 SPECIAL(religion);
 SPECIAL(clan_guard);
+SPECIAL(slots);
 
 /* local functions */
 
@@ -129,6 +130,7 @@ const struct specproc_info obj_procs[] = {
   {"pop_dispenser",     pop_dispenser,          LVL_IMMORT},
   {"ankh",              reincarnation,          LVL_IMPL},
   {"gm_plaque",         gm_plaque,              LVL_IMPL},
+	{"slot_machine",      slots,                  LVL_IMMORT},
   {"\n",                0,                      0}
 };
 

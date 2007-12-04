@@ -4046,3 +4046,265 @@ SPECIAL(sholo)
 {
   return FALSE;
 }
+
+#define GRAPE  0  /* Fruit for slot machine */
+#define CHERRY 1  /* Added by Jamdog        */
+#define APPLE  2  /* 11th June 2006         */
+#define ASEVEN 3
+#define ABAR   4
+#define LEMON  5
+#define NUMSLOTS 3
+#define MAX_GOLD 2000000000
+
+/* Special object - slot machine - built by those dwarves - A technological marvel! */
+/* Slot machine object - Created by Jamdog for AderonMUD - 11th June 2006           */
+/* (c) Copyright AderonMUD 2006 - aderonmud.genesismuds.com:3200                    */
+SPECIAL(slots)
+{
+/*
+|---------------------||---------------------||---------------------||---------------------||---------------------||---------------------|
+|         __          ||                     ||                     ||                     ||                     ||                     |
+|     __ {_/          ||  __.----.,-.__      ||           .:'       ||   _____________     ||                     ||        _____        |
+|     \_}\\ _         ||  `--._.-(`-.__`-.   ||       __ :'__       ||  (             )    || ==================  ||     ,-'    .'-,     |
+|        _\(_)_       ||          \    `--`  ||    .'`  `-'  ``.    ||   \   ____    /     || '___ '  __'  '___   ||    / .   .   . \    |
+|       (_)_)(_)_     ||     .--./ \         ||   :             :   ||    \_/   /   /      || | D ) '/  \ '| D )  || .-'   .    .    '-, |
+|      (_)(_)_)(_)    ||    /#   \  \.--.    ||   :             :   ||         /   /       || | D ) / /\ \ | |\\  || '-,     .     . ,-' |
+|       (_)(_))_)     ||    \    /  /#   \   ||    :           :    ||        /   /        ||  ' . '   .  '  .    ||    \ .     .   /    |
+|        (_(_(_)      ||     '--'   \    /   ||     `.__.-.__.'     ||       /   /         || ==================  ||     '-,_____,-'     |
+|         (_)_)       ||             '--'    ||                     ||      (___/          ||                     ||                     |
+|          (_)        ||                     ||                     ||                     ||                     ||                     |
+|---------------------||---------------------||---------------------||---------------------||---------------------||---------------------|
+*/
+
+char grape[10][30] = {
+"&G         __          ",
+"&G     __ {_/          ",
+"&G     \\_}&y\\\\&M _         ",
+"&M        _&y\\&M(_)_       ",
+"&M       (_)_)(_)_     ",
+"&M      (_)(_)_)(_)    ",
+"&M       (_)(_))_)     ",
+"&M        (_(_(_)      ",
+"&M         (_)_)       ",
+"&M          (_)        "
+};
+
+char cherry[10][35] = {
+"&G                     ",
+"&G  __.----.,-.__      ",
+"&G  `--._.-&y(&G`-.__`-.   ",
+"&y          \\    &G`--`  ",
+"&R     .--.&y/ \\         ",
+"&R    /&r#&R   \\  &y\\&R.--.    ",
+"&R    \\    /  /&r#&R   \\   ",
+"&R     '--'   \\    /   ",
+"&R             '--'    ",
+"&R                     "
+};
+
+char apple[10][30]={
+"&y                     ",
+"&y           .:'       ",
+"&R       __ &y:'&R__       ",
+"&R    .'`  `-'  ``.    ",
+"&R   :             :   ",
+"&R   :             :   ",
+"&R    :           :    ",
+"&R     `.__.-.__.'     ",
+"&R                     ",
+"&R                     "
+};
+
+char seven[10][30]={
+"&C                     ",
+"&C   _____________     ",
+"&C  (             )    ",
+"&C   \\   ____    /     ",
+"&C    \\_/   /   /      ",
+"&C         /   /       ",
+"&C        /   /        ",
+"&C       /   /         ",
+"&C      (___/          ",
+"&C                     "
+};
+
+char bar[10][35]={
+"&W                     ",
+"&W                     ",
+"&W ==================  ",
+"&Y '&B___&Y '  &B__&Y'  '&B___   ",
+"&B | D ) &Y'&B/  \\ &Y'&B| D )  ",
+"&B | D ) / /\\ \\ | |\\\\  ",
+"&Y  ' . '   .  '  .    ",
+"&W ==================  ",
+"&W                     ",
+"&W                     "
+};
+
+char lemon[10][30]={
+"&Y                     ",
+"&Y        _____        ",
+"&Y     ,-'    &y.&Y'-,     ",
+"&Y    / &y.   .   .&Y \\    ",
+"&Y .-'   &y.    .&Y    '-, ",
+"&Y '-,     &y.     .&Y ,-' ",
+"&Y    \\ &y.     .&Y   /    ",
+"&Y     '-,_____,-'     ",
+"&Y                     ",
+"&Y                     "
+};
+
+  char buf[MAX_STRING_LENGTH];
+  int iBet, iLine, iSlot[NUMSLOTS], iCalc=0, i;
+  struct obj_data *slotmachine = (struct obj_data *) me;
+  bool win = FALSE;
+
+  if (!cmd) return FALSE;
+
+  if (CMD_IS("bet")) {
+    argument = one_argument(argument, buf);
+
+    if (!*buf)
+    {
+      send_to_char("But, how much do you want to bet?",ch);
+      return TRUE;
+    }
+
+    iBet = atoi(buf);
+    if (iBet <= 0)
+    {
+      send_to_char("You can't bet that!",ch);
+      return TRUE;
+    }
+    if (iBet > GET_GOLD(ch))
+    {
+      send_to_char("You can't bet more gold than you actually have!",ch);
+      act("$n tries to play the $p but hasn't got enough gold!", FALSE, ch, slotmachine, 0, TO_ROOM);
+      return TRUE;
+    }
+
+    /* Take money from player */
+    GET_GOLD(ch) -= iBet;
+
+    act("$n put some coins in the $p and presses a button!", FALSE, ch, slotmachine, 0, TO_ROOM);
+
+    /* Select a fruit (betwen first and last fruit) */
+    for (i=0; i<NUMSLOTS; i++)
+    {
+      iSlot[i] = number(GRAPE,LEMON);
+      /* For 3 slots, then use powers of 4, for 4 slots, use powers of 5, etc... */
+      if (iSlot[i] == GRAPE)  iCalc += 1;
+      if (iSlot[i] == CHERRY) iCalc += 4;
+      if (iSlot[i] == APPLE)  iCalc += 16;
+      if (iSlot[i] == ASEVEN) iCalc += 64;
+      if (iSlot[i] == ABAR)   iCalc += 256;
+      if (iSlot[i] == LEMON)  iCalc += 1024;
+    }
+
+    sprintf(buf, "&Y|---------------------||---------------------||---------------------|\r\n");
+
+    /* Display the results */
+    for (iLine=0; iLine<10; iLine++)
+    {
+      for (i=0; i<NUMSLOTS; i++)
+      {
+        switch(iSlot[i])
+        {
+          case GRAPE:  sprintf(buf, "%s&Y|%s&Y|", buf, grape[iLine]);
+                       break;
+
+          case CHERRY: sprintf(buf, "%s&Y|%s&Y|", buf, cherry[iLine]);
+                       break;
+
+          case APPLE:  sprintf(buf, "%s&Y|%s&Y|", buf, apple[iLine]);
+                       break;
+
+          case ASEVEN: sprintf(buf, "%s&Y|%s&Y|", buf, seven[iLine]);
+                       break;
+
+          case ABAR:   sprintf(buf, "%s&Y|%s&Y|", buf, bar[iLine]);
+                       break;
+
+          case LEMON:  sprintf(buf, "%s&Y|%s&Y|", buf, lemon[iLine]);
+                       break;
+        }
+      }
+      sprintf(buf, "%s\r\n", buf);  /* End the line */
+    }
+
+    sprintf(buf, "%s&Y|---------------------||---------------------||---------------------|&n\r\n", buf);
+
+    send_to_char(buf,ch);
+
+    /* OK, now figure out if player has won - iCalc is different for EVERY combination, but can't show order */
+    /* To figure out the number you need, look above at where iCalc is added up                              */
+    switch (iCalc)
+    {
+      case 3:    sprintf(buf, "&MCongratulations! Three Grapes!\r\n&CYou receive %d coins back&n\r\n", (iBet*10) );
+                 send_to_char(buf,ch);
+                 GET_GOLD(ch) = MIN( (GET_GOLD(ch)+(iBet*10)), MAX_GOLD );
+                 win = TRUE;
+                 break;
+
+      case 12:   sprintf(buf, "&RCongratulations! Three Cherries!\r\n&CYou receive %d coins back&n\r\n", (iBet*8) );
+                 send_to_char(buf,ch);
+                 GET_GOLD(ch) = MIN( (GET_GOLD(ch)+(iBet*8)), MAX_GOLD );
+                 win = TRUE;
+                 break;
+
+      case 21:
+      case 1029:  
+      case 1041:  
+      case 1044: sprintf(buf, "&RCongratulations! Mixed Fruit!\r\n&CYou receive %d coins back&n\r\n", (iBet*5) );
+                 send_to_char(buf,ch);
+                 GET_GOLD(ch) = MIN( (GET_GOLD(ch)+(iBet*5)), MAX_GOLD );
+                 win = TRUE;
+                 break;
+
+      case 48:   sprintf(buf, "&RCongratulations! Three Apples!\r\n&CYou receive %d coins back&n\r\n", (iBet*7) );
+                 send_to_char(buf,ch);
+                 GET_GOLD(ch) = MIN( (GET_GOLD(ch)+(iBet*7)), MAX_GOLD );
+                 win = TRUE;
+                 break;
+
+      case 192:  sprintf(buf, "&yCongratulations! Three Sevens! &YJACKPOT!\r\n&CYou receive %d coins back&n\r\n", (iBet*25) );
+                 send_to_char(buf,ch);
+                 GET_GOLD(ch) = MIN( (GET_GOLD(ch)+(iBet*25)), MAX_GOLD );
+                 win = TRUE;
+                 break;
+
+      case 513:  
+      case 516:  
+      case 528:  
+      case 576:  
+      case 1536: sprintf(buf, "&BCongratulations! Two Bars!\r\n&CYou receive your bet back&n\r\n");
+                 send_to_char(buf,ch);
+                 GET_GOLD(ch) = MIN( (GET_GOLD(ch)+(iBet*1)), MAX_GOLD );
+                 win = TRUE;
+                 break;
+
+      case 768:  sprintf(buf, "&BCongratulations! Three Bars!\r\n&CYou receive %d coins back&n\r\n", (iBet*9) );
+                 send_to_char(buf,ch);
+                 GET_GOLD(ch) = MIN( (GET_GOLD(ch)+(iBet*9)), MAX_GOLD );
+                 win = TRUE;
+                 break;
+
+      case 3072: sprintf(buf, "&YCongratulations! Three Lemons!\r\n&CYou receive %d coins back&n\r\n", (iBet*6) );
+                 send_to_char(buf,ch);
+                 GET_GOLD(ch) = MIN( (GET_GOLD(ch)+(iBet*6)), MAX_GOLD );
+                 win = TRUE;
+                 break;
+
+      default:   send_to_char("Sorry, better luck next time!\r\n",ch);
+                 win = FALSE;
+                 break;
+    }
+
+    if (win == TRUE)
+      act("$n collects some coins from the $p!", FALSE, ch, slotmachine, 0, TO_ROOM);
+
+    return TRUE;
+  }
+  return FALSE;
+}
+

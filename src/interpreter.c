@@ -162,6 +162,7 @@ cpp_extern const struct command_info cmd_info[] = {
   {"banish", POS_STANDING, do_not_here, 1, 0},
   {"bash", POS_FIGHTING, do_bash, 1, 0},
   {"beg", POS_RESTING, do_action, 0, 0},
+  {"bet", POS_RESTING, do_not_here, 0, 0},
   {"bleed", POS_RESTING, do_action, 0, 0},
   {"blush", POS_RESTING, do_action, 0, 0},
   {"bow", POS_STANDING, do_action, 0, 0},

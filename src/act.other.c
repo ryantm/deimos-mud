@@ -79,6 +79,7 @@ int needed_exp(byte char_class, byte gain_class, int level);
 int needed_gold(byte char_class, byte gain_class, int level);
 byte get_class_level(struct char_data *ch, byte class);
 int rvnum = 0;
+char *num_punct(int foo);
 
 /* local functions */
 ACMD(do_quit);
@@ -1476,19 +1477,51 @@ ACMD(do_finger)
   send_to_char(buf, ch);
 }
 
-char * levels_exp_helper(struct char_data *ch, byte gain_class) 
+char * levels_exp_req_helper(struct char_data *ch, byte gain_class) 
 {
 	if (get_class_level(ch, gain_class) == MAX_MASTER_LEVEL)
-		return "     Mastered     ";
-  sprintf(buf1, "Exp : %12d", MAX(0,needed_exp(GET_CLASS(ch),  gain_class, get_class_level(ch, gain_class))-GET_EXP(ch)));
+		sprintf(buf1, "        Mastered        ");
+  else {
+    char* temp = num_punct(needed_exp(GET_CLASS(ch),  gain_class, get_class_level(ch, gain_class))); 
+    sprintf(buf1, "&BExp  req : %13s&n", temp);
+    free(temp);
+  }
 	return str_dup(buf1);
 }
 
-char * levels_gold_helper(struct char_data *ch, byte gain_class) 
+char * levels_exp_left_helper(struct char_data *ch, byte gain_class) 
 {
 	if (get_class_level(ch, gain_class) == MAX_MASTER_LEVEL)
-		return "                  ";
-  sprintf(buf1, "Gold: %12d", MAX(0,needed_gold(GET_CLASS(ch),  gain_class, get_class_level(ch, gain_class))-GET_GOLD(ch)));
+		sprintf(buf1, "                        ");
+  else {
+    char* temp = num_punct(MAX(0,needed_exp(GET_CLASS(ch),  gain_class, get_class_level(ch, gain_class))-GET_EXP(ch)));
+    sprintf(buf1, "&BExp  left: %13s&n", temp);
+    free(temp);
+  }
+	return str_dup(buf1);
+}
+
+char * levels_gold_req_helper(struct char_data *ch, byte gain_class) 
+{
+	if (get_class_level(ch, gain_class) == MAX_MASTER_LEVEL)
+		sprintf(buf1, "                        ");
+  else {
+    char* temp = num_punct(needed_gold(GET_CLASS(ch),  gain_class, get_class_level(ch, gain_class)));
+    sprintf(buf1, "&YGold req : %13s&n", temp);
+    free(temp);
+  }
+	return str_dup(buf1);
+}
+
+char * levels_gold_left_helper(struct char_data *ch, byte gain_class) 
+{
+	if (get_class_level(ch, gain_class) == MAX_MASTER_LEVEL)
+		sprintf(buf1, "                        ");
+  else {
+    char* temp = num_punct(MAX(0,needed_gold(GET_CLASS(ch),  gain_class, get_class_level(ch, gain_class))-GET_GOLD(ch)));
+    sprintf(buf1, "&YGold left: %13s&n", temp); 
+    free(temp);
+  }
 	return str_dup(buf1);
 }
 
@@ -1504,39 +1537,77 @@ char * can_level_class(struct char_data *ch, byte gain_class) {
 
 ACMD(do_level)
 {
-	int short_gold;
-	int short_exp;
 	bool can_level= FALSE;
 
-  //TODO: POSSIBLE MEMORY LEAK HERE!
-	if (GET_TOTAL_LEVEL(ch) == MAX_TOTAL_LEVEL)
-		{
-			short_exp  = MAX(0, GMEXP - GET_EXP(ch));
-			short_gold = MAX(0, GMGOLD - GET_GOLD(ch));
-			can_level= (short_exp == 0 && short_gold == 0);
-			sprintf(buf, "To next level:\r\n==================\r\nGrandMaster %s\r\n-----------------------\r\nExp :      %12d\r\nGold:      %12d",
-							can_level ? "&G(CAN LEVEL)&n" : "           ",
-							short_exp,
-							short_gold);
+  char* curexp = num_punct(GET_EXP(ch));
+  char* curgold = num_punct(GET_GOLD(ch));
+
+  sprintf(buf,               "&BExp : %13s&n\r\n", curexp);
+  sprintf(buf + strlen(buf), "&YGold: %13s&n\r\n", curgold);
+  sprintf(buf + strlen(buf), "\r\n");
+
+  free(curexp);
+  free(curgold);
+
+
+	if (GET_TOTAL_LEVEL(ch) == MAX_TOTAL_LEVEL) {
+      int short_exp  = MAX(0, GMEXP  - GET_EXP (ch));
+      int short_gold = MAX(0, GMGOLD - GET_GOLD(ch));
+		  char* gmer = num_punct(GMEXP);  char* gmel = num_punct(short_exp);
+			char* gmgr = num_punct(GMGOLD); char* gmgl = num_punct(short_gold);
+			can_level = (short_exp == 0 && short_gold == 0);
+	
+  		sprintf(buf + strlen(buf), "GrandMaster  %s\r\n", can_level ? "&G(CAN LEVEL)&n" : "           ");
+      sprintf(buf + strlen(buf), "Level %d\r\n", GET_GM_LEVEL(ch)); 
+			sprintf(buf + strlen(buf), "------------------------\r\n");
+      sprintf(buf + strlen(buf), "&BExp  req : %13s&n\r\n", gmer);
+      sprintf(buf + strlen(buf), "&BExp  left: %13s&n\r\n", gmel);
+      sprintf(buf + strlen(buf), "&YGold req : %13s&n\r\n", gmgr);
+      sprintf(buf + strlen(buf), "&YGold left: %13s&n\r\n", gmgl);
+
 			send_to_char(buf, ch);
-		}
-	else
-		{
-			sprintf(buf, "To next level:\r\n==================\r\nThief  %s  Warrior%s\r\n------------------  ------------------\r\n%s  %s\r\n%s  %s\r\n\r\nMage   %s  Cleric %s\r\n------------------  ------------------\r\n%s  %s\r\n%s  %s\r\n",
-							can_level_class(ch, CLASS_THIEF),
-							can_level_class(ch, CLASS_WARRIOR),
-							levels_exp_helper(ch,  CLASS_THIEF),
-							levels_exp_helper(ch,  CLASS_WARRIOR),
-							levels_gold_helper(ch, CLASS_THIEF),
-							levels_gold_helper(ch, CLASS_WARRIOR),
+
+      free(gmer); free(gmel);
+      free(gmgr); free(gmgl);
+
+	} else {
+      char* ter = levels_exp_req_helper (ch,  CLASS_THIEF);   char* tel = levels_exp_left_helper (ch,  CLASS_THIEF);
+      char* tgr = levels_gold_req_helper(ch,  CLASS_THIEF);   char* tgl = levels_gold_left_helper(ch,  CLASS_THIEF);
+      char* wer = levels_exp_req_helper (ch,  CLASS_WARRIOR); char* wel = levels_exp_left_helper (ch,  CLASS_WARRIOR);
+      char* wgr = levels_gold_req_helper(ch,  CLASS_WARRIOR); char* wgl = levels_gold_left_helper(ch,  CLASS_WARRIOR);
+      char* mer = levels_exp_req_helper (ch,  CLASS_MAGE);    char* mel = levels_exp_left_helper (ch,  CLASS_MAGE);
+      char* mgr = levels_gold_req_helper(ch,  CLASS_MAGE);    char* mgl = levels_gold_left_helper(ch,  CLASS_MAGE);
+      char* cer = levels_exp_req_helper (ch,  CLASS_CLERIC);  char* cel = levels_exp_left_helper (ch,  CLASS_CLERIC);
+      char* cgr = levels_gold_req_helper(ch,  CLASS_CLERIC);  char* cgl = levels_gold_left_helper(ch,  CLASS_CLERIC);
+      
+			sprintf(buf + strlen(buf), "Thief        %s    Warrior       %s\r\n", can_level_class(ch, CLASS_THIEF), can_level_class(ch, CLASS_WARRIOR));
+      sprintf(buf + strlen(buf), "Level %-2d                    Level %-2d\r\n", GET_THIEF_LEVEL(ch), GET_WARRIOR_LEVEL(ch)); 
+      sprintf(buf + strlen(buf), "------------------------    ------------------------\r\n");
+      sprintf(buf + strlen(buf), "%s    %s\r\n", ter, wer);
+      sprintf(buf + strlen(buf), "%s    %s\r\n", tel, wel);
+      sprintf(buf + strlen(buf), "%s    %s\r\n", tgr, wgr);
+      sprintf(buf + strlen(buf), "%s    %s\r\n", tgl, wgl);
+      sprintf(buf + strlen(buf), "\r\n");
+
+			sprintf(buf + strlen(buf), "Mage         %s    Cleric        %s\r\n", can_level_class(ch, CLASS_MAGE), can_level_class(ch, CLASS_CLERIC));
+      sprintf(buf + strlen(buf), "Level %-2d                    Level %-2d\r\n", GET_MAGE_LEVEL(ch), GET_CLERIC_LEVEL(ch)); 
+      sprintf(buf + strlen(buf), "------------------------    ------------------------\r\n");
+      sprintf(buf + strlen(buf), "%s    %s\r\n", mer, cer);
+      sprintf(buf + strlen(buf), "%s    %s\r\n", mel, cel);
+      sprintf(buf + strlen(buf), "%s    %s\r\n", mgr, cgr);
+      sprintf(buf + strlen(buf), "%s    %s\r\n", mgl, cgl);
+      sprintf(buf + strlen(buf), "\r\n");
 							
-							can_level_class(ch, CLASS_MAGE),
-							can_level_class(ch, CLASS_CLERIC),
-							levels_exp_helper(ch,  CLASS_MAGE),
-							levels_exp_helper(ch,  CLASS_CLERIC),
-							levels_gold_helper(ch, CLASS_MAGE),
-							levels_gold_helper(ch, CLASS_CLERIC));
 			send_to_char(buf, ch);
+
+      free(ter); free(tel);
+      free(tgr); free(tgl);
+      free(wer); free(wel);
+      free(wgr); free(wgl);
+      free(mer); free(mel);
+      free(mgr); free(mgl);
+      free(cer); free(cel);
+      free(cgr); free(cgl);
 		}
 }
 
