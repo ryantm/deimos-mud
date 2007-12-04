@@ -1172,14 +1172,14 @@ void find_replacement(void *go, struct script_data *sc, trig_data *trig,
     for (vd = sc->global_vars; vd; vd = vd->next)
       if (!str_cmp(vd->name, var) &&
           (vd->context==0 || vd->context==sc->context))
-	break; 
-
+				break; 
+	
   if (!*field) {
     if (vd)
       strcpy(str, vd->value);
     else {
       if (!str_cmp(var, "self"))
-	strcpy(str, "self");
+				strcpy(str, "self");
       else if (!str_cmp(var, "door"))
         strcpy(str,door[type]);
       else if (!str_cmp(var, "force"))
@@ -1208,63 +1208,63 @@ void find_replacement(void *go, struct script_data *sc, trig_data *trig,
   else {
     if (vd) {
       name = vd->value;
-
+			
       switch (type) {
       case MOB_TRIGGER:
-	ch = (char_data *) go;
-
-	if ((o = get_object_in_equip(ch, name)));
-	else if ((o = get_obj_in_list(name, ch->carrying)));
-	else if ((c = get_char_room(name, IN_ROOM(ch))));
-	else if ((o = get_obj_in_list(name,world[IN_ROOM(ch)].contents)));
-	else if ((c = get_char(name)));
-	else if ((o = get_obj(name)));
-	else if ((r = get_room(name))) {}
-
-	break;
+				ch = (char_data *) go;
+				
+				if ((o = get_object_in_equip(ch, name)));
+				else if ((o = get_obj_in_list(name, ch->carrying)));
+				else if ((c = get_char_room(name, IN_ROOM(ch))));
+				else if ((o = get_obj_in_list(name,world[IN_ROOM(ch)].contents)));
+				else if ((c = get_char(name)));
+				else if ((o = get_obj(name)));
+				else if ((r = get_room(name))) {}
+				
+				break;
       case OBJ_TRIGGER:
-	obj = (obj_data *) go;
-
-	if ((c = get_char_by_obj(obj, name)));
-	else if ((o = get_obj_by_obj(obj, name)));
-	else if ((r = get_room(name))) {}
-
-	break;
+				obj = (obj_data *) go;
+				
+				if ((c = get_char_by_obj(obj, name)));
+				else if ((o = get_obj_by_obj(obj, name)));
+				else if ((r = get_room(name))) {}
+				
+				break;
       case WLD_TRIGGER:
-	room = (struct room_data *) go;
-
-	if ((c = get_char_by_room(room, name)));
-	else if ((o = get_obj_by_room(room, name)));
-	else if ((r = get_room(name))) {}
-
-	break;
+				room = (struct room_data *) go;
+				
+				if ((c = get_char_by_room(room, name)));
+				else if ((o = get_obj_by_room(room, name)));
+				else if ((r = get_room(name))) {}
+				
+				break;
       }
     }
 
     else {
       if (!str_cmp(var, "self")) {
-	switch (type) {
-	case MOB_TRIGGER:
-	  c = (char_data *) go;
+				switch (type) {
+				case MOB_TRIGGER:
+					c = (char_data *) go;
           o = NULL;
           r = NULL;
-	  break;
-	case OBJ_TRIGGER:
+					break;
+				case OBJ_TRIGGER:
           c = NULL;
-	  o = (obj_data *) go;
+					o = (obj_data *) go;
           r = NULL;
-	  break;
-	case WLD_TRIGGER:
+					break;
+				case WLD_TRIGGER:
           c = NULL;
           o = NULL;
-	  r = (struct room_data *) go;
-	  break;
-	}
+					r = (struct room_data *) go;
+					break;
+				}
       }
       
       else if (!str_cmp(var, "people")) {
-	sprintf(str,"%d",((num = atoi(field)) > 0) ? trgvar_in_room(num) : 0);	
-	return;
+				sprintf(str,"%d",((num = atoi(field)) > 0) ? trgvar_in_room(num) : 0);	
+				return;
       }
       else if (!str_cmp(var, "time")) {
         if (!str_cmp(field, "hour"))
@@ -1348,35 +1348,35 @@ void find_replacement(void *go, struct script_data *sc, trig_data *trig,
           strcpy(str, GET_NAME(c));
 
       else if (!str_cmp(field, "id"))
-	sprintf(str, "%ld", GET_ID(c));
+				sprintf(str, "%ld", GET_ID(c));
 
       else if (!str_cmp(field, "alias"))
-	strcpy(str, GET_NAME(c));
-
+				strcpy(str, GET_NAME(c));
+			
       else if (!str_cmp(field, "level"))
-	sprintf(str, "%d", GET_LEVEL(c));
-
+				sprintf(str, "%d", GET_LEVEL(c));
+			
       else if (!str_cmp(field, "hitp"))
-	sprintf(str, "%d", GET_HIT(c));
-
+				sprintf(str, "%d", GET_HIT(c));
+			
       else if (!str_cmp(field, "maxhitp"))
-	sprintf(str, "%d", GET_MAX_HIT(c));
-
+				sprintf(str, "%d", GET_MAX_HIT(c));
+			
       else if (!str_cmp(field, "mana"))
-	sprintf(str, "%d", GET_MANA(c));
-
+				sprintf(str, "%d", GET_MANA(c));
+			
       else if (!str_cmp(field, "maxmana"))
-	sprintf(str, "%d", GET_MAX_MANA(c));
-
+				sprintf(str, "%d", GET_MAX_MANA(c));
+			
       else if (!str_cmp(field, "move"))
-	sprintf(str, "%d", GET_MOVE(c));
-
+				sprintf(str, "%d", GET_MOVE(c));
+			
       else if (!str_cmp(field, "maxmove"))
-	sprintf(str, "%d", GET_MAX_MOVE(c));
-
+				sprintf(str, "%d", GET_MAX_MOVE(c));
+			
       else if (!str_cmp(field, "align"))
-	sprintf(str, "%d", GET_ALIGNMENT(c));
-
+				sprintf(str, "%d", GET_ALIGNMENT(c));
+			
       else if (!str_cmp(field, "gold")) {
         if (subfield && *subfield) {
           int addition = atoi(subfield);
@@ -1392,33 +1392,29 @@ void find_replacement(void *go, struct script_data *sc, trig_data *trig,
         }
         sprintf(str, "%d", GET_EXP(c));
       }
-
+			
       else if (!str_cmp(field, "sex"))
-	strcpy(str, genders[(int)GET_SEX(c)]);
-
+				strcpy(str, genders[(int)GET_SEX(c)]);
+			
       else if (!str_cmp(field, "weight"))
-	sprintf(str, "%d", GET_WEIGHT(c));
-
+				sprintf(str, "%d", GET_WEIGHT(c));
+			
       else if (!str_cmp(field, "canbeseen")) {
-	if ((type == MOB_TRIGGER) && !CAN_SEE(((char_data *)go), c))
-	  strcpy(str, "0");
-	else
-	  strcpy(str, "1");
+				if ((type == MOB_TRIGGER) && !CAN_SEE(((char_data *)go), c))
+					strcpy(str, "0");
+				else
+					strcpy(str, "1");
       }
-
+			
       else if (!str_cmp(field, "class"))
-	sprinttype(GET_CLASS(c), pc_class_types, str);
-
-#ifdef GET_RACE
-      else if (!str_cmp(field, "race"))
-	sprinttype(GET_RACE(c), race_types, str);
-#endif
-
+				sprinttype(GET_CLASS(c), pc_class_types, str);
+			
+			
       else if (!str_cmp(field, "fighting"))
         if (FIGHTING(c))
           sprintf(str, "%c%ld", UID_CHAR, GET_ID(FIGHTING(c)));
         else *str = '\0';
-
+			
       else if (!str_cmp(field, "is_killer")) {
         if (subfield && *subfield) {
           if (!str_cmp("on", subfield))
@@ -1431,7 +1427,7 @@ void find_replacement(void *go, struct script_data *sc, trig_data *trig,
         else
           strcpy(str, "0");
       }
-
+			
       else if (!str_cmp(field, "is_thief")) {
         if (subfield && *subfield) {
           if (!str_cmp("on", subfield))
@@ -1444,51 +1440,37 @@ void find_replacement(void *go, struct script_data *sc, trig_data *trig,
         else
           strcpy(str, "0");
       }
-
-#ifdef RIDING
-      else if (!str_cmp(field, "riding"))
-        if (RIDING(c))
-          sprintf(str, "%c%ld", UID_CHAR, GET_ID(RIDING(c)));
-        else *str = '\0';
-#endif
-
-#ifdef RIDDEN_BY
-      else if (!str_cmp(field, "ridden_by"))
-        if (RIDDEN_BY(c))
-          sprintf(str, "%c%ld", UID_CHAR, GET_ID(RIDDEN_BY(c)));
-        else *str = '\0';
-#endif
-
+			
       else if (!str_cmp(field, "vnum"))
-	sprintf(str, "%d", GET_MOB_VNUM(c));
-
+				sprintf(str, "%d", GET_MOB_VNUM(c));
+			
       else if (!str_cmp(field, "str"))
-	sprintf(str, "%d", GET_STR(c));
-
+				sprintf(str, "%d", GET_STR(c));
+			
       else if (!str_cmp(field, "stradd"))
-           sprintf(str, "0");
-
+				sprintf(str, "0");
+			
       else if (!str_cmp(field, "int"))
-	sprintf(str, "%d", GET_INT(c));
-
+				sprintf(str, "%d", GET_INT(c));
+			
       else if (!str_cmp(field, "wis"))
-	sprintf(str, "%d", GET_WIS(c));
-
+				sprintf(str, "%d", GET_WIS(c));
+			
       else if (!str_cmp(field, "dex"))
-	sprintf(str, "%d", GET_DEX(c));
-
+				sprintf(str, "%d", GET_DEX(c));
+			
       else if (!str_cmp(field, "con"))
-	sprintf(str, "%d", GET_CON(c));
-
+				sprintf(str, "%d", GET_CON(c));
+			
       else if (!str_cmp(field, "cha"))
-	sprintf(str, "%d", GET_CHA(c));
-
+				sprintf(str, "%d", GET_CHA(c));
+			
       else if (!str_cmp(field, "room"))
-	sprintf(str, "%d", world[IN_ROOM(c)].number);
-
+				sprintf(str, "%d", world[IN_ROOM(c)].number);
+			
       else if (!str_cmp(field, "skill"))
         strcpy(str,skill_percent(c, subfield));
-
+			
       else if (!str_cmp(field, "eq")) {
         int pos = find_eq_pos(c, NULL, subfield);
         if (pos==-1 && isdigit(*subfield))
@@ -1546,7 +1528,7 @@ void find_replacement(void *go, struct script_data *sc, trig_data *trig,
 
     else if (o) {
       if (text_processed(field, subfield, vd, str)) return;
-
+			
       else if (!str_cmp(field, "name"))
 	strcpy(str, o->name);
 
@@ -1588,61 +1570,61 @@ void find_replacement(void *go, struct script_data *sc, trig_data *trig,
         else strcpy(str,"");
       
       else {
-	*str = '\0';
-	sprintf(buf2,
-		"Trigger: %s, VNum %d, type: %d. unknown object field: '%s'",
-		GET_TRIG_NAME(trig), GET_TRIG_VNUM(trig), type, field);
-	script_log(buf2);
+				*str = '\0';
+				sprintf(buf2,
+								"Trigger: %s, VNum %d, type: %d. unknown object field: '%s'",
+								GET_TRIG_NAME(trig), GET_TRIG_VNUM(trig), type, field);
+				script_log(buf2);
       }
     }
-
+		
     else if (r) {
       if (text_processed(field, subfield, vd, str)) return;
-
+			
       else if (!str_cmp(field, "name"))
-	strcpy(str, r->name);
+				strcpy(str, r->name);
       else if (!str_cmp(field, "north")) {
-	if (r->dir_option[NORTH])
-	  sprintbit(r->dir_option[NORTH]->exit_info ,exit_bits, str);
-	else
-	  *str = '\0';
+				if (r->dir_option[NORTH])
+					sprintbit(r->dir_option[NORTH]->exit_info ,exit_bits, str);
+				else
+					*str = '\0';
       } else if (!str_cmp(field, "east")) {
-	if (r->dir_option[EAST])
-	  sprintbit(r->dir_option[EAST]->exit_info ,exit_bits, str);
-	else
-	  *str = '\0';
+				if (r->dir_option[EAST])
+					sprintbit(r->dir_option[EAST]->exit_info ,exit_bits, str);
+				else
+					*str = '\0';
       } else if (!str_cmp(field, "south")) {
-	if (r->dir_option[SOUTH])
-	  sprintbit(r->dir_option[SOUTH]->exit_info ,exit_bits, str);
-	else
-	  *str = '\0';
+				if (r->dir_option[SOUTH])
+					sprintbit(r->dir_option[SOUTH]->exit_info ,exit_bits, str);
+				else
+					*str = '\0';
       } else if (!str_cmp(field, "west")) {
-	if (r->dir_option[WEST])
-	  sprintbit(r->dir_option[WEST]->exit_info ,exit_bits, str);
-	else
-	  *str = '\0';
+				if (r->dir_option[WEST])
+					sprintbit(r->dir_option[WEST]->exit_info ,exit_bits, str);
+				else
+					*str = '\0';
       } else if (!str_cmp(field, "up")) {
-	if (r->dir_option[UP])
-	  sprintbit(r->dir_option[UP]->exit_info ,exit_bits, str);
-	else
-	  *str = '\0';
+				if (r->dir_option[UP])
+					sprintbit(r->dir_option[UP]->exit_info ,exit_bits, str);
+				else
+					*str = '\0';
       } else if (!str_cmp(field, "down")) {
-	if (r->dir_option[DOWN])
-	  sprintbit(r->dir_option[DOWN]->exit_info ,exit_bits, str);
-	else
-	  *str = '\0';
+				if (r->dir_option[DOWN])
+					sprintbit(r->dir_option[DOWN]->exit_info ,exit_bits, str);
+				else
+					*str = '\0';
       } else if (!str_cmp(field, "vnum")) {
-          sprintf(str,"%d",r->number); 
+				sprintf(str,"%d",r->number); 
       } else if (!str_cmp(field, "people")) {
-          if (r->people)
-            sprintf(str,"%c%ld",UID_CHAR,GET_ID(r->people));
-          else *str = '\0';
+				if (r->people)
+					sprintf(str,"%c%ld",UID_CHAR,GET_ID(r->people));
+				else *str = '\0';
       } else {
-	*str = '\0';
-	sprintf(buf2,
-		"Trigger: %s, VNum %d, type: %d. unknown room field: '%s'",
-		GET_TRIG_NAME(trig), GET_TRIG_VNUM(trig), type, field);
-	script_log(buf2);
+				*str = '\0';
+				sprintf(buf2,
+								"Trigger: %s, VNum %d, type: %d. unknown room field: '%s'",
+								GET_TRIG_NAME(trig), GET_TRIG_VNUM(trig), type, field);
+				script_log(buf2);
       }
     }
 

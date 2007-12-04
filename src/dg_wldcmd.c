@@ -476,64 +476,64 @@ WCMD(do_wdamage) {
     char_data *ch;
 
     two_arguments(argument, name, amount);
-
+		
     if (!*name || !*amount || !isdigit(*amount)) {
-	wld_log(room, "wdamage: bad syntax");
-	return;
+			wld_log(room, "wdamage: bad syntax");
+			return;
     }
-
+		
     dam = atoi(amount);
-
+		
     if ((ch = get_char_by_room(room, name))) {
-	if (GET_LEVEL(ch)>=LVL_IMMORT) {
-	    send_to_char("Being a god, you carefully avoid a trap.", ch);
-	    return;
-	}
-        GET_HIT(ch) -= dam;
-        if (dam < 0) {
-          send_to_char("You feel rejuvinated.\r\n", ch);
-          return;
-        }
-
-	update_pos(ch);
-	switch (GET_POS(ch)) {
-	case POS_MORTALLYW:
- 	    act("$n is mortally wounded, and will die soon, if not aided.", TRUE, ch, 0, 0, TO_ROOM);
- 	    send_to_char("You are mortally wounded, and will die soon, if not aided.\r\n", ch);
-	    break;
-	case POS_INCAP:
- 	    act("$n is incapacitated and will slowly die, if not aided.", TRUE, ch, 0, 0, TO_ROOM);
- 	    send_to_char("You are incapacitated an will slowly die, if not aided.\r\n", ch);
-    	    break;
-  	case POS_STUNNED:
+			if (GET_LEVEL(ch)>=LVL_IMMORT) {
+				send_to_char("Being a god, you carefully avoid a trap.", ch);
+				return;
+			}
+			GET_HIT(ch) -= dam;
+			if (dam < 0) {
+				send_to_char("You feel rejuvinated.\r\n", ch);
+				return;
+			}
+			
+			update_pos(ch);
+			switch (GET_POS(ch)) {
+			case POS_MORTALLYW:
+				act("$n is mortally wounded, and will die soon, if not aided.", TRUE, ch, 0, 0, TO_ROOM);
+				send_to_char("You are mortally wounded, and will die soon, if not aided.\r\n", ch);
+				break;
+			case POS_INCAP:
+				act("$n is incapacitated and will slowly die, if not aided.", TRUE, ch, 0, 0, TO_ROOM);
+				send_to_char("You are incapacitated an will slowly die, if not aided.\r\n", ch);
+				break;
+			case POS_STUNNED:
    	    act("$n is stunned, but will probably regain consciousness again.", TRUE, ch, 0, 0, TO_ROOM);
-    	    send_to_char("You're stunned, but will probably regain consciousness again.\r\n", ch);
-    	    break;
-  	case POS_DEAD:
-    	    act("$n is dead!  R.I.P.", FALSE, ch, 0, 0, TO_ROOM);
-    	    send_to_char("You are dead!  Sorry...\r\n", ch);
-    	    break;
-
-  	default:			/* >= POSITION SLEEPING */
-    	    if (dam > (GET_MAX_HIT(ch) >> 2))
-      	        act("That really did HURT!", FALSE, ch, 0, 0, TO_CHAR);
- 	    if (GET_HIT(ch) < (GET_MAX_HIT(ch) >> 2)) {
+				send_to_char("You're stunned, but will probably regain consciousness again.\r\n", ch);
+				break;
+			case POS_DEAD:
+				act("$n is dead!  R.I.P.", FALSE, ch, 0, 0, TO_ROOM);
+				send_to_char("You are dead!  Sorry...\r\n", ch);
+				break;
+				
+			default:			/* >= POSITION SLEEPING */
+				if (dam > (GET_MAX_HIT(ch) >> 2))
+					act("That really did HURT!", FALSE, ch, 0, 0, TO_CHAR);
+				if (GET_HIT(ch) < (GET_MAX_HIT(ch) >> 2)) {
         	sprintf(buf2, "%sYou wish that your wounds would stop BLEEDING so much!%s\r\n",
 	                CCRED(ch, C_SPR), CCNRM(ch, C_SPR));
         	send_to_char(buf2, ch);
-    	    }
-	}
-	if (GET_POS(ch) == POS_DEAD) {
-	    if (!IS_NPC(ch)) {
-		sprintf(buf2, "%s killed by a trap at %s", GET_NAME(ch),
-	      		world[ch->in_room].name);
+				}
+			}
+			if (GET_POS(ch) == POS_DEAD) {
+				if (!IS_NPC(ch)) {
+					sprintf(buf2, "%s killed by a trap at %s", GET_NAME(ch),
+									world[ch->in_room].name);
       		mudlog(buf2, BRF, 0, TRUE);
-    	    }
-    	    die(ch, NULL);
-	}
+				}
+				die(ch, NULL);
+			}
     }
     else
-	wld_log(room, "wdamage: target not found");
+			wld_log(room, "wdamage: target not found");
 }
 
 WCMD(do_wat) {

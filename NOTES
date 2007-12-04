@@ -6,10 +6,9 @@ Reproducable
 * people can multiplay with new characters
 * color prompt even with color off
 * spar & sac ranks are screwed up
-
-* Missed backstab is sometimes shown after kill.
 * Ranks are all screwed up
-* Deathtoall crashes MUD, probably same error as goldchip
+* Missed backstab is sometimes shown after kill.
+
 
 Cannot Reproduce
 * CRASH: zreset causes problems
@@ -19,7 +18,6 @@ Cannot Reproduce
 Enhancements
 * Make "Invalid Name" tell you to ask Imm to DC you.
 * Make levels show how much exp and gold you have and if you can level.
-* safeguard against zreset zone 0 (if verify that it hoses containers)
 * Blink tag is annoying as hell kill it.
 
 * Make help files more lines max
