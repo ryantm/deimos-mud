@@ -180,6 +180,7 @@ ACMD(do_peace);
 ACMD(do_repiss);
 ACMD(do_poofin);
 ACMD(do_poofout);
+ACMD(do_pop);
 ACMD(do_pour);
 ACMD(do_practice);
 ACMD(do_pretitle);

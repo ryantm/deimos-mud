@@ -99,6 +99,7 @@ struct question_index *find_question(char *keyword);
 int copy_object(struct obj_data *to, struct obj_data *from);
 
 /* local functions */
+void where_pops(struct char_data *ch, bool search_objs, int vnum);
 int perform_set(struct char_data *ch, struct char_data *vict, int mode, char *val_arg);
 void perform_immort_invis(struct char_data *ch, int level);
 ACMD(do_echo);
@@ -713,7 +714,7 @@ void do_stat_room(struct char_data * ch)
  */
 bool check_same_room(int zone, int subcmd, room_rnum rnum)
 {
-//	sprintf(buf, "subcmd is %d", subcmd);
+	//	sprintf(buf, "subcmd is %d", subcmd);
   // log(buf);
 
 	if (subcmd <= 0)  /* Looks like we're already at the bottom, tough luck */
@@ -740,7 +741,7 @@ bool check_same_room(int zone, int subcmd, room_rnum rnum)
    	 default: break;
 	   }
   }
-	 return FALSE;
+	return FALSE;
 }
 
 /* Called from vstat - show the zone reset information for
@@ -893,6 +894,123 @@ subcmd).arg3 == 2) ? "hidden" : "closed") : "locked") : "open");
   }
   send_to_char(output, ch);
 
+}
+
+ACMD(do_pop)
+{
+  mob_vnum number;	/* or obj_vnum ... */
+  mob_rnum r_num;	/* or obj_rnum ... */
+
+  two_arguments(argument, buf, buf2);
+
+  if (!*buf || !*buf2 || !isdigit(*buf2)) 
+		{
+			send_to_char("Usage: pop { obj | mob } <vnum>\r\n", ch);
+			return;
+		}
+  if ((number = atoi(buf2)) < 0)
+		{
+			send_to_char("A NEGATIVE number??\r\n", ch);
+			return;
+		}
+  if (is_abbrev(buf, "mob")) 
+		{
+			if ((r_num = real_mobile(number)) < 0) 
+				{
+					send_to_char("There is no monster with that number.\r\n", ch);
+					return;
+				}
+			where_pops(ch, FALSE, number);
+		} 
+	else if (is_abbrev(buf, "obj")) 
+		{
+			if ((r_num = real_object(number)) < 0) {
+				send_to_char("There is no object with that number.\r\n", ch);
+				return;
+			}
+			where_pops(ch, TRUE, number);
+		} 
+	else
+    send_to_char("Usage: pop { obj | mob } <vnum>\r\n", ch);
+}
+
+void where_pops(struct char_data *ch, bool search_objs, int vnum)
+{
+	int zone, subcmd;
+	room_vnum rvnum;
+  bool found = FALSE;
+	int i;
+	int last_rvnum = 0;
+
+	for (i = 0; i <= top_of_zone_table; i++)
+		{
+			zone   = i;
+			subcmd = 0;
+			//Zone has no loading files
+			if (!(ZCMD(zone, subcmd).command))
+				continue;
+			
+			while ((ZCMD(zone, subcmd).command) && (ZCMD(zone, subcmd).command != 'S')) 
+				{
+					rvnum = 0;
+					switch (ZCMD(zone, subcmd).command) 
+						{
+						case 'M': case 'O': rvnum = GET_ROOM_VNUM(ZCMD(zone, subcmd).arg3);	break;
+						case 'G': 
+						case 'E':
+						case 'P':
+							rvnum = last_rvnum; // might not be accurate but best we can do..
+							break;
+						}
+
+					//M) Load Mobile to room             O) Load Object to room
+					//E) Equip mobile with object        G) Give an object to a mobile
+					//P) Put object in another object    
+					switch (ZCMD(zone, subcmd).command) 
+						{
+						case 'M':
+							if (search_objs) 
+								break;
+
+							if (mob_index[ZCMD(zone, subcmd).arg1].vnum == vnum)
+								{
+									sprintf(buf, "Room: %5d Max: %5d PRate: %d%%\r\n", 
+													rvnum, 
+													ZCMD(zone, subcmd).arg2,
+													100-ZCMD(zone, subcmd).arg4
+													);
+									send_to_char(buf,ch);
+									found = TRUE;
+								}
+							break;
+						case 'O':
+						case 'E':
+						case 'P':
+						case 'G':
+							if (!search_objs)
+								break;
+					
+							if (obj_index[ZCMD(zone, subcmd).arg1].vnum == vnum) 
+								{
+									sprintf(buf, "Room: %5d Max: %5d PRate: %d%%\r\n", 
+													rvnum, 
+													ZCMD(zone, subcmd).arg2,
+													100-ZCMD(zone, subcmd).arg4
+													);
+									send_to_char(buf,ch);
+									found = TRUE;
+								}
+							break;
+						default:
+							break;
+						}
+					last_rvnum = rvnum;
+					subcmd++;
+				}
+		}
+
+	if (found == FALSE)
+		send_to_char("Pops nowhere.",ch);
 }
 
 
@@ -1425,15 +1543,15 @@ ACMD(do_stat)
     } else {
       CREATE(victim, struct char_data, 1);
       clear_char(victim);
-     if (load_char(buf2, victim) > -1) { 
-	char_to_room(victim, 0);
+			if (load_char(buf2, victim) > -1) { 
+				char_to_room(victim, 0);
 	if (GET_LEVEL(victim) > GET_LEVEL(ch))
 	  send_to_char("Sorry, you can't do that.\r\n", ch);
 	else
 	  do_stat_character(ch, victim);
 	extract_char(victim);
       } else {
-	send_to_char("There is no such player.\r\n", ch);
+				send_to_char("There is no such player.\r\n", ch);
 	free(victim);
       }
     }
@@ -2981,9 +3099,9 @@ ACMD(do_show)
   case 12:
     strcpy(buf, "Teleport Rooms\r\n--------------------------\r\n");
     for (i = 0, j = 0; i <= top_of_world; i++)
-    if (ROOM_FLAGGED(i, ROOM_TELEPORT))
-      sprintf(buf + strlen(buf), "%2d: [%5d] %s\r\n",
-		++j, GET_ROOM_VNUM(i), world[i].name);
+			if (ROOM_FLAGGED(i, ROOM_TELEPORT))
+				sprintf(buf + strlen(buf), "%2d: [%5d] %s\r\n",
+								++j, GET_ROOM_VNUM(i), world[i].name);
     page_string(ch->desc, buf, TRUE);
     break;
   default:

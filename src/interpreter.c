@@ -431,6 +431,7 @@ cpp_extern const struct command_info cmd_info[] = {
   {"ponder", POS_RESTING, do_action, 0, 0},
   {"poofin", POS_DEAD, do_immcmd, LVL_IMMORT, IMM_POOFIN},
   {"poofout", POS_DEAD, do_immcmd, LVL_IMMORT, IMM_POOFOUT},
+  {"pop", POS_DEAD, do_pop, LVL_IMMORT, 0},
   {"pour", POS_STANDING, do_pour, 0, SCMD_POUR},
   {"pout", POS_RESTING, do_action, 0, 0},
   {"prompt", POS_DEAD, do_display, 0, 0},
