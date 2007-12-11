@@ -137,16 +137,16 @@ int compute_armor_class(struct char_data *ch)
  // This function calculates percent of damange that remains after it goes through armor
   int armorclass;
   if (!IS_NPC(ch) || MOB_FLAGGED(ch, MOB_EDIT)) {
-  //Max 1128 is 100
-  if (GET_AC(ch) >= 0)
-   armorclass = GET_AC(ch) * .25; /* Max Damage Reduction = 25% beforedex*/
-  else
-   armorclass = -GET_AC(ch) * .5; /* Doulbe Damage for Under 0 ac */
-
-  if (AWAKE(ch) && !IS_NPC(ch))
-    armorclass += (GET_DEX(ch) * .4); /* Can Boost max to 35% off */
-  
-  return (100 - armorclass);      /* -50 is lowest */
+    //Max 1128 is 100
+    if (GET_AC(ch) >= 0)
+      armorclass = GET_AC(ch) * .25; /* Max Damage Reduction = 25% beforedex*/
+    else
+      armorclass = -GET_AC(ch) * .5; /* Doulbe Damage for Under 0 ac */
+    
+    if (AWAKE(ch) && !IS_NPC(ch))
+      armorclass += (GET_DEX(ch) * .4); /* Can Boost max to 35% off */
+    
+    return (100 - armorclass);      /* -50 is lowest */
   }
   else
     return (100 - GET_LEVEL(ch) * .53);

@@ -2977,12 +2977,13 @@ void happycheck()
          if (DOUBLEGOLD)
           do_wiztog(NULL, "", 0, SCMD_GOLD);
       } else { //3 - razors
-        struct obj_data *k;
+        struct obj_data *k, *next_obj;
         
-        for (k = object_list; k; k = k->next)
+        for (k = object_list; k; k = next_obj) {
+          next_obj = k->next;
           if (GET_OBJ_VNUM(k) == 6)
             extract_obj(k);
-
+        }
         for (pt = descriptor_list; pt; pt = pt->next)
           if (STATE(pt) == CON_PLAYING && pt->character)
             send_to_char("&MAll Razors have been taken away!&n\r\n", pt->character);

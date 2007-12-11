@@ -1350,6 +1350,25 @@ void find_replacement(void *go, struct script_data *sc, trig_data *trig,
       else if (!str_cmp(field, "id"))
 				sprintf(str, "%ld", GET_ID(c));
 
+			else if (!str_cmp(field, "inventory")) {
+				if(subfield && *subfield) {
+					for (obj = c->carrying;obj;obj=obj->next_content) {
+						if(GET_OBJ_VNUM(obj)==atoi(subfield)) {
+							sprintf(str, "%c%ld", UID_CHAR, GET_ID(obj)); /* arg given, found */
+							return;
+						}
+					}
+					if (!obj)
+						*str = '\0'; /* arg given, not found */
+				} else { /* no arg given */
+					if (c->carrying) {
+						sprintf(str, "%c%ld", UID_CHAR, GET_ID(c->carrying));
+					} else {
+						*str = '\0';
+					}
+				}
+			}
+
       else if (!str_cmp(field, "alias"))
 				strcpy(str, GET_NAME(c));
 			

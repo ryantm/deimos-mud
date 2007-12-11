@@ -677,6 +677,7 @@ cpp_extern const struct command_info cmd_info[] = {
   {"tstat", POS_DEAD, do_tstat, LVL_IMMORT, 0},
   {"masound", POS_DEAD, do_masound, -1, 0},
   {"mkill", POS_STANDING, do_mkill, -1, 0},
+  {"mdamage", POS_DEAD, do_mdamage, -1, 0},
   {"mjunk", POS_SITTING, do_mjunk, -1, 0},
   {"mdoor", POS_DEAD, do_mdoor, -1, 0},
   {"mecho", POS_DEAD, do_mecho, -1, 0},

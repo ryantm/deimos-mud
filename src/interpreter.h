@@ -290,6 +290,7 @@ ACMD(do_detach);
 ACMD(do_tlist);
 ACMD(do_tstat);
 ACMD(do_masound);
+ACMD(do_mdamage);
 ACMD(do_mkill);
 ACMD(do_mjunk);
 ACMD(do_mdoor);

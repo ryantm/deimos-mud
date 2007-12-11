@@ -38,6 +38,7 @@
 #include "interpreter.h"
 #include "comm.h"
 #include "spells.h"
+#include "screen.h"
 
 
 extern struct descriptor_data *descriptor_list;
@@ -46,6 +47,8 @@ extern struct index_data *mob_index;
 extern struct room_data *world;
 extern int dg_owner_purged;
 extern const char *dirs[];
+
+void die(struct char_data * ch, struct char_data *killer);
 
 void sub_write(char *arg, char_data *ch, byte find_invis, int targets);
 long asciiflag_conv(char *flag);
@@ -1094,3 +1097,82 @@ ACMD(do_mdoor)
 	}
     }
 }
+
+ACMD(do_mdamage) {
+  char name[MAX_INPUT_LENGTH], amount[MAX_INPUT_LENGTH];
+  int dam = 0;
+  char_data *vict;
+
+  if (!MOB_OR_IMPL(ch)) {
+	  send_to_char("Huh?!?\r\n", ch);
+    return;
+  }
+
+  if (AFF_FLAGGED(ch, AFF_CHARM))
+    return;
+
+  two_arguments(argument, name, amount);
+
+  /* who cares if it's a number ? if not it'll just be 0 */
+  if (!*name || !*amount) {
+      mob_log(ch, "mdamage: bad syntax");
+      return;
+  }
+
+  dam = atoi(amount);
+  if (*name == UID_CHAR) {
+    if (!(vict = get_char(name))) {
+      sprintf(buf, "mdamage: victim (%s) does not exist", name);
+      mob_log(ch, buf);
+      return;
+    }
+  } else if (!(vict = get_char_room_vis(ch, name))) {
+    sprintf(buf, "mdamage: victim (%s) does not exist", name);
+    mob_log(ch, buf);
+    return;
+  }
+  /* ugly starts here */
+  if (GET_LEVEL(ch)>=LVL_IMMORT) {
+      send_to_char("Being the cool immortal you are, you sidestep a trap, obviously placed to kill you.", ch);
+      return;
+  } 
+  GET_HIT(vict) -= dam;
+  update_pos(vict);
+  switch (GET_POS(vict)) {
+  case POS_MORTALLYW:
+      act("$n is mortally wounded, and will die soon, if not aided.", TRUE, vict, 0, 0, TO_ROOM);
+      send_to_char("You are mortally wounded, and will die soon, if not aided.\r\n", vict);
+      break;
+  case POS_INCAP:
+      act("$n is incapacitated and will slowly die, if not aided.", TRUE, vict, 0, 0, TO_ROOM);
+      send_to_char("You are incapacitated an will slowly die, if not aided.\r\n", vict);
+          break;
+    case POS_STUNNED:
+        act("$n is stunned, but will probably regain consciousness again.", TRUE, vict, 0, 0, TO_ROOM);
+          send_to_char("You're stunned, but will probably regain consciousness again.\r\n", vict);
+          break;
+    case POS_DEAD:
+          act("$n is dead!  R.I.P.", FALSE, vict, 0, 0, TO_ROOM);
+          send_to_char("You are dead!  Sorry...\r\n", vict);
+          break;
+  
+    default:      /* >= POSITION SLEEPING */
+          if (dam > (GET_MAX_HIT(vict) >> 2))
+                act("That really did HURT!", FALSE, vict, 0, 0, TO_CHAR);
+      if (GET_HIT(vict) < (GET_MAX_HIT(vict) >> 2)) {
+          sprintf(buf2, "%sYou wish that your wounds would stop BLEEDING so muvict!%s\r\n",
+                  CCRED(vict, C_SPR), CCNRM(vict, C_SPR));
+          send_to_char(buf2, vict);
+            }
+  }
+  if (GET_POS(vict) == POS_DEAD) {
+      if (!IS_NPC(vict)) {
+    sprintf(buf2, "%s killed by a trap at %s", GET_NAME(vict),
+            world[vict->in_room].name);
+          mudlog(buf2, BRF, 0, TRUE);
+      }
+          die(vict, NULL);
+  }
+
+}
+
