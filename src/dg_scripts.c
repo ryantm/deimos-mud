@@ -1084,7 +1084,7 @@ int text_processed(char *field, char *subfield, struct trig_var_data *vd,
   char *p, *p2;
 
   if (!str_cmp(field, "strlen")) {                     /* strlen    */
-    sprintf(str, "%d", strlen(vd->value));
+    sprintf(str, "%d", (int)strlen(vd->value));
     return TRUE;
   } else if (!str_cmp(field, "trim")) {                /* trim      */
     /* trim whitespace from ends */
@@ -1367,6 +1367,14 @@ void find_replacement(void *go, struct script_data *sc, trig_data *trig,
 						*str = '\0';
 					}
 				}
+			}
+
+			/* new check for pc/npc status */
+			else if (!str_cmp(field, "is_pc")) {
+				if (IS_NPC(c))
+					strcpy(str, "0");
+				else
+					strcpy(str, "1");
 			}
 
       else if (!str_cmp(field, "alias"))
