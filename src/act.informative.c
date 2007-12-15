@@ -340,7 +340,8 @@ void look_at_char(struct char_data * i, struct char_data * ch)
   int j, found;
   int rank = (GET_SPARRANK(i)/100);
   int econrank = (GET_ECONRANK(i)/300);
-  
+  bool can_peek = FALSE;
+
   if (!ch->desc)
     return;
 
@@ -506,9 +507,15 @@ void look_at_char(struct char_data * i, struct char_data * ch)
 
   if (ch != i && (GET_SKILL(ch, SKILL_SEE_INV) || GET_LEVEL(ch) >= LVL_IMMORT)) 
   {
-    if (GET_THIEF_LEVEL(i) + (GET_CLASS(i) == CLASS_THIEF
-? GET_GM_LEVEL(i) : 0) > GET_THIEF_LEVEL(ch) + (GET_CLASS(ch) ==
-CLASS_THIEF ? GET_GM_LEVEL(ch) : 0) + GET_SKILL(ch, SKILL_SEE_INV))
+
+    if (!IS_NPC(ch) && GET_LEVEL(ch) >= LVL_IMMORT)
+      can_peek = TRUE;
+    else if (!IS_NPC(ch) && GET_LEVEL(i) >= LVL_IMMORT)
+      can_peek = FALSE;
+    else if (GET_THIEF_LEVEL(i) + (GET_CLASS(i) == CLASS_THIEF ? GET_GM_LEVEL(i) : 0) <= GET_THIEF_LEVEL(ch) + (GET_CLASS(ch) == CLASS_THIEF ? GET_GM_LEVEL(ch) : 0) + GET_SKILL(ch, SKILL_SEE_INV))
+      can_peek = TRUE;
+
+    if (!can_peek)
     {
       sprintf(buf, "%s tries to look into your inventory and you catch them red handed.\r\n", GET_NAME(ch));
       send_to_char(buf, i);

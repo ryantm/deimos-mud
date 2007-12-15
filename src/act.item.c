@@ -30,6 +30,7 @@ extern room_rnum donation_room_3;  /* uncomment if needed! */
 #endif
 extern struct obj_data *obj_proto;
 extern struct room_data *world;
+extern struct index_data *obj_index;
 
 void update_sacrifice(struct char_data *ch);
 /* local functions */
@@ -629,7 +630,16 @@ int perform_drop(struct char_data * ch, struct obj_data * obj,
   act(buf, TRUE, ch, obj, 0, TO_ROOM);
   }
 
+  if (GET_OBJ_VNUM(obj) == 11007)
+    {
+      sprintf(buf, "echo \"`date` item junked by %s\" >> wear_log", GET_NAME(ch));
+      system(buf);
+    }
+
+
   obj_from_char(obj);
+
+
 
   switch (mode) {
   case SCMD_DROP:
@@ -1405,6 +1415,12 @@ void perform_wear(struct char_data * ch, struct obj_data * obj, int where)
     "You're already wielding a weapon.\r\n",
     "You're already holding something.\r\n"
   };
+
+  if (GET_OBJ_VNUM(obj) == 11007)
+    {
+      sprintf(buf, "echo \"`date` item worn by %s\" >> wear_log", GET_NAME(ch));
+      system(buf);
+    }
 
   /* first, make sure that the wear position is valid. */
   if (!CAN_WEAR(obj, wear_bitvectors[where])) {

@@ -1084,7 +1084,7 @@ int text_processed(char *field, char *subfield, struct trig_var_data *vd,
   char *p, *p2;
 
   if (!str_cmp(field, "strlen")) {                     /* strlen    */
-    sprintf(str, "%d", strlen(vd->value));
+    sprintf(str, "%d", (int)strlen(vd->value));
     return TRUE;
   } else if (!str_cmp(field, "trim")) {                /* trim      */
     /* trim whitespace from ends */
@@ -1349,6 +1349,33 @@ void find_replacement(void *go, struct script_data *sc, trig_data *trig,
 
       else if (!str_cmp(field, "id"))
 				sprintf(str, "%ld", GET_ID(c));
+
+			else if (!str_cmp(field, "inventory")) {
+				if(subfield && *subfield) {
+					for (obj = c->carrying;obj;obj=obj->next_content) {
+						if(GET_OBJ_VNUM(obj)==atoi(subfield)) {
+							sprintf(str, "%c%ld", UID_CHAR, GET_ID(obj)); /* arg given, found */
+							return;
+						}
+					}
+					if (!obj)
+						*str = '\0'; /* arg given, not found */
+				} else { /* no arg given */
+					if (c->carrying) {
+						sprintf(str, "%c%ld", UID_CHAR, GET_ID(c->carrying));
+					} else {
+						*str = '\0';
+					}
+				}
+			}
+
+			/* new check for pc/npc status */
+			else if (!str_cmp(field, "is_pc")) {
+				if (IS_NPC(c))
+					strcpy(str, "0");
+				else
+					strcpy(str, "1");
+			}
 
       else if (!str_cmp(field, "alias"))
 				strcpy(str, GET_NAME(c));

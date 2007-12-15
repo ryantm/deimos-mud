@@ -4166,27 +4166,27 @@ char lemon[10][30]={
 
     if (!*buf)
     {
-      send_to_char("But, how much do you want to bet?",ch);
+      send_to_char("But, how much do you want to bet?\r\n",ch);
       return TRUE;
     }
 
     iBet = atoi(buf);
     if (iBet <= 0)
     {
-      send_to_char("You can't bet that!",ch);
+      send_to_char("You can't bet that!\r\n",ch);
       return TRUE;
     }
     if (iBet > GET_GOLD(ch))
     {
-      send_to_char("You can't bet more gold than you actually have!",ch);
-      act("$n tries to play the $p but hasn't got enough gold!", FALSE, ch, slotmachine, 0, TO_ROOM);
+      send_to_char("You can't bet more gold than you actually have!\r\n",ch);
+      act("$n tries to play $p but doesn't have enough gold!\r\n", FALSE, ch, slotmachine, 0, TO_ROOM);
       return TRUE;
     }
 
     /* Take money from player */
     GET_GOLD(ch) -= iBet;
 
-    act("$n put some coins in the $p and presses a button!", FALSE, ch, slotmachine, 0, TO_ROOM);
+    act("$n puts some coins in $p and presses a button!\r\n", FALSE, ch, slotmachine, 0, TO_ROOM);
 
     /* Select a fruit (betwen first and last fruit) */
     for (i=0; i<NUMSLOTS; i++)
@@ -4301,7 +4301,7 @@ char lemon[10][30]={
     }
 
     if (win == TRUE)
-      act("$n collects some coins from the $p!", FALSE, ch, slotmachine, 0, TO_ROOM);
+      act("$n collects some coins from $p!\r\n", FALSE, ch, slotmachine, 0, TO_ROOM);
 
     return TRUE;
   }

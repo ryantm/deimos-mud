@@ -1718,12 +1718,14 @@ send_to_char("All auto-commands have been intiated\r\n", ch);
 
 ACMD(do_bandage)
 {
-  int percent, prob;
+  int percent, prob, cost;
   struct obj_data *obj;
   obj = get_obj_in_list_vis(ch, "bandage", ch->carrying);
 	
   if (IS_NPC(ch))
 		return;
+
+  cost = (GET_THIEF_LEVEL(ch) / 2) + (GET_DEX(ch) * 2);
 	
   if (!GET_SKILL(ch, SKILL_BANDAGE)) {
 		if (!obj) {
@@ -1732,7 +1734,7 @@ ACMD(do_bandage)
 	
   if (GET_SKILL(ch, SKILL_BANDAGE))
 		if (!obj) {
-			if (GET_MOVE(ch) < 20) {
+			if (GET_MOVE(ch) < cost) {
 				send_to_char("You don't have enough movement points to bandage.\r\n",ch);
 				return; }}
 	
@@ -1757,7 +1759,7 @@ ACMD(do_bandage)
 		{
 			
 			if (!obj)
-				GET_MOVE(ch) -= (GET_THIEF_LEVEL(ch) / 2) + (GET_DEX(ch) * 2);
+				GET_MOVE(ch) -= cost;
 			if (!obj)
 				switch (GET_CLASS(ch))
 					{
