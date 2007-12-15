@@ -981,13 +981,13 @@ struct char_player_data {
 
 /* Char's abilities.  Used in char_file_u *DO*NOT*CHANGE* */
 struct char_ability_data {
-   sbyte str;
-   sbyte str_add;      /* 000 - 100 if strength 18             */
-   sbyte intel;
-   sbyte wis;
-   sbyte dex;
-   sbyte con;
-   sbyte cha;
+   int str;
+   int str_add;      /* 000 - 100 if strength 18             */
+   int intel;
+   int wis;
+   int dex;
+   int con;
+   int cha;
 };
 
 
@@ -1015,8 +1015,8 @@ struct char_point_data {
    int  kills;          // Total Kills
    int  sacrifices;     // Total sacrifices
 
-   sbyte hitroll;       /* Any bonus or penalty to the hit roll    */
-   sbyte damroll;       /* Any bonus or penalty to the damage roll */
+   int  hitroll;       /* Any bonus or penalty to the hit roll    */
+   int damroll;       /* Any bonus or penalty to the damage roll */
   
 };
 

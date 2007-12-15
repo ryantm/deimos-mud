@@ -2953,27 +2953,39 @@ ACMD(do_show)
     else if (*value && is_number(value)) {
       for (zvn = atoi(value), zrn = 0; zone_table[zrn].number != zvn && zrn <= top_of_zone_table; zrn++);
       if (zrn <= top_of_zone_table)
-      { 
-    sprintf(buf, "&n%3d %-30.30s\r\n",
-	   zone_table[zrn].number, zone_table[zrn].name);
-
-//	print_zone_to_buf(buf, zrn);
-        send_to_char(buf, ch);
-      } 
+				{ 
+					sprintf(buf, "&n%3d %-30.30s\r\n",
+									zone_table[zrn].number, zone_table[zrn].name);
+					
+					//	print_zone_to_buf(buf, zrn);
+					send_to_char(buf, ch);
+				} 
       else {
-	send_to_char("That is not a valid zone.\r\n", ch);
-	return;
+				send_to_char("That is not a valid zone.\r\n", ch);
+				return;
       }
     } else
+			// 0
       for (zrn = 0; zrn <= top_of_zone_table; zrn++)
-      {
-    sprintf(buf, "%3d %-30.30s\r\n",
-	   zone_table[zrn].number, zone_table[zrn].name);
-
-	//print_zone_to_buf(buf, zrn);
-        send_to_char(buf, ch);
-      }
-    }
+				{
+					if (zrn == top_of_zone_table)
+						sprintf(buf, "%3d %-30.30s\r\n",
+										zone_table[zrn].number, zone_table[zrn].name);
+					else
+						{
+							
+							sprintf(buf, "%3d %-30.30s      ",
+											zone_table[zrn].number, zone_table[zrn].name);
+							send_to_char(buf,ch);
+							zrn++;
+							sprintf(buf, "%3d %-30.30s\r\n",
+											zone_table[zrn].number, zone_table[zrn].name);
+						}
+					
+					//print_zone_to_buf(buf, zrn);
+					send_to_char(buf, ch);
+				}
+	 }
     else
     send_to_char("I don't think so...\r\n", ch);
     break;
@@ -3109,6 +3121,7 @@ ACMD(do_show)
     break;
   }
 }
+
 
 
 /***************** The do_set function ***********************************/

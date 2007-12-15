@@ -267,15 +267,11 @@ void affect_total(struct char_data * ch)
   for (af = ch->affected; af; af = af->next)
     affect_modify(ch, af->location, af->modifier, af->bitvector, TRUE);
 
-  /* Make certain values are between 0..25, not < 0 and not > 25! */
-
-  i = (IS_NPC(ch) ? 25 : 25);
-
-  GET_DEX(ch) = MAX(0, MIN(GET_DEX(ch), i));
-  GET_INT(ch) = MAX(0, MIN(GET_INT(ch), i));
-  GET_WIS(ch) = MAX(0, MIN(GET_WIS(ch), i));
-  GET_CON(ch) = MAX(0, MIN(GET_CON(ch), i));
-  GET_STR(ch) = MAX(0, MIN(GET_STR(ch), i));
+  GET_DEX(ch) = MAX(0, GET_DEX(ch));
+  GET_INT(ch) = MAX(0, GET_INT(ch));
+  GET_CON(ch) = MAX(0, GET_CON(ch));
+  GET_STR(ch) = MAX(0, GET_STR(ch));
+  GET_CHA(ch) = MAX(0, GET_CHA(ch));
 
   GET_AC(ch) =  MAX(-50, MIN(GET_AC(ch), 100));
 
@@ -544,8 +540,7 @@ void equip_char(struct char_data * ch, struct obj_data * obj, int pos)
     log("SYSERR: EQUIP: Obj is in_room when equip.");
     return;
   }
-  if (invalid_align(ch, obj) || invalid_class(ch, obj) ||
-(!IS_NPC(ch) && OBJ_FLAGGED(obj, ITEM_ASSASSIN_ONLY) && !PLR_FLAGGED(ch, PLR_ASSASSIN))) {
+  if (invalid_class(ch, obj) || (!IS_NPC(ch) && OBJ_FLAGGED(obj, ITEM_ASSASSIN_ONLY) && !PLR_FLAGGED(ch, PLR_ASSASSIN))) {
     act("You are zapped by $p and instantly let go of it.", FALSE, ch, obj, 0, TO_CHAR);
     act("$n is zapped by $p and instantly lets go of it.", FALSE, ch, obj, 0, TO_ROOM);
     /* Changed to drop in inventory instead of the ground. */

@@ -15,6 +15,7 @@ Cannot Reproduce
 * CRASH: title with notitle on crashes game
 
 Enhancements
+* Make doors show in autoexit
 * Make "Invalid Name" tell you to ask Imm to DC you.
 * Blink tag is annoying as hell kill it.
 * Make help files more lines max
