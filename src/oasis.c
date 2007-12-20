@@ -198,8 +198,8 @@ ACMD(do_oasis)
 	  sprintf(buf, "Help files are already being editted by %s.\r\n",
 		  (CAN_SEE(ch, d->character) ? GET_NAME(d->character) : "someone"));
 	else
-	sprintf(buf, "That %s is currently being edited by %s.\r\n",
-		 olc_scmd_info[subcmd].text, PERS(d->character, ch));
+	  sprintf(buf, "That %s is currently being edited by %s.\r\n",
+		  olc_scmd_info[subcmd].text, PERS(d->character, ch));
 	send_to_char(buf, ch);
 	return;
       }
@@ -587,4 +587,41 @@ void olc_disp_spec_proc_menu(struct descriptor_data * d,
   show_spec_proc_table(table, GET_LEVEL(d->character), buf);
   send_to_char(buf, d->character);
   send_to_char("\r\n&wSelect spec proc: ", d->character);
+}
+
+
+
+ACMD(do_odelete)
+{
+  int vnum,rnum;
+
+  /*
+   * No screwing around as a mobile.
+   */
+  if (IS_NPC(ch))
+    return;
+  
+  /*
+   * Parse any arguments.
+   */
+  two_arguments(argument, buf1, buf2);
+  if (!*buf1) 
+    {		/* No argument given. */
+      sprintf(buf, "Specify a %s VNUM to edit.\r\n", olc_scmd_info[subcmd].text);
+      send_to_char(buf, ch);
+      return;
+    }
+
+  vnum = atoi(buf1);
+  rnum = real_object(vnum);
+  if (vnum < 0)
+    {
+      sprintf(buf, "Object %d doesn't exist.\r\n", vnum);
+      send_to_char(buf, ch);
+      return;
+    }
+
+  delete_object(rnum);
+  sprintf(buf, "Deleted object\r\n");
+  send_to_char(buf, ch);
 }

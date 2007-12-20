@@ -172,6 +172,7 @@ ACMD(do_mine);
 ACMD(do_not_here);
 ACMD(do_oasis);
 ACMD(do_oarchy);
+ACMD(do_odelete);
 ACMD(do_offer);
 /* ACMD(do_olc); */
 ACMD(do_order);
