@@ -81,8 +81,9 @@ void clear_screen(struct descriptor_data *d)
 
 /* -------------------------------------------------------------------------- */
 
-int can_edit_zone(struct char_data *ch, int number) 
+int can_edit_zone(struct char_data *ch, int number)   // number is a real_znum
 {
+
   if (IS_NPC(ch))
        return FALSE;
 
@@ -589,12 +590,9 @@ void olc_disp_spec_proc_menu(struct descriptor_data * d,
   send_to_char("\r\n&wSelect spec proc: ", d->character);
 }
 
-
-
 ACMD(do_odelete)
 {
   int vnum,rnum;
-
   /*
    * No screwing around as a mobile.
    */
@@ -607,8 +605,7 @@ ACMD(do_odelete)
   two_arguments(argument, buf1, buf2);
   if (!*buf1) 
     {		/* No argument given. */
-      sprintf(buf, "Specify a %s VNUM to edit.\r\n", olc_scmd_info[subcmd].text);
-      send_to_char(buf, ch);
+      send_to_char("Specify a vnum to delete.\r\n",ch);
       return;
     }
 
@@ -620,8 +617,87 @@ ACMD(do_odelete)
       send_to_char(buf, ch);
       return;
     }
-
+  if (!can_edit_zone(ch, real_zone_by_thing(vnum)))
+    {
+      send_to_char("&RYou do not have permission to delete things in this zone.&n\r\n", ch);
+      return;
+    }
+  
   delete_object(rnum);
-  sprintf(buf, "Deleted object\r\n");
-  send_to_char(buf, ch);
+  send_to_char("Deleted object\r\n", ch);
 }
+
+ACMD(do_rdelete)
+{
+  int vnum,rnum;
+  /*
+   * No screwing around as a mobile.
+   */
+  if (IS_NPC(ch))
+    return;
+  
+  /*
+   * Parse any arguments.
+   */
+  two_arguments(argument, buf1, buf2);
+  if (!*buf1) 
+    {		/* No argument given. */
+      send_to_char("Specify a vnum to delete.\r\n",ch);
+      return;
+    }
+
+  vnum = atoi(buf1);
+  rnum = real_room(vnum);
+  if (vnum < 0)
+    {
+      sprintf(buf, "Room %d doesn't exist.\r\n", vnum);
+      send_to_char(buf, ch);
+      return;
+    }
+  if (!can_edit_zone(ch, real_zone_by_thing(vnum)))
+    {
+      send_to_char("&RYou do not have permission to delete things in this zone.&n\r\n", ch);
+      return;
+    }
+  
+  delete_room(rnum);
+  send_to_char("Deleted room\r\n", ch);
+}
+
+ACMD(do_mdelete)
+{
+  int vnum,rnum;
+  /*
+   * No screwing around as a mobile.
+   */
+  if (IS_NPC(ch))
+    return;
+  
+  /*
+   * Parse any arguments.
+   */
+  two_arguments(argument, buf1, buf2);
+  if (!*buf1) 
+    {		/* No argument given. */
+      send_to_char("Specify a vnum to delete.\r\n",ch);
+      return;
+    }
+
+  vnum = atoi(buf1);
+  rnum = real_mobile(vnum);
+  if (vnum < 0)
+    {
+      sprintf(buf, "Mobile %d doesn't exist.\r\n", vnum);
+      send_to_char(buf, ch);
+      return;
+    }
+  if (!can_edit_zone(ch, real_zone_by_thing(vnum)))
+    {
+      send_to_char("&RYou do not have permission to delete things in this zone.&n\r\n", ch);
+      return;
+    }
+  
+  delete_mobile(rnum);
+  send_to_char("Deleted mobile\r\n", ch);
+}
+

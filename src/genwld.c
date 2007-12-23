@@ -522,44 +522,46 @@ int buildwalk(struct char_data *ch, int dir) {
   if (!IS_NPC(ch) && PRF_FLAGGED2(ch, PRF2_BUILDWALK) &&
    GET_LEVEL(ch) >= LVL_BUILDER) {
 
-    if (zone_table[world[ch->in_room].zone].number != GET_OLC_ZONE(ch)
-     && GET_LEVEL(ch) < LVL_IMPL) {
-      send_to_char("You do not have build permissions in this zone.\r\n", ch);
-    } else if ((vnum = redit_find_new_vnum(world[ch->in_room].zone)) == NOWHERE)
+    if (!can_edit_zone(ch, world[ch->in_room].zone)) 
+      {
+	send_to_char("You do not have build permissions in this zone.\r\n", ch);
+      } 
+    else if ((vnum = redit_find_new_vnum(world[ch->in_room].zone)) == NOWHERE)
       send_to_char("No free vnums are available in this zone!\r\n", ch);
-    else {
-
-      /* Set up data for add_room function */
-      CREATE(room, struct room_data, 1);
-      room->name = str_dup("New BuildWalk Room");
-      sprintf(buf, "This unfinished room was created by %s.\r\n", GET_NAME(ch));
-      room->description = str_dup(buf);
-      room->number = vnum;
-      room->zone = world[ch->in_room].zone;
-
-      /* Add the room */
-      add_room(room);
-
-      /* Link rooms */
-      CREATE(EXIT(ch, dir), struct room_direction_data, 1);
-      EXIT(ch, dir)->to_room = (rnum = real_room(vnum));
-      CREATE(world[rnum].dir_option[rev_dir[dir]], struct room_direction_data, 1);
-      world[rnum].dir_option[rev_dir[dir]]->to_room = ch->in_room;
-
-      /* Memory cleanup */
-      free(room->name);
-      free(room->description);
-      free(room);
-
-      /* Report room creation to user */
-      sprintf(buf, "%sRoom #%d created by BuildWalk.%s\r\n", CCYEL(ch, C_SPR),
-       vnum, CCNRM(ch, C_SPR));
-      send_to_char(buf, ch);
-
-      return(1);
-    }
-
+    else 
+      {
+	
+	/* Set up data for add_room function */
+	CREATE(room, struct room_data, 1);
+	room->name = str_dup("New BuildWalk Room");
+	sprintf(buf, "This unfinished room was created by %s.\r\n", GET_NAME(ch));
+	room->description = str_dup(buf);
+	room->number = vnum;
+	room->zone = world[ch->in_room].zone;
+	
+	/* Add the room */
+	add_room(room);
+	
+	/* Link rooms */
+	CREATE(EXIT(ch, dir), struct room_direction_data, 1);
+	EXIT(ch, dir)->to_room = (rnum = real_room(vnum));
+	CREATE(world[rnum].dir_option[rev_dir[dir]], struct room_direction_data, 1);
+	world[rnum].dir_option[rev_dir[dir]]->to_room = ch->in_room;
+	
+	/* Memory cleanup */
+	free(room->name);
+	free(room->description);
+	free(room);
+	
+	/* Report room creation to user */
+	sprintf(buf, "%sRoom #%d created by BuildWalk.%s\r\n", CCYEL(ch, C_SPR),
+		vnum, CCNRM(ch, C_SPR));
+	send_to_char(buf, ch);
+	
+	return(1);
+      }
+    
   }
-
+  
   return(0);
 }

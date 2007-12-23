@@ -419,7 +419,7 @@ int delete_object(obj_rnum rnum)
 {
   obj_rnum i;
   zone_rnum zrnum;
-  struct obj_data *obj, *tmp;
+  struct obj_data *obj, *tmp, *next_tmp;
   int shop, j, zone, cmd_no;
 
   if (rnum == NOTHING || rnum > top_of_objt)
@@ -432,7 +432,8 @@ int delete_object(obj_rnum rnum)
   /* This is something you might want to read about in the logs. */
   log("GenOLC: delete_object: Deleting object #%d (%s).", GET_OBJ_VNUM(obj), obj->short_description);
 
-  for (tmp = object_list; tmp; tmp = tmp->next) {
+  for (tmp = object_list; tmp; tmp = next_tmp) {
+    next_tmp = tmp->next;
     if (tmp->item_number != obj->item_number)
       continue;
 

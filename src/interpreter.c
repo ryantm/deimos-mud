@@ -274,7 +274,6 @@ cpp_extern const struct command_info cmd_info[] = {
   {"fill", POS_STANDING, do_pour, 0, SCMD_FILL},
   {"finger", POS_RESTING, do_finger, 1, 0},
   {"find", POS_RESTING, do_immcmd, LVL_IMMORT, IMM_FIND},
-  {"firefight", POS_STANDING, do_firefight, 0, 0},
   {"flee", POS_FIGHTING, do_flee, 1, 0},
   {"flex", POS_RESTING, do_action, 0, 0},
   {"flip", POS_STANDING, do_action, 0, 0},
@@ -414,7 +413,7 @@ cpp_extern const struct command_info cmd_info[] = {
   {"olc", POS_DEAD, do_immcmd, LVL_IMMORT, IMM_OLC},
   {"oedit", POS_DEAD, do_immcmd, LVL_IMMORT, IMM_OEDIT},
   {"oarchy", POS_DEAD, do_immcmd, LVL_IMMORT, IMM_OARCHY},
-  {"odelete", POS_DEAD, do_odelete, LVL_IMPL, 0},
+  {"odelete", POS_DEAD, do_odelete, LVL_IMMORT, 0},
 
   {"put", POS_RESTING, do_put, 0, 0},
   {"pat", POS_RESTING, do_action, 0, 0},
@@ -456,6 +455,7 @@ cpp_extern const struct command_info cmd_info[] = {
   {"qsay", POS_RESTING, do_qcomm, 0, SCMD_QSAY},
 
   {"raise", POS_STANDING, do_action, 0, 0},
+  {"rdelete", POS_DEAD, do_rdelete, LVL_IMMORT, 0},
   {"recite", POS_RESTING, do_use, 0, SCMD_RECITE},
   {"recall", POS_STANDING, do_recall, 0, 0},
   {"recharge", POS_RESTING, do_not_here, 0, 0},
@@ -678,6 +678,7 @@ cpp_extern const struct command_info cmd_info[] = {
   {"tstat", POS_DEAD, do_tstat, LVL_IMMORT, 0},
   {"masound", POS_DEAD, do_masound, -1, 0},
   {"mkill", POS_STANDING, do_mkill, -1, 0},
+  {"mdelete", POS_DEAD, do_mdelete, LVL_IMMORT, 0},
   {"mdamage", POS_DEAD, do_mdamage, -1, 0},
   {"mjunk", POS_SITTING, do_mjunk, -1, 0},
   {"mdoor", POS_DEAD, do_mdoor, -1, 0},
