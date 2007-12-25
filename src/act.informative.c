@@ -593,9 +593,12 @@ void list_all_char(struct char_data * i, struct char_data * ch, int num)
     strcpy(buf, i->player.short_descr);
     CAP(buf);
   } else
-      sprintf(buf, "&n%s%s %s %s&n", GET_PRETITLE(i), i->player.name,
-        	GET_LNAME(i) != NULL ? GET_LNAME(i) : "",
-                GET_TITLE(i));
+      sprintf(buf, "&n%s%s", GET_PRETITLE(i), i->player.name);
+      if (GET_LNAME(i) != NULL && strlen(GET_LNAME(i)) > 0)
+        sprintf(buf + strlen(buf), " %s", GET_LNAME(i));
+      if (GET_TITLE(i) != NULL && strlen(GET_TITLE(i)) > 0)
+        sprintf(buf + strlen(buf), " %s", GET_TITLE(i));
+      sprintf(buf + strlen(buf), "&n");
      
   if (AFF_FLAGGED(i, AFF_INVISIBLE))
     strcat(buf, "&n (invisible)&n");
