@@ -59,7 +59,6 @@ void update_sacrifice(struct char_data *ch);
 void sort_assassinrank(struct char_data *ch);
 
 /* local functions */
-void put_chunks_in_corpse(struct char_data * ch,   struct obj_data *corpse);
 void dam_message(int dam, struct char_data * ch, struct char_data * victim, int w_type);
 void appear(struct char_data * ch);
 void load_messages(void);
@@ -416,7 +415,6 @@ void make_corpse(struct char_data * ch)
   }
   
 
-    put_chunks_in_corpse(ch, corpse);
 
     ch->carrying = NULL;
     IS_CARRYING_N(ch) = 0;
@@ -425,51 +423,6 @@ void make_corpse(struct char_data * ch)
   obj_to_room(corpse, ch->in_room);
 }
 
-void put_chunks_in_corpse(struct char_data * ch,   struct obj_data *corpse)
-{
-  int chance_of_thousand = 0;
-  int percent = number(1,100);
-  struct obj_data *chunk = NULL;
-
-  if (IS_NPC(ch) && !MOB_FLAGGED(ch,MOB_EDIT))
-  {
-    chance_of_thousand = (int)((GET_LEVEL(ch) * GET_LEVEL(ch))/ 100.)-5;
-    if (number(1,1000) < chance_of_thousand)
-    {
-       if (GET_LEVEL(ch) > 60 && percent < 70)
-         percent += 15;
-
-       //We get a chunk
-       if (percent < 35)
-       {
-           //Tin
-           chunk = read_object(1510, VIRTUAL);
-       }
-       else if (percent < 35+25)
-       {
-           //Copper
-           chunk = read_object(1511, VIRTUAL);
-       }
-       else if (percent < 35+25+20)
-       {
-           //Iron
-           chunk = read_object(1512, VIRTUAL);
-       }
-       else if (percent < 35+25+20+15)
-       {
-           //Gold
-           chunk = read_object(1513, VIRTUAL);
-       }
-       else
-       {
-           //Titanium
-           chunk = read_object(1514, VIRTUAL);
-       }
-      obj_to_obj(chunk,corpse);
-    }
-  }
-  return;
-}
 
 
 void delete_eq(struct char_data * ch)

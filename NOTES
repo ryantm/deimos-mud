@@ -1,16 +1,9 @@
 TODO
-
-Done:
-* Blink tag is annoying as hell kill it.
-* get rid of recall spell; make recall cost 3/4? mv for everybody
-* removed stat loss on death
-* made exp go to zero when you die
-* removed single from scoresheet
-* remove anon
-* fixed tether typo
-* removed unused ranks
-* removed clan from scoresheet
-* changed recall room, donation room
+Done
+* prompt all, color complete for new chars
+* hide output of autos for new chars
+* random mob difficulties +/- 3 levels (if a mob pops with eq he is harder + 4 levels)
+* Make chunks pop randomly on Mob spawn not death
 
 Bugs to Fix
 Reproducable
@@ -27,16 +20,11 @@ Cannot Reproduce
 Enhancements
 * Make doors show in autoexit
 * Make "Invalid Name" tell you to ask Imm to DC you. better idea make it disconnect people.
-
 * Make help files more lines max
 * Update Info
 * Make a social editor
-* Make chunks pop randomly on Mob spawn not death
-* random mob difficulties +/- 3 levels (if a mob pops with eq he is harder + 3 levels)
+
 * trip is useless
-* GM/hero channel
-* prompt all, color complete for new chars
-* hide output of autos for new chars
 * make tell self say "You tell yourself"?
 * disallow pre-hero multiclassing or make warning (make a player flag you have to set first, like with the cuss channel?)
 

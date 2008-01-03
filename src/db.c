@@ -30,6 +30,7 @@
 #include "pfdefaults.h"
 #include "clan.h"
 
+
 /**************************************************************************
 *  declarations of most of the 'global' variables                         *
 **************************************************************************/
@@ -178,6 +179,10 @@ void sprintbits(long vektor, char *outstring);
 int xap_objs = 1;               /* Xap objs      */
 void read_songs();
 struct question_index *find_question(char *keyword);
+
+void randomize_mobile(struct char_data *mob, int range);
+void powerup_mobile(struct char_data *mob, int level);
+void give_chunks_to_mobile(struct char_data *mob);
 
 /* external vars */
 extern int no_specials;
@@ -1930,13 +1935,6 @@ struct char_data *read_mobile(mob_vnum nr, int type) /* and mob_rnum */
   mob->next = character_list;
   character_list = mob;
 
-  if (!mob->points.max_hit) {
-    mob->points.max_hit = dice(mob->points.hit, mob->points.mana) +
-      mob->points.move;
-  } else
-    mob->points.max_hit = number(mob->points.hit, mob->points.mana);
-  //Set Mana based on level
-
   mob->points.max_mana = GET_LEVEL(mob) * 100;
   
   mob->points.hit = mob->points.max_hit;
@@ -2124,26 +2122,30 @@ void reset_zone(zone_rnum zone)
 
     case 'M':			/* read a mobile */
       if ((mob_index[ZCMD.arg1].number < ZCMD.arg2) &&
-           (number(1, 100) >= ZCMD.arg4)) {
-	mob = read_mobile(ZCMD.arg1, REAL);
-	char_to_room(mob, ZCMD.arg3);
-	last_cmd = 1;
+					(number(1, 100) >= ZCMD.arg4)) {
+				mob = read_mobile(ZCMD.arg1, REAL);
+
+				randomize_mobile(mob, 3);
+				give_chunks_to_mobile(mob);
+
+				char_to_room(mob, ZCMD.arg3);
+				last_cmd = 1;
         mob_load = TRUE;
         load_mtrigger(mob);
         tmob = mob;
       } else
-	last_cmd = 0;
+				last_cmd = 0;
       break;
-
+			
     case 'O':			/* read an object */
       if ((obj_index[ZCMD.arg1].number < ZCMD.arg2) &&
 					(number(1, 100) >= ZCMD.arg4)) {
 				if (ZCMD.arg3 >= 0) {
 					obj = read_object(ZCMD.arg1, REAL);
-	  obj_to_room(obj, ZCMD.arg3);
-		obj_load = TRUE;
-		load_otrigger(obj);
-		tobj = obj;
+					obj_to_room(obj, ZCMD.arg3);
+					obj_load = TRUE;
+					load_otrigger(obj);
+					tobj = obj;
 				} else {
 					obj = read_object(ZCMD.arg1, REAL);
 					obj->in_room = NOWHERE;
@@ -2182,6 +2184,8 @@ void reset_zone(zone_rnum zone)
           mob_load && (number(1, 100) >= ZCMD.arg4)) {
 				obj = read_object(ZCMD.arg1, REAL);
 				obj_to_char(obj, mob);
+
+				powerup_mobile(mob, 4);
         tobj = obj;
         load_otrigger(obj);
 				last_cmd = 1;

@@ -93,6 +93,7 @@ ACMD(do_visible);
 ACMD(do_title);
 int perform_group(struct char_data *ch, struct char_data *vict);
 void print_group(struct char_data *ch);
+void autoall(struct char_data *ch);
 ACMD(do_group);
 ACMD(do_ungroup);
 ACMD(do_report);
@@ -1640,26 +1641,34 @@ ACMD(do_die)
 
 ACMD(do_autoall) 
 {
-send_to_char("All auto-commands have been intiated\r\n", ch);
- send_to_char("AUTO_LOOT is defaulted, turn on AUTOGOLD seperatly\r\n", ch);
- SET_BIT(PRF_FLAGS(ch), PRF_AUTOEXIT);
- SET_BIT(PRF_FLAGS(ch), PRF_AUTOSPLIT); 
- SET_BIT(PRF_FLAGS(ch), PRF_AUTODIAG);
- SET_BIT(PRF_FLAGS(ch), PRF_AUTOLOOT);
- REMOVE_BIT(PRF_FLAGS(ch), PRF_AUTOGOLD);
- SET_BIT(PRF_FLAGS(ch), PRF_AUTOASSIST);
- SET_BIT(PRF_FLAGS(ch), PRF_AUTOSAC);
- SET_BIT(PRF_FLAGS2(ch), PRF2_AUTOSCORE);
- SET_BIT(PRF_FLAGS2(ch), PRF2_AUTOTICK);
- SET_BIT(PRF_FLAGS2(ch), PRF2_AUTOLOGON);
- if (PLR_FLAGGED(ch, PLR_CUSSER)) SET_BIT(PRF_FLAGS2(ch), PRF2_CUSS);
- SET_BIT(PRF_FLAGS2(ch), PRF2_HEARLEVEL);
-
- if (GET_LEVEL(ch) >= LVL_IMMORT) {
- SET_BIT(PRF_FLAGS(ch), PRF_HOLYLIGHT);
- SET_BIT(PRF_FLAGS(ch), PRF_ROOMFLAGS);
-  }
+	send_to_char("All auto-commands have been intiated\r\n", ch);
+	send_to_char("AUTO_LOOT is defaulted, turn on AUTOGOLD seperatly\r\n", ch);
+	autoall(ch);
 }
+
+void autoall(struct char_data *ch)
+{
+	SET_BIT(PRF_FLAGS(ch), PRF_AUTOEXIT);
+	SET_BIT(PRF_FLAGS(ch), PRF_AUTOSPLIT); 
+	SET_BIT(PRF_FLAGS(ch), PRF_AUTODIAG);
+	SET_BIT(PRF_FLAGS(ch), PRF_AUTOLOOT);
+	REMOVE_BIT(PRF_FLAGS(ch), PRF_AUTOGOLD);
+	SET_BIT(PRF_FLAGS(ch), PRF_AUTOASSIST);
+	SET_BIT(PRF_FLAGS(ch), PRF_AUTOSAC);
+	SET_BIT(PRF_FLAGS2(ch), PRF2_AUTOSCORE);
+	SET_BIT(PRF_FLAGS2(ch), PRF2_AUTOTICK);
+	SET_BIT(PRF_FLAGS2(ch), PRF2_AUTOLOGON);
+	if (PLR_FLAGGED(ch, PLR_CUSSER)) SET_BIT(PRF_FLAGS2(ch), PRF2_CUSS);
+	SET_BIT(PRF_FLAGS2(ch), PRF2_HEARLEVEL);
+	
+	if (GET_LEVEL(ch) >= LVL_IMMORT) {
+		SET_BIT(PRF_FLAGS(ch), PRF_HOLYLIGHT);
+		SET_BIT(PRF_FLAGS(ch), PRF_ROOMFLAGS);
+  }
+
+}
+
+
 
 
 ACMD(do_bandage)

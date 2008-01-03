@@ -1939,7 +1939,7 @@ ACMD(do_copyover)
 	
 	for (tch = character_list; tch; tch = tch->next)
 		{
-			if (GET_LEVEL(tch) >= LVL_IMMORT) 
+			if (IS_NPC(tch) || GET_LEVEL(tch) >= LVL_IMMORT) 
 				continue;
 			
 			if (GET_HIT(tch) < 0 || PLR_FLAGGED(tch, PLR_DEAD))

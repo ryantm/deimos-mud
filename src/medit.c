@@ -23,6 +23,11 @@
 #include "improved-edit.h"
 #include "dg_olc.h"
 
+/* locals */
+void mob_defaults(struct char_data *mob, int level);
+void powerup_mobile(struct char_data *mob, int level);
+void randomize_mobile(struct char_data *mob, int range);
+
 /*-------------------------------------------------------------------*/
 
 /*
@@ -526,19 +531,6 @@ void medit_parse(struct descriptor_data *d, char *arg)
 {
   int i = -1, new_mob_num;
   char *oldtext = NULL;
-   int j = 0;
-   /* MEDIT_SETTER */
-   int max_level = 1000, 
-       max_exp = 10000000,
-       max_gold = 5000000,
-       max_ac =  100,
-			 max_droll = 100,
-			 max_hroll = 100,
-			 max_ndd = 99,
-			 max_sdd = 30,
-			 max_hit = 30,
-			 max_mana = 30,
-			 max_move = 2000000000;
 
        /* Mana and Move don't corrispond to the stats inMUD */
 
@@ -926,43 +918,8 @@ void medit_parse(struct descriptor_data *d, char *arg)
 #endif
 
   case MEDIT_SETTER:
-
-   /* BLEAH */
-   GET_LEVEL(OLC_MOB(d)) = LIMIT(i, 1, max_level);
-
-   GET_EXP(OLC_MOB(d)) = LIMIT(GET_MOB_EXP(OLC_MOB(d)), 1, max_exp);
-   GET_GOLD(OLC_MOB(d)) = LIMIT(GET_MOB_GOLD(OLC_MOB(d)), 0, max_gold);
-   
-   GET_AC(OLC_MOB(d)) = LIMIT(GET_LEVEL(OLC_MOB(d))*2 - 100,-100, max_ac);
-   GET_DAMROLL(OLC_MOB(d)) = LIMIT(GET_LEVEL(OLC_MOB(d))/5, 0,max_droll);
-   GET_HITROLL(OLC_MOB(d)) = LIMIT(GET_LEVEL(OLC_MOB(d))/5, 0, max_hroll);
-   /* NDD * SDD = base damage dealt */
-   if(GET_LEVEL(OLC_MOB(d)) <= 100)
-   {
-     GET_NDD(OLC_MOB(d)) = LIMIT(MIN(GET_LEVEL(OLC_MOB(d))/7, max_ndd), 1, max_ndd);
-     GET_SDD(OLC_MOB(d)) = LIMIT(MIN(GET_LEVEL(OLC_MOB(d))/7, max_sdd), 1, max_sdd);
-   }
-   else
-   {
-     // NDD * SDD = Total Damage
-     // 40 * 30 = 1200 damage
-     GET_NDD(OLC_MOB(d)) = LIMIT(
-           MIN((float)GET_LEVEL(OLC_MOB(d))/70 * 10, max_ndd), 1, max_ndd);
-     GET_SDD(OLC_MOB(d)) = LIMIT(
-           MIN((float)GET_LEVEL(OLC_MOB(d))/90 * 8, max_sdd), 1, max_sdd);
-   }
-
-   j = (float) 2* (float) GET_LEVEL(OLC_MOB(d)) * (float)GET_LEVEL(OLC_MOB(d)) + 100;
-  
-   GET_HIT(OLC_MOB(d)) = LIMIT(GET_LEVEL(OLC_MOB(d))/2,1,max_hit);
-   GET_MANA(OLC_MOB(d)) = LIMIT(GET_LEVEL(OLC_MOB(d))/2,1,max_mana);
-
-   GET_MOVE(OLC_MOB(d)) = LIMIT(j, 1, max_move);
-
-   GET_DEFAULT_POS(OLC_MOB(d)) = POS_STANDING;
-   GET_POS(OLC_MOB(d)) = POS_STANDING;
-
-   break;
+		mob_defaults(OLC_MOB(d), i);
+		break;
 
   case MEDIT_SEX:
     GET_SEX(OLC_MOB(d)) = LIMIT(i, 0, NUM_GENDERS - 1);
@@ -1076,3 +1033,124 @@ void medit_string_cleanup(struct descriptor_data *d, int terminator)
   }
 }
 
+void randomize_mobile(struct char_data *mob, int range) 
+{
+	if (MOB_FLAGGED(mob, MOB_EDIT))
+		return;
+
+	mob_defaults(mob, number(GET_LEVEL(mob) - range, GET_LEVEL(mob) + range));
+}
+
+void powerup_mobile(struct char_data *mob, int level)
+{
+	if (MOB_FLAGGED(mob, MOB_EDIT))
+		return;
+	
+	mob_defaults(mob, GET_LEVEL(mob) + level);
+}
+
+void mob_defaults(struct char_data *mob, int level)
+{
+	if (MOB_FLAGGED(mob, MOB_EDIT))
+		return;
+
+	/* MEDIT_SETTER */
+	int max_level = 1000, 
+		max_exp = 10000000,
+		max_gold = 5000000,
+		max_ac =  100,
+		max_droll = 100,
+		max_hroll = 100,
+		max_ndd = 99,
+		max_sdd = 30,
+		max_move = 2000000000;
+	int j = 0;
+
+   GET_LEVEL(mob) = LIMIT(level, 1, max_level);
+	 level = GET_LEVEL(mob);
+
+   GET_EXP(mob) = LIMIT(GET_MOB_EXP(mob), 1, max_exp);
+   GET_GOLD(mob) = LIMIT(GET_MOB_GOLD(mob), 0, max_gold);
+   
+   GET_AC(mob) = LIMIT(level*2 - 100,-100, max_ac);
+   GET_DAMROLL(mob) = LIMIT(level/5, 0,max_droll);
+   GET_HITROLL(mob) = LIMIT(level/5, 0, max_hroll);
+
+   /* NDD * SDD = base damage dealt */
+   if(level <= 100)
+		 {
+     GET_NDD(mob) = LIMIT(MIN(level/7, max_ndd), 1, max_ndd);
+     GET_SDD(mob) = LIMIT(MIN(level/7, max_sdd), 1, max_sdd);
+   }
+   else
+   {
+     // NDD * SDD = Total Damage
+     // 40 * 30 = 1200 damage
+     GET_NDD(mob) = LIMIT(
+           MIN((float)level/70 * 10, max_ndd), 1, max_ndd);
+     GET_SDD(mob) = LIMIT(
+           MIN((float)level/90 * 8, max_sdd), 1, max_sdd);
+   }
+
+	 j = (float) 2* (float) level * (float)level + 100;
+
+	 GET_MAX_HIT(mob)  = dice(level / 2, level / 2) + LIMIT(j,1, max_move);
+	 GET_MAX_MANA(mob) = level * 15;
+	 GET_MAX_MOVE(mob) = LIMIT(j, 1, max_move);	 
+	 
+
+	 GET_HIT(mob)  = GET_MAX_HIT(mob);
+	 GET_MOVE(mob) = GET_MAX_MOVE(mob);
+	 GET_MANA(mob) = GET_MAX_MANA(mob);
+	 
+	 GET_DEFAULT_POS(mob) = POS_STANDING;
+	 GET_POS(mob) = POS_STANDING;
+}
+
+void give_chunks_to_mobile(struct char_data *mob)
+{
+  int chance_of_thousand = 0;
+  int percent = number(1,100);
+  struct obj_data *chunk = NULL;
+
+  if (IS_NPC(mob))
+  {
+    chance_of_thousand = (int)((GET_LEVEL(mob) * GET_LEVEL(mob))/ 100.)-5;
+    if (number(1,1000) < chance_of_thousand)
+    {
+       if (GET_LEVEL(mob) > 60 && percent < 70)
+         percent += 15;
+
+       //We get a chunk
+       if (percent < 35)
+       {
+           //Tin
+           chunk = read_object(1510, VIRTUAL);
+       }
+       else if (percent < 35+25)
+       {
+           //Copper
+           chunk = read_object(1511, VIRTUAL);
+       }
+       else if (percent < 35+25+20)
+       {
+           //Iron
+           chunk = read_object(1512, VIRTUAL);
+       }
+       else if (percent < 35+25+20+15)
+       {
+           //Gold
+           chunk = read_object(1513, VIRTUAL);
+       }
+       else
+       {
+           //Titanium
+           chunk = read_object(1514, VIRTUAL);
+       }
+      obj_to_char(chunk,mob);
+
+			powerup_mobile(mob, 2);
+    }
+  }
+  return;
+}

@@ -46,6 +46,10 @@ int horse_exp(int horselevel);
 const char *title_male(int chclass, int level);
 const char *title_female(int chclass, int level);
 
+
+/* extern functions */
+void autoall(struct char_data *ch);
+
 /* Names first */
 
 const char *class_abbrevs[] = {
@@ -368,22 +372,6 @@ void do_start(struct char_data * ch)
 
   ch->points.max_hit = 10;
 
-  //Starting Skills
-  switch (GET_CLASS(ch)) {
-
-  case CLASS_MAGIC_USER:
-    break;
-
-  case CLASS_CLERIC:
-	break;
-
-  case CLASS_THIEF:
-	break;
-
-  case CLASS_WARRIOR:
-	break;
-  }
-
   advance_level(ch);
   sprintf(buf, "%s advanced to level %d", GET_NAME(ch), GET_LEVEL(ch));
   mudlog(buf, BRF, MAX(LVL_IMMORT, GET_INVIS_LEV(ch)), TRUE);
@@ -392,13 +380,14 @@ void do_start(struct char_data * ch)
   GET_MANA(ch) = GET_MAX_MANA(ch);
   GET_MOVE(ch) = GET_MAX_MOVE(ch);
   GET_COND(ch, DRUNK) = 0;
-  GET_HORSEHAPPY(ch) = GET_MAXHAPPY(ch);
 
   ch->char_specials.position = POS_STANDING;
   ch->player.time.played = 0;
   ch->player.time.logon = time(0);
   send_to_char("All preferences automatically turned on. To see which are on type toggle.\r\n", ch);
-  command_interpreter(ch, "autoall");
+	autoall(ch);
+  SET_BIT(PRF_FLAGS(ch), PRF_COLOR_1 | PRF_COLOR_2);
+	SET_BIT(PRF_FLAGS(ch), PRF_DISPHP | PRF_DISPMANA | PRF_DISPMOVE);
 
   if (siteok_everyone)
     SET_BIT(PLR_FLAGS(ch), PLR_SITEOK);
@@ -450,17 +439,17 @@ void advance_level(struct char_data * ch)
 
   if (GET_LEVEL(ch) > 1)
     ch->points.max_mana += add_mana;
-
-    GET_PRACTICES(ch) += 1;
-    send_to_char("You gain one more practice.\r\n", ch);
-
-  if (GET_LEVEL(ch) >= LVL_IMMORT) {
-    for (i = 0; i < 3; i++)
-      GET_COND(ch, i) = (char) -1;
-    SET_BIT(PRF_FLAGS(ch), PRF_HOLYLIGHT);
-  }
-
-  save_char(ch, NOWHERE);
+	
+	GET_PRACTICES(ch) += 1;
+	
+	if (GET_LEVEL(ch) >= LVL_IMMORT) 
+		{
+			for (i = 0; i < 3; i++)
+				GET_COND(ch, i) = (char) -1;
+			SET_BIT(PRF_FLAGS(ch), PRF_HOLYLIGHT);
+		}
+	
+	save_char(ch, NOWHERE);
 }
 
 
