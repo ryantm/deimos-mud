@@ -129,7 +129,6 @@ cpp_extern const struct command_info cmd_info[] = {
   {"applaud", POS_RESTING, do_action, 0, 0},
   {"apply", POS_RESTING, do_not_here, 0, 0},
   {"ankh", POS_DEAD, do_not_here, 1, 0},
-  {"anonymous", POS_RESTING, do_gen_tog, 0, SCMD_ANON},
 
   {"assedit", POS_RESTING, do_immcmd, LVL_IMMORT, IMM_ASSEDIT},
   {"assemble", POS_STANDING, do_not_here, 0, 0},
