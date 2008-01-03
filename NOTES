@@ -1,5 +1,11 @@
 TODO
 
+Done:
+* Blink tag is annoying as hell kill it.
+* get rid of recall spell; make recall cost 3/4? mv for everybody
+* removed stat loss on death
+* made exp go to zero when you die
+
 Bugs to Fix
 Reproducable
 * people can multiplay with new characters
@@ -9,14 +15,13 @@ Reproducable
 
 
 Cannot Reproduce
-* CRASH: zreset causes problems
 * CRASH: gtitle crashes the game
 * CRASH: title with notitle on crashes game
 
 Enhancements
 * Make doors show in autoexit
-* Make "Invalid Name" tell you to ask Imm to DC you.
-* Blink tag is annoying as hell kill it.
+* Make "Invalid Name" tell you to ask Imm to DC you. better idea make it disconnect people.
+
 * Make help files more lines max
 * Update Info
 * Make a social editor
@@ -28,12 +33,12 @@ Enhancements
 * hide output of autos for new chars
 * make tell self say "You tell yourself"?
 * disallow pre-hero multiclassing or make warning (make a player flag you have to set first, like with the cuss channel?)
-* get rid of recall spell; make recall cost 3/4? mv for everybody
-* make improved ranks with HTML output
+
+* make improved ranks with HTML output, gchart??
 * commaify bank transactions
 * make identify show armor wear spots/weapon attack types
 
 
 Needs Discussion
-* it doesn't make sense to lose stats when you die if you can't earn them back any way (besides gold chip)
+
 * make a way to recharge staffs? maybe a merchant can do it for a price, or you can find e.g. an energy stone to do it with
