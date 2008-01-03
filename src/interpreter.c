@@ -29,7 +29,7 @@
 #include "pfdefaults.h"
 
 
-extern room_rnum r_mortal_start_room;
+extern room_vnum mortal_start_room;
 extern room_rnum r_immort_start_room;
 extern room_rnum r_frozen_start_room;
 extern const char *class_menu;
@@ -1809,7 +1809,7 @@ perform_dupe_check (struct descriptor_data *d)
 int
 enter_player_game (struct descriptor_data *d)
 {
-  extern sh_int r_mortal_start_room;
+  extern room_vnum mortal_start_room;
   extern sh_int r_immort_start_room;
   extern sh_int r_frozen_start_room;
 
@@ -1864,7 +1864,7 @@ enter_player_game (struct descriptor_data *d)
       if (GET_LEVEL (d->character) >= LVL_IMMORT)
 	load_room = r_immort_start_room;
       else
-	load_room = r_mortal_start_room;
+	load_room = real_room(mortal_start_room);
     }
 
   if (PLR_FLAGGED (d->character, PLR_FROZEN))

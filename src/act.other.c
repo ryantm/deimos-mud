@@ -32,7 +32,7 @@ extern struct descriptor_data *descriptor_list;
 extern struct spell_info_type spell_info[];
 extern struct index_data *mob_index;
 extern char *class_abbrevs[];
-extern sh_int r_mortal_start_room;
+extern room_vnum mortal_start_room;
 extern int free_rent;
 extern int pt_allowed;
 extern int max_filesize;
@@ -1331,7 +1331,7 @@ ACMD(do_recall)
          send_to_char("Recalling...\r\n", ch);
          act("$n concentrates and disappears.", TRUE, ch, 0, 0, TO_ROOM);
          char_from_room(ch);
-         char_to_room(ch, r_mortal_start_room);
+         char_to_room(ch, real_room(mortal_start_room));
          REMOVE_BIT(PLR_FLAGS(ch), PLR_NEWBIE);
          act("$n appears suddenly.", TRUE, ch, 0, 0, TO_ROOM);
          look_at_room(ch, 0);

@@ -611,7 +611,7 @@ ACMD(do_odelete)
 
   vnum = atoi(buf1);
   rnum = real_object(vnum);
-  if (vnum < 0)
+  if (rnum < 0)
     {
       sprintf(buf, "Object %d doesn't exist.\r\n", vnum);
       send_to_char(buf, ch);
@@ -648,7 +648,7 @@ ACMD(do_rdelete)
 
   vnum = atoi(buf1);
   rnum = real_room(vnum);
-  if (vnum < 0)
+  if (rnum < 0)
     {
       sprintf(buf, "Room %d doesn't exist.\r\n", vnum);
       send_to_char(buf, ch);
@@ -685,7 +685,8 @@ ACMD(do_mdelete)
 
   vnum = atoi(buf1);
   rnum = real_mobile(vnum);
-  if (vnum < 0)
+
+  if (rnum < 0)
     {
       sprintf(buf, "Mobile %d doesn't exist.\r\n", vnum);
       send_to_char(buf, ch);

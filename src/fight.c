@@ -37,7 +37,6 @@ extern struct time_info_data time_info;
 extern struct index_data *mob_index;
 extern const struct weapon_prof_data wpn_prof[];
 extern struct room_data *world;
-extern sh_int r_mortal_start_room;
 extern struct message_list fight_messages[MAX_MESSAGES];
 extern struct obj_data *object_list;
 extern int pk_allowed;		/* see config.c */
