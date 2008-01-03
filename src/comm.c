@@ -1292,10 +1292,10 @@ void flush_queues(struct descriptor_data *d)
 const char *ANSI[] = {"&",A"0;37m",A"0;30m",A"0;34m",A"0;32m",A"0;36m",A"0;31m",
     A"0;35m",A"0;33m",A"0;37m",A"1;30m",A"1;34m",A"1;32m",A"1;36m",A"1;31m",
     A"1;35m",A"1;33m",A"1;37m",A"40m",A"44m",A"42m",A"46m",A"41m",A"45m",
-    A"43m",A"47m",A"5m",A"4m",A"1m",A"7m"
+    A"43m",A"47m",A"4m",A"1m",A"7m"
     ,"!"};
 #undef A
-const char OUR[] = "&ndbgcrmywDBGCRMYW01234567luoe!";
+const char OUR[] = "&ndbgcrmywDBGCRMYW01234567uoe!";
 
 /* Add a new string to a player's output queue */
 void write_to_output(const char *txt, struct descriptor_data *t)

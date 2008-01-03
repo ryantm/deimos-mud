@@ -1311,42 +1311,29 @@ ACMD(do_gen_togx)
 }
 
 ACMD(do_recall)
-  {
-    if (IS_NPC(ch)) {
-      send_to_char("Monsters can't recall!!\r\n", ch);
-      return;
-    }
-
-  if (ROOM_FLAGGED(IN_ROOM(ch), ROOM_NO_RECALL | ROOM_NOESCAPE) && IN_ROOM(ch) != real_room(2004)) {
-       send_to_char("Your attempt to recall fails.\r\n", ch);
-       return;
-  }
-
-  if (PLR_FLAGGED2(ch, PLR2_FFIGHTING)) {
-    send_to_char("You cannot recall while on a mission!\r\n", ch);
-    return;
-  }
-
-    if (GET_LEVEL(ch) <= 10 || GET_TOTAL_LEVEL(ch) >= 240) {
-         send_to_char("Recalling...\r\n", ch);
-         act("$n concentrates and disappears.", TRUE, ch, 0, 0, TO_ROOM);
-         char_from_room(ch);
-         char_to_room(ch, r_mortal_start_room);
-         REMOVE_BIT(PLR_FLAGS(ch), PLR_NEWBIE);
-         act("$n appears suddenly.", TRUE, ch, 0, 0, TO_ROOM);
-         look_at_room(ch, 0);
-         return;
-      }
-    else {
-      send_to_char("The Gods stop you from recalling!!\r\n", ch);
-      send_to_char("(Only levels 1 thru 10, and GrandMasters can recall for free.)\r\n", ch);
-      return;
-    }
-  }
-
-ACMD(do_test)
 {
- GET_HORSEEXP(ch) += 50;
+	if (IS_NPC(ch)) 
+		{
+			send_to_char("Monsters can't recall!!\r\n", ch);
+			return;
+		}
+	
+	if (ROOM_FLAGGED(IN_ROOM(ch), ROOM_NO_RECALL | ROOM_NOESCAPE) && IN_ROOM(ch) != real_room(2004)) 
+		{
+			send_to_char("Your attempt to recall fails.\r\n", ch);
+			return;
+		}
+	
+	GET_MANA(ch) = (int)(GET_MANA(ch) * 0.25)
+	GET_MOVE(ch) = (int)(GET_MOVE(ch) * 0.25)
+
+	send_to_char("Recalling...\r\n", ch);
+	send_to_char("&RYou feel tired&n\r\n", ch);
+	act("$n concentrates and disappears.", TRUE, ch, 0, 0, TO_ROOM);
+	char_from_room(ch);
+	char_to_room(ch, r_mortal_start_room);
+	act("$n appears suddenly.", TRUE, ch, 0, 0, TO_ROOM);
+	look_at_room(ch, 0);
 }
 
 

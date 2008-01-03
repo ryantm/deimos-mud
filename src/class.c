@@ -546,7 +546,6 @@ void init_spell_levels(void)
 
 
   //Special
-  spell_levelm(SPELL_WORD_OF_RECALL, CLASS_MAGIC_USER, 1, 0,np);
   spell_levelm(SPELL_INVISIBLE, CLASS_MAGIC_USER, 15, 0,np);
 
   spell_levelm(SPELL_STRENGTH, CLASS_MAGIC_USER, 30, 0, hp);
@@ -586,7 +585,6 @@ void init_spell_levels(void)
   spell_levelc(SPELL_REMOVE_POISON, CLASS_CLERIC, 1, 0, np);
 
   //Special
-  spell_levelc(SPELL_WORD_OF_RECALL, CLASS_CLERIC, 1, 0,np);
   spell_levelc(SPELL_DETECT_INVIS, CLASS_CLERIC, 1, 0,np);  
   spell_levelc(SPELL_IDENTIFY, CLASS_CLERIC, 15, 0,np); 
   spell_levelc(SPELL_SHROUD, CLASS_CLERIC, 45, 1,hp);
