@@ -17,6 +17,8 @@
 #include "genzon.h"
 #include "dg_olc.h"
 #include "oasis.h"
+#include "handler.h"
+
 
 static int copy_object_main(struct obj_data *to, struct obj_data *from, int free_object);
 
@@ -412,3 +414,110 @@ static int copy_object_main(struct obj_data *to, struct obj_data *from, int free
   copy_object_strings(to, from);
   return TRUE;
 }
+
+int delete_object(obj_rnum rnum)
+{
+  obj_rnum i;
+  zone_rnum zrnum;
+  struct obj_data *obj, *tmp, *next_tmp;
+  int shop, j, zone, cmd_no;
+
+  if (rnum == NOTHING || rnum > top_of_objt)
+    return NOTHING;
+  
+  obj = &obj_proto[rnum];
+
+  zrnum = real_zone_by_thing(GET_OBJ_VNUM(obj));
+
+  /* This is something you might want to read about in the logs. */
+  log("GenOLC: delete_object: Deleting object #%d (%s).", GET_OBJ_VNUM(obj), obj->short_description);
+
+  for (tmp = object_list; tmp; tmp = next_tmp) {
+    next_tmp = tmp->next;
+    if (tmp->item_number != obj->item_number)
+      continue;
+
+    /* extract_obj() will just axe contents. */
+    if (tmp->contains) {
+      struct obj_data *this_content, *next_content;
+      for (this_content = tmp->contains; this_content; this_content = next_content) {
+        next_content = this_content->next_content;
+        if (IN_ROOM(tmp)) {
+          /* Transfer stuff from object to room. */
+          obj_from_obj(this_content);
+          obj_to_room(this_content, IN_ROOM(tmp));
+        } else if (tmp->worn_by || tmp->carried_by) {
+          /* Transfer stuff from object to person inventory. */
+          obj_from_char(this_content);
+          obj_to_char(this_content, tmp->carried_by);
+        } else if (tmp->in_obj) {
+          /* Transfer stuff from object to containing object. */
+          obj_from_obj(this_content);
+          obj_to_obj(this_content, tmp->in_obj);
+        }
+      }
+    }
+    /* Remove from object_list, etc. - handles weightchanges, and similar. */
+    extract_obj(tmp);
+  }
+
+  /* Make sure all are removed. */
+  assert(obj_index[rnum].number == 0);
+
+  /* Adjust rnums of all other objects. */
+  for (tmp = object_list; tmp; tmp = tmp->next) {
+    GET_OBJ_RNUM(tmp) -= (GET_OBJ_RNUM(tmp) > rnum);
+  }
+
+  for (i = rnum; i < top_of_objt; i++) {
+    obj_index[i] = obj_index[i + 1];
+    obj_proto[i] = obj_proto[i + 1];
+    obj_proto[i].item_number = i;
+  }
+
+  top_of_objt--;
+  RECREATE(obj_index, struct index_data, top_of_objt + 1);
+  RECREATE(obj_proto, struct obj_data, top_of_objt + 1);
+
+  /* Renumber notice boards. */
+  for (j = 0; j < NUM_OF_BOARDS; j++)
+    BOARD_RNUM(j) -= (BOARD_RNUM(j) > rnum);
+
+  /* Renumber shop produce. */
+  for (shop = 0; shop <= top_shop; shop++)
+    for (j = 0; SHOP_PRODUCT(shop, j) != NOTHING; j++)
+      SHOP_PRODUCT(shop, j) -= (SHOP_PRODUCT(shop, j) > rnum);
+
+  /* Renumber zone table. */
+  for (zone = 0; zone <= top_of_zone_table; zone++) {
+    for (cmd_no = 0; ZCMD(zone, cmd_no).command != 'S'; cmd_no++) {
+      switch (ZCMD(zone, cmd_no).command) {
+      case 'P':
+        if (ZCMD(zone, cmd_no).arg3 == rnum) {
+          delete_command(&zone_table[zone], cmd_no);
+        } else
+          ZCMD(zone, cmd_no).arg3 -= (ZCMD(zone, cmd_no).arg3 > rnum);
+	break;
+      case 'O':
+      case 'G':
+      case 'E':
+        if (ZCMD(zone, cmd_no).arg1 == rnum) {
+          delete_command(&zone_table[zone], cmd_no);
+        } else
+          ZCMD(zone, cmd_no).arg1 -= (ZCMD(zone, cmd_no).arg1 > rnum);
+	break;
+      case 'R':
+        if (ZCMD(zone, cmd_no).arg2 == rnum) {
+          delete_command(&zone_table[zone], cmd_no);
+        } else
+          ZCMD(zone, cmd_no).arg2 -= (ZCMD(zone, cmd_no).arg2 > rnum);
+	break;
+      }
+    }
+  }
+
+  save_objects(zrnum);
+
+  return rnum;
+}
+

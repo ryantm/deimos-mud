@@ -26,7 +26,8 @@
 #define MAX_MAIL_SIZE 4096
 
 /* size of mail file allocation blocks		*/
-#define BLOCK_SIZE 100
+#define BLOCK_SIZE 104
+/* this used to be 100, and needs to be 100 if the old mailfile is to be used - Kevin */
 
 /*
  * NOTE:  Make sure that your block size is big enough -- if not,

@@ -5,6 +5,12 @@ Done:
 * get rid of recall spell; make recall cost 3/4? mv for everybody
 * removed stat loss on death
 * made exp go to zero when you die
+* removed single from scoresheet
+* remove anon
+* fixed tether typo
+* removed unused ranks
+* removed clan from scoresheet
+* changed recall room, donation room
 
 Bugs to Fix
 Reproducable
@@ -12,7 +18,7 @@ Reproducable
 * color prompt even with color off
 * Ranks are all screwed up
 * Missed backstab is sometimes shown after kill.
-
+* Firefighting consistently crashes mud (when fire times out?)
 
 Cannot Reproduce
 * CRASH: gtitle crashes the game

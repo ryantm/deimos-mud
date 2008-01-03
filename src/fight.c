@@ -37,7 +37,6 @@ extern struct time_info_data time_info;
 extern struct index_data *mob_index;
 extern const struct weapon_prof_data wpn_prof[];
 extern struct room_data *world;
-extern sh_int r_mortal_start_room;
 extern struct message_list fight_messages[MAX_MESSAGES];
 extern struct obj_data *object_list;
 extern int pk_allowed;		/* see config.c */
@@ -710,9 +709,8 @@ void die(struct char_data * ch, struct char_data * killer)
 
   if (!(PLR_FLAGGED(ch, PLR_DEAD | PLR_DEADI | PLR_DEADII | PLR_DEADIII))
       && !ROOM_FLAGGED(ch->in_room, ROOM_SPARRING))
-  {  gain_exp(ch, -(GET_EXP(ch) * (float)(.05) 
-             * (float)(GET_TOTAL_LEVEL(ch)/ (float)240))); 
-             /* 240 = MAX LEVEL */
+  {  
+		GET_EXP(ch) = 0;
   }
 
   raw_kill(ch, killer);

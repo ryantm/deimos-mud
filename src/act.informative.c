@@ -593,9 +593,12 @@ void list_all_char(struct char_data * i, struct char_data * ch, int num)
     strcpy(buf, i->player.short_descr);
     CAP(buf);
   } else
-      sprintf(buf, "&n%s%s %s %s&n", GET_PRETITLE(i), i->player.name,
-        	GET_LNAME(i) != NULL ? GET_LNAME(i) : "",
-                GET_TITLE(i));
+      sprintf(buf, "&n%s%s", GET_PRETITLE(i), i->player.name);
+      if (GET_LNAME(i) != NULL && strlen(GET_LNAME(i)) > 0)
+        sprintf(buf + strlen(buf), " %s", GET_LNAME(i));
+      if (GET_TITLE(i) != NULL && strlen(GET_TITLE(i)) > 0)
+        sprintf(buf + strlen(buf), " %s", GET_TITLE(i));
+      sprintf(buf + strlen(buf), "&n");
      
   if (AFF_FLAGGED(i, AFF_INVISIBLE))
     strcat(buf, "&n (invisible)&n");
@@ -1178,7 +1181,7 @@ ACMD(do_score)
    
   strcpy(buf + strlen(buf), "&CMain Class : ");
   sprinttype(ch->player.chclass, pc_class_types, buf + strlen(buf));
-  sprintf(buf + strlen(buf), "\r\n&BClan: %s&n", get_clan_name(ch));
+
   if (GET_LEVEL(ch) >= LVL_IMMORT || GET_TOTAL_LEVEL(ch) < 240)
    sprintf(buf + strlen(buf), "\r\n&MLevels: (Thief: %d) (Warrior: %d) (Mage : %d) (Cleric : %d)&n\r\n", GET_THIEF_LEVEL(ch), GET_WARRIOR_LEVEL(ch), GET_MAGE_LEVEL(ch), GET_CLERIC_LEVEL(ch));
   else
@@ -1190,9 +1193,9 @@ ACMD(do_score)
   else
     strcat(buf, "\r\n");
   
-  sprintf(buf + strlen(buf), "&CHitP: %d / %d   Mana: %d / %d   Move: %d / %d&n\r\n",
-GET_HIT(ch), GET_MAX_HIT(ch), GET_MANA(ch), GET_MAX_MANA(ch),
-GET_MOVE(ch), GET_MAX_MOVE(ch)); 
+  sprintf(buf + strlen(buf), "&CHP: %d / %d   MP: %d / %d   MV: %d / %d&n\r\n",
+					GET_HIT(ch), GET_MAX_HIT(ch), GET_MANA(ch), GET_MAX_MANA(ch),
+					GET_MOVE(ch), GET_MAX_MOVE(ch)); 
 
   playing_time = *real_time_passed((time(0) - ch->player.time.logon) +
                                   ch->player.time.played, 0);
@@ -1259,21 +1262,12 @@ IS_CARRYING_W(ch), CAN_CARRY_W(ch));
     break;
   }
 
-  if (PLR_FLAGGED(ch, PLR_HASHORSE)) {
-  sprintf(buf + strlen(buf), "&BHorse : %s&n\r\n", GET_HORSENAME(ch)); 
-  }
-  if (PLR_FLAGGED(ch, PLR_FEDHORSE)) {
-  sprintf(buf + strlen(buf), "&CYour horse is currently being cared for.&n\r\n");
-  }
   sprintf(buf + strlen(buf), "&WYour current sparring rank is: %d.&n\r\n", GET_SPARRANK(ch));
-  sprintf(buf + strlen(buf), "&WYour current economy rank is: %d.&n\r\n", GET_ECONRANK(ch));
-  if (PLR_FLAGGED(ch, PLR_ASSASSIN))
-   sprintf(buf + strlen(buf), "&WYour current assassin rank is: %d.&n\r\n", GET_ASSASSINRANK(ch));
   
   switch (GET_RELIGION(ch))
   {
   case RELIG_ATHEIST:
-    sprintf(buf + strlen(buf), "&wYou are an avowed Atheist.&n\r\n");
+    sprintf(buf + strlen(buf), "&wYou are agnostic.&n\r\n");
   break;
   case RELIG_PHOBOS:
     sprintf(buf + strlen(buf), "&WYou are a peace-loving follower of Phobe.&n\r\n");
@@ -1291,7 +1285,7 @@ IS_CARRYING_W(ch), CAN_CARRY_W(ch));
 
   if (ROMANCE(ch) == 0) 
   {
-      strcat(buf, "You are single.\r\n");
+
   }  
   else if (ROMANCE(ch) == 1 && PARTNER(ch) != NULL) {
       sprintf(buf+ strlen(buf), "You are dating %s.\r\n", PARTNER(ch));
@@ -1777,59 +1771,56 @@ ACMD(do_who)
   qsort(theWhoList, noElements, sizeof(struct char_data  *), compareChars);
 
     /* Mortal Buff Printer */
-  for(curEl = 0; curEl < noElements; curEl++) {
-        wch = theWhoList[curEl];
-        /*Default Output */
-        if (!PRF_FLAGGED(wch, PRF_ANON) && !PRF_FLAGGED(wch, PRF_WHOINVIS)) {
-          if (GET_TOTAL_LEVEL(wch) < 240)  
-          sprintf(Mort_buf, "%s&n[ {%2d %2d %2d %2d} ] %s %s",Mort_buf,
-        	GET_THIEF_LEVEL(wch), GET_WARRIOR_LEVEL(wch), GET_MAGE_LEVEL(wch), GET_CLERIC_LEVEL(wch),
-             	GET_NAME(wch), GET_TITLE(wch));
+  for(curEl = 0; curEl < noElements; curEl++) 
+		{
+			wch = theWhoList[curEl];
+			/*Default Output */
+			if (!PRF_FLAGGED(wch, PRF_WHOINVIS)) 
+				{
+					if (GET_TOTAL_LEVEL(wch) < 240)  
+						sprintf(Mort_buf, "%s&n[ {%2d %2d %2d %2d} ] %s %s",Mort_buf,
+										GET_THIEF_LEVEL(wch), GET_WARRIOR_LEVEL(wch), GET_MAGE_LEVEL(wch), GET_CLERIC_LEVEL(wch),
+										GET_NAME(wch), GET_TITLE(wch));
           else
-          sprintf(Mort_buf, "%s&n[&c GM:  %2d   :GM &w] %s %s",Mort_buf,
-        	GET_GM_LEVEL(wch),
-             	GET_NAME(wch), GET_TITLE(wch));
- 
-         Mortals++;
+						sprintf(Mort_buf, "%s&n[&c GM:  %2d   :GM &w] %s %s",Mort_buf,
+										GET_GM_LEVEL(wch),
+										GET_NAME(wch), GET_TITLE(wch));
+					
+					Mortals++;
         }
-        if (GET_LEVEL(ch) < LVL_IMMORT && GET_LEVEL(wch) < LVL_IMMORT && PRF_FLAGGED(wch, PRF_ANON) && !PRF_FLAGGED(wch, PRF_WHOINVIS) && !PLR_FLAGGED2(wch, PLR2_REVIEW)) {
-        	sprintf(Mort_buf, "%s&n[&w - Anonymous - &n] %s %s", Mort_buf,
-         GET_NAME(wch), GET_TITLE(wch));
-         Mortals++;
-        }
-        if ((GET_LEVEL(ch) >= LVL_IMMORT && GET_LEVEL(wch) < LVL_IMMORT &&
-PRF_FLAGGED(wch, PRF_ANON) && !PRF_FLAGGED(wch, PRF_WHOINVIS) && !PLR_FLAGGED2(wch, PLR2_REVIEW)) || (PRF_FLAGGED(wch, PRF_WHOINVIS))) {
-          if (GET_TOTAL_LEVEL(wch) < 240)  
-            sprintf(Mort_buf, "%s&n[ {%2d %2d %2d %2d} ] %s %s", Mort_buf,
-            GET_THIEF_LEVEL(wch), GET_WARRIOR_LEVEL(wch),
-            GET_MAGE_LEVEL(wch), GET_CLERIC_LEVEL(wch),
-            GET_NAME(wch), GET_TITLE(wch));
-          else
+			if ((GET_LEVEL(ch) >= LVL_IMMORT && GET_LEVEL(wch) < LVL_IMMORT &&
+					 PRF_FLAGGED(wch, PRF_ANON) && !PRF_FLAGGED(wch, PRF_WHOINVIS) && !PLR_FLAGGED2(wch, PLR2_REVIEW)) || (PRF_FLAGGED(wch, PRF_WHOINVIS))) {
+				if (GET_TOTAL_LEVEL(wch) < 240)  
+					sprintf(Mort_buf, "%s&n[ {%2d %2d %2d %2d} ] %s %s", Mort_buf,
+									GET_THIEF_LEVEL(wch), GET_WARRIOR_LEVEL(wch),
+									GET_MAGE_LEVEL(wch), GET_CLERIC_LEVEL(wch),
+									GET_NAME(wch), GET_TITLE(wch));
+				else
           sprintf(Mort_buf, "%s&n[&c GM:  %2d   :GM &w] %s %s",Mort_buf,
-        	GET_GM_LEVEL(wch),
-             	GET_NAME(wch), GET_TITLE(wch));
-
+									GET_GM_LEVEL(wch),
+									GET_NAME(wch), GET_TITLE(wch));
+				
           Mortals++;
-        }
+			}
       /* Who String Additions */
-     *buf = '\0';
-
-     if (GET_INVIS_LEV(wch) && GET_LEVEL(wch) >= LVL_IMMORT)
-       sprintf(buf, "%s &w(i%d)&n", buf, GET_INVIS_LEV(wch));
-     else if (IS_AFFECTED(wch, AFF_INVISIBLE))
-       strcat(buf, " &w(invis)&n");
-
-     if (PLR_FLAGGED(wch, PLR_MAILING))
-       strcat(buf, " &w(mailing)&n");
-     else if (PLR_FLAGGED(wch, PLR_WRITING))
-       strcat(buf, " &w(writing)&n");
-
-     if (showclan && (GET_CLAN(wch) != CLAN_NONE || GET_CLAN(wch) != CLAN_UNDEFINED)) {
+			*buf = '\0';
+			
+			if (GET_INVIS_LEV(wch) && GET_LEVEL(wch) >= LVL_IMMORT)
+				sprintf(buf, "%s &w(i%d)&n", buf, GET_INVIS_LEV(wch));
+			else if (IS_AFFECTED(wch, AFF_INVISIBLE))
+				strcat(buf, " &w(invis)&n");
+			
+			if (PLR_FLAGGED(wch, PLR_MAILING))
+				strcat(buf, " &w(mailing)&n");
+			else if (PLR_FLAGGED(wch, PLR_WRITING))
+				strcat(buf, " &w(writing)&n");
+			
+			if (showclan && (GET_CLAN(wch) != CLAN_NONE || GET_CLAN(wch) != CLAN_UNDEFINED)) {
         if (showclan) {
-           sprintf(buf1, " %s", get_clan_abbrev(wch));
-           strcat(buf, buf1);
+					sprintf(buf1, " %s", get_clan_abbrev(wch));
+					strcat(buf, buf1);
         } 
-     }
+			}
 
      if (PRF_FLAGGED(wch, PRF_DEAF))
        strcat(buf, " &w(deaf)&n");
@@ -2003,8 +1994,8 @@ PRF_FLAGGED(wch, PRF_ANON) && !PRF_FLAGGED(wch, PRF_WHOINVIS) && !PLR_FLAGGED2(w
      sprintf(buf, "%s&MThe Gold Chipper is currently turned ON!&n\r\n", buf);
    if (QUESTON)
      sprintf(buf, "%s&MA Quest is Currently in Progress!&n\r\n", buf);
-   if (!CANASSASSINATE)
-     sprintf(buf, "%s&MAssassinations are currently restricted!&n\r\n", buf);
+   if (CANASSASSINATE)
+     sprintf(buf, "%s&MAssassinations are currently allowed!&n\r\n", buf);
 
    if (!Mortals)
      sprintf(Imm_buf, "%s\r\n%s", Imm_buf, buf);
@@ -2012,15 +2003,15 @@ PRF_FLAGGED(wch, PRF_ANON) && !PRF_FLAGGED(wch, PRF_WHOINVIS) && !PLR_FLAGGED2(w
      sprintf(Mort_buf, "%s\r\n%s", Mort_buf, buf);
 
    if (Wizards) 
-   {
-     page_string(ch->desc, Imm_buf, 0);
-     if (Mortals)  
-       send_to_char("\r\n", ch);
-   }
+		 {
+			 page_string(ch->desc, Imm_buf, 0);
+			 if (Mortals)  
+				 send_to_char("\r\n", ch);
+		 }
    if (Mortals) 
-   {
-     page_string(ch->desc, Mort_buf, 0);
-   }
+		 {
+			 page_string(ch->desc, Mort_buf, 0);
+		 }
 
 }
 
@@ -3203,16 +3194,10 @@ ACMD(do_gwho)
   for (fol = wch->followers; fol; fol = fol->next) {
     if (IS_NPC(fol->follower)) continue;
     if (AFF_FLAGGED(fol->follower, AFF_GROUP)) {
-    if (!PRF_FLAGGED(fol->follower, PRF_ANON)) {
-    sprintf(buf, "&w        [%10s %2s %2d] Gjob:(%s)&n\r\n", PERS(fol->follower, wch), 
-           CLASS_ABBR(fol->follower), GET_LEVEL(fol->follower), 
-           GET_GJOB(fol->follower) == NULL  ? GET_GJOB(fol->follower) = "" : GET_GJOB(fol->follower));
-    }
-    else
-    sprintf(buf, "&w        [%10s [ANON] Gjob:(%s)&n\r\n", PERS(fol->follower, wch), 
-           GET_GJOB(fol->follower) == NULL  ? GET_GJOB(fol->follower) = "" : GET_GJOB(fol->follower));
-
-    strcat(group_buf, buf);
+			sprintf(buf, "&w        [%10s %2s %2d] %s&n\r\n", PERS(fol->follower, wch), 
+							CLASS_ABBR(fol->follower), GET_LEVEL(fol->follower), 
+							GET_GJOB(fol->follower) == NULL  ? GET_GJOB(fol->follower) = "" : GET_GJOB(fol->follower));
+			strcat(group_buf, buf);
       }
 
    }

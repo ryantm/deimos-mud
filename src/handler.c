@@ -66,6 +66,8 @@ int isname(const char *str, const char *namelist)
 {
   char *newlist;
   char *curtok;
+
+  if (namelist == 0x0) return 0;
   if (!*namelist || !*str) return 0;
   
   newlist = strdup(namelist); /* make a copy since strtok 'modifies' strings */

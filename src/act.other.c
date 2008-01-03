@@ -32,7 +32,7 @@ extern struct descriptor_data *descriptor_list;
 extern struct spell_info_type spell_info[];
 extern struct index_data *mob_index;
 extern char *class_abbrevs[];
-extern sh_int r_mortal_start_room;
+extern room_vnum mortal_start_room;
 extern int free_rent;
 extern int pt_allowed;
 extern int max_filesize;
@@ -1324,14 +1324,14 @@ ACMD(do_recall)
 			return;
 		}
 	
-	GET_MANA(ch) = (int)(GET_MANA(ch) * 0.25)
-	GET_MOVE(ch) = (int)(GET_MOVE(ch) * 0.25)
+	GET_MANA(ch) = (int)(GET_MANA(ch) * 0.25);
+	GET_MOVE(ch) = (int)(GET_MOVE(ch) * 0.25);
 
 	send_to_char("Recalling...\r\n", ch);
 	send_to_char("&RYou feel tired&n\r\n", ch);
 	act("$n concentrates and disappears.", TRUE, ch, 0, 0, TO_ROOM);
 	char_from_room(ch);
-	char_to_room(ch, r_mortal_start_room);
+	char_to_room(ch, real_room(mortal_start_room));
 	act("$n appears suddenly.", TRUE, ch, 0, 0, TO_ROOM);
 	look_at_room(ch, 0);
 }
@@ -1601,78 +1601,37 @@ ACMD(do_level)
 
 ACMD(do_die) 
 {
-  if (GET_HIT(ch) >= 0) {
-  send_to_char("You are not dead!\r\n", ch);
-  return;
-  } else
-
- if (!IS_NPC(ch) && ROOM_FLAGGED(ch->in_room, ROOM_SPARRING)) 
- {
-   GET_HIT(ch) = 1;
-   send_to_char("You have lost the sparring match, FAILURE!\r\n", ch);
-   char_from_room(ch);
-   char_to_room(ch, real_room(291));
-   stop_fighting(ch);
-   REMOVE_BIT(PLR_FLAGS(ch), PLR_DEAD);
-   REMOVE_BIT(PLR_FLAGS(ch), PLR_DEADI);
-   REMOVE_BIT(PLR_FLAGS(ch), PLR_DEADII);
-   REMOVE_BIT(PLR_FLAGS(ch), PLR_DEADIII);
-   GET_POS(ch) = POS_RESTING;
-   return;
-  }  
- if (GET_KILLER(ch) != NULL)
- {
-  if (PLR_FLAGGED(ch,PLR_ASSASSIN) && PLR_FLAGGED(GET_KILLER(ch), PLR_ASSASSIN))
-    set_arank(GET_KILLER(ch), ch);
- }
-
+  if (GET_HIT(ch) >= 0) 
+		{
+			send_to_char("You are not dead!\r\n", ch);
+			return;
+		} 
+	else
+		if (!IS_NPC(ch) && ROOM_FLAGGED(ch->in_room, ROOM_SPARRING)) 
+			{
+				GET_HIT(ch) = 1;
+				send_to_char("You have lost the sparring match!\r\n", ch);
+				char_from_room(ch);
+				char_to_room(ch, real_room(291));
+				stop_fighting(ch);
+				REMOVE_BIT(PLR_FLAGS(ch), PLR_DEAD);
+				REMOVE_BIT(PLR_FLAGS(ch), PLR_DEADI);
+				REMOVE_BIT(PLR_FLAGS(ch), PLR_DEADII);
+				REMOVE_BIT(PLR_FLAGS(ch), PLR_DEADIII);
+				GET_POS(ch) = POS_RESTING;
+				return;
+			}  
+ 
   if (IS_NPC(GET_KILLER(ch))) 
-    gain_exp(ch, -(GET_EXP(ch) * (float)(.3)
-               * (float)(GET_TOTAL_LEVEL(ch)/ (float)240)));
+		GET_EXP(ch) = 0;
+	
   GET_DEATHS(ch) = GET_DEATHS(ch) + 1;
 
-  if (GET_TOTAL_LEVEL(ch) >= 60) {
-     int chance = (number(1, 100));
-     int percent = ((float)GET_TOTAL_LEVEL(ch)/(float)240) * 100;
-     int stat = (number(1,6));
-     if (chance < percent) {
-        send_to_char("&RIn death you have lost some of your abilities.&n\r\n", ch);
-        switch (stat) {
-        case 1:
-                 if (ch->real_abils.str > 0)
-              ch->real_abils.str -= 1;
-        break;
-        case 2:
-            if (ch->real_abils.wis > 0)
-              ch->real_abils.wis -= 1;
-        break;
-        case 3:
-            if (ch->real_abils.intel > 0)
-              ch->real_abils.intel -= 1;
-        break;
-        case 4:
-            if (ch->real_abils.dex > 0)
-              ch->real_abils.dex -= 1;
-        break;
-        case 5:
-            if (ch->real_abils.con > 0)
-                   ch->real_abils.con -= 1;
-        break;
-        case 6:
-            if (ch->real_abils.cha > 0)
-                   ch->real_abils.cha -= 1;
-        break;
-        default:
-            sprintf(buf, "SYSERR: Invalid Death, Attribute Loss by %s", GET_NAME(ch));
-            mudlog(buf, NRM, MAX(LVL_IMMORT, GET_INVIS_LEV(ch)), TRUE);
-        }
-      }
-  }
-   REMOVE_BIT(PLR_FLAGS(ch), PLR_DEAD);
-   REMOVE_BIT(PLR_FLAGS(ch), PLR_DEADI);
-   REMOVE_BIT(PLR_FLAGS(ch), PLR_DEADII);
-   REMOVE_BIT(PLR_FLAGS(ch), PLR_DEADIII);
-   GET_POS(ch) = POS_RESTING;
+	REMOVE_BIT(PLR_FLAGS(ch), PLR_DEAD);
+	REMOVE_BIT(PLR_FLAGS(ch), PLR_DEADI);
+	REMOVE_BIT(PLR_FLAGS(ch), PLR_DEADII);
+	REMOVE_BIT(PLR_FLAGS(ch), PLR_DEADIII);
+	GET_POS(ch) = POS_RESTING;
   make_corpse(ch);
   save_char(ch, NOWHERE);
   Crash_crashsave(ch);

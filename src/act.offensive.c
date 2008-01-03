@@ -1094,7 +1094,7 @@ ACMD(do_tether)
    }
 
    send_to_char("You are pulled back to your tether point. (Tether Reset)\r\n", ch);
-   act("$n flys out of the room trailing a tether", FALSE, ch, 0, 0, TO_ROOM);
+   act("$n flies out of the room trailing a tether", FALSE, ch, 0, 0, TO_ROOM);
 
    char_from_room(ch);
    char_to_room(ch, real_room(*GET_TETHER(ch, atoi(arg2))));

@@ -222,7 +222,7 @@ int pfile_backup_minlevel = 5;
 /* ROOM NUMBERS */
 
 /* virtual number of room that mortals should enter at */
-room_vnum mortal_start_room = 200;
+room_vnum mortal_start_room = 5000;
 
 /* virtual number of room that immorts should enter at by default */
 room_vnum immort_start_room = 1204;
@@ -236,7 +236,7 @@ room_vnum frozen_start_room = 1202;
  * do_drop of act.item.c if you change the number of non-NOWHERE
  * donation rooms.
  */
-room_vnum donation_room_1 = 270;
+room_vnum donation_room_1 = 5144;
 room_vnum donation_room_2 = NOWHERE;	/* unused - room for expansion */
 room_vnum donation_room_3 = NOWHERE;	/* unused - room for expansion */
 

@@ -728,7 +728,7 @@ ACMD(do_cast)
   if (GET_CLASS(ch) == CLASS_THIEF)       curperc = 550;
   if (GET_CLASS(ch) == CLASS_WARRIOR)     curperc = 500;
   skill = GET_SKILL(ch, spellnum);  
-  mp = (int)SINFO.max_power;
+  mp = (long)SINFO.max_power;
 
   curperc += GET_SKILL(ch, SKILL_SPELL_MASTERY)*10;
   curperc += 3*(60 + 35 * (skill / mp));

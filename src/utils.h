@@ -545,7 +545,7 @@ void    check_fishing(void);
              GET_LEVEL(vict) > LVL_IMMORT ? (IS_NPC(vict) ? "someone" : "an Immortal") : "someone"))
 
 #define OBJS(obj, vict) (CAN_SEE_OBJ((vict), (obj)) ? \
-	(obj)->short_description  : "something")
+	((obj)->short_description == NULL ? "buggy" : (obj)->short_description)  : "something")
 
 #define OBJN(obj, vict) (CAN_SEE_OBJ((vict), (obj)) ? \
 	fname((obj)->name) : "something")

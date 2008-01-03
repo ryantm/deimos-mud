@@ -29,7 +29,7 @@
 #include "pfdefaults.h"
 
 
-extern room_rnum r_mortal_start_room;
+extern room_vnum mortal_start_room;
 extern room_rnum r_immort_start_room;
 extern room_rnum r_frozen_start_room;
 extern const char *class_menu;
@@ -130,7 +130,6 @@ cpp_extern const struct command_info cmd_info[] = {
   {"apply", POS_RESTING, do_not_here, 0, 0},
   {"ankh", POS_DEAD, do_not_here, 1, 0},
   {"anonymous", POS_RESTING, do_gen_tog, 0, SCMD_ANON},
-  {"arank", POS_SLEEPING, do_assassinrank, 0, 0},
 
   {"assedit", POS_RESTING, do_immcmd, LVL_IMMORT, IMM_ASSEDIT},
   {"assemble", POS_STANDING, do_not_here, 0, 0},
@@ -243,7 +242,6 @@ cpp_extern const struct command_info cmd_info[] = {
   {"dig", POS_STANDING, do_immcmd, LVL_IMMORT, IMM_DIG},
   {"disarm", POS_FIGHTING, do_disarm, 0, 0},
   {"display", POS_DEAD, do_display, 0, 0},
-  {"dismount", POS_STANDING, do_dismount, 0, 0},
   {"donate", POS_RESTING, do_drop, 0, SCMD_DONATE},
   {"drink", POS_RESTING, do_drink, 0, SCMD_DRINK},
   {"drop", POS_RESTING, do_drop, 0, SCMD_DROP},
@@ -274,7 +272,6 @@ cpp_extern const struct command_info cmd_info[] = {
   {"fill", POS_STANDING, do_pour, 0, SCMD_FILL},
   {"finger", POS_RESTING, do_finger, 1, 0},
   {"find", POS_RESTING, do_immcmd, LVL_IMMORT, IMM_FIND},
-  {"firefight", POS_STANDING, do_firefight, 0, 0},
   {"flee", POS_FIGHTING, do_flee, 1, 0},
   {"flex", POS_RESTING, do_action, 0, 0},
   {"flip", POS_STANDING, do_action, 0, 0},
@@ -414,6 +411,7 @@ cpp_extern const struct command_info cmd_info[] = {
   {"olc", POS_DEAD, do_immcmd, LVL_IMMORT, IMM_OLC},
   {"oedit", POS_DEAD, do_immcmd, LVL_IMMORT, IMM_OEDIT},
   {"oarchy", POS_DEAD, do_immcmd, LVL_IMMORT, IMM_OARCHY},
+  {"odelete", POS_DEAD, do_odelete, LVL_IMMORT, 0},
 
   {"put", POS_RESTING, do_put, 0, 0},
   {"pat", POS_RESTING, do_action, 0, 0},
@@ -455,6 +453,7 @@ cpp_extern const struct command_info cmd_info[] = {
   {"qsay", POS_RESTING, do_qcomm, 0, SCMD_QSAY},
 
   {"raise", POS_STANDING, do_action, 0, 0},
+  {"rdelete", POS_DEAD, do_rdelete, LVL_IMMORT, 0},
   {"recite", POS_RESTING, do_use, 0, SCMD_RECITE},
   {"recall", POS_STANDING, do_recall, 0, 0},
   {"recharge", POS_RESTING, do_not_here, 0, 0},
@@ -474,7 +473,6 @@ cpp_extern const struct command_info cmd_info[] = {
   {"restore", POS_DEAD, do_immcmd, LVL_IMMORT, IMM_RESTORE},
   {"return", POS_DEAD, do_return, 0, 0},
   {"redit", POS_DEAD, do_immcmd, LVL_IMMORT, IMM_REDIT},
-  {"ride", POS_STANDING, do_ride, 0, 0},
   {"reimburse", POS_SLEEPING, do_reimbursal, LVL_IMPL, 0},
   {"rewardall", POS_SLEEPING, do_immcmd, LVL_IMMORT, IMM_REWARDALL},
   {"roll", POS_RESTING, do_action, 0, 0},
@@ -536,10 +534,6 @@ cpp_extern const struct command_info cmd_info[] = {
   {"split", POS_SITTING, do_split, 1, 0},
   {"spank", POS_RESTING, do_action, 0, 0},
   {"sparrank", POS_SLEEPING, do_sparrank, 0, 0},
-  {"econrank", POS_SLEEPING, do_econrank, 0, 0},
-  {"econrese", POS_SLEEPING, do_econrank, LVL_IMPL, 0},
-  {"econreset", POS_SLEEPING, do_economyreset, LVL_IMPL, SCMD_UPDATEECON},
-  {"econdisp", POS_SLEEPING, do_economyreset, LVL_IMPL, SCMD_DISPLAYECON},
   {"spit", POS_STANDING, do_action, 0, 0},
   {"squeeze", POS_RESTING, do_action, 0, 0},
   {"stab", POS_FIGHTING, do_stab, 0, 0},
@@ -632,7 +626,6 @@ cpp_extern const struct command_info cmd_info[] = {
   {"wield", POS_RESTING, do_wield, 0, 0},
   {"wiggle", POS_STANDING, do_action, 0, 0},
   {"wimpy", POS_DEAD, do_wimpy, 0, 0},
-  {"test", POS_DEAD, do_test, 0, 0},
   {"wink", POS_RESTING, do_action, 0, 0},
   {"withdraw", POS_STANDING, do_not_here, 1, 0},
   {"wiznet", POS_DEAD, do_wiznet, LVL_IMMORT, 0},
@@ -677,6 +670,7 @@ cpp_extern const struct command_info cmd_info[] = {
   {"tstat", POS_DEAD, do_tstat, LVL_IMMORT, 0},
   {"masound", POS_DEAD, do_masound, -1, 0},
   {"mkill", POS_STANDING, do_mkill, -1, 0},
+  {"mdelete", POS_DEAD, do_mdelete, LVL_IMMORT, 0},
   {"mdamage", POS_DEAD, do_mdamage, -1, 0},
   {"mjunk", POS_SITTING, do_mjunk, -1, 0},
   {"mdoor", POS_DEAD, do_mdoor, -1, 0},
@@ -728,12 +722,6 @@ cpp_extern const struct command_info cmd_info[] = {
   {"endgame", POS_STANDING, do_endgame, LVL_IMMORT, 0},
   {"tag", POS_STANDING, do_tag, 1, 0},
   {"tsay", POS_DEAD, do_tsay, 1, 0},
-
-  {"atheist", POS_DEAD, do_atheist, 1, 0},
-  {"phobe", POS_DEAD, do_phobos, 1, 0},
-  {"deimos", POS_DEAD, do_deimos, 1, 0},
-  {"calim", POS_DEAD, do_calim, 1, 0},
-  {"rulek", POS_DEAD, do_rulek, 1, 0},
 
   {"\n", 0, 0, 0, 0}
 };				/* this must be last */
@@ -1807,7 +1795,7 @@ perform_dupe_check (struct descriptor_data *d)
 int
 enter_player_game (struct descriptor_data *d)
 {
-  extern sh_int r_mortal_start_room;
+  extern room_vnum mortal_start_room;
   extern sh_int r_immort_start_room;
   extern sh_int r_frozen_start_room;
 
@@ -1862,7 +1850,7 @@ enter_player_game (struct descriptor_data *d)
       if (GET_LEVEL (d->character) >= LVL_IMMORT)
 	load_room = r_immort_start_room;
       else
-	load_room = r_mortal_start_room;
+	load_room = real_room(mortal_start_room);
     }
 
   if (PLR_FLAGGED (d->character, PLR_FROZEN))

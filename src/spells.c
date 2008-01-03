@@ -23,7 +23,7 @@
 #include "interpreter.h"
 #include "dg_scripts.h"
 
-extern room_rnum r_mortal_start_room;
+extern room_vnum mortal_start_room;
 extern struct room_data *world;
 extern struct obj_data *object_list;
 extern struct char_data *character_list;
@@ -97,9 +97,13 @@ ASPELL(spell_recall)
     return;
   }
 
+	GET_MANA(ch) = (int)(GET_MANA(ch) * 0.25);
+	GET_MOVE(ch) = (int)(GET_MOVE(ch) * 0.25);
+
   act("$n disappears.", TRUE, victim, 0, 0, TO_ROOM);
   char_from_room(victim);
-  char_to_room(victim, r_mortal_start_room);
+  char_to_room(victim, real_room(mortal_start_room));
+	send_to_char("&RYou feel tired.&n\r\n",victim);
   act("$n appears in the middle of the room.", TRUE, victim, 0, 0, TO_ROOM);
   look_at_room(victim, 0);
   entry_memory_mtrigger(ch);

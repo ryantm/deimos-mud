@@ -3776,7 +3776,7 @@ void new_gm(struct char_data *ch) {
   add_to_gm_list(ch);
   send_to_char("You are now a GrandMaster!\r\n", ch);
   send_to_char("Check your inventory for a GM item.\r\n", ch);
-  obj = read_object(5117, VIRTUAL);
+  obj = read_object(30, VIRTUAL);
   obj_to_char(obj, ch);
 }
 void add_to_gm_list(struct char_data *ch) {

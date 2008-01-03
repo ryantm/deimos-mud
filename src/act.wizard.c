@@ -97,6 +97,8 @@ int save_zone(zone_rnum zone_num);
 zone_rnum real_zone(zone_vnum vnum);
 struct question_index *find_question(char *keyword);
 int copy_object(struct obj_data *to, struct obj_data *from);
+zone_rnum real_zone_by_thing(room_vnum vznum);
+
 
 /* local functions */
 void where_pops(struct char_data *ch, bool search_objs, int vnum);
@@ -179,7 +181,7 @@ bool QUESTON = FALSE;
 bool QUOTAOK = TRUE;
 bool IMPSON = FALSE;
 bool CANMULTIPLAY = FALSE;
-bool CANASSASSINATE = TRUE;
+bool CANASSASSINATE = FALSE;
 
 ACMD(do_zclear);
 void clearzone(zone_rnum z);
@@ -4147,8 +4149,13 @@ ACMD(do_dig)
     return;
    }
 
- if (GET_LEVEL(ch) < LVL_IMPL && !is_name(GET_NAME(ch), zone_table[room->zone].builders)) {
-    send_to_char("You cannot dig to a room outside your zone!", ch);
+ if (!can_edit_zone(ch, real_zone_by_thing(IN_ROOM_VNUM(ch)))) {
+    send_to_char("&RYou don't have permission to dig from this room&n\r\n", ch);
+    return;
+   }
+
+ if (!can_edit_zone(ch, room->zone)) {
+    send_to_char("&RYou don't have permission to dig to that room.&n\r\n", ch);
     return;
    }
 
@@ -4671,7 +4678,7 @@ ACMD(do_zsave) {
 
     one_argument(argument, arg);
 
-    if ((arg && *arg) && (!(zonenum = atoi(arg)))) {
+    if ((arg && *arg) && ((zonenum = atoi(arg)) < 0 )) {
       send_to_char("Usage: zsave [zone number]\r\n", ch);
       return;
     }

@@ -739,7 +739,7 @@ int level_exp(int level)
 
 int level_gold(int level) {
   if (level < LVL_IMMORT && level >= 0) {
-    return level_exp(level) * 0.2;
+    return level_exp(level) * 0.16;
   }
  
   return 2000000000;
