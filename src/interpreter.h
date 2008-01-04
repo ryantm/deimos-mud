@@ -80,6 +80,7 @@ ACMD(do_clan);
 ACMD(do_chopwood);
 ACMD(do_conspire);
 ACMD(do_cuss);
+ACMD(do_check);
 ACMD(do_die);
 ACMD(do_depiss);
 ACMD(do_wiztog);

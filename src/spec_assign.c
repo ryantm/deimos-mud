@@ -27,9 +27,6 @@ SPECIAL(assemble);
 SPECIAL(dump);
 SPECIAL(pet_shops);
 SPECIAL(postmaster);
-SPECIAL(cityguard);
-SPECIAL(receptionist);
-SPECIAL(cryogenicist);
 SPECIAL(guild_guard);
 SPECIAL(guild);
 SPECIAL(puff);
@@ -89,10 +86,7 @@ SPECIAL(slots);
 
 const struct specproc_info mob_procs[] = {
   {"NONE",              NULL,                   LVL_IMMORT},
-  {"receptionist",      receptionist,           LVL_IMPL},
-  {"cryogenicist",      cryogenicist,           LVL_IMPL},
   {"postmaster",        postmaster,             LVL_IMPL},
-  {"cityguard",         cityguard,              LVL_IMMORT},
   {"fido",              fido,                   LVL_IMMORT},
   {"janitor",           janitor,                LVL_CREATOR},
   {"mayor",             mayor,                  LVL_DEITY},
@@ -101,8 +95,6 @@ const struct specproc_info mob_procs[] = {
   {"meta_physician",    meta_physician,         LVL_IMPL},
   {"assassin_guild",    assassin_guild,         LVL_IMPL},
   {"embalmer",          embalmer,               LVL_DEITY},
-  {"bounty",            bounty,                 LVL_DEITY},
-  {"cussgiver",         cussgiver,              LVL_IMPL},
   {"magic_user",        magic_user,             LVL_IMMORT},
   {"super_magic_user",  super_magic_user,       LVL_IMMORT},
   {"butcher",           butcher,                LVL_DEITY},
@@ -230,21 +222,6 @@ void assign_mobiles(void)
 {
 
   ASSIGNMOB(1, puff);
-
-  /* Phobos */
-  ASSIGNMOB(25,  wiseman);
-
-  ASSIGNMOB(217, meta_physician);
-  ASSIGNMOB(223, assassin_guild);
-  ASSIGNMOB(234, embalmer);
-  ASSIGNMOB(202, postmaster);
-  ASSIGNMOB(213, cussgiver);
-
-
-  /* Immortal Zone */
-  ASSIGNMOB(1200, receptionist);
-  ASSIGNMOB(1201, postmaster);
-  ASSIGNMOB(1202, janitor);
 
 }
 

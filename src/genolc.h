@@ -41,4 +41,4 @@ extern struct save_list_data *save_list;
 
 #define ZCMD(zon, cmds)	zone_table[(zon)].cmd[(cmds)]
 
-#define LIMIT(var, low, high)	MIN(high, MAX(var, low))
+

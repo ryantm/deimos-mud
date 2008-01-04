@@ -1598,8 +1598,7 @@ ACMD(do_wield)
       send_to_char("Your other hand is already holding something.\r\n", ch);
     if (!can_wear(ch, obj))
       send_to_char("You are not experienced enough to wield this weapon!\r\n", ch);
-    else if (GET_OBJ_WEIGHT(obj) > str_app[GET_STR(ch) + 5].wield_w &&
-				 (GET_LEVEL(ch) < LVL_IMMUNE))
+    else if (GET_OBJ_WEIGHT(obj) > str_app[GET_STR(ch) + 5].wield_w && (GET_LEVEL(ch) < LVL_IMMUNE))
       send_to_char("It's too heavy for you to use.\r\n", ch);
     else
       perform_wear(ch, obj, WEAR_WIELD);

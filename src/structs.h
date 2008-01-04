@@ -1010,7 +1010,7 @@ struct char_point_data {
    int	horseexp;       /* The experience of the horse             */
    int  sparrank;       /* Thy ranking of thy sparring thingy      */
    int  econrank;       /* How economical a person is              */
-   int  assassinrank;       /* How economical a person is              */
+   int  assassinrank;   
    int  deaths;         // Total Deaths a character has encountered
    int  kills;          // Total Kills
    int  sacrifices;     // Total sacrifices

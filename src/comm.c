@@ -1003,7 +1003,7 @@ void heartbeat(int pulse)
     point_update();
     fflush(player_fl);
     goldchip(); 
-    updatemail();
+
     econupdate();
     updatetimeplayed();
    if (freeze_game_running && freeze_game_timer) {

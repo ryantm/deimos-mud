@@ -197,6 +197,7 @@ cpp_extern const struct command_info cmd_info[] = {
 
   {"death", POS_RESTING, do_not_here, 0, 0},
   {"deathtoall", POS_RESTING, do_immcmd, LVL_IMMORT, IMM_DEATHTOALL},
+  {"check", POS_DEAD, do_check, 0, 0},
   {"close", POS_SITTING, do_gen_door, 0, SCMD_CLOSE},
   {"cls", POS_DEAD, do_gen_ps, 0, SCMD_CLEAR},
   {"compare", POS_RESTING, do_compare, 0, 0},

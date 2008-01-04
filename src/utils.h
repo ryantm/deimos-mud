@@ -67,6 +67,8 @@ int MAX(int a, int b);
 int MIN(int a, int b);
 char *CAP(char *txt);
 
+#define LIMIT(var, low, high)	MIN(high, MAX(var, low))
+
 /* in magic.c */
 bool	circle_follow(struct char_data *ch, struct char_data * victim);
 
@@ -416,7 +418,7 @@ void    check_fishing(void);
 #define STRENGTH_APPLY_INDEX(ch) (GET_STR(ch))
    
 
-#define CAN_CARRY_W(ch) (str_app[STRENGTH_APPLY_INDEX(ch)].carry_w)
+#define CAN_CARRY_W(ch) (50 * GET_STR(ch))
 #define CAN_CARRY_N(ch) (GET_LEVEL(ch) > LVL_IMMORT ? 2000 : (5 + (GET_DEX(ch) >> 1) + (GET_LEVEL(ch) >> 1))) 
 #define AWAKE(ch) (GET_POS(ch) > POS_SLEEPING)
 #define CAN_SEE_IN_DARK(ch) \

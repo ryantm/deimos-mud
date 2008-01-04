@@ -1687,28 +1687,28 @@ SPECIAL(fear_maker)
         if (number(1, 3) == 3) 
         {
          act("&R$n lets out a bone chilling scream that makes you think twice!&n", 1, ch, 0, 0, TO_ROOM);
-        }
-      if (GET_POS(ch) == POS_FIGHTING) 
-      {
-        if (number(0,150) < MIN(GET_LEVEL(ch), 60))
-        {
-          act ("&R$n looks chillingly at $N.&n",1,ch,0,vict,TO_ROOM);
-          if (GET_INT(ch) + GET_CON(ch) < number (20, 50))
-          {
-            act ("&R$n freaks the heck out of $N who flees in terror!&n",1,ch,0,vict,TO_ROOM); 
-            act ("&R$n freaks the heck out of You!&n",1,ch,0,vict,TO_VICT); 
-            command_interpreter(vict, "flee");
-            return TRUE;
-          }
-          else 
-          {
-            act ("&R$N holds up to $n's chilling stares!&n",1,ch,0,vict,TO_ROOM); 
-            act ("&RYou hold up to $n's stares!&n",1,ch,0,vict,TO_VICT); 
-            return TRUE;
-          }
-          
-       }
-      }
+	 if (GET_POS(ch) == POS_FIGHTING) 
+	   {
+	     if (number(0,150) < MIN(GET_LEVEL(ch), 60))
+	       {
+		 act ("&R$n looks chillingly at $N.&n",1,ch,0,vict,TO_ROOM);
+		 if (GET_INT(ch) + GET_CON(ch) < number (20, 50))
+		   {
+		     act ("&R$n freaks the heck out of $N who flees in terror!&n",1,ch,0,vict,TO_ROOM); 
+		     act ("&R$n freaks the heck out of You!&n",1,ch,0,vict,TO_VICT); 
+		     command_interpreter(vict, "flee");
+		     return TRUE;
+		   }
+		 else 
+		   {
+		     act ("&R$N holds up to $n's chilling stares!&n",1,ch,0,vict,TO_ROOM); 
+		     act ("&RYou hold up to $n's stares!&n",1,ch,0,vict,TO_VICT); 
+		     return TRUE;
+		   }
+		 
+	       }
+	   }
+	}
     }
     return FALSE;  
   }
