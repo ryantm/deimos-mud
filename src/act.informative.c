@@ -22,6 +22,7 @@
 #include "screen.h"
 #include "constants.h"
 #include "dg_scripts.h"
+#include "mail.h"
 
 /* extern variables */
 extern int minutesplayed;
@@ -95,6 +96,8 @@ void show_obj_to_char(struct obj_data * object, struct char_data * ch, int mode)
 void list_obj_to_char(struct obj_data * list, struct char_data * ch, int mode,
 bool show);
 int calc_ave_damage(struct char_data *ch, struct char_data *victim);
+int	has_mail(long recipient);
+
 ACMD(do_look);
 ACMD(do_examine);
 ACMD(do_gold);
@@ -1221,8 +1224,7 @@ GET_KILLS(ch), GET_DEATHS(ch),
 (float)GET_KILLS(ch)/(float)GET_DEATHS(ch));
   sprintf(buf + strlen(buf), "&GStr: %d, Wis: %d, Int: %d, Dex: %d, Con: %d, Cha: %d&n\r\n",
 GET_STR(ch), GET_WIS(ch), GET_INT(ch), GET_DEX(ch), GET_CON(ch), GET_CHA(ch));
-  sprintf(buf + strlen(buf), "&RYou are carrying&n &G%d&n &Rof max&n &B%d&n &Ritems and &M%d&n &Rof&n &m%d&n &Rweight.&n\r\n", IS_CARRYING_N(ch), CAN_CARRY_N(ch),
-IS_CARRYING_W(ch), CAN_CARRY_W(ch));            
+  sprintf(buf + strlen(buf), "&RYou are carrying&n &G%d&n &Rof max&n &B%d&n &Ritems and &M%d&n &Rof&n &m%d&n &Rweight.&n\r\n", IS_CARRYING_N(ch), CAN_CARRY_N(ch), IS_CARRYING_W(ch), CAN_CARRY_W(ch));            
   sprintf(buf + strlen(buf), "&WStance:&n ");
 
   switch (GET_POS(ch)) {
@@ -1474,8 +1476,7 @@ ACMD(do_help)
     send_to_char("&nYou are not able to find help for that word.&n\r\n", ch);
     return;
   }
-  sprintf(entry, "&W------------------------=Deimos Help=--------------------\r\n%s\r\n%s&n\r\n---------------------------=============---------------------",
-this_help->keywords, this_help->entry);
+  sprintf(entry, "&W%s\r\n&n%s", this_help->keywords, this_help->entry);
   page_string(ch->desc, entry, 0);
 }
 
@@ -3379,4 +3380,12 @@ ACMD(do_playergraph)
 void update_playergraph(int sockets_playing)
 {
   playergraph[pgraph_index++] = sockets_playing;
+}
+
+ACMD(do_check)
+{
+  if (has_mail (GET_IDNUM(ch)))
+    send_to_char ("You have mail waiting.\r\n", ch);
+  else
+    send_to_char ("No mail.\r\n", ch);
 }

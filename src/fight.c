@@ -1372,69 +1372,69 @@ int weapon_type(struct char_data * ch)
 int damage_from(struct char_data * ch, int type)
 {
   struct obj_data *wielded = GET_EQ(ch, WEAR_WIELD);
-	int dam = 0;
-	int w_type, wpnprof;
-
+  int dam = 0;
+  int w_type, wpnprof;
+  
   /* Find the weapon type (for display purposes only) */
-	w_type = weapon_type(ch);
-	
+  w_type = weapon_type(ch);
+  
   /* Weapon proficiencies */
   if (!IS_NPC(ch) && wielded && GET_OBJ_TYPE(wielded) == ITEM_WEAPON)
     wpnprof = get_weapon_prof(ch, wielded);
   else
     wpnprof = 0;
-
-
-	/* Start with the damage bonuses: the damroll and strength apply */
+  
+  
+  /* Start with the damage bonuses: the damroll and strength apply */
   if (!IS_NPC(ch)) 
-		dam += str_app[STRENGTH_APPLY_INDEX(ch)].todam;
-
-	dam += GET_DAMROLL(ch);
-	
-
-	if (wielded && GET_OBJ_TYPE(wielded) == ITEM_WEAPON) 
-		{
-			dam += dice(GET_OBJ_VAL(wielded, 1), GET_OBJ_VAL(wielded, 2));
-			dam += wpnprof;
-		}
-
-	/* If no weapon, add bare hand damage instead */
-	if (IS_NPC(ch)) 
-		{
-			if (!MOB_FLAGGED(ch, MOB_EDIT))
-				{
-					if(GET_LEVEL(ch) <= 66)
-						{
-							dam = dice(
-												 MIN(GET_LEVEL(ch)/4, 99),
-												 MIN(GET_LEVEL(ch)/5, 30));
-							
-						}
-					else if (GET_LEVEL(ch) <= 100)
-						{
-							dam = dice(
-												 MIN(GET_LEVEL(ch)/7, 99),
-												 MIN(GET_LEVEL(ch)/9, 30));
-						}
-					else
-						{
-							dam = dice(
-												 MIN((float)GET_LEVEL(ch)/7, 99),
-												 MIN((float)GET_LEVEL(ch)* 8/90, 30));
-						}
-				}
+    dam += LIMIT(GET_STR(ch) - 10, 1, 15);
+  
+  dam += GET_DAMROLL(ch);
+  
+  
+  if (wielded && GET_OBJ_TYPE(wielded) == ITEM_WEAPON) 
+    {
+      dam += dice(GET_OBJ_VAL(wielded, 1), GET_OBJ_VAL(wielded, 2));
+      dam += wpnprof;
+    }
+  
+  /* If no weapon, add bare hand damage instead */
+  if (IS_NPC(ch)) 
+    {
+      if (!MOB_FLAGGED(ch, MOB_EDIT))
+	{
+	  if(GET_LEVEL(ch) <= 66)
+	    {
+	      dam = dice(
+			 MIN(GET_LEVEL(ch)/4, 99),
+			 MIN(GET_LEVEL(ch)/5, 30));
+	      
+	    }
+	  else if (GET_LEVEL(ch) <= 100)
+	    {
+	      dam = dice(
+			 MIN(GET_LEVEL(ch)/7, 99),
+			 MIN(GET_LEVEL(ch)/9, 30));
+	    }
+	  else
+	    {
+	      dam = dice(
+			 MIN((float)GET_LEVEL(ch)/7, 99),
+			 MIN((float)GET_LEVEL(ch)* 8/90, 30));
+	    }
+	}
       else
-				{
-					dam += dice(ch->mob_specials.damnodice, ch->mob_specials.damsizedice); 
-				}
-		} 
-	
-	if (type == SKILL_BACKSTAB) 
-		dam *= backstab_mult(ch, GET_LEVEL(ch));
- 
-	dam = MAX(1, dam);
-	
-	return dam;
+	{
+	  dam += dice(ch->mob_specials.damnodice, ch->mob_specials.damsizedice); 
+	}
+    } 
+  
+  if (type == SKILL_BACKSTAB) 
+    dam *= backstab_mult(ch, GET_LEVEL(ch));
+  
+  dam = MAX(1, dam);
+  
+  return dam;
 } 
 
 

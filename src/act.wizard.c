@@ -1275,7 +1275,7 @@ void do_stat_character(struct char_data * ch, struct char_data * k)
     strcat(buf, "\r\n");
     send_to_char(buf, ch);
   }
-  sprintf(buf, "Str: [%s%d/%s]  Int: [%s%d%s]  Wis: [%s%d%s]  "
+  sprintf(buf, "Str: [%s%d%s]  Int: [%s%d%s]  Wis: [%s%d%s]  "
 	  "Dex: [%s%d%s]  Con: [%s%d%s]  Cha: [%s%d%s]\r\n",
 	  CCCYN(ch, C_NRM), GET_STR(k), CCNRM(ch, C_NRM),
 	  CCCYN(ch, C_NRM), GET_INT(k), CCNRM(ch, C_NRM),
@@ -2317,7 +2317,7 @@ ACMD(do_dc)
     send_to_char("No such connection.\r\n", ch);
     return;
   }
-  if (d->character && GET_LEVEL(d->character) >= GET_LEVEL(ch)) {
+  if (d->character && GET_LEVEL(d->character) > GET_LEVEL(ch)) {
     if (!CAN_SEE(ch, d->character))
       send_to_char("No such connection.\r\n", ch);
     else
@@ -2491,7 +2491,7 @@ ACMD(do_force)
   else if ((GET_LEVEL(ch) < LVL_GRGOD) || (str_cmp("all", arg) && str_cmp("room", arg))) {
     if (!(vict = get_char_vis(ch, arg, FIND_CHAR_WORLD)))
       send_to_char(NOPERSON, ch);
-    else if (!IS_NPC(vict) && GET_LEVEL(ch) <= GET_LEVEL(vict))
+    else if (!IS_NPC(vict) && GET_LEVEL(ch) < GET_LEVEL(vict))
       send_to_char("No, no, no!\r\n", ch);
     else {
       send_to_char(OK, ch);
