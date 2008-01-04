@@ -954,7 +954,7 @@ void medit_parse(struct descriptor_data *d, char *arg)
     break;
 
   case MEDIT_AC:
-    GET_AC(OLC_MOB(d)) = LIMIT(i, -50, 100);
+    GET_AC(OLC_MOB(d)) = LIMIT(i, MIN_ARMOR, MAX_ARMOR);
     break;
 
   case MEDIT_EXP:
@@ -1058,7 +1058,6 @@ void mob_defaults(struct char_data *mob, int level)
 	int max_level = 1000, 
 		max_exp = 10000000,
 		max_gold = 5000000,
-		max_ac =  100,
 		max_droll = 100,
 		max_hroll = 100,
 		max_ndd = 99,
@@ -1072,7 +1071,7 @@ void mob_defaults(struct char_data *mob, int level)
    GET_EXP(mob) = LIMIT(GET_MOB_EXP(mob), 1, max_exp);
    GET_GOLD(mob) = LIMIT(GET_MOB_GOLD(mob), 0, max_gold);
    
-   GET_AC(mob) = LIMIT(level*2 - 100,-100, max_ac);
+   GET_AC(mob) = LIMIT(level*2,MIN_ARMOR, MAX_ARMOR);
    GET_DAMROLL(mob) = LIMIT(level/5, 0,max_droll);
    GET_HITROLL(mob) = LIMIT(level/5, 0, max_hroll);
 

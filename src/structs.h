@@ -678,6 +678,10 @@
 #define MAX_OBJ_AFFECT		6 /* Used in obj_file_elem *DO*NOT*CHANGE* */
 #define POOF_LENGTH             80
 
+
+
+
+
 /*
  * A MAX_PWD_LENGTH of 10 will cause BSD-derived systems with MD5 passwords
  * and GNU libc 2 passwords to be truncated.  On BSD this will enable anyone

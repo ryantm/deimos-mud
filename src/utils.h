@@ -220,6 +220,8 @@ void    check_fishing(void);
 
 /* See http://www.circlemud.org/~greerga/todo.009 to eliminate MOB_ISNPC. */
 #define IS_NPC(ch)	(IS_SET(MOB_FLAGS(ch), MOB_ISNPC))
+#define IS_PC(ch)   (!IS_NPC(ch))
+
 #define IS_MOB(ch)  (IS_NPC(ch) && GET_MOB_RNUM(ch) >= 0)
 
 #define MOB_FLAGGED(ch, flag) (IS_NPC(ch) && IS_SET(MOB_FLAGS(ch), (flag)))
@@ -310,9 +312,20 @@ void    check_fishing(void);
 
 #define GET_GM_LEVEL(ch) ((ch)->player.levelgm)
 
+
+
 // These two defines control every aspect of this game.
-#define GET_MOB_EXP(ch) (GET_LEVEL(ch) * GET_LEVEL(ch) * 1000)
+#define GET_MOB_EXP(ch)  (GET_LEVEL(ch) * GET_LEVEL(ch) * 1000)
 #define GET_MOB_GOLD(ch) (GET_LEVEL(ch) * GET_LEVEL(ch) * 175)
+
+#define MAX_BS_DAMAGE           1000
+#define MAX_PC_DAMAGE           1000
+#define MAX_NPC_DAMAGE         
+
+#define RANDOMIZE_LEVEL         15
+#define MAX_ARMOR               200
+#define MIN_ARMOR               0
+
 
 /*
  * I wonder if this definition of GET_REAL_LEVEL should be the definition

@@ -19,6 +19,12 @@ Enhancements
 * Update Info
 * Make a social editor
 
+* Change chunk popping strategy to make more sense
+	Bucko: if one pops every two reboots i would consider that good
+	Bucko: 1-2 golds per reboot
+	Bucko: 5-10 irons
+	Bucko: 10-15 copper and tins or so
+
 * trip is useless
 * make tell self say "You tell yourself"?
 * disallow pre-hero multiclassing or make warning (make a player flag you have to set first, like with the cuss channel?)

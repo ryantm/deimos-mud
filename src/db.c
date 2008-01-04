@@ -2124,8 +2124,8 @@ void reset_zone(zone_rnum zone)
       if ((mob_index[ZCMD.arg1].number < ZCMD.arg2) &&
 					(number(1, 100) >= ZCMD.arg4)) {
 				mob = read_mobile(ZCMD.arg1, REAL);
-
-				randomize_mobile(mob, 3);
+				if (GET_LEVEL(mob) >= RANDOMIZE_LEVEL)
+					randomize_mobile(mob, 3);
 				give_chunks_to_mobile(mob);
 
 				char_to_room(mob, ZCMD.arg3);
@@ -2184,8 +2184,8 @@ void reset_zone(zone_rnum zone)
           mob_load && (number(1, 100) >= ZCMD.arg4)) {
 				obj = read_object(ZCMD.arg1, REAL);
 				obj_to_char(obj, mob);
-
-				powerup_mobile(mob, 4);
+				if (GET_LEVEL(mob) >= RANDOMIZE_LEVEL)
+					powerup_mobile(mob, 4);
         tobj = obj;
         load_otrigger(obj);
 				last_cmd = 1;

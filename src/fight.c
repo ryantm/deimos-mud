@@ -71,7 +71,6 @@ void raw_kill(struct char_data * ch, struct char_data * killer);
 void die(struct char_data * ch, struct char_data * killer);
 char *replace_string(const char *str, const char *weapon_singular, const char *weapon_plural);
 void perform_violence(void);
-int compute_armor_class(struct char_data *ch);
 int get_weapon_prof(struct char_data *ch, struct obj_data *wield);
 //void improve_skill(struct char_data *ch, int skill);
 //void perform_group_gain(struct char_data * ch, int base, struct char_data * victim);
@@ -129,26 +128,6 @@ void appear(struct char_data * ch)
 	FALSE, ch, 0, 0, TO_ROOM);
 }
 
-
-int compute_armor_class(struct char_data *ch)
-{
- // This function calculates percent of damange that remains after it goes through armor
-  int armorclass;
-  if (!IS_NPC(ch) || MOB_FLAGGED(ch, MOB_EDIT)) {
-    //Max 1128 is 100
-    if (GET_AC(ch) >= 0)
-      armorclass = GET_AC(ch) * .25; /* Max Damage Reduction = 25% beforedex*/
-    else
-      armorclass = -GET_AC(ch) * .5; /* Doulbe Damage for Under 0 ac */
-    
-    if (AWAKE(ch) && !IS_NPC(ch))
-      armorclass += (GET_DEX(ch) * .4); /* Can Boost max to 35% off */
-    
-    return (100 - armorclass);      /* -50 is lowest */
-  }
-  else
-    return (100 - GET_LEVEL(ch) * .53);
-}
 
 void load_messages(void)
 {
@@ -450,7 +429,7 @@ void delete_eq(struct char_data * ch)
   ch->carrying = NULL;
   IS_CARRYING_N(ch) = 0;
   IS_CARRYING_W(ch) = 0;
-  send_to_char("If you see this your eq has been deleted hahahahah!\r\n", ch);
+  send_to_char("If you see this your eq has unfortunately been deleted!\r\n", ch);
 
   return;
 }
@@ -1090,6 +1069,38 @@ int skill_message(int dam, struct char_data * ch, struct char_data * vict,
   return (0);
 }
 
+int reduce_damage(int dam, int attacktype, struct char_data *ch, struct char_data *victim)
+{
+	
+  /* Cut damage in half if victim has sanct, to a minimum 1 */
+  if (AFF_FLAGGED(victim, AFF_SANCTUARY) && dam >= 2)
+    dam /= 2;
+	
+	if (AFF_FLAGGED(victim, AFF_MANASHIELD)) 
+		{
+			if (GET_MANA(victim) > (dam * .1)) 
+				{    
+					GET_MANA(victim) -= (int) (dam * .1);
+					dam *= 0.2;
+				}
+		}
+
+	/* Reduce 1 damage for every 1 AC */
+	dam -= LIMIT(GET_AC(ch),MIN_ARMOR,MAX_ARMOR)
+
+	/* Area of effects can't kill mobiles */
+  if (attacktype == TYPE_AREA_EFFECT)
+    if (GET_HIT(victim) - dam < 1)
+			dam = GET_HIT(victim) - 1;
+	
+	if (GET_LEVEL(ch) >= LVL_IMPL)
+		dam = LIMIT(dam, 0, INT_MAX);
+	else if (IS_PC(ch)) 
+		dam = LIMIT(dam, 0, MAX_PC_DAMAGE);
+	else
+		dam = LIMIT(dam, 0, MAX_NPC_DAMAGE);
+}
+
 /*
  * Alert: As of bpl14, this function returns the following codes:
  *	< 0	Victim died.
@@ -1145,18 +1156,20 @@ int damage(struct char_data * ch, struct char_data * victim, int dam, int attack
   if (AFF_FLAGGED(victim, AFF_GASEOUS) && (attacktype < 1 || attacktype > MAX_SPELLS))
     dam = 0;
   
-  if (victim != ch) {
-    /* Start the attacker fighting the victim */
-    if (GET_POS(ch) > POS_STUNNED && (FIGHTING(ch) == NULL))
-      set_fighting(ch, victim);
-		
-    /* Start the victim fighting the attacker */
-    if (GET_POS(victim) > POS_STUNNED && (FIGHTING(victim) == NULL)) {
-      set_fighting(victim, ch);
-      if (MOB_FLAGGED(victim, MOB_MEMORY) && !IS_NPC(ch))
-				remember(victim, ch);
-    }
-  }
+  if (victim != ch) 
+		{
+			/* Start the attacker fighting the victim */
+			if (GET_POS(ch) > POS_STUNNED && (FIGHTING(ch) == NULL))
+				set_fighting(ch, victim);
+			
+			/* Start the victim fighting the attacker */
+			if (GET_POS(victim) > POS_STUNNED && (FIGHTING(victim) == NULL)) 
+				{
+					set_fighting(victim, ch);
+					if (MOB_FLAGGED(victim, MOB_MEMORY) && !IS_NPC(ch))
+						remember(victim, ch);
+				}
+		}
 	
   /* If you attack a pet, it hates your guts */
   if (victim->master == ch)
@@ -1166,43 +1179,13 @@ int damage(struct char_data * ch, struct char_data * victim, int dam, int attack
   if (AFF_FLAGGED(ch, AFF_INVISIBLE | AFF_HIDE | AFF_SHADE))
     appear(ch);
 
-  if (IS_NPC(ch) && !MOB_FLAGGED(ch, MOB_EDIT))
-     dam = MAX(MIN(dam, 1400), 0);
+
+	dam = reduce_damage(dam, attacktype, ch, victim);
 	
-  /* Cut damage in half if victim has sanct, to a minimum 1 */
-  if (AFF_FLAGGED(victim, AFF_SANCTUARY) && dam >= 2)
-    dam /= 2;
-	
-  if (AFF_FLAGGED(victim, AFF_PROTECT_EVIL)  && GET_ALIGNMENT(ch) < -100 && dam >=10 )
-    dam *= .85;
-	
-	if (AFF_FLAGGED(victim, AFF_MANASHIELD)) 
-		{
-			if (GET_MANA(victim) > (dam * .1 * GET_SKILL(ch, SPELL_MANASHIELD) / 5.)) 
-				{    
-					GET_MANA(victim) -=(int) (dam * .1);
-					dam -= (int)(dam * .2 * GET_SKILL(ch, SPELL_MANASHIELD) / 5.);
-				}
-		}
-	
-  /* Heres Where Armor takes affect, after the attack gets through all */
-	percent = (1 - ((float)compute_armor_class(victim) / 100));
-	percent = MAX(MIN(percent, .35), -.25); // Safeguard
-	dam -= dam * percent;
-	
-  if (GET_LEVEL(ch) >= LVL_IMPL || attacktype == SPELL_TURKEY)
-		dam = MAX(0, dam);
-  else if (attacktype == SKILL_BACKSTAB) {
-		dam = MAX(MIN(dam, 1000), 0);
-  }else if (!IS_NPC(ch)) {
-		dam = MAX(MIN(dam, 1000), 0); // Sparrank taken out // Damage cap
-  } else
-		dam = MAX(MIN(dam, 1000), 0);
-	
+	GET_HIT(victim) -= dam;
+
+
   if (attacktype == TYPE_AREA_EFFECT) {
-    if (GET_HIT(victim) - dam < 1 && number(1,5) != 5) {
-			dam = GET_HIT(victim) - 1;
-    } 
     struct obj_data *wielded = GET_EQ(ch, WEAR_WIELD);
 		
     /* Find the weapon type (for display purposes only, i think) */
@@ -1215,8 +1198,7 @@ int damage(struct char_data * ch, struct char_data * victim, int dam, int attack
         attacktype = TYPE_HIT;
     }
   }
-	
-	GET_HIT(victim) -= dam;
+
 	
   /* Set the maximum damage per round and subtract the hit points */
 
@@ -1839,11 +1821,12 @@ int calc_ave_damage(struct char_data *ch, struct char_data *vict)
 {
   int damage = 0, try = 0;
   
-  while (damage == 0 && try  < 10)
+  while (damage == 0 && try < 10)
   {
-    damage = damage_from(ch, TYPE_UNDEFINED);
+		damage = reduce_damage(damage_from(ch, TYPE_UNDEFINED), TYPE_UNDEFINED, ch, vict);
     try++;
   }
+
   return(damage);
 }
 
