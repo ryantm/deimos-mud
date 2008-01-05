@@ -1071,41 +1071,41 @@ int skill_message(int dam, struct char_data * ch, struct char_data * vict,
 
 int reduce_damage(int dam, int attacktype, struct char_data *ch, struct char_data *victim)
 {
-	sprintf(buf, "Damage to you: %d", dam);
-	send_to_char(buf,victim);
-
+  sprintf(buf, "Damage to you: %d", dam);
+  send_to_char(buf,victim);
+  
   /* Cut damage in half if victim has sanct, to a minimum 1 */
   if (AFF_FLAGGED(victim, AFF_SANCTUARY) && dam >= 2)
     dam /= 2;
-	
-	if (AFF_FLAGGED(victim, AFF_MANASHIELD)) 
-		{
-			if (GET_MANA(victim) > (dam * .1)) 
-				{    
-					GET_MANA(victim) -= (int) (dam * .1);
-					dam *= 0.2;
-				}
-		}
-
-	/* Reduce 1 damage for every 1 AC */
-	dam -= LIMIT(GET_AC(ch),MIN_ARMOR,MAX_ARMOR);
-
-	/* Area of effects can't kill mobiles */
+  
+  if (AFF_FLAGGED(victim, AFF_MANASHIELD)) 
+    {
+      if (GET_MANA(victim) > (dam * .1)) 
+	{    
+	  GET_MANA(victim) -= (int) (dam * .1);
+	  dam *= 0.2;
+	}
+    }
+  
+  /* Reduce 1 damage for every 1 AC */
+  dam -= LIMIT(GET_AC(victim),MIN_ARMOR, MAX_ARMOR);
+  
+  /* Area of effects can't kill mobiles */
   if (attacktype == TYPE_AREA_EFFECT)
     if (GET_HIT(victim) - dam < 1)
-			dam = GET_HIT(victim) - 1;
-	
-	if (GET_LEVEL(ch) >= LVL_IMPL)
-		dam = LIMIT(dam, 0, INT_MAX);
-	else if (IS_PC(ch))
-		dam = LIMIT(dam, 0, MAX_PC_DAMAGE);
-	else
-		dam = LIMIT(dam, 0, MAX_NPC_DAMAGE);
-
-	sprintf(buf, "Reduced damage to you: %d", dam);
-	send_to_char(buf,victim);
-
-	return dam;
+      dam = GET_HIT(victim) - 1;
+  
+  if (GET_LEVEL(ch) >= LVL_IMPL)
+    dam = LIMIT(dam, 0, INT_MAX);
+  else if (IS_PC(ch))
+    dam = LIMIT(dam, 0, MAX_PC_DAMAGE);
+  else
+    dam = LIMIT(dam, 0, MAX_NPC_DAMAGE);
+  
+  sprintf(buf, "Reduced damage to you: %d", dam);
+  send_to_char(buf,victim);
+  
+  return dam;
 }
 
 /*
