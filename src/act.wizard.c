@@ -58,7 +58,6 @@ extern int buf_switches, buf_largecount, buf_overflows;
 extern mob_rnum top_of_mobt;
 extern obj_rnum top_of_objt;
 extern int top_of_p_table;
-extern int compute_armor_class(struct char_data *ch);
 extern struct player_index_element *player_table;/* for reimbursal*/
 extern int frozen_start_room;
 extern void delete_eq(struct char_data *ch);
@@ -1462,9 +1461,6 @@ GET_MAXHAPPY(k));
       send_to_char(strcat(buf, "\r\n"), ch);
     }
   }
-  /*Compute Armor Class */
-  sprintf(buf, "ArmorClass: %d\r\n", compute_armor_class(k));
-  send_to_char(buf,ch);
   /* check mobiles for a script */
   if (IS_NPC(k)) {
     do_sstat_character(ch, k);

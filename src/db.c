@@ -183,6 +183,7 @@ struct question_index *find_question(char *keyword);
 void randomize_mobile(struct char_data *mob, int range);
 void powerup_mobile(struct char_data *mob, int level);
 void give_chunks_to_mobile(struct char_data *mob);
+void mob_defaults(struct char_data *mob, int level);
 
 /* external vars */
 extern int no_specials;
@@ -1935,11 +1936,16 @@ struct char_data *read_mobile(mob_vnum nr, int type) /* and mob_rnum */
   mob->next = character_list;
   character_list = mob;
 
+
+	mob->points.max_hit = dice(mob->points.hit, mob->points.mana) + mob->points.move; 
+
   mob->points.max_mana = GET_LEVEL(mob) * 100;
-  
+  mob->points.max_move = GET_LEVEL(mob) * 100;
+
   mob->points.hit = mob->points.max_hit;
   mob->points.mana = mob->points.max_mana;
   mob->points.move = mob->points.max_move;
+
 
   mob->player.time.birth = time(0);
   mob->player.time.played = 0;
@@ -1948,6 +1954,8 @@ struct char_data *read_mobile(mob_vnum nr, int type) /* and mob_rnum */
   mob_index[i].number++;
   GET_ID(mob) = max_id++;
   assign_triggers(mob, MOB_TRIGGER);
+
+	mob_defaults(mob,GET_LEVEL(mob));
 
   return (mob);
 }

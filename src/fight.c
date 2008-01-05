@@ -84,7 +84,7 @@ int get_exp_gain(struct char_data * ch, struct char_data * victim);
 void perform_exp_gain(struct char_data * ch, int exp, struct char_data * victim);
 int get_group_exp(struct char_data * k, int exp, int members, int total_levels);
 bool CAN_FIGHT(struct char_data * ch, struct char_data * vict);
-
+int reduce_damage(int dam, int attacktype, struct char_data *ch, struct char_data *victim);
 int extra_attacks_from_level(struct char_data *ch);
 int extra_attacks_from_skill(struct char_data *ch);
 
@@ -1086,7 +1086,7 @@ int reduce_damage(int dam, int attacktype, struct char_data *ch, struct char_dat
 		}
 
 	/* Reduce 1 damage for every 1 AC */
-	dam -= LIMIT(GET_AC(ch),MIN_ARMOR,MAX_ARMOR)
+	dam -= LIMIT(GET_AC(ch),MIN_ARMOR,MAX_ARMOR);
 
 	/* Area of effects can't kill mobiles */
   if (attacktype == TYPE_AREA_EFFECT)
@@ -1095,10 +1095,12 @@ int reduce_damage(int dam, int attacktype, struct char_data *ch, struct char_dat
 	
 	if (GET_LEVEL(ch) >= LVL_IMPL)
 		dam = LIMIT(dam, 0, INT_MAX);
-	else if (IS_PC(ch)) 
+	else if (IS_PC(ch))
 		dam = LIMIT(dam, 0, MAX_PC_DAMAGE);
 	else
 		dam = LIMIT(dam, 0, MAX_NPC_DAMAGE);
+
+	return dam;
 }
 
 /*
@@ -1115,7 +1117,6 @@ int damage(struct char_data * ch, struct char_data * victim, int dam, int attack
 	long old_gold = 0;
 	long local_gold = 0;
 	char local_buf[256];
-	float percent;
 	
 	
   if (GET_POS(victim) <= POS_DEAD) {

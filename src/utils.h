@@ -322,7 +322,7 @@ void    check_fishing(void);
 
 #define MAX_BS_DAMAGE           1000
 #define MAX_PC_DAMAGE           1000
-#define MAX_NPC_DAMAGE         
+#define MAX_NPC_DAMAGE          1400
 
 #define RANDOMIZE_LEVEL         15
 #define MAX_ARMOR               200
