@@ -1051,59 +1051,53 @@ void powerup_mobile(struct char_data *mob, int level)
 
 void mob_defaults(struct char_data *mob, int level)
 {
-	if (MOB_FLAGGED(mob, MOB_EDIT))
-		return;
-
-	/* MEDIT_SETTER */
-	int max_level = 1000, 
-		max_exp = 10000000,
-		max_gold = 5000000,
-		max_droll = 100,
-		max_hroll = 100,
-		max_ndd = 99,
-		max_sdd = 30,
-		max_move = 2000000000;
-	int j = 0;
-
-   GET_LEVEL(mob) = LIMIT(level, 1, max_level);
-	 level = GET_LEVEL(mob);
-
-   GET_EXP(mob) = LIMIT(GET_MOB_EXP(mob), 1, max_exp);
-   GET_GOLD(mob) = LIMIT(GET_MOB_GOLD(mob), 0, max_gold);
+  if (MOB_FLAGGED(mob, MOB_EDIT))
+    return;
+  
+  /* MEDIT_SETTER */
+  int max_level = 1000, 
+    max_exp = 10000000,
+    max_gold = 5000000,
+    max_droll = 100,
+    max_hroll = 100,
+    max_move = 2000000000;
+  int j = 0;
+  
+  GET_LEVEL(mob) = LIMIT(level, 1, max_level);
+  level = GET_LEVEL(mob);
+  
+  GET_EXP(mob) = LIMIT(GET_MOB_EXP(mob), 1, max_exp);
+  GET_GOLD(mob) = LIMIT(GET_MOB_GOLD(mob), 0, max_gold);
+  
+  GET_AC(mob) = LIMIT(level,MIN_ARMOR, MAX_ARMOR);
+  GET_DAMROLL(mob) = LIMIT(level, 0,max_droll);
+  GET_HITROLL(mob) = LIMIT(level, 0, max_hroll);
+  
+  /* NDD * SDD = base damage dealt */
+  if (level <= 100)
+    {
+      mob->mob_specials.damnodice   = level / 7.0;
+      mob->mob_specials.damsizedice = level / 9.0;
+    }
+  else
+    {
+      mob->mob_specials.damnodice   = level / 7.0;
+      mob->mob_specials.damsizedice = level * 8.0 / 90.0;
+    }
    
-   GET_AC(mob) = LIMIT(level*2,MIN_ARMOR, MAX_ARMOR);
-   GET_DAMROLL(mob) = LIMIT(level/5, 0,max_droll);
-   GET_HITROLL(mob) = LIMIT(level/5, 0, max_hroll);
-
-   /* NDD * SDD = base damage dealt */
-   if(level <= 100)
-		 {
-     GET_NDD(mob) = LIMIT(MIN(level/7, max_ndd), 1, max_ndd);
-     GET_SDD(mob) = LIMIT(MIN(level/7, max_sdd), 1, max_sdd);
-   }
-   else
-   {
-     // NDD * SDD = Total Damage
-     // 40 * 30 = 1200 damage
-     GET_NDD(mob) = LIMIT(
-           MIN((float)level/70 * 10, max_ndd), 1, max_ndd);
-     GET_SDD(mob) = LIMIT(
-           MIN((float)level/90 * 8, max_sdd), 1, max_sdd);
-   }
-
-	 j = (float) 2* (float) level * (float)level + 100;
-
-	 GET_MAX_HIT(mob)  = dice(level / 2, level / 2) + LIMIT(j,1, max_move);
-	 GET_MAX_MANA(mob) = level * 15;
-	 GET_MAX_MOVE(mob) = LIMIT(j, 1, max_move);	 
-	 
-
-	 GET_HIT(mob)  = GET_MAX_HIT(mob);
-	 GET_MOVE(mob) = GET_MAX_MOVE(mob);
-	 GET_MANA(mob) = GET_MAX_MANA(mob);
-	 
-	 GET_DEFAULT_POS(mob) = POS_STANDING;
-	 GET_POS(mob) = POS_STANDING;
+  j = (float) 2* (float) level * (float)level + 100;
+  
+  GET_MAX_HIT(mob)  = dice(level / 2, level / 2) + LIMIT(j,1, max_move);
+  GET_MAX_MANA(mob) = level * 15;
+  GET_MAX_MOVE(mob) = LIMIT(j, 1, max_move);	 
+  
+  
+  GET_HIT(mob)  = GET_MAX_HIT(mob);
+  GET_MOVE(mob) = GET_MAX_MOVE(mob);
+  GET_MANA(mob) = GET_MAX_MANA(mob);
+  
+  GET_DEFAULT_POS(mob) = POS_STANDING;
+  GET_POS(mob) = POS_STANDING;
 }
 
 void give_chunks_to_mobile(struct char_data *mob)

@@ -26,6 +26,7 @@
 #include "spells.h"
 #include "interpreter.h"
 #include "constants.h"
+#include "handler.h"
 
 extern int siteok_everyone;
 void  char_to_room(struct char_data *ch, room_rnum room); 
@@ -350,19 +351,20 @@ void roll_real_abils(struct char_data * ch)
 /* Some initializations for characters, including initial skills */
 void do_start(struct char_data * ch)
 {
- 
- GET_LEVEL(ch) = 1;
- if ((GET_CLASS(ch)) == 0) {
-	 SET_MAGE_LEVEL(ch,1);
+  struct obj_data *obj;
+
+  GET_LEVEL(ch) = 1;
+  if ((GET_CLASS(ch)) == 0) {
+    SET_MAGE_LEVEL(ch,1);
   }
- if ((GET_CLASS(ch)) == 1) {
-	 SET_CLERIC_LEVEL(ch,1); 
+  if ((GET_CLASS(ch)) == 1) {
+    SET_CLERIC_LEVEL(ch,1); 
   }
- if ((GET_CLASS(ch)) == 2) {
-	 SET_THIEF_LEVEL(ch,1);
+  if ((GET_CLASS(ch)) == 2) {
+    SET_THIEF_LEVEL(ch,1);
   } 
- if ((GET_CLASS(ch)) == 3) {
-	 SET_WARRIOR_LEVEL(ch,1); 
+  if ((GET_CLASS(ch)) == 3) {
+    SET_WARRIOR_LEVEL(ch,1); 
   }
 
   GET_EXP(ch) = 1;
@@ -385,9 +387,14 @@ void do_start(struct char_data * ch)
   ch->player.time.played = 0;
   ch->player.time.logon = time(0);
   send_to_char("All preferences automatically turned on. To see which are on type toggle.\r\n", ch);
-	autoall(ch);
+  
+  autoall(ch);
   SET_BIT(PRF_FLAGS(ch), PRF_COLOR_1 | PRF_COLOR_2);
-	SET_BIT(PRF_FLAGS(ch), PRF_DISPHP | PRF_DISPMANA | PRF_DISPMOVE);
+  SET_BIT(PRF_FLAGS(ch), PRF_DISPHP | PRF_DISPMANA | PRF_DISPMOVE);
+
+  send_to_char("You have received a map of Phobos.\r\n", ch);
+  obj = read_object(4, VIRTUAL);
+  obj_to_char(obj, ch);
 
   if (siteok_everyone)
     SET_BIT(PLR_FLAGS(ch), PLR_SITEOK);

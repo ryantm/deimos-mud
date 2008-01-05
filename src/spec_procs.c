@@ -55,6 +55,7 @@ void add_follower(struct char_data * ch, struct char_data * leader);
 void return_blue_flag();
 void return_red_flag();
 bool quotaok();
+char *str_udup(const char *txt);
 
 int level_exp(int level);
 float level_gold(int level);
@@ -2416,7 +2417,10 @@ SPECIAL(embalmer)
   struct obj_data *obj, *temp;
   char loc_buf[MAX_STRING_LENGTH]="";
   char loc_buf2[MAX_STRING_LENGTH]="";
-  int i=0, len=0, total_len=0, done=FALSE;
+  int i=0, len=0, total_len=0;
+  int gold_cost = 20000000; // change message below if you change gold!
+  
+  return FALSE; //EMBALMER IS BUGGY!!! 
 
   if(CMD_IS("embalm"))
     {
@@ -2424,7 +2428,7 @@ SPECIAL(embalmer)
       if(strcmp(buf,"corpse")==0)
         {
           temp=get_obj_in_list_vis(ch,"corpse",ch->carrying);
-          obj = read_object(8099, VIRTUAL);
+          obj = read_object(3, VIRTUAL);
 
           if(!temp)
             {
@@ -2432,55 +2436,56 @@ SPECIAL(embalmer)
                   " any corpses.'",FALSE,ch,0,me,TO_CHAR);
               return TRUE;
             }
-          if(GET_GOLD(ch)<20000000)
+          if(GET_GOLD(ch) < gold_cost) 
             {
-              act("$N says to you 'Sorry. You don't have"
-                  " enough gold.'",FALSE,ch,0,me,TO_CHAR);
+              act("$N says to you 'Sorry. Embalming costs 20,000,000 gold.'", FALSE,ch,0,me,TO_CHAR);
               return TRUE;
             }
           else
             {  
-      for (i = 0; (i < 7) || (!done); i++)
-           {
-             len=strlen(headers[i]);
-             if(memcmp(temp->short_description,headers[i],len)==0)
-                {
-                total_len=strlen(temp->short_description);
-                strncpy(loc_buf,temp->short_description+len,
-                       total_len-len);
-                free(obj->name);
-                sprintf(loc_buf2,"bag skin %s",loc_buf);
-                obj->name=str_dup(loc_buf2);
-                sprintf(loc_buf2,"A bag of %s skin lies"
-                                 " here",loc_buf);
-                free(obj->description);
-                obj->description=str_dup(loc_buf2);
-                sprintf(loc_buf2,"a bag made from %s skin",loc_buf);
-                free(obj->short_description);
-                obj->short_description=str_dup(loc_buf2);
-                GET_OBJ_TYPE(obj)=ITEM_CONTAINER;
-                GET_OBJ_WEAR(obj)=ITEM_WEAR_TAKE;
-		SET_BIT(GET_OBJ_EXTRA(obj), ITEM_UNIQUE_SAVE);
-                GET_OBJ_VAL(obj,0)=100; /* adjust this for capacity */
-                GET_OBJ_VAL(obj,3)=0; /* adjust this for capacity */
-                GET_OBJ_WEIGHT(obj)=5;  /* adjust this for weight */
-                GET_OBJ_COST(obj)=1000;
-                GET_OBJ_TIMER(obj)=0;
-                GET_GOLD(ch)-=100;
-                done=TRUE;
-                obj_to_char(obj, ch);
-                extract_obj(temp);
-                act("$N says to you 'Done! Enjoy your new bag.'",
-                    FALSE,ch,0,me,TO_CHAR);
-                return 1;
-                }
-            }
-          act("$N says to you 'Sorry, I can't make a bag from"
-              "this.'",FALSE,ch,0,me,TO_CHAR);
+	      for (i = 0; i < 7; i++)
+		{
+		  len=strlen(headers[i]);
+		  if(memcmp(temp->short_description,headers[i],len)==0)
+		    {
+		      total_len=strlen(temp->short_description);
+		      strncpy(loc_buf,temp->short_description+len, total_len-len);
+
+		      if (obj->name) free(obj->name);
+		      sprintf(loc_buf2,"bag skin %s",loc_buf);
+		      obj->name = str_udup(arg);
+
+		      if (obj->description) free(obj->description);
+		      sprintf(loc_buf2,"A bag of %s skin lies here",loc_buf);
+		      obj->description = str_udup(loc_buf2);
+
+		      if (obj->short_description) free(obj->short_description);
+		      sprintf(loc_buf2,"a bag made from %s skin",loc_buf);
+		      obj->short_description=str_udup(loc_buf2);
+
+		      GET_OBJ_TYPE(obj) = ITEM_CONTAINER;
+		      GET_OBJ_WEAR(obj) = ITEM_WEAR_TAKE;
+		      SET_BIT(GET_OBJ_EXTRA(obj), ITEM_UNIQUE_SAVE);
+		      GET_OBJ_VAL(obj,0)  = 100; /* adjust this for capacity */
+		      GET_OBJ_VAL(obj,3)  = 0;   /* adjust this for capacity */
+		      GET_OBJ_WEIGHT(obj) = 5;  /* adjust this for weight */
+		      GET_OBJ_COST(obj)   = 1000;
+		      GET_OBJ_TIMER(obj)  = 0;
+
+		      obj_to_char(obj, ch);
+		      extract_obj(temp);
+
+		      GET_GOLD(ch) -= gold_cost;
+		      act("$N says to you 'Done! Enjoy your new bag.'", FALSE,ch,0,me,TO_CHAR);
+		      return 1;
+		    }
+		}
+          act("$N says to you 'Sorry, I can't make a bag from this.'",FALSE,ch,0,me,TO_CHAR);
           return 1;
           }
        }
-      return 0;
+      act("$N says to you 'Please try `embalm corpse`",FALSE,ch,0,me,TO_CHAR);
+      return 1;
     }
   return 0;
  }

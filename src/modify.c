@@ -368,7 +368,7 @@ ACMD(do_skillset)
 *
 *********************************************************************/
 
-#define PAGE_LENGTH     22
+#define PAGE_LENGTH     40
 #define PAGE_WIDTH      80
 
 /* Traverse down the string until the begining of the next page has been
