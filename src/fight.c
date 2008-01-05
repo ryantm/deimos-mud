@@ -1071,7 +1071,9 @@ int skill_message(int dam, struct char_data * ch, struct char_data * vict,
 
 int reduce_damage(int dam, int attacktype, struct char_data *ch, struct char_data *victim)
 {
-	
+	sprintf(buf, "Damage to you: %d", dam);
+	send_to_char(buf,victim);
+
   /* Cut damage in half if victim has sanct, to a minimum 1 */
   if (AFF_FLAGGED(victim, AFF_SANCTUARY) && dam >= 2)
     dam /= 2;
@@ -1099,6 +1101,9 @@ int reduce_damage(int dam, int attacktype, struct char_data *ch, struct char_dat
 		dam = LIMIT(dam, 0, MAX_PC_DAMAGE);
 	else
 		dam = LIMIT(dam, 0, MAX_NPC_DAMAGE);
+
+	sprintf(buf, "Reduced damage to you: %d", dam);
+	send_to_char(buf,victim);
 
 	return dam;
 }
