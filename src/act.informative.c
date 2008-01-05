@@ -2432,9 +2432,10 @@ ACMD(do_consider)
     return;
   }
  //Normal Code
-  chardam = calc_ave_damage(ch, victim);
-  victdam = calc_ave_damage(victim, ch);
+  chardam = LIMIT(calc_ave_damage(ch, victim), 1, INT_MAX);
+  victdam = LIMIT(calc_ave_damage(victim, ch), 1, INT_MAX);
 
+	// limits avoid the divide by zero posibility here
   charrounds = GET_HIT(victim) / chardam;
   victrounds = GET_HIT(ch) / victdam;
 
