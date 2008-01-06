@@ -1377,6 +1377,15 @@ void find_replacement(void *go, struct script_data *sc, trig_data *trig,
 					strcpy(str, "1");
 			}
 
+      else if (!str_cmp(field, "hisher"))
+        sprintf(str, "%s", HSHR(c));
+
+      else if (!str_cmp(field, "heshe"))
+        sprintf(str, "%s", HESH(c));
+
+      else if (!str_cmp(field, "himher"))
+        sprintf(str, "%s", HMHR(c));
+
       else if (!str_cmp(field, "alias"))
 				strcpy(str, GET_NAME(c));
 			
