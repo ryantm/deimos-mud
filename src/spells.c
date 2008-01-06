@@ -470,7 +470,7 @@ ASPELL(spell_identify)
     strcat(buf, buf2);
     if (GET_OBJ_TYPE(obj) == ITEM_WEAPON) {
       /* weapon type */
-      sprintf(buf + strlen(buf), " - %s", attack_hit_text[GET_OBJ_VAL(obj, 3)].singular);
+      sprintf(buf + strlen(buf), " (%s)", attack_hit_text[GET_OBJ_VAL(obj, 3)].singular);
     }
     strcat(buf, "\r\n");
     send_to_char(buf, ch);
