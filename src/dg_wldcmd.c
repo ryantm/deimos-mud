@@ -477,7 +477,7 @@ WCMD(do_wdamage) {
 
     two_arguments(argument, name, amount);
 		
-    if (!*name || !*amount || !isdigit(*amount)) {
+    if (!*name || !*amount) {
 			wld_log(room, "wdamage: bad syntax");
 			return;
     }
