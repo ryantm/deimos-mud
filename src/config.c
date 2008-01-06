@@ -101,7 +101,7 @@ int dts_are_dumps = NO;
  * able to carry around things like boards.  That's not necessarily a bad
  * thing, but this will be left at a default of 'NO' for historic reasons.
  */
-int load_into_inventory = NO;
+int load_into_inventory = YES;
 
 /* "okay" etc. */
 const char *OK = "&WOkay.&n\r\n";
