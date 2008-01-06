@@ -493,8 +493,8 @@ ASPELL(spell_identify)
     strcat(buf, "\r\n");
     send_to_char(buf, ch);
 
-    sprintf(buf, "Weight: %d, Value: %d, Rent: %d, Min Level: %d\r\n",
-	    GET_OBJ_WEIGHT(obj), GET_OBJ_COST(obj), GET_OBJ_RENT(obj), GET_OBJ_LEVEL(obj));
+    sprintf(buf, "Weight: %d, Value: %d, Min Level: %d\r\n",
+	    GET_OBJ_WEIGHT(obj), GET_OBJ_COST(obj), GET_OBJ_LEVEL(obj));
     send_to_char(buf, ch);
 
     switch (GET_OBJ_TYPE(obj)) {
