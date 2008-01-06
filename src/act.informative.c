@@ -1776,33 +1776,17 @@ ACMD(do_who)
 		{
 			wch = theWhoList[curEl];
 			/*Default Output */
-			if (!PRF_FLAGGED(wch, PRF_WHOINVIS)) 
-				{
-					if (GET_TOTAL_LEVEL(wch) < 240)  
-						sprintf(Mort_buf, "%s&n[ {%2d %2d %2d %2d} ] %s %s",Mort_buf,
-										GET_THIEF_LEVEL(wch), GET_WARRIOR_LEVEL(wch), GET_MAGE_LEVEL(wch), GET_CLERIC_LEVEL(wch),
-										GET_NAME(wch), GET_TITLE(wch));
-          else
-						sprintf(Mort_buf, "%s&n[&c GM:  %2d   :GM &w] %s %s",Mort_buf,
-										GET_GM_LEVEL(wch),
-										GET_NAME(wch), GET_TITLE(wch));
-					
-					Mortals++;
-        }
-			if ((GET_LEVEL(ch) >= LVL_IMMORT && GET_LEVEL(wch) < LVL_IMMORT &&
-					 PRF_FLAGGED(wch, PRF_ANON) && !PRF_FLAGGED(wch, PRF_WHOINVIS) && !PLR_FLAGGED2(wch, PLR2_REVIEW)) || (PRF_FLAGGED(wch, PRF_WHOINVIS))) {
-				if (GET_TOTAL_LEVEL(wch) < 240)  
-					sprintf(Mort_buf, "%s&n[ {%2d %2d %2d %2d} ] %s %s", Mort_buf,
-									GET_THIEF_LEVEL(wch), GET_WARRIOR_LEVEL(wch),
-									GET_MAGE_LEVEL(wch), GET_CLERIC_LEVEL(wch),
-									GET_NAME(wch), GET_TITLE(wch));
-				else
-          sprintf(Mort_buf, "%s&n[&c GM:  %2d   :GM &w] %s %s",Mort_buf,
-									GET_GM_LEVEL(wch),
-									GET_NAME(wch), GET_TITLE(wch));
-				
-          Mortals++;
-			}
+			if (GET_TOTAL_LEVEL(wch) < 240)  
+				sprintf(Mort_buf, "%s&n[ {%2d %2d %2d %2d} ] %s %s",Mort_buf,
+								GET_THIEF_LEVEL(wch), GET_WARRIOR_LEVEL(wch), GET_MAGE_LEVEL(wch), GET_CLERIC_LEVEL(wch),
+								GET_NAME(wch), GET_TITLE(wch));
+			else
+				sprintf(Mort_buf, "%s&n[&c GM:  %2d   :GM &w] %s %s",Mort_buf,
+								GET_GM_LEVEL(wch),
+								GET_NAME(wch), GET_TITLE(wch));
+			
+			Mortals++;
+			
       /* Who String Additions */
 			*buf = '\0';
 			
@@ -1813,6 +1797,8 @@ ACMD(do_who)
 			
 			if (PLR_FLAGGED(wch, PLR_MAILING))
 				strcat(buf, " &w(mailing)&n");
+			else if (STATE(wch->desc) >= CON_OEDIT && STATE(wch->desc) <= CON_HEDIT)
+				strcat(buf, " &w(editing)&n");
 			else if (PLR_FLAGGED(wch, PLR_WRITING))
 				strcat(buf, " &w(writing)&n");
 			
@@ -1857,7 +1843,7 @@ ACMD(do_who)
     /* Load Array for Immortals */
     for(noElements = 0, d = descriptor_list; d; d = d->next) {
      /* Conditions for Listing */
-     if (STATE(d) != CON_PLAYING)
+     if (STATE(d) != CON_PLAYING  && (STATE(d) < CON_OEDIT || STATE(d) > CON_HEDIT))
       continue;
      if (d->original)
         wch = d->original;
@@ -1914,6 +1900,8 @@ ACMD(do_who)
 
      if (PLR_FLAGGED(wch, PLR_MAILING))
        strcat(buf, " &w(mailing)&n");
+		else if (STATE(wch->desc) >= CON_OEDIT && STATE(wch->desc) <= CON_HEDIT)
+			strcat(buf, " &w(editing)&n");
      else if (PLR_FLAGGED(wch, PLR_WRITING))
        strcat(buf, " &w(writing)&n");
 

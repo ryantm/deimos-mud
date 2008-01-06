@@ -1329,7 +1329,7 @@ ACMD(do_recall)
 	GET_MOVE(ch) = (int)(GET_MOVE(ch) * 0.25);
 
 	send_to_char("Recalling...\r\n", ch);
-	send_to_char("&RYou feel tired&n\r\n", ch);
+	send_to_char("&RYou are le tired.&n\r\n", ch);
 	act("$n concentrates and disappears.", TRUE, ch, 0, 0, TO_ROOM);
 	char_from_room(ch);
 	char_to_room(ch, real_room(mortal_start_room));
