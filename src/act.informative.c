@@ -538,10 +538,6 @@ void list_all_char(struct char_data * i, struct char_data * ch, int num)
 {
   const char *positions[] = {
     " is lying here, dead.",
-    " is lying here, dead.",
-    " is lying here, dead.",
-    " is lying here, dead.",
-    " is completely frozen!",
     " is lying here, mortally wounded.",
     " is lying here, incapacitated.",
     " is lying here, stunned.",

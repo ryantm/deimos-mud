@@ -126,7 +126,7 @@ cpp_extern const struct command_info cmd_info[] = {
   /* now, the main list */
   {"at", "at", POS_DEAD, do_immcmd, LVL_IMMORT, IMM_AT},
   {"advance", "adv", POS_DEAD, do_advance, LVL_IMPL, 0},
-  {"aedit", "aed", POS_DEAD, do_oasis, LVL_GRGOD, SCMD_OASIS_AEDIT},
+  {"aedit", "aed", POS_DEAD, do_oasis, LVL_IMMORT, SCMD_OASIS_AEDIT},
   {"alias", "ali", POS_DEAD, do_alias, 0, 0},
   {"affects", "affects", POS_SLEEPING, do_affects, 0, 0},
   {"afk", "afk", POS_SLEEPING, do_gen_tog, 0, SCMD_AFK},
@@ -168,7 +168,7 @@ cpp_extern const struct command_info cmd_info[] = {
   {"buildwalk", "buildwalk", POS_STANDING, do_gen_togx, LVL_IMMORT, IMM_BUILDWALK},
 
 
-  {"cast", "cast", POS_SITTING, do_cast, 1, 0},
+  {"cast", "c", POS_SITTING, do_cast, 1, 0},
   {"castout", "castout", POS_SITTING, do_castout, 10, 0},
   {"caccept", "caccept", POS_SLEEPING, do_clan, 0, SCMD_CLAN_ACCEPT},
   {"capply", "capply", POS_SLEEPING, do_clan, 0, SCMD_CLAN_APPLY},
