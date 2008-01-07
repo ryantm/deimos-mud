@@ -13,10 +13,10 @@
 
 ACMD(do_move);
 
-#define CMD_NAME (cmd_info[cmd].command)
-#define CMD_IS(cmd_name) (!strcmp(cmd_name, cmd_info[cmd].command))
-#define IS_MOVE(cmdnum) (cmd_info[cmdnum].command_pointer == do_move)
-#define CMD_TREE_SEARCH
+#define CMD_NAME (complete_cmd_info[cmd].command)
+#define CMD_IS(cmd_name) (!strcmp(cmd_name, complete_cmd_info[cmd].command))
+#define IS_MOVE(cmdnum) (complete_cmd_info[cmdnum].command_pointer == do_move)
+/* #define CMD_TREE_SEARCH */
 
 void	command_interpreter(struct char_data *ch, char *argument);
 int	search_block(char *arg, const char **list, int exact);
@@ -42,6 +42,7 @@ char	*delete_doubledollar(char *string);
 
 struct command_info {
    const char *command;
+   const char *sort_as;
    byte minimum_position;
    void	(*command_pointer)
 	   (struct char_data *ch, char * argument, int cmd, int subcmd);
@@ -54,7 +55,7 @@ struct command_info {
  * so it has been moved down here.
  */
 #ifndef __INTERPRETER_C__
-extern const struct command_info cmd_info[];
+extern struct command_info *complete_cmd_info;
 #endif
 
 ACMD(do_immcmd);
@@ -557,6 +558,7 @@ struct alias_data {
 #define SCMD_OASIS_TRIGEDIT     5
 #define SCMD_OASIS_HEDIT        6
 #define SCMD_OASIS_CEDIT        7
+#define SCMD_OASIS_AEDIT  8
 #define SCMD_OLC_SAVEINFO	9
 
  /* do_clan */

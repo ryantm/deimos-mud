@@ -39,6 +39,10 @@ extern struct descriptor_data *descriptor_list;
 extern void trigedit_setup_new(struct descriptor_data *d);
 extern void trigedit_setup_existing(struct descriptor_data *d, int rtrg_num);
 extern int real_trigger(int vnum);
+extern void aedit_save_to_disk(struct descriptor_data *d);
+extern struct social_messg *soc_mess_list;
+extern int top_of_socialt;
+extern void free_action(struct social_messg *action);
 extern void hedit_save_to_disk(void);
 extern void free_help(struct help_index_element *help);
 extern struct clan_type *clan_info;
@@ -64,6 +68,7 @@ struct olc_scmd_info_t {
   { "trig", 	CON_TRIGEDIT },
   { "help",     CON_HEDIT },
   { "clan",     CON_CEDIT },
+  { "action",   CON_AEDIT },
  // { "business", CON_BEDIT },
   { "\n",	-1	  }
 };
@@ -151,6 +156,9 @@ ACMD(do_oasis)
     case SCMD_OASIS_CEDIT:
       send_to_char("Specify a clan to edit.\r\n", ch);
       return;
+    case SCMD_OASIS_AEDIT:
+      send_to_char("Specify an action to edit.\r\n", ch);
+      return;
   //  case SCMD_OASIS_BEDIT:
   //    number = GET_BUSINESS_VNUM(ch);
   //    break;
@@ -159,15 +167,14 @@ ACMD(do_oasis)
   } else if (!isdigit(*buf1)) {
     if (str_cmp("save", buf1) == 0) {
       save = TRUE;
-      if (subcmd == SCMD_OASIS_HEDIT)
-           number = 0;
-      else
-      if ((number = (*buf2 ? atoi(buf2) : (GET_OLC_ZONE(ch) ? GET_OLC_ZONE(ch) : -1)) * 100) < 0 ) {
-	send_to_char("Save which zone?\r\n", ch);
-	return;
+      if (subcmd != SCMD_OASIS_HEDIT && subcmd != SCMD_OASIS_AEDIT) {
+        if ((number = (*buf2 ? atoi(buf2) : (GET_OLC_ZONE(ch) ? GET_OLC_ZONE(ch) : -1)) * 100) < 0 ) {
+	        send_to_char("Save which zone?\r\n", ch);
+	        return;
+        }
       }
     }
-    else if (subcmd == SCMD_OASIS_HEDIT)
+    else if (subcmd == SCMD_OASIS_HEDIT || subcmd == SCMD_OASIS_AEDIT)
        number = 0; 
     else if (subcmd == SCMD_OASIS_CEDIT)
        number = 0;
@@ -198,6 +205,9 @@ ACMD(do_oasis)
 	if (subcmd == SCMD_OASIS_HEDIT)
 	  sprintf(buf, "Help files are already being editted by %s.\r\n",
 		  (CAN_SEE(ch, d->character) ? GET_NAME(d->character) : "someone"));
+  else if (subcmd == SCMD_OASIS_AEDIT)
+	  sprintf(buf, "Actions are already being editted by %s.\r\n",
+	    (CAN_SEE(ch, d->character) ? GET_NAME(d->character) : "someone"));
 	else
 	  sprintf(buf, "That %s is currently being edited by %s.\r\n",
 		  olc_scmd_info[subcmd].text, PERS(d->character, ch));
@@ -218,27 +228,32 @@ ACMD(do_oasis)
   /*
    * Find the zone.
    */
-   if (subcmd == SCMD_OASIS_HEDIT && !save)
-     OLC_ZNUM(d) = find_help_rnum(buf1);
-   else
-  if ((OLC_ZNUM(d) = real_zone_by_thing(number)) == -1) {
-    send_to_char("Sorry, there is no zone for that number!\r\n", ch);
-    free(d->olc);
-    d->olc = NULL;
-    return;
+  if (subcmd == SCMD_OASIS_HEDIT && !save)
+    OLC_ZNUM(d) = find_help_rnum(buf1);
+  else if (subcmd != SCMD_OASIS_AEDIT) {
+		if ((OLC_ZNUM(d) = real_zone_by_thing(number)) == -1) {
+			send_to_char("Sorry, there is no zone for that number!\r\n", ch);
+			free(d->olc);
+			d->olc = NULL;
+			return;
+		}
   }
 
   /*
    * Everyone but IMPLs can only edit zones they have been assigned.
    */
-  if ((GET_LEVEL(ch) < LVL_DEITY && subcmd != SCMD_OASIS_HEDIT)) {
+  if (GET_LEVEL(ch) < LVL_DEITY) {
     if (subcmd == SCMD_OASIS_HEDIT) {
       send_to_char("You do not have permission to edit help entries.\r\n", ch);
       free(d->olc);
       d->olc = NULL;
       return;
-     } else if (((!can_edit_zone(ch, OLC_ZNUM(d)))) && \
-               (subcmd != SCMD_OASIS_HEDIT)) {
+    } else if ((!(GET_LEVEL(ch) < LVL_IMPL)) && (!ch->player_specials->saved.olc_zone == AEDIT_PERMISSION)) {
+      send_to_char("You do not have permission to edit actions.\r\n", ch);
+      free(d->olc);
+      d->olc = NULL;
+      return;
+    } else if (!can_edit_zone(ch, OLC_ZNUM(d))) {
       send_to_char("You do not have permission to edit this zone.\r\n", ch);
       free(d->olc);
       d->olc = NULL;
@@ -276,6 +291,7 @@ ACMD(do_oasis)
       case SCMD_OASIS_SEDIT: save_shops(OLC_ZNUM(d)); break;
       case SCMD_OASIS_HEDIT: hedit_save_to_disk(); break;
       case SCMD_OASIS_CEDIT: save_clans(); break;
+      case SCMD_OASIS_AEDIT: aedit_save_to_disk(d); break;
 //    case SCMD_OASIS_BEDIT: save_economy(); break;
     }
     free(d->olc);
@@ -283,7 +299,30 @@ ACMD(do_oasis)
     return;
   }
 
-  OLC_NUM(d) = number;
+  if (subcmd != SCMD_OASIS_AEDIT) OLC_NUM(d) = number;
+  else {
+       OLC_NUM(d) = 0;
+       OLC_STORAGE(d) = str_dup(buf1);
+       for (OLC_ZNUM(d) = 0; (OLC_ZNUM(d) <= top_of_socialt); OLC_ZNUM(d)++)  {
+ 	 if (is_abbrev(OLC_STORAGE(d), soc_mess_list[OLC_ZNUM(d)].command))
+ 	   break;
+       }
+       if (OLC_ZNUM(d) > top_of_socialt)  {
+ 	 if (find_command(OLC_STORAGE(d)) > NOTHING)  {
+ 	    cleanup_olc(d, CLEANUP_ALL);
+ 	    send_to_char("That command already exists.\r\n", ch);
+ 	    return;
+ 	 }
+ 	 sprintf(buf, "Do you wish to add the '%s' action? ", OLC_STORAGE(d));
+ 	 send_to_char(buf, ch);
+ 	 OLC_MODE(d) = AEDIT_CONFIRM_ADD;
+       }
+       else  {
+ 	 sprintf(buf, "Do you wish to edit the '%s' action? ", soc_mess_list[OLC_ZNUM(d)].command);
+ 	 send_to_char(buf, ch);
+ 	 OLC_MODE(d) = AEDIT_CONFIRM_EDIT;
+       }
+    }
 
   /*
    * Steal player's descriptor and start up subcommands.
@@ -357,6 +396,10 @@ ACMD(do_oasis)
         }
        STATE(d) = CON_CEDIT;
        break;
+
+  case SCMD_OASIS_AEDIT:
+    STATE(d) = CON_AEDIT;
+    break;
   }
 
 //  case SCMD_OASIS_BEDIT:
@@ -413,6 +456,10 @@ void cleanup_olc(struct descriptor_data *d, byte cleanup_type)
        default: /* The caller has screwed up. */	break;
        }
      }
+     /*. Check for storage -- aedit patch -- M. Scott .*/
+     if (OLC_STORAGE(d))
+       free(OLC_STORAGE(d));
+
   /*
    * Check for a room. free_room doesn't perform
    * sanity checks, we must be careful here.
@@ -488,6 +535,21 @@ void cleanup_olc(struct descriptor_data *d, byte cleanup_type)
      }
      OLC_CLAN(d) = NULL;
    }
+
+      /*. Check for aedit stuff -- M. Scott */
+      if (OLC_ACTION(d))  {
+ 	switch(cleanup_type)  {
+ 	 case CLEANUP_ALL:
+ 	   free_action(OLC_ACTION(d));
+ 	   break;
+ 	 case CLEANUP_STRUCTS:
+ 	   free(OLC_ACTION(d));
+ 	   break;
+ 	 default:
+ 	   /* Caller has screwed up */
+ 	   break;
+ 	}
+      }
 
   /*
    * Restore descriptor playing status.

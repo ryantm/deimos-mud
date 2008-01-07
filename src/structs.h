@@ -166,15 +166,15 @@
 
 /* Positions */
 #define POS_DEAD        0	/* dead			*/
-#define POS_FROZEN      4
-#define POS_MORTALLYW   5	/* mortally wounded	*/
-#define POS_INCAP       6	/* incapacitated	*/
-#define POS_STUNNED     7	/* stunned		*/
-#define POS_SLEEPING    8	/* sleeping		*/
-#define POS_RESTING     9	/* resting		*/
-#define POS_SITTING     10	/* sitting		*/
-#define POS_FIGHTING    11	/* fighting		*/
-#define POS_STANDING    12	/* standing		*/
+/*#define POS_FROZEN      4*/
+#define POS_MORTALLYW   1	/* mortally wounded	*/
+#define POS_INCAP       2	/* incapacitated	*/
+#define POS_STUNNED     3	/* stunned		*/
+#define POS_SLEEPING    4	/* sleeping		*/
+#define POS_RESTING     5	/* resting		*/
+#define POS_SITTING     6	/* sitting		*/
+#define POS_FIGHTING    7	/* fighting		*/
+#define POS_STANDING    8	/* standing		*/
 
 /* Player flags: used by char_data.char_specials.act */
 #define PLR_KILLER	(1 << 0)   /* Player is a player-killer		*/
@@ -377,7 +377,7 @@
 #define CON_QROLLSTATS   29             /* Roll stats                   */
 #define CON_CEDIT        30             /* I do know                    */
 #define CON_LINE_INPUT   31             /* I don't know                 */
-#define CON_GET_FAMILY_NAME   32
+/*#define CON_GET_FAMILY_NAME   32
 #define CON_FAMILY_NAME_CNFRM 33
 #define CON_FAMILY_PASSWORD   34
 #define CON_FAMILY_NEWPASSWD  35
@@ -389,7 +389,8 @@
 #define CON_FAMILY_GETNEWPASSWD 41
 #define CON_FAMILY_CHPWD_GETOLD 42
 #define CON_FAMILY_RMOTD        43
-#define CON_BEDIT        43             /* Business edit (              */
+#define CON_BEDIT        43              Business edit (              */
+#define CON_AEDIT 32
 
 /* Character equipment positions: used as index for char_data.equipment[] */
 /* NOTE: Don't confuse these constants with the ITEM_ bitvectors
@@ -1401,6 +1402,45 @@ struct specproc_info {
   SPECIAL((*sp_pointer));
   sh_int minimum_level;
 };
+
+
+/* used in the socials */
+struct social_messg {
+   int act_nr;
+   char *command;               /* holds copy of activating command */
+   char *sort_as;		/* holds a copy of a similar command or
+				 * abbreviation to sort by for the parser */
+   int hide;			/* ? */
+   int min_victim_position;	/* Position of victim */
+   int min_char_position;	/* Position of char */
+   int min_level_char;          /* Minimum level of socialing char */
+
+   /* No argument was supplied */
+   char *char_no_arg;
+   char *others_no_arg;
+
+   /* An argument was there, and a victim was found */
+   char *char_found;
+   char *others_found;
+   char *vict_found;
+
+   /* An argument was there, as well as a body part, and a victim was found */
+   char *char_body_found;
+   char *others_body_found;
+   char *vict_body_found;
+
+   /* An argument was there, but no victim was found */
+   char *not_found;
+
+   /* The victim turned out to be the character */
+   char *char_auto;
+   char *others_auto;
+
+   /* If the char cant be found search the char's inven and do these: */
+   char *char_obj_found;
+   char *others_obj_found;
+ };
+
 
 /* linked list for mob/object prototype trigger lists */
 struct trig_proto_list {

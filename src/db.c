@@ -160,6 +160,7 @@ void load_messages(void);
 void weather_and_time(int mode);
 void mag_assign_spells(void);
 void boot_social_messages(void);
+void create_command_list(void);
 void update_obj_file(void);	/* In objsave.c */
 void sort_commands(void);
 void sort_spells(void);
@@ -455,6 +456,7 @@ void boot_db(void)
 
   log("Loading social messages.");
   boot_social_messages();
+  create_command_list(); /* aedit patch -- M. Scott */
 
   log("Loading clans.");
   load_clans();

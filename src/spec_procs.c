@@ -3684,7 +3684,7 @@ if(CMD_IS("exchange"))
   return (FALSE);
 }
 
-
+/*
 SPECIAL(cap_flag) {
   struct obj_data *obj;
   obj_vnum one = 5001;
@@ -3746,7 +3746,7 @@ SPECIAL(cap_flag) {
     }
   }
   return 0;
-}
+} */
 
 
 SPECIAL(reincarnation)

@@ -37,7 +37,8 @@ extern struct save_list_data *save_list;
 #define SL_ZON	4
 #define SL_TRG  5
 #define SL_HLP  6
-#define SL_MAX	6
+#define SL_ACT  7
+#define SL_MAX	7
 
 #define ZCMD(zon, cmds)	zone_table[(zon)].cmd[(cmds)]
 

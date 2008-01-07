@@ -193,7 +193,7 @@ void show_string(struct descriptor_data *d, char *input);
 int isbanned(char *hostname);
 void weather_and_time(int mode);
 void add_llog_entry(struct char_data *ch, int type);
-void endgame();
+/*void endgame();*/
 void goldchip();
 void othergoldchip();
 void econupdate();
@@ -1006,12 +1006,12 @@ void heartbeat(int pulse)
 
     econupdate();
     updatetimeplayed();
-   if (freeze_game_running && freeze_game_timer) {
+   /*if (freeze_game_running && freeze_game_timer) {
      freeze_game_timer--;
    if (!freeze_game_timer) {
       endgame();
       }
-    }
+    }*/
    
    }
 
@@ -2174,6 +2174,7 @@ void close_socket(struct descriptor_data *d)
     case CON_SEDIT:
     case CON_CEDIT:
     case CON_TRIGEDIT:
+    case CON_AEDIT:
    // case CON_BEDIT;
       cleanup_olc(d, CLEANUP_ALL);
       break;
@@ -2530,6 +2531,9 @@ void perform_act(const char *orig, struct char_data *ch, struct obj_data *obj,
       case 'T':
 	CHECK_NULL(vict_obj, (const char *) vict_obj);
 	dg_arg = (char *) vict_obj;
+	break;
+      case 't':
+ 	CHECK_NULL(obj, (char *) obj);
 	break;
       case 'F':
 	CHECK_NULL(vict_obj, fname((const char *) vict_obj));

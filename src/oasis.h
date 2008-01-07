@@ -54,6 +54,8 @@ int can_edit_zone(struct char_data *ch, int number);
 #define NUM_PROGS		12
 #endif
 
+#define AEDIT_PERMISSION 999
+
 /* -------------------------------------------------------------------------- */
 
 /*
@@ -106,6 +108,7 @@ struct oasis_olc_data {
   struct obj_data *obj;
   struct zone_data *zone;
   struct shop_data *shop;
+  struct social_messg *action;
   struct obj_data *iobj;
   struct extra_descr_data *desc;
   struct help_index_element *help;
@@ -154,6 +157,7 @@ extern const char *nrm, *grn, *cyn, *yel;
 #endif
 #define OLC_TRIG(d)     (OLC(d)->trig)        /* Trigger structure.   */
 #define OLC_STORAGE(d)  (OLC(d)->storage)    /* For command storage  */
+#define OLC_ACTION(d)   (OLC(d)->action) /* Action structure     */
 #define OLC_ASSEDIT(d)  (OLC(d)->OlcAssembly)   /* assembly olc 	*/
 #define OLC_SPEC(d)     (OLC(d)->spec_index)
 
@@ -345,6 +349,31 @@ extern const char *nrm, *grn, *cyn, *yel;
 #define CEDIT_GUARD          7
 #define CEDIT_DIRECTION      8
 
+/* Submodes of AEDIT connectedness	*/
+#define AEDIT_CONFIRM_SAVESTRING	0
+#define AEDIT_CONFIRM_EDIT		1
+#define AEDIT_CONFIRM_ADD		2
+#define AEDIT_MAIN_MENU			3
+#define AEDIT_ACTION_NAME		4
+#define AEDIT_SORT_AS			5
+#define AEDIT_MIN_CHAR_POS		6
+#define AEDIT_MIN_VICT_POS		7
+#define AEDIT_HIDDEN_FLAG		8
+#define AEDIT_MIN_CHAR_LEVEL		9
+#define AEDIT_NOVICT_CHAR		10
+#define AEDIT_NOVICT_OTHERS		11
+#define AEDIT_VICT_CHAR_FOUND		12
+#define AEDIT_VICT_OTHERS_FOUND		13
+#define AEDIT_VICT_VICT_FOUND		14
+#define AEDIT_VICT_NOT_FOUND		15
+#define AEDIT_SELF_CHAR			16
+#define AEDIT_SELF_OTHERS		17
+#define AEDIT_VICT_CHAR_BODY_FOUND     	18
+#define AEDIT_VICT_OTHERS_BODY_FOUND   	19
+#define AEDIT_VICT_VICT_BODY_FOUND     	20
+#define AEDIT_OBJ_CHAR_FOUND		21
+#define AEDIT_OBJ_OTHERS_FOUND		22
+
 /*
  * Prototypes to keep.
  */
@@ -427,6 +456,7 @@ void sedit_no_trade_menu(struct descriptor_data *d);
 void sedit_types_menu(struct descriptor_data *d);
 void sedit_disp_menu(struct descriptor_data *d);
 void sedit_parse(struct descriptor_data *d, char *arg);
+void aedit_parse(struct descriptor_data *d, char *arg);
 
 void zedit_setup(struct descriptor_data *d, int room_num);
 void zedit_new_zone(struct char_data *ch, int vzone_num);

@@ -168,12 +168,6 @@ void init_boards(void)
     Board_load_board(i);
   }
 
-  ACMD_READ = find_command("read");
-  ACMD_WRITE = find_command("write");
-  ACMD_REMOVE = find_command("remove");
-  ACMD_LOOK = find_command("look");
-  ACMD_EXAMINE = find_command("examine");
-
   if (fatal_error)
     exit(1);
 }
@@ -191,6 +185,12 @@ SPECIAL(gen_board)
   }
   if (!ch->desc)
     return (0);
+
+  ACMD_READ = find_command("read");
+  ACMD_WRITE = find_command("write");
+  ACMD_REMOVE = find_command("remove");
+  ACMD_LOOK = find_command("look");
+  ACMD_EXAMINE = find_command("examine");
 
   if (cmd != ACMD_WRITE && cmd != ACMD_LOOK && cmd != ACMD_EXAMINE &&
       cmd != ACMD_READ && cmd != ACMD_REMOVE)
