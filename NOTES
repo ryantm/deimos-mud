@@ -12,11 +12,11 @@ Cannot Reproduce
 * CRASH: title with notitle on crashes game
 
 Enhancements
+* separate gemote into gemote (works same as emote) and gact/gsocial? (works same as socials)
 * Make doors show in autoexit
 * Make "Invalid Name" tell you to ask Imm to DC you. better idea make it disconnect people.
 * Make help files more lines max
 * Update Info
-* Make a social editor
 
 * Change chunk popping strategy to make more sense
 	Bucko: if one pops every two reboots i would consider that good
