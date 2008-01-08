@@ -70,6 +70,7 @@ void list_skillsc(struct char_data * ch);
 void improve_skill(struct char_data *ch, int skill);
 void appear(struct char_data * ch);
 void write_aliases(struct char_data *ch);
+void save_char_vars(struct char_data *ch);
 void perform_immort_vis(struct char_data *ch);
 SPECIAL(shop_keeper);
 ACMD(do_gen_comm);
@@ -225,6 +226,7 @@ ACMD(do_save)
     if (auto_save && GET_LEVEL(ch) <= LVL_IMMORT) {
       send_to_char("Saving aliases.\r\n", ch);
       write_aliases(ch);
+      save_char_vars(ch);
       rvnum = GET_ROOM_VNUM(IN_ROOM(ch));
     if (real_room(rvnum) != NOWHERE) {
       SET_BIT(PLR_FLAGS(ch), PLR_LOADROOM);
@@ -243,6 +245,7 @@ ACMD(do_save)
   }
     
   write_aliases(ch);
+  save_char_vars(ch);
   save_char(ch, IN_ROOM(ch));
   Crash_crashsave(ch);
   if (ROOM_FLAGGED(ch->in_room, ROOM_HOUSE_CRASH))

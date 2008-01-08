@@ -312,7 +312,7 @@ cpp_extern const struct command_info cmd_info[] = {
   {"last", "last", POS_DEAD, do_immcmd, LVL_IMMORT, IMM_LAST},
   {"leave", "leave", POS_STANDING, do_leave, 0, 0},
   {"levels", "lev", POS_SLEEPING, do_level, 0, 0},
-  {"list", "list", POS_STANDING, do_not_here, 0, 0},
+  {"list", "li", POS_STANDING, do_not_here, 0, 0},
   {"lock", "lo", POS_SITTING, do_gen_door, 0, SCMD_LOCK},
   {"load", "load", POS_DEAD, do_immcmd, LVL_IMMORT, IMM_LOAD},
 
@@ -1669,6 +1669,7 @@ enter_player_game (struct descriptor_data *d)
 
   reset_char (d->character);
   read_aliases (d->character);
+  read_saved_vars (d->character);
 
   if (PLR_FLAGGED (d->character, PLR_INVSTART))
     GET_INVIS_LEV (d->character) = GET_LEVEL (d->character);

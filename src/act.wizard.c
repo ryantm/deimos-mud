@@ -1200,9 +1200,9 @@ void do_stat_character(struct char_data * ch, struct char_data * k)
   struct affected_type *aff;
 
   sprinttype(GET_SEX(k), genders, buf);
-  sprintf(buf2, "&n %s '%s'  IDNum: [%5ld], In room [%5d]\r\n",
+  sprintf(buf2, "&n %s '%s'  IDNum: [%5ld], UID: [%5ld], In room [%5d]\r\n",
 	  (!IS_NPC(k) ? "PC" : (!IS_MOB(k) ? "NPC" : "MOB")),
-	  GET_NAME(k), GET_IDNUM(k), GET_ROOM_VNUM(IN_ROOM(k)));
+	  GET_NAME(k), GET_IDNUM(k), GET_ID(k), GET_ROOM_VNUM(IN_ROOM(k)));
   send_to_char(strcat(buf, buf2), ch);
   if (IS_MOB(k)) {
     sprintf(buf, "Keywords: %s, VNum: [%5d], RNum: [%5d]\r\n",

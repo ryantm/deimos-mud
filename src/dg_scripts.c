@@ -69,6 +69,8 @@ struct cmdlist_element *find_done(struct cmdlist_element *cl);
 struct cmdlist_element * \
   find_case(struct trig_data *trig, struct cmdlist_element *cl, \
           void *go, struct script_data *sc, int type, char *cond);
+void process_eval(void *go, struct script_data *sc, trig_data *trig, \
+     int type, char *cmd);
 
 /* local structures */
 struct wait_event_data {
@@ -1670,34 +1672,49 @@ void find_replacement(void *go, struct script_data *sc, trig_data *trig,
 }
 
 
+/* Now automatically checks if the variable has more then one field in it. And 
+ * if the field returns a name or a script UID or the like it can recurse. If 
+ * you supply a value like, %actor.int.str% it wont blow up on you either. Now 
+ * also lets subfields have variables parsed inside of them so that: %echo% 
+ * %actor.gold(%actor.gold%)% will double the actors gold every time its called.
+ * - Jamie Nelson */
+
 /* substitutes any variables into line and returns it as buf */
 void var_subst(void *go, struct script_data *sc, trig_data *trig,
-	       int type, char *line, char *buf)
+               int type, char *line, char *buf)
 {
-  char tmp[MAX_INPUT_LENGTH], repl_str[MAX_INPUT_LENGTH], *var, *field, *p;
+  char tmp[MAX_INPUT_LENGTH], repl_str[MAX_INPUT_LENGTH];
+  char *var = NULL, *field = NULL, *p = NULL;
+  char tmp2[MAX_INPUT_LENGTH];
   char *subfield_p, subfield[MAX_INPUT_LENGTH];
   int left, len;
   int paren_count = 0;
+  int dots = 0;
 
+  /* skip out if no %'s */
   if (!strchr(line, '%')) {
     strcpy(buf, line);
     return;
   }
-  
+  /*lets just empty these to start with*/
+  *repl_str = *tmp = *tmp2 = '\0';
+
   p = strcpy(tmp, line);
   subfield_p = subfield;
-  
+
   left = MAX_INPUT_LENGTH - 1;
-  
+
   while (*p && (left > 0)) {
 
+
+    /* copy until we find the first % */
     while (*p && (*p != '%') && (left > 0)) {
       *(buf++) = *(p++);
       left--;
     }
-    
+
     *buf = '\0';
-    
+
     /* double % */
     if (*p && (*(++p) == '%') && (left > 0)) {
       *(buf++) = *(p++);
@@ -1706,36 +1723,62 @@ void var_subst(void *go, struct script_data *sc, trig_data *trig,
       continue;
     }
 
+    /* so it wasn't double %'s */
     else if (*p && (left > 0)) {
-      
+
+      /* search until end of var or beginning of field */
       for (var = p; *p && (*p != '%') && (*p != '.'); p++);
 
       field = p;
       if (*p == '.') {
-	*(p++) = '\0';
-	for (field = p; *p && ((*p != '%')||(paren_count)); p++) {
-          if (*p=='(') {
+        *(p++) = '\0';
+        dots = 0;
+        for (field = p; *p && ((*p != '%')||(paren_count > 0) || (dots)); p++) {
+          if (dots > 0) {
+            *subfield_p = '\0';
+            find_replacement(go, sc, trig, type, var, field, subfield, repl_str);
+            if (*repl_str) {
+              snprintf(tmp2, sizeof(tmp2), "eval tmpvr %s", repl_str); //temp var
+              process_eval(go, sc, trig, type, tmp2);
+              strcpy(var, "tmpvr");
+              field = p;
+              dots = 0;
+              continue;
+            }
+            dots = 0;
+          } else if (*p=='(') {
             *p = '\0';
             paren_count++;
           } else if (*p==')') {
             *p = '\0';
             paren_count--;
-          } else if (paren_count) *subfield_p++ = *p;
-        }
-      }
+          } else if (paren_count > 0) {
+            *subfield_p++ = *p;
+          } else if (*p=='.') {
+            *p = '\0';
+            dots++;
+          }
+        } /* for (field.. */
+      } /* if *p == '.' */
 
       *(p++) = '\0';
       *subfield_p = '\0';
 
+      if (*subfield) {
+        var_subst(go, sc, trig, type, subfield, tmp2);
+        strcpy(subfield, tmp2);
+      }
+
       find_replacement(go, sc, trig, type, var, field, subfield, repl_str);
-      
+
       strncat(buf, repl_str, left);
       len = strlen(repl_str);
       buf += len;
       left -= len;
-    }
-  }  
+    } /* else if *p .. */
+  } /* while *p .. */
 }
+
 
 
 /* returns 1 if string is all digits, else 0 */
@@ -3153,7 +3196,7 @@ void save_char_vars(struct char_data *ch)
   char fn[127];
   struct trig_var_data *vars;
 
-  /* immediate return if no script (and therefore no variables) structure */
+    /* immediate return if no script (and therefore no variables) structure */
   /* has been created. this will happen when the player is logging in */
   if (SCRIPT(ch) == NULL) return;
 
@@ -3168,6 +3211,12 @@ void save_char_vars(struct char_data *ch)
   vars = ch->script->global_vars;
 
   file = fopen(fn,"wt");
+
+  if (!file) {
+    sprintf(buf, "OH NOES ERROR could not save %s's char vars to %s! Make sure plrvars dir is set up right...", GET_NAME(ch), fn);
+    mudlog(buf, NRM, LVL_GOD, TRUE);
+    return;
+  }
 
   /* note that currently, context will always be zero. this may change */
   /* in the future */
