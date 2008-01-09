@@ -477,7 +477,7 @@ WCMD(do_wdamage) {
 
     two_arguments(argument, name, amount);
 		
-    if (!*name || !*amount || !isdigit(*amount)) {
+    if (!*name || !*amount) {
 			wld_log(room, "wdamage: bad syntax");
 			return;
     }
@@ -491,7 +491,7 @@ WCMD(do_wdamage) {
 			}
 			GET_HIT(ch) -= dam;
 			if (dam < 0) {
-				send_to_char("You feel rejuvinated.\r\n", ch);
+				send_to_char("You feel rejuvenated.\r\n", ch);
 				return;
 			}
 			
@@ -503,7 +503,7 @@ WCMD(do_wdamage) {
 				break;
 			case POS_INCAP:
 				act("$n is incapacitated and will slowly die, if not aided.", TRUE, ch, 0, 0, TO_ROOM);
-				send_to_char("You are incapacitated an will slowly die, if not aided.\r\n", ch);
+				send_to_char("You are incapacitated and will slowly die, if not aided.\r\n", ch);
 				break;
 			case POS_STUNNED:
    	    act("$n is stunned, but will probably regain consciousness again.", TRUE, ch, 0, 0, TO_ROOM);

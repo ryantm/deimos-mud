@@ -1071,41 +1071,41 @@ int skill_message(int dam, struct char_data * ch, struct char_data * vict,
 
 int reduce_damage(int dam, int attacktype, struct char_data *ch, struct char_data *victim)
 {
-	sprintf(buf, "Damage to you: %d", dam);
-	send_to_char(buf,victim);
-
+  //  sprintf(buf, "Damage to you: %d", dam);
+  //send_to_char(buf,victim);
+  
   /* Cut damage in half if victim has sanct, to a minimum 1 */
   if (AFF_FLAGGED(victim, AFF_SANCTUARY) && dam >= 2)
     dam /= 2;
-	
-	if (AFF_FLAGGED(victim, AFF_MANASHIELD)) 
-		{
-			if (GET_MANA(victim) > (dam * .1)) 
-				{    
-					GET_MANA(victim) -= (int) (dam * .1);
-					dam *= 0.2;
-				}
-		}
-
-	/* Reduce 1 damage for every 1 AC */
-	dam -= LIMIT(GET_AC(ch),MIN_ARMOR,MAX_ARMOR);
-
-	/* Area of effects can't kill mobiles */
+  
+  if (AFF_FLAGGED(victim, AFF_MANASHIELD)) 
+    {
+      if (GET_MANA(victim) > (dam * .1)) 
+	{    
+	  GET_MANA(victim) -= (int) (dam * .1);
+	  dam *= 0.2;
+	}
+    }
+  
+  /* Reduce 1 damage for every 1 AC */
+  dam -= LIMIT(GET_AC(victim),MIN_ARMOR, MAX_ARMOR);
+  
+  /* Area of effects can't kill mobiles */
   if (attacktype == TYPE_AREA_EFFECT)
     if (GET_HIT(victim) - dam < 1)
-			dam = GET_HIT(victim) - 1;
-	
-	if (GET_LEVEL(ch) >= LVL_IMPL)
-		dam = LIMIT(dam, 0, INT_MAX);
-	else if (IS_PC(ch))
-		dam = LIMIT(dam, 0, MAX_PC_DAMAGE);
-	else
-		dam = LIMIT(dam, 0, MAX_NPC_DAMAGE);
-
-	sprintf(buf, "Reduced damage to you: %d", dam);
-	send_to_char(buf,victim);
-
-	return dam;
+      dam = GET_HIT(victim) - 1;
+  
+  if (GET_LEVEL(ch) >= LVL_IMPL)
+    dam = LIMIT(dam, 1, INT_MAX);
+  else if (IS_PC(ch))
+    dam = LIMIT(dam, 1, MAX_PC_DAMAGE);
+  else
+    dam = LIMIT(dam, 1, MAX_NPC_DAMAGE);
+  
+  //sprintf(buf, "Reduced damage to you: %d", dam);
+  //send_to_char(buf,victim);
+  
+  return dam;
 }
 
 /*
@@ -1392,49 +1392,24 @@ int damage_from(struct char_data * ch, int type)
   
   
   /* Start with the damage bonuses: the damroll and strength apply */
-  if (!IS_NPC(ch)) 
-    dam += LIMIT(GET_STR(ch) - 10, 1, 15);
-  
-  dam += GET_DAMROLL(ch);
-  
-  
-  if (wielded && GET_OBJ_TYPE(wielded) == ITEM_WEAPON) 
+  if (IS_PC(ch))
     {
-      dam += dice(GET_OBJ_VAL(wielded, 1), GET_OBJ_VAL(wielded, 2));
-      dam += wpnprof;
+      dam += LIMIT(GET_STR(ch), 0, INT_MAX);
+      
+      if (wielded && GET_OBJ_TYPE(wielded) == ITEM_WEAPON) 
+	{
+	  dam += dice(GET_OBJ_VAL(wielded, 1), GET_OBJ_VAL(wielded, 2));
+	  dam += wpnprof;
+	}
     }
-  
-  /* If no weapon, add bare hand damage instead */
-  if (IS_NPC(ch)) 
+  else
     {
-      if (!MOB_FLAGGED(ch, MOB_EDIT))
-	{
-	  if(GET_LEVEL(ch) <= 66)
-	    {
-	      dam = dice(
-			 MIN(GET_LEVEL(ch)/4, 99),
-			 MIN(GET_LEVEL(ch)/5, 30));
-	      
-	    }
-	  else if (GET_LEVEL(ch) <= 100)
-	    {
-	      dam = dice(
-			 MIN(GET_LEVEL(ch)/7, 99),
-			 MIN(GET_LEVEL(ch)/9, 30));
-	    }
-	  else
-	    {
-	      dam = dice(
-			 MIN((float)GET_LEVEL(ch)/7, 99),
-			 MIN((float)GET_LEVEL(ch)* 8/90, 30));
-	    }
-	}
-      else
-	{
-	  dam += dice(ch->mob_specials.damnodice, ch->mob_specials.damsizedice); 
-	}
+      dam += dice(ch->mob_specials.damnodice, ch->mob_specials.damsizedice); 
     } 
-  
+
+  dam += GET_STR(ch);
+  dam += GET_DAMROLL(ch);  
+
   if (type == SKILL_BACKSTAB) 
     dam *= backstab_mult(ch, GET_LEVEL(ch));
   

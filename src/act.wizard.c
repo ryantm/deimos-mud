@@ -1200,9 +1200,9 @@ void do_stat_character(struct char_data * ch, struct char_data * k)
   struct affected_type *aff;
 
   sprinttype(GET_SEX(k), genders, buf);
-  sprintf(buf2, "&n %s '%s'  IDNum: [%5ld], In room [%5d]\r\n",
+  sprintf(buf2, "&n %s '%s'  IDNum: [%5ld], UID: [%5ld], In room [%5d]\r\n",
 	  (!IS_NPC(k) ? "PC" : (!IS_MOB(k) ? "NPC" : "MOB")),
-	  GET_NAME(k), GET_IDNUM(k), GET_ROOM_VNUM(IN_ROOM(k)));
+	  GET_NAME(k), GET_IDNUM(k), GET_ID(k), GET_ROOM_VNUM(IN_ROOM(k)));
   send_to_char(strcat(buf, buf2), ch);
   if (IS_MOB(k)) {
     sprintf(buf, "Keywords: %s, VNum: [%5d], RNum: [%5d]\r\n",
@@ -1740,21 +1740,30 @@ ACMD(do_return)
 
 ACMD(do_load)
 {
+  char buf3[MAX_INPUT_LENGTH];
   struct char_data *mob;
   struct obj_data *obj;
   mob_vnum number;
   mob_rnum r_num;
+  int i=0, n=1;
 
-  two_arguments(argument, buf, buf2);
+  one_argument(two_arguments(argument, buf, buf2), buf3);
 
   if (!*buf || !*buf2 || !isdigit(*buf2)) {
-    send_to_char("Usage: load { obj | mob } <number>\r\n", ch);
+    send_to_char("Usage: load { obj | mob } <vnum> <number>\r\n", ch);
     return;
   }
   if ((number = atoi(buf2)) < 0) {
     send_to_char("A NEGATIVE number??\r\n", ch);
     return;
   }
+
+  if (atoi(buf3) > 0  && atoi(buf3) <= 100) {
+    n = atoi(buf3);
+  } else {
+    n = 1;
+  }
+
   if (GET_LEVEL(ch) < LVL_DEITY 
       && !is_name(GET_NAME(ch), zone_table[world[ch->in_room].zone].builders)) {
   send_to_char("You can't load stuff not from your zone, Sorry.\r\n", ch);
@@ -1766,28 +1775,31 @@ ACMD(do_load)
       send_to_char("There is no monster with that number.\r\n", ch);
       return;
     }
-    mob = read_mobile(r_num, REAL);
-    char_to_room(mob, ch->in_room);
+    for (i=0; i < n; i++) {
+      mob = read_mobile(r_num, REAL);
+      char_to_room(mob, ch->in_room);
 
-    act("$n makes a quaint, magical gesture with one hand.", TRUE, ch,
-	0, 0, TO_ROOM);
-    act("$n has created $N!", FALSE, ch, 0, mob, TO_ROOM);
-    act("You create $N.", FALSE, ch, 0, mob, TO_CHAR);
-    load_mtrigger(mob);
+      act("$n makes a quaint, magical gesture with one hand.", TRUE, ch, 0, 0, TO_ROOM);
+      act("$n has created $N!", FALSE, ch, 0, mob, TO_ROOM);
+      act("You create $N.", FALSE, ch, 0, mob, TO_CHAR);
+      load_mtrigger(mob);
+    }
   } else if (is_abbrev(buf, "obj")) {
     if ((r_num = real_object(number)) < 0) {
       send_to_char("There is no object with that number.\r\n", ch);
       return;
     }
-    obj = read_object(r_num, REAL);
-    if (load_into_inventory)
-      obj_to_char(obj, ch);
-    else
-      obj_to_room(obj, ch->in_room);
-    act("$n makes a strange magical gesture.", TRUE, ch, 0, 0, TO_ROOM);
-    act("$n has created $p!", FALSE, ch, obj, 0, TO_ROOM);
-    act("You create $p.", FALSE, ch, obj, 0, TO_CHAR);
-    load_otrigger(obj);
+    for (i=0; i < n; i++) {
+      obj = read_object(r_num, REAL);
+      if (load_into_inventory)
+        obj_to_char(obj, ch);
+      else
+        obj_to_room(obj, ch->in_room);
+      act("$n makes a strange magical gesture.", TRUE, ch, 0, 0, TO_ROOM);
+      act("$n has created $p!", FALSE, ch, obj, 0, TO_ROOM);
+      act("You create $p.", FALSE, ch, obj, 0, TO_CHAR);
+      load_otrigger(obj);
+    }
   } else
     send_to_char("That'll have to be either 'obj' or 'mob'.\r\n", ch);
 }

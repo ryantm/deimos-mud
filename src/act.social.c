@@ -24,59 +24,47 @@
 extern struct room_data *world;
 extern struct descriptor_data *descriptor_list;
 
+/* extern functions */
+char *fread_action(FILE * fl, int nr);
+
 /* local globals */
-static int list_top = -1;
+int top_of_socialt = -1;
 
 /* local functions */
-char *fread_action(FILE * fl, int nr);
 int find_action(int cmd);
 ACMD(do_action);
 ACMD(do_insult);
 void boot_social_messages(void);
 
+struct social_messg *soc_mess_list = NULL;
 
-struct social_messg {
-  int act_nr;
-  int hide;
-  int min_victim_position;	/* Position of victim */
-
-  /* No argument was supplied */
-  char *char_no_arg;
-  char *others_no_arg;
-
-  /* An argument was there, and a victim was found */
-  char *char_found;		/* if NULL, read no further, ignore args */
-  char *others_found;
-  char *vict_found;
-
-  /* An argument was there, but no victim was found */
-  char *not_found;
-
-  /* The victim turned out to be the character */
-  char *char_auto;
-  char *others_auto;
-}           *soc_mess_list = NULL;
-
-struct social_messg *find_social(const char *name)
-{
-  int cmd, socidx;   
-  
-  if ((cmd = find_command(name)) < 0)
-    return NULL;
-
-  if ((socidx = find_action(cmd)) < 0)
-    return NULL;
-  
-  return &soc_mess_list[socidx];
+#define NUM_RESERVED_CMDS     15
+ 
+void free_action(struct social_messg *mess)  {
+  if (mess->command) free(mess->command);
+  if (mess->sort_as) free(mess->sort_as);
+  if (mess->char_no_arg) free(mess->char_no_arg);
+  if (mess->others_no_arg) free(mess->others_no_arg);
+  if (mess->char_found) free(mess->char_found);
+  if (mess->others_found) free(mess->others_found);
+  if (mess->vict_found) free(mess->vict_found);
+  if (mess->char_body_found) free(mess->char_body_found);
+  if (mess->others_body_found) free(mess->others_body_found);
+  if (mess->vict_body_found) free(mess->vict_body_found);
+  if (mess->not_found) free(mess->not_found);
+  if (mess->char_auto) free(mess->char_auto);
+  if (mess->others_auto) free(mess->others_auto);
+  if (mess->char_obj_found) free(mess->char_obj_found);
+  if (mess->others_obj_found) free(mess->others_obj_found);
+  memset(mess, 0, sizeof(struct social_messg));
 }
-
 
 int find_action(int cmd)
 {
   int bot, top, mid;
 
   bot = 0;
-  top = list_top;
+  top = top_of_socialt;
 
   if (top < 0)
     return (-1);
@@ -103,12 +91,23 @@ ACMD(do_action)
   int act_nr;
   struct social_messg *action;
   struct char_data *vict;
+  struct obj_data *targ;
 
   if ((act_nr = find_action(cmd)) < 0) {
     send_to_char("That action is not supported.\r\n", ch);
     return;
   }
+
   action = &soc_mess_list[act_nr];
+
+  two_arguments(argument, buf, buf2);
+
+  if ((!action->char_body_found) && (*buf2)) {
+    send_to_char("Sorry, this social does not support body parts.\r\n", ch);
+    return;
+  }
+
+  if (!action->char_found) *buf = '\0';
 
   if (action->char_found && argument)
     one_argument(argument, buf);
@@ -121,11 +120,25 @@ ACMD(do_action)
     act(action->others_no_arg, action->hide, ch, 0, 0, TO_ROOM);
     return;
   }
-  if (!(vict = get_char_vis(ch, buf, FIND_CHAR_ROOM))) {
-    send_to_char(action->not_found, ch);
+  if (!(vict = get_char_room_vis(ch, buf))) {
+    if ((action->char_obj_found) &&
+	((targ = get_obj_in_list_vis(ch, buf, ch->carrying)) ||
+	(targ = get_obj_in_list_vis(ch, buf, world[ch->in_room].contents)))) {
+      act(action->char_obj_found, action->hide, ch, targ, 0, TO_CHAR);
+      act(action->others_obj_found, action->hide, ch, targ, 0, TO_ROOM);
+      return;
+    }
+    if (action->not_found)
+      send_to_char(action->not_found, ch);
+    else
+      send_to_char("I don't see anything by that name here.", ch);
     send_to_char("\r\n", ch);
+    return;
   } else if (vict == ch) {
-    send_to_char(action->char_auto, ch);
+    if (action->char_auto)
+      send_to_char(action->char_auto, ch);
+    else
+      send_to_char("Erm, no.", ch);
     send_to_char("\r\n", ch);
     act(action->others_auto, action->hide, ch, 0, 0, TO_ROOM);
   } else {
@@ -133,9 +146,15 @@ ACMD(do_action)
       act("$N is not in a proper position for that.",
 	  FALSE, ch, 0, vict, TO_CHAR | TO_SLEEP);
     else {
-      act(action->char_found, 0, ch, 0, vict, TO_CHAR | TO_SLEEP);
-      act(action->others_found, action->hide, ch, 0, vict, TO_NOTVICT);
-      act(action->vict_found, action->hide, ch, 0, vict, TO_VICT);
+      if (*buf2) {
+        act(action->char_body_found, 0, ch, (struct obj_data *)buf2, vict, TO_CHAR | TO_SLEEP);
+        act(action->others_body_found, action->hide, ch, (struct obj_data *)buf2, vict, TO_NOTVICT);
+        act(action->vict_body_found, action->hide, ch, (struct obj_data *)buf2, vict, TO_VICT);
+      } else {
+        act(action->char_found, 0, ch, 0, vict, TO_CHAR | TO_SLEEP);
+        act(action->others_found, action->hide, ch, 0, vict, TO_NOTVICT);
+        act(action->vict_found, action->hide, ch, 0, vict, TO_VICT);
+      }
     }
   }
 }
@@ -149,7 +168,7 @@ ACMD(do_insult)
   one_argument(argument, arg);
 
   if (*arg) {
-    if (!(victim = get_char_vis(ch, arg, FIND_CHAR_ROOM)))
+    if (!(victim = get_char_room_vis(ch, arg)))
       send_to_char("Can't hear you!\r\n", ch);
     else {
       if (victim != ch) {
@@ -200,8 +219,8 @@ ACMD(do_gmote)
   half_chop(argument, buf, arg);
 
   if(subcmd)
-    for (length = strlen(buf), cmd = 0; *cmd_info[cmd].command != '\n'; cmd++)
-      if (!strncmp(cmd_info[cmd].command, buf, length))
+    for (length = strlen(buf), cmd = 0; *complete_cmd_info[cmd].command != '\n'; cmd++)
+      if (!strncmp(complete_cmd_info[cmd].command, buf, length))
 
 break;
 
@@ -268,9 +287,8 @@ char *fread_action(FILE * fl, int nr)
 void boot_social_messages(void)
 {
   FILE *fl;
-  int nr, i, hide, min_pos, curr_soc = -1;
-  char next_soc[100];
-  struct social_messg temp;
+  int nr = 0, hide, min_char_pos, min_pos, min_lvl, curr_soc = -1;
+  char next_soc[MAX_STRING_LENGTH], sorted[MAX_INPUT_LENGTH];
 
   /* open social file */
   if (!(fl = fopen(SOCMESS_FILE, "r"))) {
@@ -278,30 +296,37 @@ void boot_social_messages(void)
     exit(1);
   }
   /* count socials & allocate space */
-  for (nr = 0; *cmd_info[nr].command != '\n'; nr++)
-    if (cmd_info[nr].command_pointer == do_action)
-      list_top++;
+  *next_soc = '\0';
+  while (!feof(fl)) {
+    fgets(next_soc, MAX_STRING_LENGTH, fl);
+    if (*next_soc == '~') top_of_socialt++;
+  }
+  sprintf(buf, "Social table contains %d socials.", top_of_socialt);
+  log(buf);
+  rewind(fl);
 
-  CREATE(soc_mess_list, struct social_messg, list_top + 1);
+  CREATE(soc_mess_list, struct social_messg, top_of_socialt + 1);
 
   /* now read 'em */
   for (;;) {
     fscanf(fl, " %s ", next_soc);
     if (*next_soc == '$')
       break;
-    if (fscanf(fl, " %d %d \n", &hide, &min_pos) != 2) {
+    if (*next_soc == '$') break;
+    if (fscanf(fl, " %s %d %d %d %d \n",
+		sorted, &hide, &min_char_pos, &min_pos, &min_lvl) != 5) {
       log("SYSERR: format error in social file near social '%s'\n", next_soc);
       exit(1);
     }
-    if (++curr_soc > list_top) {
-      log("SYSERR: Ran out of slots in social array. (%d > %d)", curr_soc, list_top);
-      break;
-    }
  
     /* read the stuff */
-    soc_mess_list[curr_soc].act_nr = nr = find_command(next_soc);
+    curr_soc++;
+    soc_mess_list[curr_soc].command = str_dup(next_soc+1);
+    soc_mess_list[curr_soc].sort_as = str_dup(sorted);
     soc_mess_list[curr_soc].hide = hide;
+    soc_mess_list[curr_soc].min_char_position = min_char_pos;
     soc_mess_list[curr_soc].min_victim_position = min_pos;
+    soc_mess_list[curr_soc].min_level_char = min_lvl;
 
 #ifdef CIRCLE_ACORN
     if (fgetc(fl) != '\n')
@@ -312,44 +337,80 @@ void boot_social_messages(void)
     soc_mess_list[curr_soc].others_no_arg = fread_action(fl, nr);
     soc_mess_list[curr_soc].char_found = fread_action(fl, nr);
 
-    /* if no char_found, the rest is to be ignored */
-    if (!soc_mess_list[curr_soc].char_found)
-      continue;
-
     soc_mess_list[curr_soc].others_found = fread_action(fl, nr);
     soc_mess_list[curr_soc].vict_found = fread_action(fl, nr);
     soc_mess_list[curr_soc].not_found = fread_action(fl, nr);
     soc_mess_list[curr_soc].char_auto = fread_action(fl, nr);
     soc_mess_list[curr_soc].others_auto = fread_action(fl, nr);
 
-    /* If social not found, re-use this slot.  'curr_soc' will be reincremented. */
-    if (nr < 0) {
-      log("SYSERR: Unknown social '%s' in social file.", next_soc);
-      memset(&soc_mess_list[curr_soc--], 0, sizeof(struct social_messg));
-      continue;
-    }
-
-    /* If the command we found isn't do_action, we didn't count it for the CREATE(). */
-    if (cmd_info[nr].command_pointer != do_action) {
-      log("SYSERR: Social '%s' already assigned to a command.", next_soc);
-      memset(&soc_mess_list[curr_soc--], 0, sizeof(struct social_messg));
-    }
+    soc_mess_list[curr_soc].char_body_found = fread_action(fl, nr);
+    soc_mess_list[curr_soc].others_body_found = fread_action(fl, nr);
+    soc_mess_list[curr_soc].vict_body_found = fread_action(fl, nr);
+    soc_mess_list[curr_soc].char_obj_found = fread_action(fl, nr);
+    soc_mess_list[curr_soc].others_obj_found = fread_action(fl, nr);
   }
 
   /* close file & set top */
   fclose(fl);
-  list_top = curr_soc;
+  top_of_socialt = curr_soc;
+}
 
-  /* now, sort 'em */
-  for (curr_soc = 0; curr_soc < list_top; curr_soc++) {
-    min_pos = curr_soc;
-    for (i = curr_soc + 1; i <= list_top; i++)
-      if (soc_mess_list[i].act_nr < soc_mess_list[min_pos].act_nr)
-	min_pos = i;
-    if (curr_soc != min_pos) {
-      temp = soc_mess_list[curr_soc];
-      soc_mess_list[curr_soc] = soc_mess_list[min_pos];
-      soc_mess_list[min_pos] = temp;
+/* this function adds in the loaded socials and assigns them a command # */
+void create_command_list(void)
+{
+  int i, j, k;
+  struct social_messg temp;
+  extern struct command_info cmd_info[];
+
+  /* free up old command list */
+  if (complete_cmd_info) free(complete_cmd_info);
+    complete_cmd_info = NULL;
+
+  /* re check the sort on the socials */
+  for (j = 0; j < top_of_socialt; j++) {
+    k = j;
+    for (i = j + 1; i <= top_of_socialt; i++)
+      if (str_cmp(soc_mess_list[i].sort_as, soc_mess_list[k].sort_as) < 0)
+        k = i;
+    if (j != k) {
+      temp = soc_mess_list[j];
+      soc_mess_list[j] = soc_mess_list[k];
+      soc_mess_list[k] = temp;
     }
   }
+
+  /* count the commands in the command list */
+  i = 0;
+  while(*cmd_info[i].command != '\n') i++;
+  i++;
+
+  CREATE(complete_cmd_info, struct command_info, top_of_socialt + i + 2);
+
+  /* this loop sorts the socials and commands together into one big list */
+  i = 0;
+  j = 0;
+  k = 0;
+  while ((*cmd_info[i].command != '\n') || (j <= top_of_socialt))  {
+    if ((i < NUM_RESERVED_CMDS) || (j > top_of_socialt) || 
+	(str_cmp(cmd_info[i].sort_as, soc_mess_list[j].sort_as) < 1))
+      complete_cmd_info[k++] = cmd_info[i++];
+    else {
+      soc_mess_list[j].act_nr		= k;
+      complete_cmd_info[k].command		= soc_mess_list[j].command;
+      complete_cmd_info[k].sort_as		= soc_mess_list[j].sort_as;
+      complete_cmd_info[k].minimum_position	= soc_mess_list[j].min_char_position;
+      complete_cmd_info[k].command_pointer	= do_action;
+      complete_cmd_info[k].minimum_level    	= soc_mess_list[j++].min_level_char;
+      complete_cmd_info[k++].subcmd		= 0;
+    }
+  }
+  complete_cmd_info[k].command		= str_dup("\n");
+  complete_cmd_info[k].sort_as		= str_dup("zzzzzzz");
+  complete_cmd_info[k].minimum_position = 0;
+  complete_cmd_info[k].command_pointer	= 0;
+  complete_cmd_info[k].minimum_level	= 0;
+  complete_cmd_info[k].subcmd		= 0;
+  sprintf(buf, "Command info rebuilt, %d total commands.", k);
+  log(buf);
 }
+

@@ -267,10 +267,12 @@ ACMD(do_backstab)
 			else
 				{
 					//Failure
-					act("&GAttempts to backstab you, but cuts $Mself instead.&n"  , FALSE, vict, 0, ch, TO_CHAR);
-					act("&RYou miss a backstab and stab your finger instead!&n"     , FALSE, vict, 0, ch, TO_VICT);
-					act("&Y$N attempts to backstab $n but cuts $Mself instead.&n" , FALSE, vict, 0, ch, TO_NOTVICT);
-					damage(ch, ch, damage_from(ch, SKILL_BACKSTAB) * 0.5, TYPE_HIT);
+          if (ch->in_room == vict->in_room) {
+						act("&G$N attempts to backstab you, but stabs $Mself instead.&n"  , FALSE, vict, 0, ch, TO_CHAR);
+						act("&RYou miss a backstab and stab your finger instead!&n"     , FALSE, vict, 0, ch, TO_VICT);
+						act("&Y$N attempts to backstab $n but stabs $Mself instead.&n" , FALSE, vict, 0, ch, TO_NOTVICT);
+						damage(ch, ch, damage_from(ch, SKILL_BACKSTAB) * 0.5, TYPE_HIT);
+          }
 				}
 		}
   WAIT_STATE(ch, 1 * PULSE_VIOLENCE);

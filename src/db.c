@@ -160,6 +160,7 @@ void load_messages(void);
 void weather_and_time(int mode);
 void mag_assign_spells(void);
 void boot_social_messages(void);
+void create_command_list(void);
 void update_obj_file(void);	/* In objsave.c */
 void sort_commands(void);
 void sort_spells(void);
@@ -172,6 +173,7 @@ void prune_crlf(char *txt);
 void sprintbits(long vektor, char *outstring);
 void tag_argument(char *argument, char *tag);
 void clean_pfiles(void);
+void write_aliases(struct char_data *ch);
 void save_char_vars(struct char_data *ch);
 void free_object_strings(struct obj_data *obj);
 void free_object_strings_proto(struct obj_data *obj);
@@ -455,6 +457,7 @@ void boot_db(void)
 
   log("Loading social messages.");
   boot_social_messages();
+  create_command_list(); /* aedit patch -- M. Scott */
 
   log("Loading clans.");
   load_clans();
@@ -3235,6 +3238,11 @@ void save_char(struct char_data * ch, sh_int load_room)
          aff->modifier, aff->location, (int)aff->bitvector, aff->power);
     }
     fbprintf(fl, "0 0 0 0 0\n");                               
+
+    /* note: these actually save to different files, but do them here for consistency with tba... */
+    write_aliases(ch);
+    save_char_vars(ch);
+
     fbclose(fl);  
 
     if((id = find_name(GET_NAME(ch))) < 0)

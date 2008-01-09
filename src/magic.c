@@ -444,7 +444,7 @@ void mag_affects(int level, struct char_data * ch, struct char_data * victim,
     af[0].power = skill;
 
     af[1].location = APPLY_AC;
-    af[1].modifier = 40;
+    af[1].modifier = -40;
     af[1].duration = 2;
     af[1].bitvector = AFF_BLIND;
     af[1].power = skill;

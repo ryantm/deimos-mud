@@ -538,10 +538,6 @@ void list_all_char(struct char_data * i, struct char_data * ch, int num)
 {
   const char *positions[] = {
     " is lying here, dead.",
-    " is lying here, dead.",
-    " is lying here, dead.",
-    " is lying here, dead.",
-    " is completely frozen!",
     " is lying here, mortally wounded.",
     " is lying here, incapacitated.",
     " is lying here, stunned.",
@@ -1776,33 +1772,17 @@ ACMD(do_who)
 		{
 			wch = theWhoList[curEl];
 			/*Default Output */
-			if (!PRF_FLAGGED(wch, PRF_WHOINVIS)) 
-				{
-					if (GET_TOTAL_LEVEL(wch) < 240)  
-						sprintf(Mort_buf, "%s&n[ {%2d %2d %2d %2d} ] %s %s",Mort_buf,
-										GET_THIEF_LEVEL(wch), GET_WARRIOR_LEVEL(wch), GET_MAGE_LEVEL(wch), GET_CLERIC_LEVEL(wch),
-										GET_NAME(wch), GET_TITLE(wch));
-          else
-						sprintf(Mort_buf, "%s&n[&c GM:  %2d   :GM &w] %s %s",Mort_buf,
-										GET_GM_LEVEL(wch),
-										GET_NAME(wch), GET_TITLE(wch));
-					
-					Mortals++;
-        }
-			if ((GET_LEVEL(ch) >= LVL_IMMORT && GET_LEVEL(wch) < LVL_IMMORT &&
-					 PRF_FLAGGED(wch, PRF_ANON) && !PRF_FLAGGED(wch, PRF_WHOINVIS) && !PLR_FLAGGED2(wch, PLR2_REVIEW)) || (PRF_FLAGGED(wch, PRF_WHOINVIS))) {
-				if (GET_TOTAL_LEVEL(wch) < 240)  
-					sprintf(Mort_buf, "%s&n[ {%2d %2d %2d %2d} ] %s %s", Mort_buf,
-									GET_THIEF_LEVEL(wch), GET_WARRIOR_LEVEL(wch),
-									GET_MAGE_LEVEL(wch), GET_CLERIC_LEVEL(wch),
-									GET_NAME(wch), GET_TITLE(wch));
-				else
-          sprintf(Mort_buf, "%s&n[&c GM:  %2d   :GM &w] %s %s",Mort_buf,
-									GET_GM_LEVEL(wch),
-									GET_NAME(wch), GET_TITLE(wch));
-				
-          Mortals++;
-			}
+			if (GET_TOTAL_LEVEL(wch) < 240)  
+				sprintf(Mort_buf, "%s&n[ {%2d %2d %2d %2d} ] %s %s",Mort_buf,
+								GET_THIEF_LEVEL(wch), GET_WARRIOR_LEVEL(wch), GET_MAGE_LEVEL(wch), GET_CLERIC_LEVEL(wch),
+								GET_NAME(wch), GET_TITLE(wch));
+			else
+				sprintf(Mort_buf, "%s&n[&c GM:  %2d   :GM &w] %s %s",Mort_buf,
+								GET_GM_LEVEL(wch),
+								GET_NAME(wch), GET_TITLE(wch));
+			
+			Mortals++;
+			
       /* Who String Additions */
 			*buf = '\0';
 			
@@ -1813,6 +1793,8 @@ ACMD(do_who)
 			
 			if (PLR_FLAGGED(wch, PLR_MAILING))
 				strcat(buf, " &w(mailing)&n");
+			else if ((STATE(wch->desc) >= CON_OEDIT && STATE(wch->desc) <= CON_HEDIT) || STATE(wch->desc) >= CON_AEDIT)
+				strcat(buf, " &w(editing)&n");
 			else if (PLR_FLAGGED(wch, PLR_WRITING))
 				strcat(buf, " &w(writing)&n");
 			
@@ -1857,7 +1839,7 @@ ACMD(do_who)
     /* Load Array for Immortals */
     for(noElements = 0, d = descriptor_list; d; d = d->next) {
      /* Conditions for Listing */
-     if (STATE(d) != CON_PLAYING)
+     if (STATE(d) != CON_PLAYING && (STATE(d) < CON_OEDIT || (STATE(d) > CON_HEDIT && STATE(d) < CON_AEDIT)))
       continue;
      if (d->original)
         wch = d->original;
@@ -1914,6 +1896,8 @@ ACMD(do_who)
 
      if (PLR_FLAGGED(wch, PLR_MAILING))
        strcat(buf, " &w(mailing)&n");
+		else if (STATE(wch->desc) >= CON_OEDIT && STATE(wch->desc) <= CON_HEDIT)
+			strcat(buf, " &w(editing)&n");
      else if (PLR_FLAGGED(wch, PLR_WRITING))
        strcat(buf, " &w(writing)&n");
 
@@ -2633,8 +2617,11 @@ void sort_commands(void)
    * first, count commands (num_of_commands is actually one greater than the
    * number of commands; it inclues the '\n'.
    */
-  while (*cmd_info[num_of_cmds].command != '\n')
+  while (*complete_cmd_info[num_of_cmds].command != '\n')
     num_of_cmds++;
+
+  /* check if there was an old sort info.. then free it -- aedit -- M. Scott*/
+   if (cmd_sort_info) free(cmd_sort_info);
 
   /* create data array */
   CREATE(cmd_sort_info, struct sort_struct, num_of_cmds);
@@ -2642,7 +2629,7 @@ void sort_commands(void)
   /* initialize it */
   for (a = 1; a < num_of_cmds; a++) {
     cmd_sort_info[a].sort_pos = a;
-    cmd_sort_info[a].is_social = (cmd_info[a].command_pointer == do_action);
+    cmd_sort_info[a].is_social = (complete_cmd_info[a].command_pointer == do_action);
   }
 
   /* the infernal special case */
@@ -2651,8 +2638,8 @@ void sort_commands(void)
   /* Sort.  'a' starts at 1, not 0, to remove 'RESERVED' */
   for (a = 1; a < num_of_cmds - 1; a++)
     for (b = a + 1; b < num_of_cmds; b++)
-      if (strcmp(cmd_info[cmd_sort_info[a].sort_pos].command,
-		 cmd_info[cmd_sort_info[b].sort_pos].command) > 0) {
+      if (strcmp(complete_cmd_info[cmd_sort_info[a].sort_pos].command,
+		 complete_cmd_info[cmd_sort_info[b].sort_pos].command) > 0) {
 	tmp = cmd_sort_info[a].sort_pos;
 	cmd_sort_info[a].sort_pos = cmd_sort_info[b].sort_pos;
 	cmd_sort_info[b].sort_pos = tmp;
@@ -2694,11 +2681,11 @@ ACMD(do_commands)
   /* cmd_num starts at 1, not 0, to remove 'RESERVED' */
   for (no = 1, cmd_num = 1; cmd_num < num_of_cmds; cmd_num++) {
     i = cmd_sort_info[cmd_num].sort_pos;
-    if (cmd_info[i].minimum_level >= 0 &&
-	GET_LEVEL(vict) >= cmd_info[i].minimum_level &&
-	(cmd_info[i].minimum_level >= LVL_IMMORT) == wizhelp &&
+    if (complete_cmd_info[i].minimum_level >= 0 &&
+	GET_LEVEL(vict) >= complete_cmd_info[i].minimum_level &&
+	(complete_cmd_info[i].minimum_level >= LVL_IMMORT) == wizhelp &&
 	(wizhelp || socials == cmd_sort_info[i].is_social)) {
-      sprintf(buf + strlen(buf), "&n%-11s&n", cmd_info[i].command);
+      sprintf(buf + strlen(buf), "&n%-11s&n", complete_cmd_info[i].command);
       if (!(no % 7))
 	strcat(buf, "\r\n");
       no++;

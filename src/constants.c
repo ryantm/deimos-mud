@@ -109,10 +109,10 @@ const char *genders[] =
 
 /* POS_x */
 const char *position_types[] = {
+  /*"Dead",
   "Dead",
   "Dead",
-  "Dead",
-  "Dead",
+  "Dead",*/
   "Dead",
   "Mortally wounded",
   "Incapacitated",
@@ -304,7 +304,7 @@ const char *affected_bits[] =
 
 /* CON_x */
 const char *connected_types[] = {
-  "Playing",
+  "Playing",       /*  0 */
   "Disconnecting",
   "Get name",
   "Confirm name",
@@ -314,7 +314,7 @@ const char *connected_types[] = {
   "Select sex",
   "Select class",
   "Reading MOTD",
-  "Main Menu",
+  "Main Menu",     /* 10 */
   "Get descript.",
   "Changing PW 1",
   "Changing PW 2",
@@ -324,7 +324,7 @@ const char *connected_types[] = {
   "Disconnecting",
   "Object edit",
   "Room edit",
-  "Zone edit",
+  "Zone edit",    /* 20 */
   "Mobile edit",
   "Shop edit",
   "Text edit",
@@ -334,9 +334,10 @@ const char *connected_types[] = {
   "Help edit",
   "Yes/no ANSI",
   "Stat rolling",
-  "Clan edit",
+  "Clan edit",    /* 30 */
   "Line Input",
-  "Player edit",
+  /*"Player edit",*/
+  "Action edit",
   "\n"
 };
 

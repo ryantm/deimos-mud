@@ -36,6 +36,8 @@ extern room_rnum find_target_room(struct char_data * ch, char *rawroomstr);
 extern int mini_mud;
 extern int pk_allowed;
 
+extern struct attack_hit_type attack_hit_text[];
+
 void clearMemory(struct char_data * ch);
 void weight_change_object(struct obj_data * obj, int weight);
 void add_follower(struct char_data * ch, struct char_data * leader);
@@ -466,8 +468,19 @@ ASPELL(spell_identify)
     sprintf(buf, "Object '%s', Item type: ", obj->short_description);
     sprinttype(GET_OBJ_TYPE(obj), item_types, buf2);
     strcat(buf, buf2);
+    if (GET_OBJ_TYPE(obj) == ITEM_WEAPON) {
+      /* weapon type */
+      sprintf(buf + strlen(buf), " (%s)", attack_hit_text[GET_OBJ_VAL(obj, 3)].singular);
+    }
     strcat(buf, "\r\n");
     send_to_char(buf, ch);
+
+    if (GET_OBJ_WEAR(obj) & ~1) {
+      /* wear spots (&ing with ~1 ignores TAKE) */
+      sprintbit(GET_OBJ_WEAR(obj) & ~1, wear_bits, buf2);
+      sprintf(buf, "Worn on: %s\r\n", buf2); 
+      send_to_char(buf, ch);
+    }
 
     if (obj->obj_flags.bitvector) {
       send_to_char("Item will give you following abilities:  ", ch);
@@ -480,8 +493,8 @@ ASPELL(spell_identify)
     strcat(buf, "\r\n");
     send_to_char(buf, ch);
 
-    sprintf(buf, "Weight: %d, Value: %d, Rent: %d, Min Level: %d\r\n",
-	    GET_OBJ_WEIGHT(obj), GET_OBJ_COST(obj), GET_OBJ_RENT(obj), GET_OBJ_LEVEL(obj));
+    sprintf(buf, "Weight: %d, Value: %d, Min Level: %d\r\n",
+	    GET_OBJ_WEIGHT(obj), GET_OBJ_COST(obj), GET_OBJ_LEVEL(obj));
     send_to_char(buf, ch);
 
     switch (GET_OBJ_TYPE(obj)) {

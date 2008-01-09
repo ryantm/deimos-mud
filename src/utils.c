@@ -719,14 +719,14 @@ ACMD(do_helpcheck)
    strcpy(buf, "Commands without help entries:\r\n");
    strcat(buf, "-------------------------------------------------------------------\r\n");
 
-   for(i = 0; *(cmd_info[i].command) != '\n'; i++) {
-      sprintf(str, "%s", cmd_info[i].command);
+   for(i = 0; *(complete_cmd_info[i].command) != '\n'; i++) {
+      sprintf(str, "%s", complete_cmd_info[i].command);
       if(!(this_help = find_help(str))) {
-         if(cmd_info[i].command_pointer == do_action)
+         if(complete_cmd_info[i].command_pointer == do_action)
             continue;
          w++;
          w = w%3;
-         sprintf(buf + strlen(buf), " %-20.20s%s", cmd_info[i].command,
+         sprintf(buf + strlen(buf), " %-20.20s%s", complete_cmd_info[i].command,
                  (w ? "|":"\r\n"));
       }
    }

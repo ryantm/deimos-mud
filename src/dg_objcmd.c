@@ -483,7 +483,7 @@ OCMD(do_odamage) {
 
     two_arguments(argument, name, amount);
 
-    if (!*name || !*amount || !isdigit(*amount)) {
+    if (!*name || !*amount) {
 	obj_log(obj, "odamage: bad syntax");
 	return;
     }

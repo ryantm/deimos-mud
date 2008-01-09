@@ -34,7 +34,7 @@ OBJFILES = act.comm.o act.informative.o act.item.o act.movement.o \
   spec_procs.o spell_parser.o spells.o tedit.o utils.o weather.o zedit.o \
   assemblies.o assedit.o dg_comm.o dg_db_scripts.o dg_event.o dg_handler.o \
   dg_mobcmd.o dg_misc.o dg_objcmd.o dg_scripts.o dg_triggers.o dg_wldcmd.o \
-  dg_olc.o hedit.o prgrun.o diskio.o cedit.o clan.o freezetag.o screen.o
+  dg_olc.o hedit.o prgrun.o diskio.o cedit.o clan.o screen.o aedit.o
 
 default: deimos
 

@@ -70,6 +70,7 @@ void list_skillsc(struct char_data * ch);
 void improve_skill(struct char_data *ch, int skill);
 void appear(struct char_data * ch);
 void write_aliases(struct char_data *ch);
+void save_char_vars(struct char_data *ch);
 void perform_immort_vis(struct char_data *ch);
 SPECIAL(shop_keeper);
 ACMD(do_gen_comm);
@@ -225,6 +226,7 @@ ACMD(do_save)
     if (auto_save && GET_LEVEL(ch) <= LVL_IMMORT) {
       send_to_char("Saving aliases.\r\n", ch);
       write_aliases(ch);
+      save_char_vars(ch);
       rvnum = GET_ROOM_VNUM(IN_ROOM(ch));
     if (real_room(rvnum) != NOWHERE) {
       SET_BIT(PLR_FLAGS(ch), PLR_LOADROOM);
@@ -243,6 +245,7 @@ ACMD(do_save)
   }
     
   write_aliases(ch);
+  save_char_vars(ch);
   save_char(ch, IN_ROOM(ch));
   Crash_crashsave(ch);
   if (ROOM_FLAGGED(ch->in_room, ROOM_HOUSE_CRASH))
@@ -1329,7 +1332,7 @@ ACMD(do_recall)
 	GET_MOVE(ch) = (int)(GET_MOVE(ch) * 0.25);
 
 	send_to_char("Recalling...\r\n", ch);
-	send_to_char("&RYou feel tired&n\r\n", ch);
+	send_to_char("&RYou are le tired.&n\r\n", ch);
 	act("$n concentrates and disappears.", TRUE, ch, 0, 0, TO_ROOM);
 	char_from_room(ch);
 	char_to_room(ch, real_room(mortal_start_room));
