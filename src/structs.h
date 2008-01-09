@@ -129,7 +129,7 @@
 /* PC classes */
 #define CLASS_UNDEFINED	  -1
 #define CLASS_MAGIC_USER  0
-#define CLASS_MAGE        0 /* Screw ya'll */
+#define CLASS_MAGE        0 
 #define CLASS_CLERIC      1
 #define CLASS_THIEF       2
 #define CLASS_WARRIOR     3
