@@ -372,7 +372,7 @@ void do_start(struct char_data * ch)
 
   set_title(ch, NULL);
 
-  ch->points.max_hit = 10;
+  ch->points.max_hit = 40;
 
   advance_level(ch);
   sprintf(buf, "%s advanced to level %d", GET_NAME(ch), GET_LEVEL(ch));
@@ -388,6 +388,7 @@ void do_start(struct char_data * ch)
   ch->player.time.logon = time(0);
   send_to_char("All preferences automatically turned on. To see which are on type toggle.\r\n", ch);
   
+  GET_WIMP_LEV(ch) = 5;
   autoall(ch);
   SET_BIT(PRF_FLAGS(ch), PRF_COLOR_1 | PRF_COLOR_2);
   SET_BIT(PRF_FLAGS(ch), PRF_DISPHP | PRF_DISPMANA | PRF_DISPMOVE);

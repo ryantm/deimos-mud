@@ -257,3 +257,9 @@ typedef struct room_data room_data;
 typedef struct obj_data obj_data;
 typedef struct trig_data trig_data;
 typedef struct char_data char_data;
+
+/* from dg_comm.c */
+void send_to_zone(char *messg, int zone_rnum);
+
+/* from genzone.c */
+zone_rnum real_zone_by_thing(room_vnum vznum);

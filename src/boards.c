@@ -75,11 +75,11 @@ struct board_info_type board_info[NUM_OF_BOARDS] = {
   {3096, 0, 0, LVL_IMMORT, LIB_ETC "board.social", CLAN_NONE,0},
   {   8, LVL_IMMORT, LVL_IMMORT, LVL_CREATOR, LIB_ETC "board.progress", CLAN_NONE,0},
   {3095, LVL_IMPL, LVL_IMPL, LVL_IMPL, LIB_ETC "board.implementor", CLAN_NONE,0},
-  {3094, 0, 0, LVL_CREATOR, LIB_ETC "board.review", CLAN_NONE,0}, 
-  {207,  0, 0, 0, LIB_ETC "newspaper", CLAN_NONE,0},
+  {3094, 0, 0, LVL_CREATOR, LIB_ETC "board.review", CLAN_NONE,0}
+  /*{207,  0, 0, 0, LIB_ETC "newspaper", CLAN_NONE,0},
   {1589, 0, 0,LVL_CREATOR,LIB_ETC "board.WHY", 1,0 },
   {1590, 0, 0,LVL_CREATOR,LIB_ETC "board.GOD", 2,0 },
-  {1567, 0, 0,LVL_CREATOR,LIB_ETC "board.OOC", 3,0 }
+  {1567, 0, 0,LVL_CREATOR,LIB_ETC "board.OOC", 3,0 }*/
 };
 
 /* local functions */

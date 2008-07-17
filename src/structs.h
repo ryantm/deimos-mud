@@ -663,9 +663,9 @@
 /* Max amount of output that can be buffered */
 #define LARGE_BUFSIZE	   (MAX_SOCK_BUF - GARBAGE_SPACE - MAX_PROMPT_LENGTH)
 #define HISTORY_SIZE		5	/* Keep last 5 commands. */
-#define MAX_STRING_LENGTH	8192
-#define MAX_INPUT_LENGTH	256	/* Max length per *line* of input */
-#define MAX_RAW_INPUT_LENGTH	512	/* Max size of *raw* input */
+#define MAX_STRING_LENGTH	49152
+#define MAX_INPUT_LENGTH	512	/* Max length per *line* of input */
+#define MAX_RAW_INPUT_LENGTH	1024	/* Max size of *raw* input */
 #define MAX_MESSAGES		400
 #define MAX_NAME_LENGTH		20  /* Used in char_file_u *DO*NOT*CHANGE* */
 #define MAX_PWD_LENGTH		10  /* Used in char_file_u *DO*NOT*CHANGE* */

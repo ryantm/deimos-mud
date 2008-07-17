@@ -2887,7 +2887,7 @@ ACMD(do_affects)
      send_to_char("&RYou must be level 30 to sense enchantments.&n\r\n", ch);
      return; 
   }
-  send_to_char("&nYou carry these enchantments: &n\r\n", ch);
+  send_to_char("&nYou carry these temporary spells: &n\r\n", ch);
 
  for (i = 0,af = ch->affected; af; af = af->next) 
  {  
@@ -2910,7 +2910,7 @@ ACMD(do_affects)
    }
   
  }
-     send_to_char("&nYour objects give you the following enchantments: &n\r\n", ch);
+     send_to_char("&nYour currently have the following enchantments: &n\r\n", ch);
 
   *buf = '\0';
   for (nr = 0; bitvector; bitvector >>= 1) 

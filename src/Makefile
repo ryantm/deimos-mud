@@ -23,7 +23,7 @@ DEIMOSNAME = $(BINDIR)/archive/deimos-`date +'%Y-%m-%d-%H:%M'`
 #extedned debug
 CFLAGS = -ggdb -O3 $(MYFLAGS) $(PROFILE)
 
-LIBS =  -lcrypt 
+LIBS =  -lcrypt -lm
 
 OBJFILES = act.comm.o act.informative.o act.item.o act.movement.o \
   act.offensive.o act.other.o act.social.o act.wizard.o alias.o ban.o boards.o \

@@ -191,4 +191,3 @@ void send_to_zone(char *messg, int zone_rnum)
         (world[IN_ROOM(i->character)].zone == zone_rnum))
       SEND_TO_Q(messg, i);
 }
-

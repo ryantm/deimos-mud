@@ -750,3 +750,21 @@ byte get_class_level(struct char_data *ch, byte class) {
 	return -1;
 }
 
+
+/* returns the current power of */
+/*int affect_power(struct char_data *ch, long affect)
+{
+  struct affected_type* af, next_af;
+
+  for (i = 0,af = ch->affected; af; af = next_af) 
+    {
+      next_af = af->next;
+      if (IS_SET(af->bitvector, affect))
+	{
+	  return af->power;
+	}
+    }
+  return -1;
+}
+*/
+

@@ -212,57 +212,81 @@ ACMD(do_insult)
 ACMD(do_gmote)
 {
   int act_nr, length;
-  char arg[MAX_INPUT_LENGTH], buf[MAX_INPUT_LENGTH];
   struct social_messg *action;
   struct char_data *vict = NULL;
+  struct obj_data *targ = NULL;
 
   half_chop(argument, buf, arg);
 
   if(subcmd)
     for (length = strlen(buf), cmd = 0; *complete_cmd_info[cmd].command != '\n'; cmd++)
       if (!strncmp(complete_cmd_info[cmd].command, buf, length))
-
-break;
+        break;
 
   if ((act_nr = find_action(cmd)) < 0) {
-
-    sprintf( buf2, "[GOSSIP] %s %s %s", GET_NAME(ch), buf, arg );
-    act( buf2, FALSE, ch, 0, vict, TO_GMOTE );
- 
+    sprintf(buf2, "[GOSSIP] %s %s %s", GET_NAME(ch), buf, arg);
+    act(buf2, FALSE, ch, 0, vict, TO_GMOTE );
     return;
   }
+
   action = &soc_mess_list[act_nr];
 
-  if (!action->char_found)
-    *arg = '\0';
+  two_arguments(arg, buf, buf2);
 
-  if (!*arg) {
+  if ((!action->char_body_found) && (*buf2)) {
+    send_to_char("Sorry, this social does not support body parts.\r\n", ch);
+    return;
+  }
+
+  if (!action->char_found) *buf = '\0';
+
+  if (action->char_found && arg)
+    one_argument(arg, buf);
+  else
+    *buf = '\0';
+
+  if (!*buf) {
     if(!action->others_no_arg || !*action->others_no_arg) {
       send_to_char("Who are you going to do that to?\r\n", ch);
       return;
-    }
+    } 
     sprintf(buf, "[GOSSIP] %s", action->others_no_arg);
-  } else if (!(vict = get_char_vis(ch, arg, FIND_CHAR_WORLD))) {
-    send_to_char(action->not_found, ch);
-    send_to_char("\r\n", ch);
-    return;
+  } else if (!(vict = get_char_vis(ch, buf, FIND_CHAR_WORLD))) {
+     if ((action->char_obj_found) &&
+  ((targ = get_obj_in_list_vis(ch, buf, ch->carrying)) ||
+  (targ = get_obj_in_list_vis(ch, buf, world[ch->in_room].contents)))) {
+      sprintf(buf, "[GOSSIP] %s", action->others_obj_found);
+    } else {
+      if (action->not_found)
+        send_to_char(action->not_found, ch);
+      else
+        send_to_char("I don't see anything by that name here.", ch);
+      send_to_char("\r\n", ch);
+      return;
+    }
   } else if (vict == ch) {
     if(!action->others_auto || !*action->others_auto) {
-      send_to_char(action->char_auto, ch);
+      if (action->char_auto)
+        send_to_char(action->char_auto, ch);
+      else
+        send_to_char("Erm, no.", ch);
       send_to_char("\r\n", ch);
       return;
     }
     sprintf(buf, "[GOSSIP] %s", action->others_auto);
   } else {
-    if (GET_POS(vict) < action->min_victim_position)
-      act("$N is not in a proper position for that.",
-
-  FALSE, ch, 0, vict, TO_CHAR | TO_SLEEP);
-    else {
-      sprintf(buf, "[GOSSIP] %s", action->others_found);
+    if (GET_POS(vict) < action->min_victim_position) {
+      act("$N is not in a proper position for that.", FALSE, ch, 0, vict, TO_CHAR | TO_SLEEP);
+      return;
+    } else {
+      if (*buf2) {
+        targ = (struct obj_data *)buf2;
+        sprintf(buf, "[GOSSIP] %s", action->others_body_found);
+      } else  
+        sprintf(buf, "[GOSSIP] %s", action->others_found);
     }
   }
-  act(buf, FALSE, ch, 0, vict, TO_GMOTE);
+  act(buf, FALSE, ch, targ, vict, TO_GMOTE);
 }
 
 

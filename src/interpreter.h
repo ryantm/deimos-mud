@@ -301,6 +301,7 @@ ACMD(do_mkill);
 ACMD(do_mjunk);
 ACMD(do_mdoor);
 ACMD(do_mechoaround);
+ACMD(do_mzoneecho);
 ACMD(do_msend);
 ACMD(do_mecho);
 ACMD(do_mload);

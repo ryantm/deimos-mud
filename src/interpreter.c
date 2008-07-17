@@ -556,6 +556,7 @@ cpp_extern const struct command_info cmd_info[] = {
   {"mtransform", "mtransform", POS_DEAD, do_mtransform, -1, 0},
   {"mskillset", "mskillset", POS_RESTING, do_mskillset, -1, 0},
   {"mteach", "mteach", POS_RESTING, do_mskillset, -1, 0},
+  {"mzoneecho", "mzoneecho", POS_DEAD, do_mzoneecho, -1, 0},
   {"vdelete", "vdelete", POS_DEAD, do_vdelete, LVL_GRGOD, 0},
 
   /* Running Exec */

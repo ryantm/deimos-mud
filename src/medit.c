@@ -1085,7 +1085,7 @@ void mob_defaults(struct char_data *mob, int level)
       mob->mob_specials.damsizedice = level * 8.0 / 90.0;
     }
    
-  j = (float) 2* (float) level * (float)level + 100;
+  j = (float) 2* (float) level * (float)level + 20;
   
   GET_MAX_HIT(mob)  = dice(level / 2, level / 2) + LIMIT(j,1, max_move);
   GET_MAX_MANA(mob) = level * 15;

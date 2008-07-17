@@ -21,6 +21,7 @@
 #include "dg_event.h"
 #include "db.h"
 #include "screen.h"
+#include "constants.h"
 #include "spells.h"
 
 #define PULSES_PER_MUD_HOUR     (SECS_PER_MUD_HOUR*PASSES_PER_SEC)
@@ -58,6 +59,8 @@ int eval_lhs_op_rhs(char *expr, char *result, void *go, struct script_data *sc,
 		    trig_data *trig, int type);
 char *skill_percent(struct char_data *ch, char *skill);
 int find_eq_pos(struct char_data * ch, struct obj_data * obj, char *arg);
+bool check_flags_by_name_ar(int *array, int numflags, char *search, const char *
+namelist[]);
 
 
 /* function protos from this file */
@@ -1122,6 +1125,13 @@ int text_processed(char *field, char *subfield, struct trig_var_data *vd,
       *str++ = *cdr++;
     *str = '\0';
     return TRUE;
+  } else if (!str_cmp(field, "charat")) {              /* CharAt    */
+    size_t len = strlen(vd->value), index = atoi(subfield);
+    if (index > len || index < 1)
+      strcpy(str, "");
+    else
+        sprintf(str, "%c", vd->value[index - 1]);
+    return TRUE;
   } else if (!str_cmp(field, "mudcommand")) {
     /* find the mud command returned from this text */
 /* NOTE: you may need to replace "cmd_info" with "complete_cmd_info", */
@@ -1161,6 +1171,7 @@ void find_replacement(void *go, struct script_data *sc, trig_data *trig,
   char *force[] = {"mforce",	"oforce",	"wforce"};
   char *load[] = {"mload",	"oload",	"wload"};
   char *purge[] = {"mpurge",	"opurge",	"wpurge"};
+  char *zoneecho[]       = {"mzoneecho ",   "ozoneecho ",   "wzoneecho "  };
   char *teleport[] = {"mteleport","oteleport",	"wteleport"};
   char *damage[] = {"mdamage",	"odamage",	"wdamage"};
 
@@ -1170,11 +1181,10 @@ void find_replacement(void *go, struct script_data *sc, trig_data *trig,
       if (!str_cmp(vd->name, var))
         break;
   
-  if (!vd)
+  if (!vd && sc)
     for (vd = sc->global_vars; vd; vd = vd->next)
-      if (!str_cmp(vd->name, var) &&
-          (vd->context==0 || vd->context==sc->context))
-				break; 
+      if (!str_cmp(vd->name, var) && (vd->context==0 || vd->context==sc->context))
+	break; 
 	
   if (!*field) {
     if (vd)
@@ -1200,6 +1210,8 @@ void find_replacement(void *go, struct script_data *sc, trig_data *trig,
         strcpy(str,echo_cmd[type]);
       else if (!str_cmp(var, "echoaround"))
         strcpy(str,echoaround_cmd[type]);
+      else if (!str_cmp(var, "zoneecho"))
+	strcpy(str,zoneecho[type]);
       else
 	*str = '\0';
     }
@@ -1621,42 +1633,143 @@ void find_replacement(void *go, struct script_data *sc, trig_data *trig,
 			
       else if (!str_cmp(field, "name"))
 				strcpy(str, r->name);
+      else if (!str_cmp(field, "sector"))
+        sprinttype(r->sector_type, sector_types, str);
       else if (!str_cmp(field, "north")) {
-				if (r->dir_option[NORTH])
-					sprintbit(r->dir_option[NORTH]->exit_info ,exit_bits, str);
-				else
-					*str = '\0';
-      } else if (!str_cmp(field, "east")) {
-				if (r->dir_option[EAST])
-					sprintbit(r->dir_option[EAST]->exit_info ,exit_bits, str);
-				else
-					*str = '\0';
-      } else if (!str_cmp(field, "south")) {
-				if (r->dir_option[SOUTH])
-					sprintbit(r->dir_option[SOUTH]->exit_info ,exit_bits, str);
-				else
-					*str = '\0';
-      } else if (!str_cmp(field, "west")) {
-				if (r->dir_option[WEST])
-					sprintbit(r->dir_option[WEST]->exit_info ,exit_bits, str);
-				else
-					*str = '\0';
-      } else if (!str_cmp(field, "up")) {
-				if (r->dir_option[UP])
-					sprintbit(r->dir_option[UP]->exit_info ,exit_bits, str);
-				else
-					*str = '\0';
-      } else if (!str_cmp(field, "down")) {
-				if (r->dir_option[DOWN])
-					sprintbit(r->dir_option[DOWN]->exit_info ,exit_bits, str);
-				else
-					*str = '\0';
-      } else if (!str_cmp(field, "vnum")) {
+        if (R_EXIT(r, NORTH)) {
+          if (subfield && *subfield) {
+            if (!str_cmp(subfield, "vnum"))
+              sprintf(str, "%d", GET_ROOM_VNUM(R_EXIT(r, NORTH)->to_room));
+            else if (!str_cmp(subfield, "key"))
+              sprintf(str, "%d", R_EXIT(r, NORTH)->key);
+            else if (!str_cmp(subfield, "bits"))
+              sprintbit(R_EXIT(r, NORTH)->exit_info ,exit_bits, str);
+            else if (!str_cmp(subfield, "room")) {
+              if (R_EXIT(r, NORTH)->to_room != NOWHERE)
+                sprintf(str, "%c%ld", UID_CHAR, (long) world[R_EXIT(r, NORTH)->to_room].number + ROOM_ID_BASE);
+              else
+                *str = '\0';
+            }
+          } else /* no subfield - default to bits */
+            sprintbit(R_EXIT(r, NORTH)->exit_info ,exit_bits, str);
+        } else
+          *str = '\0';
+      }
+      else if (!str_cmp(field, "east")) {
+        if (R_EXIT(r, EAST)) {
+          if (subfield && *subfield) {
+            if (!str_cmp(subfield, "vnum"))
+              sprintf(str, "%d", GET_ROOM_VNUM(R_EXIT(r, EAST)->to_room));
+            else if (!str_cmp(subfield, "key"))
+              sprintf(str, "%d", R_EXIT(r, EAST)->key);
+            else if (!str_cmp(subfield, "bits"))
+              sprintbit(R_EXIT(r, EAST)->exit_info ,exit_bits, str);
+            else if (!str_cmp(subfield, "room")) {
+              if (R_EXIT(r, EAST)->to_room != NOWHERE)
+                sprintf(str, "%c%ld", UID_CHAR, (long) world[R_EXIT(r, EAST)->to_room].number + ROOM_ID_BASE);
+              else
+                *str = '\0';
+            }
+          } else /* no subfield - default to bits */
+            sprintbit(R_EXIT(r, EAST)->exit_info ,exit_bits, str);
+        } else
+          *str = '\0';
+      }
+      else if (!str_cmp(field, "south")) {
+        if (R_EXIT(r, SOUTH)) {
+          if (subfield && *subfield) {
+            if (!str_cmp(subfield, "vnum"))
+              sprintf(str, "%d", GET_ROOM_VNUM(R_EXIT(r, SOUTH)->to_room));
+            else if (!str_cmp(subfield, "key"))
+              sprintf(str, "%d", R_EXIT(r, SOUTH)->key);
+            else if (!str_cmp(subfield, "bits"))
+              sprintbit(R_EXIT(r, SOUTH)->exit_info ,exit_bits, str);
+            else if (!str_cmp(subfield, "room")) {
+              if (R_EXIT(r, SOUTH)->to_room != NOWHERE)
+                sprintf(str, "%c%ld", UID_CHAR, (long) world[R_EXIT(r, SOUTH)->to_room].number + ROOM_ID_BASE);
+              else
+                *str = '\0';
+            }
+          } else /* no subfield - default to bits */
+            sprintbit(R_EXIT(r, SOUTH)->exit_info ,exit_bits, str);
+        } else
+          *str = '\0';
+      }
+      else if (!str_cmp(field, "west")) {
+        if (R_EXIT(r, WEST)) {
+          if (subfield && *subfield) {
+            if (!str_cmp(subfield, "vnum"))
+              sprintf(str, "%d", GET_ROOM_VNUM(R_EXIT(r, WEST)->to_room));
+            else if (!str_cmp(subfield, "key"))
+              sprintf(str, "%d", R_EXIT(r, WEST)->key);
+            else if (!str_cmp(subfield, "bits"))
+              sprintbit(R_EXIT(r, WEST)->exit_info ,exit_bits, str);
+            else if (!str_cmp(subfield, "room")) {
+              if (R_EXIT(r, WEST)->to_room != NOWHERE)
+                sprintf(str, "%c%ld", UID_CHAR, (long) world[R_EXIT(r, WEST)->to_room].number + ROOM_ID_BASE);
+              else
+                *str = '\0';
+            }
+          } else /* no subfield - default to bits */
+            sprintbit(R_EXIT(r, WEST)->exit_info ,exit_bits, str);
+        } else
+          *str = '\0';
+      }
+      else if (!str_cmp(field, "up")) {
+        if (R_EXIT(r, UP)) {
+          if (subfield && *subfield) {
+            if (!str_cmp(subfield, "vnum"))
+              sprintf(str, "%d", GET_ROOM_VNUM(R_EXIT(r, UP)->to_room));
+            else if (!str_cmp(subfield, "key"))
+              sprintf(str, "%d", R_EXIT(r, UP)->key);
+            else if (!str_cmp(subfield, "bits"))
+              sprintbit(R_EXIT(r, UP)->exit_info ,exit_bits, str);
+            else if (!str_cmp(subfield, "room")) {
+              if (R_EXIT(r, UP)->to_room != NOWHERE)
+                sprintf(str, "%c%ld", UID_CHAR, (long) world[R_EXIT(r, UP)->to_room].number + ROOM_ID_BASE);
+              else
+                *str = '\0';
+            }
+          } else /* no subfield - default to bits */
+            sprintbit(R_EXIT(r, UP)->exit_info ,exit_bits, str);
+        } else
+          *str = '\0';
+      }
+      else if (!str_cmp(field, "down")) {
+        if (R_EXIT(r, DOWN)) {
+          if (subfield && *subfield) {
+            if (!str_cmp(subfield, "vnum"))
+              sprintf(str, "%d", GET_ROOM_VNUM(R_EXIT(r, DOWN)->to_room));
+            else if (!str_cmp(subfield, "key"))
+              sprintf(str, "%d", R_EXIT(r, DOWN)->key);
+            else if (!str_cmp(subfield, "bits"))
+              sprintbit(R_EXIT(r, DOWN)->exit_info ,exit_bits, str);
+            else if (!str_cmp(subfield, "room")) {
+              if (R_EXIT(r, DOWN)->to_room != NOWHERE)
+                sprintf(str, "%c%ld", UID_CHAR, (long) world[R_EXIT(r, DOWN)->to_room].number + ROOM_ID_BASE);
+              else
+                *str = '\0';
+            }
+          } else /* no subfield - default to bits */
+            sprintbit(R_EXIT(r, DOWN)->exit_info ,exit_bits, str);
+        } else
+          *str = '\0';
+      }
+     else if (!str_cmp(field, "vnum")) {
 				sprintf(str,"%d",r->number); 
       } else if (!str_cmp(field, "people")) {
 				if (r->people)
 					sprintf(str,"%c%ld",UID_CHAR,GET_ID(r->people));
 				else *str = '\0';
+      } else if(!str_cmp(field, "roomflag")) { 
+        if (subfield && *subfield) { 
+          room_rnum thisroom = real_room(r->number); 
+          if (check_flags_by_name_ar(&ROOM_FLAGS(thisroom), TOPOFROOMFLAGS, subfield, room_bits) == TRUE) 
+            sprintf(str, "1"); 
+          else 
+            sprintf(str, "0"); 
+        } else
+          sprintf(str, "0"); 
       } else {
 				*str = '\0';
 				sprintf(buf2,
@@ -3228,3 +3341,19 @@ void save_char_vars(struct char_data *ch)
 
   fclose(file);
 }
+
+bool check_flags_by_name_ar(int *array, int numflags, char *search, const char *
+namelist[]) 
+{ 
+  int i, item=-1; 
+
+  for (i=0; i<numflags && item < 0; i++) 
+    if (!strcmp(search, namelist[i])) item = i; 
+
+  if (item < 0) return FALSE; 
+
+  if (IS_SET_AR(array, item)) return TRUE; 
+
+  return FALSE; 
+}
+

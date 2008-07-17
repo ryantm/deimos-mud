@@ -27,6 +27,8 @@ extern const char *dirs[];
 extern struct zone_data *zone_table;
 extern int top_of_zone_table;
 
+
+
 void die(struct char_data * ch, struct char_data * killer);
 void sub_write(char *arg, char_data *ch, byte find_invis, int targets);
 void send_to_zone(char *messg, int zone_rnum);
@@ -37,6 +39,8 @@ obj_data *get_obj_by_room(room_data *room, char *name);
 
 #define WCMD(name)  \
     void (name)(room_data *room, char *argument, int cmd, int subcmd)
+
+WCMD(do_wzoneecho);
 
 
 struct wld_command_info {
@@ -151,39 +155,6 @@ WCMD(do_wsend)
     else
 	wld_log(room, "no target found for wsend");
 }
-
-static int real_zone(int number)
-{
-  int counter;
-      
-  for (counter = 0; counter <= top_of_zone_table; counter++)
-    if ((number >= (zone_table[counter].number * 100)) &&
-      (number <= (zone_table[counter].top)))
-      return counter;
- 
-  return -1;
-}
-
-WCMD(do_wzoneecho)
-{
-    int zone;
-    char zone_name[MAX_INPUT_LENGTH], buf[MAX_INPUT_LENGTH], *msg;
-  
-    msg = any_one_arg(argument, zone_name);
-    skip_spaces(&msg);
-
-    if (!*zone_name || !*msg)
-	wld_log(room, "wzoneecho called with too few args");
-
-    else if ((zone = real_zone(atoi(zone_name))) < 0)
-	wld_log(room, "wzoneecho called for nonexistant zone");
-
-    else { 
-	sprintf(buf, "%s\r\n", msg);
-	send_to_zone(buf, zone);
-    }
-}
-
 
 WCMD(do_wdoor)
 {
@@ -529,6 +500,7 @@ WCMD(do_wdamage) {
 									world[ch->in_room].name);
       		mudlog(buf2, BRF, 0, TRUE);
 				}
+        SET_BIT(PLR_FLAGS(ch), PLR_DEAD);
 				die(ch, NULL);
 			}
     }
@@ -608,4 +580,24 @@ void wld_command_interpreter(room_data *room, char *argument)
     } else
 	((*wld_cmd_info[cmd].command_pointer) 
 	 (room, line, cmd, wld_cmd_info[cmd].subcmd));
+}
+
+WCMD(do_wzoneecho)
+{
+    zone_rnum zone;
+    char room_num[MAX_INPUT_LENGTH], buf[MAX_INPUT_LENGTH], *msg;
+
+    msg = any_one_arg(argument, room_num);
+    skip_spaces(&msg);
+
+    if (!*room_num || !*msg)
+        wld_log(room, "wzoneecho called with too few args");
+
+    else if ((zone = real_zone_by_thing(atoi(room_num))) == NOWHERE)
+        wld_log(room, "wzoneecho called for nonexistant zone");
+
+    else {
+        sprintf(buf, "%s\r\n", msg);
+        send_to_zone(buf, zone);
+    }
 }

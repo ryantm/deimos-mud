@@ -11,6 +11,7 @@
 
 #define _GNU_SOURCE
 #include <stdio.h>
+#include <math.h>
 
 #include "conf.h"
 #include "sysdep.h"
@@ -57,6 +58,7 @@ int calc_ave_damage(struct char_data *ch, struct char_data *victim);
 int fact(int num);
 void update_sacrifice(struct char_data *ch);
 void sort_assassinrank(struct char_data *ch);
+double log10(double var);
 
 /* local functions */
 void dam_message(int dam, struct char_data * ch, struct char_data * victim, int w_type);
@@ -639,12 +641,6 @@ void die(struct char_data * ch, struct char_data * killer)
     REMOVE_BIT(PLR_FLAGS(ch), PLR_KILLER | PLR_THIEF);
     stop_fighting(ch);
 
-  if (!(PLR_FLAGGED(ch, PLR_DEAD | PLR_DEADI | PLR_DEADII | PLR_DEADIII))
-      && !ROOM_FLAGGED(ch->in_room, ROOM_SPARRING))
-  {  
-		GET_EXP(ch) = 0;
-  }
-
   raw_kill(ch, killer);
 }
 
@@ -1088,7 +1084,7 @@ int reduce_damage(int dam, int attacktype, struct char_data *ch, struct char_dat
     }
   
   /* Reduce 1 damage for every 1 AC */
-  dam -= LIMIT(GET_AC(victim),MIN_ARMOR, MAX_ARMOR);
+  dam -= LIMIT(GET_AC(victim) / 4.0,MIN_ARMOR, MAX_ARMOR);
   
   /* Area of effects can't kill mobiles */
   if (attacktype == TYPE_AREA_EFFECT)
@@ -1096,11 +1092,11 @@ int reduce_damage(int dam, int attacktype, struct char_data *ch, struct char_dat
       dam = GET_HIT(victim) - 1;
   
   if (GET_LEVEL(ch) >= LVL_IMPL)
-    dam = LIMIT(dam, 1, INT_MAX);
+    dam = LIMIT(dam, 0, INT_MAX);
   else if (IS_PC(ch))
-    dam = LIMIT(dam, 1, MAX_PC_DAMAGE);
+    dam = LIMIT(dam, 0, MAX_PC_DAMAGE);
   else
-    dam = LIMIT(dam, 1, MAX_NPC_DAMAGE);
+    dam = LIMIT(dam, 0, MAX_NPC_DAMAGE);
   
   //sprintf(buf, "Reduced damage to you: %d", dam);
   //send_to_char(buf,victim);
@@ -1163,20 +1159,20 @@ int damage(struct char_data * ch, struct char_data * victim, int dam, int attack
     dam = 0;
   
   if (victim != ch) 
-		{
-			/* Start the attacker fighting the victim */
-			if (GET_POS(ch) > POS_STUNNED && (FIGHTING(ch) == NULL))
-				set_fighting(ch, victim);
-			
-			/* Start the victim fighting the attacker */
-			if (GET_POS(victim) > POS_STUNNED && (FIGHTING(victim) == NULL)) 
-				{
-					set_fighting(victim, ch);
-					if (MOB_FLAGGED(victim, MOB_MEMORY) && !IS_NPC(ch))
-						remember(victim, ch);
-				}
-		}
-	
+    {
+      /* Start the attacker fighting the victim */
+      if (GET_POS(ch) > POS_STUNNED && (FIGHTING(ch) == NULL))
+	set_fighting(ch, victim);
+      
+      /* Start the victim fighting the attacker */
+      if (GET_POS(victim) > POS_STUNNED && (FIGHTING(victim) == NULL)) 
+	{
+	  set_fighting(victim, ch);
+	  if (MOB_FLAGGED(victim, MOB_MEMORY) && !IS_NPC(ch))
+	    remember(victim, ch);
+	}
+    }
+  
   /* If you attack a pet, it hates your guts */
   if (victim->master == ch)
     stop_follower(victim);
@@ -1186,10 +1182,9 @@ int damage(struct char_data * ch, struct char_data * victim, int dam, int attack
     appear(ch);
 
 
-	dam = reduce_damage(dam, attacktype, ch, victim);
-	
-	GET_HIT(victim) -= dam;
-
+  dam = reduce_damage(dam, attacktype, ch, victim);
+  
+  GET_HIT(victim) -= dam;
 
   if (attacktype == TYPE_AREA_EFFECT) {
     struct obj_data *wielded = GET_EQ(ch, WEAR_WIELD);
@@ -1394,7 +1389,7 @@ int damage_from(struct char_data * ch, int type)
   /* Start with the damage bonuses: the damroll and strength apply */
   if (IS_PC(ch))
     {
-      dam += LIMIT(GET_STR(ch), 0, INT_MAX);
+      dam += LIMIT(GET_STR(ch) / 2.0, 0, INT_MAX);
       
       if (wielded && GET_OBJ_TYPE(wielded) == ITEM_WEAPON) 
 	{
@@ -1407,7 +1402,6 @@ int damage_from(struct char_data * ch, int type)
       dam += dice(ch->mob_specials.damnodice, ch->mob_specials.damsizedice); 
     } 
 
-  dam += GET_STR(ch);
   dam += GET_DAMROLL(ch);  
 
   if (type == SKILL_BACKSTAB) 
@@ -1422,81 +1416,111 @@ int damage_from(struct char_data * ch, int type)
 bool hit(struct char_data * ch, struct char_data * victim, int type)
 {
   int w_type, dam = 0, diceroll;
-  int level = GET_TOTAL_LEVEL(ch);
 
-	w_type = weapon_type(ch);
+  int to_hit_perc = 0;
+  int level_diff = 0;
+  int dex_diff = 0;
+  int hitroll_diff = 0;
+  int diffs = 0;
 
+  bool missed = FALSE;
+
+  w_type = weapon_type(ch);
+	
   /* check if the character has a fight trigger */
   fight_mtrigger(ch);
  
   /* Do some sanity checking, in case someone flees, etc. */
   if (ch->in_room != victim->in_room) 
-		{
-			if (FIGHTING(ch) && FIGHTING(ch) == victim)
-				stop_fighting(ch);
-			return FALSE;
-		}
-	
-  /* roll the die and take your chances... */
-  diceroll = number(1, 1000);
-	
-  //Main Evasion Calculation
-  if (IS_NPC(ch) && !MOB_FLAGGED(ch, MOB_EDIT))
-		diceroll += 60 + GET_LEVEL(ch)*2; 
-  else
-		diceroll += GET_DEX(ch)*5 + GET_HITROLL(ch)*5 + level/2;
-	
-  // End Evasion Code
-	
+    {
+      if (FIGHTING(ch) && FIGHTING(ch) == victim)
+	stop_fighting(ch);
+      return FALSE;
+    }
+
+  // for all of these
+  //  Positive == Hitter Better
+  //  Zero     == Equals
+  //  Negative == Victim Better
+  level_diff   = GET_LEVEL(ch)   - GET_LEVEL(victim);
+  dex_diff     = GET_DEX(ch)     - GET_DEX(victim);
+  hitroll_diff = GET_HITROLL(ch) - GET_HITROLL(victim);
+
+  diffs = level_diff + dex_diff + hitroll_diff; 
+
+  //sprintf(buf, "Your  diffs: %d", diffs);
+  //send_to_char(buf,ch);
+  //sprintf(buf, "Enemy diffs: %d", diffs);
+  //send_to_char(buf,victim);
+
+  to_hit_perc = 650 + diffs;
+
+  // if you are blind to miss a lot more
   if (AFF_FLAGGED(ch, AFF_BLIND))
-		diceroll -= 300; // Percent Chance of Missing
-	
-  if (AWAKE(victim) && GET_POS(victim) > POS_SLEEPING && diceroll < 350)
-		{
-			// Miss!
-			if (type == SKILL_BACKSTAB)
-				damage(ch, victim, 0, SKILL_BACKSTAB);
-			else
-				damage(ch, victim, 0, w_type);
-			return FALSE;
-		}
-	
+    to_hit_perc -= 500; 
 
-	
-	/* okay, we know the guy has been hit.  now calculate damage. */
+  //sprintf(buf, "Your  HitPerc: %d", to_hit_perc);
+  //send_to_char(buf,ch);
+  //sprintf(buf, "Enemy HitPerc: %d", to_hit_perc);
+  //send_to_char(buf,victim);
 
-	dam = damage_from(ch, type);
-	
-	/*
-	 * Include a damage multiplier if victim isn't ready to fight:
-	 *
-	 * Position sitting  1.33 x normal
-	 * Position resting  1.66 x normal
-	 * Position sleeping 2.00 x normal
-	 * Position stunned  2.33 x normal
-	 * Position incap    2.66 x normal
-	 * Position mortally 3.00 x normal
-	 *
-	 * Note, this is a hack because it depends on the particular
-	 * values of the POSITION_XXX constants.
-	 */
-	if (GET_POS(victim) < POS_FIGHTING)
-		dam *= 1 + (POS_FIGHTING - GET_POS(victim)) / 3;
-	
-	if (type == TYPE_AREA_EFFECT && GET_HIT(victim) - dam < 1 && number(1,5) != 5)
-		dam = GET_HIT(victim) - 1;
-	
-	if (type == SKILL_BACKSTAB) 
-		damage(ch, victim, dam, SKILL_BACKSTAB);
-	else if (type == SKILL_DOUBLE_STAB)
-		damage(ch, victim, dam, SKILL_DOUBLE_STAB);
-	else
-		damage(ch, victim, dam, w_type);
-	
-	
+  to_hit_perc = LIMIT(to_hit_perc, 0, 950); // Always a 5% chance of missing
+
+  diceroll = number(1, 1000);
+
+  //sprintf(buf, " DR: %d", diceroll);
+  //send_to_char(buf,ch);
+  //sprintf(buf, " DR: %d", diceroll);
+  //send_to_char(buf,victim);
+
+  missed = ((to_hit_perc > diceroll) ? FALSE : TRUE);
+
+  if (missed && AWAKE(victim) && GET_POS(victim) > POS_SLEEPING)
+    {
+      // Miss!
+      if (type == SKILL_BACKSTAB)
+	damage(ch, victim, 0, SKILL_BACKSTAB);
+      else
+	damage(ch, victim, 0, w_type);
+      return FALSE;
+    }
+  
+
+  
+  /* okay, we know the guy has been hit.  now calculate damage. */
+  
+  dam = damage_from(ch, type);
+  
+  /*
+   * Include a damage multiplier if victim isn't ready to fight:
+   *
+   * Position sitting  1.33 x normal
+   * Position resting  1.66 x normal
+   * Position sleeping 2.00 x normal
+   * Position stunned  2.33 x normal
+   * Position incap    2.66 x normal
+   * Position mortally 3.00 x normal
+   *
+   * Note, this is a hack because it depends on the particular
+   * values of the POSITION_XXX constants.
+   */
+  if (GET_POS(victim) < POS_FIGHTING)
+    dam *= 1 + (POS_FIGHTING - GET_POS(victim)) / 3;
+  
+  if (type == TYPE_AREA_EFFECT && GET_HIT(victim) - dam < 1 && number(1,5) != 5)
+    dam = GET_HIT(victim) - 1;
+  
+  if (type == SKILL_BACKSTAB) 
+    damage(ch, victim, dam, SKILL_BACKSTAB);
+  else if (type == SKILL_DOUBLE_STAB)
+    damage(ch, victim, dam, SKILL_DOUBLE_STAB);
+  else
+    damage(ch, victim, dam, w_type);
+  
+  
   /* check if the victim has a hitprcnt trigger */
-	hitprcnt_mtrigger(victim);
-	return TRUE;
+  hitprcnt_mtrigger(victim);
+  return TRUE;
 }
 
 int extra_attacks_from_level(struct char_data *ch)

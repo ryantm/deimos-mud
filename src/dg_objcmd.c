@@ -27,6 +27,8 @@ extern struct index_data *obj_index;
 extern const char *dirs[];
 extern int dg_owner_purged;
 
+
+
 char_data *get_char_by_obj(obj_data *obj, char *name);
 obj_data *get_obj_by_obj(obj_data *obj, char *name);
 void sub_write(char *arg, char_data *ch, byte find_invis, int targets);
@@ -37,6 +39,7 @@ long asciiflag_conv(char *flag);
 #define OCMD(name)  \
    void (name)(obj_data *obj, char *argument, int cmd, int subcmd)
 
+OCMD(do_ozoneecho);
 
 struct obj_command_info {
    char *command;
@@ -530,6 +533,7 @@ OCMD(do_odamage) {
 	      		world[ch->in_room].name);
       		mudlog(buf2, BRF, 0, TRUE);
 	    }
+    SET_BIT(PLR_FLAGS(ch), PLR_DEAD);
     	    die(ch, NULL);
 	}
     }
@@ -705,4 +709,24 @@ void obj_command_interpreter(obj_data *obj, char *argument)
     else
 	((*obj_cmd_info[cmd].command_pointer) 
 	 (obj, line, cmd, obj_cmd_info[cmd].subcmd));
+}
+
+OCMD(do_ozoneecho)
+{
+    int zone;
+    char room_number[MAX_INPUT_LENGTH], buf[MAX_INPUT_LENGTH], *msg;
+
+    msg = any_one_arg(argument, room_number);
+    skip_spaces(&msg);
+
+    if (!*room_number || !*msg)
+	obj_log(obj, "ozoneecho called with too few args");
+
+    else if ((zone = real_zone_by_thing(atoi(room_number))) == NOWHERE)
+	obj_log(obj, "ozoneecho called for nonexistant zone");
+
+    else {
+	sprintf(buf, "%s\r\n", msg);
+	send_to_zone(buf, zone);
+    }
 }

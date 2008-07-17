@@ -48,6 +48,8 @@ extern struct room_data *world;
 extern int dg_owner_purged;
 extern const char *dirs[];
 
+ACMD(do_mzoneecho);
+
 void die(struct char_data * ch, struct char_data *killer);
 
 void sub_write(char *arg, char_data *ch, byte find_invis, int targets);
@@ -1171,8 +1173,28 @@ ACMD(do_mdamage) {
             world[vict->in_room].name);
           mudlog(buf2, BRF, 0, TRUE);
       }
+    SET_BIT(PLR_FLAGS(vict), PLR_DEAD);
           die(vict, NULL);
   }
 
 }
 
+ACMD(do_mzoneecho)
+{
+    int zone;
+    char room_number[MAX_INPUT_LENGTH], buf[MAX_INPUT_LENGTH], *msg;
+
+    msg = any_one_arg(argument, room_number);
+    skip_spaces(&msg);
+
+    if (!*room_number || !*msg)
+        mob_log(ch, "mzoneecho called with too few args");
+
+    else if ((zone = real_zone_by_thing(atoi(room_number))) == NOWHERE)
+        mob_log(ch, "mzoneecho called for nonexistant zone");
+
+    else {
+        sprintf(buf, "%s\r\n", msg);
+        send_to_zone(buf, zone);
+    }
+}
