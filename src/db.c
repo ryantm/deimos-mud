@@ -1812,18 +1812,16 @@ void load_questions()
   char *this_name;
   FBFILE *fi1, *fi2;
 
-
   if (!(fi1 = fbopen("../lib/text/help/NewHelp/index", FB_READ)))
-  {
+    {
       log("Error: Cannot Open Question Help Files.");
       return;
-  }
+    }
   else
-  {
-
+    {
       while(fbgetline(fi1,buf))
-      {
-	  *entry = '\0';
+        {
+          *entry = '\0';
           sprintf(key,"%s", buf);
           sprintf(filename, "../lib/text/help/NewHelp/%s", buf);
           if (!(fi2 = fbopen(filename, FB_READ)))
@@ -1840,12 +1838,12 @@ void load_questions()
           el.entry = str_dup(entry);
           el.keyword = str_dup(key);
           for (this_name = el.keyword; *this_name; this_name++)
-             CAP(this_name);
+            CAP(this_name);
           el.modified = FALSE;
           question_table[top_of_questions] = el;
-          top_of_questions++;           
-      }
-  }
+          top_of_questions++;
+        }
+    }
   fbclose(fi1);
 }
 
