@@ -174,6 +174,7 @@ ACMD(do_mine);
 ACMD(do_not_here);
 ACMD(do_oasis);
 ACMD(do_oarchy);
+ACMD(do_olevel);
 ACMD(do_odelete);
 ACMD(do_offer);
 /* ACMD(do_olc); */
@@ -702,6 +703,7 @@ struct alias_data {
 #define IMM_ZSAVE        83
 #define IMM_ZHELP        84
 #define IMM_OARCHY       85
+#define IMM_OLEVEL       86
 
 
 

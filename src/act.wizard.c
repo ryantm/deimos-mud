@@ -5915,6 +5915,7 @@ cpp_extern struct immcmd immcmd_table[] =
 { "olc",IMM_OLC        , do_oasis     , LVL_IMMORT,LVL_IMMORT,SCMD_OLC_SAVEINFO},
 { "oedit",IMM_OEDIT      , do_oasis     , LVL_IMMORT,LVL_IMMORT,SCMD_OASIS_OEDIT},
 { "oarchy",IMM_OARCHY      , do_oarchy , LVL_IMMORT,LVL_IMMORT, 0},
+{ "olevel",IMM_OLEVEL      , do_olevel , LVL_IMMORT,LVL_IMMORT, 0},
 { "page",IMM_PAGE       , do_page      , LVL_IMMORT, LVL_IMMORT, 0},
 { "pardon",IMM_PARDON     , do_wizutil   , LVL_IMPL, LVL_IMMORT,SCMD_PARDON},
 { "peace",IMM_PEACE      , do_peace     , LVL_CREATOR, LVL_IMMORT, 0},
@@ -6048,118 +6049,117 @@ ACMD(do_wizhelp)
 
 int compareObjs(const void *l, const void *r) 
 {
+  struct obj_data **left;
+  struct obj_data **right;
+  long llevel, rlevel; int nr, ltemp = 0, rtemp = 0;
 
-            struct obj_data **left;
-            struct obj_data **right;
-            long llevel, rlevel; int nr, ltemp = 0, rtemp = 0;
+  left = (struct obj_data **)l;
+  right = (struct obj_data **)r;
+  //Level
+  llevel = (240 - GET_OBJ_LEVEL(*left)) / 240. * 10;
+  rlevel = (240 - GET_OBJ_LEVEL(*right)) / 240. * 10;
+  //Damroll
 
-            left = (struct obj_data **)l;
-            right = (struct obj_data **)r;
-            //Level
-            llevel = (240 - GET_OBJ_LEVEL(*left)) / 240. * 10;
-            rlevel = (240 - GET_OBJ_LEVEL(*right)) / 240. * 10;
-            //Damroll
+  for(nr = 0; nr < MAX_OBJ_AFFECT; nr++)
+    {
+      ltemp = (*left)->affected[nr].modifier;
+      if (ltemp == 0) continue;
+      switch((*left)->affected[nr].location)
+        {
+        case APPLY_STR:
+          llevel += (ltemp) / 5. * 13; break;
+        case APPLY_DEX:
+          llevel += (ltemp) / 5. * 5; break;
+        case APPLY_INT:
+          llevel += (ltemp) / 5. * 5; break;
+        case APPLY_WIS:
+          llevel += (ltemp) / 5. * 3; break;
+        case APPLY_CON:
+          llevel += (ltemp) / 5. * 5; break;
+        case APPLY_MANA:
+          llevel += (ltemp) / 25. * 8; break;
+        case APPLY_HIT:
+          llevel += (ltemp) / 25. * 6; break;
+        case APPLY_MOVE:
+          llevel += (ltemp) / 25. * 3; break;
+        case APPLY_AC:
+          llevel += (ltemp) / 10. * 12; break;
+        case APPLY_HITROLL:
+          llevel += (ltemp) / 5. * 18; break;
+        case APPLY_DAMROLL:
+          llevel += (ltemp) / 5. * 20; break;
+        }
+    }
 
-            for(nr = 0; nr < MAX_OBJ_AFFECT; nr++)
-            {
-              ltemp = (*left)->affected[nr].modifier;
-              if (ltemp == 0) continue;
-              switch((*left)->affected[nr].location)
-              {
-               case APPLY_STR:
-                llevel += (ltemp) / 5. * 13; break;
-               case APPLY_DEX:
-                llevel += (ltemp) / 5. * 5; break;
-               case APPLY_INT:
-                llevel += (ltemp) / 5. * 5; break;
-               case APPLY_WIS:
-                llevel += (ltemp) / 5. * 3; break;
-               case APPLY_CON:
-                llevel += (ltemp) / 5. * 5; break;
-               case APPLY_MANA:
-                llevel += (ltemp) / 25. * 8; break;
-               case APPLY_HIT:
-                llevel += (ltemp) / 25. * 6; break;
-               case APPLY_MOVE:
-                llevel += (ltemp) / 25. * 3; break;
-               case APPLY_AC:
-                llevel += (ltemp) / 10. * 12; break;
-               case APPLY_HITROLL:
-                llevel += (ltemp) / 5. * 18; break;
-               case APPLY_DAMROLL:
-                llevel += (ltemp) / 5. * 20; break;
-            }
-           }
-
-            for(nr = 0; nr < MAX_OBJ_AFFECT; nr++)
-            {
-              rtemp = (*right)->affected[nr].modifier;
-              if (rtemp == 0) continue;
-              switch((*right)->affected[nr].location)
-              {
-               case APPLY_STR:
-                rlevel += (rtemp) / 5. * 8; break;
-               case APPLY_DEX:
-                rlevel += (rtemp) / 5. * 6; break;
-               case APPLY_INT:
-                rlevel += (rtemp) / 5. * 5; break;
-               case APPLY_WIS:
-                rlevel += (rtemp) / 5. * 3; break;
-               case APPLY_CON:
-                rlevel += (rtemp) / 5. * 5; break;
-               case APPLY_MANA:
-                rlevel += (rtemp) / 25. * 5; break;
-               case APPLY_HIT:
-                rlevel += (rtemp) / 25. * 5; break;
-               case APPLY_MOVE:
-                rlevel += (rtemp) / 25. * 5; break;
-               case APPLY_AC:
-                rlevel += (rtemp) / 10. * 7; break;
-               case APPLY_HITROLL:
-                rlevel += (rtemp) / 5. * 8; break;
-               case APPLY_DAMROLL:
-                rlevel += (rtemp) / 5. * 9; break;
-            }
-           }
+  for(nr = 0; nr < MAX_OBJ_AFFECT; nr++)
+    {
+      rtemp = (*right)->affected[nr].modifier;
+      if (rtemp == 0) continue;
+      switch((*right)->affected[nr].location)
+        {
+        case APPLY_STR:
+          rlevel += (rtemp) / 5. * 8; break;
+        case APPLY_DEX:
+          rlevel += (rtemp) / 5. * 6; break;
+        case APPLY_INT:
+          rlevel += (rtemp) / 5. * 5; break;
+        case APPLY_WIS:
+          rlevel += (rtemp) / 5. * 3; break;
+        case APPLY_CON:
+          rlevel += (rtemp) / 5. * 5; break;
+        case APPLY_MANA:
+          rlevel += (rtemp) / 25. * 5; break;
+        case APPLY_HIT:
+          rlevel += (rtemp) / 25. * 5; break;
+        case APPLY_MOVE:
+          rlevel += (rtemp) / 25. * 5; break;
+        case APPLY_AC:
+          rlevel += (rtemp) / 10. * 7; break;
+        case APPLY_HITROLL:
+          rlevel += (rtemp) / 5. * 8; break;
+        case APPLY_DAMROLL:
+          rlevel += (rtemp) / 5. * 9; break;
+        }
+    }
       
-            if(llevel < rlevel)
-                return 1;
-            else if(llevel == rlevel)
-              return 0;
-            else
-             return -1;
+  if(llevel < rlevel)
+    return 1;
+  else if(llevel == rlevel)
+    return 0;
+  else
+    return -1;
 }
 
 int compareCosts(const void *l, const void *r) 
 {
-            struct obj_data **left;
-            struct obj_data **right;
-            long llevel, rlevel;
+  struct obj_data **left;
+  struct obj_data **right;
+  long llevel, rlevel;
 
-            left = (struct obj_data **)l;
-            right = (struct obj_data **)r;
-            if (GET_OBJ_TYPE(*left) != ITEM_MONEY)
-              llevel = GET_OBJ_COST(*left);
-            else
-              llevel = (*left)->obj_flags.value[0];
-            if (GET_OBJ_TYPE(*right) != ITEM_MONEY)
-               rlevel = GET_OBJ_COST(*right);
-            else
-               rlevel = (*right)->obj_flags.value[0];
+  left = (struct obj_data **)l;
+  right = (struct obj_data **)r;
+  if (GET_OBJ_TYPE(*left) != ITEM_MONEY)
+    llevel = GET_OBJ_COST(*left);
+  else
+    llevel = (*left)->obj_flags.value[0];
+  if (GET_OBJ_TYPE(*right) != ITEM_MONEY)
+    rlevel = GET_OBJ_COST(*right);
+  else
+    rlevel = (*right)->obj_flags.value[0];
       
-            if(llevel < rlevel)
-                return 1;
-            else if(llevel == rlevel)
-              return 0;
-            else
-             return -1;
+  if(llevel < rlevel)
+    return 1;
+  else if(llevel == rlevel)
+    return 0;
+  else
+    return -1;
 }
 
 ACMD(do_oarchy)
 {
    char arg1[MAX_INPUT_LENGTH];
    int aff = 0, pos = -1, nr, count = 0, object, size = 0, type = 0, i;
-   struct obj_data *theObjList[10000];
+   struct obj_data *theObjList[top_of_objt+1];
    bool objcost = 0;
    *buf = '\0';
 
@@ -6167,10 +6167,16 @@ ACMD(do_oarchy)
 
     if(!*arg1)
     {
-         send_to_char("You must specify which affect you want. Options are:", ch);
+         send_to_char("oarchy usage: oarchy <wear-position>\n", ch);
+         send_to_char("wear positions are:\n", ch);
+         for(aff = 0; *wear_bits[aff] != '\n'; aff++)
+           {
+             send_to_char(wear_bits[aff], ch);
+             send_to_char("\n", ch);
+           }
          return;
     }
-        
+    
     for(aff = 0; *wear_bits[aff] != '\n'; aff++)
         if(is_abbrev(arg1, wear_bits[aff]))
               break;
@@ -6185,7 +6191,7 @@ ACMD(do_oarchy)
      }
      pos = aff;
     }
-    //Create List of objects.   
+    //Create List of objects.
     for(object = 0; object <= top_of_objt; object++)
     { 
        if (objcost && (GET_OBJ_COST(&obj_proto[object]) == 0 || OBJ_FLAGGED(&obj_proto[object], ITEM_NOSELL))
@@ -6193,9 +6199,8 @@ ACMD(do_oarchy)
           continue;
        if(!objcost && pos != -1 && !CAN_WEAR(&obj_proto[object], 1 << pos))
            continue;
-       if (count == 10000) break;
-       theObjList[count++] = &obj_proto[object];               
-    }      
+       theObjList[count++] = &obj_proto[object];
+    }
     //Sort Objects
     if (!objcost)
       qsort(theObjList, count, sizeof(struct obj_data  *), compareObjs);
@@ -6214,7 +6219,7 @@ ACMD(do_oarchy)
            size = theObjList[i]->affected[nr].modifier;
            type = theObjList[i]->affected[nr].location;
 
-           if (size == 0) 
+           if (size == 0)
               break;
            sprintf(buf + strlen(buf), "  ");
            
@@ -6245,21 +6250,100 @@ ACMD(do_oarchy)
                 default:
                   sprintf(buf + strlen(buf), "&W%d&n", size);
                 break;
-               }                                                 
+               }
                sprintf(buf + strlen(buf), "&W%s&n", apply_types[type]);
             }
           }
             send_to_char(buf, ch);
             send_to_char("\r\n", ch);
      }
-         if (count > 200)
-         {
-            sprintf(buf,"&R200 out of %d displayed.&n\r\n", count);
-            send_to_char(buf, ch);
-         }
-        if(!count)
-           send_to_char("No items have that wear position.\r\n", ch);
-}               
+/*     if (count > 200) */
+/*       { */
+/*         sprintf(buf,"&R200 out of %d displayed.&n\r\n", count); */
+/*         send_to_char(buf, ch); */
+/*       } */
+    if(!count)
+      send_to_char("No items have that wear position.\r\n", ch);
+}
+
+
+ACMD(do_olevel)
+{
+  char arg1[MAX_INPUT_LENGTH];
+  struct obj_data *theObjList[top_of_objt+1];
+  int level = 0;
+  int aff = 0, pos = -1, nr, count = 0, object, size = 0, type = 0, i;
+  *buf = '\0';
+
+  one_argument(argument, arg1);
+  level = atoi(arg1);
+  if(level < 0)
+    {
+      send_to_char("You must specify a level greater than or equal to 0.", ch);
+      return;
+    }
+
+  //Create List of objects.
+  for(object = 0; object <= top_of_objt; object++)
+    { 
+      if(GET_OBJ_LEVEL(&obj_proto[object]) != level)
+        continue;
+      if(OBJ_FLAGGED(&obj_proto[object], ITEM_IMMONLY))
+        continue;
+      theObjList[count++] = &obj_proto[object];
+    }
+  //Sort Objects
+  qsort(theObjList, count, sizeof(struct obj_data  *), compareObjs);
+
+  for (i = MIN(count - 1, 100); i >= 0; i--)
+    {
+      sprintf(buf, "[%d] %s - ", GET_OBJ_VNUM(theObjList[i]), theObjList[i]->short_description);
+      for(nr = 0; nr < MAX_OBJ_AFFECT; nr++)
+        {
+          size = theObjList[i]->affected[nr].modifier;
+          type = theObjList[i]->affected[nr].location;
+
+          if (size == 0)
+            break;
+          sprintf(buf + strlen(buf), "  ");
+           
+          if(size < 0)
+            {
+              sprintf(buf + strlen(buf), "&r%d &n", size);
+              sprintf(buf + strlen(buf), "&W%s&n", apply_types[type]);
+            }
+          else
+            {
+              switch(size)
+                {
+                case 0:
+                  sprintf(buf + strlen(buf), "&r0&n");
+                  break;
+                case 1:
+                  sprintf(buf + strlen(buf), "&y1&n");
+                  break;
+                case 2:
+                  sprintf(buf + strlen(buf), "&g2&n");
+                  break;
+                case 3:
+                  sprintf(buf + strlen(buf), "&G3&n");
+                  break;
+                case 4:
+                  sprintf(buf + strlen(buf), "&C4&n");
+                  break;
+                default:
+                  sprintf(buf + strlen(buf), "&W%d&n", size);
+                  break;
+                }
+              sprintf(buf + strlen(buf), "&W%s&n", apply_types[type]);
+            }
+        }
+      send_to_char(buf, ch);
+      send_to_char("\r\n", ch);
+    }
+  if(!count)
+    send_to_char("No items have that level.\r\n", ch);
+}
 
 
 ACMD(do_happystart)

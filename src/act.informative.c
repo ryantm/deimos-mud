@@ -2892,11 +2892,10 @@ ACMD(do_affects)
  for (i = 0,af = ch->affected; af; af = af->next) 
  {  
    *sname = '\0';
-     strcpy(sname, skill_name(af->type));
+   strcpy(sname, skill_name(af->type));
    if (GET_LEVEL(ch) >= 30) 
    {  // first state is here
-     sprintf(buf, "&n%-22s affects you for %d hours&n\r\n",
-            (sname ? sname : "&n"), af->duration+1);
+     sprintf(buf, "&n%-22s affects you for %d hours&n\r\n", (sname ? sname : "&n"), af->duration+1);
      send_to_char(buf, ch);
    }
    if (af->bitvector && 

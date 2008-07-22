@@ -1049,6 +1049,7 @@ void powerup_mobile(struct char_data *mob, int level)
 	mob_defaults(mob, GET_LEVEL(mob) + level);
 }
 
+
 void mob_defaults(struct char_data *mob, int level)
 {
   if (MOB_FLAGGED(mob, MOB_EDIT))

@@ -5,13 +5,16 @@ Reproducable
 * people can multiplay with new characters
 * color prompt even with color off
 * Ranks are all screwed up
-* Firefighting consistently crashes mud (when fire times out?)
+* Chars are sometimes Fighting with no target
+* Person can get healed when "DEAD" which can result in seeing death messages with positive HP, and then your eq goes to UNKNOWN
+
 
 Cannot Reproduce
 * CRASH: gtitle crashes the game
 * CRASH: title with notitle on crashes game
 
 Enhancements
+* a way to get eq out of unknown location
 * separate gemote into gemote (works same as emote) and gact/gsocial? (works same as socials)
 * Make doors show in autoexit
 * Make "Invalid Name" tell you to ask Imm to DC you. better idea make it disconnect people.
@@ -30,6 +33,9 @@ Enhancements
 
 * make improved ranks with HTML output, gchart??
 * commaify bank transactions
+
+Fixes
+* add autodiag to toggles
 
 Needs Discussion
 

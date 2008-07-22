@@ -345,6 +345,7 @@ cpp_extern const struct command_info cmd_info[] = {
   {"olc", "olc", POS_DEAD, do_immcmd, LVL_IMMORT, IMM_OLC},
   {"oedit", "oed", POS_DEAD, do_immcmd, LVL_IMMORT, IMM_OEDIT},
   {"oarchy", "oarchy", POS_DEAD, do_immcmd, LVL_IMMORT, IMM_OARCHY},
+  {"olevel", "olevel", POS_DEAD, do_immcmd, LVL_IMMORT, IMM_OLEVEL},
   {"odelete", "odelete", POS_DEAD, do_odelete, LVL_IMMORT, 0},
 
   {"put", "p", POS_RESTING, do_put, 0, 0},
