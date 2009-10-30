@@ -1618,7 +1618,12 @@ void find_replacement(void *go, struct script_data *sc, trig_data *trig,
         if (o->worn_by)
           sprintf(str,"%c%ld",UID_CHAR, GET_ID(o->worn_by));
         else strcpy(str,"");
-      
+
+      else if (!str_cmp(field, "room"))
+				if (obj_room(o) != NOWHERE)
+					sprintf(str, "%c%ld",UID_CHAR, (long)world[obj_room(o)].number + ROOM_ID_BASE);
+        else strcpy(str,"");
+
       else {
 				*str = '\0';
 				sprintf(buf2,
