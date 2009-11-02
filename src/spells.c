@@ -274,6 +274,8 @@ ASPELL(spell_locate_object)
   struct obj_data *i;
   char *name = NULL;
   int j;
+  struct char_data *owner = NOBODY;
+
   if (!(ch && ch->player_specials && ch->player_specials->tmp_text))
   {
     send_to_char("You must supply a keyword for this spell.\r\n", ch);
@@ -295,13 +297,15 @@ ASPELL(spell_locate_object)
  
     if ((i->carried_by && !IS_NPC(i->carried_by)) || i->in_obj || (i->worn_by && !IS_NPC(i->worn_by)))
       continue;
-    else if (i->carried_by || i->worn_by)
-      sprintf(buf, "%s is in the possession of a mobile.\n\r",
-              i->short_description);
+    else if (i->carried_by || i->worn_by) {
+      owner = i->carried_by ? : i->worn_by;
+      sprintf(buf, "%s is in the possession of a mobile in %s.\n\r",
+              i->short_description, zone_table[world[owner->in_room].zone].name);
 //    else if (i->in_room != NOWHERE && 
 //      (GET_OBJ_TYPE(i) != ITEM_PCCORPSE) && (GET_OBJ_TYPE(i) !=
 //ITEM_ASSCORPSE))
 //      sprintf(buf, "%s is somewhere.\n\r", i->short_description);
+    }
     else if (i->in_room != NOWHERE)
       sprintf(buf, "%s is in %s.\n\r", i->short_description, world[i->in_room].name);       
     else
