@@ -132,7 +132,10 @@ int do_simple_move(struct char_data *ch, int dir, int need_specials_check)
   }
 
   /* move points needed is avg. move loss for src and destination sect type */
-  need_movement = (movement_loss[SECT(ch->in_room)]);
+  if (GET_LEVEL(ch) < LVL_IMMORT)
+  	need_movement = (movement_loss[SECT(ch->in_room)]);
+  else
+		need_movement = 0;
 
   if (GET_MOVE(ch) < need_movement && !IS_NPC(ch)) {
     if (need_specials_check && ch->master)
