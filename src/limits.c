@@ -446,11 +446,11 @@ void check_careers(void) {
   for (i = character_list; i; i = next_char) {
     next_char = i->next;    
 
-    if (PLR_FLAGGED2(i, PLR2_FISHING) &&
+    if ((PLR_FLAGGED2(i, PLR2_FISHING) || MOB_FLAGGED2(i, PLR2_FISHING)) &&
        !ROOM_FLAGGED(i->in_room, ROOM_FISH))
       REMOVE_BIT(PLR_FLAGS2(i), PLR2_FISHING);
 
-    if (PLR_FLAGGED2(i, PLR2_FISHING)) {
+    if (PLR_FLAGGED2(i, PLR2_FISHING) || MOB_FLAGGED2(i, PLR2_FISHING)) {
       bite = number(1, 10);
 
       if (bite >= 7 && bite <= 8) {

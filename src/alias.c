@@ -26,7 +26,7 @@ void write_aliases(struct char_data *ch)
   struct alias_data *temp;
 
   get_filename(GET_NAME(ch), fn, ALIAS_FILE);
-  remove(fn);
+  /*remove(fn); do we really need this? fopen w should overwrite*/
 
   if (GET_ALIASES(ch) == NULL)
     return;

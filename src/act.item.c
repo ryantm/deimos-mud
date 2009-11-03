@@ -1886,7 +1886,7 @@ ACMD(do_castout)
   struct obj_data *pole;
   int fail;
 
-  if (PLR_FLAGGED2(ch, PLR2_FISHING)) {
+  if (PLR_FLAGGED2(ch, PLR2_FISHING) || MOB_FLAGGED2(ch, PLR2_FISHING)) {
     send_to_char("You are already fishing!\r\n", ch);
     return;
 
@@ -1932,7 +1932,7 @@ ACMD(do_reelin)
   int success, f_num, fish_num, lose;
   struct obj_data *fish, *pole;
 
-  if (!PLR_FLAGGED2(ch, PLR2_FISHING)) {
+  if (!(PLR_FLAGGED2(ch, PLR2_FISHING) || MOB_FLAGGED2(ch, PLR2_FISHING))) {
     send_to_char("You aren't even fishing!\r\n", ch);
     return;
   }
@@ -1952,7 +1952,7 @@ ACMD(do_reelin)
    return;
   }
 
-  if (!PLR_FLAGGED2(ch, PLR2_FISH_ON)) {
+  if (!(PLR_FLAGGED2(ch, PLR2_FISH_ON) || MOB_FLAGGED2(ch, PLR2_FISH_ON))) {
     send_to_char("You reel in your line, but alas... nothing on the end.\r\n"
                  "Better luck next time.\r\n", ch);
     REMOVE_BIT(PLR_FLAGS2(ch), PLR2_FISHING);

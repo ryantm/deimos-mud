@@ -207,7 +207,8 @@ int do_simple_move(struct char_data *ch, int dir, int need_specials_check)
 
   was_in = ch->in_room;
   if (ROOM_FLAGGED(ch->in_room, ROOM_FISH) &&
-      (PLR_FLAGGED2(ch, PLR2_FISHING) || PLR_FLAGGED2(ch, PLR2_FISH_ON))) {
+      (PLR_FLAGGED2(ch, PLR2_FISHING) || PLR_FLAGGED2(ch, PLR2_FISH_ON) ||
+      MOB_FLAGGED2(ch, PLR2_FISHING) || MOB_FLAGGED2(ch, PLR2_FISH_ON))) {
     REMOVE_BIT(PLR_FLAGS2(ch), PLR2_FISHING);
     REMOVE_BIT(PLR_FLAGS2(ch), PLR2_FISH_ON);
     send_to_char("\r\nYou pack up your fishing gear and move on.\r\n\r\n", ch);

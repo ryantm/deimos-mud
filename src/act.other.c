@@ -2599,9 +2599,9 @@ ACMD(do_stop) {
  obj_vnum yo = 2580;
  struct obj_data *fire;
 
- if (PLR_FLAGGED2(ch, PLR2_FISHING)) {
+ if (PLR_FLAGGED2(ch, PLR2_FISHING) || MOB_FLAGGED2(ch, PLR2_FISHING)) {
   REMOVE_BIT(PLR_FLAGS2(ch), PLR2_FISHING);
- if (PLR_FLAGGED2(ch, PLR2_FISH_ON)) {
+ if (PLR_FLAGGED2(ch, PLR2_FISH_ON) || MOB_FLAGGED2(ch, PLR2_FISH_ON)) {
   REMOVE_BIT(PLR_FLAGS2(ch), PLR2_FISH_ON);
   }
   send_to_char("You decide to stop fishing\r\n", ch);
