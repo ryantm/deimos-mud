@@ -232,7 +232,7 @@ void    check_fishing(void);
 
 #define MOB_FLAGGED(ch, flag) (IS_NPC(ch) && IS_SET(MOB_FLAGS(ch), (flag)))
 #define PLR_FLAGGED(ch, flag) (!IS_NPC(ch) && IS_SET(PLR_FLAGS(ch), (flag)))
-#define MOB_FLAGGED2(ch, flag) (!IS_NPC(ch) && IS_SET(PLR_FLAGS2(ch), (flag)))
+#define MOB_FLAGGED2(ch, flag) (IS_NPC(ch) && IS_SET(PLR_FLAGS2(ch), (flag)))
 #define PLR_FLAGGED2(ch, flag) (!IS_NPC(ch) && IS_SET(PLR_FLAGS2(ch), (flag)))
 #define AFF_FLAGGED(ch, flag) (IS_SET(AFF_FLAGS(ch), (flag)))
 #define PRF_FLAGGED(ch, flag) (IS_SET(PRF_FLAGS(ch), (flag)))

@@ -1896,7 +1896,7 @@ ACMD(do_who)
 
      if (PLR_FLAGGED(wch, PLR_MAILING))
        strcat(buf, " &w(mailing)&n");
-		else if (STATE(wch->desc) >= CON_OEDIT && STATE(wch->desc) <= CON_HEDIT)
+		else if (wch->desc && STATE(wch->desc) >= CON_OEDIT && STATE(wch->desc) <= CON_HEDIT)
 			strcat(buf, " &w(editing)&n");
      else if (PLR_FLAGGED(wch, PLR_WRITING))
        strcat(buf, " &w(writing)&n");

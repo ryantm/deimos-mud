@@ -1328,8 +1328,10 @@ ACMD(do_recall)
 			return;
 		}
 	
-	GET_MANA(ch) = (int)(GET_MANA(ch) * 0.25);
-	GET_MOVE(ch) = (int)(GET_MOVE(ch) * 0.25);
+  if(GET_LEVEL(ch) < LVL_IMMORT) {
+		GET_MANA(ch) = (int)(GET_MANA(ch) * 0.25);
+		GET_MOVE(ch) = (int)(GET_MOVE(ch) * 0.25);
+  }
 
 	send_to_char("Recalling...\r\n", ch);
 	send_to_char("&RYou are le tired.&n\r\n", ch);
