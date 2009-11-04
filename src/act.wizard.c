@@ -6272,7 +6272,7 @@ ACMD(do_olevel)
   char arg1[MAX_INPUT_LENGTH];
   struct obj_data *theObjList[top_of_objt+1];
   int level = 0;
-  int aff = 0, pos = -1, nr, count = 0, object, size = 0, type = 0, i;
+  int /*aff = 0, pos = -1,*/ nr, count = 0, object, size = 0, type = 0, i;
   *buf = '\0';
 
   one_argument(argument, arg1);
@@ -6346,7 +6346,7 @@ ACMD(do_olevel)
 }
 
 
-ACMD(do_happystart)
+/*ACMD(do_happystart)
 {
   int happystart, w, h, m;
   char * wkday[] = {"Sun", "Mon", "Tues", "Wednes",
@@ -6448,10 +6448,36 @@ ACMD(do_happyend)
     }
   }
   do_date(ch, "", 0, 0); 
-}
+}*/
 
 ACMD(do_happytimes)
 {
-  do_happystart(ch, "", 0, 0);
-  do_happyend(ch, "", 0, 0);
+  time_t rawtime;
+  struct tm * mytm;
+  int mytime, happystart1, happyend1, happystart2, happyend2, happystart3, happyend3, happystart4, happyend4, happystart5, happyend5, happystart6, happyend6, happystart7, happyend7;
+
+
+  time(&rawtime);
+  mytm = localtime(&rawtime);
+  mytime = mytm->tm_wday * 10000 + mytm->tm_hour * 100 + mytm->tm_min;
+
+  sscanf(happytimes, "%d\n%d\n%d\n%d\n%d\n%d\n%d\n%d\n%d\n%d\n%d\n%d\n%d\n%d",
+		&happystart1, &happyend1, &happystart2, &happyend2,
+		&happystart3, &happyend3, &happystart4, &happyend4,
+		&happystart5, &happyend5, &happystart6, &happyend6,
+		&happystart7, &happyend7);
+
+ sprintf(buf,               "1. %d to %d\r\n", happystart1, happyend1);
+ sprintf(buf + strlen(buf), "2. %d to %d\r\n", happystart2, happyend2);
+ sprintf(buf + strlen(buf), "3. %d to %d\r\n", happystart3, happyend3);
+ sprintf(buf + strlen(buf), "4. %d to %d\r\n", happystart4, happyend4);
+ sprintf(buf + strlen(buf), "5. %d to %d\r\n", happystart5, happyend5);
+ sprintf(buf + strlen(buf), "6. %d to %d\r\n", happystart6, happyend6);
+ sprintf(buf + strlen(buf), "7. %d to %d\r\n", happystart7, happyend7);
+ sprintf(buf + strlen(buf), "Currently: %d\r\n", mytime);
+    send_to_char(buf, ch);
+
+
+
+  do_date(ch, "", 0, 0); 
 }

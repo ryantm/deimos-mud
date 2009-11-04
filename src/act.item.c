@@ -1947,6 +1947,7 @@ ACMD(do_reelin)
   if (lose == 1) {
    extract_obj(pole);
    send_to_char("A fish pulls the fishing pole out of your hands!\r\n", ch);
+    act("A fish pulls $n's fishing pole right out of $s hands!\r\n", FALSE, ch, 0, 0, TO_ROOM);
    REMOVE_BIT(PLR_FLAGS2(ch), PLR2_FISHING);
    REMOVE_BIT(PLR_FLAGS2(ch), PLR2_FISH_ON);
    return;
@@ -1990,6 +1991,7 @@ ACMD(do_reelin)
     fish = read_object(f_num, REAL);
     sprintf(buf, "You reel in %s! Nice catch!\r\n", fish->short_description);
     send_to_char(buf, ch);
+    act("$n reels in a big one! What a nice catch!\r\n", FALSE, ch, 0, 0, TO_ROOM);
     obj_to_char(fish, ch);
     return;
   } else

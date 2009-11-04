@@ -144,8 +144,8 @@ ACMD(do_gtitle);
 ACMD(do_gjob);
 ACMD(do_gwho);
 ACMD(do_haffinate);
-ACMD(do_happystart);
-ACMD(do_happyend);
+/*ACMD(do_happystart);
+ACMD(do_happyend);*/
 ACMD(do_happytimes);
 ACMD(do_hcontrol);
 ACMD(do_help);

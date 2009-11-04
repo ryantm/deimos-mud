@@ -188,6 +188,54 @@ obj_data *get_object_in_equip(char_data * ch, char *name)
     return NULL;
 }
 
+/** Figures out if the argument is a valid location to 'wear' equipment.
+ * Handles 'held', 'light' and 'wield' positions - Welcor. After idea from
+ * Byron Ellacott.
+ * @param arg Either the name of the position, or the number of a wear
+ * location definition to check for.
+ * @retval int If arg is not a valid wear location name or number, return
+ * -1, else return the defined number of the wear location.
+ */
+int find_eq_pos_script(char *arg)
+{
+  int i;
+  struct eq_pos_list {
+    const char *pos;
+    int where;
+  } eq_pos[] = {
+    {"hold",     WEAR_HOLD},
+    {"held",     WEAR_HOLD},
+    {"light",    WEAR_LIGHT},
+    {"wield",    WEAR_WIELD},
+    {"rfinger",  WEAR_FINGER_R},
+    {"lfinger",  WEAR_FINGER_L},
+    {"neck1",    WEAR_NECK_1},
+    {"neck2",    WEAR_NECK_2},
+    {"body",     WEAR_BODY},
+    {"head",     WEAR_HEAD},
+    {"legs",     WEAR_LEGS},
+    {"feet",     WEAR_FEET},
+    {"hands",    WEAR_HANDS},
+    {"arms",     WEAR_ARMS},
+    {"shield",   WEAR_SHIELD},
+    {"about",    WEAR_ABOUT},
+    {"waist",    WEAR_WAIST},
+    {"rwrist",   WEAR_WRIST_R},
+    {"lwrist",   WEAR_WRIST_L},
+    {"none", -1}
+  };
+
+  if (is_number(arg) && (i = atoi(arg)) >= 0 && i < NUM_WEARS)
+    return i;
+
+  for (i = 0;eq_pos[i].where != -1;i++) {
+    if (!str_cmp(eq_pos[i].pos, arg))
+      return eq_pos[i].where;
+  }
+  return (-1);
+}
+
+
 /************************************************************
  * search by number routines
  ************************************************************/
@@ -1162,7 +1210,7 @@ void find_replacement(void *go, struct script_data *sc, trig_data *trig,
   obj_data *obj, *o = NULL;
   struct room_data *room, *r = NULL;
   char *name;
-  int num, count;
+  int num, count, i, j;
 
   char *send_cmd[] = {"msend", "osend", "wsend"};
   char *echo_cmd[] = {"mecho", "oecho", "wecho"};
@@ -1522,17 +1570,23 @@ void find_replacement(void *go, struct script_data *sc, trig_data *trig,
         strcpy(str,skill_percent(c, subfield));
 			
       else if (!str_cmp(field, "eq")) {
-        int pos = find_eq_pos(c, NULL, subfield);
-        if (pos==-1 && isdigit(*subfield))
-          pos = atoi(subfield);
-        if (!subfield || !*subfield || pos < 0 || pos > NUM_WEARS)
+        int pos;
+        if (!subfield || !*subfield)
           strcpy(str,"");
-        else {
-          if (!GET_EQ(c, pos))
-            strcpy(str,"");
-          else
-            sprintf(str,"%c%ld",UID_CHAR, GET_ID(GET_EQ(c, pos)));
-        }
+				else if (*subfield == '*') {
+          for (i = 0, j = 0; i < NUM_WEARS; i++)
+            if (GET_EQ(c, i)) {
+              j++;
+              break;
+            }
+					if (j > 0)
+						strcpy(str,"1");
+					else
+						strcpy(str,"");
+				} else if ((pos = find_eq_pos_script(subfield)) < 0 || !GET_EQ(c, pos))
+          strcpy(str,"");
+        else
+          sprintf(str,"%c%ld",UID_CHAR, GET_ID(GET_EQ(c, pos)));
       }
 
       else if (!str_cmp(field, "varexists")) {

@@ -271,8 +271,8 @@ cpp_extern const struct command_info cmd_info[] = {
   {"gain", "gain", POS_RESTING, do_not_here, 0, 0},
 
   {"haffinate", "haffinate", POS_STANDING, do_immcmd, LVL_IMMORT, IMM_HAFF},
-  {"happystart", "happystart", POS_DEAD, do_happystart, LVL_GRGOD, 0},
-  {"happyend", "happyend", POS_DEAD, do_happyend, LVL_GRGOD, 0},
+  /*{"happystart", "happystart", POS_DEAD, do_happystart, LVL_GRGOD, 0},
+  {"happyend", "happyend", POS_DEAD, do_happyend, LVL_GRGOD, 0},*/
   {"happytimes", "happytimes", POS_DEAD, do_happytimes, 0, 0},
   {"hearall", "hearall", POS_DEAD, do_immcmd, LVL_IMMORT, IMM_HEARALL},
   {"hearlevel", "hearlevel", POS_DEAD, do_gen_togx, 0, SCMD_HEARLEVEL},

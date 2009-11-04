@@ -54,7 +54,7 @@ void autoall(struct char_data *ch);
 /* Names first */
 
 const char *class_abbrevs[] = {
-  "Mu",
+  "Ma",
   "Cl",
   "Th",
   "Wa",
@@ -63,7 +63,7 @@ const char *class_abbrevs[] = {
 
 
 const char *pc_class_types[] = {
-  "Magic User",
+  "Mage",
   "Cleric",
   "Thief",
   "Warrior",

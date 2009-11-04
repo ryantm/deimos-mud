@@ -2876,7 +2876,7 @@ void happycheck()
 {
   time_t rawtime;
   struct tm * mytm;
-  int mytime, happystart1, happyend1, happystart2, happyend2, happystart3, happyend3, happystart4, happyend4, happystart5, happyend5, happystart6, happyend6, happystart7, happyend7, happystart8,happyend8;
+  int mytime, happystart1, happyend1, happystart2, happyend2, happystart3, happyend3, happystart4, happyend4, happystart5, happyend5, happystart6, happyend6, happystart7, happyend7;
 
   bool shouldhappy = FALSE;
   
@@ -2884,11 +2884,11 @@ void happycheck()
   mytm = localtime(&rawtime);
   mytime = mytm->tm_wday * 10000 + mytm->tm_hour * 100 + mytm->tm_min;
   
-  sscanf(happytimes, 
-"%d\n%d\n%d\n%d\n%d\n%d\n%d\n%d\n%d\n%d\n%d\n%d\n%d\n%d\n%d\n%d", 
-&happystart1, &happyend1, &happystart2, &happyend2, &happystart3, &happyend3 , &happystart4, 
-&happyend4 , &happystart5, &happyend5 , &happystart6, &happyend6 , &happystart7, 
-&happyend7,&happystart8,&happyend8);
+  sscanf(happytimes, "%d\n%d\n%d\n%d\n%d\n%d\n%d\n%d\n%d\n%d\n%d\n%d\n%d\n%d", 
+		&happystart1, &happyend1, &happystart2, &happyend2,
+		&happystart3, &happyend3, &happystart4, &happyend4,
+		&happystart5, &happyend5, &happystart6, &happyend6,
+		&happystart7, &happyend7);
 
   	if (happystart1 < happyend1) { //happy if inside
    		 if (happystart1 <= mytime && mytime < happyend1) {shouldhappy = TRUE;}
@@ -2924,11 +2924,6 @@ void happycheck()
    		 if (happystart7 <= mytime && mytime < happyend7) {shouldhappy = TRUE;}
  	 } else if (happyend7 < happystart7) { //happy if outside
     		if (mytime < happyend7 || happystart7 <= mytime) {shouldhappy = TRUE;}
-  	}
-  	if (happystart8 < happyend8) { //happy if inside
-   		 if (happystart8 <= mytime && mytime < happyend8) {shouldhappy = TRUE;}
- 	 } else if (happyend8 < happystart8) { //happy if outside
-    		if (mytime < happyend8 || happystart8 <= mytime) {shouldhappy = TRUE;}
   	}
 
   if ((shouldhappy && !ISHAPPY) || (!shouldhappy && ISHAPPY)) { //something happens
