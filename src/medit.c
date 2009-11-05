@@ -45,6 +45,7 @@ extern struct specproc_info mob_procs[];
 #if CONFIG_OASIS_MPROG
 extern const char *mobprog_types[];
 #endif
+extern time_t boot_time;
 
 /*-------------------------------------------------------------------*/
 
@@ -1106,10 +1107,16 @@ void give_chunks_to_mobile(struct char_data *mob)
   int chance_of_thousand = 0;
   int percent = number(1,100);
   struct obj_data *chunk = NULL;
+	time_t uptime;
+  uptime = time(0) - boot_time;
 
-  if (IS_NPC(mob))
+  if (IS_NPC(mob) && !MOB_FLAGGED(mob, MOB_NOHIT))
   {
-    chance_of_thousand = (int)((GET_LEVEL(mob) * GET_LEVEL(mob))/ 100.)-5;
+    chance_of_thousand = (int)((GET_LEVEL(mob) * GET_LEVEL(mob))/ 75.)-6;
+
+    if (uptime < 60 * 5) // game has been up for less than 5 minutes
+			chance_of_thousand /= 2; //cut chances in half
+
     if (number(1,1000) < chance_of_thousand)
     {
        if (GET_LEVEL(mob) > 60 && percent < 70)

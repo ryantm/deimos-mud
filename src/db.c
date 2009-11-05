@@ -400,6 +400,8 @@ void boot_db(void)
   FBFILE *fl;
   zone_rnum i;
 
+  boot_time = time(0);
+
   log("Resetting the game time:");
   reset_time();
 
@@ -508,7 +510,6 @@ void boot_db(void)
 	
   reset_q.head = reset_q.tail = NULL;
 
-  boot_time = time(0);
 
   log("Booting Econreset.");
   if (!(fl = fbopen("../lib/etc/econresetsave", FB_READ))) 

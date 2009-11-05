@@ -235,6 +235,35 @@ int find_eq_pos_script(char *arg)
   return (-1);
 }
 
+/** Figures out if an object can be worn on a defined wear location.
+ * @param obj The object to check.
+ * @param pos The defined wear location to check.
+ * @retval int TRUE if obj can be worn on pos, FALSE if not.
+ */
+int can_wear_on_pos(struct obj_data *obj, int pos)
+{
+  switch (pos) {
+    case WEAR_HOLD:
+    case WEAR_LIGHT:    return CAN_WEAR(obj, ITEM_WEAR_HOLD);
+    case WEAR_WIELD:    return CAN_WEAR(obj, ITEM_WEAR_WIELD);
+    case WEAR_FINGER_R:
+    case WEAR_FINGER_L: return CAN_WEAR(obj, ITEM_WEAR_FINGER);
+    case WEAR_NECK_1:
+    case WEAR_NECK_2:   return CAN_WEAR(obj, ITEM_WEAR_NECK);
+    case WEAR_BODY:     return CAN_WEAR(obj, ITEM_WEAR_BODY);
+    case WEAR_HEAD:     return CAN_WEAR(obj, ITEM_WEAR_HEAD);
+    case WEAR_LEGS:     return CAN_WEAR(obj, ITEM_WEAR_LEGS);
+    case WEAR_FEET:     return CAN_WEAR(obj, ITEM_WEAR_FEET);
+    case WEAR_HANDS:    return CAN_WEAR(obj, ITEM_WEAR_HANDS);
+    case WEAR_ARMS:     return CAN_WEAR(obj, ITEM_WEAR_ARMS);
+    case WEAR_SHIELD:   return CAN_WEAR(obj, ITEM_WEAR_SHIELD);
+    case WEAR_ABOUT:    return CAN_WEAR(obj, ITEM_WEAR_ABOUT);
+    case WEAR_WAIST:    return CAN_WEAR(obj, ITEM_WEAR_WAIST);
+    case WEAR_WRIST_R:
+    case WEAR_WRIST_L:  return CAN_WEAR(obj, ITEM_WEAR_WRIST);
+    default: return FALSE;
+  }
+}
 
 /************************************************************
  * search by number routines
@@ -304,6 +333,89 @@ char_data *get_char(char *name)
     }
 
     return NULL;
+}
+
+
+/** Find a character by name in the same room as a known object.
+ * @todo Should this function not be constrained to the same room as an object
+ * if 'name' is a unique id?
+ * @param obj An object that will constrain the search to the location that
+ * the object is in *if* the name argument is not a unique id.
+ * @param name Character name keyword to search for, or unique ID. Unique
+ * id must be prefixed with UID_CHAR.
+ * @retval char_data * Pointer to the the char if found, NULL if not. Will
+ * only find god characters if DG_ALLOW_GODS is on. */
+char_data *get_char_near_obj(obj_data *obj, char *name)
+{
+  char_data *ch;
+
+  if (*name == UID_CHAR) {
+    ch = find_char(atoi(name + 1));
+
+    if (ch && (IS_NPC(ch) || !GET_INVIS_LEV(ch)))
+      return ch;
+} else {
+    room_rnum num;
+    if ((num = obj_room(obj)) != NOWHERE)
+      for (ch = world[num].people; ch; ch = ch->next_in_room)
+        if (isname(name, ch->player.name) &&
+           (IS_NPC(ch) || !GET_INVIS_LEV(ch)))
+      return ch;
+          return ch;
+  }
+
+  return NULL;
+}
+
+/** Find a named object near another object (either in the same room, as
+ * a container or contained by).
+ * @param obj The obj with which to constrain the search.
+ * @param name The keyword of the object to search for. If 'self' or 'me'
+ * are passed in as arguments, obj is returned. Can also be a unique object
+ * id, and if so it must be prefixed with UID_CHAR.
+ * @retval obj_data * Pointer to the object if found, NULL if not. */
+obj_data *get_obj_near_obj(obj_data *obj, char *name)
+{
+  obj_data *i = NULL;
+  char_data *ch;
+  int rm;
+  long id;
+
+  if (!str_cmp(name, "self") || !str_cmp(name, "me"))
+    return obj;
+
+  /* is it inside ? */
+  if (obj->contains && (i = get_obj_in_list(name, obj->contains)))
+    return i;
+
+  /* or outside ? */
+  if (obj->in_obj) {
+    if (*name == UID_CHAR) {
+       id = atoi(name + 1);
+
+      if (id == GET_ID(obj->in_obj))
+        return obj->in_obj;
+    } else if (isname(name, obj->in_obj->name))
+      return obj->in_obj;
+  }
+  /* or worn ?*/
+  else if (obj->worn_by && (i = get_object_in_equip(obj->worn_by, name)))
+    return i;
+  /* or carried ? */
+  else if (obj->carried_by &&
+          (i = get_obj_in_list(name, obj->carried_by->carrying)))
+    return i;
+  else if ((rm = obj_room(obj)) != NOWHERE) {
+    /* check the floor */
+    if ((i = get_obj_in_list(name, world[rm].contents)))
+      return i;
+
+    /* check peoples' inventory */
+    for (ch = world[rm].people;ch ; ch = ch->next_in_room)
+      if ((i = get_object_in_equip(ch, name)))
+        return i;
+  }
+  return NULL;
 }
 
 
@@ -1677,6 +1789,17 @@ void find_replacement(void *go, struct script_data *sc, trig_data *trig,
 				if (obj_room(o) != NOWHERE)
 					sprintf(str, "%c%ld",UID_CHAR, (long)world[obj_room(o)].number + ROOM_ID_BASE);
         else strcpy(str,"");
+
+			else if (!str_cmp(field, "contents")) {
+      	if (o->contains)
+					sprintf(str, "%c%ld", UID_CHAR, GET_ID(o->contains));
+        else strcpy(str,"");
+			}
+			else if (!str_cmp(field, "next_in_list")) {
+				if (o->next_content)
+					sprintf(str, "%c%ld",UID_CHAR, GET_ID(o->next_content));
+        else strcpy(str,"");
+			}
 
       else {
 				*str = '\0';

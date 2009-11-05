@@ -181,6 +181,7 @@ void load_otrigger(struct obj_data *obj);
 
 /* function prototypes from scripts.c */
 int find_eq_pos_script(char *arg);
+int can_wear_on_pos(struct obj_data *obj, int pos);
 
 void script_trigger_check(void);
 void add_trigger(struct script_data *sc, struct trig_data *t, int loc);

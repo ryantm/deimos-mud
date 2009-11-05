@@ -436,8 +436,12 @@ OCMD(do_dgoload)
     int number = 0, room;
     char_data *mob;
     obj_data *object;
+		char *target;
+		char_data *tch;
+    obj_data *cnt;
+    int pos;
 
-    two_arguments(argument, arg1, arg2);
+    target = two_arguments(argument, arg1, arg2);
 
     if (!*arg1 || !*arg2 || !is_number(arg2) || ((number = atoi(arg2)) < 0))
     {
@@ -450,18 +454,33 @@ OCMD(do_dgoload)
         obj_log(obj, "oload: object in NOWHERE trying to load");
         return;
     }
-    
-    if (is_abbrev(arg1, "mob"))
-    {
-        if ((mob = read_mobile(number, VIRTUAL)) == NULL)
-        {
-            obj_log(obj, "oload: bad mob vnum");
-            return;
+
+		/* load mob to target room - Jamie Nelson, April 13 2004 */
+    if (is_abbrev(arg1, "mob")) {
+      room_rnum rnum;
+      if (!target || !*target) {
+        rnum = room;
+      } else {
+        if (!isdigit(*target) || (rnum = real_room(atoi(target))) == NOWHERE) {
+          obj_log(obj, "oload: room target vnum doesn't exist");
+          return;
         }
-        char_to_room(mob, room);
-        load_mtrigger(mob);
+      }
+      if ((mob = read_mobile(number, VIRTUAL)) == NULL) {
+        obj_log(obj, "oload: bad mob vnum");
+        return;
+      }
+      char_to_room(mob, rnum);
+
+      if (SCRIPT(obj)) { /* It _should_ have, but it might be detached. */
+        char buf[MAX_INPUT_LENGTH];
+        sprintf(buf, "%c%ld", UID_CHAR, GET_ID(mob));
+        add_var(&(SCRIPT(obj)->global_vars), "lastloaded", buf, 0);
+      }
+
+      load_mtrigger(mob);
     }
-     
+    
     else if (is_abbrev(arg1, "obj"))
     {
         if ((object = read_object(number, VIRTUAL)) == NULL)
@@ -470,8 +489,40 @@ OCMD(do_dgoload)
             return;
         }
 
+         if (SCRIPT(obj)) { /* It _should_ have, but it might be detached. */
+        char buf[MAX_INPUT_LENGTH];
+        sprintf(buf, "%c%ld", UID_CHAR, GET_ID(object));
+        add_var(&(SCRIPT(obj)->global_vars), "lastloaded", buf, 0);
+      }
+
+      /* special handling to make objects able to load on a person/in a container/worn etc. */
+      if (!target || !*target) {
         obj_to_room(object, room);
         load_otrigger(object);
+        return;
+      }
+      two_arguments(target, arg1, arg2); /* recycling ... */
+      tch = get_char_near_obj(obj, arg1);
+      if (tch) {
+        if (arg2 != NULL && *arg2 && (pos = find_eq_pos_script(arg2)) >= 0 &&
+            !GET_EQ(tch, pos) && can_wear_on_pos(object, pos)) {
+          equip_char(tch, object, pos);
+          load_otrigger(object);
+          return;
+        }
+        obj_to_char(object, tch);
+        load_otrigger(object);
+        return;
+      }
+      cnt = get_obj_near_obj(obj, arg1);
+      if (cnt && GET_OBJ_TYPE(cnt) == ITEM_CONTAINER) {
+        obj_to_obj(object, cnt);
+        load_otrigger(object);
+        return;
+      }
+      /* neither char nor container found - just dump it in room */
+      obj_to_room(object, room);
+			load_otrigger(object);
     }
          
     else

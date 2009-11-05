@@ -39,6 +39,7 @@ struct obj_data *get_obj_in_list(char *name, struct obj_data *list);
 struct obj_data *get_obj_in_list_num(int num, struct obj_data *list);
 struct obj_data *get_obj(char *name);
 struct obj_data *get_obj_num(obj_rnum nr);
+struct obj_data *get_obj_near_obj(struct obj_data *obj, char *name);
 
 void	obj_to_room(struct obj_data *object, room_rnum room);
 void	obj_from_room(struct obj_data *object);
@@ -54,6 +55,8 @@ void	extract_obj(struct obj_data *obj);
 struct char_data *get_char_room(char *name, room_rnum room);
 struct char_data *get_char_num(mob_rnum nr);
 struct char_data *get_char(char *name);
+struct char_data *get_char_near_obj(struct obj_data *obj, char *name);
+
 
 void	char_from_room(struct char_data *ch);
 void	char_to_room(struct char_data *ch, room_rnum room);
