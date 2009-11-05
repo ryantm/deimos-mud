@@ -274,7 +274,7 @@ void affect_total(struct char_data * ch)
   GET_WIS(ch) = MAX(0, MIN(GET_WIS(ch), 25));
   GET_CON(ch) = MAX(0, MIN(GET_CON(ch), 25));
   GET_CHA(ch) = MAX(0, GET_CHA(ch));
-  GET_STR(ch) = MAX(0, MIN(GET_STR(ch), 25));
+  GET_STR(ch) = MAX(0, GET_STR(ch));
 
   GET_AC(ch) =  LIMIT(GET_AC(ch), MIN_ARMOR, MAX_ARMOR);
 
