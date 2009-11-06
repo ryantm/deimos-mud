@@ -2142,6 +2142,7 @@ ACMD(do_restore)
       vict->aff_abils = vict->real_abils;
     }
     update_pos(vict);
+		set_killer(vict, NULL, 0);
     send_to_char(OK, ch);
     act("&CYou feel $N's hand come down from the heavens and &Grestore&C your health!&n", FALSE, vict, 0, ch, TO_CHAR);
   }
@@ -2175,6 +2176,7 @@ ACMD(do_restore)
       vict->aff_abils = vict->real_abils;
     }
     update_pos(vict);
+		set_killer(vict, NULL, 0);
     act("&CYou feel $N's hand come down from the heavens and &Grestore&C your health!&n", FALSE, vict, 0, ch, TO_CHAR);
       }
     send_to_char(OK, ch);
@@ -3331,6 +3333,8 @@ int perform_set(struct char_data *ch, struct char_data *vict, int mode,
   case 7:
     vict->points.hit = RANGE(-9, vict->points.max_hit);
     affect_total(vict);
+		update_pos(vict);	
+		set_killer(vict, NULL, 0);
     break;
   case 8:
     vict->points.mana = RANGE(0, vict->points.max_mana);

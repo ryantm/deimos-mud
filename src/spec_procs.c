@@ -3409,6 +3409,7 @@ SPECIAL(cestadeath) {
   {  
      GET_LOADROOM(ch) = NOWHERE;
      update_pos(ch);
+		 set_killer(ch, NULL, 0);
   }
   return 1;
  }
@@ -3764,6 +3765,7 @@ SPECIAL(reincarnation)
         REMOVE_BIT(PLR_FLAGS(ch), PLR_DEADII);
         REMOVE_BIT(PLR_FLAGS(ch), PLR_DEADIII);
         update_pos(ch);
+				set_killer(ch, NULL, 0);
         extract_obj(me);
    }
    else

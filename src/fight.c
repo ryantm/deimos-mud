@@ -205,6 +205,14 @@ void update_pos(struct char_data * victim)
     GET_POS(victim) = POS_STUNNED;
 }
 
+// amt is how much damage was done (how much hp subtracted from victim)
+void set_killer(struct char_data * victim, struct char_data * killer, int amt)
+{
+  if (GET_HIT(victim) < 0 && amt > 0)
+    GET_KILLER(victim) = killer;
+  else if (GET_HIT(victim) >= 0)
+    GET_KILLER(victim) = NULL;
+}
 
 void check_killer(struct char_data * ch, struct char_data * vict)
 {
@@ -597,7 +605,7 @@ void set_arank(struct char_data *killer, struct char_data *ch) {
 
 void raw_kill(struct char_data * ch, struct char_data * killer)
 {
-  GET_KILLER(ch) = killer;
+  //GET_KILLER(ch) = killer;
   if (FIGHTING(ch)) 
     stop_fighting(ch);
 
@@ -1204,6 +1212,7 @@ int damage(struct char_data * ch, struct char_data * victim, int dam, int attack
   /* Set the maximum damage per round and subtract the hit points */
 
   update_pos(victim);
+  set_killer(victim, ch, dam);
 
   /*
    * skill_message sends a message from the messages file in lib/misc.

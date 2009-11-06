@@ -164,6 +164,7 @@ void make_potion(struct char_data *ch, int potion, struct obj_data *container)
 		dam = number(15, mag_manacost(ch, potion) * 2);
 		GET_HIT(ch) -= dam;
 		update_pos(ch);
+    set_killer(ch, NULL, dam);
 		return;
 	}
 
@@ -343,6 +344,7 @@ void make_scroll(struct char_data *ch, int scroll, struct obj_data *paper)
 		dam = number(15, mag_manacost(ch, scroll) * 2);
 		GET_HIT(ch) -= dam;
 		update_pos(ch);
+    set_killer(ch, NULL, dam);
 		return;
 	}
 	/* requires x3 mana to scribe a scroll than the spell (x2 for alchemists & clerics)*/
@@ -561,6 +563,7 @@ ACMD(do_forge)
 		dam = number(20, 60);
 		GET_HIT(ch) -= dam;
 		update_pos(ch);
+    set_killer(ch, NULL, dam);
 		return;
 	}
 

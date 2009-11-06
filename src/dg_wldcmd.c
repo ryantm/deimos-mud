@@ -467,6 +467,7 @@ WCMD(do_wdamage) {
 			}
 			
 			update_pos(ch);
+		  set_killer(ch, NULL, 0);
 			switch (GET_POS(ch)) {
 			case POS_MORTALLYW:
 				act("$n is mortally wounded, and will die soon, if not aided.", TRUE, ch, 0, 0, TO_ROOM);

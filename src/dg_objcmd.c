@@ -551,6 +551,7 @@ OCMD(do_odamage) {
 	}
 	GET_HIT(ch) -= dam;
 	update_pos(ch);
+  set_killer(ch, NULL, dam);
 	switch (GET_POS(ch)) {
 	case POS_MORTALLYW:
  	    act("$n is mortally wounded, and will die soon, if not aided.", TRUE, ch, 0, 0, TO_ROOM);

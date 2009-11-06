@@ -92,6 +92,7 @@ void	check_idling(struct char_data *ch);
 void	point_update(void);
 void	harvest_ticker(void);
 void	update_pos(struct char_data *victim);
+void set_killer(struct char_data *victim, struct char_data *killer, int amt);
 void    tracker(void);
 void    goldchip(void);
 void    othergoldchip(void);

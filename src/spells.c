@@ -757,6 +757,7 @@ ASPELL(spell_resurrection) {
     REMOVE_BIT(PLR_FLAGS(victim), PLR_DEADII);
     REMOVE_BIT(PLR_FLAGS(victim), PLR_DEADIII);
     GET_POS(victim) = POS_STANDING;
+		set_killer(victim, NULL, 0);
      }
    }
  }

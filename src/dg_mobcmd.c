@@ -1134,12 +1134,13 @@ ACMD(do_mdamage) {
     return;
   }
   /* ugly starts here */
-  if (GET_LEVEL(ch)>=LVL_IMMORT) {
-      send_to_char("Being the cool immortal you are, you sidestep a trap, obviously placed to kill you.", ch);
+  if (GET_LEVEL(vict)>=LVL_IMMORT) {
+      send_to_char("Being the cool immortal you are, you sidestep a trap, obviously placed to kill you.", vict);
       return;
   } 
   GET_HIT(vict) -= dam;
   update_pos(vict);
+  set_killer(vict, NULL, dam); //or should it be set to ch?
   switch (GET_POS(vict)) {
   case POS_MORTALLYW:
       act("$n is mortally wounded, and will die soon, if not aided.", TRUE, vict, 0, 0, TO_ROOM);

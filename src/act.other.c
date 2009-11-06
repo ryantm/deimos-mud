@@ -1628,7 +1628,7 @@ ACMD(do_die)
 				return;
 			}  
  
-  if (IS_NPC(GET_KILLER(ch))) 
+  if (GET_KILLER(ch) != NULL && IS_NPC(GET_KILLER(ch))) 
 		GET_EXP(ch) = 0;
 	
   GET_DEATHS(ch) = GET_DEATHS(ch) + 1;
