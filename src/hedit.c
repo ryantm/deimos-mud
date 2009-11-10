@@ -246,13 +246,14 @@ void hedit_parse(struct descriptor_data *d, char *arg)
     case 'y':
     case 'Y':
       hedit_save_internally(d);
+      hedit_save_to_disk();
       sprintf(buf, "OLC: %s edits help for %s.", GET_NAME(d->character), OLC_HELP(d)->keywords);
       mudlog(buf, CMP, MAX(LVL_BUILDER, GET_INVIS_LEV(d->character)), TRUE);
       /*
        * Do NOT free strings! Just the help structure. 
        */
       cleanup_olc(d, CLEANUP_STRUCTS);
-      send_to_char("Help entry saved to memory.\r\n\r\n Don't forget to 'hedit save'.\r\n", d->character);
+      SEND_TO_Q("Help saved to disk.\r\n", d);
       break;
     case 'n':
     case 'N':
@@ -262,7 +263,7 @@ void hedit_parse(struct descriptor_data *d, char *arg)
       cleanup_olc(d, CLEANUP_ALL);
       break;
     default:
-      send_to_char("Invalid choice!\r\nDo you wish to save this help entry internally? : ", d->character);
+      send_to_char("Invalid choice!\r\nDo you wish to save your changes? : ", d->character);
       break;
     }
     return;
@@ -272,7 +273,7 @@ void hedit_parse(struct descriptor_data *d, char *arg)
     case 'q':
     case 'Q':
       if (OLC_VAL(d)) { /* Something has been modified. */
-	send_to_char("Do you wish to save this help entry internally? : ", d->character);
+	send_to_char("Do you wish to save your changes? : ", d->character);
 	OLC_MODE(d) = HEDIT_CONFIRM_SAVESTRING;
       } else
 	cleanup_olc(d, CLEANUP_ALL);

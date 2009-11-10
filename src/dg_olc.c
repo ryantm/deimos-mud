@@ -270,7 +270,7 @@ void trigedit_parse(struct descriptor_data *d, char *arg)
              send_to_char("Invalid Trigger Type! Answer a to abort quit!\r\n",
                d->character);     
            }
-           send_to_char("Do you wish to save the changes to the trigger? (y/n): ",
+           send_to_char("Do you wish to save your changes? : ",
              d->character);     
            OLC_MODE(d) = TRIGEDIT_CONFIRM_SAVESTRING;
          } else
@@ -332,8 +332,7 @@ void trigedit_parse(struct descriptor_data *d, char *arg)
         case 'a': /* abort quitting */
           break;
         default:
-          send_to_char("Invalid choice!\r\n", d->character);
-          send_to_char("Do you wish to save the trigger? : ", d->character);
+          send_to_char("Invalid choice!\r\nDo you wish to save your changes? : ", d->character);
           return;
       }
       break;

@@ -654,10 +654,12 @@ void oedit_parse(struct descriptor_data *d, char *arg)
     case 'y':
     case 'Y':
       if(STATE(d) == CON_OEDIT) {
-        send_to_char("Saving object to memory.\r\n", d->character);
-  /*. Update spec procs .*/
-       obj_index[robj_num].func = obj_procs[OLC_SPEC(d)].sp_pointer;
+        /*. Update spec procs .*/
+        obj_index[robj_num].func = obj_procs[OLC_SPEC(d)].sp_pointer;
         oedit_save_internally(d);
+        oedit_save_to_disk(real_zone_by_thing(OLC_NUM(d)));
+        SEND_TO_Q("Object saved to disk.\r\n", d);
+
         sprintf(buf, "OLC: %s edits obj %d", GET_NAME(d->character), OLC_NUM(d));
         mudlog(buf, CMP, MAX(LVL_BUILDER, GET_INVIS_LEV(d->character)), TRUE);
         cleanup_olc(d, CLEANUP_STRUCTS);
@@ -691,8 +693,7 @@ void oedit_parse(struct descriptor_data *d, char *arg)
       }
       return;
     default:
-      SEND_TO_Q("Invalid choice!\r\n", d);
-      SEND_TO_Q("Do you wish to save this object internally?\r\n", d);
+      SEND_TO_Q("Invalid choice!\r\nDo you wish to save your changes? : ", d);
       return;
     }
 
@@ -704,7 +705,7 @@ void oedit_parse(struct descriptor_data *d, char *arg)
     case 'q':
     case 'Q':
       if (OLC_VAL(d)) {	/* Something has been modified. */
-	SEND_TO_Q("Do you wish to save this object internally? : ", d);
+	SEND_TO_Q("Do you wish to save your changes? : ", d);
 	OLC_MODE(d) = OEDIT_CONFIRM_SAVESTRING;
       } else
 	cleanup_olc(d, CLEANUP_ALL);

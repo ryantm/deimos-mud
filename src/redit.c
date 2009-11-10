@@ -463,7 +463,8 @@ void redit_parse(struct descriptor_data *d, char *arg)
        */
       world[room_num].func = room_procs[OLC_SPEC(d)].sp_pointer;
       cleanup_olc(d, CLEANUP_STRUCTS);
-      SEND_TO_Q("Room saved to memory.\r\n", d);
+      redit_save_to_disk(real_zone_by_thing(OLC_NUM(d)));
+      SEND_TO_Q("Room saved to disk.\r\n", d);
       break;
     case 'n':
     case 'N':
@@ -473,7 +474,7 @@ void redit_parse(struct descriptor_data *d, char *arg)
       cleanup_olc(d, CLEANUP_ALL);
       break;
     default:
-      SEND_TO_Q("Invalid choice!\r\nDo you wish to save this room internally? : ", d);
+      SEND_TO_Q("Invalid choice!\r\nDo you wish to save your changes? : ", d);
       break;
     }
     return;
@@ -483,7 +484,7 @@ void redit_parse(struct descriptor_data *d, char *arg)
     case 'q':
     case 'Q':
       if (OLC_VAL(d)) { /* Something has been modified. */
-	SEND_TO_Q("Do you wish to save this room internally? : ", d);
+	SEND_TO_Q("Do you wish to save your changes? : ", d);
 	OLC_MODE(d) = REDIT_CONFIRM_SAVESTRING;
       } else
 	cleanup_olc(d, CLEANUP_ALL);

@@ -390,8 +390,8 @@ void get_from_container(struct char_data * ch, struct obj_data * cont,
 
       }
     }
-  /* Logging a get all if NOT autolooting */
-  if (found && !PLR_FLAGGED2(ch, PLR2_LOOTING)) {
+  /* Logging a get all if NOT autolooting - also omit npcs */
+  if (found && !PLR_FLAGGED2(ch, PLR2_LOOTING) && !IS_NPC(ch)) {
     sprintf(buf, "%s got all from %s", GET_NAME(ch), cont->short_description);
     mudlog(buf, BRF, LVL_IMPL, TRUE);
     }
@@ -679,14 +679,13 @@ ACMD(do_drop)
   case SCMD_DONATE:
     sname = "donate";
     mode = SCMD_DONATE;
-      RDR = real_room(donation_room_1);
-      break;
-
-    if (RDR == NOWHERE) {
+    RDR = real_room(donation_room_1);
+    break;
+    /*if (RDR == NOWHERE) {
       send_to_char("Sorry, you can't donate anything right now.\r\n", ch);
       return;
     }
-    break;
+    break;*/
   default:
     sname = "drop";
     break;
@@ -724,44 +723,45 @@ ACMD(do_drop)
     /* Can't junk or donate all */
     if ((dotmode == FIND_ALL) && (subcmd == SCMD_JUNK || subcmd == SCMD_DONATE)) {
       if (subcmd == SCMD_JUNK)
-	send_to_char("Go to the dump if you want to junk EVERYTHING!\r\n", ch);
+        send_to_char("Go to the dump if you want to junk EVERYTHING!\r\n", ch);
       else
-	send_to_char("Go do the donation room if you want to donate EVERYTHING!\r\n", ch);
+        send_to_char("Go do the donation room if you want to donate EVERYTHING!\r\n", ch);
       return;
     }
     if (dotmode == FIND_ALL) {
       if (!ch->carrying)
-	send_to_char("You don't seem to be carrying anything.\r\n", ch);
+        send_to_char("You don't seem to be carrying anything.\r\n", ch);
       else
-	for (obj = ch->carrying; obj; obj = next_obj) {
-	  next_obj = obj->next_content;
-	  amount += perform_drop(ch, obj, mode, sname, RDR,NOT_QUIET);
-	}
-     sprintf(buf, "%s dropped all inventory.", GET_NAME(ch));
-     mudlog(buf, BRF, LVL_IMPL, TRUE);
+        for (obj = ch->carrying; obj; obj = next_obj) {
+          next_obj = obj->next_content;
+          amount += perform_drop(ch, obj, mode, sname, RDR,NOT_QUIET);
+        }
+        if (!IS_NPC(ch)) {
+          sprintf(buf, "%s dropped all inventory.", GET_NAME(ch));
+          mudlog(buf, BRF, LVL_IMPL, TRUE);
+        }
     } else if (dotmode == FIND_ALLDOT) {
       if (!*arg) {
-	sprintf(buf, "What do you want to %s all of?\r\n", sname);
-	send_to_char(buf, ch);
-	return;
+        sprintf(buf, "What do you want to %s all of?\r\n", sname);
+        send_to_char(buf, ch);
+        return;
       }
       if (!(obj = get_obj_in_list_vis(ch, arg, ch->carrying))) {
-	sprintf(buf, "You don't seem to have any %ss.\r\n", arg);
-	send_to_char(buf, ch);
+        sprintf(buf, "You don't seem to have any %ss.\r\n", arg);
+        send_to_char(buf, ch);
         return;
       }
       count = 0, temp = 0;
       if (obj) short_desc = strdup(obj->short_description);
       while (obj) {
         temp = amount;
-	next_obj = get_obj_in_list_vis(ch, arg, obj->next_content);
-	amount += perform_drop(ch, obj, mode, sname, RDR, QUIET);
+        next_obj = get_obj_in_list_vis(ch, arg, obj->next_content);
+        amount += perform_drop(ch, obj, mode, sname, RDR, QUIET);
         if (temp != amount)
            count++;
-	obj = next_obj;
+        obj = next_obj;
       }
-      if (count > 0)
-      {
+      if (count > 0) {
         sprintf(buf, "You %s %d %s.%s", sname, count, short_desc, VANISH(mode));
         act(buf, FALSE, ch, 0, 0, TO_CHAR);
         sprintf(buf, "$n %ss %d %s.%s", sname,count,short_desc,VANISH(mode));
@@ -769,10 +769,10 @@ ACMD(do_drop)
       }
     } else {
       if (!(obj = get_obj_in_list_vis(ch, arg, ch->carrying))) {
-	sprintf(buf, "You don't seem to have %s %s.\r\n", AN(arg), arg);
-	send_to_char(buf, ch);
+        sprintf(buf, "You don't seem to have %s %s.\r\n", AN(arg), arg);
+        send_to_char(buf, ch);
       } else
-	amount += perform_drop(ch, obj, mode, sname, RDR, NOT_QUIET);
+        amount += perform_drop(ch, obj, mode, sname, RDR, NOT_QUIET);
     }
   }
 
@@ -883,7 +883,7 @@ ACMD(do_give)
     if (!str_cmp("coins", arg) || !str_cmp("coin", arg)) {
       one_argument(argument, arg);
       if ((vict = give_find_vict(ch, arg)) != NULL)
-	perform_give_gold(ch, vict, amount);
+        perform_give_gold(ch, vict, amount);
       return;
     } else if (!*arg) {	/* Give multiple code. */
       sprintf(buf, "What do you want to give %d of?\r\n", amount);
@@ -893,24 +893,21 @@ ACMD(do_give)
     } else if (!(obj = get_obj_in_list_vis(ch, arg, ch->carrying))) {
       sprintf(buf, "You don't seem to have any %ss.\r\n", arg);
       send_to_char(buf, ch);
-    } else if (PRF_FLAGGED2(vict, PRF2_NOGIVE))
-    {
+    } else if (PRF_FLAGGED2(vict, PRF2_NOGIVE)) {
       act("&n$N currently is not accepting items.&n", TRUE, ch, 0, vict, TO_CHAR);
     } else {
       while (obj && amount--) {
-	next_obj = get_obj_in_list_vis(ch, arg, obj->next_content);
-	perform_give(ch, vict, obj);
-	obj = next_obj;
+        next_obj = get_obj_in_list_vis(ch, arg, obj->next_content);
+        perform_give(ch, vict, obj);
+        obj = next_obj;
       }
     }
-  } else 
-  {
+  } else {
     one_argument(argument, buf1);
     if (!(vict = give_find_vict(ch, buf1)))
       return;
   
-    if (PRF_FLAGGED2(vict, PRF2_NOGIVE))
-    {
+    if (PRF_FLAGGED2(vict, PRF2_NOGIVE)) {
       act("&n$N currently is not accepting items.&n", TRUE, ch, 0, vict, TO_CHAR);
       return;
     }
@@ -918,26 +915,27 @@ ACMD(do_give)
     dotmode = find_all_dots(arg);
     if (dotmode == FIND_INDIV) {
       if (!(obj = get_obj_in_list_vis(ch, arg, ch->carrying))) {
-	sprintf(buf, "You don't seem to have %s %s.\r\n", AN(arg), arg);
-	send_to_char(buf, ch);
+        sprintf(buf, "You don't seem to have %s %s.\r\n", AN(arg), arg);
+        send_to_char(buf, ch);
       } else
-	perform_give(ch, vict, obj);
+        perform_give(ch, vict, obj);
     } else {
       if (dotmode == FIND_ALLDOT && !*arg) {
-	send_to_char("All of what?\r\n", ch);
-	return;
+        send_to_char("All of what?\r\n", ch);
+        return;
       }
       if (!ch->carrying)
-	send_to_char("You don't seem to be holding anything.\r\n", ch);
+        send_to_char("You don't seem to be holding anything.\r\n", ch);
       else
-	for (obj = ch->carrying; obj; obj = next_obj) {
-	  next_obj = obj->next_content;
-	  if (CAN_SEE_OBJ(ch, obj) &&
-	      ((dotmode == FIND_ALL || isname(arg, obj->name))))
-	    perform_give(ch, vict, obj);
-	}
-     sprintf(buf, "%s gave all to %s.", GET_NAME(ch), GET_NAME(vict));
-     mudlog(buf, BRF, LVL_IMPL, TRUE);
+        for (obj = ch->carrying; obj; obj = next_obj) {
+          next_obj = obj->next_content;
+          if (CAN_SEE_OBJ(ch, obj) && ((dotmode == FIND_ALL || isname(arg, obj->name))))
+            perform_give(ch, vict, obj);
+        }
+      if (!IS_NPC(ch)) {
+        sprintf(buf, "%s gave all to %s.", GET_NAME(ch), GET_NAME(vict));
+        mudlog(buf, BRF, LVL_IMPL, TRUE);
+      }
     }
   }
 }

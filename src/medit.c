@@ -560,10 +560,12 @@ void medit_parse(struct descriptor_data *d, char *arg)
       /*
        * Save the mob in memory and to disk.
        */
-      SEND_TO_Q("Saving mobile to memory.\r\n", d);
-    /*. Update spec procs .*/
-    mob_index[new_mob_num].func = mob_procs[OLC_SPEC(d)].sp_pointer;
+      /*. Update spec procs .*/
+      mob_index[new_mob_num].func = mob_procs[OLC_SPEC(d)].sp_pointer;
       medit_save_internally(d);
+      medit_save_to_disk(zone_table[real_zone_by_thing(OLC_NUM(d))].number);
+      SEND_TO_Q( "Mobile saved to disk.\r\n", d);
+
       sprintf(buf, "OLC: %s edits mob %d", GET_NAME(d->character), OLC_NUM(d));
       mudlog(buf, CMP, MAX(LVL_BUILDER, GET_INVIS_LEV(d->character)), TRUE);
       /* FALL THROUGH */
@@ -572,8 +574,7 @@ void medit_parse(struct descriptor_data *d, char *arg)
       cleanup_olc(d, CLEANUP_ALL);
       return;
     default:
-      SEND_TO_Q("Invalid choice!\r\n", d);
-      SEND_TO_Q("Do you wish to save the mobile? : ", d);
+      SEND_TO_Q("Invalid choice!\r\nDo you wish to save your changes? : ", d);
       return;
     }
     break;
@@ -585,7 +586,7 @@ void medit_parse(struct descriptor_data *d, char *arg)
     case 'q':
     case 'Q':
       if (OLC_VAL(d)) {	/* Anything been changed? */
-	SEND_TO_Q("Do you wish to save the changes to the mobile? (y/n) : ", d);
+	SEND_TO_Q("Do you wish to save your changes? : ", d);
 	OLC_MODE(d) = MEDIT_CONFIRM_SAVESTRING;
       } else
 	cleanup_olc(d, CLEANUP_ALL);

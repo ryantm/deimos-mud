@@ -14,6 +14,7 @@
 #include "shop.h"
 #include "genolc.h"
 #include "genshp.h"
+#include "genzon.h"
 #include "oasis.h"
 
 /*-------------------------------------------------------------------*/
@@ -370,8 +371,10 @@ void sedit_parse(struct descriptor_data *d, char *arg)
     switch (*arg) {
     case 'y':
     case 'Y':
-      SEND_TO_Q("Saving shop to memory.\r\n", d);
       sedit_save_internally(d);
+      sedit_save_to_disk(real_zone_by_thing(OLC_NUM(d)));
+      SEND_TO_Q("Shop saved to disk.\r\n", d);
+
       sprintf(buf, "OLC: %s edits shop %d", GET_NAME(d->character),
 	      OLC_NUM(d));
       mudlog(buf, CMP, MAX(LVL_BUILDER, GET_INVIS_LEV(d->character)), TRUE);
@@ -382,7 +385,7 @@ void sedit_parse(struct descriptor_data *d, char *arg)
       cleanup_olc(d, CLEANUP_ALL);
       return;
     default:
-      SEND_TO_Q("Invalid choice!\r\nDo you wish to save the shop? : ", d);
+      SEND_TO_Q("Invalid choice!\r\nDo you wish to save your changes? : ", d);
       return;
     }
     break;
@@ -394,7 +397,7 @@ void sedit_parse(struct descriptor_data *d, char *arg)
     case 'q':
     case 'Q':
       if (OLC_VAL(d)) {		/* Anything been changed? */
-	SEND_TO_Q("Do you wish to save the changes to the shop? (y/n) : ", d);
+	SEND_TO_Q("Do you wish to save your changes? : ", d);
 	OLC_MODE(d) = SEDIT_CONFIRM_SAVESTRING;
       } else
 	cleanup_olc(d, CLEANUP_ALL);

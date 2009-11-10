@@ -79,7 +79,7 @@
        save_clans();
        sprintf(buf, "OLC: %s edits clan %d", GET_NAME(d->character), OLC_CLAN(d)->number);
        mudlog(buf, CMP, LVL_GOD, TRUE);
-       send_to_char("Clan saved to disk and memory.\r\n", d->character);
+       send_to_char("Clan saved to disk.\r\n", d->character);
        cleanup_olc(d, CLEANUP_STRUCTS);
        break;
      case 'n':
@@ -88,8 +88,7 @@
        cleanup_olc(d, CLEANUP_STRUCTS);
        break;
      default:
-       send_to_char("Invalid choice!\r\n", d->character);
-       send_to_char("Do you wish to save this clan? : ", d->character);
+       send_to_char("Invalid choice!\r\nDo you wish to save your changes? : ", d->character);
        break;
      }
      return;
@@ -100,7 +99,7 @@
        case 'Q':
          if (OLC_VAL(d)) {
            /*. Something has been modified .*/
-           send_to_char("Do you wish to save this clan? : ", d->character);
+           send_to_char("Do you wish to save your changes? : ", d->character);
            OLC_MODE(d) = CEDIT_CONFIRM_SAVE;
          } else
            cleanup_olc(d, CLEANUP_STRUCTS);

@@ -584,8 +584,11 @@ void zedit_parse(struct descriptor_data *d, char *arg)
       /*
        * Save the zone in memory, hiding invisible people.
        */
-      SEND_TO_Q("Saving zone info in memory.\r\n", d);
+      //SEND_TO_Q("Saving zone info in memory.\r\n", d);
       zedit_save_internally(d);
+      SEND_TO_Q("Saving zone info to disk.\r\n", d);
+      zedit_save_to_disk(OLC_ZNUM(d));
+
       sprintf(buf, "OLC: %s edits zone info for room %d.", GET_NAME(d->character), OLC_NUM(d));
       mudlog(buf, CMP, MAX(LVL_BUILDER, GET_INVIS_LEV(d->character)), TRUE);
       /* FALL THROUGH */
@@ -594,8 +597,7 @@ void zedit_parse(struct descriptor_data *d, char *arg)
       cleanup_olc(d, CLEANUP_ALL);
       break;
     default:
-      SEND_TO_Q("Invalid choice!\r\n", d);
-      SEND_TO_Q("Do you wish to save the zone info? : ", d);
+      SEND_TO_Q("Invalid choice!\r\nDo you wish to save your changes? : ", d);
       break;
     }
     break;
@@ -607,7 +609,7 @@ void zedit_parse(struct descriptor_data *d, char *arg)
     case 'q':
     case 'Q':
       if (OLC_ZONE(d)->age || OLC_ZONE(d)->number) {
-	SEND_TO_Q("Do you wish to save the changes to the zone info? (y/n) : ", d);
+	SEND_TO_Q("Do you wish to save your changes? : ", d);
 	OLC_MODE(d) = ZEDIT_CONFIRM_SAVESTRING;
       } else {
 	SEND_TO_Q("No changes made.\r\n", d);

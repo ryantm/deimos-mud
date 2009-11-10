@@ -274,7 +274,7 @@ ASPELL(spell_locate_object)
   struct obj_data *i;
   char *name = NULL;
   int j;
-  struct char_data *owner = NOBODY;
+  struct char_data *owner = (char_data*)NOBODY;
 
   if (!(ch && ch->player_specials && ch->player_specials->tmp_text))
   {

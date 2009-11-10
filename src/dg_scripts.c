@@ -354,13 +354,11 @@ char_data *get_char_near_obj(obj_data *obj, char *name)
 
     if (ch && (IS_NPC(ch) || !GET_INVIS_LEV(ch)))
       return ch;
-} else {
+  } else {
     room_rnum num;
     if ((num = obj_room(obj)) != NOWHERE)
       for (ch = world[num].people; ch; ch = ch->next_in_room)
-        if (isname(name, ch->player.name) &&
-           (IS_NPC(ch) || !GET_INVIS_LEV(ch)))
-      return ch;
+        if (isname(name, ch->player.name) && (IS_NPC(ch) || !GET_INVIS_LEV(ch)))
           return ch;
   }
 
