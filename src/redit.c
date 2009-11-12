@@ -458,13 +458,13 @@ void redit_parse(struct descriptor_data *d, char *arg)
       redit_save_internally(d);
       sprintf(buf, "OLC: %s edits room %d.", GET_NAME(d->character), OLC_NUM(d));
       mudlog(buf, CMP, MAX(LVL_BUILDER, GET_INVIS_LEV(d->character)), TRUE);
+      redit_save_to_disk(real_zone_by_thing(OLC_NUM(d)));
+      SEND_TO_Q("Room saved to disk.\r\n", d);
       /*
        * Do NOT free strings! Just the room structure. 
        */
       world[room_num].func = room_procs[OLC_SPEC(d)].sp_pointer;
       cleanup_olc(d, CLEANUP_STRUCTS);
-      redit_save_to_disk(real_zone_by_thing(OLC_NUM(d)));
-      SEND_TO_Q("Room saved to disk.\r\n", d);
       break;
     case 'n':
     case 'N':
