@@ -295,7 +295,11 @@ char	buf1[MAX_STRING_LENGTH];
 char	buf2[MAX_STRING_LENGTH];
 char	arg[MAX_STRING_LENGTH];
 #else
+extern struct room_data *world;
 extern room_rnum top_of_world;
+extern struct char_data *character_list;
+extern struct obj_data *object_list;
+extern struct obj_data *obj_proto;
 extern struct player_special_data dummy_mob;
 extern char	buf[MAX_STRING_LENGTH];
 extern char	buf1[MAX_STRING_LENGTH];

@@ -59,9 +59,12 @@ void redit_setup_new(struct descriptor_data *d)
   OLC_ROOM(d)->description = str_dup("You are in an unfinished room.\r\n");
   OLC_ROOM(d)->number = NOWHERE;
   OLC_ITEM_TYPE(d) = WLD_TRIGGER;
+  OLC_ROOM(d)->proto_script = OLC_SCRIPT(d) = NULL;
   OLC_SPEC(d) = 0;
-  redit_disp_menu(d);
+
   OLC_VAL(d) = 0;
+
+  redit_disp_menu(d);
 }
 
 /*------------------------------------------------------------------------*/
@@ -70,7 +73,7 @@ void redit_setup_existing(struct descriptor_data *d, int real_num)
 {
   struct room_data *room;
   int counter;
-  struct trig_proto_list *proto, *fproto;
+  //struct trig_proto_list *proto, *fproto;
 
   /*
    * Build a copy of the room for editing.
@@ -126,17 +129,17 @@ void redit_setup_existing(struct descriptor_data *d, int real_num)
 	temp->next = NULL;
     }
   }
-  if (SCRIPT(&world[real_num]))
-    script_copy(room, &world[real_num], WLD_TRIGGER);
-  proto = world[real_num].proto_script;
-  while (proto) {
-    CREATE(fproto, struct trig_proto_list, 1);
-    fproto->vnum = proto->vnum;
-    if (room->proto_script==NULL)
-      room->proto_script = fproto;
-    proto = proto->next;
-    fproto = fproto->next; /* NULL */
-  }
+//  if (SCRIPT(&world[real_num]))
+//    script_copy(room, &world[real_num], WLD_TRIGGER);
+//  proto = world[real_num].proto_script;
+//  while (proto) {
+//    CREATE(fproto, struct trig_proto_list, 1);
+//    fproto->vnum = proto->vnum;
+//    if (room->proto_script==NULL)
+//      room->proto_script = fproto;
+//    proto = proto->next;
+//    fproto = fproto->next; /* NULL */
+//  }
 
   /*
    * Attach copy of room to player's descriptor.
@@ -145,6 +148,8 @@ void redit_setup_existing(struct descriptor_data *d, int real_num)
   OLC_VAL(d) = 0;
   OLC_ITEM_TYPE(d) = WLD_TRIGGER;
   dg_olc_script_copy(d);
+  room->proto_script = NULL;
+  SCRIPT(room) = NULL;
   OLC_SPEC(d) = get_spec_name(room_procs, room->func);
   redit_disp_menu(d);
 }
@@ -169,6 +174,15 @@ void redit_save_internally(struct descriptor_data *d)
     log("SYSERR: redit_save_internally: Something failed! (%d)", room_num);
     return;
   }
+
+  /* Update triggers and free old proto list */
+  if (world[room_num].proto_script &&
+      world[room_num].proto_script != OLC_SCRIPT(d))
+    free_proto_script(&world[room_num], WLD_TRIGGER);
+
+  world[room_num].proto_script = OLC_SCRIPT(d);
+  assign_triggers(&world[room_num], WLD_TRIGGER);
+  /* end trigger update */
 
   /* Don't adjust numbers on a room update. */
   if (!new_room)
@@ -248,6 +262,10 @@ void free_room(struct room_data *room)
       free(tdesc->description);
     free(tdesc);
   }
+  if (SCRIPT(room))
+    extract_script(room, WLD_TRIGGER);
+  free_proto_script(room, WLD_TRIGGER);
+
   free(room);	/* XXX ? */
 }
 
@@ -430,7 +448,7 @@ void redit_disp_menu(struct descriptor_data *d)
 	  room->dir_option[DOWN] && room->dir_option[DOWN]->to_room != -1 ?
 	  world[room->dir_option[DOWN]->to_room].number : -1,
 	  grn, nrm,
-          grn, nrm, cyn, room->proto_script?"Set.":"Not Set.",
+          grn, nrm, cyn, OLC_SCRIPT(d) ? "Set.":"Not Set.",
           grn, nrm, cyn, room_procs[OLC_SPEC(d)].name,
           grn, nrm
 	  );
@@ -471,6 +489,10 @@ void redit_parse(struct descriptor_data *d, char *arg)
       /*
        * Free everything up, including strings, etc.
        */
+      /* If not saving, we must free the script_proto list. We do so by
+       * assigning it to the edited room and letting free_room in
+       * cleanup_olc handle it. */
+      OLC_ROOM(d)->proto_script = OLC_SCRIPT(d);
       cleanup_olc(d, CLEANUP_ALL);
       break;
     default:

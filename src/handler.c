@@ -851,7 +851,10 @@ void extract_obj(struct obj_data * obj)
     (obj_index[GET_OBJ_RNUM(obj)].number)--;
  
   if (SCRIPT(obj))
-    extract_script(SCRIPT(obj));
+    extract_script(obj, OBJ_TRIGGER);
+
+  if (GET_OBJ_RNUM(obj) == NOTHING || obj->proto_script != obj_proto[GET_OBJ_RNUM(obj)].proto_script)
+    free_proto_script(obj, OBJ_TRIGGER);
 
   free_obj(obj);
 }
@@ -982,7 +985,7 @@ void extract_char(struct char_data * ch)
       mob_index[GET_MOB_RNUM(ch)].number--;
     clearMemory(ch);		/* Only NPC's can have memory */
     if (SCRIPT(ch))
-      extract_script(SCRIPT(ch));
+      extract_script(ch, MOB_TRIGGER);
     if (SCRIPT_MEM(ch))
       extract_script_mem(SCRIPT_MEM(ch));
     free_char(ch);

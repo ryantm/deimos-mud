@@ -239,9 +239,10 @@ ACMD(do_liblist)
         sprintf(buf, "Room List From Vnum %d to %d\r\n", first, last);
         for (nr = 0; nr <= top_of_world && (world[nr].number <= last); nr++) {
           if (world[nr].number >= first) {
-            sprintf(buf, "%5d. [%5d] (%3d) %s\r\n", ++found,
+            sprintf(buf, "%5d. [%5d] (%3d) %s %s\r\n", ++found,
                     world[nr].number, world[nr].zone,
-                    world[nr].name);
+                    world[nr].name,
+                    world[nr].proto_script ? "[TRIG] " : "");
             send_to_char(buf,ch);
           }
         }
@@ -250,9 +251,10 @@ ACMD(do_liblist)
         sprintf(buf, "Object List From Vnum %d to %d\r\n", first, last);
         for (nr = 0; nr <= top_of_objt && (obj_index[nr].vnum <= last); nr++) {
           if (obj_index[nr].vnum >= first) {
-            sprintf(buf, "%5d. [%5d] %s\r\n", ++found,
+            sprintf(buf, "%5d. [%5d] %s %s\r\n", ++found,
                     obj_index[nr].vnum,
-                    obj_proto[nr].short_description);
+                    obj_proto[nr].short_description,
+                    obj_proto[nr].proto_script ? "[TRIG] " : "");
             send_to_char(buf,ch);
           }
         }
@@ -261,9 +263,10 @@ ACMD(do_liblist)
         sprintf(buf, "Mob List From Vnum %d to %d\r\n", first, last);
         for (nr = 0; nr <= top_of_mobt && (mob_index[nr].vnum <= last); nr++)  {
           if (mob_index[nr].vnum >= first) {
-            sprintf(buf, "%5d. [%5d] %s\r\n", ++found,
+            sprintf(buf, "%5d. [%5d] %s %s\r\n", ++found,
                     mob_index[nr].vnum,
-                    mob_proto[nr].player.short_descr);
+                    mob_proto[nr].player.short_descr,
+                    mob_proto[nr].proto_script ? " [TRIG]" : "");
             send_to_char(buf, ch);
           }
         }

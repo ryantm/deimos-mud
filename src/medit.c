@@ -105,6 +105,9 @@ void medit_setup_new(struct descriptor_data *d)
   OLC_MPROG(d) = NULL;
 #endif
 
+  SCRIPT(mob) = NULL;
+  mob->proto_script = OLC_SCRIPT(d) = NULL;
+
   OLC_MOB(d) = mob;
   /* Has changed flag. (It hasn't so far, we just made it.) */
   OLC_VAL(d) = FALSE;
@@ -152,6 +155,14 @@ void medit_setup_existing(struct descriptor_data *d, int rmob_num)
   OLC_MOB(d) = mob;
   OLC_ITEM_TYPE(d) = MOB_TRIGGER;
   dg_olc_script_copy(d);
+
+  /*
+   * The edited mob must not have a script.
+   * It will be assigned to the updated mob later, after editing.
+   */
+  SCRIPT(mob) = NULL;
+  OLC_MOB(d)->proto_script = NULL;
+
   OLC_SPEC(d) = get_spec_name(mob_procs, mob_index[rmob_num].func);
   medit_disp_menu(d);
 }
@@ -190,16 +201,37 @@ void medit_save_internally(struct descriptor_data *d)
   int i;
   mob_rnum new_rnum;
   struct descriptor_data *dsc;
+  struct char_data *mob;
 
-  /* put the script into proper position */
 
-  new_rnum = real_mobile(OLC_NUM(d));
   i = (real_mobile(OLC_NUM(d)) == NOBODY);
 
   if ((new_rnum = add_mobile(OLC_MOB(d), OLC_NUM(d))) < 0) {
-    log("medit_save_internally: add_object failed.");
+    log("medit_save_internally: add_mobile failed.");
     return;
   }
+
+  /* Update triggers and free old proto list */
+  if (mob_proto[new_rnum].proto_script &&
+      mob_proto[new_rnum].proto_script != OLC_SCRIPT(d))
+    free_proto_script(&mob_proto[new_rnum], MOB_TRIGGER);
+
+  mob_proto[new_rnum].proto_script = OLC_SCRIPT(d);
+
+  /* this takes care of the mobs currently in-game */
+  for (mob = character_list; mob; mob = mob->next) {
+    if (GET_MOB_RNUM(mob) != new_rnum)
+      continue;
+
+    /* remove any old scripts */
+    if (SCRIPT(mob))
+      extract_script(mob, MOB_TRIGGER);
+
+    free_proto_script(mob, MOB_TRIGGER);
+    copy_proto_script(&mob_proto[new_rnum], mob, MOB_TRIGGER);
+    assign_triggers(mob, MOB_TRIGGER);
+  }
+  /* end trigger update */
 
   if (!i)	/* Only renumber on new mobiles. */
     return;
@@ -514,7 +546,7 @@ void medit_disp_menu(struct descriptor_data *d)
 #if CONFIG_OASIS_MPROG
 	  grn, nrm, cyn, (OLC_MPROGL(d) ? "Set." : "Not Set."),
 #endif
-          grn, nrm, cyn, mob->proto_script?"Set.":"Not Set.",
+          grn, nrm, cyn, OLC_SCRIPT(d)?"Set.":"Not Set.",
           grn, nrm,
           grn, nrm, cyn, mob_procs[OLC_SPEC(d)].name,
 	  grn, nrm
@@ -571,6 +603,10 @@ void medit_parse(struct descriptor_data *d, char *arg)
       /* FALL THROUGH */
     case 'n':
     case 'N':
+      /* If not saving, we must free the script_proto list. We do so by
+       * assigning it to the edited mob and letting free_mobile in
+       * cleanup_olc handle it. */
+      OLC_MOB(d)->proto_script = OLC_SCRIPT(d);
       cleanup_olc(d, CLEANUP_ALL);
       return;
     default:

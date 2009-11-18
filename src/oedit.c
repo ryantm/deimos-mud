@@ -68,6 +68,10 @@ void oedit_setup_new(struct descriptor_data *d)
   OLC_SPEC(d) = 0;
   OLC_VAL(d) = 0;
   OLC_ITEM_TYPE(d) = OBJ_TRIGGER;
+
+  SCRIPT(OLC_OBJ(d)) = NULL;
+  OLC_OBJ(d)->proto_script = OLC_SCRIPT(d) = NULL;
+
   oedit_disp_menu(d);
 }
 
@@ -83,8 +87,8 @@ void oedit_setup_existing(struct descriptor_data *d, int real_num)
   CREATE(obj, struct obj_data, 1);
   copy_object(obj, &obj_proto[real_num]);
 
-  if (SCRIPT(obj))
-    script_copy(obj, &obj_proto[real_num], OBJ_TRIGGER);
+//  if (SCRIPT(obj))
+//    script_copy(obj, &obj_proto[real_num], OBJ_TRIGGER);
 
 
   OLC_SPEC(d) = get_spec_name(obj_procs, obj_index[real_num].func);
@@ -95,6 +99,11 @@ void oedit_setup_existing(struct descriptor_data *d, int real_num)
   OLC_VAL(d) = 0;
   OLC_ITEM_TYPE(d) = OBJ_TRIGGER;
   dg_olc_script_copy(d);
+  /* The edited obj must not have a script. It will be assigned to the updated
+   * obj later, after editing. */
+  SCRIPT(obj) = NULL;
+  OLC_OBJ(d)->proto_script = NULL;
+
   oedit_disp_menu(d);
 }
 
@@ -105,6 +114,7 @@ void oedit_save_internally(struct descriptor_data *d)
   int i;
   obj_rnum robj_num;
   struct descriptor_data *dsc;
+  struct obj_data *obj;
 
   i = (real_object(OLC_NUM(d)) == NOTHING);
 
@@ -112,6 +122,28 @@ void oedit_save_internally(struct descriptor_data *d)
     log("oedit_save_internally: add_object failed.");
     return;
   }
+
+  /* Update triggers and free old proto list  */
+  if (obj_proto[robj_num].proto_script &&
+      obj_proto[robj_num].proto_script != OLC_SCRIPT(d))
+    free_proto_script(&obj_proto[robj_num], OBJ_TRIGGER);
+  /* this will handle new instances of the object: */
+  obj_proto[robj_num].proto_script = OLC_SCRIPT(d);
+
+  /* this takes care of the objects currently in-game */
+  for (obj = object_list; obj; obj = obj->next) {
+    if (obj->item_number != robj_num)
+      continue;
+    /* remove any old scripts */
+    if (SCRIPT(obj))
+      extract_script(obj, OBJ_TRIGGER);
+
+    free_proto_script(obj, OBJ_TRIGGER);
+    copy_proto_script(&obj_proto[robj_num], obj, OBJ_TRIGGER);
+    assign_triggers(obj, OBJ_TRIGGER);
+  }
+  /* end trigger update */
+
 
   if (!i)	/* If it's not a new object, don't renumber. */
     return;
@@ -155,7 +187,7 @@ void oedit_save_internally(struct descriptor_data *d)
 
 void oedit_save_to_disk(int zone_num)
 {
-  save_objects(zone_table[zone_num].number);
+  save_objects(zone_num);
 }
 
 /**************************************************************************
@@ -198,14 +230,12 @@ void oedit_disp_extradesc_menu(struct descriptor_data *d)
 	  "%s1%s) Keyword: %s%s\r\n"
 	  "%s2%s) Description:\r\n%s%s\r\n"
 	  "%s3%s) Goto next description: %s\r\n"
-          "%sS%s) Script      : %s%s\r\n"
 	  "%s0%s) Quit\r\n"
 	  "Enter choice : ",
 
      	  grn, nrm, yel, (extra_desc->keyword && *extra_desc->keyword) ? extra_desc->keyword : "<NONE>",
 	  grn, nrm, yel, (extra_desc->description && *extra_desc->description) ? extra_desc->description : "<NONE>",
 	  grn, nrm, buf1,
-          grn, nrm, cyn, OLC_OBJ(d)->proto_script?"Set.":"Not Set.",
           grn, nrm
           );
   SEND_TO_Q(buf, d);
@@ -628,7 +658,7 @@ void oedit_disp_menu(struct descriptor_data *d)
 	  grn, nrm, grn, nrm,
           grn, nrm, cyn, GET_OBJ_LEVEL(obj),
           grn, nrm, cyn, buf2,
-          grn, nrm, cyn, obj->proto_script?"Set.":"Not Set.",
+          grn, nrm, cyn, OLC_SCRIPT(d)?"Set.":"Not Set.",
           grn, nrm, cyn, obj_procs[OLC_SPEC(d)].name,
           grn, nrm
   );
@@ -682,6 +712,9 @@ void oedit_parse(struct descriptor_data *d, char *arg)
     case 'n':
     case 'N':
       if(STATE(d) == CON_OEDIT) {
+        /* If not saving, we must free the script_proto list. */
+        OLC_OBJ(d)->proto_script = OLC_SCRIPT(d);
+        free_proto_script(OLC_OBJ(d), OBJ_TRIGGER);
         cleanup_olc(d, CLEANUP_ALL);
       } else {
         if (d->character) {

@@ -194,6 +194,9 @@ int delete_room(room_rnum rnum)
   }
 
   free_room_strings(room);
+  if (SCRIPT(room))
+    extract_script(room, WLD_TRIGGER);
+  free_proto_script(room, WLD_TRIGGER);
 
   /*
    * Change any exit going to this room to go the void.

@@ -1860,9 +1860,10 @@ int vnum_mobile(char *searchname, struct char_data * ch)
 
   for (nr = 0; nr <= top_of_mobt; nr++) {
     if (isname(searchname, mob_proto[nr].player.name)) {
-      sprintf(buf, "%3d. [%5d] %s\r\n", ++found,
+      sprintf(buf, "%3d. [%5d] %-40s %s\r\n", ++found,
 	      mob_index[nr].vnum,
-	      mob_proto[nr].player.short_descr);
+	      mob_proto[nr].player.short_descr,
+        mob_proto[nr].proto_script ? "[TRIG]" : "");
       send_to_char(buf, ch);
     }
   }
@@ -1877,9 +1878,10 @@ int vnum_weapon(int attacktype, struct char_data * ch)
 
   for (nr = 0; nr <= top_of_objt; nr++) {
     if (obj_proto[nr].obj_flags.type_flag == ITEM_WEAPON && obj_proto[nr].obj_flags.value[3] == attacktype) {
-      sprintf(buf, "%3d. [%5d] %s\r\n", ++found,
+      sprintf(buf, "%3d. [%5d] %-40s %s\r\n", ++found,
 	      obj_index[nr].vnum,
-	      obj_proto[nr].short_description);
+	      obj_proto[nr].short_description,
+        obj_proto[nr].proto_script ? "[TRIG]" : "");
       send_to_char(buf, ch);
     }
   }
@@ -1892,9 +1894,40 @@ int vnum_object(char *searchname, struct char_data * ch)
 
   for (nr = 0; nr <= top_of_objt; nr++) {
     if (isname(searchname, obj_proto[nr].name)) {
-      sprintf(buf, "%3d. [%5d] %s\r\n", ++found,
+      sprintf(buf, "%3d. [%5d] %-40s %s\r\n", ++found,
 	      obj_index[nr].vnum,
-	      obj_proto[nr].short_description);
+	      obj_proto[nr].short_description,
+        obj_proto[nr].proto_script ? "[TRIG]" : "");
+      send_to_char(buf, ch);
+    }
+  }
+  return (found);
+}
+
+int vnum_room(char *searchname, struct char_data *ch)
+{
+ int nr, found = 0;
+
+  for (nr = 0; nr <= top_of_world; nr++) {
+    if (isname(searchname, world[nr].name)) {
+      sprintf(buf, "%3d. [%5d] %-40s %s\r\n", ++found,
+        world[nr].number,
+        world[nr].name,
+        world[nr].proto_script ? "[TRIG]" : "" );
+      send_to_char(buf, ch);
+    }
+  }
+  return (found);
+}
+
+int vnum_trig(char *searchname, struct char_data *ch)
+{
+  int nr, found = 0;
+    for (nr = 0; nr < top_of_trigt; nr++) {
+      if (isname(searchname, trig_index[nr]->proto->name)) {
+        sprintf(buf, "%3d. [%5d] %-40s\r\n", ++found,
+          trig_index[nr]->vnum,
+          trig_index[nr]->proto->name);
       send_to_char(buf, ch);
     }
   }
@@ -1955,6 +1988,7 @@ struct char_data *read_mobile(mob_vnum nr, int type) /* and mob_rnum */
 
   mob_index[i].number++;
   GET_ID(mob) = max_id++;
+  copy_proto_script(&mob_proto[i], mob, MOB_TRIGGER);
   assign_triggers(mob, MOB_TRIGGER);
 
 	mob_defaults(mob,GET_LEVEL(mob));
@@ -2006,6 +2040,8 @@ struct obj_data *read_object(obj_vnum nr, int type) /* and obj_rnum */
 
   obj_index[i].number++;
   GET_ID(obj) = max_id++;
+
+  copy_proto_script(&obj_proto[i], obj, OBJ_TRIGGER);
   assign_triggers(obj, OBJ_TRIGGER);
    
   return (obj);
@@ -3447,6 +3483,13 @@ void free_char(struct char_data * ch)
       free(ch->player.long_descr);
     if (ch->player.description)
       free(ch->player.description);
+
+    if (ch->player_specials)
+      free(ch->player_specials);
+
+    /* free script proto list */
+    free_proto_script(ch, MOB_TRIGGER);
+
   } else if ((i = GET_MOB_RNUM(ch)) >= 0) {
     /* otherwise, free strings only if the string is not pointing at proto */
     if (ch->player.name && ch->player.name != mob_proto[i].player.name)
@@ -3459,9 +3502,16 @@ void free_char(struct char_data * ch)
       free(ch->player.long_descr);
     if (ch->player.description && ch->player.description != mob_proto[i].player.description)
       free(ch->player.description);
+    /* free script proto list if it's not the prototype */
+    if (ch->proto_script && ch->proto_script != mob_proto[i].proto_script)
+      free_proto_script(ch, MOB_TRIGGER);
   }
   while (ch->affected)
     affect_remove(ch, ch->affected);
+
+  /* free any assigned scripts */
+  if (SCRIPT(ch))
+    extract_script(ch, MOB_TRIGGER);
 
   if (ch->desc)
     ch->desc->character = NULL;
@@ -3475,10 +3525,19 @@ void free_char(struct char_data * ch)
 /* release memory allocated for an obj struct */
 void free_obj(struct obj_data * obj)
 {
-  if (GET_OBJ_RNUM(obj) == NOWHERE)
+  if (GET_OBJ_RNUM(obj) == NOWHERE) {
     free_object_strings(obj);
-  else
+    /* free script proto list */
+    free_proto_script(obj, OBJ_TRIGGER);
+  } else {
     free_object_strings_proto(obj);
+    if (obj->proto_script != obj_proto[GET_OBJ_RNUM(obj)].proto_script)
+      free_proto_script(obj, OBJ_TRIGGER);
+  }
+
+  /* free any assigned scripts */
+  if (SCRIPT(obj))
+    extract_script(obj, OBJ_TRIGGER);
 
   free(obj);
 }

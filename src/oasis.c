@@ -24,6 +24,7 @@
 #include "genobj.h"
 #include "oasis.h"
 #include "screen.h"
+#include "dg_olc.h"
 
 const char *nrm, *grn, *cyn, *yel, *red;
 
@@ -467,6 +468,7 @@ void cleanup_olc(struct descriptor_data *d, byte cleanup_type)
   if (OLC_ROOM(d)) {
     switch (cleanup_type) {
     case CLEANUP_ALL:
+      free_proto_script(OLC_ROOM(d), WLD_TRIGGER);
       free_room(OLC_ROOM(d));
       break;
     case CLEANUP_STRUCTS:

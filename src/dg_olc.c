@@ -38,55 +38,55 @@ void trigedit_create_index(int znum, char *type);
 void sprintbits(long vektor, char *outstring);
 
 /* copy an entire script from one holder (mob/obj/room) to another */
-void script_copy(void *dst, void *src, int type)
-{
-  struct script_data *s_src = NULL;
-  struct script_data *s_dst = NULL;
-  trig_data *t_src, *t_dst;
-
-  /* find the scripts of the source and destination */
-  switch (type)
-  {
-    case MOB_TRIGGER:
-      s_src = SCRIPT((struct char_data *)src);
-      s_dst = SCRIPT((struct char_data *)dst);
-      ((struct char_data *)dst)->proto_script =
-        ((struct char_data *)src)->proto_script;
-     break;
-    case OBJ_TRIGGER:
-      s_src = SCRIPT((struct obj_data *)src);
-      s_dst = SCRIPT((struct obj_data *)dst);
-      ((struct obj_data *)dst)->proto_script =
-        ((struct obj_data *)src)->proto_script;
-      break;
-    case WLD_TRIGGER:
-      s_src = SCRIPT((struct room_data *)src);
-      s_dst = SCRIPT((struct room_data *)dst);
-      ((struct room_data *)dst)->proto_script =
-        ((struct room_data *)src)->proto_script;
-      break;
-    default:
-      log("SYSERR: Unknown type code sent to script_copy()!");
-      break;
-  }
-
-  /* make sure the dst doesnt already have a script       */
-  /* if it does, delete it                                */
-  if (s_dst) extract_script(s_dst);
-
-  /* copy the scrip data */
-  s_dst->types = s_src->types;
-  t_src = TRIGGERS(s_src);
-  while (t_src)
-  {
-    CREATE(t_dst, trig_data, 1);
-    if (!TRIGGERS(s_dst)) TRIGGERS(s_dst) = t_dst;
-    trig_data_copy(t_dst, t_src);
-    t_dst = t_dst->next;
-    t_src = t_src->next;
-  }
-
-}
+//void script_copy(void *dst, void *src, int type)
+//{
+//  struct script_data *s_src = NULL;
+//  struct script_data *s_dst = NULL;
+//  trig_data *t_src, *t_dst;
+//
+//  /* find the scripts of the source and destination */
+//  switch (type)
+//  {
+//    case MOB_TRIGGER:
+//      s_src = SCRIPT((struct char_data *)src);
+//      s_dst = SCRIPT((struct char_data *)dst);
+//      ((struct char_data *)dst)->proto_script =
+//        ((struct char_data *)src)->proto_script;
+//     break;
+//    case OBJ_TRIGGER:
+//      s_src = SCRIPT((struct obj_data *)src);
+//      s_dst = SCRIPT((struct obj_data *)dst);
+//      ((struct obj_data *)dst)->proto_script =
+//        ((struct obj_data *)src)->proto_script;
+//      break;
+//    case WLD_TRIGGER:
+//      s_src = SCRIPT((struct room_data *)src);
+//      s_dst = SCRIPT((struct room_data *)dst);
+//      ((struct room_data *)dst)->proto_script =
+//        ((struct room_data *)src)->proto_script;
+//      break;
+//    default:
+//      log("SYSERR: Unknown type code sent to script_copy()!");
+//      break;
+//  }
+//
+//  /* make sure the dst doesnt already have a script       */
+//  /* if it does, delete it                                */
+//  if (s_dst) extract_script(s_dst);
+//
+//  /* copy the scrip data */
+//  s_dst->types = s_src->types;
+//  t_src = TRIGGERS(s_src);
+//  while (t_src)
+//  {
+//    CREATE(t_dst, trig_data, 1);
+//    if (!TRIGGERS(s_dst)) TRIGGERS(s_dst) = t_dst;
+//    trig_data_copy(t_dst, t_src);
+//    t_dst = t_dst->next;
+//    t_src = t_src->next;
+//  }
+//
+//}
 
 /* called when a mob or object is being saved to disk, so its script can */
 /* be saved */
@@ -101,7 +101,7 @@ void script_save_to_disk(FILE *fp, void *item, int type)
   else if (type==WLD_TRIGGER)
     t = ((struct room_data *)item)->proto_script;
   else {
-    log("SYSERR: Invalid type passed to script_save_mobobj_to_disk()");
+    log("SYSERR: Invalid type passed to script_save_to_disk()");
     return;
   }
 
@@ -794,22 +794,22 @@ int dg_script_edit_parse(struct descriptor_data *d, char *arg)
     case SCRIPT_MAIN_MENU:
       switch(tolower(*arg)) {
         case 'x':
-          if (OLC_ITEM_TYPE(d)==MOB_TRIGGER) {
-            trig = OLC_MOB(d)->proto_script;
-            OLC_MOB(d)->proto_script = OLC_SCRIPT(d);
-          } else if (OLC_ITEM_TYPE(d)==OBJ_TRIGGER) {
-            trig = OLC_OBJ(d)->proto_script;
-            OLC_OBJ(d)->proto_script = OLC_SCRIPT(d);
-          } else {
-            trig = OLC_ROOM(d)->proto_script;
-            OLC_ROOM(d)->proto_script = OLC_SCRIPT(d);
-          }
-
-          while (trig) {
-            currtrig = trig->next;
-            free(trig);
-            trig = currtrig;
-          }
+          /* This was buggy. First we created a copy of a thing, but maintained
+     * pointers to scripts, then if we altered the scripts, we freed the
+     * pointers and added new ones to the OLC_THING. If we then choose NOT
+     * to save the changes, the pointers in the original pointed to
+     * garbage. If we saved changes the pointers were updated correctly.
+     * Solution: Here we just point the working copies to the new
+     * proto_scripts. We only update the original when choosing to save
+     * internally, then free the unused memory there. -Welcor
+     * Thanks to Jeremy Stanley and Torgny Bjers for the bug report.
+     * After updating to OasisOLC 2.0.3 I discovered some malfunctions
+     * in this code, so I restructured it a bit. Now things work like
+     * this: OLC_SCRIPT(d) is assigned a copy of the edited things'
+     * proto_script. OLC_OBJ(d), etc.. are initalized with proto_script =
+     * NULL; On save, the saved copy is updated with OLC_SCRIPT(d) as new
+     * proto_script (freeing the old one). On quit/nosave, OLC_SCRIPT is
+     * free()'d, and the prototype not touched. */
           return 0;
         case 'n':
           send_to_char("\r\nPlease enter position, vnum   (ex: 1, 200):",

@@ -7,7 +7,7 @@
 
 
 /* prototype exported functions from dg_olc.c */
-void script_copy(void *dst, void *src, int type);
+//void script_copy(void *dst, void *src, int type);
 void script_save_to_disk(FILE *fp, void *item, int type);
 void dg_olc_script_free(struct descriptor_data *d);
 void dg_olc_script_copy(struct descriptor_data *d);

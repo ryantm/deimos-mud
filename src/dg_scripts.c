@@ -1098,7 +1098,7 @@ ACMD(do_detach)
     if (!SCRIPT(room))
       send_to_char("This room does not have any triggers.\r\n", ch);
     else if (!str_cmp(arg2, "all")) {
-      extract_script(SCRIPT(room));
+      extract_script(room, WLD_TRIGGER);
       SCRIPT(room) = NULL;
       send_to_char("All triggers removed from room.\r\n", ch);
     }
@@ -1106,7 +1106,7 @@ ACMD(do_detach)
     else if (remove_trigger(SCRIPT(room), arg2)) {
       send_to_char("Trigger removed.\r\n", ch);
       if (!TRIGGERS(SCRIPT(room))) {
-        extract_script(SCRIPT(room));
+        extract_script(room, WLD_TRIGGER);
         SCRIPT(room) = NULL;
       }
     } else
@@ -1151,7 +1151,7 @@ ACMD(do_detach)
       else if (!SCRIPT(victim))
         send_to_char("That mob doesn't have any triggers.\r\n", ch);
       else if (!str_cmp(arg2, "all")) {
-        extract_script(SCRIPT(victim));
+        extract_script(victim, MOB_TRIGGER);
         SCRIPT(victim) = NULL;
         sprintf(buf, "All triggers removed from %s.\r\n", GET_SHORT(victim));
         send_to_char(buf, ch);
@@ -1160,7 +1160,7 @@ ACMD(do_detach)
       else if (trigger && remove_trigger(SCRIPT(victim), trigger)) {
         send_to_char("Trigger removed.\r\n", ch);
         if (!TRIGGERS(SCRIPT(victim))) {
-          extract_script(SCRIPT(victim));
+          extract_script(victim, MOB_TRIGGER);
           SCRIPT(victim) = NULL;
         }
       } else
@@ -1172,7 +1172,7 @@ ACMD(do_detach)
         send_to_char("That object doesn't have any triggers.\r\n", ch);
         
       else if (!str_cmp(arg2, "all")) {
-        extract_script(SCRIPT(object));
+        extract_script(object, OBJ_TRIGGER);
         SCRIPT(object) = NULL;
         sprintf(buf, "All triggers removed from %s.\r\n",
                 object->short_description ? object->short_description :
@@ -1183,7 +1183,7 @@ ACMD(do_detach)
       else if (remove_trigger(SCRIPT(object), trigger)) {
         send_to_char("Trigger removed.\r\n", ch);
         if (!TRIGGERS(SCRIPT(object))) {
-          extract_script(SCRIPT(object));
+          extract_script(object, OBJ_TRIGGER);
           SCRIPT(object) = NULL;
         }
       } else
@@ -2651,7 +2651,7 @@ void process_detach(void *go, struct script_data *sc, trig_data *trig,
   if (c && SCRIPT(c)) {
     if (remove_trigger(SCRIPT(c), trignum_s)) {
       if (!TRIGGERS(SCRIPT(c))) {
-        extract_script(SCRIPT(c));
+        extract_script(c, MOB_TRIGGER);
         SCRIPT(c) = NULL;
       }
     }
@@ -2661,7 +2661,7 @@ void process_detach(void *go, struct script_data *sc, trig_data *trig,
   if (o && SCRIPT(o)) {
     if (remove_trigger(SCRIPT(o), trignum_s)) {
       if (!TRIGGERS(SCRIPT(o))) {
-        extract_script(SCRIPT(o));
+        extract_script(o, OBJ_TRIGGER);
         SCRIPT(o) = NULL;
       }
     }
@@ -2671,7 +2671,7 @@ void process_detach(void *go, struct script_data *sc, trig_data *trig,
   if (r && SCRIPT(r)) {
     if (remove_trigger(SCRIPT(r), trignum_s)) {
       if (!TRIGGERS(SCRIPT(r))) {
-        extract_script(SCRIPT(r));
+        extract_script(r, WLD_TRIGGER);
         SCRIPT(r) = NULL;
       }
     }

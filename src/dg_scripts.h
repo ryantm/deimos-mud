@@ -197,8 +197,10 @@ void dg_obj_trigger(char *line, struct obj_data *obj);
 void assign_triggers(void *i, int type);
 void parse_trigger(FILE *trig_f, int nr);
 int real_trigger(int vnum);
-void extract_script(struct script_data *sc);
+void extract_script(void *thing, int type);
 void extract_script_mem(struct script_memory *sc);
+void free_proto_script(void *thing, int type);
+void copy_proto_script(void *source, void *dest, int type);
 
 struct trig_data *read_trigger(int nr);
 void add_var(struct trig_var_data **var_list, char *name, char *value, long id);
@@ -209,6 +211,7 @@ void do_dg_affect(void *go, struct script_data *sc, struct trig_data *trig,
     int type, char *cmd);
 
 
+void free_varlist(struct trig_var_data *vd);
 
 
 /* Macros for scripts */

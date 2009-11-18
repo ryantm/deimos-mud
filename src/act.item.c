@@ -1003,8 +1003,8 @@ ACMD(do_drink)
 
   one_argument(argument, arg);
 
-  if (IS_NPC(ch))	/* Cannot use GET_COND() on mobs. */
-    return;
+//  if (IS_NPC(ch))	/* Cannot use GET_COND() on mobs. */
+//    return;
 
   if (!*arg) {
     send_to_char("Drink from what?\r\n", ch);
@@ -1026,13 +1026,13 @@ ACMD(do_drink)
     send_to_char("You have to be holding that to drink from it.\r\n", ch);
     return;
   }
-  if ((GET_COND(ch, DRUNK) > 10) && (GET_COND(ch, THIRST) > 0)) {
+  if (!IS_NPC(ch) && (GET_COND(ch, DRUNK) > 10) && (GET_COND(ch, THIRST) > 0)) {
     /* The pig is drunk */
     send_to_char("You can't seem to get close enough to your mouth.\r\n", ch);
     act("$n tries to drink but misses $s mouth!", TRUE, ch, 0, 0, TO_ROOM);
     return;
   }
-  if ((GET_COND(ch, FULL) > 20) && (GET_COND(ch, THIRST) > 0)) {
+  if (!IS_NPC(ch) && (GET_COND(ch, FULL) > 20) && (GET_COND(ch, THIRST) > 0)) {
     send_to_char("Your stomach can't contain anymore!\r\n", ch);
     return;
   }
@@ -1047,7 +1047,7 @@ ACMD(do_drink)
     sprintf(buf, "You drink the %s.\r\n", drinks[GET_OBJ_VAL(temp, 2)]);
     send_to_char(buf, ch);
 
-    if (drink_aff[GET_OBJ_VAL(temp, 2)][DRUNK] > 0)
+    if (!IS_NPC(ch) && drink_aff[GET_OBJ_VAL(temp, 2)][DRUNK] > 0)
       amount = (25 - GET_COND(ch, THIRST)) / drink_aff[GET_OBJ_VAL(temp, 2)][DRUNK];
     else
       amount = number(3, 10);
@@ -1066,23 +1066,25 @@ ACMD(do_drink)
 
   weight_change_object(temp, -weight);	/* Subtract amount */
 
-  gain_condition(ch, DRUNK,
-	 (int) ((int) drink_aff[GET_OBJ_VAL(temp, 2)][DRUNK] * amount) / 4);
+  if (!IS_NPC(ch)) {
+    gain_condition(ch, DRUNK,
+     (int) ((int) drink_aff[GET_OBJ_VAL(temp, 2)][DRUNK] * amount) / 4);
 
-  gain_condition(ch, FULL,
-	  (int) ((int) drink_aff[GET_OBJ_VAL(temp, 2)][FULL] * amount) / 4);
+    gain_condition(ch, FULL,
+      (int) ((int) drink_aff[GET_OBJ_VAL(temp, 2)][FULL] * amount) / 4);
 
-  gain_condition(ch, THIRST,
-	(int) ((int) drink_aff[GET_OBJ_VAL(temp, 2)][THIRST] * amount) / 4);
+    gain_condition(ch, THIRST,
+    (int) ((int) drink_aff[GET_OBJ_VAL(temp, 2)][THIRST] * amount) / 4);
 
-  if (GET_COND(ch, DRUNK) > 10)
-    send_to_char("You feel drunk.\r\n", ch);
+    if (GET_COND(ch, DRUNK) > 10)
+      send_to_char("You feel drunk.\r\n", ch);
 
-  if (GET_COND(ch, THIRST) > 20)
-    send_to_char("You don't feel thirsty any more.\r\n", ch);
+    if (GET_COND(ch, THIRST) > 20)
+      send_to_char("You don't feel thirsty any more.\r\n", ch);
 
-  if (GET_COND(ch, FULL) > 20)
-    send_to_char("You are full.\r\n", ch);
+    if (GET_COND(ch, FULL) > 20)
+      send_to_char("You are full.\r\n", ch);
+  }
 
   if (GET_OBJ_VAL(temp, 3)) {	/* The shit was poisoned ! */
     send_to_char("Hm...it tasted rather strange...\r\n", ch);
@@ -1115,8 +1117,8 @@ ACMD(do_eat)
 
   one_argument(argument, arg);
 
-  if (IS_NPC(ch))	/* Cannot use GET_COND() on mobs. */
-    return;
+//  if (IS_NPC(ch))	/* Cannot use GET_COND() on mobs. */
+//    return;
 
   if (!*arg) {
     send_to_char("Eat what?\r\n", ch);
@@ -1136,7 +1138,7 @@ ACMD(do_eat)
     send_to_char("You can't eat THAT!\r\n", ch);
     return;
   }
-  if (GET_COND(ch, FULL) > 20) {/* Stomach full */
+  if (!IS_NPC(ch) && GET_COND(ch, FULL) > 20) {/* Stomach full */
     send_to_char("You are too full to eat more!\r\n", ch);
     return;
   }
@@ -1150,10 +1152,12 @@ ACMD(do_eat)
 
   amount = (subcmd == SCMD_EAT ? GET_OBJ_VAL(food, 0) : 1);
 
-  gain_condition(ch, FULL, amount);
+  if (!IS_NPC(ch)) {
+    gain_condition(ch, FULL, amount);
 
-  if (GET_COND(ch, FULL) > 20)
-    send_to_char("You are full.\r\n", ch);
+    if (GET_COND(ch, FULL) > 20)
+      send_to_char("You are full.\r\n", ch);
+  }
 
   if (GET_OBJ_VAL(food, 3) && (GET_LEVEL(ch) < LVL_IMMORT)) {
     /* The shit was poisoned ! */

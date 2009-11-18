@@ -56,7 +56,7 @@ int add_mobile(struct char_data *mob, mob_vnum vnum)
 
     add_to_save_list(zone_table[real_zone_by_thing(vnum)].number, SL_MOB);
     log("GenOLC: add_mobile: Updated existing mobile #%d.", vnum);
-    return TRUE;
+    return rnum;
   }
 
   RECREATE(mob_proto, struct char_data, top_of_mobt + 2);
@@ -251,9 +251,11 @@ int free_mobile(struct char_data *mob)
   /*
    * Non-prototyped mobile.  Also known as new mobiles.
    */
-  if ((i = GET_MOB_RNUM(mob)) == NOBODY)
+  if ((i = GET_MOB_RNUM(mob)) == NOBODY) {
     free_mobile_strings(mob);
-  else {	/* Prototyped mobile. */
+    /* free script proto list */
+    free_proto_script(mob, MOB_TRIGGER);
+  } else {	/* Prototyped mobile. */
     if (mob->player.name && mob->player.name != mob_proto[i].player.name)
       free(mob->player.name);
     if (mob->player.title && mob->player.title != mob_proto[i].player.title)
@@ -264,9 +266,16 @@ int free_mobile(struct char_data *mob)
       free(mob->player.long_descr);
     if (mob->player.description && mob->player.description != mob_proto[i].player.description)
       free(mob->player.description);
+    /* free script proto list if it's not the prototype */
+    if (mob->proto_script && mob->proto_script != mob_proto[i].proto_script)
+      free_proto_script(mob, MOB_TRIGGER);
   }
   while (mob->affected)
     affect_remove(mob, mob->affected);
+
+  /* free any assigned scripts */
+  if (SCRIPT(mob))
+    extract_script(mob, MOB_TRIGGER);
 
   free(mob);
   return TRUE;
