@@ -3467,7 +3467,7 @@ void free_char(struct char_data * ch)
       free(ch->player_specials->poofout);
     if(ch->player_specials->host)
       free(ch->player_specials->host);
-    free(ch->player_specials);
+
     if (IS_NPC(ch))
       log("SYSERR: Mob %s (#%d) had player_specials allocated!", GET_NAME(ch), GET_MOB_VNUM(ch));
   }
