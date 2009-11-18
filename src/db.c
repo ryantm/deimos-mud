@@ -187,6 +187,8 @@ void powerup_mobile(struct char_data *mob, int level);
 void give_chunks_to_mobile(struct char_data *mob);
 void mob_defaults(struct char_data *mob, int level);
 
+void init_boards(void);
+
 /* external vars */
 extern int no_specials;
 extern int scheck;
@@ -281,6 +283,7 @@ ACMD(do_reboot)
     file_to_string_alloc(HAPPY_FILE, &happytimes);
     file_to_string_alloc(GM_FILE, &gms);
     load_messages();
+    init_boards();
   } else if (!str_cmp(arg, "wizlist"))
     file_to_string_alloc(WIZLIST_FILE, &wizlist);
   else if (!str_cmp(arg, "immlist"))
@@ -351,7 +354,9 @@ ACMD(do_reboot)
     }
     top_of_questions = 0;
     index_boot(DB_BOOT_HLP);
-  } else {
+  } else if (!str_cmp(arg, "boards"))
+    init_boards();
+  else {
     send_to_char("Unknown reload option.\r\n", ch);
     return;
   }

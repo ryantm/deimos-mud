@@ -6469,30 +6469,34 @@ ACMD(do_happytimes)
 {
   time_t rawtime;
   struct tm * mytm;
-  int mytime, happystart1, happyend1, happystart2, happyend2, happystart3, happyend3, happystart4, happyend4, happystart5, happyend5, happystart6, happyend6, happystart7, happyend7;
-
+  int mytime, happystart[7], happyend[7], i;
+  const char * wkdays[] = {"Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"};
 
   time(&rawtime);
   mytm = localtime(&rawtime);
   mytime = mytm->tm_wday * 10000 + mytm->tm_hour * 100 + mytm->tm_min;
 
   sscanf(happytimes, "%d\n%d\n%d\n%d\n%d\n%d\n%d\n%d\n%d\n%d\n%d\n%d\n%d\n%d",
-		&happystart1, &happyend1, &happystart2, &happyend2,
-		&happystart3, &happyend3, &happystart4, &happyend4,
-		&happystart5, &happyend5, &happystart6, &happyend6,
-		&happystart7, &happyend7);
+		&happystart[0], &happyend[0],
+		&happystart[1], &happyend[1],
+		&happystart[2], &happyend[2],
+		&happystart[3], &happyend[3],
+		&happystart[4], &happyend[4],
+		&happystart[5], &happyend[5],
+		&happystart[6], &happyend[6]);
 
- sprintf(buf,               "1. %d to %d\r\n", happystart1, happyend1);
- sprintf(buf + strlen(buf), "2. %d to %d\r\n", happystart2, happyend2);
- sprintf(buf + strlen(buf), "3. %d to %d\r\n", happystart3, happyend3);
- sprintf(buf + strlen(buf), "4. %d to %d\r\n", happystart4, happyend4);
- sprintf(buf + strlen(buf), "5. %d to %d\r\n", happystart5, happyend5);
- sprintf(buf + strlen(buf), "6. %d to %d\r\n", happystart6, happyend6);
- sprintf(buf + strlen(buf), "7. %d to %d\r\n", happystart7, happyend7);
- sprintf(buf + strlen(buf), "Currently: %d\r\n", mytime);
-    send_to_char(buf, ch);
+  sprintf(buf, "== Happy Hour Times ==\r\n");
 
-
+  for (i = 0; i < 7; i++) {
+    sprintf(buf + strlen(buf), "%d. %s %.2d:%.2d to %s %.2d:%.2d\r\n", 
+      i + 1,
+      wkdays[happystart[i] / 10000],
+      (happystart[i] % 10000) / 100, happystart[i] % 100,
+      wkdays[happystart[i] / 10000],
+      (happyend[i] % 10000) / 100, happyend[i] % 100);
+  }
+  sprintf(buf + strlen(buf), "\r\n");
+  send_to_char(buf, ch);
 
   do_date(ch, "", 0, 0); 
 }
