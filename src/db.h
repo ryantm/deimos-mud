@@ -171,6 +171,8 @@ obj_rnum real_object(obj_vnum vnum);
 struct obj_data *read_object(obj_vnum nr, int type);
 int	vnum_object(char *searchname, struct char_data *ch);
 int	vnum_weapon(int attacktype, struct char_data *ch);
+int vnum_room(char *, struct char_data *);
+int vnum_trig(char *, struct char_data *);
 int 	my_obj_save_to_disk(FILE *fp, struct obj_data *obj, int locate);
 
 

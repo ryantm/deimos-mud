@@ -590,8 +590,9 @@ ACMD(do_vnum)
 {
   half_chop(argument, buf, buf2);
 
-  if (!*buf || !*buf2 || (!is_abbrev(buf, "mob") && !is_abbrev(buf, "obj") && !is_abbrev(buf, "weapon"))) {
-    send_to_char("Usage: vnum { obj | mob | weapon } <name | attack-type>\r\n", ch);
+  if (!*buf || !*buf2 || (!is_abbrev(buf, "mob") && !is_abbrev(buf, "obj") && !is_abbrev(buf, "room") && !is_abbrev(buf, "trig") && !is_abbrev(buf, "weapon"))) {
+    send_to_char("Usage: vnum { obj | mob | room | trig } <name>\r\n", ch);
+    send_to_char("       vnum weapon <attack-type>\r\n", ch);
     return;
   }
   if (is_abbrev(buf, "mob"))
@@ -602,7 +603,14 @@ ACMD(do_vnum)
     if (!vnum_object(buf2, ch))
       send_to_char("No objects by that name.\r\n", ch);
 
-  
+   if (is_abbrev(buf, "room"))
+    if (!vnum_room(buf2, ch))
+      send_to_char("No rooms by that name.\r\n", ch);
+
+  if (is_abbrev(buf, "trig"))
+    if (!vnum_trig(buf2, ch))
+      send_to_char("No triggers by that name.\r\n", ch);
+ 
   if (is_abbrev(buf, "weapon"))
     if (!vnum_weapon(find_attack_type(buf2), ch))
       send_to_char("No weapons with that attack-type.\r\n", ch);
