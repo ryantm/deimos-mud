@@ -1301,7 +1301,7 @@ void do_stat_character(struct char_data * ch, struct char_data * k)
 	  CCGRN(ch, C_NRM), GET_MOVE(k), GET_MAX_MOVE(k), move_gain(k), CCNRM(ch, C_NRM));
   send_to_char(buf, ch);
 
-  if (IS_NPC(k)) {
+  if (IS_NPC(k) && !MOB_FLAGGED(k, MOB_EDIT)) {
     sprintf(buf, "Coins: [%9d], Bank: [%9d] (Total: %d)\r\n",
 	    GET_GOLD(k) / 10, GET_BANK_GOLD(k) / 10, (GET_GOLD(k) + GET_BANK_GOLD(k)) / 10);
     send_to_char(buf, ch);
