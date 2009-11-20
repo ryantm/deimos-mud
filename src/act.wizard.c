@@ -1240,7 +1240,7 @@ void do_stat_character(struct char_data * ch, struct char_data * k)
    if (!MOB_FLAGGED(k, MOB_EDIT)) {
   sprintf(buf2, ", Lev: [%s%2d%s]\r\nXP: [%s%7d%s], Align: [%4d]\r\n",
 	  CCYEL(ch, C_NRM), GET_LEVEL(k), CCNRM(ch, C_NRM),
-	  CCYEL(ch, C_NRM), (GET_LEVEL(k) * GET_LEVEL(k) * 1000), CCNRM(ch, C_NRM),
+	  CCYEL(ch, C_NRM), (GET_LEVEL(k) * GET_LEVEL(k) * 100), CCNRM(ch, C_NRM),
 	  GET_ALIGNMENT(k));
   strcat(buf, buf2);
   send_to_char(buf, ch);
@@ -1301,10 +1301,15 @@ void do_stat_character(struct char_data * ch, struct char_data * k)
 	  CCGRN(ch, C_NRM), GET_MOVE(k), GET_MAX_MOVE(k), move_gain(k), CCNRM(ch, C_NRM));
   send_to_char(buf, ch);
 
-  sprintf(buf, "Coins: [%9d], Bank: [%9d] (Total: %d)\r\n",
-	  GET_GOLD(k), GET_BANK_GOLD(k), GET_GOLD(k) + GET_BANK_GOLD(k));
-  send_to_char(buf, ch);
-
+  if (IS_NPC(k)) {
+    sprintf(buf, "Coins: [%9d], Bank: [%9d] (Total: %d)\r\n",
+	    GET_GOLD(k) / 10, GET_BANK_GOLD(k) / 10, (GET_GOLD(k) + GET_BANK_GOLD(k)) / 10);
+    send_to_char(buf, ch);
+  } else {
+    sprintf(buf, "Coins: [%9d], Bank: [%9d] (Total: %d)\r\n",
+	    GET_GOLD(k), GET_BANK_GOLD(k), GET_GOLD(k) + GET_BANK_GOLD(k));
+    send_to_char(buf, ch);
+  }
   if (IS_NPC(k) && !MOB_FLAGGED(k, MOB_EDIT)) {
   sprintf(buf, "AC: [%d], Hitroll: [%2d], Damroll: [%2d], Saving throws: [%d/%d/%d/%d/%d]\r\n",
 	  GET_AC(k), (GET_LEVEL(k) / 2 + 10),
