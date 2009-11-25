@@ -367,7 +367,8 @@ void oedit_disp_val1_menu(struct descriptor_data *d)
     /*
      * This doesn't seem to be used if I remembe right.
      */
-    SEND_TO_Q("Modifier to Hitroll : ", d);
+    oedit_disp_val2_menu(d);
+    //SEND_TO_Q("Modifier to Hitroll : ", d);
     break;
   case ITEM_ARMOR:
     SEND_TO_Q("Apply to AC : ", d);
@@ -389,6 +390,7 @@ void oedit_disp_val1_menu(struct descriptor_data *d)
     /*
      * This is supposed to be language, but it's unused.
      */
+    oedit_disp_menu(d);
     break;
   case ITEM_PORTAL:
     SEND_TO_Q("Room VNUM to portal to: ", d);

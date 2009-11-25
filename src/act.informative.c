@@ -310,7 +310,7 @@ void diag_char_to_char(struct char_data * i, struct char_data * ch)
   int percent;
 
   if (GET_MAX_HIT(i) > 0)
-    percent = (100 * GET_HIT(i)) / GET_MAX_HIT(i);
+    percent = 100 * ((double)GET_HIT(i) / GET_MAX_HIT(i));
   else
     percent = -1;		/* How could MAX_HIT be < 1?? */
 
