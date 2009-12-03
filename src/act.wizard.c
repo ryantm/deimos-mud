@@ -6490,10 +6490,10 @@ ACMD(do_happytimes)
 		&happystart[5], &happyend[5],
 		&happystart[6], &happyend[6]);
 
-  sprintf(buf, "== Happy Hour Times ==\r\n");
+  sprintf(buf, "=== Happy Hour Times ===\r\n");
 
   for (i = 0; i < 7; i++) {
-    sprintf(buf + strlen(buf), "%d. %s %.2d:%.2d to %s %.2d:%.2d\r\n", 
+    sprintf(buf + strlen(buf), "%d. %s %.2d:%.2d - %s %.2d:%.2d\r\n", 
       i + 1,
       wkdays[happystart[i] / 10000],
       (happystart[i] % 10000) / 100, happystart[i] % 100,
