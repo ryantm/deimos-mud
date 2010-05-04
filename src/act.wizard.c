@@ -4676,7 +4676,7 @@ ACMD(do_roomlink)         /* Shows all exits to a given room */
         send_to_char("There is no exit in that direction!", ch);
         return;
       }
-      if (exit2)
+      if (exit2 && exit2->to_room == ch->in_room)
       {
         if (exit2->general_description)
           free(exit2->general_description);
