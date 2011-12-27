@@ -81,14 +81,14 @@ int MAX(int a, int b)
 
 char *CAP(char *txt)
 {
-  char *tmp = txt;
+  char *p = txt;
 
   /* skip color codes */
-  while ((*tmp == '&') && (*(tmp + 1) != '\0')
-   && (is_colours(*(tmp + 1)) != -1) && (*(tmp + 2) != '\0'))
-    tmp += 2;
+  while ((*p == '&') && *(p + 1) && (is_colours(*(p + 1)) != -1)) 
+    p += 2;
 
-  *tmp = UPPER(*tmp);
+  if (*p)
+    *p = UPPER(*p);
   return (txt);
 }
 
