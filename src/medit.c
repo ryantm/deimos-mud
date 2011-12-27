@@ -1135,8 +1135,10 @@ void mob_defaults(struct char_data *mob, int level)
   GET_MOVE(mob) = GET_MAX_MOVE(mob);
   GET_MANA(mob) = GET_MAX_MANA(mob);
   
+  /*
   GET_DEFAULT_POS(mob) = POS_STANDING;
   GET_POS(mob) = POS_STANDING;
+  */
 }
 
 void give_chunks_to_mobile(struct char_data *mob)

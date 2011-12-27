@@ -40,7 +40,6 @@ int can_edit_zone(struct char_data *ch, int number);
 #define NUM_ITEM_WEARS 		15
 #define NUM_APPLIES		25
 #define NUM_LIQ_TYPES 		16
-#define NUM_POSITIONS		15
 #define NUM_SPELLS		TOP_OF_SPELLS
 
 #define NUM_GENDERS		3

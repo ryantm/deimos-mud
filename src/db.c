@@ -1259,8 +1259,8 @@ void parse_simple_mob(FILE *mob_f, int i, int nr)
     exit(1);
   }
 
-  mob_proto[i].char_specials.position = t[0];
-  mob_proto[i].mob_specials.default_pos = t[1];
+  mob_proto[i].char_specials.position = LIMIT(t[0], 0, NUM_POSITIONS - 1);
+  mob_proto[i].mob_specials.default_pos = LIMIT(t[1], 0, NUM_POSITIONS - 1);
   mob_proto[i].player.sex = t[2];
 
   mob_proto[i].player.chclass = 0;

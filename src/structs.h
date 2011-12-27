@@ -175,6 +175,8 @@
 #define POS_SITTING     6	/* sitting		*/
 #define POS_FIGHTING    7	/* fighting		*/
 #define POS_STANDING    8	/* standing		*/
+/** Total number of positions. */
+#define NUM_POSITIONS		9
 
 /* Player flags: used by char_data.char_specials.act */
 #define PLR_KILLER	(1 << 0)   /* Player is a player-killer		*/
