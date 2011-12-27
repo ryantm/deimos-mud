@@ -548,28 +548,26 @@ void list_all_char(struct char_data * i, struct char_data * ch, int num)
     " is standing here."
   };
 
+  if (!IS_NPC(ch) && PRF_FLAGGED(ch, PRF_ROOMFLAGS) && IS_NPC(i)) {
+    sprintf(buf,"&w[%d]&n ", GET_MOB_VNUM(i));
+    if SCRIPT(i) {
+      if (!TRIGGERS(SCRIPT(i))->next) {
+        sprintf(buf, "%s[T%d] ", buf, GET_TRIG_VNUM(TRIGGERS(SCRIPT(i))));
+      } else
+        strcat(buf, "[TRIGS] ");
+    }
+  } else
+    *buf = '\0';
+
   if (IS_NPC(i) && i->player.long_descr && GET_POS(i) == GET_DEFAULT_POS(i)) {
     if (AFF_FLAGGED(i, AFF_INVISIBLE))
-      strcpy(buf, "*");
-    else
-      *buf = '\0';
-
-    if (!IS_NPC(ch) && PRF_FLAGGED(ch, PRF_ROOMFLAGS)) {
-      sprintf(buf,"%s&w[%d]&n ",buf,GET_MOB_VNUM(i));
-      if SCRIPT(i) {
-        if (!TRIGGERS(SCRIPT(i))->next) {
-          sprintf(buf2, "[T%d] ", GET_TRIG_VNUM(TRIGGERS(SCRIPT(i))));
-          strcat(buf, buf2);
-        } else
-          strcat(buf, "[TRIGS] ");
-      }
-    }
+      strcat(buf, "*");
 
     if (AFF_FLAGGED(ch, AFF_DETECT_ALIGN)) {
       if (IS_EVIL(i))
-	strcat(buf, "&R(Red Aura)&n ");
+        strcat(buf, "&R(Red Aura)&n ");
       else if (IS_GOOD(i))
-	strcat(buf, "&B(Blue Aura)&n ");
+        strcat(buf, "&B(Blue Aura)&n ");
     }
     strcat(buf, i->player.long_descr);
       if (num > 1)
@@ -591,13 +589,11 @@ void list_all_char(struct char_data * i, struct char_data * ch, int num)
 
     return;
   }
-  if (!IS_NPC(ch) && PRF_FLAGGED(ch, PRF_ROOMFLAGS)) {
-     sprintf(buf,"&w[%d]&n ", GET_MOB_VNUM(i));
-    } else strcpy(buf,"\0");
 
   if (IS_NPC(i)) {
-    strcpy(buf, i->player.short_descr);
-    CAP(buf);
+    char *sd = buf + strlen(buf);
+    strcat(buf, i->player.short_descr);
+    CAP(sd);
   } else
       sprintf(buf, "&n%s%s", GET_PRETITLE(i), i->player.name);
       if (GET_LNAME(i) != NULL && strlen(GET_LNAME(i)) > 0)
