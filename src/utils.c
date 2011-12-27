@@ -27,7 +27,7 @@ extern struct time_data time_info;
 extern struct room_data *world;
 extern int pk_allowed;
 extern struct help_index_element *find_help(char *keyword);
-
+extern int is_colours(char code);
 
 /* local functions */
 struct time_info_data *real_time_passed(time_t t2, time_t t1);
@@ -81,7 +81,14 @@ int MAX(int a, int b)
 
 char *CAP(char *txt)
 {
-  *txt = UPPER(*txt);
+  char *tmp = txt;
+
+  /* skip color codes */
+  while ((*tmp == '&') && (*(tmp + 1) != '\0')
+   && (is_colours(*(tmp + 1)) != -1) && (*(tmp + 2) != '\0'))
+    tmp += 2;
+
+  *tmp = UPPER(*tmp);
   return (txt);
 }
 
