@@ -42,7 +42,7 @@ extern struct zone_data *zone_table;
 extern struct spell_info_type spell_info[];
 extern time_t LAST_ECON_RESET;
 extern time_t boot_time;
-
+extern struct index_data **trig_index;
 
 extern char *credits;
 extern char *news;
@@ -555,7 +555,14 @@ void list_all_char(struct char_data * i, struct char_data * ch, int num)
       *buf = '\0';
 
     if (!IS_NPC(ch) && PRF_FLAGGED(ch, PRF_ROOMFLAGS)) {
-     sprintf(buf,"%s&w[%d]&n ",buf,GET_MOB_VNUM(i));
+      sprintf(buf,"%s&w[%d]&n ",buf,GET_MOB_VNUM(i));
+      if SCRIPT(i) {
+        if (!TRIGGERS(SCRIPT(i))->next) {
+          sprintf(buf2, "[T%d] ", GET_TRIG_VNUM(TRIGGERS(SCRIPT(i))));
+          strcat(buf, buf2);
+        } else
+          strcat(buf, "[TRIGS] ");
+      }
     }
 
     if (AFF_FLAGGED(ch, AFF_DETECT_ALIGN)) {
