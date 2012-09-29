@@ -1,0 +1,11 @@
+LIBDIR=/home/dm/dm/lib
+BACKUPDIR=${LIBDIR}/archive
+FILENAME=${BACKUPDIR}/pbackup-`date +'%Y-%m-%d-%H'`.tar.bz2
+
+mkdir -p ${BACKUPDIR}
+cd ${LIBDIR}
+tar -cjf ${FILENAME} pfiles/ plrobjs/ plralias/ plrimc/ plrvars/
+
+cd /home/dm/dm/lib/world
+/home/dm/bin/git add .
+/home/dm/bin/git commit -a -q -m "daily backup `date +'%Y-%m-%d-%H'`" > /dev/null
