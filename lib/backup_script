@@ -7,5 +7,5 @@ cd ${LIBDIR}
 tar -cjf ${FILENAME} pfiles/ plrobjs/ plralias/ plrimc/ plrvars/
 
 cd /home/dm/dm/lib/world
-/home/dm/bin/git add .
-/home/dm/bin/git commit -a -q -m "daily backup `date +'%Y-%m-%d-%H'`" > /dev/null
+git add .
+git commit -a -q -m "daily backup `date +'%Y-%m-%d-%H'`" > /dev/null
