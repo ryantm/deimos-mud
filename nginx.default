@@ -1,0 +1,5 @@
+erver {
+        listen   80;
+        server_name 0.0.0.0;
+        root /home/dm/website/;
+}
