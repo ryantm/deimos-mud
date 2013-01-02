@@ -1,0 +1,173 @@
+E-Enhancement
+F-Bug Fix
+
+22 Jul 2008
+* E adds olevel <level> a command for listing all objects with a certain level
+
+16 Jan 2008
+* F deaths caused by %damage% no longer wipe exp on death, and advance through stages of death properly
+
+15 Jan 2008
+* E Added %zoneecho% for mobs/objs/rooms
+
+9 Jan 2008
+* F socials targeting body parts or objects now work over gemote
+
+8 Jan 2008
+* E DG script var substitution supports nesting and chaining e.g. %actor.varexists(%varname%), %self.room.name%
+* F char vars now save to file and load from file
+* F aliases are now saved on quit
+
+6 Jan 2008
+* E Added aedit
+* E %char.heshe%, himher, hisher now work in DG scripts
+* E Imms in edit now show up on wholist as (editing)
+* F Backstabs can no longer miss and hurt yourself after your target is dead
+* F 'blindness' reduces armor properly instead of adding
+* F negative amounts now work in odamage & wdamage
+
+5 Jan 2008
+* E New players get a map of Phobos
+* E Pagination length has been increased from 20 to 40
+* E 'identify' spell shows weapon attack types and armor wear spots
+* E Imm `load` now loads objects into inventory
+* E Imms can specify a count of objs/mobs to `load`
+* F Combat has been slightly improved. Still needs work.
+
+4 Jan 2008
+* E Removed mail checking every tick
+* E Added `check` to check if you have mail anywhere
+* E Armor now is intuitive [0,200] 200 is the best armor you can have
+* E Consider now takes into account your damage reduction spells.
+* F Imms can now `dc` and `force` their level
+* F Lowered damage applies for exceptionally high strengths
+* F Increased carry weight applies for exceptionally high strengths
+* F removed superfluous help file decorations
+* F EDIT mobiles no longer have zero hp
+* F Mobiles below level 15 are not randomized, or powered up
+* F Manashield is no longer dependent on your opponents manashield skill
+
+3 Jan 2008
+* E random mob difficulties +/- 3 levels (if a mob pops with eq he is harder + 4 levels)
+* E Make chunks pop randomly on Mob spawn not death
+* F prompt all, color complete for new chars
+* F hide output of autos for new chars
+
+2 Jan 2008
+* E Made `recall` work for all levels (now costs mana and movement)
+* E death now results in losing all experience points
+* E Removed 'word of recall' spell
+* E Assassinations are now restricted by default
+* E Removed Anonymous
+* E Removed "GJob:" from gwho
+* E Removed Clan, Relationship, Various Ranks
+* E Removed Stat Loss on Death
+* F Fixed typo with tether (flys -> flies)
+* F Removed the Blink tag
+
+===========================================================================================
+
+27 Dec 2007
+* E Reduced gold required to level by 4%
+
+25 Dec 2007
+* F mudmail fixed
+* F extra spaces no longer appear between names and titles
+
+23 Dec 2007
+* E r/m/odelete added to game
+* F removed firefighting from the game to prevent crashing
+* F recall room doesn't get screwed up by rdelete
+
+13 Dec 2007
+* E %char.is_pc% now works in DG scripts
+
+12 Dec 2007
+* F See Inventory works more sensibly now for immortals.
+
+10 Dec 2007
+* F Razor removal at happy hour end no longer crashes mud
+
+09 Dec 2007
+* E mdamage (%damage% in mob triggers) now works in DG scripts
+
+06 Dec 2007
+* F Bandage no longer lets movement become negative
+
+05 Dec 2007
+* E Added `pop` an immortal command for figuring out where objs and mobs pop
+
+04 Dec 2007
+* E %char.inventory% now works in DG scripts
+
+02 Dec 2007
+* E Added slot machine spec proc
+
+01 Dec 2007
+* E Builder port works now
+* E copyover can now take handle different lib directories
+* E levels command looks nicer and shows total exp/gold required too
+* F zreset no longer an destroy container contents
+* F gtitle has been temporarily removed as a command due to its instability
+* F Aliases has been renamed to Keywords in OLC to remove confusion
+* F Rewardall no longer rewards one object to Null
+* F Deathtoall does not crash
+* F Broken NextLevel removed from scoresheet
+* F Some memory leaks associated with level helpers fixed
+
+27 Nov 2007
+* E It is now possible to tell yourself something
+* F Cleric guild spec proc restored
+
+26 Nov 2007
+* E Backstab fails less often
+* E Backstab does half as much damage on failure
+* F Backstab failure message is more clear
+* F Tracking doesn't work while sleeping
+* F IMPs combine message has been removed due to spamminess
+
+25 Nov 2007
+* F Wiseman now identifies objects for you again. Use `whatis`
+
+24 Nov 2007
+* E Hunger and Thirst have been removed from the game
+* F Mobs now do one less attack (broken from 23 Nov 2007)
+
+23 Nov 2007
+* E Soundproof rooms have been abolished
+* E Levels command has been revamped
+* E Multiclassing messages have been improved
+* E Track speed has been increased
+* E Track can now be practiced to level 10 for prime thieves
+* E Failing backstab now sometimes causes you to lose hp
+* F Various multiclassing related bugs
+* F Make process no longer overwrites live binary
+* F Failing bandage now results in 1 round lag
+* F Track now works as expected
+* F Backstab does not fail silently now.
+
+17 Nov 2007
+* E `look plaque` in GM room works desireably.
+* F fixed a bug with zreset crashing (similiar to goldchip bug)
+
+14 Nov 2007
+* E Unsaved is now an alias for OLC
+* E gms now displays the gmlist
+* E gmlist is updated automatically
+* F New players no longer get stuck in menu
+* F It is no longer possible to get 0 stats at start
+
+13 Nov 2007
+* E Made it possible to receive tells while AFK.
+
+28 Oct 2007
+* F Goldchip fixed for real
+* F Removed assemblies that were generating syserrors
+* F Fixed some objects that were generating syserrors
+* E forge is now an alias for assemble
+
+27 Oct 2007
+* F Goldchip works again
+* E motd does not display on login, only if you type motd
+* E small changes to startup graphics
+* E friendlier message for improper command to old wise man

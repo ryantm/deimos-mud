@@ -1,0 +1,11 @@
+body {
+  margin: 20px;
+  font-family: Verdana; }
+
+p, ul {
+  line-height: 140%;
+  
+  width: 40em; }
+
+img {
+  border: none; }
