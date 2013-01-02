@@ -310,10 +310,12 @@ char *fread_action(FILE * fl, int nr)
 
 void boot_social_messages(void)
 {
+  return;
   FILE *fl;
   int nr = 0, hide, min_char_pos, min_pos, min_lvl, curr_soc = -1;
   char next_soc[MAX_STRING_LENGTH], sorted[MAX_INPUT_LENGTH];
 
+  log ("SYSINFO: opening social_file '%s'", SOCMESS_FILE);
   /* open social file */
   if (!(fl = fopen(SOCMESS_FILE, "r"))) {
     log("SYSERR: can't open socials file '%s': %s", SOCMESS_FILE, strerror(errno));
